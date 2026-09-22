@@ -1,0 +1,1947 @@
+[
+  {
+    "id": "ex-shanghai-era",
+    "cityId": "shanghai",
+    "kind": "experience",
+    "name": "ERA 时空之旅 2",
+    "provider": "上海马戏城",
+    "address": "静安区共和新路2266号",
+    "lat": 31.2807,
+    "lng": 121.4528,
+    "durationMinutes": 120,
+    "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+    "bookingUrl": "https://www.era-shanghai.com/",
+    "checkedAt": "2026-09-22",
+    "tagline": "在杂技、舞台与多媒体之间，看一场属于上海的夜晚。",
+    "description": "在杂技、舞台与多媒体之间，看一场属于上海的夜晚。",
+    "features": [
+      "杂技艺术",
+      "夜间演出",
+      "分区座席"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "普通看台座位",
+        "description": "普通看台座位",
+        "low": 280,
+        "high": 480,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "指定区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "较优视野座位",
+        "description": "较优视野座位",
+        "low": 580,
+        "high": 880,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "较优区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:30"
+  },
+  {
+    "id": "ex-beijing-hutong-breakfast",
+    "cityId": "beijing",
+    "kind": "experience",
+    "name": "胡同早餐寻味步行",
+    "provider": "Lost Plate",
+    "address": "鼓楼周边；精确集合点见预订确认",
+    "lat": 39.9412,
+    "lng": 116.3969,
+    "durationMinutes": 180,
+    "sourceUrl": "https://lostplate.com/beijing-food-tours/",
+    "bookingUrl": "https://lostplate.com/beijing-food-tours/",
+    "checkedAt": "2026-09-22",
+    "tagline": "跟着本地向导穿过胡同，把一顿早餐变成认识北京的方式。",
+    "description": "跟着本地向导穿过胡同，把一顿早餐变成认识北京的方式。",
+    "features": [
+      "胡同生活",
+      "地方早餐",
+      "小团步行"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "官网列9:00出发、约3小时；集合位置和饮食限制预订时确认。",
+    "priceOptions": [
+      {
+        "id": "breakfast",
+        "name": "早餐小团步行",
+        "description": "早餐小团步行",
+        "low": 39,
+        "high": 39,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://lostplate.com/beijing-food-tours/",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "早餐食物与饮品",
+          "当地向导"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "breakfast"
+        ]
+      }
+    ],
+    "preferredStartTime": "09:00"
+  },
+  {
+    "id": "ex-tokyo-yae-kimono",
+    "cityId": "tokyo",
+    "kind": "experience",
+    "name": "浅草和服租赁与街区散步",
+    "provider": "YAE Kimono Rental",
+    "address": "浅草雷门周边门店，详见预约确认",
+    "lat": 35.7112,
+    "lng": 139.7945,
+    "durationMinutes": 120,
+    "sourceUrl": "https://yae-japan.com/en/",
+    "bookingUrl": "https://yae-japan.com/en/",
+    "checkedAt": "2026-09-22",
+    "tagline": "选一套和服，体验穿着与配饰，再留出时间走进浅草。",
+    "description": "选一套和服，体验穿着与配饰，再留出时间走进浅草。",
+    "features": [
+      "和服体验",
+      "街区摄影",
+      "浅草散步"
+    ],
+    "requirements": [
+      "须按门店规定时间归还",
+      "摄影、发型与升级配件是否另收费以套餐为准"
+    ],
+    "availabilityNote": "此处2小时包括挑选穿着和附近散步，并非租赁期限。请勿与同一时段浅草游览重复安排。",
+    "priceOptions": [
+      {
+        "id": "classic",
+        "name": "基础和服与穿着服务",
+        "description": "基础和服与穿着服务",
+        "low": 4000,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://yae-japan.com/en/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "和服、腰带、鞋袋等配件",
+          "穿着协助"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "retro",
+        "name": "复古款式预算",
+        "description": "复古款式预算",
+        "low": 6500,
+        "high": 10000,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://yae-japan.com/en/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "复古款式与基础配件",
+          "穿着协助"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-kyoto-canon-tea",
+    "cityId": "kyoto",
+    "kind": "experience",
+    "name": "伏见稻荷旁茶道体验",
+    "provider": "Tea Ceremony Canon Kyoto",
+    "address": "72-1 Fukakusa Inarionmaecho, Fushimi",
+    "lat": 34.9683,
+    "lng": 135.7703,
+    "durationMinutes": 60,
+    "sourceUrl": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+    "bookingUrl": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+    "checkedAt": "2026-09-22",
+    "tagline": "在伏见的茶室了解点茶礼仪，自己尝试一碗抹茶。",
+    "description": "在伏见的茶室了解点茶礼仪，自己尝试一碗抹茶。",
+    "features": [
+      "茶道礼仪",
+      "抹茶",
+      "伏见文化"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "shared",
+        "name": "共享茶道场次",
+        "description": "共享茶道场次",
+        "low": 4000,
+        "high": 4000,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "约40分钟茶道体验"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "kimono",
+        "name": "茶道＋女式和服租赁",
+        "description": "茶道＋女式和服租赁",
+        "low": 7300,
+        "high": 7300,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+        "checkedAt": "2026-09-22",
+        "note": "4000日元茶道＋3300日元女式和服；男式和服加4400日元，发型另计，不适用于所有服装选择。",
+        "includes": [
+          "共享茶道",
+          "女式和服租赁"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "durationMinutes": 100
+      }
+    ]
+  },
+  {
+    "id": "ex-osaka-tombori-cruise",
+    "cityId": "osaka",
+    "kind": "experience",
+    "name": "道顿堀水上观光船",
+    "provider": "一本松海运",
+    "address": "太左卫门桥码头",
+    "lat": 34.669,
+    "lng": 135.5034,
+    "durationMinutes": 45,
+    "sourceUrl": "https://www.ipponmatsu.co.jp/cruise/tombori.html",
+    "bookingUrl": "https://www.ipponmatsu.co.jp/cruise/tombori.html",
+    "checkedAt": "2026-09-22",
+    "tagline": "从河道看霓虹招牌与桥梁，给道顿堀换一个角度。",
+    "description": "从河道看霓虹招牌与桥梁，给道顿堀换一个角度。",
+    "features": [
+      "道顿堀",
+      "城市水路",
+      "短程体验"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "总时长45分钟包含登船余量；实际航班、停航和购票方式请看运营方。",
+    "priceOptions": [
+      {
+        "id": "adult",
+        "name": "标准成人观光船",
+        "description": "标准成人观光船",
+        "low": 2000,
+        "high": 2000,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.ipponmatsu.co.jp/cruise/tombori.html",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "约20分钟航程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-seoul-nanta",
+    "cityId": "seoul",
+    "kind": "experience",
+    "name": "明洞乱打秀",
+    "provider": "PMC / NANTA",
+    "address": "3F,26 Myeongdong-gil, Jung-gu",
+    "lat": 37.5637,
+    "lng": 126.9852,
+    "durationMinutes": 110,
+    "sourceUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+    "bookingUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+    "checkedAt": "2026-09-22",
+    "tagline": "用节奏、厨房道具与喜剧，体验不依赖语言的韩国舞台。",
+    "description": "用节奏、厨房道具与喜剧，体验不依赖语言的韩国舞台。",
+    "features": [
+      "无语言喜剧",
+      "打击乐",
+      "明洞剧场"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "官网工作日17:00/20:00，周末可能加场；此处17:00仅为排程建议，未核验余位。",
+    "priceOptions": [
+      {
+        "id": "a",
+        "name": "A区座席",
+        "description": "A区座席",
+        "low": 50000,
+        "high": 50000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "A区演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "s",
+        "name": "S区座席",
+        "description": "S区座席",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "S区演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "vip",
+        "name": "VIP座席",
+        "description": "VIP座席",
+        "low": 70000,
+        "high": 70000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "VIP区演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "17:00"
+  },
+  {
+    "id": "ex-bangkok-princess-cruise",
+    "cityId": "bangkok",
+    "kind": "experience",
+    "name": "湄南河晚餐游船",
+    "provider": "Chao Phraya Princess",
+    "address": "ICONSIAM码头（具体航班集合点见确认单）",
+    "lat": 13.7268,
+    "lng": 100.5107,
+    "durationMinutes": 150,
+    "sourceUrl": "https://www.chaophrayaprincess.com/reservations.php",
+    "bookingUrl": "https://www.chaophrayaprincess.com/reservations.php",
+    "checkedAt": "2026-09-22",
+    "tagline": "在河上享用晚餐，看曼谷两岸的寺庙与桥梁入夜。",
+    "description": "在河上享用晚餐，看曼谷两岸的寺庙与桥梁入夜。",
+    "features": [
+      "河景晚餐",
+      "夜景",
+      "自助餐"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "码头、船只、菜单与外籍票种请核对；本区间不是官网即时成交价。",
+    "priceOptions": [
+      {
+        "id": "buffet",
+        "name": "自助晚餐与观光航程",
+        "description": "自助晚餐与观光航程",
+        "low": 1200,
+        "high": 2200,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.chaophrayaprincess.com/reservations.php",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "晚餐自助",
+          "观光航程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "dinner"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:00"
+  },
+  {
+    "id": "ex-singapore-ifly",
+    "cityId": "singapore",
+    "kind": "experience",
+    "name": "圣淘沙室内跳伞",
+    "provider": "iFly Singapore",
+    "address": "43 Siloso Beach Walk",
+    "lat": 1.2514,
+    "lng": 103.8171,
+    "durationMinutes": 120,
+    "sourceUrl": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+    "bookingUrl": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+    "checkedAt": "2026-09-22",
+    "tagline": "在风洞里体验悬浮，从一次尝试到更完整的飞行练习。",
+    "description": "在风洞里体验悬浮，从一次尝试到更完整的飞行练习。",
+    "features": [
+      "风洞飞行",
+      "圣淘沙",
+      "不同体验次数"
+    ],
+    "requirements": [
+      "年龄、体重、健康和着装须符合运营方要求",
+      "2小时为报到、教学、换装与飞行的整体预留，不是连续飞行时间"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "teaser",
+        "name": "Teaser · 1次飞行",
+        "description": "Teaser · 1次飞行",
+        "low": 59,
+        "high": 99,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+        "checkedAt": "2026-09-22",
+        "note": "提前至少2日59新币起，常规价99；具体场次适用价另核对。",
+        "includes": [
+          "1次风洞飞行",
+          "初次体验指导"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "challenge",
+        "name": "Challenge · 2次飞行",
+        "description": "Challenge · 2次飞行",
+        "low": 89,
+        "high": 139,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+        "checkedAt": "2026-09-22",
+        "note": "提前至少2日89新币起，常规价139；不含额外升级。",
+        "includes": [
+          "2次风洞飞行",
+          "初次体验指导"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "training",
+        "name": "Trial Training · 6次飞行",
+        "description": "Trial Training · 6次飞行",
+        "low": 250,
+        "high": 250,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "6次飞行",
+          "训练与教练指导"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-bali-discover-diving",
+    "cityId": "bali",
+    "kind": "experience",
+    "name": "图兰奔初次水肺潜水",
+    "provider": "Bali Hai Diving Adventures",
+    "address": "Tulamben；南巴厘岛指定区域酒店接送",
+    "lat": -8.2751,
+    "lng": 115.5943,
+    "durationMinutes": 480,
+    "sourceUrl": "https://balihaidiving.com/program/discover-scuba-diving-bali/",
+    "bookingUrl": "https://balihaidiving.com/program/discover-scuba-diving-bali/",
+    "checkedAt": "2026-09-22",
+    "tagline": "在教练带领下学习水下呼吸，用一天体验巴厘岛海底。",
+    "description": "在教练带领下学习水下呼吸，用一天体验巴厘岛海底。",
+    "features": [
+      "初次潜水",
+      "装备与教练",
+      "酒店接送"
+    ],
+    "requirements": [
+      "报价至少2人；单人需另询",
+      "需填写运营方健康问卷并遵守潜水与飞行间隔要求",
+      "水况或健康条件不符时不得按预排强行参加"
+    ],
+    "availabilityNote": "8小时是含长途接送的全日规划预留，非水下时长。官网两潜价格；餐食未明确，保留餐费预算。",
+    "priceOptions": [
+      {
+        "id": "tulamben",
+        "name": "图兰奔 · 2次体验潜水",
+        "description": "图兰奔 · 2次体验潜水",
+        "low": 2500000,
+        "high": 2500000,
+        "currency": "IDR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://balihaidiving.com/program/discover-scuba-diving-bali/",
+        "checkedAt": "2026-09-22",
+        "note": "官网按至少2人报价；单人报名需询价。天气、水况、资格与确切接送范围需确认。",
+        "includes": [
+          "两次体验潜水",
+          "潜水装备与PADI教练",
+          "指定区域酒店接送"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includesTransfers": true
+      }
+    ],
+    "preferredStartTime": "07:00",
+    "minParticipants": 2
+  },
+  {
+    "id": "ex-paris-bateaux-mouches",
+    "cityId": "paris",
+    "kind": "experience",
+    "name": "塞纳河游船与船上用餐",
+    "provider": "Bateaux Mouches",
+    "address": "Port de la Conference, Pont de l’Alma",
+    "lat": 48.8637,
+    "lng": 2.3055,
+    "durationMinutes": 90,
+    "sourceUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+    "bookingUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+    "checkedAt": "2026-09-22",
+    "tagline": "从单纯观景到船上晚餐，选择你想怎样度过塞纳河上的时光。",
+    "description": "从单纯观景到船上晚餐，选择你想怎样度过塞纳河上的时光。",
+    "features": [
+      "河岸地标",
+      "观光或用餐",
+      "不同菜单"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "航线受水位影响；晚餐场次有着装要求。观光船不包含卢浮宫、铁塔等岸上门票。",
+    "priceOptions": [
+      {
+        "id": "sightseeing",
+        "name": "约1小时观光船",
+        "description": "约1小时观光船",
+        "low": 20,
+        "high": 20,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "普通成人观光船票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "early-dinner",
+        "name": "18:00早场晚餐",
+        "description": "18:00早场晚餐",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "18:00场次晚餐与游船"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "dinner"
+        ],
+        "durationMinutes": 135,
+        "preferredStartTime": "18:00"
+      },
+      {
+        "id": "prestige",
+        "name": "Prestige晚餐",
+        "description": "Prestige晚餐",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+        "checkedAt": "2026-09-22",
+        "note": "20:00起登船、20:30离港，22:45返港；属晚间活动，返程需另外预留。",
+        "includes": [
+          "Prestige菜单与游船"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "dinner"
+        ],
+        "durationMinutes": 165,
+        "preferredStartTime": "20:00"
+      }
+    ]
+  },
+  {
+    "id": "ex-london-thames-rockets",
+    "cityId": "london",
+    "kind": "experience",
+    "name": "泰晤士河快艇体验",
+    "provider": "Thames Rockets",
+    "address": "London Eye Pier, SE1 7PB",
+    "lat": 51.5038,
+    "lng": -0.1205,
+    "durationMinutes": 80,
+    "sourceUrl": "https://www.thamesrockets.com/ultimate-london-adventure/",
+    "bookingUrl": "https://www.thamesrockets.com/ultimate-london-adventure/",
+    "checkedAt": "2026-09-22",
+    "tagline": "在讲解与加速航段之间，从河上认识伦敦。",
+    "description": "在讲解与加速航段之间，从河上认识伦敦。",
+    "features": [
+      "快艇",
+      "伦敦河景",
+      "约50分钟航程"
+    ],
+    "requirements": [
+      "须符合运营方年龄和健康要求",
+      "提前报到；体验受天气与航行管制影响"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "adventure",
+        "name": "Ultimate London Adventure",
+        "description": "Ultimate London Adventure",
+        "low": 60,
+        "high": 80,
+        "currency": "GBP",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.thamesrockets.com/ultimate-london-adventure/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "约50分钟快艇体验",
+          "运营方提供的必要装备"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-rome-pasta-class",
+    "cityId": "rome",
+    "kind": "experience",
+    "name": "罗马手工意面与提拉米苏",
+    "provider": "Eat and Walk Italy",
+    "address": "Piazza Navona周边合作餐厅；确认单给出门牌",
+    "lat": 41.8992,
+    "lng": 12.4731,
+    "durationMinutes": 180,
+    "sourceUrl": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+    "bookingUrl": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+    "checkedAt": "2026-09-22",
+    "tagline": "亲手制作意面和甜点，再坐下来吃掉自己的作品。",
+    "description": "亲手制作意面和甜点，再坐下来吃掉自己的作品。",
+    "features": [
+      "动手烹饪",
+      "意式餐桌",
+      "小团体验"
+    ],
+    "requirements": [
+      "提前告知过敏与饮食禁忌"
+    ],
+    "availabilityNote": "不同课程在不同餐厅举办；此处坐标为街区参考，未获取具体课次门牌。",
+    "priceOptions": [
+      {
+        "id": "pasta",
+        "name": "意面与提拉米苏课堂",
+        "description": "意面与提拉米苏课堂",
+        "low": 65,
+        "high": 95,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "食材与厨师指导",
+          "完成后的餐食"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "lunch"
+        ],
+        "preferredStartTime": "11:00"
+      },
+      {
+        "id": "ravioli",
+        "name": "意面、饺形意面与提拉米苏",
+        "description": "意面、饺形意面与提拉米苏",
+        "low": 80,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "多种面食制作与甜点",
+          "餐食及所选套餐饮品"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "lunch"
+        ],
+        "preferredStartTime": "11:00"
+      }
+    ]
+  },
+  {
+    "id": "ex-barcelona-sailing",
+    "cityId": "barcelona",
+    "kind": "experience",
+    "name": "地中海双小时帆船",
+    "provider": "Barcelona Sailing Day",
+    "address": "Moll de la Marina, Port Olimpic",
+    "lat": 41.386,
+    "lng": 2.2015,
+    "durationMinutes": 150,
+    "sourceUrl": "https://barcelonasailingday.com/tour/2-hour-sailing-tour/",
+    "bookingUrl": "https://barcelonasailingday.com/tour/2-hour-sailing-tour/",
+    "checkedAt": "2026-09-22",
+    "tagline": "离开岸边，用海风和城市天际线安排一个慢下来的下午。",
+    "description": "离开岸边，用海风和城市天际线安排一个慢下来的下午。",
+    "features": [
+      "小团帆船",
+      "天际线",
+      "海风"
+    ],
+    "requirements": [
+      "出航与游泳安排取决于天气和船长判断"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "shared",
+        "name": "2小时共享帆船",
+        "description": "2小时共享帆船",
+        "low": 50,
+        "high": 80,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://barcelonasailingday.com/tour/2-hour-sailing-tour/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "约2小时航程",
+          "运营方说明中的饮品与小食"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-new-york-circle-line",
+    "cityId": "new-york",
+    "kind": "experience",
+    "name": "曼哈顿水上观光",
+    "provider": "Circle Line",
+    "address": "Pier 83, W 42nd Street",
+    "lat": 40.7626,
+    "lng": -74.0003,
+    "durationMinutes": 120,
+    "sourceUrl": "https://www.circleline.com/",
+    "bookingUrl": "https://www.circleline.com/",
+    "checkedAt": "2026-09-22",
+    "tagline": "从哈德逊河看摩天楼与自由女神，航程本身就是一段城市散步。",
+    "description": "从哈德逊河看摩天楼与自由女神，航程本身就是一段城市散步。",
+    "features": [
+      "水上地标",
+      "城市讲解",
+      "自由女神远眺"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "不登自由岛或埃利斯岛，岛上门票未包含；税费、日期与各航程时刻需查官网。",
+    "priceOptions": [
+      {
+        "id": "liberty",
+        "name": "Liberty Midtown短航程",
+        "description": "Liberty Midtown短航程",
+        "low": 35,
+        "high": 55,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.circleline.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "自由女神方向观光航程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "landmarks",
+        "name": "Landmarks地标航程",
+        "description": "Landmarks地标航程",
+        "low": 45,
+        "high": 65,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.circleline.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "较长地标观光航程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "durationMinutes": 150
+      }
+    ]
+  },
+  {
+    "id": "ex-sydney-bridgeclimb",
+    "cityId": "sydney",
+    "kind": "experience",
+    "name": "悉尼海港大桥攀登",
+    "provider": "BridgeClimb Sydney",
+    "address": "3 Cumberland Street, The Rocks",
+    "lat": -33.8574,
+    "lng": 151.2076,
+    "durationMinutes": 210,
+    "sourceUrl": "https://www.bridgeclimb.com/experiences/compare",
+    "bookingUrl": "https://www.bridgeclimb.com/experiences/compare",
+    "checkedAt": "2026-09-22",
+    "tagline": "穿戴装备走向桥顶，把港湾尽收眼底。",
+    "description": "穿戴装备走向桥顶，把港湾尽收眼底。",
+    "features": [
+      "桥顶视野",
+      "专业带领",
+      "白天或黄昏"
+    ],
+    "requirements": [
+      "必须满足健康、身高与年龄条件",
+      "随身相机等物品限制以运营方为准"
+    ],
+    "availabilityNote": "区间参考已发布产品价与旺季余量，当前日期必须重新报价，非保证票价。",
+    "priceOptions": [
+      {
+        "id": "day",
+        "name": "Summit白天攀登",
+        "description": "Summit白天攀登",
+        "low": 364,
+        "high": 450,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bridgeclimb.com/experiences/compare",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "指定路线攀登",
+          "向导与安全装备"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "twilight",
+        "name": "Summit黄昏攀登",
+        "description": "Summit黄昏攀登",
+        "low": 394,
+        "high": 480,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bridgeclimb.com/experiences/compare",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "黄昏指定路线攀登",
+          "向导与安全装备"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "preferredStartTime": "15:00"
+      }
+    ]
+  },
+  {
+    "id": "ex-dubai-hero-balloon",
+    "cityId": "dubai",
+    "kind": "experience",
+    "name": "沙漠日出热气球",
+    "provider": "Hero Balloon Flights Dubai",
+    "address": "Dubai Desert Conservation Reserve；酒店接送",
+    "lat": 24.845,
+    "lng": 55.653,
+    "durationMinutes": 300,
+    "sourceUrl": "https://uae.heroballoonflights.com/",
+    "bookingUrl": "https://uae.heroballoonflights.com/",
+    "checkedAt": "2026-09-22",
+    "tagline": "清晨升空看沙丘，再在沙漠营地享用早餐。",
+    "description": "清晨升空看沙丘，再在沙漠营地享用早餐。",
+    "features": [
+      "日出热气球",
+      "沙漠早餐",
+      "共享或私人"
+    ],
+    "requirements": [
+      "一般运营季为10月1日至次年5月31日",
+      "实际起飞时间、天气取消与参与条件由运营方确认"
+    ],
+    "availabilityNote": "5:00仅是清晨排程预留，不是已确认接送时间。夏季不可按常规运营季假定有班次。",
+    "priceOptions": [
+      {
+        "id": "signature",
+        "name": "Signature共享热气球",
+        "description": "Signature共享热气球",
+        "low": 1695,
+        "high": 1695,
+        "currency": "AED",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://uae.heroballoonflights.com/",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "日出飞行",
+          "猎鹰展示",
+          "早餐",
+          "指定范围接送"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "breakfast"
+        ],
+        "includesTransfers": true
+      },
+      {
+        "id": "private",
+        "name": "双人起私人体验",
+        "description": "双人起私人体验",
+        "low": 12950,
+        "high": 16000,
+        "currency": "AED",
+        "unit": "booking",
+        "type": "estimate",
+        "sourceUrl": "https://uae.heroballoonflights.com/",
+        "checkedAt": null,
+        "note": "官网双人起价12950AED；上限为预算预留，非官方最高价。超过2人或特殊安排必须另询。",
+        "includes": [
+          "私人体验预算",
+          "早餐与接送"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "partyCapacity": 2,
+        "includedMeals": [
+          "breakfast"
+        ],
+        "includesTransfers": true,
+        "minParticipants": 2,
+        "maxParticipants": 2
+      }
+    ],
+    "preferredStartTime": "05:00"
+  },
+  {
+    "id": "ex-istanbul-bosphorus",
+    "cityId": "istanbul",
+    "kind": "experience",
+    "name": "城市渡轮博斯普鲁斯观光",
+    "provider": "Sehir Hatlari",
+    "address": "Eminonu观光渡轮码头",
+    "lat": 41.0187,
+    "lng": 28.9736,
+    "durationMinutes": 150,
+    "sourceUrl": "https://sehirhatlari.istanbul/en/price-list/bosphorus-tours-78",
+    "bookingUrl": "https://sehirhatlari.istanbul/en/price-list/bosphorus-tours-78",
+    "checkedAt": "2026-09-22",
+    "tagline": "乘城市运营的观光渡轮，从海峡看两岸。",
+    "description": "乘城市运营的观光渡轮，从海峡看两岸。",
+    "features": [
+      "公共渡轮",
+      "海峡两岸",
+      "本地运营"
+    ],
+    "requirements": [
+      "淡旺季与当天时刻表可能调整"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "short",
+        "name": "短程观光 · 外国成人",
+        "description": "短程观光 · 外国成人",
+        "low": 340,
+        "high": 340,
+        "currency": "TRY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://sehirhatlari.istanbul/en/price-list/bosphorus-tours-78",
+        "checkedAt": "2026-09-22",
+        "note": "采用官网FOREIGN PASSENGER票价，不使用仅适用本地乘客的170里拉。",
+        "includes": [
+          "短程观光票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "long",
+        "name": "长程往返 · 外国成人",
+        "description": "长程往返 · 外国成人",
+        "low": 640,
+        "high": 640,
+        "currency": "TRY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://sehirhatlari.istanbul/en/price-list/bosphorus-tours-78",
+        "checkedAt": "2026-09-22",
+        "note": "采用外国乘客640里拉；长程停靠与返程时间必须查当季时刻表。",
+        "includes": [
+          "长程往返票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "durationMinutes": 390
+      }
+    ]
+  },
+  {
+    "id": "ex-hong-kong-aqualuna",
+    "cityId": "hong-kong",
+    "kind": "experience",
+    "name": "张保仔维港晚间航游",
+    "provider": "aqualuna",
+    "address": "尖沙咀／中环指定码头",
+    "lat": 22.2934,
+    "lng": 114.1691,
+    "durationMinutes": 75,
+    "sourceUrl": "https://aqualuna.com.hk/experiences/evening-harbour-cruise/",
+    "bookingUrl": "https://aqualuna.com.hk/experiences/evening-harbour-cruise/",
+    "checkedAt": "2026-09-22",
+    "tagline": "在红帆船上看两岸亮灯，给维港留一个安静的角度。",
+    "description": "在红帆船上看两岸亮灯，给维港留一个安静的角度。",
+    "features": [
+      "红帆船",
+      "维港夜景",
+      "船上饮品"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "上船码头和出发时间须按选定航班确认，非所有时段均含幻彩咏香江。",
+    "priceOptions": [
+      {
+        "id": "evening",
+        "name": "晚间航游成人票",
+        "description": "晚间航游成人票",
+        "low": 280,
+        "high": 280,
+        "currency": "HKD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://aqualuna.com.hk/experiences/evening-harbour-cruise/",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "指定晚间航程",
+          "官网所列欢迎饮品"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "18:00"
+  },
+  {
+    "id": "ex-chengdu-opera",
+    "cityId": "chengdu",
+    "kind": "experience",
+    "name": "蜀风雅韵川剧变脸",
+    "provider": "蜀风雅韵",
+    "address": "青羊区琴台路136号",
+    "lat": 30.6591,
+    "lng": 104.0494,
+    "durationMinutes": 120,
+    "sourceUrl": "https://cdsfyy.com/",
+    "bookingUrl": "https://cdsfyy.com/",
+    "checkedAt": "2026-09-22",
+    "tagline": "一晚看变脸、戏曲和民间绝艺，坐进成都的茶馆舞台。",
+    "description": "一晚看变脸、戏曲和民间绝艺，坐进成都的茶馆舞台。",
+    "features": [
+      "川剧变脸",
+      "茶馆舞台",
+      "传统绝艺"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "票价是规划区间；茶水、特色体验、具体桌号是否包含按所购票种确认。",
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "普通演出座位",
+        "description": "普通演出座位",
+        "low": 180,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://cdsfyy.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "普通区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "vip",
+        "name": "VIP区域座位",
+        "description": "VIP区域座位",
+        "low": 300,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://cdsfyy.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "VIP区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:30"
+  },
+  {
+    "id": "ex-xian-tang-dance",
+    "cityId": "xian",
+    "kind": "experience",
+    "name": "唐乐宫《大唐女皇》",
+    "provider": "陕旅集团 · 唐乐宫",
+    "address": "碑林区长安北路75号",
+    "lat": 34.2318,
+    "lng": 108.9428,
+    "durationMinutes": 110,
+    "sourceUrl": "https://www.sxtourgroup.com/home/yu/info.html?catId=237&id=2645",
+    "bookingUrl": "https://www.sxtourgroup.com/home/yu/info.html?catId=237&id=2645",
+    "checkedAt": "2026-09-22",
+    "tagline": "用乐舞、古乐与舞台叙事感受唐风。",
+    "description": "用乐舞、古乐与舞台叙事感受唐风。",
+    "features": [
+      "唐宫乐舞",
+      "古乐演奏",
+      "剧场之夜"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "官网核实节目与地址，未取得当日座席报价；餐宴组合不默认包含。",
+    "priceOptions": [
+      {
+        "id": "show",
+        "name": "纯演出预算",
+        "description": "纯演出预算",
+        "low": 220,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.sxtourgroup.com/home/yu/info.html?catId=237&id=2645",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "指定席位演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:30"
+  },
+  {
+    "id": "ex-hangzhou-westlake-show",
+    "cityId": "hangzhou",
+    "kind": "experience",
+    "name": "西湖《最忆是杭州》",
+    "provider": "印象西湖",
+    "address": "西湖岳湖演出区",
+    "lat": 30.2494,
+    "lng": 120.1374,
+    "durationMinutes": 90,
+    "sourceUrl": "https://www.hzxcw.gov.cn/content_47231.html",
+    "bookingUrl": "https://www.hzxcw.gov.cn/content_47231.html",
+    "checkedAt": "2026-09-22",
+    "tagline": "在真实湖面、水光和音乐之间看江南。",
+    "description": "在真实湖面、水光和音乐之间看江南。",
+    "features": [
+      "湖上舞台",
+      "交响与舞蹈",
+      "西湖夜色"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "官方宣传确认2026演出季；当前票价为预算，不代表具体席区可售。演出受天气和季节影响。",
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "普通观众区",
+        "description": "普通观众区",
+        "low": 320,
+        "high": 420,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.hzxcw.gov.cn/content_47231.html",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "普通区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "较优观众区",
+        "description": "较优观众区",
+        "low": 480,
+        "high": 680,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.hzxcw.gov.cn/content_47231.html",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "较优区域演出票"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:30"
+  },
+  {
+    "id": "ex-guangzhou-pearl-cruise",
+    "cityId": "guangzhou",
+    "kind": "experience",
+    "name": "天字码头珠江夜游",
+    "provider": "珠江夜游运营船舶",
+    "address": "越秀区沿江中路天字码头",
+    "lat": 23.1114,
+    "lng": 113.2713,
+    "durationMinutes": 90,
+    "sourceUrl": "https://www.yuexiu.gov.cn/zjyx/yxjd/bgjq/content/post_8679192.html",
+    "bookingUrl": "https://gzzjyy.cn/",
+    "checkedAt": "2026-09-22",
+    "tagline": "从天字码头出发，在江风里看广州两岸灯火。",
+    "description": "从天字码头出发，在江风里看广州两岸灯火。",
+    "features": [
+      "珠江夜色",
+      "历史码头",
+      "船舱选择"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "政务来源核实码头与游览性质；船舶、餐饮和舱位以具体运营方订单为准。预算不保证有指定船。",
+    "priceOptions": [
+      {
+        "id": "indoor",
+        "name": "普通舱位预算",
+        "description": "普通舱位预算",
+        "low": 98,
+        "high": 168,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.yuexiu.gov.cn/zjyx/yxjd/bgjq/content/post_8679192.html",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "指定航班普通座位"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "deck",
+        "name": "露天或较优视野舱位预算",
+        "description": "露天或较优视野舱位预算",
+        "low": 168,
+        "high": 268,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.yuexiu.gov.cn/zjyx/yxjd/bgjq/content/post_8679192.html",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "所选航班较优观景舱位"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:00"
+  },
+  {
+    "id": "ex-lisbon-hippotrip",
+    "cityId": "lisbon",
+    "kind": "experience",
+    "name": "里斯本水陆两栖游览",
+    "provider": "HIPPOtrip",
+    "address": "Doca de Santo Amaro, Alcantara",
+    "lat": 38.6984,
+    "lng": -9.1773,
+    "durationMinutes": 105,
+    "sourceUrl": "https://www.hippotrip.com/en/tickets/",
+    "bookingUrl": "https://www.hippotrip.com/en/tickets/",
+    "checkedAt": "2026-09-22",
+    "tagline": "同一辆水陆两栖车，从城市道路驶向特茹河。",
+    "description": "同一辆水陆两栖车，从城市道路驶向特茹河。",
+    "features": [
+      "水陆两栖",
+      "特茹河",
+      "城市讲解"
+    ],
+    "requirements": [
+      "班次、交通与潮汐可能调整出发时间"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "adult",
+        "name": "17–64岁成人票",
+        "description": "17–64岁成人票",
+        "low": 30,
+        "high": 34,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.hippotrip.com/en/tickets/",
+        "checkedAt": "2026-09-22",
+        "note": "成人30欧元起，7/8月每张加4欧元；水上部分可能因自然条件取消。",
+        "includes": [
+          "水陆两栖游览"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-amsterdam-flagship",
+    "cityId": "amsterdam",
+    "kind": "experience",
+    "name": "阿姆斯特丹小船运河游",
+    "provider": "Flagship Amsterdam",
+    "address": "市中心所选登船码头，以确认单为准",
+    "lat": 52.3751,
+    "lng": 4.8842,
+    "durationMinutes": 90,
+    "sourceUrl": "https://flagshipamsterdam.com/",
+    "bookingUrl": "https://flagshipamsterdam.com/",
+    "checkedAt": "2026-09-22",
+    "tagline": "沿运河穿过桥洞与山墙房屋，选择纯观光或船上小食。",
+    "description": "沿运河穿过桥洞与山墙房屋，选择纯观光或船上小食。",
+    "features": [
+      "运河建筑",
+      "小船",
+      "可选小食"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "多个码头和不同产品，请勿仅凭城市中心坐标登船；区间为编辑预算。",
+    "priceOptions": [
+      {
+        "id": "classic",
+        "name": "经典运河观光",
+        "description": "经典运河观光",
+        "low": 20,
+        "high": 30,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://flagshipamsterdam.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "运河航程与船员讲解"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "cheese",
+        "name": "含奶酪与饮品的游船",
+        "description": "含奶酪与饮品的游船",
+        "low": 30,
+        "high": 45,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://flagshipamsterdam.com/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "所选航程",
+          "套餐奶酪与饮品"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-berlin-stern-cruise",
+    "cityId": "berlin",
+    "kind": "experience",
+    "name": "施普雷河历史城市游船",
+    "provider": "STERN + KREIS",
+    "address": "Friedrichstrasse码头",
+    "lat": 52.5216,
+    "lng": 13.3867,
+    "durationMinutes": 90,
+    "sourceUrl": "https://www.sternundkreis.de/infos/fahrplan/",
+    "bookingUrl": "https://www.sternundkreis.de/infos/fahrplan/",
+    "checkedAt": "2026-09-22",
+    "tagline": "坐船经过博物馆岛与议会区，换一个视角理解柏林。",
+    "description": "坐船经过博物馆岛与议会区，换一个视角理解柏林。",
+    "features": [
+      "施普雷河",
+      "历史城市线",
+      "水上视角"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "historic",
+        "name": "C4历史城市线 · 1小时",
+        "description": "C4历史城市线 · 1小时",
+        "low": 22.5,
+        "high": 22.5,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.sternundkreis.de/infos/fahrplan/",
+        "checkedAt": "2026-09-22",
+        "note": "官网22.50欧元起，特殊日期和附加服务另计。",
+        "includes": [
+          "约1小时游船"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-venice-gondola",
+    "cityId": "venice",
+    "kind": "experience",
+    "name": "威尼斯贡多拉包船",
+    "provider": "威尼斯持牌贡多拉船夫",
+    "address": "圣马可附近MOLO船站；可改选官方船站",
+    "lat": 45.4339,
+    "lng": 12.3398,
+    "durationMinutes": 50,
+    "sourceUrl": "https://www.comune.venezia.it/it/node/16768",
+    "bookingUrl": "https://www.comune.venezia.it/it/node/16768",
+    "checkedAt": "2026-09-22",
+    "tagline": "按整船收费，和同行的人一起穿过水巷。",
+    "description": "按整船收费，和同行的人一起穿过水巷。",
+    "features": [
+      "整船计费",
+      "水巷",
+      "白天或夜晚"
+    ],
+    "requirements": [
+      "须向运营方确认所选日期、余位和取消条件"
+    ],
+    "availabilityNote": "官方公布基础运价与船站联系方式；潮汐和交通可能改变路线和时长。",
+    "priceOptions": [
+      {
+        "id": "day",
+        "name": "白天30分钟 · 每船最多5人",
+        "description": "白天30分钟 · 每船最多5人",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "booking",
+        "type": "official",
+        "sourceUrl": "https://www.comune.venezia.it/it/node/16768",
+        "checkedAt": "2026-09-22",
+        "note": "09:00–19:00，90欧元/整船，最多5人；不是每人90欧元。",
+        "includes": [
+          "30分钟日间船程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "partyCapacity": 5
+      },
+      {
+        "id": "night",
+        "name": "夜间35分钟 · 每船最多5人",
+        "description": "夜间35分钟 · 每船最多5人",
+        "low": 110,
+        "high": 110,
+        "currency": "EUR",
+        "unit": "booking",
+        "type": "official",
+        "sourceUrl": "https://www.comune.venezia.it/it/node/16768",
+        "checkedAt": "2026-09-22",
+        "note": "19:00–04:00，110欧元/整船；特殊时长另按比例计。",
+        "includes": [
+          "35分钟夜间船程"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "partyCapacity": 5,
+        "preferredStartTime": "19:00",
+        "durationMinutes": 55
+      }
+    ]
+  },
+  {
+    "id": "ex-florence-pizza-gelato",
+    "cityId": "florence",
+    "kind": "experience",
+    "name": "佛罗伦萨披萨与意式冰淇淋课堂",
+    "provider": "Florence Food Studio",
+    "address": "Oltrarno街区，确切门牌见确认单",
+    "lat": 43.7671,
+    "lng": 11.2443,
+    "durationMinutes": 150,
+    "sourceUrl": "https://florencefoodstudio.com/en/cooking-classes/pizza-and-gelato",
+    "bookingUrl": "https://florencefoodstudio.com/en/cooking-classes/pizza-and-gelato",
+    "checkedAt": "2026-09-22",
+    "tagline": "在厨师指导下揉面与制作冰淇淋，再一起品尝成果。",
+    "description": "在厨师指导下揉面与制作冰淇淋，再一起品尝成果。",
+    "features": [
+      "披萨制作",
+      "意式冰淇淋",
+      "动手体验"
+    ],
+    "requirements": [
+      "过敏或饮食限制提前沟通"
+    ],
+    "availabilityNote": "官网介绍约2小时课程；此处包含报到余量，具体时段与售价需预约确认。",
+    "priceOptions": [
+      {
+        "id": "class",
+        "name": "披萨与Gelato课堂",
+        "description": "披萨与Gelato课堂",
+        "low": 65,
+        "high": 100,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://florencefoodstudio.com/en/cooking-classes/pizza-and-gelato",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "制作课堂与食材",
+          "品尝完成的作品"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "lunch"
+        ],
+        "preferredStartTime": "11:00"
+      }
+    ]
+  },
+  {
+    "id": "ex-los-angeles-warner-studio",
+    "cityId": "los-angeles",
+    "kind": "experience",
+    "name": "华纳兄弟好莱坞片场游",
+    "provider": "Warner Bros. Studio Tour Hollywood",
+    "address": "3400 Warner Blvd, Burbank",
+    "lat": 34.1497,
+    "lng": -118.3382,
+    "durationMinutes": 210,
+    "sourceUrl": "https://www.wbstudiotour.com/tour/studio/",
+    "bookingUrl": "https://www.wbstudiotour.com/tour/studio/",
+    "checkedAt": "2026-09-22",
+    "tagline": "走进真实片场与影视布景，了解银幕背后的工作。",
+    "description": "走进真实片场与影视布景，了解银幕背后的工作。",
+    "features": [
+      "影视制作",
+      "片场导览",
+      "经典布景"
+    ],
+    "requirements": [
+      "实际片场因拍摄工作可能调整",
+      "5岁以下不可参加；有效证件及语言安排请查官网"
+    ],
+    "availabilityNote": "官网列11月3–5日和11月26日闭馆提示；年份与所选日期在预约页再次核对。停车另计。",
+    "priceOptions": [
+      {
+        "id": "studio",
+        "name": "Studio Tour · 成人11岁及以上",
+        "description": "Studio Tour · 成人11岁及以上",
+        "low": 79,
+        "high": 79,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.wbstudiotour.com/tour/studio/",
+        "checkedAt": "2026-09-22",
+        "note": "官方公开成人参考价；不是所选日期的可订报价，条件及附加费请核对来源。",
+        "includes": [
+          "45–60分钟导览",
+          "约2小时自助区域"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "id": "plus",
+        "name": "Studio Tour Plus预算",
+        "description": "Studio Tour Plus预算",
+        "low": 160,
+        "high": 200,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.wbstudiotour.com/tour/studio/",
+        "checkedAt": null,
+        "note": "人工规划区间，未获取指定日期可订报价；税费与附加项目须在运营方页面确认。",
+        "includes": [
+          "更长导览与自助区域",
+          "官网所列午餐与饮品"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "durationMinutes": 270,
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-melbourne-global-balloon",
+    "cityId": "melbourne",
+    "kind": "experience",
+    "name": "墨尔本日出热气球",
+    "provider": "Global Ballooning Australia",
+    "address": "Pullman East Melbourne, 192 Wellington Parade",
+    "lat": -37.8158,
+    "lng": 144.9834,
+    "durationMinutes": 270,
+    "sourceUrl": "https://www.globalballooning.com.au/flights/melbourne-public-flight/",
+    "bookingUrl": "https://www.globalballooning.com.au/flights/melbourne-public-flight/",
+    "checkedAt": "2026-09-22",
+    "tagline": "随着风越过城市，在清晨看见另一面的墨尔本。",
+    "description": "随着风越过城市，在清晨看见另一面的墨尔本。",
+    "features": [
+      "日出飞行",
+      "城市上空",
+      "可选早餐"
+    ],
+    "requirements": [
+      "天气、最低成团人数和身体条件由运营方确认",
+      "需自己到集合酒店，套餐地面接驳只在集合点与起降场之间"
+    ],
+    "availabilityNote": "5:00是清晨时间预留；确切集合时间通常前一晚确认。",
+    "priceOptions": [
+      {
+        "id": "flight",
+        "name": "共享飞行 · 不含早餐",
+        "description": "共享飞行 · 不含早餐",
+        "low": 595,
+        "high": 595,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.globalballooning.com.au/",
+        "checkedAt": "2026-09-22",
+        "note": "官网Melbourne项目595澳元起；仅飞行具体套餐与日期需核对。",
+        "includes": [
+          "约1小时飞行",
+          "集合点至起降场接驳"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "durationMinutes": 240
+      },
+      {
+        "id": "breakfast",
+        "name": "共享飞行＋酒店早餐",
+        "description": "共享飞行＋酒店早餐",
+        "low": 650,
+        "high": 650,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.globalballooning.com.au/flights/melbourne-public-flight/",
+        "checkedAt": "2026-09-22",
+        "note": "官网成人650澳元；总流程约4–4.5小时，停车另计。",
+        "includes": [
+          "约1小时飞行",
+          "酒店自助早餐",
+          "飞行照片",
+          "集合点至起降场接驳"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "breakfast"
+        ]
+      }
+    ],
+    "preferredStartTime": "05:00"
+  },
+  {
+    "id": "ex-chiang-mai-farm-cooking",
+    "cityId": "chiang-mai",
+    "kind": "experience",
+    "name": "有机农场泰餐课堂",
+    "provider": "Thai Farm Cooking School",
+    "address": "清迈郊外有机农场；指定城区酒店接送",
+    "lat": 18.902,
+    "lng": 99.061,
+    "durationMinutes": 360,
+    "sourceUrl": "https://thaifarmcooking.net/contact-us/",
+    "bookingUrl": "https://thaifarmcooking.net/contact-us/",
+    "checkedAt": "2026-09-22",
+    "tagline": "从香草与食材认识泰餐，再动手做一桌自己的菜。",
+    "description": "从香草与食材认识泰餐，再动手做一桌自己的菜。",
+    "features": [
+      "有机农场",
+      "泰餐烹饪",
+      "包餐体验"
+    ],
+    "requirements": [
+      "说明过敏与素食需求",
+      "确认接送范围和具体集合时间"
+    ],
+    "availabilityNote": "展示参考服务和预算；生成行程不代表完成预订。集合坐标为近似位置，以确认单为准。",
+    "priceOptions": [
+      {
+        "id": "full-day",
+        "name": "全天烹饪课堂",
+        "description": "全天烹饪课堂",
+        "low": 1500,
+        "high": 1500,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://thaifarmcooking.net/contact-us/",
+        "checkedAt": "2026-09-22",
+        "note": "官网全天1500泰铢/人；以官网预订，运营方声明不通过列出的聚合平台销售。",
+        "includes": [
+          "烹饪课堂与食材",
+          "完成餐食",
+          "指定范围接送"
+        ],
+        "excludes": [
+          "未列明的附加消费",
+          "前往集合地点的交通"
+        ],
+        "includedMeals": [
+          "lunch"
+        ],
+        "includesTransfers": true
+      }
+    ],
+    "preferredStartTime": "08:30"
+  }
+]

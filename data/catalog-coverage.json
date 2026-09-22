@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-09-22T15:03:00.314Z",
+  "cities": 100,
+  "countriesAndRegions": 59,
+  "attractions": 821,
+  "currencies": 45,
+  "fxAsOf": "2026-09-22",
+  "photos": {
+    "cities": 100,
+    "attractions": 819
+  },
+  "missingPhotos": {
+    "cities": [],
+    "attractions": [
+      "copenhagen-little-mermaid",
+      "helsinki-sibelius"
+    ]
+  },
+  "experienceCoverage": {
+    "places": 221,
+    "cities": 72,
+    "options": 449,
+    "categories": {
+      "restaurant": 72,
+      "hotel": 72,
+      "experience": 77
+    },
+    "missingCities": [
+      "manila",
+      "brussels",
+      "dubrovnik",
+      "johannesburg",
+      "fes",
+      "luxor",
+      "nairobi",
+      "mahe",
+      "toronto",
+      "quebec-city",
+      "lima",
+      "cusco",
+      "rio-de-janeiro",
+      "buenos-aires",
+      "santiago",
+      "kaohsiung",
+      "delhi",
+      "oslo",
+      "bergen",
+      "copenhagen",
+      "stockholm",
+      "helsinki",
+      "tallinn",
+      "riga",
+      "vilnius",
+      "warsaw",
+      "krakow",
+      "zurich"
+    ]
+  },
+  "problems": []
+}

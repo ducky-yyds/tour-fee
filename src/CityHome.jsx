@@ -1,0 +1,1425 @@
+import React, { useEffect, useMemo, useRef, useState } from "react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  BedDouble,
+  CalendarDays,
+  Check,
+  ChevronDown,
+  Clock3,
+  Compass,
+  ExternalLink,
+  Info,
+  MapPin,
+  Plus,
+  Search,
+  Sparkles,
+  Ticket,
+  Trash2,
+  Users,
+  Utensils,
+  X,
+} from "lucide-react";
+import { convertCurrency } from "../shared/planner.mjs";
+import { getVisitDurationRange } from "../shared/itinerary.mjs";
+import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
+import { Photo, Modal, OutLink, money } from "./ui.jsx";
+import "./city-home.css";
+
+const TABS = [
+  { id: "sights", name: "想去的景点", short: "景点", icon: Compass },
+  { id: "restaurant", name: "在这里吃饭", short: "餐厅", icon: Utensils },
+  { id: "hotel", name: "选一处好住处", short: "酒店", icon: BedDouble },
+  { id: "experience", name: "值得专程体验", short: "体验", icon: Sparkles },
+];
+const KIND_LABEL = {
+  restaurant: "餐厅",
+  hotel: "酒店",
+  experience: "特色体验",
+};
+const asArray = (value) => (Array.isArray(value) ? value : []);
+const safeUrl = (value) =>
+  /^https?:\/\//i.test(value || "") ? value : undefined;
+const dateLabel = (date) =>
+  /^\d{4}-\d{2}-\d{2}/.test(date || "") ? date.slice(0, 10) : null;
+const duration = (minutes) =>
+  minutes >= 60
+    ? `${Math.floor(minutes / 60)} 小时${minutes % 60 ? ` ${minutes % 60} 分钟` : ""}`
+    : `${minutes} 分钟`;
+const mealLabel = (meal) =>
+  meal === "breakfast" ? "早餐" : meal === "lunch" ? "午餐" : "晚餐";
+const priceUnit = (option) =>
+  option.unit === "room-night"
+    ? "间晚"
+    : option.unit === "booking"
+      ? `单（最多 ${option.partyCapacity} 人）`
+      : "人";
+function initialDraft(city, plan) {
+  const stop = plan?.stops?.find((item) => item.cityId === city.id);
+  return {
+    days: stop?.days || recommendedDays(city),
+    daysSource: stop?.days ? (stop.daysSource || 'user') : 'recommendation',
+    attractionIds: [...asArray(stop?.attractionIds)],
+    experienceSelections: asArray(stop?.experienceSelections).map((item) => ({
+      ...item,
+    })),
+  };
+}
+function converted(amount, from, currency, rates) {
+  try {
+    return convertCurrency(Number(amount) || 0, from, currency, rates);
+  } catch {
+    return null;
+  }
+}
+function rangeText(low, high, currency) {
+  return low === high
+    ? money(low, currency)
+    : `${money(low, currency)} – ${money(high, currency)}`;
+}
+function Price({ price, currency, rates, unit = "人", compact = false }) {
+  if (!price || !Number.isFinite(Number(price.low)))
+    return <span className="ch-price-pending">价格待核实</span>;
+  const from = price.currency || currency;
+  const lo = converted(price.low, from, currency, rates);
+  const hi = converted(price.high ?? price.low, from, currency, rates);
+  return (
+    <div className={`ch-price ${compact ? "is-compact" : ""}`}>
+      <div>
+        <strong>
+          {lo === null || hi === null
+            ? rangeText(price.low, price.high ?? price.low, from)
+            : rangeText(lo, hi, currency)}
+        </strong>
+        <span> / {unit}</span>
+      </div>
+      {from !== currency && (
+        <small>
+          {rangeText(price.low, price.high ?? price.low, from)} · 原币
+          {lo === null ? "，换算汇率暂缺" : ""}
+        </small>
+      )}
+    </div>
+  );
+}
+function PriceSource({ price, sourceUrl }) {
+  const checked = dateLabel(price?.checkedAt);
+  const official = price?.type === "official" && checked;
+  const url = safeUrl(price?.sourceUrl || sourceUrl);
+  return (
+    <div className="ch-price-source">
+      <span className={official ? "is-verified" : ""}>
+        {official
+          ? `官方价格 · 核验 ${checked}`
+          : price?.type === "user"
+            ? "用户填写预算"
+            : "参考预算 · 非实时售价"}
+      </span>
+      {url && <OutLink href={url}>{official ? "价格来源" : "商家与查询来源"}</OutLink>}
+    </div>
+  );
+}
+function ImageCredit({ image }) {
+  return safeUrl(image?.sourceUrl) ? (
+    <div className="ch-image-credit">
+      <a
+        href={image.sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={`${image.credit || "图片来源"}；缩略图，界面可能裁切`}
+      >
+        {image.credit || "图片来源"}
+      </a>
+      {image.license && (
+        <a
+          href={safeUrl(image.licenseUrl) || image.sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {image.license}
+        </a>
+      )}
+    </div>
+  ) : null;
+}
+function PlaceImage({ item, city, sight = false, className = "" }) {
+  const related =
+    !sight && typeof item.imageRef === "string"
+      ? city.attractions?.find((a) => a.id === item.imageRef)
+      : null;
+  const image = item.image?.url
+    ? item.image
+    : related?.image?.url
+      ? related.image
+      : city.image;
+  const label = item.image?.url
+    ? null
+    : related?.image?.url
+      ? `相关景点 · ${related.name}`
+      : sight
+        ? "城市参考图 · 景点暂无照片"
+        : "城市氛围图";
+  return (
+    <div className={`ch-place-photo ${className}`}>
+      <Photo
+        image={image}
+        alt={label ? `${city.name} · ${label}` : item.name}
+      />
+      {label && <span className="ch-photo-label">{label}</span>}
+      <ImageCredit image={image} />
+    </div>
+  );
+}
+
+export default function CityHome({
+  city,
+  cities = [],
+  plan,
+  rates,
+  onBack,
+  onSelectCity,
+  onGenerate,
+  onToast,
+}) {
+  const drafts = useRef(new Map());
+  const currentCity = useRef(city.id);
+  const [draft, setDraft] = useState(() => initialDraft(city, plan));
+  const [tab, setTab] = useState("sights");
+  const [query, setQuery] = useState("");
+  const [category, setCategory] = useState("all");
+  const [visible, setVisible] = useState(12);
+  const [detail, setDetail] = useState(null);
+  const [generating, setGenerating] = useState(false);
+  const [daysText, setDaysText] = useState(String(draft.days));
+  const [dayError, setDayError] = useState("");
+  const catalogRef = useRef(null);
+  const basketRef = useRef(null);
+  const draftRef = useRef(draft);
+  draftRef.current = draft;
+  useEffect(() => {
+    if (currentCity.current === city.id) return;
+    drafts.current.set(currentCity.current, draftRef.current);
+    currentCity.current = city.id;
+    const next = drafts.current.get(city.id) || initialDraft(city, plan);
+    setDraft(next);
+    setDaysText(String(next.days));
+    setTab("sights");
+    setQuery("");
+    setCategory("all");
+    setDetail(null);
+    setDayError("");
+  }, [city.id]);
+  useEffect(() => setVisible(12), [tab, query, category, city.id]);
+  const currency = plan?.currency || "CNY";
+  const people = plan?.travelers || 1;
+  const rooms = plan?.rooms || 1;
+  const stopIndex =
+    plan?.stops?.findIndex((stop) => stop.cityId === city.id) ?? -1;
+  const isFinalStop = stopIndex < 0 || stopIndex === plan.stops.length - 1;
+  const nights =
+    plan?.mode === "stay"
+      ? draft.days
+      : Math.max(0, draft.days - (isFinalStop ? 1 : 0));
+  const sights = asArray(city.attractions);
+  const experiences = asArray(city.experiences);
+  const selectedIds = new Set(draft.attractionIds);
+  const selectedSights = sights.filter((a) => selectedIds.has(a.id));
+  const resolved = draft.experienceSelections
+    .map((selection) => {
+      const experience = experiences.find(
+        (item) => item.id === selection.experienceId,
+      );
+      const option = experience?.priceOptions?.find(
+        (item) => item.id === selection.optionId,
+      );
+      return experience && option ? { selection, experience, option } : null;
+    })
+    .filter(Boolean);
+  const categories = [
+    ...new Set(sights.map((a) => a.category).filter(Boolean)),
+  ];
+  const sourceList =
+    tab === "sights" ? sights : experiences.filter((a) => a.kind === tab);
+  const filtered = useMemo(() => {
+    const q = query.trim().toLocaleLowerCase();
+    return sourceList.filter(
+      (a) =>
+        (tab !== "sights" || category === "all" || a.category === category) &&
+        (!q ||
+          [
+            a.name,
+            a.nameEn,
+            a.description,
+            a.provider,
+            a.tagline,
+            ...asArray(a.features),
+          ]
+            .join(" ")
+            .toLocaleLowerCase()
+            .includes(q)),
+    );
+  }, [sourceList, query, category, tab]);
+  const passGroups = new Map();
+  for (const sight of selectedSights) if (sight.price.passGroup) passGroups.set(sight.price.passGroup, (passGroups.get(sight.price.passGroup) || 0) + 1);
+  const countedPasses = new Set();
+  const subtotal = [
+    ...selectedSights.flatMap((a) => {
+      const group = a.price.passGroup;
+      if (group && countedPasses.has(group)) return [];
+      if (group) countedPasses.add(group);
+      return [{ price:a.price, quantity:people, maxQuantity:group ? people * Math.min(draft.days,passGroups.get(group)) : people }];
+    }),
+    ...resolved.map(({ experience, option }) => ({
+      price: option,
+      quantity:
+        experience.kind === "hotel"
+          ? rooms * nights
+          : option.unit === "booking"
+            ? Math.ceil(people / option.partyCapacity)
+            : people,
+    })),
+  ].reduce(
+    (sum, { price, quantity, maxQuantity = quantity }) => {
+      if (!price) return { ...sum, incomplete: true };
+      const lo = converted(
+        price.low,
+        price.currency || city.currency,
+        currency,
+        rates,
+      );
+      const hi = converted(
+        price.high ?? price.low,
+        price.currency || city.currency,
+        currency,
+        rates,
+      );
+      return {
+        low: sum.low + (lo || 0) * quantity,
+        high: sum.high + (hi || 0) * maxQuantity,
+        incomplete: sum.incomplete || lo === null || hi === null,
+      };
+    },
+    { low: 0, high: 0, incomplete: false },
+  );
+  const totalSelected = selectedSights.length + resolved.length;
+  const guide = city.guide || {};
+
+  function changeDays(value, daysSource = 'user') {
+    const days = Number(value);
+    if (!Number.isInteger(days) || days < 1 || days > 365) {
+      setDayError("请输入 1–365 之间的整数天数");
+      return false;
+    }
+    setDayError("");
+    if (draft.experienceSelections.some((item) => item.dayIndex >= days)) {
+      setDayError("已有餐厅或体验安排在之后的日期，请先移除或调整这些项目");
+      return false;
+    }
+    setDraft((previous) => ({ ...previous, days, daysSource }));
+    return true;
+  }
+  function toggleSight(id) {
+    setDraft((previous) => ({
+      ...previous,
+      attractionIds: previous.attractionIds.includes(id)
+        ? previous.attractionIds.filter((a) => a !== id)
+        : [...previous.attractionIds, id],
+    }));
+  }
+  function selectExperience(experience, optionId, dayIndex, mealType) {
+    const selection = {
+      experienceId: experience.id,
+      optionId,
+      ...(dayIndex !== undefined ? { dayIndex } : {}),
+      ...(experience.kind === "restaurant"
+        ? { mealType: mealType || experience.mealType || "dinner" }
+        : {}),
+    };
+    const replaced = draft.experienceSelections.some((existing) => {
+      const item = experiences.find((a) => a.id === existing.experienceId);
+      return (
+        existing.experienceId !== experience.id &&
+        ((experience.kind === "hotel" && item?.kind === "hotel") ||
+          (experience.kind === "restaurant" &&
+            item?.kind === "restaurant" &&
+            (existing.dayIndex ?? 0) === (dayIndex ?? 0) &&
+            (existing.mealType || item.mealType || "dinner") ===
+              selection.mealType))
+      );
+    });
+    setDraft((previous) => {
+      const selections = previous.experienceSelections.filter((existing) => {
+        const item = experiences.find((a) => a.id === existing.experienceId);
+        const same = existing.experienceId === experience.id;
+        const hotel = experience.kind === "hotel" && item?.kind === "hotel";
+        const meal =
+          experience.kind === "restaurant" &&
+          item?.kind === "restaurant" &&
+          (existing.dayIndex ?? 0) === (dayIndex ?? 0) &&
+          (existing.mealType || item.mealType || "dinner") ===
+            selection.mealType;
+        return !(same || hotel || meal);
+      });
+      return { ...previous, experienceSelections: [...selections, selection] };
+    });
+    onToast?.(
+      replaced
+        ? experience.kind === "hotel"
+          ? "已替换本城市的酒店选择"
+          : "已替换同一天的这一餐"
+        : `已加入${experience.name}，生成行程后统一核算`,
+    );
+  }
+  function removeExperience(id) {
+    setDraft((previous) => ({
+      ...previous,
+      experienceSelections: previous.experienceSelections.filter(
+        (item) => item.experienceId !== id,
+      ),
+    }));
+  }
+  async function generate() {
+    if (!changeDays(daysText, draft.daysSource)) return;
+    setGenerating(true);
+    try {
+      await onGenerate?.({
+        cityId: city.id,
+        days: Number(daysText),
+        daysSource: draft.daysSource,
+        attractionIds: [...draft.attractionIds],
+        experienceSelections: draft.experienceSelections.map((item) => ({
+          ...item,
+        })),
+      });
+    } catch (error) {
+      onToast?.(error.message || "暂未生成成功，请重试");
+    } finally {
+      setGenerating(false);
+    }
+  }
+  function goTab(id) {
+    setTab(id);
+    setCategory("all");
+    setQuery("");
+  }
+
+  return (
+    <main className="city-home">
+      <div className="ch-topbar">
+        <button className="text-button" onClick={onBack}>
+          <ArrowLeft size={16} />
+            返回城市列表
+        </button>
+        <label className="ch-city-switch">
+          <GlobeIcon />
+          <select
+            aria-label="切换城市主页"
+            value={city.id}
+            onChange={(e) => onSelectCity?.(e.target.value)}
+          >
+            {cities.map((item) => (
+              <option key={item.id} value={item.id}>
+                {item.name} · {item.nameEn}
+              </option>
+            ))}
+          </select>
+          <ChevronDown size={14} />
+        </label>
+      </div>
+      <section className="ch-hero" aria-label={`${city.name}城市指南`}>
+        <Photo
+          image={city.image}
+          alt={`${city.name}城市实景`}
+          loading="eager"
+          className="ch-hero-photo"
+        />
+        <div className="ch-hero-shade" />
+        <div className="ch-hero-content">
+          <span className="ch-overline">A PLACE TO MAKE YOUR OWN</span>
+          <div className="ch-hero-location">
+            <MapPin size={14} />
+            {city.country} · {city.region}
+          </div>
+          <h1>
+            {city.name}
+            <span>{city.nameEn}</span>
+          </h1>
+          <p>{city.tagline || city.description}</p>
+          <div className="ch-hero-tags">
+            {asArray(city.tags)
+              .slice(0, 4)
+              .map((tag) => (
+                <span key={tag}>{tag}</span>
+              ))}
+          </div>
+          <button
+            className="ch-hero-button"
+            onClick={() =>
+              catalogRef.current?.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              })
+            }
+          >
+            挑选属于你的城市时光
+            <ArrowRight size={17} />
+          </button>
+        </div>
+        <div className="ch-hero-index">
+          <span>DESTINATION NOTES</span>
+          <strong>
+            {String(
+              cities.findIndex((item) => item.id === city.id) + 1,
+            ).padStart(2, "0")}
+          </strong>
+          <small> / {cities.length || 30}</small>
+        </div>
+        <ImageCredit image={city.image} />
+      </section>
+      <section className="ch-introduction">
+        <div>
+          <span className="eyebrow">
+            GET TO KNOW {city.nameEn?.toUpperCase()}
+          </span>
+          <h2>先认识一座城，再决定怎样停留。</h2>
+        </div>
+        <p>{guide.intro || city.description}</p>
+      </section>
+      {city.transportNote && <div className="ch-destination-note"><MapPin size={18} /><div><strong>在这里，怎样安排交通</strong><p>{city.transportNote}</p>{city.budgetBasis?.note && <small>{city.budgetBasis.note}</small>}{city.officialTourismUrl && <OutLink href={city.officialTourismUrl}>官方目的地指南</OutLink>}</div></div>}
+      {(asArray(guide.foodHighlights).length > 0 ||
+        asArray(guide.neighborhoods).length > 0) && (
+        <div className="ch-guide-grid">
+          <GuideNotes
+            title="从一口当地味道开始"
+            eyebrow="LOCAL FLAVOURS"
+            icon={Utensils}
+            items={guide.foodHighlights}
+            onClick={() => {
+              goTab("restaurant");
+              catalogRef.current?.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
+          <GuideNotes
+            title="把时间留给这些街区"
+            eyebrow="NEIGHBOURHOOD NOTES"
+            icon={MapPin}
+            items={guide.neighborhoods}
+          />
+        </div>
+      )}
+      <div className="ch-content-layout">
+        <section className="ch-catalog" ref={catalogRef}>
+          <div className="ch-section-heading">
+            <div>
+              <span className="eyebrow">COLLECT YOUR LITTLE ADVENTURES</span>
+              <h2>这一次，想怎样遇见{city.name}？</h2>
+            </div>
+            <span>
+              {sights.length} 个景点 · {experiences.length} 个餐宿与体验
+            </span>
+          </div>
+          <div className="ch-tabs" role="tablist" aria-label="城市体验分类">
+            {TABS.map(({ id, name, short, icon: Icon }) => (
+              <button
+                key={id}
+                id={`ch-tab-${id}`}
+                role="tab"
+                aria-selected={tab === id}
+                aria-controls="ch-catalog-panel"
+                tabIndex={tab === id ? 0 : -1}
+                onClick={() => goTab(id)}
+                onKeyDown={(e) => {
+                  if (
+                    ["ArrowRight", "ArrowLeft", "Home", "End"].includes(e.key)
+                  ) {
+                    e.preventDefault();
+                    const i = TABS.findIndex((item) => item.id === tab);
+                    const next =
+                      e.key === "Home"
+                        ? 0
+                        : e.key === "End"
+                          ? TABS.length - 1
+                          : (i +
+                              (e.key === "ArrowRight" ? 1 : -1) +
+                              TABS.length) %
+                            TABS.length;
+                    goTab(TABS[next].id);
+                    document.getElementById(`ch-tab-${TABS[next].id}`)?.focus();
+                  }
+                }}
+              >
+                <Icon size={16} />
+                <span className="ch-tab-long">{name}</span>
+                <span className="ch-tab-short">{short}</span>
+                <small>
+                  {id === "sights"
+                    ? sights.length
+                    : experiences.filter((item) => item.kind === id).length}
+                </small>
+              </button>
+            ))}
+          </div>
+          <div className="ch-search-row">
+            <label className="ch-search">
+              <Search size={17} />
+              <input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={
+                  tab === "sights"
+                    ? "搜索景点、街区或感兴趣的事"
+                    : "搜索名称、味道或服务特色"
+                }
+                aria-label="搜索城市项目"
+              />
+              {query && (
+                <button onClick={() => setQuery("")} aria-label="清除搜索">
+                  <X size={14} />
+                </button>
+              )}
+            </label>
+            {tab === "sights" && (
+              <select
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+                aria-label="景点类型筛选"
+              >
+                <option value="all">所有类型</option>
+                {categories.map((item) => (
+                  <option key={item}>{item}</option>
+                ))}
+              </select>
+            )}
+          </div>
+          <div className="ch-results-heading">
+            <p>
+              {query || category !== "all"
+                ? `找到 ${filtered.length} 个项目`
+                : tab === "sights"
+                  ? "先选喜欢的地点，生成时再按路线与时间安排。"
+                  : tab === "restaurant"
+                    ? "选定餐厅与套餐，对应餐次会替换基础餐饮预算。"
+                    : tab === "hotel"
+                      ? "一个城市选一间酒店，按房间数与停留晚数核算。"
+                      : guide.experienceIntro || "为旅程留一点独一无二的记忆。"}
+            </p>
+            {tab === "sights" && filtered.length > 0 && (
+              <button
+                className="text-button"
+                onClick={() =>
+                  setDraft((previous) => ({
+                    ...previous,
+                    attractionIds: [
+                      ...new Set([
+                        ...previous.attractionIds,
+                        ...filtered.map((item) => item.id),
+                      ]),
+                    ],
+                  }))
+                }
+              >
+                <Plus size={14} />
+                加入{query || category !== "all" ? "筛选结果" : "全部景点"}
+              </button>
+            )}
+          </div>
+          <div
+            id="ch-catalog-panel"
+            role="tabpanel"
+            aria-labelledby={`ch-tab-${tab}`}
+          >
+            <div
+              className={`ch-card-grid ${tab !== "sights" ? "ch-experience-grid" : ""}`}
+            >
+              {filtered
+                .slice(0, visible)
+                .map((item) =>
+                  tab === "sights" ? (
+                    <SightCard
+                      key={item.id}
+                      item={item}
+                      city={city}
+                      selected={selectedIds.has(item.id)}
+                      currency={currency}
+                      rates={rates}
+                      onToggle={() => toggleSight(item.id)}
+                      onDetails={() => setDetail({ kind: "sight", item })}
+                    />
+                  ) : (
+                    <ExperienceCard
+                      key={item.id}
+                      item={item}
+                      city={city}
+                      selection={draft.experienceSelections.find(
+                        (selected) => selected.experienceId === item.id,
+                      )}
+                      days={draft.days}
+                      nights={nights}
+                      currency={currency}
+                      rates={rates}
+                      people={people}
+                      onSelect={(optionId, dayIndex, mealType) =>
+                        selectExperience(item, optionId, dayIndex, mealType)
+                      }
+                      onRemove={() => removeExperience(item.id)}
+                      onDetails={(optionId) =>
+                        setDetail({ kind: "experience", item, optionId })
+                      }
+                    />
+                  ),
+                )}
+            </div>
+            {!filtered.length && (
+              <div className="ch-empty">
+                <Search size={28} />
+                <h3>
+                  {query || category !== "all"
+                    ? "还没找到合适的项目"
+                    : "这一页正在慢慢丰富"}
+                </h3>
+                <p>
+                  {query || category !== "all"
+                    ? "试试更短的关键词，或看看全部选择。"
+                    : "可以先收藏景点，餐厅、酒店与更多体验将继续补充。"}
+                </p>
+                {(query || category !== "all") && (
+                  <button
+                    className="secondary-button"
+                    onClick={() => {
+                      setQuery("");
+                      setCategory("all");
+                    }}
+                  >
+                    清除筛选
+                  </button>
+                )}
+              </div>
+            )}
+            {filtered.length > visible && (
+              <button
+                className="secondary-button ch-load-more"
+                onClick={() => setVisible((n) => n + 12)}
+              >
+                继续发现 · 还有 {filtered.length - visible} 个
+                <ChevronDown size={15} />
+              </button>
+            )}
+          </div>
+        </section>
+        <aside
+          className="ch-basket"
+          aria-label="城市行程选择篮"
+          ref={basketRef}
+        >
+          <div className="ch-basket-title">
+            <span className="eyebrow">YOUR CITY, YOUR PACE</span>
+            <h2>在{city.name}的日子</h2>
+            <p>先挑喜欢的，再把时间排好。</p>
+          </div>
+          <label className="ch-days-label">
+            <span>
+              <CalendarDays size={16} />
+              停留多久
+            </span>
+            <div>
+              <input
+                aria-label="城市停留天数"
+                type="number"
+                min="1"
+                max="365"
+                step="1"
+                value={daysText}
+                onChange={(e) => setDaysText(e.target.value)}
+                onBlur={() => changeDays(daysText)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") changeDays(daysText);
+                }}
+              />
+              <span>天</span>
+            </div>
+          </label>
+          <div className="ch-duration-hint"><span>{getTripDuration(city).type === 'provisional' ? '暂定' : '初次到访建议'} {getTripDuration(city).label}</span><button className="text-button" onClick={() => changeDays(recommendedDays(city), 'recommendation')}>采用 {recommendedDays(city)} 天</button><small>{getTripDuration(city).reason} 长途交通可能需要额外留出时间。</small></div>
+          {dayError && (
+            <p className="ch-field-error" role="alert">
+              {dayError}
+            </p>
+          )}
+          <div className="ch-party">
+            <span>
+              <Users size={13} />
+              {people} 位成人
+            </span>
+            <span>
+              <BedDouble size={13} />
+              {rooms} 间 · {nights} 晚
+            </span>
+          </div>
+          <div className="ch-basket-list">
+            <div className="ch-basket-list-title">
+              <strong>已选 {totalSelected} 项</strong>
+              {totalSelected > 0 && (
+                <button
+                  onClick={() =>
+                    setDraft((previous) => ({
+                      ...previous,
+                      attractionIds: [],
+                      experienceSelections: [],
+                    }))
+                  }
+                >
+                  清空选择
+                </button>
+              )}
+            </div>
+            {!totalSelected && (
+              <p className="ch-basket-empty">
+                一座城，有许多打开方式。
+                <br />
+                从左边选一个心动的去处。
+              </p>
+            )}
+            {selectedSights.map((item) => (
+              <div className="ch-basket-item" key={item.id}>
+                <Compass size={14} />
+                <div>
+                  <strong>{item.name}</strong>
+                  <small>
+                    {duration(getVisitDurationRange(item).recommended)} ·
+                    游览时长可调整
+                  </small>
+                </div>
+                <button
+                  aria-label={`移除${item.name}`}
+                  onClick={() => toggleSight(item.id)}
+                >
+                  <X size={14} />
+                </button>
+              </div>
+            ))}
+            {resolved.map(({ selection, experience, option }) => (
+              <div className="ch-basket-item" key={experience.id}>
+                {experience.kind === "hotel" ? (
+                  <BedDouble size={14} />
+                ) : experience.kind === "restaurant" ? (
+                  <Utensils size={14} />
+                ) : (
+                  <Sparkles size={14} />
+                )}
+                <div>
+                  <strong>{experience.name}</strong>
+                  <small>
+                    {option.name} ·{" "}
+                    {experience.kind === "hotel"
+                      ? `${rooms} 间 × ${nights} 晚`
+                      : experience.kind === "restaurant"
+                        ? `第 ${(selection.dayIndex ?? 0) + 1} 天${mealLabel(selection.mealType || experience.mealType)}`
+                        : selection.dayIndex !== undefined
+                          ? `第 ${selection.dayIndex + 1} 天`
+                          : "顺路安排"}
+                  </small>
+                </div>
+                <button
+                  aria-label={`移除${experience.name}`}
+                  onClick={() => removeExperience(experience.id)}
+                >
+                  <X size={14} />
+                </button>
+              </div>
+            ))}
+          </div>
+          <div className="ch-basket-total">
+            <span>
+              所选项目参考小计 <small>{currency}</small>
+            </span>
+            <strong>
+              {subtotal.incomplete
+                ? "部分价格待核实"
+                : rangeText(subtotal.low, subtotal.high, currency)}
+            </strong>
+            <p>
+              按 {people} 人计算；酒店按 {rooms} 间 × {nights}{" "}
+              晚。交通、剩余餐食及其他开销会在完整预算中另列。
+              {passGroups.size > 0 && " 通票按同日共用至分日使用的范围预留；生成后按实际游览日去重，增加天数会重新核算。"}
+            </p>
+          </div>
+          <div className="ch-budget-note">
+            <Info size={15} />
+            <p>
+              选定酒店替换本城市住宿预算；选定餐厅替换对应餐次。生成后统一核算，避免重复计算。
+            </p>
+          </div>
+          <button
+            className="primary-button ch-generate"
+            disabled={generating || !!dayError}
+            onClick={generate}
+          >
+            {generating
+              ? "正在安排行程…"
+              : stopIndex >= 0
+                ? "用这些选择更新行程"
+                : "生成我的城市行程"}
+            <ArrowRight size={16} />
+          </button>
+          <p className="ch-basket-footnote">
+            为容纳明确选择，生成时可能延长停留，最多额外 14
+            天；仍放不下的项目保留为候选或待安排，可继续调整。
+          </p>
+        </aside>
+      </div>
+      <button
+        className="ch-mobile-basket"
+        onClick={() =>
+          basketRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          })
+        }
+        aria-label="查看选择并生成行程"
+      >
+        <span>
+          <Check size={14} />
+          已选 {totalSelected} 项 · {draft.days} 天
+        </span>
+        <strong>
+          查看选择篮
+          <ArrowRight size={14} />
+        </strong>
+      </button>
+      {detail && (
+        <Modal title={detail.item.name} onClose={() => setDetail(null)} wide>
+          <ItemDetails
+            detail={detail}
+            city={city}
+            currency={currency}
+            rates={rates}
+            selected={
+              detail.kind === "sight"
+                ? selectedIds.has(detail.item.id)
+                : resolved.some(
+                    ({ experience }) => experience.id === detail.item.id,
+                  )
+            }
+            onToggleSight={() => toggleSight(detail.item.id)}
+            onClose={() => setDetail(null)}
+          />
+        </Modal>
+      )}
+    </main>
+  );
+}
+
+function GlobeIcon() {
+  return <Compass size={15} />;
+}
+function GuideNotes({ title, eyebrow, icon: Icon, items, onClick }) {
+  if (!asArray(items).length) return null;
+  return (
+    <section className="ch-guide-card">
+      <div className="ch-guide-heading">
+        <span className="ch-guide-icon">
+          <Icon size={19} />
+        </span>
+        <div>
+          <span className="eyebrow">{eyebrow}</span>
+          <h3>{title}</h3>
+        </div>
+      </div>
+      <div className="ch-guide-items">
+        {items.slice(0, 3).map((item, index) => (
+          <div key={item.name || index}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <p>
+              <strong>{typeof item === "string" ? item : item.name}</strong>
+              {item.description && <small>{item.description}</small>}
+            </p>
+          </div>
+        ))}
+      </div>
+      {onClick && (
+        <button className="text-button" onClick={onClick}>
+          看看餐厅与用餐预算
+          <ArrowRight size={14} />
+        </button>
+      )}
+    </section>
+  );
+}
+function SightCard({
+  item,
+  city,
+  selected,
+  currency,
+  rates,
+  onToggle,
+  onDetails,
+}) {
+  const minutes = getVisitDurationRange(item);
+  return (
+    <article className={`ch-card ${selected ? "is-selected" : ""}`}>
+      <div className="ch-photo-button">
+        <PlaceImage item={item} city={city} sight />
+        <button
+          className="ch-photo-hit"
+          onClick={onDetails}
+          aria-label={`查看${item.name}详情`}
+        />
+        <span className="ch-card-category">{item.category || "城市风景"}</span>
+      </div>
+      <div className="ch-card-content">
+        <div className="ch-card-heading">
+          <h3>
+            <button onClick={onDetails}>{item.name}</button>
+          </h3>
+          <button
+            className={`ch-select-circle ${selected ? "is-selected" : ""}`}
+            aria-label={`${selected ? "移除" : "选择"}${item.name}`}
+            aria-pressed={selected}
+            onClick={onToggle}
+          >
+            {selected ? <Check size={16} /> : <Plus size={16} />}
+          </button>
+        </div>
+        <p className="ch-card-description">{item.description}</p>
+        <div className="ch-feature-tags">
+          {asArray(item.features)
+            .slice(0, 3)
+            .map((feature) => (
+              <span key={feature}>{feature}</span>
+            ))}
+        </div>
+        <div className="ch-visit-duration">
+          <Clock3 size={13} />
+          <span>
+            {duration(minutes.min)} – {duration(minutes.max)}
+          </span>
+          <small>按自己的节奏</small>
+        </div>
+        {item.accessNote && (
+          <p className="ch-access-note">
+            <Info size={13} />
+            {item.accessNote}
+          </p>
+        )}
+        <div className="ch-card-price">
+          <Price price={item.price} currency={currency} rates={rates} />
+          <button className="text-button" onClick={onDetails}>
+            详情
+            <ArrowRight size={13} />
+          </button>
+        </div>
+        <PriceSource price={item.price} />
+      </div>
+    </article>
+  );
+}
+function ExperienceCard({
+  item,
+  city,
+  selection,
+  days,
+  nights,
+  currency,
+  rates,
+  people,
+  onSelect,
+  onRemove,
+  onDetails,
+}) {
+  const [optionId, setOptionId] = useState(
+    selection?.optionId || item.priceOptions?.[0]?.id,
+  );
+  const [day, setDay] = useState(
+    selection?.dayIndex ?? (item.kind === "restaurant" ? 0 : "auto"),
+  );
+  const [meal, setMeal] = useState(
+    selection?.mealType || item.mealType || "dinner",
+  );
+  useEffect(() => {
+    if (selection) {
+      setOptionId(selection.optionId);
+      setDay(selection.dayIndex ?? (item.kind === "restaurant" ? 0 : "auto"));
+      setMeal(selection.mealType || item.mealType || "dinner");
+    }
+  }, [selection?.optionId, selection?.dayIndex, selection?.mealType]);
+  useEffect(() => {
+    if (day !== "auto" && day >= days) setDay(days - 1);
+  }, [days]);
+  const option =
+    item.priceOptions?.find((price) => price.id === optionId) ||
+    item.priceOptions?.[0];
+  const allowedMeals = asArray(option?.mealTypes).length
+    ? option.mealTypes
+    : asArray(item.mealTypes).length
+      ? item.mealTypes
+      : ["breakfast", "lunch", "dinner"];
+  useEffect(() => {
+    if (item.kind === "restaurant" && !allowedMeals.includes(meal))
+      setMeal(allowedMeals[0]);
+  }, [option?.id, allowedMeals.join(","), meal]);
+  const minPeople = option?.minParticipants ?? item.minParticipants ?? 1;
+  const maxPeople = option?.maxParticipants ?? item.maxParticipants ?? Infinity;
+  const partyMismatch = people < minPeople || people > maxPeople;
+  const partyRequirement =
+    minPeople === maxPeople
+      ? `此方案按 ${minPeople} 人同行提供`
+      : maxPeople === Infinity
+        ? `此方案至少需要 ${minPeople} 人同行`
+        : `此方案适用于 ${minPeople}–${maxPeople} 人同行`;
+  const same =
+    selection &&
+    selection.optionId === option?.id &&
+    (item.kind === "hotel" ||
+      (selection.dayIndex ?? (item.kind === "restaurant" ? 0 : "auto")) ===
+        day) &&
+    (item.kind !== "restaurant" ||
+      (selection.mealType || item.mealType || "dinner") === meal);
+  return (
+    <article
+      className={`ch-card ch-service-card ${selection ? "is-selected" : ""}`}
+    >
+      <div className="ch-service-photo">
+        <PlaceImage item={item} city={city} />
+        <span className="ch-card-category">{KIND_LABEL[item.kind]}</span>
+        {selection && (
+          <span className="ch-chosen-label">
+            <Check size={13} />
+            已加入
+          </span>
+        )}
+      </div>
+      <div className="ch-card-content">
+        <div className="ch-card-heading">
+          <div>
+            <span className="ch-service-provider">
+              {item.provider || item.nameEn}
+            </span>
+            <h3>
+              <button onClick={() => onDetails(option?.id)}>{item.name}</button>
+            </h3>
+          </div>
+        </div>
+        <p className="ch-card-description">
+          {item.tagline || item.description}
+        </p>
+        <div className="ch-feature-tags">
+          {asArray(item.features)
+            .slice(0, 3)
+            .map((feature) => (
+              <span key={feature}>{feature}</span>
+            ))}
+        </div>
+        {item.address && (
+          <p className="ch-address">
+            <MapPin size={13} />
+            {item.address}
+          </p>
+        )}
+        <label className="ch-option-label">
+          <span>选择{item.kind === "hotel" ? "房型与服务" : "套餐与服务"}</span>
+          <select
+            aria-label={`${item.name}套餐`}
+            value={option?.id || ""}
+            onChange={(e) => setOptionId(e.target.value)}
+          >
+            {asArray(item.priceOptions).map((price) => (
+              <option key={price.id} value={price.id}>
+                {price.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        {option && (
+          <>
+            <p className="ch-option-description">{option.description}</p>
+            <div className="ch-inclusions">
+              <div>
+                <Check size={13} />
+                <p>
+                  {asArray(option.includes).length
+                    ? option.includes.join(" · ")
+                    : "包含内容请查服务详情"}
+                </p>
+              </div>
+              {asArray(option.excludes).length > 0 && (
+                <div className="is-excluded">
+                  <X size={13} />
+                  <p>另计：{option.excludes.join(" · ")}</p>
+                </div>
+              )}
+            </div>
+            <div className="ch-card-price">
+              <Price
+                price={option}
+                currency={currency}
+                rates={rates}
+                unit={priceUnit(option)}
+              />
+            </div>
+            <PriceSource price={option} sourceUrl={item.sourceUrl} />
+          </>
+        )}
+        {item.kind !== "hotel" && (
+          <div className="ch-service-schedule">
+            <label>
+              <span>安排在哪天</span>
+              <select
+                value={day}
+                onChange={(e) =>
+                  setDay(
+                    e.target.value === "auto" ? "auto" : Number(e.target.value),
+                  )
+                }
+                aria-label={`${item.name}安排日期`}
+              >
+                {item.kind !== "restaurant" && (
+                  <option value="auto">按路线安排</option>
+                )}
+                {Array.from({ length: days }, (_, index) => (
+                  <option key={index} value={index}>
+                    第 {index + 1} 天
+                  </option>
+                ))}
+              </select>
+            </label>
+            {item.kind === "restaurant" ? (
+              <label>
+                <span>用餐时段</span>
+                <select
+                  value={meal}
+                  onChange={(e) => setMeal(e.target.value)}
+                  aria-label={`${item.name}用餐时段`}
+                >
+                  {allowedMeals.map((value) => (
+                    <option key={value} value={value}>
+                      {mealLabel(value)}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : option?.durationMinutes || item.durationMinutes ? (
+              <span className="ch-service-duration">
+                <Clock3 size={14} />约{" "}
+                {duration(option?.durationMinutes || item.durationMinutes)}
+              </span>
+            ) : null}
+          </div>
+        )}
+        {item.kind === "hotel" && (
+          <p className="ch-hotel-note">
+            本城市共 {nights} 晚；选择后替换原住宿预算。
+          </p>
+        )}
+        {item.availabilityNote && (
+          <p className="ch-availability-note">{item.availabilityNote}</p>
+        )}
+        {(minPeople > 1 || maxPeople !== Infinity) && (
+          <p
+            className={
+              partyMismatch ? "ch-access-note" : "ch-availability-note"
+            }
+          >
+            {partyRequirement}
+            {partyMismatch ? `；当前为 ${people} 人，请先调整旅行人数。` : "。"}
+          </p>
+        )}
+        <div className="ch-service-actions">
+          <button
+            className={same ? "secondary-button" : "primary-button"}
+            disabled={
+              !option ||
+              (!same &&
+                (partyMismatch || (item.kind === "hotel" && nights === 0)))
+            }
+            onClick={() =>
+              same
+                ? onRemove()
+                : onSelect(
+                    option.id,
+                    day === "auto" || item.kind === "hotel" ? undefined : day,
+                    meal,
+                  )
+            }
+          >
+            {same ? (
+              <>
+                <Check size={14} />
+                已选 · 点击移除
+              </>
+            ) : (
+              <>
+                <Plus size={14} />
+                {selection
+                  ? "更新我的选择"
+                  : item.kind === "hotel"
+                    ? "住在这里"
+                    : item.kind === "restaurant"
+                      ? "安排这顿饭"
+                      : "加入我的行程"}
+              </>
+            )}
+          </button>
+          <button className="text-button" onClick={() => onDetails(option?.id)}>
+            完整详情
+            <ArrowRight size={13} />
+          </button>
+        </div>
+        {safeUrl(item.bookingUrl) && (
+          <OutLink href={item.bookingUrl}>前往官方或商家预订页</OutLink>
+        )}
+      </div>
+    </article>
+  );
+}
+function ItemDetails({
+  detail,
+  city,
+  currency,
+  rates,
+  selected,
+  onToggleSight,
+  onClose,
+}) {
+  const item = detail.item;
+  const sight = detail.kind === "sight";
+  const source = safeUrl(item.sourceUrl || item.price?.sourceUrl);
+  const options = asArray(item.priceOptions);
+  return (
+    <div className="ch-details">
+      <PlaceImage item={item} city={city} sight className="ch-detail-image" />
+      <span className="eyebrow">{item.nameEn}</span>
+      <p className="ch-detail-description">{item.description}</p>
+      <div className="ch-feature-tags">
+        {asArray(item.features).map((feature) => (
+          <span key={feature}>{feature}</span>
+        ))}
+      </div>
+      {item.address && (
+        <p className="ch-address">
+          <MapPin size={15} />
+          {item.address}
+        </p>
+      )}
+      {item.accessNote && (
+        <p className="ch-access-note">
+          <Info size={15} />
+          {item.accessNote}
+        </p>
+      )}
+      {sight ? (
+        <>
+          <div className="ch-detail-duration">
+            <Clock3 size={17} />
+            <p>
+              建议停留 {duration(getVisitDurationRange(item).recommended)}
+              <small>
+                走马观花约 {duration(getVisitDurationRange(item).min)}
+                ，细致游览约 {duration(getVisitDurationRange(item).max)}
+                。生成后可自行调整。
+              </small>
+            </p>
+          </div>
+          <Price price={item.price} currency={currency} rates={rates} />
+          <p className="ch-detail-note">{item.price?.note}</p>
+          <PriceSource price={item.price} />
+          <button className="primary-button" onClick={onToggleSight}>
+            {selected ? <Check size={15} /> : <Plus size={15} />}
+            {selected ? "已选择 · 点击移除" : "加入想去的地方"}
+          </button>
+        </>
+      ) : (
+        <>
+          <div className="ch-detail-options">
+            {options.map((option) => (
+              <section
+                key={option.id}
+                className={option.id === detail.optionId ? "is-current" : ""}
+              >
+                <div>
+                  <h3>{option.name}</h3>
+                  <Price
+                    price={option}
+                    currency={currency}
+                    rates={rates}
+                    unit={priceUnit(option)}
+                  />
+                </div>
+                <p>{option.description}</p>
+                <div className="ch-detail-inclusions">
+                  <div>
+                    <h4>
+                      <Check size={14} />
+                      包含
+                    </h4>
+                    <ul>
+                      {asArray(option.includes).map((line) => (
+                        <li key={line}>{line}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h4>
+                      <X size={14} />
+                      不包含 / 另计
+                    </h4>
+                    <ul>
+                      {asArray(option.excludes).map((line) => (
+                        <li key={line}>{line}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                {option.note && <p className="ch-detail-note">{option.note}</p>}
+                <PriceSource price={option} sourceUrl={item.sourceUrl} />
+              </section>
+            ))}
+          </div>
+          {asArray(item.requirements).length > 0 && (
+            <section className="ch-requirements">
+              <h3>出发前知道这些</h3>
+              <ul>
+                {item.requirements.map((line) => (
+                  <li key={line}>{line}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+          {typeof item.requirements === "string" && (
+            <p className="ch-detail-note">{item.requirements}</p>
+          )}
+          {item.availabilityNote && (
+            <p className="ch-access-note">
+              <Info size={15} />
+              {item.availabilityNote}
+            </p>
+          )}
+          <div className="ch-service-verification">
+            {dateLabel(item.checkedAt) && (
+              <span>
+                商家与服务资料核验于 {dateLabel(item.checkedAt)} ·
+                套餐价格是否核验以各套餐标注为准
+              </span>
+            )}
+          </div>
+        </>
+      )}
+      <div className="ch-detail-footer">
+        {source && <OutLink href={source}>查看原始资料</OutLink>}
+        {safeUrl(item.bookingUrl) && (
+          <OutLink href={item.bookingUrl}>查询实际日期与预订</OutLink>
+        )}
+        {Number.isFinite(item.lat) && Number.isFinite(item.lng) && (
+          <OutLink
+            href={`https://www.google.com/maps/search/?api=1&query=${item.lat},${item.lng}`}
+          >
+            在地图中查看
+          </OutLink>
+        )}
+        {!sight && (
+          <button className="secondary-button" onClick={onClose}>
+            返回选择套餐
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}

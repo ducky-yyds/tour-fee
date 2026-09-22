@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "source": {
+    "name": "OurAirports",
+    "url": "https://ourairports.com/data/",
+    "license": "Public domain",
+    "licenseUrl": "https://ourairports.com/data/"
+  },
+  "status": "ok",
+  "lastAttemptAt": "2026-09-22T14:13:33.713Z",
+  "lastSuccessAt": "2026-09-22T14:13:33.713Z",
+  "refreshIntervalDays": 7,
+  "sources": [
+    {
+      "kind": "airports",
+      "url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
+      "checkedAt": "2026-09-22T14:13:33.713Z",
+      "rowCount": 86116
+    },
+    {
+      "kind": "countries",
+      "url": "https://davidmegginson.github.io/ourairports-data/countries.csv",
+      "checkedAt": "2026-09-22T14:13:33.713Z",
+      "rowCount": 249
+    },
+    {
+      "kind": "regions",
+      "url": "https://davidmegginson.github.io/ourairports-data/regions.csv",
+      "checkedAt": "2026-09-22T14:13:33.713Z",
+      "rowCount": 3987
+    }
+  ],
+  "counts": {
+    "sourceAirports": 86116,
+    "includedAirports": 49287,
+    "airportCities": 34895,
+    "scheduledAirports": 4223,
+    "scheduledCities": 4136,
+    "countries": 239,
+    "citiesWithoutMunicipality": 3500,
+    "airportsWithoutValidCoordinates": 0,
+    "curatedLinkedCities": 105,
+    "types": {
+      "heliport": 23220,
+      "small_airport": 42734,
+      "closed": 13546,
+      "seaplane_base": 1273,
+      "medium_airport": 4106,
+      "balloonport": 63,
+      "large_airport": 1174
+    },
+    "excludedTypes": {
+      "heliport": 23220,
+      "closed": 13546,
+      "balloonport": 63
+    }
+  },
+  "notes": [
+    "Active airport types only; scheduled_service is a source flag, not a current airline schedule.",
+    "Airport-city coordinates are airport positions, not city centres.",
+    "No route, fare, hotel price or attraction coverage is implied."
+  ]
+}

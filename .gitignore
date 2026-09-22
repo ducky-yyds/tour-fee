@@ -1,0 +1,17 @@
+node_modules/
+dist/
+dist-pages/
+.env
+.env.*
+!.env.example
+data/*.sqlite*
+data/*.db*
+artifacts/
+playwright-report/
+test-results/
+*.log
+public/static-data/
+data/schedule.json
+data/*.lock*
+data/*.tmp
+.cache/

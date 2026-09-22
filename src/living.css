@@ -1,0 +1,998 @@
+.living-page {
+  width: min(1210px, calc(100% - 64px));
+  margin: 42px auto 70px;
+}
+.living-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.living-eyebrow {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #839080;
+  line-height: 1.8;
+}
+.living-heading h1 {
+  font-size: clamp(26px, 3vw, 37px);
+  font-weight: 500;
+  line-height: 1.55;
+  margin: 6px 0;
+}
+.living-heading > div > p:last-child {
+  font-size: 14px;
+  color: #7d887b;
+  line-height: 1.8;
+}
+.living-saved {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #899482;
+  font-size: 12px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.living-not-saved {
+  color: #aa774d;
+}
+.living-hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  background: #fffefa;
+  border: 1px solid #e4e7dd;
+  border-radius: 19px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px #263f3005;
+}
+.living-city-scene {
+  position: relative;
+  min-height: 343px;
+  isolation: isolate;
+  background: #435c4d;
+  color: white;
+}
+.living-city-scene > img,
+.living-city-scene > .photo-fallback {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+.living-city-scene::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #152b3440, #152b3400 26%, #172822bc);
+  z-index: -1;
+}
+.living-city-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 23px 27px;
+}
+.living-city-top > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  text-shadow: 0 1px 8px #000a;
+}
+.living-city-top > button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #f7f8f4e8;
+  color: #405246;
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: 13px;
+}
+.living-city-copy {
+  position: absolute;
+  bottom: 29px;
+  left: 29px;
+  right: 29px;
+}
+.living-city-copy > span {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #eff4e6;
+}
+.living-city-copy h2 {
+  font-size: 39px;
+  font-weight: 500;
+  margin: 9px 0 7px;
+  line-height: 1.3;
+}
+.living-city-copy h2 small {
+  font-size: 16px;
+  margin-left: 15px;
+  color: #f0f1e1;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.living-city-copy p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #f6f7ed;
+}
+.living-city-copy button {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 16px;
+  padding: 0 0 4px;
+  border-bottom: 1px solid #fffffa77;
+  font-size: 12px;
+  color: #fff;
+}
+.living-household {
+  padding: 27px 29px;
+}
+.living-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.living-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #657458;
+  font-size: 13px;
+}
+.living-native-currency {
+  font-size: 12px;
+  color: #98a08f;
+}
+.living-household h3 {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 17px 0 16px;
+}
+.living-periods {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4px;
+  gap: 4px;
+  background: #f1f3eb;
+  border-radius: 9px;
+}
+.living-periods button {
+  border-radius: 6px;
+  font-size: 13px;
+  min-height: 36px;
+  padding: 7px 2px;
+}
+.living-periods button.selected {
+  color: white;
+  background: #47634d;
+  box-shadow: 0 2px 5px #354a4220;
+}
+.living-household-counts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 18px;
+}
+.living-number-field {
+  display: block;
+  min-width: 0;
+}
+.living-number-field > span:first-child {
+  display: block;
+  font-size: 13px;
+  color: #63705f;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.living-input-wrap {
+  display: flex;
+  border: 1px solid #dfe4d9;
+  border-radius: 8px;
+  min-height: 42px;
+  background: #fffefb;
+  align-items: center;
+  padding-right: 12px;
+  overflow: hidden;
+}
+.living-input-wrap:focus-within {
+  border-color: #779868;
+  box-shadow: 0 0 0 2px #77986819;
+}
+.living-input-wrap input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  padding: 10px 12px;
+  color: #374e3d;
+  font-size: 16px;
+}
+.living-input-wrap small {
+  flex-shrink: 0;
+  color: #899180;
+  font-size: 12px;
+}
+.living-field-note {
+  display: block;
+  color: #929a8b;
+  font-size: 12px;
+  line-height: 1.85;
+  margin-top: 6px;
+}
+.living-tier-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #63705f;
+  margin-top: 15px;
+}
+.living-tier-label select {
+  border: 1px solid #e0e4d9;
+  padding: 8px 26px 8px 12px;
+  border-radius: 7px;
+  background: #fffefa;
+  color: #435a46;
+  max-width: 65%;
+}
+.living-household-note {
+  font-size: 12px;
+  line-height: 1.85;
+  margin-top: 12px;
+  color: #949b8e;
+}
+.living-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 344px;
+  gap: 23px;
+  align-items: start;
+  margin-top: 24px;
+}
+.living-main-column {
+  display: grid;
+  gap: 23px;
+  min-width: 0;
+}
+.living-monthly-card,
+.living-cash-card,
+.living-preferences,
+.living-comparison {
+  background: #fffefa;
+  border: 1px solid #e3e7dc;
+  border-radius: 15px;
+  padding: 26px 29px;
+  min-width: 0;
+}
+.living-section-heading h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+.living-estimate-badge {
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid #dfe4d1;
+  background: #f6f7ee;
+  color: #798564;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+.living-monthly-number {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.living-monthly-number > strong {
+  font-size: clamp(31px, 3.7vw, 46px);
+  font-weight: 500;
+  color: #344d39;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.living-monthly-number > span {
+  font-size: 12px;
+  color: #919889;
+}
+.living-monthly-context {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #87937a;
+}
+.living-cost-distribution {
+  display: flex;
+  gap: 3px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 25px 0 12px;
+  background: #f1f3ec;
+}
+.living-cost-distribution > span {
+  height: 100%;
+  min-width: 1px;
+  transition: width 0.2s;
+}
+.living-distribution-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 17px;
+  margin-bottom: 18px;
+}
+.living-distribution-key > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #8b947f;
+}
+.living-distribution-key i,
+.living-budget-row > span > i {
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  flex: 0 0 6px;
+}
+.living-distribution-key b {
+  font-weight: 400;
+  color: #65725c;
+}
+.living-budget-rows {
+  border-top: 1px solid #e8ebdf;
+}
+.living-budget-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eef0e8;
+}
+.living-budget-row > span {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 13px;
+  color: #596851;
+}
+.living-budget-row > span > span {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 14px;
+  row-gap: 3px;
+  align-items: baseline;
+}
+.living-budget-row small {
+  font-size: 12px;
+  color: #98a08f;
+}
+.living-budget-row > strong {
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.living-budget-row.unbudgeted > strong {
+  color: #a2aa98;
+  font-size: 12px;
+}
+.living-inline-note {
+  font-size: 12px;
+  color: #8f9884;
+  line-height: 1.85;
+  margin-top: 13px;
+}
+.living-cash-card {
+  background: #f1f4e9;
+  border-color: #e0e5d3;
+}
+.living-cash-card > .living-section-heading > svg {
+  color: #879775;
+}
+.living-period-total {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+.living-period-total > span {
+  font-size: 13px;
+  color: #74836a;
+}
+.living-period-total > strong {
+  font-size: 31px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+.living-total-formula {
+  text-align: right;
+  color: #879479;
+  font-size: 12px;
+  margin-top: 7px;
+}
+.living-cash-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid #dce2cf;
+}
+.living-cash-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+.living-cash-details > div + div {
+  padding-left: 25px;
+  border-left: 1px solid #dce2cf;
+}
+.living-cash-details span {
+  color: #758368;
+  font-size: 12px;
+}
+.living-cash-details strong {
+  font-size: 21px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+.living-cash-details small {
+  color: #929e82;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.living-period-cash {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+  padding: 14px 0 0;
+  border-top: 1px solid #dce2cf;
+}
+.living-period-cash > span {
+  font-size: 13px;
+  color: #70825f;
+}
+.living-period-cash small {
+  display: block;
+  font-size: 12px;
+  color: #98a08d;
+  margin-top: 6px;
+}
+.living-period-cash > strong {
+  font-size: 22px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+.living-preferences {
+  padding: 24px;
+}
+.living-preferences .living-section-heading h2 {
+  font-size: 18px;
+  margin-top: 9px;
+}
+.living-reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  width: 34px;
+  background: #f2f4ec;
+  border-radius: 50%;
+  color: #839078;
+}
+.living-preference-intro {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #8e9784;
+  margin-top: 12px;
+}
+.living-editor-tabs {
+  display: flex;
+  gap: 21px;
+  border-bottom: 1px solid #e9ecdf;
+  margin: 15px 0 20px;
+}
+.living-editor-tabs > button {
+  position: relative;
+  min-height: 42px;
+  padding: 8px 2px;
+  color: #9aa28f;
+  font-size: 13px;
+}
+.living-editor-tabs > button.active {
+  color: #476147;
+}
+.living-editor-tabs > button.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #57744e;
+  border-radius: 2px;
+}
+.living-editor-panel {
+  display: grid;
+  gap: 18px;
+}
+.living-rental-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dce3cf;
+  background: #f3f5ec;
+  border-radius: 7px;
+  padding: 11px;
+  font-size: 12px;
+  color: #627751;
+}
+.living-affordability {
+  border-top: 1px solid #e6eadc;
+  margin-top: 24px;
+  padding-top: 20px;
+}
+.living-affordability > .living-number-field {
+  margin-top: 15px;
+}
+.living-affordability > p {
+  font-size: 12px;
+  color: #708162;
+  margin-top: 10px;
+  line-height: 1.8;
+}
+.living-budget-meter {
+  height: 7px;
+  background: #edf0e4;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 14px;
+}
+.living-budget-meter > span {
+  display: block;
+  height: 100%;
+  background: #8aab75;
+}
+.living-budget-meter.over > span {
+  background: #bb8359;
+}
+.living-affordability > .living-over-budget {
+  color: #ae764e;
+}
+.living-range-label {
+  display: block;
+}
+.living-range-label > span:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #748166;
+}
+.living-range-label strong {
+  color: #4c6747;
+  font-size: 16px;
+  font-weight: 500;
+}
+.living-range-label input {
+  width: 100%;
+  accent-color: #57794a;
+  margin: 17px 0 5px;
+}
+.living-range-ends {
+  display: flex;
+  justify-content: space-between;
+  color: #9ba58d;
+}
+.living-range-ends small {
+  font-size: 12px;
+}
+.living-food-result {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 17px;
+  background: #f2f5e9;
+  border-radius: 9px;
+  color: #7d9168;
+}
+.living-food-result > div {
+  display: grid;
+  gap: 7px;
+}
+.living-food-result span {
+  font-size: 12px;
+}
+.living-food-result strong {
+  font-size: 23px;
+  font-weight: 500;
+  color: #496442;
+}
+.living-comparison {
+  margin-top: 25px;
+}
+.living-add-city {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 12px;
+  border: 1px solid #dfe5d3;
+  border-radius: 7px;
+  font-size: 12px;
+  color: #6c8059;
+}
+.living-add-city small {
+  color: #a1aa94;
+  font-size: 12px;
+}
+.living-comparison-note {
+  font-size: 12px;
+  color: #929c86;
+  line-height: 1.9;
+  margin-top: 11px;
+}
+.living-comparison-empty {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: #f6f7f0;
+  border: 1px dashed #dfe6d2;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 22px;
+  color: #879977;
+}
+.living-comparison-empty p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #78896a;
+}
+.living-comparison-empty small {
+  display: block;
+  font-size: 12px;
+  color: #9ba48f;
+  margin-top: 4px;
+}
+.living-comparison-empty button {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 12px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.living-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 21px;
+}
+.living-compare-city {
+  position: relative;
+  border: 1px solid #e3e7da;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.living-compare-city > img,
+.living-compare-city > .photo-fallback {
+  width: 100%;
+  height: 135px;
+}
+.living-remove-compare {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fffffff0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #677963;
+}
+.living-compare-city > div:not(.photo-fallback) {
+  padding: 17px 18px 13px;
+}
+.living-compare-city > div > span {
+  display: block;
+  font-size: 12px;
+  color: #a0a891;
+}
+.living-compare-city h3 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.living-compare-city p {
+  font-size: 12px;
+  color: #98a187;
+  margin-top: 12px;
+}
+.living-compare-city strong {
+  font-size: 24px;
+  font-weight: 500;
+  color: #4c6342;
+  overflow-wrap: anywhere;
+}
+.living-comparison-bar {
+  height: 5px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #edf1e2;
+  margin-top: 10px;
+}
+.living-comparison-bar > span {
+  display: block;
+  height: 100%;
+  background: #90a979;
+}
+.living-compare-city > div > button {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #7b8d69;
+  font-size: 12px;
+  margin-top: 13px;
+  padding: 4px 0;
+}
+.living-method {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 26px 8px;
+  color: #91a081;
+}
+.living-method > svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.living-method strong {
+  font-size: 13px;
+  font-weight: 500;
+  color: #738469;
+}
+.living-method p {
+  font-size: 12px;
+  color: #959f8b;
+  line-height: 1.95;
+  margin-top: 6px;
+}
+.living-empty {
+  padding: 60px 0;
+  text-align: center;
+}
+.living-empty h1 {
+  margin: 20px;
+}
+.living-empty p {
+  color: #879078;
+}
+@media (max-width: 1050px) {
+  .living-page {
+    width: calc(100% - 40px);
+  }
+  .living-hero {
+    grid-template-columns: 1.2fr 1fr;
+  }
+  .living-workspace {
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 17px;
+  }
+  .living-monthly-card,
+  .living-cash-card {
+    padding: 24px;
+  }
+  .living-household {
+    padding: 24px;
+  }
+  .living-budget-row > span > span {
+    display: grid;
+    gap: 5px;
+  }
+}
+@media (max-width: 780px) {
+  .living-page {
+    margin-top: 26px;
+    width: calc(100% - 32px);
+  }
+  .living-heading {
+    align-items: flex-start;
+  }
+  .living-heading h1 {
+    font-size: 26px;
+  }
+  .living-saved {
+    display: none;
+  }
+  .living-hero {
+    grid-template-columns: 1fr;
+  }
+  .living-city-scene {
+    min-height: 290px;
+  }
+  .living-household {
+    padding: 23px;
+  }
+  .living-household h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .living-workspace {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .living-preferences {
+    padding: 24px;
+  }
+  .living-editor-panel {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .living-editor-panel > .living-rental-link,
+  .living-editor-panel > .living-inline-note {
+    grid-column: 1 / -1;
+  }
+  .living-monthly-number > strong {
+    font-size: 42px;
+  }
+  .living-budget-row > span > span {
+    display: flex;
+  }
+  .living-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  .living-compare-city {
+    display: grid;
+    grid-template-columns: 128px 1fr;
+  }
+  .living-compare-city > img,
+  .living-compare-city > .photo-fallback {
+    height: 100%;
+  }
+  .living-remove-compare {
+    right: auto;
+    left: 10px;
+  }
+  .living-comparison-empty {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 18px;
+  }
+  .living-comparison-empty > svg {
+    display: none;
+  }
+  .living-comparison-empty button {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) {
+  .living-page {
+    width: calc(100% - 28px);
+    margin-top: 23px;
+  }
+  .living-heading h1 {
+    font-size: 25px;
+  }
+  .living-heading > div > p:last-child {
+    font-size: 12px;
+  }
+  .living-city-top {
+    padding: 18px;
+  }
+  .living-city-copy {
+    left: 20px;
+    right: 20px;
+    bottom: 24px;
+  }
+  .living-city-copy h2 {
+    font-size: 33px;
+  }
+  .living-city-copy h2 small {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .living-household {
+    padding: 22px 20px;
+  }
+  .living-native-currency {
+    font-size: 12px;
+  }
+  .living-workspace {
+    margin-top: 18px;
+  }
+  .living-main-column {
+    gap: 18px;
+  }
+  .living-monthly-card,
+  .living-cash-card,
+  .living-preferences,
+  .living-comparison {
+    padding: 22px 20px;
+  }
+  .living-section-heading h2 {
+    font-size: 18px;
+  }
+  .living-monthly-number {
+    gap: 7px;
+  }
+  .living-monthly-number > strong {
+    font-size: 35px;
+  }
+  .living-monthly-number > span {
+    font-size: 12px;
+  }
+  .living-monthly-context {
+    font-size: 12px;
+    gap: 14px;
+  }
+  .living-distribution-key {
+    gap: 10px 14px;
+  }
+  .living-budget-row > span > span {
+    display: grid;
+  }
+  .living-period-total {
+    align-items: flex-start;
+  }
+  .living-period-total > span {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .living-period-total > strong {
+    font-size: 26px;
+  }
+  .living-cash-details {
+    gap: 15px;
+  }
+  .living-cash-details > div + div {
+    padding-left: 15px;
+  }
+  .living-cash-details strong {
+    font-size: 20px;
+  }
+  .living-cash-details span {
+    line-height: 1.7;
+  }
+  .living-period-cash > strong {
+    font-size: 21px;
+  }
+  .living-editor-panel {
+    grid-template-columns: 1fr;
+  }
+  .living-comparison > .living-section-heading {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .living-add-city {
+    padding: 9px 11px;
+  }
+  .living-compare-city {
+    grid-template-columns: 105px 1fr;
+  }
+  .living-compare-city > div:not(.photo-fallback) {
+    padding: 16px 13px 12px;
+  }
+  .living-compare-city strong {
+    font-size: 21px;
+  }
+}

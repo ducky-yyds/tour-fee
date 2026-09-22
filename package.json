@@ -1,0 +1,43 @@
+{
+  "name": "tusuan-travel-planner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 127.0.0.1",
+    "dev:api": "node --watch server/index.mjs",
+    "build": "vite build",
+    "build:pages": "node scripts/build-pages.mjs",
+    "export:static": "node scripts/export-static-data.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "preview:pages": "vite preview --mode pages --outDir dist-pages --host 127.0.0.1",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "update:data": "node scripts/update-data.mjs",
+    "audit:experiences": "node scripts/audit-experiences.mjs",
+    "audit:catalog": "node scripts/audit-catalog.mjs",
+    "import:destinations": "node scripts/import-expansion.mjs --refresh",
+    "update:images": "node scripts/fetch-images.mjs",
+    "update:map": "node scripts/update-map.mjs",
+    "update:airports": "node scripts/update-airports.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.186.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@vitejs/plugin-react": "^5.0.3",
+    "prettier": "^3.9.8",
+    "vite": "^7.1.5",
+    "world-atlas": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

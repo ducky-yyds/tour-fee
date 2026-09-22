@@ -1,0 +1,4663 @@
+[
+  {
+    "id": "ex-shanghai-restaurant-yi-long-court",
+    "cityId": "shanghai",
+    "kind": "restaurant",
+    "name": "逸龙阁",
+    "nameEn": "Yi Long Court",
+    "provider": "上海半岛酒店",
+    "tagline": "在外滩的老上海氛围里吃粤菜",
+    "description": "以粤菜和点心为主，适合把一餐安排成旅行中的正式聚会。",
+    "address": "中山东一路32号上海半岛酒店2层",
+    "lat": 31.2441,
+    "lng": 121.4855,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "粤式点心",
+      "外滩酒店餐厅",
+      "可选品鉴菜单"
+    ],
+    "sourceUrl": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+    "bookingUrl": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网点心午餐298元/人、家庭菜单2088元/4人、主厨品鉴988元/人，均另加16.6%；应用已将附加费算入。点心套餐仅午餐。",
+    "priceOptions": [
+      {
+        "id": "dimsum",
+        "name": "点心午餐品鉴",
+        "description": "点心、蔬菜、炒饭及甜点；只适合午餐",
+        "low": 347.47,
+        "high": 347.47,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+        "checkedAt": "2026-09-22",
+        "note": "官网298元/人加16.6%=347.47元/人，仅午餐。",
+        "includes": [
+          "点心、蔬菜、炒饭及甜点；只适合午餐"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "family",
+        "name": "四人家庭菜单·整桌",
+        "description": "四人整桌套餐含烤鸭等菜品；不足4人仍需购买一整套。",
+        "low": 2434.61,
+        "high": 2434.61,
+        "currency": "CNY",
+        "unit": "booking",
+        "type": "official",
+        "sourceUrl": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+        "checkedAt": "2026-09-22",
+        "note": "官网整桌基础价2088元，乘1.166后四舍五入至2434.61元；按每桌最多4人计，不是每人价格。",
+        "includes": [
+          "一套四人家庭菜单",
+          "已计16.6%附加费"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "partyCapacity": 4
+      },
+      {
+        "id": "tasting",
+        "name": "主厨品鉴菜单",
+        "description": "多道菜配普洱与龙井茶",
+        "low": 1152.01,
+        "high": 1152.01,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+        "checkedAt": "2026-09-22",
+        "note": "官网988元/人加16.6%=1152.01元/人。",
+        "includes": [
+          "多道菜配普洱与龙井茶"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-beijing-restaurant-huang-ting",
+    "cityId": "beijing",
+    "kind": "restaurant",
+    "name": "凰庭",
+    "nameEn": "Huang Ting",
+    "provider": "北京王府半岛酒店",
+    "tagline": "王府井旁的传统粤菜空间",
+    "description": "在金鱼胡同的酒店餐厅体验粤式点心和正式中餐；菜单与当日供应需向餐厅确认。",
+    "address": "金鱼胡同8号王府半岛酒店地下二层",
+    "lat": 39.9155,
+    "lng": 116.4135,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "王府井周边",
+      "粤式料理",
+      "适合慢慢用餐"
+    ],
+    "sourceUrl": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+    "bookingUrl": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "仅核实餐厅身份、地址和粤菜服务；预算组合不是官网套餐，茶位、服务费及特殊食材另核。",
+    "priceOptions": [
+      {
+        "id": "dim-sum",
+        "name": "点心午餐自选",
+        "description": "选数款粤式点心，按一人食量估算",
+        "low": 220,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+        "checkedAt": null,
+        "note": "仅核实餐厅身份、地址和粤菜服务；预算组合不是官网套餐，茶位、服务费及特殊食材另核。",
+        "includes": [
+          "选数款粤式点心，按一人食量估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "cantonese",
+        "name": "粤菜两道与主食",
+        "description": "自选两道菜和主食的预算组合",
+        "low": 420,
+        "high": 700,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+        "checkedAt": null,
+        "note": "仅核实餐厅身份、地址和粤菜服务；预算组合不是官网套餐，茶位、服务费及特殊食材另核。",
+        "includes": [
+          "自选两道菜和主食的预算组合"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "banquet",
+        "name": "多人分享中餐",
+        "description": "多人共享肉类、海鲜及蔬菜，按人分摊",
+        "low": 650,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+        "checkedAt": null,
+        "note": "仅核实餐厅身份、地址和粤菜服务；预算组合不是官网套餐，茶位、服务费及特殊食材另核。",
+        "includes": [
+          "多人共享肉类、海鲜及蔬菜，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-tokyo-restaurant-ichiran-shibuya",
+    "cityId": "tokyo",
+    "kind": "restaurant",
+    "name": "一兰拉面·涩谷店",
+    "nameEn": "ICHIRAN Shibuya",
+    "provider": "ICHIRAN",
+    "tagline": "涩谷街头的一碗豚骨汤",
+    "description": "通过口味选择单调整浓淡和面条软硬；吧台独立座位适合一个人用餐。",
+    "address": "東京都渋谷区神南1-22-7 岩本ビルB1F",
+    "lat": 35.6611,
+    "lng": 139.7014,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "豚骨拉面",
+      "味集中吧台",
+      "涩谷站步行圈"
+    ],
+    "sourceUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+    "bookingUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "后两个选择为官网单品价格相加，并非门店套餐；22:00–次日06:00另收深夜费用，未计入。",
+    "priceOptions": [
+      {
+        "id": "ramen",
+        "name": "豚骨拉面",
+        "description": "一碗天然豚骨拉面",
+        "low": 1180,
+        "high": 1180,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+        "checkedAt": "2026-09-22",
+        "note": "后两个选择为官网单品价格相加，并非门店套餐；22:00–次日06:00另收深夜费用，未计入。",
+        "includes": [
+          "一碗天然豚骨拉面"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "egg",
+        "name": "拉面加半熟蛋",
+        "description": "拉面1180日元＋半熟蛋160日元",
+        "low": 1340,
+        "high": 1340,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+        "checkedAt": "2026-09-22",
+        "note": "后两个选择为官网单品价格相加，并非门店套餐；22:00–次日06:00另收深夜费用，未计入。",
+        "includes": [
+          "拉面1180日元＋半熟蛋160日元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "extra",
+        "name": "拉面加替玉与茶",
+        "description": "拉面1180＋替玉210＋茶280日元",
+        "low": 1670,
+        "high": 1670,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+        "checkedAt": "2026-09-22",
+        "note": "后两个选择为官网单品价格相加，并非门店套餐；22:00–次日06:00另收深夜费用，未计入。",
+        "includes": [
+          "拉面1180＋替玉210＋茶280日元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-kyoto-restaurant-nishiki-gyoza",
+    "cityId": "kyoto",
+    "kind": "restaurant",
+    "name": "锦市场·にしきギョーザ",
+    "nameEn": "Nishiki Gyoza",
+    "provider": "TELACOYA",
+    "tagline": "用饺子和京都风味蘸酱歇歇脚",
+    "description": "在锦市场一带尝试手作煎饺，搭配姜味炸鸡或腌黄瓜；这是一顿轻餐的选择。",
+    "address": "京都市中京区錦小路通高倉東入中魚屋町498-1",
+    "lat": 35.0048,
+    "lng": 135.7646,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "手作煎饺",
+      "京都风味蘸酱",
+      "市场轻餐"
+    ],
+    "sourceUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+    "bookingUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "按官网堂食含税单品价加总，并非商家套餐；锦市场请在店内或指定区域吃完再走。",
+    "priceOptions": [
+      {
+        "id": "gyoza",
+        "name": "煎饺与乌龙茶",
+        "description": "招牌饺子495＋乌龙茶220日元",
+        "low": 715,
+        "high": 715,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+        "checkedAt": "2026-09-22",
+        "note": "按官网堂食含税单品价加总，并非商家套餐；锦市场请在店内或指定区域吃完再走。",
+        "includes": [
+          "招牌饺子495＋乌龙茶220日元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "chicken",
+        "name": "煎饺与炸鸡",
+        "description": "招牌饺子495＋炸鸡660日元",
+        "low": 1155,
+        "high": 1155,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+        "checkedAt": "2026-09-22",
+        "note": "按官网堂食含税单品价加总，并非商家套餐；锦市场请在店内或指定区域吃完再走。",
+        "includes": [
+          "招牌饺子495＋炸鸡660日元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "煎饺、炸鸡、腌黄瓜与茶",
+        "description": "495＋660＋385＋220日元",
+        "low": 1760,
+        "high": 1760,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+        "checkedAt": "2026-09-22",
+        "note": "按官网堂食含税单品价加总，并非商家套餐；锦市场请在店内或指定区域吃完再走。",
+        "includes": [
+          "495＋660＋385＋220日元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      }
+    ],
+    "identitySourceUrl": "https://www.telacoya.co.jp/nishikigyoza/about.html"
+  },
+  {
+    "id": "ex-osaka-restaurant-imai-honten",
+    "cityId": "osaka",
+    "kind": "restaurant",
+    "name": "道顿堀今井·本店",
+    "nameEn": "Dotonbori Imai Honten",
+    "provider": "道頓堀今井",
+    "tagline": "霓虹街边的一碗大阪高汤",
+    "description": "以日式高汤和乌冬为主，可以从单碗面选择到更适合慢吃的寄锅。",
+    "address": "大阪市中央区道頓堀1-7-22",
+    "lat": 34.6687,
+    "lng": 135.5022,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "大阪高汤",
+      "乌冬专门店",
+      "道顿堀本店"
+    ],
+    "sourceUrl": "https://www.d-imai.com/shops/honten/",
+    "bookingUrl": "https://www.d-imai.com/shops/honten/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网价格含税；锅物最后点单与普通面食不同，出发前确认营业及预约。",
+    "priceOptions": [
+      {
+        "id": "kitsune",
+        "name": "狐狸乌冬",
+        "description": "油豆腐乌冬一碗",
+        "low": 930,
+        "high": 930,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.d-imai.com/shops/honten/",
+        "checkedAt": "2026-09-22",
+        "note": "官网价格含税；锅物最后点单与普通面食不同，出发前确认营业及预约。",
+        "includes": [
+          "油豆腐乌冬一碗"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "nabeyaki",
+        "name": "锅烧乌冬",
+        "description": "热锅乌冬一份",
+        "low": 1850,
+        "high": 1850,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.d-imai.com/shops/honten/",
+        "checkedAt": "2026-09-22",
+        "note": "官网价格含税；锅物最后点单与普通面食不同，出发前确认营业及预约。",
+        "includes": [
+          "热锅乌冬一份"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "yosenabe",
+        "name": "乌冬寄锅",
+        "description": "官网按一人计价的乌冬寄锅",
+        "low": 5500,
+        "high": 5500,
+        "currency": "JPY",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.d-imai.com/shops/honten/",
+        "checkedAt": "2026-09-22",
+        "note": "官网价格含税；锅物最后点单与普通面食不同，出发前确认营业及预约。",
+        "includes": [
+          "官网按一人计价的乌冬寄锅"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-seoul-restaurant-myeongdong-kyoja",
+    "cityId": "seoul",
+    "kind": "restaurant",
+    "name": "明洞饺子·本店",
+    "nameEn": "Myeongdong Kyoja",
+    "provider": "Myeongdong Kyoja",
+    "tagline": "明洞商圈里的刀切面和蒸饺",
+    "description": "以刀切面与饺子为代表的简洁韩式餐食，适合逛街间隙停下来吃一餐。",
+    "address": "서울 중구 명동10길 29",
+    "lat": 37.5625,
+    "lng": 126.9857,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "韩式刀切面",
+      "蒸饺",
+      "明洞商圈"
+    ],
+    "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+    "bookingUrl": "https://www.mdkj.co.kr/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "韩国旅游发展局核实身份与所载地址；当前商家菜单金额未完成核验。商家官网本轮连接超时，出发前请电话确认现址和营业，链接不代表已订位。",
+    "priceOptions": [
+      {
+        "id": "noodle",
+        "name": "刀切面单点",
+        "description": "一份刀切面，价格为预算",
+        "low": 11000,
+        "high": 14000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+        "checkedAt": null,
+        "note": "韩国旅游发展局核实身份与地址；当前商家菜单金额未完成核验。",
+        "includes": [
+          "一份刀切面，价格为预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "dumpling",
+        "name": "刀切面与共享蒸饺",
+        "description": "主食加共享蒸饺，按人估算",
+        "low": 17000,
+        "high": 23000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+        "checkedAt": null,
+        "note": "韩国旅游发展局核实身份与地址；当前商家菜单金额未完成核验。",
+        "includes": [
+          "主食加共享蒸饺，按人估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "variety",
+        "name": "面食与多样配餐",
+        "description": "按较大食量增加蒸饺等现有菜单品项",
+        "low": 23000,
+        "high": 32000,
+        "currency": "KRW",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+        "checkedAt": null,
+        "note": "韩国旅游发展局核实身份与地址；当前商家菜单金额未完成核验。",
+        "includes": [
+          "按较大食量增加蒸饺等现有菜单品项"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-bangkok-restaurant-thipsamai",
+    "cityId": "bangkok",
+    "kind": "restaurant",
+    "name": "Thipsamai·鬼门店",
+    "nameEn": "Thipsamai Pratoopee",
+    "provider": "Thipsamai",
+    "tagline": "从普通炒粉到蛋包鲜虾炒粉",
+    "description": "老城的泰式炒粉专门店，官网列有素食、基础款和鲜虾蛋包等不同做法。",
+    "address": "313–315 Mahachai Road, Samranrat, Bangkok",
+    "lat": 13.7523,
+    "lng": 100.5048,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "泰式炒粉",
+      "鲜虾蛋包",
+      "曼谷老城"
+    ],
+    "sourceUrl": "https://thipsamai.com/",
+    "bookingUrl": "https://thipsamai.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "已核实菜单种类，页面未提供可确认的现行价格；三项均为编辑预算。",
+    "priceOptions": [
+      {
+        "id": "basic",
+        "name": "基础泰式炒粉",
+        "description": "基础款炒粉一份",
+        "low": 100,
+        "high": 160,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://thipsamai.com/",
+        "checkedAt": null,
+        "note": "已核实菜单种类，页面未提供可确认的现行价格；三项均为编辑预算。",
+        "includes": [
+          "基础款炒粉一份"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "vegetarian",
+        "name": "素食炒粉",
+        "description": "官网列有的素食款，需求请当面确认",
+        "low": 110,
+        "high": 180,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://thipsamai.com/",
+        "checkedAt": null,
+        "note": "已核实菜单种类，页面未提供可确认的现行价格；三项均为编辑预算。",
+        "includes": [
+          "官网列有的素食款，需求请当面确认"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "superb",
+        "name": "鲜虾蛋包炒粉",
+        "description": "Superb Padthai，鲜虾与蛋包做法",
+        "low": 200,
+        "high": 350,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://thipsamai.com/",
+        "checkedAt": null,
+        "note": "已核实菜单种类，页面未提供可确认的现行价格；三项均为编辑预算。",
+        "includes": [
+          "Superb Padthai，鲜虾与蛋包做法"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-singapore-restaurant-jumbo-riverside",
+    "cityId": "singapore",
+    "kind": "restaurant",
+    "name": "珍宝海鲜·Riverside Point",
+    "nameEn": "JUMBO Seafood Riverside Point",
+    "provider": "JUMBO Seafood",
+    "tagline": "新加坡河畔的辣椒螃蟹",
+    "description": "可把海鲜聚餐接在河岸散步之后；螃蟹按品种和重量报价，适合多人分食。",
+    "address": "30 Merchant Road, #01-01/02 Riverside Point, Singapore",
+    "lat": 1.2887,
+    "lng": 103.8447,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "辣椒螃蟹",
+      "河畔聚餐",
+      "多人分享"
+    ],
+    "sourceUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+    "bookingUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "螃蟹重量、人数、税费与服务费会改变账单；不是固定套餐报价。",
+    "priceOptions": [
+      {
+        "id": "rice",
+        "name": "主食与蔬菜轻餐",
+        "description": "主食配一道蔬菜，按人分摊",
+        "low": 30,
+        "high": 50,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+        "checkedAt": null,
+        "note": "螃蟹重量、人数、税费与服务费会改变账单；不是固定套餐报价。",
+        "includes": [
+          "主食配一道蔬菜，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "crab",
+        "name": "辣椒螃蟹分享餐",
+        "description": "螃蟹、馒头与配菜，按人分摊",
+        "low": 80,
+        "high": 140,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+        "checkedAt": null,
+        "note": "螃蟹重量、人数、税费与服务费会改变账单；不是固定套餐报价。",
+        "includes": [
+          "螃蟹、馒头与配菜，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "seafood",
+        "name": "多样海鲜分享餐",
+        "description": "增加其他海鲜及热菜的聚餐预算",
+        "low": 150,
+        "high": 250,
+        "currency": "SGD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+        "checkedAt": null,
+        "note": "螃蟹重量、人数、税费与服务费会改变账单；不是固定套餐报价。",
+        "includes": [
+          "增加其他海鲜及热菜的聚餐预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-bali-restaurant-casa-luna",
+    "cityId": "bali",
+    "kind": "restaurant",
+    "name": "Casa Luna·乌布",
+    "nameEn": "Casa Luna Ubud",
+    "provider": "Casa Luna",
+    "tagline": "巴厘香料与面包香相遇",
+    "description": "乌布主街的餐厅兼咖啡空间，菜单同时有巴厘饭菜和地中海风味。",
+    "address": "Jalan Raya Ubud, Ubud, Bali",
+    "lat": -8.5064,
+    "lng": 115.2597,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "巴厘混合饭",
+      "手工烘焙",
+      "乌布主街"
+    ],
+    "sourceUrl": "https://casalunabali.com/",
+    "bookingUrl": "https://casalunabali.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网核实菜单方向；金额为预算，税费服务费及具体份量以结账为准。",
+    "priceOptions": [
+      {
+        "id": "bakery",
+        "name": "咖啡与烘焙轻食",
+        "description": "咖啡和一份当天烘焙",
+        "low": 90000,
+        "high": 160000,
+        "currency": "IDR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://casalunabali.com/",
+        "checkedAt": null,
+        "note": "官网核实菜单方向；金额为预算，税费服务费及具体份量以结账为准。",
+        "includes": [
+          "咖啡和一份当天烘焙"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "nasi",
+        "name": "Nasi Campur 主餐",
+        "description": "巴厘混合饭及无酒精饮料",
+        "low": 150000,
+        "high": 260000,
+        "currency": "IDR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://casalunabali.com/",
+        "checkedAt": null,
+        "note": "官网核实菜单方向；金额为预算，税费服务费及具体份量以结账为准。",
+        "includes": [
+          "巴厘混合饭及无酒精饮料"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "slow",
+        "name": "香料主菜与甜点",
+        "description": "慢炖或咖喱主菜，加甜点和饮料",
+        "low": 280000,
+        "high": 450000,
+        "currency": "IDR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://casalunabali.com/",
+        "checkedAt": null,
+        "note": "官网核实菜单方向；金额为预算，税费服务费及具体份量以结账为准。",
+        "includes": [
+          "慢炖或咖喱主菜，加甜点和饮料"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-paris-restaurant-chartier",
+    "cityId": "paris",
+    "kind": "restaurant",
+    "name": "Bouillon Chartier·Grands Boulevards",
+    "nameEn": "Bouillon Chartier Grands Boulevards",
+    "provider": "Bouillon Chartier",
+    "tagline": "传统巴黎食堂里点一份家常菜",
+    "description": "长桌、热闹堂食和传统法国菜，适合用可控预算体验巴黎老式餐厅。",
+    "address": "7 Rue du Faubourg Montmartre, 75009 Paris",
+    "lat": 48.8719,
+    "lng": 2.3431,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "传统法国菜",
+      "老式食堂",
+      "现场排队"
+    ],
+    "sourceUrl": "https://www.bouillon-chartier.com/",
+    "bookingUrl": "https://www.bouillon-chartier.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网展示前菜1欧起、主菜7欧起、甜点2欧起；这里用更宽的完整餐食预算，不把起价当人人可买的整餐。无需预约，现场候位。",
+    "priceOptions": [
+      {
+        "id": "main",
+        "name": "主菜一份",
+        "description": "一份当日主菜，具体菜品现场选",
+        "low": 10,
+        "high": 18,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bouillon-chartier.com/",
+        "checkedAt": null,
+        "note": "官网展示前菜1欧起、主菜7欧起、甜点2欧起；这里用更宽的完整餐食预算，不把起价当人人可买的整餐。无需预约，现场候位。",
+        "includes": [
+          "一份当日主菜，具体菜品现场选"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "two",
+        "name": "前菜与主菜",
+        "description": "按菜单自选两道菜",
+        "low": 16,
+        "high": 25,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bouillon-chartier.com/",
+        "checkedAt": null,
+        "note": "官网展示前菜1欧起、主菜7欧起、甜点2欧起；这里用更宽的完整餐食预算，不把起价当人人可买的整餐。无需预约，现场候位。",
+        "includes": [
+          "按菜单自选两道菜"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "three",
+        "name": "前菜、主菜与甜点",
+        "description": "三道菜点餐预算，不含酒水",
+        "low": 22,
+        "high": 35,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bouillon-chartier.com/",
+        "checkedAt": null,
+        "note": "官网展示前菜1欧起、主菜7欧起、甜点2欧起；这里用更宽的完整餐食预算，不把起价当人人可买的整餐。无需预约，现场候位。",
+        "includes": [
+          "三道菜点餐预算，不含酒水"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-london-restaurant-dishoom",
+    "cityId": "london",
+    "kind": "restaurant",
+    "name": "Dishoom·Covent Garden",
+    "nameEn": "Dishoom Covent Garden",
+    "provider": "Dishoom",
+    "tagline": "伦敦的孟买咖啡馆风味",
+    "description": "复古空间里提供印度餐食，早餐卷饼、午餐卷饼和晚餐共享菜各有适合的时间。",
+    "address": "12 Upper St. Martin’s Lane, London WC2H 9FB",
+    "lat": 51.5125,
+    "lng": -0.1268,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "孟买咖啡馆",
+      "素食可选",
+      "考文特花园"
+    ],
+    "sourceUrl": "https://www.dishoom.com/covent-garden/",
+    "bookingUrl": "https://www.dishoom.com/covent-garden/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "各时段菜单不同；金额未核验为现价，含小费/服务费情况请看账单；晚间小团体通常现场候位。",
+    "priceOptions": [
+      {
+        "id": "breakfast",
+        "name": "Naan 卷饼早餐",
+        "description": "早餐卷饼与热饮，须选择早餐时段",
+        "low": 15,
+        "high": 24,
+        "currency": "GBP",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.dishoom.com/covent-garden/",
+        "checkedAt": null,
+        "note": "各时段菜单不同；金额未核验为现价，含小费/服务费情况请看账单；晚间小团体通常现场候位。",
+        "includes": [
+          "早餐卷饼与热饮，须选择早餐时段"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast"
+        ]
+      },
+      {
+        "id": "lunch",
+        "name": "Paneer 卷饼午餐",
+        "description": "午餐卷饼及饮品",
+        "low": 20,
+        "high": 32,
+        "currency": "GBP",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.dishoom.com/covent-garden/",
+        "checkedAt": null,
+        "note": "各时段菜单不同；金额未核验为现价，含小费/服务费情况请看账单；晚间小团体通常现场候位。",
+        "includes": [
+          "午餐卷饼及饮品"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "dinner",
+        "name": "Black Daal 等共享晚餐",
+        "description": "豆类菜、主菜及饼/饭的个人分摊",
+        "low": 35,
+        "high": 60,
+        "currency": "GBP",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.dishoom.com/covent-garden/",
+        "checkedAt": null,
+        "note": "各时段菜单不同；金额未核验为现价，含小费/服务费情况请看账单；晚间小团体通常现场候位。",
+        "includes": [
+          "豆类菜、主菜及饼/饭的个人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-rome-restaurant-roscioli",
+    "cityId": "rome",
+    "kind": "restaurant",
+    "name": "Roscioli 熟食餐厅",
+    "nameEn": "Salumeria Roscioli",
+    "provider": "Roscioli",
+    "tagline": "把罗马意面和熟食店放进一餐",
+    "description": "餐厅与熟食柜台结合，适合品尝罗马风味意面以及奶酪、火腿类前菜。",
+    "address": "Via dei Giubbonari 21, 00186 Roma",
+    "lat": 41.8938,
+    "lng": 12.4748,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "罗马意面",
+      "熟食柜台",
+      "老城餐厅"
+    ],
+    "sourceUrl": "https://salumeriaroscioli.com/pages/contact",
+    "bookingUrl": "https://salumeriaroscioli.com/pages/contact",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "旧版官网PDF不能证明当前价格，所有预算均估算；建议预约并核对餐位费。",
+    "priceOptions": [
+      {
+        "id": "pasta",
+        "name": "罗马意面单点",
+        "description": "一份意面，具体供应以当天菜单为准",
+        "low": 22,
+        "high": 35,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://salumeriaroscioli.com/pages/contact",
+        "checkedAt": null,
+        "note": "旧版官网PDF不能证明当前价格，所有预算均估算；建议预约并核对餐位费。",
+        "includes": [
+          "一份意面，具体供应以当天菜单为准"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "antipasti",
+        "name": "熟食前菜与意面",
+        "description": "共享熟食或奶酪前菜，另点意面",
+        "low": 40,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://salumeriaroscioli.com/pages/contact",
+        "checkedAt": null,
+        "note": "旧版官网PDF不能证明当前价格，所有预算均估算；建议预约并核对餐位费。",
+        "includes": [
+          "共享熟食或奶酪前菜，另点意面"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "前菜、意面与甜点",
+        "description": "三部分用餐，不含葡萄酒",
+        "low": 60,
+        "high": 95,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://salumeriaroscioli.com/pages/contact",
+        "checkedAt": null,
+        "note": "旧版官网PDF不能证明当前价格，所有预算均估算；建议预约并核对餐位费。",
+        "includes": [
+          "三部分用餐，不含葡萄酒"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-barcelona-restaurant-7-portes",
+    "cityId": "barcelona",
+    "kind": "restaurant",
+    "name": "7 Portes",
+    "nameEn": "7 Portes",
+    "provider": "7 Portes",
+    "tagline": "拱廊边的一餐加泰罗尼亚风味",
+    "description": "米饭、海鲜和加泰罗尼亚传统菜是主角，适合从滨海老城散步过来。",
+    "address": "Passeig d’Isabel II 14, 08003 Barcelona",
+    "lat": 41.3826,
+    "lng": 2.1828,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "加泰罗尼亚菜",
+      "海鲜饭",
+      "历史餐厅"
+    ],
+    "sourceUrl": "https://7portes.com/ca/reservar-taula-restaurant/",
+    "bookingUrl": "https://7portes.com/ca/reservar-taula-restaurant/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "2026官网另有需提前确认的团队菜单；此处为散客自选预算，不冒用团队套餐价。",
+    "priceOptions": [
+      {
+        "id": "rice",
+        "name": "海鲜饭主餐",
+        "description": "一人份米饭主菜预算",
+        "low": 30,
+        "high": 45,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://7portes.com/ca/reservar-taula-restaurant/",
+        "checkedAt": null,
+        "note": "2026官网另有需提前确认的团队菜单；此处为散客自选预算，不冒用团队套餐价。",
+        "includes": [
+          "一人份米饭主菜预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "tapas",
+        "name": "小吃前菜与海鲜饭",
+        "description": "共享小吃，再点米饭主菜",
+        "low": 45,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://7portes.com/ca/reservar-taula-restaurant/",
+        "checkedAt": null,
+        "note": "2026官网另有需提前确认的团队菜单；此处为散客自选预算，不冒用团队套餐价。",
+        "includes": [
+          "共享小吃，再点米饭主菜"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "three",
+        "name": "海鲜主菜三道式",
+        "description": "前菜、鱼或海鲜主菜、甜点",
+        "low": 65,
+        "high": 95,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://7portes.com/ca/reservar-taula-restaurant/",
+        "checkedAt": null,
+        "note": "2026官网另有需提前确认的团队菜单；此处为散客自选预算，不冒用团队套餐价。",
+        "includes": [
+          "前菜、鱼或海鲜主菜、甜点"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-new-york-restaurant-katz",
+    "cityId": "new-york",
+    "kind": "restaurant",
+    "name": "Katz’s 熟食店",
+    "nameEn": "Katz’s Delicatessen",
+    "provider": "Katz’s Delicatessen",
+    "tagline": "下东区的热熏牛肉三明治",
+    "description": "点一份厚切肉三明治，再按胃口加汤或配菜，体验纽约熟食店传统。",
+    "address": "205 East Houston Street, New York, NY 10002",
+    "lat": 40.7223,
+    "lng": -73.9874,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "Pastrami 三明治",
+      "下东区",
+      "熟食店传统"
+    ],
+    "sourceUrl": "https://katzsdelicatessen.com/",
+    "bookingUrl": "https://katzsdelicatessen.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "组合是官网单品相加，不是套餐；未加销售税、小费、饮料和额外配料，不是最终含税账单。",
+    "priceOptions": [
+      {
+        "id": "pastrami",
+        "name": "热熏牛肉三明治",
+        "description": "官网店内菜单栏目所列三明治",
+        "low": 28.95,
+        "high": 28.95,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://katzsdelicatessen.com/",
+        "checkedAt": "2026-09-22",
+        "note": "组合是官网单品相加，不是套餐；未加销售税、小费、饮料和额外配料，不是最终含税账单。",
+        "includes": [
+          "官网店内菜单栏目所列三明治"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "soup",
+        "name": "三明治与丸子汤",
+        "description": "三明治28.95＋Matzoh Ball Soup 9.95美元",
+        "low": 38.9,
+        "high": 38.9,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://katzsdelicatessen.com/",
+        "checkedAt": "2026-09-22",
+        "note": "组合是官网单品相加，不是套餐；未加销售税、小费、饮料和额外配料，不是最终含税账单。",
+        "includes": [
+          "三明治28.95＋Matzoh Ball Soup 9.95美元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "latkes",
+        "name": "三明治与土豆饼",
+        "description": "三明治28.95＋Potato Latkes 16.95美元",
+        "low": 45.9,
+        "high": 45.9,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://katzsdelicatessen.com/",
+        "checkedAt": "2026-09-22",
+        "note": "组合是官网单品相加，不是套餐；未加销售税、小费、饮料和额外配料，不是最终含税账单。",
+        "includes": [
+          "三明治28.95＋Potato Latkes 16.95美元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-sydney-restaurant-bills",
+    "cityId": "sydney",
+    "kind": "restaurant",
+    "name": "bills·Surry Hills",
+    "nameEn": "bills Surry Hills",
+    "provider": "bills",
+    "tagline": "从热松饼开始悉尼的一天",
+    "description": "邻里餐厅提供从早餐到晚餐的季节菜单，最适合预留一段不赶时间的早午餐。",
+    "address": "355 Crown Street, Surry Hills NSW 2010",
+    "lat": -33.8835,
+    "lng": 151.2145,
+    "durationMinutes": 75,
+    "mealType": "breakfast",
+    "features": [
+      "澳式早午餐",
+      "Ricotta 热松饼",
+      "Surry Hills"
+    ],
+    "sourceUrl": "https://www.bills.com.au/locations/surry-hills",
+    "bookingUrl": "https://www.bills.com.au/locations/surry-hills",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "菜单随时段变化；金额为估算，周末或公休日附加费用请看店内说明。",
+    "priceOptions": [
+      {
+        "id": "eggs",
+        "name": "炒蛋与咖啡",
+        "description": "早餐炒蛋类主餐与咖啡",
+        "low": 30,
+        "high": 45,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bills.com.au/locations/surry-hills",
+        "checkedAt": null,
+        "note": "菜单随时段变化；金额为估算，周末或公休日附加费用请看店内说明。",
+        "includes": [
+          "早餐炒蛋类主餐与咖啡"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast"
+        ]
+      },
+      {
+        "id": "hotcakes",
+        "name": "Ricotta 热松饼与饮品",
+        "description": "招牌风格松饼配饮品",
+        "low": 35,
+        "high": 50,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bills.com.au/locations/surry-hills",
+        "checkedAt": null,
+        "note": "菜单随时段变化；金额为估算，周末或公休日附加费用请看店内说明。",
+        "includes": [
+          "招牌风格松饼配饮品"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast"
+        ]
+      },
+      {
+        "id": "dinner",
+        "name": "晚餐主菜与前菜",
+        "description": "晚间菜单的一份主菜与共享前菜",
+        "low": 65,
+        "high": 95,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.bills.com.au/locations/surry-hills",
+        "checkedAt": null,
+        "note": "菜单随时段变化；金额为估算，周末或公休日附加费用请看店内说明。",
+        "includes": [
+          "晚间菜单的一份主菜与共享前菜"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-dubai-restaurant-arabian-tea-house",
+    "cityId": "dubai",
+    "kind": "restaurant",
+    "name": "Arabian Tea House·Al Fahidi",
+    "nameEn": "Arabian Tea House Al Fahidi",
+    "provider": "Arabian Tea House",
+    "tagline": "老迪拜庭院里的阿联酋家常味",
+    "description": "在Al Fahidi历史街区停下来尝试本地早餐和传统阿拉伯餐食。",
+    "address": "Al Fahidi Street, Bur Dubai, Dubai",
+    "lat": 25.2635,
+    "lng": 55.298,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "阿联酋家常菜",
+      "庭院茶屋",
+      "Al Fahidi"
+    ],
+    "sourceUrl": "https://arabianteahouse.com/al-fahidi/",
+    "bookingUrl": "https://arabianteahouse.com/al-fahidi/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网核实餐厅与阿联酋料理定位；当前菜单金额未核验，各选项不是官方套餐。",
+    "priceOptions": [
+      {
+        "id": "breakfast",
+        "name": "本地早餐与茶",
+        "description": "早餐菜品与一杯茶，早餐时段适用",
+        "low": 70,
+        "high": 110,
+        "currency": "AED",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://arabianteahouse.com/",
+        "checkedAt": null,
+        "note": "官网核实餐厅与阿联酋料理定位；当前菜单金额未核验，各选项不是官方套餐。",
+        "includes": [
+          "早餐菜品与一杯茶，早餐时段适用"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast"
+        ]
+      },
+      {
+        "id": "main",
+        "name": "传统主餐",
+        "description": "自选一份主菜和无酒精饮料",
+        "low": 95,
+        "high": 155,
+        "currency": "AED",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://arabianteahouse.com/",
+        "checkedAt": null,
+        "note": "官网核实餐厅与阿联酋料理定位；当前菜单金额未核验，各选项不是官方套餐。",
+        "includes": [
+          "自选一份主菜和无酒精饮料"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "share",
+        "name": "共享餐与甜点",
+        "description": "共享菜肴、茶及甜点的每人预算",
+        "low": 150,
+        "high": 220,
+        "currency": "AED",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://arabianteahouse.com/",
+        "checkedAt": null,
+        "note": "官网核实餐厅与阿联酋料理定位；当前菜单金额未核验，各选项不是官方套餐。",
+        "includes": [
+          "共享菜肴、茶及甜点的每人预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-istanbul-restaurant-pandeli",
+    "cityId": "istanbul",
+    "kind": "restaurant",
+    "name": "Pandeli",
+    "nameEn": "Pandeli",
+    "provider": "Pandeli",
+    "tagline": "香料市场楼上的蓝色瓷砖餐厅",
+    "description": "在历史市场里坐下吃土耳其传统热菜；这家店不接待仅点茶、咖啡或甜点的客人。",
+    "address": "Mısır Çarşısı içi 1/2, Rüstempaşa, Fatih, İstanbul",
+    "lat": 41.0165,
+    "lng": 28.9706,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "土耳其传统菜",
+      "蓝色瓷砖",
+      "香料市场内"
+    ],
+    "sourceUrl": "https://pandeli.com.tr/",
+    "bookingUrl": "https://pandeli.com.tr/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "里拉菜单价格变化较快，三项均估算；官网预约请求时段12:00–18:00，需商家确认。",
+    "priceOptions": [
+      {
+        "id": "chicken",
+        "name": "鸡肉主菜与饭",
+        "description": "鸡肉主菜及饭的预算",
+        "low": 850,
+        "high": 1300,
+        "currency": "TRY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://pandeli.com.tr/",
+        "checkedAt": null,
+        "note": "里拉菜单价格变化较快，三项均估算；官网预约请求时段12:00–18:00，需商家确认。",
+        "includes": [
+          "鸡肉主菜及饭的预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "lamb",
+        "name": "茄泥羊肉主菜",
+        "description": "Hünkar beğendi 风格羊肉主菜",
+        "low": 1200,
+        "high": 1800,
+        "currency": "TRY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://pandeli.com.tr/",
+        "checkedAt": null,
+        "note": "里拉菜单价格变化较快，三项均估算；官网预约请求时段12:00–18:00，需商家确认。",
+        "includes": [
+          "Hünkar beğendi 风格羊肉主菜"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "前菜与主菜",
+        "description": "冷前菜、肉类主菜及饮品",
+        "low": 1600,
+        "high": 2600,
+        "currency": "TRY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://pandeli.com.tr/",
+        "checkedAt": null,
+        "note": "里拉菜单价格变化较快，三项均估算；官网预约请求时段12:00–18:00，需商家确认。",
+        "includes": [
+          "冷前菜、肉类主菜及饮品"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-hong-kong-restaurant-tim-ho-wan",
+    "cityId": "hong-kong",
+    "kind": "restaurant",
+    "name": "添好运·深水埗",
+    "nameEn": "Tim Ho Wan Sham Shui Po",
+    "provider": "添好运",
+    "tagline": "深水埗的点心小聚",
+    "description": "酥皮叉烧包是代表菜，可以搭配肠粉、糕点或蒸点来安排一顿粤式点心餐。",
+    "address": "九龙深水埗福荣街9–11号地下",
+    "lat": 22.3288,
+    "lng": 114.166,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "酥皮叉烧包",
+      "粤式点心",
+      "深水埗街区"
+    ],
+    "sourceUrl": "https://www.timhowan.com.hk/our-stores/",
+    "bookingUrl": "https://www.timhowan.com.hk/our-stores/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网门店页核实深水埗福荣街9–11号地址；香港旅游发展局介绍招牌。现行菜单价格未核验，茶位及加一服务费须现场确认。",
+    "priceOptions": [
+      {
+        "id": "buns",
+        "name": "叉烧包与茶轻食",
+        "description": "一份叉烧包及茶位预算",
+        "low": 45,
+        "high": 70,
+        "currency": "HKD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tim-ho-wan.html",
+        "checkedAt": null,
+        "note": "香港旅游发展局核实门店与招牌；现行菜单价格未核验，茶位及加一服务费须现场确认。",
+        "includes": [
+          "一份叉烧包及茶位预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "dimsum",
+        "name": "三样点心午餐",
+        "description": "按一人食量选择三样点心",
+        "low": 85,
+        "high": 130,
+        "currency": "HKD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tim-ho-wan.html",
+        "checkedAt": null,
+        "note": "香港旅游发展局核实门店与招牌；现行菜单价格未核验，茶位及加一服务费须现场确认。",
+        "includes": [
+          "按一人食量选择三样点心"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "variety",
+        "name": "点心与肠粉分享餐",
+        "description": "多样点心、肠粉和甜点，按人分摊",
+        "low": 140,
+        "high": 210,
+        "currency": "HKD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tim-ho-wan.html",
+        "checkedAt": null,
+        "note": "香港旅游发展局核实门店与招牌；现行菜单价格未核验，茶位及加一服务费须现场确认。",
+        "includes": [
+          "多样点心、肠粉和甜点，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-chengdu-restaurant-mi-xun",
+    "cityId": "chengdu",
+    "kind": "restaurant",
+    "name": "谧寻茶室",
+    "nameEn": "Mi Xun Teahouse",
+    "provider": "Upper House Chengdu（原博舍）",
+    "tagline": "大慈寺旁，川味也可以是素食",
+    "description": "以茶和植物性川味料理为主，官网另列素食火锅及分享菜单。",
+    "address": "成都市锦江区笔帖式街81号",
+    "lat": 30.6512,
+    "lng": 104.0817,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "植物性川菜",
+      "茶室空间",
+      "大慈寺周边"
+    ],
+    "sourceUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+    "bookingUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "核实植物性川菜午餐、双人素食火锅与分享菜单；金额均为编辑估算，双人火锅按整套计费。",
+    "priceOptions": [
+      {
+        "id": "tea",
+        "name": "植物性川菜午餐",
+        "description": "按菜单自选植物性川菜与茶的午餐预算",
+        "low": 220,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+        "checkedAt": null,
+        "note": "核实植物性川菜午餐、双人素食火锅与分享菜单；金额均为编辑估算，双人火锅按整套计费。",
+        "includes": [
+          "一人自选植物性川菜与茶的预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "hotpot",
+        "name": "双人素食火锅·整套",
+        "description": "一份双人素食火锅，按最多2人一套估算；不足2人也按整套预算。",
+        "low": 600,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "booking",
+        "type": "estimate",
+        "sourceUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+        "checkedAt": null,
+        "note": "核实植物性川菜午餐、双人素食火锅与分享菜单；金额均为编辑估算，双人火锅按整套计费。",
+        "includes": [
+          "一份双人素食火锅的编辑预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ],
+        "partyCapacity": 2
+      },
+      {
+        "id": "sharing",
+        "name": "川味素食分享餐",
+        "description": "多道植物性川菜，按人分摊",
+        "low": 500,
+        "high": 800,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+        "checkedAt": null,
+        "note": "核实植物性川菜午餐、双人素食火锅与分享菜单；金额均为编辑估算，双人火锅按整套计费。",
+        "includes": [
+          "多道植物性川菜，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-xian-restaurant-dolce-vita",
+    "cityId": "xian",
+    "kind": "restaurant",
+    "name": "Dolce Vita·罗马假日",
+    "nameEn": "Dolce Vita",
+    "provider": "西安索菲特传奇酒店",
+    "tagline": "历史酒店花园边的意式晚餐",
+    "description": "这里提供意式料理和木炉披萨，可作为陕西面食以外的一餐变化。",
+    "address": "西安市新城区东新街319号",
+    "lat": 34.2651,
+    "lng": 108.9603,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "木炉披萨",
+      "意式料理",
+      "人民大厦建筑群"
+    ],
+    "sourceUrl": "https://all.accor.com/hotel/6156/index.id.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/6156/index.en.shtml",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网不同页面营业信息存在差异，务必向酒店确认可用餐日期；金额未核验，非套餐报价。",
+    "priceOptions": [
+      {
+        "id": "pizza",
+        "name": "木炉披萨主餐",
+        "description": "按一人一份披萨及饮品估算",
+        "low": 120,
+        "high": 220,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://all.accor.com/hotel/6156/index.id.shtml",
+        "checkedAt": null,
+        "note": "官网不同页面营业信息存在差异，务必向酒店确认可用餐日期；金额未核验，非套餐报价。",
+        "includes": [
+          "按一人一份披萨及饮品估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "antipasti",
+        "name": "前菜与意式主餐",
+        "description": "共享意式前菜，另点主餐",
+        "low": 220,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://all.accor.com/hotel/6156/index.id.shtml",
+        "checkedAt": null,
+        "note": "官网不同页面营业信息存在差异，务必向酒店确认可用餐日期；金额未核验，非套餐报价。",
+        "includes": [
+          "共享意式前菜，另点主餐"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "三道式用餐",
+        "description": "前菜、主餐、甜点自选组合",
+        "low": 350,
+        "high": 600,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://all.accor.com/hotel/6156/index.id.shtml",
+        "checkedAt": null,
+        "note": "官网不同页面营业信息存在差异，务必向酒店确认可用餐日期；金额未核验，非套餐报价。",
+        "includes": [
+          "前菜、主餐、甜点自选组合"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-hangzhou-restaurant-jin-sha",
+    "cityId": "hangzhou",
+    "kind": "restaurant",
+    "name": "金沙厅",
+    "nameEn": "Jin Sha",
+    "provider": "杭州西子湖四季酒店",
+    "tagline": "江南园林里的浙江风味",
+    "description": "菜单有龙井虾仁、酱香肉类以及午市点心，适合在西湖西侧安排一顿慢餐。",
+    "address": "杭州市西湖区灵隐路5号",
+    "lat": 30.2528,
+    "lng": 120.1274,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "江浙料理",
+      "龙井虾仁",
+      "园林环境"
+    ],
+    "sourceUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+    "bookingUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "菜单种类已核实，页面未显示金额；点心仅午市，部分菜需要提前预订。",
+    "priceOptions": [
+      {
+        "id": "dimsum",
+        "name": "午市点心组合",
+        "description": "选择点心与面点，午餐适用",
+        "low": 300,
+        "high": 500,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+        "checkedAt": null,
+        "note": "菜单种类已核实，页面未显示金额；点心仅午市，部分菜需要提前预订。",
+        "includes": [
+          "选择点心与面点，午餐适用"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch"
+        ]
+      },
+      {
+        "id": "local",
+        "name": "龙井虾仁与家常菜",
+        "description": "共享虾仁、肉菜与主食，按人估算",
+        "low": 550,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+        "checkedAt": null,
+        "note": "菜单种类已核实，页面未显示金额；点心仅午市，部分菜需要提前预订。",
+        "includes": [
+          "共享虾仁、肉菜与主食，按人估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "seafood",
+        "name": "海鲜与特色菜聚餐",
+        "description": "加入海鲜和多道招牌菜，按人分摊",
+        "low": 1000,
+        "high": 1800,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+        "checkedAt": null,
+        "note": "菜单种类已核实，页面未显示金额；点心仅午市，部分菜需要提前预订。",
+        "includes": [
+          "加入海鲜和多道招牌菜，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-guangzhou-restaurant-hongtu-hall",
+    "cityId": "guangzhou",
+    "kind": "restaurant",
+    "name": "宏图府",
+    "nameEn": "Hongtu Hall",
+    "provider": "白天鹅宾馆",
+    "tagline": "沙面江畔的一盅两件",
+    "description": "白天鹅的粤式点心餐厅，以现做点心为特色，适合配合沙面散步安排早茶。",
+    "address": "广州市荔湾区沙面南街1号白天鹅宾馆",
+    "lat": 23.1072,
+    "lng": 113.2401,
+    "durationMinutes": 75,
+    "mealType": "breakfast",
+    "features": [
+      "粤式点心",
+      "沙面江畔",
+      "广州早茶"
+    ],
+    "sourceUrl": "https://whiteswanhotel.com/en/dining",
+    "bookingUrl": "https://whiteswanhotel.com/en/dining",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "核实宏图府点心服务；金额、茶位及服务费未取得当前官方报价。",
+    "priceOptions": [
+      {
+        "id": "light",
+        "name": "茶与两样点心",
+        "description": "轻量早茶，按人估算",
+        "low": 120,
+        "high": 200,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://whiteswanhotel.com/en/dining",
+        "checkedAt": null,
+        "note": "核实宏图府点心服务；金额、茶位及服务费未取得当前官方报价。",
+        "includes": [
+          "轻量早茶，按人估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "classic",
+        "name": "四样点心分享",
+        "description": "共享蒸点、煎炸点及糕点",
+        "low": 220,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://whiteswanhotel.com/en/dining",
+        "checkedAt": null,
+        "note": "核实宏图府点心服务；金额、茶位及服务费未取得当前官方报价。",
+        "includes": [
+          "共享蒸点、煎炸点及糕点"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "丰盛点心与主食",
+        "description": "多样点心加饭面主食，按人分摊",
+        "low": 350,
+        "high": 550,
+        "currency": "CNY",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://whiteswanhotel.com/en/dining",
+        "checkedAt": null,
+        "note": "核实宏图府点心服务；金额、茶位及服务费未取得当前官方报价。",
+        "includes": [
+          "多样点心加饭面主食，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-lisbon-restaurant-pasteis-belem",
+    "cityId": "lisbon",
+    "kind": "restaurant",
+    "name": "贝伦蛋挞店",
+    "nameEn": "Pastéis de Belém",
+    "provider": "Pastéis de Belém",
+    "tagline": "蛋挞、浓缩咖啡与蓝白瓷砖",
+    "description": "从1837年延续下来的贝伦糕点店，适合参观修道院前后的轻食停留。",
+    "address": "Rua de Belém 84–92, 1300-085 Lisboa",
+    "lat": 38.6975,
+    "lng": -9.2032,
+    "durationMinutes": 75,
+    "mealType": "breakfast",
+    "features": [
+      "贝伦蛋挞",
+      "葡式糕点",
+      "贝伦街区"
+    ],
+    "sourceUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+    "bookingUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "由官网单品相加，属于本应用组合而非套餐；均为轻食，不是正式晚餐。",
+    "priceOptions": [
+      {
+        "id": "coffee",
+        "name": "蛋挞与浓缩咖啡",
+        "description": "蛋挞1.60＋浓缩咖啡1.20欧元",
+        "low": 2.8,
+        "high": 2.8,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+        "checkedAt": "2026-09-22",
+        "note": "由官网单品相加，属于本应用组合而非套餐；均为轻食，不是正式晚餐。",
+        "includes": [
+          "蛋挞1.60＋浓缩咖啡1.20欧元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "savory",
+        "name": "蛋挞、鳕鱼球与咖啡",
+        "description": "蛋挞1.60＋鳕鱼球1.90＋咖啡1.20欧元",
+        "low": 4.7,
+        "high": 4.7,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+        "checkedAt": "2026-09-22",
+        "note": "由官网单品相加，属于本应用组合而非套餐；均为轻食，不是正式晚餐。",
+        "includes": [
+          "蛋挞1.60＋鳕鱼球1.90＋咖啡1.20欧元"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "sandwich",
+        "name": "火腿芝士烤三明治、蛋挞与鲜橙汁",
+        "description": "切片面包烤三明治3.30＋蛋挞1.60＋鲜橙汁4.00",
+        "low": 8.9,
+        "high": 8.9,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+        "checkedAt": "2026-09-22",
+        "note": "由官网单品相加，属于本应用组合而非套餐；均为轻食，不是正式晚餐。",
+        "includes": [
+          "切片面包烤三明治3.30＋蛋挞1.60＋鲜橙汁4.00"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-amsterdam-restaurant-pantry",
+    "cityId": "amsterdam",
+    "kind": "restaurant",
+    "name": "The Pantry",
+    "nameEn": "The Pantry",
+    "provider": "The Pantry",
+    "tagline": "一张桌子尝尝荷兰家常菜",
+    "description": "靠近Leidseplein的家常菜餐厅，官方三道菜单让预算和菜色都比较容易核对。",
+    "address": "Leidsekruisstraat 21, 1017 RE Amsterdam",
+    "lat": 52.3639,
+    "lng": 4.8851,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "荷兰炖菜",
+      "土豆泥组合",
+      "三道式菜单"
+    ],
+    "sourceUrl": "https://www.thepantry.nl/menukaart/",
+    "bookingUrl": "https://www.thepantry.nl/menukaart/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网现行菜单列价；饮料、额外加点及自愿小费另计。",
+    "priceOptions": [
+      {
+        "id": "dutch",
+        "name": "Dutch Delight 三道菜单",
+        "description": "豌豆汤、传统土豆泥组合配肉类、Vlaflip 甜点",
+        "low": 26.5,
+        "high": 26.5,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.thepantry.nl/menukaart/",
+        "checkedAt": "2026-09-22",
+        "note": "官网现行菜单列价；饮料、额外加点及自愿小费另计。",
+        "includes": [
+          "豌豆汤、传统土豆泥组合配肉类、Vlaflip 甜点"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "fish",
+        "name": "Volendam Fish 三道菜单",
+        "description": "虾可乐饼、香草蒸鱼、糖浆华夫冰淇淋",
+        "low": 35.95,
+        "high": 35.95,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.thepantry.nl/menukaart/",
+        "checkedAt": "2026-09-22",
+        "note": "官网现行菜单列价；饮料、额外加点及自愿小费另计。",
+        "includes": [
+          "虾可乐饼、香草蒸鱼、糖浆华夫冰淇淋"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "full",
+        "name": "Full Pantry Experience",
+        "description": "丰富前菜、加大土豆泥组合及两种甜点",
+        "low": 43.75,
+        "high": 43.75,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "official",
+        "sourceUrl": "https://www.thepantry.nl/menukaart/",
+        "checkedAt": "2026-09-22",
+        "note": "官网现行菜单列价；饮料、额外加点及自愿小费另计。",
+        "includes": [
+          "丰富前菜、加大土豆泥组合及两种甜点"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-berlin-restaurant-max-moritz",
+    "cityId": "berlin",
+    "kind": "restaurant",
+    "name": "Max und Moritz",
+    "nameEn": "Max und Moritz",
+    "provider": "Max und Moritz",
+    "tagline": "Kreuzberg 的柏林家常菜馆",
+    "description": "老式德式餐馆提供土豆、猪肉、炖肉等家常热菜；注意准备餐厅支持的支付方式。",
+    "address": "Oranienstraße 162, 10969 Berlin",
+    "lat": 52.5028,
+    "lng": 13.4113,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "柏林家常菜",
+      "老式酒馆",
+      "Kreuzberg"
+    ],
+    "sourceUrl": "https://maxundmoritzberlin.de/",
+    "bookingUrl": "https://maxundmoritzberlin.de/reservierung/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "仅核实官网公开菜单与餐厅身份；PDF路径含旧年份且未标现行生效日，价格降级为参考估算。菜单注明不接受信用卡，出行前确认支付方式。",
+    "priceOptions": [
+      {
+        "id": "hoppel",
+        "name": "Hoppel Poppel 蛋薯肉餐",
+        "description": "蛋、土豆、洋葱及肉类，配沙拉",
+        "low": 15.8,
+        "high": 25,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://maxundmoritzberlin.de/wp-content/uploads/2022/03/Menucard-Food-Drink_uk.pdf",
+        "checkedAt": null,
+        "note": "低值参考官网可访问PDF所列含税单品价，高值为编辑预留；该PDF无现行生效日，不能确认是当前门店售价。饮料和自愿小费另计。",
+        "includes": [
+          "蛋、土豆、洋葱及肉类，配沙拉"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "id": "knuckle",
+        "name": "柏林盐水猪肘",
+        "description": "猪肘、酸菜、土豆及豌豆泥",
+        "low": 18.5,
+        "high": 30,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://maxundmoritzberlin.de/wp-content/uploads/2022/03/Menucard-Food-Drink_uk.pdf",
+        "checkedAt": null,
+        "note": "低值参考官网可访问PDF所列含税单品价，高值为编辑预留；该PDF无现行生效日，不能确认是当前门店售价。饮料和自愿小费另计。",
+        "includes": [
+          "猪肘、酸菜、土豆及豌豆泥"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "id": "schnitzel",
+        "name": "大份维也纳炸小牛排",
+        "description": "炸小牛排，配土豆和沙拉",
+        "low": 23.5,
+        "high": 35,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://maxundmoritzberlin.de/wp-content/uploads/2022/03/Menucard-Food-Drink_uk.pdf",
+        "checkedAt": null,
+        "note": "低值参考官网可访问PDF所列含税单品价，高值为编辑预留；该PDF无现行生效日，不能确认是当前门店售价。饮料和自愿小费另计。",
+        "includes": [
+          "炸小牛排，配土豆和沙拉"
+        ],
+        "excludes": [
+          "未列明的饮品、加点和附加收费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-venice-restaurant-venissa",
+    "cityId": "venice",
+    "kind": "restaurant",
+    "name": "Venissa 餐厅",
+    "nameEn": "Ristorante Venissa",
+    "provider": "Venissa",
+    "tagline": "潟湖葡萄园里的慢餐",
+    "description": "在Mazzorbo岛的葡萄园环境用餐，适合愿意专程坐船、把一餐留得更长的人。",
+    "address": "Fondamenta Santa Caterina 3, 30142 Mazzorbo, Venezia",
+    "lat": 45.486,
+    "lng": 12.4129,
+    "durationMinutes": 180,
+    "mealType": "dinner",
+    "features": [
+      "潟湖食材",
+      "葡萄园环境",
+      "Mazzorbo岛"
+    ],
+    "sourceUrl": "https://www.venissa.it/ristorante/",
+    "bookingUrl": "https://www.venissa.it/ristorante/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "仅核实餐厅与品鉴服务；组合及金额为估算，不保证当前配酒方案。Mazzorbo远离主岛，返程船班另核。",
+    "priceOptions": [
+      {
+        "id": "tasting",
+        "name": "七道式品鉴",
+        "description": "官网明确提供七道式品鉴菜单，金额为预算。",
+        "low": 200,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.venissa.it/ristorante/",
+        "checkedAt": null,
+        "note": "七道、十道及配酒服务已在官方页面核实；金额未核验，全部为编辑预算。",
+        "includes": [
+          "官网明确提供七道式品鉴菜单，金额为预算。"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "id": "nonalcohol",
+        "name": "十道式品鉴",
+        "description": "官网明确提供十道式品鉴菜单，金额为预算。",
+        "low": 260,
+        "high": 350,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.venissa.it/ristorante/",
+        "checkedAt": null,
+        "note": "七道、十道及配酒服务已在官方页面核实；金额未核验，全部为编辑预算。",
+        "includes": [
+          "官网明确提供十道式品鉴菜单，金额为预算。"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "id": "wine",
+        "name": "品鉴与葡萄酒搭配",
+        "description": "官网提供品鉴及葡萄酒搭配，具体组合待预订确认。",
+        "low": 310,
+        "high": 450,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.venissa.it/ristorante/",
+        "checkedAt": null,
+        "note": "七道、十道及配酒服务已在官方页面核实；金额未核验，全部为编辑预算。",
+        "includes": [
+          "官网提供品鉴及葡萄酒搭配，具体组合待预订确认。"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-florence-restaurant-dalloste",
+    "cityId": "florence",
+    "kind": "restaurant",
+    "name": "Trattoria Dall’Oste·Chianineria",
+    "nameEn": "Trattoria Dall’Oste Chianineria",
+    "provider": "Trattoria Dall’Oste",
+    "tagline": "把托斯卡纳的一餐留给牛排",
+    "description": "以牛肉不同部位和品种为特色；多人分享按重量点单的牛排前，先确认重量和总价。",
+    "address": "Via Luigi Alamanni 3/5r, Firenze",
+    "lat": 43.7767,
+    "lng": 11.2464,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "托斯卡纳牛排",
+      "按重量点肉",
+      "车站附近"
+    ],
+    "sourceUrl": "https://trattoriadalloste.com/en/",
+    "bookingUrl": "https://trattoriadalloste.com/en/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "牛排按实际品种与重量报价；不是官网固定套餐，低值不代表可单人买到完整牛排。",
+    "priceOptions": [
+      {
+        "id": "pasta",
+        "name": "意面与配菜",
+        "description": "一份意面及配菜的预算",
+        "low": 25,
+        "high": 40,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://trattoriadalloste.com/en/",
+        "checkedAt": null,
+        "note": "牛排按实际品种与重量报价；不是官网固定套餐，低值不代表可单人买到完整牛排。",
+        "includes": [
+          "一份意面及配菜的预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "steak",
+        "name": "牛排分享餐",
+        "description": "按两人以上分享一块牛排估算每人费用",
+        "low": 55,
+        "high": 95,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://trattoriadalloste.com/en/",
+        "checkedAt": null,
+        "note": "牛排按实际品种与重量报价；不是官网固定套餐，低值不代表可单人买到完整牛排。",
+        "includes": [
+          "按两人以上分享一块牛排估算每人费用"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "premium",
+        "name": "指定品种牛肉分享餐",
+        "description": "选择较高价牛肉品种，加配菜，按人估算",
+        "low": 100,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://trattoriadalloste.com/en/",
+        "checkedAt": null,
+        "note": "牛排按实际品种与重量报价；不是官网固定套餐，低值不代表可单人买到完整牛排。",
+        "includes": [
+          "选择较高价牛肉品种，加配菜，按人估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-los-angeles-restaurant-republique",
+    "cityId": "los-angeles",
+    "kind": "restaurant",
+    "name": "République",
+    "nameEn": "République",
+    "provider": "République",
+    "tagline": "历史建筑里的烘焙与法式晚餐",
+    "description": "前部是面包与咖啡空间，后部提供正式餐食，可以把同一家店安排成不同节奏。",
+    "address": "624 South La Brea Avenue, Los Angeles, CA 90036",
+    "lat": 34.0641,
+    "lng": -118.3436,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "法式烘焙",
+      "历史建筑",
+      "季节料理"
+    ],
+    "sourceUrl": "https://republiquela.com/",
+    "bookingUrl": "https://republiquela.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "官网明确咖啡区与晚餐服务不同；三项为预算。官网135美元大型聚餐仅适用8–16人，未作为散客套餐使用。税、小费及附加费另核。",
+    "priceOptions": [
+      {
+        "id": "cafe",
+        "name": "咖啡与烘焙",
+        "description": "白天咖啡区轻食",
+        "low": 15,
+        "high": 25,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://republiquela.com/",
+        "checkedAt": null,
+        "note": "官网明确咖啡区与晚餐服务不同；三项为预算。官网135美元大型聚餐仅适用8–16人，未作为散客套餐使用。税、小费及附加费另核。",
+        "includes": [
+          "白天咖啡区轻食"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "brunch",
+        "name": "咖啡区正餐",
+        "description": "主餐及饮料，白天菜单适用",
+        "low": 35,
+        "high": 55,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://republiquela.com/",
+        "checkedAt": null,
+        "note": "官网明确咖啡区与晚餐服务不同；三项为预算。官网135美元大型聚餐仅适用8–16人，未作为散客套餐使用。税、小费及附加费另核。",
+        "includes": [
+          "主餐及饮料，白天菜单适用"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "breakfast",
+          "lunch"
+        ]
+      },
+      {
+        "id": "dinner",
+        "name": "正式晚餐自选",
+        "description": "晚餐前菜、主菜及甜点预算",
+        "low": 100,
+        "high": 160,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://republiquela.com/",
+        "checkedAt": null,
+        "note": "官网明确咖啡区与晚餐服务不同；三项为预算。官网135美元大型聚餐仅适用8–16人，未作为散客套餐使用。税、小费及附加费另核。",
+        "includes": [
+          "晚餐前菜、主菜及甜点预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-melbourne-restaurant-chin-chin",
+    "cityId": "melbourne",
+    "kind": "restaurant",
+    "name": "Chin Chin·墨尔本",
+    "nameEn": "Chin Chin Melbourne",
+    "provider": "Chin Chin",
+    "tagline": "Flinders Lane 的东南亚分享餐",
+    "description": "用多道菜共享的方式体验带澳洲风格的亚洲料理，适合和朋友在市中心聚餐。",
+    "address": "125 Flinders Lane, Melbourne VIC 3000",
+    "lat": -37.8158,
+    "lng": 144.97,
+    "durationMinutes": 75,
+    "mealType": "dinner",
+    "features": [
+      "东南亚风味",
+      "共享菜肴",
+      "Flinders Lane"
+    ],
+    "sourceUrl": "https://www.chinchin.melbourne/",
+    "bookingUrl": "https://www.chinchin.melbourne/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "类别为本应用自选点餐预算，不是官网宴会套餐；周日、公休日及刷卡附加费以商家说明为准。",
+    "priceOptions": [
+      {
+        "id": "small",
+        "name": "小盘与主食",
+        "description": "几样小盘加主食，按人分摊",
+        "low": 40,
+        "high": 60,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.chinchin.melbourne/",
+        "checkedAt": null,
+        "note": "类别为本应用自选点餐预算，不是官网宴会套餐；周日、公休日及刷卡附加费以商家说明为准。",
+        "includes": [
+          "几样小盘加主食，按人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "share",
+        "name": "招牌共享晚餐",
+        "description": "多样主菜及配菜的人均预算",
+        "low": 65,
+        "high": 95,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.chinchin.melbourne/",
+        "checkedAt": null,
+        "note": "类别为本应用自选点餐预算，不是官网宴会套餐；周日、公休日及刷卡附加费以商家说明为准。",
+        "includes": [
+          "多样主菜及配菜的人均预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "feast",
+        "name": "丰盛共享餐与饮品",
+        "description": "增加菜品与饮品的人均预算",
+        "low": 100,
+        "high": 145,
+        "currency": "AUD",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://www.chinchin.melbourne/",
+        "checkedAt": null,
+        "note": "类别为本应用自选点餐预算，不是官网宴会套餐；周日、公休日及刷卡附加费以商家说明为准。",
+        "includes": [
+          "增加菜品与饮品的人均预算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-chiang-mai-restaurant-huen-phen",
+    "cityId": "chiang-mai",
+    "kind": "restaurant",
+    "name": "Huen Phen·老城店",
+    "nameEn": "Huen Phen",
+    "provider": "Huen Phen",
+    "tagline": "清迈老城里的兰纳家常菜",
+    "description": "当地北泰菜餐厅，适合在寺庙散步之后尝试香料鲜明的北方风味。",
+    "address": "112 Ratchamanka Road, Phra Sing, Chiang Mai",
+    "lat": 18.7847,
+    "lng": 98.986,
+    "durationMinutes": 75,
+    "mealType": "lunch",
+    "features": [
+      "北泰家常菜",
+      "兰纳风味",
+      "清迈老城"
+    ],
+    "sourceUrl": "https://huenphenchiangmai.com/branch/",
+    "bookingUrl": "https://huenphenchiangmai.com/branch/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "向门店确认当日菜单、营业和席位",
+      "过敏或饮食限制请提前告知商家"
+    ],
+    "availabilityNote": "核实老城餐厅身份及北泰菜定位；具体菜单与价格未核验，三个选择不是固定套餐。",
+    "priceOptions": [
+      {
+        "id": "noodle",
+        "name": "北泰主食轻餐",
+        "description": "一份主食或咖喱面，现售菜品以门店为准",
+        "low": 80,
+        "high": 140,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://huenphenchiangmai.com/branch/",
+        "checkedAt": null,
+        "note": "核实老城餐厅身份及北泰菜定位；具体菜单与价格未核验，三个选择不是固定套餐。",
+        "includes": [
+          "一份主食或咖喱面，现售菜品以门店为准"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "local",
+        "name": "北泰家常菜两样",
+        "description": "主食加两样共享菜，每人估算",
+        "low": 180,
+        "high": 300,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://huenphenchiangmai.com/branch/",
+        "checkedAt": null,
+        "note": "核实老城餐厅身份及北泰菜定位；具体菜单与价格未核验，三个选择不是固定套餐。",
+        "includes": [
+          "主食加两样共享菜，每人估算"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "id": "share",
+        "name": "多人兰纳分享餐",
+        "description": "多样北泰菜与饮料，每人分摊",
+        "low": 300,
+        "high": 500,
+        "currency": "THB",
+        "unit": "person",
+        "type": "estimate",
+        "sourceUrl": "https://huenphenchiangmai.com/branch/",
+        "checkedAt": null,
+        "note": "核实老城餐厅身份及北泰菜定位；具体菜单与价格未核验，三个选择不是固定套餐。",
+        "includes": [
+          "多样北泰菜与饮料，每人分摊"
+        ],
+        "excludes": [
+          "未列明的加点、酒水及可能的税费/服务费"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shanghai-hotel-peninsula",
+    "cityId": "shanghai",
+    "kind": "hotel",
+    "name": "上海半岛酒店",
+    "nameEn": "The Peninsula Shanghai",
+    "provider": "The Peninsula Shanghai",
+    "tagline": "外滩北端的经典城市住宿",
+    "description": "位于外滩的酒店，方便把江岸散步和老城餐饮连在一起；景观取决于具体客房。",
+    "address": "中山东一路32号",
+    "lat": 31.2441,
+    "lng": 121.4855,
+    "durationMinutes": 0,
+    "features": [
+      "外滩位置",
+      "城市经典酒店",
+      "江岸散步"
+    ],
+    "sourceUrl": "https://www.peninsula.com/en/shanghai/5-star-luxury-hotel-bund",
+    "bookingUrl": "https://www.peninsula.com/en/shanghai/5-star-luxury-hotel-bund",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚；景观和床型待官网选择",
+        "low": 3000,
+        "high": 6500,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.peninsula.com/en/shanghai/5-star-luxury-hotel-bund",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-beijing-hotel-peninsula",
+    "cityId": "beijing",
+    "kind": "hotel",
+    "name": "北京王府半岛酒店",
+    "nameEn": "The Peninsula Beijing",
+    "provider": "The Peninsula Beijing",
+    "tagline": "住在王府井与金鱼胡同之间",
+    "description": "把中心城区的住宿作为故宫周边行程的起点，庭院与胡同探索仍需单独安排。",
+    "address": "北京市东城区金鱼胡同8号",
+    "lat": 39.9155,
+    "lng": 116.4135,
+    "durationMinutes": 0,
+    "features": [
+      "金鱼胡同",
+      "王府井周边",
+      "经典城市酒店"
+    ],
+    "sourceUrl": "https://www.peninsula.com/en/beijing/5-star-luxury-hotel-wangfujing",
+    "bookingUrl": "https://www.peninsula.com/en/beijing/5-star-luxury-hotel-wangfujing",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "住宿预算·房型待选",
+        "description": "一间住宿单元一晚；具体套房类别在官网确认",
+        "low": 2200,
+        "high": 5000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.peninsula.com/en/beijing/5-star-luxury-hotel-wangfujing",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-tokyo-hotel-hoshinoya",
+    "cityId": "tokyo",
+    "kind": "hotel",
+    "name": "虹夕诺雅东京",
+    "nameEn": "HOSHINOYA Tokyo",
+    "provider": "HOSHINOYA Tokyo",
+    "tagline": "把日式旅馆住进东京高楼",
+    "description": "大手町的城市日式旅馆，以榻榻米通道、楼层茶间和温泉设施形成与街头不同的节奏。",
+    "address": "1-9-1 Otemachi, Chiyoda-ku, Tokyo",
+    "lat": 35.6876,
+    "lng": 139.7652,
+    "durationMinutes": 0,
+    "features": [
+      "城市日式旅馆",
+      "榻榻米空间",
+      "温泉设施"
+    ],
+    "sourceUrl": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+    "bookingUrl": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "日式客房住宿",
+        "description": "一间客房一晚，房型待官网选择；不预设餐食包含",
+        "low": 100000,
+        "high": 180000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-kyoto-hotel-kanra",
+    "cityId": "kyoto",
+    "kind": "hotel",
+    "name": "京都甘乐酒店",
+    "nameEn": "hotel kanra kyoto",
+    "provider": "hotel kanra kyoto",
+    "tagline": "用京都材料和町家尺度过一夜",
+    "description": "五条附近的酒店，以京都风格的客房空间衔接寺院散步与车站交通。",
+    "address": "京都市下京区烏丸通六条下る北町190",
+    "lat": 34.9955,
+    "lng": 135.7592,
+    "durationMinutes": 0,
+    "features": [
+      "京都风格设计",
+      "五条站附近",
+      "町家灵感"
+    ],
+    "sourceUrl": "https://www.uds-hotels.com/en/kanra/kyoto/",
+    "bookingUrl": "https://www.uds-hotels.com/en/kanra/kyoto/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "double",
+        "name": "Double Room",
+        "description": "官网列有的双人房类别；按一间一晚估算",
+        "low": 35000,
+        "high": 65000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.uds-hotels.com/en/kanra/kyoto/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "deluxe",
+        "name": "Deluxe Room",
+        "description": "官网列有的Deluxe类别；不保证具体楼栋",
+        "low": 50000,
+        "high": 95000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.uds-hotels.com/en/kanra/kyoto/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-osaka-hotel-omo7",
+    "cityId": "osaka",
+    "kind": "hotel",
+    "name": "OMO7 大阪",
+    "nameEn": "OMO7 Osaka by Hoshino Resorts",
+    "provider": "OMO7 Osaka by Hoshino Resorts",
+    "tagline": "把新世界街区当成酒店客厅",
+    "description": "新今宫站附近的城市探索酒店，庭园公共空间适合在大阪街头行走后休息。",
+    "address": "3-16-30 Ebisu-nishi, Naniwa-ku, Osaka",
+    "lat": 34.6499,
+    "lng": 135.5022,
+    "durationMinutes": 0,
+    "features": [
+      "新今宫站旁",
+      "庭园公共空间",
+      "街区探索"
+    ],
+    "sourceUrl": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+    "bookingUrl": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "dandan",
+        "name": "DANDAN Room",
+        "description": "官网房型约29.6㎡，上下床布局；人数上限按预订页",
+        "low": 23000,
+        "high": 42000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "idobata",
+        "name": "IDOBATA Suite",
+        "description": "官网房型约59㎡，四张固定床；多人入住另核",
+        "low": 42000,
+        "high": 80000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-seoul-hotel-ryse",
+    "cityId": "seoul",
+    "kind": "hotel",
+    "name": "RYSE 弘大酒店",
+    "nameEn": "RYSE, Autograph Collection",
+    "provider": "RYSE, Autograph Collection",
+    "tagline": "把弘大的创意氛围带回房间",
+    "description": "靠近弘大街区的设计酒店，艺术作品和音乐文化是空间特色。",
+    "address": "130 Yanghwa-ro, Mapo-gu, Seoul",
+    "lat": 37.5534,
+    "lng": 126.921,
+    "durationMinutes": 0,
+    "features": [
+      "弘大街区",
+      "艺术设计",
+      "地铁出行"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "creator",
+        "name": "Creator 客房",
+        "description": "官网Creator客房系列，床型预订时选",
+        "low": 220000,
+        "high": 400000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "artist",
+        "name": "Artist Suite",
+        "description": "官网艺术家套房系列；作品与布局依客房而异",
+        "low": 500000,
+        "high": 900000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-bangkok-hotel-ariyasom",
+    "cityId": "bangkok",
+    "kind": "hotel",
+    "name": "Ariyasom Villa",
+    "nameEn": "Ariyasom Villa",
+    "provider": "Ariyasom Villa",
+    "tagline": "运河边的泰式庭园小住",
+    "description": "Sukhumvit Soi 1尽头的泰式精品酒店，适合喜欢小规模住宿和庭园空间的旅客。",
+    "address": "65 Sukhumvit Soi 1, Bangkok 10110",
+    "lat": 13.7491,
+    "lng": 100.5534,
+    "durationMinutes": 0,
+    "features": [
+      "泰式建筑",
+      "庭园空间",
+      "精品规模"
+    ],
+    "sourceUrl": "https://www.ariyasom.com/",
+    "bookingUrl": "https://www.ariyasom.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间一晚预算，具体房型及是否含早在预订时选择",
+        "low": 5500,
+        "high": 10000,
+        "currency": "THB",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.ariyasom.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-singapore-hotel-raffles",
+    "cityId": "singapore",
+    "kind": "hotel",
+    "name": "新加坡莱佛士酒店",
+    "nameEn": "Raffles Singapore",
+    "provider": "Raffles Singapore",
+    "tagline": "回廊、庭园与城市酒店历史",
+    "description": "在市中心住进历史酒店，适合把酒店本身也作为旅行体验的一部分。",
+    "address": "1 Beach Road, Singapore 189673",
+    "lat": 1.2948,
+    "lng": 103.8545,
+    "durationMinutes": 0,
+    "features": [
+      "历史建筑",
+      "庭园回廊",
+      "市中心"
+    ],
+    "sourceUrl": "https://www.raffles.com/singapore/",
+    "bookingUrl": "https://www.raffles.com/singapore/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "suite",
+        "name": "套房住宿·类别待选",
+        "description": "一间套房一晚，具体系列及礼遇需官网确认",
+        "low": 1500,
+        "high": 3000,
+        "currency": "SGD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.raffles.com/singapore/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-bali-hotel-alila-ubud",
+    "cityId": "bali",
+    "kind": "hotel",
+    "name": "阿丽拉乌布",
+    "nameEn": "Alila Ubud",
+    "provider": "Alila Ubud",
+    "tagline": "阿勇河谷上方的巴厘村落感",
+    "description": "坐落在乌布以北的河谷环境，适合留时间在酒店休息，进乌布中心需安排交通。",
+    "address": "Desa Melinggih Kelod, Payangan, Gianyar, Bali",
+    "lat": -8.4472,
+    "lng": 115.2456,
+    "durationMinutes": 0,
+    "features": [
+      "河谷景观",
+      "巴厘村落设计",
+      "远离中心喧闹"
+    ],
+    "sourceUrl": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+    "bookingUrl": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿",
+        "description": "官网客房系列，具体楼层及景观待选",
+        "low": 3500000,
+        "high": 6500000,
+        "currency": "IDR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "villa",
+        "name": "别墅住宿",
+        "description": "官网别墅系列，具体类别待选；不保证私人泳池",
+        "low": 8000000,
+        "high": 15000000,
+        "currency": "IDR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-paris-hotel-henriette",
+    "cityId": "paris",
+    "kind": "hotel",
+    "name": "Henriette 酒店",
+    "nameEn": "Hôtel Henriette",
+    "provider": "Hôtel Henriette",
+    "tagline": "巴黎左岸的小型设计酒店",
+    "description": "靠近Mouffetard街区，客房各有设计，适合希望从安静街道出发探索左岸的人。",
+    "address": "9 Rue des Gobelins, 75013 Paris",
+    "lat": 48.8358,
+    "lng": 2.3521,
+    "durationMinutes": 0,
+    "features": [
+      "左岸街区",
+      "独立客房设计",
+      "小型酒店"
+    ],
+    "sourceUrl": "https://www.hotelhenriette.com/",
+    "bookingUrl": "https://www.hotelhenriette.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚；床型、面积和是否含早待官网确认",
+        "low": 160,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.hotelhenriette.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-london-hotel-hoxton-holborn",
+    "cityId": "london",
+    "kind": "hotel",
+    "name": "The Hoxton·Holborn",
+    "nameEn": "The Hoxton, Holborn",
+    "provider": "The Hoxton, Holborn",
+    "tagline": "从Holborn步行进入伦敦剧院区",
+    "description": "城市街区酒店，方便衔接博物馆、咖啡馆与西区散步。",
+    "address": "199–206 High Holborn, London WC1V 7BD",
+    "lat": 51.5172,
+    "lng": -0.122,
+    "durationMinutes": 0,
+    "features": [
+      "Holborn位置",
+      "邻里公共空间",
+      "西区步行"
+    ],
+    "sourceUrl": "https://thehoxton.com/london/holborn/",
+    "bookingUrl": "https://thehoxton.com/london/holborn/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚，具体面积床型与早餐待官网选择",
+        "low": 220,
+        "high": 420,
+        "currency": "GBP",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://thehoxton.com/london/holborn/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-rome-hotel-locarno",
+    "cityId": "rome",
+    "kind": "hotel",
+    "name": "Locarno 酒店",
+    "nameEn": "Hotel Locarno",
+    "provider": "Hotel Locarno",
+    "tagline": "人民广场旁的复古罗马",
+    "description": "历史建筑与复古室内形成安静的城市落脚点，适合在老城用步行连接行程。",
+    "address": "Via della Penna 22, 00186 Roma",
+    "lat": 41.9097,
+    "lng": 12.4748,
+    "durationMinutes": 0,
+    "features": [
+      "历史建筑",
+      "复古室内",
+      "人民广场附近"
+    ],
+    "sourceUrl": "https://www.hotellocarno.com/en/contact",
+    "bookingUrl": "https://www.hotellocarno.com/en/contact",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚，具体房型及早餐权益在官网确认",
+        "low": 350,
+        "high": 750,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.hotellocarno.com/en/contact",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-barcelona-hotel-casa-bonay",
+    "cityId": "barcelona",
+    "kind": "hotel",
+    "name": "Casa Bonay",
+    "nameEn": "Casa Bonay",
+    "provider": "Casa Bonay",
+    "tagline": "扩展区街角的设计生活",
+    "description": "位于巴塞罗那扩展区的精品酒店，可以把住宿和周边咖啡、街区散步连起来。",
+    "address": "Gran Via de les Corts Catalanes 700, Barcelona",
+    "lat": 41.3948,
+    "lng": 2.1757,
+    "durationMinutes": 0,
+    "features": [
+      "扩展区街角",
+      "精品设计",
+      "城市生活感"
+    ],
+    "sourceUrl": "https://casabonay.com/",
+    "bookingUrl": "https://casabonay.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚，露台等设施取决于房型",
+        "low": 200,
+        "high": 420,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://casabonay.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-new-york-hotel-bowery",
+    "cityId": "new-york",
+    "kind": "hotel",
+    "name": "The Bowery Hotel",
+    "nameEn": "The Bowery Hotel",
+    "provider": "The Bowery Hotel",
+    "tagline": "从Bowery出发探索纽约街区",
+    "description": "以Bowery为落脚点，方便串联东村与下东区；房型和视野需要在预订时确认。",
+    "address": "335 Bowery, New York, NY 10003",
+    "lat": 40.726,
+    "lng": -73.9917,
+    "durationMinutes": 0,
+    "features": [
+      "Bowery街区",
+      "下东区周边",
+      "城市精品酒店"
+    ],
+    "sourceUrl": "https://theboweryhotel.com/rooms/",
+    "bookingUrl": "https://theboweryhotel.com/rooms/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "bowery-queen",
+        "name": "Bowery Queen",
+        "description": "官网250平方英尺、Queen床、雨淋花洒客房；每间每晚预算",
+        "low": 550,
+        "high": 1100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://theboweryhotel.com/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-sydney-hotel-old-clare",
+    "cityId": "sydney",
+    "kind": "hotel",
+    "name": "The Old Clare Hotel",
+    "nameEn": "The Old Clare Hotel",
+    "provider": "The Old Clare Hotel",
+    "tagline": "住进Chippendale的旧建筑",
+    "description": "酒店连接两座历史建筑，周边有画廊、设计空间和餐厅，适合喜欢城市文化的人。",
+    "address": "1 Kensington Street, Chippendale NSW 2008",
+    "lat": -33.8845,
+    "lng": 151.2012,
+    "durationMinutes": 0,
+    "features": [
+      "历史建筑改造",
+      "Chippendale街区",
+      "屋顶泳池"
+    ],
+    "sourceUrl": "https://www.odehotels.com/the-old-clare-hotel/",
+    "bookingUrl": "https://www.odehotels.com/the-old-clare-hotel/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "kent",
+        "name": "Kent Room",
+        "description": "官网列有的Kent客房，按一间一晚估算",
+        "low": 280,
+        "high": 480,
+        "currency": "AUD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.odehotels.com/the-old-clare-hotel/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "loft",
+        "name": "Chippendale Loft",
+        "description": "官网列有的Loft类别；设施细节以房型页为准",
+        "low": 430,
+        "high": 750,
+        "currency": "AUD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.odehotels.com/the-old-clare-hotel/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-dubai-hotel-xva",
+    "cityId": "dubai",
+    "kind": "hotel",
+    "name": "XVA 艺术酒店",
+    "nameEn": "XVA Art Hotel",
+    "provider": "XVA Art Hotel",
+    "tagline": "在老迪拜的风塔庭院住一晚",
+    "description": "Al Fahidi历史区的小型酒店，以独立设计的客房和庭院空间呈现另一种迪拜。",
+    "address": "Al Fahidi Historical Neighbourhood, Bur Dubai",
+    "lat": 25.2641,
+    "lng": 55.2991,
+    "durationMinutes": 0,
+    "features": [
+      "历史街区",
+      "艺术空间",
+      "风塔庭院"
+    ],
+    "sourceUrl": "https://www.xvahotel.com/",
+    "bookingUrl": "https://www.xvahotel.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "特色客房住宿",
+        "description": "一间独立设计客房一晚，具体房间待预订",
+        "low": 550,
+        "high": 1000,
+        "currency": "AED",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.xvahotel.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "extended",
+        "name": "较大客房/套房询价预算",
+        "description": "官网列有客房或套房；具体可订类别须酒店确认",
+        "low": 850,
+        "high": 1500,
+        "currency": "AED",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.xvahotel.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-istanbul-hotel-pera-palace",
+    "cityId": "istanbul",
+    "kind": "hotel",
+    "name": "佩拉宫酒店",
+    "nameEn": "Pera Palace Hotel",
+    "provider": "Pera Palace Hotel",
+    "tagline": "在贝伊奥卢体验历史酒店",
+    "description": "靠近Pera与独立大街，以历史酒店氛围连接当代伊斯坦布尔街区生活。",
+    "address": "Meşrutiyet Caddesi 52, Tepebaşı, Beyoğlu, İstanbul",
+    "lat": 41.0317,
+    "lng": 28.9738,
+    "durationMinutes": 0,
+    "features": [
+      "历史酒店",
+      "Pera街区",
+      "贝伊奥卢"
+    ],
+    "sourceUrl": "https://perapalace.com/en/",
+    "bookingUrl": "https://perapalace.com/en/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间一晚的里拉预算；外币房价与汇率变化较大",
+        "low": 10000,
+        "high": 19000,
+        "currency": "TRY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://perapalace.com/en/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-hong-kong-hotel-tai-o",
+    "cityId": "hong-kong",
+    "kind": "hotel",
+    "name": "大澳文物酒店",
+    "nameEn": "Tai O Heritage Hotel",
+    "provider": "Tai O Heritage Hotel",
+    "tagline": "渔村山坡上的旧警署",
+    "description": "由旧大澳警署活化而成，仅九间客房；适合专程体验大澳，不适合作为市区通勤的便捷基地。",
+    "address": "香港大屿山大澳石仔埗街",
+    "lat": 22.2527,
+    "lng": 113.8529,
+    "durationMinutes": 0,
+    "features": [
+      "旧警署活化",
+      "九间客房",
+      "大澳渔村"
+    ],
+    "sourceUrl": "https://www.taioheritagehotel.com/en/",
+    "bookingUrl": "https://www.taioheritagehotel.com/en/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "文物酒店客房",
+        "description": "一间客房一晚，具体房型及景观待选",
+        "low": 1800,
+        "high": 3500,
+        "currency": "HKD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.taioheritagehotel.com/en/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-chengdu-hotel-upper-house",
+    "cityId": "chengdu",
+    "kind": "hotel",
+    "name": "成都博舍（Upper House Chengdu）",
+    "nameEn": "Upper House Chengdu",
+    "provider": "Upper House Chengdu",
+    "tagline": "大慈寺街区里的庭院与现代设计",
+    "description": "官网现以Upper House Chengdu呈现，保留笔帖式街地址与独特院落空间。",
+    "address": "成都市锦江区笔帖式街81号",
+    "lat": 30.6512,
+    "lng": 104.0817,
+    "durationMinutes": 0,
+    "features": [
+      "庭院与现代设计",
+      "太古里周边",
+      "大慈寺街区"
+    ],
+    "sourceUrl": "https://www.upperhouse.com/en/chengdu/",
+    "bookingUrl": "https://www.upperhouse.com/en/chengdu/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "studio60",
+        "name": "Studio 60",
+        "description": "官网列有的Studio 60类别",
+        "low": 2300,
+        "high": 4000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.upperhouse.com/en/chengdu/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "studio90",
+        "name": "Studio 90",
+        "description": "官网列有的Studio 90类别；按一间一晚预算",
+        "low": 3400,
+        "high": 6000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.upperhouse.com/en/chengdu/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-xian-hotel-sofitel-legend",
+    "cityId": "xian",
+    "kind": "hotel",
+    "name": "西安索菲特传奇酒店",
+    "nameEn": "Sofitel Legend Peoples Grand Hotel Xian",
+    "provider": "Sofitel Legend Peoples Grand Hotel Xian",
+    "tagline": "人民大厦里的历史住宿",
+    "description": "把住宿安排在人民大厦建筑群里，适合希望在市中心兼顾建筑历史和舒适休息的旅客。",
+    "address": "西安市新城区东新街319号",
+    "lat": 34.2651,
+    "lng": 108.9603,
+    "durationMinutes": 0,
+    "features": [
+      "人民大厦建筑群",
+      "花园环境",
+      "历史酒店"
+    ],
+    "sourceUrl": "https://all.accor.com/hotel/6156/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/6156/index.en.shtml",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚，房型与是否含早待官网选择",
+        "low": 1400,
+        "high": 2800,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://all.accor.com/hotel/6156/index.en.shtml",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-hangzhou-hotel-four-seasons",
+    "cityId": "hangzhou",
+    "kind": "hotel",
+    "name": "杭州西子湖四季酒店",
+    "nameEn": "Four Seasons Hotel Hangzhou at West Lake",
+    "provider": "Four Seasons Hotel Hangzhou at West Lake",
+    "tagline": "住在西湖西侧的江南园林",
+    "description": "庭院、水景与西湖周边绿意构成住宿体验，适合给度假和城市游览分别留时间。",
+    "address": "杭州市西湖区灵隐路5号",
+    "lat": 30.2528,
+    "lng": 120.1274,
+    "durationMinutes": 0,
+    "features": [
+      "江南园林",
+      "西湖西侧",
+      "庭院水景"
+    ],
+    "sourceUrl": "https://www.fourseasons.com/hangzhou/",
+    "bookingUrl": "https://www.fourseasons.com/hangzhou/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "garden",
+        "name": "Garden Terrace Room",
+        "description": "官网花园露台客房类别，按一间一晚估算",
+        "low": 4500,
+        "high": 8000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.fourseasons.com/hangzhou/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "lagoon",
+        "name": "Lagoon Suite",
+        "description": "官网列有的Lagoon Suite套房类别",
+        "low": 10000,
+        "high": 18000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.fourseasons.com/hangzhou/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-guangzhou-hotel-white-swan",
+    "cityId": "guangzhou",
+    "kind": "hotel",
+    "name": "白天鹅宾馆",
+    "nameEn": "White Swan Hotel",
+    "provider": "White Swan Hotel",
+    "tagline": "在沙面和珠江之间落脚",
+    "description": "以珠江畔位置与粤菜餐饮见长，方便慢慢探索沙面的街道和建筑。",
+    "address": "广州市荔湾区沙面南街1号",
+    "lat": 23.1072,
+    "lng": 113.2401,
+    "durationMinutes": 0,
+    "features": [
+      "沙面位置",
+      "珠江江畔",
+      "经典粤菜餐饮"
+    ],
+    "sourceUrl": "https://www.whiteswanhotel.com/en",
+    "bookingUrl": "https://www.whiteswanhotel.com/en",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚；江景不能默认为所有客房都有",
+        "low": 1000,
+        "high": 2200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.whiteswanhotel.com/en",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-lisbon-hotel-memmo-alfama",
+    "cityId": "lisbon",
+    "kind": "hotel",
+    "name": "Memmo Alfama",
+    "nameEn": "Memmo Alfama",
+    "provider": "Memmo Alfama",
+    "tagline": "阿尔法玛屋顶与塔霍河之间",
+    "description": "藏在旧城坡道里的精品酒店，露台适合看屋顶与河景；行李出入需考虑坡路。",
+    "address": "Travessa das Merceeiras 27, 1100-348 Lisboa",
+    "lat": 38.7089,
+    "lng": -9.1323,
+    "durationMinutes": 0,
+    "features": [
+      "阿尔法玛街区",
+      "屋顶河景",
+      "精品规模"
+    ],
+    "sourceUrl": "https://www.memmohotels.com/alfama/",
+    "bookingUrl": "https://www.memmohotels.com/alfama/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "Alfama Standard Room",
+        "description": "官网标准客房类别；一间一晚",
+        "low": 220,
+        "high": 380,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.memmohotels.com/alfama/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "terrace",
+        "name": "Terrace Room",
+        "description": "官网露台客房类别；一间一晚",
+        "low": 320,
+        "high": 550,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.memmohotels.com/alfama/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-amsterdam-hotel-hoxton-lloyd",
+    "cityId": "amsterdam",
+    "kind": "hotel",
+    "name": "The Hoxton·Lloyd",
+    "nameEn": "The Hoxton, Lloyd Amsterdam",
+    "provider": "The Hoxton, Lloyd Amsterdam",
+    "tagline": "港区历史建筑的新生活",
+    "description": "位于Eastern Docklands的酒店，客房设计保留建筑个性；前往老城需安排电车或自行车。",
+    "address": "Oostelijke Handelskade 34, 1019 BN Amsterdam",
+    "lat": 52.3746,
+    "lng": 4.9357,
+    "durationMinutes": 0,
+    "features": [
+      "东部港区",
+      "历史建筑",
+      "独特客房设计"
+    ],
+    "sourceUrl": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+    "bookingUrl": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "cosy",
+        "name": "Cosy",
+        "description": "官网15–21㎡、双人床客房；最多2成人",
+        "low": 170,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "roomy",
+        "name": "Roomy",
+        "description": "官网22–30㎡客房；床型按预订页选择",
+        "low": 230,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-berlin-hotel-michelberger",
+    "cityId": "berlin",
+    "kind": "hotel",
+    "name": "Michelberger Hotel",
+    "nameEn": "Michelberger Hotel",
+    "provider": "Michelberger Hotel",
+    "tagline": "Friedrichshain 的创意小住",
+    "description": "Warschauer Straße旁的独立酒店，适合把柏林东部街区作为探索起点。",
+    "address": "Warschauer Straße 39–40, 10243 Berlin",
+    "lat": 52.5057,
+    "lng": 13.4491,
+    "durationMinutes": 0,
+    "features": [
+      "独立设计",
+      "Friedrichshain",
+      "Warschauer街区"
+    ],
+    "sourceUrl": "https://www.michelbergerhotel.com/en/rooms/",
+    "bookingUrl": "https://www.michelbergerhotel.com/en/rooms/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "cosy",
+        "name": "Cosy",
+        "description": "官网Cosy房型，按一间一晚估算",
+        "low": 140,
+        "high": 250,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.michelbergerhotel.com/en/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "loft",
+        "name": "Loft",
+        "description": "官网Loft房型，按一间一晚估算",
+        "low": 200,
+        "high": 340,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.michelbergerhotel.com/en/rooms/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-venice-hotel-venissa-wine",
+    "cityId": "venice",
+    "kind": "hotel",
+    "name": "Venissa Wine Resort",
+    "nameEn": "Venissa Wine Resort",
+    "provider": "Venissa Wine Resort",
+    "tagline": "在Mazzorbo葡萄园安静过夜",
+    "description": "五间客房由旧宅改造，和主岛行程节奏不同，适合留宿潟湖小岛。",
+    "address": "Fondamenta Santa Caterina 3, 30142 Mazzorbo, Venezia",
+    "lat": 45.486,
+    "lng": 12.4129,
+    "durationMinutes": 0,
+    "features": [
+      "葡萄园",
+      "五间客房",
+      "Mazzorbo小岛"
+    ],
+    "sourceUrl": "https://www.venissa.it/en/wineresort/",
+    "bookingUrl": "https://www.venissa.it/en/wineresort/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "葡萄园酒店客房",
+        "description": "一间客房一晚，类别待选；餐厅消费另计",
+        "low": 300,
+        "high": 600,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.venissa.it/en/wineresort/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-florence-hotel-number-nine",
+    "cityId": "florence",
+    "kind": "hotel",
+    "name": "Firenze Number Nine",
+    "nameEn": "Firenze Number Nine",
+    "provider": "Firenze Number Nine",
+    "tagline": "老城里的精品住宿与休息时间",
+    "description": "位于Via dei Conti的精品酒店，可把美术馆参观与酒店休息安排在同一天。",
+    "address": "Via dei Conti 9, Firenze",
+    "lat": 43.7748,
+    "lng": 11.2524,
+    "durationMinutes": 0,
+    "features": [
+      "历史中心",
+      "精品设计",
+      "SPA设施"
+    ],
+    "sourceUrl": "https://firenzenumbernine.com/",
+    "bookingUrl": "https://firenzenumbernine.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间一晚预算；SPA项目是否含在房价中须确认",
+        "low": 300,
+        "high": 650,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://firenzenumbernine.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-los-angeles-hotel-line-la",
+    "cityId": "los-angeles",
+    "kind": "hotel",
+    "name": "The LINE LA",
+    "nameEn": "The LINE LA",
+    "provider": "The LINE LA",
+    "tagline": "韩国城里的现代洛杉矶",
+    "description": "以粗犷混凝土和落地窗为设计特色，周边餐饮丰富；跨区出行仍需留足交通时间。",
+    "address": "3515 Wilshire Boulevard, Los Angeles, CA 90010",
+    "lat": 34.0622,
+    "lng": -118.301,
+    "durationMinutes": 0,
+    "features": [
+      "韩国城",
+      "混凝土设计",
+      "落地窗"
+    ],
+    "sourceUrl": "https://www.thelinehotel.com/los-angeles/",
+    "bookingUrl": "https://www.thelinehotel.com/los-angeles/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "客房住宿·房型待选",
+        "description": "一间客房一晚；税、停车和可能的目的地费另核",
+        "low": 230,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.thelinehotel.com/los-angeles/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-melbourne-hotel-ovolo",
+    "cityId": "melbourne",
+    "kind": "hotel",
+    "name": "Ovolo Melbourne·South Yarra",
+    "nameEn": "Ovolo Melbourne, South Yarra",
+    "provider": "Ovolo Melbourne, South Yarra",
+    "tagline": "在南雅拉住进七十年代音乐氛围",
+    "description": "以复古音乐与色彩设计为特色，周边有Chapel Street商店和餐厅。",
+    "address": "234 Toorak Road, South Yarra VIC 3141",
+    "lat": -37.8384,
+    "lng": 144.9957,
+    "durationMinutes": 0,
+    "features": [
+      "复古音乐设计",
+      "South Yarra",
+      "Chapel Street附近"
+    ],
+    "sourceUrl": "https://ovolohotels.com/ovolo/south-yarra/",
+    "bookingUrl": "https://ovolohotels.com/ovolo/south-yarra/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "snug",
+        "name": "Snug",
+        "description": "官网约13–14㎡紧凑客房",
+        "low": 180,
+        "high": 290,
+        "currency": "AUD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://ovolohotels.com/ovolo/south-yarra/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      },
+      {
+        "id": "groovy",
+        "name": "Groovy Studio",
+        "description": "官网Groovy Studio类别，床型待预订确认",
+        "low": 260,
+        "high": 430,
+        "currency": "AUD",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://ovolohotels.com/ovolo/south-yarra/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  },
+  {
+    "id": "ex-chiang-mai-hotel-rimping",
+    "cityId": "chiang-mai",
+    "kind": "hotel",
+    "name": "Rimping Village",
+    "nameEn": "Rimping Village",
+    "provider": "Rimping Village",
+    "tagline": "平河东岸的清迈慢住宿",
+    "description": "以小型酒店和庭园空间为特色，适合喜欢安静落脚点、愿意步行或乘车进入老城的人。",
+    "address": "13/1 Soi 2, Charoen Muang Road, Chiang Mai",
+    "lat": 18.7824,
+    "lng": 99.0046,
+    "durationMinutes": 0,
+    "features": [
+      "平河东岸",
+      "庭园空间",
+      "精品规模"
+    ],
+    "sourceUrl": "https://www.rimpingvillage.com/",
+    "bookingUrl": "https://www.rimpingvillage.com/",
+    "checkedAt": "2026-09-22",
+    "requirements": [
+      "按实际入住日期、人数和床型重新查询",
+      "核对退改条款、押金、早餐及税费"
+    ],
+    "availabilityNote": "已核实酒店身份及公开服务；房费全部为编辑预算区间，不是指定日期的实时可订报价，也不代表已保留客房。",
+    "priceOptions": [
+      {
+        "id": "superior-double",
+        "name": "Superior Double",
+        "description": "官网列有的Superior Double房型，按一间一晚估算",
+        "low": 3000,
+        "high": 5500,
+        "currency": "THB",
+        "unit": "room-night",
+        "type": "estimate",
+        "sourceUrl": "https://www.rimpingvillage.com/",
+        "checkedAt": null,
+        "note": "按每间每晚编辑估算，未查询日期库存；报价范围可能随季节与入住人数大幅变化。税费、早餐、额外住客、加床和特殊服务须在官网结算页核实。",
+        "includes": [
+          "一间所述住宿单元的一晚预算"
+        ],
+        "excludes": [
+          "未明确含在房价内的早餐、税费、加床、停车和其他付费服务"
+        ],
+        "mealTypes": []
+      }
+    ]
+  }
+]

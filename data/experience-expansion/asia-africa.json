@@ -1,0 +1,5292 @@
+[
+  {
+    "id": "ex-aa-hanoi-metropole",
+    "cityId": "hanoi",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "河内索菲特传奇大都会酒店",
+    "nameEn": "Sofitel Legend Metropole Hanoi",
+    "provider": "Sofitel Legend Metropole Hanoi",
+    "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+    "address": "15 Ngo Quyen, Hoan Kiem, Hanoi",
+    "lat": 21.026,
+    "lng": 105.857,
+    "features": [
+      "历史酒店",
+      "还剑湖周边",
+      "庭院空间"
+    ],
+    "description": "在历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 6500000,
+        "high": 11000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 11000000,
+        "high": 20000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+    "tagline": "在历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-ho-chi-minh-city-park-hyatt",
+    "cityId": "ho-chi-minh-city",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "西贡柏悦酒店",
+    "nameEn": "Park Hyatt Saigon",
+    "provider": "Park Hyatt Saigon",
+    "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+    "address": "2 Lam Son Square, Ho Chi Minh City",
+    "lat": 10.777,
+    "lng": 106.704,
+    "features": [
+      "歌剧院周边",
+      "法式建筑元素",
+      "城市度假"
+    ],
+    "description": "在歌剧院周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 6500000,
+        "high": 11000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 11000000,
+        "high": 22000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+    "tagline": "在歌剧院周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-hoi-an-anantara",
+    "cityId": "hoi-an",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "会安安纳塔拉度假酒店",
+    "nameEn": "Anantara Hoi An Resort",
+    "provider": "Anantara Hoi An Resort",
+    "sourceUrl": "https://www.anantara.com/en/hoi-an",
+    "address": "1 Pham Hong Thai, Hoi An",
+    "lat": 15.877,
+    "lng": 108.336,
+    "features": [
+      "秋盆河畔",
+      "花园",
+      "古城步行圈"
+    ],
+    "description": "在秋盆河畔的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.anantara.com/en/hoi-an",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 5000000,
+        "high": 9000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.anantara.com/en/hoi-an",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 9000000,
+        "high": 16000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.anantara.com/en/hoi-an",
+    "tagline": "在秋盆河畔的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.anantara.com/en/hoi-an",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-da-nang-furama",
+    "cityId": "da-nang",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "岘港富丽华度假酒店",
+    "nameEn": "Furama Resort Danang",
+    "provider": "Furama Resort Danang",
+    "sourceUrl": "https://furamavietnam.com/",
+    "address": "103–105 Vo Nguyen Giap, Da Nang",
+    "lat": 16.04,
+    "lng": 108.252,
+    "features": [
+      "海滨度假",
+      "热带花园",
+      "越南建筑元素"
+    ],
+    "description": "在海滨度假的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://furamavietnam.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 3500000,
+        "high": 6500000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://furamavietnam.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 6500000,
+        "high": 13000000,
+        "currency": "VND",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://furamavietnam.com/",
+    "tagline": "在海滨度假的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://furamavietnam.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-luang-prabang-satri-house",
+    "cityId": "luang-prabang",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "萨特里别院",
+    "nameEn": "Satri House",
+    "provider": "Satri House",
+    "sourceUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+    "address": "Ban That Luang, Luang Prabang",
+    "lat": 19.882,
+    "lng": 102.131,
+    "features": [
+      "传统宅院",
+      "老挝艺术",
+      "庭院泳池"
+    ],
+    "description": "在传统宅院的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 3500000,
+        "high": 6000000,
+        "currency": "LAK",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 6000000,
+        "high": 10500000,
+        "currency": "LAK",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+    "tagline": "在传统宅院的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-siem-reap-sala-lodges",
+    "cityId": "siem-reap",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Sala Lodges 高棉木屋",
+    "nameEn": "Sala Lodges",
+    "provider": "Sala Lodges",
+    "sourceUrl": "https://www.salalodges.com/",
+    "address": "498 Sala Kamreuk, Siem Reap",
+    "lat": 13.347,
+    "lng": 103.864,
+    "features": [
+      "修复高棉木屋",
+      "高脚建筑",
+      "热带花园"
+    ],
+    "description": "在修复高棉木屋的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.salalodges.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 180,
+        "high": 320,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.salalodges.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 320,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.salalodges.com/",
+    "tagline": "在修复高棉木屋的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.salalodges.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-kuala-lumpur-traders",
+    "cityId": "kuala-lumpur",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "吉隆坡盛贸饭店",
+    "nameEn": "Traders Hotel Kuala Lumpur",
+    "provider": "Traders Hotel Kuala Lumpur",
+    "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+    "address": "Kuala Lumpur City Centre",
+    "lat": 3.153,
+    "lng": 101.714,
+    "features": [
+      "KLCC公园周边",
+      "城市天际线",
+      "双子塔区域"
+    ],
+    "description": "在KLCC公园周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 500,
+        "high": 850,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 850,
+        "high": 1400,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+    "tagline": "在KLCC公园周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-penang-eastern-oriental",
+    "cityId": "penang",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "槟城东方大酒店",
+    "nameEn": "Eastern & Oriental Hotel",
+    "provider": "Eastern & Oriental Hotel",
+    "sourceUrl": "https://www.eohotels.com/dinings/",
+    "address": "10 Lebuh Farquhar, George Town, Penang",
+    "lat": 5.423,
+    "lng": 100.336,
+    "features": [
+      "乔治市历史酒店",
+      "海滨长廊",
+      "套房住宿"
+    ],
+    "description": "在乔治市历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.eohotels.com/dinings/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 850,
+        "high": 1500,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.eohotels.com/dinings/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 1500,
+        "high": 2700,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.eohotels.com/dinings/",
+    "tagline": "在乔治市历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.eohotels.com/dinings/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-langkawi-danna",
+    "cityId": "langkawi",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "兰卡威丹纳酒店",
+    "nameEn": "The Danna Langkawi",
+    "provider": "The Danna Langkawi",
+    "sourceUrl": "https://www.thedanna.com/",
+    "address": "Telaga Harbour Park, Pantai Kok, Langkawi",
+    "lat": 6.366,
+    "lng": 99.68,
+    "features": [
+      "私人海滩区域",
+      "庭院建筑",
+      "Pantai Kok"
+    ],
+    "description": "在私人海滩区域的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.thedanna.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 1500,
+        "high": 2500,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.thedanna.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 2500,
+        "high": 4800,
+        "currency": "MYR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.thedanna.com/",
+    "tagline": "在私人海滩区域的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.thedanna.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-cebu-shangrila-mactan",
+    "cityId": "cebu",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "宿务麦克坦香格里拉",
+    "nameEn": "Shangri-La Mactan, Cebu",
+    "provider": "Shangri-La Mactan, Cebu",
+    "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+    "address": "Punta Engaño Road, Lapu-Lapu, Cebu",
+    "lat": 10.307,
+    "lng": 124.021,
+    "features": [
+      "麦克坦海湾",
+      "海洋保护区",
+      "热带花园"
+    ],
+    "description": "在麦克坦海湾的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 12000,
+        "high": 21000,
+        "currency": "PHP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 21000,
+        "high": 35000,
+        "currency": "PHP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+    "tagline": "在麦克坦海湾的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-taipei-grand-hyatt",
+    "cityId": "taipei",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "台北君悦酒店",
+    "nameEn": "Grand Hyatt Taipei",
+    "provider": "Grand Hyatt Taipei",
+    "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+    "address": "台北市信义区松寿路2号",
+    "lat": 25.036,
+    "lng": 121.562,
+    "features": [
+      "信义商圈",
+      "台北101周边",
+      "城市酒店"
+    ],
+    "description": "在信义商圈的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 6500,
+        "high": 11000,
+        "currency": "TWD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 11000,
+        "high": 19000,
+        "currency": "TWD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+    "tagline": "在信义商圈的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-kathmandu-dwarikas",
+    "cityId": "kathmandu",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "德瓦里卡酒店",
+    "nameEn": "The Dwarika’s",
+    "provider": "The Dwarika’s",
+    "sourceUrl": "https://dwarikas.com/thedwarikas/",
+    "address": "Battisputali, Kathmandu",
+    "lat": 27.706,
+    "lng": 85.344,
+    "features": [
+      "尼瓦尔工艺",
+      "雕花木构件",
+      "庭院住宿"
+    ],
+    "description": "在尼瓦尔工艺的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://dwarikas.com/thedwarikas/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 35000,
+        "high": 60000,
+        "currency": "NPR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://dwarikas.com/thedwarikas/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 60000,
+        "high": 100000,
+        "currency": "NPR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://dwarikas.com/thedwarikas/",
+    "tagline": "在尼瓦尔工艺的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://dwarikas.com/thedwarikas/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-jaipur-samode-haveli",
+    "cityId": "jaipur",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "萨莫德哈维利宅邸酒店",
+    "nameEn": "Samode Haveli",
+    "provider": "Samode Haveli",
+    "sourceUrl": "https://samode.com/samode-haveli/",
+    "address": "Gangapole, Jaipur",
+    "lat": 26.935,
+    "lng": 75.835,
+    "features": [
+      "拉贾斯坦宅邸",
+      "手绘壁画",
+      "老城庭院"
+    ],
+    "description": "在拉贾斯坦宅邸的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://samode.com/samode-haveli/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 16000,
+        "high": 28000,
+        "currency": "INR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://samode.com/samode-haveli/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 28000,
+        "high": 45000,
+        "currency": "INR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://samode.com/samode-haveli/",
+    "tagline": "在拉贾斯坦宅邸的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://samode.com/samode-haveli/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-colombo-galle-face",
+    "cityId": "colombo",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "加勒菲斯酒店",
+    "nameEn": "Galle Face Hotel",
+    "provider": "Galle Face Hotel",
+    "sourceUrl": "https://gallefacehotel.com/history/",
+    "address": "2 Galle Road, Colombo 3",
+    "lat": 6.92,
+    "lng": 79.845,
+    "features": [
+      "海滨历史酒店",
+      "Galle Face Green旁",
+      "殖民时期建筑"
+    ],
+    "description": "在海滨历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://gallefacehotel.com/history/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 40000,
+        "high": 75000,
+        "currency": "LKR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://gallefacehotel.com/history/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 75000,
+        "high": 125000,
+        "currency": "LKR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://gallefacehotel.com/history/",
+    "tagline": "在海滨历史酒店的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://gallefacehotel.com/history/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-kandy-kings-pavilion",
+    "cityId": "kandy",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "康提国王亭阁酒店",
+    "nameEn": "Kings Pavilion Kandy",
+    "provider": "Kings Pavilion Kandy",
+    "sourceUrl": "https://www.kingspavilion.com/",
+    "address": "4/22 Galkanda Road, Aniwatta, Kandy",
+    "lat": 7.293,
+    "lng": 80.619,
+    "features": [
+      "山景",
+      "小型精品酒店",
+      "花园空间"
+    ],
+    "description": "在山景的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.kingspavilion.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 60000,
+        "high": 100000,
+        "currency": "LKR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.kingspavilion.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 100000,
+        "high": 170000,
+        "currency": "LKR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.kingspavilion.com/",
+    "tagline": "在山景的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.kingspavilion.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-cape-town-mount-nelson",
+    "cityId": "cape-town",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "尼尔森山贝尔蒙德酒店",
+    "nameEn": "Mount Nelson, A Belmond Hotel",
+    "provider": "Mount Nelson, A Belmond Hotel",
+    "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+    "address": "76 Orange Street, Gardens, Cape Town",
+    "lat": -33.933,
+    "lng": 18.415,
+    "features": [
+      "粉色历史建筑",
+      "桌山脚下",
+      "花园酒店"
+    ],
+    "description": "在粉色历史建筑的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 12000,
+        "high": 21000,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 21000,
+        "high": 36000,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+    "tagline": "在粉色历史建筑的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-marrakech-maison-arabe",
+    "cityId": "marrakech",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "阿拉伯之家庭院酒店",
+    "nameEn": "La Maison Arabe",
+    "provider": "La Maison Arabe",
+    "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+    "address": "1 Derb Assehbe, Bab Doukkala, Marrakech",
+    "lat": 31.631,
+    "lng": -7.995,
+    "features": [
+      "麦地那庭院",
+      "摩洛哥装饰",
+      "烹饪学校"
+    ],
+    "description": "在麦地那庭院的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 2500,
+        "high": 4500,
+        "currency": "MAD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 4500,
+        "high": 8000,
+        "currency": "MAD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+    "tagline": "在麦地那庭院的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-cairo-mena-house",
+    "cityId": "cairo",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "开罗米娜宫万豪酒店",
+    "nameEn": "Marriott Mena House, Cairo",
+    "provider": "Marriott Mena House, Cairo",
+    "sourceUrl": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+    "address": "Pyramids Road, Giza",
+    "lat": 29.986,
+    "lng": 31.135,
+    "features": [
+      "吉萨金字塔周边",
+      "花园",
+      "历史酒店"
+    ],
+    "description": "在吉萨金字塔周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 15000,
+        "high": 25000,
+        "currency": "EGP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 25000,
+        "high": 40000,
+        "currency": "EGP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+    "tagline": "在吉萨金字塔周边的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-zanzibar-emerson-spice",
+    "cityId": "zanzibar",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Emerson Spice 石头城酒店",
+    "nameEn": "Emerson Spice",
+    "provider": "Emerson Spice",
+    "sourceUrl": "https://emersonzanzibar.com/",
+    "address": "Stone Town, Zanzibar",
+    "lat": -6.162,
+    "lng": 39.191,
+    "features": [
+      "修复商人宅邸",
+      "石头城",
+      "特色客房"
+    ],
+    "description": "在修复商人宅邸的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://emersonzanzibar.com/",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 400000,
+        "high": 700000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://emersonzanzibar.com/",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 700000,
+        "high": 1100000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://emersonzanzibar.com/",
+    "tagline": "在修复商人宅邸的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://emersonzanzibar.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-mauritius-royal-palm",
+    "cityId": "mauritius",
+    "kind": "hotel",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 0,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "皇家棕榈 Beachcomber 酒店",
+    "nameEn": "Royal Palm Beachcomber Luxury",
+    "provider": "Royal Palm Beachcomber Luxury",
+    "sourceUrl": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+    "address": "Grand Baie, Mauritius",
+    "lat": -20.005,
+    "lng": 57.581,
+    "features": [
+      "大湾海滩",
+      "套房酒店",
+      "毛里求斯海滨"
+    ],
+    "description": "在大湾海滩的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+        "id": "room-budget",
+        "name": "双人住宿·客房预算",
+        "description": "双人住宿·客房预算",
+        "low": 35000,
+        "high": 60000,
+        "currency": "MUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一间客房一晚的住宿预算；入住人数上限向酒店确认"
+        ],
+        "excludes": [
+          "早餐、加床和接送，除非最终房价条款明确含有",
+          "地方税、服务费或旅游附加费，以酒店结算页为准"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+        "id": "upgrade-budget",
+        "name": "升级空间或景观·预算",
+        "description": "升级空间或景观·预算",
+        "low": 60000,
+        "high": 110000,
+        "currency": "MUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "升级空间或景观的客房预算；具体房型需询价"
+        ],
+        "excludes": [
+          "套房或景观不作保证，以实际预订房型为准",
+          "未列明的早餐、加床、税费与接送"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+    "tagline": "在大湾海滩的环境中停留，适合希望把住宿本身纳入旅行体验的旅客。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认酒店身份、所在地与特色；未查询日期、房型库存或实时房价。"
+    }
+  },
+  {
+    "id": "ex-aa-hanoi-spice-garden",
+    "cityId": "hanoi",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Spice Garden 越南餐厅",
+    "nameEn": "Spice Garden",
+    "provider": "Sofitel Legend Metropole Hanoi",
+    "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+    "address": "15 Ngo Quyen, Hoan Kiem, Hanoi",
+    "lat": 21.026,
+    "lng": 105.857,
+    "description": "越南区域风味与当代演绎",
+    "features": [
+      "越南区域风味与当代演绎",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 650000,
+        "high": 1100000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 1200000,
+        "high": 2200000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+    "tagline": "越南区域风味与当代演绎",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Spice Garden提供越南区域风味与当代演绎；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-ho-chi-minh-city-square-one",
+    "cityId": "ho-chi-minh-city",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Square One 餐厅",
+    "nameEn": "Square One",
+    "provider": "Park Hyatt Saigon",
+    "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+    "address": "2 Lam Son Square, Ho Chi Minh City",
+    "lat": 10.777,
+    "lng": 106.704,
+    "description": "法式料理与越南风味",
+    "features": [
+      "法式料理与越南风味",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 800000,
+        "high": 1400000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 1500000,
+        "high": 2800000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+    "tagline": "法式料理与越南风味",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Square One提供法式料理与越南风味；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-hoi-an-riverside",
+    "cityId": "hoi-an",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "会安河畔餐厅",
+    "nameEn": "Hoi An Riverside Restaurant",
+    "provider": "Anantara Hoi An Resort",
+    "sourceUrl": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+    "address": "1 Pham Hong Thai, Hoi An",
+    "lat": 15.877,
+    "lng": 108.336,
+    "description": "秋盆河畔的会安及越南中部菜肴",
+    "features": [
+      "秋盆河畔的会安及越南中部菜肴",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 450000,
+        "high": 800000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 850000,
+        "high": 1500000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+    "tagline": "秋盆河畔的会安及越南中部菜肴",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Hoi An Riverside Restaurant提供秋盆河畔的会安及越南中部菜肴；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-da-nang-don-cipriani",
+    "cityId": "da-nang",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Don Cipriani’s 意式餐厅",
+    "nameEn": "Don Cipriani’s",
+    "provider": "Furama Resort Danang",
+    "sourceUrl": "https://furamavillasdanang.com/vi/culinary/",
+    "address": "103–105 Vo Nguyen Giap, Da Nang",
+    "lat": 16.04,
+    "lng": 108.252,
+    "description": "意式面食与海鲜料理",
+    "features": [
+      "意式面食与海鲜料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://furamavillasdanang.com/vi/culinary/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 450000,
+        "high": 800000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://furamavillasdanang.com/vi/culinary/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 850000,
+        "high": 1500000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://furamavillasdanang.com/vi/culinary/",
+    "tagline": "意式面食与海鲜料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://furamavillasdanang.com/vi/culinary/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Don Cipriani’s提供意式面食与海鲜料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-luang-prabang-tamarind",
+    "cityId": "luang-prabang",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Tamarind 老挝餐厅",
+    "nameEn": "Tamarind Restaurant",
+    "provider": "Tamarind",
+    "sourceUrl": "https://www.tamarindlaos.com/",
+    "address": "Ban Wat Sene, Nam Khan riverfront, Luang Prabang",
+    "lat": 19.893,
+    "lng": 102.14,
+    "description": "南康河旁的老挝地方食材",
+    "features": [
+      "南康河旁的老挝地方食材",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.tamarindlaos.com/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 180000,
+        "high": 320000,
+        "currency": "LAK",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.tamarindlaos.com/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 350000,
+        "high": 600000,
+        "currency": "LAK",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.tamarindlaos.com/",
+    "tagline": "南康河旁的老挝地方食材",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.tamarindlaos.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Tamarind Restaurant提供南康河旁的老挝地方食材；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-siem-reap-ma-om",
+    "cityId": "siem-reap",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Ma Om 高棉餐厅",
+    "nameEn": "Ma Om Restaurant",
+    "provider": "Sala Lodges",
+    "sourceUrl": "https://www.salalodges.com/",
+    "address": "498 Sala Kamreuk, Siem Reap",
+    "lat": 13.347,
+    "lng": 103.864,
+    "description": "花园中的当代高棉料理",
+    "features": [
+      "花园中的当代高棉料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.salalodges.com/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 15,
+        "high": 28,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.salalodges.com/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 30,
+        "high": 55,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.salalodges.com/",
+    "tagline": "花园中的当代高棉料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.salalodges.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Ma Om Restaurant提供花园中的当代高棉料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-kuala-lumpur-gobo",
+    "cityId": "kuala-lumpur",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Gobo Chit Chat",
+    "nameEn": "Gobo Chit Chat",
+    "provider": "Traders Hotel Kuala Lumpur",
+    "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+    "address": "Kuala Lumpur City Centre",
+    "lat": 3.153,
+    "lng": 101.714,
+    "description": "马来西亚与国际菜肴",
+    "features": [
+      "马来西亚与国际菜肴",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 70,
+        "high": 130,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 140,
+        "high": 230,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+    "tagline": "马来西亚与国际菜肴",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Gobo Chit Chat提供马来西亚与国际菜肴；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-penang-sarkies",
+    "cityId": "penang",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Sarkies 自助餐厅",
+    "nameEn": "Sarkies",
+    "provider": "Eastern & Oriental Hotel",
+    "sourceUrl": "https://www.eohotels.com/dinings/",
+    "address": "10 Lebuh Farquhar, George Town, Penang",
+    "lat": 5.423,
+    "lng": 100.336,
+    "description": "马来西亚和国际风味自助餐",
+    "features": [
+      "马来西亚和国际风味自助餐",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.eohotels.com/dinings/",
+        "id": "simple-meal",
+        "name": "自助餐用餐·预算",
+        "description": "自助餐用餐·预算",
+        "low": 130,
+        "high": 190,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一位成人自助餐的编辑预算；实际日期菜单需确认"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.eohotels.com/dinings/",
+        "id": "extended-meal",
+        "name": "自助餐与额外饮品·预算",
+        "description": "自助餐与额外饮品·预算",
+        "low": 190,
+        "high": 280,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一位成人自助餐及额外饮品的编辑预算"
+        ],
+        "excludes": [
+          "高档酒水、未列明额外点单",
+          "税费及服务费以当日菜单为准"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.eohotels.com/dinings/",
+    "tagline": "马来西亚和国际风味自助餐",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.eohotels.com/dinings/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Sarkies提供马来西亚和国际风味自助餐；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-langkawi-planters",
+    "cityId": "langkawi",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Planter’s 餐厅",
+    "nameEn": "Planter’s",
+    "provider": "The Danna Langkawi",
+    "sourceUrl": "https://www.thedanna.com/dine/planters",
+    "address": "Telaga Harbour Park, Pantai Kok, Langkawi",
+    "lat": 6.366,
+    "lng": 99.68,
+    "description": "亚洲与欧洲风味晚餐",
+    "features": [
+      "亚洲与欧洲风味晚餐",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.thedanna.com/dine/planters",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 150,
+        "high": 250,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.thedanna.com/dine/planters",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 260,
+        "high": 450,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.thedanna.com/dine/planters",
+    "tagline": "亚洲与欧洲风味晚餐",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.thedanna.com/dine/planters",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Planter’s提供亚洲与欧洲风味晚餐；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-cebu-cowrie-cove",
+    "cityId": "cebu",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Cowrie Cove 海滨餐厅",
+    "nameEn": "Cowrie Cove Seafood Bar & Grill",
+    "provider": "Shangri-La Mactan, Cebu",
+    "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+    "address": "Punta Engaño Road, Lapu-Lapu, Cebu",
+    "lat": 10.307,
+    "lng": 124.021,
+    "description": "海湾边的海鲜与炭烤料理",
+    "features": [
+      "海湾边的海鲜与炭烤料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 1800,
+        "high": 3000,
+        "currency": "PHP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 3200,
+        "high": 5200,
+        "currency": "PHP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+    "tagline": "海湾边的海鲜与炭烤料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Cowrie Cove Seafood Bar & Grill提供海湾边的海鲜与炭烤料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-taipei-yun-jin",
+    "cityId": "taipei",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "云锦中餐厅",
+    "nameEn": "Yun Jin",
+    "provider": "Grand Hyatt Taipei",
+    "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+    "address": "台北市信义区松寿路2号",
+    "lat": 25.036,
+    "lng": 121.562,
+    "description": "川沪京等区域中餐",
+    "features": [
+      "川沪京等区域中餐",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 1200,
+        "high": 2000,
+        "currency": "TWD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 2200,
+        "high": 3800,
+        "currency": "TWD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+    "tagline": "川沪京等区域中餐",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Yun Jin提供川沪京等区域中餐；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-kathmandu-krishnarpan",
+    "cityId": "kathmandu",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Krishnarpan 尼泊尔品鉴餐厅",
+    "nameEn": "Krishnarpan",
+    "provider": "The Dwarika’s",
+    "sourceUrl": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+    "address": "Battisputali, Kathmandu",
+    "lat": 27.706,
+    "lng": 85.344,
+    "description": "六道至多道的尼泊尔慢餐体验",
+    "features": [
+      "六道至多道的尼泊尔慢餐体验",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 8000,
+        "high": 13000,
+        "currency": "NPR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 14000,
+        "high": 22000,
+        "currency": "NPR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+    "tagline": "六道至多道的尼泊尔慢餐体验",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Krishnarpan提供六道至多道的尼泊尔慢餐体验；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-jaipur-samode-dining",
+    "cityId": "jaipur",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Samode Haveli 宅邸餐厅",
+    "nameEn": "Samode Haveli Dining",
+    "provider": "Samode Haveli",
+    "sourceUrl": "https://samode.com/samode-haveli-dining-adventures/",
+    "address": "Gangapole, Jaipur",
+    "lat": 26.935,
+    "lng": 75.835,
+    "description": "拉贾斯坦地方菜与庭院用餐",
+    "features": [
+      "拉贾斯坦地方菜与庭院用餐",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://samode.com/samode-haveli-dining-adventures/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 1800,
+        "high": 3000,
+        "currency": "INR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://samode.com/samode-haveli-dining-adventures/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 3200,
+        "high": 5500,
+        "currency": "INR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://samode.com/samode-haveli-dining-adventures/",
+    "tagline": "拉贾斯坦地方菜与庭院用餐",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://samode.com/samode-haveli-dining-adventures/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Samode Haveli Dining提供拉贾斯坦地方菜与庭院用餐；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-colombo-1864",
+    "cityId": "colombo",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "1864 Limited Edition",
+    "nameEn": "1864 Limited Edition",
+    "provider": "Galle Face Hotel",
+    "sourceUrl": "https://gallefacehotel.com/dining/1864-limited-edition/",
+    "address": "2 Galle Road, Colombo 3",
+    "lat": 6.92,
+    "lng": 79.845,
+    "description": "斯里兰卡食材与当代融合料理",
+    "features": [
+      "斯里兰卡食材与当代融合料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://gallefacehotel.com/dining/1864-limited-edition/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 5000,
+        "high": 7500,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://gallefacehotel.com/dining/1864-limited-edition/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 9000,
+        "high": 16000,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://gallefacehotel.com/dining/1864-limited-edition/",
+    "tagline": "斯里兰卡食材与当代融合料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://gallefacehotel.com/dining/1864-limited-edition/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认1864 Limited Edition提供斯里兰卡食材与当代融合料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-kandy-kings-dining",
+    "cityId": "kandy",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Kings Pavilion 山景餐厅",
+    "nameEn": "Kings Pavilion Dining",
+    "provider": "Kings Pavilion Kandy",
+    "sourceUrl": "https://www.kingspavilion.com/dining/",
+    "address": "4/22 Galkanda Road, Aniwatta, Kandy",
+    "lat": 7.293,
+    "lng": 80.619,
+    "description": "山景中的斯里兰卡咖喱与国际料理",
+    "features": [
+      "山景中的斯里兰卡咖喱与国际料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.kingspavilion.com/dining/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 6000,
+        "high": 9500,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.kingspavilion.com/dining/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 10000,
+        "high": 16000,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.kingspavilion.com/dining/",
+    "tagline": "山景中的斯里兰卡咖喱与国际料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.kingspavilion.com/dining/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Kings Pavilion Dining提供山景中的斯里兰卡咖喱与国际料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-cape-town-oasis",
+    "cityId": "cape-town",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Oasis 花园餐厅",
+    "nameEn": "Oasis Restaurant",
+    "provider": "Mount Nelson, A Belmond Hotel",
+    "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+    "address": "76 Orange Street, Gardens, Cape Town",
+    "lat": -33.933,
+    "lng": 18.415,
+    "description": "花园与泳池旁的当季料理",
+    "features": [
+      "花园与泳池旁的当季料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 450,
+        "high": 750,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 800,
+        "high": 1300,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+    "tagline": "花园与泳池旁的当季料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Oasis Restaurant提供花园与泳池旁的当季料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-marrakech-trois-saveurs",
+    "cityId": "marrakech",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Les Trois Saveurs",
+    "nameEn": "Les Trois Saveurs",
+    "provider": "La Maison Arabe",
+    "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+    "address": "1 Derb Assehbe, Bab Doukkala, Marrakech",
+    "lat": 31.631,
+    "lng": -7.995,
+    "description": "摩洛哥、法国与亚洲风味",
+    "features": [
+      "摩洛哥、法国与亚洲风味",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 350,
+        "high": 550,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 600,
+        "high": 950,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+    "tagline": "摩洛哥、法国与亚洲风味",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Les Trois Saveurs提供摩洛哥、法国与亚洲风味；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-cairo-139-pavilion",
+    "cityId": "cairo",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "139 Pavilion 花园餐厅",
+    "nameEn": "139 Pavilion",
+    "provider": "Marriott Mena House, Cairo",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+    "address": "Pyramids Road, Giza",
+    "lat": 29.986,
+    "lng": 31.135,
+    "description": "吉萨花园中的国际料理",
+    "features": [
+      "吉萨花园中的国际料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 1600,
+        "high": 2800,
+        "currency": "EGP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "lunch",
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 3000,
+        "high": 5000,
+        "currency": "EGP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+    "tagline": "吉萨花园中的国际料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认139 Pavilion提供吉萨花园中的国际料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-zanzibar-hurumzi-tea",
+    "cityId": "zanzibar",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Emerson on Hurumzi 屋顶茶屋",
+    "nameEn": "Emerson on Hurumzi Tea House",
+    "provider": "Emerson Zanzibar",
+    "sourceUrl": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+    "address": "Emerson on Hurumzi, Stone Town, Zanzibar",
+    "lat": -6.16,
+    "lng": 39.19,
+    "description": "石头城屋顶的斯瓦希里风味",
+    "features": [
+      "石头城屋顶的斯瓦希里风味",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 80000,
+        "high": 130000,
+        "currency": "TZS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 130000,
+        "high": 210000,
+        "currency": "TZS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+    "tagline": "石头城屋顶的斯瓦希里风味",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认Emerson on Hurumzi Tea House提供石头城屋顶的斯瓦希里风味；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-mauritius-goelette",
+    "cityId": "mauritius",
+    "kind": "restaurant",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "La Goélette 海景餐厅",
+    "nameEn": "La Goélette",
+    "provider": "Royal Palm Beachcomber Luxury",
+    "sourceUrl": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+    "address": "Grand Baie, Mauritius",
+    "lat": -20.005,
+    "lng": 57.581,
+    "description": "大湾海景中的当地食材与精致料理",
+    "features": [
+      "大湾海景中的当地食材与精致料理",
+      "可查看经营者菜单",
+      "用餐预算可选"
+    ],
+    "mealType": "dinner",
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+        "id": "simple-meal",
+        "name": "日常点餐或基础菜单·预算",
+        "description": "日常点餐或基础菜单·预算",
+        "low": 2500,
+        "high": 4000,
+        "currency": "MUR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份主菜或基础菜单预留预算"
+        ],
+        "excludes": [
+          "酒水、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+        "id": "extended-meal",
+        "name": "多道菜或升级食材·预算",
+        "description": "多道菜或升级食材·预算",
+        "low": 4500,
+        "high": 7000,
+        "currency": "MUR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "按一人份多道菜或升级食材预留预算"
+        ],
+        "excludes": [
+          "配酒、额外加点",
+          "菜单税费、服务费及人数限制，需另行核价"
+        ],
+        "mealTypes": [
+          "dinner"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+    "tagline": "大湾海景中的当地食材与精致料理",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网确认La Goélette提供大湾海景中的当地食材与精致料理；两档金额为编辑用餐预算，未声称经营者出售同名套餐。"
+    }
+  },
+  {
+    "id": "ex-aa-hanoi-thang-long-puppets",
+    "cityId": "hanoi",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 75,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "升龙水上木偶剧",
+    "provider": "Thang Long Water Puppet Theatre",
+    "sourceUrl": "https://vietnam.travel/node/1299",
+    "address": "57B Dinh Tien Hoang, Hoan Kiem, Hanoi",
+    "lat": 21.032,
+    "lng": 105.854,
+    "description": "在还剑湖畔观看水上木偶与传统音乐；时长含提前入场的规划缓冲。",
+    "features": [
+      "Thang Long Water Puppet Theatre",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://vietnam.travel/node/1299",
+        "id": "standard",
+        "name": "普通座席·预算",
+        "description": "普通座席·预算",
+        "low": 150000,
+        "high": 200000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "一场成人演出门票预算"
+        ],
+        "excludes": [
+          "未列明的额外消费",
+          "前往集合地点的交通"
+        ]
+      },
+      {
+        "sourceUrl": "https://vietnam.travel/node/1299",
+        "id": "preferred-seat",
+        "name": "较优座席·预算",
+        "description": "较优座席·预算",
+        "low": 200000,
+        "high": 300000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "较优区域成人演出门票预算"
+        ],
+        "excludes": [
+          "未列明的额外消费",
+          "前往集合地点的交通"
+        ]
+      }
+    ],
+    "bookingUrl": "https://nhahatmuaroithanglong.vn/en/",
+    "sourceType": "tourism-official",
+    "preferredStartTime": "18:00",
+    "nameEn": "升龙水上木偶剧",
+    "tagline": "在还剑湖畔观看水上木偶与传统音乐；时长含提前入场的规划缓冲。",
+    "evidence": {
+      "sourceType": "tourism-official",
+      "sourceUrl": "https://vietnam.travel/node/1299",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "越南国家旅游官网明确列出升龙水上木偶剧院；未取得可核实的当日座位价，金额保留估算。"
+    }
+  },
+  {
+    "id": "ex-aa-ho-chi-minh-city-saigon-princess",
+    "cityId": "ho-chi-minh-city",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Saigon Princess 西贡河晚餐游船",
+    "provider": "Saigon Princess",
+    "sourceUrl": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+    "address": "Saigon river boarding pier；具体登船点按确认单",
+    "lat": 10.768,
+    "lng": 106.707,
+    "description": "沿西贡河欣赏城市夜景并用晚餐；预留登船检查时间。",
+    "features": [
+      "Saigon Princess",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+        "id": "dinner",
+        "name": "晚餐航程·预算",
+        "description": "晚餐航程·预算",
+        "low": 1600000,
+        "high": 2200000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "游船航程与晚餐预算"
+        ],
+        "excludes": [
+          "酒水、酒店接送、升级座位"
+        ],
+        "includedMeals": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+        "id": "upgraded-dinner",
+        "name": "升级晚餐·预算",
+        "description": "升级晚餐·预算",
+        "low": 2300000,
+        "high": 3500000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "游船航程与升级餐饮预算"
+        ],
+        "excludes": [
+          "酒水、酒店接送；实际菜单需核实"
+        ],
+        "includedMeals": [
+          "dinner"
+        ]
+      }
+    ],
+    "preferredStartTime": "18:30",
+    "bookingUrl": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+    "nameEn": "Saigon Princess 西贡河晚餐游船",
+    "tagline": "沿西贡河欣赏城市夜景并用晚餐；预留登船检查时间。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者2026套餐页和Daily Cruising页确认西贡河晚餐航程；菜单图片未转写为确定价格。"
+    }
+  },
+  {
+    "id": "ex-aa-hoi-an-spice-spoons",
+    "cityId": "hoi-an",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 240,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Spice Spoons 越南烹饪课",
+    "provider": "Anantara Hoi An Resort",
+    "sourceUrl": "https://www.anantara.com/vi/hoi-an/restaurants/spice-spoons",
+    "address": "Anantara Hoi An Resort, 1 Pham Hong Thai",
+    "lat": 15.877,
+    "lng": 108.336,
+    "description": "在厨师带领下制作越南菜，午餐品尝自己的作品，并带回食谱。",
+    "features": [
+      "Anantara Hoi An Resort",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.anantara.com/vi/hoi-an/restaurants/spice-spoons",
+        "id": "cooking",
+        "name": "烹饪与午餐·预算",
+        "description": "烹饪与午餐·预算",
+        "low": 1800000,
+        "high": 3000000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "烹饪教学、食材及自制午餐预算"
+        ],
+        "excludes": [
+          "酒店接送",
+          "特殊食材或定制菜单升级"
+        ],
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "preferredStartTime": "09:00",
+    "bookingUrl": "https://www.anantara.com/vi/hoi-an/restaurants/spice-spoons",
+    "nameEn": "Spice Spoons 越南烹饪课",
+    "tagline": "在厨师带领下制作越南菜，午餐品尝自己的作品，并带回食谱。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.anantara.com/vi/hoi-an/restaurants/spice-spoons",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "Anantara官方Spice Spoons页确认按需开班、逐步教学与自制午餐；价格与四小时预算时长待经营者确认。"
+    }
+  },
+  {
+    "id": "ex-aa-da-nang-ba-na-combo",
+    "cityId": "da-nang",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 360,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "这是巴拿山基础票体验。若同时选择景点库中的巴拿山/金桥，请只保留一份门票预算；不含岘港市区接送。2026多日权益有换票和人脸登记条件，需按官网办理。",
+    "name": "巴拿山缆车与山顶体验",
+    "provider": "Sun World Ba Na Hills",
+    "sourceUrl": "https://sunworld.vn/en/banahills/sunworld-news/price-list-tickets-services-sun-world-ba-na-hills-year-2026-19796",
+    "address": "Hoa Ninh, Hoa Vang, Da Nang；山脚缆车站",
+    "lat": 15.996,
+    "lng": 107.99,
+    "description": "乘往返缆车到山顶，在金桥、法国村与园内活动之间自由安排。",
+    "features": [
+      "Sun World Ba Na Hills",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://sunworld.vn/en/banahills/sunworld-news/price-list-tickets-services-sun-world-ba-na-hills-year-2026-19796",
+        "id": "non-local-adult",
+        "name": "非本地成人基础票",
+        "description": "非本地成人基础票",
+        "low": 1000000,
+        "high": 1000000,
+        "currency": "VND",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "往返缆车",
+          "基础票列明的园内景点及演出"
+        ],
+        "excludes": [
+          "岘港市区往返交通",
+          "餐饮",
+          "酒窖、部分互动区及另收费游乐项目"
+        ]
+      }
+    ],
+    "preferredStartTime": "09:00",
+    "bookingUrl": "https://sunworld.vn/en/banahills/sunworld-news/price-list-tickets-services-sun-world-ba-na-hills-year-2026-19796",
+    "nameEn": "巴拿山缆车与山顶体验",
+    "tagline": "乘往返缆车到山顶，在金桥、法国村与园内活动之间自由安排。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://sunworld.vn/en/banahills/sunworld-news/price-list-tickets-services-sun-world-ba-na-hills-year-2026-19796",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "乘往返缆车到山顶，在金桥、法国村与园内活动之间自由安排。"
+    }
+  },
+  {
+    "id": "ex-aa-luang-prabang-tamarind-cooking",
+    "cityId": "luang-prabang",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 330,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Tamarind 老挝烹饪课",
+    "provider": "Tamarind",
+    "sourceUrl": "https://www.tamarindlaos.com/cookingschool",
+    "address": "Tamarind Restaurant, Ban Wat Sene；在市内餐厅集合后赴郊外课堂",
+    "lat": 19.893,
+    "lng": 102.14,
+    "description": "从食材认识到亲手烹饪，在市内餐厅集合，再前往郊外课堂。",
+    "features": [
+      "Tamarind",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.tamarindlaos.com/cookingschool",
+        "id": "daytime",
+        "name": "日间市场与烹饪课",
+        "description": "日间市场与烹饪课",
+        "low": 40,
+        "high": 40,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "市场体验",
+          "五道菜与糯米饭教学",
+          "自制午餐、食谱",
+          "餐厅至课堂的往返交通"
+        ],
+        "excludes": [
+          "酒店至市内餐厅交通",
+          "加点饮品"
+        ],
+        "durationMinutes": 330,
+        "preferredStartTime": "09:00",
+        "includedMeals": [
+          "lunch"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.tamarindlaos.com/cookingschool",
+        "id": "evening",
+        "name": "傍晚烹饪课",
+        "description": "傍晚烹饪课",
+        "low": 34,
+        "high": 34,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "四道菜与糯米饭教学",
+          "自制晚餐、食谱",
+          "餐厅至课堂往返交通"
+        ],
+        "excludes": [
+          "酒店至市内餐厅交通",
+          "市场参观"
+        ],
+        "durationMinutes": 270,
+        "preferredStartTime": "16:00",
+        "includedMeals": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.tamarindlaos.com/cookingschool",
+        "id": "private-master",
+        "name": "私人进阶课·每组1–4人",
+        "description": "私人进阶课·每组1–4人",
+        "low": 300,
+        "high": 300,
+        "currency": "USD",
+        "unit": "booking",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "私人烹饪教学与自制午餐",
+          "餐厅至课堂往返交通"
+        ],
+        "excludes": [
+          "酒店至市内餐厅交通"
+        ],
+        "partyCapacity": 4,
+        "maxParticipants": 4,
+        "durationMinutes": 300,
+        "preferredStartTime": "09:30",
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.tamarindlaos.com/cookingschool",
+    "nameEn": "Tamarind 老挝烹饪课",
+    "tagline": "从食材认识到亲手烹饪，在市内餐厅集合，再前往郊外课堂。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.tamarindlaos.com/cookingschool",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "现行课程页列40USD日课、34USD晚课、300USD/1–4人私人课；食谱与课堂交通含在内，酒店接送不含。"
+    }
+  },
+  {
+    "id": "ex-aa-siem-reap-phare",
+    "cityId": "siem-reap",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "成人价适用12岁及以上；儿童票需另查",
+      "场次与节目以演出日历为准"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Phare 柬埔寨马戏演出",
+    "provider": "Phare, The Cambodian Circus",
+    "sourceUrl": "https://pharecircus.org/tickets/",
+    "address": "Ring Road 与 Sok San Road 交界，Siem Reap",
+    "lat": 13.355,
+    "lng": 103.836,
+    "description": "用杂技、戏剧与现场音乐讲述柬埔寨故事；演出约一小时，另预留入场时间。",
+    "features": [
+      "Phare, The Cambodian Circus",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://pharecircus.org/tickets/",
+        "id": "section-c",
+        "name": "C区成人自由席",
+        "description": "C区成人自由席",
+        "low": 18,
+        "high": 18,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "侧面C区自由席"
+        ],
+        "excludes": [
+          "部分座位可能视线受阻",
+          "晚餐、接送"
+        ]
+      },
+      {
+        "sourceUrl": "https://pharecircus.org/tickets/",
+        "id": "section-b",
+        "name": "B区成人自由席",
+        "description": "B区成人自由席",
+        "low": 28,
+        "high": 28,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "中区后半部自由席"
+        ],
+        "excludes": [
+          "晚餐、接送"
+        ]
+      },
+      {
+        "sourceUrl": "https://pharecircus.org/tickets/",
+        "id": "section-a",
+        "name": "A区成人预留席",
+        "description": "A区成人预留席",
+        "low": 38,
+        "high": 38,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "中区前半部预留席",
+          "官方列明纪念品"
+        ],
+        "excludes": [
+          "晚餐、接送"
+        ]
+      }
+    ],
+    "preferredStartTime": "19:30",
+    "bookingUrl": "https://pharecircus.org/tickets/",
+    "nameEn": "Phare 柬埔寨马戏演出",
+    "tagline": "用杂技、戏剧与现场音乐讲述柬埔寨故事；演出约一小时，另预留入场时间。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://pharecircus.org/tickets/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "用杂技、戏剧与现场音乐讲述柬埔寨故事；演出约一小时，另预留入场时间。"
+    }
+  },
+  {
+    "id": "ex-aa-kuala-lumpur-jadi-batek",
+    "cityId": "kuala-lumpur",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 120,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Jadi Batek 蜡染手作",
+    "provider": "Jadi Batek",
+    "sourceUrl": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+    "address": "Jadi Batek Gallery, Kuala Lumpur；具体分店由预约确认",
+    "lat": 3.144,
+    "lng": 101.715,
+    "description": "用蜡笔工具描线并上色，制作可带走的马来西亚蜡染作品。",
+    "features": [
+      "Jadi Batek",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+        "id": "cotton",
+        "name": "30×40厘米棉布蜡染券",
+        "description": "30×40厘米棉布蜡染券",
+        "low": 78,
+        "high": 78,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网电子体验券价；购买后3个月内有效，须预约实体课堂。",
+        "includes": [
+          "棉布、蜡染材料与指导"
+        ],
+        "excludes": [
+          "酒店接送",
+          "寄送或额外商品"
+        ]
+      },
+      {
+        "sourceUrl": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+        "id": "silk",
+        "name": "30×40厘米真丝蜡染券",
+        "description": "30×40厘米真丝蜡染券",
+        "low": 98,
+        "high": 98,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网电子体验券价；购买后3个月内有效，须预约实体课堂。",
+        "includes": [
+          "Habutai真丝材料与指导"
+        ],
+        "excludes": [
+          "酒店接送",
+          "寄送或额外商品"
+        ]
+      }
+    ],
+    "bookingUrl": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+    "nameEn": "Jadi Batek 蜡染手作",
+    "tagline": "用蜡笔工具描线并上色，制作可带走的马来西亚蜡染作品。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "用蜡笔工具描线并上色，制作可带走的马来西亚蜡染作品。"
+    }
+  },
+  {
+    "id": "ex-aa-penang-spice-garden-cooking",
+    "cityId": "penang",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 270,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Tropical Spice Garden 香料烹饪课",
+    "provider": "Tropical Spice Garden",
+    "sourceUrl": "https://tropicalspicegarden.com/home/cook/",
+    "address": "Lot 595 Mukim 2, Jalan Teluk Bahang, Penang",
+    "lat": 5.464,
+    "lng": 100.229,
+    "description": "在热带香料园的厨房学习地方菜，认识香料与食材。",
+    "features": [
+      "Tropical Spice Garden",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://tropicalspicegarden.com/home/cook/",
+        "id": "cooking",
+        "name": "半日烹饪课·预算",
+        "description": "半日烹饪课·预算",
+        "low": 260,
+        "high": 400,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "课程、食材与自制菜品预算"
+        ],
+        "excludes": [
+          "乔治市往返交通",
+          "完整正餐、额外饮品；园区门票是否包含需确认"
+        ]
+      }
+    ],
+    "preferredStartTime": "09:00",
+    "bookingUrl": "https://tropicalspicegarden.com/home/cook/",
+    "nameEn": "Tropical Spice Garden 香料烹饪课",
+    "tagline": "在热带香料园的厨房学习地方菜，认识香料与食材。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://tropicalspicegarden.com/home/cook/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网COOK页面确认园内烹饪学校；具体日期菜单、最终价格、课堂时长及含餐范围需预订确认。"
+    }
+  },
+  {
+    "id": "ex-aa-langkawi-skytrail",
+    "cityId": "langkawi",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "官网徒步时长之外另预留约一小时集合和缆车缓冲，已计入规划用时。已含SkyCab快线票，请勿重复选择同日SkyCab门票。天气和体力条件须向运营方确认。",
+    "name": "SkyTrail 雨林向导徒步",
+    "provider": "Panorama Langkawi",
+    "sourceUrl": "https://panoramalangkawi.com/skytrail/",
+    "address": "SkyCab售票柜台, Oriental Village, Langkawi",
+    "lat": 6.371,
+    "lng": 99.672,
+    "description": "跟随自然向导走入玛琼山雨林，按体力选择中站到峰顶或从山脚上行。",
+    "features": [
+      "Panorama Langkawi",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://panoramalangkawi.com/skytrail/",
+        "id": "beginner",
+        "name": "入门路线·约2小时",
+        "description": "入门路线·约2小时",
+        "low": 180,
+        "high": 180,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "自然向导徒步",
+          "SkyCab Express Lane缆车票"
+        ],
+        "excludes": [
+          "酒店接送",
+          "餐食",
+          "另收费景点"
+        ],
+        "durationMinutes": 180
+      },
+      {
+        "sourceUrl": "https://panoramalangkawi.com/skytrail/",
+        "id": "intermediate",
+        "name": "中级路线·约3–4小时",
+        "description": "中级路线·约3–4小时",
+        "low": 230,
+        "high": 230,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "从Oriental Village到中站的向导徒步",
+          "SkyCab Express Lane缆车票"
+        ],
+        "excludes": [
+          "酒店接送",
+          "餐食"
+        ],
+        "durationMinutes": 270
+      },
+      {
+        "sourceUrl": "https://panoramalangkawi.com/skytrail/",
+        "id": "challenging",
+        "name": "挑战路线·约4–5小时",
+        "description": "挑战路线·约4–5小时",
+        "low": 280,
+        "high": 280,
+        "currency": "MYR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "从Oriental Village到峰顶的向导徒步",
+          "SkyCab Express Lane缆车票"
+        ],
+        "excludes": [
+          "酒店接送",
+          "餐食"
+        ],
+        "durationMinutes": 330
+      }
+    ],
+    "preferredStartTime": "09:30",
+    "bookingUrl": "https://panoramalangkawi.com/skytrail/",
+    "nameEn": "SkyTrail 雨林向导徒步",
+    "tagline": "跟随自然向导走入玛琼山雨林，按体力选择中站到峰顶或从山脚上行。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://panoramalangkawi.com/skytrail/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "跟随自然向导走入玛琼山雨林，按体力选择中站到峰顶或从山脚上行。"
+    }
+  },
+  {
+    "id": "ex-aa-cebu-sidive-discover",
+    "cityId": "cebu",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "需符合经营者入水与健康条件并填写要求的表格",
+      "潜水后乘机间隔须遵守经营者要求，避免安排在临近航班前"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "SiDive 麦克坦体验潜水",
+    "provider": "SiDive",
+    "sourceUrl": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+    "address": "Kontiki Marina, Mactan, Cebu",
+    "lat": 10.283,
+    "lng": 124,
+    "description": "先学习基础技巧，再由教练陪同进行一次海中体验潜水；这不是完整潜水执照课程。",
+    "features": [
+      "SiDive",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+        "id": "join-two",
+        "name": "两人以上参加·每人含电子教材",
+        "description": "两人以上参加·每人含电子教材",
+        "low": 3450,
+        "high": 3450,
+        "currency": "PHP",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方3100PHP/人（至少2人）+350PHP电子教材，共3450PHP/人。",
+        "includes": [
+          "体验潜水、装备与教练",
+          "PADI DSD电子教材350PHP"
+        ],
+        "excludes": [
+          "酒店接送",
+          "另收费的体验证书"
+        ],
+        "minParticipants": 2
+      },
+      {
+        "sourceUrl": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+        "id": "private",
+        "name": "一对一体验·含电子教材",
+        "description": "一对一体验·含电子教材",
+        "low": 3650,
+        "high": 3650,
+        "currency": "PHP",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方一对一3300PHP+350PHP电子教材，共3650PHP。",
+        "includes": [
+          "一对一体验潜水、装备与教练",
+          "电子教材350PHP"
+        ],
+        "excludes": [
+          "酒店接送",
+          "另收费的体验证书"
+        ],
+        "maxParticipants": 1
+      }
+    ],
+    "bookingUrl": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+    "nameEn": "SiDive 麦克坦体验潜水",
+    "tagline": "先学习基础技巧，再由教练陪同进行一次海中体验潜水；这不是完整潜水执照课程。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "先学习基础技巧，再由教练陪同进行一次海中体验潜水；这不是完整潜水执照课程。"
+    }
+  },
+  {
+    "id": "ex-aa-taipei-cookinn",
+    "cityId": "taipei",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "课程页列周二、三、四、六，生成日期后需核对是否开班",
+      "有最低成班人数要求；报名人数不足时经营者可能改期或退款",
+      "台北有中山和西门两间教室，请按课前通知导航"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Cookinn 小笼包与牛肉面课程",
+    "provider": "Cookinn Taiwan",
+    "sourceUrl": "https://cookinn.tw/zh/signature-taiwanese-dumplings-and-noodles/",
+    "address": "台北中山或西门教室；教室地址以课前通知为准",
+    "lat": 25.053,
+    "lng": 121.517,
+    "description": "亲手制作小笼包，学习台湾经典面点与牛肉面的料理方式。",
+    "features": [
+      "Cookinn Taiwan",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://cookinn.tw/zh/signature-taiwanese-dumplings-and-noodles/",
+        "id": "signature",
+        "name": "小笼包牛肉面课·成人参考价",
+        "description": "小笼包牛肉面课·成人参考价",
+        "low": 2650,
+        "high": 2650,
+        "currency": "TWD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方具体课程页明确NTD2650/人，周二、三、四、六09:30–12:30含午餐；是该课程公开参考价，不是任意日期可订承诺。",
+        "includes": [
+          "指定烹饪课程与食材",
+          "自制午餐、珍珠奶茶与食谱"
+        ],
+        "excludes": [
+          "接送",
+          "私人包班升级"
+        ],
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "preferredStartTime": "09:30",
+    "bookingUrl": "https://cookinntaiwan.rezio.shop/zh-TW",
+    "nameEn": "Cookinn 小笼包与牛肉面课程",
+    "tagline": "亲手制作小笼包，学习台湾经典面点与牛肉面的料理方式。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://cookinn.tw/zh/signature-taiwanese-dumplings-and-noodles/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "具体课程官网明确2650TWD/人、周二三四六09:30–12:30含午餐；采用具体课程价格，不把列表页“2650起”当作全课程固定价。"
+    }
+  },
+  {
+    "id": "ex-aa-kathmandu-nepal-cooking",
+    "cityId": "kathmandu",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 240,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Nepal Cooking School 尼泊尔家常菜",
+    "provider": "Nepal Cooking School",
+    "sourceUrl": "https://www.nepalcookingschool.com.np/bookings/",
+    "address": "Kathmandu；集合地址由学校确认",
+    "lat": 27.717,
+    "lng": 85.31,
+    "description": "认识尼泊尔食材，并在课堂中练习当地家常菜；菜单与集合安排按日期确认。",
+    "features": [
+      "Nepal Cooking School",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.nepalcookingschool.com.np/bookings/",
+        "id": "class",
+        "name": "尼泊尔烹饪体验·预算",
+        "description": "尼泊尔烹饪体验·预算",
+        "low": 4000,
+        "high": 6500,
+        "currency": "NPR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "课程与食材预算"
+        ],
+        "excludes": [
+          "接送、饮品及额外课程",
+          "是否含完整正餐需按菜单核实"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.nepalcookingschool.com.np/bookings/",
+    "nameEn": "Nepal Cooking School 尼泊尔家常菜",
+    "tagline": "认识尼泊尔食材，并在课堂中练习当地家常菜；菜单与集合安排按日期确认。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.nepalcookingschool.com.np/bookings/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "学校官方预订页确认加德满都实体与每日课程；页面报价未得到可靠读取，保留编辑预算。"
+    }
+  },
+  {
+    "id": "ex-aa-jaipur-skywaltz",
+    "cityId": "jaipur",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 300,
+    "requirements": [
+      "天气允许才起飞；集合时间与交通范围按经营者确认",
+      "报价适用外国成人；儿童、国籍与身体条件另核"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "SkyWaltz 斋浦尔热气球",
+    "provider": "SkyWaltz Balloon Safari",
+    "sourceUrl": "https://www.skywaltz.com/ticket-options/",
+    "address": "Jaipur周边；起飞点随天气与当天运行安排变化",
+    "lat": 27,
+    "lng": 75.85,
+    "description": "清晨从空中观看斋浦尔周边乡村与地貌；预留起飞准备及集合交通的时间。",
+    "features": [
+      "SkyWaltz Balloon Safari",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.skywaltz.com/ticket-options/",
+        "id": "foreign-adult",
+        "name": "外国成人共享热气球",
+        "description": "外国成人共享热气球",
+        "low": 325,
+        "high": 325,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网Jaipur Foreign National成人价325USD，含税；印度国籍优惠价不适用于外国旅客。",
+        "includes": [
+          "外国成人热气球体验",
+          "官网列明税费",
+          "飞行纪念证书"
+        ],
+        "excludes": [
+          "未明确包含的接送、额外服务"
+        ]
+      }
+    ],
+    "preferredStartTime": "06:00",
+    "bookingUrl": "https://www.skywaltz.com/ticket-options/",
+    "nameEn": "SkyWaltz 斋浦尔热气球",
+    "tagline": "清晨从空中观看斋浦尔周边乡村与地貌；预留起飞准备及集合交通的时间。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.skywaltz.com/ticket-options/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者Ticket Options明确Jaipur外国成人325USD含税；不是印度居民14990INR未税价。"
+    }
+  },
+  {
+    "id": "ex-aa-colombo-colombo-walks",
+    "cityId": "colombo",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Colombo Walks 老城步行",
+    "provider": "Colombo Walks",
+    "sourceUrl": "https://www.colombowalks.com/booknow",
+    "address": "Dutch Hospital Precinct入口，Colombo 1",
+    "lat": 6.934,
+    "lng": 79.844,
+    "description": "从荷兰医院区出发，沿城市街巷认识科伦坡历史与日常生活。",
+    "features": [
+      "Colombo Walks",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.colombowalks.com/booknow",
+        "id": "guided-walk",
+        "name": "向导步行与简餐·预算",
+        "description": "向导步行与简餐·预算",
+        "low": 6000,
+        "high": 11000,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "官网同页同时列4000LKR与27USD起，隐含汇率明显陈旧；仅核实活动身份与约2.5–3小时内容，不把该金额视作当前可靠官方价。",
+        "includes": [
+          "向导步行与官网所述简餐预算"
+        ],
+        "excludes": [
+          "酒店接送",
+          "未列明的景点门票"
+        ],
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "preferredStartTime": "11:00",
+    "bookingUrl": "https://www.colombowalks.com/booknow",
+    "nameEn": "Colombo Walks 老城步行",
+    "tagline": "从荷兰医院区出发，沿城市街巷认识科伦坡历史与日常生活。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.colombowalks.com/booknow",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网列Dutch Hospital集合、每日6:45/11:00/16:00、约2.5–3小时与简餐；币种对照陈旧，因此全部按预算而非官方现价。"
+    }
+  },
+  {
+    "id": "ex-aa-kandy-lake-club-dance",
+    "cityId": "kandy",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 90,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "官方通常17:00开演，规划16:30到场；节庆期间场次可能变化，按确认单调整。",
+    "name": "Kandy Lake Club 康提舞蹈",
+    "provider": "Kandy Lake Club",
+    "sourceUrl": "https://www.kandylakeclubdance.com/aboutus.php",
+    "address": "Kandy Lake Club，康提湖区域",
+    "lat": 7.293,
+    "lng": 80.644,
+    "description": "用一场舞蹈与鼓乐演出认识斯里兰卡传统表演，另留入场缓冲。",
+    "features": [
+      "Kandy Lake Club",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.kandylakeclubdance.com/aboutus.php",
+        "id": "adult",
+        "name": "成人演出门票",
+        "description": "成人演出门票",
+        "low": 4500,
+        "high": 4500,
+        "currency": "LKR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "康提文化舞蹈演出门票"
+        ],
+        "excludes": [
+          "接送",
+          "餐饮"
+        ]
+      }
+    ],
+    "preferredStartTime": "16:30",
+    "bookingUrl": "https://www.kandylakeclubdance.com/aboutus.php",
+    "nameEn": "Kandy Lake Club 康提舞蹈",
+    "tagline": "用一场舞蹈与鼓乐演出认识斯里兰卡传统表演，另留入场缓冲。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.kandylakeclubdance.com/aboutus.php",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "用一场舞蹈与鼓乐演出认识斯里兰卡传统表演，另留入场缓冲。"
+    }
+  },
+  {
+    "id": "ex-aa-cape-town-city-sightseeing",
+    "cityId": "cape-town",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 240,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "开普敦 City Sightseeing 观光巴士",
+    "provider": "City Sightseeing South Africa",
+    "sourceUrl": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+    "address": "V&A Waterfront两洋水族馆外或81 Long Street",
+    "lat": -33.908,
+    "lng": 18.418,
+    "description": "用敞篷观光巴士连接市区和半岛线路；四小时为自由选择的一段使用时长，并非完整路线保证。",
+    "features": [
+      "City Sightseeing South Africa",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+        "id": "classic-online",
+        "name": "Classic一日成人·官网促销参考",
+        "description": "Classic一日成人·官网促销参考",
+        "low": 345,
+        "high": 345,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方Specials页列网上成人345ZAR、柜台常规365ZAR；未查询日期库存，线上活动可变。",
+        "includes": [
+          "Classic一日线路通票"
+        ],
+        "excludes": [
+          "桌山缆车与沿途另收费景点",
+          "餐食"
+        ]
+      },
+      {
+        "sourceUrl": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+        "id": "classic-counter",
+        "name": "Classic一日成人·柜台参考",
+        "description": "Classic一日成人·柜台参考",
+        "low": 365,
+        "high": 365,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "经营者公开参考价；尚未查询所选日期余位，最终收费及条件以预订确认页为准。",
+        "includes": [
+          "Classic一日线路通票"
+        ],
+        "excludes": [
+          "缆车、景点门票、餐饮"
+        ]
+      }
+    ],
+    "bookingUrl": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+    "nameEn": "开普敦 City Sightseeing 观光巴士",
+    "tagline": "用敞篷观光巴士连接市区和半岛线路；四小时为自由选择的一段使用时长，并非完整路线保证。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官网当前Specials页成人345/365ZAR；未采用产品JSON-LD中已过期的299ZAR报价。"
+    }
+  },
+  {
+    "id": "ex-aa-marrakech-marrakech-by-air",
+    "cityId": "marrakech",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 300,
+    "requirements": [
+      "天气与空域允许才起飞",
+      "接送、早餐和取消条款须在预订时确认"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Marrakech By Air 热气球",
+    "provider": "Marrakech By Air",
+    "sourceUrl": "https://marrakechbyair.com/fr/flights",
+    "address": "Marrakech周边；起飞与集合地点以确认单为准",
+    "lat": 31.75,
+    "lng": -7.95,
+    "description": "清晨乘共享热气球观看马拉喀什周边平原；用时含运营准备的编辑缓冲。",
+    "features": [
+      "Marrakech By Air",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://marrakechbyair.com/fr/flights",
+        "id": "classic",
+        "name": "经典共享飞行·成人",
+        "description": "经典共享飞行·成人",
+        "low": 2050,
+        "high": 2050,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网列2050MAD/200EUR每人；保留经营者MAD标价，不将两种币价解释为实时汇率。",
+        "includes": [
+          "经典共享热气球飞行"
+        ],
+        "excludes": [
+          "接送、早餐及其他服务以所订套餐确认"
+        ]
+      }
+    ],
+    "preferredStartTime": "06:00",
+    "bookingUrl": "https://marrakechbyair.com/fr/flights",
+    "nameEn": "Marrakech By Air 热气球",
+    "tagline": "清晨乘共享热气球观看马拉喀什周边平原；用时含运营准备的编辑缓冲。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://marrakechbyair.com/fr/flights",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "清晨乘共享热气球观看马拉喀什周边平原；用时含运营准备的编辑缓冲。"
+    }
+  },
+  {
+    "id": "ex-aa-cairo-walk-like-egyptian",
+    "cityId": "cairo",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 180,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Walk Like an Egyptian 开罗文化步行",
+    "provider": "Walk Like an Egyptian",
+    "sourceUrl": "https://walklikeanegyptian.com/",
+    "address": "Cairo；定制路线集合点由运营方确认",
+    "lat": 30.048,
+    "lng": 31.244,
+    "description": "与文化向导步行认识开罗街区；可以按兴趣询问历史建筑与城市生活路线。",
+    "features": [
+      "Walk Like an Egyptian",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://walklikeanegyptian.com/",
+        "id": "private-four",
+        "name": "私人步行向导·最多4人预算",
+        "description": "私人步行向导·最多4人预算",
+        "low": 6000,
+        "high": 12000,
+        "currency": "EGP",
+        "unit": "booking",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。 此处4人是应用预算分摊假设，需由经营者确认接待与整组报价。",
+        "includes": [
+          "一组最多4人的文化向导预算"
+        ],
+        "excludes": [
+          "景点门票",
+          "交通、餐食、特别开放申请费用"
+        ],
+        "partyCapacity": 4,
+        "maxParticipants": 4
+      }
+    ],
+    "bookingUrl": "https://walklikeanegyptian.com/",
+    "nameEn": "Walk Like an Egyptian 开罗文化步行",
+    "tagline": "与文化向导步行认识开罗街区；可以按兴趣询问历史建筑与城市生活路线。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://walklikeanegyptian.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "经营者官网确认开罗步行、私人定制与小团文化游；未取得固定路线的公开报价。"
+    }
+  },
+  {
+    "id": "ex-aa-zanzibar-safari-blue",
+    "cityId": "zanzibar",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 420,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Safari Blue 桑给巴尔海上体验",
+    "provider": "The Original Safari Blue",
+    "sourceUrl": "https://safariblue.net/",
+    "address": "Fumba出发，Zanzibar；集合点按预订确认",
+    "lat": -6.317,
+    "lng": 39.28,
+    "description": "乘传统帆船探索海湾，随向导浮潜并享用岛上午餐；酒店到码头的交通另计。",
+    "features": [
+      "The Original Safari Blue",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://safariblue.net/",
+        "id": "original-adult",
+        "name": "Original Experience成人",
+        "description": "Original Experience成人",
+        "low": 85,
+        "high": 85,
+        "currency": "USD",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方成人价85USD（15岁及以上）；不把船上全包误解为酒店接送。",
+        "includes": [
+          "共享帆船行程",
+          "浮潜装备与向导",
+          "活动内餐食及饮料"
+        ],
+        "excludes": [
+          "酒店到出发码头交通"
+        ],
+        "includedMeals": [
+          "lunch"
+        ]
+      },
+      {
+        "sourceUrl": "https://safariblue.net/",
+        "id": "private-two",
+        "name": "私人帆船·两人整船",
+        "description": "私人帆船·两人整船",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "booking",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网550USD含2人，额外客人85USD/人。此方案限制为最多2人，更多人数需重新询价。",
+        "includes": [
+          "两人的私人帆船与船员",
+          "私人午餐、浮潜及官网列明服务"
+        ],
+        "excludes": [
+          "酒店至码头交通",
+          "第3人起额外费用"
+        ],
+        "partyCapacity": 2,
+        "maxParticipants": 2,
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "bookingUrl": "https://safariblue.net/",
+    "nameEn": "Safari Blue 桑给巴尔海上体验",
+    "tagline": "乘传统帆船探索海湾，随向导浮潜并享用岛上午餐；酒店到码头的交通另计。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://safariblue.net/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "乘传统帆船探索海湾，随向导浮潜并享用岛上午餐；酒店到码头的交通另计。"
+    }
+  },
+  {
+    "id": "ex-aa-mauritius-blue-safari-submarine",
+    "cityId": "mauritius",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 150,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Blue Safari 观光潜艇",
+    "provider": "Blue Safari Mauritius",
+    "sourceUrl": "https://blue-safari.com/submarine/",
+    "address": "Trou aux Biches北岸，Mauritius；上船点以确认单为准",
+    "lat": -20.039,
+    "lng": 57.544,
+    "description": "乘观光潜艇从舷窗观察水下景观；无需把该项目当成水肺潜水课程。",
+    "features": [
+      "Blue Safari Mauritius",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://blue-safari.com/submarine/",
+        "id": "submarine",
+        "name": "成人观光潜艇·预算",
+        "description": "成人观光潜艇·预算",
+        "low": 5500,
+        "high": 7500,
+        "currency": "MUR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "编辑预算区间，未获得指定日期的可订含税报价；并非经营者承诺的套餐或房价，实际供应、税费、服务费与取消条款请向经营者核对。",
+        "includes": [
+          "共享观光潜艇舱位预算"
+        ],
+        "excludes": [
+          "酒店接送",
+          "额外摄影、餐饮及其他活动"
+        ]
+      }
+    ],
+    "bookingUrl": "https://blue-safari.com/submarine/",
+    "nameEn": "Blue Safari 观光潜艇",
+    "tagline": "乘观光潜艇从舷窗观察水下景观；无需把该项目当成水肺潜水课程。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://blue-safari.com/submarine/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "运营方Submarine页面确认观光潜艇活动；未沿用旧Press Kit或第三方促销价作为现行官方价。"
+    }
+  },
+  {
+    "id": "ex-aa-bangkok-silom-cooking",
+    "cityId": "bangkok",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 200,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Silom Thai Cooking 泰菜课堂",
+    "provider": "Silom Thai Cooking School",
+    "sourceUrl": "https://silomthaicooking.com/2018/main/",
+    "address": "6/14 Decho Road, Bangrak, Bangkok",
+    "lat": 13.725,
+    "lng": 100.525,
+    "description": "亲手做泰菜、咖喱酱与甜点；上午课包含市场体验，晚间课程在课堂内认识食材。",
+    "features": [
+      "Silom Thai Cooking School",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://silomthaicooking.com/2018/main/",
+        "id": "morning",
+        "name": "上午市场与烹饪课",
+        "description": "上午市场与烹饪课",
+        "low": 1200,
+        "high": 1200,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网1200THB，注明现金支付；上午09:00–12:20，菜式随星期轮换。",
+        "includes": [
+          "食材、茶点与烹饪教学",
+          "自制菜品",
+          "上午市场体验"
+        ],
+        "excludes": [
+          "酒店接送"
+        ],
+        "preferredStartTime": "09:00",
+        "durationMinutes": 200,
+        "includedMeals": [
+          "lunch"
+        ]
+      },
+      {
+        "sourceUrl": "https://silomthaicooking.com/2018/main/",
+        "id": "evening",
+        "name": "晚间烹饪课",
+        "description": "晚间烹饪课",
+        "low": 1200,
+        "high": 1200,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网1200THB，现金支付；晚课18:00–21:00，在课堂认识食材，不含实体市场参观。",
+        "includes": [
+          "食材、茶点与烹饪教学",
+          "自制晚餐"
+        ],
+        "excludes": [
+          "酒店接送",
+          "实体市场参观"
+        ],
+        "preferredStartTime": "18:00",
+        "durationMinutes": 180,
+        "includedMeals": [
+          "dinner"
+        ]
+      }
+    ],
+    "maxParticipants": 10,
+    "bookingUrl": "https://silomthaicooking.com/2018/main/",
+    "nameEn": "Silom Thai Cooking 泰菜课堂",
+    "tagline": "亲手做泰菜、咖喱酱与甜点；上午课包含市场体验，晚间课程在课堂内认识食材。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://silomthaicooking.com/2018/main/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "亲手做泰菜、咖喱酱与甜点；上午课包含市场体验，晚间课程在课堂内认识食材。"
+    }
+  },
+  {
+    "id": "ex-aa-bangkok-wat-pho-massage",
+    "cityId": "bangkok",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 75,
+    "requirements": [
+      "所示价格只含按摩，未自动加收进入寺院的300THB门票",
+      "可同时选择卧佛寺景点核算入场成本；已购票者勿重复添加"
+    ],
+    "availabilityNote": "规划用时在服务时长外预留15分钟准备；实际排队可能更长。寺院票另计，同日已购买卧佛寺票时不要重复购买。请向门店说明不适与服务需求。",
+    "name": "卧佛寺传统泰式按摩",
+    "provider": "Wat Po Thai Traditional Medical School",
+    "sourceUrl": "https://watpho.com/en/contact/plan",
+    "address": "Wat Pho, Sanam Chai Road, Bangkok",
+    "lat": 13.747,
+    "lng": 100.493,
+    "description": "在卧佛寺的传统按摩服务区选择不同用时。所示仅按摩价；进入寺院的300THB门票没有自动加收，可另选卧佛寺景点纳入预算。",
+    "features": [
+      "Wat Po Thai Traditional Medical School",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://watpho.com/en/contact/plan",
+        "id": "thai-30",
+        "name": "泰式按摩30分钟",
+        "description": "泰式按摩30分钟",
+        "low": 340,
+        "high": 340,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "340THB仅为按摩价；另需300THB寺院票，当前方案不会自动加收。可同时选择卧佛寺景点核算；已购寺院票者勿重复计费。",
+        "includes": [
+          "30分钟泰式按摩"
+        ],
+        "excludes": [
+          "卧佛寺入场票300THB（若需进入寺院且尚未购买）",
+          "排队时间及交通"
+        ],
+        "durationMinutes": 45
+      },
+      {
+        "sourceUrl": "https://watpho.com/en/contact/plan",
+        "id": "thai-60",
+        "name": "泰式按摩60分钟",
+        "description": "泰式按摩60分钟",
+        "low": 520,
+        "high": 520,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "520THB仅为按摩价；另需300THB寺院票，当前方案不会自动加收。可同时选择卧佛寺景点核算；已购寺院票者勿重复计费。",
+        "includes": [
+          "60分钟泰式按摩"
+        ],
+        "excludes": [
+          "卧佛寺入场票300THB（若需进入寺院且尚未购买）",
+          "排队时间及交通"
+        ],
+        "durationMinutes": 75
+      },
+      {
+        "sourceUrl": "https://watpho.com/en/contact/plan",
+        "id": "thai-120",
+        "name": "泰式按摩120分钟",
+        "description": "泰式按摩120分钟",
+        "low": 1040,
+        "high": 1040,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "1040THB仅为按摩价；另需300THB寺院票，当前方案不会自动加收。可同时选择卧佛寺景点核算；已购寺院票者勿重复计费。",
+        "includes": [
+          "120分钟泰式按摩"
+        ],
+        "excludes": [
+          "卧佛寺入场票300THB（若需进入寺院且尚未购买）",
+          "排队时间及交通"
+        ],
+        "durationMinutes": 135
+      }
+    ],
+    "bookingUrl": "https://watpho.com/en/contact/plan",
+    "nameEn": "卧佛寺传统泰式按摩",
+    "tagline": "在卧佛寺的传统按摩服务区选择不同用时。所示仅按摩价；进入寺院的300THB门票没有自动加收，可另选卧佛寺景点纳入预算。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://watpho.com/en/contact/plan",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "在卧佛寺的传统按摩服务区选择不同用时。所示仅按摩价；进入寺院的300THB门票没有自动加收，可另选卧佛寺景点纳入预算。"
+    }
+  },
+  {
+    "id": "ex-aa-chiang-mai-asia-scenic",
+    "cityId": "chiang-mai",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 330,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Asia Scenic 清迈泰菜课堂",
+    "provider": "Asia Scenic Thai Cooking School",
+    "sourceUrl": "https://www.asiascenic.com/",
+    "address": "31 Rachadumneon Soi 5, Chiang Mai；农场课另赴郊外",
+    "lat": 18.79,
+    "lng": 98.991,
+    "description": "选择古城花园厨房或郊外农场，在市场与食材之间认识泰国料理。",
+    "features": [
+      "Asia Scenic Thai Cooking School",
+      "按日期预约"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.asiascenic.com/full-course-morning-in-old-town",
+        "id": "old-town-morning",
+        "name": "古城上午班",
+        "description": "古城上午班",
+        "low": 1000,
+        "high": 1000,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网课程09:00–13:30，接人08:20–08:50；规划已预留接送缓冲。1000THB为未加信用卡3%手续费的参考价。",
+        "includes": [
+          "课堂、食材、自制午餐与食谱",
+          "市区范围接送"
+        ],
+        "excludes": [
+          "信用卡支付加收3%",
+          "超出接送范围的交通"
+        ],
+        "preferredStartTime": "08:20",
+        "durationMinutes": 340,
+        "includesTransfers": true,
+        "includedMeals": [
+          "lunch"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.asiascenic.com/full-course-evening-in-old-town",
+        "id": "old-town-evening",
+        "name": "古城傍晚班",
+        "description": "古城傍晚班",
+        "low": 1000,
+        "high": 1000,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网课程16:00–20:30，接人15:20–15:50；规划已预留接送缓冲。",
+        "includes": [
+          "课堂、食材、自制晚餐与食谱",
+          "市区范围接送"
+        ],
+        "excludes": [
+          "信用卡3%手续费",
+          "超范围接送"
+        ],
+        "preferredStartTime": "15:20",
+        "durationMinutes": 340,
+        "includesTransfers": true,
+        "includedMeals": [
+          "dinner"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.asiascenic.com/full-course-at-farm-only-morning",
+        "id": "farm",
+        "name": "郊外农场全天班",
+        "description": "郊外农场全天班",
+        "low": 1200,
+        "high": 1200,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网课程09:00–15:30，08:20起接人；规划460分钟包含约30分钟返程缓冲，实际依接送地点调整。",
+        "includes": [
+          "市场、农场与烹饪教学",
+          "自制午餐、食谱",
+          "市区范围接送"
+        ],
+        "excludes": [
+          "信用卡3%手续费",
+          "超范围接送"
+        ],
+        "preferredStartTime": "08:20",
+        "durationMinutes": 460,
+        "includesTransfers": true,
+        "includedMeals": [
+          "lunch"
+        ]
+      }
+    ],
+    "bookingUrl": "https://www.asiascenic.com/",
+    "nameEn": "Asia Scenic 清迈泰菜课堂",
+    "tagline": "选择古城花园厨房或郊外农场，在市场与食材之间认识泰国料理。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.asiascenic.com/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "选择古城花园厨房或郊外农场，在市场与食材之间认识泰国料理。"
+    }
+  },
+  {
+    "id": "ex-aa-chiang-mai-patara-riding",
+    "cityId": "chiang-mai",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 420,
+    "requirements": [
+      "实际活动、接送区域与参与条件按经营者确认",
+      "共享方案按每人计价，人数与配对需要提前确认"
+    ],
+    "availabilityNote": "资料核对日期：2026-09-22。尚未查询实际房态、座位或库存。坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "name": "Patara 大象照护与骑乘",
+    "provider": "Patara Elephant Farm",
+    "sourceUrl": "https://www.pataraelephantfarm.com/pricing/",
+    "address": "Baan Pong, Hang Dong, Chiang Mai",
+    "lat": 18.751,
+    "lng": 98.838,
+    "description": "经营者明确提供带骑乘环节的照护体验；与观察项目分列，按自己想参与的内容选择。",
+    "features": [
+      "明确含骑乘",
+      "Baan Pong / Hang Dong",
+      "可比较共享与独享"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.pataraelephantfarm.com/pricing/",
+        "id": "morning-one",
+        "name": "上午·一人对应一头象",
+        "description": "上午·一人对应一头象",
+        "low": 5800,
+        "high": 5800,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方5800THB/人，07:30–14:30；不是一整组的价格。",
+        "includes": [
+          "大象照护教学与骑乘",
+          "接送",
+          "泰式野餐午餐、饮用水",
+          "活动照片"
+        ],
+        "excludes": [
+          "超出经营者接送范围的费用"
+        ],
+        "preferredStartTime": "07:30",
+        "durationMinutes": 420,
+        "includesTransfers": true,
+        "includedMeals": [
+          "lunch"
+        ]
+      },
+      {
+        "sourceUrl": "https://www.pataraelephantfarm.com/pricing/",
+        "id": "morning-sharing",
+        "name": "上午·两人共享一头象（每人）",
+        "description": "上午·两人共享一头象（每人）",
+        "low": 4200,
+        "high": 4200,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方标4200THB/人、2人对应1头象；两位合计8400THB，不能把4200视作整组费用。配对安排需核实。",
+        "includes": [
+          "两人共享一头象的骑乘与照护体验",
+          "接送、午餐、饮水及活动照片"
+        ],
+        "excludes": [
+          "超出接送范围费用"
+        ],
+        "preferredStartTime": "07:30",
+        "durationMinutes": 420,
+        "includesTransfers": true,
+        "includedMeals": [
+          "lunch"
+        ],
+        "minParticipants": 2
+      },
+      {
+        "sourceUrl": "https://www.pataraelephantfarm.com/pricing/",
+        "id": "afternoon-one",
+        "name": "下午·一人对应一头象",
+        "description": "下午·一人对应一头象",
+        "low": 4800,
+        "high": 4800,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官方4800THB/人，13:00–17:30；picnic break作为茶点，不扣减完整正餐预算。",
+        "includes": [
+          "照护与骑乘",
+          "接送、野餐茶点、饮水及活动照片"
+        ],
+        "excludes": [
+          "完整午餐或晚餐",
+          "超出接送范围费用"
+        ],
+        "preferredStartTime": "13:00",
+        "durationMinutes": 270,
+        "includesTransfers": true
+      }
+    ],
+    "bookingUrl": "https://www.pataraelephantfarm.com/pricing/",
+    "nameEn": "Patara 大象照护与骑乘",
+    "tagline": "经营者明确提供带骑乘环节的照护体验；与观察项目分列，按自己想参与的内容选择。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.pataraelephantfarm.com/pricing/",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "官方Pricing当前明确列Riding with elephant；上午5800/4200、下午4800/3200THB每人。此记录未把其他不骑乘营地误标为骑乘。"
+    }
+  },
+  {
+    "id": "ex-aa-chiang-mai-jungle-observation",
+    "cityId": "chiang-mai",
+    "kind": "experience",
+    "sourceCheckedAt": "2026-09-22",
+    "checkedAt": "2026-09-22",
+    "coordinateBasis": "approximate-venue",
+    "coordinateAccuracy": "approximate",
+    "locationNote": "坐标为经营场所或集合区域的近似参考位置，未经门牌级测绘；请按官方地址与预订确认单导航。",
+    "durationMinutes": 390,
+    "requirements": [
+      "请提前确认日期、营业时段、人数与取消条件"
+    ],
+    "availabilityNote": "经营者首页明确不骑乘、不洗澡、不强迫互动；上午项目只列咖啡与水果，不当作完整正餐。网站子页标题命名不一致，以上按正文“HALF DAY MORNING”确认。",
+    "name": "Elephant Jungle Paradise 大象观察",
+    "provider": "Elephant Jungle Paradise Park",
+    "sourceUrl": "https://www.e-junglepark.com/copy-of-elephant-tour-full-day2",
+    "address": "Mae Sa Pok, Mae Win, Mae Wang, Chiang Mai",
+    "lat": 18.626,
+    "lng": 98.665,
+    "description": "在营地向导带领下观察大象与栖息地；大象自然靠近时可按工作人员安排准备食物。",
+    "features": [
+      "观察大象",
+      "不含骑乘",
+      "不含洗澡互动"
+    ],
+    "priceOptions": [
+      {
+        "sourceUrl": "https://www.e-junglepark.com/copy-of-elephant-tour-full-day2",
+        "id": "morning-observation",
+        "name": "上午观察与轻徒步",
+        "description": "上午观察与轻徒步",
+        "low": 1700,
+        "high": 1700,
+        "currency": "THB",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-22",
+        "note": "官网1700THB/成人；07:00–07:30接人、11:30离开营地。规划390分钟已为返城预留约2小时；实际由接送地点决定。",
+        "includes": [
+          "向导观察和轻徒步",
+          "范围内住宿接送",
+          "咖啡、水果、饮水及活动照片",
+          "供大象食用的食物"
+        ],
+        "excludes": [
+          "骑乘或给大象洗澡",
+          "完整午餐",
+          "接送范围以外费用"
+        ],
+        "preferredStartTime": "07:00",
+        "durationMinutes": 390,
+        "includesTransfers": true
+      }
+    ],
+    "bookingUrl": "https://www.e-junglepark.com/copy-of-elephant-tour-full-day2",
+    "nameEn": "Elephant Jungle Paradise 大象观察",
+    "tagline": "在营地向导带领下观察大象与栖息地；大象自然靠近时可按工作人员安排准备食物。",
+    "evidence": {
+      "sourceType": "operator-official",
+      "sourceUrl": "https://www.e-junglepark.com/copy-of-elephant-tour-full-day2",
+      "checkedAt": "2026-09-22",
+      "scope": "venue-and-service",
+      "summary": "在营地向导带领下观察大象与栖息地；大象自然靠近时可按工作人员安排准备食物。"
+    }
+  }
+]

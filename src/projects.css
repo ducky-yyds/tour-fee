@@ -1,0 +1,278 @@
+.project-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  padding: 18px 22px;
+  border: 1px solid var(--line, #e0e3d9);
+  border-radius: 15px;
+  background: #fffefa;
+  box-shadow: 0 6px 20px #243b2c05;
+}
+.project-icon {
+  background: #eaf0e5;
+  color: #526d51;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.project-bar label {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  gap: 5px;
+}
+.project-bar label small {
+  color: #828b7e;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.project-bar select {
+  background: transparent;
+  border: 0;
+  color: #304938;
+  font-size: 17px;
+  font-family: inherit;
+  padding: 0 20px 0 0;
+  width: 100%;
+  max-width: 390px;
+  text-overflow: ellipsis;
+}
+.project-autosave {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #7e8e79;
+  font-size: 12px;
+}
+.project-autosave i {
+  height: 5px;
+  width: 5px;
+  background: #869b6b;
+  border-radius: 50%;
+}
+.projects-intro {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  margin: 0 0 24px;
+}
+.projects-intro p {
+  color: #5d6859;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.project-card {
+  border: 1px solid #e3e6dc;
+  background: #fffefb;
+  border-radius: 15px;
+  overflow: hidden;
+  min-width: 0;
+}
+.project-card.is-active {
+  border-color: #8d9e77;
+  box-shadow: 0 0 0 2px #c9d7b933;
+}
+.project-cover {
+  height: 128px;
+  position: relative;
+}
+.project-cover img,
+.project-cover .photo-fallback {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.project-cover:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent, #18271b40);
+}
+.project-cover > span {
+  position: absolute;
+  z-index: 1;
+  bottom: 12px;
+  left: 16px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.project-card-content {
+  padding: 18px;
+}
+.project-card h3 {
+  font-size: 20px;
+  margin: 0 0 7px;
+  overflow-wrap: anywhere;
+  color: #304938;
+}
+.project-card-content > p {
+  font-size: 12px;
+  color: #7e8577;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.project-card-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 12px;
+  gap: 10px;
+}
+.project-card-stats > span {
+  font-size: 13px;
+  color: #6c7969;
+}
+.project-card-stats strong {
+  font-size: 24px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #39523d;
+}
+.project-card-stats strong small {
+  font-size: 12px;
+  color: #8b9384;
+  margin-top: 3px;
+}
+.project-updated {
+  font-size: 12px;
+  color: #979e90;
+}
+.project-card-actions {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eef0e9;
+  margin-top: 16px;
+  padding-top: 12px;
+  gap: 6px;
+}
+.project-card-actions > div {
+  display: flex;
+  gap: 5px;
+}
+.project-card-actions .icon-button {
+  width: 28px;
+  height: 30px;
+  color: #809076;
+}
+.project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.project-form > p {
+  line-height: 1.8;
+  font-size: 14px;
+}
+.project-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: #5c7157;
+}
+.project-form input,
+.project-form select,
+.project-rename input {
+  padding: 12px;
+  border: 1px solid #dbe2d3;
+  border-radius: 8px;
+  background: #fffef9;
+  font: inherit;
+  color: #354c36;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.project-form-pair {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+.project-form-note {
+  padding: 12px 15px;
+  background: #f1f4e9;
+  color: #6e805f;
+  border-radius: 8px;
+  margin: 0;
+}
+.project-rename {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.project-rename input {
+  font-size: 16px;
+  padding: 7px;
+}
+.project-delete {
+  padding: 10px;
+  background: #fff3e8;
+  font-size: 13px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.project-delete button {
+  background: white;
+  border: 1px solid #dfcbb6;
+  border-radius: 5px;
+  color: #8a603e;
+  padding: 5px 12px;
+  margin-right: 8px;
+  font: inherit;
+}
+@media (max-width: 650px) {
+  .project-bar {
+    padding: 14px;
+    gap: 9px;
+    flex-wrap: wrap;
+  }
+  .project-bar label {
+    flex-basis: calc(100% - 70px);
+  }
+  .project-bar .project-autosave {
+    margin-right: auto;
+  }
+  .project-bar .text-button {
+    font-size: 12px;
+  }
+  .project-bar .secondary-button {
+    font-size: 12px;
+    padding: 9px 12px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .projects-intro {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .project-cover {
+    height: 150px;
+  }
+  .project-form-pair {
+    grid-template-columns: 1.7fr 1fr;
+  }
+}
+.planner-main > .project-bar {
+  position: relative;
+  z-index: 2;
+  margin-top: -28px;
+}
+.project-bar + .trip-controls {
+  margin-top: 0;
+}

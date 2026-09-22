@@ -1,0 +1,18 @@
+name: Daily public data maintenance
+
+on:
+  schedule:
+    # 03:23 UTC / 11:23 China Standard Time; avoid the busy top of the hour.
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  refresh-and-deploy:
+    uses: ./.github/workflows/pages.yml
+    with:
+      refresh_data: true

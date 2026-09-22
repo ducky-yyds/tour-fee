@@ -1,0 +1,327 @@
+.cost-group-cards {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1fr;
+  gap: 12px;
+  margin: 4px 0 24px;
+}
+.cost-group-card {
+  background: #eef2e7;
+  border: 1px solid #dce4d0;
+  border-radius: 12px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  min-width: 0;
+}
+.cost-group-card.fixed {
+  background: #f6f1e8;
+  border-color: #e8e0d1;
+}
+.cost-group-card.reserve {
+  background: #f0f2ee;
+  border-color: #e0e4dc;
+}
+.cost-group-card > span {
+  font-size: 13px;
+  color: #65765c;
+  letter-spacing: 1px;
+}
+.cost-group-card > strong {
+  font-size: 27px;
+  font-weight: normal;
+  color: #334a32;
+  overflow-wrap: anywhere;
+}
+.cost-group-card > small {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #87917e;
+}
+.daily-preferences {
+  padding: 24px;
+  border-radius: 16px;
+  background: #fffefa;
+  border: 1px solid #e3e6db;
+  margin-bottom: 26px;
+}
+.daily-preference-heading {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.daily-preference-heading .eyebrow {
+  font-size: 12px;
+  letter-spacing: 1.7px;
+}
+.daily-preference-heading h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #3c543a;
+  margin: 10px 0;
+}
+.daily-preference-heading p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #8a9182;
+  margin: 0;
+}
+.daily-preference-heading > label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex-shrink: 0;
+}
+.daily-preference-heading > label span {
+  font-size: 12px;
+  color: #84907b;
+}
+.daily-preference-heading select {
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid #dce3d3;
+  border-radius: 7px;
+  padding: 8px 24px 8px 10px;
+  background: #f9fbf4;
+  color: #4f6847;
+}
+.preference-fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.preference-label {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #728164;
+}
+.preference-label label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.preference-label small {
+  font-size: 12px;
+  color: #9ba38f;
+}
+.preference-input {
+  display: flex;
+  margin-top: 14px;
+  border: 1px solid #dfe5d8;
+  border-radius: 8px;
+  overflow: hidden;
+  align-items: center;
+  background: #fff;
+}
+.preference-input > span {
+  padding: 0 10px;
+  font-size: 12px;
+  color: #85927a;
+}
+.preference-input > input {
+  min-width: 0;
+  width: 100%;
+  padding: 11px 8px;
+  background: transparent;
+  font: inherit;
+  font-size: 21px;
+  color: #40573b;
+  border: 0;
+}
+.preference-input input::placeholder {
+  color: #89997b;
+}
+.preference-presets {
+  display: flex;
+  gap: 5px;
+  margin-top: 9px;
+}
+.preference-presets button {
+  flex: 1;
+  border: 1px solid #eceee6;
+  background: #fafbf7;
+  border-radius: 5px;
+  color: #8b9780;
+  padding: 7px 2px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.preference-presets button small {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.preference-presets button.active {
+  color: #4d6d3e;
+  background: #eaf0df;
+  border-color: #cedbc0;
+}
+.preference-field > p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #8c9682;
+  margin: 9px 0 0;
+}
+.preference-override {
+  display: block;
+  color: #ac8050;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-top: 6px;
+}
+.preference-footer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid #eceee5;
+  padding-top: 17px;
+  margin-top: 18px;
+}
+.preference-footer > p {
+  font-size: 12px;
+  color: #929b85;
+  line-height: 1.8;
+  flex: 1;
+  margin: 0;
+}
+.preference-footer .primary-button {
+  font-size: 12px;
+  padding: 10px 14px;
+  white-space: nowrap;
+}
+.preference-footer .text-button {
+  font-size: 12px;
+  white-space: nowrap;
+}
+.cost-type-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.cost-type-tabs button {
+  font: inherit;
+  font-size: 12px;
+  padding: 9px 15px;
+  border: 1px solid #dfe5d8;
+  background: #fbfcf7;
+  color: #7b8b6e;
+  border-radius: 7px;
+}
+.cost-type-tabs button.active {
+  color: #fff;
+  background: #4f6947;
+  border-color: #4f6947;
+}
+.budget-cost-groups {
+  padding: 14px 0;
+  border-top: 1px solid #e9ece2;
+  border-bottom: 1px solid #e9ece2;
+  margin: 10px 0 18px;
+  display: grid;
+  gap: 10px;
+}
+.budget-cost-groups > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  color: #839275;
+}
+.budget-cost-groups strong {
+  font-weight: normal;
+  color: #415939;
+}
+.budget-cost-groups small {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+  color: #99a48e;
+}
+@media (max-width: 1100px) {
+  .preference-fields {
+    gap: 10px;
+  }
+  .daily-preferences {
+    padding: 18px;
+  }
+  .preference-footer {
+    flex-wrap: wrap;
+  }
+  .preference-footer > p {
+    flex-basis: 100%;
+  }
+  .preference-footer .text-button {
+    margin-right: auto;
+  }
+  .cost-group-card {
+    padding: 14px 12px;
+  }
+  .cost-group-card > strong {
+    font-size: 23px;
+  }
+}
+@media (max-width: 650px) {
+  .cost-group-cards {
+    gap: 7px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cost-group-card.reserve {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px;
+  }
+  .cost-group-card.reserve > small {
+    grid-column: 1/-1;
+  }
+  .cost-group-card > strong {
+    font-size: 22px;
+  }
+  .daily-preference-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .daily-preference-heading > label {
+    flex-direction: row;
+    align-items: center;
+  }
+  .daily-preference-heading h3 {
+    font-size: 19px;
+  }
+  .preference-fields {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .preference-field + .preference-field {
+    border-top: 1px solid #eef0e8;
+    padding-top: 20px;
+  }
+  .preference-label label {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .preference-presets button {
+    padding: 9px;
+    font-size: 12px;
+  }
+  .preference-presets button small {
+    display: inline;
+    margin-left: 9px;
+  }
+  .preference-footer .primary-button {
+    font-size: 13px;
+  }
+  .cost-type-tabs button {
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,1937 @@
+{
+  "updatedAt": "2026-09-22T14:59:21.950Z",
+  "checkedThisRun": 12,
+  "totalSources": 226,
+  "sources": [
+    {
+      "url": "https://www.peninsula.com/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+      "checkedAt": "2026-09-22T07:20:31.382Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.peninsula.com.cn/en/shanghai/special-offers/dining/sumptuous-set-menus-at-yi-long-court",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.peninsula.com/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+      "checkedAt": "2026-09-22T07:20:31.465Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.peninsula.com.cn/en/beijing/hotel-fine-dining/huang-ting-chinese-restaurant",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://ichiran.com/shop/tokyo/shibuya/",
+      "checkedAt": "2026-09-22T07:20:31.466Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://ichiran.com/shop/tokyo/shibuya/",
+      "contentHash": "54e3c2bef4aa4c87999c90802553a7ae67c9f0b97e25fd9f16ffac5b624be469",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+      "checkedAt": "2026-09-22T07:20:32.455Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.telacoya.co.jp/nishikigyoza/menu.html",
+      "contentHash": "d9f1b082d6def34f9c430621975e50bfef0b1919ba05a6ec7c69a30d11be7f31",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.d-imai.com/shops/honten/",
+      "checkedAt": "2026-09-22T07:20:32.509Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.d-imai.com/shops/honten/",
+      "contentHash": "4c85da48c4cc1f634a56236107d468ffe754da0cde5eeff80c62273dd4e4c22e",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+      "checkedAt": "2026-09-22T07:20:33.532Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=99925",
+      "contentHash": "8d5d410ba229ad9e7dfe97525294ef6f7b236be0cec84a46852a05059ccf71a1",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.mdkj.co.kr/",
+      "checkedAt": "2026-09-22T07:32:20.354Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://thipsamai.com/",
+      "checkedAt": "2026-09-22T07:20:34.402Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://thipsamai.com/",
+      "note": "The operation was aborted due to timeout; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.jumboseafood.com.sg/en/riverside-point",
+      "checkedAt": "2026-09-22T07:27:45.503Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.jumboseafood.com.sg/en/riverside-point",
+      "contentHash": "f39819102f360f5171925c4b72f747377e5163a897d7f4ece0188f20d81e3f88",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://casalunabali.com/",
+      "checkedAt": "2026-09-22T07:20:35.720Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://casalunabali.com/",
+      "contentHash": "f7bd759de1dbebc21c06e74ab502ed7d272efe5434cd67bcb5377ade86fd89ef",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.bouillon-chartier.com/",
+      "checkedAt": "2026-09-22T07:20:35.840Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.bouillon-chartier.com/",
+      "contentHash": "d6fb9109c6061bbcc0124607335206f8c8cb6323408acb298face7f6725f26c0",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.dishoom.com/covent-garden/",
+      "checkedAt": "2026-09-22T07:20:37.104Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.dishoom.com/covent-garden/",
+      "contentHash": "828bf233d951c891a7eeeefc7030df28cd6658e73b4bbc4f21feed6fe1165c06",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://salumeriaroscioli.com/pages/contact",
+      "checkedAt": "2026-09-22T07:20:37.690Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://salumeriaroscioli.com/pages/contact",
+      "contentHash": "da436e0f9f0f386d7f34ecdd8be5353060eac65e0c2d242d4da7fa382dd6729b",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://7portes.com/ca/reservar-taula-restaurant/",
+      "checkedAt": "2026-09-22T07:20:38.951Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://katzsdelicatessen.com/",
+      "checkedAt": "2026-09-22T07:20:39.165Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 405,
+      "finalUrl": "https://katzsdelicatessen.com/",
+      "note": "HTTP 405; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.bills.com.au/locations/surry-hills",
+      "checkedAt": "2026-09-22T07:20:40.093Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.bills.com.au/locations/surry-hills",
+      "contentHash": "5a68390c5f52d140c1dbee44e318de04a7a49d9b9642ce3ca6c33e19d13d686e",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://arabianteahouse.com/al-fahidi/",
+      "checkedAt": "2026-09-22T07:32:20.439Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://arabianteahouse.com/",
+      "checkedAt": "2026-09-22T07:20:43.598Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://pandeli.com.tr/",
+      "checkedAt": "2026-09-22T07:20:46.414Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://pandeli.com.tr/",
+      "contentHash": "04c1fe6e39a9b278a8d62285e7ffde654ebeb7c990ecf85996f29f2770df2a07",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.timhowan.com.hk/our-stores/",
+      "checkedAt": "2026-09-22T07:32:20.441Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.timhowan.com.hk/our-stores/",
+      "contentHash": "11dc679f054458657b18523eb9000accd179425bbda923f4de8f8ba1a9fa3cb2",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tim-ho-wan.html",
+      "checkedAt": "2026-09-22T07:20:47.593Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-tim-ho-wan.html",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+      "checkedAt": "2026-09-22T07:20:47.764Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.upperhouse.com/en/chengdu/restaurants-and-bars/mi-xun-teahouse/",
+      "contentHash": "7741044587245733feae22e8c8d52015d5c16859a83b4662a7244ce191260514",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://all.accor.com/hotel/6156/index.id.shtml",
+      "checkedAt": "2026-09-22T07:20:48.288Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://all.accor.com/hotel/6156/index.id.shtml",
+      "contentHash": "0909a7c27c3bda10c0e1d804b3082e392dac3765cf3e29d9a0b357ef9d9e5289",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://all.accor.com/hotel/6156/index.en.shtml",
+      "checkedAt": "2026-09-22T07:32:20.700Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://all.accor.com/hotel/6156/index.en.shtml",
+      "contentHash": "9704bf1e38b3ac9495ff76a31c285cdfc449eaa190c6a9591553a168f0412290",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+      "checkedAt": "2026-09-22T07:20:49.224Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/jin_sha_main/",
+      "contentHash": "f541f07fb1d55130590ca3b5a539b9924689b10cf9c82ccc892e61c97409b7e2",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/",
+      "checkedAt": "2026-09-22T07:32:22.519Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fourseasons.com/hangzhou/dining/restaurants/jin_sha/",
+      "contentHash": "53ceb5a6a8b84cf8c5033537c5a8a35bc8fa50a60936dd5f245aa108d211d317",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://whiteswanhotel.com/en/dining",
+      "checkedAt": "2026-09-22T07:20:51.863Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://whiteswanhotel.com/en/dining",
+      "contentHash": "a8f1d93e90fd1ec10a62fed1e1e226da3292fb49d4d8c562c57221fc1d474359",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://pasteisdebelem.pt/menu/?lang=en",
+      "checkedAt": "2026-09-22T07:20:52.323Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://pasteisdebelem.pt/menu/?lang=en",
+      "contentHash": "d28ae17109f1f47907e9eb117a326e91474a9cf11dd32bc6d1d12f12d9a74e14",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.thepantry.nl/menukaart/",
+      "checkedAt": "2026-09-22T07:20:53.020Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.thepantry.nl/menukaart/",
+      "contentHash": "3d5eb33fbf647c435a2b4329dafa5ceb43cf734ece881c2b37274ad2986abf45",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://maxundmoritzberlin.de/",
+      "checkedAt": "2026-09-22T07:32:22.776Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://maxundmoritzberlin.de/",
+      "contentHash": "9e213116fc6541cb896956d1d30ef41156fde36539aec8c30a293b04fe27fcb9",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://maxundmoritzberlin.de/reservierung/",
+      "checkedAt": "2026-09-22T07:32:23.793Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://maxundmoritzberlin.de/reservierung/",
+      "contentHash": "bd2d06c08b3845144dfd919b8a95340a43b29098e2f3a3ce7b63598229bb6d62",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://maxundmoritzberlin.de/wp-content/uploads/2022/03/Menucard-Food-Drink_uk.pdf",
+      "checkedAt": "2026-09-22T07:20:53.779Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://maxundmoritzberlin.de/wp-content/uploads/2022/03/Menucard-Food-Drink_uk.pdf",
+      "contentHash": "d15829c69626e20bea93c1d5a37d5ca2b474214357c07c4b7144b83e06321362",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.venissa.it/ristorante/",
+      "checkedAt": "2026-09-22T07:27:45.505Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.venissa.it/ristorante/",
+      "contentHash": "0e0b741c676b45b71efbaaca6ccc5bd0838cc8e5467459de2143ce61552b5f76",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://trattoriadalloste.com/en/",
+      "checkedAt": "2026-09-22T07:20:55.136Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://trattoriadalloste.com/en/",
+      "contentHash": "613fca60012c030de27c141985fce53d2fab1ebec84cfa5ea22657ecacc8cb26",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://republiquela.com/",
+      "checkedAt": "2026-09-22T07:20:56.427Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://republiquela.com/",
+      "contentHash": "5a8602b4136885f7b8c574b14df3c54333f632e095eb2c0d626f19cb3c1b02b9",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.chinchin.melbourne/",
+      "checkedAt": "2026-09-22T07:20:56.681Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.chinchin.melbourne/",
+      "contentHash": "08c7c936ba064d5274b6ebe0bb29eb7a5152a3faf766014907f6fbb5386456a9",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://huenphenchiangmai.com/branch/",
+      "checkedAt": "2026-09-22T07:27:45.506Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://huenphenchiangmai.com/branch/",
+      "contentHash": "46e52a638e907ff1a81e710e141c3148b36dfe997edb1e47b4d57e976e5e539a",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.peninsula.com/en/shanghai/5-star-luxury-hotel-bund",
+      "checkedAt": "2026-09-22T07:20:57.456Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.peninsula.com.cn/en/shanghai/5-star-luxury-hotel-bund",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.peninsula.com/en/beijing/5-star-luxury-hotel-wangfujing",
+      "checkedAt": "2026-09-22T07:32:24.276Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.peninsula.com.cn/en/beijing/5-star-luxury-hotel-wangfujing",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+      "checkedAt": "2026-09-22T07:20:58.111Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://hoshinoresorts.com/en/hotels/hoshinoyatokyo/",
+      "contentHash": "95f76cc9590714e9c3924b140377db97dfe93222a6735c584d3c16985db1ce39",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.uds-hotels.com/en/kanra/kyoto/",
+      "checkedAt": "2026-09-22T07:20:58.243Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.uds-hotels.com/en/kanra/kyoto/",
+      "contentHash": "b9f30622da7e3929c6ada549ab3750ff26589178e48d08994a9eb9cfa78a0131",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+      "checkedAt": "2026-09-22T07:20:59.310Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://hoshinoresorts.com/en/hotels/omo7osaka/",
+      "contentHash": "082037b7e764016d11c7eb3c83968dbd0da3d69c573fd04e469f75dd9bda33c9",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+      "checkedAt": "2026-09-22T07:20:59.555Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.marriott.com/en-us/hotels/selsa-ryse-autograph-collection/rooms/",
+      "contentHash": "9e61d5824e531b6b2209824ebc53200dd1bcf4af2f8c1c238a32d7b37e82abe1",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.ariyasom.com/",
+      "checkedAt": "2026-09-22T07:20:59.631Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.ariyasom.com/",
+      "contentHash": "a2b8756a3194ec8662b5380d771b21f87c3f9d6ea5cf2cb24de702191ec84d61",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.raffles.com/singapore/",
+      "checkedAt": "2026-09-22T07:21:00.522Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.raffles.com/singapore/",
+      "contentHash": "1bf04cdf8fd0f5bc129db604fb9448523ccec6a825cc88b8a341deaac2678335",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+      "checkedAt": "2026-09-22T07:21:02.026Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 429,
+      "finalUrl": "https://www.hyatt.com/alila-hotels-and-resorts/en-US/dpsau-alila-ubud",
+      "note": "HTTP 429; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.hotelhenriette.com/",
+      "checkedAt": "2026-09-22T07:21:02.766Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.hotelhenriette.com/",
+      "contentHash": "32105a95286212b3ae8454961a3c1337caa948ce8752be4cca6bec06baf10fa6",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://thehoxton.com/london/holborn/",
+      "checkedAt": "2026-09-22T07:21:02.866Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://thehoxton.com/london/holborn/",
+      "contentHash": "adcb4ee026886525029fb9465ad0b34c7f2493f3ae6657c4564e410748bbbba2",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.hotellocarno.com/en/contact",
+      "checkedAt": "2026-09-22T07:21:03.027Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.hotellocarno.com/en/contact",
+      "contentHash": "60ca46d6e6a843e0cb6226c106855a1d10f6ec9f7055416aa2c7f32123d9dd8d",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://casabonay.com/",
+      "checkedAt": "2026-09-22T07:21:03.376Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://casabonay.com/",
+      "contentHash": "f8054c92465dbf40e265cde25df9a2c9ca53d90f30ebacb7118922d4a8727474",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://theboweryhotel.com/rooms/",
+      "checkedAt": "2026-09-22T07:27:46.472Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://theboweryhotel.com/rooms/",
+      "contentHash": "f1675b349bc6ea259628494f4868c7009e9f92099fab2aa70f3cee2040b569ec",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.odehotels.com/the-old-clare-hotel/",
+      "checkedAt": "2026-09-22T07:21:04.522Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.odehotels.com/the-old-clare-hotel/",
+      "contentHash": "448095b18f5bda083c180d6e73f302ab9818d031863af58b4d543900e46c7f90",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.xvahotel.com/",
+      "checkedAt": "2026-09-22T07:21:04.808Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.xvahotel.com/",
+      "contentHash": "7e6ef514b0185f56e12b46e7443f0cccb9b53c0698aeb8972a8ecd4910c2da11",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://perapalace.com/en/",
+      "checkedAt": "2026-09-22T07:21:05.601Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.taioheritagehotel.com/en/",
+      "checkedAt": "2026-09-22T07:21:05.798Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.taioheritagehotel.com/en/",
+      "contentHash": "d8fe88d33016265f5cd5ece36c4543923addcb010e26dc38bd6bd416c489867f",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.upperhouse.com/en/chengdu/",
+      "checkedAt": "2026-09-22T07:32:25.177Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.upperhouse.com/en/chengdu/",
+      "contentHash": "29246537afe4c5cea602d9241c4a89a4585d4270b9883a6c9873751e2a38d992",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.fourseasons.com/hangzhou/",
+      "checkedAt": "2026-09-22T07:21:07.843Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.fourseasons.com/hangzhou/",
+      "contentHash": "abe6d5df66a7b0ad53d4dd339b9ae0a4481bd2ca742f1d48c810481bbc687297",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.whiteswanhotel.com/en",
+      "checkedAt": "2026-09-22T07:32:25.367Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.whiteswanhotel.com/en",
+      "contentHash": "a8f1d93e90fd1ec10a62fed1e1e226da3292fb49d4d8c562c57221fc1d474359",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.memmohotels.com/alfama/",
+      "checkedAt": "2026-09-22T07:21:08.806Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.memmohotels.com/alfama/",
+      "contentHash": "56f6805afc502302021ea99c3916b0c6168867594e21a4305480083e3a700473",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+      "checkedAt": "2026-09-22T07:21:09.309Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://thehoxton.com/amsterdam/lloyd/rooms/",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.michelbergerhotel.com/en/rooms/",
+      "checkedAt": "2026-09-22T07:21:09.885Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.michelbergerhotel.com/en/rooms/",
+      "contentHash": "0a4c4483c013ed7281e0d48a4adc6537dc1869303fba29d83b7eb01903dc8397",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.venissa.it/en/wineresort/",
+      "checkedAt": "2026-09-22T07:21:10.462Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.venissa.it/en/wineresort/",
+      "contentHash": "1d989c10f3dd637e80f2621820e5f3638901d5182dbd64aae09cd42da8a6703a",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://firenzenumbernine.com/",
+      "checkedAt": "2026-09-22T07:21:12.144Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://firenzenumbernine.com/",
+      "contentHash": "8ca96e700210b17f33c1746ba63e85fb52cb5998f907fe4e90064b5d44498e00",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.thelinehotel.com/los-angeles/",
+      "checkedAt": "2026-09-22T07:21:12.184Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.thelinehotel.com/los-angeles/",
+      "contentHash": "0897af347cde67d599d7c1e4d021f85a97859d598caa41573e33cf4262cec67d",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://ovolohotels.com/ovolo/south-yarra/",
+      "checkedAt": "2026-09-22T07:21:13.476Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://ovolohotels.com/ovolo/south-yarra/",
+      "contentHash": "72a10e36ac6fdc70d59fe17a2ba306b4f3fa29716789daff79d7452740555c05",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.rimpingvillage.com/",
+      "checkedAt": "2026-09-22T07:21:15.370Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.rimpingvillage.com/",
+      "contentHash": "971d893c6355644e35be0636aadaef822c0dd762369a78800c750c90d44bab0c",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+      "checkedAt": "2026-09-22T07:21:15.647Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+      "truncated": true,
+      "contentHash": "239418ceacba56b886c4ae535b12ddc83a79542221a5713c1d61aee883f8aec4",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.era-shanghai.com/",
+      "checkedAt": "2026-09-22T07:21:15.968Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.era-shanghai.com/",
+      "contentHash": "186b6bd1816784b4a5ceb7450b477430ce046620fb584aaa0b9e1af20ecda42c",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://lostplate.com/beijing-food-tours/",
+      "checkedAt": "2026-09-22T07:21:16.529Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://lostplate.com/beijing-food-tours/",
+      "contentHash": "e12834c82796028d6f0c49c710fe6c272a30a0165ab51726facb92790e259cdc",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://yae-japan.com/en/",
+      "checkedAt": "2026-09-22T07:21:18.227Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://yae-japan.com/en/",
+      "contentHash": "e9132d9a8756612396d6da118e46b5e61e8c93e3814307993381b3ca910965bf",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+      "checkedAt": "2026-09-22T07:21:18.711Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://kyoto-tea-ceremony.jp/book-tea-ceremony/",
+      "contentHash": "26e3832f9870aa229171b05f878ab59521bd7a9fd5711da9d176887298bc83a0",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.ipponmatsu.co.jp/cruise/tombori.html",
+      "checkedAt": "2026-09-22T07:21:18.826Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.ipponmatsu.co.jp/cruise/tombori.html",
+      "contentHash": "b45149f3df1c0ed8a75b6938fc8a819da37e82f7c16d803e738e989727a78848",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+      "checkedAt": "2026-09-22T07:21:20.267Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.nanta.co.kr/en/show/detail.php?id=1",
+      "contentHash": "c41a76428545dc1a2306a8b972ec60885e590d36fd2882820970fb4f67c76296",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.chaophrayaprincess.com/reservations.php",
+      "checkedAt": "2026-09-22T07:21:20.856Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.chaophrayaprincess.com/reservations.php",
+      "contentHash": "71a2b7916c1ceb6bcf907f7481617d940305a5bd80d6bd4cd25202ce06225fe0",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://online.iflysingapore.com/shop/redirect_to_tag?tagid=teaser",
+      "checkedAt": "2026-09-22T07:21:20.904Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://online.iflysingapore.com/productList?type=1&tagid=teaser",
+      "note": "The operation was aborted due to timeout; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://balihaidiving.com/program/discover-scuba-diving-bali/",
+      "checkedAt": "2026-09-22T07:21:21.087Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://balihaidiving.com/program/discover-scuba-diving-bali/",
+      "contentHash": "e5327248caae434853f3b6d6c8b41ec78e4a7ba00021baeef55ae018060ca96c",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.bateaux-mouches.fr/en/cruise/information",
+      "checkedAt": "2026-09-22T07:21:21.673Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.bateaux-mouches.fr/en/cruise/information",
+      "contentHash": "57468fcbb5633bc2060228273bb26c86a6ca310b6028bc6afb868fe4ad399e33",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.thamesrockets.com/ultimate-london-adventure/",
+      "checkedAt": "2026-09-22T07:21:22.889Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+      "checkedAt": "2026-09-22T07:21:24.534Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.eatandwalkitaly.it/best-cooking-classes-in-rome/",
+      "contentHash": "6e00952e22ac2c47e0f98d72ce4ac8dfe409df0c3047879908200efc4cb68bbf",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://barcelonasailingday.com/tour/2-hour-sailing-tour/",
+      "checkedAt": "2026-09-22T07:21:26.335Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.circleline.com/",
+      "checkedAt": "2026-09-22T07:21:32.909Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.circleline.com/",
+      "contentHash": "a6220e648e1830d6213a34e0f95417eae7e06c6e0017e441a49fabd702d28fe2",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.bridgeclimb.com/experiences/compare",
+      "checkedAt": "2026-09-22T07:21:33.188Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.bridgeclimb.com/experiences/compare",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://uae.heroballoonflights.com/",
+      "checkedAt": "2026-09-22T07:21:34.645Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "The operation was aborted due to timeout; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://sehirhatlari.istanbul/en/price-list/bosphorus-tours-78",
+      "checkedAt": "2026-09-22T07:21:35.503Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://aqualuna.com.hk/experiences/evening-harbour-cruise/",
+      "checkedAt": "2026-09-22T07:21:36.745Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://cdsfyy.com/",
+      "checkedAt": "2026-09-22T07:21:45.924Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://cdsfyy.com/",
+      "contentHash": "28eaf6393ea6782daa6e8af28a3d1997d26ae189bc5101e699f119c81f6a672b",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.sxtourgroup.com/home/yu/info.html?catId=237&id=2645",
+      "checkedAt": "2026-09-22T07:21:46.643Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.sxtourgroup.com/home/yu/info.html?catId=237&id=2645",
+      "contentHash": "20053a5d64fd3a0318c7bfb6fc4c06b4d5bfdc71fa3fe94b2550261588b3e994",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.hzxcw.gov.cn/content_47231.html",
+      "checkedAt": "2026-09-22T07:21:46.650Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.hzxcw.gov.cn/content_47231.html",
+      "contentHash": "a9ccbba92dcf9fc9be8e600cf1523737747c67c88af7ed06cd03664823c3c64f",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.yuexiu.gov.cn/zjyx/yxjd/bgjq/content/post_8679192.html",
+      "checkedAt": "2026-09-22T07:21:46.866Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.yuexiu.gov.cn/zjyx/yxjd/bgjq/content/post_8679192.html",
+      "contentHash": "38e8358c3f4b7ece6a9d93f4f39e910711c1b79a7cecbc5d697c98dff8cb0791",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://gzzjyy.cn/",
+      "checkedAt": "2026-09-22T07:21:46.901Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.hippotrip.com/en/tickets/",
+      "checkedAt": "2026-09-22T07:21:47.083Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.hippotrip.com/en/tickets/",
+      "contentHash": "4bb87d668856d97127e9a6c1ad952786254e5f62b92286558d7c938e80e43fa5",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://flagshipamsterdam.com/",
+      "checkedAt": "2026-09-22T07:21:47.183Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://flagshipamsterdam.com/",
+      "contentHash": "2590c38f8a15b27dad1a2fab9899d6e2ca1356a1a468f53628c987b16425f8a2",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.sternundkreis.de/infos/fahrplan/",
+      "checkedAt": "2026-09-22T07:21:47.458Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.sternundkreis.de/infos/fahrplan/",
+      "contentHash": "f758d410a24de84f0843b91a5ffcc964496d1417a196d20e42c4e45002b557cd",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.comune.venezia.it/it/node/16768",
+      "checkedAt": "2026-09-22T07:21:49.493Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.comune.venezia.it/it/node/16768",
+      "contentHash": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://florencefoodstudio.com/en/cooking-classes/pizza-and-gelato",
+      "checkedAt": "2026-09-22T07:21:49.546Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://florencefoodstudio.com/en/cooking-classes/pizza-and-gelato",
+      "contentHash": "9f7ab08ac128489260fc44673c62acebdf1ad78c1c84c62ea94681f920d3770c",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.wbstudiotour.com/tour/studio/",
+      "checkedAt": "2026-09-22T07:21:51.044Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.wbstudiotour.com/tour/studio/",
+      "contentHash": "a42ec881e687354119faf238e8eb1a0822395b1685c668346d61e5302fbab3ba",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.globalballooning.com.au/flights/melbourne-public-flight/",
+      "checkedAt": "2026-09-22T07:21:51.846Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.globalballooning.com.au/flights/melbourne-public-flight/",
+      "contentHash": "19e936c002a57eb2a27f145eb1dc43c90bd9729876177aaf03c46157382db5ec",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.globalballooning.com.au/",
+      "checkedAt": "2026-09-22T07:21:52.886Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "note": "fetch failed; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://thaifarmcooking.net/contact-us/",
+      "checkedAt": "2026-09-22T07:21:53.204Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://thaifarmcooking.net/contact-us/",
+      "contentHash": "f7cc00a07d51177cc47c5a4cae43ef0ca6e4f66904f91cf9e0dbcaba79e7bd85",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.sofitel-legend-metropole-hanoi.com/",
+      "checkedAt": "2026-09-22T14:59:13.748Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.sofitel-legend-metropole-hanoi.com/",
+      "contentHash": "7dcbc89732b3e54a948520b7023265ec1a705cbdcbbac949a989ce198a733e97",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+      "checkedAt": "2026-09-22T14:59:13.827Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 429,
+      "finalUrl": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon",
+      "note": "HTTP 429; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.anantara.com/en/hoi-an",
+      "checkedAt": "2026-09-22T14:59:13.829Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.anantara.com/en/hoi-an",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://furamavietnam.com/",
+      "checkedAt": "2026-09-22T14:59:14.576Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://furamavietnam.com/",
+      "contentHash": "92033e60f5d624dff8e0a129f8eca7d24787dbb73b9dcdb316e03a3c16d91b10",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+      "checkedAt": "2026-09-22T14:59:15.485Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://satrihouse.com/wp-content/uploads/2022/12/Compendium-.pdf",
+      "contentHash": "60cd0acc6f6b322b2998b7ebd0498a9510aff2b70a64cbf8ea3909d4aa4bc42f",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.salalodges.com/",
+      "checkedAt": "2026-09-22T14:59:16.682Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 403,
+      "finalUrl": "https://www.salalodges.com/",
+      "note": "HTTP 403; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://www.shangri-la.com/kualalumpur/traders/",
+      "checkedAt": "2026-09-22T14:59:17.391Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.shangri-la.com/kualalumpur/traders/",
+      "contentHash": "43eada9d4e7df95c6f65fc2cf1baef95d0613ac3838415a742cdb552362e9d02",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.eohotels.com/dinings/",
+      "checkedAt": "2026-09-22T14:59:17.490Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.eohotels.com/dinings/",
+      "contentHash": "fe6e884620da6b2fc6f03984d899dc7607e61f5f063d4a07057690775c5a1991",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.thedanna.com/",
+      "checkedAt": "2026-09-22T14:59:17.992Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.thedanna.com/",
+      "contentHash": "92bec56cdc25fc16d72264b83ff7fd3163aac052956bbd2a21973f33dc9ba5cb",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.shangri-la.com/cebu/mactanresort/about/",
+      "checkedAt": "2026-09-22T14:59:19.510Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://www.shangri-la.com/cebu/mactanresort/about/",
+      "contentHash": "cdb7aba4da861173eb4c2a42e5a38e5a04eb49b1773116d73e721a0c44158c17",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+      "checkedAt": "2026-09-22T14:59:19.539Z",
+      "status": "unreachable",
+      "priceVerified": false,
+      "httpStatus": 429,
+      "finalUrl": "https://www.hyatt.com/grand-hyatt/en-US/taigh-grand-hyatt-taipei?src=corp_lclb_google_seo_taigh",
+      "note": "HTTP 429; 保留原资料，等待复核。"
+    },
+    {
+      "url": "https://dwarikas.com/thedwarikas/",
+      "checkedAt": "2026-09-22T14:59:19.961Z",
+      "status": "reachable",
+      "priceVerified": false,
+      "httpStatus": 200,
+      "finalUrl": "https://dwarikas.com/thedwarikas/",
+      "contentHash": "657ddf95c641c3dc89802fbc21f2b09e7d0f8df4449e263410790f7b7f1953b0",
+      "changed": false,
+      "note": "来源可访问；这不代表票价、房态或菜单已重新核验。"
+    },
+    {
+      "url": "https://samode.com/samode-haveli/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://gallefacehotel.com/history/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.kingspavilion.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.cenizaro.com/lamaisonarabe/marrakech",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.marriott.com/en-gb/en-us/hotels/caimn-marriott-mena-house-cairo/overview/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://emersonzanzibar.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.beachcomber-hotels.com/en/hotel/royal-palm-beachcomber-luxury",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.sofitel-legend-metropole-hanoi.com/dining/spice-garden/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.hyatt.com/park-hyatt/en-US/saiph-park-hyatt-saigon/dining",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.anantara.com/uploads/minor/anantara/documents/anantara-hoi-an-resort/hotel-info/anantara_hoi-an_resort_resort_factsheet_2026.pdf",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://furamavillasdanang.com/vi/culinary/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.tamarindlaos.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.shangri-la.com/kualalumpur/traders/dining/restaurants/gobo-chit-chat/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.thedanna.com/dine/planters",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.shangri-la.com/cebu/mactanresort/dining/restaurants/cowrie-cove/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://dwarikas.com/thedwarikas/dining/krishnarpan",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://samode.com/samode-haveli-dining-adventures/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://gallefacehotel.com/dining/1864-limited-edition/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.kingspavilion.com/dining/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.belmond.com/en/hotels/africa/south-africa/mount-nelson-cape-town/restaurants-and-bars",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.cenizaro.com/lamaisonarabe/marrakech/dining/les-trois-saveurs",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.marriott.com/en-us/hotels/caimn-marriott-mena-house-cairo/dining/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://emersonzanzibar.com/restaurants-in-stone-town/emerson-on-hurumzi-tea-house-restaurant/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.beachcomber-hotels.com/en/restaurants-grand-baie",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://vietnam.travel/node/1299",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://nhahatmuaroithanglong.vn/en/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.saigonprincess.com.vn/ticket/set-menu-2026-s41449t2",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.anantara.com/vi/hoi-an/restaurants/spice-spoons",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://sunworld.vn/en/banahills/sunworld-news/price-list-tickets-services-sun-world-ba-na-hills-year-2026-19796",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.tamarindlaos.com/cookingschool",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://pharecircus.org/tickets/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://jadibatek.com/product/batik-drawing-coloring-class-at-jadi-batek-gift-voucher/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://tropicalspicegarden.com/home/cook",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://panoramalangkawi.com/skytrail/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.sidive.com/course/padi-discover-scuba-diving/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://cookinn.tw/zh/cooking-classes/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://cookinntaiwan.rezio.shop/zh-TW",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.nepalcookingschool.com.np/bookings/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.skywaltz.com/ticket-options/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.colombowalks.com/booknow",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.kandylakeclubdance.com/aboutus.php",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://citysightseeing.co.za/en/cape-town/cape-town-specials",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://marrakechbyair.com/fr/flights",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://walklikeanegyptian.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://safariblue.net/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://blue-safari.com/submarine/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://silomthaicooking.com/2018/main/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://watpho.com/en/contact/plan",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.asiascenic.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.asiascenic.com/full-course-morning-in-old-town",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.asiascenic.com/full-course-evening-in-old-town",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.asiascenic.com/full-course-at-farm-only-morning",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.pataraelephantfarm.com/pricing/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.e-junglepark.com/copy-of-elephant-tour-full-day2",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.keahotels.is/sand-hotel",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.hotelkria.is/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.keahotels.is/hotel-kea",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://maagirihotel.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://kaanihotels.com/stays/Palm-Beach",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.museumhotel.com.tr/en/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.scandichotels.com/en/hotels/scandic-ishavshotel",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://arctictreehousehotel.com/accommodation/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.victoria-jungfrau.ch/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.hilton.com/en/hotels/zqnhqhi-hilton-queenstown-resort-and-spa/rooms/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://thegrandbyskycity.skycityauckland.co.nz/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-balmoral-hotel/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.merrionhotel.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://hoteluprince.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.sacher.com/en/vienna/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.ariahotelbudapest.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.marriott.com/en-us/hotels/athlc-hotel-grande-bretagne-a-luxury-collection-hotel-athens/overview/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://canaves.com/canaves-oia-epitome/accommodations/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.mandarinoriental.com/en/madrid/hotel-ritz",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.fairmont.com/en/hotels/vancouver/fairmont-pacific-rim.html",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.fourseasons.com/mexico/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.nizuc.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.dillrestaurant.is/en/food-wine/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.hotelkria.is/restaurant",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.rub23.is/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://maagirihotel.com/dinings/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.museumhotel.com.tr/yeme-icme",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://rakasrestaurant.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.victoria-jungfrau.ch/en/restaurants-bars/ristorante-e-pizzeria-sapori/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://fergburger.com/wp-content/uploads/2026/04/Fergburger-english-menus.pdf",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://skycityauckland.co.nz/restaurants/orbit/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.roccofortehotels.com/hotels-and-resorts/the-balmoral-hotel/dining/number-one/menu/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://restaurantpatrickguilbaud.ie/menus/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://elements-santorini.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://cms.mandarinoriental.com/en/madrid/hotel-ritz/dine/deessa",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.botanistrestaurant.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.fourseasons.com/mexico/dining/restaurants/zanaya/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.nizuc.com/cuisine/ramona/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.skylagoon.com/is/leidir-til-ad-njota/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://katlatrack.is/all-tours/ice-cave-tours/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://elding.is/akureyri-schedule-prices",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://secretparadise.mv/product/4-hour-male-walking-tour/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://kaanihotels.com/experiences/Full-Day-Trip",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://royalballoon.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://brimexplorer.com/tours/silent-whale-watching",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://bearhillhusky.com/winter-tours/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://paragliding-interlaken.ch/sommer/aktivitaeten/paragliding-big-blue-sommer-interlaken-schweiz/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.shotoverjet.com/prices/individual/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.bungy.co.nz/auckland/sky-tower/skywalk/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.scotchwhiskyexperience.co.uk/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.guinness-storehouse.com/en",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.prague-boats.cz/one-hour-river-cruise/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.srs.at/en/tickets/morning-exercise",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.szechenyibath.hu/prices-2026",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://athenswalkingtours.gr/food-drink/athens-cooking-lesson-dinner-18.html",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.santorini-yachts.com/cruise/catamaran-semi-private-cruise/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://www.corraldelamoreria.com/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://princeofwhales.com/tour/half-day-whale-watching-vancouver/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://volare.com.mx/en/shared-balloon-flight/",
+      "status": "pending",
+      "priceVerified": false
+    },
+    {
+      "url": "https://aquaworld.com.mx/tours/jungle-tour/",
+      "status": "pending",
+      "priceVerified": false
+    }
+  ],
+  "review": [
+    {
+      "experienceId": "ex-shanghai-restaurant-yi-long-court",
+      "name": "逸龙阁",
+      "cityId": "shanghai",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-beijing-restaurant-huang-ting",
+      "name": "凰庭",
+      "cityId": "beijing",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-seoul-restaurant-myeongdong-kyoja",
+      "name": "明洞饺子·本店",
+      "cityId": "seoul",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-bangkok-restaurant-thipsamai",
+      "name": "Thipsamai·鬼门店",
+      "cityId": "bangkok",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-barcelona-restaurant-7-portes",
+      "name": "7 Portes",
+      "cityId": "barcelona",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-new-york-restaurant-katz",
+      "name": "Katz’s 熟食店",
+      "cityId": "new-york",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-dubai-restaurant-arabian-tea-house",
+      "name": "Arabian Tea House·Al Fahidi",
+      "cityId": "dubai",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-shanghai-hotel-peninsula",
+      "name": "上海半岛酒店",
+      "cityId": "shanghai",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-beijing-hotel-peninsula",
+      "name": "北京王府半岛酒店",
+      "cityId": "beijing",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-bali-hotel-alila-ubud",
+      "name": "阿丽拉乌布",
+      "cityId": "bali",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-istanbul-hotel-pera-palace",
+      "name": "佩拉宫酒店",
+      "cityId": "istanbul",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-amsterdam-hotel-hoxton-lloyd",
+      "name": "The Hoxton·Lloyd",
+      "cityId": "amsterdam",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-singapore-ifly",
+      "name": "圣淘沙室内跳伞",
+      "cityId": "singapore",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-london-thames-rockets",
+      "name": "泰晤士河快艇体验",
+      "cityId": "london",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-barcelona-sailing",
+      "name": "地中海双小时帆船",
+      "cityId": "barcelona",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-sydney-bridgeclimb",
+      "name": "悉尼海港大桥攀登",
+      "cityId": "sydney",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-dubai-hero-balloon",
+      "name": "沙漠日出热气球",
+      "cityId": "dubai",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-istanbul-bosphorus",
+      "name": "城市渡轮博斯普鲁斯观光",
+      "cityId": "istanbul",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-hong-kong-aqualuna",
+      "name": "张保仔维港晚间航游",
+      "cityId": "hong-kong",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-guangzhou-pearl-cruise",
+      "name": "天字码头珠江夜游",
+      "cityId": "guangzhou",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-ho-chi-minh-city-park-hyatt",
+      "name": "西贡柏悦酒店",
+      "cityId": "ho-chi-minh-city",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-hoi-an-anantara",
+      "name": "会安安纳塔拉度假酒店",
+      "cityId": "hoi-an",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-siem-reap-sala-lodges",
+      "name": "Sala Lodges 高棉木屋",
+      "cityId": "siem-reap",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-taipei-grand-hyatt",
+      "name": "台北君悦酒店",
+      "cityId": "taipei",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-siem-reap-ma-om",
+      "name": "Ma Om 高棉餐厅",
+      "cityId": "siem-reap",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    },
+    {
+      "experienceId": "ex-aa-taipei-yun-jin",
+      "name": "云锦中餐厅",
+      "cityId": "taipei",
+      "reasons": [
+        "来源或预订页面暂不可访问"
+      ]
+    }
+  ],
+  "note": "每次维护最多检查12个超7天未检查的公开链接；HTTP状态及页面哈希只用于人工复核队列，不会把估算标成已核验价格。专用价格适配器另外更新官方报价。"
+}

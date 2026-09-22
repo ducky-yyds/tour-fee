@@ -1,0 +1,2502 @@
+[
+  {
+    "cityId": "shanghai",
+    "intro": "外滩的江岸、梧桐街道和弄堂早餐，是上海几种可以慢慢切换的节奏。",
+    "foodHighlights": [
+      {
+        "name": "生煎与小笼",
+        "description": "适合早餐或午间轻餐，趁热慢吃。"
+      },
+      {
+        "name": "本帮菜",
+        "description": "红烧、葱油和时令河鲜是认识上海餐桌的入口。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "外滩与北外滩",
+        "description": "看江岸建筑和天际线，傍晚适合散步。"
+      },
+      {
+        "name": "衡复街区",
+        "description": "梧桐街道、近代建筑和咖啡店适合连成短线。"
+      }
+    ],
+    "experienceIntro": "给江岸夜景、街区散步和一顿正式晚餐分别留时间。"
+  },
+  {
+    "cityId": "beijing",
+    "intro": "北京既有需要预留半天的宫殿园林，也有适合慢走、坐下吃一餐的胡同。",
+    "foodHighlights": [
+      {
+        "name": "北京烤鸭",
+        "description": "可按人数选择半只或整只，核对鸭架做法和配料费用。"
+      },
+      {
+        "name": "老北京早餐",
+        "description": "豆汁、焦圈、烧饼等有鲜明风味，可先少量尝试。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "什刹海与鼓楼",
+        "description": "湖岸、胡同和日常生活适合步行串联。"
+      },
+      {
+        "name": "海淀园林与校园",
+        "description": "颐和园、圆明园和校园距离较分散，校园须先核对预约。"
+      }
+    ],
+    "experienceIntro": "故宫与长城别塞进同一个紧张的白天，郊区行程要单留交通。"
+  },
+  {
+    "cityId": "tokyo",
+    "intro": "东京适合按街区旅行：浅草的传统街巷与涩谷的当代城市生活可以分开体验。",
+    "foodHighlights": [
+      {
+        "name": "拉面",
+        "description": "汤底和面条风格很多，一人一碗便于核算预算。"
+      },
+      {
+        "name": "寿司与定食",
+        "description": "午餐定食与晚间套餐是不同的消费方式，预订时确认内容。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "浅草与上野",
+        "description": "寺院、博物馆与老街适合安排在同一区域。"
+      },
+      {
+        "name": "涩谷与原宿",
+        "description": "购物、建筑和咖啡馆之间可以穿插步行。"
+      }
+    ],
+    "experienceIntro": "选两三个相邻街区深逛，比反复跨城换乘更从容。"
+  },
+  {
+    "cityId": "kyoto",
+    "intro": "京都的乐趣常在寺院之间的细路、商店门前和一段静静坐着的时间里。",
+    "foodHighlights": [
+      {
+        "name": "京料理与豆腐",
+        "description": "食材与季节关系紧密，正式料理通常需要较长用餐时间。"
+      },
+      {
+        "name": "锦市场小食",
+        "description": "买好后在店内或指定用餐区域吃完，不边走边吃。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "祇园与东山",
+        "description": "石板路和寺院密集，注意居民区与禁止摄影标识。"
+      },
+      {
+        "name": "岚山",
+        "description": "山水与寺院适合单独安排半天，别忽略往返时间。"
+      }
+    ],
+    "experienceIntro": "把寺院预约、赏景和餐食时段放在同一张日程表里。"
+  },
+  {
+    "cityId": "osaka",
+    "intro": "大阪可以从一碗高汤乌冬开始，再沿着热闹街区慢慢吃、慢慢走。",
+    "foodHighlights": [
+      {
+        "name": "乌冬与关西高汤",
+        "description": "味道更着重汤底，适合在购物途中安排一顿正餐。"
+      },
+      {
+        "name": "章鱼烧与大阪烧",
+        "description": "小吃和铁板料理的用餐时长不同，别把所有店都当作快餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "难波与道顿堀",
+        "description": "餐饮与夜景集中，适合减少夜间换乘。"
+      },
+      {
+        "name": "新世界",
+        "description": "通天阁周边的街区可与天王寺一带衔接。"
+      }
+    ],
+    "experienceIntro": "白天选一片城区，晚上给道顿堀或新世界留一餐。"
+  },
+  {
+    "cityId": "seoul",
+    "intro": "首尔的宫殿、市场和创意街区各有节奏，坡道与地铁换乘也要算进体力预算。",
+    "foodHighlights": [
+      {
+        "name": "刀切面与饺子",
+        "description": "适合快速吃饱，单点与分享组合容易控制成本。"
+      },
+      {
+        "name": "韩式烤肉",
+        "description": "按肉类部位和份数点单，先确认最低份数与配餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "钟路与北村",
+        "description": "宫殿和传统街巷集中，北村请尊重居民生活。"
+      },
+      {
+        "name": "弘大与延南洞",
+        "description": "年轻商店、设计酒店与咖啡空间适合慢逛。"
+      }
+    ],
+    "experienceIntro": "宫殿文化日与弘大生活日可以分开，不必反复跨越汉江。"
+  },
+  {
+    "cityId": "bangkok",
+    "intro": "曼谷的老城寺院和现代商圈可以形成两种完全不同的一天。",
+    "foodHighlights": [
+      {
+        "name": "泰式炒粉",
+        "description": "基础、素食和鲜虾蛋包做法不同，选择时看清菜单。"
+      },
+      {
+        "name": "咖喱与汤菜",
+        "description": "辣度、海鲜用料和共享份量都影响一餐预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老城与Mahachai路",
+        "description": "寺院参观后可以安排炒粉或街边餐食。"
+      },
+      {
+        "name": "河岸与Sukhumvit",
+        "description": "河岸看景与商圈购物分别适合集中安排。"
+      }
+    ],
+    "experienceIntro": "中午炎热时安排室内休息，跨区行程预留堵车时间。"
+  },
+  {
+    "cityId": "singapore",
+    "intro": "新加坡的距离相对紧凑，熟食中心、历史街区和花园可以交替安排。",
+    "foodHighlights": [
+      {
+        "name": "熟食中心餐食",
+        "description": "海南鸡饭、叻沙等适合用较少预算尝试多种风味。"
+      },
+      {
+        "name": "辣椒螃蟹",
+        "description": "通常按重量点单，分享人数与蟹种比固定人均更关键。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "牛车水与丹戎巴葛",
+        "description": "街屋、餐饮和城市步行可以连在一起。"
+      },
+      {
+        "name": "滨海湾与市政区",
+        "description": "花园、河岸与历史酒店适合按一条线安排。"
+      }
+    ],
+    "experienceIntro": "白天留给花园和博物馆，傍晚再走河岸并安排聚餐。"
+  },
+  {
+    "cityId": "bali",
+    "intro": "巴厘岛不是一个紧凑城区：乌布、海岸与山地需要不同的交通预算。",
+    "foodHighlights": [
+      {
+        "name": "Nasi Campur",
+        "description": "一盘饭配多种小菜，是认识当地味道的方便起点。"
+      },
+      {
+        "name": "香料咖喱与慢炖",
+        "description": "香料层次丰富，确认肉类、辣度和是否需要提前点单。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "乌布",
+        "description": "艺术、咖啡和稻田周边适合慢住。"
+      },
+      {
+        "name": "南部海岸",
+        "description": "海滩和落日体验分散，别低估道路交通耗时。"
+      }
+    ],
+    "experienceIntro": "每天控制跨区域移动次数，给天气与道路情况留出余量。"
+  },
+  {
+    "cityId": "paris",
+    "intro": "巴黎适合把一个博物馆、一片街区和一顿不赶时间的饭组合成一天。",
+    "foodHighlights": [
+      {
+        "name": "传统Bouillon",
+        "description": "通常提供法国常见家常菜，按前菜、主菜和甜点逐项点。"
+      },
+      {
+        "name": "面包与糕点",
+        "description": "可作为早餐或散步间歇，堂食和外带价格有时不同。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "左岸与Mouffetard",
+        "description": "大学街区、市场街和小酒店适合步行。"
+      },
+      {
+        "name": "大街区与Montmartre",
+        "description": "餐馆、剧院和坡道风景可以分段探索。"
+      }
+    ],
+    "experienceIntro": "不要把每顿餐都安排得很正式，给临时发现的咖啡馆留空位。"
+  },
+  {
+    "cityId": "london",
+    "intro": "伦敦的旅行可以围绕博物馆、市场和剧院展开，多元餐饮也是城市体验的一部分。",
+    "foodHighlights": [
+      {
+        "name": "英式早餐与烘焙",
+        "description": "适合开启步行日，不同咖啡馆份量与服务费不同。"
+      },
+      {
+        "name": "印度风味餐食",
+        "description": "卷饼、咖喱和共享菜的预算与用餐时长各不相同。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Holborn与Covent Garden",
+        "description": "博物馆、剧院与餐厅之间可以步行衔接。"
+      },
+      {
+        "name": "South Bank",
+        "description": "沿泰晤士河安排散步、展览和夜景。"
+      }
+    ],
+    "experienceIntro": "剧院演出和预约餐厅有固定时段，先锁定它们再排自由活动。"
+  },
+  {
+    "cityId": "rome",
+    "intro": "罗马的古迹之间仍是鲜活的街区生活，适合边走边给午餐和休息留位置。",
+    "foodHighlights": [
+      {
+        "name": "罗马意面",
+        "description": "Carbonara、Gricia与Cacio e Pepe各有传统做法。"
+      },
+      {
+        "name": "熟食与前菜",
+        "description": "奶酪、火腿和蔬菜前菜适合共享，注意一餐总份量。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老城与Campo de’ Fiori",
+        "description": "广场、商店和熟食餐厅便于步行串联。"
+      },
+      {
+        "name": "Trastevere与Testaccio",
+        "description": "适合把街区散步和传统餐馆放在一起。"
+      }
+    ],
+    "experienceIntro": "每天先确定一个重点遗址，其余时间留给街巷和餐桌。"
+  },
+  {
+    "cityId": "barcelona",
+    "intro": "巴塞罗那可以在建筑、海边和加泰罗尼亚餐桌之间来回切换。",
+    "foodHighlights": [
+      {
+        "name": "米饭与海鲜饭",
+        "description": "不同锅型和食材会改变价格，先确认最低点单份数。"
+      },
+      {
+        "name": "Tapas与传统菜",
+        "description": "小盘共享方便尝味道，也要留意累计账单。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "扩展区Eixample",
+        "description": "街角建筑与精品酒店适合网格化步行探索。"
+      },
+      {
+        "name": "Born与海岸老城",
+        "description": "历史街道、博物馆与海鲜餐厅可以衔接。"
+      }
+    ],
+    "experienceIntro": "热门建筑须按预约时间安排，晚餐前可留一段海边散步。"
+  },
+  {
+    "cityId": "new-york",
+    "intro": "纽约适合按街区缩小一天的半径，把文化参观和餐饮一起安排。",
+    "foodHighlights": [
+      {
+        "name": "熟食店三明治",
+        "description": "熏牛肉份量常较大，税、小费与额外配菜要分清。"
+      },
+      {
+        "name": "百吉饼与街头餐食",
+        "description": "适合作为早餐或轻餐，省下时间和预算给其他体验。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "下东区与东村",
+        "description": "熟食店、独立商店和夜间生活相互交织。"
+      },
+      {
+        "name": "中央公园与博物馆区",
+        "description": "大型场馆需要留体力，可穿插公园休息。"
+      }
+    ],
+    "experienceIntro": "选一家想去的餐厅作为街区行程的锚点，再把附近景点串起来。"
+  },
+  {
+    "cityId": "sydney",
+    "intro": "悉尼的海港、海滩和城市社区可以分成几次从容的小旅行。",
+    "foodHighlights": [
+      {
+        "name": "澳式早午餐",
+        "description": "炒蛋、热松饼和咖啡适合不赶时间的上午。"
+      },
+      {
+        "name": "海鲜与现代澳洲菜",
+        "description": "海港景观餐位与普通街区餐厅的成本差别明显。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Surry Hills",
+        "description": "咖啡和餐厅密集，适合半天城市散步。"
+      },
+      {
+        "name": "Chippendale与海港区",
+        "description": "前者偏艺术设计，后者偏海岸与城市地标。"
+      }
+    ],
+    "experienceIntro": "海滩与市区之间的交通要单独安排，不必每天都跨城往返。"
+  },
+  {
+    "cityId": "dubai",
+    "intro": "迪拜既有高层建筑和海岸，也有溪流两岸的历史街区与本地餐桌。",
+    "foodHighlights": [
+      {
+        "name": "阿联酋早餐",
+        "description": "茶、面饼和当地早餐菜适合在老城慢慢尝试。"
+      },
+      {
+        "name": "阿拉伯共享餐",
+        "description": "米饭、肉类和小菜常适合分享，先确认份量。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Al Fahidi与Al Seef",
+        "description": "风塔、庭院和溪岸体现历史城市的一面。"
+      },
+      {
+        "name": "Downtown与Marina",
+        "description": "高层建筑和海岸步道分属不同区域。"
+      }
+    ],
+    "experienceIntro": "沙漠项目与市区观光安排在不同半天，炎热时减少露天步行。"
+  },
+  {
+    "cityId": "istanbul",
+    "intro": "伊斯坦布尔横跨海峡，市场、渡轮和传统餐桌都值得安排独立时间。",
+    "foodHighlights": [
+      {
+        "name": "土耳其热菜",
+        "description": "炖羊肉、茄泥和饭菜适合一顿坐下慢吃的正餐。"
+      },
+      {
+        "name": "Meze与甜点",
+        "description": "冷前菜、果仁甜点和茶可以穿插在不同餐次。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Eminönü与Sultanahmet",
+        "description": "市场和历史建筑密集，适合步行与电车结合。"
+      },
+      {
+        "name": "Pera与Beyoğlu",
+        "description": "近代建筑、酒店与街区生活相互交织。"
+      }
+    ],
+    "experienceIntro": "用渡轮连接两岸时，把它也当作行程中的一段风景。"
+  },
+  {
+    "cityId": "hong-kong",
+    "intro": "香港可以在高密度街区、山路和离岛渔村之间转换，住宿位置会明显影响交通时间。",
+    "foodHighlights": [
+      {
+        "name": "粤式点心",
+        "description": "茶位、点心份数和是否加一服务费都要核对。"
+      },
+      {
+        "name": "茶餐厅与街坊小食",
+        "description": "适合轻量安排，不同街区各有日常风味。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "深水埗",
+        "description": "街市、布料商店和街坊餐厅适合慢慢逛。"
+      },
+      {
+        "name": "大澳",
+        "description": "渔村与文物酒店需要专程安排，别当作市区短途。"
+      }
+    ],
+    "experienceIntro": "把离岛单独留出一天，市区日再选择相邻片区。"
+  },
+  {
+    "cityId": "chengdu",
+    "intro": "成都适合把大景点和小休息交替安排：看完展或熊猫，再坐下来喝茶。",
+    "foodHighlights": [
+      {
+        "name": "川菜与火锅",
+        "description": "辣度、锅底与食材份数都影响体验和预算。"
+      },
+      {
+        "name": "素食川味与茶",
+        "description": "可以从不同角度体验香料和本地饮食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "太古里与大慈寺",
+        "description": "当代商业和传统院落近在一起。"
+      },
+      {
+        "name": "人民公园与老街",
+        "description": "茶馆和日常生活适合放慢脚步。"
+      }
+    ],
+    "experienceIntro": "给茶馆留一个完整空档，郊外项目另算往返时间。"
+  },
+  {
+    "cityId": "xian",
+    "intro": "西安适合在古迹之外多留一顿面食和一段城墙附近的散步。",
+    "foodHighlights": [
+      {
+        "name": "陕西面食",
+        "description": "油泼面、饸饹等主食份量不同，可按胃口点。"
+      },
+      {
+        "name": "肉夹馍与泡馍",
+        "description": "小吃和完整正餐是不同安排，别一次点得过多。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "城墙内与钟鼓楼周边",
+        "description": "历史街道、市场和餐饮密集。"
+      },
+      {
+        "name": "人民广场建筑群",
+        "description": "近代建筑与酒店花园形成另一种城市体验。"
+      }
+    ],
+    "experienceIntro": "兵马俑在城外，单独预留交通与参观半天以上。"
+  },
+  {
+    "cityId": "hangzhou",
+    "intro": "杭州适合在湖边走一段，再到茶乡或园林里坐一会儿。",
+    "foodHighlights": [
+      {
+        "name": "杭帮与江浙菜",
+        "description": "河鲜、酱香肉菜和时令蔬菜可按人数分享。"
+      },
+      {
+        "name": "龙井茶与茶点",
+        "description": "茶叶等级、冲泡服务和景观位置会影响费用。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "西湖西侧",
+        "description": "绿意、园林和寺院较多，适合从容安排。"
+      },
+      {
+        "name": "湖滨与运河街区",
+        "description": "前者方便城市步行，后者适合探索不同水岸。"
+      }
+    ],
+    "experienceIntro": "环湖不必一天走完，天气好时留时间给茶园与山路。"
+  },
+  {
+    "cityId": "guangzhou",
+    "intro": "广州的旅行可以从一顿早茶出发，再沿珠江和历史街区展开。",
+    "foodHighlights": [
+      {
+        "name": "粤式早茶",
+        "description": "点心逐份计价，茶位与人数分摊要一并考虑。"
+      },
+      {
+        "name": "烧味与粥粉面",
+        "description": "适合日常正餐，也能让预算更轻松。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "沙面",
+        "description": "老建筑、林荫路和江岸适合慢走。"
+      },
+      {
+        "name": "西关与永庆坊",
+        "description": "街巷、传统文化与餐饮可以串成一线。"
+      }
+    ],
+    "experienceIntro": "早茶留足时间，下午在街区和室内场馆之间灵活安排。"
+  },
+  {
+    "cityId": "lisbon",
+    "intro": "里斯本的坡道、观景台和河岸需要慢慢串联，别只按地图直线估算步行。",
+    "foodHighlights": [
+      {
+        "name": "贝伦蛋挞",
+        "description": "可以单买，也可以搭配咖啡与咸点作轻食。"
+      },
+      {
+        "name": "鳕鱼与葡式家常菜",
+        "description": "做法多样，主菜与小食的份量差异明显。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Alfama",
+        "description": "坡道和老街适合慢走，拉行李时要考虑台阶。"
+      },
+      {
+        "name": "Belém",
+        "description": "河岸、修道院和糕点店可安排在同一段行程。"
+      }
+    ],
+    "experienceIntro": "给电车候车和爬坡留时间，河岸可作为较轻松的一天。"
+  },
+  {
+    "cityId": "amsterdam",
+    "intro": "阿姆斯特丹适合按运河街区探索，也可以向东部港区看看城市的新旧变化。",
+    "foodHighlights": [
+      {
+        "name": "Stamppot",
+        "description": "土豆泥搭配蔬菜与肉类，是家常菜的重要代表。"
+      },
+      {
+        "name": "荷兰三道菜单",
+        "description": "汤、热菜和甜点的组合方便核对一餐价格。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "运河带与Leidseplein",
+        "description": "博物馆、餐厅和步行景观集中。"
+      },
+      {
+        "name": "Eastern Docklands",
+        "description": "港区建筑与设计酒店体现另一面城市。"
+      }
+    ],
+    "experienceIntro": "骑车前先熟悉交通规则，市中心短距离也很适合步行。"
+  },
+  {
+    "cityId": "berlin",
+    "intro": "柏林的历史与当代生活分布在多个街区，值得围绕兴趣留出较大活动半径。",
+    "foodHighlights": [
+      {
+        "name": "柏林家常热菜",
+        "description": "猪肉、土豆和炖菜份量较足，适合晚间坐下吃。"
+      },
+      {
+        "name": "多元街区餐饮",
+        "description": "土耳其和其他移民餐饮也是日常城市生活的一部分。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Kreuzberg",
+        "description": "街区餐馆、河岸和文化空间可连成散步线。"
+      },
+      {
+        "name": "Friedrichshain",
+        "description": "东部街区生活与创意住宿适合慢慢探索。"
+      }
+    ],
+    "experienceIntro": "每天确定一个博物馆或历史主题，再把附近街区留给自由活动。"
+  },
+  {
+    "cityId": "venice",
+    "intro": "威尼斯不止圣马可一带，小岛与潟湖能带来不同节奏，但必须把船班算进去。",
+    "foodHighlights": [
+      {
+        "name": "Cicchetti",
+        "description": "小份小吃适合分次品尝，饮料另计。"
+      },
+      {
+        "name": "潟湖鱼菜与品鉴餐",
+        "description": "当地食材与季节相关，正式品鉴餐需长时间预约。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "圣马可与里亚托",
+        "description": "经典景点密集，清晨或分时预约更便于安排。"
+      },
+      {
+        "name": "Mazzorbo与Burano",
+        "description": "葡萄园与岛屿街道适合单独的潟湖日。"
+      }
+    ],
+    "experienceIntro": "岛上晚餐前先确认返程方式，住在小岛也意味着不同的交通成本。"
+  },
+  {
+    "cityId": "florence",
+    "intro": "佛罗伦萨适合在美术馆之间穿插市场、街道和托斯卡纳餐桌。",
+    "foodHighlights": [
+      {
+        "name": "佛罗伦萨牛排",
+        "description": "通常按重量点单，分享人数决定实际人均成本。"
+      },
+      {
+        "name": "托斯卡纳主食与汤",
+        "description": "可作为较轻的一餐，搭配蔬菜或熟食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "历史中心",
+        "description": "主要场馆之间可以步行，但石板路容易积累疲劳。"
+      },
+      {
+        "name": "Santa Maria Novella周边",
+        "description": "适合火车抵达后安排住宿或一餐。"
+      }
+    ],
+    "experienceIntro": "提前锁定美术馆时段，再为正式晚餐和河边散步留位置。"
+  },
+  {
+    "cityId": "los-angeles",
+    "intro": "洛杉矶的距离决定体验：同一天尽量围绕一个区域安排，再选好吃饭的落脚点。",
+    "foodHighlights": [
+      {
+        "name": "烘焙与咖啡馆正餐",
+        "description": "同一家店的白天与晚餐可能有不同菜单和服务。"
+      },
+      {
+        "name": "韩国城餐食",
+        "description": "烤肉、汤饭与深夜餐饮各有预算方式。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "韩国城",
+        "description": "餐饮丰富，适合喜欢城市生活的住宿。"
+      },
+      {
+        "name": "Miracle Mile与La Brea",
+        "description": "博物馆、设计与餐厅可组成一天。"
+      }
+    ],
+    "experienceIntro": "把停车、交通和税费放进成本表，跨区移动也要算时间。"
+  },
+  {
+    "cityId": "melbourne",
+    "intro": "墨尔本适合用咖啡、街巷和一顿共享晚餐体验城市。",
+    "foodHighlights": [
+      {
+        "name": "咖啡与早午餐",
+        "description": "点一杯咖啡再选主食，适合放松的上午。"
+      },
+      {
+        "name": "亚洲分享料理",
+        "description": "多道菜按人分摊，饮品和附加费要另外核对。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Flinders Lane与CBD",
+        "description": "街巷、餐厅与文化场馆便于步行连接。"
+      },
+      {
+        "name": "South Yarra",
+        "description": "商店、设计酒店和邻里餐厅适合慢逛。"
+      }
+    ],
+    "experienceIntro": "市中心与南雅拉分开安排时，可以少花时间反复换乘。"
+  },
+  {
+    "cityId": "chiang-mai",
+    "intro": "清迈适合在古城寺院、市场和咖啡馆之间留白，城外山地另安排一天。",
+    "foodHighlights": [
+      {
+        "name": "Khao Soi",
+        "description": "椰香咖喱面是认识北泰味道的起点。"
+      },
+      {
+        "name": "兰纳共享菜",
+        "description": "香肠、蘸酱、咖喱与糯米适合多人尝试。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "古城",
+        "description": "寺院和小店密集，适合步行与短途接驳。"
+      },
+      {
+        "name": "Wat Gate与平河东岸",
+        "description": "历史社区和小型酒店呈现较安静的生活节奏。"
+      }
+    ],
+    "experienceIntro": "白天不要把所有寺院排满，留一个下午给市场或做菜体验。"
+  },
+  {
+    "cityId": "hanoi",
+    "intro": "老街烟火与千年文庙。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "河粉与烤肉米线",
+        "description": "牛肉河粉适合早餐，炭烤猪肉米线可作午餐；饮料另计。"
+      },
+      {
+        "name": "蛋咖啡",
+        "description": "老城咖啡馆常见鸡蛋奶泡咖啡，坐席与品牌影响价格。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "还剑湖与老城区",
+        "description": "步行探访街巷、咖啡馆和湖畔，住宿夜间可能较热闹。"
+      },
+      {
+        "name": "西湖",
+        "description": "湖景酒店与餐厅较分散，往返老城需交通时间。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "ho-chi-minh-city",
+    "intro": "法式街角与南方都会烟火。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "法棍与碎米饭",
+        "description": "街头法棍和猪排碎米饭适合日常预算，用餐场所影响价格。"
+      },
+      {
+        "name": "滴漏咖啡",
+        "description": "炼乳咖啡与冰咖啡常见，精品咖啡馆可单独增加预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "第一郡",
+        "description": "主要历史建筑和餐厅集中，步行结合打车较方便。"
+      },
+      {
+        "name": "堤岸",
+        "description": "华人寺庙与市场集中，与第一郡之间应预留交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "hoi-an",
+    "intro": "灯笼映着古港，稻田连接海岸。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "高楼面",
+        "description": "会安常见的拌面配肉与香草，古城餐厅和路边店价位不同。"
+      },
+      {
+        "name": "白玫瑰饺",
+        "description": "米粉皮小饺与本地海鲜可组合用餐，按具体菜单估价。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "古城与安会岛",
+        "description": "历史院落、灯笼与河畔餐厅集中，部分核心院落需联票。"
+      },
+      {
+        "name": "安邦海滩",
+        "description": "海滨民宿与餐馆较多，前往古城仍需短途交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "da-nang",
+    "intro": "海岸、山岭与占婆石雕。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "广南面",
+        "description": "米广配香草与肉类，路边店和酒店餐厅价差明显。"
+      },
+      {
+        "name": "海鲜",
+        "description": "海滨海鲜多按重量计价，点单前核对单价与加工费。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "美溪海滩",
+        "description": "酒店、海鲜餐厅集中，适合海滨度假。"
+      },
+      {
+        "name": "韩江两岸",
+        "description": "市场、咖啡馆和夜景桥梁集中，便于市内步行。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "luang-prabang",
+    "intro": "湄公河畔的古寺与青绿瀑布。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "糯米饭与老挝烤肉",
+        "description": "糯米饭常搭香草肉末或烤肉，餐厅套餐与街边小食不同计价。"
+      },
+      {
+        "name": "湄公河鱼与河苔",
+        "description": "烤鱼和酥炸河苔是地方风味，鱼类按份量估价。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "半岛老城",
+        "description": "古寺、王宫和河岸住宿集中，步行适合慢游。"
+      },
+      {
+        "name": "南康河沿岸",
+        "description": "河景餐厅与民宿较安静，跨河交通须按开放情况确认。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "siem-reap",
+    "intro": "在吴哥石塔间读高棉往事。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "阿莫克鱼",
+        "description": "椰奶香料鱼常配米饭，套餐及高端餐厅另有价位。"
+      },
+      {
+        "name": "高棉烤肉与米线",
+        "description": "市场小食和餐厅菜肴可混搭，饮料与服务费核对菜单。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老市场",
+        "description": "步行逛市场和餐厅方便，夜间较热闹。"
+      },
+      {
+        "name": "吴哥入口方向",
+        "description": "度假酒店多，抵达遗址方便但往返市中心要用车。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "kuala-lumpur",
+    "intro": "摩天楼下的多元街区。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "椰浆饭与沙爹",
+        "description": "街头小吃可组成经济一餐，酒店餐厅和精致马来菜另列预算。"
+      },
+      {
+        "name": "嘛嘛档与印度煎饼",
+        "description": "印度煎饼与拉茶适合早餐或小食，饮品另外计价。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "KLCC",
+        "description": "双子塔、公园与购物中心集中，酒店价位通常更高。"
+      },
+      {
+        "name": "茨厂街与武吉免登",
+        "description": "老街和餐饮区选择多，两片区间可搭轨道交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "penang",
+    "intro": "骑楼、壁画与南洋风味。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "槟城叻沙与炒粿条",
+        "description": "熟食中心可尝酸辣鱼汤叻沙与炒粿条，摊位独立计价。"
+      },
+      {
+        "name": "娘惹菜",
+        "description": "家庭式与精致娘惹餐厅价格不同，适合单独安排一餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "乔治市古迹区",
+        "description": "骑楼、会馆、街头壁画集中，适合步行。"
+      },
+      {
+        "name": "峇都丁宜",
+        "description": "海滨度假酒店多，至乔治市需预留交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "langkawi",
+    "intro": "雨林缆车与安达曼海。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "马来海鲜",
+        "description": "鱼虾多按重量或份量收费，下单前确认烹调费用。"
+      },
+      {
+        "name": "叻沙与椰浆饭",
+        "description": "本地小店与度假酒店餐厅可覆盖不同预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "珍南海滩",
+        "description": "餐馆、水上活动与各档住宿集中。"
+      },
+      {
+        "name": "瓜镇",
+        "description": "码头和商店较集中，距离主要海滨度假区有车程。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "manila",
+    "intro": "古城墙、博物馆与海湾日落。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "阿多波与酸汤",
+        "description": "炖肉和酸汤可在本地餐馆点到，家庭式大份量适合多人分享。"
+      },
+      {
+        "name": "岷伦洛小食",
+        "description": "华人街面食、包点与甜品可安排成步行尝味路线。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "王城与艾米塔",
+        "description": "历史景点与国家博物馆集中，白天步行串联较方便。"
+      },
+      {
+        "name": "马卡蒂",
+        "description": "商务酒店与餐厅丰富，前往老城要预留拥堵时间。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "reykjavik",
+    "intro": "从彩色街道与海港出发，把温泉和火山地貌留给更从容的一天。",
+    "foodHighlights": [
+      {
+        "name": "鱼汤与海鲜",
+        "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+      },
+      {
+        "name": "羊肉与Skyr",
+        "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "市中心与海港",
+        "description": "教堂、音乐厅和海滨步道适合连成市内路线。"
+      },
+      {
+        "name": "黄金圈",
+        "description": "辛格维利尔、间歇泉与黄金瀑布在城外，建议独立公路日。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "vik",
+    "intro": "以维克为落脚点，慢慢看黑沙海岸、瀑布与冰川边缘。",
+    "foodHighlights": [
+      {
+        "name": "鱼汤与海鲜",
+        "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+      },
+      {
+        "name": "羊肉与Skyr",
+        "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "维克镇与海岸",
+        "description": "小镇、教堂和海滩可以组合短线。"
+      },
+      {
+        "name": "斯科加与冰川方向",
+        "description": "瀑布和冰川分散在公路沿线，预留停车及风雨缓冲。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "akureyri",
+    "intro": "在北方峡湾小城看花园与博物馆，再为米湖和瀑布留出公路游览日。",
+    "foodHighlights": [
+      {
+        "name": "鱼汤与海鲜",
+        "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+      },
+      {
+        "name": "羊肉与Skyr",
+        "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老城与花园",
+        "description": "教堂、植物园和老城展馆可以慢走。"
+      },
+      {
+        "name": "米湖与众神瀑布",
+        "description": "北部自然景观相距较远，需单独核对路况。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "male",
+    "intro": "从马累的集市、清真寺和海边开始，区分首都生活与度假岛体验。",
+    "foodHighlights": [
+      {
+        "name": "Mas huni与薄饼",
+        "description": "金枪鱼、椰丝与薄饼构成本地常见早餐。"
+      },
+      {
+        "name": "咖喱鱼与海鲜",
+        "description": "居民岛餐厅和度假村餐饮计价差异大，查明服务费及税是否包含。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "马累市区",
+        "description": "博物馆、历史清真寺与市场较集中。"
+      },
+      {
+        "name": "胡鲁马累与维利马累",
+        "description": "胡鲁马累有陆路桥梁，维利马累仍须渡轮；不要直接按步行路线跨海。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "maafushi",
+    "intro": "用居民岛作落脚点，按自己的节奏选择海滩、附近岛屿和海上行程。",
+    "foodHighlights": [
+      {
+        "name": "Mas huni与薄饼",
+        "description": "金枪鱼、椰丝与薄饼构成本地常见早餐。"
+      },
+      {
+        "name": "咖喱鱼与海鲜",
+        "description": "居民岛餐厅和度假村餐饮计价差异大，查明服务费及税是否包含。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "马富施北侧游客海滩",
+        "description": "泳装活动仅在指定区域；居民区遵守当地着装要求。"
+      },
+      {
+        "name": "南马累环礁周边",
+        "description": "居民岛、私人度假岛和海上项目需分别确认船程与准入。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "edinburgh",
+    "intro": "沿石砌老城穿过皇家一英里，走上山丘看城市层叠的轮廓。",
+    "foodHighlights": [
+      {
+        "name": "苏格兰早餐",
+        "description": "Haggis和丰盛早餐可以单独安排一餐。"
+      },
+      {
+        "name": "海鲜与下午茶",
+        "description": "港区海鲜与老城茶室风格不同，先看菜单与服务费。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "皇家一英里",
+        "description": "城堡、巷道与宫殿构成历史轴线。"
+      },
+      {
+        "name": "新城与利斯港",
+        "description": "艺术馆、街道和港区适合另一日漫步。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "dublin",
+    "intro": "从书页、河岸与老街出发，认识都柏林的文学与日常生活。",
+    "foodHighlights": [
+      {
+        "name": "爱尔兰炖菜",
+        "description": "炖菜与面包是认识本地餐桌的起点。"
+      },
+      {
+        "name": "咖啡馆与酒馆餐食",
+        "description": "听音乐、饮酒及餐食分别预算，注意年龄与场次限制。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "三一学院与利菲河",
+        "description": "书籍、校园和河岸可以衔接步行。"
+      },
+      {
+        "name": "凤凰公园与西城",
+        "description": "公园面积大，展馆需要另留时间。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "brussels",
+    "intro": "在大广场的建筑细节、漫画与博物馆之间安排一段城市漫步。",
+    "foodHighlights": [
+      {
+        "name": "华夫饼与巧克力",
+        "description": "街头甜点和正式甜品店按份计费，购物另留预算。"
+      },
+      {
+        "name": "青口与薯条",
+        "description": "传统餐馆套餐留意份量、饮品和服务条件。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "大广场与老城",
+        "description": "拱廊、小巷与广场可以步行串联。"
+      },
+      {
+        "name": "欧洲区与五十周年公园",
+        "description": "离开核心老城后以轨道交通衔接。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "dubrovnik",
+    "intro": "沿亚得里亚海的城墙和石街走一走，为海岛与山顶各留一点时间。",
+    "foodHighlights": [
+      {
+        "name": "海鲜与黑墨鱼饭",
+        "description": "老城景观餐位与普通餐馆价差明显。"
+      },
+      {
+        "name": "达尔马提亚小食",
+        "description": "以橄榄油、奶酪与面包认识沿海餐桌。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老城与城墙",
+        "description": "石阶较多，城墙独立购票，避免中午暴晒。"
+      },
+      {
+        "name": "洛克鲁姆与斯尔季山",
+        "description": "船程、缆车与天气都需要单独确认。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "cappadocia",
+    "intro": "以格雷梅为落脚点，把洞穴遗址、山谷与清晨的天空分开安排。",
+    "foodHighlights": [
+      {
+        "name": "陶罐炖肉",
+        "description": "注意需提前预订的制作时间与份量。"
+      },
+      {
+        "name": "土耳其早餐",
+        "description": "酒店早餐是否含在房费中，订房时先确认。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "格雷梅与乌奇希萨尔",
+        "description": "步道、岩石城堡和洞穴旅馆分布在山谷与坡地。"
+      },
+      {
+        "name": "地下城与伊赫拉拉",
+        "description": "较远遗址适合独立公路日，避免与清晨飞行挤在一起。"
+      }
+    ],
+    "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+  },
+  {
+    "cityId": "cape-town",
+    "intro": "开普敦的城市街区与半岛自然景观各有节奏。中心城区适合按街区散步，桌山、企鹅海滩和好望角则需要分别留出交通及天气余量。",
+    "foodHighlights": [
+      {
+        "name": "开普马来咖喱",
+        "description": "香料风味与米饭组成的一餐，餐厅档位和海鲜选择影响预算。"
+      },
+      {
+        "name": "烤肉与海鲜",
+        "description": "可选当地烤肉、鱼类和海港餐厅，葡萄酒及服务费另核算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "City Bowl 与 Bo-Kaap",
+        "description": "适合城市历史、博物馆和多彩街巷。"
+      },
+      {
+        "name": "V&A Waterfront",
+        "description": "集中住宿、餐饮和海港活动，也是罗本岛船程的出发区。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "johannesburg",
+    "intro": "约翰内斯堡适合以博物馆、历史街区和艺术空间为线索。景点散布在多个片区，优先按区域分组，并为跨区道路交通留出余量。",
+    "foodHighlights": [
+      {
+        "name": "南非烤肉",
+        "description": "烤肉拼盘和配菜是常见聚餐选择，按份量核算。"
+      },
+      {
+        "name": "Chakalaka 与 pap",
+        "description": "香辣蔬菜和玉米粥是了解本地家常风味的入口。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "索韦托 Vilakazi Street",
+        "description": "聚焦曼德拉故居与社区历史，可选择当地向导。"
+      },
+      {
+        "name": "Rosebank 与北部街区",
+        "description": "适合住宿、餐饮和艺术活动，去其他片区另计接送。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "marrakech",
+    "intro": "马拉喀什可以按麦地那、宫殿区和新城花园分区游览。集市街巷适合步行，花园和博物馆需根据预约时段安排。",
+    "foodHighlights": [
+      {
+        "name": "塔吉锅",
+        "description": "慢炖肉类或蔬菜搭配面包，不同食材与餐厅等级价格差异大。"
+      },
+      {
+        "name": "库斯库斯与薄荷茶",
+        "description": "传统谷物菜肴与茶饮，可分别安排正餐和茶歇。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "麦地那",
+        "description": "适合市场、宫殿与传统庭院住宿，注意步行接驳。"
+      },
+      {
+        "name": "Guéliz",
+        "description": "新城餐饮和酒店较集中，可与马约雷勒花园同日安排。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "fes",
+    "intro": "非斯的魅力集中在老城步行网络。按城门、神学院、工艺街区与花园分组，预留迷路、休息和观看工匠工作的时间。",
+    "foodHighlights": [
+      {
+        "name": "巴斯蒂亚馅饼",
+        "description": "甜咸结合的酥皮馅饼，可按单份或共享份选择。"
+      },
+      {
+        "name": "哈里拉汤与薄荷茶",
+        "description": "适合市场小食与休息时段，甜点另计。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fes el-Bali",
+        "description": "主要历史街区，适合步行与庭院旅馆。"
+      },
+      {
+        "name": "Fes el-Jdid",
+        "description": "王宫外观及旧城另一侧，与花园相连。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "cairo",
+    "intro": "开罗与吉萨跨越尼罗河两岸。金字塔和大埃及博物馆适合西岸分组，历史城区与老城可另作一天，避免把各大博物馆压缩成打卡。",
+    "foodHighlights": [
+      {
+        "name": "Koshary",
+        "description": "米饭、面食和豆类组成的平价正餐。"
+      },
+      {
+        "name": "烤肉与富尔蚕豆",
+        "description": "可选择传统早餐或共享烤肉，酒店餐饮明显更贵。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown 与解放广场",
+        "description": "靠近老埃及博物馆与城市街道，交通繁忙。"
+      },
+      {
+        "name": "Giza 吉萨",
+        "description": "方便金字塔和大埃及博物馆，但去老城需要跨城车程。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "luxor",
+    "intro": "卢克索的东岸神庙与西岸陵墓应分区安排。炎热时段适合博物馆和午休，帝王谷等遗址则尽量预留完整上午。",
+    "foodHighlights": [
+      {
+        "name": "塔吉砂锅与烤肉",
+        "description": "传统砂锅与米饭可作正餐，临河餐厅价位不同。"
+      },
+      {
+        "name": "富尔蚕豆与饼",
+        "description": "常见早餐组合，茶饮和果汁另计。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "东岸神庙与 Corniche",
+        "description": "酒店餐饮和城市步道集中。"
+      },
+      {
+        "name": "西岸村落",
+        "description": "靠近陵墓和田园景色，夜间跨河交通需提前安排。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "nairobi",
+    "intro": "内罗毕的市区文化设施与南部自然景点可以分区安排。国家公园需要可靠车辆和足够半日时间，不能把游猎当作普通城市步行景点。",
+    "foodHighlights": [
+      {
+        "name": "Nyama choma",
+        "description": "烤肉通常按份或重量收费，可搭配玉米粥和蔬菜。"
+      },
+      {
+        "name": "Ugali 与 sukuma wiki",
+        "description": "家常玉米粥和绿叶菜，适合体验当地日常饮食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Karen 与 Lang’ata",
+        "description": "适合博物馆、长颈鹿中心与南部自然景点。"
+      },
+      {
+        "name": "Westlands",
+        "description": "酒店和餐厅较多，前往南部景点需跨城交通。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "zanzibar",
+    "intro": "这份目的地以温古贾岛和石头城为中心。历史城区适合步行，北部海滩与森林需要独立车程；离岛活动必须额外核对船班和海况。",
+    "foodHighlights": [
+      {
+        "name": "斯瓦希里海鲜与椰汁咖喱",
+        "description": "海鲜品种和称重影响费用，先确认报价。"
+      },
+      {
+        "name": "Pilau 香料饭",
+        "description": "可配肉类、豆类或蔬菜，体现岛屿香料风味。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Stone Town",
+        "description": "历史建筑密集，适合步行与老城住宿。"
+      },
+      {
+        "name": "Nungwi 与 Kendwa",
+        "description": "北部海滩住宿集中，去老城需要较长接送。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "mahe",
+    "intro": "马埃岛同时拥有维多利亚市区、海滩和山林步道。南北海岸不宜密集往返，山路与海况也需要预留弹性时间。",
+    "foodHighlights": [
+      {
+        "name": "克里奥尔咖喱",
+        "description": "椰汁与香料搭配鱼、鸡或蔬菜，酒店价位更高。"
+      },
+      {
+        "name": "烤鱼与章鱼沙拉",
+        "description": "按当日供应和份量点餐，不把海鲜套餐视作统一价。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Victoria",
+        "description": "适合市场、钟楼与植物园，白天步行便利。"
+      },
+      {
+        "name": "Beau Vallon",
+        "description": "沙滩与住宿集中，适合海边停留。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "mauritius",
+    "intro": "毛里求斯按北部、首都、西南山林和东部海岸分区游玩更合理。本目的地锚点为路易港，全岛交通需以公路和接驳安排为准。",
+    "foodHighlights": [
+      {
+        "name": "Dholl puri",
+        "description": "薄饼配豆类与酱料，是当地常见日常小食。"
+      },
+      {
+        "name": "克里奥尔鱼类咖喱",
+        "description": "融合香料与海鲜风味，餐厅档位与食材会明显影响费用。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Port Louis",
+        "description": "适合港口、市场和移民历史。"
+      },
+      {
+        "name": "Le Morne 与西南岸",
+        "description": "适合山地与海滩组合，往返首都需较长车程。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "vancouver",
+    "intro": "温哥华的海湾、城市市场和北岸山林各有节奏。市中心可步行和公交组合，跨桥前往北岸时需留出候车和拥堵余量。",
+    "foodHighlights": [
+      {
+        "name": "太平洋海鲜",
+        "description": "三文鱼、贝类等适合按当日供应选择，酒水另计。"
+      },
+      {
+        "name": "亚洲风味餐饮",
+        "description": "寿司、中餐和韩餐选择广泛，可用于不同价位的日常预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown 与 Coal Harbour",
+        "description": "靠近海堤、公共交通与港口景观。"
+      },
+      {
+        "name": "Kitsilano 与 Granville Island",
+        "description": "适合市场、海边休闲与社区餐饮。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "toronto",
+    "intro": "多伦多适合以地铁和街车连接博物馆、市场及滨水区。群岛需要渡船，尼亚加拉瀑布不作为普通市内景点塞进行程。",
+    "foodHighlights": [
+      {
+        "name": "多元社区美食",
+        "description": "中餐、印度菜与加勒比风味有丰富价位选择。"
+      },
+      {
+        "name": "市场三明治与加拿大风味",
+        "description": "可在市场安排一顿轻食，酒水和甜点另计。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown 与 Harbourfront",
+        "description": "地标、码头和公共交通集中。"
+      },
+      {
+        "name": "Yorkville 与 Annex",
+        "description": "适合博物馆、咖啡与社区散步。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "quebec-city",
+    "intro": "魁北克城的上下城可按步行路线慢慢连接。瀑布和郊外景点需要独立交通，冬季冰雪会使台阶和坡路耗时增加。",
+    "foodHighlights": [
+      {
+        "name": "Tourtière 肉派",
+        "description": "传统肉派可作为正餐，套餐和单点价格不同。"
+      },
+      {
+        "name": "Poutine 与枫糖甜点",
+        "description": "从日常小食到餐厅版本都有，份量和配料影响费用。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Vieux-Québec 上城",
+        "description": "靠近城墙、教堂与达弗林平台。"
+      },
+      {
+        "name": "Petit-Champlain 下城",
+        "description": "石板街与河边区域集中，需考虑上下坡交通。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "mexico-city",
+    "intro": "墨西哥城的历史中心、查普尔特佩克和科约阿坎适合分别留出时间。大型博物馆和远郊遗址不要挤在同一个下午。",
+    "foodHighlights": [
+      {
+        "name": "玉米饼 Tacos",
+        "description": "街边到餐厅都有不同价位，份量、肉类和酒水分开计。"
+      },
+      {
+        "name": "Mole 与传统早餐",
+        "description": "酱汁料理和墨西哥早餐可安排一顿正式正餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Centro Histórico",
+        "description": "广场、宫殿和考古遗址集中。"
+      },
+      {
+        "name": "Roma 与 Condesa",
+        "description": "餐饮咖啡和树荫街道较多，适合住宿及晚餐。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "cancun",
+    "intro": "坎昆包括市区、酒店区和周边海岸。女人岛需要渡船，图卢姆与奇琴伊察是远距离一日或多日行程，不按近邻景点安排。",
+    "foodHighlights": [
+      {
+        "name": "尤卡坦烤猪肉",
+        "description": "Cochinita pibil 配玉米饼，市区与度假酒店价位不同。"
+      },
+      {
+        "name": "海鲜酸橘汁腌鱼",
+        "description": "海鲜与蔬菜做成的冷菜，份量与捕捞供应影响价格。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Zona Hotelera",
+        "description": "海滩和度假酒店密集，餐饮费用通常较高。"
+      },
+      {
+        "name": "Downtown",
+        "description": "本地市场及餐饮选择较多，去海滩需接驳。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "lima",
+    "intro": "利马历史中心、米拉弗洛雷斯和巴兰科各有特色。道路拥堵会放大跨区耗时，博物馆、海岸与正餐最好按相邻地区组合。",
+    "foodHighlights": [
+      {
+        "name": "Ceviche",
+        "description": "鱼类酸橘汁腌菜适合午餐，食材等级影响费用。"
+      },
+      {
+        "name": "Lomo saltado",
+        "description": "牛肉、蔬菜与米饭薯条组成的经典菜肴，可选不同档位餐厅。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Miraflores",
+        "description": "住宿餐饮与悬崖步道集中。"
+      },
+      {
+        "name": "Barranco",
+        "description": "适合艺术、建筑与晚餐，跨区交通另留时间。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "cusco",
+    "intro": "库斯科位于高海拔地区，抵达首日宜减少步行和爬坡。城内遗产与近郊遗址可分开安排，马丘比丘需要铁路、公路、门票和住宿的独立规划。",
+    "foodHighlights": [
+      {
+        "name": "Chiri uchu 与高原家常菜",
+        "description": "传统拼盘和日常炖菜各有场合，先询问份量及食材。"
+      },
+      {
+        "name": "藜麦汤",
+        "description": "适合慢节奏用餐，也可搭配传统主食与蔬菜。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "历史中心",
+        "description": "广场、教堂与主要文化遗产集中。"
+      },
+      {
+        "name": "San Blas",
+        "description": "艺术工坊与坡道街巷较多，行李和步行耗时需考虑。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "rio-de-janeiro",
+    "intro": "里约的山地观景和海边街区适合分时段安排。基督像、糖面包山与博物馆各有预约和交通条件，不能只按地图直线串联。",
+    "foodHighlights": [
+      {
+        "name": "Feijoada 黑豆炖肉",
+        "description": "常与米饭和配菜一起供应，可按套餐份量选择。"
+      },
+      {
+        "name": "Pão de queijo 与果汁",
+        "description": "奶酪面包和鲜果饮品适合早餐或茶歇。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Copacabana 与 Ipanema",
+        "description": "住宿和海滨生活集中。"
+      },
+      {
+        "name": "Centro 与 Santa Teresa",
+        "description": "适合历史建筑、艺术与特色街道，山区交通需计划。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "buenos-aires",
+    "intro": "布宜诺斯艾利斯适合按雷科莱塔、历史中心、圣特尔莫和巴勒莫分区探索。探戈演出和晚餐常开始较晚，需要给白天行程留休息。",
+    "foodHighlights": [
+      {
+        "name": "Parrilla 阿根廷烤肉",
+        "description": "肉类部位、份量与酒水显著影响正餐预算。"
+      },
+      {
+        "name": "Empanadas 与 medialunas",
+        "description": "馅饼和牛角包适合轻餐、早餐或咖啡时间。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Recoleta",
+        "description": "博物馆、历史建筑和咖啡馆密集。"
+      },
+      {
+        "name": "Palermo",
+        "description": "公园与餐饮区丰富，适合较慢节奏停留。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "santiago",
+    "intro": "圣地亚哥适合地铁连接历史中心、博物馆和山丘公园。晴朗天气适合高处观景，葡萄酒庄与安第斯山地活动需要另作郊外行程。",
+    "foodHighlights": [
+      {
+        "name": "Empanada de pino",
+        "description": "牛肉馅饼是常见轻餐，烤制和油炸版本各有特色。"
+      },
+      {
+        "name": "Pastel de choclo",
+        "description": "玉米焗派可作正餐，海鲜和葡萄酒另按点单核算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Lastarria 与 Bellas Artes",
+        "description": "适合博物馆、历史街区与咖啡。"
+      },
+      {
+        "name": "Providencia",
+        "description": "住宿、餐饮和地铁较方便，邻近城市东部景点。"
+      }
+    ],
+    "experienceIntro": "先按地理区域挑选景点，再留出用餐和休息；具体酒店、餐馆及带向导活动需按日期另核报价，目录不表示已锁定库存。"
+  },
+  {
+    "cityId": "cebu",
+    "intro": "古老港城与南部青绿瀑布。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "宿务烤乳猪",
+        "description": "烤猪肉可按份或重量购买，餐馆套餐与整只订购计价不同。"
+      },
+      {
+        "name": "海鲜与芒果甜品",
+        "description": "海鲜点单前核对重量，芒果类甜品可单列小食预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "市中心历史区",
+        "description": "教堂与堡垒集中，适合半天步行路线。"
+      },
+      {
+        "name": "麦克坦岛",
+        "description": "度假酒店、码头与机场集中，往返宿务市需单独留时。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "taipei",
+    "intro": "巷弄滋味、馆藏与山城视野。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "牛肉面与卤肉饭",
+        "description": "面馆和市场小店可组成日常餐饮；名店需考虑排队。"
+      },
+      {
+        "name": "夜市小吃",
+        "description": "胡椒饼、蚵仔煎与甜品按份购买，适合设置小食预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "大稻埕与西门",
+        "description": "历史街屋、茶行与热闹商圈相连，可步行结合捷运。"
+      },
+      {
+        "name": "信义与象山",
+        "description": "现代商业区和观景步道靠近，酒店价位相对较高。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "kaohsiung",
+    "intro": "港湾艺术与南方慢步调。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "海鲜与虱目鱼",
+        "description": "港城餐馆常见海鲜、虱目鱼与鱼汤，按份量核对价格。"
+      },
+      {
+        "name": "六合与瑞丰夜市",
+        "description": "夜市小吃种类多，可安排成晚餐但不把购物算入基础餐费。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "盐埕与驳二",
+        "description": "仓库艺术区、咖啡馆和港湾步道集中。"
+      },
+      {
+        "name": "左营",
+        "description": "莲池潭与高铁门户附近交通方便，前往港区需捷运或用车。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "kathmandu",
+    "intro": "谷地佛塔与纽瓦丽古城。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "蒸饺与达尔巴特",
+        "description": "蒸饺和米饭豆汤套餐适合日常餐饮，旅游区餐厅价位较高。"
+      },
+      {
+        "name": "纽瓦丽菜",
+        "description": "传统聚餐有多种小碟与肉菜，按整套或单点核对菜单。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "泰米尔",
+        "description": "旅馆、餐厅与旅行服务集中，夜间可能较热闹。"
+      },
+      {
+        "name": "博达哈",
+        "description": "佛塔周边适合慢走，往返老城区需交通时间。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "delhi",
+    "intro": "莫卧儿遗产与层叠街巷。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "烤饼与咖喱",
+        "description": "从小馆到精致印度菜选择丰富，肉类、饮料与服务费另核。"
+      },
+      {
+        "name": "旧城小食",
+        "description": "老德里有各类炸饼、甜点和烤肉，步行路线需留排队时间。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "旧德里",
+        "description": "红堡与月光集市相邻，人流密集适合慢走。"
+      },
+      {
+        "name": "康诺特广场",
+        "description": "地铁枢纽、酒店与餐厅集中，前往南部遗址仍要乘车。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "jaipur",
+    "intro": "粉色城墙与拉贾斯坦宫殿。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "拉贾斯坦塔利",
+        "description": "豆咖喱、烤面团与甜食可组成传统拼盘，份量较大。"
+      },
+      {
+        "name": "甜品与拉西",
+        "description": "酸奶饮品与地方甜食适合穿插小食，另留饮料预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "粉红老城",
+        "description": "风之宫、城市宫殿与传统市场集中。"
+      },
+      {
+        "name": "琥珀堡沿线",
+        "description": "山地城堡景观丰富，景点间宜包车或打车。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "colombo",
+    "intro": "印度洋海风中的街市与寺院。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "米饭咖喱",
+        "description": "一份米饭搭多种蔬菜与咖喱，肉类和海鲜会影响价格。"
+      },
+      {
+        "name": "薄饼与炒饼",
+        "description": "Hoppers薄饼与Kottu炒饼可在本地餐馆尝到，饮料另计。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "堡区与贝塔",
+        "description": "历史商业街、宗教建筑和市场集中。"
+      },
+      {
+        "name": "肉桂花园",
+        "description": "博物馆、公园及咖啡馆较多，住宿环境较安静。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "kandy",
+    "intro": "山城佛牙与热带庭园。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "康提米饭咖喱",
+        "description": "本地饭店常提供多种蔬菜咖喱配米饭，肉类份量单独核对。"
+      },
+      {
+        "name": "锡兰茶与点心",
+        "description": "茶馆和酒店下午茶价位不同，茶园导览与品茶套餐另订。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "康提湖周边",
+        "description": "佛牙寺、湖畔步道与市中心相邻。"
+      },
+      {
+        "name": "佩拉德尼亚",
+        "description": "植物园与大学片区在市区西侧，适合安排半日游。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "auckland",
+    "intro": "火山丘陵、海港与离岛。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "海鲜与新西兰羊肉",
+        "description": "城市餐厅覆盖简餐到精致用餐，主菜与饮料分别计算。"
+      },
+      {
+        "name": "咖啡与早午餐",
+        "description": "咖啡馆早午餐普遍，周末或节假日附加费需查菜单。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "市中心与高架桥港湾",
+        "description": "酒店、渡轮与餐厅集中，适合城市和离岛组合。"
+      },
+      {
+        "name": "庞森比",
+        "description": "咖啡馆与小店较多，去渡轮码头仍需短途交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "queenstown",
+    "intro": "湖光雪峰间的户外城镇。以下地点已查阅官方旅游资料；食宿预算为编辑估算，按你的停留天数与偏好调整。",
+    "foodHighlights": [
+      {
+        "name": "湖畔新西兰菜",
+        "description": "羊肉、牛肉与当季食材常见，景观餐厅价位更高。"
+      },
+      {
+        "name": "汉堡与咖啡",
+        "description": "简餐和咖啡可降低日常餐费，热门店需留排队时间。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "镇中心湖畔",
+        "description": "餐厅、住宿与出发集合点集中，停车可能收费。"
+      },
+      {
+        "name": "弗兰克顿",
+        "description": "靠近机场与购物区，去镇中心需交通。"
+      }
+    ],
+    "experienceIntro": "先选最感兴趣的地标，再预留餐饮与休息。远郊、离岛和需要预约的项目请依据交通与开放时间单独安排。"
+  },
+  {
+    "cityId": "oslo",
+    "intro": "在峡湾岸边，把建筑、艺术与森林连成一天。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "挪威鱼汤",
+        "description": "海鲜汤常配面包，码头与社区餐厅的份量、鱼种和价格不同。"
+      },
+      {
+        "name": "华夫饼与棕奶酪",
+        "description": "咖啡馆常见的甜咸组合，适合作为游览之间的小食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Bjørvika",
+        "description": "歌剧院、蒙克美术馆与海滨公共空间集中，可步行串联。"
+      },
+      {
+        "name": "Grünerløkka",
+        "description": "沿阿克河散布咖啡馆、小店与城市生活空间。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "bergen",
+    "intro": "彩色木屋之后，是伸向云雾的山与海。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "卑尔根鱼汤",
+        "description": "奶油鱼汤可在港口周边寻找，堂食与市场快餐的服务不同。"
+      },
+      {
+        "name": "肉桂卷",
+        "description": "适合作为山间游览前的咖啡点心。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Bryggen",
+        "description": "沿老码头深入木屋巷道，邻近博物馆与山地铁路起点。"
+      },
+      {
+        "name": "Nordnes",
+        "description": "港湾另一侧的住宅半岛，适合安静散步。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "tromso",
+    "intro": "在极昼与极夜之间，靠近北极生活。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "北极鳕鱼料理",
+        "description": "鱼种与做法随季节变化，套餐往往高于简单鱼汤。"
+      },
+      {
+        "name": "驯鹿炖肉",
+        "description": "可作为地方餐饮选择，具体菜单与过敏原需向餐厅确认。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "市中心港湾",
+        "description": "木屋、极地博物馆与码头适合连贯步行。"
+      },
+      {
+        "name": "Tromsdalen",
+        "description": "跨桥抵达教堂与登山缆车，宜安排为同一片区。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "copenhagen",
+    "intro": "从彩色运河到设计博物馆，感受松弛的北欧日常。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "开放式三明治",
+        "description": "Smørrebrød 以黑麦面包配鱼、肉或蔬菜，单片和多道午餐价格不同。"
+      },
+      {
+        "name": "丹麦酥点",
+        "description": "烘焙店的酥点与咖啡适合简单早餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Indre By",
+        "description": "皇宫、圆塔与博物馆集中，适合步行。"
+      },
+      {
+        "name": "Christianshavn",
+        "description": "运河与彩色住宅交错，可顺路前往救主教堂。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "stockholm",
+    "intro": "在岛屿、古城与博物馆之间慢慢穿行。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "瑞典肉丸",
+        "description": "常配土豆、越橘等，午市简餐与正式餐厅套餐不同。"
+      },
+      {
+        "name": "Fika 咖啡与肉桂卷",
+        "description": "为博物馆之间留一段咖啡休息时间，按实际购买另计。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Gamla Stan",
+        "description": "老城街巷与王宫集中，石板路较多。"
+      },
+      {
+        "name": "Djurgården",
+        "description": "瓦萨、斯堪森及音乐博物馆集中于同一绿岛。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "helsinki",
+    "intro": "岩石教堂、海岛要塞与日常设计相遇的城市。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "奶油三文鱼汤",
+        "description": "常搭配黑麦面包，可从市场简餐到餐厅堂食选择。"
+      },
+      {
+        "name": "卡累利阿派",
+        "description": "黑麦外皮配米粥馅，适合作为简单早餐或小食。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Kruununhaka 与参议院广场",
+        "description": "新古典建筑集中，靠近大教堂与港口。"
+      },
+      {
+        "name": "Punavuori",
+        "description": "设计小店、咖啡馆和生活街道适合散步。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "rovaniemi",
+    "intro": "跨过北极圈，走近森林、河流与拉普兰文化。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "拉普兰驯鹿料理",
+        "description": "餐厅多有炖肉、土豆等组合，份量和配菜影响价格。"
+      },
+      {
+        "name": "烤三文鱼与莓果甜点",
+        "description": "木火烹饪和北方莓果常见于当地菜单，季节性供应需确认。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "河畔市中心",
+        "description": "阿克蒂库姆、文化馆与凯米河步道可按片区安排。"
+      },
+      {
+        "name": "北极圈村落",
+        "description": "圣诞老人村包含多个分别收费的商家，不能将整个村当成一张全包门票。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "tallinn",
+    "intro": "从中世纪城墙走到海港创意社区。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "黑麦面包与熏鱼",
+        "description": "波罗的海风味常见于餐厅和市场，配菜与套餐可分开选择。"
+      },
+      {
+        "name": "肉桂卷与浆果甜点",
+        "description": "咖啡馆小食适合在老城步行时休息。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Toompea 与老城",
+        "description": "观景台、教堂和城墙集中，坡道较多。"
+      },
+      {
+        "name": "Kalamaja",
+        "description": "木屋住宅与海港创意空间相邻，步行距离比老城更长。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "riga",
+    "intro": "在新艺术立面与市场烟火之间读懂波罗的海。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "黑麦面包与熏鱼",
+        "description": "可在中央市场观察食材，再按餐厅或市场简餐预算选择。"
+      },
+      {
+        "name": "灰豌豆与培根",
+        "description": "传统风味分量偏扎实，点单时可确认配菜。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Vecrīga",
+        "description": "黑头宫、教堂与历史街巷集中在老城。"
+      },
+      {
+        "name": "Centrs 新艺术区",
+        "description": "阿尔伯特街及邻近街道适合建筑细节观察。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "vilnius",
+    "intro": "巴洛克老城之外，河畔创作与湖心城堡各有节奏。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "齐柏林土豆饺",
+        "description": "Cepelinai 通常配肉馅与酱汁，份量大，适合作为正餐。"
+      },
+      {
+        "name": "冷甜菜汤",
+        "description": "鲜亮的 Šaltibarščiai 常与土豆搭配，季节供应可确认。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老城与大教堂",
+        "description": "教堂、大学院落与城堡山可步行串联。"
+      },
+      {
+        "name": "Užupis",
+        "description": "河对岸的小型艺术街区，适合慢逛工作室与咖啡馆。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "warsaw",
+    "intro": "从重建老城到绿色王宫，读一座城市的韧性。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "波兰饺子",
+        "description": "Pierogi 可有土豆奶酪、肉或甜味馅，奶吧简餐与餐厅服务价位不同。"
+      },
+      {
+        "name": "酸麦汤",
+        "description": "Żurek 常配香肠和鸡蛋，作为汤品或面包碗正餐份量不同。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Stare Miasto",
+        "description": "重建老城与王宫广场，适合连贯步行。"
+      },
+      {
+        "name": "Śródmieście",
+        "description": "博物馆、商业街和交通枢纽集中，住宿选择丰富。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "krakow",
+    "intro": "广场、城堡与街巷，保存波兰的文化记忆。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "波兰饺子与土豆饼",
+        "description": "传统餐馆和简单奶吧可以按预算选择。"
+      },
+      {
+        "name": "Obwarzanek 面包圈",
+        "description": "街头面包圈适合作为游览中的小食，不应代替整日餐饮预算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Stare Miasto",
+        "description": "主广场、教堂与博物馆在步行范围内。"
+      },
+      {
+        "name": "Kazimierz",
+        "description": "犹太文化遗产、咖啡馆与街区生活交织。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "prague",
+    "intro": "越过伏尔塔瓦河，在石桥与红屋顶之间穿行。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "炖牛肉与面包团子",
+        "description": "传统热菜适合作为午餐或晚餐，游客区服务费和附加面包需留意。"
+      },
+      {
+        "name": "捷克烘焙与咖啡",
+        "description": "Koláč 等点心适合咖啡休息，具体店铺与品质差异明显。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Staré Město",
+        "description": "天文钟与广场集中，游客高峰较拥挤。"
+      },
+      {
+        "name": "Malá Strana",
+        "description": "城堡下方的小城街巷，坡道与庭园较多。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "vienna",
+    "intro": "在宫殿、艺术与咖啡馆之间留一段从容的时间。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "维也纳炸肉排",
+        "description": "小牛肉与猪肉版本价格不同，点单时确认肉类与配菜。"
+      },
+      {
+        "name": "咖啡与萨赫蛋糕",
+        "description": "咖啡馆堂食服务、蛋糕份量和外带价可能不同。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Innere Stadt",
+        "description": "大教堂、霍夫堡和经典咖啡馆密集。"
+      },
+      {
+        "name": "MuseumsQuartier 周边",
+        "description": "博物馆与创意街区相邻，适合艺术与餐饮结合。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "budapest",
+    "intro": "两岸城景、热泉与咖啡馆，展开多瑙河边的一天。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "匈牙利炖牛肉汤",
+        "description": "Gulyás 常见于传统餐厅，汤品与主菜份量需区分。"
+      },
+      {
+        "name": "兰戈什炸饼",
+        "description": "可加酸奶油与奶酪，市场快餐与餐厅版本成本不同。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "城堡区",
+        "description": "渔人堡、马加什教堂和宫殿集中于山上。"
+      },
+      {
+        "name": "佩斯市中心",
+        "description": "国会大厦、河岸与咖啡馆步行连接，便于安排晚间散步。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "zurich",
+    "intro": "在湖岸、古城与艺术馆里放慢脚步。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "苏黎世奶油小牛肉",
+        "description": "Zürcher Geschnetzeltes 常配薯饼，正式餐厅价格较高。"
+      },
+      {
+        "name": "奶酪火锅与巧克力",
+        "description": "火锅通常按人数点单，巧克力购物应单独列支。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Altstadt",
+        "description": "利马特河两岸的教堂、老街和观景台。"
+      },
+      {
+        "name": "Zürich West",
+        "description": "旧工业区里的设计、餐饮与现代城市生活。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "interlaken",
+    "intro": "在两座湖之间，选择自己的阿尔卑斯山节奏。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "奶酪火锅",
+        "description": "按成人份数预订，饮料和肉类附加项可能单算。"
+      },
+      {
+        "name": "薯饼与高山奶酪",
+        "description": "Rösti 可为简单正餐或肉类配菜，山顶餐厅价格通常更高。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Interlaken West 与 Unterseen",
+        "description": "方便餐饮和火车换乘，可沿阿勒河散步。"
+      },
+      {
+        "name": "Interlaken Ost",
+        "description": "前往少女峰地区与布里恩茨方向的交通起点。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "athens",
+    "intro": "古代遗迹与现代街巷，在卫城脚下交汇。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "烤肉串与皮塔饼",
+        "description": "Souvlaki 或 Gyros 可作为简餐，坐下享用拼盘则份量与服务不同。"
+      },
+      {
+        "name": "希腊沙拉与海鲜",
+        "description": "海鲜可能按重量计价，点单前确认品种、重量与做法。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Plaka",
+        "description": "卫城山脚的街巷密集，适合遗址参观后步行。"
+      },
+      {
+        "name": "Monastiraki 与 Psirri",
+        "description": "市集、咖啡馆和晚间餐饮集中，夜间氛围与白天不同。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "santorini",
+    "intro": "白色村落沿火山口铺开，给海与日落留足时间。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "番茄丸子",
+        "description": "Tomatokeftedes 是常见地方风味，通常作为前菜分享。"
+      },
+      {
+        "name": "黄豌豆泥与当地葡萄酒",
+        "description": "Fava 可搭配主菜，品酒套餐与杯装酒需分开估算。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Fira",
+        "description": "交通换乘与商业服务集中，悬崖步道较多。"
+      },
+      {
+        "name": "Oia 与 Imerovigli",
+        "description": "景观酒店与日落视角集中，阶梯和坡道影响步行时间。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  },
+  {
+    "cityId": "madrid",
+    "intro": "从艺术大道到老城广场，让博物馆与街头生活并行。先选最感兴趣的区域，再给跨区交通、用餐和休息留出空间。",
+    "foodHighlights": [
+      {
+        "name": "鱿鱼圈三明治",
+        "description": "Bocadillo de calamares 可作为老城简餐，饮料和其他配菜另计。"
+      },
+      {
+        "name": "马德里炖菜",
+        "description": "Cocido madrileño 通常份量较足，可留更充裕的午餐时间。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Los Austrias",
+        "description": "王宫与主广场一带，适合历史步行路线。"
+      },
+      {
+        "name": "Paseo del Arte",
+        "description": "普拉多、索菲亚王后与提森等博物馆相邻，但每馆都需要独立用时。"
+      }
+    ],
+    "experienceIntro": "先从下面的具体景点与城市区域选择行程。特色餐厅、酒店及付费体验尚待逐个核实上架，当前日常成本为编辑估算；请通过官方旅游入口了解活动与开放安排。"
+  }
+]

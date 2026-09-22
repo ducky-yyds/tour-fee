@@ -1,0 +1,138 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { calculatePlan, generateItinerary, getVisitDurationRange, suggestStopPlan, mergeCustomAttractions } from '../shared/planner.mjs';
+import { buildDayAssignments } from '../shared/itinerary.mjs';
+
+const attraction = (id, priority, lat = 35.002) => ({ id, name: id, nameEn: id, description: 'test sight', lat, lng: 139, durationHours: 4, durationRange: { min: 120, recommended: 240, max: 360 }, priority, price: { low: 100, high: 200, currency: 'JPY', type: 'estimate' } });
+const town = { id: 'town', name: 'Town', nameEn: 'Town', lat: 35, lng: 139, currency: 'JPY', daily: { lodging: [1000, 3000, 9000], food: [500, 1000, 3000], transport: [100, 300, 1000], misc: [100, 200, 400] }, monthly: { rent: [10000, 30000, 90000], utilities: [1000, 3000, 9000] }, attractions: [attraction('first', 10), attraction('highlight', 90, 35.003), attraction('third', 20, 35.004)], tags: [] };
+const origin = { ...town, id: 'origin', name: 'Origin', lat: 30, attractions: [] };
+const cities = [origin, town];
+const rates = { rates: { CNY: 1, JPY: 20, USD: 0.15 }, status: 'fresh' };
+const stop = patch => ({ cityId: 'town', days: 1, attractionIds: town.attractions.map(a => a.id), ...patch });
+const plan = s => ({ originId: 'origin', stops: [s], departureDate: '2026-10-22', travelers: 3, rooms: 2, currency: 'CNY', tier: 1, reservePercent: 10, returnTrip: true, overrides: {} });
+const cents = amount => Math.round(amount * 100);
+
+test('duration ranges use minutes and manual durations change timing without changing ticket amounts', () => {
+  assert.deepEqual(getVisitDurationRange(town.attractions[0]), { min: 120, recommended: 240, max: 360 });
+  assert.deepEqual(getVisitDurationRange({ durationHours: 2 }), { min: 60, recommended: 120, max: 180 });
+  const regular = plan(stop({ attractionIds: ['first'] }));
+  const customized = plan(stop({ attractionIds: ['first'], visitDurations: { first: 420 } }));
+  const a = generateItinerary(regular, cities, rates)[0], b = generateItinerary(customized, cities, rates)[0];
+  assert.equal(b.visitMinutes - a.visitMinutes, 180);
+  assert.equal(b.items.find(i => i.attractionId === 'first').durationMinutes, 420);
+  assert.equal(b.items.find(i => i.attractionId === 'first').durationCustomized, true);
+  assert.equal(calculatePlan(regular, cities, rates).total, calculatePlan(customized, cities, rates).total);
+  assert.throws(() => generateItinerary(plan(stop({ visitDurations: { first: 721 } })), cities, rates), /时长/);
+});
+test('smart highlight selection honors priority and excludes deferred admissions from the budget', () => {
+  const selected = suggestStopPlan(stop(), town);
+  assert.deepEqual(selected.attractionIds, ['highlight']);
+  assert.deepEqual(new Set(selected.deferredAttractionIds), new Set(['first', 'third']));
+  const localPlan = { ...plan(selected), originId: town.id, returnTrip: false };
+  const budget = calculatePlan(localPlan, cities, rates);
+  assert.deepEqual(budget.lines.filter(l => l.category === 'attractions').map(l => l.attractionId), ['highlight']);
+  const [day] = generateItinerary(localPlan, cities, rates);
+  assert.ok(day.activeMinutes <= 480);
+  assert.ok(day.items.at(-1).endMinute <= 1230);
+});
+test('deferred sights rejoin when days increase and duration overrides survive smart replanning', () => {
+  const initial = suggestStopPlan(stop({ days: 3, visitDurations: { first: 210 } }), town);
+  assert.equal(initial.attractionIds.length, 3);
+  const shortened = suggestStopPlan({ ...initial, days: 1 }, town);
+  assert.ok(shortened.deferredAttractionIds.length > 0);
+  const expanded = suggestStopPlan({ ...shortened, days: 3 }, town);
+  assert.deepEqual(new Set(expanded.attractionIds), new Set(town.attractions.map(a => a.id)));
+  assert.deepEqual(expanded.visitDurations, { first: 210 });
+  assert.equal(expanded.deferredAttractionIds.length, 0);
+  assert.deepEqual(expanded.dayPlans.flat(), expanded.attractionIds);
+});
+test('manual selection remains complete and visibly overloaded until smart selection is requested', () => {
+  const manual = stop({ dayPlans: [['third', 'first', 'highlight']], visitDurations: { first: 720 } });
+  assert.deepEqual(buildDayAssignments(manual, town), manual.dayPlans);
+  const [day] = generateItinerary(plan(manual), cities, rates);
+  assert.equal(day.attractionIds.length, 3);
+  assert.ok(day.warnings.some(w => w.code === 'busy-day'));
+  const smart = suggestStopPlan(manual, town);
+  assert.ok(smart.deferredAttractionIds.includes('first'));
+  assert.equal(smart.visitDurations.first, 720);
+});
+test('Beijing local one-day smart plan finishes by 20:30 with at most eight hours of activities', () => {
+  const shipped = JSON.parse(readFileSync(new URL('../data/cities.json', import.meta.url), 'utf8'));
+  const beijing = shipped.find(c => c.id === 'beijing');
+  const s = suggestStopPlan({ cityId: 'beijing', days: 1, attractionIds: beijing.attractions.map(a => a.id) }, beijing);
+  assert.ok(s.attractionIds.length > 0 && s.attractionIds.length < beijing.attractions.length);
+  const p = { ...plan(s), originId: 'beijing', returnTrip: false };
+  const [day] = generateItinerary(p, shipped, rates);
+  assert.ok(day.activeMinutes <= 480, String(day.activeMinutes));
+  assert.ok(day.items.at(-1).endMinute <= 1230, day.endTime);
+  assert.equal(calculatePlan(p, shipped, rates).lines.filter(l => l.category === 'attractions').length, s.attractionIds.length);
+});
+test('daily preferences respect native currency, room nights, person days and explicit total overrides', () => {
+  const s = stop({ days: 3, attractionIds: [], dailyPreferences: { lodging: 200, food: 100, transport: 0 } });
+  const p = plan(s), budget = calculatePlan(p, cities, rates);
+  const line = id => budget.lines.find(l => l.id === id);
+  assert.equal(line('stop-0-lodging').amount, 200 * 2 * 2 / 20);
+  assert.equal(line('stop-0-food').amount, 100 * 3 * 3 / 20);
+  assert.equal(line('stop-0-transport').amount, 0);
+  assert.equal(line('stop-0-food').sourceType, 'user-preference');
+  assert.equal(line('stop-0-food').low, line('stop-0-food').high);
+  const overridden = calculatePlan({ ...p, overrides: { 'stop-0-food': { amount: 999.99, confirmed: true } } }, cities, rates);
+  assert.equal(overridden.lines.find(l => l.id === 'stop-0-food').amount, 999.99);
+  assert.throws(() => calculatePlan(plan(stop({ dailyPreferences: { food: -1 } })), cities, rates), /每日费用/);
+  const stay = calculatePlan({ ...plan({ ...s, days: 30 }), mode: 'stay' }, cities, rates);
+  assert.equal(stay.lines.find(l => l.id === 'stop-0-lodging').amount, 200 * 30 * 2 / 20);
+});
+test('daily/fixed/reserve groups reconcile exactly and daily fees scale while fixed tickets do not', () => {
+  const a = calculatePlan(plan(stop({ attractionIds: ['first'], days: 3 })), cities, rates);
+  const b = calculatePlan(plan(stop({ attractionIds: ['first'], days: 5 })), cities, rates);
+  assert.deepEqual(a.costGroups.map(g => g.id), ['daily', 'fixed', 'reserve']);
+  assert.equal(a.costGroups.reduce((sum, g) => sum + cents(g.amount), 0), cents(a.total));
+  const fixedA = a.costGroups.find(g => g.id === 'fixed'), fixedB = b.costGroups.find(g => g.id === 'fixed');
+  assert.equal(fixedA.amount, fixedB.amount);
+  assert.ok(b.costGroups.find(g => g.id === 'daily').amount > a.costGroups.find(g => g.id === 'daily').amount);
+  assert.ok(a.lines.filter(l => l.category === 'attractions').every(l => l.costGroup === 'fixed'));
+  assert.ok(a.lines.filter(l => l.category === 'food').every(l => l.costGroup === 'daily'));
+});
+test('custom sights merge safely and idempotently, participate in prices and retain manual scheduling without coordinates', () => {
+  const custom = { id: 'custom-cafe', cityId: 'town', name: 'My courtyard', durationHours: 1.25, price: { low: 150, high: 150, currency: 'JPY', type: 'official', sourceUrl: 'https://example.com/courtyard' } };
+  const merged = mergeCustomAttractions(cities, [custom]);
+  assert.equal(cities[1].attractions.length, 3);
+  assert.equal(merged[1].attractions.length, 4);
+  assert.equal(merged[1].attractions.at(-1).price.type, 'user');
+  assert.deepEqual(mergeCustomAttractions(merged, [custom]), merged);
+  const s = stop({ attractionIds: [custom.id] });
+  assert.equal(calculatePlan(plan(s), merged, rates).lines.find(l => l.attractionId === custom.id).amount, 22.5);
+  const [day] = generateItinerary(plan(s), merged, rates);
+  assert.ok(day.warnings.some(w => w.code === 'missing-coordinates'));
+  assert.equal(day.items.find(i => i.attractionId === custom.id).durationMinutes, 75);
+  assert.deepEqual(suggestStopPlan(s, merged[1]).deferredAttractionIds, [custom.id]);
+  assert.throws(() => mergeCustomAttractions(cities, [{ ...custom, price: { ...custom.price, sourceUrl: 'javascript:alert(1)' } }]), /HTTP/);
+  assert.throws(() => mergeCustomAttractions(cities, [{ ...custom, id: 'forbidden-city' }]), /custom-/);
+  assert.throws(() => mergeCustomAttractions(cities, [{ ...custom, lat: 91, lng: 139 }]), /经纬度/);
+});
+test('smart selection remains bounded for a 365-day stay with 42 candidate sights', () => {
+  const largeCity = { ...town, attractions: Array.from({ length: 42 }, (_, i) => ({ ...town.attractions[i % 3], id: `candidate-${i}` })) };
+  const start = performance.now();
+  const result = suggestStopPlan({ cityId: 'town', days: 365, attractionIds: largeCity.attractions.map(a => a.id) }, largeCity);
+  const elapsed = performance.now() - start;
+  assert.equal(result.dayPlans.length, 365);
+  assert.equal(result.attractionIds.length, 42);
+  assert.ok(elapsed < 2000, `Smart planning took ${Math.round(elapsed)} ms`);
+});
+test('known closures are deferred automatically and warned for manual visits on their actual date', () => {
+  const closure = { status: 'temporarily-closed', from: '2025-12-05', until: '2027-04-30', sourceUrl: 'https://example.com/closure' };
+  const closedCity = { ...town, attractions: [{ ...town.attractions[1], availability: closure }] };
+  const s = stop({ attractionIds: ['highlight'] });
+  const closed = suggestStopPlan(s, closedCity, { departureDate: '2026-10-22' });
+  assert.deepEqual(closed.attractionIds, []);
+  assert.deepEqual(closed.deferredAttractionIds, ['highlight']);
+  const open = suggestStopPlan(s, closedCity, { departureDate: '2027-05-01' });
+  assert.deepEqual(open.attractionIds, ['highlight']);
+  const spanning = suggestStopPlan({ ...s, days: 60 }, closedCity, { departureDate: '2027-04-01' });
+  assert.deepEqual(spanning.dayPlans[30], ['highlight']);
+  const manual = generateItinerary(plan(s), [origin, closedCity], rates)[0];
+  assert.ok(manual.warnings.some(w => w.code === 'closed-attraction' && w.severity === 'danger'));
+  const openManual = generateItinerary({ ...plan(s), departureDate: '2027-05-01' }, [origin, closedCity], rates)[0];
+  assert.equal(openManual.warnings.some(w => w.code === 'closed-attraction'), false);
+});

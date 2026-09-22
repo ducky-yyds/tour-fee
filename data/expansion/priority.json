@@ -1,0 +1,3760 @@
+[
+  {
+    "id": "reykjavik",
+    "name": "雷克雅未克",
+    "nameEn": "Reykjavík",
+    "country": "冰岛",
+    "countryCode": "IS",
+    "currency": "ISK",
+    "region": "欧洲",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "iata": "KEF",
+    "tagline": "从彩色街道与海港出发，把温泉和火山地貌留给更从容的一天。",
+    "description": "从彩色街道与海港出发，把温泉和火山地貌留给更从容的一天。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    },
+    "officialTourismUrl": "https://visitreykjavik.is/sights-attractions",
+    "daily": {
+      "lodging": [
+        15000,
+        30000,
+        65000
+      ],
+      "food": [
+        5000,
+        10000,
+        21000
+      ],
+      "transport": [
+        2500,
+        6500,
+        18000
+      ],
+      "misc": [
+        1000,
+        2200,
+        5500
+      ]
+    },
+    "monthly": {
+      "rent": [
+        180000,
+        320000,
+        650000
+      ],
+      "utilities": [
+        18000,
+        30000,
+        50000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "reykjavik",
+      "intro": "从彩色街道与海港出发，把温泉和火山地貌留给更从容的一天。",
+      "foodHighlights": [
+        {
+          "name": "鱼汤与海鲜",
+          "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+        },
+        {
+          "name": "羊肉与Skyr",
+          "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "市中心与海港",
+          "description": "教堂、音乐厅和海滨步道适合连成市内路线。"
+        },
+        {
+          "name": "黄金圈",
+          "description": "辛格维利尔、间歇泉与黄金瀑布在城外，建议独立公路日。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "市区可步行及公交；黄金圈、蓝湖等城外目的地需另订接驳、自驾或跟团。冬季日照与路况会改变可行行程。",
+    "article": "Reykjavík",
+    "attractions": [
+      {
+        "id": "reykjavik-hallgrimskirkja",
+        "name": "哈尔格林姆教堂",
+        "nameEn": "Hallgrímskirkja",
+        "lat": 64.1417,
+        "lng": -21.9266,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "观看教堂建筑，预算包含登塔参考；礼拜和登塔时间需分别确认。",
+        "features": [
+          "哈尔格林姆教堂",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
+        },
+        "price": {
+          "low": 1000,
+          "high": 2000,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "reykjavik-harpa",
+        "name": "哈帕音乐厅",
+        "nameEn": "Harpa (concert hall)",
+        "lat": 64.1504,
+        "lng": -21.9326,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "欣赏玻璃立面与可开放公共区域；演出和导览另付。",
+        "features": [
+          "哈帕音乐厅",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Harbour_And_Harpa_(33650362931).jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "reykjavik-sun-voyager",
+        "name": "太阳航海者雕塑",
+        "nameEn": "The Sun Voyager",
+        "lat": 64.1476,
+        "lng": -21.9223,
+        "durationHours": 0.5,
+        "category": "文化与风景",
+        "description": "沿海边步道看船形雕塑与山海轮廓。",
+        "features": [
+          "太阳航海者雕塑",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 30,
+          "recommended": 30,
+          "max": 45
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Sun_Voyager"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "reykjavik-tjornin",
+        "name": "托宁湖",
+        "nameEn": "Tjörnin",
+        "lat": 64.1445,
+        "lng": -21.9418,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "城市湖泊与湖畔公园漫步。",
+        "features": [
+          "托宁湖",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tj%C3%B6rnin"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "reykjavik-national-museum",
+        "name": "冰岛国家博物馆",
+        "nameEn": "National Museum of Iceland",
+        "lat": 64.1422,
+        "lng": -21.9482,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "通过文物和展览了解冰岛历史。",
+        "features": [
+          "冰岛国家博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_Iceland"
+        },
+        "price": {
+          "low": 2500,
+          "high": 4500,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "reykjavik-perlan",
+        "name": "珍珠楼自然展馆",
+        "nameEn": "Perlan",
+        "lat": 64.1294,
+        "lng": -21.9187,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "参观以冰川、地质和自然为主题的展馆；具体票种另核。",
+        "features": [
+          "珍珠楼自然展馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perlan_2.jpg"
+        },
+        "price": {
+          "low": 6500,
+          "high": 9500,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "reykjavik-thingvellir",
+        "name": "辛格维利尔国家公园",
+        "nameEn": "Þingvellir",
+        "lat": 64.2559,
+        "lng": -21.1295,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "沿裂谷和历史议会遗址步道探索；停车及潜水另计。",
+        "features": [
+          "辛格维利尔国家公园",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/%C3%9Eingvellir"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.thingvellir.is/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road",
+        "accessNote": "距首都较远，需自驾或预订公路团，冬季以道路状态为准。",
+        "source": "https://www.thingvellir.is/"
+      },
+      {
+        "id": "reykjavik-gullfoss",
+        "name": "黄金瀑布",
+        "nameEn": "Gullfoss",
+        "lat": 64.3271,
+        "lng": -20.1199,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "从观景平台欣赏峡谷瀑布；低温和风大时注意步道开放。",
+        "features": [
+          "黄金瀑布",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gullfoss"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-golden-circle",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road",
+        "accessNote": "黄金圈远郊景点，建议独立公路游览日。",
+        "source": "https://www.south.is/en/destinations/travel-routes/the-golden-circle"
+      },
+      {
+        "id": "reykjavik-strokkur",
+        "name": "史托克间歇泉",
+        "nameEn": "Strokkur",
+        "lat": 64.3104,
+        "lng": -20.3003,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "在指定步道观察间歇泉；保持地热区安全距离。",
+        "features": [
+          "史托克间歇泉",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 74,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Strokkur"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitreykjavik.is/sights-attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road"
+      },
+      {
+        "id": "reykjavik-blue-lagoon",
+        "name": "蓝湖温泉",
+        "nameEn": "Blue Lagoon (geothermal spa)",
+        "lat": 63.8804,
+        "lng": -22.4495,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "在地热温泉休息；预约、道路与火山活动相关开放情况需出发前确认。",
+        "features": [
+          "蓝湖温泉",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 71,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Lagoon%2C_Iceland_(20869851002).jpg"
+        },
+        "price": {
+          "low": 13000,
+          "high": 22000,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bluelagoon.com/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "routeMode": "road",
+        "source": "https://www.bluelagoon.com/",
+        "accessNote": "不在市中心；交通另计，不能假定始终开放。"
+      }
+    ]
+  },
+  {
+    "id": "vik",
+    "name": "维克与冰岛南岸",
+    "nameEn": "Vík í Mýrdal",
+    "country": "冰岛",
+    "countryCode": "IS",
+    "currency": "ISK",
+    "region": "欧洲",
+    "lat": 63.4186,
+    "lng": -19.006,
+    "iata": "KEF",
+    "tagline": "以维克为落脚点，慢慢看黑沙海岸、瀑布与冰川边缘。",
+    "description": "以维克为落脚点，慢慢看黑沙海岸、瀑布与冰川边缘。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/V%C3%ADk_%C3%AD_M%C3%BDrdal"
+    },
+    "officialTourismUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+    "daily": {
+      "lodging": [
+        18000,
+        35000,
+        70000
+      ],
+      "food": [
+        5000,
+        10000,
+        21000
+      ],
+      "transport": [
+        2500,
+        6500,
+        18000
+      ],
+      "misc": [
+        1000,
+        2200,
+        5500
+      ]
+    },
+    "monthly": {
+      "rent": [
+        180000,
+        320000,
+        650000
+      ],
+      "utilities": [
+        18000,
+        30000,
+        50000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "vik",
+      "intro": "以维克为落脚点，慢慢看黑沙海岸、瀑布与冰川边缘。",
+      "foodHighlights": [
+        {
+          "name": "鱼汤与海鲜",
+          "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+        },
+        {
+          "name": "羊肉与Skyr",
+          "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "维克镇与海岸",
+          "description": "小镇、教堂和海滩可以组合短线。"
+        },
+        {
+          "name": "斯科加与冰川方向",
+          "description": "瀑布和冰川分散在公路沿线，预留停车及风雨缓冲。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "景点分散，采用公路行程估算；需自驾、包车或已确认巴士团。凯夫拉维克为国际门户，不是维克镇机场。冰川和冬季道路不可只按直线距离安排。",
+    "routeMode": "road",
+    "attractions": [
+      {
+        "id": "vik-reynisfjara",
+        "name": "雷尼斯黑沙滩",
+        "nameEn": "Reynisfjara",
+        "lat": 63.4044,
+        "lng": -19.0444,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在指定区域观察玄武岩与海蚀柱；不接近海水。",
+        "features": [
+          "雷尼斯黑沙滩",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Reynisfjara"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "accessNote": "离岸巨浪可能突袭，遵守现场分区警报；停车另计。"
+      },
+      {
+        "id": "vik-dyrholaey",
+        "name": "迪霍拉里海岬",
+        "nameEn": "Dyrhólaey",
+        "lat": 63.3999,
+        "lng": -19.126,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "欣赏海蚀拱门和黑沙海岸线。",
+        "features": [
+          "迪霍拉里海岬",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dyrh%C3%B3laey"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "accessNote": "道路、风势与鸟类繁殖季可能限制进入。"
+      },
+      {
+        "id": "vik-skogafoss",
+        "name": "斯科加瀑布",
+        "nameEn": "Skógafoss",
+        "lat": 63.5321,
+        "lng": -19.5114,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在瀑布前和开放阶梯旁看水雾与地形。",
+        "features": [
+          "斯科加瀑布",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "vik-skogar-museum",
+        "name": "斯科加民俗博物馆",
+        "nameEn": "Skógar Museum",
+        "lat": 63.5255,
+        "lng": -19.4945,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "草皮屋和民俗收藏展现南岸生活。",
+        "features": [
+          "斯科加民俗博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sk%C3%B3gar_Museum"
+        },
+        "price": {
+          "low": 2500,
+          "high": 4500,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "vik-solheimajokull",
+        "name": "索尔黑马冰川观景步道",
+        "nameEn": "Sólheimajökull",
+        "lat": 63.5308,
+        "lng": -19.3705,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "只安排通往冰川前缘的开放步道与远观。",
+        "features": [
+          "索尔黑马冰川观景步道",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/S%C3%B3lheimaj%C3%B6kull"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "accessNote": "上冰川必须另订合格导览及装备，本条不含冰川徒步。"
+      },
+      {
+        "id": "vik-seljalandsfoss",
+        "name": "塞里雅兰瀑布",
+        "nameEn": "Seljalandsfoss",
+        "lat": 63.6156,
+        "lng": -19.9886,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "从观景步道欣赏南岸瀑布；瀑布背后小径以当天开放为准。",
+        "features": [
+          "塞里雅兰瀑布",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Seljalandsfoss"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "vik-gljufrabui",
+        "name": "秘密瀑布",
+        "nameEn": "Gljúfrabúi",
+        "lat": 63.6208,
+        "lng": -19.9856,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "峡谷中的瀑布，涉水与结冰条件不佳时仅在外侧观看。",
+        "features": [
+          "秘密瀑布",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Glj%C3%BAfrab%C3%BAi"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "vik-fjadrargljufur",
+        "name": "羽毛峡谷",
+        "nameEn": "Fjaðrárgljúfur",
+        "lat": 63.7713,
+        "lng": -18.1719,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "沿开放观景路径观察苔原峡谷。",
+        "features": [
+          "羽毛峡谷",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fja%C3%B0r%C3%A1rglj%C3%BAfur"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.south.is/en/destinations/travel-routes/the-south-coast",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "accessNote": "距维克较远，脆弱植被区域可能季节关闭，勿离开步道。"
+      }
+    ]
+  },
+  {
+    "id": "akureyri",
+    "name": "阿克雷里",
+    "nameEn": "Akureyri",
+    "country": "冰岛",
+    "countryCode": "IS",
+    "currency": "ISK",
+    "region": "欧洲",
+    "lat": 65.6826,
+    "lng": -18.0907,
+    "iata": "AEY",
+    "tagline": "在北方峡湾小城看花园与博物馆，再为米湖和瀑布留出公路游览日。",
+    "description": "在北方峡湾小城看花园与博物馆，再为米湖和瀑布留出公路游览日。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Akureyri"
+    },
+    "officialTourismUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+    "daily": {
+      "lodging": [
+        15000,
+        30000,
+        65000
+      ],
+      "food": [
+        5000,
+        10000,
+        21000
+      ],
+      "transport": [
+        2500,
+        6500,
+        18000
+      ],
+      "misc": [
+        1000,
+        2200,
+        5500
+      ]
+    },
+    "monthly": {
+      "rent": [
+        180000,
+        320000,
+        650000
+      ],
+      "utilities": [
+        18000,
+        30000,
+        50000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "akureyri",
+      "intro": "在北方峡湾小城看花园与博物馆，再为米湖和瀑布留出公路游览日。",
+      "foodHighlights": [
+        {
+          "name": "鱼汤与海鲜",
+          "description": "用一碗热汤衔接海边散步；餐厅与外带价格相差明显。"
+        },
+        {
+          "name": "羊肉与Skyr",
+          "description": "羊肉料理和冰岛乳制品适合认识本地饮食。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "老城与花园",
+          "description": "教堂、植物园和老城展馆可以慢走。"
+        },
+        {
+          "name": "米湖与众神瀑布",
+          "description": "北部自然景观相距较远，需单独核对路况。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "镇内步行；米湖、地热区和众神瀑布建议自驾或公路团，冬季受路况和日照限制。",
+    "attractions": [
+      {
+        "id": "akureyri-church",
+        "name": "阿克雷里教堂",
+        "nameEn": "Akureyrarkirkja",
+        "lat": 65.6796,
+        "lng": -18.0909,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "登上教堂前台阶看城市与峡湾；室内开放以礼拜安排为准。",
+        "features": [
+          "阿克雷里教堂",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Akureyrarkirkja"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "akureyri-botanical",
+        "name": "阿克雷里植物园",
+        "nameEn": "Akureyri Botanical Garden",
+        "lat": 65.6745,
+        "lng": -18.0924,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在北方植物园辨认花卉；主要户外观赏季节有限。",
+        "features": [
+          "阿克雷里植物园",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Akureyri_Botanical_Garden"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "akureyri-art-museum",
+        "name": "阿克雷里美术馆",
+        "nameEn": "Akureyri Art Museum",
+        "lat": 65.6807,
+        "lng": -18.0906,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "了解冰岛和北方艺术展览。",
+        "features": [
+          "阿克雷里美术馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Akureyri_Art_Museum"
+        },
+        "price": {
+          "low": 1500,
+          "high": 3000,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "akureyri-museum",
+        "name": "阿克雷里博物馆",
+        "nameEn": "Akureyri Museum",
+        "lat": 65.6682,
+        "lng": -18.0788,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "从老城展品认识港口与日常生活。",
+        "features": [
+          "阿克雷里博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Akureyri_Museum"
+        },
+        "price": {
+          "low": 1800,
+          "high": 3500,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "akureyri-godafoss",
+        "name": "众神瀑布",
+        "nameEn": "Goðafoss",
+        "lat": 65.6828,
+        "lng": -17.5502,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在河岸观景步道看弧形瀑布。",
+        "features": [
+          "众神瀑布",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Go%C3%B0afoss"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road"
+      },
+      {
+        "id": "akureyri-myvatn",
+        "name": "米湖",
+        "nameEn": "Mývatn",
+        "lat": 65.6039,
+        "lng": -16.9973,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "湖岸地貌与湿地观景，选择开放停车点步道。",
+        "features": [
+          "米湖",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/M%C3%BDvatn"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road",
+        "accessNote": "远郊公路景区，湖周不适合一次短途步行全部走完。"
+      },
+      {
+        "id": "akureyri-dimmuborgir",
+        "name": "黑暗城堡熔岩地貌",
+        "nameEn": "Dimmuborgir",
+        "lat": 65.5913,
+        "lng": -16.9123,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "循标记步道穿行熔岩柱与天然拱形地貌。",
+        "features": [
+          "黑暗城堡熔岩地貌",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dimmuborgir"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road"
+      },
+      {
+        "id": "akureyri-namafjall",
+        "name": "纳马山地热区",
+        "nameEn": "Námafjall",
+        "lat": 65.6411,
+        "lng": -16.8087,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在步道上观察泥浆池与地热喷气，停车费另计。",
+        "features": [
+          "纳马山地热区",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/N%C3%A1mafjall"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ISK",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitakureyri.is/en/see-and-do/attractions",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road"
+      }
+    ]
+  },
+  {
+    "id": "male",
+    "name": "马累与周边岛屿",
+    "nameEn": "Malé",
+    "country": "马尔代夫",
+    "countryCode": "MV",
+    "currency": "USD",
+    "region": "亚洲",
+    "lat": 4.1755,
+    "lng": 73.5093,
+    "iata": "MLE",
+    "tagline": "从马累的集市、清真寺和海边开始，区分首都生活与度假岛体验。",
+    "description": "从马累的集市、清真寺和海边开始，区分首都生活与度假岛体验。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9"
+    },
+    "officialTourismUrl": "https://old.visitmaldives.com/male-city/",
+    "daily": {
+      "lodging": [
+        60,
+        150,
+        450
+      ],
+      "food": [
+        20,
+        55,
+        130
+      ],
+      "transport": [
+        10,
+        40,
+        120
+      ],
+      "misc": [
+        5,
+        15,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        900,
+        2000,
+        6000
+      ],
+      "utilities": [
+        100,
+        200,
+        450
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "以USD编制旅游预算（当地法币MVR）。食宿为人工估算，已预留一般消费税及服务费；Green Tax单列，住宿已含税报价请将该行调为0避免重复。月度数据为旅居假设，不代表长租房源。"
+    },
+    "guide": {
+      "cityId": "male",
+      "intro": "从马累的集市、清真寺和海边开始，区分首都生活与度假岛体验。",
+      "foodHighlights": [
+        {
+          "name": "Mas huni与薄饼",
+          "description": "金枪鱼、椰丝与薄饼构成本地常见早餐。"
+        },
+        {
+          "name": "咖喱鱼与海鲜",
+          "description": "居民岛餐厅和度假村餐饮计价差异大，查明服务费及税是否包含。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "马累市区",
+          "description": "博物馆、历史清真寺与市场较集中。"
+        },
+        {
+          "name": "胡鲁马累与维利马累",
+          "description": "胡鲁马累有陆路桥梁，维利马累仍须渡轮；不要直接按步行路线跨海。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "旅游预算以USD表达；本地同时使用MVR。跨岛需核对快艇/渡轮班次与天气，度假村接送可能需额外购买水飞或专船。居民岛住宿与度假村不可视作同一种产品。",
+    "travelGroup": "male",
+    "greenTax": {
+      "currency": "USD",
+      "low": 6,
+      "high": 12,
+      "sourceUrl": "https://www.mira.gov.mv/Legislations/View/Green-tax-regulation",
+      "checkedAt": "2026-09-22",
+      "note": "按成人和住宿晚数预留，50间及以下居民岛酒店/客栈通常6美元，大型酒店及度假村通常12美元。实际按法规24小时段和入住类型核算；若住宿总价已含请将本项改0。"
+    },
+    "attractions": [
+      {
+        "id": "male-friday-mosque",
+        "name": "马累古星期五清真寺",
+        "nameEn": "Malé Friday Mosque",
+        "lat": 4.1784,
+        "lng": 73.5124,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "观看珊瑚石建筑和历史细节。",
+        "features": [
+          "马累古星期五清真寺",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9_Friday_Mosque"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "accessNote": "宗教场所，非礼拜访客进入范围、着装及许可需现场确认。",
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-islamic-centre",
+        "name": "伊斯兰中心与共和广场",
+        "nameEn": "Islamic Centre (Maldives)",
+        "lat": 4.1787,
+        "lng": 73.5108,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "在金色穹顶附近的公共广场认识城市地标。",
+        "features": [
+          "伊斯兰中心与共和广场",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Islamic_Centre_(Maldives)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-museum",
+        "name": "马尔代夫国家博物馆",
+        "nameEn": "National Museum (Maldives)",
+        "lat": 4.1753,
+        "lng": 73.5091,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "通过王室与地方历史藏品认识岛国。",
+        "features": [
+          "马尔代夫国家博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_(Maldives)"
+        },
+        "price": {
+          "low": 7,
+          "high": 15,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-sultan-park",
+        "name": "苏丹公园",
+        "nameEn": "Sultan Park",
+        "lat": 4.1761,
+        "lng": 73.5103,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "在首都绿地休息；非居民或活动时段费用以入口公告为准。",
+        "features": [
+          "苏丹公园",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sultan_Park"
+        },
+        "price": {
+          "low": 0,
+          "high": 10,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-fish-market",
+        "name": "马累鱼市场",
+        "nameEn": "Malé Fish Market",
+        "lat": 4.1794,
+        "lng": 73.5083,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "观察港口鱼获交易；尊重市场作业空间。",
+        "features": [
+          "马累鱼市场",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9_Fish_Market"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-tsunami",
+        "name": "海啸纪念碑",
+        "nameEn": "Tsunami Monument",
+        "lat": 4.1721,
+        "lng": 73.5014,
+        "durationHours": 0.5,
+        "category": "文化与风景",
+        "description": "在城市海边了解纪念建筑与海岸线。",
+        "features": [
+          "海啸纪念碑",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 30,
+          "recommended": 30,
+          "max": 45
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tsunami_Monument"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "male"
+      },
+      {
+        "id": "male-hulhumale",
+        "name": "胡鲁马累海滨",
+        "nameEn": "Hulhumalé",
+        "lat": 4.213,
+        "lng": 73.544,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "沿海岸公共区域散步，咖啡和水上活动另付。",
+        "features": [
+          "胡鲁马累海滨",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hulhumal%C3%A9"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "male",
+        "routeMode": "road",
+        "accessNote": "可经桥梁陆路前往；居民区海滩着装规定不同于度假岛。"
+      },
+      {
+        "id": "male-villimale",
+        "name": "维利马累岛",
+        "nameEn": "Villimalé",
+        "lat": 4.1735,
+        "lng": 73.4854,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "离开密集市区，在小岛公共街道与海岸步行。",
+        "features": [
+          "维利马累岛",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Villimal%C3%A9"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://old.visitmaldives.com/male-city/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "villimale",
+        "routeMode": "boat",
+        "accessNote": "必须核对往返渡轮或船班；门票为零不表示交通免费。"
+      }
+    ]
+  },
+  {
+    "id": "maafushi",
+    "name": "马富施岛",
+    "nameEn": "Maafushi",
+    "country": "马尔代夫",
+    "countryCode": "MV",
+    "currency": "USD",
+    "region": "亚洲",
+    "lat": 3.9426,
+    "lng": 73.4908,
+    "iata": "MLE",
+    "tagline": "用居民岛作落脚点，按自己的节奏选择海滩、附近岛屿和海上行程。",
+    "description": "用居民岛作落脚点，按自己的节奏选择海滩、附近岛屿和海上行程。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maafushi-Beach-Maldives.jpg"
+    },
+    "officialTourismUrl": "https://maafushi.gov.mv/guide",
+    "daily": {
+      "lodging": [
+        50,
+        110,
+        250
+      ],
+      "food": [
+        20,
+        45,
+        100
+      ],
+      "transport": [
+        15,
+        55,
+        150
+      ],
+      "misc": [
+        5,
+        15,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        750,
+        1800,
+        4500
+      ],
+      "utilities": [
+        90,
+        180,
+        350
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "以USD编制旅游预算（当地法币MVR）。食宿为人工估算，已预留一般消费税及服务费；Green Tax单列，住宿已含税报价请将该行调为0避免重复。月度数据为旅居假设，不代表长租房源。"
+    },
+    "guide": {
+      "cityId": "maafushi",
+      "intro": "用居民岛作落脚点，按自己的节奏选择海滩、附近岛屿和海上行程。",
+      "foodHighlights": [
+        {
+          "name": "Mas huni与薄饼",
+          "description": "金枪鱼、椰丝与薄饼构成本地常见早餐。"
+        },
+        {
+          "name": "咖喱鱼与海鲜",
+          "description": "居民岛餐厅和度假村餐饮计价差异大，查明服务费及税是否包含。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "马富施北侧游客海滩",
+          "description": "泳装活动仅在指定区域；居民区遵守当地着装要求。"
+        },
+        {
+          "name": "南马累环礁周边",
+          "description": "居民岛、私人度假岛和海上项目需分别确认船程与准入。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "机场位于马累附近，往返马富施必须另外安排船班。跨岛均按待核船程显示；交通预算覆盖日常船程预留，私人度假岛准入和包船费用须独立核价。",
+    "travelGroup": "maafushi",
+    "greenTax": {
+      "currency": "USD",
+      "low": 6,
+      "high": 12,
+      "sourceUrl": "https://www.mira.gov.mv/Legislations/View/Green-tax-regulation",
+      "checkedAt": "2026-09-22",
+      "note": "按成人和住宿晚数预留，50间及以下居民岛酒店/客栈通常6美元，大型酒店及度假村通常12美元。实际按法规24小时段和入住类型核算；若住宿总价已含请将本项改0。"
+    },
+    "article": "Maafushi (Kaafu Atoll)",
+    "routeMode": "island",
+    "gatewayTransfer": {
+      "currency": "USD",
+      "values": [
+        25,
+        35,
+        80
+      ],
+      "note": "国际门户为MLE马累机场，另预留机场到岛快艇费用；具体船班、码头、行李与接送包含项待核。"
+    },
+    "attractions": [
+      {
+        "id": "maafushi-beach",
+        "name": "马富施游客海滩",
+        "nameEn": "Maafushi Bikini Beach",
+        "lat": 3.946,
+        "lng": 73.4901,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在指定游客海滩休息，遮阳设施和水上活动另付。",
+        "features": [
+          "马富施游客海滩",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maafushi-Beach-Maldives.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://maafushi.gov.mv/guide",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "noArticle": true,
+        "travelGroup": "maafushi"
+      },
+      {
+        "id": "maafushi-gulhi",
+        "name": "古丽岛",
+        "nameEn": "Gulhi",
+        "lat": 3.9912,
+        "lng": 73.5088,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "乘船探访邻近居民岛，选择允许游客使用的海滩。",
+        "features": [
+          "古丽岛",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gulhi"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://maafushi.gov.mv/guide",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "gulhi",
+        "routeMode": "boat",
+        "accessNote": "岛间船班并非随到随走，交通另计且须确认返程。"
+      },
+      {
+        "id": "maafushi-guraidhoo",
+        "name": "古拉伊杜岛",
+        "nameEn": "Guraidhoo (Kaafu Atoll)",
+        "lat": 3.9004,
+        "lng": 73.4669,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "在居民岛街道与海岸了解当地生活。",
+        "features": [
+          "古拉伊杜岛",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Guraidhoo_(Kaafu_Atoll)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://maafushi.gov.mv/guide",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "travelGroup": "guraidhoo",
+        "routeMode": "boat",
+        "accessNote": "需船程及返程确认，岛上活动开放范围以当地指引为准。"
+      },
+      {
+        "id": "maafushi-biyadhoo",
+        "name": "比亚度岛日间访问",
+        "nameEn": "Biyadhoo",
+        "lat": 3.9217,
+        "lng": 73.4588,
+        "durationHours": 5,
+        "category": "文化与风景",
+        "description": "私人度假岛访问预算占位，仅在确认运营方接受日客时安排。",
+        "features": [
+          "比亚度岛日间访问",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 5,
+        "durationRange": {
+          "min": 150,
+          "recommended": 300,
+          "max": 450
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Biyadhoo"
+        },
+        "price": {
+          "low": 100,
+          "high": 220,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://maafushi.gov.mv/guide",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "travelGroup": "biyadhoo",
+        "routeMode": "boat",
+        "accessNote": "非公共岛屿；未确认日间准入及经营状态，不能直接上岛。海上交通另核。",
+        "automaticPlanning": false
+      },
+      {
+        "id": "maafushi-fihalhohi",
+        "name": "菲哈后岛日间访问",
+        "nameEn": "Fihalhohi",
+        "lat": 3.8772,
+        "lng": 73.3653,
+        "durationHours": 5,
+        "category": "文化与风景",
+        "description": "私人度假岛的海滩与餐饮访问须取得运营方确认。",
+        "features": [
+          "菲哈后岛日间访问",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 5,
+        "durationRange": {
+          "min": 150,
+          "recommended": 300,
+          "max": 450
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fihalhohi"
+        },
+        "price": {
+          "low": 120,
+          "high": 260,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.fihalhohi.com.mv/",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "travelGroup": "fihalhohi",
+        "routeMode": "boat",
+        "accessNote": "未取得当日准入，不参与自动推荐；费用仅为询价前预算。",
+        "automaticPlanning": false,
+        "source": "https://www.fihalhohi.com.mv/"
+      }
+    ]
+  },
+  {
+    "id": "edinburgh",
+    "name": "爱丁堡",
+    "nameEn": "Edinburgh",
+    "country": "英国",
+    "countryCode": "GB",
+    "currency": "GBP",
+    "region": "欧洲",
+    "lat": 55.9533,
+    "lng": -3.1883,
+    "iata": "EDI",
+    "tagline": "沿石砌老城穿过皇家一英里，走上山丘看城市层叠的轮廓。",
+    "description": "沿石砌老城穿过皇家一英里，走上山丘看城市层叠的轮廓。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edinburgh"
+    },
+    "officialTourismUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+    "daily": {
+      "lodging": [
+        70,
+        150,
+        350
+      ],
+      "food": [
+        25,
+        55,
+        130
+      ],
+      "transport": [
+        6,
+        16,
+        50
+      ],
+      "misc": [
+        8,
+        20,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1100,
+        2200,
+        5000
+      ],
+      "utilities": [
+        150,
+        250,
+        450
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "edinburgh",
+      "intro": "沿石砌老城穿过皇家一英里，走上山丘看城市层叠的轮廓。",
+      "foodHighlights": [
+        {
+          "name": "苏格兰早餐",
+          "description": "Haggis和丰盛早餐可以单独安排一餐。"
+        },
+        {
+          "name": "海鲜与下午茶",
+          "description": "港区海鲜与老城茶室风格不同，先看菜单与服务费。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "皇家一英里",
+          "description": "城堡、巷道与宫殿构成历史轴线。"
+        },
+        {
+          "name": "新城与利斯港",
+          "description": "艺术馆、街道和港区适合另一日漫步。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "时间与路程按地理模型估算；实际公共交通时刻、营业安排和预约余位需确认。",
+    "attractions": [
+      {
+        "id": "edinburgh-castle",
+        "name": "爱丁堡城堡",
+        "nameEn": "Edinburgh Castle",
+        "lat": 55.9486,
+        "lng": -3.1999,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "在火山岩上的城堡了解苏格兰历史。",
+        "features": [
+          "爱丁堡城堡",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Edinburgh_Castle"
+        },
+        "price": {
+          "low": 22,
+          "high": 35,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "edinburgh-royal-mile",
+        "name": "皇家一英里",
+        "nameEn": "Royal Mile",
+        "lat": 55.9506,
+        "lng": -3.1856,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "沿老城主街看小巷、石建筑与商铺。",
+        "features": [
+          "皇家一英里",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Royal_Mile"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "edinburgh-calton",
+        "name": "卡尔顿山",
+        "nameEn": "Calton Hill",
+        "lat": 55.955,
+        "lng": -3.1825,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "登上城市观景山丘看纪念建筑。",
+        "features": [
+          "卡尔顿山",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Calton_Hill"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "edinburgh-arthur",
+        "name": "亚瑟王座",
+        "nameEn": "Arthur’s Seat",
+        "lat": 55.9445,
+        "lng": -3.1619,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "在荷里路德公园选择适合体力的山路。",
+        "features": [
+          "亚瑟王座",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Arthur's_Seat"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "article": "Arthur's Seat",
+        "accessNote": "山路与天气需确认，湿滑或大风时缩短路线。"
+      },
+      {
+        "id": "edinburgh-museum",
+        "name": "苏格兰国家博物馆",
+        "nameEn": "National Museum of Scotland",
+        "lat": 55.9469,
+        "lng": -3.19,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "自然、科学与历史常设展，收费特展另计。",
+        "features": [
+          "苏格兰国家博物馆",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_Scotland"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "edinburgh-holyrood",
+        "name": "荷里路德宫",
+        "nameEn": "Palace of Holyroodhouse",
+        "lat": 55.9527,
+        "lng": -3.1723,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "参观皇家宫殿与历史庭院；官方活动可能影响开放。",
+        "features": [
+          "荷里路德宫",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Palace_of_Holyroodhouse"
+        },
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "edinburgh-gallery",
+        "name": "苏格兰国家美术馆",
+        "nameEn": "Scottish National Gallery",
+        "lat": 55.9509,
+        "lng": -3.1957,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "看常设艺术收藏，特别展览另计。",
+        "features": [
+          "苏格兰国家美术馆",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Scottish_National_Gallery"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "edinburgh-botanic",
+        "name": "爱丁堡皇家植物园",
+        "nameEn": "Royal Botanic Garden Edinburgh",
+        "lat": 55.9651,
+        "lng": -3.2093,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "户外园区散步，温室和专项活动另核。",
+        "features": [
+          "爱丁堡皇家植物园",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Royal_Botanic_Garden_Edinburgh"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "GBP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitscotland.com/places-to-go/edinburgh/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dublin",
+    "name": "都柏林",
+    "nameEn": "Dublin",
+    "country": "爱尔兰",
+    "countryCode": "IE",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 53.3498,
+    "lng": -6.2603,
+    "iata": "DUB",
+    "tagline": "从书页、河岸与老街出发，认识都柏林的文学与日常生活。",
+    "description": "从书页、河岸与老街出发，认识都柏林的文学与日常生活。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dublin"
+    },
+    "officialTourismUrl": "https://www.visitdublin.com/things-to-do",
+    "daily": {
+      "lodging": [
+        90,
+        180,
+        400
+      ],
+      "food": [
+        30,
+        65,
+        150
+      ],
+      "transport": [
+        8,
+        20,
+        65
+      ],
+      "misc": [
+        10,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        2600,
+        5500
+      ],
+      "utilities": [
+        150,
+        260,
+        450
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "dublin",
+      "intro": "从书页、河岸与老街出发，认识都柏林的文学与日常生活。",
+      "foodHighlights": [
+        {
+          "name": "爱尔兰炖菜",
+          "description": "炖菜与面包是认识本地餐桌的起点。"
+        },
+        {
+          "name": "咖啡馆与酒馆餐食",
+          "description": "听音乐、饮酒及餐食分别预算，注意年龄与场次限制。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "三一学院与利菲河",
+          "description": "书籍、校园和河岸可以衔接步行。"
+        },
+        {
+          "name": "凤凰公园与西城",
+          "description": "公园面积大，展馆需要另留时间。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "时间与路程按地理模型估算；实际公共交通时刻、营业安排和预约余位需确认。",
+    "attractions": [
+      {
+        "id": "dublin-trinity",
+        "name": "三一学院与凯尔经展",
+        "nameEn": "Trinity College Dublin",
+        "lat": 53.3438,
+        "lng": -6.2546,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "进入学院历史环境并参观所选书籍展；图书馆修复范围以官网为准。",
+        "features": [
+          "三一学院与凯尔经展",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Trinity_College_Dublin"
+        },
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "dublin-guinness",
+        "name": "健力士展馆",
+        "nameEn": "Guinness Storehouse",
+        "lat": 53.3419,
+        "lng": -6.2868,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "了解酿造历史与工业建筑，所含饮品依票种确认。",
+        "features": [
+          "健力士展馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Guinness_Storehouse"
+        },
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "dublin-kilmainham",
+        "name": "基尔梅纳姆监狱博物馆",
+        "nameEn": "Kilmainham Gaol",
+        "lat": 53.3419,
+        "lng": -6.3098,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "通过预约导览了解历史监狱，提前确认名额。",
+        "features": [
+          "基尔梅纳姆监狱博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kilmainham_Gaol"
+        },
+        "price": {
+          "low": 8,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "dublin-phoenix",
+        "name": "凤凰公园",
+        "nameEn": "Phoenix Park",
+        "lat": 53.3559,
+        "lng": -6.3298,
+        "durationHours": 3,
+        "category": "文化与风景",
+        "description": "大型城市公园漫步，动物园和租车另付。",
+        "features": [
+          "凤凰公园",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Phoenix_Park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "dublin-patrick",
+        "name": "圣帕特里克大教堂",
+        "nameEn": "St Patrick’s Cathedral, Dublin",
+        "lat": 53.3395,
+        "lng": -6.2714,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "参观历史教堂建筑，礼拜与游客时段分开。",
+        "features": [
+          "圣帕特里克大教堂",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/St_Patrick's_Cathedral%2C_Dublin"
+        },
+        "price": {
+          "low": 8,
+          "high": 16,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "article": "St Patrick's Cathedral, Dublin"
+      },
+      {
+        "id": "dublin-museum",
+        "name": "爱尔兰国家博物馆考古馆",
+        "nameEn": "National Museum of Ireland – Archaeology",
+        "lat": 53.3404,
+        "lng": -6.2545,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "常设考古收藏参观，开放安排见官方。",
+        "features": [
+          "爱尔兰国家博物馆考古馆",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Archaeology"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "dublin-stephens",
+        "name": "圣史蒂芬绿地",
+        "nameEn": "St Stephen’s Green",
+        "lat": 53.3381,
+        "lng": -6.2591,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "在市中心公园缓一缓旅行节奏。",
+        "features": [
+          "圣史蒂芬绿地",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/St_Stephen's_Green"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "article": "St Stephen's Green"
+      },
+      {
+        "id": "dublin-temple-bar",
+        "name": "圣殿酒吧区",
+        "nameEn": "Temple Bar, Dublin",
+        "lat": 53.3456,
+        "lng": -6.264,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "街区漫步与小店浏览，餐饮演出另付。",
+        "features": [
+          "圣殿酒吧区",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Temple_Bar%2C_Dublin"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitdublin.com/things-to-do",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "brussels",
+    "name": "布鲁塞尔",
+    "nameEn": "Brussels",
+    "country": "比利时",
+    "countryCode": "BE",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 50.8503,
+    "lng": 4.3517,
+    "iata": "BRU",
+    "tagline": "在大广场的建筑细节、漫画与博物馆之间安排一段城市漫步。",
+    "description": "在大广场的建筑细节、漫画与博物馆之间安排一段城市漫步。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brussels"
+    },
+    "officialTourismUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+    "daily": {
+      "lodging": [
+        65,
+        135,
+        300
+      ],
+      "food": [
+        25,
+        55,
+        130
+      ],
+      "transport": [
+        7,
+        18,
+        55
+      ],
+      "misc": [
+        7,
+        18,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1000,
+        1800,
+        3800
+      ],
+      "utilities": [
+        120,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "brussels",
+      "intro": "在大广场的建筑细节、漫画与博物馆之间安排一段城市漫步。",
+      "foodHighlights": [
+        {
+          "name": "华夫饼与巧克力",
+          "description": "街头甜点和正式甜品店按份计费，购物另留预算。"
+        },
+        {
+          "name": "青口与薯条",
+          "description": "传统餐馆套餐留意份量、饮品和服务条件。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "大广场与老城",
+          "description": "拱廊、小巷与广场可以步行串联。"
+        },
+        {
+          "name": "欧洲区与五十周年公园",
+          "description": "离开核心老城后以轨道交通衔接。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "时间与路程按地理模型估算；实际公共交通时刻、营业安排和预约余位需确认。",
+    "attractions": [
+      {
+        "id": "brussels-grand-place",
+        "name": "布鲁塞尔大广场",
+        "nameEn": "Grand-Place",
+        "lat": 50.8467,
+        "lng": 4.3525,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "观察市政厅与行会建筑，室内展览另付。",
+        "features": [
+          "布鲁塞尔大广场",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand-Place"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "brussels-atomium",
+        "name": "原子球塔",
+        "nameEn": "Atomium",
+        "lat": 50.895,
+        "lng": 4.3416,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "进入城市标志性的球形建筑与展览。",
+        "features": [
+          "原子球塔",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Atomium"
+        },
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "brussels-manneken",
+        "name": "撒尿小童",
+        "nameEn": "Manneken Pis",
+        "lat": 50.845,
+        "lng": 4.35,
+        "durationHours": 0.5,
+        "category": "文化与风景",
+        "description": "老城街角的小型雕塑，适合顺路停留。",
+        "features": [
+          "撒尿小童",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 30,
+          "recommended": 30,
+          "max": 45
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Manneken_Pis"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "brussels-galleries",
+        "name": "圣于贝尔拱廊",
+        "nameEn": "Royal Saint-Hubert Galleries",
+        "lat": 50.8475,
+        "lng": 4.3544,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "穿过玻璃顶商业拱廊，消费另计。",
+        "features": [
+          "圣于贝尔拱廊",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Royal_Saint-Hubert_Galleries"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "brussels-magritte",
+        "name": "马格利特博物馆",
+        "nameEn": "Magritte Museum",
+        "lat": 50.8425,
+        "lng": 4.3581,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "从作品认识超现实主义艺术。",
+        "features": [
+          "马格利特博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magritte_Museum"
+        },
+        "price": {
+          "low": 10,
+          "high": 20,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "brussels-cinquantenaire",
+        "name": "五十周年纪念公园",
+        "nameEn": "Cinquantenaire",
+        "lat": 50.8405,
+        "lng": 4.3922,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在拱门与绿地间步行，周边博物馆另计。",
+        "features": [
+          "五十周年纪念公园",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cinquantenaire"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "brussels-comic",
+        "name": "比利时漫画中心",
+        "nameEn": "Belgian Comic Strip Center",
+        "lat": 50.851,
+        "lng": 4.3601,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在新艺术建筑中探索漫画文化。",
+        "features": [
+          "比利时漫画中心",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Belgian_Comic_Strip_Center"
+        },
+        "price": {
+          "low": 10,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "brussels-cathedral",
+        "name": "圣米歇尔及圣古都勒大教堂",
+        "nameEn": "Cathedral of St. Michael and St. Gudula",
+        "lat": 50.8479,
+        "lng": 4.3598,
+        "durationHours": 1,
+        "category": "文化与风景",
+        "description": "观看教堂主要开放区，地下遗址或专题参观另核。",
+        "features": [
+          "圣米歇尔及圣古都勒大教堂",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cathedral_of_St._Michael_and_St._Gudula"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visit.brussels/en/visitors/what-to-do/attractions-and-monuments.BME.251039",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dubrovnik",
+    "name": "杜布罗夫尼克",
+    "nameEn": "Dubrovnik",
+    "country": "克罗地亚",
+    "countryCode": "HR",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 42.6507,
+    "lng": 18.0944,
+    "iata": "DBV",
+    "tagline": "沿亚得里亚海的城墙和石街走一走，为海岛与山顶各留一点时间。",
+    "description": "沿亚得里亚海的城墙和石街走一走，为海岛与山顶各留一点时间。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dubrovnik"
+    },
+    "officialTourismUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+    "daily": {
+      "lodging": [
+        65,
+        150,
+        380
+      ],
+      "food": [
+        25,
+        60,
+        140
+      ],
+      "transport": [
+        7,
+        22,
+        70
+      ],
+      "misc": [
+        8,
+        20,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1000,
+        2300,
+        5000
+      ],
+      "utilities": [
+        100,
+        200,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "dubrovnik",
+      "intro": "沿亚得里亚海的城墙和石街走一走，为海岛与山顶各留一点时间。",
+      "foodHighlights": [
+        {
+          "name": "海鲜与黑墨鱼饭",
+          "description": "老城景观餐位与普通餐馆价差明显。"
+        },
+        {
+          "name": "达尔马提亚小食",
+          "description": "以橄榄油、奶酪与面包认识沿海餐桌。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "老城与城墙",
+          "description": "石阶较多，城墙独立购票，避免中午暴晒。"
+        },
+        {
+          "name": "洛克鲁姆与斯尔季山",
+          "description": "船程、缆车与天气都需要单独确认。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "时间与路程按地理模型估算；实际公共交通时刻、营业安排和预约余位需确认。",
+    "attractions": [
+      {
+        "id": "dubrovnik-walls",
+        "name": "杜布罗夫尼克城墙",
+        "nameEn": "Walls of Dubrovnik",
+        "lat": 42.6416,
+        "lng": 18.1085,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "走上城墙看红瓦屋顶与海岸线，提前核对票种。",
+        "features": [
+          "杜布罗夫尼克城墙",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Walls_of_Dubrovnik"
+        },
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "dubrovnik-stradun",
+        "name": "斯特拉顿大街",
+        "nameEn": "Stradun (street)",
+        "lat": 42.6414,
+        "lng": 18.1098,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "老城主街和街巷慢步。",
+        "features": [
+          "斯特拉顿大街",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Stradun_(street)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "dubrovnik-rector",
+        "name": "总督宫",
+        "nameEn": "Rector’s Palace, Dubrovnik",
+        "lat": 42.6402,
+        "lng": 18.1106,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "参观历史宫殿与城市收藏。",
+        "features": [
+          "总督宫",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rector's_Palace%2C_Dubrovnik"
+        },
+        "price": {
+          "low": 12,
+          "high": 20,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "article": "Rector's Palace, Dubrovnik"
+      },
+      {
+        "id": "dubrovnik-franciscan",
+        "name": "方济各会修道院",
+        "nameEn": "Franciscan Church and Monastery (Dubrovnik)",
+        "lat": 42.6421,
+        "lng": 18.1077,
+        "durationHours": 1.5,
+        "category": "文化与风景",
+        "description": "看回廊、药房相关历史与馆藏。",
+        "features": [
+          "方济各会修道院",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Franciscan_Church_and_Monastery_(Dubrovnik)"
+        },
+        "price": {
+          "low": 5,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "dubrovnik-lokrum",
+        "name": "洛克鲁姆岛",
+        "nameEn": "Lokrum",
+        "lat": 42.6277,
+        "lng": 18.1219,
+        "durationHours": 4,
+        "category": "文化与风景",
+        "description": "自然保护岛步道与修道院遗迹。",
+        "features": [
+          "洛克鲁姆岛",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 120,
+          "recommended": 240,
+          "max": 360
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lokrum"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "routeMode": "boat",
+        "accessNote": "必须船程；门票和船票可能为组合价，结算时核对避免重复。"
+      },
+      {
+        "id": "dubrovnik-srd",
+        "name": "斯尔季山",
+        "nameEn": "Srđ",
+        "lat": 42.6505,
+        "lng": 18.1107,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在山顶看古城和海湾；本条不含缆车票。",
+        "features": [
+          "斯尔季山",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sr%C4%91"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "routeMode": "road",
+        "accessNote": "到山顶需确认徒步、公路或缆车方案，缆车另付。"
+      },
+      {
+        "id": "dubrovnik-banje",
+        "name": "班杰海滩",
+        "nameEn": "Banje Beach",
+        "lat": 42.6416,
+        "lng": 18.1156,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在海滩公共区域休息，躺椅和餐饮另付。",
+        "features": [
+          "班杰海滩",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {},
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "dubrovnik-trsteno",
+        "name": "特尔斯泰诺植物园",
+        "nameEn": "Trsteno Arboretum",
+        "lat": 42.7137,
+        "lng": 17.977,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在城外古老花园看植物与海景。",
+        "features": [
+          "特尔斯泰诺植物园",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Trsteno_Arboretum"
+        },
+        "price": {
+          "low": 8,
+          "high": 15,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tzdubrovnik.hr/lang/en/news/spomenici/index.html",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "routeMode": "road",
+        "accessNote": "远郊景点，需要安排往返交通。"
+      }
+    ]
+  },
+  {
+    "id": "cappadocia",
+    "name": "卡帕多西亚·格雷梅",
+    "nameEn": "Cappadocia",
+    "country": "土耳其",
+    "countryCode": "TR",
+    "currency": "TRY",
+    "region": "亚洲",
+    "lat": 38.6431,
+    "lng": 34.8286,
+    "iata": "NAV",
+    "tagline": "以格雷梅为落脚点，把洞穴遗址、山谷与清晨的天空分开安排。",
+    "description": "以格雷梅为落脚点，把洞穴遗址、山谷与清晨的天空分开安排。",
+    "tags": [
+      "文化与风景",
+      "当地生活",
+      "自由探索"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cappadocia"
+    },
+    "officialTourismUrl": "https://goturkiye.com/cappadocia/routes",
+    "daily": {
+      "lodging": [
+        2000,
+        4500,
+        12000
+      ],
+      "food": [
+        800,
+        1700,
+        4200
+      ],
+      "transport": [
+        350,
+        1200,
+        3500
+      ],
+      "misc": [
+        200,
+        600,
+        1600
+      ]
+    },
+    "monthly": {
+      "rent": [
+        18000,
+        40000,
+        100000
+      ],
+      "utilities": [
+        1800,
+        3500,
+        6500
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-22",
+      "note": "经济/舒适/高端为人工规划区间，非实时报价，也非市场最低最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天。月租、水电按每房每月；季节、车型、地段与税费须逐项核对。"
+    },
+    "guide": {
+      "cityId": "cappadocia",
+      "intro": "以格雷梅为落脚点，把洞穴遗址、山谷与清晨的天空分开安排。",
+      "foodHighlights": [
+        {
+          "name": "陶罐炖肉",
+          "description": "注意需提前预订的制作时间与份量。"
+        },
+        {
+          "name": "土耳其早餐",
+          "description": "酒店早餐是否含在房费中，订房时先确认。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "格雷梅与乌奇希萨尔",
+          "description": "步道、岩石城堡和洞穴旅馆分布在山谷与坡地。"
+        },
+        {
+          "name": "地下城与伊赫拉拉",
+          "description": "较远遗址适合独立公路日，避免与清晨飞行挤在一起。"
+        }
+      ],
+      "experienceIntro": "先挑选真正感兴趣的地点；项目时段、交通与预约条件请在官方页面确认。"
+    },
+    "transportNote": "NAV为门户机场之一，也可查ASR；目的地是格雷梅周边区域。地形有坡度，跨谷与地下城按公路估算；热气球须另订运营方并受天气影响。",
+    "routeMode": "road",
+    "attractions": [
+      {
+        "id": "cappadocia-goreme",
+        "name": "格雷梅露天博物馆",
+        "nameEn": "Göreme Open Air Museum",
+        "lat": 38.6402,
+        "lng": 34.845,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "洞穴教堂与壁画遗址，特殊展区可能另票。",
+        "features": [
+          "格雷梅露天博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/G%C3%B6reme_Open_Air_Museum"
+        },
+        "price": {
+          "low": 1200,
+          "high": 2000,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "cappadocia-uchisar",
+        "name": "乌奇希萨尔城堡",
+        "nameEn": "Uçhisar",
+        "lat": 38.6304,
+        "lng": 34.8049,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "登上岩石城堡看周边山谷。",
+        "features": [
+          "乌奇希萨尔城堡",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 95,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/U%C3%A7hisar"
+        },
+        "price": {
+          "low": 150,
+          "high": 400,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "cappadocia-kaymakli",
+        "name": "凯马克勒地下城",
+        "nameEn": "Kaymakli Underground City",
+        "lat": 38.4606,
+        "lng": 34.7523,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "在开放通道中认识地下聚落。",
+        "features": [
+          "凯马克勒地下城",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 92,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kaymakl%C4%B1_underground_city"
+        },
+        "price": {
+          "low": 600,
+          "high": 1100,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "article": "Kaymaklı underground city",
+        "accessNote": "狭窄阶梯与低顶空间，按体力和闭塞空间耐受选择。"
+      },
+      {
+        "id": "cappadocia-derinkuyu",
+        "name": "代林库尤地下城",
+        "nameEn": "Derinkuyu underground city",
+        "lat": 38.3735,
+        "lng": 34.7348,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "参观地下空间，路线和开放层数以现场为准。",
+        "features": [
+          "代林库尤地下城",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 89,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Derinkuyu_underground_city"
+        },
+        "price": {
+          "low": 600,
+          "high": 1100,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "cappadocia-zelve",
+        "name": "泽尔维露天博物馆",
+        "nameEn": "Zelve Open Air Museum",
+        "lat": 38.6697,
+        "lng": 34.8562,
+        "durationHours": 2.5,
+        "category": "文化与风景",
+        "description": "在岩洞和山谷遗址间慢走。",
+        "features": [
+          "泽尔维露天博物馆",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Zelve_Open_Air_Museum"
+        },
+        "price": {
+          "low": 350,
+          "high": 700,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        }
+      },
+      {
+        "id": "cappadocia-avanos",
+        "name": "阿瓦诺斯老镇",
+        "nameEn": "Avanos",
+        "lat": 38.7192,
+        "lng": 34.8461,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "红河岸边与制陶街区漫步，制陶课程另付。",
+        "features": [
+          "阿瓦诺斯老镇",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 83,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Avanos"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        }
+      },
+      {
+        "id": "cappadocia-ihlara",
+        "name": "伊赫拉拉峡谷",
+        "nameEn": "Ihlara Valley",
+        "lat": 38.2536,
+        "lng": 34.3018,
+        "durationHours": 4,
+        "category": "文化与风景",
+        "description": "选择一段峡谷步道和开放岩石教堂。",
+        "features": [
+          "伊赫拉拉峡谷",
+          "可预约参观",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 80,
+        "durationRange": {
+          "min": 120,
+          "recommended": 240,
+          "max": 360
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ihlara_Valley"
+        },
+        "price": {
+          "low": 450,
+          "high": 850,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "人工票价预算区间，未核验所选日期报价；来源确认地点与服务，不能作为价格凭证。交通、停车、导览及附加项目除非明确列出均另计。"
+        },
+        "accessNote": "远郊且需步行体力，往返公路时间不包含在观光用时中。"
+      },
+      {
+        "id": "cappadocia-pigeon",
+        "name": "鸽子谷",
+        "nameEn": "Pigeon Valley",
+        "lat": 38.6345,
+        "lng": 34.8128,
+        "durationHours": 2,
+        "category": "文化与风景",
+        "description": "从观景点或开放步道欣赏鸽舍与岩石地形。",
+        "features": [
+          "鸽子谷",
+          "公共区域",
+          "自由选择用时"
+        ],
+        "bestTime": "白天；开放时段请确认",
+        "priority": 77,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "image": {},
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "TRY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://goturkiye.com/cappadocia/routes",
+          "sourceName": "官方旅游或场馆资料",
+          "note": "公共区域或基础参观按零门票规划，开放状态未逐项实时核验；停车、交通、展览和消费另计。"
+        },
+        "noArticle": true
+      }
+    ]
+  }
+]

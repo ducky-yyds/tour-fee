@@ -30,9 +30,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      # This isolated database contains only public-source maintenance snapshots.
-      # It is cached in Actions, never committed or uploaded as a Pages artifact.
-      TRAVEL_DB_PATH: ${{ runner.temp }}/tusuan-pages.sqlite
       AUTO_UPDATE: '0'
     steps:
       - name: Check out repository
@@ -68,6 +65,9 @@ jobs:
         if: github.event_name == 'push' || inputs.refresh_data
         continue-on-error: true
         timeout-minutes: 15
+        env:
+          # Cache only public-source snapshots, never the user's local database.
+          TRAVEL_DB_PATH: ${{ runner.temp }}/tusuan-pages.sqlite
         run: npm run update:data
       - name: Explain partial source update
         if: steps.update.outcome == 'failure'
@@ -78,6 +78,7 @@ jobs:
       - name: Export public snapshots and build static app
         env:
           PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH || steps.pages.outputs.base_path }}
+          TRAVEL_DB_PATH: ${{ runner.temp }}/tusuan-pages.sqlite
         run: npm run build:pages
       - name: Cache public maintenance results
         uses: actions/cache/save@v6

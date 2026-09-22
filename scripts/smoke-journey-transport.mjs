@@ -96,7 +96,6 @@ async function scenePhoto(item) {
   assert(details.alt.trim().length > 0, item.id);
   const scene = node.locator('.timeline-scene');
   if (await scene.count()) {
-    assert.match(await scene.locator('figcaption').textContent(), /参考图/, item.id);
     assert.match(await scene.locator('figcaption a').first().getAttribute('href'), /^https?:\/\//, item.id);
   }
   return { itemId: item.id, ...details };

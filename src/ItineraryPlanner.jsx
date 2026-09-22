@@ -1656,7 +1656,6 @@ function RoutineItem({ item, city, plan, onEditLine, samples, costText }) {
         <figure className="timeline-scene">
           <Photo image={media.image} alt={media.alt} />
           <figcaption>
-            <span>{media.label}</span>
             {media.image?.sourceUrl && (
               <span className="routine-photo-credit">
                 <a href={media.image.sourceUrl} target="_blank" rel="noopener noreferrer"

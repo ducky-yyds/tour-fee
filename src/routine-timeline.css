@@ -86,7 +86,7 @@ details.routine-description > p { margin-top: 7px; }
 @media (max-width: 600px) {
   .timeline-routine.has-scene { grid-template-columns: minmax(0, 1fr); }
   .timeline-scene { min-height: 112px; height: 112px; }
-  .timeline-scene figcaption { min-height: 112px; flex-direction: row; align-items: flex-end; justify-content: space-between; gap: 10px; }
+  .timeline-scene figcaption { min-height: 112px; flex-direction: row; align-items: flex-end; justify-content: flex-end; gap: 10px; }
   .timeline-scene figcaption .routine-photo-credit { max-width: 58%; text-align: right; }
   .timeline-scene::after { background: linear-gradient(180deg, transparent 15%, #132c24c9); }
   .routine-body { padding: 13px; }

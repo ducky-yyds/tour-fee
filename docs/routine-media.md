@@ -1,6 +1,6 @@
 # 日程场景照片
 
-日程的早餐、用餐、交通和住宿图片用于帮助识别活动类型，全部明确标注“场景参考图”。它们不表示已确认的航班、车辆、餐厅、菜品、房态或酒店预订。2026-09-23（北京时间）通过 Wikimedia Commons 的文件信息 API 核对摄影作品、作者及许可证，下载官方 960 像素缩略图；未生成图像或替换原有目的地图片。
+日程的早餐、用餐、交通和住宿图片用于帮助识别活动类型。图片保留摄影署名和许可来源，场景说明与参考属性记录在替代文本和元数据中，不在图片上叠加类型标签。它们不表示已确认的航班、车辆、餐厅、菜品、房态或酒店预订。2026-09-23（北京时间）通过 Wikimedia Commons 的文件信息 API 核对摄影作品、作者及许可证，下载官方 960 像素缩略图；未生成图像或替换原有目的地图片。
 
 | 用途 | 作者 | 许可证 | 原始作品页 |
 | --- | --- | --- | --- |
@@ -22,6 +22,6 @@
 - 图片 `url` 使用 `/images/...`，通过现有 `<Photo>` / `assetUrl` 自动适配 `/tour-fee/`，不会在静态 Pages 请求根目录图片。
 - `scripts/fetch-routine-images.py`：仅用 Python 3 标准库重新查询许可并下载官方缩略图；不进行图像编辑。运行 `py -3 scripts/fetch-routine-images.py`（Linux/macOS 用 `python3`）。
 
-`arrival-ready` / `journeyPhase: arrived` 优先用当地城市图片；`routineType: citywalk` 优先用 `suggestedPlaces` 的实际景点图片，其次对应交通终点的景点图和城市图，并标“周边景点参考图”或“城市参考图”。缺图则返回 `null`，不会拿别的城市充数。
+`arrival-ready` / `journeyPhase: arrived` 优先用当地城市图片；`routineType: citywalk` 优先用 `suggestedPlaces` 的实际景点图片，其次对应交通终点的景点图和城市图。接口中的 `label` 保留图片类别信息，界面无需展示该标签。缺图则返回 `null`，不会拿别的城市充数。
 
-酒店或餐馆原有 `imageRef` 可能只是附近地标。只有照片的 `subjectId`、`experienceId` 或 `entityId` 明确匹配经营者 ID，才以“地点资料图”展示；其他情况使用带标签的通用参考图。没有实际交通方式的抵达提醒不会默认变成飞机图。
+酒店或餐馆原有 `imageRef` 可能只是附近地标。只有照片的 `subjectId`、`experienceId` 或 `entityId` 明确匹配经营者 ID，才使用对应地点照片；其他情况使用通用场景照片。没有实际交通方式的抵达提醒不会默认变成飞机图。

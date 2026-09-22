@@ -24,10 +24,11 @@ import { convertCurrency } from "../shared/planner.mjs";
 import { getVisitDurationRange } from "../shared/itinerary.mjs";
 import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import { Photo, Modal, OutLink, money } from "./ui.jsx";
+import CityBrief from "./CityBrief.jsx";
 import "./city-home.css";
 
 const TABS = [
-  { id: "sights", name: "想去的景点", short: "景点", icon: Compass },
+  { id: "sights", name: "景点与慢游", short: "去处", icon: Compass },
   { id: "restaurant", name: "在这里吃饭", short: "餐厅", icon: Utensils },
   { id: "hotel", name: "选一处好住处", short: "酒店", icon: BedDouble },
   { id: "experience", name: "值得专程体验", short: "体验", icon: Sparkles },
@@ -58,7 +59,7 @@ function initialDraft(city, plan) {
   const stop = plan?.stops?.find((item) => item.cityId === city.id);
   return {
     days: stop?.days || recommendedDays(city),
-    daysSource: stop?.days ? (stop.daysSource || 'user') : 'recommendation',
+    daysSource: stop?.days ? stop.daysSource || "user" : "recommendation",
     attractionIds: [...asArray(stop?.attractionIds)],
     experienceSelections: asArray(stop?.experienceSelections).map((item) => ({
       ...item,
@@ -115,7 +116,9 @@ function PriceSource({ price, sourceUrl }) {
             ? "用户填写预算"
             : "参考预算 · 非实时售价"}
       </span>
-      {url && <OutLink href={url}>{official ? "价格来源" : "商家与查询来源"}</OutLink>}
+      {url && (
+        <OutLink href={url}>{official ? "价格来源" : "商家与查询来源"}</OutLink>
+      )}
     </div>
   );
 }
@@ -260,14 +263,27 @@ export default function CityHome({
     );
   }, [sourceList, query, category, tab]);
   const passGroups = new Map();
-  for (const sight of selectedSights) if (sight.price.passGroup) passGroups.set(sight.price.passGroup, (passGroups.get(sight.price.passGroup) || 0) + 1);
+  for (const sight of selectedSights)
+    if (sight.price.passGroup)
+      passGroups.set(
+        sight.price.passGroup,
+        (passGroups.get(sight.price.passGroup) || 0) + 1,
+      );
   const countedPasses = new Set();
   const subtotal = [
     ...selectedSights.flatMap((a) => {
       const group = a.price.passGroup;
       if (group && countedPasses.has(group)) return [];
       if (group) countedPasses.add(group);
-      return [{ price:a.price, quantity:people, maxQuantity:group ? people * Math.min(draft.days,passGroups.get(group)) : people }];
+      return [
+        {
+          price: a.price,
+          quantity: people,
+          maxQuantity: group
+            ? people * Math.min(draft.days, passGroups.get(group))
+            : people,
+        },
+      ];
     }),
     ...resolved.map(({ experience, option }) => ({
       price: option,
@@ -304,7 +320,7 @@ export default function CityHome({
   const totalSelected = selectedSights.length + resolved.length;
   const guide = city.guide || {};
 
-  function changeDays(value, daysSource = 'user') {
+  function changeDays(value, daysSource = "user") {
     const days = Number(value);
     if (!Number.isInteger(days) || days < 1 || days > 365) {
       setDayError("请输入 1–365 之间的整数天数");
@@ -408,7 +424,7 @@ export default function CityHome({
       <div className="ch-topbar">
         <button className="text-button" onClick={onBack}>
           <ArrowLeft size={16} />
-            返回城市列表
+          返回城市列表
         </button>
         <label className="ch-city-switch">
           <GlobeIcon />
@@ -476,37 +492,14 @@ export default function CityHome({
         </div>
         <ImageCredit image={city.image} />
       </section>
-      <section className="ch-introduction">
-        <div>
-          <span className="eyebrow">
-            GET TO KNOW {city.nameEn?.toUpperCase()}
-          </span>
-          <h2>先认识一座城，再决定怎样停留。</h2>
-        </div>
-        <p>{guide.intro || city.description}</p>
-      </section>
-      {city.transportNote && <div className="ch-destination-note"><MapPin size={18} /><div><strong>在这里，怎样安排交通</strong><p>{city.transportNote}</p>{city.budgetBasis?.note && <small>{city.budgetBasis.note}</small>}{city.officialTourismUrl && <OutLink href={city.officialTourismUrl}>官方目的地指南</OutLink>}</div></div>}
-      {(asArray(guide.foodHighlights).length > 0 ||
-        asArray(guide.neighborhoods).length > 0) && (
-        <div className="ch-guide-grid">
-          <GuideNotes
-            title="从一口当地味道开始"
-            eyebrow="LOCAL FLAVOURS"
-            icon={Utensils}
-            items={guide.foodHighlights}
-            onClick={() => {
-              goTab("restaurant");
-              catalogRef.current?.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
-          <GuideNotes
-            title="把时间留给这些街区"
-            eyebrow="NEIGHBOURHOOD NOTES"
-            icon={MapPin}
-            items={guide.neighborhoods}
-          />
-        </div>
-      )}
+      <CityBrief
+        key={city.id}
+        city={city}
+        onRestaurants={() => {
+          goTab("restaurant");
+          catalogRef.current?.scrollIntoView({ behavior: "smooth" });
+        }}
+      />
       <div className="ch-content-layout">
         <section className="ch-catalog" ref={catalogRef}>
           <div className="ch-section-heading">
@@ -515,7 +508,7 @@ export default function CityHome({
               <h2>这一次，想怎样遇见{city.name}？</h2>
             </div>
             <span>
-              {sights.length} 个景点 · {experiences.length} 个餐宿与体验
+              {sights.length} 个去处 · {experiences.length} 个餐宿与体验
             </span>
           </div>
           <div className="ch-tabs" role="tablist" aria-label="城市体验分类">
@@ -596,7 +589,9 @@ export default function CityHome({
               {query || category !== "all"
                 ? `找到 ${filtered.length} 个项目`
                 : tab === "sights"
-                  ? "先选喜欢的地点，生成时再按路线与时间安排。"
+                  ? city.planningProfile === "leisure"
+                    ? "留一个午后慢慢体验，生成时会为度假与休息留出时间。"
+                    : "选喜欢的风景与当地体验，再按路线与时间安排。"
                   : tab === "restaurant"
                     ? "选定餐厅与套餐，对应餐次会替换基础餐饮预算。"
                     : tab === "hotel"
@@ -619,7 +614,7 @@ export default function CityHome({
                 }
               >
                 <Plus size={14} />
-                加入{query || category !== "all" ? "筛选结果" : "全部景点"}
+                加入{query || category !== "all" ? "筛选结果" : "全部去处"}
               </button>
             )}
           </div>
@@ -738,7 +733,25 @@ export default function CityHome({
               <span>天</span>
             </div>
           </label>
-          <div className="ch-duration-hint"><span>{getTripDuration(city).type === 'provisional' ? '暂定' : '初次到访建议'} {getTripDuration(city).label}</span><button className="text-button" onClick={() => changeDays(recommendedDays(city), 'recommendation')}>采用 {recommendedDays(city)} 天</button><small>{getTripDuration(city).reason} 长途交通可能需要额外留出时间。</small></div>
+          <div className="ch-duration-hint">
+            <span>
+              {getTripDuration(city).type === "provisional"
+                ? "暂定"
+                : "初次到访建议"}{" "}
+              {getTripDuration(city).label}
+            </span>
+            <button
+              className="text-button"
+              onClick={() =>
+                changeDays(recommendedDays(city), "recommendation")
+              }
+            >
+              采用 {recommendedDays(city)} 天
+            </button>
+            <small>
+              {getTripDuration(city).reason} 长途交通可能需要额外留出时间。
+            </small>
+          </div>
           {dayError && (
             <p className="ch-field-error" role="alert">
               {dayError}
@@ -839,7 +852,8 @@ export default function CityHome({
             <p>
               按 {people} 人计算；酒店按 {rooms} 间 × {nights}{" "}
               晚。交通、剩余餐食及其他开销会在完整预算中另列。
-              {passGroups.size > 0 && " 通票按同日共用至分日使用的范围预留；生成后按实际游览日去重，增加天数会重新核算。"}
+              {passGroups.size > 0 &&
+                " 通票按同日共用至分日使用的范围预留；生成后按实际游览日去重，增加天数会重新核算。"}
             </p>
           </div>
           <div className="ch-budget-note">
@@ -910,39 +924,6 @@ export default function CityHome({
 
 function GlobeIcon() {
   return <Compass size={15} />;
-}
-function GuideNotes({ title, eyebrow, icon: Icon, items, onClick }) {
-  if (!asArray(items).length) return null;
-  return (
-    <section className="ch-guide-card">
-      <div className="ch-guide-heading">
-        <span className="ch-guide-icon">
-          <Icon size={19} />
-        </span>
-        <div>
-          <span className="eyebrow">{eyebrow}</span>
-          <h3>{title}</h3>
-        </div>
-      </div>
-      <div className="ch-guide-items">
-        {items.slice(0, 3).map((item, index) => (
-          <div key={item.name || index}>
-            <span>{String(index + 1).padStart(2, "0")}</span>
-            <p>
-              <strong>{typeof item === "string" ? item : item.name}</strong>
-              {item.description && <small>{item.description}</small>}
-            </p>
-          </div>
-        ))}
-      </div>
-      {onClick && (
-        <button className="text-button" onClick={onClick}>
-          看看餐厅与用餐预算
-          <ArrowRight size={14} />
-        </button>
-      )}
-    </section>
-  );
 }
 function SightCard({
   item,

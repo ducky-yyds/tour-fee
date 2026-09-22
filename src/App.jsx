@@ -68,7 +68,6 @@ import {
   Route,
   Save,
   Search,
-  Settings2,
   ShieldCheck,
   Sparkles,
   Sun,
@@ -2110,36 +2109,6 @@ export default function App() {
                 )}
               </div>
               <aside className="budget-column">
-                <section className="style-panel panel" aria-label="旅行风格与预算档位">
-                  <div className="panel-heading">
-                    <h3>
-                      <Settings2 size={17} />
-                      这次，想怎样旅行？
-                    </h3>
-                    <span className="small muted">预算随你的选择实时更新</span>
-                  </div>
-                  <div className="tier-grid">
-                    {TIERS.map((t, i) => (
-                      <button
-                        key={t.name}
-                        className={
-                          "tier-card " + (plan.tier === i ? "active" : "")
-                        }
-                        aria-pressed={plan.tier === i}
-                        onClick={() => change({ tier: i })}
-                      >
-                        <t.icon size={22} strokeWidth={1.4} />
-                        <span>
-                          <strong>{t.name}</strong>
-                          <small>{t.description}</small>
-                        </span>
-                        <span className="radio-circle">
-                          {plan.tier === i && <Check size={10} />}
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                </section>
                 <section className="budget-panel panel">
                   <div className="budget-top">
                     <span>
@@ -2164,6 +2133,24 @@ export default function App() {
                       {budget?.incomplete ? '已知部分区间' : '参考区间'} {money(budget?.low, plan.currency)} —{" "}
                       {money(budget?.high, plan.currency)}
                     </p>
+                  </div>
+                  <div className="style-panel" role="group" aria-label="旅行风格与预算档位">
+                    <div className="budget-style-label">旅行风格</div>
+                    <div className="tier-grid">
+                      {TIERS.map((t, i) => (
+                        <button
+                          key={t.name}
+                          type="button"
+                          className={"tier-card " + (plan.tier === i ? "active" : "")}
+                          aria-pressed={plan.tier === i}
+                          aria-description={t.description}
+                          title={t.description}
+                          onClick={() => change({ tier: i })}
+                        >
+                          {t.name}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                   {budget?.incomplete && <div className="airport-budget-notice" role="status">仍有 {budget.missingCosts?.length} 项食宿等费用待补充。上方金额不是完整旅行总价，可在消费偏好和费用明细中录入。</div>}
                   <div className="budget-mini-stats">

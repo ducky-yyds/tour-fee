@@ -62,14 +62,33 @@ async function noOverflow() {
   if (sizes.dialog) assert(sizes.dialog.scroll <= sizes.dialog.client + 1 && sizes.dialog.left >= -1 && sizes.dialog.right <= sizes.viewport + 1, JSON.stringify(sizes));
   return sizes;
 }
-async function styleBeforeBudget() {
+async function compactStyleInBudget() {
   const layout = await page.evaluate(() => {
     const style = document.querySelector('.style-panel'), budget = document.querySelector('.budget-panel');
-    return { inDomOrder: !!(style.compareDocumentPosition(budget) & Node.DOCUMENT_POSITION_FOLLOWING), bottom: style.getBoundingClientRect().bottom, budgetTop: budget.getBoundingClientRect().top, count: document.querySelectorAll('.style-panel').length };
+    const grid = style.querySelector('.tier-grid'), amount = budget.querySelector('.budget-total h2');
+    const box = node => { const { left, right, top, bottom, width, height } = node.getBoundingClientRect(); return { left, right, top, bottom, width, height }; };
+    return {
+      contained: budget.contains(style),
+      count: document.querySelectorAll('.style-panel').length,
+      gridCount: document.querySelectorAll('.tier-grid').length,
+      budget: box(budget), style: box(style), grid: box(grid), amount: box(amount),
+      options: [...grid.querySelectorAll('.tier-card')].map(box),
+    };
   });
-  assert.equal(layout.inDomOrder, true);
+  assert.equal(layout.contained, true, 'Travel style belongs inside the budget card');
   assert.equal(layout.count, 1);
-  assert(layout.bottom <= layout.budgetTop + 1, JSON.stringify(layout));
+  assert.equal(layout.gridCount, 1);
+  assert.equal(layout.options.length, 3);
+  assert(layout.style.height > 0 && layout.style.height <= 100, `Travel style should stay compact: ${JSON.stringify(layout)}`);
+  assert(layout.grid.height > 0 && layout.grid.height <= 96, JSON.stringify(layout));
+  assert(layout.amount.height > 0 && layout.amount.bottom <= layout.style.top + 1, `Show the budget amount before the style controls: ${JSON.stringify(layout)}`);
+  const inside = (inner, outer) => inner.left >= outer.left - 1 && inner.right <= outer.right + 1 && inner.top >= outer.top - 1 && inner.bottom <= outer.bottom + 1;
+  assert(inside(layout.style, layout.budget) && inside(layout.amount, layout.budget), JSON.stringify(layout));
+  assert(layout.options.every(option => option.width > 0 && option.height > 0 && inside(option, layout.style)), JSON.stringify(layout));
+  assert(Math.max(...layout.options.map(option => option.top)) - Math.min(...layout.options.map(option => option.top)) <= 1, `Three compact options should share one row: ${JSON.stringify(layout)}`);
+  const overlap = (a, b) => a.right > b.left + 1 && b.right > a.left + 1 && a.bottom > b.top + 1 && b.bottom > a.top + 1;
+  assert(layout.options.every(option => !overlap(option, layout.amount)), `Style controls must not cover the budget amount: ${JSON.stringify(layout)}`);
+  for (let i = 0; i < layout.options.length; i++) for (let j = i + 1; j < layout.options.length; j++) assert(!overlap(layout.options[i], layout.options[j]), JSON.stringify(layout));
   return layout;
 }
 async function apiBudget() {
@@ -119,20 +138,21 @@ try {
     assert.deepEqual((await current()).stops.map(({ cityId, days }) => ({ cityId, days })), expected);
     return expected;
   });
-  await check('travel style is above the budget and changing tier immediately updates the budget', async () => {
-    const layout = await styleBeforeBudget();
-    await page.locator('.style-panel .tier-card').nth(0).click();
+  await check('compact travel style sits inside the budget card without covering its amount and tier changes update it', async () => {
+    const layout = await compactStyleInBudget();
+    await page.locator('.budget-panel .tier-card').nth(0).click();
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('tusuan-current')).tier === 0);
     await page.waitForTimeout(400);
     const low = await page.locator('.budget-total h2').textContent();
     const lowBudget = await apiBudget();
-    await page.locator('.style-panel .tier-card').nth(2).click();
+    await page.locator('.budget-panel .tier-card').nth(2).click();
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('tusuan-current')).tier === 2);
     await page.waitForFunction(before => document.querySelector('.budget-total h2').textContent !== before, low);
     const high = await page.locator('.budget-total h2').textContent();
     const highBudget = await apiBudget();
     assert(highBudget.total > lowBudget.total, `${highBudget.total} <= ${lowBudget.total}`);
-    assert.equal(await page.locator('.style-panel .tier-card').nth(2).getAttribute('aria-pressed'), 'true');
+    assert.equal(await page.locator('.budget-panel .tier-card').nth(2).getAttribute('aria-pressed'), 'true');
+    await compactStyleInBudget();
     return { layout, low, high, lowerTotal: lowBudget.total, higherTotal: highBudget.total };
   });
   await check('adding Thailand preserves the manual stop and unaffected quotes, while changed nights and return are requoted', async () => {
@@ -209,10 +229,10 @@ try {
     assert.equal((await current()).stops.reduce((sum, row) => sum + row.days, 0), 10);
     return sizes;
   });
-  await check('390px travel style stays above the budget without page overflow', async () => {
+  await check('390px travel style stays compact inside the budget card without covering the amount or overflowing', async () => {
     const sizes = await noOverflow();
-    const layout = await styleBeforeBudget();
-    await page.locator('.style-panel').scrollIntoViewIfNeeded();
+    const layout = await compactStyleInBudget();
+    await page.locator('.budget-panel').scrollIntoViewIfNeeded();
     await screenshot('country-budget-style-mobile-390');
     return { sizes, layout };
   });

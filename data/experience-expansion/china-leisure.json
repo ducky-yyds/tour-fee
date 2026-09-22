@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "ex-chongqing-hotel-jw-marriott",
+    "cityId": "chongqing",
+    "kind": "hotel",
+    "name": "重庆 JW 万豪酒店",
+    "nameEn": "JW Marriott Hotel Chongqing",
+    "provider": "JW Marriott Hotel Chongqing",
+    "tagline": "解放碑商圈 · 城市高层 · 客房与套房",
+    "description": "官网介绍的 重庆 JW 万豪酒店，位于渝中区民生路 235 号。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "渝中区民生路 235 号",
+    "lat": 29.555,
+    "lng": 106.572,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "解放碑商圈",
+      "城市高层",
+      "客房与套房"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/ckgjw-jw-marriott-hotel-chongqing/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/ckgjw-jw-marriott-hotel-chongqing/overview/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 650,
+        "high": 1100,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/ckgjw-jw-marriott-hotel-chongqing/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "高级客房 · 编辑预算",
+        "description": "一间高级客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1100,
+        "high": 2000,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/ckgjw-jw-marriott-hotel-chongqing/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-jinan-hotel-shangri-la",
+    "cityId": "jinan",
+    "kind": "hotel",
+    "name": "济南香格里拉",
+    "nameEn": "Shangri-La Jinan",
+    "provider": "Shangri-La Jinan",
+    "tagline": "泉城广场周边 · 市区步行 · 客房与套房",
+    "description": "官网介绍的 济南香格里拉，位于历下区泺源大街，泉城广场周边。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "历下区泺源大街，泉城广场周边",
+    "lat": 36.658,
+    "lng": 117.019,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "泉城广场周边",
+      "市区步行",
+      "客房与套房"
+    ],
+    "sourceUrl": "https://www.shangri-la.com/jinan/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/jinan/shangrila/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 650,
+        "high": 1100,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/jinan/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "城市景观客房 · 编辑预算",
+        "description": "一间城市景观客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1100,
+        "high": 1900,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/jinan/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-zhengzhou-hotel-jw-marriott",
+    "cityId": "zhengzhou",
+    "kind": "hotel",
+    "name": "郑州 JW 万豪酒店",
+    "nameEn": "JW Marriott Hotel Zhengzhou",
+    "provider": "JW Marriott Hotel Zhengzhou",
+    "tagline": "千玺广场 · 如意湖周边 · 城市高层",
+    "description": "官网介绍的 郑州 JW 万豪酒店，位于郑东新区商务中央公园，千玺广场。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "郑东新区商务中央公园，千玺广场",
+    "lat": 34.774,
+    "lng": 113.731,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "千玺广场",
+      "如意湖周边",
+      "城市高层"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/cgojw-jw-marriott-hotel-zhengzhou/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/cgojw-jw-marriott-hotel-zhengzhou/overview/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 650,
+        "high": 1100,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/cgojw-jw-marriott-hotel-zhengzhou/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "高级客房 · 编辑预算",
+        "description": "一间高级客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1100,
+        "high": 2000,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/cgojw-jw-marriott-hotel-zhengzhou/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-haikou-hotel-ritz-carlton",
+    "cityId": "haikou",
+    "kind": "hotel",
+    "name": "海口丽思卡尔顿酒店",
+    "nameEn": "The Ritz-Carlton Haikou",
+    "provider": "The Ritz-Carlton Haikou",
+    "tagline": "观澜湖度假区 · 高尔夫景观 · 套房选择",
+    "description": "官网介绍的 海口丽思卡尔顿酒店，位于海口观澜湖旅游度假区。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。酒店位于观澜湖度假区，往返骑楼老城需要接驳。",
+    "address": "海口观澜湖旅游度假区",
+    "lat": 19.907,
+    "lng": 110.326,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "观澜湖度假区",
+      "高尔夫景观",
+      "套房选择"
+    ],
+    "sourceUrl": "https://www.ritzcarlton.com/en/hotels/hakrz-the-ritz-carlton-haikou/rooms/",
+    "bookingUrl": "https://www.ritzcarlton.com/en/hotels/hakrz-the-ritz-carlton-haikou/rooms/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1000,
+        "high": 1700,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ritzcarlton.com/en/hotels/hakrz-the-ritz-carlton-haikou/rooms/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "套房 · 编辑预算",
+        "description": "一间套房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1800,
+        "high": 3500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ritzcarlton.com/en/hotels/hakrz-the-ritz-carlton-haikou/rooms/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-sanya-hotel-mandarin-oriental",
+    "cityId": "sanya",
+    "kind": "hotel",
+    "name": "三亚珊瑚湾文华东方酒店",
+    "nameEn": "Mandarin Oriental Sanya",
+    "provider": "Mandarin Oriental Sanya",
+    "tagline": "珊瑚湾 · 热带庭园 · 海滨度假",
+    "description": "官网介绍的 三亚珊瑚湾文华东方酒店，位于吉阳区大东海珊瑚湾，榆海路。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "吉阳区大东海珊瑚湾，榆海路",
+    "lat": 18.214,
+    "lng": 109.54,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "珊瑚湾",
+      "热带庭园",
+      "海滨度假"
+    ],
+    "sourceUrl": "https://www.mandarinoriental.com/id/sanya/dadonghai",
+    "bookingUrl": "https://www.mandarinoriental.com/id/sanya/dadonghai",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1800,
+        "high": 3200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.mandarinoriental.com/id/sanya/dadonghai",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "套房 · 编辑预算",
+        "description": "一间套房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 3200,
+        "high": 6500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.mandarinoriental.com/id/sanya/dadonghai",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-wanning-hotel-le-meridien",
+    "cityId": "wanning",
+    "kind": "hotel",
+    "name": "石梅湾艾美度假酒店",
+    "nameEn": "Le Meridien Shimei Bay Beach Resort and Spa",
+    "provider": "Le Meridien Shimei Bay Beach Resort and Spa",
+    "tagline": "石梅湾海岸 · 热带园林 · 别墅选择",
+    "description": "官网介绍的 石梅湾艾美度假酒店，位于万宁市石梅湾度假区。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "万宁市石梅湾度假区",
+    "lat": 18.665,
+    "lng": 110.251,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "石梅湾海岸",
+      "热带园林",
+      "别墅选择"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/syxmd-le-meridien-shimei-bay-beach-resort-and-spa/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/syxmd-le-meridien-shimei-bay-beach-resort-and-spa/overview/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 750,
+        "high": 1500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/syxmd-le-meridien-shimei-bay-beach-resort-and-spa/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "别墅房型 · 编辑预算",
+        "description": "一间别墅房型住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1600,
+        "high": 3200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/syxmd-le-meridien-shimei-bay-beach-resort-and-spa/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-lingshui-hotel-raffles",
+    "cityId": "lingshui",
+    "kind": "hotel",
+    "name": "海南清水湾莱佛士酒店",
+    "nameEn": "Raffles Hainan Clear Water Bay",
+    "provider": "Raffles Hainan Clear Water Bay",
+    "tagline": "清水湾 · 海岸度假 · 海景房选择",
+    "description": "官网介绍的 海南清水湾莱佛士酒店，位于陵水黎族自治县英州镇清水湾大道。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。行政位置为陵水清水湾，不能当作三亚市中心住宿。",
+    "address": "陵水黎族自治县英州镇清水湾大道",
+    "lat": 18.405,
+    "lng": 109.879,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "清水湾",
+      "海岸度假",
+      "海景房选择"
+    ],
+    "sourceUrl": "https://www.raffles.com/hainan/",
+    "bookingUrl": "https://www.raffles.com/hainan/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1000,
+        "high": 2000,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.raffles.com/hainan/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "海景客房 · 编辑预算",
+        "description": "一间海景客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1600,
+        "high": 3200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.raffles.com/hainan/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-xiamen-hotel-conrad",
+    "cityId": "xiamen",
+    "kind": "hotel",
+    "name": "厦门康莱德酒店",
+    "nameEn": "Conrad Xiamen",
+    "provider": "Conrad Xiamen",
+    "tagline": "沙坡尾周边 · 帆形高楼 · 海景房选择",
+    "description": "官网介绍的 厦门康莱德酒店，位于思明区演武西路 186 号。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "思明区演武西路 186 号",
+    "lat": 24.437,
+    "lng": 118.081,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "沙坡尾周边",
+      "帆形高楼",
+      "海景房选择"
+    ],
+    "sourceUrl": "https://www.hilton.com/en/hotels/xmncici-conrad-xiamen/",
+    "bookingUrl": "https://www.hilton.com/en/hotels/xmncici-conrad-xiamen/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 900,
+        "high": 1700,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.hilton.com/en/hotels/xmncici-conrad-xiamen/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "海景客房 · 编辑预算",
+        "description": "一间海景客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1500,
+        "high": 2800,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.hilton.com/en/hotels/xmncici-conrad-xiamen/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-qingdao-hotel-shangri-la",
+    "cityId": "qingdao",
+    "kind": "hotel",
+    "name": "青岛香格里拉",
+    "nameEn": "Shangri-La Qingdao",
+    "provider": "Shangri-La Qingdao",
+    "tagline": "五四广场商圈 · 盛世阁与豪华阁 · 市区便利",
+    "description": "官网介绍的 青岛香格里拉，位于市南区香港中路，五四广场商圈。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "市南区香港中路，五四广场商圈",
+    "lat": 36.067,
+    "lng": 120.38,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "五四广场商圈",
+      "盛世阁与豪华阁",
+      "市区便利"
+    ],
+    "sourceUrl": "https://www.shangri-la.com/qingdao/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/qingdao/shangrila/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 700,
+        "high": 1300,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/qingdao/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "更高等级客房 · 编辑预算",
+        "description": "一间更高等级客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1200,
+        "high": 2300,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/qingdao/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-dali-hotel-hilton",
+    "cityId": "dali",
+    "kind": "hotel",
+    "name": "大理实力希尔顿酒店",
+    "nameEn": "Hilton Dali Resort and Spa",
+    "provider": "Hilton Dali Resort and Spa",
+    "tagline": "苍山山麓 · 洱海方向视野 · 度假设施",
+    "description": "官网介绍的 大理实力希尔顿酒店，位于大理市苍山感通片区，七里桥。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。酒店在苍山感通片区，前往古城与洱海需另留车程。",
+    "address": "大理市苍山感通片区，七里桥",
+    "lat": 25.659,
+    "lng": 100.147,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "苍山山麓",
+      "洱海方向视野",
+      "度假设施"
+    ],
+    "sourceUrl": "https://www.hilton.com/en/hotels/dlugthi-hilton-dali-resort-and-spa/",
+    "bookingUrl": "https://www.hilton.com/en/hotels/dlugthi-hilton-dali-resort-and-spa/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 700,
+        "high": 1200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.hilton.com/en/hotels/dlugthi-hilton-dali-resort-and-spa/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "景观客房 · 编辑预算",
+        "description": "一间景观客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1100,
+        "high": 2100,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.hilton.com/en/hotels/dlugthi-hilton-dali-resort-and-spa/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-lijiang-hotel-banyan-tree",
+    "cityId": "lijiang",
+    "kind": "hotel",
+    "name": "丽江悦榕庄",
+    "nameEn": "Banyan Tree Lijiang",
+    "provider": "Banyan Tree Lijiang",
+    "tagline": "纳西建筑元素 · 束河周边 · 别墅选择",
+    "description": "官网介绍的 丽江悦榕庄，位于束河古镇龙泉路一带。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "束河古镇龙泉路一带",
+    "lat": 26.916,
+    "lng": 100.208,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "纳西建筑元素",
+      "束河周边",
+      "别墅选择"
+    ],
+    "sourceUrl": "https://www.banyantree.com/china/lijiang",
+    "bookingUrl": "https://www.banyantree.com/china/lijiang",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1000,
+        "high": 1800,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.banyantree.com/china/lijiang",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "泳池或泡池别墅 · 编辑预算",
+        "description": "一间泳池或泡池别墅住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 2000,
+        "high": 3800,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.banyantree.com/china/lijiang",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-guilin-hotel-shangri-la",
+    "cityId": "guilin",
+    "kind": "hotel",
+    "name": "桂林香格里拉",
+    "nameEn": "Shangri-La Guilin",
+    "provider": "Shangri-La Guilin",
+    "tagline": "漓江东岸 · 园林休闲 · 客房与套房",
+    "description": "官网介绍的 桂林香格里拉，位于七星区环城北二路，漓江东岸。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "七星区环城北二路，漓江东岸",
+    "lat": 25.302,
+    "lng": 110.314,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "漓江东岸",
+      "园林休闲",
+      "客房与套房"
+    ],
+    "sourceUrl": "https://www.shangri-la.com/guilin/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/guilin/shangrila/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 700,
+        "high": 1300,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/guilin/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "景观客房 · 编辑预算",
+        "description": "一间景观客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1200,
+        "high": 2200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.shangri-la.com/guilin/shangrila/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-luoyang-hotel-courtyard",
+    "cityId": "luoyang",
+    "kind": "hotel",
+    "name": "洛阳万怡酒店",
+    "nameEn": "Courtyard by Marriott Luoyang",
+    "provider": "Courtyard by Marriott Luoyang",
+    "tagline": "洛龙新区 · 商务客房 · 客房与套房",
+    "description": "官网介绍的 洛阳万怡酒店，位于洛龙区开元大道 288 号。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "洛龙区开元大道 288 号",
+    "lat": 34.618,
+    "lng": 112.406,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "洛龙新区",
+      "商务客房",
+      "客房与套房"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/lyacy-courtyard-luoyang/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/lyacy-courtyard-luoyang/overview/",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 550,
+        "high": 950,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/lyacy-courtyard-luoyang/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "高级客房 · 编辑预算",
+        "description": "一间高级客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 850,
+        "high": 1500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/lyacy-courtyard-luoyang/overview/",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-quanzhou-hotel-intercontinental",
+    "cityId": "quanzhou",
+    "kind": "hotel",
+    "name": "泉州泰禾洲际酒店",
+    "nameEn": "InterContinental Quanzhou",
+    "provider": "InterContinental Quanzhou",
+    "tagline": "东海片区 · 海湾方向景观 · 客房与套房",
+    "description": "官网介绍的 泉州泰禾洲际酒店，位于丰泽区丰海路 1005 号。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。酒店位于东海片区，前往西街古城需另留车程。",
+    "address": "丰泽区丰海路 1005 号",
+    "lat": 24.87,
+    "lng": 118.638,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "东海片区",
+      "海湾方向景观",
+      "客房与套房"
+    ],
+    "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/quanzhou/jjnqc/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/intercontinental/hotels/us/en/quanzhou/jjnqc/hoteldetail",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 700,
+        "high": 1300,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/quanzhou/jjnqc/hoteldetail",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "尊享客房 · 编辑预算",
+        "description": "一间尊享客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1100,
+        "high": 2200,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/quanzhou/jjnqc/hoteldetail",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-nanjing-hotel-intercontinental",
+    "cityId": "nanjing",
+    "kind": "hotel",
+    "name": "南京紫峰洲际酒店",
+    "nameEn": "InterContinental Nanjing",
+    "provider": "InterContinental Nanjing",
+    "tagline": "紫峰大厦 · 鼓楼商圈 · 城市高层",
+    "description": "官网介绍的 南京紫峰洲际酒店，位于鼓楼区中央路 1 号紫峰大厦。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "鼓楼区中央路 1 号紫峰大厦",
+    "lat": 32.063,
+    "lng": 118.782,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "紫峰大厦",
+      "鼓楼商圈",
+      "城市高层"
+    ],
+    "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/nanjing/nkgha/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/intercontinental/hotels/us/en/nanjing/nkgha/hoteldetail",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 850,
+        "high": 1500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/nanjing/nkgha/hoteldetail",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "尊享客房 · 编辑预算",
+        "description": "一间尊享客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1400,
+        "high": 2500,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/nanjing/nkgha/hoteldetail",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-suzhou-hotel-pan-pacific",
+    "cityId": "suzhou",
+    "kind": "hotel",
+    "name": "苏州吴宫泛太平洋酒店",
+    "nameEn": "Pan Pacific Suzhou",
+    "provider": "Pan Pacific Suzhou",
+    "tagline": "园林建筑风格 · 盘门周边 · 古城住宿",
+    "description": "官网介绍的 苏州吴宫泛太平洋酒店，位于姑苏区新市路 259 号。适合按住宿位置与偏好比较，不能把本酒店的估算当作全城最低价。",
+    "address": "姑苏区新市路 259 号",
+    "lat": 31.29,
+    "lng": 120.617,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为酒店所在街区或度假区的近似位置，不能替代入口导航；抵达位置以官方预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "园林建筑风格",
+      "盘门周边",
+      "古城住宿"
+    ],
+    "sourceUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-suzhou/the-hotel/local-attractions.html",
+    "bookingUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-suzhou/the-hotel/local-attractions.html",
+    "checkedAt": "2026-09-23",
+    "requirements": [
+      "按每间每晚计费；实际房型可住人数、儿童与加床政策须在预订时确认",
+      "日期、床型、税费、早餐和取消条款以酒店报价为准；超出允许入住人数须另订房间"
+    ],
+    "availabilityNote": "已核对经营者官网的实体和服务介绍。以下为编辑住宿预算，不是指定日期报价、当前营业或库存确认；公共海滩和周边景点不因此自动包含在房费中。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间双人客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 650,
+        "high": 1100,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-suzhou/the-hotel/local-attractions.html",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      },
+      {
+        "id": "premium-room",
+        "name": "高级客房 · 编辑预算",
+        "description": "一间高级客房住宿一晚，按双人入住意向估算，房型实际容量需确认",
+        "low": 1000,
+        "high": 1800,
+        "unit": "room-night",
+        "currency": "CNY",
+        "type": "estimate",
+        "checkedAt": null,
+        "budgetUpdatedAt": "2026-09-23",
+        "sourceUrl": "https://www.panpacific.com/en/hotels-and-resorts/pp-suzhou/the-hotel/local-attractions.html",
+        "note": "编辑预算，不是官方已核验报价；旺季、房间朝向、设施开放和套餐内容以预订确认单为准。",
+        "includes": [
+          "一间所述客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、接送、停车、税费与服务费",
+          "酒店收费活动、SPA、球场、水上项目及景区门票"
+        ]
+      }
+    ]
+  }
+]

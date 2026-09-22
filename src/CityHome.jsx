@@ -25,11 +25,12 @@ import { getVisitDurationRange } from "../shared/itinerary.mjs";
 import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import { Photo, Modal, OutLink, money } from "./ui.jsx";
 import CityBrief from "./CityBrief.jsx";
+import LocalFoodGuide from "./LocalFoodGuide.jsx";
 import "./city-home.css";
 
 const TABS = [
   { id: "sights", name: "景点与慢游", short: "去处", icon: Compass },
-  { id: "restaurant", name: "在这里吃饭", short: "餐厅", icon: Utensils },
+  { id: "restaurant", name: "吃点当地的", short: "美食", icon: Utensils },
   { id: "hotel", name: "选一处好住处", short: "酒店", icon: BedDouble },
   { id: "experience", name: "值得专程体验", short: "体验", icon: Sparkles },
 ];
@@ -60,7 +61,14 @@ function initialDraft(city, plan) {
   return {
     days: stop?.days || recommendedDays(city),
     daysSource: stop?.days ? stop.daysSource || "user" : "recommendation",
-    attractionIds: [...asArray(stop?.attractionIds)],
+    attractionIds: [
+      ...new Set([
+        ...asArray(stop?.attractionIds),
+        ...asArray(stop?.requestedAttractionIds).filter((id) =>
+          asArray(stop?.deferredAttractionIds).includes(id),
+        ),
+      ]),
+    ],
     experienceSelections: asArray(stop?.experienceSelections).map((item) => ({
       ...item,
     })),
@@ -79,7 +87,12 @@ function rangeText(low, high, currency) {
     : `${money(low, currency)} – ${money(high, currency)}`;
 }
 function Price({ price, currency, rates, unit = "人", compact = false }) {
-  if (!price || !Number.isFinite(Number(price.low)))
+  if (
+    !price ||
+    price.type === "missing" ||
+    price.missingPrice ||
+    !Number.isFinite(Number(price.low))
+  )
     return <span className="ch-price-pending">价格待核实</span>;
   const from = price.currency || currency;
   const lo = converted(price.low, from, currency, rates);
@@ -112,9 +125,11 @@ function PriceSource({ price, sourceUrl }) {
       <span className={official ? "is-verified" : ""}>
         {official
           ? `官方价格 · 核验 ${checked}`
-          : price?.type === "user"
-            ? "用户填写预算"
-            : "参考预算 · 非实时售价"}
+          : price?.type === "missing" || price?.missingPrice
+            ? "入场费用待补充"
+            : price?.type === "user"
+              ? "用户填写预算"
+              : "参考预算 · 非实时售价"}
       </span>
       {url && (
         <OutLink href={url}>{official ? "价格来源" : "商家与查询来源"}</OutLink>
@@ -154,14 +169,12 @@ function PlaceImage({ item, city, sight = false, className = "" }) {
     ? item.image
     : related?.image?.url
       ? related.image
-      : city.image;
+      : undefined;
   const label = item.image?.url
     ? null
     : related?.image?.url
       ? `相关景点 · ${related.name}`
-      : sight
-        ? "城市参考图 · 景点暂无照片"
-        : "城市氛围图";
+      : null;
   return (
     <div className={`ch-place-photo ${className}`}>
       <Photo
@@ -188,6 +201,8 @@ export default function CityHome({
   const currentCity = useRef(city.id);
   const [draft, setDraft] = useState(() => initialDraft(city, plan));
   const [tab, setTab] = useState("sights");
+  const [diningView, setDiningView] = useState("foods");
+  const [visitFilter, setVisitFilter] = useState("all");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [visible, setVisible] = useState(12);
@@ -207,12 +222,14 @@ export default function CityHome({
     setDraft(next);
     setDaysText(String(next.days));
     setTab("sights");
+    setDiningView("foods");
+    setVisitFilter("all");
     setQuery("");
     setCategory("all");
     setDetail(null);
     setDayError("");
   }, [city.id]);
-  useEffect(() => setVisible(12), [tab, query, category, city.id]);
+  useEffect(() => setVisible(12), [tab, query, category, visitFilter, city.id]);
   const currency = plan?.currency || "CNY";
   const people = plan?.travelers || 1;
   const rooms = plan?.rooms || 1;
@@ -248,6 +265,15 @@ export default function CityHome({
     return sourceList.filter(
       (a) =>
         (tab !== "sights" || category === "all" || a.category === category) &&
+        (tab !== "sights" ||
+          visitFilter === "all" ||
+          (visitFilter === "optional"
+            ? a.visitRole === "optional" || a.automaticPlanning === false
+            : visitFilter === "neighborhood"
+              ? a.visitRole === "neighborhood"
+              : a.visitRole !== "optional" &&
+                a.visitRole !== "neighborhood" &&
+                a.automaticPlanning !== false)) &&
         (!q ||
           [
             a.name,
@@ -261,7 +287,7 @@ export default function CityHome({
             .toLocaleLowerCase()
             .includes(q)),
     );
-  }, [sourceList, query, category, tab]);
+  }, [sourceList, query, category, visitFilter, tab]);
   const passGroups = new Map();
   for (const sight of selectedSights)
     if (sight.price.passGroup)
@@ -296,7 +322,8 @@ export default function CityHome({
     })),
   ].reduce(
     (sum, { price, quantity, maxQuantity = quantity }) => {
-      if (!price) return { ...sum, incomplete: true };
+      if (!price || price.type === "missing" || price.missingPrice)
+        return { ...sum, incomplete: true };
       const lo = converted(
         price.low,
         price.currency || city.currency,
@@ -415,6 +442,7 @@ export default function CityHome({
   }
   function goTab(id) {
     setTab(id);
+    setVisitFilter("all");
     setCategory("all");
     setQuery("");
   }
@@ -497,6 +525,7 @@ export default function CityHome({
         city={city}
         onRestaurants={() => {
           goTab("restaurant");
+          setDiningView("restaurants");
           catalogRef.current?.scrollIntoView({ behavior: "smooth" });
         }}
       />
@@ -547,159 +576,226 @@ export default function CityHome({
                 <small>
                   {id === "sights"
                     ? sights.length
-                    : experiences.filter((item) => item.kind === id).length}
+                    : id === "restaurant"
+                      ? experiences.filter((item) => item.kind === id).length +
+                        (city.localFoods?.length || 0)
+                      : experiences.filter((item) => item.kind === id).length}
                 </small>
               </button>
             ))}
           </div>
-          <div className="ch-search-row">
-            <label className="ch-search">
-              <Search size={17} />
-              <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={
-                  tab === "sights"
-                    ? "搜索景点、街区或感兴趣的事"
-                    : "搜索名称、味道或服务特色"
-                }
-                aria-label="搜索城市项目"
-              />
-              {query && (
-                <button onClick={() => setQuery("")} aria-label="清除搜索">
-                  <X size={14} />
-                </button>
-              )}
-            </label>
-            {tab === "sights" && (
-              <select
-                value={category}
-                onChange={(e) => setCategory(e.target.value)}
-                aria-label="景点类型筛选"
-              >
-                <option value="all">所有类型</option>
-                {categories.map((item) => (
-                  <option key={item}>{item}</option>
-                ))}
-              </select>
-            )}
-          </div>
-          <div className="ch-results-heading">
-            <p>
-              {query || category !== "all"
-                ? `找到 ${filtered.length} 个项目`
-                : tab === "sights"
-                  ? city.planningProfile === "leisure"
-                    ? "留一个午后慢慢体验，生成时会为度假与休息留出时间。"
-                    : "选喜欢的风景与当地体验，再按路线与时间安排。"
-                  : tab === "restaurant"
-                    ? "选定餐厅与套餐，对应餐次会替换基础餐饮预算。"
-                    : tab === "hotel"
-                      ? "一个城市选一间酒店，按房间数与停留晚数核算。"
-                      : guide.experienceIntro || "为旅程留一点独一无二的记忆。"}
-            </p>
-            {tab === "sights" && filtered.length > 0 && (
-              <button
-                className="text-button"
-                onClick={() =>
-                  setDraft((previous) => ({
-                    ...previous,
-                    attractionIds: [
-                      ...new Set([
-                        ...previous.attractionIds,
-                        ...filtered.map((item) => item.id),
-                      ]),
-                    ],
-                  }))
-                }
-              >
-                <Plus size={14} />
-                加入{query || category !== "all" ? "筛选结果" : "全部去处"}
-              </button>
-            )}
-          </div>
-          <div
-            id="ch-catalog-panel"
-            role="tabpanel"
-            aria-labelledby={`ch-tab-${tab}`}
-          >
+          {tab === "restaurant" && (
             <div
-              className={`ch-card-grid ${tab !== "sights" ? "ch-experience-grid" : ""}`}
+              className="ch-dining-switch"
+              role="group"
+              aria-label="餐饮浏览方式"
             >
-              {filtered
-                .slice(0, visible)
-                .map((item) =>
-                  tab === "sights" ? (
-                    <SightCard
-                      key={item.id}
-                      item={item}
-                      city={city}
-                      selected={selectedIds.has(item.id)}
-                      currency={currency}
-                      rates={rates}
-                      onToggle={() => toggleSight(item.id)}
-                      onDetails={() => setDetail({ kind: "sight", item })}
-                    />
-                  ) : (
-                    <ExperienceCard
-                      key={item.id}
-                      item={item}
-                      city={city}
-                      selection={draft.experienceSelections.find(
-                        (selected) => selected.experienceId === item.id,
-                      )}
-                      days={draft.days}
-                      nights={nights}
-                      currency={currency}
-                      rates={rates}
-                      people={people}
-                      onSelect={(optionId, dayIndex, mealType) =>
-                        selectExperience(item, optionId, dayIndex, mealType)
-                      }
-                      onRemove={() => removeExperience(item.id)}
-                      onDetails={(optionId) =>
-                        setDetail({ kind: "experience", item, optionId })
-                      }
-                    />
-                  ),
-                )}
+              <button
+                type="button"
+                aria-pressed={diningView === "foods"}
+                onClick={() => setDiningView("foods")}
+              >
+                特色食物 <small>{city.localFoods?.length || 0}</small>
+              </button>
+              <button
+                type="button"
+                aria-pressed={diningView === "restaurants"}
+                onClick={() => setDiningView("restaurants")}
+              >
+                餐厅与套餐{" "}
+                <small>
+                  {
+                    experiences.filter((item) => item.kind === "restaurant")
+                      .length
+                  }
+                </small>
+              </button>
             </div>
-            {!filtered.length && (
-              <div className="ch-empty">
-                <Search size={28} />
-                <h3>
-                  {query || category !== "all"
-                    ? "还没找到合适的项目"
-                    : "这一页正在慢慢丰富"}
-                </h3>
+          )}
+          {tab === "restaurant" && diningView === "foods" ? (
+            <div
+              id="ch-catalog-panel"
+              role="tabpanel"
+              aria-labelledby="ch-tab-restaurant"
+            >
+              <LocalFoodGuide city={city} />
+            </div>
+          ) : (
+            <>
+              {tab === "sights" && (
+                <div
+                  className="ch-visit-filters"
+                  role="group"
+                  aria-label="按游玩偏好筛选"
+                >
+                  {[
+                    ["all", "所有去处"],
+                    ["highlight", "经典与精选"],
+                    ["neighborhood", "街区与小停留"],
+                    ["optional", "按兴趣探索"],
+                  ].map(([id, label]) => (
+                    <button
+                      type="button"
+                      key={id}
+                      aria-pressed={visitFilter === id}
+                      onClick={() => setVisitFilter(id)}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
+              )}
+              <div className="ch-search-row">
+                <label className="ch-search">
+                  <Search size={17} />
+                  <input
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder={
+                      tab === "sights"
+                        ? "搜索景点、街区或感兴趣的事"
+                        : "搜索名称、味道或服务特色"
+                    }
+                    aria-label="搜索城市项目"
+                  />
+                  {query && (
+                    <button onClick={() => setQuery("")} aria-label="清除搜索">
+                      <X size={14} />
+                    </button>
+                  )}
+                </label>
+                {tab === "sights" && (
+                  <select
+                    value={category}
+                    onChange={(e) => setCategory(e.target.value)}
+                    aria-label="景点类型筛选"
+                  >
+                    <option value="all">所有类型</option>
+                    {categories.map((item) => (
+                      <option key={item}>{item}</option>
+                    ))}
+                  </select>
+                )}
+              </div>
+              <div className="ch-results-heading">
                 <p>
                   {query || category !== "all"
-                    ? "试试更短的关键词，或看看全部选择。"
-                    : "可以先收藏景点，餐厅、酒店与更多体验将继续补充。"}
+                    ? `找到 ${filtered.length} 个项目`
+                    : tab === "sights"
+                      ? city.planningProfile === "leisure"
+                        ? "留一个午后慢慢体验，生成时会为度假与休息留出时间。"
+                        : "选喜欢的风景与当地体验，再按路线与时间安排。"
+                      : tab === "restaurant"
+                        ? "选定餐厅与套餐，对应餐次会替换基础餐饮预算。"
+                        : tab === "hotel"
+                          ? "一个城市选一间酒店，按房间数与停留晚数核算。"
+                          : guide.experienceIntro ||
+                            "为旅程留一点独一无二的记忆。"}
                 </p>
-                {(query || category !== "all") && (
+                {tab === "sights" && filtered.length > 0 && (
                   <button
-                    className="secondary-button"
-                    onClick={() => {
-                      setQuery("");
-                      setCategory("all");
-                    }}
+                    className="text-button"
+                    onClick={() =>
+                      setDraft((previous) => ({
+                        ...previous,
+                        attractionIds: [
+                          ...new Set([
+                            ...previous.attractionIds,
+                            ...filtered.map((item) => item.id),
+                          ]),
+                        ],
+                      }))
+                    }
                   >
-                    清除筛选
+                    <Plus size={14} />
+                    加入{query || category !== "all" ? "筛选结果" : "全部去处"}
                   </button>
                 )}
               </div>
-            )}
-            {filtered.length > visible && (
-              <button
-                className="secondary-button ch-load-more"
-                onClick={() => setVisible((n) => n + 12)}
+              <div
+                id="ch-catalog-panel"
+                role="tabpanel"
+                aria-labelledby={`ch-tab-${tab}`}
               >
-                继续发现 · 还有 {filtered.length - visible} 个
-                <ChevronDown size={15} />
-              </button>
-            )}
-          </div>
+                <div
+                  className={`ch-card-grid ${tab !== "sights" ? "ch-experience-grid" : ""}`}
+                >
+                  {filtered
+                    .slice(0, visible)
+                    .map((item) =>
+                      tab === "sights" ? (
+                        <SightCard
+                          key={item.id}
+                          item={item}
+                          city={city}
+                          selected={selectedIds.has(item.id)}
+                          currency={currency}
+                          rates={rates}
+                          onToggle={() => toggleSight(item.id)}
+                          onDetails={() => setDetail({ kind: "sight", item })}
+                        />
+                      ) : (
+                        <ExperienceCard
+                          key={item.id}
+                          item={item}
+                          city={city}
+                          selection={draft.experienceSelections.find(
+                            (selected) => selected.experienceId === item.id,
+                          )}
+                          days={draft.days}
+                          nights={nights}
+                          currency={currency}
+                          rates={rates}
+                          people={people}
+                          onSelect={(optionId, dayIndex, mealType) =>
+                            selectExperience(item, optionId, dayIndex, mealType)
+                          }
+                          onRemove={() => removeExperience(item.id)}
+                          onDetails={(optionId) =>
+                            setDetail({ kind: "experience", item, optionId })
+                          }
+                        />
+                      ),
+                    )}
+                </div>
+                {!filtered.length && (
+                  <div className="ch-empty">
+                    <Search size={28} />
+                    <h3>
+                      {query || category !== "all"
+                        ? "还没找到合适的项目"
+                        : "这一页正在慢慢丰富"}
+                    </h3>
+                    <p>
+                      {query || category !== "all"
+                        ? "试试更短的关键词，或看看全部选择。"
+                        : "可以先收藏景点，餐厅、酒店与更多体验将继续补充。"}
+                    </p>
+                    {(query || category !== "all") && (
+                      <button
+                        className="secondary-button"
+                        onClick={() => {
+                          setQuery("");
+                          setCategory("all");
+                        }}
+                      >
+                        清除筛选
+                      </button>
+                    )}
+                  </div>
+                )}
+                {filtered.length > visible && (
+                  <button
+                    className="secondary-button ch-load-more"
+                    onClick={() => setVisible((n) => n + 12)}
+                  >
+                    继续发现 · 还有 {filtered.length - visible} 个
+                    <ChevronDown size={15} />
+                  </button>
+                )}
+              </div>
+            </>
+          )}
         </section>
         <aside
           className="ch-basket"
@@ -962,6 +1058,15 @@ function SightCard({
         </div>
         <p className="ch-card-description">{item.description}</p>
         <div className="ch-feature-tags">
+          {item.visitRole && (
+            <span className="ch-visit-role">
+              {item.visitRole === "optional"
+                ? "按兴趣选择"
+                : item.visitRole === "neighborhood"
+                  ? "街区与小停留"
+                  : "初次到访推荐"}
+            </span>
+          )}
           {asArray(item.features)
             .slice(0, 3)
             .map((feature) => (
@@ -989,6 +1094,16 @@ function SightCard({
           </button>
         </div>
         <PriceSource price={item.price} />
+        {item.license === "ODbL-1.0" && (
+          <a
+            className="ch-data-attribution"
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            © OpenStreetMap contributors
+          </a>
+        )}
       </div>
     </article>
   );

@@ -1504,6 +1504,7 @@ a svg {
 }
 .site-footer > div:nth-child(2) {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
   font-size: 12px;

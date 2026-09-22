@@ -2,6 +2,7 @@
  * Refresh curated destination photographs from Wikipedia / Wikimedia Commons.
  * Node >= 20, no keys/dependencies. Run: node scripts/fetch-images.mjs
  * --force refreshes even recent records; --only=tokyo,sensoji limits the run.
+ * --catalog=path/to/catalog.json can prefetch photographs before importing a new batch.
  * Only Commons files with explicit CC BY, CC BY-SA, CC0 or public-domain
  * metadata are accepted. Existing successful files survive failed refreshes.
  */
@@ -21,6 +22,7 @@ const force = process.argv.includes('--force');
 const pythonHttp = process.argv.includes('--python-network');
 const runFile = promisify(execFile);
 const selected = process.argv.find(arg => arg.startsWith('--only='))?.slice(7).split(',');
+const catalogPath = path.resolve(ROOT, process.argv.find(arg => arg.startsWith('--catalog='))?.slice(10) || 'data/cities.json');
 const articleFileCache = new Map();
 const articleErrorCache = new Map();
 const metadataCache = new Map();
@@ -311,19 +313,51 @@ async function request(url, binary = false, attempt = 0) {
 
 async function fileFromArticle(article) {
   if (articleErrorCache.has(article)) throw new Error(articleErrorCache.get(article));
-  if (articleFileCache.has(article)) return photographFilename(articleFileCache.get(article));
+  if (articleFileCache.has(article)) {
+    try { return photographFilename(articleFileCache.get(article)); }
+    catch { return galleryPhotograph(article); }
+  }
   const data = await request(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(article)}`);
   const source = data.originalimage?.source || data.thumbnail?.source;
-  if (!source) throw new Error(`No lead photograph: ${article}`);
+  if (!source) return galleryPhotograph(article);
   const parts = new URL(source).pathname.split('/');
   const position = parts.indexOf('commons');
   if (position < 0) throw new Error(`Image not on Wikimedia Commons: ${article}`);
-  return photographFilename(decodeURIComponent(parts[position + (parts[position + 1] === 'thumb' ? 4 : 3)]));
+  try { return photographFilename(decodeURIComponent(parts[position + (parts[position + 1] === 'thumb' ? 4 : 3)])); }
+  catch { return galleryPhotograph(article); }
+}
+
+async function galleryPhotograph(article, excludeFile) {
+  // Exact article galleries often contain a real photograph even when the lead
+  // is a location map. Only a file named for the place is eligible, and the
+  // Commons license check still applies before any image is downloaded.
+  const endpoint = new URL('https://en.wikipedia.org/w/api.php');
+  endpoint.search = new URLSearchParams({ action: 'query', format: 'json', prop: 'images', imlimit: '50', redirects: '1', titles: article });
+  const data = await request(endpoint);
+  const words = article.normalize('NFKD').toLowerCase().split(/[^a-z0-9]+/).filter(word => word.length >= 4 && !['park','island','beach','temple','garden','gardens','county','autonomous'].includes(word));
+  const files = Object.values(data.query?.pages || {}).flatMap(page => page.images || []).map(item => item.title.replace(/^File:/, ''));
+  const candidates = files.filter(file => {
+    if (excludeFile && canonicalFile(file) === canonicalFile(excludeFile)) return false;
+    try { photographFilename(file); } catch { return false; }
+    const normalized = file.normalize('NFKD').toLowerCase();
+    return words.length && words.some(word => normalized.includes(word)) && !/coat.of.arms|locator|icon|banner/i.test(file);
+  });
+  if (!candidates.length) throw new Error(`No exact-place gallery photograph: ${article}`);
+  for (const candidate of candidates.slice(0, 5)) {
+    try {
+      await metadata(candidate, 960);
+      articleFileCache.set(article, candidate);
+      return candidate;
+    } catch (error) {
+      if (!/License requires manual review|Commons metadata missing/.test(error.message)) throw error;
+    }
+  }
+  throw new Error(`No openly licensed exact-place gallery photograph: ${article}`);
 }
 
 function photographFilename(filename) {
   if (!/\.(jpe?g|png|webp)$/i.test(filename)) throw new Error(`Lead image is not a photograph: ${filename}`);
-  if (/(?:^|_)(flag|map|logo)(?:_|\.)/i.test(filename)) throw new Error(`Lead image is a flag/map/logo: ${filename}`);
+  if (/(?:^|[\s_.-])(flag|map|logo|locator|emblem|coat.of.arms)(?:[\s_.-]|$)/i.test(filename)) throw new Error(`Lead image is a flag/map/logo: ${filename}`);
   return filename;
 }
 
@@ -338,6 +372,7 @@ async function metadata(file, width) {
     if (record) metadataCache.set(cacheKey, record);
   }
   if (!record) throw new Error(`Commons metadata missing: ${file}`);
+  if (/framing symbol|locator map|\bmap of\b|coat of arms|(?:official |national )?(?:flag|logo) of|floor plan/i.test(plain(record.extmetadata?.ImageDescription?.value))) throw new Error(`Image metadata describes a symbol or map: ${file}`);
   const license = plain(record.extmetadata?.LicenseShortName?.value);
   if (!/^(?:CC BY(?:-SA)? (?:1\.0|2\.[05]|3\.0|4\.0)(?: [a-z]{2}(?:-[a-z]+)?)?|CC0|Public domain)$/i.test(license)) throw new Error(`License requires manual review: ${license || 'missing'}`);
   return record;
@@ -361,20 +396,37 @@ function catalogImageSource(entity) {
       return { article: entity.nameEn || entity.name, file: decodeURIComponent(url.pathname.slice(11)).replaceAll('_', ' ') };
     }
   } catch { /* the English name is a fallback candidate, still license-checked */ }
-  return { article: entity.nameEn || entity.name };
+  if (entity.noArticle) return {};
+  return { article: entity.article || entity.nameEn || entity.name };
 }
 let catalog = [];
-try { catalog = JSON.parse(await readFile(path.join(ROOT, 'data', 'cities.json'), 'utf8')); }
+try { catalog = JSON.parse(await readFile(catalogPath, 'utf8')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; }
+if (!Array.isArray(catalog)) throw new Error('Image catalog must be an array of destinations');
+const catalogPlaces = new Map(catalog.flatMap(city => city.attractions || []).map(place => [place.id, place]));
 for (const city of catalog) {
   citySources[city.id] = { ...catalogImageSource(city), ...citySources[city.id] };
   for (const attraction of city.attractions || []) {
     const source = catalogImageSource(attraction);
+    if (!source.article && !source.file) continue;
     attractionArticles[attraction.id] ||= source.article;
     attractionFiles[attraction.id] ||= source.file;
   }
 }
 const excludedPhotos=new Set();
+// Food records are maintained independently from places. A rejected or overly
+// broad article must never produce a misleading city/ingredient photograph.
+try {
+  const foods = JSON.parse(await readFile(path.join(ROOT, 'data', 'local-foods.json'), 'utf8'));
+  for (const food of foods) {
+    if (food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' || (!food.article && !food.photoFile)) {
+      excludedPhotos.add(food.id);
+      continue;
+    }
+    attractionArticles[food.id] = food.article || food.localName || food.name;
+    if (food.photoFile) attractionFiles[food.id] = food.photoFile;
+  }
+} catch (error) { if (error.code !== 'ENOENT') throw error; }
 for (const file of ['expansion-photo-overrides.json','africa-photo-overrides.json','global-photo-overrides.json','europe-photo-overrides.json']) {
   try {
     const overrides=JSON.parse(await readFile(path.join(ROOT,'data',file),'utf8'));
@@ -382,7 +434,10 @@ for (const file of ['expansion-photo-overrides.json','africa-photo-overrides.jso
       if(filename===null){excludedPhotos.add(id);continue;}
       if(typeof filename!=='string' || !filename.trim()) throw new Error(`Invalid photo override: ${id}`);
       if (citySources[id]) citySources[id].file=filename;
-      else if (attractionArticles[id]) attractionFiles[id]=filename;
+      else if (attractionArticles[id] || catalogPlaces.has(id)) {
+        attractionArticles[id] ||= catalogPlaces.get(id).nameEn || catalogPlaces.get(id).name;
+        attractionFiles[id]=filename;
+      }
     }
   } catch(error) { if(error.code!=='ENOENT') throw error; }
 }
@@ -452,7 +507,7 @@ async function refresh(job) {
     try { if ((await stat(localPath)).size > 1000) { skipped++; return; } } catch { /* missing cache is refetched */ }
   }
   try {
-    const file = job.file || previous?.fileTitle || await fileFromArticle(job.article);
+    let file = job.file || previous?.fileTitle || await fileFromArticle(job.article);
     let info, result, remoteUrl, lastError;
     const widths = job.group === 'cities' ? [1280, 960, 640, 330] : [960, 640, 330];
     for (const width of widths) {
@@ -463,6 +518,19 @@ async function refresh(job) {
         break;
       } catch (error) {
         lastError = error;
+        if (!job.file && !previous?.fileTitle && /License requires manual review/.test(error.message)) {
+          file = await galleryPhotograph(job.article, file);
+          info = await metadata(file, width);
+          remoteUrl = info.thumburl || info.url;
+          try {
+            result = await request(remoteUrl, true);
+            break;
+          } catch (alternateError) {
+            if (!alternateError.message.includes('exceeds')) throw alternateError;
+            lastError = alternateError;
+            continue;
+          }
+        }
         if (!error.message.includes('exceeds')) throw error;
       }
     }

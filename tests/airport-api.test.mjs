@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
+import { readFileSync } from 'node:fs';
 import { getAirportInventory, getCatalog, searchAirports } from '../server/catalog.mjs';
 
 test('airport catalog preserves curated coverage, serves compact extra cities, and reuses unchanged raw inventory', () => {
@@ -11,7 +12,8 @@ test('airport catalog preserves curated coverage, serves compact extra cities, a
   assert.equal(inventory.airports, getAirportInventory().airports);
   assert.equal(inventory.cities, getAirportInventory().cities);
   const catalog = getCatalog();
-  assert.equal(catalog.cities.length, 100);
+  const maintainedCities = JSON.parse(readFileSync(new URL('../data/cities.json', import.meta.url), 'utf8'));
+  assert.deepEqual(catalog.cities.map(city => city.id).sort(), maintainedCities.map(city => city.id).sort());
   assert.equal(catalog.airportCoverage.airportCount, inventory.airports.length);
   assert.equal(catalog.airportCoverage.additionalCityCount, catalog.airportCities.length);
   assert.ok(catalog.airportCities.every(city => !city.daily && !city.attractions && !city.airportIds));

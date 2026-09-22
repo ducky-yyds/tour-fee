@@ -72,12 +72,17 @@ const featureText = (a) =>
     ? a.features.slice(0, 3)
     : [a.category || "城市风景", a.bestTime || "慢慢探索"];
 
-const hasTimelineTime = (item) => Boolean(item.time) &&
-  item.timing !== "unscheduled" && !item.allowance &&
-  !item.includedInExperience && !item.includedInVisit && !item.duringJourney;
+const hasTimelineTime = (item) =>
+  Boolean(item.time) &&
+  item.timing !== "unscheduled" &&
+  !item.allowance &&
+  !item.includedInExperience &&
+  !item.includedInVisit &&
+  !item.duringJourney;
 
 function timelineIcon(item) {
-  if (item.kind === "meal") return item.mealType === "breakfast" ? Coffee : Utensils;
+  if (item.kind === "meal")
+    return item.mealType === "breakfast" ? Coffee : Utensils;
   if (item.kind === "hotel") return BedDouble;
   if (item.routineType === "citywalk") return Footprints;
   if (item.kind === "journey-transfer") return Car;
@@ -86,7 +91,8 @@ function timelineIcon(item) {
   if (mode === "boat") return Ship;
   if (mode === "road") return Car;
   if (["rail", "transit"].includes(mode)) return TrainFront;
-  if (item.journey || ["arrival", "departure"].includes(item.kind)) return Plane;
+  if (item.journey || ["arrival", "departure"].includes(item.kind))
+    return Plane;
   return item.kind === "transport" ? TrainFront : Sun;
 }
 
@@ -128,10 +134,37 @@ export default function ItineraryPlanner({
     (n, s) => n + s.attractionIds.length,
     0,
   );
-  const warnings = itinerary.flatMap((d) =>
-    (d.warnings || [])
-      .filter((w) => w.severity !== "info")
-      .map((w) => ({ ...w, day: d.day })),
+  const planningWarnings = plan.stops.flatMap((s, stopIndex) =>
+    (s.smartPlan?.warnings || [])
+      .filter(
+        (w) =>
+          w.code === "requested-attractions-deferred" &&
+          w.attractionIds?.some(
+            (id) =>
+              s.requestedAttractionIds?.includes(id) &&
+              s.deferredAttractionIds?.includes(id),
+          ),
+      )
+      .map((w) => {
+        const destination = cities.find((c) => c.id === s.cityId);
+        const pendingNames = w.attractionIds
+          .filter(
+            (id) =>
+              s.requestedAttractionIds?.includes(id) &&
+              s.deferredAttractionIds?.includes(id),
+          )
+          .map(
+            (id) =>
+              destination?.attractions.find((place) => place.id === id)?.name,
+          )
+          .filter(Boolean);
+        return {
+          ...w,
+          stopIndex,
+          cityName: destination?.name,
+          message: `${pendingNames.join("、")}尚未排入：现有时间、交通窗口、开放限制或位置资料不足以安排。选择已保留，可增加天数、调整时长或手动分配。`,
+        };
+      }),
   );
   const unavailable = city.attractions.filter(
     (a) => !stop.attractionIds.includes(a.id),
@@ -153,6 +186,7 @@ export default function ItineraryPlanner({
       stopIndex: safeStop,
       dayPlans: assignments.map((d) => [...d]),
       attractionIds: [...stop.attractionIds],
+      requestedAttractionIds: [...(stop.requestedAttractionIds || [])],
       days: stop.days,
       startTime: stop.startTime,
       visitDurations: { ...stop.visitDurations },
@@ -198,6 +232,9 @@ export default function ItineraryPlanner({
       assignments.map((day) => day.filter((a) => a !== id)),
       {
         attractionIds: stop.attractionIds.filter((a) => a !== id),
+        requestedAttractionIds: (stop.requestedAttractionIds || []).filter(
+          (a) => a !== id,
+        ),
         deferredAttractionIds: [
           ...new Set([...(stop.deferredAttractionIds || []), id]),
         ],
@@ -212,6 +249,9 @@ export default function ItineraryPlanner({
       next,
       {
         attractionIds: [...stop.attractionIds, id],
+        requestedAttractionIds: [
+          ...new Set([...(stop.requestedAttractionIds || []), id]),
+        ],
         deferredAttractionIds: (stop.deferredAttractionIds || []).filter(
           (a) => a !== id,
         ),
@@ -227,11 +267,23 @@ export default function ItineraryPlanner({
       { visitDurations: { ...stop.visitDurations, [id]: minutes } },
     );
   }
-  function smartReplan() {
+  function smartReplan(includeNeighborhoods = false) {
     const candidateIds = [
       ...new Set([
         ...stop.attractionIds,
         ...(stop.deferredAttractionIds || []),
+        ...(includeNeighborhoods
+          ? city.attractions
+              .filter(
+                (a) =>
+                  a.visitRole === "neighborhood" &&
+                  a.automaticPlanning !== false &&
+                  a.price?.type !== "missing" &&
+                  a.price?.low === 0 &&
+                  a.price?.high === 0,
+              )
+              .map((a) => a.id)
+          : []),
       ]),
     ];
     try {
@@ -245,6 +297,7 @@ export default function ItineraryPlanner({
         {
           attractionIds: result.attractionIds,
           deferredAttractionIds: result.deferredAttractionIds,
+          requestedAttractionIds: result.requestedAttractionIds,
           visitDurations: result.visitDurations,
           smartPlan: result.smartPlan,
           planningMode: "smart",
@@ -302,6 +355,7 @@ export default function ItineraryPlanner({
     const applied = onUpdateStop(undo.stopIndex, {
       dayPlans: undo.dayPlans,
       attractionIds: undo.attractionIds,
+      requestedAttractionIds: undo.requestedAttractionIds,
       days: undo.days,
       startTime: undo.startTime,
       visitDurations: undo.visitDurations,
@@ -365,6 +419,18 @@ export default function ItineraryPlanner({
           随你的安排更新
         </span>
       </div>
+      {!!planningWarnings.length && (
+        <div className="journal-warnings" role="status">
+          {planningWarnings.map((warning, index) => (
+            <p key={`${warning.stopIndex}-${warning.code}-${index}`}>
+              <TriangleAlert size={15} />
+              <span>
+                {warning.cityName} · {warning.message}
+              </span>
+            </p>
+          ))}
+        </div>
+      )}
       {plan.stops.some((s) => s.experienceSelections?.length) && (
         <section className="selected-experiences panel">
           <div className="panel-heading">
@@ -502,9 +568,18 @@ export default function ItineraryPlanner({
             const first = c.attractions.find(
               (a) => a.id === day.attractionIds?.[0],
             );
-            const walk = day.items.find(item => item.routineType === "citywalk");
-            const explorationMinutes = (day.visitMinutes || 0) +
-              day.items.filter(item => item.routineType === "citywalk").reduce((sum, item) => sum + (item.strollMinutes ?? item.durationMinutes), 0);
+            const walk = day.items.find(
+              (item) => item.routineType === "citywalk",
+            );
+            const explorationMinutes =
+              (day.visitMinutes || 0) +
+              day.items
+                .filter((item) => item.routineType === "citywalk")
+                .reduce(
+                  (sum, item) =>
+                    sum + (item.strollMinutes ?? item.durationMinutes),
+                  0,
+                );
             return (
               <article
                 className="journal-day day-card"
@@ -531,11 +606,18 @@ export default function ItineraryPlanner({
                       </span>
                       {day.attractionIds?.length
                         ? first?.name
-                        : walk ? `${c.name}，慢慢逛`
-                          : day.dayWindow?.travelOnly ? "在路上的一天"
+                        : walk
+                          ? `${c.name}，慢慢逛`
+                          : day.dayWindow?.travelOnly
+                            ? "在路上的一天"
                             : "把时间留给" + c.name}
                     </h3>
-                    <p>{first?.description || (walk ? "安顿行李，沿附近的街道认识这座城市。" : c.tagline)}</p>
+                    <p>
+                      {first?.description ||
+                        (walk
+                          ? "安顿行李，沿附近的街道认识这座城市。"
+                          : c.tagline)}
+                    </p>
                   </div>
                   <button
                     className="cover-edit"
@@ -562,7 +644,12 @@ export default function ItineraryPlanner({
                   <div>
                     <Compass size={16} />
                     <span>
-                      游览与探索<strong>{explorationMinutes ? durationLabel(explorationMinutes) : "暂无安排"}</strong>
+                      游览与探索
+                      <strong>
+                        {explorationMinutes
+                          ? durationLabel(explorationMinutes)
+                          : "暂无安排"}
+                      </strong>
                     </span>
                   </div>
                   <div>
@@ -751,9 +838,13 @@ export default function ItineraryPlanner({
                 <Undo2 size={13} />
                 撤回
               </button>
-              <button className="text-button" onClick={smartReplan}>
+              <button className="text-button" onClick={() => smartReplan()}>
                 <Sparkles size={13} />
                 智能重排行程
+              </button>
+              <button className="text-button" onClick={() => smartReplan(true)}>
+                <Plus size={14} />
+                补充附近小去处
               </button>
             </div>
           </div>
@@ -785,7 +876,7 @@ export default function ItineraryPlanner({
             </label>
             <p className="smart-plan-note">
               <Sparkles size={13} />
-              智能重排会结合游览时长、地理位置和每日容量安排；放不下的景点留在候选清单，可随时手动加入。
+              按游览时长、地理位置和可活动时间重排；“补充附近小去处”会纳入新收录的免费街区。放不下的地点保留候选，调整可撤回。
             </p>
           </div>
           <div className="editor-status">
@@ -1144,18 +1235,9 @@ function PlacePhoto({ attraction, city, compact = false }) {
       }
     >
       <Photo
-        image={hasPhoto ? attraction.image : city.image}
-        alt={
-          hasPhoto
-            ? attraction.name
-            : `${city.name}城市参考图，${attraction.name}暂无景点照片`
-        }
+        image={hasPhoto ? attraction.image : undefined}
+        alt={attraction.name}
       />
-      {!hasPhoto && (
-        <small className="reference-photo-label">
-          {compact ? "城市参考" : "城市参考图 · 景点暂无照片"}
-        </small>
-      )}
     </div>
   );
 }
@@ -1373,11 +1455,13 @@ function AttractionPicker({
                     )}
                     <em>
                       {durationLabel(range.recommended)} ·{" "}
-                      {price?.type === "free"
-                        ? "免费开放区域"
-                        : price
-                          ? `${money(convert(price.low, price.currency || city.currency, currency, rates), currency)}${price.type === "user" ? " / 人·自填" : " / 人起"}`
-                          : "票价待核验"}
+                      {price?.type === "missing" || price?.missingPrice
+                        ? "入场费用待补充"
+                        : price?.type === "free"
+                          ? "免费开放区域"
+                          : price
+                            ? `${money(convert(price.low, price.currency || city.currency, currency, rates), currency)}${price.type === "user" ? " / 人·自填" : " / 人起"}`
+                            : "票价待核验"}
                     </em>
                   </span>
                   <Plus size={17} />
@@ -1646,24 +1730,56 @@ function RoutineItem({ item, city, plan, onEditLine, samples, costText }) {
   const budgetOnly = !hasTimelineTime(item) && Boolean(item.cost?.budgetLineId);
   const included = item.includedInExperience || item.includedInVisit;
   const cost = item.cost;
-  const menu = meal && item.mealType === "lunch" && samples.find(sample => sample.cityId === city.id);
+  const menu =
+    meal &&
+    item.mealType === "lunch" &&
+    samples.find((sample) => sample.cityId === city.id);
   const mapLink = item.segment?.mapsUrl || item.mapsUrl;
-  const costCaption = cost?.missingPrice ? "费用尚待补充" : included ? "已含在原预算中" : item.kind === "hotel" ? "住宿已计入总预算" :
-    cost?.sourceType === "free" ? "免费范围" : meal ? `${plan.travelers} 人餐费预留` : "已含在总预算中";
+  const costCaption = cost?.missingPrice
+    ? "费用尚待补充"
+    : included
+      ? "已含在原预算中"
+      : item.kind === "hotel"
+        ? "住宿已计入总预算"
+        : cost?.sourceType === "free"
+          ? "免费范围"
+          : meal
+            ? `${plan.travelers} 人餐费预留`
+            : "已含在总预算中";
   return (
-    <article className={`timeline-routine routine-${item.kind}${media ? " has-scene" : ""}`}>
+    <article
+      className={`timeline-routine routine-${item.kind}${media ? " has-scene" : ""}`}
+    >
       {media && (
         <figure className="timeline-scene">
           <Photo image={media.image} alt={media.alt} />
           <figcaption>
             {media.image?.sourceUrl && (
               <span className="routine-photo-credit">
-                <a href={media.image.sourceUrl} target="_blank" rel="noopener noreferrer"
-                  title={media.image.creditOriginal || media.image.credit || "图片来源"}>
-                  {media.image.credit === "See Wikimedia Commons source page" ? "图片来源" : media.image.credit || "图片来源"}
+                <a
+                  href={media.image.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={
+                    media.image.creditOriginal ||
+                    media.image.credit ||
+                    "图片来源"
+                  }
+                >
+                  {media.image.credit === "See Wikimedia Commons source page"
+                    ? "图片来源"
+                    : media.image.credit || "图片来源"}
                 </a>
-                {media.image.licenseUrl && <a href={media.image.licenseUrl} target="_blank" rel="noopener noreferrer"
-                  title="图片按版式裁切，保留原许可证">{media.image.license}</a>}
+                {media.image.licenseUrl && (
+                  <a
+                    href={media.image.licenseUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="图片按版式裁切，保留原许可证"
+                  >
+                    {media.image.license}
+                  </a>
+                )}
               </span>
             )}
           </figcaption>
@@ -1677,37 +1793,73 @@ function RoutineItem({ item, city, plan, onEditLine, samples, costText }) {
         <div className="routine-meta">
           {budgetOnly && <span>{included ? "费用已含" : "灵活安排"}</span>}
           {item.durationMinutes > 0 && (
-            <span><Clock3 size={12} />{item.journey ? "规划预留 " : "约 "}{durationLabel(item.durationMinutes)}</span>
+            <span>
+              <Clock3 size={12} />
+              {item.journey ? "规划预留 " : "约 "}
+              {durationLabel(item.durationMinutes)}
+            </span>
           )}
-          {item.segment?.distanceKm != null && <span>{Number(item.segment.distanceKm).toFixed(1)} km · 路程估算</span>}
-          {item.routineType === "citywalk" && <span>轻松探索 · 可按体力取舍</span>}
+          {item.segment?.distanceKm != null && (
+            <span>
+              {Number(item.segment.distanceKm).toFixed(1)} km · 路程估算
+            </span>
+          )}
+          {item.routineType === "citywalk" && (
+            <span>轻松探索 · 可按体力取舍</span>
+          )}
         </div>
-        {item.journey && !["arrived", "departed"].includes(item.journeyPhase) ? (
+        {item.journey &&
+        !["arrived", "departed"].includes(item.journeyPhase) ? (
           <details className="routine-description">
             <summary>路程与预算说明</summary>
             <p>{item.description}</p>
           </details>
-        ) : <p className="routine-description">{item.description}</p>}
+        ) : (
+          <p className="routine-description">{item.description}</p>
+        )}
         {!!item.suggestedPlaces?.length && (
           <div className="routine-places" aria-label="附近散步建议">
-            {item.suggestedPlaces.map(place => (
+            {item.suggestedPlaces.map((place) => (
               <div key={place.id || place.name}>
-                <strong><MapPin size={13} />{place.name}</strong>
+                <strong>
+                  <MapPin size={13} />
+                  {place.name}
+                </strong>
                 {place.description && <p>{place.description}</p>}
-                {place.mapsUrl && <OutLink href={place.mapsUrl}>查看位置</OutLink>}
+                {place.mapsUrl && (
+                  <OutLink href={place.mapsUrl}>查看位置</OutLink>
+                )}
               </div>
             ))}
           </div>
         )}
         <div className="routine-footer">
           {cost?.budgetLineId ? (
-            <button className={`routine-budget${meal ? " meal-budget" : ""}`}
-              title={meal ? "调整这座城市的餐饮总预算，三餐会重新分摊" : "查看对应费用明细"}
-              onClick={() => onEditLine(cost.budgetLineId)}>
-              <strong>{item.kind === "hotel" ? "查看住宿费用" : included ? "不重复计费" : costText}</strong>
+            <button
+              className={`routine-budget${meal ? " meal-budget" : ""}`}
+              title={
+                meal
+                  ? "调整这座城市的餐饮总预算，三餐会重新分摊"
+                  : "查看对应费用明细"
+              }
+              onClick={() => onEditLine(cost.budgetLineId)}
+            >
+              <strong>
+                {item.kind === "hotel"
+                  ? "查看住宿费用"
+                  : included
+                    ? "不重复计费"
+                    : costText}
+              </strong>
               <small>{costCaption}</small>
             </button>
-          ) : item.routineType === "citywalk" && <span className="routine-cost-note">户外散步不另计门票，消费自选</span>}
+          ) : (
+            item.routineType === "citywalk" && (
+              <span className="routine-cost-note">
+                户外散步不另计门票，消费自选
+              </span>
+            )
+          )}
           {mapLink && <OutLink href={mapLink}>查看实际路线</OutLink>}
           {menu && <OutLink href={menu.sourceUrl}>本城菜单参考</OutLink>}
         </div>
@@ -1740,17 +1892,27 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
         : item.cost?.sourceType === "free"
           ? "免费开放范围"
           : attraction
-            ? "门票估算 · 待核验"
+            ? attraction.activityType
+              ? "体验预算 · 待核验"
+              : "门票估算 · 待核验"
             : "预算分摊";
   const Icon = timelineIcon(item);
   const timed = hasTimelineTime(item);
   return (
-    <div className={"rich-timeline-item kind-" + item.kind + (timed ? "" : " is-untimed")}
-      data-item-id={item.id} data-timing={timed ? "scheduled" : "unscheduled"}
-      data-routine-type={item.routineType || ""} data-journey-phase={item.journeyPhase || ""}>
+    <div
+      className={
+        "rich-timeline-item kind-" + item.kind + (timed ? "" : " is-untimed")
+      }
+      data-item-id={item.id}
+      data-timing={timed ? "scheduled" : "unscheduled"}
+      data-routine-type={item.routineType || ""}
+      data-journey-phase={item.journeyPhase || ""}
+    >
       <div className="timeline-clock">
         {timed && <strong>{item.time.split("+")[0]}</strong>}
-        {timed && item.time.includes("+") && <em>+{item.time.split("+")[1]} 天</em>}
+        {timed && item.time.includes("+") && (
+          <em>+{item.time.split("+")[1]} 天</em>
+        )}
         {timed && item.endTime && item.endTime !== item.time && (
           <small>{item.endTime.replace("+", " +")}</small>
         )}
@@ -1889,8 +2051,14 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
             </div>
           </article>
         ) : (
-          <RoutineItem item={item} city={city} plan={plan} onEditLine={onEditLine}
-            samples={samples} costText={costText} />
+          <RoutineItem
+            item={item}
+            city={city}
+            plan={plan}
+            onEditLine={onEditLine}
+            samples={samples}
+            costText={costText}
+          />
         )}
       </div>
     </div>

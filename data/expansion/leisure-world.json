@@ -1,0 +1,3308 @@
+[
+  {
+    "id": "bled",
+    "name": "布莱德",
+    "nameEn": "Bled",
+    "country": "斯洛文尼亚",
+    "countryCode": "SI",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 46.3683,
+    "lng": 14.1146,
+    "iata": "LJU",
+    "article": "Bled",
+    "tagline": "把湖边长椅、奶油蛋糕与山间小村留进假期",
+    "description": "以布莱德湖东岸为落脚点，城堡与湖畔小路可以慢慢拆成两天；有余裕再去扎西普村和文特加峡谷。这里的推荐节奏包括坐在水边休息，不要求把整圈湖与全部观景点一次走完。",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "湖畔和城堡各留半天，再给峡谷或村庄一天；抵达与离开时间另受跨城交通约束。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bled"
+    },
+    "officialTourismUrl": "https://www.bled.si/en/information/about-bled/about-bled/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        70,
+        150,
+        340
+      ],
+      "food": [
+        22,
+        45,
+        90
+      ],
+      "transport": [
+        5,
+        18,
+        65
+      ],
+      "misc": [
+        5,
+        12,
+        30
+      ]
+    },
+    "monthly": {
+      "rent": [
+        650,
+        1200,
+        2400
+      ],
+      "utilities": [
+        90,
+        160,
+        260
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "bled",
+      "intro": "以布莱德湖东岸为落脚点，城堡与湖畔小路可以慢慢拆成两天；有余裕再去扎西普村和文特加峡谷。这里的推荐节奏包括坐在水边休息，不要求把整圈湖与全部观景点一次走完。",
+      "foodHighlights": [
+        {
+          "name": "布莱德奶油蛋糕",
+          "description": "湖畔咖啡馆的 kremšnita 适合分出一段下午茶时间，饮品与甜点按餐饮预算另付。"
+        },
+        {
+          "name": "Štruklji 面卷",
+          "description": "试试奶酪或其他馅料的斯洛文尼亚面卷；农家餐馆与湖景餐厅的价位差异较大。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "湖东岸与 Mlino",
+          "description": "东岸便于坐车、用餐，Mlino 靠近南岸步道和传统划船出发点。"
+        },
+        {
+          "name": "扎西普村",
+          "description": "离湖区不远的村落与田野适合放慢脚步；登 Hom 山需另留体力与时间。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "LJU 是卢布尔雅那机场，不在布莱德市内；预留机场公路接驳，约 35 公里。湖边以步行为主，去峡谷先确认预约、接驳和回程路线；传统 Pletna 船、游湖及湖岛教堂费用另计。",
+    "attractions": [
+      {
+        "id": "bled-lake-promenade",
+        "name": "布莱德湖畔慢行",
+        "nameEn": "Lake Bled",
+        "lat": 46.3638,
+        "lng": 14.0945,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "湖畔时光",
+        "description": "从 Mlino 或西岸 Velika Zaka 选一段湖边小路，走走停停看湖岛和城堡。推荐时间包含长椅休息，不包含游船、租艇或完整环湖。",
+        "features": [
+          "湖岛倒影",
+          "长椅停留"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Lake Bled",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Bled"
+        },
+        "sourceUrl": "https://www.bled.si/en/information/about-bled/about-bled/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bled.si/en/information/about-bled/about-bled/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "bled-castle",
+        "name": "布莱德城堡",
+        "nameEn": "Bled Castle",
+        "lat": 46.3698,
+        "lng": 14.1002,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "登上湖边崖顶城堡看庭院、展陈与湖景；坡道与台阶较多，留足上下山时间，城堡餐饮另计。",
+        "features": [
+          "崖顶湖景",
+          "城堡庭院"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "article": "Bled Castle",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bled_Castle"
+        },
+        "sourceUrl": "https://www.bled.si/en/information/about-bled/about-bled/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 18,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bled.si/en/information/about-bled/about-bled/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "bled-zasip",
+        "name": "扎西普村与田野小路",
+        "nameEn": "Zasip",
+        "lat": 46.3922,
+        "lng": 14.1087,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "村落慢游",
+        "description": "沿扎西普村公共道路看农舍与山脚田野，找一段平缓小路散步。此项不等于完整 Hom 山徒步，也不进入私人庭院。",
+        "features": [
+          "阿尔卑斯村落",
+          "田野散步"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Zasip",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Zasip"
+        },
+        "sourceUrl": "https://www.bled.si/it/l%E2%80%99inspirazione/blog/2022070115351493/bled-s-scenic-viewpoints/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bled.si/it/l%E2%80%99inspirazione/blog/2022070115351493/bled-s-scenic-viewpoints/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "bled-straza",
+        "name": "斯特拉扎山林间步道",
+        "nameEn": "Straža Hill",
+        "lat": 46.3594,
+        "lng": 14.1072,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "leisure",
+        "category": "林间散步",
+        "description": "从湖的南岸沿步道上 Straža，在树荫里走到能看到湖面的地方。此项只安排步行，缆椅、滑道与收费游乐设施另购。",
+        "features": [
+          "树荫小径",
+          "湖面视野"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.bled.si/en/what-to-see-do/attractions/3/straza/"
+        },
+        "sourceUrl": "https://www.bled.si/en/what-to-see-do/attractions/3/straza/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bled.si/en/what-to-see-do/attractions/3/straza/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "bled-vintgar",
+        "name": "文特加峡谷步道",
+        "nameEn": "Vintgar Gorge",
+        "lat": 46.3937,
+        "lng": 14.0852,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "峡谷步道",
+        "description": "沿 Radovna 河的栈道看峡谷与清水，按园区规定的方向通行。推荐用时包含步道与返回缓冲，预约入场和实际接驳需单独确认。",
+        "features": [
+          "河谷栈道",
+          "清水峡谷"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 240
+        },
+        "article": "Vintgar Gorge",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vintgar_Gorge"
+        },
+        "sourceUrl": "https://www.bled.si/sl/kaj-videti-poceti/znamenitosti/6/soteska-vintgar/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 18,
+          "high": 30,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bled.si/sl/kaj-videti-poceti/znamenitosti/6/soteska-vintgar/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kotor",
+    "name": "科托尔",
+    "nameEn": "Kotor",
+    "country": "黑山",
+    "countryCode": "ME",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 42.4247,
+    "lng": 18.7712,
+    "iata": "TIV",
+    "article": "Kotor",
+    "tagline": "古城石巷之外，还有值得坐上一下午的海湾",
+    "description": "以科托尔老城为中心，向多布罗塔、普尔查尼和佩拉斯特延伸。城门内看石造街巷，城门外沿海湾慢行；不把陡峭城墙攀登当作每个人都必须完成的项目。",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "老城一天、海湾村镇一天，第三天留给靠海休息与接驳；沿湾公路旺季会堵车。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kotor"
+    },
+    "officialTourismUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        55,
+        125,
+        300
+      ],
+      "food": [
+        20,
+        40,
+        85
+      ],
+      "transport": [
+        5,
+        18,
+        60
+      ],
+      "misc": [
+        4,
+        10,
+        25
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1000,
+        2200
+      ],
+      "utilities": [
+        80,
+        140,
+        240
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "kotor",
+      "intro": "以科托尔老城为中心，向多布罗塔、普尔查尼和佩拉斯特延伸。城门内看石造街巷，城门外沿海湾慢行；不把陡峭城墙攀登当作每个人都必须完成的项目。",
+      "foodHighlights": [
+        {
+          "name": "海湾鱼汤与烤鱼",
+          "description": "海鲜通常按份或重量出售，点鱼前确认重量、配菜与结账方式。"
+        },
+        {
+          "name": "Njeguši 风干火腿与奶酪",
+          "description": "可在老城餐馆点一份拼盘配面包；坐席、酒水和景观位置会影响餐费。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Stari Grad 老城",
+          "description": "小广场、石巷与教堂密集，适合步行；住宿需考虑行李搬运和夜间声响。"
+        },
+        {
+          "name": "Dobrota 海湾沿岸",
+          "description": "离开游轮人流后沿海慢走，看石码头与船长宅邸；并非全程都是专用人行道。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "TIV 机场经公路进入科托尔。老城内部步行，佩拉斯特在海湾北侧、Prčanj 在对岸西侧，不能按直线距离估车程；分别安排湾岸游览。短程公交、出租车和海上游船均需核对季节班次，城墙票与离岛船票另计。",
+    "attractions": [
+      {
+        "id": "kotor-old-town",
+        "name": "科托尔老城石巷漫游",
+        "nameEn": "Kotor Old Town",
+        "lat": 42.4247,
+        "lng": 18.7712,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "从海门进入老城，沿兵器广场和小巷看石屋、院落与教堂外观，中途留一段咖啡时间。公共街巷免费，城墙、博物馆和付费教堂不包含在内。",
+        "features": [
+          "石巷广场",
+          "威尼斯时代街景"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "article": "Kotor",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kotor"
+        },
+        "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kotor-dobrota",
+        "name": "多布罗塔海边下午",
+        "nameEn": "Dobrota Waterfront",
+        "lat": 42.4441,
+        "lng": 18.7652,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "沿 Dobrota 的湾岸选择一小段慢行，看停泊的小船与石造宅邸。坐下看海也算行程；餐饮、岸边经营设施与下水活动另行安排。",
+        "features": [
+          "石码头",
+          "海湾发呆"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Dobrota",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dobrota"
+        },
+        "sourceUrl": "https://www.montenegro.travel/en/explore-montenegro/vacations-on-montenegro-s-adriatic-coast/themed-beaches/family-beaches",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montenegro.travel/en/explore-montenegro/vacations-on-montenegro-s-adriatic-coast/themed-beaches/family-beaches",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kotor-perast",
+        "name": "佩拉斯特滨水街道",
+        "nameEn": "Perast Waterfront",
+        "lat": 42.4863,
+        "lng": 18.6995,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "海湾慢游",
+        "description": "在佩拉斯特的滨水街道看钟楼与湾中小岛，留出坐在岸边的时间。此项只含陆上公共区域，不含圣母岩岛的船票及教堂参观。",
+        "features": [
+          "钟楼与石屋",
+          "湾中双岛"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Perast",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Perast"
+        },
+        "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kotor-prcanj",
+        "name": "普尔查尼海湾村落",
+        "nameEn": "Prčanj",
+        "lat": 42.4564,
+        "lng": 18.7422,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "村落慢游",
+        "description": "沿 Prčanj 岸边看船长旧宅与教堂外观，感受海湾西岸的日常节奏。注意窄路上的车辆，教堂内部或导览按现场规则另计。",
+        "features": [
+          "海湾西岸",
+          "船长旧宅"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Prčanj",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pr%C4%8Danj"
+        },
+        "sourceUrl": "https://www.montenegro.travel/en/explore-montenegro/vacations-on-montenegro-s-adriatic-coast/themed-beaches/family-beaches",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montenegro.travel/en/explore-montenegro/vacations-on-montenegro-s-adriatic-coast/themed-beaches/family-beaches",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kotor-cathedral",
+        "name": "圣特里丰大教堂",
+        "nameEn": "Kotor Cathedral",
+        "lat": 42.4241,
+        "lng": 18.7717,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.25,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "走进老城的圣特里丰大教堂，慢慢看石造结构与宗教艺术；礼拜活动和临时开放安排优先于观光。",
+        "features": [
+          "罗曼式建筑",
+          "宗教艺术"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "article": "Kotor Cathedral",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kotor_Cathedral"
+        },
+        "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 4,
+          "high": 8,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montenegro.travel/uploads/brochures/Panoramic%20Roads/MNE/mapa-more-i-visine.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "gozo",
+    "name": "戈佐岛",
+    "nameEn": "Gozo",
+    "country": "马耳他",
+    "countryCode": "MT",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 36.0443,
+    "lng": 14.2397,
+    "iata": "MLA",
+    "article": "Gozo",
+    "tagline": "赭红沙滩、石灰岩小城与一段不赶船的午后",
+    "description": "以维多利亚为交通中心，在城堡与海湾之间慢慢移动。戈佐与马耳他主岛分开，登岛本身需要交通时间；建议住下来再安排 Ramla 沙滩、Xlendi 和史前神庙。",
+    "islandGroup": "gozo",
+    "islandAccess": "ferry",
+    "airportIsGateway": true,
+    "gatewayTransfer": {
+      "currency": "EUR",
+      "values": [
+        15,
+        45,
+        110
+      ],
+      "note": "编辑估算：每成人单程 MLA 机场至戈佐住宿区域的公路与渡轮接驳，经济按公共交通、舒适/高端按拼乘或私人接驳分摊；不是已核实船价，实际人数、港口、候船和夜间附加费须核对。"
+    },
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 6,
+      "reason": "留一天抵达及城堡，再各给海湾和神庙半天；短途渡轮仍需候船与岛内接驳。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gozo"
+    },
+    "officialTourismUrl": "https://visitgozo.com/place_category/sightseeing/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        55,
+        125,
+        290
+      ],
+      "food": [
+        22,
+        45,
+        90
+      ],
+      "transport": [
+        5,
+        18,
+        65
+      ],
+      "misc": [
+        4,
+        10,
+        25
+      ]
+    },
+    "monthly": {
+      "rent": [
+        650,
+        1100,
+        2300
+      ],
+      "utilities": [
+        90,
+        160,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "gozo",
+      "intro": "以维多利亚为交通中心，在城堡与海湾之间慢慢移动。戈佐与马耳他主岛分开，登岛本身需要交通时间；建议住下来再安排 Ramla 沙滩、Xlendi 和史前神庙。",
+      "foodHighlights": [
+        {
+          "name": "Ġbejniet 戈佐羊乳酪",
+          "description": "在小店或餐馆尝鲜乳酪与胡椒熟成版本，配番茄、面包作为轻食。"
+        },
+        {
+          "name": "Ftira 戈佐烤饼",
+          "description": "带土豆、番茄等配料的当地烤饼适合分享；实际馅料与份量先看菜单。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Victoria 与 Ċittadella",
+          "description": "城堡下方的巷子和广场适合吃饭采购；公交多在维多利亚换乘。"
+        },
+        {
+          "name": "Xlendi 与 Marsalforn",
+          "description": "前者是山壁环抱的小海湾，后者是开阔的滨水聚落，可按住宿位置择一慢住。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "MLA 位于马耳他主岛，戈佐没有同等民航机场。需乘车到 Ċirkewwa 再搭渡轮至 Mġarr，或核对 Valletta 快船；抵达后仍有公交或出租车。渡轮、机场车费和候船都应计入交通，不能把海滩零门票当成免费上岛。",
+    "attractions": [
+      {
+        "id": "gozo-citadel",
+        "name": "维多利亚城堡公共街巷",
+        "nameEn": "Ċittadella",
+        "lat": 36.0469,
+        "lng": 14.2395,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "古城慢游",
+        "description": "穿过 Ċittadella 的石巷与公共城墙步道，从高处看戈佐的村落和田野。博物馆、游客中心及大教堂室内票不包含在公共区域零门票中。",
+        "features": [
+          "石灰岩城墙",
+          "全岛远景"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Cittadella (Gozo)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cittadella_(Gozo)"
+        },
+        "sourceUrl": "https://visitgozo.com/places/cittadella/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgozo.com/places/cittadella/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "gozo-ramla",
+        "name": "拉姆拉红沙湾午后",
+        "nameEn": "Ramla Bay",
+        "lat": 36.0611,
+        "lng": 14.2844,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在 Ramla 的赭红沙滩散步、读书或看浪，保留不安排任务的时间。是否下水看当天海况，遮阳伞、餐饮与停车另计。",
+        "features": [
+          "赭红沙滩",
+          "开阔海湾"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Ramla Bay",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ramla_Bay"
+        },
+        "sourceUrl": "https://visitgozo.com/places/ramla-bay/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgozo.com/places/ramla-bay/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "gozo-xlendi",
+        "name": "施伦迪海湾岸边散步",
+        "nameEn": "Xlendi Bay",
+        "lat": 36.0304,
+        "lng": 14.2174,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "海湾慢游",
+        "description": "沿 Xlendi 港湾的公共岸边慢走，坐看小船和崖壁；此项不包括高处未护栏崖边路线、潜水或包船。",
+        "features": [
+          "小船港湾",
+          "海边停留"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Xlendi",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Xlendi"
+        },
+        "sourceUrl": "https://visitgozo.com/place_category/sightseeing/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgozo.com/place_category/sightseeing/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "gozo-marsalforn",
+        "name": "马萨尔福恩滨水小镇",
+        "nameEn": "Marsalforn",
+        "lat": 36.0705,
+        "lng": 14.2587,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "从 Marsalforn 湾边走进餐馆与住宅相间的小街，再回到岸边休息。若继续去盐田需追加往返时间，不能进入仍在作业的私人盐池。",
+        "features": [
+          "滨水聚落",
+          "日常小街"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Marsalforn",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Marsalforn"
+        },
+        "sourceUrl": "https://visitgozo.com/place_category/sightseeing/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgozo.com/place_category/sightseeing/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "gozo-ggantija",
+        "name": "巨石神庙 Ġgantija",
+        "nameEn": "Ġgantija Archaeological Park",
+        "lat": 36.0472,
+        "lng": 14.2693,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "史前文化",
+        "description": "先看解说展陈再进入巨石遗址，感受史前石块构成的尺度。编辑预算按成人普通参观估算，联票范围、年龄优惠和开放时间以 Heritage Malta 为准。",
+        "features": [
+          "史前巨石",
+          "考古展陈"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "article": "Ġgantija",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/%C4%A0gantija"
+        },
+        "sourceUrl": "https://heritagemalta.mt/explore/ggantija-archaeological-park/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 10,
+          "high": 16,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://heritagemalta.mt/explore/ggantija-archaeological-park/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "paphos",
+    "name": "帕福斯",
+    "nameEn": "Paphos",
+    "country": "塞浦路斯",
+    "countryCode": "CY",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 34.7603,
+    "lng": 32.4144,
+    "iata": "PFO",
+    "article": "Paphos",
+    "planningProfile": "balanced",
+    "tagline": "上午看马赛克，下午把脚步交给海岸",
+    "description": "港口、古代遗址与老城分处不同区域，适合在考古参观之间穿插海边散步。海港作为落脚参考，老城市场与王陵另留接驳时间，避免炎热时段连续暴晒。",
+    "routeMode": "road",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "考古公园与王陵各需独立时段，穿插港湾、老城和海边休息更从容。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Paphos"
+    },
+    "officialTourismUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        55,
+        125,
+        300
+      ],
+      "food": [
+        22,
+        45,
+        95
+      ],
+      "transport": [
+        5,
+        18,
+        65
+      ],
+      "misc": [
+        5,
+        12,
+        28
+      ]
+    },
+    "monthly": {
+      "rent": [
+        650,
+        1200,
+        2500
+      ],
+      "utilities": [
+        100,
+        180,
+        320
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "paphos",
+      "intro": "港口、古代遗址与老城分处不同区域，适合在考古参观之间穿插海边散步。海港作为落脚参考，老城市场与王陵另留接驳时间，避免炎热时段连续暴晒。",
+      "foodHighlights": [
+        {
+          "name": "塞浦路斯 Meze",
+          "description": "多道小份菜适合慢慢吃，点单前确认按人还是按桌、最低人数及菜品数量。"
+        },
+        {
+          "name": "烤哈罗米与地方葡萄酒",
+          "description": "奶酪可搭配蔬菜和面包；葡萄酒、海景座位与海鲜主菜会提高一餐预算。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Kato Pafos 海港",
+          "description": "靠近码头、考古遗址与沿海步道，适合初次来访和步行看海。"
+        },
+        {
+          "name": "Ktima 老城与 Kennedy Square",
+          "description": "离海岸有高度差，市场周边更有居民生活感，步行与公交可搭配。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "PFO 机场到海港需公路接驳。Kato Pafos 与山上的 Ktima 老城可搭当地公交，去王陵也应留候车时间；租车为左侧通行。遗址遮阴有限，优先早些参观，午后海边休息与用餐。",
+    "attractions": [
+      {
+        "id": "paphos-harbour",
+        "name": "帕福斯海港滨海慢行",
+        "nameEn": "Paphos Harbour",
+        "lat": 34.7548,
+        "lng": 32.4079,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "从渔港沿滨水步道看城堡外观与海面，停下来喝一杯或看船进出。这里的零门票只指公共海岸，不包含进入城堡或乘船。",
+        "features": [
+          "港湾小船",
+          "城堡外观"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Paphos Castle",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Paphos_Castle"
+        },
+        "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "paphos-archaeological-park",
+        "name": "卡托帕福斯考古公园",
+        "nameEn": "Paphos Archaeological Park",
+        "lat": 34.7557,
+        "lng": 32.4069,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "culture",
+        "category": "考古遗产",
+        "description": "把重点放在罗马时期的马赛克与遗址步道，慢慢阅读展板。大片区域在室外，推荐用时包含休息但不含往返酒店。",
+        "features": [
+          "罗马马赛克",
+          "沿海遗址"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "article": "Paphos Archaeological Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Paphos_Archaeological_Park"
+        },
+        "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 5,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "paphos-tombs",
+        "name": "王陵考古遗址",
+        "nameEn": "Tombs of the Kings",
+        "lat": 34.7754,
+        "lng": 32.4067,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "考古遗产",
+        "description": "在岩凿墓室和柱廊之间了解古代墓葬空间，石阶与地面高差需放慢步速。此项是文化参观，不与远处港口步道视为同一个地点。",
+        "features": [
+          "岩凿墓室",
+          "地下柱廊"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Tombs of the Kings (Paphos)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tombs_of_the_Kings_(Paphos)"
+        },
+        "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 3,
+          "high": 8,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitpafos.org.cy/a-proud-heritage/archaeological-sites/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "paphos-old-town",
+        "name": "帕福斯老城与肯尼迪广场",
+        "nameEn": "Paphos Old Town and Kennedy Square",
+        "lat": 34.7759,
+        "lng": 32.4235,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "从 Kennedy Square 走向老城市场周边，看看本地商店和小广场。市集营业随日期变化，非营业日可保留普通街区散步。",
+        "features": [
+          "山城广场",
+          "老城小店"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf"
+        },
+        "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "paphos-faros",
+        "name": "法罗斯海滩与海岸步道",
+        "nameEn": "Faros Beach",
+        "lat": 34.7692,
+        "lng": 32.4037,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在 Faros 海滩和邻近公共步道找一段适合停留的海岸；留给看浪、散步和休息，不默认参加水上活动。躺椅、遮阳与餐饮需另付。",
+        "features": [
+          "灯塔方向海岸",
+          "看浪休息"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf"
+        },
+        "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitcyprus.com/wp-content/uploads/2023/03/Pafos_cruise_map_16_12_2020.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "funchal",
+    "name": "丰沙尔",
+    "nameEn": "Funchal",
+    "country": "葡萄牙",
+    "countryCode": "PT",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 32.6496,
+    "lng": -16.908,
+    "iata": "FNC",
+    "article": "Funchal",
+    "planningProfile": "balanced",
+    "tagline": "花园、海边长廊与彩绘门后的马德拉日常",
+    "description": "以丰沙尔为基地，在老城市场、海边公园和山坡花园间慢游。市区起伏明显，Monte 与植物园不在同一入口；度假路线保留午后看海，而不是把全岛山地徒步一并塞进市区一天。",
+    "islandGroup": "madeira",
+    "islandAccess": "air",
+    "routeMode": "road",
+    "tripDuration": {
+      "days": 4,
+      "min": 2,
+      "max": 7,
+      "reason": "老城与海岸各留半天，山坡花园分开安排；多出的天数适合马德拉短途游。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Funchal"
+    },
+    "officialTourismUrl": "https://visitmadeira.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        65,
+        150,
+        380
+      ],
+      "food": [
+        23,
+        48,
+        100
+      ],
+      "transport": [
+        6,
+        22,
+        75
+      ],
+      "misc": [
+        5,
+        12,
+        30
+      ]
+    },
+    "monthly": {
+      "rent": [
+        800,
+        1500,
+        3200
+      ],
+      "utilities": [
+        90,
+        160,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "funchal",
+      "intro": "以丰沙尔为基地，在老城市场、海边公园和山坡花园间慢游。市区起伏明显，Monte 与植物园不在同一入口；度假路线保留午后看海，而不是把全岛山地徒步一并塞进市区一天。",
+      "foodHighlights": [
+        {
+          "name": "Bolo do Caco 蒜香面包",
+          "description": "在老城或小吃店用热面包搭一顿轻食，夹馅版本与餐厅开胃菜的价位不同。"
+        },
+        {
+          "name": "黑带鱼与马德拉风味",
+          "description": "可尝当地黑带鱼料理或烤肉串，水果配菜和当地葡萄酒按个人喜好另选。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Zona Velha 与 Rua de Santa Maria",
+          "description": "彩绘门与小餐馆之间适合散步；市场参观可连在上午，晚餐另留时间。"
+        },
+        {
+          "name": "Lido 与 Estrada Monumental",
+          "description": "度假酒店和海岸步道较集中，去老城可搭公交；游泳场和海水泳池可能另售门票。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "FNC 机场与市区之间有公路接驳。老城可步行，Monte 等山坡区域搭公交、出租车或缆车；缆车票不包含在花园门票里。植物园与 Monte Palace 分属不同地点，马德拉全岛山路行程需另算时间。",
+    "attractions": [
+      {
+        "id": "funchal-zona-velha",
+        "name": "圣玛丽亚老城巷弄",
+        "nameEn": "Zona Velha and Rua de Santa Maria",
+        "lat": 32.6474,
+        "lng": -16.8998,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "沿 Rua de Santa Maria 看彩绘门和老房子，绕进能看到海的小街。逛街免费，下午茶、购物和博物馆需另选预算。",
+        "features": [
+          "彩绘门",
+          "海边老城"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://visitmadeira.com/en/"
+        },
+        "sourceUrl": "https://visitmadeira.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitmadeira.com/en/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "funchal-lavradores",
+        "name": "农贸市场与当地食材",
+        "nameEn": "Mercado dos Lavradores",
+        "lat": 32.6486,
+        "lng": -16.9024,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "在 Mercado dos Lavradores 看鲜花、热带水果与鱼市空间，先问价再购买或试吃。市场有休市日，周日不应默认安排摊位采购。",
+        "features": [
+          "地方食材",
+          "瓷砖与市场"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 120
+        },
+        "article": "Mercado dos Lavradores",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mercado_dos_Lavradores"
+        },
+        "sourceUrl": "https://visitmadeira.com/pt/o-que-fazer/apaixonados-por-cultura/patrimonio/monumentos-e-arquitetura/mercado-dos-lavradores/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitmadeira.com/pt/o-que-fazer/apaixonados-por-cultura/patrimonio/monumentos-e-arquitetura/mercado-dos-lavradores/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "funchal-santa-catarina",
+        "name": "圣卡塔琳娜公园海景午后",
+        "nameEn": "Santa Catarina Park",
+        "lat": 32.6437,
+        "lng": -16.9144,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边花园",
+        "description": "在 Santa Catarina 公园的公共步道和树荫下缓缓散步，找一处能望向丰沙尔港湾的位置坐下来。此项不包含附近酒店或游泳设施。",
+        "features": [
+          "港湾远景",
+          "草地与树荫"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Santa Catarina Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Santa_Catarina_Park"
+        },
+        "sourceUrl": "https://visitmadeira.madeira.apollotec.pt/en/what-to-do/experiencing-the-city-of-funchal/exploring-the-city/gardens-and-parks/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitmadeira.madeira.apollotec.pt/en/what-to-do/experiencing-the-city-of-funchal/exploring-the-city/gardens-and-parks/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "funchal-botanical-garden",
+        "name": "马德拉植物园",
+        "nameEn": "Madeira Botanical Garden",
+        "lat": 32.6638,
+        "lng": -16.894,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "花园慢游",
+        "description": "沿植物园步道看几何花坛与海岛植物，留一点时间眺望城区。山坡台阶较多，进入园区与上下山交通分开核算。",
+        "features": [
+          "几何花坛",
+          "植物与海景"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Madeira Botanical Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Madeira_Botanical_Garden"
+        },
+        "sourceUrl": "https://visitmadeira.madeira.apollotec.pt/en/what-to-do/experiencing-the-city-of-funchal/exploring-the-city/gardens-and-parks/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 8,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitmadeira.madeira.apollotec.pt/en/what-to-do/experiencing-the-city-of-funchal/exploring-the-city/gardens-and-parks/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "funchal-monte-palace",
+        "name": "蒙特宫热带花园",
+        "nameEn": "Monte Palace Tropical Garden",
+        "lat": 32.675,
+        "lng": -16.902,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "花园慢游",
+        "description": "在 Monte 的坡地花园看水景、植物与艺术陈列，依体力选路线。这里安排花园与开放展陈，不声称可进入宫殿建筑；缆车另购。",
+        "features": [
+          "热带植物",
+          "水景与艺术"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://montepalacemadeira.com/visita/"
+        },
+        "sourceUrl": "https://montepalacemadeira.com/visita/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://montepalacemadeira.com/visita/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ponta-delgada",
+    "name": "蓬塔德尔加达",
+    "nameEn": "Ponta Delgada",
+    "country": "葡萄牙",
+    "countryCode": "PT",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 37.7412,
+    "lng": -25.6756,
+    "iata": "PDL",
+    "article": "Ponta Delgada",
+    "tagline": "港边慢生活，串起亚速尔的火山湖与温泉花园",
+    "description": "以圣米格尔岛的蓬塔德尔加达为基地，先在港口和市区花园找自己的节奏，再分天去七城湖或 Furnas。这里的地点覆盖岛内短途游，不能把东、西两端当作市中心步行距离。",
+    "islandGroup": "sao-miguel",
+    "islandAccess": "air",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 7,
+      "reason": "市区一天、七城湖一天、Furnas 一天，再留抵达和天气缓冲；远郊地点分天更合理。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ponta_Delgada"
+    },
+    "officialTourismUrl": "https://www.visitazores.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        60,
+        135,
+        320
+      ],
+      "food": [
+        22,
+        45,
+        90
+      ],
+      "transport": [
+        8,
+        30,
+        85
+      ],
+      "misc": [
+        5,
+        12,
+        28
+      ]
+    },
+    "monthly": {
+      "rent": [
+        700,
+        1300,
+        2700
+      ],
+      "utilities": [
+        90,
+        150,
+        260
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "ponta-delgada",
+      "intro": "以圣米格尔岛的蓬塔德尔加达为基地，先在港口和市区花园找自己的节奏，再分天去七城湖或 Furnas。这里的地点覆盖岛内短途游，不能把东、西两端当作市中心步行距离。",
+      "foodHighlights": [
+        {
+          "name": "Furnas 地热炖锅",
+          "description": "Cozido das Furnas 通常需要提前预订，远郊一餐与市区交通一起规划。"
+        },
+        {
+          "name": "亚速尔乳酪与海鲜",
+          "description": "用本地奶酪、面包或当天海鲜搭配轻食；烤帽贝等海产以菜单实际供应为准。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "São Sebastião 与 Portas da Cidade",
+          "description": "黑白石铺地、城市门与海港步道相邻，适合市区半日慢游。"
+        },
+        {
+          "name": "São Pedro 与码头东侧",
+          "description": "海边步道、酒店和餐馆延伸向东，便于在出岛游前后留一段休息。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "PDL 机场位于圣米格尔岛，可飞抵后公路进城。七城湖在岛西、Furnas 在岛东，建议分天安排；公共交通班次与游览停留未必匹配，包车或租车费用需单独核对。温泉花园与观鲸、船游均非免费市区散步。",
+    "attractions": [
+      {
+        "id": "ponta-delgada-portas",
+        "name": "城市门与港湾步道",
+        "nameEn": "Portas da Cidade and waterfront",
+        "lat": 37.7391,
+        "lng": -25.6681,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "从 Portas da Cidade 走过黑白石铺广场，再沿港湾选择一段慢行。此项是公共街区散步，咖啡、购物和海上活动都可另选。",
+        "features": [
+          "城市门",
+          "黑白石铺地"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.visitazores.com/en/explore/portas-da-cidade"
+        },
+        "sourceUrl": "https://www.visitazores.com/en/explore/portas-da-cidade",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitazores.com/en/explore/portas-da-cidade",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ponta-delgada-graca",
+        "name": "格拉萨市场日常",
+        "nameEn": "Mercado da Graça",
+        "lat": 37.7422,
+        "lng": -25.6625,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "走进 Mercado da Graça 观察当地蔬果、乳酪与日常采购，先问清单价再买。具体摊位和营业时段要按日期确认，休市时改去周边街道。",
+        "features": [
+          "本地食材",
+          "岛民日常"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 120
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28"
+        },
+        "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ponta-delgada-borges",
+        "name": "安东尼奥·博尔热斯花园",
+        "nameEn": "António Borges Garden",
+        "lat": 37.7469,
+        "lng": -25.6751,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "花园慢游",
+        "description": "在市区花园的树荫、石径和植物之间走走停停，适合抵达后放慢节奏。这里只安排公共园林游览，不附加导览或餐饮套餐。",
+        "features": [
+          "浓荫与石径",
+          "城中休息"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28"
+        },
+        "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://azoresphotos.visitazores.com/site/category/2/Photo_page/28",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ponta-delgada-sete-cidades",
+        "name": "七城湖村边湖岸",
+        "nameEn": "Lagoa das Sete Cidades",
+        "lat": 37.8612,
+        "lng": -25.7902,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "湖畔时光",
+        "description": "从 Sete Cidades 村附近选择平缓湖岸短段，坐看火山口内的水色与云影。不是完整火山口长线徒步，皮划艇、骑行和市区往返另计。",
+        "features": [
+          "火山口湖",
+          "村边湖岸"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Lagoa das Sete Cidades",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lagoa_das_Sete_Cidades"
+        },
+        "sourceUrl": "https://www.visitazores.com/storage/media/2022/03/pt.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitazores.com/storage/media/2022/03/pt.pdf",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ponta-delgada-terra-nostra",
+        "name": "特拉诺斯特拉温泉花园",
+        "nameEn": "Terra Nostra Park",
+        "lat": 37.7711,
+        "lng": -25.3145,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "温泉与花园",
+        "description": "在 Furnas 的 Terra Nostra 花园慢走，可按开放与个人条件使用含铁温泉池。自备合适泳衣，市区到 Furnas 的往返交通及餐费另算。",
+        "features": [
+          "温泉池",
+          "百年园林"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 240
+        },
+        "article": "Terra Nostra Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Terra_Nostra_Park"
+        },
+        "sourceUrl": "https://www.parqueterranostra.com/en/faq/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 17,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parqueterranostra.com/en/faq/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "krabi",
+    "name": "甲米·奥南",
+    "nameEn": "Krabi / Ao Nang",
+    "country": "泰国",
+    "countryCode": "TH",
+    "currency": "THB",
+    "region": "亚洲",
+    "lat": 8.0319,
+    "lng": 98.8235,
+    "iata": "KBV",
+    "article": "Ao Nang",
+    "travelGroup": "krabi-mainland",
+    "tagline": "石灰岩海岸下，给自己一个完整的海边下午",
+    "description": "以奥南海岸为住宿和交通参考，莱利半岛与甲米镇作为不同方向的短途选择。海边散步、岸边餐馆和看浪可以成为一天的主角；跨到莱利需要乘船，不能按陆路几公里草率计算。",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 4,
+      "min": 2,
+      "max": 7,
+      "reason": "奥南海边、莱利船程和甲米镇各留独立时段，再留天气与抵达缓冲。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ao_Nang"
+    },
+    "officialTourismUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        800,
+        2200,
+        7000
+      ],
+      "food": [
+        350,
+        850,
+        1900
+      ],
+      "transport": [
+        150,
+        500,
+        1600
+      ],
+      "misc": [
+        100,
+        250,
+        650
+      ]
+    },
+    "monthly": {
+      "rent": [
+        12000,
+        26000,
+        65000
+      ],
+      "utilities": [
+        1500,
+        3000,
+        6000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "krabi",
+      "intro": "以奥南海岸为住宿和交通参考，莱利半岛与甲米镇作为不同方向的短途选择。海边散步、岸边餐馆和看浪可以成为一天的主角；跨到莱利需要乘船，不能按陆路几公里草率计算。",
+      "foodHighlights": [
+        {
+          "name": "泰南咖喱与 roti",
+          "description": "奥南与甲米的街边餐馆可尝泰南咖喱或薄饼，辣度、肉类与饮品单独选择。"
+        },
+        {
+          "name": "烤鱼与海鲜饭",
+          "description": "海边餐馆和镇内市场价格不同；称重海鲜先确认重量、烹饪费与是否含税。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Ao Nang 海滨",
+          "description": "酒店和餐馆集中，适合作为首次抵达基地；长尾船噪声和繁忙程度随时段变化。"
+        },
+        {
+          "name": "Krabi Town 河岸",
+          "description": "较多本地日常小店，适合河边与街巷半日；并非从奥南步行即可到达。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "KBV 到奥南需机场公路接驳。Railay 与 Phra Nang 只能从海上抵达，船票、候船、潮汐及海况要单独核对；夜间班次不默认存在。甲米镇在另一方向，日常交通预算不含包船、离岛一日游或国家公园费用。",
+    "attractions": [
+      {
+        "id": "krabi-ao-nang",
+        "name": "奥南海滩的留白午后",
+        "nameEn": "Ao Nang Beach",
+        "lat": 8.0318,
+        "lng": 98.8233,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "沿奥南公共海滩慢走，选树荫或岸边合适位置看船来往，再留一段什么也不做的时间。餐饮、按摩、躺椅与乘船各自另付。",
+        "features": [
+          "石灰岩海岸",
+          "午后看海"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Ao Nang",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ao_Nang"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        },
+        "travelGroup": "krabi-mainland"
+      },
+      {
+        "id": "krabi-noppharat",
+        "name": "诺帕拉塔拉海岸散步",
+        "nameEn": "Noppharat Thara Beach",
+        "lat": 8.0472,
+        "lng": 98.8139,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在奥南北侧的海岸与树荫步道散步，看潮水改变沙滩的形状。只安排可开放的岸边公共区域，不包含国家公园收费离岛与船游。",
+        "features": [
+          "木麻黄树荫",
+          "潮间海岸"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/Krabi/344",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        },
+        "travelGroup": "krabi-mainland"
+      },
+      {
+        "id": "krabi-railay",
+        "name": "莱利西海滩半日",
+        "nameEn": "Railay West Beach",
+        "lat": 8.0105,
+        "lng": 98.837,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "下船后沿莱利西海滩看陡峭石灰岩壁，在沙滩与小路间慢慢停留。推荐用时不包含从奥南往返的船程和候船，攀岩课程也不包含。",
+        "features": [
+          "石灰岩壁",
+          "船抵海湾"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Railay Beach",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Railay_Beach"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        },
+        "travelGroup": "krabi-railay",
+        "accessNote": "必须乘船进入莱利半岛；返程请在出发前核对，不按陆路连接奥南。"
+      },
+      {
+        "id": "krabi-riverfront",
+        "name": "甲米镇河岸与双子峰远望",
+        "nameEn": "Krabi Town Riverfront",
+        "lat": 8.0647,
+        "lng": 98.9188,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "在甲米镇河岸慢走，从岸上看 Khao Khanap Nam 双峰和当地船只，再走入镇内街道。零门票只指河岸，不含去山脚或洞穴的船游。",
+        "features": [
+          "河岸生活",
+          "双峰远望"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Krabi",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Krabi"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        },
+        "travelGroup": "krabi-mainland"
+      },
+      {
+        "id": "krabi-phra-nang",
+        "name": "帕南海滩与岩壁外观",
+        "nameEn": "Phra Nang Beach",
+        "lat": 8.0045,
+        "lng": 98.838,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "从莱利半岛公共步道走向 Phra Nang，在岩壁和海岸之间停留。洞穴信仰空间保持安静；攀岩、出海与水上活动需另行预订。",
+        "features": [
+          "岩壁海岸",
+          "半岛慢游"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 210
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Trip-Planner/Suggestion-Detail/ao-railay-railay-bay-tham-phra-nang-beach-phra-nang-cave-beach-thale-waek-separated-sea-ko-po-da-khao-khanap-nam-viewpoint-tha-pom-khlang-cave",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        },
+        "travelGroup": "krabi-railay",
+        "accessNote": "先乘船到莱利半岛，再步行；海况或潮汐可能影响进出。"
+      }
+    ]
+  },
+  {
+    "id": "ko-lanta",
+    "name": "兰塔岛",
+    "nameEn": "Ko Lanta",
+    "country": "泰国",
+    "countryCode": "TH",
+    "currency": "THB",
+    "region": "亚洲",
+    "lat": 7.5967,
+    "lng": 99.0355,
+    "iata": "KBV",
+    "article": "Ko Lanta Yai",
+    "tagline": "从长滩走到木屋老街，一天只挑一两件喜欢的事",
+    "description": "以大兰塔岛西岸长滩一带为住宿参考，海滩之间不急着换点，另留半天去东岸木屋老镇。甲米机场只是上岛门户，岛上没有同名机场；雨季船班与西海岸海况需提前确认。",
+    "islandGroup": "lanta",
+    "islandAccess": "ferry",
+    "airportIsGateway": true,
+    "gatewayTransfer": {
+      "currency": "THB",
+      "values": [
+        450,
+        1000,
+        2500
+      ],
+      "note": "编辑估算：每成人单程 KBV 至大兰塔岛的公路接驳与车辆渡轮，三档按公共/拼乘/私人接驳分摊；不是已核实票价。南部酒店、夜间抵达、人数及是否已含酒店接送需另核对，避免重复计算。"
+    },
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 7,
+      "reason": "西岸选两片喜欢的海滩、东岸老镇留半天，并给上下岛各留接驳余量。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ko_Lanta_Yai"
+    },
+    "officialTourismUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        700,
+        2100,
+        6500
+      ],
+      "food": [
+        350,
+        800,
+        1800
+      ],
+      "transport": [
+        180,
+        550,
+        1500
+      ],
+      "misc": [
+        100,
+        250,
+        600
+      ]
+    },
+    "monthly": {
+      "rent": [
+        12000,
+        28000,
+        70000
+      ],
+      "utilities": [
+        1500,
+        3200,
+        6500
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "ko-lanta",
+      "intro": "以大兰塔岛西岸长滩一带为住宿参考，海滩之间不急着换点，另留半天去东岸木屋老镇。甲米机场只是上岛门户，岛上没有同名机场；雨季船班与西海岸海况需提前确认。",
+      "foodHighlights": [
+        {
+          "name": "泰南咖喱与椰香饭",
+          "description": "岛上有穆斯林社区和泰南家常小店，饮食偏好可提前询问。"
+        },
+        {
+          "name": "烤鱼与罗望子风味",
+          "description": "海边餐馆适合慢吃一顿，整鱼或海鲜按重量计费时先确认价格与份量。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Phra Ae 长滩",
+          "description": "住宿和餐馆沿西岸分散分布，适合选择一段步行半径住下来。"
+        },
+        {
+          "name": "Lanta Old Town",
+          "description": "东岸木屋商街面向海峡，适合看小店、吃饭和岸边散步，不是西岸沙滩区。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "KBV 位于甲米大陆，上岛需公路车辆接驳与渡轮，或按季节选择客船；并非 KBV 到另一个机场的航班。岛内海滩与老镇相距较远，预约车辆应问清往返及等待费。海滩零门票不含上岛渡轮和国家公园。",
+    "attractions": [
+      {
+        "id": "ko-lanta-long-beach",
+        "name": "长滩 Phra Ae 海边下午",
+        "nameEn": "Phra Ae / Long Beach",
+        "lat": 7.595,
+        "lng": 99.0336,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在长滩选一小段沙岸散步、读书和休息，不需要为了看完所有海滩不停换车。海况允许才考虑下水，餐馆和沙滩经营服务另计。",
+        "features": [
+          "绵长沙岸",
+          "阅读与休息"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ko-lanta-klong-dao",
+        "name": "孔道海滩慢行",
+        "nameEn": "Klong Dao Beach",
+        "lat": 7.6228,
+        "lng": 99.0304,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在岛北部的 Klong Dao 沿岸走走停停，看沙滩弧线与进退的海水。推荐时间含坐下休息，不含水上器材和海边餐饮。",
+        "features": [
+          "海滩弧线",
+          "轻松散步"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ko-lanta-kantiang",
+        "name": "坎提昂海湾午后",
+        "nameEn": "Ba Kantiang Bay",
+        "lat": 7.4969,
+        "lng": 99.0722,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海湾慢游",
+        "description": "在大兰塔岛南段的坎提昂湾留一个完整下午，公共沙岸看海与付费酒店设施分开选择。去程与回程沿岛公路行驶，不能按直线距离估算。",
+        "features": [
+          "南部海湾",
+          "慢度假"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Ko Lanta Yai",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ko_Lanta_Yai"
+        },
+        "sourceUrl": "https://pimalai.com/restaurants/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://pimalai.com/restaurants/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ko-lanta-old-town",
+        "name": "兰塔老镇木屋街",
+        "nameEn": "Lanta Old Town",
+        "lat": 7.5311,
+        "lng": 99.0942,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "沿东岸老镇的木屋商街与公共码头区域走一走，看海峡对岸与当地日常。进入私人住宅前先征询同意，餐饮、购物与船游另计。",
+        "features": [
+          "木屋商街",
+          "东岸海峡"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "ko-lanta-saladan",
+        "name": "萨拉丹港边小街",
+        "nameEn": "Ban Saladan",
+        "lat": 7.6498,
+        "lng": 99.0394,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "港口日常",
+        "description": "在萨拉丹的公共街道与码头外围逛小店，看岛屿交通与日常生活。仅在开放安全的公共区域停留，不进入作业泊位；船票另购。",
+        "features": [
+          "港边小店",
+          "海岛日常"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357"
+        },
+        "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "THB",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tourismthailand.org/Destinations/Provinces/ko-lanta/357",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "lombok",
+    "name": "龙目岛",
+    "nameEn": "Lombok",
+    "country": "印度尼西亚",
+    "countryCode": "ID",
+    "currency": "IDR",
+    "region": "亚洲",
+    "lat": -8.4963,
+    "lng": 116.0484,
+    "iata": "LOP",
+    "article": "Lombok",
+    "tagline": "白沙午后与萨萨克村落，分区慢慢走",
+    "description": "以西岸圣吉吉为落脚参考，同时提供南部库塔与萨萨克村落选项。龙目岛并不小，西岸和南部最好分天安排或分段住宿；这份慢游清单不自动加入需要多日准备的林贾尼火山登顶。",
+    "islandGroup": "lombok",
+    "islandAccess": "air",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 5,
+      "min": 3,
+      "max": 8,
+      "reason": "西岸海边与南部海滩分开住或分天游，传统村落再留半天，跨区域车程需要余量。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lombok"
+    },
+    "officialTourismUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        350000,
+        950000,
+        3000000
+      ],
+      "food": [
+        150000,
+        350000,
+        800000
+      ],
+      "transport": [
+        120000,
+        350000,
+        850000
+      ],
+      "misc": [
+        70000,
+        170000,
+        400000
+      ]
+    },
+    "monthly": {
+      "rent": [
+        4500000,
+        10000000,
+        28000000
+      ],
+      "utilities": [
+        500000,
+        1200000,
+        2500000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "lombok",
+      "intro": "以西岸圣吉吉为落脚参考，同时提供南部库塔与萨萨克村落选项。龙目岛并不小，西岸和南部最好分天安排或分段住宿；这份慢游清单不自动加入需要多日准备的林贾尼火山登顶。",
+      "foodHighlights": [
+        {
+          "name": "Ayam Taliwang 辣烤鸡",
+          "description": "龙目岛风味烤鸡常配辣酱，点单时可询问辣度与份量。"
+        },
+        {
+          "name": "Plecing Kangkung 空心菜",
+          "description": "用当地蔬菜小菜搭配米饭和主菜；海鲜、酒水和海景餐厅的费用另估。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Senggigi 圣吉吉",
+          "description": "西岸海湾与酒店较集中，适合海边散步；机场接驳比南部库塔更长。"
+        },
+        {
+          "name": "Kuta Mandalika",
+          "description": "靠近南部海滩和 Sade 村，适合选择南岸度假；与巴厘岛的 Kuta 不是同一地点。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "LOP 是龙目岛实际机场。到南部库塔与西岸圣吉吉的车程差异很大，岛内以公路车辆为主，往返南北不要按城市步行半径安排。从巴厘岛或吉利群岛跨海需另核对港口、船班与海况，不能视作同岛陆路。",
+    "attractions": [
+      {
+        "id": "lombok-senggigi",
+        "name": "圣吉吉海湾慢下午",
+        "nameEn": "Senggigi Beach",
+        "lat": -8.4995,
+        "lng": 116.0467,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "沿圣吉吉海湾散步，在岸边找一处阴凉处看海与停泊的船。此项是公共岸边停留，浮潜、租艇、餐饮和酒店泳池不包含。",
+        "features": [
+          "西岸海湾",
+          "海边休息"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Senggigi",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Senggigi"
+        },
+        "sourceUrl": "https://www.indonesia.travel/id/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---senggigi-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "IDR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.indonesia.travel/id/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---senggigi-beach",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "lombok-kuta",
+        "name": "库塔曼达利卡海岸",
+        "nameEn": "Kuta Mandalika Beach",
+        "lat": -8.8945,
+        "lng": 116.2834,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在龙目岛南部的库塔海岸选择公共开放段慢慢散步，看浅海和起伏的山丘。零门票仅指海岸，不包含停车、地方接驳与经营设施。",
+        "features": [
+          "南岸白沙",
+          "山丘与海"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Kuta, Lombok",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kuta%2C_Lombok"
+        },
+        "sourceUrl": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---experiencing-traditional-harmony-in-sade-village-in-lombok-island",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "IDR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---experiencing-traditional-harmony-in-sade-village-in-lombok-island",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "lombok-tanjung-aan",
+        "name": "丹绒安海滩半日",
+        "nameEn": "Tanjung Aan Beach",
+        "lat": -8.911,
+        "lng": 116.3214,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在 Tanjung Aan 的白沙海湾把时间留给看浪和休息。此项不含 Merese 山登高、冲浪课程、停车或付费沙滩服务；现场开放与海况需确认。",
+        "features": [
+          "白沙海湾",
+          "海岸留白"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/tanjung-aan"
+        },
+        "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/tanjung-aan",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "IDR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/tanjung-aan",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "lombok-sade",
+        "name": "萨德萨萨克传统村落",
+        "nameEn": "Sade Village",
+        "lat": -8.8396,
+        "lng": 116.291,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "跟随当地允许的参观路线了解萨萨克民居和织布传统。这里仍是居民生活空间，进入屋内与拍照须征询同意；预算为参观及基础社区接待的估计，向导收费需事先谈清。",
+        "features": [
+          "萨萨克民居",
+          "手工织布"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---experiencing-traditional-harmony-in-sade-village-in-lombok-island"
+        },
+        "sourceUrl": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---experiencing-traditional-harmony-in-sade-village-in-lombok-island",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30000,
+          "high": 100000,
+          "currency": "IDR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.indonesia.travel/gb/en/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok---experiencing-traditional-harmony-in-sade-village-in-lombok-island",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "lombok-banyumulek",
+        "name": "班尤穆勒克陶艺村街区",
+        "nameEn": "Banyumulek",
+        "lat": -8.6348,
+        "lng": 116.1017,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "沿 Banyumulek 村公共街道看陶器店与作坊外观，愿意时再单独选择陶艺课程或购买作品。免费漫游不包含制作体验、私人作坊导览和成品邮寄。",
+        "features": [
+          "日用陶器",
+          "手工艺街区"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok"
+        },
+        "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "IDR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.indonesia.travel/id/id/destination/bali-nusa-tenggara/west-nusa-tenggara/lombok",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kota-kinabalu",
+    "name": "亚庇",
+    "nameEn": "Kota Kinabalu",
+    "country": "马来西亚",
+    "countryCode": "MY",
+    "currency": "MYR",
+    "region": "亚洲",
+    "lat": 5.9804,
+    "lng": 116.0735,
+    "iata": "BKI",
+    "article": "Kota Kinabalu",
+    "tagline": "早市、婆罗洲文化与海边的缓慢时刻",
+    "description": "以市中心加雅街附近为参考，在市场街区、沙巴博物馆与丹绒亚路海滩之间安排轻松几天。离岛、潜水和神山需要各自的交通与预约，不混入普通市区慢游的免费项目。",
+    "islandGroup": "borneo",
+    "islandAccess": "air",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 6,
+      "reason": "市区街区与博物馆各留半天，海边留一个下午；如再选离岛或神山需增加天数。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kota_Kinabalu"
+    },
+    "officialTourismUrl": "https://sabahtourism.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        120,
+        320,
+        950
+      ],
+      "food": [
+        45,
+        100,
+        230
+      ],
+      "transport": [
+        20,
+        65,
+        180
+      ],
+      "misc": [
+        15,
+        40,
+        100
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1100,
+        2400,
+        5500
+      ],
+      "utilities": [
+        150,
+        300,
+        600
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "kota-kinabalu",
+      "intro": "以市中心加雅街附近为参考，在市场街区、沙巴博物馆与丹绒亚路海滩之间安排轻松几天。离岛、潜水和神山需要各自的交通与预约，不混入普通市区慢游的免费项目。",
+      "foodHighlights": [
+        {
+          "name": "沙巴生肉面与茶室早餐",
+          "description": "市区茶室可以慢慢吃一顿；如需清真或其他饮食选择，应单独确认店家供应。"
+        },
+        {
+          "name": "海鲜与椰子布丁",
+          "description": "海鲜餐馆价位跨度较大，称重、烹饪费和服务费先问清；甜品可以单独纳入零食预算。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Gaya Street 加雅街",
+          "description": "茶室、老建筑与街边小店集中，周日早市和普通平日的体验不同。"
+        },
+        {
+          "name": "Tanjung Aru 丹绒亚路",
+          "description": "靠海的休闲区与市中心有一段车程，适合把整个下午交给海岸。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "BKI 到市区与丹绒亚路均走公路，可按行李和人数选择接驳或网约车。市中心部分街区步行可达，博物馆与海滩建议留车辆时间；哲斯顿码头出发的离岛船票、码头费、海洋公园门票及潜水均另计。",
+    "attractions": [
+      {
+        "id": "kota-kinabalu-tanjung-aru",
+        "name": "丹绒亚路海边午后",
+        "nameEn": "Tanjung Aru Beach",
+        "lat": 5.9481,
+        "lng": 116.0462,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在丹绒亚路公共海滩散步和休息，等天气合适时看海面光线变化。推荐时段只是慢游安排，不保证看见日落；餐饮与酒店设施另计。",
+        "features": [
+          "海边长椅",
+          "海面光线"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Tanjung Aru",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tanjung_Aru"
+        },
+        "sourceUrl": "https://sabahtourism.com/destination/tanjung-aru-beach/?locale=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MYR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sabahtourism.com/destination/tanjung-aru-beach/?locale=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kota-kinabalu-gaya",
+        "name": "加雅街茶室与小店",
+        "nameEn": "Gaya Street",
+        "lat": 5.9849,
+        "lng": 116.0774,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "沿加雅街看茶室和老建筑，边走边观察市区日常。周日早晨另有集市，普通日期不承诺有摊位；购买、用餐和按摩不包含在零门票内。",
+        "features": [
+          "茶室街道",
+          "周日早市"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "article": "Gaya Street, Kota Kinabalu",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gaya_Street%2C_Kota_Kinabalu"
+        },
+        "sourceUrl": "https://sabahtourism.com/destination/gaya-street-sunday-market/?locale=zh_cn",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MYR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sabahtourism.com/destination/gaya-street-sunday-market/?locale=zh_cn",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kota-kinabalu-waterfront",
+        "name": "亚庇滨水步道慢行",
+        "nameEn": "Kota Kinabalu Waterfront",
+        "lat": 5.9775,
+        "lng": 116.0681,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在市中心开放的滨水步道走走停停，看船只与对岸海岛，选一个喜欢的位置休息。进入临水餐厅、酒吧或游船须另付，不默认消费占座。",
+        "features": [
+          "市中心海岸",
+          "海岛远望"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://sabahtourism.com/"
+        },
+        "sourceUrl": "https://sabahtourism.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MYR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sabahtourism.com/",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "kota-kinabalu-museum",
+        "name": "沙巴州博物馆与文化村",
+        "nameEn": "Sabah Museum",
+        "lat": 5.9624,
+        "lng": 116.0729,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "culture",
+        "category": "在地文化",
+        "description": "从主馆的自然史与地方文化展陈开始，再按开放情况看看园区传统民居。预算按非马来西亚成人参观估算，不承诺临时展馆与活动全部开放。",
+        "features": [
+          "婆罗洲文化",
+          "传统民居"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "article": "Sabah Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sabah_Museum"
+        },
+        "sourceUrl": "https://museum.sabah.gov.my/node/68",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "MYR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://museum.sabah.gov.my/node/68",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "编辑成人参观预算，非指定日期已核实票价；交通、餐饮、导览与未明确包含的附加服务另计。请点击来源核对当前票种与开放安排。"
+        }
+      },
+      {
+        "id": "kota-kinabalu-atkinson",
+        "name": "阿特金森钟楼与旧街",
+        "nameEn": "Atkinson Clock Tower",
+        "lat": 5.9822,
+        "lng": 116.0773,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "从公共步道看阿特金森钟楼外观，再在附近旧街慢行。此项不包含收费历史导览，也不把可能另有限制的 Signal Hill 观景设施算入。",
+        "features": [
+          "木构钟楼",
+          "旧城记忆"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "article": "Atkinson Clock Tower",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Atkinson_Clock_Tower"
+        },
+        "sourceUrl": "https://sabahtourism.com/destination/kk-heritage-walk/?locale=da",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MYR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sabahtourism.com/destination/kk-heritage-walk/?locale=da",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "naxos",
+    "name": "纳克索斯岛",
+    "nameEn": "Naxos",
+    "country": "希腊",
+    "countryCode": "GR",
+    "currency": "EUR",
+    "region": "欧洲",
+    "lat": 37.104,
+    "lng": 25.3766,
+    "iata": "JNX",
+    "article": "Naxos",
+    "tagline": "白墙小巷、村庄广场和不用赶场的爱琴海",
+    "description": "以 Chora 港口小城为参考，先慢逛老城与海边，再选一天去岛中村庄。这里有实际机场和渡轮港，但与雅典、圣托里尼或其他岛之间都不是铁路连接；海风与船班会影响行程。",
+    "islandGroup": "naxos",
+    "islandAccess": "air",
+    "routeMode": "road",
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 7,
+      "reason": "港口老城一天、海滩一天、内陆村庄半天以上，余量留给上下岛和风浪变化。"
+    },
+    "tags": [
+      "慢游度假",
+      "在地文化",
+      "海岸与自然"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Naxos"
+    },
+    "officialTourismUrl": "https://www.naxos.gr/chora-port/?lang=en",
+    "sourceCheckedAt": "2026-09-23",
+    "daily": {
+      "lodging": [
+        60,
+        140,
+        330
+      ],
+      "food": [
+        23,
+        48,
+        95
+      ],
+      "transport": [
+        6,
+        22,
+        70
+      ],
+      "misc": [
+        5,
+        12,
+        30
+      ]
+    },
+    "monthly": {
+      "rent": [
+        650,
+        1200,
+        2600
+      ],
+      "utilities": [
+        100,
+        180,
+        300
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济/舒适/高端为编辑规划区间，非实时报价，也非市场最低最高价；官网用于确认地点与服务，不作为价格凭证。住宿按每间每晚，餐饮、当地交通与杂项按每成人每天；月租、水电按每房每月。旺季短租、住宿税、机场接驳、跨城机票与上岛渡轮须另核对，日常交通不包含跨城交通。"
+    },
+    "guide": {
+      "cityId": "naxos",
+      "intro": "以 Chora 港口小城为参考，先慢逛老城与海边，再选一天去岛中村庄。这里有实际机场和渡轮港，但与雅典、圣托里尼或其他岛之间都不是铁路连接；海风与船班会影响行程。",
+      "foodHighlights": [
+        {
+          "name": "纳克索斯土豆与 Graviera 奶酪",
+          "description": "在小馆尝本岛土豆与奶酪，把一顿午餐当作慢游的一部分。"
+        },
+        {
+          "name": "Kitron 香橼风味与乡村家常菜",
+          "description": "Chalki 一带可以了解香橼酒传统；酒厂参观、品鉴与正餐单独付费，别和免费村庄散步混算。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Chora 港口与 Kastro",
+          "description": "白墙巷道、港边餐馆与城堡街区相邻，适合步行，坡道和台阶较多。"
+        },
+        {
+          "name": "Chalki / Halki",
+          "description": "岛中山谷的村庄广场与手工小店更适合慢逛，往返港口需公路接驳。"
+        }
+      ],
+      "experienceIntro": "留出一段完整的慢游时间：公共街区和湖海岸可单独选择，住宿、餐饮、船游及导览按实际服务另行核对。"
+    },
+    "transportNote": "JNX 位于纳克索斯岛，可按实际航班经雅典等地衔接；Chora 港口也有岛际渡轮，均需核对指定日期班次，不承诺直达。到 Agios Prokopios 可用季节公交或出租车，Chalki 在内陆，岛内全程按公路而非铁路估算。",
+    "attractions": [
+      {
+        "id": "naxos-chora",
+        "name": "霍拉老城与城堡街区",
+        "nameEn": "Naxos Chora and Kastro",
+        "lat": 37.1057,
+        "lng": 25.377,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "culture",
+        "category": "街区漫游",
+        "description": "从港口走进 Chora 白墙巷道与 Kastro 公共街区，慢慢看门廊、阶梯和小广场。此项不含室内博物馆、展览或私人建筑入场。",
+        "features": [
+          "白墙巷道",
+          "城堡街区"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 98,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "article": "Naxos (city)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Naxos_(city)"
+        },
+        "sourceUrl": "https://www.naxos.gr/chora-port/?lang=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.naxos.gr/chora-port/?lang=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "naxos-portara",
+        "name": "波尔塔拉神庙门与海岬",
+        "nameEn": "Temple of Apollo / Portara",
+        "lat": 37.1109,
+        "lng": 25.372,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 1.5,
+        "activityType": "culture",
+        "category": "古迹与海岸",
+        "description": "沿连接海岬的步道去看 Portara 大理石门，留时间观察港湾与岛城。风浪大时按现场封闭安排调整，不靠近无护栏边缘。",
+        "features": [
+          "大理石门",
+          "港湾远景"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 94,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "article": "Temple of Apollo (Naxos)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Temple_of_Apollo_(Naxos)"
+        },
+        "sourceUrl": "https://www.naxos.gr/chora-port/?lang=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.naxos.gr/chora-port/?lang=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "naxos-agios-georgios",
+        "name": "圣乔治海滩的缓慢午后",
+        "nameEn": "Agios Georgios Beach",
+        "lat": 37.0984,
+        "lng": 25.3764,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "从 Chora 往南到 Agios Georgios 海湾，在公共沙岸散步或坐看水色。躺椅、伞、水上运动和临海餐馆单独计费。",
+        "features": [
+          "近城海湾",
+          "沙岸休息"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 90,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.naxos.gr/route-6-bike-to-the-beaches/?lang=en"
+        },
+        "sourceUrl": "https://www.naxos.gr/route-6-bike-to-the-beaches/?lang=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.naxos.gr/route-6-bike-to-the-beaches/?lang=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "naxos-agios-prokopios",
+        "name": "阿吉奥斯普罗科皮奥斯海滩",
+        "nameEn": "Agios Prokopios Beach",
+        "lat": 37.0747,
+        "lng": 25.349,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 3,
+        "activityType": "leisure",
+        "category": "海边时光",
+        "description": "在 Agios Prokopios 选一段公共沙滩看海，想安静可按现场情况寻找经营设施以外的位置。巴士、躺椅与水上活动不包含在零门票里。",
+        "features": [
+          "粗沙与蓝海",
+          "海边留白"
+        ],
+        "bestTime": "午餐后；季节、天气及开放安排请确认",
+        "priority": 86,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "preferredStartTime": "13:00",
+        "article": "Agios Prokopios",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Agios_Prokopios"
+        },
+        "sourceUrl": "https://www.naxos.gr/agios-prokopios-beach/?lang=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.naxos.gr/agios-prokopios-beach/?lang=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      },
+      {
+        "id": "naxos-chalki",
+        "name": "哈尔基村广场与小巷",
+        "nameEn": "Chalki / Halki Village",
+        "lat": 37.0642,
+        "lng": 25.4822,
+        "coordinateAccuracy": "approximate",
+        "durationHours": 2.5,
+        "activityType": "culture",
+        "category": "村落慢游",
+        "description": "在 Chalki 的广场、老宅与巷道间散步，看看当地手工店。酒厂品鉴、教堂内部和导览须单独确认，此项只安排公共村落慢游。",
+        "features": [
+          "橄榄谷村落",
+          "广场与小店"
+        ],
+        "bestTime": "白天；营业、天气与现场开放安排请确认",
+        "priority": 82,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 210
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.naxos.gr/chalki-village/?lang=en"
+        },
+        "sourceUrl": "https://www.naxos.gr/chalki-village/?lang=en",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.naxos.gr/chalki-village/?lang=en",
+          "sourceName": "官方旅游局、公共机构或经营者资料",
+          "note": "仅公共区域散步按零门票规划，不含餐饮、购物、停车、接驳、渡轮、躺椅、导览及另收费的室内场所；现场管理规则可能变化。"
+        }
+      }
+    ]
+  }
+]

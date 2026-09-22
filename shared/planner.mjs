@@ -2,6 +2,7 @@
 import { generateDetailedItinerary } from './itinerary.mjs';
 import { buildDayAssignments } from './itinerary.mjs';
 import { cityCostIsMissing } from './airport-catalog.mjs';
+import { resolveJourneyMode, islandSurfaceBudget } from './journey-mode.mjs';
 import { resolveExperienceSelections, experienceLineId, experiencePriceValues, experiencePriceNote, coveredMealSlots, MEAL_WEIGHTS, validateExperienceParty } from './experiences.mjs';
 export { resolveExperienceSelections, experienceSelectionKey, experienceLineId, applyExperienceSelection, removeExperienceSelection } from './experiences.mjs';
 export { buildDayAssignments, optimizeDayRoute, getVisitDurationRange, suggestStopPlan, mergeCustomAttractions } from './itinerary.mjs';
@@ -126,20 +127,34 @@ export function calculatePlan(plan, cities, rates) {
   const addLeg = (from, to, index, date, isReturn = false) => {
     if (from.id === to.id) return;
     const distance = distanceKm(from, to);
-    const boat = from.countryCode === 'MV' && to.countryCode === 'MV' && distance < 150;
-    const road = from.countryCode === 'IS' && to.countryCode === 'IS' && distance < 450;
+    const resolution = resolveJourneyMode(from, to, distance);
+    const boat = resolution.mode === 'boat', road = resolution.mode === 'road';
+    const islandRail = resolution.islandAware && resolution.mode === 'rail';
     const links = bookingLinks({ origin: from, destination: to, departureDate: date, travelers, rooms });
-    if (boat || road) {
-      const mode = boat ? 'boat' : 'road';
-      const line = add({ id:`leg-${index}`, category:'intercity', label:`${from.name} → ${to.name}${isReturn ? ' · 返程' : ''} · ${boat ? '跨岛船程' : '公路交通'}`, cityId:to.id, quantity:travelers, unit:'人 / 单程', values:boat ? [20,40,120] : [250,650,1600], nativeCurrency:boat ? 'USD' : 'CNY', sourceType:'model', sourceName:'跨岛/公路规划区间', sourceUrl:links.route, note:boat ? '仅为渡轮、共享快艇至私人接送的预算区间，不代表所选日期有船班；需核对码头、航线、天气及行李费用。此段不另收机场接驳，市内交通另计。' : '公路单程预算假设；租车分摊、燃油、巴士或包车报价需自行核对，不代表存在直达班车。此段不另收机场接驳。' });
-      legs.push({ id:line.id, fromId:from.id, toId:to.id, date, distanceKm:distance, transportMode:mode, amount:line.amount, low:line.low, high:line.high, sourceType:line.sourceType, link:links.route });
+    if (boat || road || islandRail) {
+      const mode = resolution.mode;
+      const surfaceModel = resolution.islandAware ? islandSurfaceBudget(mode, distance) : null;
+      const label = boat ? surfaceModel ? '公路接驳与渡船' : '跨岛船程' : islandRail ? '岛内铁路 / 地面交通' : '公路交通';
+      const line = add({
+        id: `leg-${index}`, category: 'intercity', label: `${from.name} → ${to.name}${isReturn ? ' · 返程' : ''} · ${label}`,
+        cityId: to.id, quantity: travelers, unit: '人 / 单程',
+        values: surfaceModel?.values || (boat ? [20,40,120] : [250,650,1600]),
+        nativeCurrency: surfaceModel?.nativeCurrency || (boat ? 'USD' : 'CNY'),
+        sourceType: 'model', sourceName: surfaceModel?.sourceName || '跨岛/公路规划区间', sourceUrl: links.route,
+        transportMode: mode, routeBasis: resolution.reason,
+        fromAirportIsGateway: from.airportIsGateway === true, toAirportIsGateway: to.airportIsGateway === true,
+        note: surfaceModel?.note || (boat ? '仅为渡轮、共享快艇至私人接送的预算区间，不代表所选日期有船班；需核对码头、航线、天气及行李费用。此段不另收机场接驳，市内交通另计。' : '公路单程预算假设；租车分摊、燃油、巴士或包车报价需自行核对，不代表存在直达班车。此段不另收机场接驳。'),
+      });
+      legs.push({ id:line.id, fromId:from.id, toId:to.id, date, distanceKm:distance, transportMode:mode, routeBasis:resolution.reason, fromAirportIsGateway:from.airportIsGateway === true, toAirportIsGateway:to.airportIsGateway === true, amount:line.amount, low:line.low, high:line.high, sourceType:line.sourceType, link:links.route });
       return;
     }
     // Illustrative one-way economy transport ranges, NOT availability or observed fares.
     const values = distance < 450 ? [180, 450, 1200] : distance < 1600 ? [450, 1100, 2800] : distance < 4000 ? [850, 1900, 5000] : distance < 8000 ? [1900, 3800, 9500] : [2800, 5600, 14000];
     const link = links.flights;
-    const line = add({ id: `leg-${index}`, category: 'intercity', label: `${from.name} → ${to.name}${isReturn ? ' · 返程' : ''}`, cityId: to.id, quantity: travelers, unit: '人 / 单程', values, sourceType: 'model', sourceName: '距离分段预算模型', sourceUrl: link, note: `直线距离约 ${distance.toLocaleString()} km；模型区间，不代表有直达航线、即时票价或舱位。近程可改选铁路；行李与税费须在预订页核对。` });
-    legs.push({ id: line.id, fromId: from.id, toId: to.id, date, distanceKm: distance, amount: line.amount, low: line.low, high: line.high, sourceType: line.sourceType, link });
+    const islandMetadata = resolution.islandAware ? { transportMode: resolution.mode, routeBasis: resolution.reason, fromAirportIsGateway: from.airportIsGateway === true, toAirportIsGateway: to.airportIsGateway === true } : {};
+    const gatewayNote = [from, to].filter(city => city.airportIsGateway).map(city => `${city.name}使用${city.iata || '外部'}门户机场，机场不在该目的地；接驳另见现有两端接驳预算。`).join(' ');
+    const line = add({ id: `leg-${index}`, category: 'intercity', label: `${from.name} → ${to.name}${isReturn ? ' · 返程' : ''}`, cityId: to.id, quantity: travelers, unit: '人 / 单程', values, sourceType: 'model', sourceName: '距离分段预算模型', sourceUrl: link, ...islandMetadata, note: `直线距离约 ${distance.toLocaleString()} km；模型区间，不代表有直达航线、即时票价或舱位。${resolution.islandAware ? '跨海航空或中转安排需核对，不能按近程距离假定存在铁路。' : '近程可改选铁路；'}行李与税费须在预订页核对。${gatewayNote}` });
+    legs.push({ id: line.id, fromId: from.id, toId: to.id, date, distanceKm: distance, ...islandMetadata, amount: line.amount, low: line.low, high: line.high, sourceType: line.sourceType, link });
     // Each intercity leg has both origin and destination terminal transfers.
     const transferValues = [0,1,2].map(tier => [from,to].reduce((sum, city) => sum + (city.gatewayTransfer ? convertCurrency(city.gatewayTransfer.values[tier], city.gatewayTransfer.currency, 'CNY', rates) : [15,50,180][tier]),0));
     const gatewayNotes = [from,to].filter(city => city.gatewayTransfer).map(city => `${city.name}：${city.gatewayTransfer.note}`).join(' ');
@@ -190,7 +205,7 @@ export function calculatePlan(plan, cities, rates) {
       const passKey = p.passGroup ? `${p.passGroup}:${assignedDays.get(attractionId) ?? 0}` : null;
       const included = passKey && paidPasses.has(passKey);
       if (passKey) paidPasses.add(passKey);
-      add({ id: `stop-${index}-attraction-${attraction.id}`, category: 'attractions', label: `${city.name} · ${attraction.name}${included ? '（已含当日通票）' : p.passGroup ? '（当日通票）' : ''}`, cityId: city.id, attractionId, quantity: included ? 0 : travelers, unit: included ? '已含当日通票' : '成人票', values: [p.low, p.high, p.high], nativeCurrency: p.currency || city.currency, sourceType: included ? 'included' : p.type, sourceName: p.sourceName || (p.type === 'free' ? '免费公共空间' : '景点预算'), sourceUrl: p.sourceUrl, checkedAt: p.checkedAt, note: `${p.note || ''} ${p.passGroup ? '相同通票组同一安排日只计一次，不同日期按日票分别预留；多日优惠票、有效期及额外参观点数量限制请在官网核对。' : ''} 按成人计费；舒适/高端档按票价区间上限预留，优惠资格、时段、预约和附加体验请核对官网。`.trim() });
+      add({ id: `stop-${index}-attraction-${attraction.id}`, category: 'attractions', label: `${city.name} · ${attraction.name}${included ? '（已含当日通票）' : p.passGroup ? '（当日通票）' : ''}`, cityId: city.id, attractionId, quantity: included ? 0 : travelers, unit: included ? '已含当日通票' : '成人票', values: [p.low, p.high, p.high], nativeCurrency: p.currency || city.currency, missingPrice: p.type === 'missing' || p.missingPrice === true, sourceType: included ? 'included' : p.type, sourceName: p.sourceName || (p.type === 'free' ? '免费公共空间' : '景点预算'), sourceUrl: p.sourceUrl, checkedAt: p.checkedAt, note: `${p.note || ''} ${p.passGroup ? '相同通票组同一安排日只计一次，不同日期按日票分别预留；多日优惠票、有效期及额外参观点数量限制请在官网核对。' : ''} 按成人计费；舒适/高端档按票价区间上限预留，优惠资格、时段、预约和附加体验请核对官网。`.trim() });
     }
     if (stop.attractionIds.reduce((sum, id) => sum + (city.attractions.find(a => a.id === id)?.durationHours || 2), 0) > stop.days * 6) warnings.push(`${city.name}景点较密集，建议增加停留天数或减少景点。`);
     previousCity = city; elapsed += stop.days;

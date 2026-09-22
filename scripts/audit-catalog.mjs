@@ -16,6 +16,10 @@ for(const city of cities){
   seen.add(city.id);
   if(!CURRENCIES[city.currency] || !(fx.rates[city.currency]>0)) problems.push(`Missing currency: ${city.id}/${city.currency}`);
   if(!guides.some(g=>g.cityId===city.id)) problems.push(`Missing guide: ${city.id}`);
+  if(city.gatewayTransfer && (typeof city.gatewayTransfer !== 'object' || !Array.isArray(city.gatewayTransfer.values) || city.gatewayTransfer.values.length !== 3 || !city.gatewayTransfer.values.every(n => Number.isFinite(n) && n >= 0) || !(fx.rates[city.gatewayTransfer.currency] > 0))) problems.push(`Invalid gateway transfer budget: ${city.id}`);
+  if(city.tripDuration && (![city.tripDuration.min, city.tripDuration.days, city.tripDuration.max].every(n => Number.isInteger(n) && n > 0 && n <= 365) || city.tripDuration.min > city.tripDuration.days || city.tripDuration.days > city.tripDuration.max)) problems.push(`Invalid stay recommendation: ${city.id}`);
+  if(city.planningProfile && !['leisure', 'balanced'].includes(city.planningProfile)) problems.push(`Invalid planning profile: ${city.id}`);
+  if(city.islandAccess && (!city.islandGroup || !['ferry', 'air'].includes(city.islandAccess))) problems.push(`Invalid island access: ${city.id}`);
   hasImage('cities',city);
   for(const a of city.attractions){
     if(seen.has(a.id)) problems.push(`Duplicate ID: ${a.id}`);
@@ -41,7 +45,31 @@ const experienceCoverage = { places: experiences.length, cities: new Set(experie
   categories: Object.fromEntries(['restaurant', 'hotel', 'experience'].map(kind => [kind, experiences.filter(e => e.kind === kind).length])),
   missingCities: cities.filter(city => !experiences.some(e => e.cityId === city.id)).map(city => city.id),
 };
-const report={checkedAt:new Date().toISOString(),cities:cities.length,countriesAndRegions:new Set(cities.map(c=>c.countryCode)).size,attractions:count,currencies:Object.keys(CURRENCIES).length,fxAsOf:fx.asOf,photos:{cities:cities.length-missing.cities.length,attractions:count-missing.attractions.length},missingPhotos:missing,experienceCoverage,problems};
+const foods = read('data/local-foods.json');
+const foodCities = new Set(), missingFoodPhotos = [];
+for (const food of foods) {
+  if (seen.has(food.id)) problems.push(`Duplicate food ID: ${food.id}`);
+  seen.add(food.id);
+  if (!food.name || !food.localName || !food.description) problems.push(`Incomplete food: ${food.id}`);
+  for (const cityId of food.cityIds || []) {
+    foodCities.add(cityId);
+    if (!cities.some(city => city.id === cityId)) problems.push(`Unknown food city: ${food.id}/${cityId}`);
+  }
+  const photo = media.attractions[food.id];
+  if (!photo?.url || food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' || !existsSync('public'+photo.url)) missingFoodPhotos.push(food.id);
+  else if (!photo.credit || !photo.license || !photo.sourceUrl) problems.push(`Unattributed food image: ${food.id}`);
+}
+const supplemental = cities.flatMap(city => city.attractions.filter(place => place.sourceProvider === 'openstreetmap'));
+const placeLibraryCoverage = {
+  places: supplemental.length,
+  cities: cities.filter(city => city.attractions.some(place => place.sourceProvider === 'openstreetmap')).length,
+  automaticNeighborhoods: supplemental.filter(place => place.automaticPlanning === true).length,
+  missingPrices: supplemental.filter(place => place.price.type === 'missing').length,
+  complete: false,
+  scope: 'At most 30 selected places within 6 km of each maintained destination reference center.',
+};
+const foodCoverage = { foods: foods.length, cities: foodCities.size, photos: foods.length-missingFoodPhotos.length, missingPhotos: missingFoodPhotos };
+const report={checkedAt:new Date().toISOString(),cities:cities.length,countriesAndRegions:new Set(cities.map(c=>c.countryCode)).size,attractions:count,currencies:Object.keys(CURRENCIES).length,fxAsOf:fx.asOf,photos:{cities:cities.length-missing.cities.length,attractions:count-missing.attractions.length},missingPhotos:missing,experienceCoverage,foodCoverage,placeLibraryCoverage,problems};
 writeFileSync('data/catalog-coverage.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
 if(problems.length) process.exitCode=1;

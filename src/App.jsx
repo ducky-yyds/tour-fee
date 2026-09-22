@@ -220,6 +220,9 @@ function normalizePlan(p, cities) {
             s.smartPlan && typeof s.smartPlan === "object"
               ? s.smartPlan
               : undefined,
+          requestedAttractionIds: Array.isArray(s.requestedAttractionIds)
+            ? s.requestedAttractionIds.filter(id => cities.find(c => c.id === s.cityId)?.attractions.some(a => a.id === id))
+            : [],
           experienceSelections: Array.isArray(s.experienceSelections)
             ? s.experienceSelections
                 .filter((entry) => {
@@ -885,10 +888,14 @@ export default function App() {
     setToast("项目已删除");
   }
   function toggleAttraction(id) {
+    const removing = stop.attractionIds.includes(id);
     const ids = stop.attractionIds.includes(id)
       ? stop.attractionIds.filter((x) => x !== id)
       : [...stop.attractionIds, id];
-    updateStop(activeStop, { attractionIds: ids });
+    const requestedAttractionIds = removing
+      ? (stop.requestedAttractionIds || []).filter(value => value !== id)
+      : [...new Set([...(stop.requestedAttractionIds || []), id])];
+    updateStop(activeStop, { attractionIds: ids, requestedAttractionIds });
   }
   function navigate(next) {
     window.location.hash = `/${next}`;
@@ -925,6 +932,7 @@ export default function App() {
         days,
         daysSource: draft.daysSource || 'user',
         attractionIds: [...new Set(draft.attractionIds || [])],
+        requestedAttractionIds: [],
         deferredAttractionIds: [],
         dayPlans: undefined,
         experienceSelections: [],
@@ -958,7 +966,7 @@ export default function App() {
           { ...plan, stops: candidateStops },
           cities,
           index,
-          { candidateIds: selected.attractionIds },
+          { candidateIds: selected.attractionIds, includeOptional: true },
         );
         const pending =
           next.deferredAttractionIds.length +
@@ -1672,7 +1680,9 @@ export default function App() {
                         </strong>
                         <small>
                           已安排 {stop.attractionIds.length} 处 ·
-                          自动规划只选择时间允许的精选景点
+                          {city.planningProfile === "leisure"
+                            ? "慢游优先，每天留出休息时间"
+                            : "自动规划精选风景与当地体验"}
                         </small>
                       </div>
                       <label className="search-box">
@@ -1710,20 +1720,13 @@ export default function App() {
                             >
                               <div className="attraction-photo">
                                 <Photo
-                                  image={a.image?.url ? a.image : city.image}
-                                  alt={
-                                    a.image?.url
-                                      ? a.name
-                                      : `${city.name}城市参考图`
-                                  }
+                                  image={a.image?.url ? a.image : undefined}
+                                  alt={a.name}
                                 />
-                                {!a.image?.url && (
-                                  <small className="attraction-image-note">
-                                    城市参考图 · 景点照片待补充
-                                  </small>
-                                )}
                                 <span className="attraction-price">
-                                  {a.price.type === "free"
+                                  {a.price.type === "missing" || a.price.missingPrice
+                                    ? "费用待补充"
+                                    : a.price.type === "free"
                                     ? "免费探索"
                                     : money(
                                         convert(
@@ -1756,7 +1759,9 @@ export default function App() {
                               <div className="attraction-body">
                                 <small>
                                   {a.durationHours} 小时 ·{" "}
-                                  {a.price.type === "official"
+                                  {a.price.type === "missing" || a.price.missingPrice
+                                    ? "入场费用待补充"
+                                    : a.price.type === "official"
                                     ? "官方参考价"
                                     : a.price.type === "free"
                                       ? "免费开放区域"
@@ -2400,7 +2405,7 @@ export default function App() {
                 <strong>
                   {detailedCities.reduce((n, c) => n + c.attractions.length, 0)}
                 </strong>{" "}
-                处景点
+                处风景与体验
               </span>
             </div>
           </div>
@@ -2442,7 +2447,7 @@ export default function App() {
             <div className="search-box">
               <Search size={17} />
               <input
-                placeholder="搜索城市或国家"
+                placeholder="搜索城市、地区或旅行特色"
                 aria-label="搜索目的地"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
@@ -2465,7 +2470,7 @@ export default function App() {
                 (c) =>
                   (region === "全部" || c.region === region) &&
                   (countryFilter === "全部" || c.country === countryFilter) &&
-                  [c.name, c.nameEn, c.country]
+                  [c.name, c.nameEn, c.country, c.subdivision, ...(c.tags || []), ...(c.searchAliases || [])]
                     .join(" ")
                     .toLowerCase()
                     .includes(query.toLowerCase()),
@@ -2783,7 +2788,9 @@ export default function App() {
                         <strong>{a.name}</strong>
                         <p>{a.price.note || a.description}</p>
                         <small>
-                          {a.price.type === "official"
+                          {a.price.type === "missing" || a.price.missingPrice
+                            ? "费用待补充"
+                            : a.price.type === "official"
                             ? "官方参考价"
                             : a.price.type === "free"
                               ? "免费开放区域"
@@ -2793,8 +2800,8 @@ export default function App() {
                       </div>
                       <div>
                         <strong>
-                          {money(a.price.low, a.price.currency || c.currency)}
-                          {a.price.high !== a.price.low
+                          {a.price.type === "missing" || a.price.missingPrice ? "待补充" : money(a.price.low, a.price.currency || c.currency)}
+                          {a.price.type !== "missing" && !a.price.missingPrice && a.price.high !== a.price.low
                             ? " — " +
                               money(
                                 a.price.high,
@@ -2871,6 +2878,7 @@ export default function App() {
         </div>
         <div>
           <button onClick={() => navigate("sources")}>数据与图片来源</button>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">地点资料 © OpenStreetMap contributors · ODbL</a>
           <span>用清晰的预算，换轻松的出发。</span>
         </div>
         <small>WAYFARER © {new Date().getFullYear()}</small>

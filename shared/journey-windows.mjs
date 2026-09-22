@@ -1,3 +1,5 @@
+import { resolveJourneyMode } from './journey-mode.mjs';
+
 const DAY_START = 9 * 60;
 const DAY_END = 20 * 60 + 30;
 const CAPACITY = DAY_END - DAY_START;
@@ -60,26 +62,24 @@ export function estimateJourneyLeg(from, to, legId = "") {
   const km = distance(from, to);
   if (km === null) return null;
   const domestic = from.countryCode === to.countryCode;
-  let mode, raw, description;
-  if (domestic && from.countryCode === "MV" && km < 150) {
-    mode = "boat";
-    raw = ((km * 1.2) / 25) * 60 + 90;
-    description = "船程、候船与码头接驳";
-  } else if (domestic && from.countryCode === "IS" && km < 450) {
-    mode = "road";
+  const resolution = resolveJourneyMode(from, to, km);
+  const mode = resolution.mode;
+  let raw, description;
+  if (mode === "boat") {
+    raw = resolution.reason === 'legacy-mv' ? ((km * 1.2) / 25) * 60 + 90 : ((km * 1.35) / 35) * 60 + 120;
+    description = resolution.reason === 'legacy-mv' ? "船程、候船与码头接驳" : "公路接驳、渡船与候船（实际船班待核）";
+  } else if (mode === "road") {
     raw = ((km * 1.35) / 50) * 60 + 60;
     description = "公路绕行、取车与途中停顿";
-  } else if (domestic && km < 600) {
-    mode = "rail";
+  } else if (mode === "rail") {
     raw = ((km * 1.25) / 140) * 60 + 120;
     description = "近程铁路或地面交通与两端接驳";
   } else {
-    mode = "air";
     raw =
       (km / 700) * 60 +
       (domestic ? 180 : 240) +
       (from.gatewayTransfer || to.gatewayTransfer ? 90 : 0);
-    description = "航空距离、提前到场与两端接驳";
+    description = from.airportIsGateway || to.airportIsGateway ? "经门户机场的航空与两端接驳（航班待核）" : "航空距离、提前到场与两端接驳";
   }
   const estimatedMinutes = roundQuarter(Math.max(60, raw));
   return {
@@ -89,6 +89,9 @@ export function estimateJourneyLeg(from, to, legId = "") {
     fromName: from.name,
     toName: to.name,
     mode,
+    routeBasis: resolution.reason,
+    fromAirportIsGateway: from.airportIsGateway === true,
+    toAirportIsGateway: to.airportIsGateway === true,
     distanceKm: Math.round(km),
     estimatedMinutes,
     reservedMinutes: estimatedMinutes,

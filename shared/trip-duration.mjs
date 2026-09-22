@@ -13,6 +13,14 @@ const GROUPS = [
 ];
 const PROFILES = new Map(GROUPS.flatMap(({ ids, ...profile }) => ids.split(' ').map(id => [id, Object.freeze(profile)])));
 export function getTripDuration(city) {
+  const supplied = city && typeof city === 'object' && city.coverage !== 'airport-only' ? city.tripDuration : null;
+  if (supplied && typeof supplied === 'object' && !Array.isArray(supplied)
+    && [supplied.days, supplied.min, supplied.max].every(value => Number.isInteger(value) && value >= 1 && value <= 365)
+    && supplied.min <= supplied.days && supplied.days <= supplied.max) {
+    return { days: supplied.days, min: supplied.min, max: supplied.max,
+      reason: typeof supplied.reason === 'string' && supplied.reason.trim() ? supplied.reason.trim().slice(0, 600) : '按目的地的文化体验、休闲节奏和当地交通预留时间；可按个人偏好调整。',
+      type: 'editorial', basis: 'city-profile', label: supplied.min === supplied.max ? `${supplied.min} 天` : `${supplied.min}–${supplied.max} 天` };
+  }
   const profile = PROFILES.get(typeof city === 'string' ? city : city?.id);
   if (profile) return { ...profile, type: 'editorial', label: profile.min === profile.max ? `${profile.min} 天` : `${profile.min}–${profile.max} 天` };
   if (!city || city.coverage === 'airport-only') return { days: 2, min: 1, max: 2, label: '暂定 2 天', type: 'provisional', reason: '目前仅有机场基础资料，先预留两天，待补充当地行程后自行调整。' };

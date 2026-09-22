@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, writeFileSync, renameSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
 const read = file => JSON.parse(readFileSync(file, 'utf8'));
 const incoming = readdirSync('data/expansion').filter(f => f.endsWith('.json')).flatMap(f => read('data/expansion/' + f));
 if (new Set(incoming.map(c => c.id)).size !== incoming.length) throw new Error('Duplicate expansion city ID');
@@ -11,6 +11,23 @@ for (const city of incoming) {
   const guideIndex = guides.findIndex(g => g.cityId === city.id);
   if (guideIndex < 0) guides.push(city.guide);
   else if (process.argv.includes('--refresh')) guides[guideIndex] = city.guide;
+}
+// Incremental neighbourhood collections extend a destination without replacing
+// its original IDs, user selections or maintained city-level budgets.
+if (existsSync('data/place-expansion')) {
+  for (const city of cities) city.attractions = city.attractions.filter(place => !place.extensionSource && place.sourceProvider !== 'openstreetmap');
+  for (const file of readdirSync('data/place-expansion').filter(f => f.endsWith('.json')).sort()) {
+    for (const row of read('data/place-expansion/' + file)) {
+      const city = cities.find(c => c.id === row.cityId);
+      if (!city || !Array.isArray(row.attractions)) throw new Error('Invalid place expansion: ' + row.cityId);
+      for (const place of row.attractions) {
+        if (!place.id || !place.name || !Number.isFinite(place.lat) || !Number.isFinite(place.lng) || !place.price) throw new Error('Invalid supplemental place: ' + place.id);
+        const index = city.attractions.findIndex(a => a.id === place.id);
+        if (index < 0) city.attractions.push({ ...place, extensionSource: file });
+        else if (process.argv.includes('--refresh') && city.attractions[index].extensionSource) city.attractions[index] = { ...place, extensionSource: file };
+      }
+    }
+  }
 }
 const sightIds = cities.flatMap(c => c.attractions.map(a => a.id));
 if (new Set(sightIds).size !== sightIds.length) throw new Error('Duplicate attraction ID');

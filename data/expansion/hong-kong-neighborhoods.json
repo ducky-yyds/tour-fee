@@ -1,0 +1,1850 @@
+[
+  {
+    "id": "hong-kong",
+    "name": "香港",
+    "nameEn": "Hong Kong",
+    "country": "中国",
+    "countryCode": "HK",
+    "currency": "HKD",
+    "region": "亚洲",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "iata": "HKG",
+    "tagline": "山海之间，霓虹之下",
+    "description": "从维港岸边到山顶步道，在紧凑的城市里找到开阔的风景。",
+    "tags": [
+      "维港夜景",
+      "山海徒步",
+      "地道茶餐厅"
+    ],
+    "image": {
+      "url": "/images/city-hong-kong.jpg",
+      "credit": "图片署名见媒体资料",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hong_Kong"
+    },
+    "daily": {
+      "lodging": [
+        400,
+        950,
+        3200
+      ],
+      "food": [
+        150,
+        350,
+        1200
+      ],
+      "transport": [
+        45,
+        110,
+        450
+      ],
+      "misc": [
+        50,
+        130,
+        400
+      ]
+    },
+    "monthly": {
+      "rent": [
+        8000,
+        18000,
+        45000
+      ],
+      "utilities": [
+        600,
+        1300,
+        2600
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "note": "经济 / 舒适 / 高端三档规划假设，非已抓取酒店或餐厅报价，也非市场最低/最高价。住宿按每间每晚，餐饮、交通及杂项按每成人每天；月租和水电按每间每月。实际受日期、地段、税费和供给影响，请以预订页核价。",
+      "updatedAt": "2026-09-22"
+    },
+    "attractions": [
+      {
+        "id": "victoria-peak",
+        "name": "太平山顶与山顶缆车",
+        "nameEn": "Victoria Peak",
+        "description": "乘缆车上山，在高处欣赏维港与城市层次。",
+        "durationHours": 3,
+        "price": {
+          "low": 150,
+          "high": 220,
+          "currency": "HKD",
+          "type": "estimate",
+          "sourceUrl": "https://www.thepeak.com.hk/",
+          "sourceName": "香港山顶官方网站",
+          "checkedAt": null,
+          "note": "缆车与观景台套餐暂用编辑估算；官网动态票价未成功读取，须按日期复核。"
+        },
+        "image": {
+          "url": "/images/place-victoria-peak.jpg",
+          "credit": "图片署名见媒体资料",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Victoria_Peak"
+        },
+        "lat": 22.2759,
+        "lng": 114.1455,
+        "category": "城市地标",
+        "bestTime": "晴天日落前",
+        "features": [
+          "维港全景",
+          "山顶步道",
+          "摩天楼群"
+        ],
+        "priority": 95,
+        "recommendedFor": [
+          "初次到访",
+          "城市摄影"
+        ],
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 285
+        },
+        "visitRole": "highlight"
+      },
+      {
+        "id": "avenue-of-stars",
+        "name": "星光大道",
+        "nameEn": "Avenue of Stars, Hong Kong",
+        "description": "沿维港滨水长廊，欣赏香港岛天际线。",
+        "durationHours": 2,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "sourceUrl": "https://www.discoverhongkong.com/",
+          "sourceName": "香港旅游发展局",
+          "checkedAt": null,
+          "note": "公共滨水步道按零门票规划；游船和餐饮另付。"
+        },
+        "image": {
+          "url": "/images/place-avenue-of-stars.jpg",
+          "credit": "图片署名见媒体资料",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Avenue_of_Stars%2C_Hong_Kong"
+        },
+        "lat": 22.293,
+        "lng": 114.174,
+        "category": "城市地标",
+        "bestTime": "傍晚至入夜",
+        "features": [
+          "维多利亚港",
+          "香港电影",
+          "海滨步道"
+        ],
+        "priority": 91,
+        "recommendedFor": [
+          "初次到访",
+          "城市摄影"
+        ],
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 195
+        },
+        "visitRole": "highlight"
+      },
+      {
+        "id": "hong-kong-park",
+        "name": "香港公园",
+        "nameEn": "Hong Kong Park",
+        "description": "在市中心绿地、鸟舍与温室之间，找一段安静时间。",
+        "durationHours": 2,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "free",
+          "sourceUrl": "https://hkp.lcsd.gov.hk/sc/visit",
+          "sourceName": "香港康乐及文化事务署",
+          "checkedAt": "2026-09-22",
+          "note": "公园和列示景观设施免费；体育馆、壁球中心等除外。"
+        },
+        "image": {
+          "url": "/images/place-hong-kong-park.jpg",
+          "credit": "图片署名见媒体资料",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hong_Kong_Park"
+        },
+        "lat": 22.2777,
+        "lng": 114.1617,
+        "category": "自然户外",
+        "bestTime": "上午或午后",
+        "features": [
+          "都市绿洲",
+          "观鸟园",
+          "水景花园"
+        ],
+        "priority": 87,
+        "recommendedFor": [
+          "自然爱好者",
+          "轻松漫游"
+        ],
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 195
+        },
+        "visitRole": "highlight"
+      },
+      {
+        "id": "tian-tan-buddha",
+        "name": "天坛大佛与宝莲禅寺",
+        "nameEn": "Tian Tan Buddha",
+        "description": "在昂坪山间探访大佛与寺院；博物馆、斋饭和交通另外核价。",
+        "durationHours": 3,
+        "features": [
+          "山间佛像",
+          "昂坪景观",
+          "寺院庭院"
+        ],
+        "category": "文化古迹",
+        "bestTime": "上午参观",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "sourceUrl": "https://www.discoverhongkong.com/",
+          "sourceName": "香港旅游发展局",
+          "checkedAt": null,
+          "note": "仅所述公共区域按零门票规划，尚未核验当前安排；收费展览、交通及消费另计。"
+        },
+        "image": {
+          "url": "/images/place-tian-tan-buddha.jpg",
+          "credit": "Wikimedia Commons；完整署名见图片来源",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tian_Tan_Buddha"
+        },
+        "lat": 22.2539,
+        "lng": 113.9052,
+        "priority": 83,
+        "recommendedFor": [
+          "历史爱好者",
+          "建筑爱好者"
+        ],
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 285
+        },
+        "visitRole": "highlight"
+      },
+      {
+        "id": "ngong-ping-360",
+        "name": "昂坪360缆车",
+        "nameEn": "Ngong Ping 360",
+        "description": "乘缆车连接东涌与昂坪，标准与水晶车厢及单程往返价格不同。",
+        "durationHours": 2,
+        "features": [
+          "山海缆车",
+          "大屿山风景",
+          "高空旅程"
+        ],
+        "category": "城市地标",
+        "bestTime": "能见度好时",
+        "price": {
+          "low": 200,
+          "high": 400,
+          "currency": "HKD",
+          "type": "estimate",
+          "sourceUrl": "https://www.discoverhongkong.com/",
+          "sourceName": "香港旅游发展局",
+          "checkedAt": null,
+          "note": "编辑预算区间，尚未核验当前官方票价；具体日期、票种与附加项目请以官网为准。"
+        },
+        "image": {
+          "url": "/images/place-ngong-ping-360.jpg",
+          "credit": "Wikimedia Commons；完整署名见图片来源",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ngong_Ping_360"
+        },
+        "lat": 22.289,
+        "lng": 113.9388,
+        "priority": 79,
+        "recommendedFor": [
+          "初次到访",
+          "城市摄影"
+        ],
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 195
+        },
+        "visitRole": "highlight"
+      },
+      {
+        "id": "temple-street",
+        "name": "庙街",
+        "nameEn": "Temple Street, Hong Kong",
+        "description": "在九龙夜色里逛摊档与食肆，购物及餐饮按实际消费记账。",
+        "durationHours": 2,
+        "features": [
+          "夜市摊档",
+          "九龙街景",
+          "街头小吃"
+        ],
+        "category": "街区漫步",
+        "bestTime": "傍晚至夜间",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "sourceUrl": "https://www.discoverhongkong.com/",
+          "sourceName": "香港旅游发展局",
+          "checkedAt": null,
+          "note": "仅所述公共区域按零门票规划，尚未核验当前安排；收费展览、交通及消费另计。"
+        },
+        "image": {
+          "url": "/images/place-temple-street.jpg",
+          "credit": "Wikimedia Commons；完整署名见图片来源",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Temple_Street%2C_Hong_Kong"
+        },
+        "lat": 22.306,
+        "lng": 114.1703,
+        "priority": 75,
+        "recommendedFor": [
+          "城市漫游",
+          "本地生活"
+        ],
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 195
+        },
+        "visitRole": "neighborhood"
+      },
+      {
+        "id": "hong-kong-mong-kok",
+        "name": "旺角街区与街坊小食",
+        "nameEn": "Mong Kok",
+        "lat": 22.3193,
+        "lng": 114.1694,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "商圈与日常",
+        "description": "在旺角公共街道看招牌、小店和街坊食肆，挑一两条街慢走，不追求逛遍整个商圈。若已单独选女人街或金鱼街，可缩短本条，避免重复绕行。",
+        "features": [
+          "九龙街头",
+          "商圈小店",
+          "街坊小食"
+        ],
+        "priority": 94,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Mong Kok",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mong_Kok"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-yau-ma-tei",
+        "name": "油麻地街区慢走",
+        "nameEn": "Yau Ma Tei",
+        "lat": 22.313,
+        "lng": 114.17,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "街区与文化",
+        "description": "在油麻地公共街巷看唐楼、老店与市场日常。庙街、果栏和旧警署可按兴趣择一深入；本条不包含这些地方的付费展览与餐饮。",
+        "features": [
+          "唐楼街景",
+          "老店生活",
+          "九龙文化"
+        ],
+        "priority": 92,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Yau Ma Tei",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Yau_Ma_Tei"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-central",
+        "name": "中环老城与坡道日常",
+        "nameEn": "Central, Hong Kong",
+        "lat": 22.2826,
+        "lng": 114.1547,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "街区漫游",
+        "description": "从皇后大道中一带走入开放的坡道与支巷，看旧建筑与现代商圈并存。只选相邻一片街区；若另选大馆、石板街或中环街市，应减少重复路段。",
+        "features": [
+          "新旧建筑",
+          "城市坡道",
+          "街边咖啡"
+        ],
+        "priority": 95,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Central, Hong Kong",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Central%2C_Hong_Kong"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-sheung-wan",
+        "name": "上环海味街与旧城生活",
+        "nameEn": "Sheung Wan",
+        "lat": 22.2867,
+        "lng": 114.15,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "在地文化",
+        "description": "沿上环公共街道看海味铺、传统商号与当代小店，尊重商户作业。文武庙、摩罗上街可再择一细看；购物与茶饮按实际消费。",
+        "features": [
+          "传统商号",
+          "海味街",
+          "旧城巷道"
+        ],
+        "priority": 91,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Sheung Wan",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sheung_Wan"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-sham-shui-po",
+        "name": "深水埗布街与街坊生活",
+        "nameEn": "Sham Shui Po",
+        "lat": 22.3304,
+        "lng": 114.162,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "市场与日常",
+        "description": "在深水埗公共街市周边看布料、手作材料与街坊餐馆，留时间吃一份豆品或面食。电子产品采购与付费工作坊是自选，勿在繁忙摊位久占通道。",
+        "features": [
+          "布料街区",
+          "材料小店",
+          "街坊餐馆"
+        ],
+        "priority": 90,
+        "bestTime": "商户对外开放的白天或傍晚；避开装卸与拥挤时段",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/sham-shui-po.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Sham Shui Po",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sham_Shui_Po"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/sham-shui-po.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-ladies-market",
+        "name": "女人街摊档慢逛",
+        "nameEn": "Tung Choi Street",
+        "lat": 22.3186,
+        "lng": 114.1709,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 135
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "市场漫游",
+        "description": "在旺角通菜街女人街范围看摊档与附近食肆，商品价格需现场商议，不把购买作为入场条件。与旺角街区可二选一或缩短重叠时段。",
+        "features": [
+          "露天摊档",
+          "服饰杂货",
+          "旺角街景"
+        ],
+        "priority": 77,
+        "bestTime": "商户对外开放的白天或傍晚；避开装卸与拥挤时段",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-ladies-market.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Tung Choi Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tung_Choi_Street"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-ladies-market.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-old-police-station",
+        "name": "油麻地旧警署外观与电影记忆",
+        "nameEn": "Yau Ma Tei Police Station",
+        "lat": 22.3113,
+        "lng": 114.1684,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "电影与建筑",
+        "description": "在广东道公共人行道看旧警署爱德华式建筑与电影文化背景；本条只计外观停留。室内电影主题展览须另查开放、预约和收费，不能按免费外观直接进入。",
+        "features": [
+          "警署建筑",
+          "电影文化",
+          "外观摄影"
+        ],
+        "priority": 79,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-old-yau-ma-tei-police-station.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Yau Ma Tei Police Station",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_Police_Station"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-old-yau-ma-tei-police-station.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-chungking-mansions",
+        "name": "重庆大厦与弥敦道文化观察",
+        "nameEn": "Chungking Mansions",
+        "lat": 22.2965,
+        "lng": 114.1724,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "电影与城市文化",
+        "description": "从弥敦道看重庆大厦外观，可在对外开放的商场公共区域了解多元店铺。电影联想不等于片场参观；餐馆、旅馆及私人楼层不包含，拍摄人物先征得同意。",
+        "features": [
+          "电影联想",
+          "多元文化",
+          "弥敦道街景"
+        ],
+        "priority": 76,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-chungking-mansions.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Chungking Mansions",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chungking_Mansions"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-chungking-mansions.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-flower-market",
+        "name": "花墟花市慢逛",
+        "nameEn": "Flower Market Road",
+        "lat": 22.3253,
+        "lng": 114.1713,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "市场漫游",
+        "description": "沿花墟道和周边公开商铺看花卉与园艺用品，留心送货车辆，不触碰或移动商品。节庆营业与道路安排可能变化，购买花卉自愿。",
+        "features": [
+          "花卉商铺",
+          "园艺生活",
+          "太子街景"
+        ],
+        "priority": 72,
+        "bestTime": "商户对外开放的白天或傍晚；避开装卸与拥挤时段",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/shopping/the-most-unique-finds-at-hong-kong-street-markets.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Flower Market Road",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Flower_Market_Road"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/shopping/the-most-unique-finds-at-hong-kong-street-markets.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-goldfish-market",
+        "name": "金鱼街与水族店",
+        "nameEn": "Goldfish Market",
+        "lat": 22.3229,
+        "lng": 114.1698,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "主题街道",
+        "description": "在通菜街北段看水族店与街坊生活，避免闪光灯拍摄和阻碍商户。仅沿公开街面浏览，不承诺店内拍摄或接触动物。",
+        "features": [
+          "水族店铺",
+          "通菜街",
+          "街头日常"
+        ],
+        "priority": 71,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-goldfish-market.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Goldfish Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Goldfish_Market"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-goldfish-market.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-jade-market",
+        "name": "油麻地玉器市场",
+        "nameEn": "Jade Market",
+        "lat": 22.3073,
+        "lng": 114.1694,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "市场漫游",
+        "description": "在对外开放时段浏览玉器市场的摊档与饰品，购买前自行核实材质、价格与退换规则；此项不包含鉴定或任何购买。",
+        "features": [
+          "玉器摊档",
+          "传统饰物",
+          "市场文化"
+        ],
+        "priority": 68,
+        "bestTime": "商户对外开放的白天或傍晚；避开装卸与拥挤时段",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Jade Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jade_Market"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-fruit-market",
+        "name": "油麻地果栏街边观察",
+        "nameEn": "Yau Ma Tei Fruit Market",
+        "lat": 22.312,
+        "lng": 114.1691,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "市场与日常",
+        "description": "从可通行街边看果栏历史建筑与批发生意，避开装卸通道和叉车，不进入商户仓区。推荐白天短访，不安排深夜追拍或打扰工作。",
+        "features": [
+          "批发市场",
+          "老建筑外观",
+          "街边观察"
+        ],
+        "priority": 69,
+        "bestTime": "商户对外开放的白天或傍晚；避开装卸与拥挤时段",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Yau Ma Tei Fruit Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Yau_Ma_Tei_Fruit_Market"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-tin-hau-yau-ma-tei",
+        "name": "油麻地天后庙与榕树头",
+        "nameEn": "Tin Hau Temple Complex, Yau Ma Tei",
+        "lat": 22.3102,
+        "lng": 114.17,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "在地文化",
+        "description": "在庙宇开放范围与榕树头公共空间认识海洋信仰和街坊生活，尊重礼拜与摄影限制。庙内特殊仪式和服务不包含。",
+        "features": [
+          "天后信仰",
+          "榕树头",
+          "庙宇建筑"
+        ],
+        "priority": 73,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/explore/attractions/temple-street/local-delicacies-and-nearby-attractions.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Tin Hau Temple Complex, Yau Ma Tei",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tin_Hau_Temple_Complex%2C_Yau_Ma_Tei"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/explore/attractions/temple-street/local-delicacies-and-nearby-attractions.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-bird-garden",
+        "name": "园圃街雀鸟花园",
+        "nameEn": "Yuen Po Street Bird Garden",
+        "lat": 22.3256,
+        "lng": 114.1728,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "主题街区",
+        "description": "在园圃街公共花园看传统养鸟文化与摊档，避免闪光或惊扰动物；仅步行观察，不包含购买或放飞活动。",
+        "features": [
+          "庭院花园",
+          "养鸟文化",
+          "太子街区"
+        ],
+        "priority": 65,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Yuen Po Street Bird Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Yuen_Po_Street_Bird_Garden"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/tours/kowloon-markets-walking.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-tai-kwun",
+        "name": "大馆庭院与历史建筑",
+        "nameEn": "Tai Kwun",
+        "lat": 22.2813,
+        "lng": 114.154,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "category": "文化与艺术",
+        "description": "在大馆开放庭院和历史建筑区慢看活化建筑，选择自己感兴趣的展陈；基本公共区域按零门票规划，特别展览、表演及导览可能需另购或预约。",
+        "features": [
+          "历史建筑群",
+          "开放庭院",
+          "当代艺术"
+        ],
+        "priority": 88,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/attractions/your-guide-to-experiencing-hong-kong.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Tai Kwun",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tai_Kwun"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/attractions/your-guide-to-experiencing-hong-kong.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-pmq",
+        "name": "PMQ 元创方设计小店",
+        "nameEn": "PMQ (Hong Kong)",
+        "lat": 22.2838,
+        "lng": 114.1517,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "设计与街区",
+        "description": "在开放时段看历史建筑中的设计店铺与公共空间，留时间逛少量店。工作坊、特展、餐饮和商品另付，不把店铺消费当门票。",
+        "features": [
+          "设计店铺",
+          "活化建筑",
+          "创意街区"
+        ],
+        "priority": 81,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-pmq.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "PMQ (Hong Kong)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/PMQ_(Hong_Kong)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-pmq.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-man-mo-temple",
+        "name": "上环文武庙",
+        "nameEn": "Man Mo Temple",
+        "lat": 22.2839,
+        "lng": 114.15,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "在地文化",
+        "description": "在荷李活道文武庙开放区域了解传统信仰与建筑，尊重香火和礼拜秩序。基本参访按零门票规划，宗教服务和特别活动另核。",
+        "features": [
+          "文武信仰",
+          "历史建筑",
+          "上环街区"
+        ],
+        "priority": 84,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-man-mo-temple.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Man Mo Temple",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Man_Mo_Temple"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-man-mo-temple.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-central-market",
+        "name": "中环街市公共空间与小店",
+        "nameEn": "Central Market (Hong Kong)",
+        "lat": 22.2847,
+        "lng": 114.155,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "市集与设计",
+        "description": "在活化后的街市公共空间看建筑、品牌小店与饮食摊点，适合雨天或午后休息；商品、餐饮和活动按实际选择付费。",
+        "features": [
+          "活化街市",
+          "本地品牌",
+          "休息空间"
+        ],
+        "priority": 86,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-central-market.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Central Market (Hong Kong)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Central_Market_(Hong_Kong)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-central-market.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-pottinger-street",
+        "name": "石板街短漫步",
+        "nameEn": "Pottinger Street",
+        "lat": 22.2833,
+        "lng": 114.1553,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "街巷细节",
+        "description": "沿砵典乍街的石阶短距离慢走，看街边摊点与坡道城市肌理；雨后较滑，不在通道中央长时间拍照。",
+        "features": [
+          "花岗石阶",
+          "中环坡道",
+          "小店街景"
+        ],
+        "priority": 74,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-pottinger-street.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Pottinger Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pottinger_Street"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-pottinger-street.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-midlevels-escalator",
+        "name": "中环至半山扶梯与苏豪街景",
+        "nameEn": "Central–Mid-Levels escalator",
+        "lat": 22.2829,
+        "lng": 114.1544,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "城市交通与街区",
+        "description": "选中环至半山扶梯的一段体验坡道日常，在可通行街道步行返回；扶梯方向随时段变化，不承诺全程同向，沿途餐饮另计。",
+        "features": [
+          "坡道通勤",
+          "扶梯街景",
+          "苏豪周边"
+        ],
+        "priority": 76,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Central–Mid-Levels escalator",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Central%E2%80%93Mid-Levels_escalator"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-cat-street",
+        "name": "摩罗上街古物摊与小店",
+        "nameEn": "Upper Lascar Row",
+        "lat": 22.2846,
+        "lng": 114.1498,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "主题街道",
+        "description": "在摩罗上街沿公开街面浏览古物、纪念品与小店，真伪和售价须自行核实；本条仅短走，不默认购物或进入私人仓储。",
+        "features": [
+          "古物小店",
+          "上环支巷",
+          "街头细节"
+        ],
+        "priority": 70,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Upper Lascar Row",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Upper_Lascar_Row"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/content/dam/dhk/market-site/in/e-guidebook/pdf/Old%20Town%20Central.pdf",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-disneyland",
+        "name": "香港迪士尼乐园完整一日",
+        "nameEn": "Hong Kong Disneyland",
+        "lat": 22.3129,
+        "lng": 114.0413,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 7,
+        "durationRange": {
+          "min": 225,
+          "recommended": 420,
+          "max": 540
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "category": "主题乐园",
+        "description": "为乐园单独留一天，按所选日期提前核对门票、入园预约与表演安排；费用为成人标准日票编辑区间，餐饮、优先通行及交通另计，不与市区多点强行串排。",
+        "features": [
+          "主题园区",
+          "表演与游乐",
+          "完整一日"
+        ],
+        "priority": 82,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.hongkongdisneyland.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Hong Kong Disneyland",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hong_Kong_Disneyland"
+        },
+        "price": {
+          "low": 700,
+          "high": 1100,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongkongdisneyland.com/",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "编辑预算区间，未核验所选日期票价。包含范围以描述为准，具体票种、日期、优惠及附加项目须在官网核对。"
+        }
+      },
+      {
+        "id": "hong-kong-mplus",
+        "name": "M+ 视觉文化慢看",
+        "nameEn": "M+",
+        "lat": 22.3006,
+        "lng": 114.1602,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 120,
+          "recommended": 210,
+          "max": 330
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "category": "艺术博物馆",
+        "description": "按兴趣选择视觉文化、设计或影像展厅，留足阅读与休息时间；估算区分于具体展览票，不保证包含所有特别展览、电影场次或活动。",
+        "features": [
+          "视觉文化",
+          "设计与影像",
+          "西九建筑"
+        ],
+        "priority": 84,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.mplus.org.hk/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "M+",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/M%2B"
+        },
+        "price": {
+          "low": 120,
+          "high": 280,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.mplus.org.hk/en/",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "编辑预算区间，未核验所选日期票价。包含范围以描述为准，具体票种、日期、优惠及附加项目须在官网核对。"
+        }
+      },
+      {
+        "id": "hong-kong-palace-museum",
+        "name": "香港故宫文化博物馆",
+        "nameEn": "Hong Kong Palace Museum",
+        "lat": 22.3018,
+        "lng": 114.1575,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 120,
+          "recommended": 210,
+          "max": 330
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "category": "博物馆",
+        "description": "围绕所购票种可进入的展厅慢看文物与文化主题；票价为编辑区间，特别展览、导赏和闭馆安排以馆方当期公告为准。",
+        "features": [
+          "文物细看",
+          "专题展陈",
+          "西九海景"
+        ],
+        "priority": 83,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.hkpm.org.hk/en/home",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Hong Kong Palace Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hong_Kong_Palace_Museum"
+        },
+        "price": {
+          "low": 80,
+          "high": 250,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.hkpm.org.hk/en/home",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "编辑预算区间，未核验所选日期票价。包含范围以描述为准，具体票种、日期、优惠及附加项目须在官网核对。"
+        }
+      },
+      {
+        "id": "hong-kong-west-kowloon-art-park",
+        "name": "西九艺术公园海滨午后",
+        "nameEn": "West Kowloon Cultural District",
+        "lat": 22.2989,
+        "lng": 114.1598,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 105,
+          "recommended": 180,
+          "max": 300
+        },
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "category": "海滨休闲",
+        "description": "在艺术公园开放的草坪和海滨步道看维港，留时间坐下休息；不含 M+、故宫门票、演出和商业活动，草坪使用遵守现场安排。",
+        "features": [
+          "维港岸线",
+          "草坪休息",
+          "艺术区建筑"
+        ],
+        "priority": 87,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "West Kowloon Cultural District",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/West_Kowloon_Cultural_District"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-star-ferry",
+        "name": "天星小轮中环至尖沙咀单程",
+        "nameEn": "Star Ferry",
+        "lat": 22.2938,
+        "lng": 114.1682,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "港口交通体验",
+        "description": "以中环至尖沙咀一段常规渡轮为体验，推荐时间含候船与短程航行；预算为单程成人船票估算，不是环港游套餐，避免与已选相同路线交通重复计费。",
+        "features": [
+          "渡轮日常",
+          "维港水面",
+          "两岸视角"
+        ],
+        "priority": 80,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.starferry.com.hk/en/service",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Star Ferry",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Star_Ferry"
+        },
+        "price": {
+          "low": 5,
+          "high": 12,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.starferry.com.hk/en/service",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "编辑预算区间，未核验所选日期票价。包含范围以描述为准，具体票种、日期、优惠及附加项目须在官网核对。"
+        }
+      },
+      {
+        "id": "hong-kong-clock-tower",
+        "name": "尖沙咀钟楼与文化中心外观",
+        "nameEn": "Clock Tower, Hong Kong",
+        "lat": 22.2937,
+        "lng": 114.1696,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 105
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "建筑与海滨",
+        "description": "在钟楼和文化中心外的公共广场短暂停留，看铁路历史遗存与海港；本条不含钟楼内部、剧场演出或游船。",
+        "features": [
+          "旧铁路钟楼",
+          "文化中心外观",
+          "海港广场"
+        ],
+        "priority": 75,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Clock Tower, Hong Kong",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Clock_Tower%2C_Hong_Kong"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/neighbourhoods/west-kowloon/ultimate-guide-to-west-kowloon.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-kowloon-park",
+        "name": "九龙公园树荫休息",
+        "nameEn": "Kowloon Park",
+        "lat": 22.3011,
+        "lng": 114.1705,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "都市公园",
+        "description": "在九龙公园公共步道、庭园和树荫之间留一段休息时间；泳池、体育设施和特别活动不包含，动物观赏设施按现场开放。",
+        "features": [
+          "都市绿地",
+          "树荫步道",
+          "中途休息"
+        ],
+        "priority": 80,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/outdoors/city-parks.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Kowloon Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kowloon_Park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/outdoors/city-parks.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-wan-chai",
+        "name": "湾仔市场与街区日常",
+        "nameEn": "Wan Chai",
+        "lat": 22.2769,
+        "lng": 114.1727,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "街区与日常",
+        "description": "在湾仔市场周边和公共街巷看街坊餐馆、唐楼与电车沿线生活；可择一份点心坐下吃，若再选蓝屋则缩短重叠路段。",
+        "features": [
+          "街坊食肆",
+          "市场日常",
+          "港岛街景"
+        ],
+        "priority": 85,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://tastehk.discoverhongkong.com/en/neighbourhoods/wan-chai",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Wan Chai",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wan_Chai"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://tastehk.discoverhongkong.com/en/neighbourhoods/wan-chai",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-blue-house",
+        "name": "湾仔蓝屋建筑与社区",
+        "nameEn": "Blue House (Hong Kong)",
+        "lat": 22.2745,
+        "lng": 114.1736,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "社区与建筑",
+        "description": "在石水渠街看蓝屋建筑群与周边社区，尊重住户空间；公共外观按零门票规划，故事馆、社区导赏或活动需查开放和预约收费。",
+        "features": [
+          "唐楼建筑",
+          "社区保育",
+          "湾仔生活"
+        ],
+        "priority": 78,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-the-blue-house.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Blue House (Hong Kong)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Blue_House_(Hong_Kong)"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-the-blue-house.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-causeway-bay",
+        "name": "铜锣湾商圈慢逛",
+        "nameEn": "Causeway Bay",
+        "lat": 22.279,
+        "lng": 114.184,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "category": "商圈与日常",
+        "description": "在轩尼诗道与百德新街一带选几条街慢逛，商场与街坊餐饮按兴趣停留；本条不强制购物，热门店铺排队另留时间。",
+        "features": [
+          "港岛商圈",
+          "街头招牌",
+          "购物自选"
+        ],
+        "priority": 72,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://tastehk.discoverhongkong.com/en/neighbourhoods/wan-chai",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Causeway Bay",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Causeway_Bay"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://tastehk.discoverhongkong.com/en/neighbourhoods/wan-chai",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-victoria-park",
+        "name": "维多利亚公园午后",
+        "nameEn": "Victoria Park, Hong Kong",
+        "lat": 22.282,
+        "lng": 114.188,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "category": "都市公园",
+        "description": "在铜锣湾附近的公园公共步道散步或坐下休息，观察城市日常；体育设施、泳池和收费活动需另行预约。",
+        "features": [
+          "城市绿地",
+          "慢跑步道",
+          "树荫休息"
+        ],
+        "priority": 78,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-victoria-park.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Victoria Park, Hong Kong",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Victoria_Park%2C_Hong_Kong"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-victoria-park.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-tai-o",
+        "name": "大澳渔村完整半日",
+        "nameEn": "Tai O",
+        "lat": 22.254,
+        "lng": 113.863,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 4.5,
+        "durationRange": {
+          "min": 150,
+          "recommended": 270,
+          "max": 390
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "category": "离岛文化",
+        "description": "在大澳公共村路认识棚屋与渔村日常，留时间尝地方小食；市区往返接驳较长，应另留整日，不含观海豚船、私人棚屋参观或收费导赏。",
+        "features": [
+          "棚屋外观",
+          "渔村街巷",
+          "水边生活"
+        ],
+        "priority": 75,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/outdoors/10-island-escapes.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Tai O",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tai_O"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/outdoors/10-island-escapes.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      },
+      {
+        "id": "hong-kong-cheung-chau",
+        "name": "长洲村落与东湾慢游",
+        "nameEn": "Cheung Chau",
+        "lat": 22.208,
+        "lng": 114.029,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为街区、建筑或入口附近参考位置；市场边界和码头集合点请以官方导航及预约单为准。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 165,
+          "recommended": 300,
+          "max": 420
+        },
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "category": "离岛慢游",
+        "description": "乘船抵达后在码头街巷与东湾一带选择一条轻松步行线；此处仅岛上公共区域，往返轮渡必须另核另计，勿把直线地图距离当实际船程。",
+        "features": [
+          "离岛街巷",
+          "东湾海岸",
+          "慢节奏小食"
+        ],
+        "priority": 76,
+        "bestTime": "按开放、预约及天气选择；远郊另留往返接驳时间",
+        "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-cheung-chau.html",
+        "sourceCheckedAt": "2026-09-23",
+        "article": "Cheung Chau",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cheung_Chau"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "HKD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.discoverhongkong.com/eng/place-to-go/travel.guide-cheung-chau.html",
+          "sourceName": "香港旅游发展局或经营者官网（实体与内容）",
+          "note": "仅描述中的公共街区、外观或基础参访按零门票规划，未核验当前开放；付费展览、预约活动、餐饮、购物与交通另计。"
+        }
+      }
+    ],
+    "guide": {
+      "cityId": "hong-kong",
+      "intro": "香港可以在高密度街区、山路和离岛渔村之间转换，住宿位置会明显影响交通时间。",
+      "foodHighlights": [
+        {
+          "name": "粤式点心",
+          "description": "茶位、点心份数和是否加一服务费都要核对。"
+        },
+        {
+          "name": "茶餐厅与街坊小食",
+          "description": "适合轻量安排，不同街区各有日常风味。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "深水埗",
+          "description": "街市、布料商店和街坊餐厅适合慢慢逛。"
+        },
+        {
+          "name": "大澳",
+          "description": "渔村与文物酒店需要专程安排，别当作市区短途。"
+        }
+      ],
+      "experienceIntro": "把离岛单独留出一天，市区日再选择相邻片区。"
+    },
+    "article": "Hong Kong",
+    "officialTourismUrl": "https://www.discoverhongkong.com/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 5,
+      "min": 3,
+      "max": 9,
+      "reason": "市区按港岛、九龙与西九分片慢游；迪士尼、大屿山或长洲各需另留整日，不把清单所有地点同时排入。"
+    },
+    "transportNote": "港岛、九龙和大屿山需要分别核对港铁、巴士或渡轮接驳。街区条目是一段自由慢逛，附近小点可选择替换或缩短，避免重复绕行。离岛往返船班及末班船不能只按直线距离估算；天星小轮体验若已单独计费，不再重复加入同段交通费用。"
+  }
+]

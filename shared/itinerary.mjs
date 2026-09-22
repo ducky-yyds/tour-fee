@@ -1,6 +1,7 @@
 /** Local-day planning only. Routes and times are transparent models, not navigation or timetables. */
 import { resolveExperienceSelections, experienceLineId, coveredMealSlots, MEAL_WEIGHTS } from './experiences.mjs';
 import { buildJourneyWindows } from './journey-windows.mjs';
+import { getDestinationPlanningProfile, getAttractionActivityType, getAttractionVisitRole, isSupportingVisit, destinationAttractionPriority, automaticDayCapacity } from './destination-planning.mjs';
 const round = n => Math.round((n + Number.EPSILON) * 100) / 100;
 const attractionMap = city => new Map((city?.attractions || []).map(a => [a.id, a]));
 const validCoordinate = p => Number.isFinite(p?.lat) && Number.isFinite(p?.lng) && Math.abs(p.lat) <= 90 && Math.abs(p.lng) <= 180;
@@ -422,10 +423,18 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       ids.forEach((id, index) => {
         const attraction = byId.get(id);
         const row = attraction._experienceRow;
-        if (attraction.automaticPlanning === false) warnings.push({ code:'access-needs-confirmation', severity:'warning', message:`${attraction.name}的准入尚未确认；手动加入不代表已经预约，请先核对运营方。` });
+        if (attraction.automaticPlanning === false && !attraction.visitRole) warnings.push({ code:'access-needs-confirmation', severity:'warning', message:`${attraction.name}的准入尚未确认；手动加入不代表已经预约，请先核对运营方。` });
         const requestedStart = preferredMinute(row || attraction);
         if (closedOn(attraction, dateAt(plan.departureDate, elapsed + localDay))) warnings.push({ code: 'closed-attraction', severity: 'danger', message: `${attraction.name}在该日期处于已公布的闭馆期${attraction.availability.until ? `（至 ${attraction.availability.until}）` : ''}；不能按正常入场游览安排，请移除或选择开放日期并核对官网。`, sourceUrl: attraction.availability.sourceUrl, attractionId: id });
         if (!earlyIds.includes(id)) addBreakfast();
+        // Keep lunch before an explicitly timed afternoon leisure visit instead
+        // of postponing it until an intact half-day beach/park visit has ended.
+        if (getAttractionActivityType(attraction) === 'leisure' && requestedStart !== null && requestedStart >= 780 && !lunchDone
+          && !packageForMeal('lunch') && !restaurants.some(meal => meal.selection.dayIndex === localDay && meal.selection.mealType === 'lunch')) {
+          const approach = makeSegment(location, attraction, city)?.durationMinutes || 0;
+          const beforeVisit = Math.min(lunchDue, requestedStart - 60 - approach);
+          if (beforeVisit >= 690 && Math.max(cursor, beforeVisit) + 60 + approach <= requestedStart) addLunch(Math.max(cursor, beforeVisit));
+        }
         if (requestedStart !== null && requestedStart >= lunchDue + 60 && !lunchDone) addLunch(Math.max(cursor, lunchDue));
         if (requestedStart !== null && requestedStart >= 1020 && !dinnerDone && !dinnerVisit && requestedStart - cursor >= 60) {
           const approach = makeSegment(location, attraction, city)?.durationMinutes || 0;
@@ -449,6 +458,9 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
           warnings.push({ code: 'visit-meal-restaurant-selected', severity: 'info', attractionId: id, experienceId: dinnerRestaurant.experience.id, message: `${attraction.name}的建议游览时长可包含小吃晚餐；你已另选 ${dinnerRestaurant.experience.name}，保留该餐厅的用餐时间与费用，夜市不再额外分配一份晚餐预算。请自行取舍小吃或调整游览时长。` });
         }
         push({ id: `${dayId}-attraction-${id}`, kind: row ? 'experience' : 'attraction', title: attraction.name, description: `${attraction.description || ''} ${stop.visitDurations?.[id] !== undefined ? '按你的选择安排' : '建议停留'} ${duration / 60} 小时；参考体验区间 ${durationRange.min}–${durationRange.max} 分钟。此时间未校验开放日、预约时段或排队。${row ? ` ${row.option.name}；${requestedStart !== null ? `建议 ${row.preferredStartTime} 开始，时段未确认。` : '具体场次待预订确认。'}${row.includesTransfers ? ' 套餐已含酒店接送，所列总时长含接送，不另加往返场地交通。' : ''}` : ''}`, ...(row ? { experienceId: row.experience.id, optionId: row.option.id, bookingUrl: row.experience.bookingUrl, requestedStartTime: row.preferredStartTime, timeUnconfirmed: true, includesTransfers: row.includesTransfers, includedMeals: row.includedMeals } : { attractionId: id }), image: attraction.image || city.image, features: attraction.features?.length ? attraction.features : [attraction.nameEn, ...(city.tags || []).slice(0, 2)].filter(Boolean), durationRange, durationCustomized: stop.visitDurations?.[id] !== undefined, price: row?.option || attraction.price, source: { name: admission?.sourceName || attraction.price?.sourceName, url: admission?.sourceUrl || attraction.price?.sourceUrl, checkedAt: admission?.checkedAt || attraction.price?.checkedAt, type: admission?.sourceType || attraction.price?.type }, cost: lineCost(admission, currency) }, duration, requestedStart ?? cursor);
+        const activityType = getAttractionActivityType(attraction);
+        if (activityType) items.at(-1).activityType = activityType;
+        if (attraction.visitRole) items.at(-1).visitRole = getAttractionVisitRole(attraction);
         location = attraction;
       });
       addBreakfast();
@@ -533,19 +545,40 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
 }
 
 /** Explicit smart selection. Manual buildDayAssignments never removes a selected attraction. */
-export function suggestStopPlan(stop, city, { candidateIds, dayWindows = null, departureDate = new Date().toISOString().slice(0, 10) } = {}) {
+export function suggestStopPlan(stop, city, { candidateIds, includeOptional = false, dayWindows = null, departureDate = new Date().toISOString().slice(0, 10) } = {}) {
   const days = Number(stop.days);
   if (!Number.isInteger(days) || days < 1 || days > 365) throw new Error('停留天数应为 1–365 的整数');
   parseStartTime(stop.startTime);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(departureDate) || dateAt(departureDate, 0) !== departureDate) throw new Error('智能规划开始日期无效');
   const byId = attractionMap(city), visitDurations = validatedDurationOverrides(stop, city);
+  const destinationProfile = getDestinationPlanningProfile(city);
   const pool = candidateIds ?? (Array.isArray(stop.attractionIds) || Array.isArray(stop.deferredAttractionIds) ? [...(stop.attractionIds || []), ...(stop.deferredAttractionIds || [])] : city.attractions.map(a => a.id));
   if (!Array.isArray(pool)) throw new Error('候选景点列表无效');
   const candidates = [...new Set(pool.filter(id => byId.has(id)))];
+  // Only an explicit opt-in with a concrete candidate list marks new requests.
+  // Persist requests so later smart replanning does not silently drop them.
+  const requestedIds = new Set([
+    ...(Array.isArray(stop.requestedAttractionIds) ? stop.requestedAttractionIds : []),
+    ...(includeOptional && Array.isArray(candidateIds) ? candidateIds : []),
+  ].filter(id => byId.has(id) && candidates.includes(id)));
+  const supporting = id => isSupportingVisit(byId.get(id), visitDuration(byId.get(id), stop));
+  const mainCount = ids => ids.filter(id => !supporting(id)).length;
+  const isFree = id => byId.get(id).price?.type !== 'missing' && byId.get(id).price?.low === 0 && byId.get(id).price?.high === 0;
   const originalIndex = new Map(city.attractions.map((a, index) => [a.id, index]));
   candidates.sort((a, b) => {
-    const priorityA = Number.isFinite(byId.get(a).priority) ? byId.get(a).priority : 0;
-    const priorityB = Number.isFinite(byId.get(b).priority) ? byId.get(b).priority : 0;
+    const requestedOrder = Number(requestedIds.has(b)) - Number(requestedIds.has(a));
+    if (requestedOrder) return requestedOrder;
+    // Reserve a complete day for a deliberately selected long visit before
+    // distributing smaller city sights across every available day.
+    if (requestedIds.has(a) && requestedIds.has(b)) {
+      const fullDayOrder = Number(visitDuration(byId.get(b), stop) >= 360) - Number(visitDuration(byId.get(a), stop) >= 360);
+      if (fullDayOrder) return fullDayOrder;
+    }
+    const supportingOrder = Number(supporting(a)) - Number(supporting(b));
+    if (supportingOrder) return supportingOrder;
+    if (supporting(a) && isFree(a) !== isFree(b)) return Number(isFree(b)) - Number(isFree(a));
+    const priorityA = destinationAttractionPriority(byId.get(a), destinationProfile);
+    const priorityB = destinationAttractionPriority(byId.get(b), destinationProfile);
     return priorityB - priorityA || originalIndex.get(a) - originalIndex.get(b);
   });
   const dayPlans = Array.from({ length: days }, () => []), deferred = [];
@@ -572,6 +605,12 @@ export function suggestStopPlan(stop, city, { candidateIds, dayWindows = null, d
     }
     return cache.get(key);
   };
+  // Measure real occupied afternoon time, never the generic untimed allowance.
+  // The timeline evaluator remains the source of all route/meal/time constraints.
+  const afternoonMinutes = detail => detail.items.reduce((sum, item) => sum + (
+    !item.journey && item.durationMinutes > 0 && item.kind !== 'free'
+      ? Math.max(0, Math.min(1050, item.endMinute) - Math.max(780, item.startMinute)) : 0
+  ), 0);
   // Explicit purchased/desired activities have priority over ordinary sights.
   // A deliberate full-day package may exceed eight hours, but is never silently
   // expanded into an impossible multi-day timeline inside one calendar day.
@@ -603,7 +642,8 @@ export function suggestStopPlan(stop, city, { candidateIds, dayWindows = null, d
     }
   }
   for (const id of candidates) {
-    if (byId.get(id).automaticPlanning === false) { deferred.push(id); continue; }
+    const requested = requestedIds.has(id), supplement = supporting(id);
+    if (byId.get(id).automaticPlanning === false && !requested) { deferred.push(id); continue; }
     if (!validCoordinate(city) || !validCoordinate(byId.get(id))) { deferred.push(id); continue; }
     let best = null;
     const seen = new Set();
@@ -619,6 +659,9 @@ export function suggestStopPlan(stop, city, { candidateIds, dayWindows = null, d
     for (const day of [...candidateDays].sort((a, b) => a - b)) {
       const window = windowFor(day);
       if (window.travelOnly || window.maxLocalActiveMinutes <= 0) continue;
+      const explicitActivities = selectedRows.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === day && row.selection.scheduleStatus !== 'needs-more-days').length;
+      const currentMainCount = mainCount(dayPlans[day]) + explicitActivities;
+      if (!requested && !supplement && destinationProfile.maxAutomaticPlacesPerDay !== null && currentMainCount >= destinationProfile.maxAutomaticPlacesPerDay) continue;
       if (closedOn(byId.get(id), dateAt(departureDate, day))) continue;
       const currentKey = windowKey(day) + '::' + dayPlans[day].join('|') + '::' + JSON.stringify(selectedRows.filter(row => row.selection.dayIndex === day || row.experience.kind === 'hotel').map(row => row.selection));
       if (seen.has(currentKey)) continue;
@@ -627,14 +670,30 @@ export function suggestStopPlan(stop, city, { candidateIds, dayWindows = null, d
         const trial = [...dayPlans[day].slice(0, position), id, ...dayPlans[day].slice(position)];
         const detail = evaluate(trial, day);
         const lateSelected = selectedRows.some(row => row.selection.dayIndex === day && row.preferredStartTime && row.preferredStartTime >= '17:00');
-        if (detail.localActiveMinutes > Math.min(480, window.maxLocalActiveMinutes) || detail.localEndMinute > Math.min(window.endMinute, lateSelected ? 1440 : 1230) || detail.warnings.some(w => ['missing-coordinates', 'experience-time-conflict', 'attraction-time-conflict', 'journey-window-conflict'].includes(w.code))) continue;
+        const fullDayRequested = requested && visitDuration(byId.get(id), stop) >= 360 && trial.length === 1 && explicitActivities === 0;
+        const constrainedDay = Boolean(window.inbound || window.outbound || window.reservedMinutes || window.startMinute > 0 || window.endMinute < 1440);
+        const capacity = fullDayRequested
+          ? (constrainedDay ? Math.min(720, window.maxLocalActiveMinutes) : 720)
+          : requested ? Math.min(480, window.maxLocalActiveMinutes) : automaticDayCapacity(destinationProfile, mainCount(trial) + explicitActivities, window);
+        if (detail.localActiveMinutes > capacity || detail.localEndMinute > Math.min(window.endMinute, lateSelected || fullDayRequested ? 1440 : 1230) || detail.warnings.some(w => ['missing-coordinates', 'experience-time-conflict', 'attraction-time-conflict', 'journey-window-conflict'].includes(w.code))) continue;
         // Prefer a balanced day, then lower transport time, then earlier day for stable output.
-        const score = detail.localActiveMinutes * 10000 + detail.localTravelMinutes * 10 + day;
+        // Short additions prefer an existing nearby route, then useful afternoon
+        // coverage. They never bypass the same full timeline capacity check.
+        const previous = supplement ? evaluate(dayPlans[day], day) : null;
+        const extraTravel = previous ? Math.max(0, detail.localTravelMinutes - previous.localTravelMinutes) : 0;
+        const afternoonGain = previous ? Math.max(0, afternoonMinutes(detail) - afternoonMinutes(previous)) : 0;
+        const score = supplement
+          ? (currentMainCount ? 0 : 10000000) + extraTravel * 10000 + Math.max(0, 120 - afternoonGain) * 100 + detail.localActiveMinutes * 10 + day
+          : detail.localActiveMinutes * 10000 + detail.localTravelMinutes * 10 + day;
         if (!best || score < best.score) best = { day, trial, score };
       }
     }
     if (best) dayPlans[best.day] = best.trial;
     else deferred.push(id);
   }
-  return { ...stop, attractionIds: dayPlans.flat(), dayPlans, deferredAttractionIds: deferred, visitDurations, experienceSelections: selectedRows.map(row => row.selection), smartPlan: { selectedCount: dayPlans.flat().length, deferredCount: deferred.length, unscheduledExperienceCount: unscheduledCount, suggestedAdditionalDays: unscheduledCount, warnings: smartWarnings, maxActiveMinutes: 480, maxExplicitExperienceMinutes: 720, latestFinish: '20:30', note: '先扣除跨城交通预留或你填写的当地可活动窗口，再优先安排明确选择的体验，结合景点优先级、时长和地理模型挑选精华。普通游览以 8 小时及当天剩余容量为限；没有跨城占时的整日体验允许至 12 小时。未入选景点保留候选，无法安排的体验保留预算并提示加天；实际营业和票面时刻仍须核对。' } };
+  const selectedActivityTypes = { leisure: 0, culture: 0, other: 0 };
+  dayPlans.flat().forEach(id => { selectedActivityTypes[getAttractionActivityType(byId.get(id)) || 'other']++; });
+  const deferredRequests = deferred.filter(id => requestedIds.has(id));
+  if (deferredRequests.length) smartWarnings.push({ code: 'requested-attractions-deferred', severity: 'warning', attractionIds: deferredRequests, message: `${deferredRequests.map(id => byId.get(id).name).join('、')}是你明确选择的地点，但现有时间、交通窗口、已知开放限制或位置资料不足以安排；已保留在候选中，请增加天数、调整时长或手动分配。` });
+  return { ...stop, attractionIds: dayPlans.flat(), dayPlans, deferredAttractionIds: deferred, requestedAttractionIds: [...requestedIds], visitDurations, experienceSelections: selectedRows.map(row => row.selection), smartPlan: { selectedCount: dayPlans.flat().length, selectedMainActivityCount: mainCount(dayPlans.flat()), selectedSupportingVisitCount: dayPlans.flat().filter(supporting).length, deferredCount: deferred.length, deferredRequestedCount: deferredRequests.length, unscheduledExperienceCount: unscheduledCount, suggestedAdditionalDays: unscheduledCount, warnings: smartWarnings, maxActiveMinutes: 480, maxExplicitExperienceMinutes: 720, latestFinish: '20:30', destinationProfile: destinationProfile.id, destinationProfileSource: destinationProfile.source, destinationProfileLabel: destinationProfile.label, maxAutomaticPlacesPerDay: destinationProfile.maxAutomaticPlacesPerDay, maxAutomaticMainActivitiesPerDay: destinationProfile.maxAutomaticPlacesPerDay, targetActiveMinutes: destinationProfile.targetActiveMinutes, selectedActivityTypes, note: `先扣除跨城交通预留或你填写的当地可活动窗口，再优先安排明确选择的体验与地点，结合景点优先级、完整推荐时长和地理模型挑选。${destinationProfile.note} 短街区优先沿已有路线补充，并考虑午后可用时段；不自动缩短半日休闲项目或加入付费供应商。没有跨城占时的已选整日体验仍可至12小时。未入选地点保留候选，无法安排的体验保留预算并提示加天；实际营业和票面时刻仍须核对。` } };
 }

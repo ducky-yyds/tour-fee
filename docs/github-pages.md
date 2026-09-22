@@ -42,6 +42,10 @@ npm run preview:pages
 
 部分来源失败会产生 Actions warning，仍发布可验证旧快照，页面保留真实核验日期与失败状态。缓存被清理时退回版本库中的有日期参考值。工作流不把更新结果写回 Git，不需要保存个人访问令牌；下一次发布通过独立公共数据缓存延续维护状态。
 
+街区地点库也纳入同一维护流程：每日最多 6 次串行请求，使用 30 天原始数据缓存；普通代码发布只重用缓存。处理后与人工目录去重，再导入构建。缓存保存原始地点响应，不覆盖 Git 中新的人工城市资料。来源配额、费用未知的表示和采集半径见 [地点库维护](place-library-sources.md)。
+
+明确要求跳过额外测试的发布可以在提交信息中使用 `[skip tests]`；该标记只跳过对应 push 的测试步骤，构建与部署照常执行。
+
 GitHub 定时任务只在默认分支执行，可能因平台负载延迟；公共仓库 60 天没有活动时可能被暂停。可在 Actions 页重新启用或手动运行维护工作流，不能把 cron 配置视为每天一定成功的保证。[GitHub schedule 事件文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
 发布元数据的 `base_path` 取自 GitHub 官方 action 输出；自定义域名可能为空，此时规范化为 `/`。[configure-pages 输出定义](https://github.com/actions/configure-pages/blob/main/action.yml)

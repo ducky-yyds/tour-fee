@@ -4,6 +4,7 @@ import { ROOT, readSnapshot, sourceStatuses, recentObservations } from './db.mjs
 import { DATA_SOURCES } from './sources.mjs';
 import { MAINTENANCE_CONFIG } from './maintenance.mjs';
 import { readExperienceEntries } from './experience-catalog.mjs';
+import { normalizedMunicipality } from '../shared/airport-data.mjs';
 
 // Reproducible reference snapshot actually retrieved from Frankfurter on this date.
 // Shown explicitly as cached whenever no validated database snapshot is present.
@@ -23,12 +24,33 @@ const readJson = (path, fallback) => {
   return value;
 };
 
+let airportLinkCache;
 export function getAirportInventory() {
   try {
     const cityFile = readJson('data/airport-cities.json', null);
     const airportFile = readJson('data/airports.json', null);
     const maintenance = readJson('data/airport-maintenance.json', null);
-    const cities = Array.isArray(cityFile?.cities) ? cityFile.cities : [];
+    const rawCities = readJson('data/cities.json', []);
+    const curated = Array.isArray(rawCities) ? rawCities : (rawCities.cities || []);
+    const links = readJson('data/airport-city-links.json', { links: [] });
+    // Destination additions can be published between airport-source refreshes.
+    // Match declared municipalities, never merge places merely sharing a gateway.
+    if (airportLinkCache?.snapshot !== cityFile || airportLinkCache.curated !== curated || airportLinkCache.links !== links) {
+      const ids = new Set(curated.map(city => city.id));
+      const byName = new Map(curated.map(city => [`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`, city.id]));
+      const explicit = new Map((links.links || []).flatMap(link => {
+        const city = curated.find(item => item.id === link.cityId);
+        return city ? (link.airportCodes || []).map(code => [`${city.countryCode}|${code}`, city.id]) : [];
+      }));
+      const cities = (Array.isArray(cityFile?.cities) ? cityFile.cities : []).map(city => {
+        const linked = (city.airportCodes || []).map(code => explicit.get(`${city.countryCode}|${code}`)).find(Boolean);
+        const curatedCityId = linked || (ids.has(city.curatedCityId) ? city.curatedCityId : null) ||
+          (city.nameKind === 'municipality' ? byName.get(`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`) : null) || null;
+        return curatedCityId === city.curatedCityId ? city : { ...city, curatedCityId };
+      });
+      airportLinkCache = { snapshot: cityFile, curated, links, cities };
+    }
+    const cities = airportLinkCache.cities;
     const airports = Array.isArray(airportFile?.airports) ? airportFile.airports : [];
     return { cities, airports, source: cityFile?.source || airportFile?.source || null, generatedAt: cityFile?.generatedAt || airportFile?.generatedAt || null, maintenance, available: Boolean(cityFile && airportFile), error: null };
   } catch {
@@ -60,7 +82,7 @@ export function searchAirports({ q = '', cityId = '', offset = 0, limit = 40 } =
 export const PROVIDER_STATUS = {
   flights: { status: 'not-connected', label: '机票为预算模型', detail: '未接入航空分销 API；需申请供应商凭据后才能提供即时可订价格。当前提供带路线与日期的查询链接。' },
   hotels: { status: 'not-connected', label: '住宿为规划区间', detail: '未接入酒店库存 API；按城市预算与人数房间数估算。跳转预订页核对税费、库存与取消条件。' },
-  itinerary: { status: 'rule-based', label: '按已选景点生成', detail: '按停留天数分配景点，未校验实时营业、路况或实际航班到达时刻。' },
+  itinerary: { status: 'rule-based', label: '按地点与体验安排行程', detail: '结合目的地节奏、停留天数和跨城交通预留安排地点与体验；未校验实时营业、路况或实际航班到达时刻。' },
 };
 export function getCatalog() {
   const citiesFile = readJson('data/cities.json', []);
@@ -75,6 +97,7 @@ export function getCatalog() {
   const media = readJson('data/media.json', { cities: {}, attractions: {} });
   const experiences = readExperienceEntries();
   const guides = readJson('data/city-guides.json', []);
+  const localFoods = readJson('data/local-foods.json', []);
   const audit = readJson('data/experience-audit.json', null);
   const eiffel = readSnapshot('eiffel-tower');
   const tokyoTower = readSnapshot('tokyo-tower');
@@ -85,6 +108,10 @@ export function getCatalog() {
     scheduledService: (airportGroupsByCity.get(city.id) || []).some(group => group.scheduledService === true),
     airportCount: (airportGroupsByCity.get(city.id) || []).reduce((sum, group) => sum + (group.airportIds?.length || 0), 0),
     guide: Array.isArray(guides) ? guides.find(g => g.cityId === city.id) : guides[city.id],
+    localFoods: localFoods.filter(food => food.cityIds?.includes(city.id)).map(entry => {
+      const { cityIds, whereByCity, ...food } = entry;
+      return { ...food, places: whereByCity?.[city.id] || [], image: food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' ? undefined : media.attractions?.[food.id] };
+    }),
     experiences: experiences.filter(e => e.cityId === city.id).map(e => ({ ...e,
       image: e.imageRef ? media.attractions?.[e.imageRef] : undefined,
       priceOptions: e.priceOptions.map(option => {
@@ -127,7 +154,7 @@ export function getCatalog() {
   });
   const curatedIds = new Set(cities.map(city => city.id));
   const airportCities = inventory.cities.filter(city => !city.curatedCityId || !curatedIds.has(city.curatedCityId)).map(city => ({ id: city.id, name: city.name, ...(city.nameEn !== city.name ? { nameEn: city.nameEn } : {}), nameKind: city.nameKind, country: city.country, countryCode: city.countryCode, isoRegion: city.isoRegion, subdivision: city.subdivision, region: city.region, lat: city.lat, lng: city.lng, iata: city.iata, airportCodes: city.airportCodes, airportCount: city.airportIds?.length || 0, scheduledService: city.scheduledService, coverage: city.coverage, sourceUrl: city.sourceUrl, coordinateBasis: city.coordinateBasis }));
-  return { cities, airportCities, airportCoverage: airportCoverage(inventory, cities), rates, priceSamples, experienceMaintenance: { catalogCheckedAt: '2026-09-22', placeCount: experiences.length, coveredCityCount: new Set(experiences.map(e => e.cityId)).size, categoryCounts: Object.fromEntries(['restaurant', 'hotel', 'experience'].map(kind => [kind, experiences.filter(e => e.kind === kind).length])), optionCount: experiences.reduce((n, e) => n + e.priceOptions.length, 0), audit, note: '具体地点资料来自公开官方页面；固定菜单和票价按标注日期核验。酒店及未公布套餐为规划区间，未连接实时房态或库存。' }, sources: [...configured, ...sourceList.filter(s => !configured.some(c => c.id === s.id))], lastUpdated, providerStatus: PROVIDER_STATUS };
+  return { cities, airportCities, airportCoverage: airportCoverage(inventory, cities), rates, priceSamples, experienceMaintenance: { catalogCheckedAt: experiences.map(e => e.checkedAt).filter(date => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(date)).sort().at(-1) || null, placeCount: experiences.length, coveredCityCount: new Set(experiences.map(e => e.cityId)).size, categoryCounts: Object.fromEntries(['restaurant', 'hotel', 'experience'].map(kind => [kind, experiences.filter(e => e.kind === kind).length])), optionCount: experiences.reduce((n, e) => n + e.priceOptions.length, 0), audit, note: '具体地点资料来自公开官方页面；固定菜单和票价按标注日期核验。酒店及未公布套餐为规划区间，未连接实时房态或库存。' }, sources: [...configured, ...sourceList.filter(s => !configured.some(c => c.id === s.id))], lastUpdated, providerStatus: PROVIDER_STATUS };
 }
 export function dataStatus() {
   const catalog = getCatalog();

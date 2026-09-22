@@ -1,0 +1,821 @@
+[
+  {
+    "id": "ex-bled-hotel-hotel-park",
+    "cityId": "bled",
+    "kind": "hotel",
+    "name": "Hotel Park 湖畔酒店",
+    "nameEn": "Hotel Park",
+    "provider": "Sava Hotels Bled",
+    "tagline": "湖边步行基地 · 湖景与小城日常",
+    "description": "位于布莱德湖东岸，适合把湖畔散步和咖啡时间放在住宿周边。官网介绍湖景或公园景客房、餐饮及顶层泳池；具体设施是否包含以房价条款为准。",
+    "address": "Cesta svobode 15, 4260 Bled, Slovenia",
+    "lat": 46.3672,
+    "lng": 14.1089,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "湖畔位置",
+      "步行逛城",
+      "室内泳池"
+    ],
+    "sourceUrl": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/accomodations/hotel-park/",
+    "bookingUrl": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/accomodations/hotel-park/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/accomodations/hotel-park/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "公园景双人房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 140,
+        "high": 280,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/accomodations/hotel-park/"
+      },
+      {
+        "id": "larger-room",
+        "name": "湖景双人房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 220,
+        "high": 400,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.sava-hotels-resorts.com/en/sava-hotels-bled/accomodations/hotel-park/"
+      }
+    ]
+  },
+  {
+    "id": "ex-kotor-hotel-hyatt-regency",
+    "cityId": "kotor",
+    "kind": "hotel",
+    "name": "Hyatt Regency Kotor Bay 海湾度假酒店",
+    "nameEn": "Hyatt Regency Kotor Bay Resort",
+    "provider": "Hyatt",
+    "tagline": "海湾西岸 · 在酒店与岸边之间慢度假",
+    "description": "酒店位于 Donji Stoliv 一带，适合海湾休息；与科托尔老城分属不同位置，往返老城必须另留公路时间。房型、泳池或热水浴池等设施以实际预订确认单为准。",
+    "address": "Donji Stoliv bb, 85330 Kotor, Montenegro",
+    "lat": 42.4652,
+    "lng": 18.7336,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "滨水度假",
+      "海湾视野",
+      "度假设施"
+    ],
+    "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/tivrk-hyatt-regency-kotor-bay-resort",
+    "bookingUrl": "https://www.hyatt.com/hyatt-regency/en-US/tivrk-hyatt-regency-kotor-bay-resort",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/tivrk-hyatt-regency-kotor-bay-resort"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 180,
+        "high": 360,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/tivrk-hyatt-regency-kotor-bay-resort"
+      },
+      {
+        "id": "larger-room",
+        "name": "海景客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 280,
+        "high": 600,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/tivrk-hyatt-regency-kotor-bay-resort"
+      }
+    ],
+    "coordinateSourceUrl": "https://www.seemice.com/Hotel/hyatt-regency-kotor-bay-resort-montenegro"
+  },
+  {
+    "id": "ex-gozo-hotel-kempinski-san-lawrenz",
+    "cityId": "gozo",
+    "kind": "hotel",
+    "name": "圣劳伦斯凯宾斯基花园度假酒店",
+    "nameEn": "Kempinski Hotel San Lawrenz",
+    "provider": "Kempinski",
+    "tagline": "村落旁的花园酒店 · 戈佐慢住基地",
+    "description": "位于 San Lawrenz 的度假酒店，官网提供客房、套房、餐饮及康养设施介绍。这里不是海滩正前方，去海湾与 Mġarr 码头仍需交通；护理和餐饮套餐单独确认。",
+    "address": "Triq ir-Rokon, San Lawrenz SLZ 1040, Gozo, Malta",
+    "lat": 36.053232,
+    "lng": 14.20795,
+    "coordinateAccuracy": "official-location-reference",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园度假",
+      "村落周边",
+      "康养设施"
+    ],
+    "sourceUrl": "https://www.kempinski.com/en/hotel-san-lawrenz",
+    "bookingUrl": "https://www.kempinski.com/en/hotel-san-lawrenz",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.kempinski.com/en/hotel-san-lawrenz"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 150,
+        "high": 300,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.kempinski.com/en/hotel-san-lawrenz"
+      },
+      {
+        "id": "larger-room",
+        "name": "较宽敞客房或套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 240,
+        "high": 480,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.kempinski.com/en/hotel-san-lawrenz"
+      }
+    ],
+    "coordinateSourceUrl": "https://www.kempinski.com/en/hotel-san-lawrenz/overview/hotel-information/location"
+  },
+  {
+    "id": "ex-paphos-hotel-annabelle",
+    "cityId": "paphos",
+    "kind": "hotel",
+    "name": "Annabelle 海港花园酒店",
+    "nameEn": "Annabelle",
+    "provider": "Thanos Hotels",
+    "tagline": "海港附近 · 花园与滨海步道",
+    "description": "海滨花园酒店靠近帕福斯港口，适合在考古参观之间回酒店休息。官网列出内陆景、侧海景和花园露台等房型；报价范围只作房晚编辑预算。",
+    "address": "12 Poseidonos Avenue, 8042 Pafos, Cyprus",
+    "lat": 34.7552,
+    "lng": 32.4181,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园空间",
+      "海港步行范围",
+      "多种景观房型"
+    ],
+    "sourceUrl": "https://www.annabelle.com.cy/",
+    "bookingUrl": "https://www.annabelle.com.cy/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.annabelle.com.cy/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "内陆景双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 180,
+        "high": 330,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.annabelle.com.cy/"
+      },
+      {
+        "id": "larger-room",
+        "name": "侧海景双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 270,
+        "high": 490,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.annabelle.com.cy/"
+      }
+    ]
+  },
+  {
+    "id": "ex-funchal-hotel-reids-palace",
+    "cityId": "funchal",
+    "kind": "hotel",
+    "name": "Reid’s Palace 海崖花园酒店",
+    "nameEn": "Reid’s Palace, A Belmond Hotel",
+    "provider": "Belmond",
+    "tagline": "海崖花园 · 马德拉度假与下午茶",
+    "description": "酒店坐落在丰沙尔西侧海崖花园中，官网提供客房、套房、泳池和下午茶等服务。房晚预算不默认包含海景下午茶或特色餐厅，前往老城需另留交通或步行时间。",
+    "address": "Estrada Monumental 139, 9000-098 Funchal, Madeira, Portugal",
+    "lat": 32.641,
+    "lng": -16.9265,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海崖花园",
+      "传统下午茶另订",
+      "海景度假"
+    ],
+    "sourceUrl": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+    "bookingUrl": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 500,
+        "high": 900,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira"
+      },
+      {
+        "id": "larger-room",
+        "name": "小型套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 850,
+        "high": 1600,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.belmond.com/en/hotels/europe/portugal/reids-palace-madeira"
+      }
+    ]
+  },
+  {
+    "id": "ex-ponta-delgada-hotel-octant",
+    "cityId": "ponta-delgada",
+    "kind": "hotel",
+    "name": "Octant Ponta Delgada 海港酒店",
+    "nameEn": "Octant Ponta Delgada",
+    "provider": "Octant Hotels",
+    "tagline": "港口东侧 · 城市与海岛自然之间",
+    "description": "酒店面向蓬塔德尔加达海港，官网介绍海景客房、À TERRA 餐厅、康养与户外泳池。适合以城市为基地去圣米格尔各地，远郊包车和观鲸项目需另订。",
+    "address": "Av. Dr. João Bosco Mota Amaral 4, 9500-771 Ponta Delgada, São Miguel, Portugal",
+    "lat": 37.7417,
+    "lng": -25.658,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海港位置",
+      "地方食材餐厅",
+      "户外泳池"
+    ],
+    "sourceUrl": "https://pontadelgada.octanthotels.com/en/about",
+    "bookingUrl": "https://pontadelgada.octanthotels.com/en/about",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://pontadelgada.octanthotels.com/en/about"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "海景双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 150,
+        "high": 300,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://pontadelgada.octanthotels.com/en/about"
+      },
+      {
+        "id": "larger-room",
+        "name": "海景套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 260,
+        "high": 500,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://pontadelgada.octanthotels.com/en/about"
+      }
+    ]
+  },
+  {
+    "id": "ex-krabi-hotel-rayavadee",
+    "cityId": "krabi",
+    "kind": "hotel",
+    "name": "Rayavadee 莱利半岛度假村",
+    "nameEn": "Rayavadee",
+    "provider": "Rayavadee",
+    "tagline": "船抵石灰岩半岛 · 园林式双层亭阁",
+    "description": "位于莱利与 Phra Nang 海岸之间，官网提供双层亭阁与别墅。机场先坐车到码头再乘船，不能驾车直达；接送是否包含及末班安排必须确认。官网公告主泳池及 Raitalay Terrace 在 2026-08-10 至 2026-09-30 暂停，网球场在 2026-09-01 至 2026-10-31 暂停，预订时应再次核对。",
+    "address": "214 Moo 2, Phranang Peninsula, Ao Nang, Krabi 81000, Thailand",
+    "lat": 8.0081,
+    "lng": 98.8384,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "半岛海岸",
+      "园林亭阁",
+      "需乘船抵达"
+    ],
+    "sourceUrl": "https://www.rayavadee.com/",
+    "bookingUrl": "https://www.rayavadee.com/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.rayavadee.com/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双层亭阁 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 14000,
+        "high": 26000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "THB",
+        "sourceUrl": "https://www.rayavadee.com/"
+      },
+      {
+        "id": "larger-room",
+        "name": "带泳池亭阁或别墅 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 22000,
+        "high": 42000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "THB",
+        "sourceUrl": "https://www.rayavadee.com/"
+      }
+    ],
+    "travelGroup": "krabi-railay"
+  },
+  {
+    "id": "ex-ko-lanta-hotel-pimalai",
+    "cityId": "ko-lanta",
+    "kind": "hotel",
+    "name": "Pimalai 坎提昂湾度假酒店",
+    "nameEn": "Pimalai Resort & Spa",
+    "provider": "Pimalai",
+    "tagline": "南部海湾 · 沙滩与山坡度假",
+    "description": "酒店位于坎提昂湾一带，官网提供 Deluxe 客房、套房、别墅和餐饮。上岛与到酒店需要公路及海上衔接；如房价含机场接送，应在费用核对中取消重复接驳估算。",
+    "address": "99 Moo 5, Ba Kan Tiang Beach, Koh Lanta, Krabi 81150, Thailand",
+    "lat": 7.491,
+    "lng": 99.074,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "坎提昂海湾",
+      "沙滩度假",
+      "接送条款需核对"
+    ],
+    "sourceUrl": "https://pimalai.com/Room-and-Suite/?lang=en",
+    "bookingUrl": "https://pimalai.com/Room-and-Suite/?lang=en",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://pimalai.com/Room-and-Suite/?lang=en"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "Deluxe 双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 6500,
+        "high": 13000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "THB",
+        "sourceUrl": "https://pimalai.com/Room-and-Suite/?lang=en"
+      },
+      {
+        "id": "larger-room",
+        "name": "套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 12000,
+        "high": 25000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "THB",
+        "sourceUrl": "https://pimalai.com/Room-and-Suite/?lang=en"
+      }
+    ]
+  },
+  {
+    "id": "ex-lombok-hotel-katamaran",
+    "cityId": "lombok",
+    "kind": "hotel",
+    "name": "Katamaran 龙目岛海岸度假酒店",
+    "nameEn": "Katamaran Hotel & Resort Lombok",
+    "provider": "Katamaran",
+    "tagline": "圣吉吉北侧海岸 · 看海慢住",
+    "description": "位于圣吉吉北侧 Mangsit 海岸，官网提供客房、套房和度假设施。适合西岸看海休息；前往岛南部库塔或 Sade 村需较长公路接驳，不能按市区短途预算。",
+    "address": "Jalan Raya Mangsit, Senggigi, Lombok Barat 83355, Indonesia",
+    "lat": -8.4718,
+    "lng": 116.0512,
+    "coordinateAccuracy": "tourism-board-area-reference",
+    "coordinateNote": "使用西龙目旅游部门给出的 Mangsit 区域参考坐标，未核实酒店入口，实际导航和接送集合点请用酒店官网确认。",
+    "durationMinutes": 0,
+    "features": [
+      "西岸海景",
+      "海边度假",
+      "适合西岸停留"
+    ],
+    "sourceUrl": "https://www.katamaranresort.com/lombok/",
+    "bookingUrl": "https://www.katamaranresort.com/lombok/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.katamaranresort.com/lombok/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 1800000,
+        "high": 3600000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "IDR",
+        "sourceUrl": "https://www.katamaranresort.com/lombok/"
+      },
+      {
+        "id": "larger-room",
+        "name": "套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 3000000,
+        "high": 6000000,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "IDR",
+        "sourceUrl": "https://www.katamaranresort.com/lombok/"
+      }
+    ],
+    "coordinateSourceUrl": "https://pariwisata.lombokbaratkab.go.id/jelajah/akomodasi/katamaran-hotel-resort-lombok/"
+  },
+  {
+    "id": "ex-kota-kinabalu-hotel-shangri-la-tanjung-aru",
+    "cityId": "kota-kinabalu",
+    "kind": "hotel",
+    "name": "丹绒亚路香格里拉度假酒店",
+    "nameEn": "Shangri-La Tanjung Aru, Kota Kinabalu",
+    "provider": "Shangri-La",
+    "tagline": "丹绒亚路海岸 · 亲子与看海度假",
+    "description": "位于丹绒亚路海岸，官网列出丹绒翼池景、海景和露台等房型。酒店餐饮、康养、水上活动与接送是否包含须按订单核对，公共海滩游览不等于免费使用酒店设施。",
+    "address": "20 Jalan Aru, Tanjung Aru, 88100 Kota Kinabalu, Sabah, Malaysia",
+    "lat": 5.9582,
+    "lng": 116.0417,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海滨度假",
+      "池景与海景",
+      "亲子设施"
+    ],
+    "sourceUrl": "https://www.shangri-la.com/kotakinabalu/tanjungaruresort/",
+    "bookingUrl": "https://www.shangri-la.com/kotakinabalu/tanjungaruresort/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.shangri-la.com/kotakinabalu/tanjungaruresort/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "丹绒翼池景客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 800,
+        "high": 1500,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "MYR",
+        "sourceUrl": "https://www.shangri-la.com/kotakinabalu/tanjungaruresort/"
+      },
+      {
+        "id": "larger-room",
+        "name": "丹绒翼海景客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 1200,
+        "high": 2200,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "MYR",
+        "sourceUrl": "https://www.shangri-la.com/kotakinabalu/tanjungaruresort/"
+      }
+    ]
+  },
+  {
+    "id": "ex-naxos-hotel-nissaki-beach",
+    "cityId": "naxos",
+    "kind": "hotel",
+    "name": "Nissaki Beach 圣乔治海滩酒店",
+    "nameEn": "Nissaki Beach Hotel",
+    "provider": "Nissaki Beach Hotel",
+    "tagline": "城边沙滩 · 步行往返霍拉",
+    "description": "位于 Chora 旁的 Agios Georgios 海滩，官网介绍双人客房、套房及海边餐厅。适合兼顾港口街区和沙滩休息；旺季价格、开放季节与房型视野需核对。",
+    "address": "Agios Georgios Beach, Naxos Town 84300, Greece",
+    "lat": 37.1006,
+    "lng": 25.3735,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标为经营者地址所在区域的近似参考，不能替代酒店入口或接送集合点；以预订确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "圣乔治海滩",
+      "近霍拉老城",
+      "海边餐厅"
+    ],
+    "sourceUrl": "https://www.nissaki-beach.com/",
+    "bookingUrl": "https://www.nissaki-beach.com/",
+    "checkedAt": "2026-09-23",
+    "noArticle": true,
+    "image": {
+      "sourceUrl": "https://www.nissaki-beach.com/"
+    },
+    "requirements": [
+      "预订前确认入住人数、床型、取消条款及税费",
+      "按每间每晚计费；超过房型允许人数须另订房间",
+      "房型名称为中文说明，须对照经营者预订页选择实际可售产品"
+    ],
+    "availabilityNote": "价格为编辑住宿预算，不是经营者提供的指定日期实时报价或房态确认；官网仅用于确认实体、地址与服务。旺季、含餐、儿童加床、当地税及接送条款须逐项核对。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "Superior 双人客房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 170,
+        "high": 330,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.nissaki-beach.com/"
+      },
+      {
+        "id": "larger-room",
+        "name": "套房 · 编辑预算",
+        "description": "一间客房住宿一晚；入住人数及具体房型以实际订单为准",
+        "low": 260,
+        "high": 480,
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "note": "人工规划范围，非已核实实时房价或市场最低最高价。经营者官网未查询指定日期库存。",
+        "includes": [
+          "一间客房住宿一晚"
+        ],
+        "excludes": [
+          "未明确包含的早餐、加床、停车、机场或码头接送、康养项目与当地住宿税"
+        ],
+        "currency": "EUR",
+        "sourceUrl": "https://www.nissaki-beach.com/"
+      }
+    ],
+    "coordinateSourceUrl": "https://www.nissaki-beach.com/map-naxos-saint-george.php"
+  }
+]

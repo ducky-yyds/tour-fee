@@ -20,6 +20,7 @@ const base = { originId: 'shanghai', departureDate: '2030-10-23', travelers: 2, 
 const read = key => page.evaluate(key => JSON.parse(localStorage.getItem(key)), key);
 const current = () => read('tusuan-current');
 const settled = () => page.waitForTimeout(160);
+const timelineItem = id => page.locator(`.rich-timeline-item[data-item-id="${id}"]`);
 const transportLines = budget => budget.lines.filter(line => ['intercity', 'transfer'].includes(line.category)).map(({ id, category, amount, quantity, confirmed }) => ({ id, category, amount, quantity, confirmed }));
 const minutes = text => { const [clock, offset = '0'] = text.split('+'); const [h, m] = clock.split(':').map(Number); return h * 60 + m + Number(offset) * 1440; };
 async function calculated() {
@@ -70,6 +71,43 @@ async function noOverflow() {
   const sizes = await page.evaluate(() => ({ viewport: innerWidth, document: document.documentElement.scrollWidth, body: document.body.scrollWidth }));
   assert(sizes.document <= sizes.viewport + 1 && sizes.body <= sizes.viewport + 1, JSON.stringify(sizes));
   return sizes;
+}
+async function untimedReminders(dayData) {
+  const reminders = dayData.items.filter(item => item.timing === 'unscheduled');
+  assert(reminders.length > 0, 'Fixture should contain flexible budget reminders');
+  for (const item of reminders) {
+    assert.equal(item.time, null, item.id);
+    assert.equal(item.endTime, null, item.id);
+    assert.equal(item.durationMinutes, 0, item.id);
+    const node = timelineItem(item.id);
+    assert.equal(await node.count(), 1, item.id);
+    assert.equal(await node.getAttribute('data-timing'), 'unscheduled', item.id);
+    assert.doesNotMatch(await node.locator('.timeline-clock').textContent(), /\d{1,2}:\d{2}/, item.id);
+  }
+  return reminders.map(item => item.id);
+}
+async function scenePhoto(item) {
+  const node = timelineItem(item.id), img = node.locator('img').first();
+  assert(await img.count() > 0, `A routine scene photo is expected for ${item.id}`);
+  await img.scrollIntoViewIfNeeded();
+  const handle = await img.elementHandle();
+  await page.waitForFunction(image => image.complete && image.naturalWidth > 0, handle);
+  const details = await img.evaluate(image => ({ src: image.currentSrc, alt: image.alt, width: image.naturalWidth }));
+  assert(details.alt.trim().length > 0, item.id);
+  const scene = node.locator('.timeline-scene');
+  if (await scene.count()) {
+    assert.match(await scene.locator('figcaption').textContent(), /参考图/, item.id);
+    assert.match(await scene.locator('figcaption a').first().getAttribute('href'), /^https?:\/\//, item.id);
+  }
+  return { itemId: item.id, ...details };
+}
+function emptyArrival(ready, offset = 0, extra = {}) {
+  return {
+    ...base,
+    returnTrip: false,
+    ...extra,
+    stops: [{ cityId: 'paris', days: 3, planningMode: 'manual', attractionIds: [], dayPlans: [[], [], []], transportWindow: { arrivalReadyTime: ready, arrivalDayOffset: offset } }],
+  };
 }
 
 try {
@@ -269,6 +307,101 @@ try {
     await page.getByTestId('journey-transport').waitFor();
     assert.deepEqual(await current(), before);
     assert.equal(await page.locator('#jt-arrival-0').inputValue(), '15:00');
+  });
+
+  await check('an empty 15:00 arrival gets check-in and a real nearby walk, while untimed meals stay inside the journey', async () => {
+    await fixture(emptyArrival('15:00', 0, { overrides: { 'stop-0-food': { amount: 1200, confirmed: true } } }), 'QA 下午抵达后轻松安排');
+    const budget = await calculated(), first = budget.itinerary[0];
+    assert.equal(first.attractionIds.length, 0);
+    assert.equal(first.dayWindow.startMinute, 900);
+    const checkIn = first.items.find(item => item.routineType === 'check-in');
+    const walk = first.items.find(item => item.routineType === 'citywalk');
+    const inbound = first.items.find(item => item.journeyDirection === 'inbound' && item.journeyPhase !== 'arrived' && item.kind === 'arrival');
+    const arrived = first.items.find(item => item.journeyPhase === 'arrived');
+    const breakfast = first.items.find(item => item.mealType === 'breakfast');
+    const transfer = first.items.find(item => item.kind === 'journey-transfer');
+    assert(checkIn && walk && inbound && arrived && breakfast && transfer, JSON.stringify(first.items.map(item => ({ id: item.id, kind: item.kind, routineType: item.routineType, journeyPhase: item.journeyPhase }))));
+    assert(checkIn.startMinute >= 900 && walk.startMinute >= checkIn.endMinute);
+    assert(walk.endMinute <= first.dayWindow.endMinute);
+    assert(walk.suggestedPlaces?.length > 0, 'The walk must identify real places');
+    assert(walk.suggestedPlaces.every(place => city('paris').attractions.some(attraction => attraction.id === (place.id || place.attractionId))), JSON.stringify(walk.suggestedPlaces));
+    assert.equal(walk.cost.amount, 0);
+    assert.equal(breakfast.placement, 'during-journey');
+    assert.equal(breakfast.relatedJourneyId, inbound.id);
+    const ids = await page.locator('.rich-timeline-item').evaluateAll(nodes => nodes.map(node => node.dataset.itemId));
+    assert(ids.indexOf(inbound.id) < ids.indexOf(breakfast.id) && ids.indexOf(breakfast.id) < ids.indexOf(arrived.id), JSON.stringify(ids));
+    const untimed = await untimedReminders(first);
+    const photos = [];
+    for (const item of [breakfast, inbound, transfer, checkIn, walk]) photos.push(await scenePhoto(item));
+    for (const item of [inbound, transfer]) {
+      await timelineItem(item.id).locator('.routine-budget').click();
+      assert.equal(await page.locator('#actual-amount').isVisible(), true);
+      assert.equal(Number(await page.locator('#actual-amount').inputValue()), budget.lines.find(line => line.id === item.cost.budgetLineId).amount);
+      await page.getByLabel('关闭弹窗', { exact: true }).click();
+    }
+    assert.deepEqual((await current()).stops[0].dayPlans, [[], [], []], 'Suggestions must not silently become manually selected attractions');
+    await timelineItem(breakfast.id).locator('.meal-budget').click();
+    await page.locator('#actual-amount').fill('1234.57');
+    await page.locator('dialog .check-label input').check();
+    await page.getByRole('button', { name: '保存这笔费用', exact: true }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('tusuan-current')).overrides['stop-0-food']?.amount === 1234.57);
+    const updated = await calculated();
+    const shares = updated.itinerary.flatMap(day => day.items).filter(item => item.cost?.budgetLineId === 'stop-0-food').reduce((sum, item) => sum + (item.cost.amount || 0), 0);
+    assert(Math.abs(shares - 1234.57) < .01, `Meal reminder shares must reconcile: ${shares}`);
+    await screenshot('journey-flexible-arrival-desktop');
+    await page.setViewportSize({ width: 390, height: 844 });
+    await untimedReminders(updated.itinerary[0]);
+    for (const item of [breakfast, inbound, transfer, checkIn, walk]) await scenePhoto(item);
+    const mobile = await noOverflow();
+    await screenshot('journey-flexible-arrival-mobile-390');
+    await page.setViewportSize({ width: 1440, height: 1050 });
+    return { untimed, photos, walkPlaces: walk.suggestedPlaces, mobile };
+  });
+
+  await check('late and overnight arrivals do not invent an afternoon walk or mark arrival while still in transit', async () => {
+    const cases = [];
+    for (const [ready, offset] of [['22:30', 0], ['15:00', 1]]) {
+      await fixture(emptyArrival(ready, offset), `QA ${offset ? '跨夜在途' : '深夜抵达'}`);
+      const budget = await calculated(), first = budget.itinerary[0];
+      assert.equal(first.items.filter(item => item.routineType === 'citywalk').length, 0);
+      assert.equal(first.items.filter(item => ['attraction', 'experience'].includes(item.kind)).length, 0);
+      assert.equal(first.items.filter(item => !item.journey && item.durationMinutes > 0).length, 0, 'Late arrival and in-transit days should not gain mandatory local activities');
+      if (offset) {
+        assert.equal(first.dayWindow.travelOnly, true);
+        assert.equal(first.items.filter(item => item.journeyPhase === 'arrived' || item.routineType === 'check-in').length, 0);
+      }
+      await untimedReminders(first);
+      assert.equal(await page.locator('[data-routine-type="citywalk"]').count(), 0);
+      cases.push({ ready, offset, routines: first.items.filter(item => item.routineType).map(item => item.routineType), reminders: first.items.filter(item => item.timing === 'unscheduled').length });
+      await screenshot(offset ? 'journey-overnight-in-transit' : 'journey-late-rest-only');
+    }
+    return cases;
+  });
+
+  await check('an explicitly selected restaurant keeps its scheduled time and bill without an inserted city walk', async () => {
+    const restaurant = city('paris').experiences.find(experience => experience.kind === 'restaurant');
+    const option = restaurant.priceOptions.find(option => !option.mealTypes || option.mealTypes.includes('dinner'));
+    const selected = { experienceId: restaurant.id, optionId: option.id, dayIndex: 0, mealType: 'dinner' };
+    const plan = emptyArrival('15:00');
+    plan.stops[0].experienceSelections = [selected];
+    await fixture(plan, 'QA 保留自己选择的晚餐');
+    const budget = await calculated(), first = budget.itinerary[0];
+    const meal = first.items.find(item => item.experienceId === restaurant.id && item.mealType === 'dinner');
+    assert(meal && meal.durationMinutes > 0);
+    assert.notEqual(meal.timing, 'unscheduled');
+    assert.match(meal.time, /^\d{1,2}:\d{2}/);
+    assert.equal(first.items.filter(item => item.routineType === 'citywalk').length, 0);
+    assert.match(await timelineItem(meal.id).locator('.timeline-clock').textContent(), /\d{1,2}:\d{2}/);
+    assert.deepEqual((await current()).stops[0].experienceSelections, [selected]);
+    assert.equal(budget.lines.filter(line => line.id === meal.cost.budgetLineId).length, 1);
+    assert.equal(first.items.filter(item => item.cost?.budgetLineId === meal.cost.budgetLineId).reduce((sum, item) => sum + (item.cost.amount || 0), 0), budget.lines.find(line => line.id === meal.cost.budgetLineId).amount);
+    await scenePhoto(meal);
+    await timelineItem(meal.id).locator('.timeline-price').click();
+    assert.equal(await page.locator('#actual-amount').isVisible(), true);
+    await page.getByLabel('关闭弹窗', { exact: true }).click();
+    await untimedReminders(first);
+    await screenshot('journey-user-selected-restaurant');
+    return { restaurant: restaurant.name, time: meal.time, duration: meal.durationMinutes, budgetLineId: meal.cost.budgetLineId };
   });
 } finally {
   await browser.close();

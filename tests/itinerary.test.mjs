@@ -36,11 +36,16 @@ test('all scheduled events remain chronological and non-overlapping, including m
   const [day] = generateItinerary(p, [origin, longCity], rates);
   for (let i = 0; i < day.items.length; i++) {
     assert.equal(day.items[i].endMinute - day.items[i].startMinute, day.items[i].durationMinutes);
-    if (i) assert.ok(day.items[i].startMinute >= day.items[i - 1].endMinute);
-    assert.match(day.items[i].time, /^\d{2}:\d{2}(\+\d+)?$/);
+    if (day.items[i].timing === 'unscheduled') {
+      assert.equal(day.items[i].time, null);
+      assert.equal(day.items[i].endTime, null);
+      assert.equal(day.items[i].durationMinutes, 0);
+    } else assert.match(day.items[i].time, /^\d{2}:\d{2}(\+\d+)?$/);
   }
+  const scheduled = day.items.filter(item => item.timing !== 'unscheduled');
+  scheduled.forEach((item, index) => { if (index) assert.ok(item.startMinute >= scheduled[index - 1].endMinute); });
   assert.deepEqual(day.items.filter(i => i.kind === 'meal').map(i => i.mealType), ['breakfast', 'lunch', 'dinner']);
-  assert.ok(day.items.some(i => i.time.includes('+1')));
+  assert.ok(day.items.some(i => i.time?.includes('+1')));
   for (const code of ['busy-day', 'late-finish', 'late-attraction', 'after-midnight', 'busy-arrival', 'busy-return']) assert.ok(day.warnings.some(w => w.code === code), code);
   assert.equal(formatItineraryTime(1505), '01:05+1');
 });

@@ -60,9 +60,9 @@ try {
     await page.getByRole('tab', { name: /每日行程/ }).click();
     await page.locator('.rich-timeline').waitFor();
     assert.equal(await page.locator('.timeline-attraction').count(), 6);
-    assert.equal(await page.locator('.timeline-meal').count(), 3);
-    assert.ok(await page.locator('.timeline-transit').count() >= 5);
-    assert.ok(await page.locator('.timeline-transit a[href*="google.com/maps"]').count() >= 5);
+    assert.equal(await page.locator('.kind-meal .timeline-routine').count(), 3);
+    assert.ok(await page.locator('.kind-transport .timeline-routine').count() >= 5);
+    assert.ok(await page.locator('.kind-transport .timeline-routine a[href*="google.com/maps"]').count() >= 5);
     assert.equal(await page.locator('.timeline-attraction .visit-duration').count(), 6);
     assert.equal(await page.locator('.timeline-attraction a').count(), 6);
     assert.ok(await page.locator('.timeline-attraction img').count() >= 1);
@@ -147,7 +147,11 @@ try {
     assert.deepEqual((await current()).stops[0].dayPlans, manualAssignments);
     const names = manualAssignments[0].map(id => byId.get(id).name);
     assert.deepEqual(await page.locator('.timeline-attraction-title h4').allTextContents(), names);
+    // The arrival day begins with its earlier intercity reserve. Check the
+    // user's local start time on the middle day, which has no intercity leg.
+    await page.locator('.journal-day-nav > button').nth(1).click();
     assert.match(await page.locator('.day-at-a-glance').innerText(), /09:30/);
+    await page.locator('.journal-day-nav > button').first().click();
     await page.reload({ waitUntil: 'networkidle' });
     await page.getByRole('tab', { name: /每日行程/ }).click();
     assert.deepEqual((await current()).stops[0].dayPlans, manualAssignments);

@@ -28,6 +28,8 @@ import {
   TrainFront,
   Ship,
   Car,
+  BedDouble,
+  Coffee,
   Trash2,
   Undo2,
   Utensils,
@@ -51,6 +53,8 @@ import {
   convert,
 } from "./ui.jsx";
 import "./itinerary.css";
+import "./routine-timeline.css";
+import { getItineraryMedia } from "./itinerary-media.mjs";
 import { suggestJourneyStop } from "../shared/journey-planning.mjs";
 import {
   resolveExperienceSelections,
@@ -67,6 +71,24 @@ const featureText = (a) =>
   a.features?.length
     ? a.features.slice(0, 3)
     : [a.category || "城市风景", a.bestTime || "慢慢探索"];
+
+const hasTimelineTime = (item) => Boolean(item.time) &&
+  item.timing !== "unscheduled" && !item.allowance &&
+  !item.includedInExperience && !item.includedInVisit && !item.duringJourney;
+
+function timelineIcon(item) {
+  if (item.kind === "meal") return item.mealType === "breakfast" ? Coffee : Utensils;
+  if (item.kind === "hotel") return BedDouble;
+  if (item.routineType === "citywalk") return Footprints;
+  if (item.kind === "journey-transfer") return Car;
+  const mode = item.segment?.mode || item.transportMode;
+  if (mode === "walk") return Footprints;
+  if (mode === "boat") return Ship;
+  if (mode === "road") return Car;
+  if (["rail", "transit"].includes(mode)) return TrainFront;
+  if (item.journey || ["arrival", "departure"].includes(item.kind)) return Plane;
+  return item.kind === "transport" ? TrainFront : Sun;
+}
 
 export default function ItineraryPlanner({
   plan,
@@ -480,6 +502,9 @@ export default function ItineraryPlanner({
             const first = c.attractions.find(
               (a) => a.id === day.attractionIds?.[0],
             );
+            const walk = day.items.find(item => item.routineType === "citywalk");
+            const explorationMinutes = (day.visitMinutes || 0) +
+              day.items.filter(item => item.routineType === "citywalk").reduce((sum, item) => sum + (item.strollMinutes ?? item.durationMinutes), 0);
             return (
               <article
                 className="journal-day day-card"
@@ -506,9 +531,11 @@ export default function ItineraryPlanner({
                       </span>
                       {day.attractionIds?.length
                         ? first?.name
-                        : "把时间留给" + c.name}
+                        : walk ? `${c.name}，慢慢逛`
+                          : day.dayWindow?.travelOnly ? "在路上的一天"
+                            : "把时间留给" + c.name}
                     </h3>
-                    <p>{first?.description || c.tagline}</p>
+                    <p>{first?.description || (walk ? "安顿行李，沿附近的街道认识这座城市。" : c.tagline)}</p>
                   </div>
                   <button
                     className="cover-edit"
@@ -535,7 +562,7 @@ export default function ItineraryPlanner({
                   <div>
                     <Compass size={16} />
                     <span>
-                      观光时长<strong>{durationLabel(day.visitMinutes)}</strong>
+                      游览与探索<strong>{explorationMinutes ? durationLabel(explorationMinutes) : "暂无安排"}</strong>
                     </span>
                   </div>
                   <div>
@@ -1612,6 +1639,84 @@ function CustomAttractionForm({ city, onSubmit, onCancel }) {
   );
 }
 
+function RoutineItem({ item, city, plan, onEditLine, samples, costText }) {
+  const media = getItineraryMedia(item, city);
+  const Icon = timelineIcon(item);
+  const meal = item.kind === "meal";
+  const budgetOnly = !hasTimelineTime(item) && Boolean(item.cost?.budgetLineId);
+  const included = item.includedInExperience || item.includedInVisit;
+  const cost = item.cost;
+  const menu = meal && item.mealType === "lunch" && samples.find(sample => sample.cityId === city.id);
+  const mapLink = item.segment?.mapsUrl || item.mapsUrl;
+  const costCaption = cost?.missingPrice ? "费用尚待补充" : included ? "已含在原预算中" : item.kind === "hotel" ? "住宿已计入总预算" :
+    cost?.sourceType === "free" ? "免费范围" : meal ? `${plan.travelers} 人餐费预留` : "已含在总预算中";
+  return (
+    <article className={`timeline-routine routine-${item.kind}${media ? " has-scene" : ""}`}>
+      {media && (
+        <figure className="timeline-scene">
+          <Photo image={media.image} alt={media.alt} />
+          <figcaption>
+            <span>{media.label}</span>
+            {media.image?.sourceUrl && (
+              <span className="routine-photo-credit">
+                <a href={media.image.sourceUrl} target="_blank" rel="noopener noreferrer"
+                  title={media.image.creditOriginal || media.image.credit || "图片来源"}>
+                  {media.image.credit === "See Wikimedia Commons source page" ? "图片来源" : media.image.credit || "图片来源"}
+                </a>
+                {media.image.licenseUrl && <a href={media.image.licenseUrl} target="_blank" rel="noopener noreferrer"
+                  title="图片按版式裁切，保留原许可证">{media.image.license}</a>}
+              </span>
+            )}
+          </figcaption>
+        </figure>
+      )}
+      <div className="routine-body">
+        <div className="routine-heading">
+          <Icon size={17} aria-hidden="true" />
+          <h4>{item.title}</h4>
+        </div>
+        <div className="routine-meta">
+          {budgetOnly && <span>{included ? "费用已含" : "灵活安排"}</span>}
+          {item.durationMinutes > 0 && (
+            <span><Clock3 size={12} />{item.journey ? "规划预留 " : "约 "}{durationLabel(item.durationMinutes)}</span>
+          )}
+          {item.segment?.distanceKm != null && <span>{Number(item.segment.distanceKm).toFixed(1)} km · 路程估算</span>}
+          {item.routineType === "citywalk" && <span>轻松探索 · 可按体力取舍</span>}
+        </div>
+        {item.journey && !["arrived", "departed"].includes(item.journeyPhase) ? (
+          <details className="routine-description">
+            <summary>路程与预算说明</summary>
+            <p>{item.description}</p>
+          </details>
+        ) : <p className="routine-description">{item.description}</p>}
+        {!!item.suggestedPlaces?.length && (
+          <div className="routine-places" aria-label="附近散步建议">
+            {item.suggestedPlaces.map(place => (
+              <div key={place.id || place.name}>
+                <strong><MapPin size={13} />{place.name}</strong>
+                {place.description && <p>{place.description}</p>}
+                {place.mapsUrl && <OutLink href={place.mapsUrl}>查看位置</OutLink>}
+              </div>
+            ))}
+          </div>
+        )}
+        <div className="routine-footer">
+          {cost?.budgetLineId ? (
+            <button className={`routine-budget${meal ? " meal-budget" : ""}`}
+              title={meal ? "调整这座城市的餐饮总预算，三餐会重新分摊" : "查看对应费用明细"}
+              onClick={() => onEditLine(cost.budgetLineId)}>
+              <strong>{item.kind === "hotel" ? "查看住宿费用" : included ? "不重复计费" : costText}</strong>
+              <small>{costCaption}</small>
+            </button>
+          ) : item.routineType === "citywalk" && <span className="routine-cost-note">户外散步不另计门票，消费自选</span>}
+          {mapLink && <OutLink href={mapLink}>查看实际路线</OutLink>}
+          {menu && <OutLink href={menu.sourceUrl}>本城菜单参考</OutLink>}
+        </div>
+      </div>
+    </article>
+  );
+}
+
 function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
   const attraction = city.attractions.find((a) => a.id === item.attractionId);
   const experience = city.experiences?.find((e) => e.id === item.experienceId);
@@ -1624,8 +1729,6 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
       : value === 0 && item.cost?.sourceType === "free"
         ? "免费"
         : money(value, item.cost?.currency || plan.currency);
-  const isTransport = item.kind === "transport";
-  const mode = item.segment?.mode || "transit";
   const exactCost = item.cost?.sourceType === "user";
   const priceSource = item.cost?.missingPrice
     ? "当地价格待补充"
@@ -1640,26 +1743,16 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
           : attraction
             ? "门票估算 · 待核验"
             : "预算分摊";
-  const Icon =
-    item.kind === "meal"
-      ? Utensils
-      : item.kind === "arrival" || item.kind === "departure"
-        ? Plane
-        : isTransport
-          ? mode === "walk"
-            ? Footprints
-            : mode === "boat"
-              ? Ship
-              : mode === "road"
-                ? Car
-                : TrainFront
-          : Sun;
+  const Icon = timelineIcon(item);
+  const timed = hasTimelineTime(item);
   return (
-    <div className={"rich-timeline-item kind-" + item.kind}>
+    <div className={"rich-timeline-item kind-" + item.kind + (timed ? "" : " is-untimed")}
+      data-item-id={item.id} data-timing={timed ? "scheduled" : "unscheduled"}
+      data-routine-type={item.routineType || ""} data-journey-phase={item.journeyPhase || ""}>
       <div className="timeline-clock">
-        <strong>{item.time?.split("+")[0] || "弹性"}</strong>
-        {item.time?.includes("+") && <em>+{item.time.split("+")[1]} 天</em>}
-        {item.endTime && item.endTime !== item.time && (
+        {timed && <strong>{item.time.split("+")[0]}</strong>}
+        {timed && item.time.includes("+") && <em>+{item.time.split("+")[1]} 天</em>}
+        {timed && item.endTime && item.endTime !== item.time && (
           <small>{item.endTime.replace("+", " +")}</small>
         )}
         <span className="timeline-marker">
@@ -1730,19 +1823,7 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
               </div>
             </div>
           </article>
-        ) : item.includedInExperience ? (
-          <div className="timeline-soft-event">
-            <span>
-              <Utensils size={19} />
-            </span>
-            <div>
-              <h4>{item.title}</h4>
-              <p>
-                {item.description} · 已包含在体验套餐内，不重复计费或占用时间。
-              </p>
-            </div>
-          </div>
-        ) : experience ? (
+        ) : experience && !item.includedInExperience ? (
           <article className="timeline-attraction timeline-experience">
             <div className="timeline-attraction-image">
               <Photo
@@ -1808,90 +1889,9 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
               </div>
             </div>
           </article>
-        ) : isTransport ? (
-          <div className="timeline-transit">
-            <div className="transit-icon">
-              <Icon size={17} />
-            </div>
-            <div>
-              <strong>{item.title}</strong>
-              <p>
-                <span>
-                  {item.segment?.distanceKm != null
-                    ? `${Number(item.segment.distanceKm).toFixed(1)} km · `
-                    : ""}
-                  {item.allowance
-                    ? "未指定路线"
-                    : "约 " + durationLabel(item.durationMinutes)}
-                </span>
-                {value != null && (
-                  <span>
-                    {value === 0
-                      ? mode === "walk" && !item.allowance
-                        ? "步行不计车费"
-                        : money(0, plan.currency) + " / 全员预留"
-                      : money(value, plan.currency) + " / 全员预留"}
-                  </span>
-                )}
-              </p>
-              <details className="transit-method">
-                <summary>路程与预算说明</summary>
-                <p>
-                  {item.description} {item.cost?.note}
-                </p>
-              </details>
-              {item.segment?.mapsUrl && (
-                <OutLink href={item.segment.mapsUrl}>查看实际路线</OutLink>
-              )}
-            </div>
-            <span className="route-estimate-tag">估算</span>
-          </div>
-        ) : item.kind === "meal" ? (
-          <div className="timeline-meal">
-            <span className="meal-icon">
-              <Utensils size={21} />
-            </span>
-            <div>
-              <span className="meal-eyebrow">A LITTLE TASTE OF HERE</span>
-              <h4>
-                {item.title}
-                <small>{durationLabel(item.durationMinutes)}</small>
-              </h4>
-              <p>{item.description}</p>
-              {/午餐/.test(item.title) &&
-                samples.some((s) => s.cityId === city.id) && (
-                  <OutLink
-                    href={samples.find((s) => s.cityId === city.id).sourceUrl}
-                  >
-                    本城门店菜单参考（不等于本餐报价）
-                  </OutLink>
-                )}
-            </div>
-            <button
-              className="meal-budget"
-              title="调整这座城市的餐饮总预算，三餐会重新分摊"
-              onClick={() =>
-                item.cost?.budgetLineId && onEditLine(item.cost.budgetLineId)
-              }
-              disabled={!item.cost?.budgetLineId}
-            >
-              <strong>{costText}</strong>
-              <small>{plan.travelers} 人餐费预留</small>
-            </button>
-          </div>
         ) : (
-          <div className="timeline-soft-event">
-            <span>
-              <Icon size={19} />
-            </span>
-            <div>
-              <h4>{item.title}</h4>
-              <p>{item.description}</p>
-              {value > 0 && (
-                <small>{money(value, plan.currency)} · 已含在预算中</small>
-              )}
-            </div>
-          </div>
+          <RoutineItem item={item} city={city} plan={plan} onEditLine={onEditLine}
+            samples={samples} costText={costText} />
         )}
       </div>
     </div>

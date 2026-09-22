@@ -187,6 +187,37 @@ function makeSegment(from, to, city = {}) {
   if (mode !== 'boat') url.searchParams.set('travelmode', mode === 'walk' ? 'walking' : mode === 'road' ? 'driving' : 'transit');
   return { fromId: from.id, toId: to.id, fromName: from.name, toName: to.name, distanceKm, straightLineKm: straight, detourFactor, mode, estimated: true, durationMinutes, mapsUrl: url.href, sourceType: 'model', note: mode === 'walk' ? '直线距离 × 1.25，按步速 4.5 km/h 估算；未检查步道、坡度与过街条件。' : mode === 'boat' ? '跨岛待核船程：直线距离 × 1.2，按25 km/h及30分钟登船预留。未查询码头、船班或海况，不是可执行航线；地图只定位起终点，必须向运营方核实。' : mode === 'road' ? '公路参考：直线距离 × 1.35，按45 km/h及15分钟停车预留。不是实时导航，不保证有公交；租车、燃油、停车、冬季道路另核。' : '直线距离 × 1.35，按 23 km/h 加 18 分钟接近站点/候车估算；不是实际线路或时刻表。' };
 }
+
+// A transport block can be just one day of a longer journey. Never call that
+// partial block an arrival, even though it is stored under window.inbound.
+function completesArrival(window, allWindows, day) {
+  if (!window.inbound || /未能分配|不足以容纳|抵达日在本站|才可开始活动/.test(window.note || '')) return false;
+  if (window.inbound.fromId === window.inbound.toId || window.inbound.mode === 'local') return false;
+  if (allWindows.slice(day + 1).some(next => next.inbound?.legId === window.inbound.legId)) return false;
+  if (window.inbound.basis === 'user-local-window') return true;
+  const allocated = allWindows.reduce((sum, next) => sum + (next.inbound?.legId === window.inbound.legId ? next.inbound.reservedMinutes : 0), 0);
+  // suggestStopPlan evaluates a single partial-day window in isolation. A
+  // remainder smaller than one full travel day still denotes the final block.
+  return allocated >= window.inbound.estimatedMinutes || window.inbound.reservedMinutes < 690;
+}
+
+function nearbyArrivalWalk(city, anchor, excludedIds, date, availableMinutes) {
+  if (!validCoordinate(anchor) || availableMinutes < 30) return null;
+  const candidates = (city.attractions || []).filter(place => {
+    const text = `${place.name || ''} ${place.category || ''} ${(place.features || []).join(' ')}`;
+    return !excludedIds.has(place.id) && place.automaticPlanning !== false && !closedOn(place, date) && validCoordinate(place)
+      && place.price?.low === 0 && place.price?.high === 0
+      && /街区|广场|公园|河岸|河畔|滨江|海滨|步行街|老街|胡同|公共街区|promenade|square|neighbou?rhood|park/i.test(text)
+      && !/山丘|登山|山顶|火山|国家公园|跨岛|海岛|瀑布|沙漠|自然保护区|hiking|mountain|national park/i.test(text)
+      && !/需.{0,8}预约|必须.{0,8}预约|预约入场|按预约|预约.{0,3}安检|实名|reservation required|booking required/i.test(`${place.bestTime || ''} ${place.description || ''} ${place.price?.note || ''}`);
+  }).map(place => ({ place, segment: makeSegment(anchor, place, city) }))
+    .filter(row => row.segment?.mode === 'walk' && row.segment.durationMinutes <= 25 && row.segment.durationMinutes * 2 + 30 <= availableMinutes)
+    .sort((a, b) => a.segment.durationMinutes - b.segment.durationMinutes || (b.place.priority || 0) - (a.place.priority || 0));
+  if (!candidates.length) return null;
+  const { place, segment } = candidates[0];
+  const strollMinutes = Math.min(45, Math.floor((availableMinutes - segment.durationMinutes * 2) / 15) * 15);
+  return { place, segment, strollMinutes, walkingMinutes: segment.durationMinutes * 2, durationMinutes: segment.durationMinutes * 2 + strollMinutes };
+}
 const emptyCost = currency => ({ amount: 0, currency, sourceType: 'included', note: '此项不另计费用。' });
 function lineCost(line, currency, amount = line?.amount, allocation = false) {
   return {
@@ -220,6 +251,9 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
     const transportShares = allocateMoney(transportLine?.amount, assignments.map(() => 1));
     assignments.forEach((ordinaryIds, localDay) => {
       const dayWindow = journeyWindows?.[stopIndex]?.[localDay] || { startMinute: 0, endMinute: 1440, maxLocalActiveMinutes: 480, reservedMinutes: 0 };
+      const arrivalCompleted = completesArrival(dayWindow, journeyWindows?.[stopIndex] || [dayWindow], localDay);
+      const stayNights = plan.mode === 'stay' ? stop.days : stop.days - (stopIndex === plan.stops.length - 1 ? 1 : 0);
+      const hasNightAfterToday = localDay < stayNights && (!budget || (lineMap.get(`stop-${stopIndex}-lodging`)?.quantity || 0) > 0);
       const constrained = Boolean(dayWindow.inbound || dayWindow.outbound || dayWindow.reservedMinutes || dayWindow.startMinute > 0 || dayWindow.endMinute < 1440);
       const activities = selectedExperiences.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === localDay && row.selection.scheduleStatus !== 'needs-more-days');
       const anchor = hotel && validCoordinate(hotel.experience) ? { travelGroup: city.travelGroup, ...hotel.experience, id: `${city.id}-selected-hotel` } : { id: `${city.id}-center-reference`, name: '住宿区域待填写（市中心参考）', lat: city.lat, lng: city.lng, travelGroup: city.travelGroup };
@@ -261,14 +295,15 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       const dinnerVisit = !dinnerRestaurant && !packageForMeal('dinner')
         ? ids.map(id => byId.get(id)).find(place => !place._experienceRow && place.mealWithinVisit === 'dinner')
         : null;
-      const includedMealItem = (meal, row) => ({ id: `${dayId}-${meal}`, kind: 'meal', mealType: meal, title: `${{ breakfast: '早餐', lunch: '午餐', dinner: '晚餐' }[meal]} · 已含体验套餐`, description: `包含在 ${row.experience.name} / ${row.option.name} 中；用餐时间包含在该体验总时长内，本提醒不另占时间或计费。具体供餐时段待确认。`, experienceId: row.experience.id, optionId: row.option.id, timeUnconfirmed: true, includedInExperience: true, cost: { ...emptyCost(currency), budgetLineId: experienceLineId(stopIndex, row.selection), note: '费用和时长已包含在体验套餐，未重复计入餐饮预算。' } });
+      const includedMealItem = (meal, row) => ({ id: `${dayId}-${meal}`, kind: 'meal', mealType: meal, timing: 'unscheduled', title: `${{ breakfast: '早餐', lunch: '午餐', dinner: '晚餐' }[meal]} · 已含体验套餐`, description: `包含在 ${row.experience.name} / ${row.option.name} 中；用餐时间包含在该体验总时长内，本提醒不另占时间或计费。具体供餐时段待确认。`, experienceId: row.experience.id, optionId: row.option.id, timeUnconfirmed: true, includedInExperience: true, cost: { ...emptyCost(currency), budgetLineId: experienceLineId(stopIndex, row.selection), note: '费用和时长已包含在体验套餐，未重复计入餐饮预算。' } });
       let cursor = localStart, lunchDone = false, dinnerDone = false, lunchEnd = 0, breakfastDone = false;
       let location = anchor;
       const segments = [];
       const mealShares = baselineMealShares.slice(localDay * 3, localDay * 3 + 3);
       const push = (item, durationMinutes = 0, notBefore = cursor) => {
         cursor = Math.max(cursor, notBefore);
-        const result = { ...item, time: formatItineraryTime(cursor), endTime: formatItineraryTime(cursor + durationMinutes), startMinute: cursor, endMinute: cursor + durationMinutes, durationMinutes };
+        const timing = item.timing === 'unscheduled' && durationMinutes === 0 ? 'unscheduled' : 'scheduled';
+        const result = { ...item, timing, time: timing === 'unscheduled' ? null : formatItineraryTime(cursor), endTime: timing === 'unscheduled' ? null : formatItineraryTime(cursor + durationMinutes), startMinute: cursor, endMinute: cursor + durationMinutes, durationMinutes };
         items.push(result); cursor += durationMinutes; return result;
       };
       const addJourney = (journey, direction) => {
@@ -282,19 +317,26 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         const duration = Math.max(0, end - Math.max(cursor, start));
         const alreadyCharged = chargedJourneyLines.has(legId);
         const cost = alreadyCharged ? { ...emptyCost(currency), budgetLineId: legId, note: '这段交通的预算已在此前的交通日计入，不重复收费。' } : !line && budget ? emptyCost(currency) : lineCost(line, currency);
-        push({ id: `${dayId}-${direction}-journey`, kind: direction === 'inbound' ? 'arrival' : 'departure', journey: true, journeyDirection: direction, transportMode: journey.mode || journey.transportMode, plannedStartMinute: start, plannedEndMinute: end, reservedDurationMinutes: journey.reservedMinutes || end - start, title: `${direction === 'inbound' ? '跨城抵达' : '返程交通'} · ${line?.label || (direction === 'inbound' ? `前往${city.name}` : '离开目的地')}`, description: `${dayWindow.note || '跨城交通占时预留。'} 此处为当地日间规划占位，不是航班或车次时刻；接驳、候车与路程已纳入占时，实际票面日期和时区需另核对。${alreadyCharged ? '票价已在此前交通日列出。' : '以下金额引用现有整团交通预算，不新增一笔费用。'}`, timeUnconfirmed: true, cost }, duration, start);
+        push({ id: `${dayId}-${direction}-journey`, kind: direction === 'inbound' ? 'arrival' : 'departure', journey: true, journeyPhase: 'in-transit', journeyDirection: direction, transportMode: journey.mode || journey.transportMode, plannedStartMinute: start, plannedEndMinute: end, reservedDurationMinutes: journey.reservedMinutes || end - start, title: direction === 'inbound' ? `${localDay ? '继续前往' : '出发前往'}${city.name} · 跨城交通` : `返程交通 · ${line?.label || '离开目的地'}`, description: `${dayWindow.note || '跨城交通占时预留。'} 此处为当地日间规划占位，不是航班或车次时刻；接驳、候车与路程已纳入占时，实际票面日期和时区需另核对。${alreadyCharged ? '票价已在此前交通日列出。' : '以下金额引用现有整团交通预算，不新增一笔费用。'}`, timeUnconfirmed: true, cost }, duration, start);
         chargedJourneyLines.add(legId);
         const transferId = legId.replace(/^leg-/, 'transfer-');
         const transfer = lineMap.get(transferId);
         if (transfer && !chargedJourneyLines.has(transferId)) {
-          push({ id: `${dayId}-${direction}-gateway`, kind: 'journey-transfer', journey: true, journeyDirection: direction, title: '两端接驳预算 · 已含在上述交通占时中', description: transfer.note, timeUnconfirmed: true, cost: lineCost(transfer, currency) });
+          push({ id: `${dayId}-${direction}-gateway`, kind: 'journey-transfer', journey: true, journeyDirection: direction, timing: 'unscheduled', title: '两端接驳预算 · 已含在上述交通占时中', description: transfer.note, timeUnconfirmed: true, cost: lineCost(transfer, currency) });
           chargedJourneyLines.add(transferId);
         }
         if (direction === 'inbound') cursor = Math.max(cursor, localStart);
       };
       if (dayWindow.inbound) addJourney(dayWindow.inbound, 'inbound');
       else if (first) push({ id: `${dayId}-arrival`, kind: arriving ? 'arrival' : 'free', title: arriving ? `抵达${city.name} · 当地开始时间待核对` : `开始${city.name}本地旅程`, description: arriving ? '根据交通设置安排当地可活动时间；这不是航班/火车抵达时刻，请按实际交通核对。' : '出发地就在本城，无需这一段城际交通。', cost: emptyCost(currency) });
-      if (first && hotel) push({ id: `${dayId}-hotel`, kind: 'hotel', title: `住宿选择 · ${hotel.experience.name}`, description: `${hotel.option.name}；入住时间及所选日期房态待酒店确认。此提醒不占用游览时段，住宿费见整站明细。`, experienceId: hotel.experience.id, optionId: hotel.option.id, image: hotel.experience.image || city.image, bookingUrl: hotel.experience.bookingUrl, cost: { ...emptyCost(currency), budgetLineId: `stop-${stopIndex}-lodging`, note: '整站住宿费用已在住宿明细计入，此提醒不重复计费。' } });
+      if (arrivalCompleted) push({ id: `${dayId}-arrival-ready`, kind: 'arrival', routineType: 'arrival-ready', journey: true, journeyPhase: 'arrived', journeyDirection: 'inbound', title: `抵达后 · 开始${city.name}的当地安排`, description: `这是交通预留结束后的当地活动起点，不是已确认的航班落地时间。接驳时间已在跨城预留中考虑。${localStart >= 1140 ? ' 抵达较晚，建议直接安顿休息，入住请提前向住宿方确认。' : ''}`, timeUnconfirmed: true, cost: emptyCost(currency) });
+      if (hotel && hasNightAfterToday && ((first && !dayWindow.inbound) || arrivalCompleted)) push({ id: `${dayId}-hotel`, kind: 'hotel', timing: 'unscheduled', title: `住宿选择 · ${hotel.experience.name}`, description: `${hotel.option.name}；入住时间及所选日期房态待酒店确认。此提醒不占用游览时段，住宿费见整站明细。`, experienceId: hotel.experience.id, optionId: hotel.option.id, image: hotel.experience.image || city.image, bookingUrl: hotel.experience.bookingUrl, cost: { ...emptyCost(currency), budgetLineId: `stop-${stopIndex}-lodging`, note: '整站住宿费用已在住宿明细计入，此提醒不重复计费。' } });
+      const journeyMealPlacement = meal => {
+        const pastMeal = { breakfast: 660, lunch: 900, dinner: 1140 }[meal];
+        if (dayWindow.inbound && (!arrivalCompleted || dayWindow.startMinute >= pastMeal)) return { duringJourney: true, placement: 'during-journey', relatedJourneyId: `${dayId}-inbound-journey`, journeyDirection: 'inbound' };
+        if (dayWindow.outbound && (dayWindow.travelOnly || { breakfast: 480, lunch: 780, dinner: 1140 }[meal] >= dayWindow.outbound.startMinute)) return { duringJourney: true, placement: 'during-journey', relatedJourneyId: `${dayId}-outbound-journey`, journeyDirection: 'outbound' };
+        return { duringJourney: false, placement: 'flexible' };
+      };
       const addBreakfast = () => {
         if (breakfastDone) return;
         breakfastDone = true;
@@ -304,8 +346,9 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         else if (included) push(includedMealItem('breakfast', included));
         else {
           const usedLocalMinutes = items.filter(item => !item.journey).reduce((total, item) => total + item.durationMinutes, 0);
-          const duringJourney = constrained && (dayWindow.travelOnly || cursor >= 660 || cursor + 30 > dayWindow.endMinute || usedLocalMinutes + 30 > dayWindow.maxLocalActiveMinutes);
-          push({ id: `${dayId}-breakfast`, kind: 'meal', mealType: 'breakfast', title: duringJourney ? '途中早餐预算 · 时段自行安排' : cursor >= 660 ? '早餐 / 早午餐' : '早餐', description: duringJourney ? '早餐费用从原日预算分配，预留在交通途中或出发前用餐，不挤占抵达后的游览窗口。' : '按未指定餐次的预算分摊；如有清晨体验则安排在体验之后，具体供应时段需另核对。', features: ['当地餐饮', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[0], true), duringJourney }, duringJourney ? 0 : 30);
+          const unscheduled = constrained && (dayWindow.travelOnly || cursor >= 660 || cursor + 30 > dayWindow.endMinute || usedLocalMinutes + 30 > dayWindow.maxLocalActiveMinutes);
+          const placement = unscheduled ? journeyMealPlacement('breakfast') : {};
+          push({ id: `${dayId}-breakfast`, kind: 'meal', mealType: 'breakfast', ...(unscheduled ? { timing: 'unscheduled', ...placement } : {}), title: unscheduled ? `${placement.duringJourney ? '出发前 / 途中' : ''}早餐预算 · 自行安排` : cursor >= 660 ? '早餐 / 早午餐' : '早餐', description: unscheduled ? placement.duringJourney ? '早餐费用从原日预算分配，留给出发前或交通途中用餐，没有指定某个时刻，也不占用抵达后的游览时间。' : '早餐费用从原日预算分配；尚未指定用餐时刻，可在休息时自行安排，这条预算提醒不另占活动时间。' : '按未指定餐次的预算分摊；如有清晨体验则安排在体验之后，具体供应时段需另核对。', features: ['当地餐饮', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[0], true) }, unscheduled ? 0 : 30);
         }
       };
       const lunchDue = Math.max(750, baseStart + 180);
@@ -323,8 +366,9 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         } else if (included) push(includedMealItem(mealType, included));
         else {
           const usedLocalMinutes = items.filter(item => !item.journey).reduce((total, item) => total + item.durationMinutes, 0);
-          const duringJourney = constrained && (dayWindow.travelOnly || Math.max(cursor, notBefore) + 60 > dayWindow.endMinute || (mealType === 'lunch' && cursor >= 900) || usedLocalMinutes + 60 > dayWindow.maxLocalActiveMinutes);
-          push({ id: `${dayId}-${mealType}`, kind: 'meal', mealType, title: duringJourney ? `途中${mealName}预算 · 时段自行安排` : mealType === 'lunch' ? '景点周边午餐' : '当地晚餐', description: duringJourney ? '餐费保留在原日预算中，在交通途中或出发前灵活用餐；该预算提醒不占用当地游览窗口。' : '未指定餐厅的餐次；金额从本城市剩余餐饮预算按餐次权重分摊，未新增费用。', features: ['预留休息', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[mealType === 'lunch' ? 1 : 2], true), duringJourney }, duringJourney ? 0 : 60, duringJourney ? cursor : notBefore);
+          const unscheduled = constrained && (dayWindow.travelOnly || Math.max(cursor, notBefore) + 60 > dayWindow.endMinute || (mealType === 'lunch' && cursor >= 900) || usedLocalMinutes + 60 > dayWindow.maxLocalActiveMinutes);
+          const placement = unscheduled ? journeyMealPlacement(mealType) : {};
+          push({ id: `${dayId}-${mealType}`, kind: 'meal', mealType, ...(unscheduled ? { timing: 'unscheduled', ...placement } : {}), title: unscheduled ? `${placement.duringJourney ? '出发前 / 途中' : ''}${mealName}预算 · 自行安排` : mealType === 'lunch' ? '景点周边午餐' : '当地晚餐', description: unscheduled ? placement.duringJourney ? '餐费保留在原日预算中，在出发前或交通途中灵活用餐；未指定用餐时刻，这条提醒不占用当地游览时间。' : '餐费保留在原日预算中，未指定具体餐厅或时刻；可在当地休息时自行安排，这条提醒不另占活动时间。' : '未指定餐厅的餐次；金额从本城市剩余餐饮预算按餐次权重分摊，未新增费用。', features: ['预留休息', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[mealType === 'lunch' ? 1 : 2], true) }, unscheduled ? 0 : 60, unscheduled ? cursor : notBefore);
         }
       };
       const addLunch = (notBefore = cursor) => {
@@ -353,6 +397,27 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         const item = push({ id: `${dayId}-transport-${suffix}-${segments.length}`, kind: 'transport', title: `${{walk:'步行',boat:'跨岛船程待确认',road:'公路出行参考',transit:'公共交通'}[segment.mode]} · ${from.name} → ${to.name}`, description: `${segment.note}${!hotel && (from.id === anchor.id || to.id === anchor.id) ? ' 酒店地址尚未填写，使用城市中心坐标作临时参考。' : ''}`, segment, cost: segment.mode === 'walk' ? { ...emptyCost(currency), sourceType: 'free', note: '按步行不产生车票费用规划；该模型未核验实际通行条件。' } : lineCost(transportLine, currency, 0, true) }, segment.durationMinutes);
         segments.push(item);
       };
+      // Fill an otherwise uncommitted arrival afternoon. This never moves a
+      // chosen sight, booked activity or restaurant, and shares the same local
+      // capacity limit used while evaluating smart-planning candidates.
+      const hasChosenRestaurant = restaurants.some(row => row.selection.dayIndex === localDay);
+      if (arrivalCompleted && !dayWindow.travelOnly && !ids.length && !hasChosenRestaurant && cursor < 1020) {
+        const used = items.filter(item => !item.journey).reduce((sum, item) => sum + item.durationMinutes, 0);
+        const available = Math.min(dayWindow.maxLocalActiveMinutes - used, dayWindow.endMinute - cursor);
+        if (available >= 30) {
+          if (hasNightAfterToday) {
+            const hotelReminderIndex = items.findIndex(item => item.id === `${dayId}-hotel`);
+            if (hotelReminderIndex >= 0) items.splice(hotelReminderIndex, 1);
+            push({ id: `${dayId}-check-in`, kind: 'hotel', routineType: 'check-in', title: hotel ? `放行李 / 办理入住 · ${hotel.experience.name}` : '放行李 / 办理入住', description: `预留30分钟整理行李和安顿。${hotel ? '所选酒店' : '住宿尚未指定，先以住宿区域为参考'}的入住时刻与房态需确认；提前到达可先询问行李寄存，是否收费需向住宿方确认。住宿费用已在整站预算中处理，本项不重复计费。`, ...(hotel ? { experienceId: hotel.experience.id, optionId: hotel.option.id, bookingUrl: hotel.experience.bookingUrl } : {}), cost: { ...emptyCost(currency), budgetLineId: `stop-${stopIndex}-lodging`, note: '只是入住手续与放行李的时间预留，不新增一晚住宿；额外行李寄存费尚未核实或计入。' } }, 30);
+          } else push({ id: `${dayId}-arrival-rest`, kind: 'free', routineType: 'arrival-rest', title: '抵达后短暂休息', description: '本次没有后续住宿夜数，先预留30分钟整理随身物品、喝水和休息。未安排入住，也没有把行李寄存视作免费；如需寄存，请另查服务位置与费用。', cost: emptyCost(currency) }, 30);
+          const walkBudget = Math.min(available - 30, 1080 - cursor);
+          const walk = nearbyArrivalWalk(city, anchor, new Set(assignments.flat()), dateAt(plan.departureDate, elapsed + localDay), walkBudget);
+          if (walk) {
+            const { place, segment, strollMinutes, walkingMinutes, durationMinutes } = walk;
+            push({ id: `${dayId}-arrival-citywalk`, kind: 'free', routineType: 'citywalk', title: `轻松探索 · ${place.name}`, description: `从住宿参考区域步行前往${place.name}，选一小段免费公共区域慢慢走，约${strollMinutes}分钟，往返步行另预留${walkingMinutes}分钟，均已计入本项用时。${hotel ? '' : '酒店未指定，距离暂以城市中心估算。'}这是抵达后的短途建议，不代替该景点完整游览；开放、步道与实际步行路线需核对。`, suggestedPlaces: [{ id: place.id, name: place.name, description: place.description || '', image: place.image || null, lat: place.lat, lng: place.lng, mapsUrl: segment.mapsUrl, sourceUrl: place.price?.sourceUrl || null }], walkingMinutes, strollMinutes, distanceKm: segment.distanceKm * 2, routeEstimated: true, cost: { ...emptyCost(currency), sourceType: 'free', note: '只安排库内零门票地点的公共户外范围；步行与此建议不加收门票、餐费或住宿费。购物、付费展馆及额外消费不含。' } }, durationMinutes);
+          }
+        }
+      }
       if (!earlyIds.length || !breakfastAfterEarly) addBreakfast();
       ids.forEach((id, index) => {
         const attraction = byId.get(id);
@@ -379,7 +444,7 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         if (!row && requestedStart !== null && cursor < requestedStart) push({id:`${dayId}-wait-${id}`,kind:'free',title:'自由休息 · 等待建议游览时段',description:`${formatItineraryTime(cursor)}–${formatItineraryTime(requestedStart)} 可自由活动；${attraction.name}建议 ${attraction.preferredStartTime} 后游览，实际营业状态尚未核验。这段留白不计入活动时长。`,cost:emptyCost(currency)});
         if (attraction === dinnerVisit && !dinnerDone) {
           dinnerDone = true;
-          push({ id: `${dayId}-dinner`, kind: 'meal', mealType: 'dinner', title: `晚餐 · ${attraction.name}小吃`, description: `用餐时间包含在接下来的 ${duration} 分钟游览内，不另占一小时。餐费仍从本城市日常餐饮预算分摊一次，并非门票包含餐食；具体摊位、份量与价格请现场核对。`, withinAttractionId: id, includedInVisit: true, features: ['游览中用餐', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[2], true) }, 0, requestedStart ?? cursor);
+          push({ id: `${dayId}-dinner`, kind: 'meal', mealType: 'dinner', timing: 'unscheduled', title: `晚餐 · ${attraction.name}小吃`, description: `用餐时间包含在接下来的 ${duration} 分钟游览内，不另占一小时。餐费仍从本城市日常餐饮预算分摊一次，并非门票包含餐食；具体摊位、份量与价格请现场核对。`, withinAttractionId: id, includedInVisit: true, features: ['游览中用餐', '整团预算分摊'], cost: lineCost(foodLine, currency, mealShares[2], true) }, 0, requestedStart ?? cursor);
         } else if (!row && attraction.mealWithinVisit === 'dinner' && dinnerRestaurant) {
           warnings.push({ code: 'visit-meal-restaurant-selected', severity: 'info', attractionId: id, experienceId: dinnerRestaurant.experience.id, message: `${attraction.name}的建议游览时长可包含小吃晚餐；你已另选 ${dinnerRestaurant.experience.name}，保留该餐厅的用餐时间与费用，夜市不再额外分配一份晚餐预算。请自行取舍小吃或调整游览时长。` });
         }
@@ -401,19 +466,35 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         if (!restaurants.some(row => row.selection.dayIndex === localDay && row.selection.mealType === 'dinner') && location.id !== anchor.id) move(anchor, `${location.id}-return-before-dinner`, false);
         addDinner(Math.max(cursor, 1110, lunchEnd + 240));
       }
-      if (!foodWeights.some(weight => weight > 0) && (foodLine?.amount || 0) > 0) push({ id: `${dayId}-food-allowance`, kind: 'meal', title: '额外餐饮费用记录', description: '全部餐次已被餐厅或套餐覆盖，保留你手动填写的餐饮总额作为额外预留；如不需要请清除此行覆盖金额。', cost: lineCost(foodLine, currency, allocateMoney(foodLine.amount, assignments.map(() => 1))[localDay], true) });
+      if (!foodWeights.some(weight => weight > 0) && (foodLine?.amount || 0) > 0) push({ id: `${dayId}-food-allowance`, kind: 'meal', timing: 'unscheduled', title: '额外餐饮费用记录', description: '全部餐次已被餐厅或套餐覆盖，保留你手动填写的餐饮总额作为额外预留；如不需要请清除此行覆盖金额。', cost: lineCost(foodLine, currency, allocateMoney(foodLine.amount, assignments.map(() => 1))[localDay], true) });
       if (location.id !== anchor.id) move(anchor, `${location.id}-return`, false);
       const paidSegments = segments.filter(item => item.segment.mode !== 'walk');
       if (paidSegments.length) {
         const shares = allocateMoney(transportShares[localDay], paidSegments.map(item => item.durationMinutes));
         paidSegments.forEach((item, index) => { item.cost = lineCost(transportLine, currency, shares[index], true); });
-      } else push({ id: `${dayId}-transport-allowance`, kind: 'transport', title: '其他市内交通预留', description: '已规划的景点路线为步行或自由活动；此金额保留给公交、地铁等未指定行程。它是日预算分摊，不是步行收费。', cost: lineCost(transportLine, currency, transportShares[localDay], true), allowance: true });
+      } else push({ id: `${dayId}-transport-allowance`, kind: 'transport', timing: 'unscheduled', title: '其他市内交通预留', description: '已规划的景点路线为步行或自由活动；此金额保留给公交、地铁等未指定行程。它是日预算分摊，不是步行收费。', cost: lineCost(transportLine, currency, transportShares[localDay], true), allowance: true });
       const localEndMinute = cursor;
       if (dayWindow.outbound) addJourney(dayWindow.outbound, 'outbound');
-      else if (last && (plan.returnTrip !== false || plan.mode === 'stay')) push({ id: `${dayId}-departure`, kind: 'departure', title: plan.mode === 'stay' ? '整理行李 · 次日退房' : returning ? '返程时刻待核对' : '结束本地旅程', description: plan.mode === 'stay' ? `${dateAt(plan.departureDate, elapsed + stop.days)} 退房${plan.returnTrip !== false ? '并按实际交通时刻返程' : '，后续交通自行安排'}；上面是最后一个完整住宿日。` : returning ? '这里是行程收尾提醒，不是已确认的航班/车次出发时间；请将返程前的景点安排与票面时刻核对。' : '按自己的节奏结束今天的探索。', timeUnconfirmed: true, cost: emptyCost(currency) });
+      else if (last && (plan.returnTrip !== false || plan.mode === 'stay')) push({ id: `${dayId}-departure`, kind: 'departure', timing: 'unscheduled', title: plan.mode === 'stay' ? '整理行李 · 次日退房' : returning ? '返程时刻待核对' : '结束本地旅程', description: plan.mode === 'stay' ? `${dateAt(plan.departureDate, elapsed + stop.days)} 退房${plan.returnTrip !== false ? '并按实际交通时刻返程' : '，后续交通自行安排'}；上面是最后一个完整住宿日。` : returning ? '这里是行程收尾提醒，不是已确认的航班/车次出发时间；请将返程前的景点安排与票面时刻核对。' : '按自己的节奏结束今天的探索。', timeUnconfirmed: true, cost: emptyCost(currency) });
+
+      // Untimed in-transit meal budgets belong beside the journey, before the
+      // local arrival marker (or before an outbound journey), not at the later
+      // clock position where meal-budget reconciliation happened to run.
+      for (const direction of ['inbound', 'outbound']) {
+        const relatedId = `${dayId}-${direction}-journey`;
+        const reminders = items.filter(item => item.timing === 'unscheduled' && item.relatedJourneyId === relatedId);
+        const journey = items.find(item => item.id === relatedId);
+        if (!reminders.length || !journey) continue;
+        for (const reminder of reminders) items.splice(items.indexOf(reminder), 1);
+        let insertAt = direction === 'inbound' ? items.findIndex(item => item.routineType === 'arrival-ready') : items.indexOf(journey);
+        if (insertAt < 0) insertAt = items.indexOf(journey) + 1;
+        const anchorMinute = direction === 'inbound' ? journey.endMinute : journey.startMinute;
+        reminders.forEach(reminder => { reminder.startMinute = anchorMinute; reminder.endMinute = anchorMinute; });
+        items.splice(insertAt, 0, ...reminders);
+      }
 
       const visitMinutes = items.filter(i => ['attraction', 'experience'].includes(i.kind)).reduce((s, i) => s + i.durationMinutes, 0);
-      const localTravelMinutes = segments.reduce((s, i) => s + i.durationMinutes, 0);
+      const localTravelMinutes = segments.reduce((s, i) => s + i.durationMinutes, 0) + items.reduce((sum, item) => sum + (item.routineType === 'citywalk' ? item.walkingMinutes : 0), 0);
       const localActiveMinutes = items.filter(i => !i.journey).reduce((s, i) => s + i.durationMinutes, 0);
       const intercityMinutes = dayWindow.reservedMinutes || 0;
       const travelMinutes = localTravelMinutes + intercityMinutes;
@@ -423,7 +504,7 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       if (journeyConflict) warnings.push({ code: 'journey-window-conflict', severity: 'danger', message: `当天跨城交通后可在当地活动的窗口为 ${formatItineraryTime(dayWindow.startMinute)}–${formatItineraryTime(dayWindow.endMinute)}，当前手动选择与交通预留冲突；景点已保留，请智能重排、移至其他天或按真实票面信息修改交通设置。` });
       if (dayWindow.travelOnly) warnings.push({ code: 'journey-travel-only', severity: 'info', message: '这一天主要预留给跨城交通；自动规划不安排景点，日常餐费继续作为途中开销预算保留。' });
       if ((dayWindow.inbound && dayWindow.outbound && dayWindow.inbound.endMinute > dayWindow.outbound.startMinute) || /未能分配|不足以容纳|抵达日在本站/.test(dayWindow.note || '')) warnings.push({ code: 'journey-capacity-conflict', severity: 'danger', message: `现有天数不足或入城与返程的交通预留重叠，尚不能形成可执行的交通安排。${dayWindow.note || ''} 请增加天数，或依据已核实的票面信息填写当地可活动窗口。` });
-      const distance = segments.reduce((s, i) => s + i.segment.distanceKm, 0);
+      const distance = segments.reduce((s, i) => s + i.segment.distanceKm, 0) + items.reduce((sum, item) => sum + (item.routineType === 'citywalk' ? item.distanceKm : 0), 0);
       if (activeMinutes > 480 && localActiveMinutes > 0) warnings.push({ code: 'busy-day', severity: activeMinutes > 660 ? 'danger' : 'warning', message: `今天安排约 ${Math.round(activeMinutes / 60 * 10) / 10} 小时（含游览、城际及市内交通与用餐），超过 8 小时；建议移动部分景点到其他天。` });
       if (cursor > 1230) warnings.push({ code: 'late-finish', severity: 'warning', message: `预计结束于 ${formatItineraryTime(cursor)}，晚于 20:30；可提前开始或减少景点。` });
       if (arriving && localActiveMinutes > 360) warnings.push({ code: 'busy-arrival', severity: 'warning', message: '抵达当天的本地安排超过 6 小时，且另有城际交通占时；请核对抵达窗口并删减或移走景点。' });

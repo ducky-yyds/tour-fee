@@ -208,7 +208,9 @@ const foodCoverage = {
   photos: mediaCoverage.manifest.foods.photographs, missingPhotos: missingPhotos.foods,
   cardsWithImage: mediaCoverage.runtime.foods.cardsWithImage,
   missingCardImages: mediaCoverage.runtime.foods.missingImageIds,
-  awaitingDishPhoto: foods.filter(food => food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient').map(food => food.id),
+  dedicatedDishIllustrations: foods.filter(food => media.attractions?.[food.id]?.scope === 'illustration' && media.attractions[food.id].illustrationSubject === food.id && imageLocation(media.attractions[food.id].url).available).length,
+  genericDishIllustrationIds: foods.filter(food => media.attractions?.[food.id]?.scope === 'illustration' && media.attractions[food.id].illustrationSubject !== food.id).map(food => food.id),
+  awaitingDishPhoto: foods.filter(food => !food.photoFile && !media.attractions?.[food.id]?.subjectMatched && (food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient')).map(food => food.id),
 };
 const placeLibraryCoverage = {
   places: supplemental.length,

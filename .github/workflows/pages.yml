@@ -92,7 +92,13 @@ jobs:
         continue-on-error: true
         timeout-minutes: 5
         run: python3 scripts/update-stay-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
+      - name: Repair missing reviewed food and hotel photographs
+        if: inputs.refresh_data
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python3 scripts/maintain-reviewed-images.py
       - name: Fill new card images from bundled illustrations
+        # Subject-specific food art is bundled and never needs generation in CI.
         run: python3 scripts/complete-media.py --phase=fallback
       - name: Validate maintained catalog and bundled image references
         run: npm run audit:catalog

@@ -2845,7 +2845,12 @@
     "sourceScope": "food-description",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "葡式鳕鱼饼 Pastéis de bacalhau food"
+    "imageQuery": "葡式鳕鱼饼 Pastéis de bacalhau food",
+    "photoFile": "Pastéis de Bacalhau ~ Salt Cod Fritters.jpg",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bacalhau_~_Salt_Cod_Fritters.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-stamppot",
@@ -3687,7 +3692,12 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "波兰酸麦汤 Żurek food"
+    "imageQuery": "波兰酸麦汤 Żurek food",
+    "photoFile": "Zurek Sour Rye Soup, Warsaw.jpg",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Zurek_Sour_Rye_Soup,_Warsaw.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-obwarzanek",
@@ -4716,7 +4726,12 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "冰岛羊肉汤 Kjötsúpa food"
+    "imageQuery": "冰岛羊肉汤 Kjötsúpa food",
+    "photoFile": "Kjötsúpa.JPG",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Kj%C3%B6ts%C3%BApa.JPG",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-braai",
@@ -5183,7 +5198,12 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "印度洋椰香咖喱鱼 Coconut fish curry food"
+    "imageQuery": "印度洋椰香咖喱鱼 Coconut fish curry food",
+    "photoFile": "La Marmite Mauricienne (Flic-en-Flac) - curry de poisson (1).jpg",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:La_Marmite_Mauricienne_(Flic-en-Flac)_-_curry_de_poisson_(1).jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "毛里求斯鱼咖喱实拍；各岛香料、椰奶用量与做法会有不同。"
   },
   {
     "id": "food-dholl-puri",
@@ -5211,7 +5231,12 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "毛里求斯豆馅薄饼 Dholl puri food"
+    "imageQuery": "毛里求斯豆馅薄饼 Dholl puri food",
+    "photoFile": "Mauritian Dholl puri taken by Steph Chalon.jpg",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mauritian_Dholl_puri_taken_by_Steph_Chalon.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-octopus-salad",
@@ -5980,8 +6005,14 @@
     "catalogOrigin": "maintained-definition",
     "articleScope": "food-photo-pending",
     "imageQuery": "Qingdao mackerel seafood fish dumplings 鲅鱼水饺 成品",
-    "photoStatus": "needs-food-photo",
-    "photoNote": "原图仅注明台湾水饺，无法确认海鲜馅料；青岛海鲜水饺的准确成品照片待补。"
+    "photoStatus": "photo-selected",
+    "photoNote": "原图仅注明台湾水饺，无法确认海鲜馅料；青岛海鲜水饺的准确成品照片待补。",
+    "photoFile": "山东鲅鱼饺子.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%9C%E9%B2%85%E9%B1%BC%E9%A5%BA%E5%AD%90.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "根代理通过同义菜名鲅鱼饺子检索发现；文件明确为山东鲅鱼水饺成品。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为绿色面皮的鲅鱼饺子，面皮做法因店而异。"
   },
   {
     "id": "food-guotie",
@@ -6107,8 +6138,14 @@
     "sourceScope": "destination-context",
     "catalogOrigin": "maintained-definition",
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
-    "imageQuery": "丽江鸡豆凉粉 鸡豆凉粉 · Jīdòu liángfěn plated food"
+    "photoStatus": "photo-selected",
+    "imageQuery": "丽江鸡豆凉粉 鸡豆凉粉 · Jīdòu liángfěn plated food",
+    "photoFile": "丽江鸡豌豆凉粉 - Chicken pea jelly.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%BD%E6%B1%9F%E9%B8%A1%E8%B1%8C%E8%B1%86%E5%87%89%E7%B2%89_-_Chicken_pea_jelly.jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "中文维基条目进一步定位到准确文件；Commons说明明确为丽江当地鸡豆凉粉，非川北凉粉或普通豌豆粉。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为丽江鸡豆凉粉的凉拌吃法。"
   },
   {
     "id": "food-lijiang-baba",
@@ -6611,7 +6648,14 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "椰子布丁 Coconut pudding food"
+    "imageQuery": "椰子布丁 Coconut pudding food",
+    "photoFile": "Coconut Milk Pudding in Young Coconut.JPG",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coconut_Milk_Pudding_in_Young_Coconut.JPG",
+    "photoSourceLicense": "CC BY-SA 3.0",
+    "photoMatchNote": "图为嫩椰壳中盛放的椰奶布丁成品；对应椰子布丁菜型，不声称拍摄于亚庇某家店。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为盛在嫩椰壳中的椰奶布丁。"
   },
   {
     "id": "food-rendang",
@@ -6732,7 +6776,14 @@
     "sourceScope": "food-background",
     "catalogOrigin": "maintained-definition",
     "articleScope": "dish",
-    "imageQuery": "斯里兰卡米饭咖喱 Rice and curry food"
+    "imageQuery": "斯里兰卡米饭咖喱 Rice and curry food",
+    "photoFile": "Sri Lankan Rice and Curry.jpg",
+    "photoStatus": "photo-selected",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Sri_Lankan_Rice_and_Curry.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件说明明确为斯里兰卡米饭配多款咖喱与蔬菜的成品套餐；未采用检索中混入的日式咖喱饭。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为米饭搭配多款斯里兰卡咖喱，配菜随店家变化。"
   },
   {
     "id": "food-espetada",
@@ -6910,7 +6961,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "麻酱拌面 麻酱拌面 · Májiàng bànmiàn Shanghai prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.meet-in-shanghai.net/en/guide/taste-your-way-through-shanghai-food-coffee-and-vibrant-neighborhoods-907063/",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -6927,7 +6978,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Noodles With Sesame Sauce (麻醬麵).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Noodles_With_Sesame_Sauce_(%E9%BA%BB%E9%86%AC%E9%BA%B5).jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件说明明确为麻酱面，按中式面食食谱制成；不是米线、日式拉面或单纯麻油拌面。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为麻酱面的一种做法。"
   },
   {
     "id": "food-zhajiangmian",
@@ -7258,7 +7315,7 @@
     "article": "Longjing shrimp",
     "articleScope": "dish",
     "imageQuery": "龙井虾仁 龙井虾仁 · Lóngjǐng xiārén Hangzhou prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3039/site/attach/0/0ad3e0c7e08547ed8018fbdfc336fe65.pdf",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -7275,7 +7332,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Longjing prawns in Hangzhou Restaurant 2015-07.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "杭州酒家龙井虾仁成品，文件说明写明菜名与杭州门店。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "拍摄于杭州酒家的龙井虾仁。"
   },
   {
     "id": "food-west-lake-fish",
@@ -7288,7 +7351,7 @@
     "article": "West Lake fish in vinegar gravy",
     "articleScope": "dish",
     "imageQuery": "西湖醋鱼 西湖醋鱼 · Xīhú cùyú Hangzhou prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3039/site/attach/0/0ad3e0c7e08547ed8018fbdfc336fe65.pdf",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -7305,7 +7368,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "West Lake Fish in Vinegar Gravy.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:West_Lake_Fish_in_Vinegar_Gravy.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "杭州山外山餐厅西湖醋鱼成品，文件说明明确对应菜名及杭州餐厅。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "拍摄于杭州山外山餐厅的西湖醋鱼。"
   },
   {
     "id": "food-pianerchuan",
@@ -7318,7 +7387,7 @@
     "article": "Pian er chuan",
     "articleScope": "dish",
     "imageQuery": "片儿川 片儿川 · Piàn'erchuān Hangzhou prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -7335,7 +7404,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "片儿川 20260730.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%89%87%E5%84%BF%E5%B7%9D_20260730.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "富阳国际贸易中心大酒店的片儿川成品；文件说明与杭州地方面食对应。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为杭州富阳餐馆供应的片儿川。"
   },
   {
     "id": "food-suanlafen",
@@ -7751,7 +7826,7 @@
     "article": "Tusun jelly",
     "articleScope": "dish",
     "imageQuery": "土笋冻 土笋冻 · Tǔsǔndòng Xiamen prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://quanzhou.gov.cn/gastronomy/ch/qzgk/yhzc/202412/t20241226_3122619.htm",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -7776,7 +7851,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Tusundong Xiamen.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Tusundong_Xiamen.jpg",
+    "photoSourceLicense": "CC BY-SA 3.0",
+    "photoMatchNote": "文件说明明确为厦门餐馆的土笋冻成品；未用沙虫原料图替代。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "厦门土笋冻的一种呈现方式，旁边配有蘸料。"
   },
   {
     "id": "food-minnan-meat-zongzi",
@@ -8146,7 +8227,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "荔浦芋扣肉 荔浦芋扣肉 · Lìpǔ yù kòuròu Guilin prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://lzhbwg.mofcom.gov.cn/edi_ecms_web_front/thb/articledeail/2697",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -8163,7 +8244,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "A Chinese Pork bellies with taro.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:A_Chinese_Pork_bellies_with_taro.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "图为芋头扣肉成品；展示五花肉与芋头搭配的同类菜，不声称使用的芋头产地已核验为荔浦。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为同类芋头扣肉，展示芋头与五花肉的搭配。"
   },
   {
     "id": "food-guilin-stuffed-tofu",
@@ -8176,7 +8263,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "桂北豆腐酿 豆腐酿 · Dòufu niàng Guilin prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://lzhbwg.mofcom.gov.cn/edi_ecms_web_front/thb/articledeail/2697",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -8193,7 +8280,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "酿豆腐 1.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%85%BF%E8%B1%86%E8%85%90_1.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "肉馅酿豆腐成品；拍于深圳客家餐馆，用于说明同类菜品外观，不代表桂林某门店或当地特定馅料。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为同类肉馅酿豆腐，馅料与摆盘因店而异。"
   },
   {
     "id": "food-luoyang-beef-soup",
@@ -8428,7 +8521,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "赤豆小圆子 赤豆小圆子 · Chìdòu xiǎoyuánzi Suzhou prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.gusu.gov.cn/gsq/zwyw/202402/ed44661c8c5d461b986913fa53818a23.shtml",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -8445,7 +8538,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "赤豆酒酿元宵.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B5%A4%E8%B1%86%E9%85%92%E9%85%BF%E5%85%83%E5%AE%B5.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "图为赤豆酒酿元宵成品，准确对应红豆、小元宵与酒酿的甜汤做法。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "南京赤豆酒酿元宵，红豆甜汤搭配小元宵。"
   },
   {
     "id": "food-haitang-cake",
@@ -9097,7 +9196,7 @@
     "article": "Lawar",
     "articleScope": "dish",
     "imageQuery": "巴厘岛香料拌菜 Lawar Bali prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.indonesia.travel/id/id/travel-ideas/gastronomy/10-iconic-cuisine-s-that-you-must-try-on-your-next-visit-to-bali",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -9114,7 +9213,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Lawar.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lawar.jpg",
+    "photoSourceLicense": "CC BY 2.1 jp",
+    "photoMatchNote": "文件说明明确为巴厘岛 Lawar 拌菜成品；未用泛指巴厘岛拼饭的照片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中展示几种巴厘岛 Lawar 拌菜。"
   },
   {
     "id": "food-sate-rembiga",
@@ -9193,7 +9298,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "萨萨克蕉茎咖喱 Ares Lombok prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.indonesia.travel/fr/en/travel-ideas/gastronomy/ares",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -9210,7 +9315,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Ares nangka pelecing beberok.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Ares_nangka_pelecing_beberok.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "龙目岛当地菜拼盘包含 Ares 蕉茎咖喱；照片也包含其他当地菜，须在照片说明保留拼盘语境。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "龙目岛家常菜组合，包含 Ares 蕉茎咖喱与其他配菜。"
   },
   {
     "id": "food-satay",
@@ -9595,7 +9706,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "岘港鱼饼米线 Bún chả cá Da Nang prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://vietnam.travel/vi/things-to-do/foodie%E2%80%99s-guide-da-nang",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -9612,7 +9723,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Bún chả cá, tháng 8 năm 2018.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_c%C3%A1,_th%C3%A1ng_8_n%C4%83m_2018.JPG",
+    "photoSourceLicense": "Public domain",
+    "photoMatchNote": "文件说明与名称明确为越南鱼饼米线 Bún chả cá；未用河内烤肉米粉 Bún chả 替代。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为越南鱼饼米线，鱼饼与配菜因店而异。"
   },
   {
     "id": "food-banh-trang-thit-heo",
@@ -9661,7 +9778,7 @@
     "article": "Nem lụi",
     "articleScope": "dish",
     "imageQuery": "中越香茅肉串 Nem lụi Da Nang prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://vietnam.travel/node/862",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -9678,7 +9795,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Nhà mình Lễ 30th4n2023 (chạo nem lụi) (1).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nh%C3%A0_m%C3%ACnh_L%E1%BB%85_30th4n2023_(ch%E1%BA%A1o_nem_l%E1%BB%A5i)_(1).jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件名明确为 chạo nem lụi 成品，Commons 归类为越南饮食；下载后需目视确认肉串清晰度。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为香茅串烤肉，摆盘与配菜因店而异。"
   },
   {
     "id": "food-or-lam",
@@ -9787,7 +9910,7 @@
     "article": "Num banh chok",
     "articleScope": "dish",
     "imageQuery": "高棉咖喱米线 នំបញ្ចុក · Num banh chok Siem Reap prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.tourismcambodia.com/travelguides/provinces/banteay-meanchey/where-to-eat.htm",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -9804,7 +9927,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Num Banh Chok (cropped).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Num_Banh_Chok_(cropped).jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "文件说明明确为暹粒 Sam Khmer Noodles 的 Num Banhchok Samlar Brahar 成品。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为暹粒餐馆供应的柬式米线。"
   },
   {
     "id": "food-lok-lak",
@@ -9997,7 +10126,7 @@
     "article": "Sutukil",
     "articleScope": "dish",
     "imageQuery": "宿务海鲜三吃 Sutukil Cebu prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://philippines.travel/destinations/cebu-city/index",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -10014,7 +10143,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "KINILAW (Carcar, Cebu).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:KINILAW_(Carcar,_Cebu).jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "图中为宿务Sutukil餐厅的酸腌鱼Kinilaw，是海鲜三吃中的酸腌做法；并非三道菜合照。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中是海鲜三吃中的酸腌鱼 Kinilaw。"
   },
   {
     "id": "food-stinky-tofu",
@@ -10201,7 +10336,7 @@
     "article": "Samay Baji",
     "articleScope": "dish",
     "imageQuery": "尼瓦尔扁米拼盘 समय् बजि · Samay baji Kathmandu prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://ntb.gov.np/yomari-punhi",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -10218,7 +10353,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Samaybaji.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Samaybaji.JPG",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件说明明确为尼瓦尔 Samaybaji 菜肴成品；未用多人祭祀活动照片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "尼瓦尔风味拼盘的一种组合，配菜随店家变化。"
   },
   {
     "id": "food-chole-bhature",
@@ -10321,7 +10462,7 @@
     "article": "Dal baati churma",
     "articleScope": "dish",
     "imageQuery": "拉贾斯坦豆汤烤面团套餐 दाल बाटी चूरमा · Dal baati churma Jaipur prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.incredibleindia.gov.in/en/rajasthan/jaipur",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -10338,7 +10479,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Dal Baati Churma.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dal_Baati_Churma.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件名与说明明确为拉贾斯坦 Dal Baati Churma 套餐成品。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中展示扁豆咖喱搭配烤面团球的吃法。"
   },
   {
     "id": "food-ghevar",
@@ -10598,7 +10745,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "马尔代夫金枪鱼馅饼 Mas roshi Malé prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://visitmaldives.com/en/experience/maldivian-cuisine-a-myriad-of-rich-tastes-and-flavors",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -10623,7 +10770,13 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Masroshi Maldives.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Masroshi_Maldives.jpg",
+    "photoSourceLicense": "CC BY-SA 3.0",
+    "photoMatchNote": "文件说明明确为马尔代夫 Masroshi 馅饼；不使用另一道鱼松 Mas huni 配薄饼的照片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "马尔代夫 Masroshi 馅饼的成品外观。"
   },
   {
     "id": "food-croque-monsieur",
@@ -11650,7 +11803,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "柏林肉饼 Berliner Boulette Berlin prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.visitberlin.de/de/berliner-kueche",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -11667,7 +11820,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "240612 Buletten mit Bratkartoffeln Restaurant Ständige Vertretung Berlin anagoria.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:240612_Buletten_mit_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-stoemp",
@@ -11830,7 +11987,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "达尔马提亚糖渍橙皮 Arancini dubrovački Dubrovnik prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://visitdubrovnik.hr/gastronomy/",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -11847,7 +12004,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Candied Orange Peel, Sliced (4175935076).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Candied_Orange_Peel,_Sliced_(4175935076).jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-buzara",
@@ -11860,7 +12021,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "科托尔湾蒜香葡萄酒贻贝 Mušule na buzaru Kotor prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.montenegro.travel/en/unique-montenegro/jewels-of-the-adriatic/bay-of-kotor",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -11877,7 +12038,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Mušule na buzaru - Konoba Kolona (14716917187).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mu%C5%A1ule_na_buzaru_-_Konoba_Kolona_(14716917187).jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-kacamak",
@@ -12108,7 +12273,7 @@
     "article": "Plokkfiskur",
     "articleScope": "dish",
     "imageQuery": "冰岛鱼肉土豆烩 Plokkfiskur Reykjavík prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://visitreykjavik.is/best-things-to-do-in-reykjavik-at-own-pace",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -12141,7 +12306,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Plokkfiskur.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Plokkfiskur.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-rugbraud",
@@ -12644,7 +12813,7 @@
     "article": "Mustikkapiirakka",
     "articleScope": "dish",
     "imageQuery": "芬兰越橘派 Mustikkapiirakka Helsinki prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.visitfinland.com/en/articles/best-finnish-desserts/",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -12669,7 +12838,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Mustikkapiirakka 2, kypsä C IMG 7763.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mustikkapiirakka_2,_kyps%C3%A4_C_IMG_7763.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-karjalanpaisti",
@@ -13765,7 +13938,7 @@
     "article": "Pastizz",
     "articleScope": "dish",
     "imageQuery": "马耳他酥皮馅角 Pastizzi Gozo prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://visitgozo.com/discover-gozo-island/",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -13782,7 +13955,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Pastizzi (185043231).jpeg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Pastizzi_(185043231).jpeg",
+    "photoSourceLicense": "CC BY 3.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-imqaret",
@@ -13921,7 +14098,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "塞浦路斯麦粒肉馅炸饼 Κούπες · Koupes Paphos prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.visitcyprus.com/wp-content/uploads/2016/05/NEW_REVISED_Flavours_of_Cyprus_6_2013_FRE.pdf",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -13938,7 +14115,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Koupes à Limassol.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Koupes_%C3%A0_Limassol.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-madeira-honey-cake",
@@ -14041,7 +14222,7 @@
     "article": "Bolo lêvedo",
     "articleScope": "dish",
     "imageQuery": "亚速尔甜面包饼 Bolo lêvedo Ponta Delgada prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://gastronomia.visitazores.com/pt/cozinha/produtos",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -14058,7 +14239,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Bololevedo.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Bololevedo.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-grilled-limpets",
@@ -14345,7 +14530,7 @@
     "article": "Meat pie (Australia and New Zealand)",
     "articleScope": "dish",
     "imageQuery": "澳洲肉派 Australian meat pie Sydney prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.sydney.com/articles/must-eat-dishes",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -14370,7 +14555,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Aussie meat pie (cropped).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Aussie_meat_pie_(cropped).jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-sydney-rock-oysters",
@@ -14383,7 +14572,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "悉尼岩蚝 Sydney rock oysters Sydney prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://www.sydney.com/articles/must-eat-dishes",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -14400,7 +14589,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Sydney rock oyster on half shell with two empty shells.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_rock_oyster_on_half_shell_with_two_empty_shells.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-dim-sim",
@@ -15094,7 +15287,7 @@
     "article": "Urojo",
     "articleScope": "dish",
     "imageQuery": "桑给巴尔酸辣混合汤 Urojo Zanzibar prepared plated food",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://zanzibartourism.go.tz/activity/Culture%20%26%20Heritage%20Tour",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -15111,7 +15304,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Urojo Zanzibar 112018.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Urojo_Zanzibar_112018.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-ladob",
@@ -15214,7 +15411,7 @@
     "article": null,
     "articleScope": "food-photo-pending",
     "imageQuery": "毛里求斯辣豆丸 Gâteaux piments Mauritius prepared plated food",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "sourceUrl": "https://mauritiusnow.com/fr/blog/things-to-do/lune-de-miel-a-lile-maurice/",
     "sourceStatus": "maintained-guide",
     "sourceCheckedAt": null,
@@ -15231,7 +15428,11 @@
       ]
     },
     "servingNote": "餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。",
-    "catalogOrigin": "maintained-definition"
+    "catalogOrigin": "maintained-definition",
+    "photoFile": "Mauritian Gato piment.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mauritian_Gato_piment.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-mauritian-boulettes",
@@ -16492,7 +16693,7 @@
     "sourceScope": "regional-food-context",
     "catalogOrigin": "maintained-definition",
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Pacific Northwest oysters Seattle food",
     "whereByCity": {
       "seattle": [
@@ -16504,7 +16705,11 @@
         }
       ]
     },
-    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。",
+    "photoFile": "Kumamoto Oyster Taylor Shellfish Farms.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Kumamoto_Oyster_Taylor_Shellfish_Farms.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-seattle-coffee",
@@ -16886,7 +17091,7 @@
     "sourceScope": "regional-food-context",
     "catalogOrigin": "maintained-definition",
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Marionberry pie Portland, Oregon food",
     "whereByCity": {
       "portland": [
@@ -16898,7 +17103,11 @@
         }
       ]
     },
-    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。",
+    "photoFile": "Marionberry Pie.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Marionberry_Pie.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-portland-coffee",
@@ -17068,7 +17277,7 @@
     "sourceScope": "regional-food-context",
     "catalogOrigin": "maintained-definition",
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Castroville artichokes Monterey, California food",
     "whereByCity": {
       "monterey": [
@@ -17080,7 +17289,11 @@
         }
       ]
     },
-    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。",
+    "photoFile": "Fried Artichoke Hearts.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_Artichoke_Hearts.JPG",
+    "photoSourceLicense": "Public domain",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-monterey-fish-chips",
@@ -17393,7 +17606,7 @@
     "sourceScope": "regional-food-context",
     "catalogOrigin": "maintained-definition",
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Alaska crab legs Anchorage, Alaska food",
     "whereByCity": {
       "anchorage": [
@@ -17405,7 +17618,11 @@
         }
       ]
     },
-    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。",
+    "photoFile": "Alaskan King Crab Legs (3241225745).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Alaskan_King_Crab_Legs_(3241225745).jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-anchorage-pancakes",
@@ -17516,7 +17733,7 @@
     "catalogOrigin": "maintained-us-expansion",
     "articleScope": "dish",
     "imageQuery": "Mambo / Mumbo sauce food Washington, D.C.",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "whereByCity": {
       "washington-dc": [
         {
@@ -17529,7 +17746,11 @@
       ]
     },
     "servingNote": "特色食物用于选择当地餐饮，费用可纳入每日餐饮预算；未发布未经核验的单品售价，份量、税费和小费请看实际菜单。",
-    "photoNote": "照片若为酱料，展示的是Mambo酱本身，不是具体餐厅的炸鸡成品。"
+    "photoNote": "照片若为酱料，展示的是Mambo酱本身，不是具体餐厅的炸鸡成品。",
+    "photoFile": "Chicken wings and mumbo sauce.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_wings_and_mumbo_sauce.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-washington-dc-jumbo-slice",
@@ -17796,7 +18017,7 @@
     "catalogOrigin": "maintained-us-expansion",
     "articleScope": "dish",
     "imageQuery": "Roast pork sandwich food Philadelphia",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "whereByCity": {
       "philadelphia": [
         {
@@ -17809,7 +18030,11 @@
       ]
     },
     "servingNote": "特色食物用于选择当地餐饮，费用可纳入每日餐饮预算；未发布未经核验的单品售价，份量、税费和小费请看实际菜单。",
-    "photoNote": "尚无核准的本菜品实拍时使用饮食插画，不以外观不同的其他地方菜替代。"
+    "photoNote": "尚无核准的本菜品实拍时使用饮食插画，不以外观不同的其他地方菜替代。",
+    "photoFile": "Philly Roast Pork.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Philly_Roast_Pork.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-philadelphia-hoagie",
@@ -18110,7 +18335,7 @@
     "catalogOrigin": "maintained-us-expansion",
     "articleScope": "food-family",
     "imageQuery": "Lemon pepper wings food Atlanta",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "whereByCity": {
       "atlanta": [
         {
@@ -18123,7 +18348,11 @@
       ]
     },
     "servingNote": "特色食物用于选择当地餐饮，费用可纳入每日餐饮预算；未发布未经核验的单品售价，份量、税费和小费请看实际菜单。",
-    "photoNote": "无合适鸡翅照片时使用饮食插画，不能用纯柠檬胡椒调料照片代表成菜。"
+    "photoNote": "无合适鸡翅照片时使用饮食插画，不能用纯柠檬胡椒调料照片代表成菜。",
+    "photoFile": "Lemon Pepper Chicken Wings.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_Pepper_Chicken_Wings.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-atlanta-pimento-cheese",
@@ -18642,7 +18871,7 @@
     "catalogOrigin": "maintained-us-expansion",
     "articleScope": "dish",
     "imageQuery": "Stone crab claws food Miami",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "whereByCity": {
       "miami": [
         {
@@ -18655,7 +18884,11 @@
       ]
     },
     "servingNote": "特色食物用于选择当地餐饮，费用可纳入每日餐饮预算；未发布未经核验的单品售价，份量、税费和小费请看实际菜单。",
-    "photoNote": "需熟食蟹钳照片；不可用活体石蟹物种图片冒充餐盘。"
+    "photoNote": "需熟食蟹钳照片；不可用活体石蟹物种图片冒充餐盘。",
+    "photoFile": "JoesStoneCrabs.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:JoesStoneCrabs.JPG",
+    "photoSourceLicense": "Public domain",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-miami-pastelitos",
@@ -19209,7 +19442,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "food-family",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "imageQuery": "Texas smoked brisket food",
     "whereByCity": {
       "austin": [
@@ -19228,7 +19461,11 @@
       ]
     },
     "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
-    "photoNote": "图片展示德州烧烤拼盘，非奥斯汀指定餐厅的实际出品，牛胸肉和配菜按店家菜单选择。"
+    "photoNote": "图片展示德州烧烤拼盘，非奥斯汀指定餐厅的实际出品，牛胸肉和配菜按店家菜单选择。",
+    "photoFile": "Texas-style Brisket -smokering (15720631008).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Texas-style_Brisket_-smokering_(15720631008).jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-austin-breakfast-taco",
@@ -19317,7 +19554,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "none",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Tex-Mex migas food",
     "whereByCity": {
       "austin": [
@@ -19335,7 +19572,11 @@
         }
       ]
     },
-    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Migas.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Migas.jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-austin-kolache",
@@ -19352,7 +19593,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "none",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Kolache food",
     "whereByCity": {
       "austin": [
@@ -19365,7 +19606,11 @@
         }
       ]
     },
-    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Texas kolache cream cheese little czech.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Texas_kolache_cream_cheese_little_czech.jpg",
+    "photoSourceLicense": "CC BY 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-san-antonio-puffy-taco",
@@ -19600,7 +19845,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "none",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Denver omelet food",
     "whereByCity": {
       "denver": [
@@ -19618,7 +19863,11 @@
         }
       ]
     },
-    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Denver Omelette.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Denver_Omelette.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-denver-bison",
@@ -19635,7 +19884,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "none",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Bison burger / bison entrée food",
     "whereByCity": {
       "denver": [
@@ -19653,7 +19902,11 @@
         }
       ]
     },
-    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Washoe House - Stierch - June 2019 01.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Washoe_House_-_Stierch_-_June_2019_01.jpg",
+    "photoSourceLicense": "CC BY 4.0",
+    "photoMatchNote": "美洲野牛汉堡实拍，摄于加州；用于认识菜式，不代表丹佛某家餐馆的出品。"
   },
   {
     "id": "food-us-denver-mountain-oysters",
@@ -19734,7 +19987,7 @@
     "sourceScope": "regional-food-reference",
     "catalogOrigin": "maintained-definition",
     "articleScope": "none",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Pastrami burger food",
     "whereByCity": {
       "salt-lake-city": [
@@ -19752,7 +20005,11 @@
         }
       ]
     },
-    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Crown Burger combo meal.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Crown_Burger_combo_meal.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-us-salt-lake-city-fry-sauce",
@@ -20245,7 +20502,7 @@
     "sourceScope": "regional-food-context",
     "catalogOrigin": "maintained-definition",
     "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Shime parfait Sapporo food",
     "whereByCity": {
       "sapporo": [
@@ -20256,7 +20513,13 @@
           "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Chocolate Parfait 20230717.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chocolate_Parfait_20230717.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "图为日式巧克力芭菲成品；夜间收尾是餐后食用方式，图片不代表札幌某家店的限定菜单。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "日式巧克力芭菲示例，餐后甜品的一种选择。"
   },
   {
     "id": "food-asia-fukuoka-tonkotsu",
@@ -20983,7 +21246,7 @@
     "sourceScope": "regional-food-background-archived-guide",
     "catalogOrigin": "maintained-definition",
     "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Busan eomuk Busan food",
     "whereByCity": {
       "busan": [
@@ -20994,7 +21257,13 @@
           "note": "以此片区作为找店起点；旧版指南仅支持当地饮食背景，地图检索不承诺店家当日供应或菜单已核验。"
         }
       ]
-    }
+    },
+    "photoFile": "Eomuk.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Eomuk.jpg",
+    "photoSourceLicense": "CC BY 4.0",
+    "photoMatchNote": "文件说明为多种韩式鱼糕成品，许可已由Commons复核；呈现食物种类，不代表釜山某家门店或特定套餐。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为多种韩式鱼糕，形状与搭配随店家变化。"
   },
   {
     "id": "food-asia-busan-ssiat",
@@ -21472,7 +21741,7 @@
     "description": "皮香肉嫩的乳鸽可按只点，适合搭配蔬菜与主食；光明距中心较远，也可先查市区粤菜馆菜单。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "光明乳鸽 光明红烧乳鸽 prepared food",
     "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
     "sourceCheckedAt": "2026-09-23",
@@ -21498,7 +21767,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Chinese squab.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_squab.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "图为中式乳鸽成品，呈现该类菜式外观；不声称拍摄于深圳光明某家店铺。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "中式乳鸽成品示例，摆盘与配菜因店而异。"
   },
   {
     "id": "food-china2-shenzhen-oyster",
@@ -21510,7 +21785,7 @@
     "description": "以蚝入菜的地方风味，可选熟制的煎、焗或炸法；按只、份还是重量计价先询问。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "沙井蚝风味 沙井蚝 prepared food",
     "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
     "sourceCheckedAt": "2026-09-23",
@@ -21536,7 +21811,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "SZ 深圳 Shenzhen 福田 Futian 皇庭廣場 Wongtee Plaza 商場 Mall shop 盒馬鮮生 Freshippo Supermarket January 2024 R12S steamed oyster.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E7%A6%8F%E7%94%B0_Futian_%E7%9A%87%E5%BA%AD%E5%BB%A3%E5%A0%B4_Wongtee_Plaza_%E5%95%86%E5%A0%B4_Mall_shop_%E7%9B%92%E9%A6%AC%E9%AE%AE%E7%94%9F_Freshippo_Supermarket_January_2024_R12S_steamed_oyster.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "图为深圳蒸蚝成品，用作本地蚝风味的一种吃法；不声称蚝的养殖产区已核验为沙井。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中展示蒸蚝的一种吃法。"
   },
   {
     "id": "food-china2-shenzhen-urchin-rice",
@@ -21548,7 +21829,7 @@
     "description": "海胆与米饭同炒的海滨风味，味道与份量随店家变化；可与东部海滨行程配一餐。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "南澳海胆炒饭 南澳海胆炒饭 prepared food",
     "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
     "sourceCheckedAt": "2026-09-23",
@@ -21574,7 +21855,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Fried rice with sea urchin 1.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_rice_with_sea_urchin_1.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "图为深圳大鹏南澳镇海港路餐馆供应的海胆炒饭成品；文件明确菜名与当地拍摄地址，非海胆寿司或生海胆盖饭。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "拍摄于深圳南澳餐馆的海胆炒饭。"
   },
   {
     "id": "food-china2-shenzhen-poon-choi",
@@ -21700,7 +21987,7 @@
     "description": "糯米团在糖油中煎成柔糯小点，适合几人分食；刚出锅较烫，小份即可感受甜香。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "糖油粑粑 糖油粑粑 · Tángyóu bāba prepared food",
     "sourceUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/Dining/201610/t20161017_3361107.html",
     "sourceCheckedAt": "2026-09-23",
@@ -21726,7 +22013,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "糖油粑粑.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%B3%96%E6%B2%B9%E7%B2%91%E7%B2%91.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件说明明确为长沙糖油粑粑成品；携程南门口金记店公开介绍交叉确认名称和食物外观类型，未转载平台用户照片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为长沙糖油粑粑。"
   },
   {
     "id": "food-china2-changsha-rice-noodles",
@@ -21738,7 +22031,7 @@
     "description": "扁粉或圆粉配汤与浇头，清早吃一碗更贴近日常；肉丝、牛肉与酸菜等以门店菜单为准。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "长沙米粉 长沙米粉 · Chángshā mǐfěn prepared food",
     "sourceUrl": "https://eastmoment.com/chinese-food/changsha-food/",
     "sourceCheckedAt": "2026-09-23",
@@ -21764,7 +22057,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "长沙米粉.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%95%BF%E6%B2%99%E7%B1%B3%E7%B2%89.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "文件说明明确为湖南长沙米粉成品；未使用检索结果中的米粉街门面照片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为长沙米粉的一种搭配。"
   },
   {
     "id": "food-china2-changsha-chili-pork",
@@ -22024,7 +22323,7 @@
     "description": "蒜蓉、油焖等口味适合朋友合吃，按斤或份计价需看清；供应与鲜活季节有关。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "武汉小龙虾 小龙虾 · Xiǎolóngxiā prepared food",
     "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
     "sourceCheckedAt": "2026-09-23",
@@ -22050,7 +22349,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Spicy crayfish.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Spicy_crayfish.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "图为麻辣小龙虾成品；不采用冷冻原料或小龙虾口味辣条图片。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中展示麻辣小龙虾的常见吃法。"
   },
   {
     "id": "food-china2-harbin-guobaorou",
@@ -22186,7 +22491,7 @@
     "description": "带发酵面包香的饮品，在哈尔滨有日常饮用传统；不同产品含糖和酒精情况看瓶身标示。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "格瓦斯 格瓦斯 · Kvass prepared food",
     "sourceUrl": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
     "sourceCheckedAt": "2026-09-23",
@@ -22212,7 +22517,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Qiulin kvas.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Qiulin_kvas.jpg",
+    "photoSourceLicense": "CC0",
+    "photoMatchNote": "文件名与说明明确为秋林格瓦斯饮品；不采用街头商贩或俄罗斯场景替代。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为瓶装秋林格瓦斯，包装以购买时为准。"
   },
   {
     "id": "food-china2-harbin-fried-cake",
@@ -22262,7 +22573,7 @@
     "description": "黄面与驴肉相配是当地常见面食组合，面和肉可能分开计价；先问小份及配菜。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "敦煌驴肉黄面 驴肉黄面 · Lǘròu huángmiàn prepared food",
     "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
     "sourceCheckedAt": "2026-09-23",
@@ -22288,7 +22599,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Lürou Huangmian at Daji Jianglürou Huangmian Guan, Dunhuang (20230917193656).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%BCrou_Huangmian_at_Daji_Jiangl%C3%BCrou_Huangmian_Guan,_Dunhuang_(20230917193656).jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "图为敦煌达记酱驴肉黄面馆的驴肉与黄面成品，文件说明明确菜名、当地店名和食用方式。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "拍摄于敦煌餐馆的驴肉黄面。"
   },
   {
     "id": "food-china2-dunhuang-niangpi",
@@ -22300,7 +22617,7 @@
     "description": "蒸制面皮切条拌调味汁，口感筋道，适合炎热白天的小食；蒜汁辣油可按偏好调整。",
     "article": null,
     "articleScope": "food-photo-pending",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "敦煌酿皮 酿皮 · Niàngpí prepared food",
     "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
     "sourceCheckedAt": "2026-09-23",
@@ -22326,7 +22643,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "5658-Linxia-City-niang-pi.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:5658-Linxia-City-niang-pi.jpg",
+    "photoSourceLicense": "CC BY-SA 3.0",
+    "photoMatchNote": "图为甘肃临夏酿皮成品，呈现同类甘肃小吃的做法；不代表敦煌某家摊位。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "图中为甘肃临夏酿皮，呈现同类甘肃小吃的外观。"
   },
   {
     "id": "food-china2-dunhuang-apricot-water",
@@ -22647,7 +22970,7 @@
     "description": "酥脆拧花小食有甜咸等不同口味，适合逛街少量品尝；袋装重量和保质期看清后再买。",
     "article": "Mahua (snack)",
     "articleScope": "dish",
-    "photoStatus": "pending-download",
+    "photoStatus": "photo-selected",
     "imageQuery": "磁器口麻花 陈麻花 · Máhuā prepared food",
     "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html",
     "sourceCheckedAt": "2026-09-23",
@@ -22673,7 +22996,13 @@
         }
       ]
     },
-    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Mahua 麻花.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Mahua_%E9%BA%BB%E8%8A%B1.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "图为麻花成品，呈现这种小吃的拧花外观；不代表陈麻花品牌或磁器口某家店铺的实物。",
+    "photoCheckedAt": "2026-09-23",
+    "imageContextNote": "麻花小吃外观示例，图片不代表特定品牌。"
   },
   {
     "id": "food-china2-chongqing-qianzhang",
@@ -23141,7 +23470,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Tarte à la praline lyon food",
     "whereByCity": {
       "lyon": [
@@ -23152,7 +23481,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Lyon-Tartelette aux pralines 02.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lyon-Tartelette_aux_pralines_02.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-lyon-saucisson-brioche",
@@ -23454,7 +23787,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Chichi frégi marseille food",
     "whereByCity": {
       "marseille": [
@@ -23465,7 +23798,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Chichi fregi à une fête foraine.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chichi_fregi_%C3%A0_une_f%C3%AAte_foraine.jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-seville-spinach-chickpeas",
@@ -23492,7 +23829,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Espinacas con garbanzos seville food",
     "whereByCity": {
       "seville": [
@@ -23503,7 +23840,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Garbanzos y espinacas.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Garbanzos_y_espinacas.jpg",
+    "photoSourceLicense": "CC BY-SA 3.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-seville-pringa",
@@ -23668,7 +24009,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Carrillada seville food",
     "whereByCity": {
       "seville": [
@@ -23679,7 +24020,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Carrillada Ibérica Sevilla.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Carrillada_Ib%C3%A9rica_Sevilla.jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-granada-remojon",
@@ -23790,7 +24135,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Olla de San Antón granada food",
     "whereByCity": {
       "granada": [
@@ -23801,7 +24146,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Olla de San Antón.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Olla_de_San_Ant%C3%B3n.jpg",
+    "photoSourceLicense": "CC BY-SA 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-granada-habas",
@@ -24050,7 +24399,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Arroz de polvo porto food",
     "whereByCity": {
       "porto": [
@@ -24061,7 +24410,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Arroz de Polvo.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_de_Polvo.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-porto-bifana",
@@ -24226,7 +24579,7 @@
       }
     ],
     "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票；单份、套餐、时价、过敏原和实际供应请向店家确认。",
-    "photoStatus": "needs-food-photo",
+    "photoStatus": "photo-selected",
     "imageQuery": "Botifarra amb mongetes barcelona food",
     "whereByCity": {
       "barcelona": [
@@ -24237,7 +24590,11 @@
           "note": "以这些片区为查找起点；地图链接是餐饮检索，不保证任一店家当天供应或已核验菜单。"
         }
       ]
-    }
+    },
+    "photoFile": "Botifarra amb seques.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Botifarra_amb_seques.JPG",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoMatchNote": "菜品实拍；不同店家的配料与摆盘会有差异。"
   },
   {
     "id": "food-euro-barcelona-mel-mato",

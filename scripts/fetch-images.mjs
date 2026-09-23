@@ -374,7 +374,7 @@ async function metadata(file, width) {
   if (!record) throw new Error(`Commons metadata missing: ${file}`);
   if (/framing symbol|locator map|\bmap of\b|coat of arms|(?:official |national )?(?:flag|logo) of|floor plan/i.test(plain(record.extmetadata?.ImageDescription?.value))) throw new Error(`Image metadata describes a symbol or map: ${file}`);
   const license = plain(record.extmetadata?.LicenseShortName?.value);
-  if (!/^(?:CC BY(?:-SA)? (?:1\.0|2\.[05]|3\.0|4\.0)(?: [a-z]{2}(?:-[a-z]+)?)?|CC0|Public domain)$/i.test(license)) throw new Error(`License requires manual review: ${license || 'missing'}`);
+  if (!/^(?:CC BY(?:-SA)? (?:1\.0|2\.[015]|3\.0|4\.0)(?: [a-z]{2}(?:-[a-z]+)?)?|CC0|Public domain|FAL|Free Art License)$/i.test(license)) throw new Error(`License requires manual review: ${license || 'missing'}`);
   return record;
 }
 
@@ -419,7 +419,7 @@ const excludedPhotos=new Set();
 try {
   const foods = JSON.parse(await readFile(path.join(ROOT, 'data', 'local-foods.json'), 'utf8'));
   for (const food of foods) {
-    if (food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' || (!food.article && !food.photoFile)) {
+    if (!food.photoFile && (food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' || !food.article)) {
       excludedPhotos.add(food.id);
       continue;
     }
@@ -549,7 +549,7 @@ async function refresh(job) {
       credit: job.credit || plain(extra.Attribution?.value || extra.Artist?.value) || 'See Wikimedia Commons source page',
       sourceUrl: info.descriptionurl,
       license: plain(extra.LicenseShortName?.value),
-      licenseUrl: extra.LicenseUrl?.value || 'https://commons.wikimedia.org/wiki/Commons:Copyright_tags',
+      licenseUrl: extra.LicenseUrl?.value || (['FAL', 'Free Art License'].includes(plain(extra.LicenseShortName?.value)) ? 'https://artlibre.org/licence/lal/en/' : 'https://commons.wikimedia.org/wiki/Commons:Copyright_tags'),
       fileTitle: file,
       description: plain(extra.ImageDescription?.value),
       capturedAt: plain(extra.DateTimeOriginal?.value),

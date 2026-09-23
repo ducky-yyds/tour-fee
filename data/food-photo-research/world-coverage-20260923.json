@@ -1,0 +1,490 @@
+{
+  "checkedAt": "2026-09-23",
+  "scope": "原始63项非亚洲地区缺少菜品专属照片的食物",
+  "method": "检索Commons、Wikipedia关联图、Flickr公开CC搜索及当地旅游/食谱来源；不以无明确许可的旅行平台用户图片替代。实拍主体不符者弃用。找不到合适实拍时按核对过的做法用内置imagegen逐道绘制专属水彩，明确标示AI菜品示意。",
+  "counts": {
+    "dedicated-ai-illustration": 23,
+    "licensed-commons-photo": 38,
+    "licensed-flickr-photo": 2
+  },
+  "foods": [
+    {
+      "id": "food-codfish-cakes",
+      "name": "葡式鳕鱼饼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bacalhau_~_Salt_Cod_Fritters.jpg"
+    },
+    {
+      "id": "food-norwegian-waffle",
+      "name": "挪威华夫饼与棕奶酪",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "检索到的自由图片只有原味华夫饼或单独棕奶酪，未找到可确认同时呈现两者的照片。",
+      "asset": "/images/art-food-norwegian-waffle-20260923.webp",
+      "recipeReferences": [
+        "https://www.visitnorway.com/things-to-do/food-and-drink/wafflecation/"
+      ],
+      "promptPack": "data/food-art-expansion/food-norwegian-waffle.json"
+    },
+    {
+      "id": "food-zurek",
+      "name": "波兰酸麦汤",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zurek_Sour_Rye_Soup,_Warsaw.jpg"
+    },
+    {
+      "id": "food-gozo-ftira",
+      "name": "戈佐烤饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Commons 的 ftira 图多为马耳他夹馅面包；未确认戈佐土豆配料烤饼的可复用图。",
+      "asset": "/images/art-food-gozo-ftira-20260923.webp",
+      "recipeReferences": [
+        "https://www.bestfoodonmalta.com/recipes/12-ftira-ghawdxija"
+      ],
+      "promptPack": "data/food-art-expansion/food-gozo-ftira.json"
+    },
+    {
+      "id": "food-icelandic-lamb-soup",
+      "name": "冰岛羊肉汤",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kj%C3%B6ts%C3%BApa.JPG"
+    },
+    {
+      "id": "food-coconut-fish-curry",
+      "name": "印度洋椰香咖喱鱼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Marmite_Mauricienne_(Flic-en-Flac)_-_curry_de_poisson_(1).jpg"
+    },
+    {
+      "id": "food-dholl-puri",
+      "name": "毛里求斯豆馅薄饼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mauritian_Dholl_puri_taken_by_Steph_Chalon.jpg"
+    },
+    {
+      "id": "food-octopus-salad",
+      "name": "塞舌尔章鱼沙拉",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "可复用章鱼沙拉候选多为地中海或亚洲做法，未确认塞舌尔克里奥尔配方与主体。",
+      "asset": "/images/art-food-octopus-salad-20260923.webp",
+      "recipeReferences": [
+        "https://seychelles.com/blog-details/15596/highlights/guide-seychelles-most-common-authentic-creole-recipes"
+      ],
+      "promptPack": "data/food-art-expansion/food-octopus-salad.json"
+    },
+    {
+      "id": "food-boulette",
+      "name": "柏林肉饼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:240612_Buletten_mit_Bratkartoffeln_Restaurant_St%C3%A4ndige_Vertretung_Berlin_anagoria.jpg"
+    },
+    {
+      "id": "food-sporki-makaruli",
+      "name": "杜布罗夫尼克肉汁通心粉",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "用本地名和英文名检索 Commons、Wikipedia、Flickr，未找到明确呈现此道肉汁通心粉的可复用图片。",
+      "asset": "/images/art-food-sporki-makaruli-20260923.webp",
+      "recipeReferences": [
+        "https://www.dubrovnik.com/URL_PATHindex.php/discover/domestic-recipes/468-sporki-makaruli-or-dirty-macaroni"
+      ],
+      "promptPack": "data/food-art-expansion/food-sporki-makaruli.json"
+    },
+    {
+      "id": "food-arancini-citrus",
+      "name": "达尔马提亚糖渍橙皮",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Candied_Orange_Peel,_Sliced_(4175935076).jpg"
+    },
+    {
+      "id": "food-buzara",
+      "name": "科托尔湾蒜香葡萄酒贻贝",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mu%C5%A1ule_na_buzaru_-_Konoba_Kolona_(14716917187).jpg"
+    },
+    {
+      "id": "food-plokkfiskur",
+      "name": "冰岛鱼肉土豆烩",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plokkfiskur.jpg"
+    },
+    {
+      "id": "food-norwegian-fish-cakes",
+      "name": "挪威鱼饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "候选包含档案包装、拼盘和其他国家鱼饼，未找到主体清晰且身份可靠的挪威 fiskekaker。",
+      "asset": "/images/art-food-norwegian-fish-cakes-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-norwegian-fish-cakes.json"
+    },
+    {
+      "id": "food-bilberry-pie",
+      "name": "芬兰越橘派",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustikkapiirakka_2,_kyps%C3%A4_C_IMG_7763.jpg"
+    },
+    {
+      "id": "food-naxos-patoudo",
+      "name": "纳克索斯馅烤羊肉",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "当地做法可由纳克索斯官网核对，但未找到开放许可的成品图片。",
+      "asset": "/images/art-food-naxos-patoudo-20260923.webp",
+      "recipeReferences": [
+        "https://www.naxos.gr/danakos-patoudo/?lang=en"
+      ],
+      "promptPack": "data/food-art-expansion/food-naxos-patoudo.json"
+    },
+    {
+      "id": "food-pastizzi",
+      "name": "马耳他酥皮馅角",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastizzi_(185043231).jpeg"
+    },
+    {
+      "id": "food-koupes",
+      "name": "塞浦路斯麦粒肉馅炸饼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koupes_%C3%A0_Limassol.jpg"
+    },
+    {
+      "id": "food-passion-fruit-pudding",
+      "name": "马德拉百香果布丁",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "可确认马德拉冷凝奶油版本食谱，但开放图库候选未可靠区分百香果布丁、蛋糕与其他甜点。",
+      "asset": "/images/art-food-passion-fruit-pudding-20260923.webp",
+      "recipeReferences": [
+        "https://frommadeiratomars.com/madeiran-passion-fruit-pudding/"
+      ],
+      "promptPack": "data/food-art-expansion/food-passion-fruit-pudding.json"
+    },
+    {
+      "id": "food-bolo-levedo",
+      "name": "亚速尔甜面包饼",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bololevedo.jpg"
+    },
+    {
+      "id": "food-australian-meat-pie",
+      "name": "澳洲肉派",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aussie_meat_pie_(cropped).jpg"
+    },
+    {
+      "id": "food-sydney-rock-oysters",
+      "name": "悉尼岩蚝",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_rock_oyster_on_half_shell_with_two_empty_shells.jpg"
+    },
+    {
+      "id": "food-zanzibar-pizza",
+      "name": "桑给巴尔包馅煎饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Flickr CC 候选经目视是摊位与厨师，煎饼过小，不适合作为菜品卡片。",
+      "asset": "/images/art-food-zanzibar-pizza-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-zanzibar-pizza.json"
+    },
+    {
+      "id": "food-urojo",
+      "name": "桑给巴尔酸辣混合汤",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urojo_Zanzibar_112018.jpg"
+    },
+    {
+      "id": "food-ladob",
+      "name": "塞舌尔椰奶甜煮蕉薯",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "当地食谱与旅游资料可核对做法，未发现明确开放许可且主体清晰的成品图。",
+      "asset": "/images/art-food-ladob-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-ladob.json"
+    },
+    {
+      "id": "food-roast-breadfruit",
+      "name": "塞舌尔烤面包果",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "可复用候选多为树木、生果或烘烤现场，未找到清楚呈现熟果肉的成品照片。",
+      "asset": "/images/art-food-roast-breadfruit-20260923.webp",
+      "recipeReferences": [
+        "https://seychellesculturalfoundation.com/seychellescuisine/dishes/popup?id=156"
+      ],
+      "promptPack": "data/food-art-expansion/food-roast-breadfruit.json"
+    },
+    {
+      "id": "food-kat-kat-banann",
+      "name": "塞舌尔青香蕉炖鱼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "食谱可确认青香蕉鱼肉泥做法，未找到明确开放许可的成品图片。",
+      "asset": "/images/art-food-kat-kat-banann-20260923.webp",
+      "recipeReferences": [
+        "https://www.thecreolemeltingpot.com/trevally-katkat-with-green-plantain-katkat-karang/"
+      ],
+      "promptPack": "data/food-art-expansion/food-kat-kat-banann.json"
+    },
+    {
+      "id": "food-gateaux-piments",
+      "name": "毛里求斯辣豆丸",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mauritian_Gato_piment.jpg"
+    },
+    {
+      "id": "food-mauritian-boulettes",
+      "name": "毛里求斯汤丸",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "已检索 boulettes、niouk yen 及本地变体；准确食谱页无明确可复用照片许可。",
+      "asset": "/images/art-food-mauritian-boulettes-20260923.webp",
+      "recipeReferences": [
+        "https://www.mauritianstreetfood.com/boulette-chouchou/"
+      ],
+      "promptPack": "data/food-art-expansion/food-mauritian-boulettes.json"
+    },
+    {
+      "id": "food-alouda",
+      "name": "毛里求斯奶香甜饮",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "多语言查询未找到许可明确且呈现罗勒籽琼脂奶饮的成品图。",
+      "asset": "/images/art-food-alouda-20260923.webp",
+      "recipeReferences": [
+        "https://www.cuizinemaurice.com/2014/05/alouda-en/"
+      ],
+      "promptPack": "data/food-art-expansion/food-alouda.json"
+    },
+    {
+      "id": "food-salmon-candy",
+      "name": "卑诗甜熏三文鱼",
+      "disposition": "licensed-flickr-photo",
+      "sourceUrl": "https://www.flickr.com/photos/194978137@N04/52209006705/"
+    },
+    {
+      "id": "food-cusco-adobo",
+      "name": "库斯科炖猪肉",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "开放图库多为阿雷基帕或菲律宾 adobo，未确认库斯科版本。",
+      "asset": "/images/art-food-cusco-adobo-20260923.webp",
+      "recipeReferences": [
+        "https://www.apega.pe/receta-de-adobo-cusqueno/",
+        "https://chicha.com.pe/wp-content/uploads/2026/05/Carta_Comida_ChichaCusco.pdf"
+      ],
+      "promptPack": "data/food-art-expansion/food-cusco-adobo.json"
+    },
+    {
+      "id": "food-bolovo-bacalhau",
+      "name": "里约鳕鱼裹蛋炸丸",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "可复用 bolovo 多为肉馅；鳕鱼裹蛋版本的公开食谱照片未明确开放许可。",
+      "asset": "/images/art-food-bolovo-bacalhau-20260923.webp",
+      "recipeReferences": [
+        "https://receitas.globo.com/receitas-da-tv/tempero-de-familia/bolovo-de-bacalhau.ghtml"
+      ],
+      "promptPack": "data/food-art-expansion/food-bolovo-bacalhau.json"
+    },
+    {
+      "id": "food-us-seattle-oysters",
+      "name": "西北海岸生蚝",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumamoto_Oyster_Taylor_Shellfish_Farms.jpg"
+    },
+    {
+      "id": "food-us-portland-marionberry",
+      "name": "俄勒冈莓果派",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marionberry_Pie.jpg"
+    },
+    {
+      "id": "food-us-monterey-artichoke",
+      "name": "卡斯特罗维尔风味洋蓟",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fried_Artichoke_Hearts.JPG"
+    },
+    {
+      "id": "food-us-anchorage-reindeer",
+      "name": "驯鹿香肠热狗",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Flickr reindeer sausage 候选经目视主要为店牌，其他候选为香肠早餐或摊位，并非热狗主体。",
+      "asset": "/images/art-food-us-anchorage-reindeer-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-us-anchorage-reindeer.json"
+    },
+    {
+      "id": "food-us-anchorage-crab",
+      "name": "阿拉斯加蟹腿",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alaskan_King_Crab_Legs_(3241225745).jpg"
+    },
+    {
+      "id": "food-us-washington-dc-mambo",
+      "name": "Mambo风味蘸酱",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_wings_and_mumbo_sauce.jpg"
+    },
+    {
+      "id": "food-us-philadelphia-roast-pork",
+      "name": "意式烤猪肉三明治",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philly_Roast_Pork.jpg"
+    },
+    {
+      "id": "food-us-atlanta-lemon-wings",
+      "name": "柠檬胡椒鸡翅",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_Pepper_Chicken_Wings.jpg"
+    },
+    {
+      "id": "food-us-charleston-benne",
+      "name": "Benne芝麻薄饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Flickr CC 候选为制作步骤，作者明确未拍成品；其他精确成品图未明确开放许可。",
+      "asset": "/images/art-food-us-charleston-benne-20260923.webp",
+      "recipeReferences": [
+        "https://www.kingarthurbaking.com/recipes/benne-wafers-recipe"
+      ],
+      "promptPack": "data/food-art-expansion/food-us-charleston-benne.json"
+    },
+    {
+      "id": "food-us-miami-stone-crab",
+      "name": "佛罗里达石蟹钳",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JoesStoneCrabs.JPG"
+    },
+    {
+      "id": "food-us-austin-brisket",
+      "name": "德州烟熏牛胸肉",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Texas-style_Brisket_-smokering_(15720631008).jpg"
+    },
+    {
+      "id": "food-us-austin-migas",
+      "name": "脆玉米片炒蛋",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Migas.jpg"
+    },
+    {
+      "id": "food-us-austin-kolache",
+      "name": "捷克裔德州果馅面包",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Texas_kolache_cream_cheese_little_czech.jpg"
+    },
+    {
+      "id": "food-us-denver-green-chile",
+      "name": "绿辣椒炖酱",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "科罗拉多 Flickr CC 候选虽文字说明绿辣椒酱，但图中主食被生菜奶酪等遮盖，无法认识酱与肉的形态。",
+      "asset": "/images/art-food-us-denver-green-chile-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-us-denver-green-chile.json"
+    },
+    {
+      "id": "food-us-denver-omelet",
+      "name": "丹佛煎蛋卷",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Denver_Omelette.jpg"
+    },
+    {
+      "id": "food-us-denver-bison",
+      "name": "美洲野牛肉料理",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washoe_House_-_Stierch_-_June_2019_01.jpg"
+    },
+    {
+      "id": "food-us-salt-lake-city-pastrami-burger",
+      "name": "烟熏牛肉汉堡",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crown_Burger_combo_meal.jpg"
+    },
+    {
+      "id": "food-us-salt-lake-city-utah-scone",
+      "name": "犹他蜂蜜黄油炸面饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Flickr CC 候选经目视是店牌；其他 scone 搜索多为英式烤饼或无关音乐人。",
+      "asset": "/images/art-food-us-salt-lake-city-utah-scone-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-us-salt-lake-city-utah-scone.json"
+    },
+    {
+      "id": "food-us-flagstaff-mexican-chocolate",
+      "name": "墨西哥巧克力甜点",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "公开候选未能确认香料巧克力慕斯配方及对应成品，避免以其他酒店的未知甜点替代。",
+      "asset": "/images/art-food-us-flagstaff-mexican-chocolate-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-us-flagstaff-mexican-chocolate.json"
+    },
+    {
+      "id": "food-us-flagstaff-craft-beer",
+      "name": "高原精酿啤酒",
+      "disposition": "licensed-flickr-photo",
+      "sourceUrl": "https://www.flickr.com/photos/aneil4lom/52691819848/"
+    },
+    {
+      "id": "food-euro-lyon-praline-tart",
+      "name": "粉红糖杏仁塔",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyon-Tartelette_aux_pralines_02.jpg"
+    },
+    {
+      "id": "food-euro-marseille-pizza",
+      "name": "马赛披萨与街头烤炉",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "Flickr CC 马赛照片以游客和餐桌为主体，披萨占比过小，无法作为菜品卡片。",
+      "asset": "/images/art-food-euro-marseille-pizza-20260923.webp",
+      "recipeReferences": [],
+      "promptPack": "data/food-art-expansion/food-euro-marseille-pizza.json"
+    },
+    {
+      "id": "food-euro-marseille-chichi",
+      "name": "埃斯塔克长条炸甜点",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chichi_fregi_%C3%A0_une_f%C3%AAte_foraine.jpg"
+    },
+    {
+      "id": "food-euro-seville-spinach-chickpeas",
+      "name": "鹰嘴豆炖菠菜",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garbanzos_y_espinacas.jpg"
+    },
+    {
+      "id": "food-euro-seville-carrillada",
+      "name": "慢炖猪颊肉",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrillada_Ib%C3%A9rica_Sevilla.jpg"
+    },
+    {
+      "id": "food-euro-granada-sacromonte-omelette",
+      "name": "萨克罗蒙特煎蛋饼",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "旅游局食谱可核对地方蛋饼做法，但未找到身份明确且许可开放的成品图。",
+      "asset": "/images/art-food-euro-granada-sacromonte-omelette-20260923.webp",
+      "recipeReferences": [
+        "https://guiagastronomica.saborgranada.es/en/sacromonte-tortilla/"
+      ],
+      "promptPack": "data/food-art-expansion/food-euro-granada-sacromonte-omelette.json"
+    },
+    {
+      "id": "food-euro-granada-san-anton",
+      "name": "圣安东豆类炖锅",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olla_de_San_Ant%C3%B3n.jpg"
+    },
+    {
+      "id": "food-euro-granada-habas",
+      "name": "蚕豆配咸面包",
+      "disposition": "dedicated-ai-illustration",
+      "reason": "图库候选多为熟蚕豆火腿菜，不是格拉纳达生嫩蚕豆搭 salailla 盐饼。",
+      "asset": "/images/art-food-euro-granada-habas-20260923.webp",
+      "recipeReferences": [
+        "https://turismo.granada.org/en/broad-beans-and-salaillas"
+      ],
+      "promptPack": "data/food-art-expansion/food-euro-granada-habas.json"
+    },
+    {
+      "id": "food-euro-porto-octopus-rice",
+      "name": "葡式章鱼汤饭",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arroz_de_Polvo.jpg"
+    },
+    {
+      "id": "food-euro-barcelona-botifarra-beans",
+      "name": "加泰罗尼亚香肠配白豆",
+      "disposition": "licensed-commons-photo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Botifarra_amb_seques.JPG"
+    }
+  ]
+}

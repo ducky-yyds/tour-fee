@@ -1,0 +1,20 @@
+{
+  "food-liuting-pork-trotter": {
+    "url": "/images/art-food-liuting-pork-trotter-20260923.webp",
+    "alt": "流亭猪蹄 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-liuting-pork-trotter",
+    "contextNote": "为流亭猪蹄单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 113700,
+    "generator": "Built-in imagegen",
+    "prompt": "Initial illustration followed by this correction in built-in imagegen:\nEdit this food illustration to correct the subject: it must show Liuting braised PIG'S FEET (流亭猪蹄), not pork shanks or hocks. Replace the large round cylindrical shank pieces and round marrow bones with smaller angular braised trotter portions, gelatinous amber-brown skin, split foot joints and irregular small joint bones. No full intact lower leg, no large round cross-cut marrow bone, no big drumstick-shaped hock, no raw meat. Keep the beautiful watercolor/gouache style, plate, wooden table, warm light, landscape composition and small dipping dish. These are fully cooked pig's trotter pieces, modest serving. No lettering, logo or collage.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

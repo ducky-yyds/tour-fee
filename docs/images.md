@@ -1,10 +1,28 @@
 # 目的地图片维护
 
-本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。169 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。图片从对应地点和食物的 Wikimedia Commons 文件下载，不使用随机城市风景冒充地点。
+本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。169 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。实拍来自 Wikimedia Commons 与逐图核实开放许可的 Flickr 文件；食物专属示意图另行标注。不使用随机城市风景冒充地点。
 
 上一版（2026-09-22）的 100 张目的地主图与 819 张地点照片作为扩充起点保留。本轮继续增加新城市、香港街区、地图小地点和食物摄影；当前缺图清单以目录报告为准，没有运行上一版的额外解码测试。
 
 ## 更新命令
+
+人工核对菜品实拍的映射独立保存在 `data/food-photo-expansion/`，酒店实拍在 `data/hotel-photo-expansion/`；包含具体主体、来源文件、作者、许可及匹配依据。食物映射每次导入都会覆盖旧的不准确首图；酒店映射由整库图片维护读取。映射是候选来源，只有成功下载并核对后才记为照片。
+
+```sh
+npm run import:destinations
+python scripts/complete-media.py --phase exact --kinds food,hotel --photo-packs-only --thumb-width 400
+python scripts/complete-media.py --phase fallback
+```
+
+新下载的卡片图取较小的原图派生缩略图，现有本地照片保留。`--photo-packs-only` 只处理上述经过主体核对的映射，避免每次重新检索整库。不要同时运行多个写入 `data/media.json` 的维护任务。
+
+Commons 以外的逐图开放许可照片维护在 `data/direct-photo-expansion/`。目前支持 Flickr CC BY、CC BY-SA、CC0 和公有领域图片：先核对单图来源页的许可、作者、具体主体，再用 `scripts/import-direct-photos.py <候选包> --preview` 缓存缩略图供目视核对；只有 `visualReviewRequired:false` 的记录才允许正式导入。网站保留每张图的来源链接和许可，作者另有署名链接要求时一并保留。自动部署使用已缓存的本地图片，不依赖商家平台的防盗链。
+
+`data/food-photo-research/` 与 `data/hotel-photo-research/` 中的候选和未解决记录不能直接当作可发布照片；名称搜索命中、网页含有 og:image，都不代表主体或授权已经核实。
+
+每日数据维护在导入条目后运行 `scripts/maintain-reviewed-images.py`：只修复已审阅照片映射缺少的本地文件；成功的既有文件不重复下载。下载失败仍保留旧图或明确的插画，并由目录报告记录摄影覆盖缺口。随后 `--phase fallback` 应用逐道菜品插画，实际照片始终优先。
+
+部分商家照片公开可见但没有向第三方开放转载；旅游平台用于核对菜名、分店与来源线索，不把可访问的 URL 当作开放许可。无法取得可复用成品实拍的菜品使用 [`generated-food-media.md`](generated-food-media.md) 所列专属示意图，在图片详情保留说明；住宿不以生成的具体酒店外观冒充实拍。
 
 需要 Node.js 20 或以上，无 API 密钥或 npm 依赖：
 
@@ -37,12 +55,12 @@ Windows 默认调用 `py -3`，其他系统调用 `python3`；可通过 `ROAMLY_
 - 每次请求间隔至少 1 秒、单个 worker；HTTP 429 和临时服务器错误有至多 3 次退避重试，Node 网络异常最多重试 2 次。请求有 20 秒超时，Python 子进程另有 25 秒上限。
 - Python 网络异常重试一次并保存简短原因；连续三张照片均网络失败时终止本轮，已下载内容保留，稍后重跑继续缺图，避免网络中断时把整库逐张等到超时。
 - 城市通常取 1280 像素宽缩略图，景点通常取 960 像素；超过 600 KiB 则改取较小尺寸。校验 MIME、文件签名和文件大小，并从下载文件读取实际宽高。
-- 只接受 Commons 明确标注的 CC BY、CC BY-SA、CC0 或 Public domain；缺失或未识别许可不发布。拒绝 Wikipedia 本地文件、旗帜、地图、Logo 和 SVG 首图。
+- 只接受 Commons 明确标注的 CC BY、CC BY-SA（含日本 2.1 版本）、CC0、Public domain 或 Free Art License；缺失或未识别许可不发布。拒绝 Wikipedia 本地文件、旗帜、地图、Logo 和 SVG 首图。
 - 临时文件写完后再替换目标。网络失败或许可未通过检查时保留此前可用图片和元数据；运行结果写入 `lastRun`，有失败时返回退出码 1，便于监控。
 
 ## 署名与来源
 
-每条记录提供 `credit`、`sourceUrl`、`license`、`licenseUrl`、拍摄日期、核验时间、原始文件名、远程缩略图 URL、字节数和修改说明。应在展示位置或可直接访问的图片署名视图中展示作者、原始文件页链接和许可链接，并保留“缩略图，界面可能裁切”的说明。CC BY-SA 图片的衍生版本继续遵循原许可；应用代码的许可不受这些图片许可的替代。
+每条记录提供 `credit`、`sourceUrl`、`license`、`licenseUrl`、拍摄日期、核验时间、原始文件名、远程缩略图 URL、字节数和修改说明。应在展示位置或可直接访问的图片署名视图中展示作者、原始文件页链接和许可链接，并保留“缩略图，界面可能裁切”的说明。CC BY-SA 与 FAL 图片的衍生版本继续遵循各自原许可；独立图片仍可从公开文件访问，应用代码的许可不受这些图片许可的替代。
 
 `capturedAt` 是来源注明的拍摄日期；`checkedAt` 是抓取/许可核验时间，两者不能混用。照片呈现地点，不保证当前天气、建筑状态或现场人流。南山首尔塔、哈利法塔使用从观景台拍摄的城市实景，图片描述保留具体拍摄视角。
 

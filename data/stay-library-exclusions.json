@@ -1,5 +1,8 @@
 {
   "checkedAt": "2026-09-23",
+  "disabledWebsiteHosts": [
+    { "host": "angkorholidayhotel.com", "reason": "旧域名已跳转至与住宿无关的推广页面，暂不作为官方预订入口。", "checkedAt": "2026-09-23" }
+  ],
   "selectionRadiusMeters": { "maafushi": 1000 },
   "selectionRadiusNote": "马富施只保留本岛附近点位，避免将 5 公里外另一座岛的住宿误放入本岛目录；原始有界查询仍可缓存更大范围。",
   "excludedObjects": [

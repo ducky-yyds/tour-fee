@@ -1,0 +1,20 @@
+{
+  "food-haitang-cake": {
+    "url": "/images/art-food-haitang-cake-20260923.webp",
+    "alt": "海棠糕 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-haitang-cake",
+    "contextNote": "为海棠糕单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 94132,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: stylized-concept. Asset: travel food discovery card, landscape 3:2. Create one elegant editorial watercolor and gouache illustration, distinctly hand-painted rather than a photograph. Accurate, appetizing finished food fills about 75 percent of the frame. Three-quarter overhead composition, lightly textured warm ivory paper and restrained soft wash background, natural daylight, rich food color, fine brushwork and clear silhouettes that remain readable as a small card. No text, lettering, watermark, logo, collage, split panels or extra unrelated dishes. Subject: Suzhou haitanggao, traditional begonia-shaped molded sweet cakes. Three small squat cakes with a recognizably gently lobed flower outline, golden baked batter sides and a flat glossy dark amber caramelized sugar top scattered with a few sesame seeds, tiny melon seeds and thin candied-fruit flecks. One split cake shows dark red bean paste inside. The cakes are edible street pastries, not decorative flowers, not cupcakes, not tall meihuagao topped with white rice balls.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

@@ -165,13 +165,14 @@ function ImageCredit({ image, inline = false }) {
   return safeUrl(image?.sourceUrl) ? (
     <div className={`ch-image-credit${inline ? " is-inline" : ""}`}>
       <a
-        href={image.sourceUrl}
+        href={safeUrl(image.attributionUrl) || image.sourceUrl}
         target="_blank"
         rel="noopener noreferrer"
         title={`${image.credit || "图片来源"}；缩略图，界面可能裁切`}
       >
         {image.credit || "图片来源"}
       </a>
+      {safeUrl(image.attributionUrl) && <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">原图</a>}
       {image.license && (
         <a
           href={safeUrl(image.licenseUrl) || image.sourceUrl}

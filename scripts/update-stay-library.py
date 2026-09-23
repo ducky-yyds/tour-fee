@@ -44,6 +44,7 @@ def now():
 RULES = read(ROOT / 'data/stay-library-exclusions.json', {})
 EXCLUDED_OBJECTS = {e['osmKey'] for e in RULES.get('excludedObjects', [])}
 EXCLUDED_PHOTO_ARTICLES = {e['article'] for e in RULES.get('excludedImageArticles', [])}
+DISABLED_WEBSITE_HOSTS = {e['host'] for e in RULES.get('disabledWebsiteHosts', [])}
 
 
 def norm(value):
@@ -91,6 +92,9 @@ def url(value):
     value = (value or '').split(';')[0].strip()
     try:
         parsed = urllib.parse.urlparse(value)
+        host = (parsed.hostname or '').lower().removeprefix('www.')
+        if host in DISABLED_WEBSITE_HOSTS:
+            return None
         return value if parsed.scheme in ('http', 'https') and parsed.netloc else None
     except ValueError:
         return None
@@ -301,6 +305,15 @@ def main():
     manual_ids = {e['id'] for e in read(MANUAL, [])}
     existing = {e['id']: e for e in read(OUTPUT, []) if e['id'] not in manual_ids}
     existing.update({e['id']: e for e in read(MANUAL, [])})
+    for entry in existing.values():
+        removed = False
+        for field in ('officialWebsite', 'bookingUrl'):
+            if entry.get(field) and not url(entry[field]):
+                del entry[field]
+                removed = True
+        if removed:
+            entry['websiteVerification'] = 'disabled-after-source-review'
+            entry['websiteNote'] = '旧网站链接已失效，预订前请通过其他渠道核对当前经营者。'
     # Apply explicit exclusions even when this city already meets the minimum.
     existing = {key: entry for key, entry in existing.items()
                 if key in manual_ids or not entry.get('osm') or eligible(entry['osm'])}

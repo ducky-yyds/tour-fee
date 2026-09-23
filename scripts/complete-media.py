@@ -123,7 +123,7 @@ def usable(info, file):
         return False
     meta = info.get('extmetadata', {})
     license_name = plain(meta.get('LicenseShortName', {}).get('value'))
-    if not re.fullmatch(r'CC BY(?:-SA)? (?:1\.0|2\.[05]|3\.0|4\.0)(?: [a-z]{2}(?:-[a-z]+)?)?|CC0|Public domain', license_name, re.I):
+    if not re.fullmatch(r'CC BY(?:-SA)? (?:1\.0|2\.[015]|3\.0|4\.0)(?: [a-z]{2}(?:-[a-z]+)?)?|CC0|Public domain|FAL|Free Art License', license_name, re.I):
         return False
     description = plain(meta.get('ImageDescription', {}).get('value'))
     if re.search(r'(?:^|[\s_.-])(?:flag|map|logo|locator|emblem|coat.of.arms|portrait|icon)(?:[\s_.-]|$)', file, re.I):
@@ -148,6 +148,12 @@ def scenery(file, description, captured_at=''):
 def inventory():
     cities = read(ROOT / 'data/cities.json', [])
     image_sources = read(ROOT / 'data/experience-image-sources.json', {})
+    # Subject-checked hotel photographs survive imports and daily maintenance.
+    for path in sorted((ROOT / 'data/hotel-photo-expansion').glob('*.json')):
+        for item_id, photo in read(path, {}).items():
+            if not photo.get('photoFile') or not photo.get('sourceUrl', '').startswith('https://') or not photo.get('license'):
+                raise ValueError('Incomplete hotel photo source: ' + item_id)
+            image_sources[item_id] = {**image_sources.get(item_id, {}), 'photoFile': photo['photoFile'], 'imageScope': 'exact-place', **({'imageContextNote': photo['imageContextNote']} if photo.get('imageContextNote') else {})}
     items = []
     for city in cities:
         for place in city['attractions']:
@@ -179,7 +185,7 @@ def save_download(file, info):
     return {'url': '/images/' + path.name, 'alt': plain(meta.get('ImageDescription', {}).get('value'))[:180],
             'credit': plain(meta.get('Attribution', {}).get('value') or meta.get('Artist', {}).get('value')) or 'Wikimedia Commons contributor',
             'sourceUrl': info['descriptionurl'], 'license': plain(meta.get('LicenseShortName', {}).get('value')),
-            'licenseUrl': meta.get('LicenseUrl', {}).get('value') or 'https://commons.wikimedia.org/wiki/Commons:Copyright_tags',
+            'licenseUrl': meta.get('LicenseUrl', {}).get('value') or ('https://artlibre.org/licence/lal/en/' if plain(meta.get('LicenseShortName', {}).get('value')) in ('FAL', 'Free Art License') else 'https://commons.wikimedia.org/wiki/Commons:Copyright_tags'),
             'fileTitle': file, 'description': plain(meta.get('ImageDescription', {}).get('value')),
             'capturedAt': plain(meta.get('DateTimeOriginal', {}).get('value')), 'checkedAt': stamp(),
             'remoteUrl': info.get('thumburl') or info['url'], 'width': info.get('thumbwidth', info.get('width')), 'height': info.get('thumbheight', info.get('height')),
@@ -393,7 +399,17 @@ def nearby(cities, items, media, excluded):
 
 
 def fallback(items, media):
+    food_art = {}
+    for path in sorted((ROOT / 'data/food-art-expansion').glob('*.json')):
+        food_art.update(read(path, {}))
     for item in items:
+        current = media['attractions'].get(item['id'])
+        artwork = food_art.get(item['id'])
+        if item['_kind'] == 'food' and artwork and valid_photo(artwork) and (not valid_photo(current) or current.get('scope') == 'illustration'):
+            # A subject-specific drawing replaces only generic/absent art.
+            # An exact photograph always wins, including on the next refresh.
+            media['attractions'][item['id']] = {key: value for key, value in artwork.items() if key != 'prompt'}
+            continue
         if valid_photo(media['attractions'].get(item['id'])):
             continue
         reference = media['attractions'].get(item.get('imageRef'))
@@ -421,10 +437,17 @@ def main():
     parser.add_argument('--phase', choices=['exact', 'nearby', 'fallback', 'all'], default='all')
     parser.add_argument('--cities', default='')
     parser.add_argument('--kinds', default='', help='Optional comma-separated kinds: place,food,hotel,restaurant,experience')
+    parser.add_argument('--photo-packs-only', action='store_true', help='Only process entries with reviewed food/hotel photo expansion mappings')
     parser.add_argument('--thumb-width', type=int, choices=[320, 400, 500, 640, 960], default=500, help='Requested width for new downloads; existing local images are retained')
     args = parser.parse_args()
     THUMB_WIDTH = args.thumb_width
     cities, items = inventory()
+    if args.photo_packs_only:
+        selected = set()
+        for directory in ('food-photo-expansion', 'hotel-photo-expansion'):
+            for path in sorted((ROOT / 'data' / directory).glob('*.json')):
+                selected.update(read(path, {}))
+        items = [item for item in items if item['id'] in selected]
     if args.cities:
         selected = set(args.cities.split(','))
         cities = [city for city in cities if city['id'] in selected]
@@ -443,7 +466,7 @@ def main():
             continue
         manual = item.get('photoFile') or item.get('imageFile')
         mismatch = manual and file_title(manual) != file_title(current.get('requestedFileTitle') or current.get('fileTitle'))
-        unsuitable = item.get('photoStatus') == 'needs-food-photo' and not manual
+        unsuitable = item.get('photoStatus') == 'needs-food-photo' and not manual and not current.get('subjectMatched')
         if mismatch or unsuitable:
             del media['attractions'][item['id']]
             corrected = True

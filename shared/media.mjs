@@ -20,7 +20,7 @@ export function illustrationFor(entity, kind = 'place') {
 
 export function cardImage(entity, media, kind = 'place') {
   const image = media?.attractions?.[entity.id];
-  if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration') return illustrationFor(entity, kind);
+  if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return illustrationFor(entity, kind);
   if (image?.url) return image;
   if (entity.image?.url) return entity.image;
   if (entity.imageRef && media?.attractions?.[entity.imageRef]?.url) {

@@ -151,12 +151,15 @@ export default function LocalFoodGuide({ city }) {
                   {food.image?.url && safeUrl(food.image.sourceUrl) && (
                     <div className="ch-food-credit">
                       <a
-                        href={food.image.sourceUrl}
+                        href={safeUrl(food.image.attributionUrl) || food.image.sourceUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {food.image.credit || "图片来源"}
                       </a>
+                      {safeUrl(food.image.attributionUrl) && (
+                        <a href={food.image.sourceUrl} target="_blank" rel="noopener noreferrer">原图</a>
+                      )}
                       {food.image.license && (
                         <a
                           href={

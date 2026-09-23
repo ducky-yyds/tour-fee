@@ -1,0 +1,20 @@
+{
+  "food-plum-blossom-cake": {
+    "url": "/images/art-food-plum-blossom-cake-20260923.webp",
+    "alt": "梅花糕 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-plum-blossom-cake",
+    "contextNote": "为梅花糕单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 96364,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: stylized-concept. Asset: travel food discovery card, landscape 3:2. Create one elegant editorial watercolor and gouache illustration, distinctly hand-painted rather than a photograph. Accurate, appetizing finished food fills about 75 percent of the frame. Three-quarter overhead composition, lightly textured warm ivory paper and restrained soft wash background, natural daylight, rich food color, fine brushwork and clear silhouettes that remain readable as a small card. No text, lettering, watermark, logo, collage, split panels or extra unrelated dishes. Subject: Nanjing meihuagao plum-blossom molded hot cakes: three small upright cup-shaped baked batter cakes, each with a shallow five-lobed flower-shaped opening and toasted golden-brown sides. The open top reveals dark red bean paste, crowned with several tiny pearly-white glutinous rice balls, a few golden raisins, one small red date piece and a light scattering of sesame seeds. One half cake shows its soft cooked flour-batter walls enclosing dark red bean paste. Traditional Chinese street snack, not a mooncake, not transparent green jelly or kueh, no icing, no sugar-flower decorations, no Western cupcakes.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

@@ -1,8 +1,8 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { assetUrl } from "./api.mjs";
-import { X, Search, MapPin, Check, ArrowUpRight, ImageOff } from "lucide-react";
+import { X, MapPin, Check, ArrowUpRight, ImageOff } from "lucide-react";
 
-import { CURRENCIES, REGIONS } from '../shared/currencies.mjs';
+import { DestinationBrowser } from './DestinationSelect.jsx';
 export { CURRENCIES } from '../shared/currencies.mjs';
 export const SYMBOLS = {
   CNY: "¥",
@@ -153,94 +153,10 @@ export function CityPicker({
   origin = false,
   onChooseCountry,
 }) {
-  const [query, setQuery] = useState("");
-  const [region, setRegion] = useState("全部");
-  const [scope, setScope] = useState("all");
-  const [limit, setLimit] = useState(48);
-  const fold = (s) => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const filtered = useMemo(() => cities.filter(
-    (c) =>
-      !exclude.includes(c.id) &&
-      (region === "全部" || c.region === region) &&
-      (scope !== 'curated' || c.coverage !== 'airport-only') &&
-      (scope !== 'scheduled' || c.scheduledService) &&
-      fold([c.name, c.nameEn, c.country, c.countryCode, c.iata, ...(c.tags || []), ...(c.airportCodes || []), c.subdivision].join(' ')).includes(fold(query).trim()),
-  ), [cities, exclude, region, scope, query]);
-  useEffect(() => setLimit(48), [query, region, scope]);
   return (
     <Modal title={title} onClose={onClose} wide>
       {onChooseCountry && <div className="planning-unit-switch" role="group" aria-label="按城市或国家添加"><button type="button" aria-pressed="true">选择城市</button><button type="button" aria-pressed="false" onClick={onChooseCountry}>探索一个国家</button></div>}
-      <div className="search-box">
-        <Search size={18} />
-        <input
-          autoFocus
-          placeholder="搜索城市、国家或机场代码"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-      </div>
-      <div className="filter-pills">
-        {["全部", ...REGIONS].map((r) => (
-          <button
-            key={r}
-            className={region === r ? "active" : ""}
-            onClick={() => setRegion(r)}
-          >
-            {r}
-          </button>
-        ))}
-      </div>
-      <div className="filter-pills airport-scope" aria-label="目的地资料范围">
-        {[["all", "全部目的地"], ["scheduled", "有定期航班记录"], ["curated", "已有旅行攻略"]].map(([id, label]) => <button key={id} className={scope === id ? "active" : ""} onClick={() => setScope(id)}>{label}</button>)}
-      </div>
-      <p className="small muted">
-        找到 {filtered.length.toLocaleString('zh-CN')} 处目的地。机场记录不代表当前有可订航班；票价以预订页为准。
-      </p>
-      <div className="picker-grid">
-        {filtered.slice(0, limit).map((c) => (
-          <button
-            key={c.id}
-            className="picker-city"
-            onClick={() => onPick(c.id)}
-          >
-            <Photo image={c.image} alt={c.name} />
-            <div>
-              <strong>
-                {c.name} <small>{c.nameEn}</small>
-              </strong>
-              <span>
-                {c.country} · {c.iata || c.airportCodes?.[0] || '地方机场'}{c.subdivision ? ` · ${c.subdivision}` : ''}
-              </span>
-              {c.coverage === 'airport-only' ? <em>{c.scheduledService ? '有定期航班记录' : '通航情况待核实'} · 食宿预算待补充</em> : !origin && (
-                <em>
-                  {money(
-                    convert(
-                      c.daily.lodging[0] / 2 +
-                        c.daily.food[0] +
-                        c.daily.transport[0] +
-                        c.daily.misc[0],
-                      c.currency,
-                      currency,
-                      rates,
-                    ),
-                    currency,
-                  )}{" "}
-                  / 人天起 · 估算
-                </em>
-              )}
-            </div>
-            <ArrowUpRight size={17} />
-          </button>
-        ))}
-      </div>
-      {filtered.length > limit && <button className="secondary-button full" onClick={() => setLimit(n => n + 48)}>再看 48 处目的地 · 已显示 {Math.min(limit, filtered.length)} / {filtered.length}</button>}
-      {!filtered.length && (
-        <div className="empty-state">
-          <MapPin />
-          <p>还没有找到这座城市</p>
-          <small>试试国家名称，或从已收录城市中选择。</small>
-        </div>
-      )}
+      <DestinationBrowser cities={cities} exclude={exclude} onPick={onPick} renderMeta={city => city.coverage === 'airport-only' ? '食宿与游览资料待补充' : !origin && city.daily ? `${money(convert((city.daily.lodging?.[0] || 0) / 2 + (city.daily.food?.[0] || 0) + (city.daily.transport?.[0] || 0) + (city.daily.misc?.[0] || 0), city.currency, currency, rates), currency)} / 人天起 · 估算` : null} />
     </Modal>
   );
 }

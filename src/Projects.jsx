@@ -16,6 +16,7 @@ import { calculatePlan, mergeCustomAttractions } from "../shared/planner.mjs";
 import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import "./projects.css";
 import CountryTripPlanner from "./CountryTripPlanner.jsx";
+import DestinationSelect from './DestinationSelect.jsx';
 
 export function ProjectBar({ project, projects, onSwitch, onManage, onNew }) {
   return (
@@ -58,12 +59,7 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
   const [cityId, setCityId] = useState("beijing");
   const [days, setDays] = useState(() => recommendedDays('beijing'));
   const [daysSource, setDaysSource] = useState('recommendation');
-  const [cityQuery, setCityQuery] = useState('');
-  const fold = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const matchingCities = cities.filter(c => fold([c.name,c.nameEn,c.country,c.iata,...(c.airportCodes || [])].join(' ')).includes(fold(cityQuery).trim()));
-  const visibleCities = matchingCities.slice(0, 80);
   const selectedCity = cities.find(c => c.id === cityId);
-  if (selectedCity && !visibleCities.some(c => c.id === cityId)) visibleCities.unshift(selectedCity);
   return (
     <Modal title="给下一段旅程，留一个位置" onClose={onClose} wide={unit === 'country'}>
       <div className="planning-unit-switch" role="group" aria-label="按城市或国家规划">
@@ -93,22 +89,8 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
             onChange={(e) => setName(e.target.value)}
           />
         </label>
-        <label className="airport-project-search">查找第一站<input aria-label="搜索新项目目的地" placeholder="输入城市、国家或机场代码" value={cityQuery} onChange={e => setCityQuery(e.target.value)} /></label>
         <div className="project-form-pair">
-          <label>
-            第一站
-            <select
-              aria-label="新项目目的地"
-              value={cityId}
-              onChange={(e) => { const id = e.target.value; setCityId(id); setDays(recommendedDays(cities.find(c => c.id === id))); setDaysSource('recommendation'); }}
-            >
-              {visibleCities.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.name} · {c.country}
-                </option>
-              ))}
-            </select>
-          </label>
+          <DestinationSelect label="第一站" cities={cities} value={cityId} onChange={id => { setCityId(id); setDays(recommendedDays(cities.find(c => c.id === id))); setDaysSource('recommendation'); }} />
           <label>
             停留天数
             <input
@@ -125,7 +107,7 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
         </div>
         <div className="project-duration-hint"><span>{getTripDuration(selectedCity).type === 'provisional' ? '资料有限 · ' : '初次到访建议 '}{getTripDuration(selectedCity).label}</span><button type="button" className="text-button" onClick={() => { setDays(recommendedDays(selectedCity)); setDaysSource('recommendation'); }}>采用 {recommendedDays(selectedCity)} 天</button><p>{getTripDuration(selectedCity).reason} 长途往返会占用游览时间，可酌情加天。</p></div>
         <p className="project-form-note">
-          {selectedCity?.coverage === 'airport-only' ? '这一站的景点和食宿预算待补充，创建后可以自行录入。' : '先按可用时间安排精选景点，其他想去的地方可以随时加入。'}{matchingCities.length > 80 ? ' 缩小搜索范围可找到更多城市。' : ''}
+          {selectedCity?.coverage === 'airport-only' ? '这一站的景点和食宿预算待补充，创建后可以自行录入。' : '先按可用时间安排精选景点，其他想去的地方可以随时加入。'}
         </p>
         <div className="modal-actions">
           <button className="primary-button" type="submit">

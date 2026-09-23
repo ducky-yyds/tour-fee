@@ -23,7 +23,6 @@ import {
 } from "lucide-react";
 import { ISO2_TO_NUMERIC } from "../shared/country-codes.mjs";
 import {
-  normalizePlaceSearch,
   normalizeRotation,
   projectRoute,
   rotationForCity,
@@ -38,6 +37,7 @@ import {
 import { convertCurrency } from "../shared/planner.mjs";
 import { Photo, download, money } from "./ui.jsx";
 import "./globe.css";
+import { DestinationBrowser } from "./DestinationSelect.jsx";
 import EarthGlobe from "./EarthGlobe.jsx";
 
 const MODES = [
@@ -115,8 +115,6 @@ export default function GlobePage({
   const [selectedId, setSelectedId] = useState(initialCity?.id || "");
   const [rotation, setRotation] = useState(() => rotationForCity(initialCity));
   const [zoom, setZoom] = useState(1);
-  const [query, setQuery] = useState("");
-  const [resultLimit, setResultLimit] = useState(36);
   const [projectId, setProjectId] = useState(
     activeProjectId || projects[0]?.id || "",
   );
@@ -175,16 +173,6 @@ export default function GlobePage({
       ),
     [stats],
   );
-  const matchingCities = useMemo(() => {
-    const term = normalizePlaceSearch(query);
-    return scopeCities.filter(
-      (city) =>
-        !term ||
-        normalizePlaceSearch(
-          `${city.id} ${city.name} ${city.nameEn} ${city.country} ${city.region} ${(city.tags || []).join(" ")} ${city.iata || ""} ${(city.airportCodes || []).join(" ")} ${city.subdivision || ""}`,
-        ).includes(term),
-    );
-  }, [scopeCities, query]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -233,8 +221,6 @@ export default function GlobePage({
   }
   function changeCityScope(checked) {
     setShowAllCities(checked);
-    setQuery("");
-    setResultLimit(36);
     if (!checked && !travelCityIds.has(selectedId) && initialCity)
       chooseCity(initialCity);
   }
@@ -488,72 +474,11 @@ export default function GlobePage({
               ))}
             </div>
           </div>
-          <div className="gl-search-panel">
-            <label htmlFor="gl-city-search">
-              <Search size={17} />
-              <input
-                id="gl-city-search"
-                value={query}
-                onChange={(event) => {
-                  setQuery(event.target.value);
-                  setResultLimit(36);
-                }}
-                placeholder="搜索城市、国家、机场代码，或海岛、极光…"
-                autoComplete="off"
-              />
-              {query && (
-                <button
-                  type="button"
-                  aria-label="清除目的地搜索"
-                  onClick={() => setQuery("")}
-                >
-                  <X size={16} />
-                </button>
-              )}
-            </label>
-            <div className="gl-search-caption">
-              <span>
-                {query
-                  ? `找到 ${matchingCities.length} 个目的地`
-                  : showAllCities
-                    ? "从一个好奇的名字开始"
-                    : "从一个资料齐备的目的地开始"}
-              </span>
-              <span>点击名称，定位到地球上</span>
-            </div>
-            <div className="gl-city-results" aria-label="目的地搜索结果">
-              {matchingCities.slice(0, resultLimit).map((city) => (
-                <button
-                  key={city.id}
-                  type="button"
-                  aria-pressed={selectedId === city.id}
-                  onClick={() => chooseCity(city)}
-                >
-                  <span>
-                    {visited.has(city.id) ? (
-                      <Check size={12} />
-                    ) : (
-                      <MapPin size={12} />
-                    )}
-                    {city.name}
-                  </span>
-                  <small>{city.country}</small>
-                </button>
-              ))}
-              {!matchingCities.length && (
-                <p>没有匹配的目的地，试试国家名或英文城市名。</p>
-              )}
-            </div>
-            {matchingCities.length > resultLimit && (
-              <button
-                className="gl-more-results"
-                type="button"
-                onClick={() => setResultLimit((value) => value + 36)}
-              >
-                查看更多 · 已展示 {Math.min(resultLimit, matchingCities.length)}{" "}
-                / {matchingCities.length}
-              </button>
-            )}
+          <div className="gl-search-panel gl-destination-browser">
+            <p className="gl-browse-hint">选择一个城市，在地球上找到它。</p>
+            <DestinationBrowser cities={scopeCities} value={selectedId} compact autoFocus={false}
+              onPick={(id) => { const city = scopeCities.find(item => item.id === id); if (city) chooseCity(city); }}
+              renderMeta={(city) => visited.has(city.id) ? '已留下足迹' : city.nameEn} />
           </div>
         </div>
         <aside className="gl-sidebar" aria-label="所选目的地">

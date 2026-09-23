@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { ArrowDown, ArrowRight, ArrowUp, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, Compass, MapPin, Plus, RotateCcw, Route, Sparkles, Trash2, TriangleAlert } from 'lucide-react';
 import { buildCountryDraft, listCountryDestinations } from '../shared/country-planning.mjs';
 import { Photo } from './ui.jsx';
+import { CountrySelect } from './DestinationSelect.jsx';
 import './country-trip-planner.css';
 
 const duration = minutes => minutes < 60 ? `${minutes} 分钟` : `${Math.floor(minutes / 60)} 小时${minutes % 60 ? ` ${minutes % 60} 分` : ''}`;
@@ -21,7 +22,6 @@ export default function CountryTripPlanner({
   const [includeReturn, setIncludeReturn] = useState(returnToOrigin);
   const [cityIds, setCityIds] = useState(undefined);
   const [dayAllocations, setDayAllocations] = useState(undefined);
-  const [query, setQuery] = useState('');
   const cityMap = useMemo(() => new Map(cities.map(city => [city.id, city])), [cities]);
   const { draft, error } = useMemo(() => {
     try {
@@ -30,8 +30,6 @@ export default function CountryTripPlanner({
   }, [cities, countryCode, totalDays, originId, date, includeReturn, planContext, excludedCityIds, maxCities, cityIds, dayAllocations]);
   const reset = () => { setCityIds(undefined); setDayAllocations(undefined); };
   const changeCountry = value => { setCountryCode(value); reset(); };
-  const searchCountries = countries.filter(country => [country.name, country.countryCode, ...country.cities.flatMap(city => [city.name, city.nameEn])].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
-  const shownCountries = searchCountries.some(country => country.countryCode === countryCode) ? searchCountries : [...countries.filter(country => country.countryCode === countryCode), ...searchCountries];
   const priorStops = planContext?.stops || [];
   const origin = cityMap.get(planContext?.originId || originId);
   const entryCity = cityMap.get(priorStops.at(-1)?.cityId) || origin;
@@ -57,8 +55,7 @@ export default function CountryTripPlanner({
       <p>先挑适合的城市，再给交通和游览留出时间。你可以调整城市顺序与停留天数，景点会随之重新安排。</p>
     </header>
     <div className="country-trip-controls">
-      <label className="country-trip-search">查找国家 / 地区<input aria-label="查找国家或地区" value={query} onChange={event => setQuery(event.target.value)} placeholder="例如：日本、冰岛、马尔代夫" /></label>
-      <label>目的国家 / 地区<select aria-label="目的国家或地区" value={countryCode} onChange={event => changeCountry(event.target.value)} disabled={!countries.length}>{shownCountries.map(country => <option key={country.countryCode} value={country.countryCode}>{country.name} · {country.cityCount} 个详细城市</option>)}</select></label>
+      <CountrySelect countries={countries} value={countryCode} onChange={changeCountry} label="目的国家 / 地区" disabled={!countries.length} />
       <label>本次总天数<input aria-label="国家旅程总天数" type="number" min="1" max="365" value={totalDays} onChange={event => { setTotalDays(event.target.value === '' ? '' : Number(event.target.value)); reset(); }} /></label>
       {!planContext && <label>出发日期<input aria-label="国家旅程出发日期" type="date" value={date} onChange={event => setDate(event.target.value)} /></label>}
     </div>

@@ -90,7 +90,7 @@ function timelineIcon(item) {
   if (mode === "walk") return Footprints;
   if (mode === "boat") return Ship;
   if (mode === "road") return Car;
-  if (["rail", "transit"].includes(mode)) return TrainFront;
+  if (["high-speed-rail", "rail", "transit"].includes(mode)) return TrainFront;
   if (item.journey || ["arrival", "departure"].includes(item.kind))
     return Plane;
   return item.kind === "transport" ? TrainFront : Sun;

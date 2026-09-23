@@ -1,4 +1,4 @@
-import { resolveJourneyMode } from './journey-mode.mjs';
+import { resolveJourneyMode, getJourneyModePreference } from './journey-mode.mjs';
 
 const DAY_START = 9 * 60;
 const DAY_END = 20 * 60 + 30;
@@ -57,12 +57,12 @@ function distance(a, b) {
 }
 
 /** Door-to-door planning reserve, not a schedule, actual route, or guaranteed mode. */
-export function estimateJourneyLeg(from, to, legId = "") {
+export function estimateJourneyLeg(from, to, legId = "", preferredMode = 'auto') {
   if (!from || !to || from.id === to.id) return null;
   const km = distance(from, to);
   if (km === null) return null;
   const domestic = from.countryCode === to.countryCode;
-  const resolution = resolveJourneyMode(from, to, km);
+  const resolution = resolveJourneyMode(from, to, km, preferredMode);
   const mode = resolution.mode;
   let raw, description;
   if (mode === "boat") {
@@ -71,9 +71,9 @@ export function estimateJourneyLeg(from, to, legId = "") {
   } else if (mode === "road") {
     raw = ((km * 1.35) / 50) * 60 + 60;
     description = "公路绕行、取车与途中停顿";
-  } else if (mode === "rail") {
-    raw = ((km * 1.25) / 140) * 60 + 120;
-    description = "近程铁路或地面交通与两端接驳";
+  } else if (resolution.railModel) {
+    raw = resolution.railModel.estimatedMinutes;
+    description = `${resolution.modeLabel}、候车与两端车站接驳`;
   } else {
     raw =
       (km / 700) * 60 +
@@ -89,6 +89,10 @@ export function estimateJourneyLeg(from, to, legId = "") {
     fromName: from.name,
     toName: to.name,
     mode,
+    modeLabel: resolution.modeLabel,
+    requestedMode: resolution.requestedMode,
+    railNetworkId: resolution.railModel?.networkId,
+    sourceUrl: resolution.railModel?.sourceUrl,
     routeBasis: resolution.reason,
     fromAirportIsGateway: from.airportIsGateway === true,
     toAirportIsGateway: to.airportIsGateway === true,
@@ -144,7 +148,7 @@ function automaticInbound(windows, leg) {
     window.endMinute = DAY_END;
     addNote(
       window,
-      `入城交通按距离模型预留 ${minutesText(allocated)}；并非已确认的当地起降时刻。`,
+      `入城交通按所选方式预留 ${minutesText(allocated)}；并非已确认的当地发车或起降时刻。`,
     );
     remaining -= allocated;
   }
@@ -171,7 +175,7 @@ function automaticOutbound(windows, leg) {
     window.startMinute = Math.max(window.startMinute, DAY_START);
     addNote(
       window,
-      `返程交通按距离模型预留 ${minutesText(allocated)}，从本站末尾向前分配。`,
+      `返程交通按所选方式预留 ${minutesText(allocated)}，从本站末尾向前分配。`,
     );
     remaining -= allocated;
   }
@@ -214,7 +218,7 @@ function manualInbound(windows, leg, settings, city) {
       window,
       beforeArrival
         ? `你设定在本站第 ${offset + 1} 天 ${settings.arrivalReadyTime || "09:00"} 才可开始活动，本日保留给交通。`
-        : `按你填写的当地 ${settings.arrivalReadyTime || "09:00"} 开始活动；这不是自动推算的航班抵达时刻。`,
+        : `按你填写的当地 ${settings.arrivalReadyTime || "09:00"} 开始活动；这不是自动推算的列车或航班抵达时刻。`,
     );
     if (beforeArrival) window.travelOnly = true;
   }
@@ -237,7 +241,7 @@ export function buildJourneyWindows(plan, cities) {
       city = byId.get(stop.cityId);
     const settings = normalizeTransportWindow(stop.transportWindow, stop.days);
     const windows = Array.from({ length: Number(stop.days) }, emptyWindow);
-    const inbound = estimateJourneyLeg(previous, city, `leg-${index}`);
+    const inbound = estimateJourneyLeg(previous, city, `leg-${index}`, getJourneyModePreference(plan, `leg-${index}`, previous, city));
     if (
       city &&
       (settings.arrivalReadyTime !== undefined ||
@@ -254,6 +258,7 @@ export function buildJourneyWindows(plan, cities) {
         city,
         byId.get(plan.originId),
         "leg-return",
+        getJourneyModePreference(plan, 'leg-return', city, byId.get(plan.originId)),
       );
       if (outbound && settings.departureLeaveTime !== undefined) {
         const leave = journeyTimeMinutes(settings.departureLeaveTime),
@@ -268,7 +273,7 @@ export function buildJourneyWindows(plan, cities) {
         window.endMinute = Math.min(window.endMinute, leave);
         addNote(
           window,
-          `返程日按你填写的当地 ${settings.departureLeaveTime} 结束游览并出发；机场提前到场与接驳应包含在你预留的时间内。`,
+          `返程日按你填写的当地 ${settings.departureLeaveTime} 结束游览并出发；车站或机场的提前到场与接驳应包含在你预留的时间内。`,
         );
       } else if (outbound) automaticOutbound(windows, outbound);
     }

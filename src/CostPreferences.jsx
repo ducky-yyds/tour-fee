@@ -8,6 +8,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { money, convert } from "./ui.jsx";
+import DestinationSelect from "./DestinationSelect.jsx";
 import "./cost-preferences.css";
 
 const FIELDS = [
@@ -93,20 +94,12 @@ export default function CostPreferences({
               住宿、饮食和出行按你的偏好计算；门票等一次性费用随所选项目计入。
             </p>
           </div>
-          <label>
+          <div className="preference-city-select">
             <span>调整城市</span>
-            <select
-              aria-label="消费偏好城市"
-              value={index}
-              onChange={(e) => onSelectStop(Number(e.target.value))}
-            >
-              {plan.stops.map((s, i) => (
-                <option value={i} key={s.cityId}>
-                  {cities.find((c) => c.id === s.cityId)?.name}
-                </option>
-              ))}
-            </select>
-          </label>
+            <DestinationSelect label="消费偏好城市" value={plan.stops[index]?.cityId}
+              cities={plan.stops.map((s) => cities.find((c) => c.id === s.cityId)).filter(Boolean)}
+              onChange={(id) => onSelectStop(plan.stops.findIndex((s) => s.cityId === id))} />
+          </div>
         </div>
         <div className="preference-fields">
           {FIELDS.map((field) => {

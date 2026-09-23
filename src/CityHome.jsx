@@ -27,6 +27,7 @@ import { Photo, Modal, OutLink, money } from "./ui.jsx";
 import CityBrief from "./CityBrief.jsx";
 import LocalFoodGuide from "./LocalFoodGuide.jsx";
 import SourceReferences from "./SourceReferences.jsx";
+import DestinationSelect from "./DestinationSelect.jsx";
 import "./city-home.css";
 
 const TABS = [
@@ -536,21 +537,10 @@ export default function CityHome({
           <ArrowLeft size={16} />
           返回城市列表
         </button>
-        <label className="ch-city-switch">
-          <GlobeIcon />
-          <select
-            aria-label="切换城市主页"
-            value={city.id}
-            onChange={(e) => onSelectCity?.(e.target.value)}
-          >
-            {cities.map((item) => (
-              <option key={item.id} value={item.id}>
-                {item.name} · {item.nameEn}
-              </option>
-            ))}
-          </select>
-          <ChevronDown size={14} />
-        </label>
+        <div className="ch-city-switch ch-city-switch-visual">
+          <DestinationSelect cities={cities} value={city.id}
+            onChange={(id) => onSelectCity?.(id)} label="切换城市主页" />
+        </div>
       </div>
       <section className="ch-hero" aria-label={`${city.name}城市指南`}>
         <Photo

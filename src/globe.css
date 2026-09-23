@@ -440,6 +440,8 @@
   border: 1px solid var(--gl-border);
   border-radius: 18px;
 }
+.gl-browse-hint { color: #6e7e6e; font-size: .92rem; margin: 0 0 14px; }
+.gl-destination-browser input { font-size: .94rem; }
 .gl-search-panel > label {
   display: flex;
   align-items: center;

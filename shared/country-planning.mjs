@@ -1,4 +1,5 @@
 import { buildJourneyWindows, estimateJourneyLeg } from './journey-windows.mjs';
+import { getJourneyModePreference, normalizeJourneyModes } from './journey-mode.mjs';
 import { suggestJourneyStops } from './journey-planning.mjs';
 import { getTripDuration, recommendedDays } from './trip-duration.mjs';
 
@@ -15,7 +16,7 @@ const ENTRY_ORDER = {
   EG: ['cairo', 'luxor'], IN: ['delhi', 'jaipur'], LK: ['colombo', 'kandy'],
 };
 const COUNTRY_LABELS = { HK: '中国香港', TW: '中国台湾' };
-const MODES = { air: '航空交通预留', rail: '铁路 / 地面交通预留', road: '公路交通预留', boat: '船运交通预留' };
+const MODES = { air: '航空交通预留', 'high-speed-rail': '高铁 / 动车预留', rail: '城际铁路预留', road: '公路交通预留', boat: '船运交通预留' };
 const dateAfter = (value, days) => new Date(Date.parse(`${value}T12:00:00Z`) + days * 86400000).toISOString().slice(0, 10);
 const validCity = city => city && city.coverage !== 'airport-only' && city.countryCode && Array.isArray(city.attractions) && city.attractions.length > 0 && Number.isFinite(city.lat) && Number.isFinite(city.lng);
 const compareCity = (a, b) => {
@@ -55,13 +56,13 @@ function normalizedContext(input, cities) {
   if (!country) throw new Error('该国家或地区尚无可自动规划的详细城市。');
   const pool = country.cities.filter(city => !excluded.has(city.id));
   if (!pool.length) throw new Error('该国家已维护的城市已在原行程内，暂无新的可添加城市。');
-  const context = { originId, origin, departureDate, returnTrip: Boolean(returnTrip), mode: 'travel', existingStops, totalDays, maxCities, country, pool };
+  const context = { originId, origin, departureDate, returnTrip: Boolean(returnTrip), mode: 'travel', existingStops, totalDays, maxCities, country, pool, transportModes: normalizeJourneyModes(prior, cities) };
   context.entryCity = cities.find(city => city.id === existingStops.at(-1)?.cityId) || origin;
   return context;
 }
 
 function rawPlan(route, days, context) {
-  return { originId: context.originId, departureDate: context.departureDate, mode: 'travel', returnTrip: context.returnTrip,
+  return { originId: context.originId, departureDate: context.departureDate, mode: 'travel', returnTrip: context.returnTrip, transportModes: context.transportModes, transportModelVersion: 2,
     stops: [...context.existingStops, ...route.map((city, index) => ({ cityId: city.id, days: days[index], daysSource: 'country-plan', planningMode: 'smart', attractionIds: city.attractions.map(item => item.id) }))] };
 }
 function inspect(route, days, context, cities) {
@@ -71,13 +72,14 @@ function inspect(route, days, context, cities) {
   const legs = [];
   let previous = context.entryCity;
   for (let i = 0; i < route.length; i++) {
-    const leg = estimateJourneyLeg(previous, route[i], `leg-${context.existingStops.length + i}`);
-    if (leg) legs.push({ ...leg, toStopIndex: i, direction: i === 0 ? 'arrival' : 'intercity', modeLabel: MODES[leg.mode] });
+    const legId = `leg-${context.existingStops.length + i}`;
+    const leg = estimateJourneyLeg(previous, route[i], legId, getJourneyModePreference(context, legId, previous, route[i]));
+    if (leg) legs.push({ ...leg, toStopIndex: i, direction: i === 0 ? 'arrival' : 'intercity', modeLabel: leg.modeLabel || MODES[leg.mode] });
     previous = route[i];
   }
   if (context.returnTrip) {
-    const leg = estimateJourneyLeg(previous, context.origin, 'leg-return');
-    if (leg) legs.push({ ...leg, toStopIndex: null, direction: 'return', modeLabel: MODES[leg.mode] });
+    const leg = estimateJourneyLeg(previous, context.origin, 'leg-return', getJourneyModePreference(context, 'leg-return', previous, context.origin));
+    if (leg) legs.push({ ...leg, toStopIndex: null, direction: 'return', modeLabel: leg.modeLabel || MODES[leg.mode] });
   }
   return { windows, localMinutes, conflict, legs, transportMinutes: legs.reduce((sum, leg) => sum + leg.estimatedMinutes, 0) };
 }
@@ -165,10 +167,10 @@ export function buildCountryDraft(input) {
   const stops = suggestJourneyStops(generationPlan, cities, { automaticOnly: true }).slice(context.existingStops.length);
   const warnings = [
     { code: 'country-coverage', severity: 'info', message: `目前只在${context.country.name}的 ${context.country.cityCount} 个已维护城市中规划，不代表该国家的全部城市或景点。` },
-    { code: 'transport-model', severity: 'info', message: '交通按现有距离模型预留接驳、候车与路程时间；并非已核实的直达航线、车次或时刻表，预订后请核对实际时间。' },
+    { code: 'transport-model', severity: 'info', message: '交通结合已维护铁路网络与距离模型，预留接驳、候车和路程时间；并非已核实的直达航线、车次或时刻表，预订后请核对实际时间。' },
   ];
   if (!context.origin || !Number.isFinite(context.origin.lat) || !Number.isFinite(context.origin.lng)) warnings.push({ code: 'missing-origin', severity: 'danger', message: '尚未取得有效出发地，进出国家的交通未完整核算；请先选择有坐标的出发城市。' });
-  if (review.conflict) warnings.push({ code: 'country-transport-conflict', severity: 'danger', message: '现有天数不足以容纳入城与返程交通。没有自动延长总天数；请增加天数、减少跨城移动或核对实际航班。' });
+  if (review.conflict) warnings.push({ code: 'country-transport-conflict', severity: 'danger', message: '现有天数不足以容纳入城与返程交通。没有自动延长总天数；请增加天数、减少跨城移动或核对实际车次与航班。' });
   if (input.cityIds && route.length >= 3) {
     const travelCost = ordered => {
       let previous = context.entryCity, sum = 0;
@@ -198,7 +200,7 @@ export function buildCountryDraft(input) {
   return {
     countryCode: context.country.countryCode, countryName: context.country.name, totalDays: context.totalDays,
     originId: context.originId, departureDate: dateAfter(context.departureDate, startOffset), planDepartureDate: context.departureDate,
-    returnTrip: context.returnTrip, returnToOrigin: context.returnTrip, mode: 'travel',
+    returnTrip: context.returnTrip, returnToOrigin: context.returnTrip, mode: 'travel', transportModes: normalizeJourneyModes(base, cities), transportModelVersion: 2,
     stops, planStops: [...context.existingStops, ...stops], transportLegs: review.legs,
     feasible: !warnings.some(warning => warning.severity === 'danger'), warnings, candidates,
     coverage: { scope: 'maintained-detailed-cities', availableCityCount: context.country.cityCount, eligibleCityCount: context.pool.length, selectedCityCount: stops.length, allCitiesCovered: false },

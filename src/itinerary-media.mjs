@@ -51,7 +51,7 @@ export function getItineraryMedia(item, city) {
   if (item.routineType === 'citywalk' || item.kind === 'free' || item.kind === 'walk' || mode === 'walk') return localScene(item, city);
   if (['arrival', 'departure', 'transport', 'transfer', 'journey'].includes(item.kind)) {
     if (item.kind === 'departure' && !item.journey && /退房|整理行李/.test(item.title || '')) return scene('hotel');
-    const aliases = { air: 'air', flight: 'air', plane: 'air', rail: 'rail', train: 'rail', boat: 'boat', ferry: 'boat', ship: 'boat', road: 'road', car: 'road', bus: 'road', transit: 'transfer', transfer: 'transfer' };
+    const aliases = { air: 'air', flight: 'air', plane: 'air', 'high-speed-rail': 'rail', rail: 'rail', train: 'rail', boat: 'boat', ferry: 'boat', ship: 'boat', road: 'road', car: 'road', bus: 'road', transit: 'transfer', transfer: 'transfer' };
     if (aliases[mode]) return scene(aliases[mode]);
     // An unclassified arrival/departure must not imply that an actual flight exists.
     return scene('transfer');

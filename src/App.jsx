@@ -8,6 +8,8 @@ import React, {
 } from "react";
 import ItineraryPlanner from "./ItineraryPlanner.jsx";
 import JourneyTransport from "./JourneyTransport.jsx";
+import { BudgetPopover, BudgetLineDetails } from "./BudgetDetails.jsx";
+import { listJourneyModes, getJourneyModePreference, migrateJourneyTransport } from "../shared/journey-mode.mjs";
 import {
   suggestJourneyStop,
   suggestJourneyStops,
@@ -26,12 +28,14 @@ import AirportCityHome from "./AirportCityHome.jsx";
 import HeroCarousel from "./HeroCarousel.jsx";
 import { apiFetch } from "./api.mjs";
 import CountryTripPlanner from "./CountryTripPlanner.jsx";
+import CurrencySelect from "./CurrencySelect.jsx";
+import DestinationGallery from "./DestinationGallery.jsx";
+import { CountryFlag } from "./DestinationSelect.jsx";
 import { preserveUnchangedQuotes } from "../shared/quote-preservation.mjs";
 import { mergeAirportCities } from "../shared/airport-catalog.mjs";
 import { createRecommendedStop, getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 const LivingPage = lazy(() => import("./LivingPage.jsx"));
 const GlobePage = lazy(() => import("./GlobePage.jsx"));
-import { REGIONS } from "../shared/currencies.mjs";
 import {
   applyExperienceSelection,
   resolveExperienceSelections,
@@ -63,6 +67,9 @@ import {
   Menu,
   Minus,
   Plane,
+  TrainFront,
+  Ship,
+  Car,
   Plus,
   RefreshCw,
   Route,
@@ -121,7 +128,7 @@ const TIERS = [
   },
 ];
 const CAT_ICONS = {
-  intercity: Plane,
+  intercity: Route,
   transfer: Route,
   reserve: ShieldCheck,
   connectivity: Globe2,
@@ -156,6 +163,8 @@ function defaultPlan(cities) {
   const next = {
     originId: "shanghai",
     plannerVersion: 2,
+    transportModelVersion: 2,
+    transportModes: {},
     customAttractions: [],
     stops: [
       {
@@ -297,6 +306,7 @@ function normalizePlan(p, cities) {
             : [],
         }))
     : base.stops;
+  p = { ...p, ...migrateJourneyTransport({ ...p, originId: validId(p.originId) ? p.originId : base.originId, stops }, cities) };
   const departureDate =
     /^\d{4}-\d{2}-\d{2}$/.test(p.departureDate) &&
     !isNaN(Date.parse(p.departureDate)) &&
@@ -403,12 +413,8 @@ export default function App() {
   const [toast, setToast] = useState("");
   const [saved, setSaved] = useState(() => safeRead("tusuan-saved", []));
   const [mobileNav, setMobileNav] = useState(false);
-  const [query, setQuery] = useState("");
   const [sightQuery, setSightQuery] = useState("");
   const [showAllSights, setShowAllSights] = useState(false);
-  const [citySort, setCitySort] = useState("featured");
-  const [region, setRegion] = useState("全部");
-  const [countryFilter, setCountryFilter] = useState("全部");
   const [compare, setCompare] = useState([]);
   const [status, setStatus] = useState(null);
   const [statusLoading, setStatusLoading] = useState(false);
@@ -556,6 +562,7 @@ export default function App() {
   const confirmedLines = lines.filter((l) => l.confirmed);
   const confirmedAmount = confirmedLines.reduce((s, l) => s + l.amount, 0);
   const categories = budget?.categories || [];
+  const editBudgetLine = (id) => { const line = lines.find((item) => item.id === id); if (line) { window.dispatchEvent(new CustomEvent('budget-detail-open', { detail: 'line-editor' })); setModal({ type: 'line', line }); } };
   const activeProject = projects.find((p) => p.id === activeProjectId);
   const sourceCount = cities
     .flatMap((c) => c.attractions)
@@ -775,6 +782,34 @@ export default function App() {
     } else if (updateStop(index, next))
       setToast("已更新交通时间；手动景点保留，请检查冲突或使用智能重排");
   }
+  function setTransportMode(legId, mode) {
+    const leg = budget?.legs?.find((item) => item.id === legId);
+    if (!leg) return;
+    const from = cityById(leg.fromId), to = cityById(leg.toId);
+    if (!from || !to || (mode !== 'auto' && !listJourneyModes(from, to, leg.distanceKm).some((item) => item.mode === mode))) return;
+    if (getJourneyModePreference(plan, legId, from, to) === mode) return;
+    try {
+      const transportModes = { ...(plan.transportModes || {}) };
+      if (mode === 'auto') delete transportModes[legId];
+      else transportModes[legId] = { fromId: from.id, toId: to.id, mode };
+      const isReturn = legId === 'leg-return';
+      const affected = isReturn ? plan.stops.length - 1 : Number(legId.replace('leg-', ''));
+      let clearedTime = false;
+      let next = { ...plan, transportModes, stops: plan.stops.map((stop, index) => {
+        if (index !== affected) return stop;
+        const transportWindow = { ...(stop.transportWindow || {}) };
+        for (const key of isReturn ? ['departureLeaveTime'] : ['arrivalReadyTime', 'arrivalDayOffset']) {
+          if (transportWindow[key] !== undefined) clearedTime = true;
+          delete transportWindow[key];
+        }
+        return { ...stop, transportWindow };
+      }) };
+      next.stops = suggestJourneyStops(next, cities, { automaticOnly: true });
+      const retained = preserveUnchangedQuotes(plan, next, cities, rates);
+      setPlan({ ...next, overrides: retained.overrides });
+      setToast(`交通方式已更新，路费与可游览时间同步计算${retained.resetIds.length ? '；受影响费用需重新核对' : ''}${clearedTime ? '；原段已订时间已恢复自动预留' : ''}`);
+    } catch (error) { setToast(error.message || '交通方式暂未更新，请稍后再试'); }
+  }
   function addCustomAttraction(index, attraction, dayIndex) {
     const previous = plan.stops[index];
     try {
@@ -836,7 +871,7 @@ export default function App() {
   }
   function createProject({ name, cityId, days, daysSource = 'user', countryDraft }) {
     if (countryDraft) {
-      const next = { ...defaultPlan(catalogCities), originId: countryDraft.originId, departureDate: countryDraft.planDepartureDate || countryDraft.departureDate, returnTrip: countryDraft.returnTrip, currency: plan.currency, tier: plan.tier, travelers: plan.travelers, rooms: plan.rooms, mode: 'travel', stops: countryDraft.stops };
+      const next = { ...defaultPlan(catalogCities), originId: countryDraft.originId, departureDate: countryDraft.planDepartureDate || countryDraft.departureDate, returnTrip: countryDraft.returnTrip, currency: plan.currency, tier: plan.tier, travelers: plan.travelers, rooms: plan.rooms, mode: 'travel', stops: countryDraft.stops, transportModes: countryDraft.transportModes || {}, transportModelVersion: 2 };
       if (appendProject(name.trim() || `${countryDraft.countryName} · ${countryDraft.totalDays} 日之旅`, next)) setToast('国家路线已建立，可继续调整城市和景点');
       return;
     }
@@ -1124,7 +1159,7 @@ export default function App() {
     if (draft.stops.some(stop => existingIds.has(stop.cityId))) { setToast('部分城市已在旅程中，请重新预览国家路线'); return; }
     let retained;
     try {
-      const next = { ...plan, stops: [...plan.stops, ...draft.stops], mode: 'travel' };
+      const next = { ...plan, stops: [...plan.stops, ...draft.stops], mode: 'travel', transportModes: draft.transportModes || plan.transportModes || {}, transportModelVersion: 2 };
       if (next.stops.reduce((sum, stop) => sum + stop.days, 0) > 730) throw Error('完整行程最多支持 730 天');
       next.stops = suggestJourneyStops(next, cities, { automaticOnly: true });
       retained = preserveUnchangedQuotes(plan, next, cities, rates);
@@ -1232,27 +1267,15 @@ export default function App() {
           </button>
         </nav>
         <div className="header-right">
-          <label className="currency-select">
-            <Globe2 size={16} />
-            <select
-              aria-label="显示币种"
-              value={displayCurrency}
-              onChange={(e) => {
+          <CurrencySelect label="显示币种" value={displayCurrency} currencies={availableCurrencies} compact
+              onChange={(code) => {
                 if (independentModule) {
-                  setModuleCurrency(e.target.value);
-                  if (!persist("tusuan-display-currency", e.target.value))
+                  setModuleCurrency(code);
+                  if (!persist("tusuan-display-currency", code))
                     setToast("显示币种未能保存到浏览器");
-                } else changeCurrency(e.target.value);
+                } else changeCurrency(code);
               }}
-            >
-              {availableCurrencies.map((c) => (
-                <option key={c} value={c}>
-                  {c} · {CURRENCIES[c]}
-                </option>
-              ))}
-            </select>
-            <ChevronDown size={13} />
-          </label>
+          />
           <button
             className="saved-button"
             onClick={() => setModal({ type: "projects" })}
@@ -1300,7 +1323,7 @@ export default function App() {
               <p>
                 {plan.mode === "stay"
                   ? "从一个月的房租，到每天的咖啡。把新生活的成本，提前看清。"
-                  : "从第一张机票，到街角的一杯咖啡。让每一份向往，都有清晰的预算。"}
+                  : "从第一段旅程，到街角的一杯咖啡。让每一份向往，都有清晰的预算。"}
               </p>
               <div className="hero-foot">
                 <span>
@@ -1354,7 +1377,7 @@ export default function App() {
                   onClick={() => setModal({ type: "origin" })}
                 >
                   <span className="field-top">
-                    <Plane size={16} />
+                    <MapPin size={16} />
                     从哪里出发
                   </span>
                   <strong>
@@ -1461,7 +1484,7 @@ export default function App() {
                   </div>
                   <div className="route-start">
                     <span className="route-node">
-                      <Plane size={13} />
+                      <MapPin size={13} />
                     </span>
                     <span>
                       从 <strong>{origin.name}</strong> 出发
@@ -1598,13 +1621,6 @@ export default function App() {
                     </div>
                   )}
                 </section>
-                <JourneyTransport
-                  plan={plan}
-                  cities={cities}
-                  budget={budget}
-                  onChange={setTransportWindow}
-                />
-
                 <div
                   className="journey-tabs"
                   id="journey-content"
@@ -1848,13 +1864,13 @@ export default function App() {
                       .map((l) => (
                         <div className="booking-strip" key={l.id}>
                           <div>
-                            <Plane size={25} />
+                            {['high-speed-rail', 'rail'].includes(l.transportMode) ? <TrainFront size={25} /> : l.transportMode === 'boat' ? <Ship size={25} /> : l.transportMode === 'road' ? <Car size={25} /> : <Plane size={25} />}
                             <span>
                               <strong>
                                 {cityById(l.fromId).name} → {city.name}
                               </strong>
                               <small>
-                                {l.distanceKm.toLocaleString()} km ·
+                                {l.modeLabel || '城际交通'} · {l.distanceKm.toLocaleString()} km ·
                                 城际交通预算 {money(l.amount, plan.currency)}
                               </small>
                             </span>
@@ -2172,8 +2188,7 @@ export default function App() {
                   </div>
                   <div className="budget-cost-groups">
                     {(budget?.costGroups || []).map((g) => (
-                      <div key={g.id}>
-                        <span>
+                      <BudgetPopover key={g.id} label={`${g.label}明细`} className="budget-group-trigger" trigger={<><span>
                           {g.label}
                           {g.id === "daily" && (
                             <small>
@@ -2181,8 +2196,10 @@ export default function App() {
                             </small>
                           )}
                         </span>
-                        <strong>{g.missingPrice && !g.amount ? '待补充' : money(g.amount, plan.currency)}{g.missingPrice && g.amount > 0 ? ' + 待补充' : ''}</strong>
-                      </div>
+                        <strong>{g.missingPrice && !g.amount ? '待补充' : money(g.amount, plan.currency)}{g.missingPrice && g.amount > 0 ? ' + 待补充' : ''}</strong></>}>
+                        <BudgetLineDetails lines={lines.filter((line) => line.costGroup === g.id)} currency={plan.currency}
+                          onEditLine={editBudgetLine} />
+                      </BudgetPopover>
                     ))}
                   </div>
                   <div className="budget-chart" aria-label="费用分类占比">
@@ -2201,15 +2218,7 @@ export default function App() {
                   </div>
                   <div className="budget-category-list">
                     {categories.map((c, i) => (
-                      <button
-                        key={c.id}
-                        onClick={() => {
-                          setTab("costs");
-                          document
-                            .getElementById("journey-content")
-                            ?.scrollIntoView({ behavior: "smooth" });
-                        }}
-                      >
+                      <BudgetPopover key={c.id} label={`${c.label}明细`} wide={c.id === 'intercity'} className="budget-category-trigger" trigger={<>
                         <span>
                           <i
                             style={{
@@ -2224,7 +2233,13 @@ export default function App() {
                             : money(c.amount, plan.currency)}
                           <ChevronRight size={13} />
                         </strong>
-                      </button>
+                      </>}>
+                        {c.id === 'intercity' && <JourneyTransport plan={plan} cities={cities} budget={budget}
+                          onChange={setTransportWindow} onModeChange={setTransportMode} onEditLine={editBudgetLine} />}
+                        {c.id !== 'intercity' && <BudgetLineDetails lines={lines.filter((line) => line.category === c.id)} currency={plan.currency}
+                          onEditLine={editBudgetLine} />}
+                        {c.id === 'transfer' && <p className="budget-detail-note">接驳费与城际票价分开列出，均已计入总预算；在“城际交通”中选择飞机或铁路后，会同步更新对应的机场或车站接驳预留。</p>}
+                      </BudgetPopover>
                     ))}
                   </div>
                   <div className="reserve-setting">
@@ -2410,93 +2425,11 @@ export default function App() {
             </div>
           </div>
           {!!catalog.airportCities?.length && <div className="airport-discovery"><div><Plane size={24} /><div><strong>从这里，连接更多地方</strong><p>搜索 {cities.length.toLocaleString('zh-CN')} 处城市与机场所在地，加入旅行路线。已有攻略的目的地在下方展示。</p></div></div><button className="secondary-button" onClick={() => setModal({type:'airport-explore'})}>搜索全球目的地 <Search size={16} /></button></div>}
-          <div className="explore-toolbar">
-            <div className="filter-pills">
-              {["全部", ...REGIONS].map((r) => (
-                <button
-                  key={r}
-                  className={region === r ? "active" : ""}
-                  onClick={() => {
-                    setRegion(r);
-                    setCountryFilter("全部");
-                  }}
-                >
-                  {r === "全部" ? "整个世界" : r}
-                </button>
-              ))}
-            </div>
-            <select
-              className="city-sort"
-              aria-label="筛选国家或地区"
-              value={countryFilter}
-              onChange={(e) => setCountryFilter(e.target.value)}
-            >
-              <option value="全部">全部国家与地区</option>
-              {[
-                ...new Set(
-                  detailedCities
-                    .filter((c) => region === "全部" || c.region === region)
-                    .map((c) => c.country),
-                ),
-              ]
-                .sort((a, b) => a.localeCompare(b, "zh-CN"))
-                .map((country) => (
-                  <option key={country}>{country}</option>
-                ))}
-            </select>
-            <div className="search-box">
-              <Search size={17} />
-              <input
-                placeholder="搜索城市、地区或旅行特色"
-                aria-label="搜索目的地"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
-            </div>
-            <select
-              className="city-sort"
-              aria-label="城市排序"
-              value={citySort}
-              onChange={(e) => setCitySort(e.target.value)}
-            >
-              <option value="featured">精选顺序</option>
-              <option value="cost-low">日常成本从低到高</option>
-              <option value="cost-high">日常成本从高到低</option>
-            </select>
-          </div>
-          <div className="explore-grid">
-            {detailedCities
-              .filter(
-                (c) =>
-                  (region === "全部" || c.region === region) &&
-                  (countryFilter === "全部" || c.country === countryFilter) &&
-                  [c.name, c.nameEn, c.country, c.subdivision, ...(c.tags || []), ...(c.searchAliases || [])]
-                    .join(" ")
-                    .toLowerCase()
-                    .includes(query.toLowerCase()),
-              )
-              .sort((a, b) => {
-                const daily = (c) =>
-                  convert(
-                    c.daily.lodging[0] / 2 +
-                      c.daily.food[0] +
-                      c.daily.transport[0] +
-                      c.daily.misc[0],
-                    c.currency,
-                    plan.currency,
-                    rates,
-                  );
-                return citySort === "cost-low"
-                  ? daily(a) - daily(b)
-                  : citySort === "cost-high"
-                    ? daily(b) - daily(a)
-                    : 0;
-              })
-              .map((c) => (
+          <DestinationGallery cities={detailedCities} currency={displayCurrency} rates={rates} renderCity={(c) => (
                 <article key={c.id} className="explore-card">
                   <div className="explore-photo">
                     <Photo image={c.image} alt={c.name} />
-                    <span>{c.country}</span>
+                    <span><CountryFlag code={c.countryCode} />{c.country}</span>
                     <button
                       className={
                         "compare-check " +
@@ -2572,8 +2505,7 @@ export default function App() {
                     </small>
                   </div>
                 </article>
-              ))}
-          </div>
+          )} />
           {compare.length > 0 && (
             <div className="compare-bar">
               <span>
@@ -2644,7 +2576,7 @@ export default function App() {
               </span>
             </div>
           </div>
-          {!!catalog.airportCoverage?.airportCount && <section className="panel data-principles"><h2>全球机场与城市名录</h2><p>收录 {catalog.airportCoverage.airportCount.toLocaleString('zh-CN')} 座机场、{catalog.airportCoverage.airportCityCount.toLocaleString('zh-CN')} 个城市或机场所在地，覆盖 {catalog.airportCoverage.countryCount} 个国家与地区。其中 {catalog.airportCoverage.scheduledCityCount.toLocaleString('zh-CN')} 处地点有定期航班记录。</p><p>{catalog.airportCoverage.note}</p><p className="small muted">来源：<OutLink href="https://ourairports.com/data/">OurAirports · 公有领域机场数据</OutLink> · 采集于 {catalog.airportCoverage.generatedAt?.slice(0,10)}。每 7 天随现有维护任务刷新；失败保留上次完整数据。最新检查状态：{(status?.airportCoverage || catalog.airportCoverage).maintenance?.status === 'error' ? '更新失败，保留旧数据' : '已有有效快照'}。</p></section>}
+          {!!catalog.airportCoverage?.airportCount && <section className="panel data-principles"><h2>全球机场与城市名录</h2><p>收录 {catalog.airportCoverage.airportCount.toLocaleString('zh-CN')} 座机场、{catalog.airportCoverage.airportCityCount.toLocaleString('zh-CN')} 个城市或机场所在地，覆盖 {catalog.airportCoverage.countryCount} 个国家与地区。</p><p>{catalog.airportCoverage.note}</p><p className="small muted">来源：<OutLink href="https://ourairports.com/data/">OurAirports · 公有领域机场数据</OutLink> · 采集于 {catalog.airportCoverage.generatedAt?.slice(0,10)}。每 7 天随现有维护任务刷新；失败保留上次完整数据。最新检查状态：{(status?.airportCoverage || catalog.airportCoverage).maintenance?.status === 'error' ? '更新失败，保留旧数据' : '已有有效快照'}。</p></section>}
           <section className="panel data-principles">
             <h2>理解你的预算</h2>
             <div className="principle-grid">
@@ -2986,7 +2918,7 @@ export default function App() {
             {
               key: "travelers",
               name: "成人",
-              desc: "机票、餐饮、门票按人数计算",
+              desc: "城际车票或机票、餐饮、门票按人数计算",
               icon: Users,
             },
             {

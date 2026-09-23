@@ -280,6 +280,14 @@
   line-height: 1.6;
   margin-top: 5px;
 }
+#living-monthly-title {
+  scroll-margin-top: 32px;
+}
+#living-monthly-title:focus-visible {
+  outline: 2px solid #779868;
+  outline-offset: 5px;
+  border-radius: 3px;
+}
 .living-estimate-badge {
   font-size: 12px;
   padding: 6px 10px;

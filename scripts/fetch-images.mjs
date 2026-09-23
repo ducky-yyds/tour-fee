@@ -41,7 +41,7 @@ async function saveLookups(){
   await writeFile(temp,JSON.stringify({savedAt:lookupCacheSince,modifiedAt:new Date().toISOString(),articles:Object.fromEntries(articleFileCache),metadata:Object.fromEntries(metadataCache)}));
   await rename(temp,LOOKUP_CACHE);
 }
-const canonicalFile = file => file.replaceAll('_', ' ');
+const canonicalFile = file => String(file || '').replaceAll('_', ' ');
 
 // Titles are curated for the exact place. These are not generic stock images.
 const citySources = {
@@ -387,6 +387,8 @@ manifest.attractions ||= {};
 // New catalog destinations become image jobs automatically. An exact Wikipedia
 // source URL in the catalog is preferred over the English display name.
 function catalogImageSource(entity) {
+  if (entity.photoFile) return { article: entity.article || entity.nameEn || entity.name, file: entity.photoFile };
+  if (entity.imagePolicy === 'exact-only') return {};
   try {
     const url = new URL(entity.image?.sourceUrl);
     if (url.hostname === 'en.wikipedia.org' && url.pathname.startsWith('/wiki/')) {
@@ -414,6 +416,7 @@ for (const city of catalog) {
   }
 }
 const excludedPhotos=new Set();
+for (const place of catalogPlaces.values()) if (place.imagePolicy === 'exact-only' && !place.photoFile) excludedPhotos.add(place.id);
 // Food records are maintained independently from places. A rejected or overly
 // broad article must never produce a misleading city/ingredient photograph.
 try {
@@ -448,6 +451,7 @@ const jobs = [
 
 async function isFresh(job) {
   const previous = manifest[job.group][job.id];
+  if (catalogPlaces.get(job.id)?.imagePolicy === 'exact-only' && (!previous?.subjectMatched || previous.scope !== 'exact-place' || canonicalFile(previous.fileTitle) !== canonicalFile(job.file))) return false;
   if (force || !previous?.checkedAt || Date.now() - Date.parse(previous.checkedAt) >= MAX_AGE) return false;
   try { return (await stat(path.join(ROOT, 'public', previous.url))).size > 1000; } catch { return false; }
 }
@@ -562,6 +566,7 @@ async function refresh(job) {
       ...(previous?.preferredWidth === 500 && job.group !== 'cities' ? { preferredWidth: 500 } : {}),
       ...(previous?.fileTitle && canonicalFile(previous.fileTitle) === canonicalFile(file)
         ? Object.fromEntries(['scope', 'contextNote', 'contextDistanceMeters'].filter(key => previous[key] !== undefined).map(key => [key, previous[key]])) : {}),
+      ...(catalogPlaces.get(job.id)?.imagePolicy === 'exact-only' ? { scope: 'exact-place', subjectMatched: true, requestedFileTitle: file, contextNote: catalogPlaces.get(job.id).imageContextNote } : {}),
     };
     updated++;
     networkFailureStreak=0;

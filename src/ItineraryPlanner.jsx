@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useId, useMemo, useRef, useState } from "react";
 import {
   ArrowDown,
@@ -1261,10 +1262,10 @@ function DurationEditor({ attraction, minutes, onChange }) {
     setDraft(String(minutes));
     setError("");
   }, [minutes]);
-  function applyDraft() {
-    const value = Number(draft);
+  function applyDraft(text = draft) {
+    const value = Number(text);
     if (
-      !draft.trim() ||
+      !text.trim() ||
       !Number.isInteger(value) ||
       value < 15 ||
       value > 720
@@ -1318,7 +1319,7 @@ function DurationEditor({ attraction, minutes, onChange }) {
       </div>
       <label className="duration-input-label">
         <span>自定时长</span>
-        <input
+        <EditableNumberInput
           type="number"
           aria-label={`${attraction.name}停留分钟`}
           min="15"
@@ -1331,7 +1332,7 @@ function DurationEditor({ attraction, minutes, onChange }) {
             setDraft(e.target.value);
             setError("");
           }}
-          onBlur={applyDraft}
+          onBlur={(event) => applyDraft(event.currentTarget.value)}
           onKeyDown={(e) => {
             if (e.key === "Enter") e.currentTarget.blur();
             if (e.key === "Escape") {
@@ -1649,7 +1650,7 @@ function CustomAttractionForm({ city, onSubmit, onCancel }) {
       <div className="custom-form-pair">
         <label>
           游览时长（分钟）
-          <input
+          <EditableNumberInput
             required
             type="number"
             min="15"
@@ -1661,7 +1662,7 @@ function CustomAttractionForm({ city, onSubmit, onCancel }) {
         </label>
         <label>
           每人门票（{city.currency}）
-          <input
+          <EditableNumberInput
             required
             type="number"
             min="0"
@@ -1690,7 +1691,8 @@ function CustomAttractionForm({ city, onSubmit, onCancel }) {
         <div className="custom-form-pair">
           <label>
             纬度
-            <input
+            <EditableNumberInput
+              emptyValue={null}
               type="number"
               min="-90"
               max="90"
@@ -1702,7 +1704,8 @@ function CustomAttractionForm({ city, onSubmit, onCancel }) {
           </label>
           <label>
             经度
-            <input
+            <EditableNumberInput
+              emptyValue={null}
               type="number"
               min="-180"
               max="180"

@@ -4,7 +4,7 @@ import { ROOT, readSnapshot, sourceStatuses, recentObservations } from './db.mjs
 import { DATA_SOURCES } from './sources.mjs';
 import { MAINTENANCE_CONFIG } from './maintenance.mjs';
 import { readExperienceEntries } from './experience-catalog.mjs';
-import { normalizedMunicipality, compatibleCuratedAirport } from '../shared/airport-data.mjs';
+import { createCuratedAirportResolver } from '../shared/airport-data.mjs';
 import { cardImage } from '../shared/media.mjs';
 
 // Reproducible reference snapshot actually retrieved from Frankfurter on this date.
@@ -37,19 +37,9 @@ export function getAirportInventory() {
     // Destination additions can be published between airport-source refreshes.
     // Match declared municipalities, never merge places merely sharing a gateway.
     if (airportLinkCache?.snapshot !== cityFile || airportLinkCache.curated !== curated || airportLinkCache.links !== links) {
-      const ids = new Set(curated.map(city => city.id));
-      const byName = new Map(curated.map(city => [`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`, city.id]));
-      const explicit = new Map((links.links || []).flatMap(link => {
-        const city = curated.find(item => item.id === link.cityId);
-        return city ? (link.airportCodes || []).map(code => [`${city.countryCode}|${code}`, city.id]) : [];
-      }));
+      const resolveCuratedCity = createCuratedAirportResolver(curated, links.links || []);
       const cities = (Array.isArray(cityFile?.cities) ? cityFile.cities : []).map(city => {
-        const linked = (city.airportCodes || []).map(code => explicit.get(`${city.countryCode}|${code}`)).find(Boolean);
-        const previous = ids.has(city.curatedCityId) && curated.find(item => item.id === city.curatedCityId);
-        const namedId = city.nameKind === 'municipality' ? byName.get(`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`) : null;
-        const named = namedId && curated.find(item => item.id === namedId);
-        const curatedCityId = linked || (compatibleCuratedAirport(previous, city) ? previous.id : null) ||
-          (compatibleCuratedAirport(named, city) ? named.id : null);
+        const curatedCityId = resolveCuratedCity(city);
         return curatedCityId === city.curatedCityId ? city : { ...city, curatedCityId };
       });
       airportLinkCache = { snapshot: cityFile, curated, links, cities };
@@ -157,8 +147,13 @@ export function getCatalog() {
     return item ? { ...sample, amount: item.amount, checkedAt: current.updatedAt, updateType: 'automated-official' } : { ...sample, updateType: 'manually-verified' };
   });
   const curatedIds = new Set(cities.map(city => city.id));
+  // Published separately from public destination choices so saved aircity-*
+  // origins/stops can retain their keys while resolving to maintained content.
+  const airportCityAliases = Object.fromEntries(inventory.cities
+    .filter(city => city.curatedCityId && curatedIds.has(city.curatedCityId))
+    .map(city => [city.id, city.curatedCityId]));
   const airportCities = inventory.cities.filter(city => !city.curatedCityId || !curatedIds.has(city.curatedCityId)).map(city => ({ id: city.id, name: city.name, ...(city.nameEn !== city.name ? { nameEn: city.nameEn } : {}), nameKind: city.nameKind, country: city.country, countryCode: city.countryCode, isoRegion: city.isoRegion, subdivision: city.subdivision, region: city.region, lat: city.lat, lng: city.lng, iata: city.iata, airportCodes: city.airportCodes, airportCount: city.airportIds?.length || 0, scheduledService: city.scheduledService, coverage: city.coverage, sourceUrl: city.sourceUrl, coordinateBasis: city.coordinateBasis }));
-  return { cities, airportCities, airportCoverage: airportCoverage(inventory, cities), rates, priceSamples, experienceMaintenance: { catalogCheckedAt: experiences.map(e => e.checkedAt).filter(date => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(date)).sort().at(-1) || null, placeCount: experiences.length, coveredCityCount: new Set(experiences.map(e => e.cityId)).size, categoryCounts: Object.fromEntries(['restaurant', 'hotel', 'experience'].map(kind => [kind, experiences.filter(e => e.kind === kind).length])), optionCount: experiences.reduce((n, e) => n + e.priceOptions.length, 0), audit, note: '具体地点资料来自公开官方页面；固定菜单和票价按标注日期核验。酒店及未公布套餐为规划区间，未连接实时房态或库存。' }, sources: [...configured, ...sourceList.filter(s => !configured.some(c => c.id === s.id))], lastUpdated, providerStatus: PROVIDER_STATUS };
+  return { cities, airportCities, airportCityAliases, airportCoverage: airportCoverage(inventory, cities), rates, priceSamples, experienceMaintenance: { catalogCheckedAt: experiences.map(e => e.checkedAt).filter(date => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}/.test(date)).sort().at(-1) || null, placeCount: experiences.length, coveredCityCount: new Set(experiences.map(e => e.cityId)).size, categoryCounts: Object.fromEntries(['restaurant', 'hotel', 'experience'].map(kind => [kind, experiences.filter(e => e.kind === kind).length])), optionCount: experiences.reduce((n, e) => n + e.priceOptions.length, 0), audit, note: '具体地点资料来自公开官方页面；固定菜单和票价按标注日期核验。酒店及未公布套餐为规划区间，未连接实时房态或库存。' }, sources: [...configured, ...sourceList.filter(s => !configured.some(c => c.id === s.id))], lastUpdated, providerStatus: PROVIDER_STATUS };
 }
 export function dataStatus() {
   const catalog = getCatalog();

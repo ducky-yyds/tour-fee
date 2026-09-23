@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -190,7 +191,7 @@ function placeMedia(item, city, sight) {
     !sight && typeof item.imageRef === "string"
       ? city.attractions?.find((a) => a.id === item.imageRef)
       : null;
-  const image = item.image?.url
+  const image = item.image?.url || item.image?.scope === 'unavailable'
     ? item.image
     : related?.image?.url
       ? related.image
@@ -212,7 +213,7 @@ function PlaceImage({ item, city, sight = false, className = "" }) {
     <div className={`ch-place-photo ${className}`}>
       <Photo
         image={image}
-        alt={context ? `${item.name} · ${context}` : item.name}
+        alt={image?.scope === 'unavailable' ? item.name : context ? `${item.name} · ${context}` : item.name}
       />
     </div>
   );
@@ -441,6 +442,7 @@ export default function CityHome({
       setDayError("已有餐厅或体验安排在之后的日期，请先移除或调整这些项目");
       return false;
     }
+    setDaysText(String(days));
     setDraft((previous) => ({ ...previous, days, daysSource }));
     return true;
   }
@@ -917,7 +919,7 @@ export default function CityHome({
               停留多久
             </span>
             <div>
-              <input
+              <EditableNumberInput
                 aria-label="城市停留天数"
                 type="number"
                 min="1"
@@ -925,9 +927,9 @@ export default function CityHome({
                 step="1"
                 value={daysText}
                 onChange={(e) => setDaysText(e.target.value)}
-                onBlur={() => changeDays(daysText)}
+                onBlur={(e) => changeDays(e.currentTarget.value)}
                 onKeyDown={(e) => {
-                  if (e.key === "Enter") changeDays(daysText);
+                  if (e.key === "Enter") e.currentTarget.blur();
                 }}
               />
               <span>天</span>

@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "yanan",
+    "name": "延安",
+    "nameEn": "Yan’an",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-61",
+    "lat": 36.5853,
+    "lng": 109.4894,
+    "iata": "ENY",
+    "article": "Yan'an",
+    "photoFile": "宝塔山和宝塔桥.jpg",
+    "image": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%AE%9D%E5%A1%94%E5%B1%B1%E5%92%8C%E5%AE%9D%E5%A1%94%E6%A1%A5.jpg"
+    },
+    "tagline": "在窑洞院落和革命展馆里理解历史，再去宝塔山看延河，晚上留给老城的陕北小吃。",
+    "description": "在窑洞院落和革命展馆里理解历史，再去宝塔山看延河，晚上留给老城的陕北小吃。",
+    "tags": [
+      "历史文化",
+      "街区慢游",
+      "地方饮食"
+    ],
+    "officialTourismUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+    "sourceReferences": [
+      {
+        "name": "目的地文旅指南",
+        "url": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "老城、王家坪、杨家岭与枣园沿河谷分布，可结合公交和出租车；枣园往返、北部新区及南部红街应单独留车程。南泥湾机场是城外接驳点，不当作市中心景点。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        340,
+        850
+      ],
+      "food": [
+        55,
+        120,
+        260
+      ],
+      "transport": [
+        15,
+        55,
+        150
+      ],
+      "misc": [
+        20,
+        45,
+        100
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1000,
+        2200,
+        4500
+      ],
+      "utilities": [
+        180,
+        350,
+        650
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端三档为规划估算，不是酒店或餐馆实时报价，也不是市场最低与最高价。住宿每间每晚，餐饮交通杂项每成人每天，月租水电每间每月；节假日与特殊项目另行核价。"
+    },
+    "transportNote": "老城、王家坪、杨家岭与枣园沿河谷分布，可结合公交和出租车；枣园往返、北部新区及南部红街应单独留车程。南泥湾机场是城外接驳点，不当作市中心景点。",
+    "guide": {
+      "cityId": "yanan",
+      "intro": "在窑洞院落和革命展馆里理解历史，再去宝塔山看延河，晚上留给老城的陕北小吃。",
+      "foodHighlights": [
+        {
+          "name": "荞面饸饹",
+          "description": "荞面压成细长面条，可搭配热汤和臊子。先问清楚汤底与肉类，再按一碗主食安排；这是一顿正餐，不只是尝一口的小吃。"
+        },
+        {
+          "name": "洋芋擦擦",
+          "description": "土豆擦成细条、拌面蒸熟，松散的口感很有陕北家常味。店家可再炒或拌调料，适合两人分一盘搭配其他菜。"
+        },
+        {
+          "name": "子长煎饼",
+          "description": "以荞麦面摊成的薄煎饼，常配不同馅料和蘸汁卷食。它与天津煎饼果子的厚薄、吃法都不同，可在延安市区寻找专做陕北小吃的店。"
+        },
+        {
+          "name": "黄米馍馍",
+          "description": "黄米做成的蒸制主食，带着杂粮的香气。早餐或正餐都可搭配，购买时询问甜咸与馅料；各家做法和大小不完全一样。"
+        },
+        {
+          "name": "陕北油馍馍",
+          "description": "糜子加工的米面经发酵、揉制后油炸，常做成中间有孔的环形。外层酥香、内部绵软，适合买一两个现做的慢慢尝。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "二道街夜市与老城小吃",
+          "description": "晚上在老城挑几样陕北小吃，看看面食、杂粮和街边摊怎样融入当地人的日常。可以只散步，也可将原本的晚餐放到这里，不必再增加一份完整晚餐预算。"
+        }
+      ],
+      "experienceIntro": "先选真正感兴趣的内容，再留出通勤、用餐和休息时间；小街区也能成为旅程中值得停留的一站。"
+    },
+    "attractions": [
+      {
+        "id": "yanan-revolutionary-memorial",
+        "name": "延安革命纪念馆",
+        "nameEn": "Yan’an Revolutionary Memorial Hall",
+        "lat": 36.6042,
+        "lng": 109.4736,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "先用一场展览梳理延安时期的历史，再去旧址看窑洞和礼堂，会更容易理解这座城市。可把纪念馆与相邻的王家坪安排在同半天；入馆前完成预约。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "宝塔 延安革命纪念馆 02.jpg"
+      },
+      {
+        "id": "yanan-yangjialing",
+        "name": "杨家岭革命旧址",
+        "nameEn": "Yangjialing Revolutionary Site",
+        "lat": 36.6191,
+        "lng": 109.4626,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "从中央大礼堂走到山坡上的窑洞院落，了解中共七大和延安文艺座谈会的背景。坡道与台阶需要慢慢走，适合在参观展馆后留出一段户外时间。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "宝塔 杨家岭革命旧址 05.jpg"
+      },
+      {
+        "id": "yanan-zaoyuan",
+        "name": "枣园革命旧址",
+        "nameEn": "Zaoyuan Revolutionary Site",
+        "lat": 36.628,
+        "lng": 109.416,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "树木与院落之间保存着书记处礼堂、旧居等建筑，适合沿步道逐一参观。这里位于老城西北，与杨家岭之间仍需乘车，不能当作同一街区随手走到。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sxggwhy.com/news/detail?id=681970889d2be52aacedf52a",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "延安枣园 中共中央书记处礼堂 Zao Yuan, Yan'an - panoramio.jpg"
+      },
+      {
+        "id": "yanan-wangjiaping",
+        "name": "王家坪革命旧址",
+        "nameEn": "Wangjiaping Revolutionary Site",
+        "lat": 36.6073,
+        "lng": 109.475,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "在军委礼堂和旧居院落里了解中央军委与八路军总部在延安时期的工作。与延安革命纪念馆相邻，可以一起安排，也可以只挑自己感兴趣的展线慢慢看。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://wlt.xizang.gov.cn/ztzl_69/red_lvyou/202507/t20250722_491124.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://wlt.xizang.gov.cn/ztzl_69/red_lvyou/202507/t20250722_491124.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://wlt.xizang.gov.cn/ztzl_69/red_lvyou/202507/t20250722_491124.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "宝塔 王家坪革命旧址 01.jpg"
+      },
+      {
+        "id": "yanan-baota-hill",
+        "name": "宝塔山",
+        "nameEn": "Baota Hill",
+        "lat": 36.5868,
+        "lng": 109.4922,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 45,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "登上山坡看延河转弯、老城屋顶与黄土山梁，再走近延安地标宝塔。爬坡和停留观景都需要时间，体力有限时可单独查询观光车；景区门票免费不包含登塔。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.sina.cn/news/detail/5250637686115765.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.sina.cn/news/detail/5250637686115765.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "宝塔山景区预约提示（延安网信）",
+            "url": "https://m.thepaper.cn/newsDetail_forward_32637118",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "verified",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.sina.cn/news/detail/5250637686115765.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "陕西省文化和旅游厅 2026 年 1 月发布：景区门票向国内外游客免费；登塔、观光车、讲解另付。分时预约见“宝塔山景区”公众号。"
+        },
+        "photoFile": "宝塔山和宝塔桥.jpg"
+      },
+      {
+        "id": "yanan-fenghuang-revolutionary-site",
+        "name": "凤凰山革命旧址",
+        "nameEn": "Fenghuangshan Revolutionary Site",
+        "lat": 36.5987,
+        "lng": 109.4822,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 65,
+        "description": "凤凰山脚下的院落与窑洞是中共中央初到延安时的驻地之一。这里适合对革命历史有兴趣的游客继续深入；参观旧址与登凤凰山是两件事，不把整座山的时间算作旧址参观。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://yajs.yau.edu.cn/info/1044/1106.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://yajs.yau.edu.cn/info/1044/1106.htm",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://yajs.yau.edu.cn/info/1044/1106.htm",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        }
+      },
+      {
+        "id": "yanan-erdao-street",
+        "name": "二道街夜市与老城小吃",
+        "nameEn": "Erdao Street Evening Food Walk",
+        "lat": 36.5941,
+        "lng": 109.4842,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区与饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 65,
+        "description": "晚上在老城挑几样陕北小吃，看看面食、杂粮和街边摊怎样融入当地人的日常。可以只散步，也可将原本的晚餐放到这里，不必再增加一份完整晚餐预算。",
+        "features": [
+          "街区与饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.shaanxi.gov.cn/xw/ztzl/zxzt/jjsxtjzfznzbhfgfgg/gzjb/202310/P020231011623250635473.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.shaanxi.gov.cn/xw/ztzl/zxzt/jjsxtjzfznzbhfgfgg/gzjb/202310/P020231011623250635473.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.shaanxi.gov.cn/xw/ztzl/zxzt/jjsxtjzfznzbhfgfgg/gzjb/202310/P020231011623250635473.pdf",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "公共空间散步不计门票；餐饮、购物、收费展馆及体验另外核价。"
+        },
+        "photoFile": "延安二道街夜市 1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "tianjin",
+    "name": "天津",
+    "nameEn": "Tianjin",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-12",
+    "lat": 39.12,
+    "lng": 117.2,
+    "iata": "TSN",
+    "article": "Tianjin",
+    "photoFile": "津湾广场1.jpg",
+    "image": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B4%A5%E6%B9%BE%E5%B9%BF%E5%9C%BA1.jpg"
+    },
+    "tagline": "把海河两岸的洋楼、五大道的树影和一顿热腾腾的天津早点，排成不用赶路的城市假期。",
+    "description": "把海河两岸的洋楼、五大道的树影和一顿热腾腾的天津早点，排成不用赶路的城市假期。",
+    "tags": [
+      "历史文化",
+      "街区慢游",
+      "地方饮食"
+    ],
+    "officialTourismUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+    "sourceReferences": [
+      {
+        "name": "目的地文旅指南",
+        "url": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "市区以地铁和步行为主，海河两岸按相邻片区游览；天津站、天津西站、天津南站位置不同，需核对实际到达站。滨海新区、国家海洋博物馆与蓟州应单独留一日，不并入老城步行路线。"
+    },
+    "daily": {
+      "lodging": [
+        190,
+        450,
+        1250
+      ],
+      "food": [
+        65,
+        150,
+        340
+      ],
+      "transport": [
+        20,
+        60,
+        170
+      ],
+      "misc": [
+        25,
+        55,
+        130
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        3300,
+        7500
+      ],
+      "utilities": [
+        220,
+        450,
+        800
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端三档为规划估算，不是酒店或餐馆实时报价，也不是市场最低与最高价。住宿每间每晚，餐饮交通杂项每成人每天，月租水电每间每月；节假日与特殊项目另行核价。"
+    },
+    "transportNote": "市区以地铁和步行为主，海河两岸按相邻片区游览；天津站、天津西站、天津南站位置不同，需核对实际到达站。滨海新区、国家海洋博物馆与蓟州应单独留一日，不并入老城步行路线。",
+    "guide": {
+      "cityId": "tianjin",
+      "intro": "把海河两岸的洋楼、五大道的树影和一顿热腾腾的天津早点，排成不用赶路的城市假期。",
+      "foodHighlights": [
+        {
+          "name": "天津煎饼果子",
+          "description": "摊开的薄饼配鸡蛋和酥脆馃子或馃箅儿，卷起后趁热吃。点单时说明选油条还是薄脆，以及是否加辣；早餐一份通常已是主食。"
+        },
+        {
+          "name": "锅巴菜",
+          "description": "切成条片的煎饼浸在咸香卤汁里，配麻酱、香菜等调味。它虽叫“菜”，却是天津早点的代表，可以与一小份烧饼搭配。"
+        },
+        {
+          "name": "狗不理包子",
+          "description": "天津传统包子的代表，常见猪肉等馅料。老字号门店与不同套餐价格差别较大，先看每笼数量和菜单，再决定单点还是套餐。"
+        },
+        {
+          "name": "耳朵眼炸糕",
+          "description": "糯米面裹豆沙后油炸，外层酥脆、内里软糯。适合作为街区散步的一份甜点，现吃与礼盒购买的计价方式不同。"
+        },
+        {
+          "name": "十八街麻花",
+          "description": "多股面条拧成的酥脆麻花，夹馅与规格有多种选择。可先尝小份再买伴手礼，按重量或盒计价时要核对净含量。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "意式风情区与马可波罗广场",
+          "description": "从马可波罗广场向周围街道散步，看历史建筑外立面，再选一间咖啡店休息。它是海河沿岸的一片街区，故居展馆和餐饮各自营业，不应把整片区域当作一张通票景区。"
+        },
+        {
+          "name": "古文化街",
+          "description": "在牌楼、彩绘店铺与民俗商店之间认识天津的市井趣味，挑几件泥人、风筝或地方点心。沿街逛逛可免费，天后宫、演出与手作项目按各自规则购票。"
+        },
+        {
+          "name": "津湾广场与解放桥海河散步",
+          "description": "站在津湾广场看解放桥和天津站，再沿海河步道走一小段。日落前后适合停下来拍照和休息；桥梁开合与灯光活动有单独安排，不承诺每天都有。"
+        },
+        {
+          "name": "西北角早点街区",
+          "description": "早晨在西北角附近寻找锅巴菜、煎饼果子等早点，按胃口点小份搭配。节假日热门摊位常排队，这一站可以直接承接早餐，不再重复加一餐。"
+        }
+      ],
+      "experienceIntro": "先选真正感兴趣的内容，再留出通勤、用餐和休息时间；小街区也能成为旅程中值得停留的一站。"
+    },
+    "attractions": [
+      {
+        "id": "tianjin-five-avenues",
+        "name": "五大道与民园广场",
+        "nameEn": "Five Great Avenues and Minyuan Square",
+        "lat": 39.1111,
+        "lng": 117.1993,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "建筑与街区",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "以民园广场为起点，沿重庆道、大理道等街道看洋楼、树影与街角咖啡店。适合步行慢逛，进入故居、博物馆或乘马车另行购票；不需要一口气走遍所有街道。",
+        "features": [
+          "建筑与街区",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "民园体育场.jpg"
+      },
+      {
+        "id": "tianjin-italian-quarter",
+        "name": "意式风情区与马可波罗广场",
+        "nameEn": "Italian Style Town",
+        "lat": 39.1362,
+        "lng": 117.1905,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "建筑与街区",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 65,
+        "description": "从马可波罗广场向周围街道散步，看历史建筑外立面，再选一间咖啡店休息。它是海河沿岸的一片街区，故居展馆和餐饮各自营业，不应把整片区域当作一张通票景区。",
+        "features": [
+          "建筑与街区",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://en.tj.gov.cn/Life/TravelinginTianjin/202312/t20231227_6492581.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://en.tj.gov.cn/Life/TravelinginTianjin/202312/t20231227_6492581.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://en.tj.gov.cn/Life/TravelinginTianjin/202312/t20231227_6492581.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "公共空间散步不计门票；餐饮、购物、收费展馆及体验另外核价。"
+        },
+        "photoFile": "天津意式风情区街景.jpg",
+        "imageContextNote": "意式风情区民族路与马可波罗广场一带街景；沿街展馆、餐饮的营业安排分别查询。"
+      },
+      {
+        "id": "tianjin-ancient-culture-street",
+        "name": "古文化街",
+        "nameEn": "Ancient Culture Street",
+        "lat": 39.1441,
+        "lng": 117.1792,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "传统街区",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 65,
+        "description": "在牌楼、彩绘店铺与民俗商店之间认识天津的市井趣味，挑几件泥人、风筝或地方点心。沿街逛逛可免费，天后宫、演出与手作项目按各自规则购票。",
+        "features": [
+          "传统街区",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=34789",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "文化和旅游部数据中心：古文化街",
+            "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=34789",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tj.gov.cn/sq/yztj/jqjs/202005/t20200520_2467987.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "公共空间散步不计门票；餐饮、购物、收费展馆及体验另外核价。"
+        },
+        "photoFile": "Tianjin Guwenhua Jie-20150522-RM-120620.jpg"
+      },
+      {
+        "id": "tianjin-jinwan-riverside",
+        "name": "津湾广场与解放桥海河散步",
+        "nameEn": "Jinwan Plaza and Jiefang Bridge Riverside",
+        "lat": 39.1316,
+        "lng": 117.2037,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "滨水漫步",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 65,
+        "description": "站在津湾广场看解放桥和天津站，再沿海河步道走一小段。日落前后适合停下来拍照和休息；桥梁开合与灯光活动有单独安排，不承诺每天都有。",
+        "features": [
+          "滨水漫步",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "公共空间散步不计门票；餐饮、购物、收费展馆及体验另外核价。"
+        },
+        "photoFile": "津湾广场1.jpg"
+      },
+      {
+        "id": "tianjin-museum",
+        "name": "天津博物馆",
+        "nameEn": "Tianjin Museum",
+        "lat": 39.0836,
+        "lng": 117.2017,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "用地方历史和馆藏艺术品补上“天津为何成为天津”的故事。先挑一到两个最感兴趣的展厅，参观后还能在文化中心广场休息；基本陈列免费，部分特展另付。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.tjbwg.cn/cn/Ticketing.aspx",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.tjbwg.cn/cn/Ticketing.aspx",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "verified",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.tjbwg.cn/cn/Ticketing.aspx",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "天津博物馆冬1.jpg"
+      },
+      {
+        "id": "tianjin-zhou-deng-memorial",
+        "name": "周恩来邓颖超纪念馆",
+        "nameEn": "Zhou Enlai and Deng Yingchao Memorial Hall",
+        "lat": 39.0917,
+        "lng": 117.1639,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "priority": 90,
+        "description": "通过文献、照片和实物了解周恩来、邓颖超的经历。馆区靠近水上公园，适合把展览与户外休息放在同一天；请提前选择可预约的参观时段。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://www.mzhoudeng.com/html/visit-guide/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://www.mzhoudeng.com/html/visit-guide/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.mzhoudeng.com/html/visit-guide/index.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "Memorial to Zhou Enlai and Deng Yingchao 1.jpg"
+      },
+      {
+        "id": "tianjin-awakening-society",
+        "name": "觉悟社纪念馆",
+        "nameEn": "Awakening Society Memorial",
+        "lat": 39.1634,
+        "lng": 117.1908,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 65,
+        "description": "走进一座规模不大的旧址院落，了解五四运动时期天津青年的思想探索。适合对近代史有兴趣的游客加入河北区行程，预约和开放安排先向纪念馆确认。",
+        "features": [
+          "历史文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://whly.tj.gov.cn/XWDTYXWZX6562/gzdtnew/202407/t20240704_6668402.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://whly.tj.gov.cn/XWDTYXWZX6562/gzdtnew/202407/t20240704_6668402.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whly.tj.gov.cn/XWDTYXWZX6562/gzdtnew/202407/t20240704_6668402.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "基本参观按免费预留；实名预约、开放范围、讲解或特展费用以场馆当日公告为准。"
+        },
+        "photoFile": "觉悟社旧址.jpg"
+      },
+      {
+        "id": "tianjin-xibeijiao-breakfast",
+        "name": "西北角早点街区",
+        "nameEn": "Xibeijiao Breakfast Walk",
+        "lat": 39.1503,
+        "lng": 117.1668,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "片区或建筑近似位置，用于安排相邻游览点；请从预约凭证核对实际入口。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区与饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 65,
+        "description": "早晨在西北角附近寻找锅巴菜、煎饼果子等早点，按胃口点小份搭配。节假日热门摊位常排队，这一站可以直接承接早餐，不再重复加一餐。",
+        "features": [
+          "街区与饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "按开放日、预约时段与天气安排；推荐用时不包含前往该处的交通。",
+        "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "场馆或目的地公开资料",
+            "url": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": null,
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whly.tj.gov.cn/tjswlzxw/ztzl1/zthgc/sshzjcjn/202501/t20250118_6837846.html",
+          "sourceName": "场馆/目的地公开信息",
+          "note": "公共空间散步不计门票；餐饮、购物、收费展馆及体验另外核价。"
+        }
+      }
+    ]
+  }
+]

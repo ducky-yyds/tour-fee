@@ -4,7 +4,7 @@
  * All duration/fare coefficients below are editorial planning assumptions.
  */
 export const RAIL_REVIEWED_AT = '2026-09-23';
-const china = ['beijing','shanghai','chengdu','xian','hangzhou','guangzhou','chongqing','jinan','zhengzhou','xiamen','qingdao','dali','lijiang','guilin','luoyang','quanzhou','nanjing','suzhou','shenzhen','changsha','wuhan','harbin','zhangjiajie'];
+const china = ['beijing','shanghai','chengdu','xian','hangzhou','guangzhou','chongqing','jinan','zhengzhou','xiamen','qingdao','dali','lijiang','guilin','luoyang','quanzhou','nanjing','suzhou','shenzhen','changsha','wuhan','harbin','zhangjiajie','nanchang','tianjin','zunyi','yanan'];
 const chinaConventional = china.filter(cityId => cityId !== 'quanzhou');
 const japan = ['tokyo','kyoto','osaka','fukuoka','hiroshima'];
 const make = (id, cities, modes, currency, sourceName, sourceUrl, fastSpeed, railSpeed, fastRates, railRates, extra = {}) => ({
@@ -76,14 +76,16 @@ const ANCHORS = {
   'portland|seattle': { km: 300, rail: 215 },
   'los-angeles|san-diego': { km: 205, rail: 180 },
 };
-const anchorKey = (from, to) => [from.id, to.id].sort().join('|');
+const cityId = city => city?.canonicalCityId || city?.id;
+const anchorKey = (from, to) => [cityId(from), cityId(to)].sort().join('|');
 // Normalize the small manually-maintained anchor table once, so author order
 // never changes whether the reverse trip uses the same estimate.
 const anchors = new Map(Object.entries(ANCHORS).map(([key, value]) => [key.split('|').sort().join('|'), value]));
 
 export function railConnection(from, to, mode) {
-  if (!from?.id || !to?.id || from.id === to.id) return null;
-  const network = RAIL_NETWORKS.find(row => row.modes.includes(mode) && row.cities.includes(from.id) && row.cities.includes(to.id));
+  const fromId = cityId(from), toId = cityId(to);
+  if (!fromId || !toId || fromId === toId) return null;
+  const network = RAIL_NETWORKS.find(row => row.modes.includes(mode) && row.cities.includes(fromId) && row.cities.includes(toId));
   return network ? { ...network, anchor: anchors.get(anchorKey(from, to)), sourceUrl: network.sourceUrls?.[mode] || network.sourceUrl } : null;
 }
 

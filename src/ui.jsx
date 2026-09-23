@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useRef, useState } from "react";
 import { assetUrl } from "./api.mjs";
 import { X, MapPin, Check, ArrowUpRight, ImageOff } from "lucide-react";
@@ -189,7 +190,8 @@ export function LineEditor({ line, currency, onApply, onReset, onClose }) {
       <label className="field-label" htmlFor="actual-amount">
         录入这整个项目的总价（{currency}）
       </label>
-      <input
+      <EditableNumberInput
+        emptyValue={null}
         id="actual-amount"
         className="large-input"
         type="number"

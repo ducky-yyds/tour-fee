@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowUpRight,
@@ -58,7 +59,7 @@ function NumberField({
     <label className="living-number-field">
       <span>{label}</span>
       <span className="living-input-wrap">
-        <input
+        <EditableNumberInput
           aria-label={label}
           type="number"
           inputMode={step === 1 ? "numeric" : "decimal"}
@@ -97,6 +98,8 @@ export default function LivingPage({
   const [picker, setPicker] = useState(null);
   const [editor, setEditor] = useState("home");
   const [storageSaved, setStorageSaved] = useState(false);
+  const [ledgerRequest, setLedgerRequest] = useState(0);
+  const ledgerTitleRef = useRef(null);
   const storageErrorReported = useRef(false);
   const city = cities.find((item) => item.id === state.cityId) || cities[0];
   const preferences = normalizeLivingPreferences(state.byCity[city?.id]);
@@ -124,6 +127,23 @@ export default function LivingPage({
     }
   }, [state]);
 
+  useEffect(() => {
+    if (!ledgerRequest || !ledgerTitleRef.current) return;
+    // Wait for the selected city's amounts to render, then reveal the ledger.
+    // A separate request also handles opening the already-selected city again.
+    ledgerTitleRef.current.focus({ preventScroll: true });
+    ledgerTitleRef.current.scrollIntoView({
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "auto"
+        : "smooth",
+      block: "start",
+    });
+  }, [ledgerRequest]);
+
+  const openLedger = (cityId) => {
+    setState((previous) => ({ ...previous, cityId }));
+    setLedgerRequest((previous) => previous + 1);
+  };
   const change = (patch) =>
     setState((previous) => ({
       ...previous,
@@ -313,13 +333,20 @@ export default function LivingPage({
       <div className="living-workspace">
         <div className="living-main-column">
           <section
+            id="living-monthly-ledger"
             className="living-monthly-card"
             aria-labelledby="living-monthly-title"
           >
             <div className="living-section-heading">
               <div>
                 <p className="living-eyebrow">YOUR MONTHLY LIFE</p>
-                <h2 id="living-monthly-title">每个月，需要多少？</h2>
+                <h2
+                  id="living-monthly-title"
+                  ref={ledgerTitleRef}
+                  tabIndex={-1}
+                >
+                  {city.name} · 每月生活账本
+                </h2>
               </div>
               <span className="living-estimate-badge">规划估算</span>
             </div>
@@ -759,12 +786,10 @@ export default function LivingPage({
                     />
                   </div>
                   <button
-                    onClick={() =>
-                      setState((previous) => ({
-                        ...previous,
-                        cityId: item.city.id,
-                      }))
-                    }
+                    type="button"
+                    aria-controls="living-monthly-ledger"
+                    aria-label={`查看${item.city.name}生活账本`}
+                    onClick={() => openLedger(item.city.id)}
                   >
                     查看生活账本
                     <ArrowUpRight size={14} />

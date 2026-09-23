@@ -30,6 +30,14 @@ if (existsSync('data/place-expansion')) {
     }
   }
 }
+// Reviewed corrections apply after every map/expansion refresh and preserve IDs
+// referenced by users' saved trips.
+if (existsSync('data/place-corrections.json')) {
+  const corrections = read('data/place-corrections.json');
+  for (const city of cities) city.attractions = city.attractions.map(place => corrections[place.id]
+    ? { ...place, ...corrections[place.id], id: place.id }
+    : place);
+}
 const sightIds = cities.flatMap(c => c.attractions.map(a => a.id));
 if (new Set(sightIds).size !== sightIds.length) throw new Error('Duplicate attraction ID');
 const foods = mergeFoodExpansions(read('data/local-foods.json'), new Set(cities.map(city => city.id)), { refresh: process.argv.includes('--refresh') });

@@ -1,0 +1,20 @@
+{
+  "food-history-zunyi-egg-cake": {
+    "url": "/images/art-food-history-zunyi-egg-cake-20260923.webp",
+    "alt": "遵义鸡蛋糕 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-history-zunyi-egg-cake",
+    "contextNote": "为遵义鸡蛋糕单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 52490,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: stylized-concept\nAsset type: standalone food illustration for a Chinese travel guide card, horizontal 3:2 composition.\nStyle: refined editorial watercolor and gouache on warm ivory paper, clearly painted rather than photographic. Restrained background, appetizing food texture, centered single dish with room for card cropping.\nConstraints: no text, no logos, no packaging, no hands, no identifiable restaurant, no collage, no unrelated side dishes. Depict this named dish accurately without implying an actual merchant serving.\nPrimary request: Zunyi baked egg cakes (遵义鸡蛋糕), the traditional small baked egg-flour pastries, NOT steamed egg custard.\nSubject: six petite individual baked cakes with gently rounded golden-brown tops and short compact cylindrical bodies on a plain ceramic plate. Slightly darker thin baked crust, one cut open to reveal soft pale yellow fine cake crumb. Rustic small bakery cakes, no wrappers, no frosting, no cream, no fruit, no chocolate, no holes, no tall muffins, no steamed white cake.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

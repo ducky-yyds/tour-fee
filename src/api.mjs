@@ -67,7 +67,7 @@ export function createApiClient({ staticMode = STATIC_DATA_MODE, basePath = base
       if (parsed.pathname === '/api/plan' && method === 'POST') {
         if (typeof init.body !== 'string' || init.body.length > 128000) throw new Error('行程数据无效或过大');
         const plan = JSON.parse(init.body), data = await abortable(catalog(), init.signal);
-        const cities = mergeCustomAttractions(mergeAirportCities(data.cities, data.airportCities), plan.customAttractions);
+        const cities = mergeCustomAttractions(mergeAirportCities(data.cities, data.airportCities, data.airportCityAliases), plan.customAttractions);
         return json({ ...calculatePlan(plan, cities, data.rates), itinerary: generateItinerary(plan, cities, data.rates) });
       }
       if (parsed.pathname === '/api/health' && method === 'GET') return json({ ok: true, mode: 'static', app: '途算' });

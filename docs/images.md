@@ -68,6 +68,8 @@ Windows 默认调用 `py -3`，其他系统调用 `python3`；可通过 `ROAMLY_
 
 ## 添加城市和景点
 
+具体革命旧址、纪念馆及已发生错配的建筑使用 `imagePolicy: exact-only`：只显示逐处核对的 `photoFile` 或明确审阅的照片，维护过程不会给它们分配附近街景。尚无对应照片时，页面使用地点名称和图标占位，不显示通用博物馆插画冒充场馆。持久更正保存在 `data/place-corrections.json`，每次目录导入后应用，保留原条目 ID 兼容已保存行程。`complete-media.py --phase exact --reviewed-places-only` 修复这类已确认的本地照片；每日维护也会执行。
+
 在 `data/cities.json` 添加城市或景点时，为其 `image.sourceUrl` 填写准确的英文 Wikipedia 条目链接，或 Commons 文件页链接；抓取器会自动发现新 ID。缺少来源时会尝试 `nameEn`，仍需经过相同的图片与许可检查。脚本内的人工覆盖规则优先于目录默认值。
 
 首图不合适时，在 `scripts/fetch-images.mjs` 的 `citySources.file` 或 `attractionFiles` 指定经过核实的 Commons 文件名，然后对该 ID 运行 `--force --only=...`。默认首图为地图、Logo、未匹配许可或缺失文件时，抓取会明确失败，不能以无关城市照片替代景点。下载后核对图片内容及文件页，再发布新增目录。

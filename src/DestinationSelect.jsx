@@ -1,6 +1,7 @@
 import React, { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowUpRight, Check, ChevronDown, ChevronRight, Globe2, MapPin, Search, X } from 'lucide-react';
 import { assetUrl } from './api.mjs';
+import { isTravelDestination } from '../shared/airport-catalog.mjs';
 import flagCodes from './flag-codes.json';
 import { CONTINENTS, cityInitial, compareCities, countryNameEn, countryOptions, foldSearch, getContinent, groupedInitials } from './destination-utils.mjs';
 import './destination-select.css';
@@ -107,28 +108,28 @@ function CityThumbnail({ city }) {
 
 export function DestinationBrowser({ cities = EMPTY, onPick, exclude = EMPTY, value, compact = false, renderMeta, autoFocus = true }) {
   const [query, setQuery] = useState(''), [continent, setContinent] = useState('全部'), [country, setCountry] = useState('');
-  const [mode, setMode] = useState('country'), [letter, setLetter] = useState(''), [limit, setLimit] = useState(48), [curated, setCurated] = useState(false);
+  const [mode, setMode] = useState('country'), [letter, setLetter] = useState(''), [limit, setLimit] = useState(48);
   const excluded = useMemo(() => new Set(exclude), [exclude]);
-  const indexed = useMemo(() => cities.filter(city => !excluded.has(city.id)).map(city => ({ city, text: foldSearch([city.name, city.nameEn, city.country, city.countryEn, city.countryCode, city.iata, city.subdivision, ...(city.airportCodes || []), ...(city.tags || [])].join(' ')) })), [cities, excluded]);
-  const countries = useMemo(() => countryOptions(indexed.filter(row => !curated || row.city.coverage !== 'airport-only').map(row => row.city)), [indexed, curated]);
+  const indexed = useMemo(() => cities.filter(city => isTravelDestination(city) && !excluded.has(city.id)).map(city => ({ city, text: foldSearch([city.name, city.nameEn, city.country, city.countryEn, city.countryCode, city.iata, city.subdivision, ...(city.airportCodes || []), ...(city.tags || [])].join(' ')) })), [cities, excluded]);
+  const countries = useMemo(() => countryOptions(indexed.map(row => row.city)), [indexed]);
   const available = useMemo(() => [...new Set(countries.map(item => item.region))], [countries]);
   const selectedCountry = countries.find(item => item.countryCode === country);
   const browsingCountries = mode === 'country' && !country && !query.trim();
   const filtered = useMemo(() => {
     if (browsingCountries) return [];
     const term = foldSearch(query).trim();
-    return indexed.filter(({ city, text }) => (continent === '全部' || getContinent(city) === continent) && (!country || city.countryCode === country) && (!curated || city.coverage !== 'airport-only') && (!term || text.includes(term))).map(row => row.city).sort(compareCities);
-  }, [indexed, continent, country, curated, query, browsingCountries]);
+    return indexed.filter(({ city, text }) => (continent === '全部' || getContinent(city) === continent) && (!country || city.countryCode === country) && (!term || text.includes(term))).map(row => row.city).sort(compareCities);
+  }, [indexed, continent, country, query, browsingCountries]);
   const letters = useMemo(() => [...new Set(filtered.map(cityInitial))], [filtered]);
   const matches = useMemo(() => letter ? filtered.filter(city => cityInitial(city) === letter) : filtered, [filtered, letter]);
   const groups = useMemo(() => groupedInitials(matches.slice(0, limit)), [matches, limit]);
-  useEffect(() => { setLimit(48); setLetter(''); }, [query, continent, country, curated, mode]);
+  useEffect(() => { setLimit(48); setLetter(''); }, [query, continent, country, mode]);
   useEffect(() => setLimit(48), [letter]);
   const chooseCountry = code => { setCountry(code); setMode('country'); setQuery(''); setLetter(''); };
   return <div className={`destination-browser ${compact ? 'destination-browser-compact' : ''}`} onKeyDown={moveResultFocus}>
-    <div className="destination-search"><Search size={17} /><input aria-label="搜索城市、国家或机场代码" placeholder="搜索城市、国家或机场代码" value={query} autoFocus={autoFocus} onChange={event => setQuery(event.target.value)} />{query && <button type="button" aria-label="清空搜索" onClick={() => setQuery('')}><X size={15} /></button>}</div>
+    <div className="destination-search"><Search size={17} /><input aria-label="搜索城市或国家" placeholder="搜索城市或国家" value={query} autoFocus={autoFocus} onChange={event => setQuery(event.target.value)} />{query && <button type="button" aria-label="清空搜索" onClick={() => setQuery('')}><X size={15} /></button>}</div>
     <Continents value={continent} available={available} onChange={region => { setContinent(region); setCountry(''); }} />
-    <div className="destination-browse-tools"><div className="destination-view-switch" role="group" aria-label="目的地浏览方式"><button type="button" aria-pressed={mode === 'country'} onClick={() => setMode('country')}>先选国家</button><button type="button" aria-pressed={mode === 'alphabet'} onClick={() => { setMode('alphabet'); setCountry(''); }}>城市 A–Z</button></div><label className="destination-curated"><input type="checkbox" checked={curated} onChange={event => setCurated(event.target.checked)} />已有攻略</label></div>
+    <div className="destination-browse-tools"><div className="destination-view-switch" role="group" aria-label="目的地浏览方式"><button type="button" aria-pressed={mode === 'country'} onClick={() => setMode('country')}>先选国家</button><button type="button" aria-pressed={mode === 'alphabet'} onClick={() => { setMode('alphabet'); setCountry(''); }}>城市 A–Z</button></div></div>
     {country && <div className="destination-breadcrumb"><button type="button" onClick={() => { setCountry(''); setQuery(''); }}><ArrowLeft size={15} />国家 / 地区</button><ChevronRight size={13} /><CountryFlag code={country} /><strong>{selectedCountry?.name || country}</strong></div>}
     {browsingCountries ? <div className="destination-country-groups">{[...CONTINENTS, '其他地区'].filter(region => continent === '全部' || continent === region).map(region => {
       const rows = countries.filter(item => item.region === region);

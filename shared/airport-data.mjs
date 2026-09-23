@@ -62,6 +62,53 @@ export function compatibleCuratedAirport(city, airport) {
     * Math.sin((city.lng - airport.lng) * radians / 2) ** 2;
   return 12742 * Math.asin(Math.sqrt(Math.min(1, h))) <= 120;
 }
+
+/** Resolve existing airport municipality IDs without replacing their identity.
+ * Only reviewed airport links and compatible exact municipality names qualify;
+ * a destination's preferred gateway alone is not a municipality relationship.
+ */
+export function createCuratedAirportResolver(curatedCities = [], links = [], { strictLinks = false } = {}) {
+  const byId = new Map(curatedCities.map(city => [city.id, city]));
+  const byName = new Map();
+  for (const city of curatedCities) {
+    for (const name of new Set([city.nameEn, city.name].map(normalizedMunicipality).filter(Boolean))) {
+      const key = `${city.countryCode}|${name}`;
+      const candidates = byName.get(key) || [];
+      candidates.push(city);
+      byName.set(key, candidates);
+    }
+  }
+  const reviewed = new Map();
+  for (const link of links) {
+    const city = byId.get(link.cityId);
+    if (!city) {
+      if (strictLinks) throw new Error(`Airport link references unknown city: ${link.cityId}`);
+      continue;
+    }
+    for (const code of link.airportCodes || []) {
+      const key = `${city.countryCode}|${code}`;
+      if (reviewed.has(key) && reviewed.get(key) !== city.id) throw new Error(`Conflicting curated airport link: ${key}`);
+      reviewed.set(key, city.id);
+    }
+  }
+  return airport => {
+    if (!airport) return null;
+    const codes = new Set([...(airport.airportCodes || []), airport.iata].filter(Boolean));
+    const explicit = [...new Set([...codes].map(code => reviewed.get(`${airport.countryCode}|${code}`)).filter(Boolean))];
+    if (explicit.length > 1) throw new Error(`Multiple curated cities linked to one airport municipality: ${airport.id}`);
+    if (explicit.length) return explicit[0];
+    const previous = byId.get(airport.curatedCityId);
+    if (compatibleCuratedAirport(previous, airport)) return previous.id;
+    const municipality = airport.municipality || (airport.nameKind === 'municipality' ? airport.nameEn || airport.name : '');
+    if (!municipality) return null;
+    const candidates = byName.get(`${airport.countryCode}|${normalizedMunicipality(municipality)}`) || [];
+    const compatible = candidates.filter(city => compatibleCuratedAirport(city, airport));
+    // Ambiguous same-country names stay independent, including US towns that
+    // share a name but lie in a different state or beyond the distance guard.
+    return compatible.length === 1 ? compatible[0].id : null;
+  };
+}
+
 function hash(value) {
   let result = 2166136261;
   for (const point of String(value)) { result ^= point.codePointAt(0); result = Math.imul(result, 16777619); }
@@ -84,18 +131,7 @@ export function buildAirportCatalog({ airportRows, countryRows, regionRows = [],
   const countryByCode = new Map(countryRows.map(row => [row.code, row]));
   const regionByCode = new Map(regionRows.map(row => [row.code, row]));
   const countryNames = new Intl.DisplayNames(['zh-CN'], { type: 'region' });
-  const curatedById = new Map(curatedCities.map(city => [city.id, city]));
-  const curatedByName = new Map(curatedCities.map(city => [`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`, city.id]));
-  const explicitLinks = new Map();
-  for (const link of links) {
-    const curated = curatedById.get(link.cityId);
-    if (!curated) throw new Error(`Airport link references unknown city: ${link.cityId}`);
-    for (const code of link.airportCodes || []) {
-      const key = `${curated.countryCode}|${code}`;
-      if (explicitLinks.has(key) && explicitLinks.get(key) !== link.cityId) throw new Error(`Conflicting curated airport link: ${key}`);
-      explicitLinks.set(key, link.cityId);
-    }
-  }
+  const resolveCuratedCity = createCuratedAirportResolver(curatedCities, links, { strictLinks: true });
   const counts = { sourceAirports: airportRows.length, includedAirports: 0, airportCities: 0, scheduledAirports: 0, scheduledCities: 0, countries: 0, citiesWithoutMunicipality: 0, airportsWithoutValidCoordinates: 0, curatedLinkedCities: 0, types: {}, excludedTypes: {} };
   const airports = [], grouped = new Map(), airportIds = new Set(), identities = new Map();
   for (const row of airportRows) {
@@ -132,12 +168,6 @@ export function buildAirportCatalog({ airportRows, countryRows, regionRows = [],
     let countryName;
     try { countryName = countryNames.of(primary.countryCode); } catch { countryName = country.name; }
     if (countryName === primary.countryCode) countryName = country.name;
-    const explicit = [...new Set(members.map(airport => explicitLinks.get(`${airport.countryCode}|${airport.iata}`)).filter(Boolean))];
-    if (explicit.length > 1) throw new Error(`Multiple curated cities linked to one airport municipality: ${id}`);
-    // Explicit aliases are reviewed separately; inferred US names also need a
-    // matching state and a nearby airport. Sharing a gateway is insufficient.
-    const named = primary.municipality && curatedById.get(curatedByName.get(`${primary.countryCode}|${normalizedMunicipality(primary.municipality)}`));
-    const curatedCityId = explicit[0] || (compatibleCuratedAirport(named, primary) ? named.id : null);
     const city = {
       id, name: primary.municipality || primary.name, nameEn: primary.municipality || primary.name,
       nameKind: primary.municipality ? 'municipality' : 'airport', country: countryName || country.name,
@@ -146,10 +176,11 @@ export function buildAirportCatalog({ airportRows, countryRows, regionRows = [],
       lat: primary.lat, lng: primary.lng, iata: primary.iata, airportIds: members.map(airport => airport.id),
       airportCodes: [...new Set(members.map(airport => airport.iata).filter(Boolean))],
       scheduledService: members.some(airport => airport.scheduledService), coverage: 'airport-only',
-      sourceUrl: primary.sourceUrl, sourceCheckedAt: checkedAt, coordinateBasis: 'airport', curatedCityId,
+      sourceUrl: primary.sourceUrl, sourceCheckedAt: checkedAt, coordinateBasis: 'airport', curatedCityId: null,
     };
+    city.curatedCityId = resolveCuratedCity(city);
     if (!primary.municipality) counts.citiesWithoutMunicipality++;
-    if (curatedCityId) counts.curatedLinkedCities++;
+    if (city.curatedCityId) counts.curatedLinkedCities++;
     return city;
   }).sort((a, b) => a.countryCode.localeCompare(b.countryCode) || a.nameEn.localeCompare(b.nameEn) || a.id.localeCompare(b.id));
   airports.sort((a, b) => a.id.localeCompare(b.id));

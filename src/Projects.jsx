@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useMemo, useState } from "react";
 import {
   ArrowRight,
@@ -93,7 +94,7 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
           <DestinationSelect label="第一站" cities={cities} value={cityId} onChange={id => { setCityId(id); setDays(recommendedDays(cities.find(c => c.id === id))); setDaysSource('recommendation'); }} />
           <label>
             停留天数
-            <input
+            <EditableNumberInput
               aria-label="新项目天数"
               type="number"
               min={1}

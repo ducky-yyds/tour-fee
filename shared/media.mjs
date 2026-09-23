@@ -20,6 +20,10 @@ export function illustrationFor(entity, kind = 'place') {
 
 export function cardImage(entity, media, kind = 'place') {
   const image = media?.attractions?.[entity.id];
+  if (entity.imagePolicy === 'exact-only') {
+    if (image?.scope === 'exact-place' && image?.subjectMatched) return image;
+    return { scope: 'unavailable', alt: entity.name, contextNote: '实景照片待补充；可在下方来源中查看场馆资料。' };
+  }
   if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return illustrationFor(entity, kind);
   if (image?.url) return image;
   if (entity.image?.url) return entity.image;

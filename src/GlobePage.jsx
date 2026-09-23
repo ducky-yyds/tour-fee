@@ -38,6 +38,7 @@ import { convertCurrency } from "../shared/planner.mjs";
 import { Photo, download, money } from "./ui.jsx";
 import "./globe.css";
 import { DestinationBrowser } from "./DestinationSelect.jsx";
+import { isTravelDestination } from "../shared/airport-catalog.mjs";
 import EarthGlobe from "./EarthGlobe.jsx";
 
 const MODES = [
@@ -48,16 +49,6 @@ const MODES = [
 const emptyPassport = () => ({ version: 1, visits: [] });
 const today = () => localDate();
 const numericCode = (value) => String(value ?? "").padStart(3, "0");
-function hasTravelData(city) {
-  return (
-    city?.coverage !== "airport-only" &&
-    (Boolean(city.attractions?.length || city.experiences?.length) ||
-      Object.values(city.daily || {}).some(
-        (values) =>
-          Array.isArray(values) && values.some((value) => Number(value) > 0),
-      ))
-  );
-}
 function readPassport(cities) {
   try {
     const stored = localStorage.getItem(PASSPORT_KEY);
@@ -101,7 +92,7 @@ export default function GlobePage({
   onOpenProject,
   onToast,
 }) {
-  const travelCities = useMemo(() => cities.filter(hasTravelData), [cities]);
+  const travelCities = useMemo(() => cities.filter(isTravelDestination), [cities]);
   const travelCityIds = useMemo(
     () => new Set(travelCities.map((city) => city.id)),
     [travelCities],
@@ -111,7 +102,6 @@ export default function GlobePage({
     travelCities[0] ||
     cities[0];
   const [mode, setMode] = useState("explore");
-  const [showAllCities, setShowAllCities] = useState(false);
   const [selectedId, setSelectedId] = useState(initialCity?.id || "");
   const [rotation, setRotation] = useState(() => rotationForCity(initialCity));
   const [zoom, setZoom] = useState(1);
@@ -144,14 +134,13 @@ export default function GlobePage({
     () => passportStats(passport, cities),
     [passport, cities],
   );
-  const scopeCities = showAllCities ? cities : travelCities;
+  const scopeCities = travelCities;
   const scopeCountries = useMemo(
     () =>
       new Set(scopeCities.map((city) => city.countryCode || city.country)).size,
     [scopeCities],
   );
   const contextCities = useMemo(() => {
-    if (showAllCities) return [];
     const ids =
       mode === "routes"
         ? new Set(route.stops.map((stop) => stop.city.id))
@@ -161,10 +150,10 @@ export default function GlobePage({
     return cities.filter(
       (city) => ids.has(city.id) && !travelCityIds.has(city.id),
     );
-  }, [showAllCities, mode, route, passport, cities, travelCityIds]);
+  }, [mode, route, passport, cities, travelCityIds]);
   const mapCities = useMemo(
-    () => (showAllCities ? cities : [...travelCities, ...contextCities]),
-    [showAllCities, cities, travelCities, contextCities],
+    () => [...travelCities, ...contextCities],
+    [travelCities, contextCities],
   );
   const visitedCountries = useMemo(
     () =>
@@ -201,7 +190,6 @@ export default function GlobePage({
   }, [selectedId, visited]);
   useEffect(() => {
     if (
-      !showAllCities &&
       !travelCityIds.has(selectedId) &&
       !contextCities.some((city) => city.id === selectedId) &&
       initialCity
@@ -209,7 +197,7 @@ export default function GlobePage({
       setSelectedId(initialCity.id);
       setRotation(rotationForCity(initialCity));
     }
-  }, [showAllCities, travelCityIds, selectedId, contextCities, initialCity]);
+  }, [travelCityIds, selectedId, contextCities, initialCity]);
 
   function announce(message) {
     setStatus(message);
@@ -218,11 +206,6 @@ export default function GlobePage({
   function chooseCity(city, focus = true) {
     setSelectedId(city.id);
     if (focus) setRotation(rotationForCity(city));
-  }
-  function changeCityScope(checked) {
-    setShowAllCities(checked);
-    if (!checked && !travelCityIds.has(selectedId) && initialCity)
-      chooseCity(initialCity);
   }
   function changeMode(next) {
     setMode(next);
@@ -310,7 +293,7 @@ export default function GlobePage({
         </div>
         <div className="gl-catalog-stat">
           <strong>{scopeCities.length.toLocaleString("en-US")}</strong>
-          <span>{showAllCities ? "个目的地" : "个旅行资料城市"}</span>
+          <span>个目的地</span>
           <i />
           <strong>{scopeCountries}</strong>
           <span>个国家与地区</span>
@@ -338,23 +321,6 @@ export default function GlobePage({
               ? "规划中的连接，尚未成行的期待"
               : "每一个坐标，都属于你的故事"}
         </span>
-      </div>
-      <div className="gl-city-scope">
-        <p>
-          {showAllCities
-            ? "全球城市与机场地点；部分目的地的旅行资料仍待补充。"
-            : "优先探索已有景点、体验或生活成本资料的城市。"}
-        </p>
-        <label>
-          <input
-            type="checkbox"
-            role="switch"
-            checked={showAllCities}
-            onChange={(event) => changeCityScope(event.target.checked)}
-          />
-          <span className="gl-scope-switch" aria-hidden="true" />
-          <span>显示全部城市</span>
-        </label>
       </div>
       {contextCities.length > 0 && (
         <p className="gl-context-note" role="status">
@@ -490,7 +456,7 @@ export default function GlobePage({
                   <div className="gl-airport-photo">
                     <Globe2 size={50} />
                     <p>{selected.iata || selected.countryCode}</p>
-                    <small>机场目的地 · 景观图片待补充</small>
+                    <small>原有行程的机场位置</small>
                   </div>
                 ) : (
                   <Photo
@@ -515,7 +481,7 @@ export default function GlobePage({
                   {selected.tagline ||
                     selected.description ||
                     (selected.coverage === "airport-only"
-                      ? "从机场出发，继续探索这座城市。"
+                      ? "保留原有行程的机场与接驳资料。"
                       : "")}
                 </p>
                 <div className="gl-city-tags">
@@ -526,7 +492,7 @@ export default function GlobePage({
                 <div className="gl-budget">
                   <span>
                     {selected.coverage === "airport-only"
-                      ? "目的地基础资料"
+                      ? "机场交通资料"
                       : "日常旅行预算 · 经济至舒适"}
                   </span>
                   <strong>
@@ -545,7 +511,7 @@ export default function GlobePage({
                       {selected.airportCodes?.length
                         ? ` · ${selected.airportCodes.slice(0, 4).join(" / ")}`
                         : ""}
-                      。地图坐标为机场位置，食宿、景点与照片资料正在补充。
+                      。地图坐标为机场位置，可查看原有行程的交通与接驳信息。
                     </p>
                   ) : (
                     <p>1 人独住，含食宿、交通与杂项的估算；不含机票和门票。</p>
@@ -558,18 +524,18 @@ export default function GlobePage({
                     onClick={() => onOpenCity?.(selected.id)}
                   >
                     {selected.coverage === "airport-only"
-                      ? "查看目的地资料"
+                      ? "查看交通资料"
                       : "探索城市主页"}
                     <ArrowUpRight size={16} />
                   </button>
-                  <button
+                  {(isTravelDestination(selected) || selected.canonicalCityId) && <button
                     className="gl-secondary"
                     type="button"
                     onClick={() => onAddCity?.(selected.id)}
                   >
                     <Plus size={16} />
                     加入当前旅行
-                  </button>
+                  </button>}
                   <p className="gl-active-project-note">
                     当前项目：
                     {projects.find((project) => project.id === activeProjectId)

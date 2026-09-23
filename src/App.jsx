@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, {
   lazy,
   Suspense,
@@ -32,7 +33,7 @@ import CurrencySelect from "./CurrencySelect.jsx";
 import DestinationGallery from "./DestinationGallery.jsx";
 import { CountryFlag } from "./DestinationSelect.jsx";
 import { preserveUnchangedQuotes } from "../shared/quote-preservation.mjs";
-import { mergeAirportCities } from "../shared/airport-catalog.mjs";
+import { isTravelDestination, mergeAirportCities } from "../shared/airport-catalog.mjs";
 import { createRecommendedStop, getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 const LivingPage = lazy(() => import("./LivingPage.jsx"));
 const GlobePage = lazy(() => import("./GlobePage.jsx"));
@@ -427,7 +428,7 @@ export default function App() {
       const data = await r.json();
       if (!data.cities?.length) throw Error("城市数据库尚未准备好");
       setCatalog(data);
-      const availableCities = mergeAirportCities(data.cities, data.airportCities || []);
+      const availableCities = mergeAirportCities(data.cities, data.airportCities || [], data.airportCityAliases);
       const workspace = hydrateProjects(
         safeRead(PROJECT_STORAGE_KEY, null),
         safeRead("tusuan-current", null),
@@ -510,7 +511,7 @@ export default function App() {
       setStatusLoading(false);
     }
   }
-  const catalogCities = useMemo(() => mergeAirportCities(catalog?.cities || [], catalog?.airportCities || []), [catalog]);
+  const catalogCities = useMemo(() => mergeAirportCities(catalog?.cities || [], catalog?.airportCities || [], catalog?.airportCityAliases), [catalog]);
   const detailedCities = catalog?.cities || [];
   const cities = useMemo(
     () =>
@@ -940,6 +941,7 @@ export default function App() {
   }
   function openCityHome(id) {
     if (!cityById(id)) return;
+    id = cityById(id).canonicalCityId || id;
     window.location.hash = `/city/${id}`;
     setHomeCityId(id);
     setView("city");
@@ -1131,6 +1133,11 @@ export default function App() {
     }
   }
   function addCity(id, nextView = "planner") {
+    id = cityById(id)?.canonicalCityId || id;
+    if (!isTravelDestination(cityById(id))) {
+      setToast("请选择有旅行内容的城市");
+      return;
+    }
     if (plan.stops.length >= 8) {
       setToast("一次旅程最多添加 8 座城市");
       return;
@@ -1528,7 +1535,7 @@ export default function App() {
                             >
                               <Minus size={13} />
                             </button>
-                            <input
+                            <EditableNumberInput
                               type="number"
                               min="1"
                               max="365"
@@ -2382,7 +2389,7 @@ export default function App() {
         </Suspense>
       )}
 
-      {view === "city" && cityById(homeCityId)?.coverage === 'airport-only' && <AirportCityHome city={cityById(homeCityId)} onBack={() => navigate('globe')} onAdd={() => addCity(homeCityId, 'globe')} />}
+      {view === "city" && cityById(homeCityId)?.coverage === 'airport-only' && <AirportCityHome city={cityById(homeCityId)} onBack={() => navigate('globe')} onChooseDestination={() => navigate('explore')} />}
       {view === "city" && cityById(homeCityId)?.coverage !== 'airport-only' && (
         <CityHome
           key={activeProjectId}
@@ -2424,7 +2431,6 @@ export default function App() {
               </span>
             </div>
           </div>
-          {!!catalog.airportCities?.length && <div className="airport-discovery"><div><Plane size={24} /><div><strong>从这里，连接更多地方</strong><p>搜索 {cities.length.toLocaleString('zh-CN')} 处城市与机场所在地，加入旅行路线。已有攻略的目的地在下方展示。</p></div></div><button className="secondary-button" onClick={() => setModal({type:'airport-explore'})}>搜索全球目的地 <Search size={16} /></button></div>}
           <DestinationGallery cities={detailedCities} currency={displayCurrency} rates={rates} renderCity={(c) => (
                 <article key={c.id} className="explore-card">
                   <div className="explore-photo">
@@ -2849,7 +2855,6 @@ export default function App() {
           }}
         />
       )}
-      {modal?.type === 'airport-explore' && <CityPicker cities={cities} title="探索全球城市与机场所在地" currency={plan.currency} rates={rates} onClose={() => setModal(null)} onPick={(id) => { setModal(null); openCityHome(id); }} />}
       {modal?.type === "new-project" && (
         <ProjectForm
           cities={catalogCities}

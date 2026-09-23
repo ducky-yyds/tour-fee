@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useState } from "react";
 import {
   BedDouble,
@@ -123,7 +124,8 @@ export default function CostPreferences({
                 </div>
                 <div className="preference-input">
                   <span>{city.currency}</span>
-                  <input
+                  <EditableNumberInput
+                    emptyValue={null}
                     id={`preference-${field.key}`}
                     aria-label={`${city.name}${field.label}`}
                     disabled={field.key === "lodging" && !!selectedHotel}

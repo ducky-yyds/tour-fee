@@ -1,0 +1,20 @@
+{
+  "food-cityrepair-tianjin-ear-hole-cake": {
+    "url": "/images/art-food-cityrepair-tianjin-ear-hole-cake-20260923.webp",
+    "alt": "耳朵眼炸糕 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-cityrepair-tianjin-ear-hole-cake",
+    "contextNote": "为耳朵眼炸糕单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 80796,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: stylized-concept\nAsset type: standalone food illustration for a Chinese travel guide card, horizontal 3:2 composition.\nPrimary request: an accurate, appetizing watercolor and gouache illustration of Tianjin ear-hole fried rice cakes (耳朵眼炸糕).\nSubject: three small round, slightly flattened golden fried glutinous rice cakes on a simple ceramic plate; one is broken open showing a pale sticky rice layer and dense dark red bean paste filling. The surface is lightly bubbled and crisp, without sesame coating, frosting, doughnut holes, or excessive sugar.\nStyle: refined editorial watercolor on warm ivory paper, clearly an illustration rather than a restaurant photograph. Warm natural light, restrained background, detailed food texture, centered subject with enough space for a card crop.\nConstraints: no text, no logo, no packaging, no hands, no identifiable restaurant, no collage. Depict only this dish; do not add unrelated side dishes. Do not imply an actual branded serving.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

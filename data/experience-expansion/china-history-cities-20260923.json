@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "stay-history-nanchang-sheraton",
+    "cityId": "nanchang",
+    "kind": "hotel",
+    "name": "南昌喜来登酒店",
+    "nameEn": "Sheraton Nanchang Hotel",
+    "provider": "南昌喜来登酒店",
+    "accommodationType": "hotel",
+    "tagline": "红谷滩·红谷中大道1669号",
+    "description": "赣江西岸的城市酒店，适合把红谷滩用餐与沿江散步结合起来；去东岸老城仍须安排跨江交通。",
+    "address": "红谷滩·红谷中大道1669号",
+    "lat": 28.695003,
+    "lng": 115.863622,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "红谷滩",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/khnsi-sheraton-nanchang-hotel/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/khnsi-sheraton-nanchang-hotel/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/khnsi-sheraton-nanchang-hotel/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按南昌城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按南昌城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按南昌城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/hotels/khnsi-sheraton-nanchang-hotel/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://hotels.ctrip.com/hotels/2516019.html",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/2516019.html"
+  },
+  {
+    "id": "stay-history-nanchang-shangrila",
+    "cityId": "nanchang",
+    "kind": "hotel",
+    "name": "南昌香格里拉",
+    "nameEn": "Shangri-La Nanchang",
+    "provider": "南昌香格里拉",
+    "accommodationType": "hotel",
+    "tagline": "红谷滩·翠林路669号",
+    "description": "位于红谷滩的江畔住宿，可安排秋水广场和西岸步道；江景、早餐与额外礼遇取决于所选房型。",
+    "address": "红谷滩·翠林路669号",
+    "lat": 28.68041,
+    "lng": 115.8589,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "红谷滩",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.shangri-la.com/nanchang/shangrila/about/",
+    "website": "https://www.shangri-la.com/nanchang/shangrila/about/",
+    "bookingUrl": "https://www.shangri-la.com/nanchang/shangrila/about/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按南昌城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按南昌城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按南昌城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "香格里拉酒店集团",
+        "url": "https://www.shangri-la.com/nanchang/shangrila/about/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://www.shangri-la.com/nanchang/shangrila/about/",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only"
+  },
+  {
+    "id": "stay-history-nanchang-courtyard",
+    "cityId": "nanchang",
+    "kind": "hotel",
+    "name": "南昌万怡酒店",
+    "nameEn": "Courtyard by Marriott Nanchang",
+    "provider": "南昌万怡酒店",
+    "accommodationType": "hotel",
+    "tagline": "东湖区·阳明路249号",
+    "description": "住在赣江东岸的老城方向，便于按片区安排滕王阁、街巷与早餐；交通与到达时间仍以实际入口导航。",
+    "address": "东湖区·阳明路249号",
+    "lat": 28.69186,
+    "lng": 115.886234,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "东湖区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/khnyc-courtyard-nanchang/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/khnyc-courtyard-nanchang/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/khnyc-courtyard-nanchang/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按南昌城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按南昌城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按南昌城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/hotels/khnyc-courtyard-nanchang/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://hotels.ctrip.com/hotels/1544555.html",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/1544555.html"
+  },
+  {
+    "id": "stay-history-nanchang-crowne-riverside",
+    "cityId": "nanchang",
+    "kind": "hotel",
+    "name": "南昌力高皇冠假日酒店",
+    "nameEn": "Crowne Plaza Nanchang Riverside",
+    "provider": "南昌力高皇冠假日酒店",
+    "accommodationType": "hotel",
+    "tagline": "西湖区·沿江中大道266号",
+    "description": "沿江中大道、南昌大桥附近的城市酒店，适合西湖区与沿江行程；不是步行即可覆盖所有老城景点的位置。",
+    "address": "西湖区·沿江中大道266号",
+    "lat": 28.661108,
+    "lng": 115.869715,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "西湖区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ihg.com/crowneplaza/hotels/cn/zh/nanchang/khnrs/hoteldetail",
+    "website": "https://www.ihg.com/crowneplaza/hotels/cn/zh/nanchang/khnrs/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/crowneplaza/hotels/cn/zh/nanchang/khnrs/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按南昌城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按南昌城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按南昌城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "洲际酒店集团",
+        "url": "https://www.ihg.com/crowneplaza/hotels/cn/zh/nanchang/khnrs/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://hotels.ctrip.com/hotels/425774.html",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/425774.html"
+  },
+  {
+    "id": "stay-history-nanchang-fourpoints-xihu",
+    "cityId": "nanchang",
+    "kind": "hotel",
+    "name": "南昌华侨城福朋喜来登酒店",
+    "nameEn": "Four Points by Sheraton Nanchang, Xihu",
+    "provider": "南昌华侨城福朋喜来登酒店",
+    "accommodationType": "hotel",
+    "tagline": "西湖区·燕舞路6号",
+    "description": "象湖与华侨城片区的住宿选择，适合湖畔休闲或亲子出游；到滕王阁与八一起义纪念馆应安排市内接驳。",
+    "address": "西湖区·燕舞路6号",
+    "lat": 28.635607,
+    "lng": 115.881658,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "西湖区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/khnxf-four-points-nanchang-xihu/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/khnxf-four-points-nanchang-xihu/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/khnxf-four-points-nanchang-xihu/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按南昌城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按南昌城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按南昌城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "南昌城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/hotels/khnxf-four-points-nanchang-xihu/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://hotels.ctrip.com/hotels/96163169.html",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/96163169.html"
+  },
+  {
+    "id": "stay-history-zunyi-millennium",
+    "cityId": "zunyi",
+    "kind": "hotel",
+    "name": "遵义创元千禧大酒店",
+    "nameEn": "Millennium Hotel Zunyi",
+    "provider": "遵义创元千禧大酒店",
+    "accommodationType": "hotel",
+    "tagline": "新蒲新区·奥体西路88号",
+    "description": "奥体中心和大学城方向的花园式大型酒店，适合在新蒲停留；若每天去会址老城，务必比较往返车程。",
+    "address": "新蒲新区·奥体西路88号",
+    "lat": 27.720771,
+    "lng": 107.051241,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "新蒲新区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.millenniumhotels.com/zh/zunyi/millennium-hotel-zunyi",
+    "website": "https://www.millenniumhotels.com/zh/zunyi/millennium-hotel-zunyi",
+    "bookingUrl": "https://www.millenniumhotels.com/zh/zunyi/millennium-hotel-zunyi",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按遵义城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按遵义城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 280,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按遵义城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "千禧酒店集团",
+        "url": "https://www.millenniumhotels.com/zh/zunyi/millennium-hotel-zunyi",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "物业位置交叉核对",
+        "url": "https://www.amap.com/place/B0FFJGP0SJ",
+        "kind": "geographic-reference",
+        "scope": "property-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only"
+  },
+  {
+    "id": "stay-history-zunyi-jianguo",
+    "cityId": "zunyi",
+    "kind": "hotel",
+    "name": "遵义中建建国酒店",
+    "nameEn": "Jianguo Hotel Zunyi",
+    "provider": "遵义中建建国酒店",
+    "accommodationType": "hotel",
+    "tagline": "新蒲新区·平安大道与娄山路交汇处",
+    "description": "新蒲新区的园林与会议型住宿，空间开阔；位置在新城，不能按老城步行住宿估算通勤。",
+    "address": "新蒲新区·平安大道与娄山路交汇处",
+    "lat": 27.704128,
+    "lng": 107.040344,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "新蒲新区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-platform",
+    "sourceUrl": "https://hotels.ctrip.com/hotels/70540352.html",
+    "website": "https://hotels.ctrip.com/hotels/70540352.html",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/70540352.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按遵义城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按遵义城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 280,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按遵义城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "携程旅行·物业页面",
+        "url": "https://hotels.ctrip.com/hotels/70540352.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/70540352.html"
+  },
+  {
+    "id": "stay-history-zunyi-new-century",
+    "cityId": "zunyi",
+    "kind": "hotel",
+    "name": "遵义开元名都大酒店",
+    "nameEn": "New Century Grand Hotel Zunyi",
+    "provider": "遵义开元名都大酒店",
+    "accommodationType": "hotel",
+    "tagline": "新蒲新区·奥体路与播州大道交界",
+    "description": "适合结合新蒲公园与新区活动的城市酒店，去会址、捞沙巷和老城要单独留出交通。",
+    "address": "新蒲新区·奥体路与播州大道交界",
+    "lat": 27.725279,
+    "lng": 107.036596,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "新蒲新区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-platform",
+    "sourceUrl": "https://hotels.ctrip.com/hotels/22695516.html",
+    "website": "https://hotels.ctrip.com/hotels/22695516.html",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/22695516.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按遵义城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按遵义城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 280,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按遵义城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "携程旅行·物业页面",
+        "url": "https://hotels.ctrip.com/hotels/22695516.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/22695516.html"
+  },
+  {
+    "id": "stay-history-zunyi-grand-skylight",
+    "cityId": "zunyi",
+    "kind": "hotel",
+    "name": "遵义格兰云天国际酒店（吾悦广场店）",
+    "nameEn": "Grand Skylight International Hotel Zunyi",
+    "provider": "遵义格兰云天国际酒店（吾悦广场店）",
+    "accommodationType": "hotel",
+    "tagline": "红花岗区·共青大道1号",
+    "description": "南部城区的具名酒店，周边有商业配套；适合按到达方向和自驾行程选择，与会址核心区存在车程。",
+    "address": "红花岗区·共青大道1号",
+    "lat": 27.657054,
+    "lng": 106.882499,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "红花岗区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-platform",
+    "sourceUrl": "https://hotels.ctrip.com/hotels/7811312.html",
+    "website": "https://hotels.ctrip.com/hotels/7811312.html",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/7811312.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按遵义城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按遵义城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 280,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按遵义城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "携程旅行·物业页面",
+        "url": "https://hotels.ctrip.com/hotels/7811312.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/7811312.html"
+  },
+  {
+    "id": "stay-history-zunyi-hanting-conference",
+    "cityId": "zunyi",
+    "kind": "hotel",
+    "name": "汉庭酒店（遵义会议会址店）",
+    "nameEn": "Hanting Hotel Zunyi Conference Site",
+    "provider": "汉庭酒店（遵义会议会址店）",
+    "accommodationType": "hotel",
+    "tagline": "红花岗区·解放路53号",
+    "description": "靠近老城历史街区的连锁住宿，适合以会址、红军街和捞沙巷为主要活动范围的旅程。",
+    "address": "红花岗区·解放路53号",
+    "lat": 27.693463,
+    "lng": 106.914028,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "参考物业位置；中国地图坐标已近似转换为WGS84，仅用于路程规划，实际入口按酒店确认单。",
+    "durationMinutes": 0,
+    "features": [
+      "红花岗区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-platform",
+    "sourceUrl": "https://hotels.ctrip.com/hotels/134332137.html",
+    "website": "https://hotels.ctrip.com/hotels/134332137.html",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/134332137.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已核对酒店集团官网或旅行平台物业页的名称、地址与片区；没有核验用户所选日期的房型余量和房价。",
+    "availabilityNote": "展示金额为城市每间每晚住宿预算，不是此酒店报价；选择酒店后须按日期用实际总价替换。",
+    "requirements": [
+      "按日期核对房型、人数与含税费总价",
+      "确认早餐、加床和取消条款",
+      "把酒店与景点之间的交通计入每天行程"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按遵义城市经济档预留一间一晚；不是此酒店房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按遵义城市舒适档预留一间一晚；不是此酒店房型或报价。",
+        "low": 280,
+        "high": 280,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按遵义城市高端档预留一间一晚；不是此酒店房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "遵义城市住宿编辑预算；非酒店报价",
+        "note": "获取所选日期实际含税费价格后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "携程旅行·物业页面",
+        "url": "https://hotels.ctrip.com/hotels/134332137.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "photoSourceUrl": "https://hotels.ctrip.com/hotels/134332137.html"
+  }
+]

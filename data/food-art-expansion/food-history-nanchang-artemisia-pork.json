@@ -1,0 +1,20 @@
+{
+  "food-history-nanchang-artemisia-pork": {
+    "url": "/images/art-food-history-nanchang-artemisia-pork-20260923.webp",
+    "alt": "藜蒿炒腊肉 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-history-nanchang-artemisia-pork",
+    "contextNote": "为藜蒿炒腊肉单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 73578,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: stylized-concept\nAsset type: standalone food illustration for a Chinese travel guide card, horizontal 3:2 composition.\nStyle: refined editorial watercolor and gouache on warm ivory paper, clearly painted rather than photographic. Restrained background, appetizing food texture, centered single dish with room for card cropping.\nConstraints: no text, no logos, no packaging, no hands, no identifiable restaurant, no collage, no unrelated side dishes. Depict this named dish accurately without implying an actual merchant serving.\nPrimary request: Jiangxi stir-fried artemisia stems with cured pork (藜蒿炒腊肉).\nSubject: one ceramic serving plate of bright green slender straight artemisia stems cut into short 4–6 cm batons, stir-fried with thin slices of reddish brown cured pork with translucent ivory fat edges and a very few red chili slivers. The stems are mostly leafless; the dish is lightly glistening, NOT a soup, NOT broccoli, NOT leafy spinach, NOT bamboo shoots. A modest shared restaurant portion, no rice bowl or side dishes.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

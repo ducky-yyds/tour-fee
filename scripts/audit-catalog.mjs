@@ -141,6 +141,8 @@ for (const city of cities) {
     if (!price || (price.type !== 'missing' && !price.missingPrice && !(Number.isFinite(price.low) && price.low >= 0 && Number.isFinite(price.high) && price.high >= price.low))) problems.push(`Invalid price: ${attraction.id}`);
     if (price?.type === 'official' && (!price.checkedAt || !price.sourceUrl)) problems.push(`Untraceable official price: ${attraction.id}`);
     auditImage('attractions', attraction);
+    const photo = media.attractions?.[attraction.id];
+    if (attraction.imagePolicy === 'exact-only' && photo && photo.scope !== 'illustration' && !(photo.scope === 'exact-place' && photo.subjectMatched)) problems.push(`Unreviewed identity-specific image: ${attraction.id}`);
   }
 }
 

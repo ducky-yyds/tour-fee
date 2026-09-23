@@ -1,0 +1,1535 @@
+[
+  {
+    "cityId": "beijing",
+    "attractions": [
+      {
+        "id": "beijing-war-resistance-museum",
+        "name": "中国人民抗日战争纪念馆",
+        "nameEn": "Museum of the War of Chinese People’s Resistance Against Japanese Aggression",
+        "lat": 39.850815,
+        "lng": 116.219896,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 80,
+        "description": "在宛平城内沿文物、档案与历史影像了解抗日战争历程，把参观重点放在历史证据、普通人的经历与和平纪念上。可与卢沟桥分段安排，桥区参观规则与本馆不同。",
+        "accessNote": "基本展览免费；入馆安排、安检及团体讲解请查看纪念馆当前公告。建议预留完整半天，往返宛平城交通另计。",
+        "features": [
+          "抗战历史",
+          "和平教育"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.beijing.gov.cn/fwcj/calendar/bwgzl/6623ee7181e5641581784f5b.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.chinavictory.com/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "北京市人民政府展览信息",
+            "url": "https://www.beijing.gov.cn/fwcj/calendar/bwgzl/6623ee7181e5641581784f5b.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q700376",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "AntijapaneseWarMemorialMuseum.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AntijapaneseWarMemorialMuseum.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.beijing.gov.cn/fwcj/calendar/bwgzl/6623ee7181e5641581784f5b.html",
+          "sourceName": "北京市人民政府展览信息",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "beijing-pku-red-building",
+        "name": "北大红楼",
+        "nameEn": "Peking University Red Building",
+        "lat": 39.923333,
+        "lng": 116.399167,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 77,
+        "description": "走进五四大街的红砖校舍，通过教室、图书馆空间与文献了解新文化运动、五四运动及早期革命活动。这里是历史校址，与海淀的北京大学现校园分开安排。",
+        "accessNote": "免费参观；携带有效证件，个人登记与团体预约方式以北大红楼官方当日公告为准。不要把参观红楼误当作预约进入北京大学现校园。",
+        "features": [
+          "五四运动",
+          "近代教育"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202406/t20240623_3723929.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202406/t20240623_3723929.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "北京市人民政府参观服务公告",
+            "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202406/t20240623_3723929.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q1621028",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Red building of Peking University.JPG",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red%20building%20of%20Peking%20University.JPG"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202406/t20240623_3723929.html",
+          "sourceName": "北京市人民政府参观服务公告",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "beijing-xiangshan-revolution-memorial",
+        "name": "香山革命纪念馆",
+        "nameEn": "Fragrant Hills Revolutionary Memorial",
+        "lat": 39.991985,
+        "lng": 116.199648,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "使用该纪念馆实景照片的 WGS84 拍摄位置作入口附近参考；准确入口按官方指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 72,
+        "description": "围绕1949年中共中央在香山的历史，阅读进驻香山、渡江战役与筹建新中国的档案。纪念馆位于香山公园之外，适合单独留出一段完整的观展时间。",
+        "accessNote": "免费参观，馆方当前首页提示来馆无需预约；开放时段和临时调整请看官方公告。双清别墅等旧址位于香山公园内，需另算园区规则、门票与步行时间。",
+        "features": [
+          "1949年历史",
+          "革命历史"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.xiangshan1949.cn/",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.xiangshan1949.cn/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "香山革命纪念馆官网",
+            "url": "https://www.xiangshan1949.cn/",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://commons.wikimedia.org/wiki/File:Fragrant_Hills_Revolutionary_Memorial,_Sep_2019.jpg",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Fragrant Hills Revolutionary Memorial, Sep 2019.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fragrant%20Hills%20Revolutionary%20Memorial%2C%20Sep%202019.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.xiangshan1949.cn/",
+          "sourceName": "香山革命纪念馆官网",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "shanghai",
+    "attractions": [
+      {
+        "id": "shanghai-first-cpc-congress-memorial",
+        "name": "中共一大纪念馆与会址",
+        "nameEn": "Memorial of the First National Congress of the CPC",
+        "lat": 31.222083,
+        "lng": 121.470694,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "把兴业路的石库门会址与新建展馆连起来看，通过人物、文献和实物理解建党历史。会址和新馆是相邻但不同的参观空间，留足步行与安检时间。",
+        "accessNote": "基本参观免费；新馆与会址的入场、团队预约及限流规则请分别核对官方通知。常规周一闭馆，法定节假日安排另行发布。",
+        "features": [
+          "建党历史",
+          "石库门旧址"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.shanghai.gov.cn/hsly/20260625/10d0e931417d4614b0d8bbbbd03495c1.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.shanghai.gov.cn/hsly/20260625/10d0e931417d4614b0d8bbbbd03495c1.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "上海市人民政府红色旅游指南",
+            "url": "https://www.shanghai.gov.cn/hsly/20260625/10d0e931417d4614b0d8bbbbd03495c1.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q41728",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "The First National Congress of CPC.jpg",
+        "imageContextNote": "照片为兴业路中共一大会址外观；新建展馆位于相邻区域。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The%20First%20National%20Congress%20of%20CPC.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+          "sourceName": "上海市人民政府红色旅游指南",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "shanghai-second-cpc-congress-memorial",
+        "name": "中共二大会址纪念馆",
+        "nameEn": "Memorial of the Second National Congress of the CPC",
+        "lat": 31.226153,
+        "lng": 121.462,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 70,
+        "description": "在辅德里石库门建筑中了解中共二大、首部党章与早期组织活动，可与周边静安历史街区串联。按展览线索慢看，比只在门口停留更容易理解这处旧址。",
+        "accessNote": "常设展免费；通常周一闭馆。团体、讲解和情景课程需按馆方说明单独预约，课程名额不等于普通入馆名额。",
+        "features": [
+          "早期党史",
+          "石库门旧址"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.shanghai.gov.cn/nw15343/20260701/726f10fc42d64fca9f1fe752c7a391b7.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.shanghai.gov.cn/nw15343/20260701/726f10fc42d64fca9f1fe752c7a391b7.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "上海市人民政府／静安区人民政府",
+            "url": "https://www.shanghai.gov.cn/nw15343/20260701/726f10fc42d64fca9f1fe752c7a391b7.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10873229",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Zhongguogongchandang Di'erci Quanguodaibiaodahui Huizhi.JPG",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhongguogongchandang%20Di%27erci%20Quanguodaibiaodahui%20Huizhi.JPG"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/60/60195750731c4871a03be0d896b2c7dc/7fdaf71fb7145466340c367268a7c85f.pdf",
+          "sourceName": "上海市人民政府／静安区人民政府",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "shanghai-sihang-warehouse-memorial",
+        "name": "四行仓库抗战纪念馆",
+        "nameEn": "Sihang Warehouse Battle Memorial",
+        "lat": 31.242078,
+        "lng": 121.466944,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 78,
+        "description": "结合仓库建筑、晋元纪念广场与馆内史料，了解1937年四行仓库保卫战及守军经历。这里兼有遗址与纪念空间，适合安静观展和理解苏州河沿岸的抗战历史。",
+        "accessNote": "常规参观免费；个人入馆、团队讲解及高峰限流以官方当日发布为准。通常周一闭馆，展馆与室外广场的开放时间不同。",
+        "features": [
+          "淞沪抗战",
+          "遗址纪念"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.meet-in-shanghai.net/cn/revolutionary-venues/carry-forward-the-patriotic-spirit-and-inherit-the-national-integrity--800-heroes-and-the-defense-of-the-sixing-warehouse-085259/",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.meet-in-shanghai.net/cn/revolutionary-venues/carry-forward-the-patriotic-spirit-and-inherit-the-national-integrity--800-heroes-and-the-defense-of-the-sixing-warehouse-085259/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "上海市文旅推广网",
+            "url": "https://www.meet-in-shanghai.net/cn/revolutionary-venues/carry-forward-the-patriotic-spirit-and-inherit-the-national-integrity--800-heroes-and-the-defense-of-the-sixing-warehouse-085259/",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10925316",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Sihang Warehouse 2017.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sihang%20Warehouse%202017.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.meet-in-shanghai.net/cn/revolutionary-venues/carry-forward-the-patriotic-spirit-and-inherit-the-national-integrity--800-heroes-and-the-defense-of-the-sixing-warehouse-085259/",
+          "sourceName": "上海市文旅推广网",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "nanjing",
+    "attractions": [
+      {
+        "id": "nanjing-massacre-victims-memorial",
+        "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+        "nameEn": "Memorial Hall of the Victims in Nanjing Massacre",
+        "lat": 32.03759,
+        "lng": 118.73659,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "通过历史档案、幸存者证言与遗址展陈悼念遇难者、理解战争对平民造成的伤害。建议独立安排一段安静的参观时间，结束后留出休息与整理情绪的余地。",
+        "accessNote": "免费但需官方实名分时预约；按所约馆区和时段入馆，江东门主馆与其他馆区不可混用预约。部分展陈较沉重，携儿童时由监护人判断适合程度。",
+        "features": [
+          "抗战史实",
+          "和平教育",
+          "遇难者纪念"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.19371213.org.cn/information/notices/202607/t20260707_5872161.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.19371213.com.cn/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+            "url": "https://www.19371213.org.cn/information/notices/202607/t20260707_5872161.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q32391",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "The monument in the front of Nanjing Massacre Memorial Hall (20090614 9921).jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:The%20monument%20in%20the%20front%20of%20Nanjing%20Massacre%20Memorial%20Hall%20%2820090614%209921%29.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.19371213.org.cn/information/notices/202607/t20260707_5872161.html",
+          "sourceName": "侵华日军南京大屠杀遇难同胞纪念馆",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "nanjing-yuhuatai-martyrs",
+        "name": "雨花台烈士陵园与纪念馆",
+        "nameEn": "Yuhuatai Martyrs Memorial Area",
+        "lat": 32.000556,
+        "lng": 118.776111,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 74,
+        "description": "沿纪念轴线了解烈士生平与雨花台历史，可选择室外纪念区和馆内展陈组合参观。参观重点是缅怀与历史学习，沿线步行较长，不宜当作赶场式景点。",
+        "accessNote": "园区免费、入园无需预约；馆内开放与团队讲解另按官方服务页执行，室外陵园开放不代表纪念馆全天开放。讲解等自选服务另计。",
+        "features": [
+          "烈士纪念",
+          "革命历史"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://yht.nanjing.gov.cn/yqdl/yyfw/",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://yht.nanjing.gov.cn/yqdl/yyfw/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "雨花台烈士陵园官方参观服务",
+            "url": "https://yht.nanjing.gov.cn/yqdl/yyfw/",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q8060463",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Martyrs monument at Yuhuatai(flickr 5811400521).jpg",
+        "imageContextNote": "照片为雨花台烈士就义群雕，属于陵园纪念区。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martyrs%20monument%20at%20Yuhuatai%28flickr%205811400521%29.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://yht.nanjing.gov.cn/yqdl/yyfw/",
+          "sourceName": "雨花台烈士陵园官方参观服务",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "nanjing-meiyuan-cpc-delegation",
+        "name": "中共代表团梅园新村纪念馆",
+        "nameEn": "Meiyuan New Village Memorial",
+        "lat": 32.04469,
+        "lng": 118.796459,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 69,
+        "description": "在梅园新村30号、35号等旧址与史料陈列中，了解抗战胜利后中共代表团在南京开展谈判的历史。低矮住宅、庭院与办公空间能帮助把档案中的事件放回具体环境。",
+        "accessNote": "基本参观免费；开放院落、展厅和讲解安排以馆方公告为准，旧址部分房间或楼层不一定开放。不要把整个梅园新村街道都当作馆区。",
+        "features": [
+          "国共和谈",
+          "革命旧址"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://yht.nanjing.gov.cn/rednanjing/hszxmap/202506/t20250611_5583676.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://yht.nanjing.gov.cn/rednanjing/hszxmap/202506/t20250611_5583676.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "南京雨花台红色在线地图",
+            "url": "https://yht.nanjing.gov.cn/rednanjing/hszxmap/202506/t20250611_5583676.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2025njytabl/shirddbjy/202512/t20251205_5706446.html",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10873186",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "No30 MeiyuanXincun Nanjing 1.jpg",
+        "imageContextNote": "照片为梅园新村30号旧址外观。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:No30%20MeiyuanXincun%20Nanjing%201.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2025njytabl/shirddbjy/202512/t20251205_5706446.html",
+          "sourceName": "南京雨花台红色在线地图",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "nanjing-yangtze-crossing-memorial",
+        "name": "渡江胜利纪念馆",
+        "nameEn": "Yangtze River Crossing Victory Memorial",
+        "lat": 32.07603,
+        "lng": 118.72656,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "OpenStreetMap WGS84 馆区参考坐标；渡江路新馆与热河路纪念碑不是同一地点。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 68,
+        "description": "在秦淮河入江口附近的纪念馆，沿渡江战役与南京城市历史展陈了解1949年的军事和社会变化。可先看主题展，再走到室外纪念广场，避免只看建筑而错过文物线索。",
+        "accessNote": "免费参观；市文旅局公布常规开放为周二至周日9:00—17:00、16:30停止入馆，节假日和临时调整以馆方公告为准。",
+        "features": [
+          "渡江战役",
+          "城市近代史"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://wlj.nanjing.gov.cn/whcg/bwg/njsdjsljng/201807/t20180731_1078648.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://wlj.nanjing.gov.cn/whcg/bwg/njsdjsljng/201807/t20180731_1078648.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "南京市文化和旅游局",
+            "url": "https://wlj.nanjing.gov.cn/whcg/bwg/njsdjsljng/201807/t20180731_1078648.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.openstreetmap.org/way/441882720",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://wlj.nanjing.gov.cn/whcg/bwg/njsdjsljng/201807/t20180731_1078648.html",
+          "sourceName": "南京市文化和旅游局",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        },
+        "imageContextNote": "尚未取得已核对主体的场馆照片；不以其他城市的渡江纪念馆或南京热河路纪念碑替代。"
+      }
+    ]
+  },
+  {
+    "cityId": "wuhan",
+    "attractions": [
+      {
+        "id": "wuhan-august-seven-conference",
+        "name": "八七会议会址纪念馆",
+        "nameEn": "August 7 Conference Memorial",
+        "lat": 30.58899,
+        "lng": 114.2944,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 73,
+        "description": "在汉口鄱阳街的历史建筑中，结合会场复原与史料了解1927年八七会议的背景、讨论和后续影响。馆区相对紧凑，适合与汉口沿江历史街区安排在同一天。",
+        "accessNote": "基本参观免费；具体开放时段、团体讲解与现场限流请查看纪念馆公告。旧楼内请沿指定参观路线通行，行动不便者可提前咨询无障碍安排。",
+        "features": [
+          "革命转折",
+          "会议旧址"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202008/t20200827_1437249.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202008/t20200827_1437249.shtml",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "武汉市文化和旅游局",
+            "url": "https://wlj.wuhan.gov.cn/zfxxgk/fdzdgknr/jgjj/zsdw/202008/t20200827_1437249.shtml",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://www.wuhan.gov.cn/ztzl/yjs/2026/drz/whswhhlyj_36982/bndys_36983/202602/t20260227_2732503.shtml",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10891896",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "20240622 Site of the August 7 Conference 01.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240622%20Site%20of%20the%20August%207%20Conference%2001.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.wuhan.gov.cn/ztzl/yjs/2026/drz/whswhhlyj_36982/bndys_36983/202602/t20260227_2732503.shtml",
+          "sourceName": "武汉市文化和旅游局",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "wuhan-wuchang-uprising-red-building",
+        "name": "辛亥革命博物院北区（武昌起义军政府旧址）",
+        "nameEn": "Wuchang Uprising Memorial — North Campus",
+        "lat": 30.544722,
+        "lng": 114.300917,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 75,
+        "description": "在武昌红楼与常设展中了解1911年武昌起义和共和制度的建立。这里是博物院北区，与南区新馆分开管理，可按兴趣选一处细看或另加南区时间。",
+        "accessNote": "免费展区凭有效证件入馆，无需网上预约；北区常规周二闭馆，南区周一闭馆。鄂军都督府旧址复原陈列为另收费展览，本预算仅覆盖免费区域，具体收费看馆内公告。",
+        "features": [
+          "辛亥革命",
+          "近代制度史"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.1911museum.cn/list_37.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.1911museum.cn/list_37.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "辛亥革命博物院参观须知",
+            "url": "https://www.1911museum.cn/list_37.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q15925097",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "WuchangUprising.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WuchangUprising.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.1911museum.cn/list_37.html",
+          "sourceName": "辛亥革命博物院参观须知",
+          "note": "仅含免费展区；鄂军都督府旧址复原陈列、人工讲解等收费项目未计入。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "guangzhou",
+    "attractions": [
+      {
+        "id": "guangzhou-peasant-movement-institute",
+        "name": "农民运动讲习所旧址纪念馆",
+        "nameEn": "Peasant Movement Training Institute Memorial",
+        "lat": 23.12981,
+        "lng": 113.271157,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "开放地理资料参考坐标用于馆区规划；入口位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 72,
+        "description": "在原番禺学宫中了解1926年第六届农民运动讲习所的教学、训练与社会实践。古建筑、教室与史料共同呈现第一次国共合作时期的农民运动和革命教育。",
+        "accessNote": "基本参观免费，个人自2024年7月8日起免预约、安检后入馆；通常周一闭馆。团队讲解与研学课程按农讲所官方发布单独预约。",
+        "features": [
+          "农民运动",
+          "革命教育"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.gz.gov.cn/zlgz/gzly/wzgz/agjyjd/content/post_9604937.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.gznjs.cn/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "广州市人民政府爱国主义教育基地指南",
+            "url": "https://www.gz.gov.cn/zlgz/gzly/wzgz/agjyjd/content/post_9604937.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%B7%9E%E5%86%9C%E6%B0%91%E8%BF%90%E5%8A%A8%E8%AE%B2%E4%B9%A0%E6%89%80%E6%97%A7%E5%9D%80",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "广州市人社局现场教学基地参观方式",
+            "url": "https://rsj.gz.gov.cn/ywzt/rcgz/rcpx/pxxx/content/post_10077326.html",
+            "kind": "official",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Nongjiang Suo.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nongjiang%20Suo.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://wglj.gz.gov.cn/attachment/7/7898/7898147/10481562.pdf",
+          "sourceName": "广州市人民政府爱国主义教育基地指南",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "guangzhou-third-cpc-congress-memorial",
+        "name": "中共三大会址纪念馆",
+        "nameEn": "Memorial of the Third National Congress of the CPC",
+        "lat": 23.121389,
+        "lng": 113.290833,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 72,
+        "description": "结合恤孤院路会址遗址广场与历史陈列，了解1923年中共三大和第一次国共合作的形成。原会址建筑已毁，今天的参观内容由遗址纪念空间与新建展馆组成。",
+        "accessNote": "基本陈列免费，通常周一闭馆；预约、团队讲解与春园开放请核对馆方当前公告。春园是另外一处相关旧址，不应误认为会址原建筑。",
+        "features": [
+          "国共合作",
+          "建党历史"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.gz.gov.cn/zlgz/gzly/wzgz/agjyjd/content/post_9604935.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.gz.gov.cn/zlgz/gzly/wzgz/agjyjd/content/post_9604935.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "广州市人民政府／中共三大会址纪念馆",
+            "url": "https://www.gz.gov.cn/zlgz/gzly/wzgz/agjyjd/content/post_9604935.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://wglj.gz.gov.cn/attachment/7/7556/7556731/9499989.pdf",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10873223",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "中共三大文保标识 2014-02-16 21-31.jpg",
+        "imageContextNote": "照片为中共三大会址的文物保护标识，原会址建筑已毁。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E5%85%B1%E4%B8%89%E5%A4%A7%E6%96%87%E4%BF%9D%E6%A0%87%E8%AF%86%202014-02-16%2021-31.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://wglj.gz.gov.cn/attachment/7/7556/7556731/9499989.pdf",
+          "sourceName": "广州市人民政府／中共三大会址纪念馆",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "guangzhou-whampoa-academy-memorial",
+        "name": "黄埔军校旧址纪念馆",
+        "nameEn": "Whampoa Military Academy Site Memorial",
+        "lat": 23.0893,
+        "lng": 113.420286,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 76,
+        "description": "在长洲岛的校本部、校史展与相关纪念空间了解黄埔军校及近代军事教育。岛上点位分散，可优先细看校本部，再根据体力选择其他开放旧址。",
+        "accessNote": "免费实名预约；校本部和相关旧址的开放范围、时段以官方票务页面为准。需额外预留往返长洲岛的交通时间，不把市中心到岛上的时间算进观展用时。",
+        "features": [
+          "近代军事教育",
+          "国共合作"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.hp.gov.cn/xwzx/bmdt/content/post_10457183.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://piaowu.hpma.cn/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "广州市黄埔区人民政府",
+            "url": "https://www.hp.gov.cn/xwzx/bmdt/content/post_10457183.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q11177237",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Site of Whampoa Military Academy.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Site%20of%20Whampoa%20Military%20Academy.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hp.gov.cn/xwzx/bmdt/content/post_10457183.html",
+          "sourceName": "广州市黄埔区人民政府",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "xian",
+    "attractions": [
+      {
+        "id": "xian-eighth-route-army-office",
+        "name": "八路军西安办事处纪念馆",
+        "nameEn": "Eighth Route Army Xi’an Office Memorial",
+        "lat": 34.27431,
+        "lng": 108.94995,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 72,
+        "description": "在七贤庄院落和展厅了解八路军办事处的联络、物资转运及青年赴延安的历史。院落旧址比大型综合展馆更紧凑，适合围绕几件文物和人物经历慢慢看。",
+        "accessNote": "免费；常规9:00—17:00、16:30停止入馆，周一闭馆，法定节假日另行安排。携带有效证件，团队讲解需要提前向馆方确认。",
+        "features": [
+          "抗战历史",
+          "八路军办事处"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://wlj.xa.gov.cn/wbdw/bwgjs/1.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://wlj.xa.gov.cn/wbdw/bwgjs/1.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "西安市文化和旅游局博物馆名录",
+            "url": "https://wlj.xa.gov.cn/wbdw/bwgjs/1.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q15913387",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Xi'an Balujun Banshichu Jiuzhi 2014.01.04 09-44-59.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xi%27an%20Balujun%20Banshichu%20Jiuzhi%202014.01.04%2009-44-59.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://wlj.xa.gov.cn/wbdw/bwgjs/1.html",
+          "sourceName": "西安市文化和旅游局博物馆名录",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "xian-xian-incident-zhang-residence",
+        "name": "西安事变纪念馆（张学良公馆）",
+        "nameEn": "Xi’an Incident Memorial — Zhang Xueliang Residence",
+        "lat": 34.2588,
+        "lng": 108.96253,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "使用张学良公馆 WGS84 旧址位置用于规划；入口位于建国路，杨虎城止园别墅为另一馆区。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 74,
+        "description": "从张学良公馆的旧址和文献展了解1936年西安事变及和平解决的过程。此项只安排建国路馆区，杨虎城止园别墅位于另一地点，需要另加路程和参观时间。",
+        "accessNote": "免费凭有效证件入馆，通常周一闭馆。2026年4月公布东楼、中楼及展厅恢复开放，西楼仍封闭施工；具体修缮进展请在出发前查看官方公告。",
+        "features": [
+          "西安事变",
+          "抗日民族统一战线"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://wwj.xa.gov.cn/xwzx/tzgg/2052318426940055553.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://wwj.xa.gov.cn/xwzx/tzgg/2052318426940055553.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "西安市文物局／西安事变纪念馆",
+            "url": "https://wwj.xa.gov.cn/xwzx/tzgg/2052318426940055553.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://commons.wikimedia.org/wiki/Category:Former_Residence_of_Zhang_Xueliang,_Xi%27an",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "张学良公馆-东楼（A楼）.jpg",
+        "imageContextNote": "照片为西安张学良公馆东楼（A楼）外观。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BC%A0%E5%AD%A6%E8%89%AF%E5%85%AC%E9%A6%86-%E4%B8%9C%E6%A5%BC%EF%BC%88A%E6%A5%BC%EF%BC%89.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://wwj.xa.gov.cn/xwzx/tzgg/2052318426940055553.html",
+          "sourceName": "西安市文物局／西安事变纪念馆",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "changsha",
+    "attractions": [
+      {
+        "id": "changsha-first-normal-school-memorial",
+        "name": "毛泽东与第一师范纪念馆",
+        "nameEn": "Mao Zedong and First Normal School Memorial",
+        "lat": 28.17948,
+        "lng": 112.96665,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 73,
+        "description": "在湖南第一师范旧址中了解青年毛泽东的求学、任教及早期社会活动，将校舍、课堂与人物经历联系起来。这里仍与教育空间相邻，应按纪念馆指定路线参观。",
+        "accessNote": "免费实名预约，使用馆方公布的预约入口；游客从纪念馆北门进入，学校其他校门不等于参观入口。通常周一闭馆，修缮后开放范围和课程另看公告。",
+        "features": [
+          "近代教育",
+          "早期革命活动"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://mzdydysfjng.hnfnu.edu.cn/ggfw/cgxz.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://mzdydysfjng.hnfnu.edu.cn/ggfw/cgxz.htm",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "毛泽东与第一师范纪念馆",
+            "url": "https://mzdydysfjng.hnfnu.edu.cn/ggfw/cgxz.htm",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://mzdydysfjng.hnfnu.edu.cn/info/1131/10084.htm",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q126952101",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "纪念馆现行公告（含修缮后重新开放通知）",
+            "url": "https://mzdydysfjng.hnfnu.edu.cn/",
+            "kind": "official",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Site of Hunan First Normal University, 2018-09-27 01.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Site%20of%20Hunan%20First%20Normal%20University%2C%202018-09-27%2001.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://mzdydysfjng.hnfnu.edu.cn/info/1131/10084.htm",
+          "sourceName": "毛泽东与第一师范纪念馆",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      },
+      {
+        "id": "changsha-qingshuitang-hunan-committee",
+        "name": "中共湘区委员会旧址与长沙党史馆",
+        "nameEn": "Hunan CPC Committee Site and Changsha History Museum",
+        "lat": 28.203718,
+        "lng": 112.983607,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 69,
+        "description": "在清水塘旧居和相关展陈中，了解湖南早期党组织、工人运动及毛泽东与杨开慧在长沙的生活。小型旧居和馆内历史陈列可以连起来看，避免把参观只停留在外观。",
+        "accessNote": "常设展免费；通过长沙党史馆官方渠道核对个人预约、团队讲解及当日开放，通常周一闭馆。旧址与馆内展厅开放范围可能分别调整。",
+        "features": [
+          "湖南早期党史",
+          "革命旧居"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://hunan.gov.cn/hnszf/c101474/202108/t20210826_20401150.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://hunan.gov.cn/hnszf/c101474/202108/t20210826_20401150.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "湖南省人民政府",
+            "url": "https://hunan.gov.cn/hnszf/c101474/202108/t20210826_20401150.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://www.icswb.com/h/104913/20210701/719317.html",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10871834",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Site of Hunan Council of China Communist Party, 2018-09-27 01.jpg",
+        "imageContextNote": "照片为中共湘区委员会清水塘旧址。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Site%20of%20Hunan%20Council%20of%20China%20Communist%20Party%2C%202018-09-27%2001.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.icswb.com/h/104913/20210701/719317.html",
+          "sourceName": "湖南省人民政府",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "jinan",
+    "attractions": [
+      {
+        "id": "jinan-campaign-martyrs-memorial",
+        "name": "济南革命烈士陵园与济南战役纪念馆",
+        "nameEn": "Jinan Martyrs Cemetery and Campaign Memorial",
+        "lat": 36.63976,
+        "lng": 116.99671,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "OpenStreetMap WGS84 馆区参考坐标；陵园纪念区和展馆入口请按官方导览核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 72,
+        "description": "先在纪念馆按史料了解济南战役，再到纪念塔和烈士纪念区缅怀。全景画有固定播放场次，若希望观看，可围绕当日场次安排参观而不是到馆后匆忙赶场。",
+        "accessNote": "基本参观免费，特殊展览除外；讲解与全景画场次请查询官方公告，团队讲解提前预约。陵园是纪念空间，祭扫期间请尊重仪式并保持肃穆。",
+        "features": [
+          "济南战役",
+          "烈士纪念"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.jngmlsly.cn/colqsy3835/art/2020/art_qsy3835_qsy208914.html",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.jngmlsly.cn/colqsy3835/art/2020/art_qsy3835_qsy208914.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "济南革命烈士陵园官方参观须知",
+            "url": "https://www.jngmlsly.cn/colqsy3835/art/2020/art_qsy3835_qsy208914.html",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://www.jinan.gov.cn/col/col118356/art/2026/art_509ff0d525d94e2a983d5bee6f1f38c3.html",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.openstreetmap.org/way/777206695",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Hero hill monument jinan 2009 07 18.jpg",
+        "imageContextNote": "照片为英雄山济南革命烈士纪念塔，位于陵园纪念区。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hero%20hill%20monument%20jinan%202009%2007%2018.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.jinan.gov.cn/col/col118356/art/2026/art_509ff0d525d94e2a983d5bee6f1f38c3.html",
+          "sourceName": "济南革命烈士陵园官方参观须知",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "harbin",
+    "attractions": [
+      {
+        "id": "harbin-unit-731-evidence-museum",
+        "name": "侵华日军第七三一部队罪证陈列馆",
+        "nameEn": "Unit 731 Evidence Exhibition Hall",
+        "lat": 45.606781,
+        "lng": 126.633217,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "通过档案、遗址和物证了解侵华日军细菌战及人体实验的罪行，纪念受害者并反思战争。展陈内容沉重，建议给予完整、安静的参观时间，结束后留出休息。",
+        "accessNote": "免费实名分时预约，请通过陈列馆官方公众号公布的入口操作，按所约时段携有效证件入馆。位于平房区，需另留往返市中心交通；携儿童时请先判断展陈适合程度。",
+        "features": [
+          "抗战史实",
+          "和平教育",
+          "遇难者纪念"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202510/c00_31881604.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://www.hrbtv.net/folder137/2024-04-29/899547.html",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "黑龙江省人民政府",
+            "url": "https://www.hlj.gov.cn/hlj/c107858/202510/c00_31881604.shtml",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "参观与开放信息补充来源",
+            "url": "https://www.hrbtv.net/folder137/2024-04-29/899547.html",
+            "kind": "source-reference",
+            "scope": "visitor-information",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q60577004",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Building on the site of the Harbin bioweapon facility of Unit 731 関東軍防疫給水部本部731部隊（石井部隊）日軍第731部隊旧址 PB120758.JPG",
+        "imageContextNote": "照片为七三一部队遗址保留建筑，非新建展厅外观。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Building%20on%20the%20site%20of%20the%20Harbin%20bioweapon%20facility%20of%20Unit%20731%20%E9%96%A2%E6%9D%B1%E8%BB%8D%E9%98%B2%E7%96%AB%E7%B5%A6%E6%B0%B4%E9%83%A8%E6%9C%AC%E9%83%A8731%E9%83%A8%E9%9A%8A%EF%BC%88%E7%9F%B3%E4%BA%95%E9%83%A8%E9%9A%8A%EF%BC%89%E6%97%A5%E8%BB%8D%E7%AC%AC731%E9%83%A8%E9%9A%8A%E6%97%A7%E5%9D%80%20PB120758.JPG"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hrbtv.net/folder137/2024-04-29/899547.html",
+          "sourceName": "黑龙江省人民政府",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "guilin",
+    "attractions": [
+      {
+        "id": "guilin-eighth-route-army-office",
+        "name": "八路军桂林办事处纪念馆",
+        "nameEn": "Eighth Route Army Guilin Office Memorial",
+        "lat": 25.289722,
+        "lng": 110.295,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "Wikidata WGS84 地点坐标用于馆区规划；入口与接驳位置须按官方指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": false,
+        "priority": 68,
+        "description": "在原万祥糟坊建筑与史料陈列中，了解八路军在桂林的联络、物资支援和抗战文化活动。可在桂林山水行程之间加入这段城市历史，认识战时桂林的另一面。",
+        "accessNote": "免费开放，官网公布9:00—17:00、16:40停止入馆，周一闭馆，节假日除外。团体或讲解请通过官方电话提前确认，旧址与相关附属场馆不要混为同一入口。",
+        "features": [
+          "桂林抗战文化",
+          "八路军办事处"
+        ],
+        "bestTime": "选择完整的开放时段参观；所列用时为编辑建议，不含往返交通、排队和单独报名课程。",
+        "sourceUrl": "https://glbb.org.cn/",
+        "sourceCheckedAt": "2026-09-23",
+        "bookingUrl": "https://glbb.org.cn/",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "sourceReferences": [
+          {
+            "name": "八路军桂林办事处纪念馆官网",
+            "url": "https://glbb.org.cn/",
+            "kind": "official",
+            "scope": "destination-content-and-access",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "馆址地理位置参考",
+            "url": "https://www.wikidata.org/wiki/Q10892415",
+            "kind": "open-data",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "photoFile": "Guilin Office of the Eighth Route Army 01.jpg",
+        "imageContextNote": "照片为该处场馆或旧址的实景，开放范围以当日公告为准。",
+        "image": {
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guilin%20Office%20of%20the%20Eighth%20Route%20Army%2001.jpg"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official-reference",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://glbb.org.cn/",
+          "sourceName": "八路军桂林办事处纪念馆官网",
+          "note": "常设展或所述纪念区免费；免费不代表免预约，交通、特展、自选讲解和课程另计。"
+        }
+      }
+    ]
+  }
+]

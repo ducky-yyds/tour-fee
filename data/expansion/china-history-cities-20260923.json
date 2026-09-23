@@ -1,0 +1,1299 @@
+[
+  {
+    "id": "nanchang",
+    "name": "南昌",
+    "nameEn": "Nanchang",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-36",
+    "lat": 28.683,
+    "lng": 115.858,
+    "iata": "KHN",
+    "article": "Nanchang",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nanchang"
+    },
+    "tagline": "从起义旧址与赣派街巷走到赣江晚风，用拌粉和瓦罐汤开启一天。",
+    "description": "从起义旧址与赣派街巷走到赣江晚风，用拌粉和瓦罐汤开启一天。",
+    "tags": [
+      "革命历史",
+      "街区慢游",
+      "地方饮食"
+    ],
+    "officialTourismUrl": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+    "sourceReferences": [
+      {
+        "name": "南昌市政府·南昌八一起义纪念馆",
+        "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "南昌市政府·滕王阁",
+        "url": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "南昌市西湖区政府·A级旅游景区",
+        "url": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "南昌高新区·艾溪湖湿地公园",
+        "url": "https://nchdz.nc.gov.cn/ncgxq/axhsdgya/202205/0eed995f4e7340838e680435399a7d22.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 4,
+      "reason": "建议3天：老城历史与街巷一天、赣江两岸一天，再选城东湿地或主题纪念馆。市区以地铁与步行为主，跨江、城东与老城区间保留交通；南昌西站、南昌站和昌北机场分开计算接驳。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        350,
+        900
+      ],
+      "food": [
+        50,
+        110,
+        240
+      ],
+      "transport": [
+        15,
+        45,
+        140
+      ],
+      "misc": [
+        20,
+        40,
+        90
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1400,
+        2600,
+        5000
+      ],
+      "utilities": [
+        180,
+        320,
+        600
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预留，不是抓取的实时房价、实时菜单或市场上下限。住宿每间每晚；餐饮、交通、杂项每成人每天；长租及水电每间每月。门票、跨城交通与远郊接驳另计，可按实际报价调整。"
+    },
+    "transportNote": "建议3天：老城历史与街巷一天、赣江两岸一天，再选城东湿地或主题纪念馆。市区以地铁与步行为主，跨江、城东与老城区间保留交通；南昌西站、南昌站和昌北机场分开计算接驳。",
+    "guide": {
+      "cityId": "nanchang",
+      "intro": "从起义旧址与赣派街巷走到赣江晚风，用拌粉和瓦罐汤开启一天。",
+      "foodHighlights": [
+        {
+          "name": "拌粉与瓦罐汤",
+          "description": "一拌一汤组成南昌早餐，按辣度、加料和汤品分别点。"
+        },
+        {
+          "name": "白糖糕",
+          "description": "油炸糯米点心裹糖，适合热吃，与广式蒸白糖糕不同。"
+        },
+        {
+          "name": "藜蒿炒腊肉",
+          "description": "清香的藜蒿配腊肉，是在赣菜馆适合与同伴分享的一盘菜。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "万寿宫与中山路",
+          "description": "看旧址、逛赣派街巷，再按食欲安排一顿小吃。"
+        },
+        {
+          "name": "赣江两岸",
+          "description": "东岸看滕王阁，西岸散步看城市灯光；跨江要预留时间。"
+        },
+        {
+          "name": "艾溪湖东岸",
+          "description": "把林荫和水边留作半天休闲，不追求整湖打卡。"
+        }
+      ],
+      "experienceIntro": "把重要旧址、地方餐桌与一段轻松散步放进同一天；按兴趣添加其他体验，不必收集完所有地点。"
+    },
+    "attractions": [
+      {
+        "id": "nanchang-bayi-museum",
+        "name": "南昌八一起义纪念馆",
+        "nameEn": "Nanchang August 1st Uprising Memorial Museum",
+        "lat": 28.678161,
+        "lng": 115.884369,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从起义总指挥部旧址走进常设陈列，沿人物、文物与作战叙事了解1927年的南昌起义；适合留出完整的一段上午。",
+        "features": [
+          "起义总指挥部",
+          "近现代历史",
+          "免费常设展"
+        ],
+        "bestTime": "按馆方开放日安排上午；节假日预留安检与排队时间",
+        "accessNote": "免费参观；携带有效证件，提前查看馆方预约及开放公告。本项用时包含中山路主馆与总指挥部旧址，不包含分布在其他街道的贺龙、叶挺、朱德旧址。",
+        "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌市政府·南昌八一起义纪念馆",
+            "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/南昌八一起义纪念馆",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "article": "Nanchang Uprising",
+        "photoFile": "Nanchang Bayi Qiyi Jinianguan 20120712-03.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Bayi_Qiyi_Jinianguan_20120712-03.jpg"
+      },
+      {
+        "id": "nanchang-bayi-square",
+        "name": "八一广场与起义纪念塔",
+        "nameEn": "Bayi Square",
+        "lat": 28.677222,
+        "lng": 115.899722,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 25,
+          "recommended": 45,
+          "max": 75
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在开阔广场看起义纪念塔和浮雕，再沿周边街道感受南昌的日常节奏；适合作为短暂停留，不必为广场单独占去半天。",
+        "features": [
+          "城市地标",
+          "纪念塔",
+          "户外广场"
+        ],
+        "bestTime": "上午或傍晚，按天气与体力调整",
+        "accessNote": "户外广场按零门票规划；活动管制时按现场通行安排。广场和八一起义纪念馆是不同地点，需保留市内交通。",
+        "sourceUrl": "https://www.nc.gov.cn/ncszf/rddbjy1/201911/023247e8367445b59e3e043510ec653e.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌市政府·城市游览线路",
+            "url": "https://www.nc.gov.cn/ncszf/rddbjy1/201911/023247e8367445b59e3e043510ec653e.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://en.wikipedia.org/wiki/Bayi_Square",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rddbjy1/201911/023247e8367445b59e3e043510ec653e.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rddbjy1/201911/023247e8367445b59e3e043510ec653e.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "article": "Bayi Square",
+        "photoFile": "Nanchang Bayi Guangchang 20120723-03.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Bayi_Guangchang_20120723-03.jpg"
+      },
+      {
+        "id": "nanchang-tengwang-pavilion",
+        "name": "滕王阁登阁与赣江远眺",
+        "nameEn": "Pavilion of Prince Teng",
+        "lat": 28.6841,
+        "lng": 115.8758,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "登临层叠飞檐的楼阁，看赣江与对岸天际线；读过《滕王阁序》后再看江景，会多一层理解。也可以只选免费园区散步。",
+        "features": [
+          "江南名楼",
+          "赣江全景",
+          "古典诗文"
+        ],
+        "bestTime": "下午至日落前；夜间项目按票种与当期时段确认",
+        "accessNote": "旅游区大部分公共区域免费，主阁等收费范围另购票；本预算为登阁编辑预留，夜游演出另计。仅逛免费园区时可在规划中调为零门票与较短用时。",
+        "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌市政府·滕王阁",
+            "url": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "南昌市国资委·滕王阁免费开放区域",
+            "url": "https://gzw.nc.gov.cn/ncsgzw/gzdt/202601/4c21216a13e24555a47d3eff6a97a11a.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/滕王阁",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 30,
+          "high": 60,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nc.gov.cn/ncszf/rwfg/202505/caef4edf190a44099b002d0891a3d0f8.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "按成人常规参观预留的编辑区间；须按日期确认门票、优惠资格和附加服务，城际与市内接驳另计。"
+        },
+        "article": "Pavilion of Prince Teng",
+        "photoFile": "滕王阁 2024-08-05 04.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%BB%95%E7%8E%8B%E9%98%81_2024-08-05_04.jpg"
+      },
+      {
+        "id": "nanchang-wanshou-historic-quarter",
+        "name": "万寿宫历史文化街区",
+        "nameEn": "Wanshou Palace Historic Quarter",
+        "lat": 28.677191,
+        "lng": 115.882298,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "顺着街巷看赣派院落、会馆与小店，想吃小吃就停下来尝一两样；白天看建筑，入夜后感受街区灯火。",
+        "features": [
+          "赣派街巷",
+          "小吃停留",
+          "夜间散步"
+        ],
+        "bestTime": "下午与晚饭前后",
+        "accessNote": "公共街巷按零门票预留，展馆、演出、购物与用餐分别计费；此处是市中心街区，不是西山万寿宫。",
+        "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌市西湖区政府·A级旅游景区",
+            "url": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "南昌市政府·非遗美食",
+            "url": "https://www.nc.gov.cn/ncszf/jrnc/202106/0955562930364d16857c519a9e7121c3.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://www.openstreetmap.org/way/563801477",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "Wanshou Palace Histroric Street.jpg"
+      },
+      {
+        "id": "nanchang-shengjin-pagoda",
+        "name": "绳金塔与老南昌街巷",
+        "nameEn": "Shengjin Pagoda and Historic Quarter",
+        "lat": 28.664167,
+        "lng": 115.895278,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "先看八角古塔，再慢慢走过周边院落和小吃街；比起打卡完就离开，更适合留时间看手艺、逛店和吃一份白糖糕。",
+        "features": [
+          "古塔外观",
+          "非遗小店",
+          "地方小吃"
+        ],
+        "bestTime": "上午或傍晚，按天气与体力调整",
+        "accessNote": "预算覆盖塔外公共空间与街区散步，不承诺登塔开放；室内场馆、演出与餐饮依现场规则另计。",
+        "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌市西湖区政府·A级旅游景区",
+            "url": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/繩金塔",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://xhq.nc.gov.cn/xhqrmzf/lvyou/202511/5c70b078ec75442792f98d0e3a1731a7.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "article": "Shengjin Pagoda",
+        "photoFile": "Nanchang Shengjin Ta 20120608-01.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Shengjin_Ta_20120608-01.jpg"
+      },
+      {
+        "id": "nanchang-qiushui-riverfront",
+        "name": "秋水广场与赣江夜色",
+        "nameEn": "Qiushui Square and Gan River Promenade",
+        "lat": 28.68647,
+        "lng": 115.85865,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 40,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在赣江西岸放慢脚步，看对岸滕王阁与沿江灯光；沿着步道边走边坐，适合给旅程留一段舒服的傍晚。",
+        "features": [
+          "江风散步",
+          "城市夜景",
+          "休闲停留"
+        ],
+        "bestTime": "日落前后；喷泉如遇停演仍可散步",
+        "accessNote": "公共广场步道按零门票规划。音乐喷泉和灯光活动受天气、维护与节日安排影响，不把固定场次作为行程承诺；跨江仍需交通时间。",
+        "sourceUrl": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "红谷滩区政府·秋水广场",
+            "url": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://www.openstreetmap.org/way/220994404",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://hgt.nc.gov.cn/hgtqrmzf/hgtfm/202604/85e25dfb797d41b983f074d55fcdf92f.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "article": "Qiushui Square",
+        "photoFile": "Qiushui Square.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Qiushui_Square.jpg"
+      },
+      {
+        "id": "nanchang-aixi-wetland",
+        "name": "艾溪湖湿地林荫慢行",
+        "nameEn": "Aixi Lake Wetland Park",
+        "lat": 28.7052,
+        "lng": 115.9872,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "选择东岸的一段林荫步道，看水面、草地与湿地鸟类；带本书或简单野餐，把一个下午留给湖边，不必绕完整座湖。",
+        "features": [
+          "湿地自然",
+          "林荫步道",
+          "轻松午后"
+        ],
+        "bestTime": "早晨或较凉爽的下午；夏季避开暴晒时段",
+        "accessNote": "公园公共区域免费；观鸟遵守园内要求，不投喂或进入保护区。位于城东，须保留从老城区往返的交通时间；坐标为东岸公园片区参考。",
+        "sourceUrl": "https://nchdz.nc.gov.cn/ncgxq/axhsdgya/202205/0eed995f4e7340838e680435399a7d22.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌高新区·艾溪湖湿地公园",
+            "url": "https://nchdz.nc.gov.cn/ncgxq/axhsdgya/202205/0eed995f4e7340838e680435399a7d22.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://mapcarta.com/W1414112110",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://nchdz.nc.gov.cn/ncgxq/axhsdgya/202205/0eed995f4e7340838e680435399a7d22.shtml"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://nchdz.nc.gov.cn/ncgxq/axhsdgya/202205/0eed995f4e7340838e680435399a7d22.shtml",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "艾溪湖湿地公园掠影 - panoramio.jpg"
+      },
+      {
+        "id": "nanchang-new-fourth-army-headquarters",
+        "name": "南昌新四军军部旧址陈列馆",
+        "nameEn": "Former New Fourth Army Headquarters in Nanchang",
+        "lat": 28.670556,
+        "lng": 115.890833,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "从院落旧址与陈列了解新四军在南昌组建的历程，把抗战历史与城市中的真实建筑联系起来。",
+        "features": [
+          "抗战历史",
+          "旧址院落",
+          "专题陈列"
+        ],
+        "bestTime": "选择纪念馆开放日的白天",
+        "accessNote": "免费开放项目；携带有效证件，开放日、讲解与临时展览以馆方最新公告为准。相邻东南分局旧址不默认计入本次参观。",
+        "sourceUrl": "https://www.ncn4a.cn/news/16/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "南昌新四军军部旧址陈列馆",
+            "url": "https://www.ncn4a.cn/news/16/",
+            "kind": "official-museum",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/南昌新四军军部旧址",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.ncn4a.cn/news/16/"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ncn4a.cn/news/16/",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "Nanchang Xinsijun Junbu Jiuzhi 20120608-02.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Xinsijun_Junbu_Jiuzhi_20120608-02.jpg"
+      }
+    ],
+    "photoFile": "Nanchang Skyline.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Skyline.jpg"
+  },
+  {
+    "id": "zunyi",
+    "name": "遵义",
+    "nameEn": "Zunyi",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-52",
+    "lat": 27.70498,
+    "lng": 106.93363,
+    "iata": "ZYI",
+    "article": "Zunyi",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zunyi"
+    },
+    "tagline": "在长征旧址、黔北小吃和城中山林之间慢下来，读一段历史，也过一段当地人的日常。",
+    "description": "在长征旧址、黔北小吃和城中山林之间慢下来，读一段历史，也过一段当地人的日常。",
+    "tags": [
+      "革命历史",
+      "街区慢游",
+      "地方饮食"
+    ],
+    "officialTourismUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+    "sourceReferences": [
+      {
+        "name": "贵州省文化和旅游厅·遵义城市游览（动静转载）",
+        "url": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "商务部服务贸易网·遵义历史街区",
+        "url": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "中国博物馆协会·遵义会议纪念馆",
+        "url": "https://www.museumschina.cn/museums/details?id=202208250923045130",
+        "kind": "museum-directory",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "联合国教科文组织·土司遗址",
+        "url": "https://whc.unesco.org/en/list/1474/",
+        "kind": "official-heritage",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 4,
+      "reason": "建议3天：会址与老城一天、山林和小吃慢游一天，另一天按兴趣选海龙屯。城区步行结合公交与出租车，山路不以直线距离估时；新蒲住宿与老城距离较远。海龙屯另留往返；遵义新舟机场和仁怀茅台机场不是同一接驳距离。"
+    },
+    "daily": {
+      "lodging": [
+        120,
+        280,
+        650
+      ],
+      "food": [
+        45,
+        95,
+        200
+      ],
+      "transport": [
+        20,
+        60,
+        180
+      ],
+      "misc": [
+        15,
+        35,
+        80
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1000,
+        1900,
+        3600
+      ],
+      "utilities": [
+        150,
+        280,
+        480
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预留，不是抓取的实时房价、实时菜单或市场上下限。住宿每间每晚；餐饮、交通、杂项每成人每天；长租及水电每间每月。门票、跨城交通与远郊接驳另计，可按实际报价调整。"
+    },
+    "transportNote": "建议3天：会址与老城一天、山林和小吃慢游一天，另一天按兴趣选海龙屯。城区步行结合公交与出租车，山路不以直线距离估时；新蒲住宿与老城距离较远。海龙屯另留往返；遵义新舟机场和仁怀茅台机场不是同一接驳距离。",
+    "guide": {
+      "cityId": "zunyi",
+      "intro": "在长征旧址、黔北小吃和城中山林之间慢下来，读一段历史，也过一段当地人的日常。",
+      "foodHighlights": [
+        {
+          "name": "羊肉粉",
+          "description": "羊肉、米粉和汤底构成一碗，辣椒与加肉按个人喜好选择。"
+        },
+        {
+          "name": "豆花面",
+          "description": "嫩豆花与面条一起上桌，再蘸调味小碗，是一顿有意思的早午餐。"
+        },
+        {
+          "name": "鸡蛋糕与蛋包洋芋",
+          "description": "一甜一咸的小吃适合在逛街中少量分着尝。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "会址与杨柳街",
+          "description": "馆舍密集，按兴趣选择深入参观，合并街区步行。"
+        },
+        {
+          "name": "1935街区与捞沙巷",
+          "description": "公园、手艺店与地方小吃连在一起，适合边走边停。"
+        },
+        {
+          "name": "凤凰山与湘江",
+          "description": "城中登高和河岸散步可调节看展之间的节奏。"
+        }
+      ],
+      "experienceIntro": "把重要旧址、地方餐桌与一段轻松散步放进同一天；按兴趣添加其他体验，不必收集完所有地点。"
+    },
+    "attractions": [
+      {
+        "id": "zunyi-conference-museum",
+        "name": "遵义会议会址与陈列馆",
+        "nameEn": "Zunyi Conference Site and Museum",
+        "lat": 27.691389,
+        "lng": 106.916111,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从青瓦院落走入长征主题陈列，了解遵义会议的背景与转折；会址建筑和陈列馆连在一条参观动线上，适合一起看。",
+        "features": [
+          "长征历史",
+          "会址院落",
+          "免费常设展"
+        ],
+        "bestTime": "上午入馆较从容；常规指南列08:30–17:00、16:30停止入场，节假日须复核",
+        "accessNote": "会址与陈列馆免费，同一入口进入，合并为一次参观用时，不重复排两个景点。携带有效证件，入馆登记、预约及当期开放时间按馆方公告。",
+        "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "贵州省文化和旅游厅·遵义城市游览（动静转载）",
+            "url": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "中国博物馆协会·遵义会议纪念馆",
+            "url": "https://www.museumschina.cn/museums/details?id=202208250923045130",
+            "kind": "museum-directory",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/遵义会议会址",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "ZunyiMeeting.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:ZunyiMeeting.jpg"
+      },
+      {
+        "id": "zunyi-yangliu-political-department",
+        "name": "杨柳街红军总政治部旧址",
+        "nameEn": "Former Red Army General Political Department",
+        "lat": 27.693374,
+        "lng": 106.91784,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 0.8333333333333334,
+        "durationRange": {
+          "min": 30,
+          "recommended": 50,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在杨柳街的原天主堂建筑中了解红军宣传与政治工作。这里与会址相近，适合对历史有兴趣的人再加一段深入参观。",
+        "features": [
+          "历史建筑",
+          "长征专题",
+          "杨柳街"
+        ],
+        "bestTime": "与会址同一天顺路安排，避免临近闭馆才到",
+        "accessNote": "旧址免费参观，按馆方当期开放与证件要求入馆。属于遵义会议纪念馆旧址体系，但不在主馆150分钟内默认重复计时；1935街区散步亦不包含室内参观。",
+        "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "贵州省文化和旅游厅·遵义城市游览（动静转载）",
+            "url": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "中国博物馆协会·遵义会议纪念馆",
+            "url": "https://www.museumschina.cn/museums/details?id=202208250923045130",
+            "kind": "museum-directory",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://www.openstreetmap.org/way/1161108608",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "zunyi-1935-historic-quarter",
+        "name": "遵义·1935街区与红军街",
+        "nameEn": "Zunyi 1935 Quarter and Red Army Street",
+        "lat": 27.6941,
+        "lng": 106.9168,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在红军街、1935广场和纪念公园之间散步，看老城商业、手艺店和日常休闲空间交织；找间小店坐下，比赶路更能感到遵义的生活。",
+        "features": [
+          "老城散步",
+          "文创小店",
+          "纪念公园"
+        ],
+        "bestTime": "下午到晚饭前后",
+        "accessNote": "同一片区含红军街、1935广场、遵义纪念公园，合并计时，公共散步按零门票规划；博物馆、商业演出和消费另计。",
+        "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "商务部服务贸易网·遵义历史街区",
+            "url": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://en.wikivoyage.org/wiki/Zunyi",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "zunyi-laosha-food-lane",
+        "name": "捞沙巷尝一轮黔北小吃",
+        "nameEn": "Laosha Lane Food Walk",
+        "lat": 27.690116,
+        "lng": 106.917289,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 35,
+          "recommended": 60,
+          "max": 100
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在短短的巷子里选豆花面、蛋包洋芋或一份小点心，边走边看摊主现做；两个人分着尝，比一次点满更容易找到喜欢的味道。",
+        "features": [
+          "小吃街",
+          "现做小食",
+          "当地日常"
+        ],
+        "bestTime": "午餐、下午小食或晚饭时段，具体店家营业各异",
+        "accessNote": "街道免费；食物计入当日餐饮预算，不另收固定体验费。可替换一顿正餐或安排少量小食，避免与午晚餐重复计算。",
+        "sourceUrl": "https://www.gzstv.com/a/9cd836c297f4470f8600e419eceafcca",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "贵州广播电视台动静·遵义捞沙巷",
+            "url": "https://www.gzstv.com/a/9cd836c297f4470f8600e419eceafcca",
+            "kind": "regional-broadcaster",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "贵州省文化和旅游厅·遵义城市游览（动静转载）",
+            "url": "https://www.gzstv.com/a/d64e579cf74746ab9f15aa31032c9a4b",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://www.openstreetmap.org/way/330512941",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.gzstv.com/a/9cd836c297f4470f8600e419eceafcca"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gzstv.com/a/9cd836c297f4470f8600e419eceafcca",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "贵州省遵义市红花岗区捞沙巷.jpg"
+      },
+      {
+        "id": "zunyi-fenghuang-forest",
+        "name": "凤凰山林荫步道与城市远眺",
+        "nameEn": "Fenghuang Mountain Forest Walk",
+        "lat": 27.6959,
+        "lng": 106.9196,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从凤凰山南侧进入林荫步道，在城市中心爬一段不赶时间的山路；按体力选择观景点或茶园周边，想了解红色历史也可另加红军山纪念区。",
+        "features": [
+          "城中森林",
+          "观景步道",
+          "轻徒步"
+        ],
+        "bestTime": "早晨或白天凉爽时段，雨天酌情缩短山路",
+        "accessNote": "公共步道按零门票规划。坐标参考凤凰南路入口附近，120分钟为森林步行，不默认再包含红军山陵园全程；如组合瞻仰请自行增加用时。",
+        "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "商务部服务贸易网·遵义历史街区",
+            "url": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "遵义网·老城历史文化片区",
+            "url": "https://zunyiol.cn/index.php?a=show&c=index&catid=10&id=125565&m=content",
+            "kind": "local-news",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://www.openstreetmap.org/node/4752153408",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "zunyi-xiangjiang-river-walk",
+        "name": "湘江老城河岸散步",
+        "nameEn": "Xiangjiang River Walk in Zunyi",
+        "lat": 27.6945,
+        "lng": 106.9193,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从老城附近走向湘江河岸，看桥梁、沿河街道和傍晚散步的人；适合作为到达后的轻松活动，走累就停下来喝杯茶。",
+        "features": [
+          "河岸慢行",
+          "饭后散步",
+          "到达日友好"
+        ],
+        "bestTime": "傍晚或饭后，不强制等灯光活动",
+        "accessNote": "公共河岸步道零门票，茶饮自理。坐标为老城河岸片区参考，可按酒店位置就近选一段；雨天及水位上涨时遵守滨水通行限制。",
+        "sourceUrl": "https://zunyiol.cn/index.php?a=show&c=index&catid=10&id=125565&m=content",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "遵义网·老城历史文化片区",
+            "url": "https://zunyiol.cn/index.php?a=show&c=index&catid=10&id=125565&m=content",
+            "kind": "local-news",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://zunyiol.cn/index.php?a=show&c=index&catid=10&id=125565&m=content"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://zunyiol.cn/index.php?a=show&c=index&catid=10&id=125565&m=content",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "公共空间或常设展按零门票预留，餐饮、讲解、特展和交通另计；入馆规则按当期公告。"
+        },
+        "noArticle": true,
+        "photoFile": "Zunyi Riverwalk.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Zunyi_Riverwalk.jpg"
+      },
+      {
+        "id": "zunyi-hailongtun",
+        "name": "海龙屯土司城堡遗址",
+        "nameEn": "Hailongtun Tusi Fortress",
+        "lat": 27.808056,
+        "lng": 106.814722,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "用于片区与路程规划的参考位置；入口、接驳站和预约集合点按当地导航确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 330
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史遗产",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "沿山势登上关隘与城墙遗存，在真实地形中理解这座土司城堡的防御布局；这里适合认真走一段山路，不宜当成城区顺手打卡。",
+        "features": [
+          "世界遗产",
+          "山地城堡",
+          "关隘徒步"
+        ],
+        "bestTime": "上午抵达；根据末班景区车与停止入园时间倒排回程",
+        "accessNote": "位于市区西北远郊，单独预留半天至一天，并另计往返交通；240分钟为景区内游览参考。门票与景区观光车可分别售卖，编辑预算参考平台成人门票及含车组合，优惠与实际结算按日期确认。台阶较陡，雨后谨慎。",
+        "sourceUrl": "https://whc.unesco.org/en/list/1474/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "联合国教科文组织·土司遗址",
+            "url": "https://whc.unesco.org/en/list/1474/",
+            "kind": "official-heritage",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "去哪儿·海龙屯门票及景区交通",
+            "url": "https://touch.piao.qunar.com/touch/detail.htm?cat=from_index%3D2&id=13336",
+            "kind": "travel-platform",
+            "scope": "ticket-context-not-date-quote",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "坐标参考",
+            "url": "https://zh.wikipedia.org/wiki/海龙屯",
+            "kind": "geographic-reference",
+            "scope": "coordinates-only",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://whc.unesco.org/en/list/1474/"
+        },
+        "imagePolicy": "exact-only",
+        "price": {
+          "low": 60,
+          "high": 100,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whc.unesco.org/en/list/1474/",
+          "sourceName": "编辑预算；内容来源不等于当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "按成人常规参观预留的编辑区间；须按日期确认门票、优惠资格和附加服务，城际与市内接驳另计。"
+        },
+        "article": "Hailongtun",
+        "photoFile": "海龙屯 城墙.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E9%BE%99%E5%B1%AF_%E5%9F%8E%E5%A2%99.jpg"
+      }
+    ],
+    "photoFile": "民主路 7007.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B0%91%E4%B8%BB%E8%B7%AF_7007.jpg"
+  }
+]

@@ -74,6 +74,10 @@
     {"cityId":"nice","airportCodes":["NCE"],"sourceUrls":["https://ourairports.com/airports/LFMN/"]},
     {"cityId":"seville","airportCodes":["SVQ"],"sourceUrls":["https://ourairports.com/airports/LEZL/"]},
     {"cityId":"granada","airportCodes":["GRX"],"sourceUrls":["https://ourairports.com/airports/LEGR/"]},
-    {"cityId":"porto","airportCodes":["OPO"],"sourceUrls":["https://ourairports.com/airports/LPPR/"]}
+    {"cityId":"porto","airportCodes":["OPO"],"sourceUrls":["https://ourairports.com/airports/LPPR/"]},
+    {"cityId":"nanchang","airportCodes":["KHN"],"sourceUrls":["https://ourairports.com/airports/ZSCN/"]},
+    {"cityId":"tianjin","airportCodes":["TSN"],"sourceUrls":["https://ourairports.com/airports/ZBTJ/"]},
+    {"cityId":"yanan","airportCodes":["ENY"],"sourceUrls":["https://ourairports.com/airports/ZLYA/"]},
+    {"cityId":"zunyi","airportCodes":["ZYI","WMT"],"sourceUrls":["https://ourairports.com/airports/ZUZY/","https://ourairports.com/airports/ZUMT/"],"note":"OurAirports currently groups Xinzhou and Maotai airports under Zunyi. This links the existing municipality group for legacy destination resolution only; Maotai Airport is in Renhuai and needs a separate, longer ground transfer. It is not the Zunyi city-centre location."}
   ]
 }

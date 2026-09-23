@@ -1,0 +1,979 @@
+[
+  {
+    "cityId": "chongqing",
+    "attractions": [
+      {
+        "id": "chongqing-zhazidong",
+        "name": "渣滓洞看守所旧址",
+        "nameEn": "Zhazidong Prison Site",
+        "lat": 29.584227,
+        "lng": 106.431548,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "planningGroupId": "chongqing-geleshan-history",
+        "description": "沿旧址院落与展室了解江竹筠等被关押者的经历，从复原陈列和史料认识红岩故事的历史背景。参观重在安静阅读与纪念，山路接驳需另留时间。",
+        "features": [
+          "红岩历史",
+          "江竹筠事迹",
+          "旧址陈列"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。可与白公馆选择性组合；两处是不同旧址，馆间山路与接驳另计，不按同一院落零通勤安排。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/ywdt/jrcq/202102/t20210206_8878015.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/ywdt/jrcq/202102/t20210206_8878015.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/渣滓洞",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "沙坪坝区歌乐山渣滓洞",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/ywdt/jrcq/202102/t20210206_8878015.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "ChongqingZhazidong.jpg"
+      },
+      {
+        "id": "chongqing-baigongguan",
+        "name": "白公馆看守所旧址",
+        "nameEn": "Baigongguan Prison Site",
+        "lat": 29.57921,
+        "lng": 106.42807,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 40,
+          "recommended": 60,
+          "max": 100
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 86,
+        "planningGroupId": "chongqing-geleshan-history",
+        "description": "从原别墅改作看守所的空间变化，阅读“小萝卜头”等人物的经历与相关展陈。与渣滓洞分处不同院落，建议按个人兴趣选看或串联，不必为了数量逐一打卡。",
+        "features": [
+          "白公馆旧址",
+          "小萝卜头故事",
+          "历史教育"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "市政府2026年8月指南列09:00–16:40、16:30停止入场；建议下午早些抵达。所列用时只含白公馆，不含松林坡或渣滓洞。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982440.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982440.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://www.openstreetmap.org/way/583826939",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "沙坪坝区壮志路白公馆",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982440.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "ChongqingBaigongguan.jpg"
+      },
+      {
+        "id": "chongqing-hongyan-memorial",
+        "name": "红岩革命纪念馆",
+        "nameEn": "Hongyan Revolution Memorial Hall",
+        "lat": 29.55662,
+        "lng": 106.4953,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.67,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 89,
+        "planningGroupId": "chongqing-hongyan-village",
+        "description": "在红色岩石般的馆舍中，沿“千秋红岩”陈列认识中共中央南方局在重庆的工作，结合书信、文物与历史照片理解抗战时期的城市生活。适合留出连续时间仔细看展。",
+        "features": [
+          "南方局历史",
+          "历史文物",
+          "专题教育"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。此项仅计纪念馆展厅，不含红岩村内所有旧址。官网2026年8月28日另有八路军驻重庆办事处旧址临时闭馆公告，前往该旧址须先核对恢复开放信息。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202409/t20240905_13599209.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202409/t20240905_13599209.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/红岩革命纪念馆",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "八路军办事处旧址临时闭馆公告",
+            "url": "https://www.hongyanmuseum.cn/web/article/1542921441365553152/web/content_1542921441365553152.html",
+            "kind": "operator",
+            "scope": "nearby-site-access",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "渝中区红岩村52号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202409/t20240905_13599209.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "红岩-红岩村-纪念馆 - panoramio.jpg"
+      },
+      {
+        "id": "chongqing-hongyan-spirit-hall",
+        "name": "歌乐山革命纪念馆（红岩魂陈列馆）",
+        "nameEn": "Geleshan Revolution Memorial Hall",
+        "lat": 29.57481,
+        "lng": 106.43834,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 85,
+        "planningGroupId": "chongqing-geleshan-history",
+        "description": "通过文物、照片与人物事迹梳理白公馆、渣滓洞和歌乐山相关历史。适合先了解背景再去旧址，或在旧址参观后补充阅读；“红岩魂陈列馆”按同一参观项目呈现，不另重复安排。",
+        "features": [
+          "红岩魂陈列",
+          "烈士文物",
+          "历史脉络"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。此项用时为室内陈列，不包括烈士公墓与广场。与陵园同片区，可合并一次抵达后按兴趣分别选看。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/红岩魂陈列馆",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "沙坪坝区壮志路烈士墓政法三村63号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "红岩魂陈列馆 8030.jpg"
+      },
+      {
+        "id": "chongqing-geleshan-martyrs-memorial",
+        "name": "歌乐山烈士陵园纪念区",
+        "nameEn": "Geleshan Martyrs Memorial Precinct",
+        "lat": 29.573889,
+        "lng": 106.436111,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.67,
+        "durationRange": {
+          "min": 20,
+          "recommended": 40,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 72,
+        "planningGroupId": "chongqing-geleshan-history",
+        "description": "在烈士纪念设施与“浩气长存”群雕前安静停留，认识歌乐山烈士陵园的纪念意义。这一项只覆盖公墓与室外纪念区，不把白公馆、渣滓洞或室内陈列馆再次算入。",
+        "features": [
+          "烈士纪念",
+          "浩气长存群雕",
+          "肃穆园林"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。按室外纪念区的增量用时安排，可接在歌乐山革命纪念馆之后；祭扫或纪念活动可能临时调整通行，请保持安静。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://www.wikidata.org/wiki/Q11122944",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "沙坪坝区歌乐山烈士陵园纪念区",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982434.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Chongqing Geleshan Martyr's Mausoleum.jpg"
+      },
+      {
+        "id": "chongqing-songlinpo-sites",
+        "name": "松林坡革命遗址群",
+        "nameEn": "Songlinpo Historic Memorial Sites",
+        "lat": 29.58061,
+        "lng": 106.42758,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.83,
+        "durationRange": {
+          "min": 30,
+          "recommended": 50,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 69,
+        "planningGroupId": "chongqing-geleshan-history",
+        "description": "在林间旧址与相关展陈中了解杨虎城、罗世文、车耀先等人物的经历，适合对近代史有兴趣的旅行者从白公馆继续步行探访。所列时间仅为松林坡片区的补充参观。",
+        "features": [
+          "杨虎城事迹",
+          "烈士纪念",
+          "旧址步行"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。与白公馆同片区但并非同一建筑；只在明确选择时加入，坡道步行与开放范围以现场导引为准。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/ywdt/bmts/202106/t20210601_9351547.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/ywdt/bmts/202106/t20210601_9351547.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://www.openstreetmap.org/node/4143918480",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "沙坪坝区歌乐山白公馆附近松林坡",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/ywdt/bmts/202106/t20210601_9351547.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "红岩-歌乐山-松林坡 - panoramio.jpg",
+        "imageContextNote": "松林坡革命遗址群历史实景；修缮后的现场展陈以现状为准。"
+      },
+      {
+        "id": "chongqing-zhou-residence",
+        "name": "曾家岩50号周公馆",
+        "nameEn": "Zhou Enlai Residence at No. 50 Zengjiayan",
+        "lat": 29.568161,
+        "lng": 106.546761,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.83,
+        "durationRange": {
+          "min": 30,
+          "recommended": 50,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "planningGroupId": "chongqing-zhongshan-fourth-road-history",
+        "description": "走进曾家岩50号的楼房与庭院，从复原的工作和生活空间了解中共中央南方局在重庆城内的活动。参观后可沿中山四路慢走，串联桂园或特园中的一处。",
+        "features": [
+          "周恩来旧居",
+          "办公室复原",
+          "中山四路"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方参观须知列09:00–19:00、18:30停止入场；季节调整以当日公告为准。此项不包含桂园与特园，沿街步行另留时间。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/曾家岩50号",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "渝中区曾家岩50号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Chongqing Zengjiayan 50 hao 2014.04.21 10-59-13.jpg"
+      },
+      {
+        "id": "chongqing-guiyuan-negotiations",
+        "name": "桂园重庆谈判旧址",
+        "nameEn": "Guiyuan Chongqing Negotiations Site",
+        "lat": 29.565763,
+        "lng": 106.543269,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 25,
+          "recommended": 45,
+          "max": 75
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 79,
+        "planningGroupId": "chongqing-zhongshan-fourth-road-history",
+        "description": "在中山四路的庭院与旧居陈列中，了解1945年重庆谈判和“双十协定”的历史。空间不大，适合跟周公馆安排在同一片区，也可单独留一段安静看展的时间。",
+        "features": [
+          "重庆谈判",
+          "双十协定",
+          "历史庭院"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。与周公馆为不同旧址，可同段步行串联；只计桂园参观，不重复计算整条中山四路的游览。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/桂园",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "渝中区中山四路65号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/article/1438219372614094848/web/content_1438219372614094848.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Guiyuan Entrance.jpg"
+      },
+      {
+        "id": "chongqing-xinhua-daily-headquarters",
+        "name": "《新华日报》总馆旧址陈列馆",
+        "nameEn": "Former Xinhua Daily Headquarters Exhibition Hall",
+        "lat": 29.551469,
+        "lng": 106.505419,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 73,
+        "planningGroupId": "chongqing-hutouyan-history",
+        "description": "从依山而建的报馆旧址与专题展览，了解《新华日报》《群众》周刊在重庆的编辑、出版和传播工作。这里是虎头岩总馆，与民生路营业部是两处不同地点。",
+        "features": [
+          "新闻传播史",
+          "战时办报",
+          "旧址建筑群"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。与红岩革命纪念馆、民生路营业部均需另行交通；不要因馆名相近合并为同一地点。汛期请先查看临时开放公告。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/ywdt/jrcq/202107/t20210701_9440691.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/ywdt/jrcq/202107/t20210701_9440691.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/《新华日报》总馆",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "渝中区化龙桥虎头岩村62号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/ywdt/jrcq/202107/t20210701_9440691.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "chongqing-xinhua-daily-sales-office",
+        "name": "《新华日报》营业部旧址",
+        "nameEn": "Former Xinhua Daily Sales Office",
+        "lat": 29.56062,
+        "lng": 106.567077,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.5,
+        "durationRange": {
+          "min": 15,
+          "recommended": 30,
+          "max": 50
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 65,
+        "planningGroupId": "chongqing-jiefangbei-history",
+        "description": "在民生路临街楼房中了解战时报刊的发行，以及南方局与各界人士联络的故事。体量较小，适合在七星岗、通远门或解放碑附近步行时按兴趣加入。",
+        "features": [
+          "战时报刊",
+          "民生路旧址",
+          "小型历史展陈"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "馆方通用参观须知列09:00–17:00、16:30停止入场，临时调整以馆方公告为准。与虎头岩的新华日报总馆分开计时；室内实际可参观楼层以现场开放为准。建议在白天前往，不按商业街夜间营业时间安排室内参观。 自2025年10月1日起免预约，凭本人有效身份证件入馆；免费门票不含可选讲解和接驳。",
+        "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982446.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982446.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/《新华日报》营业部旧址",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "红岩博物馆参观须知",
+            "url": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+            "kind": "operator",
+            "scope": "admission-and-hours",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆文旅委免预约公告",
+            "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://www.hongyanmuseum.cn/",
+        "bookingUrl": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202511/t20251103_15136018.html",
+        "address": "渝中区民生路240号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.cq.gov.cn/zjcq/cycq/jplyxl/dsy/hyzj/202608/t20260826_15982446.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.hongyanmuseum.cn/web/column/col5002880.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "CQXinhuaNewspaper.jpg"
+      },
+      {
+        "id": "chongqing-teyuan-democratic-parties",
+        "photoFile": "重庆-中国民主党派历史陈列馆 - panoramio.jpg",
+        "imageContextNote": "中国民主党派历史陈列馆入口外观，摄于2013年；馆内已更新展陈，照片不代表当前展览内容。",
+        "name": "特园与中国民主党派历史陈列馆",
+        "nameEn": "Teyuan and Democratic Parties History Museum",
+        "lat": 29.563738,
+        "lng": 106.542049,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 1.67,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 76,
+        "planningGroupId": "chongqing-zhongshan-fourth-road-history",
+        "description": "从“共画同心圆 共圆中国梦”基本陈列与特园历史场景，认识重庆抗战时期的民主人士活动和多党合作历史。旧址与陈列馆合并为一次参观，避免把同一园区重复加入行程。",
+        "features": [
+          "多党合作历史",
+          "特园旧址",
+          "专题教育"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "周二至周日09:00–17:00，16:30停止入场；周一闭馆，法定节假日例外。凭有效证件免费参观，展览与特园已包含在本项用时内。",
+        "sourceUrl": "https://www.93.gov.cn/lshm-jyjj/780200.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://www.93.gov.cn/lshm-jyjj/780200.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://zh.wikipedia.org/wiki/特園",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://teyuan.org.cn/",
+        "bookingUrl": "https://teyuan.org.cn/",
+        "address": "渝中区上清寺嘉陵桥东村35号",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.93.gov.cn/lshm-jyjj/780200.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://www.93.gov.cn/lshm-jyjj/780200.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "chongqing-june-fifth-tunnel-memorial",
+        "name": "重庆大轰炸“六五”隧道惨案史实展馆",
+        "nameEn": "June Fifth Tunnel Massacre Memorial",
+        "lat": 29.556761,
+        "lng": 106.5721,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标对应所列场馆或纪念区域，入场口与山路接驳请依现场导引。",
+        "durationHours": 0.83,
+        "durationRange": {
+          "min": 30,
+          "recommended": 50,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "革命历史与纪念",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 80,
+        "planningGroupId": "chongqing-jiefangbei-history",
+        "description": "在磁器街的惨案遗址与地下展陈中了解重庆大轰炸，以及1941年“六五”隧道惨案中平民的遭遇。适合与解放碑周边文化步行组合，参观氛围庄重。",
+        "features": [
+          "抗战历史",
+          "防空隧道遗址",
+          "和平教育"
+        ],
+        "bestTime": "白天按场馆开放时段参观；推荐用时不含跨片区交通、排队或另行预约的研学课程。",
+        "accessNote": "周二至周日09:00–17:00，周一通常闭馆。自2025年10月1日起免预约，凭有效身份证件现场登记；地下空间有台阶。",
+        "sourceUrl": "https://rmfkb.cq.gov.cn/sy_246/bmdt/zqrfdt/202109/t20210929_9772038.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "官方场馆与历史资料",
+            "url": "https://rmfkb.cq.gov.cn/sy_246/bmdt/zqrfdt/202109/t20210929_9772038.html",
+            "kind": "official",
+            "scope": "history-and-visit",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "位置资料",
+            "url": "https://commons.wikimedia.org/wiki/Category:June_5th_Tunnel_Massacre_Site",
+            "kind": "map",
+            "scope": "coordinates",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "重庆市政府2025年免预约公告",
+            "url": "https://www.cq.gov.cn/ywdt/jrcq/202510/t20251002_15061201_wap.html",
+            "kind": "official",
+            "scope": "admission",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "officialWebsite": "https://rmfkb.cq.gov.cn/",
+        "bookingUrl": "https://rmfkb.cq.gov.cn/",
+        "address": "渝中区磁器街重庆大轰炸惨案遗址",
+        "imagePolicy": "exact-only",
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://rmfkb.cq.gov.cn/sy_246/bmdt/zqrfdt/202109/t20210929_9772038.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://rmfkb.cq.gov.cn/sy_246/bmdt/zqrfdt/202109/t20210929_9772038.html",
+          "sourceName": "官方基本参观免费说明",
+          "note": "基本参观免费；交通、可选讲解、研学课程和文创消费另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Bombing of Chongqing 20180501 085217.jpg",
+        "imageContextNote": "磁器街六五隧道惨案遗址外观，摄于2018年；展馆后续经过修缮，现场陈列以现状为准。"
+      }
+    ]
+  }
+]

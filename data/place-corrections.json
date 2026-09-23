@@ -1,0 +1,122 @@
+{
+  "osm-chongqing-way-1293122510": {
+    "name": "杨森公馆旧址（渝舍）",
+    "nameEn": "Yang Sen Residence (Yushe, Children's Palace)",
+    "address": "重庆市渝中区中山二路134号，重庆市少年宫内",
+    "lat": 29.5587125,
+    "lng": 106.552813,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "坐标标记少年宫内旧址建筑的近似位置，并非确认开放的游客入口；请导航中山二路134号并遵守现场通行安排。",
+    "durationHours": 0.5,
+    "durationRange": {
+      "min": 15,
+      "recommended": 30,
+      "max": 45
+    },
+    "durationBasis": "editorial-estimate",
+    "category": "历史建筑",
+    "activityType": "culture",
+    "visitRole": "optional",
+    "automaticPlanning": false,
+    "priority": 38,
+    "description": "藏在重庆市少年宫内的民国公馆，原名“渝舍”。浅黄色外墙、回廊与露台让这里成为认识老重庆建筑的小站，可与中山二路、枇杷山周边散步串联。",
+    "verificationNote": "这里是渝中区少年宫内的杨森公馆，与沙坪坝山洞、万州和武汉的同名公馆不同。文物名录记载建筑建于1928年、由市少年宫作办公使用；尚未确认内部作为旅游展馆开放，建议仅按现场允许的范围短停。",
+    "features": [
+      "民国建筑",
+      "少年宫城市记忆",
+      "外观短停"
+    ],
+    "bestTime": "日间按现场通行安排参观；室内开放、预约和活动课程另行咨询少年宫。",
+    "sourceProvider": "official-reviewed",
+    "sourceUrl": "https://www.cqyz.gov.cn/zwgk_229/zcwj/xzgfxwj/201907/W020231027568910191271.pdf#page=17",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "渝中区不可移动文物统计分布表（第17页）",
+        "url": "https://www.cqyz.gov.cn/zwgk_229/zcwj/xzgfxwj/201907/W020231027568910191271.pdf#page=17",
+        "kind": "official-heritage-register",
+        "scope": "名称、地址、年代与使用情况",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "携程目的地照片与地址参考",
+        "url": "https://tw.trip.com/travel-guide/attraction/chongqing/city-143740611/",
+        "kind": "photo-reference",
+        "scope": "渝中区少年宫内公馆的建筑外观；开放时间未作依据",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "OpenStreetMap 建筑位置",
+        "url": "https://www.openstreetmap.org/way/1293122510",
+        "kind": "map",
+        "scope": "建筑近似位置，不代表游客入口",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "photoFile": null,
+    "imagePolicy": "exact-only",
+    "price": {
+      "low": 0,
+      "high": 0,
+      "currency": "CNY",
+      "type": "missing",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cqyz.gov.cn/zwgk_229/zcwj/xzgfxwj/201907/W020231027568910191271.pdf#page=17",
+      "sourceName": "文物名录；非售票或开放公告",
+      "note": "未确认旅游入场与收费安排，零占位不表示免费开放；少年宫课程、活动及室内参观须分别咨询。"
+    }
+  },
+  "haikou-qiongya-congress": {
+    "imagePolicy": "exact-only",
+    "name": "中共琼崖第一次代表大会旧址",
+    "lat": 20.0422626,
+    "lng": 110.3348936,
+    "category": "革命历史与纪念",
+    "description": "在竹林里邱氏祖宅与展陈中了解琼崖早期革命历史。这里是1926年中共琼崖第一次代表大会举行地，可以与海口老城步行参访结合。",
+    "accessNote": "地址为龙华区解放西路竹林里131号；馆内开放、团队讲解与临时安排请以场馆公告为准。与地图名“中共琼崖第一次代表大会旧址”为同一地点，勿重复安排。",
+    "features": [
+      "琼崖革命历史",
+      "革命旧址",
+      "海南民居"
+    ],
+    "sourceReferences": [
+      {
+        "name": "国家发展和改革委员会：琼崖一大旧址案例",
+        "url": "https://www.ndrc.gov.cn/xwdt/ztzl/qghsly/202108/t20210813_1301753.html",
+        "kind": "official-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  "osm-haikou-way-1435845523": {
+    "imagePolicy": "exact-only",
+    "category": "革命历史与纪念",
+    "description": "海口竹林里的琼崖一大旧址，可参观旧址建筑并了解琼崖早期革命历史。",
+    "accessNote": "地址为龙华区解放西路竹林里131号，开放与讲解安排请以场馆公告为准。",
+    "features": [
+      "琼崖革命历史",
+      "同一旧址勿重复安排"
+    ]
+  },
+  "lingshui-soviet-site": {
+    "imagePolicy": "exact-only",
+    "photoFile": "琼山会馆 2018-04-15.jpg",
+    "lat": 18.507044,
+    "lng": 110.038094,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "按旧址入口照片的公开位置校正，用于片区路线估算；实际入口以现场指引为准。",
+    "imageContextNote": "陵水县苏维埃政府旧址所在琼山会馆的入口外观，摄于2018年；不代表当前展陈或开放状态。",
+    "category": "革命历史与纪念",
+    "description": "旧址设于琼山会馆，可结合建筑与历史陈列了解陵水苏维埃政权和琼崖革命。建议为阅读展板留出时间，纪念空间内保持安静。",
+    "features": [
+      "琼崖革命历史",
+      "琼山会馆",
+      "革命旧址"
+    ]
+  },
+  "osm-lijiang-node-9201553045": {
+    "imagePolicy": "exact-only"
+  }
+}

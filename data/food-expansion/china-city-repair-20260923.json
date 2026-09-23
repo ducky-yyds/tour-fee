@@ -1,0 +1,386 @@
+[
+  {
+    "id": "food-cityrepair-yanan-hele",
+    "cityIds": [
+      "yanan"
+    ],
+    "name": "荞面饸饹",
+    "localName": "陕北荞面饸饹",
+    "description": "荞面压成细长面条，可搭配热汤和臊子。先问清楚汤底与肉类，再按一碗主食安排；这是一顿正餐，不只是尝一口的小吃。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "荞面饸饹 陕北荞面饸饹 prepared food",
+    "sourceUrl": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "yanan": [
+        {
+          "name": "二道街周边陕北面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%AE%89%20%E4%BA%8C%E9%81%93%E8%A1%97%E5%91%A8%E8%BE%B9%E9%99%95%E5%8C%97%E9%9D%A2%E9%A6%86%20%E8%8D%9E%E9%9D%A2%E9%A5%B8%E9%A5%B9",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-yanan-potato-caca",
+    "cityIds": [
+      "yanan"
+    ],
+    "name": "洋芋擦擦",
+    "localName": "洋芋擦擦",
+    "description": "土豆擦成细条、拌面蒸熟，松散的口感很有陕北家常味。店家可再炒或拌调料，适合两人分一盘搭配其他菜。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "洋芋擦擦 洋芋擦擦 prepared food",
+    "sourceUrl": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "yanan": [
+        {
+          "name": "老城陕北菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%AE%89%20%E8%80%81%E5%9F%8E%E9%99%95%E5%8C%97%E8%8F%9C%E9%A6%86%20%E6%B4%8B%E8%8A%8B%E6%93%A6%E6%93%A6",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-zichang-pancake",
+    "cityIds": [
+      "yanan"
+    ],
+    "name": "子长煎饼",
+    "localName": "子长煎饼",
+    "description": "以荞麦面摊成的薄煎饼，常配不同馅料和蘸汁卷食。它与天津煎饼果子的厚薄、吃法都不同，可在延安市区寻找专做陕北小吃的店。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "子长煎饼 子长煎饼 prepared food",
+    "sourceUrl": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "yanan": [
+        {
+          "name": "二道街周边陕北小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%AE%89%20%E4%BA%8C%E9%81%93%E8%A1%97%E5%91%A8%E8%BE%B9%E9%99%95%E5%8C%97%E5%B0%8F%E5%90%83%E5%BA%97%20%E5%AD%90%E9%95%BF%E7%85%8E%E9%A5%BC",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-yanan-millet-bun",
+    "cityIds": [
+      "yanan"
+    ],
+    "name": "黄米馍馍",
+    "localName": "黄米馍馍",
+    "description": "黄米做成的蒸制主食，带着杂粮的香气。早餐或正餐都可搭配，购买时询问甜咸与馅料；各家做法和大小不完全一样。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "黄米馍馍 黄米馍馍 prepared food",
+    "sourceUrl": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://sxya.wenming.cn/gmjy/sbhr/202012/t20201214_6858672.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "yanan": [
+        {
+          "name": "老城早餐铺与陕北家常菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%AE%89%20%E8%80%81%E5%9F%8E%E6%97%A9%E9%A4%90%E9%93%BA%E4%B8%8E%E9%99%95%E5%8C%97%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%20%E9%BB%84%E7%B1%B3%E9%A6%8D%E9%A6%8D",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-yanan-youmomo",
+    "cityIds": [
+      "yanan"
+    ],
+    "name": "陕北油馍馍",
+    "localName": "油馍馍",
+    "description": "糜子加工的米面经发酵、揉制后油炸，常做成中间有孔的环形。外层酥香、内部绵软，适合买一两个现做的慢慢尝。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "陕北油馍馍 油馍馍 prepared food",
+    "sourceUrl": "https://www.sxfycc.com/index.php/home/Index/library_detail.html?id=559",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://www.sxfycc.com/index.php/home/Index/library_detail.html?id=559",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "yanan": [
+        {
+          "name": "白坪农贸市场周边与老城小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%AE%89%20%E7%99%BD%E5%9D%AA%E5%86%9C%E8%B4%B8%E5%B8%82%E5%9C%BA%E5%91%A8%E8%BE%B9%E4%B8%8E%E8%80%81%E5%9F%8E%E5%B0%8F%E5%90%83%E9%93%BA%20%E9%99%95%E5%8C%97%E6%B2%B9%E9%A6%8D%E9%A6%8D",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-tianjin-jianbing",
+    "cityIds": [
+      "tianjin"
+    ],
+    "name": "天津煎饼果子",
+    "localName": "煎饼馃子",
+    "description": "摊开的薄饼配鸡蛋和酥脆馃子或馃箅儿，卷起后趁热吃。点单时说明选油条还是薄脆，以及是否加辣；早餐一份通常已是主食。",
+    "article": null,
+    "articleScope": "food",
+    "photoStatus": "photo-selected",
+    "imageQuery": "天津煎饼果子 煎饼馃子 prepared food",
+    "sourceUrl": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "tianjin": [
+        {
+          "name": "西北角、居民区早点摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B4%A5%20%E8%A5%BF%E5%8C%97%E8%A7%92%E3%80%81%E5%B1%85%E6%B0%91%E5%8C%BA%E6%97%A9%E7%82%B9%E6%91%8A%20%E5%A4%A9%E6%B4%A5%E7%85%8E%E9%A5%BC%E6%9E%9C%E5%AD%90",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。",
+    "photoFile": "201909 煎饼果子.jpg",
+    "imageContextNote": "煎饼果子成品示意实拍；不同摊位的面糊、配料与折叠方式有所不同。"
+  },
+  {
+    "id": "food-cityrepair-tianjin-guobacai",
+    "cityIds": [
+      "tianjin"
+    ],
+    "name": "锅巴菜",
+    "localName": "嘎巴菜 · Guōbācài",
+    "description": "切成条片的煎饼浸在咸香卤汁里，配麻酱、香菜等调味。它虽叫“菜”，却是天津早点的代表，可以与一小份烧饼搭配。",
+    "article": null,
+    "articleScope": "food",
+    "photoStatus": "photo-selected",
+    "imageQuery": "锅巴菜 嘎巴菜 · Guōbācài prepared food",
+    "sourceUrl": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "tianjin": [
+        {
+          "name": "西北角与大福来等早点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B4%A5%20%E8%A5%BF%E5%8C%97%E8%A7%92%E4%B8%8E%E5%A4%A7%E7%A6%8F%E6%9D%A5%E7%AD%89%E6%97%A9%E7%82%B9%E9%93%BA%20%E9%94%85%E5%B7%B4%E8%8F%9C",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。",
+    "photoFile": "Guobacai in Tianjin Goubuli 2017.jpg"
+  },
+  {
+    "id": "food-cityrepair-tianjin-goubuli",
+    "cityIds": [
+      "tianjin"
+    ],
+    "name": "狗不理包子",
+    "localName": "狗不理包子",
+    "description": "天津传统包子的代表，常见猪肉等馅料。老字号门店与不同套餐价格差别较大，先看每笼数量和菜单，再决定单点还是套餐。",
+    "article": null,
+    "articleScope": "food",
+    "photoStatus": "photo-selected",
+    "imageQuery": "狗不理包子 狗不理包子 prepared food",
+    "sourceUrl": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "tianjin": [
+        {
+          "name": "山东路及南市一带的品牌门店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B4%A5%20%E5%B1%B1%E4%B8%9C%E8%B7%AF%E5%8F%8A%E5%8D%97%E5%B8%82%E4%B8%80%E5%B8%A6%E7%9A%84%E5%93%81%E7%89%8C%E9%97%A8%E5%BA%97%20%E7%8B%97%E4%B8%8D%E7%90%86%E5%8C%85%E5%AD%90",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。",
+    "photoFile": "天津狗不理包子.JPG"
+  },
+  {
+    "id": "food-cityrepair-tianjin-ear-hole-cake",
+    "cityIds": [
+      "tianjin"
+    ],
+    "name": "耳朵眼炸糕",
+    "localName": "耳朵眼炸糕",
+    "description": "糯米面裹豆沙后油炸，外层酥脆、内里软糯。适合作为街区散步的一份甜点，现吃与礼盒购买的计价方式不同。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "耳朵眼炸糕 耳朵眼炸糕 prepared food",
+    "sourceUrl": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "tianjin": [
+        {
+          "name": "古文化街周边与耳朵眼品牌门店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B4%A5%20%E5%8F%A4%E6%96%87%E5%8C%96%E8%A1%97%E5%91%A8%E8%BE%B9%E4%B8%8E%E8%80%B3%E6%9C%B5%E7%9C%BC%E5%93%81%E7%89%8C%E9%97%A8%E5%BA%97%20%E8%80%B3%E6%9C%B5%E7%9C%BC%E7%82%B8%E7%B3%95",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  },
+  {
+    "id": "food-cityrepair-tianjin-mahua",
+    "cityIds": [
+      "tianjin"
+    ],
+    "name": "十八街麻花",
+    "localName": "桂发祥十八街麻花",
+    "description": "多股面条拧成的酥脆麻花，夹馅与规格有多种选择。可先尝小份再买伴手礼，按重量或盒计价时要核对净含量。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "十八街麻花 桂发祥十八街麻花 prepared food",
+    "sourceUrl": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "地方饮食与文化资料",
+        "url": "https://yx.tju.edu.cn/jztd/ys/201806/t20180602_307308.htm",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "tianjin": [
+        {
+          "name": "桂发祥门店与市区食品商店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B4%A5%20%E6%A1%82%E5%8F%91%E7%A5%A5%E9%97%A8%E5%BA%97%E4%B8%8E%E5%B8%82%E5%8C%BA%E9%A3%9F%E5%93%81%E5%95%86%E5%BA%97%20%E5%8D%81%E5%85%AB%E8%A1%97%E9%BA%BB%E8%8A%B1",
+          "note": "以该片区为找店起点；查看当日菜单、分量与价格后点餐，链接不保证具体店家供应。"
+        }
+      ]
+    },
+    "servingNote": "用作每日餐饮选择，不另外重复计入门票等固定成本；单品价格随店家和分量变化。"
+  }
+]

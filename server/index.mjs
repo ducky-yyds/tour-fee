@@ -52,7 +52,7 @@ export const server = createServer(async (request, response) => {
       try {
         const plan = await body(request);
         const catalog = getCatalog();
-        const cities = mergeCustomAttractions(mergeAirportCities(catalog.cities, catalog.airportCities), plan.customAttractions);
+        const cities = mergeCustomAttractions(mergeAirportCities(catalog.cities, catalog.airportCities, catalog.airportCityAliases), plan.customAttractions);
         return json(response, 200, { ...calculatePlan(plan, cities, catalog.rates), itinerary: generateItinerary(plan, cities, catalog.rates) });
       } catch (error) { return json(response, 400, { error: error.message }); }
     }

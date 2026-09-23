@@ -1,0 +1,486 @@
+[
+  {
+    "id": "food-history-nanchang-banfen",
+    "cityIds": [
+      "nanchang"
+    ],
+    "name": "南昌拌粉",
+    "localName": "拌粉",
+    "description": "煮好的米粉拌上酱汁、花生、萝卜丁等配料，酸辣与咸香交织；早餐常与瓦罐汤搭配，点单时说明辣度和是否加肉。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "selected-food-photo",
+    "imageQuery": "南昌拌粉 拌粉 prepared food",
+    "sourceUrl": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202411/7162e583f60141f8a2ea2b13a51267f7.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "南昌市住建局·南昌早餐",
+        "url": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202411/7162e583f60141f8a2ea2b13a51267f7.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "nanchang": [
+        {
+          "name": "大士院早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E5%A4%A7%E5%A3%AB%E9%99%A2%E6%97%A9%E9%A4%90%E5%BA%97%20%E5%8D%97%E6%98%8C%E6%8B%8C%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "万寿宫周边粉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%91%A8%E8%BE%B9%E7%B2%89%E5%BA%97%20%E5%8D%97%E6%98%8C%E6%8B%8C%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。",
+    "photoFile": "Nanchang Banfen (20251205 085026).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nanchang_Banfen_%2820251205_085026%29.jpg"
+  },
+  {
+    "id": "food-history-nanchang-waguan-soup",
+    "cityIds": [
+      "nanchang"
+    ],
+    "name": "南昌瓦罐汤",
+    "localName": "瓦罐煨汤",
+    "description": "用小瓦罐煨制的汤常搭配肉饼、蛋或其他食材；每种汤单独计价，先看配料，再与一碗拌粉组合。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "selected-food-photo",
+    "imageQuery": "南昌瓦罐汤 瓦罐煨汤 prepared food",
+    "sourceUrl": "https://www.nc.gov.cn/ncszf/xxgkzcwj/201806/9c230f5447d44de184cf2da71eee89be.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "南昌市政府·瓦罐汤产业",
+        "url": "https://www.nc.gov.cn/ncszf/xxgkzcwj/201806/9c230f5447d44de184cf2da71eee89be.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "南昌市住建局·南昌早餐",
+        "url": "https://zjj.nc.gov.cn/nczfbzglj/fgxw/202411/7162e583f60141f8a2ea2b13a51267f7.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "nanchang": [
+        {
+          "name": "大士院早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E5%A4%A7%E5%A3%AB%E9%99%A2%E6%97%A9%E9%A4%90%E5%BA%97%20%E5%8D%97%E6%98%8C%E7%93%A6%E7%BD%90%E6%B1%A4",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "绳金塔周边小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E7%BB%B3%E9%87%91%E5%A1%94%E5%91%A8%E8%BE%B9%E5%B0%8F%E5%90%83%E5%BA%97%20%E5%8D%97%E6%98%8C%E7%93%A6%E7%BD%90%E6%B1%A4",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。",
+    "photoContextNote": "实拍为南昌早餐组合，汤因较烫倒在碗中放凉，旁边可见拌粉。",
+    "photoFile": "瓦罐汤 20150119 085552.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%93%A6%E7%BD%90%E6%B1%A4_20150119_085552.jpg"
+  },
+  {
+    "id": "food-history-nanchang-white-sugar-cake",
+    "cityIds": [
+      "nanchang"
+    ],
+    "name": "南昌白糖糕",
+    "localName": "白糖糕",
+    "description": "糯米面团油炸后裹糖，外表蓬松、入口软糯；买一小份趁热尝，认准南昌油炸做法，和广式蒸糕不是同一种。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "南昌白糖糕 白糖糕 prepared food",
+    "sourceUrl": "https://www.nc.gov.cn/ncszf/jrnc/202106/0955562930364d16857c519a9e7121c3.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "南昌市政府·非遗美食",
+        "url": "https://www.nc.gov.cn/ncszf/jrnc/202106/0955562930364d16857c519a9e7121c3.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "南昌市机关事务管理局·赣菜与南昌小吃",
+        "url": "https://jgj.nc.gov.cn/ncsjgswj/sjdt1/202210/b4031a4bf479462e936fa8c5838a4762.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "nanchang": [
+        {
+          "name": "万寿宫小吃街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E4%B8%87%E5%AF%BF%E5%AE%AB%E5%B0%8F%E5%90%83%E8%A1%97%20%E5%8D%97%E6%98%8C%E7%99%BD%E7%B3%96%E7%B3%95",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "绳金塔历史文化街区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E7%BB%B3%E9%87%91%E5%A1%94%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA%20%E5%8D%97%E6%98%8C%E7%99%BD%E7%B3%96%E7%B3%95",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。"
+  },
+  {
+    "id": "food-history-nanchang-artemisia-pork",
+    "cityIds": [
+      "nanchang"
+    ],
+    "name": "藜蒿炒腊肉",
+    "localName": "藜蒿炒腊肉",
+    "description": "藜蒿嫩茎带清香，与腊肉同炒形成鲜脆与咸香的对比。适合在赣菜馆点一盘分享，先问季节供应、辣度及份量。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "藜蒿炒腊肉 藜蒿炒腊肉 prepared food",
+    "sourceUrl": "https://jgj.nc.gov.cn/ncsjgswj/sjdt1/202210/b4031a4bf479462e936fa8c5838a4762.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "南昌市机关事务管理局·赣菜与南昌小吃",
+        "url": "https://jgj.nc.gov.cn/ncsjgswj/sjdt1/202210/b4031a4bf479462e936fa8c5838a4762.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "nanchang": [
+        {
+          "name": "中山路周边赣菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E4%B8%AD%E5%B1%B1%E8%B7%AF%E5%91%A8%E8%BE%B9%E8%B5%A3%E8%8F%9C%E9%A6%86%20%E8%97%9C%E8%92%BF%E7%82%92%E8%85%8A%E8%82%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "红谷滩赣菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E7%BA%A2%E8%B0%B7%E6%BB%A9%E8%B5%A3%E8%8F%9C%E9%A4%90%E9%A6%86%20%E8%97%9C%E8%92%BF%E7%82%92%E8%85%8A%E8%82%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。"
+  },
+  {
+    "id": "food-history-nanchang-fried-rice-noodles",
+    "cityIds": [
+      "nanchang"
+    ],
+    "name": "南昌炒粉",
+    "localName": "炒粉",
+    "description": "江西米粉与配菜、蛋或肉大火快炒，口感有韧性；可作为午晚餐主食，素配或肉配价格不同，先看菜单再点。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "selected-food-photo",
+    "imageQuery": "南昌炒粉 炒粉 prepared food",
+    "sourceUrl": "https://jgj.nc.gov.cn/ncsjgswj/sjdt1/202210/b4031a4bf479462e936fa8c5838a4762.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "南昌市机关事务管理局·赣菜与南昌小吃",
+        "url": "https://jgj.nc.gov.cn/ncsjgswj/sjdt1/202210/b4031a4bf479462e936fa8c5838a4762.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "nanchang": [
+        {
+          "name": "老城粉面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E8%80%81%E5%9F%8E%E7%B2%89%E9%9D%A2%E9%A6%86%20%E5%8D%97%E6%98%8C%E7%82%92%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "绳金塔周边小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=nanchang%20%E7%BB%B3%E9%87%91%E5%A1%94%E5%91%A8%E8%BE%B9%E5%B0%8F%E5%90%83%E5%BA%97%20%E5%8D%97%E6%98%8C%E7%82%92%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。",
+    "photoFile": "Stir-fried rice noodles in Nanchang (20190619175008).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Stir-fried_rice_noodles_in_Nanchang_%2820190619175008%29.jpg"
+  },
+  {
+    "id": "food-history-zunyi-lamb-noodles",
+    "cityIds": [
+      "zunyi"
+    ],
+    "name": "遵义羊肉粉",
+    "localName": "羊肉粉／虾子羊肉粉",
+    "description": "米粉浸在羊肉汤里，配切片羊肉与辣椒等调味；先尝原汤，再按喜好加辣，额外加肉通常另收费。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "selected-food-photo",
+    "imageQuery": "遵义羊肉粉 羊肉粉／虾子羊肉粉 prepared food",
+    "sourceUrl": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "贵州广播电视台动静·遵义地方饮食",
+        "url": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zunyi": [
+        {
+          "name": "捞沙巷及老城粉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E6%8D%9E%E6%B2%99%E5%B7%B7%E5%8F%8A%E8%80%81%E5%9F%8E%E7%B2%89%E5%BA%97%20%E9%81%B5%E4%B9%89%E7%BE%8A%E8%82%89%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "公园路周边",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E5%85%AC%E5%9B%AD%E8%B7%AF%E5%91%A8%E8%BE%B9%20%E9%81%B5%E4%B9%89%E7%BE%8A%E8%82%89%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。",
+    "photoFile": "Zunyi mutton rice noodle soup (20180220124801).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Zunyi_mutton_rice_noodle_soup_%2820180220124801%29.jpg"
+  },
+  {
+    "id": "food-history-zunyi-douhua-noodles",
+    "cityIds": [
+      "zunyi"
+    ],
+    "name": "遵义豆花面",
+    "localName": "豆花面",
+    "description": "嫩豆花和面条装在一碗里，搭配单独的辣椒蘸水；夹着蘸着吃，能同时尝到豆香和面条的韧性。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "selected-food-photo",
+    "imageQuery": "遵义豆花面 豆花面 prepared food",
+    "sourceUrl": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "贵州广播电视台动静·遵义地方饮食",
+        "url": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "贵州广播电视台动静·遵义捞沙巷",
+        "url": "https://www.gzstv.com/a/9cd836c297f4470f8600e419eceafcca",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zunyi": [
+        {
+          "name": "捞沙巷",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E6%8D%9E%E6%B2%99%E5%B7%B7%20%E9%81%B5%E4%B9%89%E8%B1%86%E8%8A%B1%E9%9D%A2",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "老城豆花面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E8%80%81%E5%9F%8E%E8%B1%86%E8%8A%B1%E9%9D%A2%E9%A6%86%20%E9%81%B5%E4%B9%89%E8%B1%86%E8%8A%B1%E9%9D%A2",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。",
+    "photoFile": "豆花面 6993.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B1%86%E8%8A%B1%E9%9D%A2_6993.jpg"
+  },
+  {
+    "id": "food-history-zunyi-egg-cake",
+    "cityIds": [
+      "zunyi"
+    ],
+    "name": "遵义鸡蛋糕",
+    "localName": "遵义鸡蛋糕",
+    "description": "这里的鸡蛋糕是烘烤小点心，带蛋香、外层略酥，适合下午配茶或带走分享；按个、份或重量购买前问清。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "遵义鸡蛋糕 遵义鸡蛋糕 prepared food",
+    "sourceUrl": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "贵州广播电视台动静·遵义地方饮食",
+        "url": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zunyi": [
+        {
+          "name": "1935街区糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%201935%E8%A1%97%E5%8C%BA%E7%B3%95%E7%82%B9%E5%BA%97%20%E9%81%B5%E4%B9%89%E9%B8%A1%E8%9B%8B%E7%B3%95",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "红军街与老城糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E7%BA%A2%E5%86%9B%E8%A1%97%E4%B8%8E%E8%80%81%E5%9F%8E%E7%B3%95%E7%82%B9%E5%BA%97%20%E9%81%B5%E4%B9%89%E9%B8%A1%E8%9B%8B%E7%B3%95",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。"
+  },
+  {
+    "id": "food-history-zunyi-egg-potato-wrap",
+    "cityIds": [
+      "zunyi"
+    ],
+    "name": "蛋包洋芋",
+    "localName": "蛋包洋芋",
+    "description": "鸡蛋饼裹住调味洋芋，切开后趁热吃，一份就很有饱腹感；可以与同伴分享，把它安排在正餐或小吃预算里。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "蛋包洋芋 蛋包洋芋 prepared food",
+    "sourceUrl": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "贵州广播电视台动静·遵义地方饮食",
+        "url": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "商务部服务贸易网·遵义历史街区",
+        "url": "https://tradeinservices.mofcom.gov.cn/article/wenhua/difangzc/difangdt/202508/178072.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zunyi": [
+        {
+          "name": "捞沙巷",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E6%8D%9E%E6%B2%99%E5%B7%B7%20%E8%9B%8B%E5%8C%85%E6%B4%8B%E8%8A%8B",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "1935商业街区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%201935%E5%95%86%E4%B8%9A%E8%A1%97%E5%8C%BA%20%E8%9B%8B%E5%8C%85%E6%B4%8B%E8%8A%8B",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。"
+  },
+  {
+    "id": "food-history-zunyi-yaxi-liangfen",
+    "cityIds": [
+      "zunyi"
+    ],
+    "name": "鸭溪凉粉",
+    "localName": "鸭溪凉粉",
+    "description": "黔北鸭溪一带的豌豆或胡豆凉粉，切块后拌上辣椒与调味汁，清爽又有豆香；在遵义小吃街找店时确认是否供应这种地方做法。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "鸭溪凉粉 鸭溪凉粉 prepared food",
+    "sourceUrl": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "贵州广播电视台动静·遵义地方饮食",
+        "url": "https://www.gzstv.com/a/b84d4fa7cfa84da090a685704b03a92d",
+        "kind": "regional-broadcaster",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zunyi": [
+        {
+          "name": "捞沙巷地方小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E6%8D%9E%E6%B2%99%E5%B7%B7%E5%9C%B0%E6%96%B9%E5%B0%8F%E5%90%83%E5%BA%97%20%E9%B8%AD%E6%BA%AA%E5%87%89%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        },
+        {
+          "name": "红军街周边小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zunyi%20%E7%BA%A2%E5%86%9B%E8%A1%97%E5%91%A8%E8%BE%B9%E5%B0%8F%E5%90%83%E5%BA%97%20%E9%B8%AD%E6%BA%AA%E5%87%89%E7%B2%89",
+          "note": "可从这个片区找供应该食物的店家；先看实际菜单、份量与价格，不代表任何店家当日保证供应。"
+        }
+      ]
+    },
+    "servingNote": "计入每天的餐饮偏好与预算，不重复加入固定景点门票；食物展示不等于具体餐馆的实时菜单。"
+  }
+]

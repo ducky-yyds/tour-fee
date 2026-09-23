@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "stay-cityrepair-yanan-wanda-realm",
+    "cityId": "yanan",
+    "kind": "hotel",
+    "name": "延安万达嘉华酒店",
+    "nameEn": "Wanda Realm Yan’an",
+    "provider": "延安万达嘉华酒店",
+    "accommodationType": "hotel",
+    "tagline": "方塔湖与延安红街",
+    "description": "在方塔湖畔选择带陕北建筑元素的住宿，适合将红街游览与休息安排在同一区域；到老城及革命旧址需另留通勤。",
+    "lat": 36.56778,
+    "lng": 109.51612,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "方塔湖与延安红街",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.wandahotels.com/website/hotels/hotelDetail.html?id=7358795930306351104",
+    "website": "https://www.wandahotels.com/website/hotels/hotelDetail.html?id=7358795930306351104",
+    "bookingUrl": "https://www.wandahotels.com/website/hotels/hotelDetail.html?id=7358795930306351104",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按延安城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按延安城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 340,
+        "high": 340,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按延安城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.wandahotels.com/website/hotels/hotelDetail.html?id=7358795930306351104",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "宝塔区环湖东路15号"
+  },
+  {
+    "id": "stay-cityrepair-yanan-wanda-jin",
+    "cityId": "yanan",
+    "kind": "hotel",
+    "name": "延安万达锦华酒店",
+    "nameEn": "Wanda Jin Yan’an",
+    "provider": "延安万达锦华酒店",
+    "accommodationType": "hotel",
+    "tagline": "方塔湖与延安红街",
+    "description": "与嘉华酒店同在方塔湖一带，可比较不同房型与预算；湖景和早餐按具体预订套餐确认。",
+    "lat": 36.5685,
+    "lng": 109.516,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "方塔湖与延安红街",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.wandahotels.com/index.php?a=hotel_profile&c=index&catid=65&id=128&m=wap&siteid=2",
+    "website": "https://www.wandahotels.com/index.php?a=hotel_profile&c=index&catid=65&id=128&m=wap&siteid=2",
+    "bookingUrl": "https://www.wandahotels.com/index.php?a=hotel_profile&c=index&catid=65&id=128&m=wap&siteid=2",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按延安城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按延安城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 340,
+        "high": 340,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按延安城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.wandahotels.com/index.php?a=hotel_profile&c=index&catid=65&id=128&m=wap&siteid=2",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only"
+  },
+  {
+    "id": "stay-cityrepair-yanan-zaoyuan",
+    "cityId": "yanan",
+    "kind": "hotel",
+    "name": "延安枣园宾馆",
+    "nameEn": "Zaoyuan Hotel",
+    "provider": "延安枣园宾馆",
+    "accommodationType": "hotel",
+    "tagline": "枣园路",
+    "description": "位于枣园路中段，适合把西北方向的革命旧址作为主要行程。传统院落和当地窑居元素融入建筑，实际房型与设施看当日预订页。",
+    "lat": 36.61858,
+    "lng": 109.43758,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "枣园路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-tourism-and-travel-platform",
+    "sourceUrl": "https://hudong.moe.gov.cn/srcsite/A19/s7067/201609/t20160928_282602.html",
+    "website": "https://hudong.moe.gov.cn/srcsite/A19/s7067/201609/t20160928_282602.html",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/857500.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按延安城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按延安城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 340,
+        "high": 340,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按延安城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "教育部会议通知（酒店身份）",
+        "url": "https://hudong.moe.gov.cn/srcsite/A19/s7067/201609/t20160928_282602.html",
+        "kind": "official-government",
+        "scope": "property-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "携程物业页",
+        "url": "https://hotels.ctrip.com/hotels/857500.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "宝塔区枣园路中段风情街"
+  },
+  {
+    "id": "stay-cityrepair-yanan-luyi-garden",
+    "cityId": "yanan",
+    "kind": "hotel",
+    "name": "延安鲁艺花园酒店",
+    "nameEn": "Luyi Garden Hotel",
+    "provider": "延安鲁艺花园酒店",
+    "accommodationType": "hotel",
+    "tagline": "北部新区 · 鲁艺生态公园",
+    "description": "靠近新区公园与公共文化设施，适合希望有宽松环境的住客。它在北部新区，不能把旧城二道街和宝塔山理解成出门即到。",
+    "lat": 36.63616,
+    "lng": 109.49524,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "北部新区 · 鲁艺生态公园",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-tourism-and-travel-platform",
+    "sourceUrl": "https://yaxtjt.cn/",
+    "website": "https://yaxtjt.cn/",
+    "bookingUrl": "https://hotels.ctrip.com/hotels/41456219.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按延安城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按延安城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 340,
+        "high": 340,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按延安城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "延安新区投资发展集团",
+        "url": "https://yaxtjt.cn/",
+        "kind": "official-operator",
+        "scope": "property-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "携程物业页",
+        "url": "https://hotels.ctrip.com/hotels/41456219.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "新区遵义大街与行知北路交汇处西北方位1号大楼"
+  },
+  {
+    "id": "stay-cityrepair-yanan-jinze",
+    "cityId": "yanan",
+    "kind": "hotel",
+    "name": "延安金泽国际酒店（宝塔山店）",
+    "nameEn": "Jinze International Hotel",
+    "provider": "延安金泽国际酒店（宝塔山店）",
+    "accommodationType": "hotel",
+    "tagline": "东大街与延河老城",
+    "description": "位于老城延河附近，适合把二道街小吃、宝塔山和市区散步放在行程里。预订时确认“宝塔山店”，避免同名或旧称造成导航偏差。",
+    "lat": 36.59967,
+    "lng": 109.49044,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "东大街与延河老城",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-tourism-and-travel-platform",
+    "sourceUrl": "https://static.tradecms.dragontrail.com/202505/14/EpudKUVxBzqKAQFs9Zr1Kl4W2wgYFiG3vBCDqpWS.pdf",
+    "website": "https://static.tradecms.dragontrail.com/202505/14/EpudKUVxBzqKAQFs9Zr1Kl4W2wgYFiG3vBCDqpWS.pdf",
+    "bookingUrl": "https://m.ctrip.com/html5/hotel/hoteldetail/453206.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按延安城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按延安城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 340,
+        "high": 340,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按延安城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "延安城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "陕西省会奖旅游产品手册",
+        "url": "https://static.tradecms.dragontrail.com/202505/14/EpudKUVxBzqKAQFs9Zr1Kl4W2wgYFiG3vBCDqpWS.pdf",
+        "kind": "tourism-brochure",
+        "scope": "property-identity",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "携程当前物业页",
+        "url": "https://m.ctrip.com/html5/hotel/hoteldetail/453206.html",
+        "kind": "travel-platform",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "宝塔区东大街24号（按当前预订页确认）"
+  },
+  {
+    "id": "stay-cityrepair-tianjin-holiday-inn-express-heping",
+    "cityId": "tianjin",
+    "kind": "hotel",
+    "name": "天津和平智选假日酒店",
+    "nameEn": "Holiday Inn Express Tianjin Heping",
+    "provider": "天津和平智选假日酒店",
+    "accommodationType": "hotel",
+    "tagline": "和平区 · 鞍山道",
+    "description": "靠近鞍山道地铁站与中心城区购物街，适合以公共交通探索天津。早餐与取消条件按所选房价计划确认。",
+    "lat": 39.1193,
+    "lng": 117.1834,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "和平区 · 鞍山道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/cn/zh/tianjin/tsnas/hoteldetail",
+    "website": "https://www.ihg.com/holidayinnexpress/hotels/cn/zh/tianjin/tsnas/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/holidayinnexpress/hotels/cn/zh/tianjin/tsnas/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按天津城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 190,
+        "high": 190,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按天津城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按天津城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1250,
+        "high": 1250,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.ihg.com/holidayinnexpress/hotels/cn/zh/tianjin/tsnas/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "和平区西藏路26号"
+  },
+  {
+    "id": "stay-cityrepair-tianjin-four-seasons",
+    "cityId": "tianjin",
+    "kind": "hotel",
+    "name": "天津四季酒店",
+    "nameEn": "Four Seasons Hotel Tianjin",
+    "provider": "天津四季酒店",
+    "accommodationType": "hotel",
+    "tagline": "和平区 · 赤峰道",
+    "description": "中心城区的高层酒店，可将洋楼街区和商业区散步结合起来。景观随楼层与房型变化，适合在预算里比较是否为酒店休闲多留半天。",
+    "lat": 39.1203,
+    "lng": 117.1949,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "和平区 · 赤峰道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fourseasons.com/zh/tianjin/",
+    "website": "https://www.fourseasons.com/zh/tianjin/",
+    "bookingUrl": "https://www.fourseasons.com/zh/tianjin/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按天津城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 190,
+        "high": 190,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按天津城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按天津城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1250,
+        "high": 1250,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.fourseasons.com/zh/tianjin/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "和平区赤峰道138号"
+  },
+  {
+    "id": "stay-cityrepair-tianjin-ritz-carlton",
+    "cityId": "tianjin",
+    "kind": "hotel",
+    "name": "天津丽思卡尔顿酒店",
+    "nameEn": "The Ritz-Carlton Tianjin",
+    "provider": "天津丽思卡尔顿酒店",
+    "accommodationType": "hotel",
+    "tagline": "和平区 · 大沽北路",
+    "description": "采用新古典建筑风格，靠近近代金融街和海河一带。酒店本身可以成为休息的一部分，餐饮、行政礼遇和接送按所订套餐核算。",
+    "lat": 39.1184,
+    "lng": 117.2127,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "和平区 · 大沽北路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ritzcarlton.com/zh-cn/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+    "website": "https://www.ritzcarlton.com/zh-cn/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+    "bookingUrl": "https://www.ritzcarlton.com/zh-cn/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按天津城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 190,
+        "high": 190,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按天津城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按天津城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1250,
+        "high": 1250,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.ritzcarlton.com/zh-cn/hotels/tsnrz-the-ritz-carlton-tianjin/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "和平区大沽北路167号"
+  },
+  {
+    "id": "stay-cityrepair-tianjin-banyan-tree",
+    "cityId": "tianjin",
+    "kind": "hotel",
+    "name": "天津海河悦榕庄",
+    "nameEn": "Banyan Tree Tianjin Riverside",
+    "provider": "天津海河悦榕庄",
+    "accommodationType": "hotel",
+    "tagline": "河北区 · 海河东路",
+    "description": "位于海河东岸，可把古文化街、意式风情区和沿河散步作为主要内容。河景房与普通房型区别较大，先确认朝向再比较价格。",
+    "lat": 39.144,
+    "lng": 117.1856,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "河北区 · 海河东路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.banyantree.com/cn/china/tianjin-riverside",
+    "website": "https://www.banyantree.com/cn/china/tianjin-riverside",
+    "bookingUrl": "https://www.banyantree.com/cn/china/tianjin-riverside",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按天津城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 190,
+        "high": 190,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按天津城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按天津城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1250,
+        "high": 1250,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.banyantree.com/cn/china/tianjin-riverside",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "河北区海河东路34号"
+  },
+  {
+    "id": "stay-cityrepair-tianjin-st-regis",
+    "cityId": "tianjin",
+    "kind": "hotel",
+    "name": "天津瑞吉金融街酒店",
+    "nameEn": "The St. Regis Tianjin",
+    "provider": "天津瑞吉金融街酒店",
+    "accommodationType": "hotel",
+    "tagline": "和平区 · 张自忠路",
+    "description": "海河边的现代酒店，适合喜爱滨水步行和夜景的住客。具体景观、餐饮和礼宾服务以房型及预订条件为准。",
+    "lat": 39.1326,
+    "lng": 117.192,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；导航请使用预订页面确认的酒店名称及地址。",
+    "durationMinutes": 0,
+    "features": [
+      "和平区 · 张自忠路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/tsnxr-the-st-regis-tianjin/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/tsnxr-the-st-regis-tianjin/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/tsnxr-the-st-regis-tianjin/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "来源用于核对酒店身份与位置；未核验所选日期的可订房型和房价。",
+    "availabilityNote": "下列金额是城市住宿预算，不是该酒店报价，也不代表能以任一档价格入住。请到预订页按日期确认。",
+    "requirements": [
+      "确认入住日期、房型及人数",
+      "按实际含税报价调整住宿预算",
+      "核对早餐、接送与取消条件"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按天津城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 190,
+        "high": 190,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按天津城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按天津城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1250,
+        "high": 1250,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "天津城市住宿编辑预算",
+        "note": "取得所选日期的含税报价后再调整。",
+        "includes": [],
+        "excludes": [
+          "未明确包含的早餐、税费、加床、停车与接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "酒店品牌官网",
+        "url": "https://www.marriott.com/en-us/hotels/tsnxr-the-st-regis-tianjin/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": null,
+    "noArticle": true,
+    "imagePolicy": "exact-only",
+    "address": "和平区张自忠路158号"
+  }
+]

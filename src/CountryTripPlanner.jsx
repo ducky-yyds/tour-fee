@@ -1,3 +1,4 @@
+import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useMemo, useState } from 'react';
 import { ArrowDown, ArrowRight, ArrowUp, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, Compass, MapPin, Plus, RotateCcw, Route, Sparkles, Trash2, TriangleAlert } from 'lucide-react';
 import { buildCountryDraft, listCountryDestinations } from '../shared/country-planning.mjs';
@@ -56,7 +57,7 @@ export default function CountryTripPlanner({
     </header>
     <div className="country-trip-controls">
       <CountrySelect countries={countries} value={countryCode} onChange={changeCountry} label="目的国家 / 地区" disabled={!countries.length} />
-      <label>本次总天数<input aria-label="国家旅程总天数" type="number" min="1" max="365" value={totalDays} onChange={event => { setTotalDays(event.target.value === '' ? '' : Number(event.target.value)); reset(); }} /></label>
+      <label>本次总天数<EditableNumberInput aria-label="国家旅程总天数" type="number" min="1" max="365" value={totalDays} onChange={event => { setTotalDays(event.target.value === '' ? '' : Number(event.target.value)); reset(); }} /></label>
       {!planContext && <label>出发日期<input aria-label="国家旅程出发日期" type="date" value={date} onChange={event => setDate(event.target.value)} /></label>}
     </div>
     <div className="country-trip-origin"><Route size={17} /><span>{priorStops.length ? `接续 ${entryCity?.name || '上一站'}` : `从 ${origin?.name || '尚未选择的出发地'} 出发`}{draft && ` · ${draft.departureDate}`}</span>{!planContext ? <label><input type="checkbox" checked={includeReturn} onChange={event => setIncludeReturn(event.target.checked)} />预留返回出发地的交通</label> : <span>{planContext.returnTrip !== false ? `含最终返回${origin?.name || '原出发地'}的时间` : '沿用原行程的单程安排'}</span>}</div>

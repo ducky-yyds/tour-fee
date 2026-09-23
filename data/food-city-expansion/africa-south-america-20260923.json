@@ -1,0 +1,752 @@
+[
+  {
+    "id": "food-tajine",
+    "cityIds": [
+      "essaouira"
+    ],
+    "whereByCity": {
+      "essaouira": [
+        {
+          "name": "索维拉麦地那传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Essaouira%20%E7%B4%A2%E7%BB%B4%E6%8B%89%E9%BA%A6%E5%9C%B0%E9%82%A3%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20tajine",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-couscous",
+    "cityIds": [
+      "essaouira"
+    ],
+    "whereByCity": {
+      "essaouira": [
+        {
+          "name": "索维拉麦地那传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Essaouira%20%E7%B4%A2%E7%BB%B4%E6%8B%89%E9%BA%A6%E5%9C%B0%E9%82%A3%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20couscous",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-mint-tea",
+    "cityIds": [
+      "essaouira"
+    ],
+    "whereByCity": {
+      "essaouira": [
+        {
+          "name": "索维拉麦地那传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Essaouira%20%E7%B4%A2%E7%BB%B4%E6%8B%89%E9%BA%A6%E5%9C%B0%E9%82%A3%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20mint-tea",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-harira",
+    "cityIds": [
+      "essaouira"
+    ],
+    "whereByCity": {
+      "essaouira": [
+        {
+          "name": "索维拉麦地那传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Essaouira%20%E7%B4%A2%E7%BB%B4%E6%8B%89%E9%BA%A6%E5%9C%B0%E9%82%A3%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20harira",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-tajine",
+    "cityIds": [
+      "rabat"
+    ],
+    "whereByCity": {
+      "rabat": [
+        {
+          "name": "拉巴特老城与 Hassan 区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rabat%20%E6%8B%89%E5%B7%B4%E7%89%B9%E8%80%81%E5%9F%8E%E4%B8%8E%20Hassan%20%E5%8C%BA%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20tajine",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-couscous",
+    "cityIds": [
+      "rabat"
+    ],
+    "whereByCity": {
+      "rabat": [
+        {
+          "name": "拉巴特老城与 Hassan 区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rabat%20%E6%8B%89%E5%B7%B4%E7%89%B9%E8%80%81%E5%9F%8E%E4%B8%8E%20Hassan%20%E5%8C%BA%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20couscous",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-pastilla",
+    "cityIds": [
+      "rabat"
+    ],
+    "whereByCity": {
+      "rabat": [
+        {
+          "name": "拉巴特老城与 Hassan 区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rabat%20%E6%8B%89%E5%B7%B4%E7%89%B9%E8%80%81%E5%9F%8E%E4%B8%8E%20Hassan%20%E5%8C%BA%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20pastilla",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-mint-tea",
+    "cityIds": [
+      "rabat"
+    ],
+    "whereByCity": {
+      "rabat": [
+        {
+          "name": "拉巴特老城与 Hassan 区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rabat%20%E6%8B%89%E5%B7%B4%E7%89%B9%E8%80%81%E5%9F%8E%E4%B8%8E%20Hassan%20%E5%8C%BA%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20mint-tea",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-harira",
+    "cityIds": [
+      "rabat"
+    ],
+    "whereByCity": {
+      "rabat": [
+        {
+          "name": "拉巴特老城与 Hassan 区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rabat%20%E6%8B%89%E5%B7%B4%E7%89%B9%E8%80%81%E5%9F%8E%E4%B8%8E%20Hassan%20%E5%8C%BA%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20harira",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-koshary",
+    "cityIds": [
+      "hurghada"
+    ],
+    "whereByCity": {
+      "hurghada": [
+        {
+          "name": "El Dahar 老城埃及菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hurghada%20El%20Dahar%20%E8%80%81%E5%9F%8E%E5%9F%83%E5%8F%8A%E8%8F%9C%E9%A4%90%E9%A6%86%20koshary",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-ful-medames",
+    "cityIds": [
+      "hurghada"
+    ],
+    "whereByCity": {
+      "hurghada": [
+        {
+          "name": "El Dahar 老城埃及菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hurghada%20El%20Dahar%20%E8%80%81%E5%9F%8E%E5%9F%83%E5%8F%8A%E8%8F%9C%E9%A4%90%E9%A6%86%20ful-medames",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-taameya",
+    "cityIds": [
+      "hurghada"
+    ],
+    "whereByCity": {
+      "hurghada": [
+        {
+          "name": "El Dahar 老城埃及菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hurghada%20El%20Dahar%20%E8%80%81%E5%9F%8E%E5%9F%83%E5%8F%8A%E8%8F%9C%E9%A4%90%E9%A6%86%20taameya",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-molokhiya",
+    "cityIds": [
+      "hurghada"
+    ],
+    "whereByCity": {
+      "hurghada": [
+        {
+          "name": "El Dahar 老城埃及菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hurghada%20El%20Dahar%20%E8%80%81%E5%9F%8E%E5%9F%83%E5%8F%8A%E8%8F%9C%E9%A4%90%E9%A6%86%20molokhiya",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-umm-ali",
+    "cityIds": [
+      "hurghada"
+    ],
+    "whereByCity": {
+      "hurghada": [
+        {
+          "name": "El Dahar 老城埃及菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hurghada%20El%20Dahar%20%E8%80%81%E5%9F%8E%E5%9F%83%E5%8F%8A%E8%8F%9C%E9%A4%90%E9%A6%86%20umm-ali",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-nyama-choma",
+    "cityIds": [
+      "mombasa"
+    ],
+    "whereByCity": {
+      "mombasa": [
+        {
+          "name": "蒙巴萨老城及斯瓦希里餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mombasa%20%E8%92%99%E5%B7%B4%E8%90%A8%E8%80%81%E5%9F%8E%E5%8F%8A%E6%96%AF%E7%93%A6%E5%B8%8C%E9%87%8C%E9%A4%90%E9%A6%86%20nyama-choma",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-ugali",
+    "cityIds": [
+      "mombasa"
+    ],
+    "whereByCity": {
+      "mombasa": [
+        {
+          "name": "蒙巴萨老城及斯瓦希里餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mombasa%20%E8%92%99%E5%B7%B4%E8%90%A8%E8%80%81%E5%9F%8E%E5%8F%8A%E6%96%AF%E7%93%A6%E5%B8%8C%E9%87%8C%E9%A4%90%E9%A6%86%20ugali",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-mandazi",
+    "cityIds": [
+      "mombasa"
+    ],
+    "whereByCity": {
+      "mombasa": [
+        {
+          "name": "蒙巴萨老城及斯瓦希里餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mombasa%20%E8%92%99%E5%B7%B4%E8%90%A8%E8%80%81%E5%9F%8E%E5%8F%8A%E6%96%AF%E7%93%A6%E5%B8%8C%E9%87%8C%E9%A4%90%E9%A6%86%20mandazi",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-coconut-fish-curry",
+    "cityIds": [
+      "mombasa"
+    ],
+    "whereByCity": {
+      "mombasa": [
+        {
+          "name": "蒙巴萨老城及斯瓦希里餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mombasa%20%E8%92%99%E5%B7%B4%E8%90%A8%E8%80%81%E5%9F%8E%E5%8F%8A%E6%96%AF%E7%93%A6%E5%B8%8C%E9%87%8C%E9%A4%90%E9%A6%86%20coconut-fish-curry",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-nyama-choma",
+    "cityIds": [
+      "arusha"
+    ],
+    "whereByCity": {
+      "arusha": [
+        {
+          "name": "阿鲁沙市内当地餐馆与早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Arusha%20%E9%98%BF%E9%B2%81%E6%B2%99%E5%B8%82%E5%86%85%E5%BD%93%E5%9C%B0%E9%A4%90%E9%A6%86%E4%B8%8E%E6%97%A9%E9%A4%90%E5%BA%97%20nyama-choma",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "阿鲁沙市政府·城市历史",
+        "url": "https://arushacc.go.tz/our-history",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-ugali",
+    "cityIds": [
+      "arusha"
+    ],
+    "whereByCity": {
+      "arusha": [
+        {
+          "name": "阿鲁沙市内当地餐馆与早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Arusha%20%E9%98%BF%E9%B2%81%E6%B2%99%E5%B8%82%E5%86%85%E5%BD%93%E5%9C%B0%E9%A4%90%E9%A6%86%E4%B8%8E%E6%97%A9%E9%A4%90%E5%BA%97%20ugali",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "阿鲁沙市政府·城市历史",
+        "url": "https://arushacc.go.tz/our-history",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-mandazi",
+    "cityIds": [
+      "arusha"
+    ],
+    "whereByCity": {
+      "arusha": [
+        {
+          "name": "阿鲁沙市内当地餐馆与早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Arusha%20%E9%98%BF%E9%B2%81%E6%B2%99%E5%B8%82%E5%86%85%E5%BD%93%E5%9C%B0%E9%A4%90%E9%A6%86%E4%B8%8E%E6%97%A9%E9%A4%90%E5%BA%97%20mandazi",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "阿鲁沙市政府·城市历史",
+        "url": "https://arushacc.go.tz/our-history",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-braai",
+    "cityIds": [
+      "hermanus"
+    ],
+    "whereByCity": {
+      "hermanus": [
+        {
+          "name": "赫尔马努斯市中心南非菜餐馆与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermanus%20%E8%B5%AB%E5%B0%94%E9%A9%AC%E5%8A%AA%E6%96%AF%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8D%97%E9%9D%9E%E8%8F%9C%E9%A4%90%E9%A6%86%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%20braai",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast 目的地官网",
+        "url": "https://whalecoast.info/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-bobotie",
+    "cityIds": [
+      "hermanus"
+    ],
+    "whereByCity": {
+      "hermanus": [
+        {
+          "name": "赫尔马努斯市中心南非菜餐馆与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermanus%20%E8%B5%AB%E5%B0%94%E9%A9%AC%E5%8A%AA%E6%96%AF%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8D%97%E9%9D%9E%E8%8F%9C%E9%A4%90%E9%A6%86%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%20bobotie",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast 目的地官网",
+        "url": "https://whalecoast.info/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-malva-pudding",
+    "cityIds": [
+      "hermanus"
+    ],
+    "whereByCity": {
+      "hermanus": [
+        {
+          "name": "赫尔马努斯市中心南非菜餐馆与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermanus%20%E8%B5%AB%E5%B0%94%E9%A9%AC%E5%8A%AA%E6%96%AF%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8D%97%E9%9D%9E%E8%8F%9C%E9%A4%90%E9%A6%86%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%20malva-pudding",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast 目的地官网",
+        "url": "https://whalecoast.info/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-melktert",
+    "cityIds": [
+      "hermanus"
+    ],
+    "whereByCity": {
+      "hermanus": [
+        {
+          "name": "赫尔马努斯市中心南非菜餐馆与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermanus%20%E8%B5%AB%E5%B0%94%E9%A9%AC%E5%8A%AA%E6%96%AF%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8D%97%E9%9D%9E%E8%8F%9C%E9%A4%90%E9%A6%86%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%20melktert",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast 目的地官网",
+        "url": "https://whalecoast.info/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-feijoada",
+    "cityIds": [
+      "foz-do-iguacu"
+    ],
+    "whereByCity": {
+      "foz-do-iguacu": [
+        {
+          "name": "伊瓜苏市中心巴西菜餐馆及糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20%E4%BC%8A%E7%93%9C%E8%8B%8F%E5%B8%82%E4%B8%AD%E5%BF%83%E5%B7%B4%E8%A5%BF%E8%8F%9C%E9%A4%90%E9%A6%86%E5%8F%8A%E7%B3%95%E7%82%B9%E5%BA%97%20feijoada",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Visit Iguassu·三国地区餐饮",
+        "url": "https://paraempresas.iguassu.com.br/gastronomia-visit-iguassu/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-pao-de-queijo",
+    "cityIds": [
+      "foz-do-iguacu"
+    ],
+    "whereByCity": {
+      "foz-do-iguacu": [
+        {
+          "name": "伊瓜苏市中心巴西菜餐馆及糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20%E4%BC%8A%E7%93%9C%E8%8B%8F%E5%B8%82%E4%B8%AD%E5%BF%83%E5%B7%B4%E8%A5%BF%E8%8F%9C%E9%A4%90%E9%A6%86%E5%8F%8A%E7%B3%95%E7%82%B9%E5%BA%97%20pao-de-queijo",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Visit Iguassu·三国地区餐饮",
+        "url": "https://paraempresas.iguassu.com.br/gastronomia-visit-iguassu/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-coxinha",
+    "cityIds": [
+      "foz-do-iguacu"
+    ],
+    "whereByCity": {
+      "foz-do-iguacu": [
+        {
+          "name": "伊瓜苏市中心巴西菜餐馆及糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20%E4%BC%8A%E7%93%9C%E8%8B%8F%E5%B8%82%E4%B8%AD%E5%BF%83%E5%B7%B4%E8%A5%BF%E8%8F%9C%E9%A4%90%E9%A6%86%E5%8F%8A%E7%B3%95%E7%82%B9%E5%BA%97%20coxinha",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "Visit Iguassu·三国地区餐饮",
+        "url": "https://paraempresas.iguassu.com.br/gastronomia-visit-iguassu/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-empanada",
+    "cityIds": [
+      "ushuaia"
+    ],
+    "whereByCity": {
+      "ushuaia": [
+        {
+          "name": "San Martín 与 Deloqui 街区的馅饼店及甜食店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ushuaia%20San%20Mart%C3%ADn%20%E4%B8%8E%20Deloqui%20%E8%A1%97%E5%8C%BA%E7%9A%84%E9%A6%85%E9%A5%BC%E5%BA%97%E5%8F%8A%E7%94%9C%E9%A3%9F%E5%BA%97%20empanada",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·地方菜与餐馆",
+        "url": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "food-alfajor",
+    "cityIds": [
+      "ushuaia"
+    ],
+    "whereByCity": {
+      "ushuaia": [
+        {
+          "name": "San Martín 与 Deloqui 街区的馅饼店及甜食店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ushuaia%20San%20Mart%C3%ADn%20%E4%B8%8E%20Deloqui%20%E8%A1%97%E5%8C%BA%E7%9A%84%E9%A6%85%E9%A5%BC%E5%BA%97%E5%8F%8A%E7%94%9C%E9%A3%9F%E5%BA%97%20alfajor",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·地方菜与餐馆",
+        "url": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ]
+  }
+]

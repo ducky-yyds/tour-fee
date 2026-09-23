@@ -29,6 +29,8 @@ import CityBrief from "./CityBrief.jsx";
 import LocalFoodGuide from "./LocalFoodGuide.jsx";
 import SourceReferences from "./SourceReferences.jsx";
 import DestinationSelect from "./DestinationSelect.jsx";
+import ExperienceContext from "./ExperienceContext.jsx";
+import { EXPERIENCE_THEMES, experienceTheme, seasonLabel, experienceDateInfo, dateForExperience } from '../shared/experience-discovery.mjs';
 import "./city-home.css";
 
 const TABS = [
@@ -306,6 +308,7 @@ export default function CityHome({
   const stopIndex =
     plan?.stops?.findIndex((stop) => stop.cityId === city.id) ?? -1;
   const isFinalStop = stopIndex < 0 || stopIndex === plan.stops.length - 1;
+  const cityStartDate = dateForExperience(plan?.departureDate, asArray(plan?.stops).slice(0, stopIndex < 0 ? undefined : stopIndex).reduce((sum, stop) => sum + Number(stop.days || 0), 0));
   const nights =
     plan?.mode === "stay"
       ? draft.days
@@ -317,7 +320,7 @@ export default function CityHome({
   const catalogSights = sights.filter((item) => !isLocalExploration(item));
   const bookableExperiences = experiences.filter(
     (item) => item.kind === "experience",
-  );
+  ).sort((a, b) => Number(Boolean(b.experienceType)) - Number(Boolean(a.experienceType)));
   const selectedIds = new Set(draft.attractionIds);
   const selectedSights = sights.filter((a) => selectedIds.has(a.id));
   const resolved = draft.experienceSelections
@@ -340,9 +343,9 @@ export default function CityHome({
       : tab === "experience"
         ? experienceView === "places"
           ? localExplorations
-          : experienceView === "bookable"
-            ? bookableExperiences
-            : [...bookableExperiences, ...localExplorations]
+          : experienceView === "all"
+            ? [...bookableExperiences, ...localExplorations]
+            : bookableExperiences.filter(item => experienceView === 'bookable' || experienceTheme(item) === experienceView)
         : experiences.filter((a) => a.kind === tab);
   const filtered = useMemo(() => {
     const q = query.trim().toLocaleLowerCase();
@@ -365,6 +368,8 @@ export default function CityHome({
             a.description,
             a.provider,
             a.tagline,
+            a.localContext,
+            ...asArray(a.wildlife?.species),
             ...asArray(a.features),
           ]
             .join(" ")
@@ -454,10 +459,11 @@ export default function CityHome({
         : [...previous.attractionIds, id],
     }));
   }
-  function selectExperience(experience, optionId, dayIndex, mealType) {
+  function selectExperience(experience, optionId, dayIndex, mealType, confirmedDate) {
     const selection = {
       experienceId: experience.id,
       optionId,
+      ...(confirmedDate ? { confirmedDate } : {}),
       ...(dayIndex !== undefined ? { dayIndex } : {}),
       ...(experience.kind === "restaurant"
         ? { mealType: mealType || experience.mealType || "dinner" }
@@ -691,7 +697,7 @@ export default function CityHome({
           )}
           {tab === "experience" && (
             <div
-              className="ch-dining-switch"
+              className="ch-dining-switch ch-experience-themes"
               role="group"
               aria-label="体验类型"
             >
@@ -701,8 +707,8 @@ export default function CityHome({
                   "全部",
                   bookableExperiences.length + localExplorations.length,
                 ],
+                ...Object.entries(EXPERIENCE_THEMES).map(([id,label]) => [id,label,bookableExperiences.filter(item => experienceTheme(item) === id).length]).filter(([, ,count]) => count),
                 ["places", "街区小逛", localExplorations.length],
-                ["bookable", "预订项目", bookableExperiences.length],
               ].map(([id, label, count]) => (
                 <button
                   key={id}
@@ -849,12 +855,13 @@ export default function CityHome({
                             (selected) => selected.experienceId === item.id,
                           )}
                           days={draft.days}
+                          startDate={cityStartDate}
                           nights={nights}
                           currency={currency}
                           rates={rates}
                           people={people}
-                          onSelect={(optionId, dayIndex, mealType) =>
-                            selectExperience(item, optionId, dayIndex, mealType)
+                          onSelect={(optionId, dayIndex, mealType, confirmedDate) =>
+                            selectExperience(item, optionId, dayIndex, mealType, confirmedDate)
                           }
                           onRemove={() => removeExperience(item.id)}
                           onDetails={(optionId) =>
@@ -1228,6 +1235,7 @@ function ExperienceCard({
   city,
   selection,
   days,
+  startDate,
   nights,
   currency,
   rates,
@@ -1245,13 +1253,17 @@ function ExperienceCard({
   const [meal, setMeal] = useState(
     selection?.mealType || item.mealType || "dinner",
   );
+  const [confirmedDate, setConfirmedDate] = useState(selection?.confirmedDate || '');
+  const selectedDate = dateForExperience(startDate, day === 'auto' ? 0 : Number(day));
+  const dateInfo = experienceDateInfo(item, selectedDate, { confirmedDate: day !== 'auto' ? confirmedDate : '' });
   useEffect(() => {
     if (selection) {
       setOptionId(selection.optionId);
       setDay(selection.dayIndex ?? (item.kind === "restaurant" ? 0 : "auto"));
       setMeal(selection.mealType || item.mealType || "dinner");
+      setConfirmedDate(selection.confirmedDate || '');
     }
-  }, [selection?.optionId, selection?.dayIndex, selection?.mealType]);
+  }, [selection?.optionId, selection?.dayIndex, selection?.mealType, selection?.confirmedDate]);
   useEffect(() => {
     if (day !== "auto" && day >= days) setDay(days - 1);
   }, [days]);
@@ -1278,6 +1290,7 @@ function ExperienceCard({
         : `此方案适用于 ${minPeople}–${maxPeople} 人同行`;
   const same =
     selection &&
+    (selection.confirmedDate || '') === (day !== 'auto' && confirmedDate === selectedDate ? confirmedDate : '') &&
     selection.optionId === option?.id &&
     (item.kind === "hotel" ||
       (selection.dayIndex ?? (item.kind === "restaurant" ? 0 : "auto")) ===
@@ -1309,6 +1322,7 @@ function ExperienceCard({
         option.id,
         day === "auto" || item.kind === "hotel" ? undefined : day,
         meal,
+        day !== 'auto' && confirmedDate === selectedDate ? confirmedDate : undefined,
       );
     }
   }
@@ -1329,7 +1343,7 @@ function ExperienceCard({
               ? "选择住宿"
               : item.kind === "restaurant"
                 ? "安排这顿饭"
-                : "加入行程"}
+                : !dateInfo.schedulable ? "加入愿望预算" : "加入行程"}
       </button>
     );
   }
@@ -1346,6 +1360,7 @@ function ExperienceCard({
         />
       </div>
       <div className="ch-card-content">
+        {item.experienceType && <span className="ch-experience-theme-label">{EXPERIENCE_THEMES[item.experienceType]}</span>}
         <div className="ch-card-heading">
           <h3>
             <button onClick={() => onDetails(option?.id)}>{item.name}</button>
@@ -1354,6 +1369,7 @@ function ExperienceCard({
         <p className="ch-card-description">
           {item.tagline || item.description}
         </p>
+        {item.seasonality && <p className="ch-season-label"><CalendarDays size={13}/>{seasonLabel(item)}</p>}
         <div className="ch-visit-duration">
           <Clock3 size={13} />
           <span>
@@ -1405,6 +1421,7 @@ function ExperienceCard({
                 : ""}
             </span>
             <p>{item.description}</p>
+            <ExperienceContext item={item} />
             <div className="ch-feature-tags">
               {asArray(item.features).map((feature) => (
                 <span key={feature}>{feature}</span>
@@ -1515,6 +1532,10 @@ function ExperienceCard({
                 )}
               </div>
             )}
+            {item.kind === 'experience' && item.seasonality && <div className="ch-date-check">
+              <p>{dateInfo.note}</p>
+              {day === 'auto' ? <small>节庆或季节外项目，请先选择具体日期，再核对官网场次。</small> : <label><input type="checkbox" checked={Boolean(selectedDate && confirmedDate === selectedDate)} onChange={event => setConfirmedDate(event.target.checked ? selectedDate : '')}/><span>我已核对官网或运营方，确认 {selectedDate} 可参加；尚未表示已预订</span></label>}
+            </div>}
             <div className="ch-service-actions">{renderSelectionButton()}</div>
             {!same && (
               <p className="ch-detail-note">点击上方按钮确认方案，选择篮才会更新。</p>
@@ -1573,6 +1594,7 @@ function ItemDetails({
       <PlaceMediaDetails item={item} city={city} sight={sight} />
       <span className="eyebrow">{item.nameEn}</span>
       <p className="ch-detail-description">{item.description}</p>
+      <ExperienceContext item={item} />
       <div className="ch-feature-tags">
         {asArray(item.features).map((feature) => (
           <span key={feature}>{feature}</span>

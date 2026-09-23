@@ -45,12 +45,20 @@
     "PEN": 0.50216,
     "BRL": 0.76632,
     "ARS": 226.11,
-    "CLP": 143
+    "CLP": 143,
+    "COP": 477.63
   },
   "asOf": "2026-09-22",
   "source": "Frankfurter · central bank reference rates",
   "sourceUrl": "https://frankfurter.dev/",
   "fetchedAt": "2026-09-22T10:12:53.020Z",
   "status": "cached",
-  "note": "参考中间汇率；不含银行手续费、刷卡加价与买卖价差。"
+  "note": "参考中间汇率；不含银行手续费、刷卡加价与买卖价差。",
+  "additionalCurrencySources": {
+    "COP": {
+      "asOf": "2026-09-22",
+      "sourceUrl": "https://api.frankfurter.dev/v2/rates?date=2026-09-22&base=CNY&quotes=COP",
+      "fetchedAt": "2026-09-23T16:04:06.662374+00:00"
+    }
+  }
 }

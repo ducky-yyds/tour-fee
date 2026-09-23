@@ -13,3 +13,10 @@
 - 导入工具：`scripts/import-generated-food-art.py`，仅负责已有图片的网页编码与元数据写入，手动使用时需要 Pillow。自动部署使用仓库中已保存的 WebP，不调用生图或 Pillow。
 
 这些是项目生成素材，不借用商家摄影的授权标签，也不声称真实现场拍摄。
+
+2026-09-24 非洲、南美洲补充批次新增 30 款食物，其中 28 款采用逐项核对的 Commons 实拍，2 款使用内置 imagegen 生成的菜品专属插画：
+
+- [Tambaqui assado 烤鱼](../public/images/art-food-depth-tambaqui-20260923.webp)，[完整提示词和生成记录](../data/food-art-expansion/food-depth-tambaqui.json)。
+- [Cupuaçu 果味冰棒](../public/images/art-food-depth-cupuacu-20260923.webp)，[完整提示词和生成记录](../data/food-art-expansion/food-depth-cupuacu.json)。
+
+图片文件日期后缀沿用批次日期；生成工具返回的 UTC 日期为 2026-09-23，本地导入日期为 2026-09-24。地域共享食物照片的拍摄地、异地同类菜式参考等差异保留在图片详情中，没有将照片拍摄地改写成目的地。

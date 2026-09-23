@@ -459,7 +459,9 @@ export default function ItineraryPlanner({
                     {destination.name} · {row.option.name}
                     {row.selection.scheduleStatus === "needs-more-days"
                       ? " · 待安排，请增加天数或调整时段"
-                      : ""}
+                      : row.selection.scheduleStatus === "needs-date-check"
+                        ? " · 待核对日期，费用已保留"
+                        : ""}
                   </small>
                 </div>
                 {row.experience.kind !== "hotel" ? (

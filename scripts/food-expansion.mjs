@@ -21,6 +21,17 @@ export function mergeFoodExpansions(base, cityIds, { root = process.cwd(), refre
       } : food);
     }
   }
+  // Regional dishes can belong to several cities without duplicating the food.
+  const cityDirectory = resolve(root, 'data/food-city-expansion');
+  for (const filename of (existsSync(cityDirectory) ? readdirSync(cityDirectory) : []).filter(file => file.endsWith('.json')).sort()) {
+    const rows = JSON.parse(readFileSync(resolve(cityDirectory, filename), 'utf8').replace(/^\uFEFF/, ''));
+    if (!Array.isArray(rows)) throw new Error(`Food city expansion must be an array: ${filename}`);
+    for (const row of rows) {
+      const food = merged.get(row.id);
+      if (!food || !Array.isArray(row.cityIds) || !row.cityIds.length || row.cityIds.some(id => !cityIds.has(id))) throw new Error(`Invalid food city association: ${filename}/${row.id}`);
+      merged.set(row.id, { ...food, cityIds: [...new Set([...food.cityIds, ...row.cityIds])], whereByCity: { ...food.whereByCity, ...row.whereByCity }, sourceReferences: [...new Map([...(food.sourceReferences || []), ...(row.sourceReferences || [])].map(source => [source.url, source])).values()] });
+    }
+  }
   // Keep researched dish photos separate from food descriptions and prices.
   // These explicit matches take precedence on every scheduled catalog refresh.
   const photoDirectory = resolve(root, 'data/food-photo-expansion');

@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "food-depth-sardines",
+    "cityIds": [
+      "essaouira"
+    ],
+    "name": "摩洛哥海港烤沙丁鱼",
+    "localName": "Sardines grillées",
+    "description": "整条沙丁鱼烤熟后配柠檬、面包或沙拉；索维拉渔港餐馆常见，先问重量、加工与配菜是否分别计价。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "essaouira": [
+        {
+          "name": "索维拉渔港周边海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Essaouira%20%E7%B4%A2%E7%BB%B4%E6%8B%89%E6%B8%94%E6%B8%AF%E5%91%A8%E8%BE%B9%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20Sardines%20grill%C3%A9es",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-swahili-biryani",
+    "cityIds": [
+      "mombasa"
+    ],
+    "name": "斯瓦希里比尔亚尼饭",
+    "localName": "Biryani",
+    "description": "香料米饭配肉类或海鲜酱汁，斯瓦希里海岸的做法与印度版本会有不同；确认份量和主料。",
+    "article": "Biryani",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "mombasa": [
+        {
+          "name": "Barka Restaurant, Kibokoni Road",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mombasa%20Barka%20Restaurant%2C%20Kibokoni%20Road%20Biryani",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-chipsi-mayai",
+    "cityIds": [
+      "arusha"
+    ],
+    "name": "坦桑尼亚薯条鸡蛋饼",
+    "localName": "Chipsi mayai",
+    "description": "把薯条与鸡蛋煎成厚实的一盘，常配辣酱或番茄洋葱小菜；属于大众便餐，不是复杂宴席。",
+    "article": "Chipsi_mayai",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chipsi_mayai",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Chipsi mayai 食物资料",
+        "url": "https://en.wikipedia.org/wiki/Chipsi_mayai",
+        "kind": "encyclopedia",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "arusha": [
+        {
+          "name": "阿鲁沙中心区小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Arusha%20%E9%98%BF%E9%B2%81%E6%B2%99%E4%B8%AD%E5%BF%83%E5%8C%BA%E5%B0%8F%E5%90%83%E5%BA%97%20Chipsi%20mayai",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-meru-coffee",
+    "cityIds": [
+      "arusha"
+    ],
+    "name": "梅鲁山脚咖啡",
+    "localName": "Kahawa",
+    "description": "从梅鲁山麓种植与家庭加工传统认识当地咖啡；市内咖啡馆与滕格鲁农庄体验是不同消费方式。",
+    "article": "Coffee",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+        "url": "https://tengeruculturaltourism.com/tours.html",
+        "kind": "official-provider",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "arusha": [
+        {
+          "name": "滕格鲁社区咖啡项目及市内咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Arusha%20%E6%BB%95%E6%A0%BC%E9%B2%81%E7%A4%BE%E5%8C%BA%E5%92%96%E5%95%A1%E9%A1%B9%E7%9B%AE%E5%8F%8A%E5%B8%82%E5%86%85%E5%92%96%E5%95%A1%E9%A6%86%20Kahawa",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-hake-chips",
+    "cityIds": [
+      "hermanus"
+    ],
+    "name": "沃克湾鳕鱼薯条",
+    "localName": "Hake and chips",
+    "description": "南非海岸常见的 hake 鱼配薯条，炸或烤的做法视餐馆而定；这里的 hake 不是英语 cod 的同一种鱼。",
+    "article": "Fish_and_chips",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.walkerbayfishandchips.co.za/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Walkerbay Fish & Chips 餐馆官网",
+        "url": "https://www.walkerbayfishandchips.co.za/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "hermanus": [
+        {
+          "name": "Walkerbay Fish & Chips, Village Square",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermanus%20Walkerbay%20Fish%20%26%20Chips%2C%20Village%20Square%20Hake%20and%20chips",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-locro-papa",
+    "cityIds": [
+      "quito"
+    ],
+    "name": "基多土豆奶酪浓汤",
+    "localName": "Locro de papa",
+    "description": "以土豆为主的高地浓汤，常见奶酪、牛油果等搭配，口感温润；具体乳制品与配料向店家确认。",
+    "article": "Locro",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·地方食物介绍",
+        "url": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "quito": [
+        {
+          "name": "基多老城传统菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quito%20%E5%9F%BA%E5%A4%9A%E8%80%81%E5%9F%8E%E4%BC%A0%E7%BB%9F%E8%8F%9C%E9%A4%90%E9%A6%86%20Locro%20de%20papa",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-humita-quito",
+    "cityIds": [
+      "quito"
+    ],
+    "name": "厄瓜多尔玉米叶蒸包",
+    "localName": "Humita",
+    "description": "鲜玉米糊包在玉米叶里蒸熟，常带奶酪香，甜咸与配方依家庭而异；可作为早餐或下午点心。",
+    "article": "Humita",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·地方食物介绍",
+        "url": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "quito": [
+        {
+          "name": "老城及 La Floresta 早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quito%20%E8%80%81%E5%9F%8E%E5%8F%8A%20La%20Floresta%20%E6%97%A9%E9%A4%90%E5%BA%97%20Humita",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-quimbolito",
+    "cityIds": [
+      "quito"
+    ],
+    "name": "基多叶包甜蒸糕",
+    "localName": "Quimbolito",
+    "description": "松软甜面糊用叶片包裹蒸熟，常见葡萄干；展开叶包后配咖啡或热饮吃。",
+    "article": "Quimbolitos",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·地方食物介绍",
+        "url": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "quito": [
+        {
+          "name": "传统糕点铺与早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quito%20%E4%BC%A0%E7%BB%9F%E7%B3%95%E7%82%B9%E9%93%BA%E4%B8%8E%E6%97%A9%E9%A4%90%E5%BA%97%20Quimbolito",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-hornado",
+    "cityIds": [
+      "quito"
+    ],
+    "name": "厄瓜多尔慢烤猪肉",
+    "localName": "Hornado",
+    "description": "慢烤猪肉切块配玉米或土豆等，点餐可先问按份还是按重量出售，外皮与瘦肉比例也可沟通。",
+    "article": "Hornado",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://turismo.quito.gob.ec/quito-un-banquete-entre-volcanes-y-sabores/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·安第斯餐桌",
+        "url": "https://turismo.quito.gob.ec/quito-un-banquete-entre-volcanes-y-sabores/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "quito": [
+        {
+          "name": "基多市场熟食区及地方菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quito%20%E5%9F%BA%E5%A4%9A%E5%B8%82%E5%9C%BA%E7%86%9F%E9%A3%9F%E5%8C%BA%E5%8F%8A%E5%9C%B0%E6%96%B9%E8%8F%9C%E9%A4%90%E9%A6%86%20Hornado",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-ecuador-chocolate",
+    "cityIds": [
+      "quito"
+    ],
+    "name": "厄瓜多尔产区巧克力",
+    "localName": "Chocolate ecuatoriano",
+    "description": "选择不同可可比例与产区的成品巧克力，比较果香、烘烤感与苦甜；品牌门店品鉴和购买巧克力分别收费。",
+    "article": "Chocolate",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Paccari·La Floresta 体验店",
+        "url": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "quito": [
+        {
+          "name": "Paccari Casa de Experiencias, La Floresta",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Quito%20Paccari%20Casa%20de%20Experiencias%2C%20La%20Floresta%20Chocolate%20ecuatoriano",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-arepa-huevo",
+    "cityIds": [
+      "cartagena"
+    ],
+    "name": "加勒比鸡蛋玉米饼",
+    "localName": "Arepa de huevo",
+    "description": "玉米饼炸定形后填入鸡蛋再次炸熟，外皮酥脆；可作早餐，肉馅版本另问。",
+    "article": "Arepa_de_huevo",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·卡塔赫纳餐桌",
+        "url": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "cartagena": [
+        {
+          "name": "老城与 Getsemaní 小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cartagena%20%E8%80%81%E5%9F%8E%E4%B8%8E%20Getseman%C3%AD%20%E5%B0%8F%E5%90%83%E5%BA%97%20Arepa%20de%20huevo",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-mote-queso",
+    "cityIds": [
+      "cartagena"
+    ],
+    "name": "沿海山药奶酪汤",
+    "localName": "Mote de queso",
+    "description": "用山药与沿海奶酪煮成稠汤，常配米饭；乳制品带来的咸香是这道加勒比地区菜的特点。",
+    "article": "Mote_de_queso",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·卡塔赫纳餐桌",
+        "url": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "cartagena": [
+        {
+          "name": "卡塔赫纳地方菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cartagena%20%E5%8D%A1%E5%A1%94%E8%B5%AB%E7%BA%B3%E5%9C%B0%E6%96%B9%E8%8F%9C%E9%A4%90%E9%A6%86%20Mote%20de%20queso",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-posta-negra",
+    "cityIds": [
+      "cartagena"
+    ],
+    "name": "卡塔赫纳黑酱炖牛肉",
+    "localName": "Posta negra cartagenera",
+    "description": "牛肉慢炖出深色浓汁，风味带甜咸对比，常与椰香米饭组合；深色来自烹饪与酱汁而非烧焦。",
+    "article": "Posta_negra",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://colombia.travel/es/cartagena/la-posta-negra-cartagenera",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·卡塔赫纳黑酱炖牛肉",
+        "url": "https://colombia.travel/es/cartagena/la-posta-negra-cartagenera",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "cartagena": [
+        {
+          "name": "老城加勒比菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cartagena%20%E8%80%81%E5%9F%8E%E5%8A%A0%E5%8B%92%E6%AF%94%E8%8F%9C%E9%A4%90%E9%A6%86%20Posta%20negra%20cartagenera",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-arroz-coco",
+    "cityIds": [
+      "cartagena"
+    ],
+    "name": "加勒比椰香米饭",
+    "localName": "Arroz con coco",
+    "description": "椰奶参与煮饭，部分做法带焦糖化香气；常是鱼或炖肉的配菜，不应按完整主餐份量估算。",
+    "article": "Coconut_rice",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://colombia.travel/es/caribe-colombiano",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·加勒比地区食物",
+        "url": "https://colombia.travel/es/caribe-colombiano",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "cartagena": [
+        {
+          "name": "La Boquilla 海鲜餐馆及老城餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cartagena%20La%20Boquilla%20%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%E5%8F%8A%E8%80%81%E5%9F%8E%E9%A4%90%E9%A6%86%20Arroz%20con%20coco",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-patacones",
+    "cityIds": [
+      "cartagena"
+    ],
+    "name": "青蕉脆饼",
+    "localName": "Patacones",
+    "description": "青大蕉切块炸后压扁再炸，咸香酥脆，常配鱼类、酱料或海鲜；与甜熟香蕉不同。",
+    "article": "Tostones",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·La Boquilla 社区与红树林",
+        "url": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "cartagena": [
+        {
+          "name": "La Boquilla 海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cartagena%20La%20Boquilla%20%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20Patacones",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-acaraje",
+    "cityIds": [
+      "salvador"
+    ],
+    "name": "巴伊亚虾馅黑眼豆炸饼",
+    "localName": "Acarajé",
+    "description": "黑眼豆糊用棕榈油炸成饼，再夹虾、vatapá 等馅料；辣酱可分开放，虾与坚果过敏需提前说明。",
+    "article": "Acarajé",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Baianas de Acarajé",
+        "url": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "salvador": [
+        {
+          "name": "Rio Vermelho 的 Baiana 摊位",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvador%20Rio%20Vermelho%20%E7%9A%84%20Baiana%20%E6%91%8A%E4%BD%8D%20Acaraj%C3%A9",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-abara",
+    "cityIds": [
+      "salvador"
+    ],
+    "name": "巴伊亚叶包黑眼豆蒸包",
+    "localName": "Abará",
+    "description": "同样以黑眼豆为基础，但包入香蕉叶蒸熟，口感较柔软；与油炸的 acarajé 区分。",
+    "article": "Abará",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.salvadordabahia.com/as-delicias-gastronomicas-da-bahia-abara/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Abará",
+        "url": "https://www.salvadordabahia.com/as-delicias-gastronomicas-da-bahia-abara/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "salvador": [
+        {
+          "name": "Abará da Vovó, Santo Antônio Além do Carmo",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvador%20Abar%C3%A1%20da%20Vov%C3%B3%2C%20Santo%20Ant%C3%B4nio%20Al%C3%A9m%20do%20Carmo%20Abar%C3%A1",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-moqueca-baiana",
+    "cityIds": [
+      "salvador"
+    ],
+    "name": "巴伊亚椰奶海鲜炖锅",
+    "localName": "Moqueca baiana",
+    "description": "鱼或海鲜与椰奶、棕榈油和蔬菜同煮，香浓适合分享；一锅是否含米饭、份量供几人先确认。",
+    "article": "Moqueca",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.salvadordabahia.com/a-geografia-da-moqueca/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Moqueca",
+        "url": "https://www.salvadordabahia.com/a-geografia-da-moqueca/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "salvador": [
+        {
+          "name": "萨尔瓦多海鲜与巴伊亚菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvador%20%E8%90%A8%E5%B0%94%E7%93%A6%E5%A4%9A%E6%B5%B7%E9%B2%9C%E4%B8%8E%E5%B7%B4%E4%BC%8A%E4%BA%9A%E8%8F%9C%E9%A4%90%E9%A6%86%20Moqueca%20baiana",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-vatapa",
+    "cityIds": [
+      "salvador"
+    ],
+    "name": "巴伊亚虾香坚果糊",
+    "localName": "Vatapá",
+    "description": "以面包或其他淀粉基底、虾、椰奶与坚果等做成的浓糊，常作为豆饼夹馅或配菜；配方因店而异。",
+    "article": "Vatapá",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Baianas de Acarajé",
+        "url": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "salvador": [
+        {
+          "name": "Baiana 摊位及巴伊亚菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvador%20Baiana%20%E6%91%8A%E4%BD%8D%E5%8F%8A%E5%B7%B4%E4%BC%8A%E4%BA%9A%E8%8F%9C%E9%A4%90%E9%A6%86%20Vatap%C3%A1",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-cocada",
+    "cityIds": [
+      "salvador"
+    ],
+    "name": "巴伊亚椰丝糖",
+    "localName": "Cocada",
+    "description": "椰丝与糖制成的小块甜食有不同焦糖深浅，适合少量尝味；按块卖的价格与礼盒不同。",
+    "article": "Cocada",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Baianas de Acarajé",
+        "url": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "salvador": [
+        {
+          "name": "传统甜食摊与糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvador%20%E4%BC%A0%E7%BB%9F%E7%94%9C%E9%A3%9F%E6%91%8A%E4%B8%8E%E7%B3%95%E7%82%B9%E5%BA%97%20Cocada",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-tambaqui",
+    "cityIds": [
+      "manaus"
+    ],
+    "name": "炭烤亚马孙坦巴基鱼",
+    "localName": "Tambaqui assado",
+    "description": "肥厚的淡水鱼常以烤制方式呈现，可搭米饭、木薯粉或地方配菜；鱼刺与份量需留意。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "玛瑙斯市政府·地方餐桌",
+        "url": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "manaus": [
+        {
+          "name": "玛瑙斯市中心 Peixaria 河鱼餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Manaus%20%E7%8E%9B%E7%91%99%E6%96%AF%E5%B8%82%E4%B8%AD%E5%BF%83%20Peixaria%20%E6%B2%B3%E9%B1%BC%E9%A4%90%E9%A6%86%20Tambaqui%20assado",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-tacaca",
+    "cityIds": [
+      "manaus"
+    ],
+    "name": "亚马孙塔卡卡汤",
+    "localName": "Tacacá",
+    "description": "用 tucupi 木薯汁、jambu 叶、虾与木薯淀粉组成的热汤，带独特麻感；通常盛在碗钵中品尝。",
+    "article": "Tacacá",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "玛瑙斯市政府·地方餐桌",
+        "url": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "manaus": [
+        {
+          "name": "Largo de São Sebastião 一带 Tacacá 摊店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Manaus%20Largo%20de%20S%C3%A3o%20Sebasti%C3%A3o%20%E4%B8%80%E5%B8%A6%20Tacac%C3%A1%20%E6%91%8A%E5%BA%97%20Tacac%C3%A1",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-pirarucu",
+    "cityIds": [
+      "manaus"
+    ],
+    "name": "亚马孙巨骨舌鱼料理",
+    "localName": "Pirarucu",
+    "description": "这种大型淡水鱼会以煎、烤、炖或咸干方式入菜；选择正规餐馆并询问鱼的合法来源，菜式各店不同。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "玛瑙斯市政府·地方餐桌",
+        "url": "https://www.manaus.am.gov.br/noticia/gastronomia/culinaria-manauara-todos-os-povos/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "manaus": [
+        {
+          "name": "Adolpho Lisboa 市场周边及地方河鱼餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Manaus%20Adolpho%20Lisboa%20%E5%B8%82%E5%9C%BA%E5%91%A8%E8%BE%B9%E5%8F%8A%E5%9C%B0%E6%96%B9%E6%B2%B3%E9%B1%BC%E9%A4%90%E9%A6%86%20Pirarucu",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-cupuacu",
+    "cityIds": [
+      "manaus"
+    ],
+    "name": "库普阿苏水果冰棒",
+    "localName": "Picolé de cupuaçu",
+    "description": "用亚马孙库普阿苏果肉制成酸甜冰棒，适合在热天尝地方水果风味；乳制品版本与纯果版本各异。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.manaus.am.gov.br/noticia/manaus/sabor-amazonico-no-cardapio-dos-chefs-do-passo-a-paco/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "玛瑙斯市政府·亚马孙水果甜食",
+        "url": "https://www.manaus.am.gov.br/noticia/manaus/sabor-amazonico-no-cardapio-dos-chefs-do-passo-a-paco/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "manaus": [
+        {
+          "name": "玛瑙斯地方水果冰品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Manaus%20%E7%8E%9B%E7%91%99%E6%96%AF%E5%9C%B0%E6%96%B9%E6%B0%B4%E6%9E%9C%E5%86%B0%E5%93%81%E5%BA%97%20Picol%C3%A9%20de%20cupua%C3%A7u",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-acai-north",
+    "cityIds": [
+      "manaus"
+    ],
+    "name": "北部巴西阿萨伊果浆",
+    "localName": "Açaí",
+    "description": "紫色果浆在北部餐桌有咸甜不同搭配，点单时说明是否加糖或瓜拉纳糖浆；不默认等同于冰沙甜品碗。",
+    "article": "Açaí_na_tigela",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Visit Brasil·玛瑙斯",
+        "url": "https://www.visitbrasil.com/location/manaus-pt/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "manaus": [
+        {
+          "name": "Adolpho Lisboa 市场周边果浆店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Manaus%20Adolpho%20Lisboa%20%E5%B8%82%E5%9C%BA%E5%91%A8%E8%BE%B9%E6%9E%9C%E6%B5%86%E5%BA%97%20A%C3%A7a%C3%AD",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-churrasco",
+    "cityIds": [
+      "foz-do-iguacu"
+    ],
+    "name": "巴西炭烤肉拼盘",
+    "localName": "Churrasco",
+    "description": "按部位品尝烤肉，餐馆可能采用自助取肉或巡桌服务；不能把所有烤肉餐厅都视为同一套无限量规则。",
+    "article": "Churrasco",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://www.rafainchurrascaria.com.br/almoco",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Rafain Churrascaria·午餐与烤肉",
+        "url": "https://www.rafainchurrascaria.com.br/almoco",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "foz-do-iguacu": [
+        {
+          "name": "Rafain Churrascaria, Avenida das Cataratas 1749",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20Rafain%20Churrascaria%2C%20Avenida%20das%20Cataratas%201749%20Churrasco",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-pastel-brasil",
+    "cityIds": [
+      "foz-do-iguacu"
+    ],
+    "name": "巴西薄皮炸馅饼",
+    "localName": "Pastel brasileiro",
+    "description": "薄皮包牛肉、奶酪或其他馅料后油炸，是巴西常见小吃；在边境城市餐桌上与多国菜系并存。",
+    "article": "Pastel_(Brazilian_food)",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://paraempresas.iguassu.com.br/gastronomia-visit-iguassu/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Visit Iguassu·三国地区餐饮",
+        "url": "https://paraempresas.iguassu.com.br/gastronomia-visit-iguassu/",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "foz-do-iguacu": [
+        {
+          "name": "伊瓜苏市中心 Lanchonete 小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Foz%20do%20Igua%C3%A7u%20%E4%BC%8A%E7%93%9C%E8%8B%8F%E5%B8%82%E4%B8%AD%E5%BF%83%20Lanchonete%20%E5%B0%8F%E5%90%83%E5%BA%97%20Pastel%20brasileiro",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-centolla",
+    "cityIds": [
+      "ushuaia"
+    ],
+    "name": "火地岛南极石蟹",
+    "localName": "Centolla fueguina",
+    "description": "当地称 centolla 的南方石蟹可整只、取肉或入菜供应；并非每种海鲜拼盘都有整蟹，点单确认份量和季节。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·地方菜与餐馆",
+        "url": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "ushuaia": [
+        {
+          "name": "乌斯怀亚市中心海鲜餐馆与 Puerto Almanza",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ushuaia%20%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E5%B8%82%E4%B8%AD%E5%BF%83%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%E4%B8%8E%20Puerto%20Almanza%20Centolla%20fueguina",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-merluza-negra",
+    "cityIds": [
+      "ushuaia"
+    ],
+    "name": "巴塔哥尼亚犬牙鱼",
+    "localName": "Merluza negra",
+    "description": "肉质肥厚的深海鱼在当地餐馆通常作为单份主菜；西语名称虽带 merluza，却不是普通无须鳕。",
+    "article": null,
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·地方菜与餐馆",
+        "url": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "ushuaia": [
+        {
+          "name": "乌斯怀亚供应 Merluza negra 的海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ushuaia%20%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%E4%BE%9B%E5%BA%94%20Merluza%20negra%20%E7%9A%84%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20Merluza%20negra",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  },
+  {
+    "id": "food-depth-cordero",
+    "cityIds": [
+      "ushuaia"
+    ],
+    "name": "火地岛烤羊肉",
+    "localName": "Cordero fueguino",
+    "description": "慢烤羊肉展现火地岛畜牧餐桌，按餐馆可点拼盘或单份；确认是否包含配菜和饮品。",
+    "article": "Asado",
+    "articleScope": "prepared-dish",
+    "photoStatus": "article-photo-pending-review",
+    "sourceUrl": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·地方菜与餐馆",
+        "url": "https://turismoushuaia.com/contenidos/gastronomia/?lang=pt_BR",
+        "kind": "official-tourism",
+        "scope": "regional-food-context",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "ushuaia": [
+        {
+          "name": "乌斯怀亚 Parrilla 烤肉餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ushuaia%20%E4%B9%8C%E6%96%AF%E6%80%80%E4%BA%9A%20Parrilla%20%E7%83%A4%E8%82%89%E9%A4%90%E9%A6%86%20Cordero%20fueguino",
+          "note": "供应线索；营业、菜单、份量及当日是否供应请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "特色食物展示计入日常餐饮偏好；食材、份量和价格按具体餐馆菜单，不重复计作景点门票。"
+  }
+]

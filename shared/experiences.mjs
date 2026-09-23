@@ -1,3 +1,4 @@
+import { experienceIsPending } from './experience-discovery.mjs';
 /** Concrete places selected by the traveler; prices retain the catalog's provenance. */
 export const MEAL_WEIGHTS = { breakfast: 0.2, lunch: 0.4, dinner: 0.4 };
 export function experienceSelectionKey(selection) {
@@ -39,7 +40,8 @@ export function resolveExperienceSelections(stop, city, { clampDays = false, tra
       if (hotelSeen) throw new Error('每个城市停留阶段只能选择一家酒店');
       hotelSeen = true;
     }
-    if (entry.scheduleStatus === 'needs-more-days' && experience.kind === 'experience') selection.scheduleStatus = entry.scheduleStatus;
+    if (['needs-more-days', 'needs-date-check'].includes(entry.scheduleStatus) && experience.kind === 'experience') selection.scheduleStatus = entry.scheduleStatus;
+    if (entry.confirmedDate && /^\d{4}-\d{2}-\d{2}$/.test(entry.confirmedDate)) selection.confirmedDate = entry.confirmedDate;
     const key = experienceSelectionKey(selection);
     if (seen.has(key)) throw new Error('具体体验选择不能重复');
     seen.add(key);
@@ -63,7 +65,7 @@ export function validateExperienceParty({ experience, option }, travelers) {
 export function coveredMealSlots(rows, dayIndex) {
   const slots = new Set();
   for (const row of rows) {
-    if (row.selection.dayIndex !== dayIndex || row.selection.scheduleStatus === 'needs-more-days') continue;
+    if (row.selection.dayIndex !== dayIndex || experienceIsPending(row)) continue;
     if (row.experience.kind === 'restaurant') slots.add(row.selection.mealType);
     if (row.experience.kind === 'experience') row.includedMeals.forEach(meal => slots.add(meal));
   }

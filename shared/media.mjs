@@ -4,6 +4,9 @@ const ART_SOURCE = 'https://github.com/ducky-yyds/tour-fee/blob/main/docs/genera
 export function illustrationFor(entity, kind = 'place') {
   const theme = ['food', 'restaurant'].includes(kind) ? 'food'
     : kind === 'hotel' ? 'stay'
+      : ['marine', 'wildlife', 'nature'].includes(entity?.experienceType) ? 'nature'
+        : ['festival', 'craft', 'performance', 'literary'].includes(entity?.experienceType) ? 'culture'
+          : entity?.experienceType === 'food-life' ? 'food'
       : entity?.activityType === 'leisure' ? 'nature'
         : /博物馆|文化|艺术|历史/.test(entity?.category || '') ? 'culture' : 'walk';
   return {
@@ -24,13 +27,17 @@ export function cardImage(entity, media, kind = 'place') {
     if (image?.scope === 'exact-place' && image?.subjectMatched) return image;
     return { scope: 'unavailable', alt: entity.name, contextNote: '实景照片待补充；可在下方来源中查看场馆资料。' };
   }
+  if (entity.imagePolicy === 'exact-or-illustration') {
+    if (image?.scope === 'exact-place' && image?.subjectMatched) return image;
+    return illustrationFor(entity, kind);
+  }
   if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return illustrationFor(entity, kind);
   if (image?.url) return image;
   if (entity.image?.url) return entity.image;
   if (entity.imageRef && media?.attractions?.[entity.imageRef]?.url) {
     const referenced = media.attractions[entity.imageRef];
     if (referenced.scope === 'illustration' || media.nearbyExcludedFiles?.includes(referenced.fileTitle?.replaceAll('_', ' '))) return illustrationFor(entity, kind);
-    return { ...referenced, scope: 'nearby', contextNote: '与本项目相关的地点实景，非房间、套餐或供应商设施的实拍承诺。' };
+    return { ...referenced, scope: 'nearby', contextNote: entity.imageContextNote || '与本项目相关的地点实景，非房间、套餐或供应商设施的实拍承诺。' };
   }
   return illustrationFor(entity, kind);
 }

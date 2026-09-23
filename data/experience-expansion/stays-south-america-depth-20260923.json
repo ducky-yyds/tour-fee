@@ -1,0 +1,2281 @@
+[
+  {
+    "id": "stay-depth-quito-casa-gangotena",
+    "cityId": "quito",
+    "kind": "hotel",
+    "name": "Casa Gangotena",
+    "nameEn": "Casa Gangotena",
+    "provider": "Casa Gangotena",
+    "accommodationType": "hotel",
+    "tagline": "历史宅邸 · 圣弗朗西斯科广场",
+    "description": "以历史宅邸为基础的精品住宿，紧邻圣弗朗西斯科广场，适合把老城建筑和厄瓜多尔餐饮放在同一片区域体验；景观房与餐饮套餐另选。",
+    "address": "Bolívar Oe6-41 y Cuenca，San Francisco Square，Quito",
+    "lat": -0.2205,
+    "lng": -78.5153,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "历史宅邸",
+      "圣弗朗西斯科广场",
+      "地方餐饮"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.casagangotena.com/our-hotel/",
+    "website": "https://www.casagangotena.com/our-hotel/",
+    "bookingUrl": "https://www.casagangotena.com/our-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Casa Gangotena · 酒店或品牌官网",
+        "url": "https://www.casagangotena.com/our-hotel/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 350,
+        "high": 850,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.casagangotena.com/our-hotel/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-quito-casa-gangotena",
+    "photoFile": "(Palacio Gangotena, Quito).JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:(Palacio_Gangotena,_Quito).JPG",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoCheckedAt": "2026-09-23",
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑外观实景；不是已选房型、窗景或当前设施状态的承诺。"
+  },
+  {
+    "id": "stay-depth-quito-illa",
+    "cityId": "quito",
+    "kind": "hotel",
+    "name": "Illa Experience Hotel",
+    "nameEn": "Illa Experience Hotel",
+    "provider": "Illa Experience Hotel",
+    "accommodationType": "hotel",
+    "tagline": "San Marcos · 精品设计",
+    "description": "位于 San Marcos 街区，酒店以厄瓜多尔工艺与生活体验为叙事重点；住客活动是否包含、何日举行须按所选房价确认。",
+    "address": "Junín E1-44 y Juan Pío Montúfar，San Marcos，Quito",
+    "lat": -0.2236,
+    "lng": -78.5089,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "San Marcos",
+      "精品设计",
+      "地方体验"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://illaexperiencehotel.com/contact-us/",
+    "website": "https://illaexperiencehotel.com/contact-us/",
+    "bookingUrl": "https://illaexperiencehotel.com/contact-us/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Illa Experience Hotel · 酒店或品牌官网",
+        "url": "https://illaexperiencehotel.com/contact-us/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 250,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://illaexperiencehotel.com/contact-us/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-quito-illa"
+  },
+  {
+    "id": "stay-depth-quito-patio-andaluz",
+    "cityId": "quito",
+    "kind": "hotel",
+    "name": "Hotel Patio Andaluz",
+    "nameEn": "Hotel Patio Andaluz",
+    "provider": "Hotel Patio Andaluz",
+    "accommodationType": "hotel",
+    "tagline": "老城庭院 · 历史建筑",
+    "description": "老城内的庭院式精品酒店，适合白天步行串联独立广场和历史建筑；机场接送属于需另行确认的服务。",
+    "address": "García Moreno N6-52 entre Olmedo y Mejía，Quito",
+    "lat": -0.2181,
+    "lng": -78.5115,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "老城庭院",
+      "历史建筑",
+      "步行游览"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hotelpatioandaluz.com/",
+    "website": "https://www.hotelpatioandaluz.com/",
+    "bookingUrl": "https://www.hotelpatioandaluz.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel Patio Andaluz · 酒店或品牌官网",
+        "url": "https://www.hotelpatioandaluz.com/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 120,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.hotelpatioandaluz.com/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-quito-patio-andaluz"
+  },
+  {
+    "id": "stay-depth-quito-casona-ronda",
+    "cityId": "quito",
+    "kind": "hotel",
+    "name": "La Casona de la Ronda",
+    "nameEn": "La Casona de la Ronda",
+    "provider": "La Casona de la Ronda",
+    "accommodationType": "hotel",
+    "tagline": "La Ronda · 历史街区",
+    "description": "位于 La Ronda 历史街区的精品住宿，可把传统工艺、餐饮和休息安排在老城；房间安静程度与沿街朝向需按房型确认。",
+    "address": "La Ronda / Juan de Dios Morales，Quito 老城",
+    "lat": -0.2241,
+    "lng": -78.5135,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "La Ronda",
+      "历史街区",
+      "庭院住宿"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.lacasonadelaronda.com/",
+    "website": "https://www.lacasonadelaronda.com/",
+    "bookingUrl": "https://www.lacasonadelaronda.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "La Casona de la Ronda · 酒店或品牌官网",
+        "url": "https://www.lacasonadelaronda.com/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 110,
+        "high": 260,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.lacasonadelaronda.com/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-quito-casona-ronda"
+  },
+  {
+    "id": "stay-depth-quito-ibis",
+    "cityId": "quito",
+    "kind": "hotel",
+    "name": "ibis Quito",
+    "nameEn": "ibis Quito",
+    "provider": "ibis Quito",
+    "accommodationType": "hotel",
+    "tagline": "经济连锁 · 新城区",
+    "description": "位于商业区的经济连锁选项，适合重视简单标准化住宿的人；前往老城需要单独安排交通。",
+    "address": "Avenida Diego de Almagro E8-19 y Bello Horizonte，Quito",
+    "lat": -0.1985,
+    "lng": -78.484,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "经济连锁",
+      "新城区",
+      "空调客房"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/9489/index.en.shtml",
+    "website": "https://all.accor.com/hotel/9489/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/9489/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "ibis Quito · 酒店或品牌官网",
+        "url": "https://all.accor.com/hotel/9489/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 55,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/9489/index.en.shtml",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-quito-ibis"
+  },
+  {
+    "id": "stay-depth-cartagena-santa-clara",
+    "cityId": "cartagena",
+    "kind": "hotel",
+    "name": "Sofitel Legend Santa Clara Cartagena",
+    "nameEn": "Sofitel Legend Santa Clara Cartagena",
+    "provider": "Sofitel Legend Santa Clara Cartagena",
+    "accommodationType": "hotel",
+    "tagline": "历史修道院 · 城墙内",
+    "description": "由历史修道院发展而来的城墙内酒店，适合重视建筑氛围与度假设施的住客；历史参观、早餐和水疗不是所有房价都包含。",
+    "address": "Calle del Torno 39-29，San Diego，Cartagena",
+    "lat": 10.4282,
+    "lng": -75.5475,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "历史修道院",
+      "城墙内",
+      "庭院与泳池"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/1871/index.en.shtml",
+    "website": "https://all.accor.com/hotel/1871/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/1871/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Sofitel Legend Santa Clara Cartagena · 酒店或品牌官网",
+        "url": "https://all.accor.com/hotel/1871/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 1300000,
+        "high": 3600000,
+        "currency": "COP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/1871/index.en.shtml",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-cartagena-santa-clara",
+    "photoFile": "Hotel Santa Clara 00.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Santa_Clara_00.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoCheckedAt": "2026-09-23",
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑外观实景；不是已选房型、窗景或当前设施状态的承诺。"
+  },
+  {
+    "id": "stay-depth-cartagena-movich",
+    "cityId": "cartagena",
+    "kind": "hotel",
+    "name": "Movich Cartagena de Indias",
+    "nameEn": "Movich Cartagena de Indias",
+    "provider": "Movich Cartagena de Indias",
+    "accommodationType": "hotel",
+    "tagline": "老城精品 · 屋顶空间",
+    "description": "位于老城的精品酒店，可把历史街区游览和屋顶休息结合；屋顶开放、海景或早餐须以具体预订说明为准。",
+    "address": "Calle Vélez Danies 4-39，Centro Histórico，Cartagena",
+    "lat": 10.4222,
+    "lng": -75.5501,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "老城精品",
+      "屋顶空间",
+      "中心位置"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.movichhotels.com/en/cartagena/",
+    "website": "https://www.movichhotels.com/en/cartagena/",
+    "bookingUrl": "https://www.movichhotels.com/en/cartagena/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Movich Cartagena de Indias · 酒店或品牌官网",
+        "url": "https://www.movichhotels.com/en/cartagena/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 800000,
+        "high": 2200000,
+        "currency": "COP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.movichhotels.com/en/cartagena/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-cartagena-movich"
+  },
+  {
+    "id": "stay-depth-cartagena-san-agustin",
+    "cityId": "cartagena",
+    "kind": "hotel",
+    "name": "Hotel Casa San Agustín",
+    "nameEn": "Hotel Casa San Agustín",
+    "provider": "Hotel Casa San Agustín",
+    "accommodationType": "hotel",
+    "tagline": "三栋历史宅邸 · 精品套房",
+    "description": "以三栋历史宅邸构成的精品酒店，建筑细节和院落氛围突出；不同套房的露台、泳池及接送权益差异较大。",
+    "address": "Calle de la Universidad 36-44，Centro，Cartagena",
+    "lat": 10.4264,
+    "lng": -75.5495,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "三栋历史宅邸",
+      "精品套房",
+      "地方餐厅"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://hotelcasasanagustin.com/our-house/",
+    "website": "https://hotelcasasanagustin.com/our-house/",
+    "bookingUrl": "https://hotelcasasanagustin.com/our-house/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel Casa San Agustín · 酒店或品牌官网",
+        "url": "https://hotelcasasanagustin.com/our-house/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 1600000,
+        "high": 4200000,
+        "currency": "COP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://hotelcasasanagustin.com/our-house/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-cartagena-san-agustin"
+  },
+  {
+    "id": "stay-depth-cartagena-bastion",
+    "cityId": "cartagena",
+    "kind": "hotel",
+    "name": "Bastión Luxury Hotel",
+    "nameEn": "Bastión Luxury Hotel",
+    "provider": "Bastión Luxury Hotel",
+    "accommodationType": "hotel",
+    "tagline": "城墙内 · 精品酒店",
+    "description": "位于历史中心，适合以老城文化游览为主、希望回酒店休息的行程；房型与餐饮、水疗等附加权益需逐项核对。",
+    "address": "Centro Histórico，Calle del Sargento Mayor，Cartagena",
+    "lat": 10.427,
+    "lng": -75.548,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "城墙内",
+      "精品酒店",
+      "屋顶休闲"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.bastionluxuryhotel.com/en/hotel-luxury-cartagena",
+    "website": "https://www.bastionluxuryhotel.com/en/hotel-luxury-cartagena",
+    "bookingUrl": "https://www.bastionluxuryhotel.com/en/hotel-luxury-cartagena",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Bastión Luxury Hotel · 酒店或品牌官网",
+        "url": "https://www.bastionluxuryhotel.com/en/hotel-luxury-cartagena",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 900000,
+        "high": 2400000,
+        "currency": "COP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.bastionluxuryhotel.com/en/hotel-luxury-cartagena",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-cartagena-bastion"
+  },
+  {
+    "id": "stay-depth-cartagena-ibis-marbella",
+    "cityId": "cartagena",
+    "kind": "hotel",
+    "name": "ibis Cartagena Marbella",
+    "nameEn": "ibis Cartagena Marbella",
+    "provider": "ibis Cartagena Marbella",
+    "accommodationType": "hotel",
+    "tagline": "经济连锁 · Marbella 海滨",
+    "description": "Marbella 海滨的经济连锁住宿，适合把房费和历史中心通勤成本一起比较；不位于城墙内，进老城需另留交通时间。",
+    "address": "Avenida Santander 47-90，Marbella，Cartagena",
+    "lat": 10.437,
+    "lng": -75.5362,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "经济连锁",
+      "Marbella 海滨",
+      "老城外"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/8600/index.en.shtml",
+    "website": "https://all.accor.com/hotel/8600/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/8600/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "ibis Cartagena Marbella · 酒店或品牌官网",
+        "url": "https://all.accor.com/hotel/8600/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 220000,
+        "high": 550000,
+        "currency": "COP",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/8600/index.en.shtml",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-cartagena-ibis-marbella"
+  },
+  {
+    "id": "stay-depth-salvador-fasano",
+    "cityId": "salvador",
+    "kind": "hotel",
+    "name": "Hotel Fasano Salvador",
+    "nameEn": "Hotel Fasano Salvador",
+    "provider": "Hotel Fasano Salvador",
+    "accommodationType": "hotel",
+    "tagline": "历史建筑 · 海湾视野",
+    "description": "设在历史建筑中的酒店，屋顶与公共空间面向 Todos os Santos 湾；并非所有房间都有同样景观，餐饮与水疗另查。",
+    "address": "Praça Castro Alves，Centro Histórico，Salvador",
+    "lat": -12.9757,
+    "lng": -38.5169,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "历史建筑",
+      "海湾视野",
+      "屋顶休闲"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://fasano.com.br/en/hotel/fasano-salvador/",
+    "website": "https://fasano.com.br/en/hotel/fasano-salvador/",
+    "bookingUrl": "https://fasano.com.br/en/hotel/fasano-salvador/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel Fasano Salvador · 酒店或品牌官网",
+        "url": "https://fasano.com.br/en/hotel/fasano-salvador/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 1500,
+        "high": 4000,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://fasano.com.br/en/hotel/fasano-salvador/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-salvador-fasano",
+    "photoFile": "Praça Castro Alves - 01.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Castro_Alves_-_01.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "photoCheckedAt": "2026-09-23",
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑外观实景；不是已选房型、窗景或当前设施状态的承诺。"
+  },
+  {
+    "id": "stay-depth-salvador-villa-bahia",
+    "cityId": "salvador",
+    "kind": "hotel",
+    "name": "Hotel Villa Bahia",
+    "nameEn": "Hotel Villa Bahia",
+    "provider": "Hotel Villa Bahia",
+    "accommodationType": "hotel",
+    "tagline": "两栋历史宅邸 · Pelourinho",
+    "description": "由两栋历史宅邸组成，适合想住进 Pelourinho 建筑氛围的旅客；老城节庆期间周围可能热闹，安静房型应提前沟通。",
+    "address": "Largo do Cruzeiro de São Francisco 16/18，Pelourinho，Salvador",
+    "lat": -12.9743,
+    "lng": -38.5098,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "两栋历史宅邸",
+      "Pelourinho",
+      "庭院"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://lavillabahia.com/en/",
+    "website": "https://lavillabahia.com/en/",
+    "bookingUrl": "https://lavillabahia.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel Villa Bahia · 酒店或品牌官网",
+        "url": "https://lavillabahia.com/en/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 800,
+        "high": 2000,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://lavillabahia.com/en/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-salvador-villa-bahia"
+  },
+  {
+    "id": "stay-depth-salvador-fera-palace",
+    "cityId": "salvador",
+    "kind": "hotel",
+    "name": "Fera Palace Hotel",
+    "nameEn": "Fera Palace Hotel",
+    "provider": "Fera Palace Hotel",
+    "accommodationType": "hotel",
+    "tagline": "装饰艺术建筑 · 海湾屋顶",
+    "description": "经过修复的 Palace Hotel 以装饰艺术建筑和海湾屋顶为特色，适合把建筑、城市餐饮和休息合并安排。",
+    "address": "Rua Chile 20，Centro Histórico，Salvador",
+    "lat": -12.9761,
+    "lng": -38.5156,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "装饰艺术建筑",
+      "海湾屋顶",
+      "老城位置"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://ferahoteis.com/en/",
+    "website": "https://ferahoteis.com/en/",
+    "bookingUrl": "https://ferahoteis.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Fera Palace Hotel · 酒店或品牌官网",
+        "url": "https://ferahoteis.com/en/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 900,
+        "high": 2500,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://ferahoteis.com/en/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-salvador-fera-palace"
+  },
+  {
+    "id": "stay-depth-salvador-amarelindo",
+    "cityId": "salvador",
+    "kind": "hotel",
+    "name": "Casa do Amarelindo",
+    "nameEn": "Casa do Amarelindo",
+    "provider": "Casa do Amarelindo",
+    "accommodationType": "hotel",
+    "tagline": "历史宅邸 · Pelourinho",
+    "description": "位于 Pelourinho 的修复历史建筑中，规模较小，适合以老城文化为主的住宿；不要把节日声响误解为固定每日演出。",
+    "address": "Rua das Portas do Carmo 6，Pelourinho，Salvador",
+    "lat": -12.9712,
+    "lng": -38.5097,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "历史宅邸",
+      "Pelourinho",
+      "小型精品"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.casadoamarelindo.com/",
+    "website": "https://www.casadoamarelindo.com/",
+    "bookingUrl": "https://www.casadoamarelindo.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Casa do Amarelindo · 酒店或品牌官网",
+        "url": "https://www.casadoamarelindo.com/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 550,
+        "high": 1300,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.casadoamarelindo.com/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-salvador-amarelindo"
+  },
+  {
+    "id": "stay-depth-salvador-ibis-rio-vermelho",
+    "cityId": "salvador",
+    "kind": "hotel",
+    "name": "ibis Salvador Rio Vermelho",
+    "nameEn": "ibis Salvador Rio Vermelho",
+    "provider": "ibis Salvador Rio Vermelho",
+    "accommodationType": "hotel",
+    "tagline": "经济连锁 · Rio Vermelho",
+    "description": "Rio Vermelho 的经济连锁选择，便于安排当地餐饮与海滨活动；到 Pelourinho 老城仍需预留公路通勤。",
+    "address": "Rua Fonte do Boi 215，Rio Vermelho，Salvador",
+    "lat": -13.0157,
+    "lng": -38.4864,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "经济连锁",
+      "Rio Vermelho",
+      "餐饮街区"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/5173/index.en.shtml",
+    "website": "https://all.accor.com/hotel/5173/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/5173/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "ibis Salvador Rio Vermelho · 酒店或品牌官网",
+        "url": "https://all.accor.com/hotel/5173/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 220,
+        "high": 550,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/5173/index.en.shtml",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-salvador-ibis-rio-vermelho"
+  },
+  {
+    "id": "stay-depth-manaus-juma-opera",
+    "cityId": "manaus",
+    "kind": "hotel",
+    "name": "Juma Ópera Hotel",
+    "nameEn": "Juma Ópera Hotel",
+    "provider": "Juma Ópera Hotel",
+    "accommodationType": "hotel",
+    "tagline": "歌剧院对面 · 历史宅邸",
+    "description": "位于亚马孙歌剧院附近的精品酒店，将历史宅邸与现代建筑结合，适合夜间演出后短途返回；歌剧院景观按房型选择。",
+    "address": "Rua 10 de Julho 481，Centro，Manaus",
+    "lat": -3.1302,
+    "lng": -60.0235,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "歌剧院对面",
+      "历史宅邸",
+      "屋顶泳池"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://jumaopera.com.br/en/",
+    "website": "https://jumaopera.com.br/en/",
+    "bookingUrl": "https://jumaopera.com.br/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Juma Ópera Hotel · 酒店或品牌官网",
+        "url": "https://jumaopera.com.br/en/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 900,
+        "high": 2400,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://jumaopera.com.br/en/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-manaus-juma-opera"
+  },
+  {
+    "id": "stay-depth-manaus-villa-amazonia",
+    "cityId": "manaus",
+    "kind": "hotel",
+    "name": "Hotel Villa Amazônia",
+    "nameEn": "Hotel Villa Amazônia",
+    "provider": "Hotel Villa Amazônia",
+    "accommodationType": "hotel",
+    "tagline": "历史宅邸 · 热带庭院",
+    "description": "在修复的历史宅邸与现代空间之间设置客房，庭院和泳池为热带城市行程提供休息空间；它是市区酒店，不是丛林营地。",
+    "address": "Rua 10 de Julho，Centro Histórico，Manaus",
+    "lat": -3.1303,
+    "lng": -60.0247,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "历史宅邸",
+      "热带庭院",
+      "地方餐饮"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://villaamazonia.com/en/",
+    "website": "https://villaamazonia.com/en/",
+    "bookingUrl": "https://villaamazonia.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel Villa Amazônia · 酒店或品牌官网",
+        "url": "https://villaamazonia.com/en/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 850,
+        "high": 2200,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://villaamazonia.com/en/",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-manaus-villa-amazonia"
+  },
+  {
+    "id": "stay-depth-manaus-quality",
+    "cityId": "manaus",
+    "kind": "hotel",
+    "name": "Quality Hotel Manaus",
+    "nameEn": "Quality Hotel Manaus",
+    "provider": "Quality Hotel Manaus",
+    "accommodationType": "hotel",
+    "tagline": "Adrianópolis · 城市商务",
+    "description": "位于 Adrianópolis 的城市型酒店，适合兼顾餐饮、购物和市内办事；到歌剧院、码头和丛林团集合点须单独核对交通。",
+    "address": "Avenida Mário Ypiranga Monteiro 1090，Adrianópolis，Manaus",
+    "lat": -3.1047,
+    "lng": -60.0133,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "Adrianópolis",
+      "城市商务",
+      "标准化设施"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.letsatlantica.com.br/hotel/quality-hotel-manaus",
+    "website": "https://www.letsatlantica.com.br/hotel/quality-hotel-manaus",
+    "bookingUrl": "https://www.letsatlantica.com.br/hotel/quality-hotel-manaus",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Quality Hotel Manaus · 酒店或品牌官网",
+        "url": "https://www.letsatlantica.com.br/hotel/quality-hotel-manaus",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 350,
+        "high": 850,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.letsatlantica.com.br/hotel/quality-hotel-manaus",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-manaus-quality"
+  },
+  {
+    "id": "stay-depth-manaus-intercity",
+    "cityId": "manaus",
+    "kind": "hotel",
+    "name": "Intercity Manaus",
+    "nameEn": "Intercity Manaus",
+    "provider": "Intercity Manaus",
+    "accommodationType": "hotel",
+    "tagline": "Adrianópolis · 泳池",
+    "description": "城市型连锁酒店，提供商务与休闲设施，适合将市内住宿和另行预订的亚马孙自然活动分开安排。",
+    "address": "Rua Professor Marciano Armond 544，Adrianópolis，Manaus",
+    "lat": -3.1134,
+    "lng": -60.0121,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "Adrianópolis",
+      "泳池",
+      "城市型酒店"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.intercityhoteis.com.br/en/hotel-manaus/hotel-intercity-manaus",
+    "website": "https://www.intercityhoteis.com.br/en/hotel-manaus/hotel-intercity-manaus",
+    "bookingUrl": "https://www.intercityhoteis.com.br/en/hotel-manaus/hotel-intercity-manaus",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Intercity Manaus · 酒店或品牌官网",
+        "url": "https://www.intercityhoteis.com.br/en/hotel-manaus/hotel-intercity-manaus",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 300,
+        "high": 750,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.intercityhoteis.com.br/en/hotel-manaus/hotel-intercity-manaus",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-manaus-intercity"
+  },
+  {
+    "id": "stay-depth-manaus-ibis-distrito",
+    "cityId": "manaus",
+    "kind": "hotel",
+    "name": "ibis Manaus Distrito Industrial",
+    "nameEn": "ibis Manaus Distrito Industrial",
+    "provider": "ibis Manaus Distrito Industrial",
+    "accommodationType": "hotel",
+    "tagline": "经济连锁 · 工业区",
+    "description": "工业区的经济连锁住宿，可作为价格比较选项；它不在历史中心，游览老城或参加码头活动时需加上市内交通。",
+    "address": "Avenida Mandii 4，Distrito Industrial，Manaus",
+    "lat": -3.1307,
+    "lng": -59.9828,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "经济连锁",
+      "工业区",
+      "空调客房"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/3221/index.en.shtml",
+    "website": "https://all.accor.com/hotel/3221/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/3221/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "ibis Manaus Distrito Industrial · 酒店或品牌官网",
+        "url": "https://all.accor.com/hotel/3221/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 220,
+        "high": 500,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/3221/index.en.shtml",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-manaus-ibis-distrito"
+  },
+  {
+    "id": "stay-depth-foz-do-iguacu-cataratas",
+    "cityId": "foz-do-iguacu",
+    "kind": "hotel",
+    "name": "Hotel das Cataratas, A Belmond Hotel",
+    "nameEn": "Hotel das Cataratas, A Belmond Hotel",
+    "provider": "Hotel das Cataratas, A Belmond Hotel",
+    "accommodationType": "hotel",
+    "tagline": "国家公园内 · 瀑布环境",
+    "description": "位于巴西侧伊瓜苏国家公园内，适合以瀑布与森林为核心的住宿；公园门票、园内接驳和可进入时段均须按酒店及公园规则确认。",
+    "address": "Rodovia BR-469，Iguaçu National Park，Foz do Iguaçu",
+    "lat": -25.6834,
+    "lng": -54.4407,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "国家公园内",
+      "瀑布环境",
+      "度假酒店"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.belmond.com/en/hotels/south-america/brazil/hotel-das-cataratas-iguassu-falls",
+    "website": "https://www.belmond.com/en/hotels/south-america/brazil/hotel-das-cataratas-iguassu-falls",
+    "bookingUrl": "https://www.belmond.com/en/hotels/south-america/brazil/hotel-das-cataratas-iguassu-falls",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Hotel das Cataratas, A Belmond Hotel · 酒店或品牌官网",
+        "url": "https://www.belmond.com/en/hotels/south-america/brazil/hotel-das-cataratas-iguassu-falls",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 2600,
+        "high": 7500,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.belmond.com/en/hotels/south-america/brazil/hotel-das-cataratas-iguassu-falls",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-foz-do-iguacu-cataratas",
+    "photoFile": "DSC00120 Brazil Parana Iguassu Falls Hotel Das Cataratas (11223407054).jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:DSC00120_Brazil_Parana_Iguassu_Falls_Hotel_Das_Cataratas_(11223407054).jpg",
+    "photoSourceLicense": "CC BY 2.0",
+    "photoCheckedAt": "2026-09-23",
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑外观实景；不是已选房型、窗景或当前设施状态的承诺。"
+  },
+  {
+    "id": "stay-depth-foz-do-iguacu-bourbon-thermas",
+    "cityId": "foz-do-iguacu",
+    "kind": "hotel",
+    "name": "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+    "nameEn": "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+    "provider": "Bourbon Thermas Eco Resort Cataratas do Iguaçu",
+    "accommodationType": "hotel",
+    "tagline": "度假设施 · 家庭活动",
+    "description": "位于瀑布大道沿线的综合度假酒店，适合希望把游览与酒店休闲结合的家庭；儿童活动和餐食按年龄、时段及套餐核对。",
+    "address": "Avenida das Cataratas，Foz do Iguaçu",
+    "lat": -25.5634,
+    "lng": -54.5637,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "度假设施",
+      "家庭活动",
+      "绿地"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.bourbon.com.br/hoteis-e-resorts/bourbon-thermas-eco-resort-cataratas-do-iguacu",
+    "website": "https://www.bourbon.com.br/hoteis-e-resorts/bourbon-thermas-eco-resort-cataratas-do-iguacu",
+    "bookingUrl": "https://www.bourbon.com.br/hoteis-e-resorts/bourbon-thermas-eco-resort-cataratas-do-iguacu",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Bourbon Thermas Eco Resort Cataratas do Iguaçu · 酒店或品牌官网",
+        "url": "https://www.bourbon.com.br/hoteis-e-resorts/bourbon-thermas-eco-resort-cataratas-do-iguacu",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 700,
+        "high": 2000,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.bourbon.com.br/hoteis-e-resorts/bourbon-thermas-eco-resort-cataratas-do-iguacu",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-foz-do-iguacu-bourbon-thermas"
+  },
+  {
+    "id": "stay-depth-foz-do-iguacu-wish",
+    "cityId": "foz-do-iguacu",
+    "kind": "hotel",
+    "name": "Wish Foz do Iguaçu Resort",
+    "nameEn": "Wish Foz do Iguaçu Resort",
+    "provider": "Wish Foz do Iguaçu Resort",
+    "accommodationType": "hotel",
+    "tagline": "度假绿地 · 家庭休闲",
+    "description": "瀑布方向的度假型住宿，适合在自然游览之间保留酒店休息；市中心餐饮与跨境行程需要另行安排交通。",
+    "address": "Avenida das Cataratas 6845，Tamanduá，Foz do Iguaçu",
+    "lat": -25.583,
+    "lng": -54.521,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "度假绿地",
+      "家庭休闲",
+      "郊外空间"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.grupowish.com/en/fale-conosco",
+    "website": "https://www.grupowish.com/en/fale-conosco",
+    "bookingUrl": "https://www.grupowish.com/en/fale-conosco",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Wish Foz do Iguaçu Resort · 酒店或品牌官网",
+        "url": "https://www.grupowish.com/en/fale-conosco",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 700,
+        "high": 2000,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.grupowish.com/en/fale-conosco",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-foz-do-iguacu-wish"
+  },
+  {
+    "id": "stay-depth-foz-do-iguacu-jl-bourbon",
+    "cityId": "foz-do-iguacu",
+    "kind": "hotel",
+    "name": "JL Hotel by Bourbon",
+    "nameEn": "JL Hotel by Bourbon",
+    "provider": "JL Hotel by Bourbon",
+    "accommodationType": "hotel",
+    "tagline": "城市位置 · 购物便利",
+    "description": "现代城市型酒店，适合希望附近有餐饮和购物、白天再乘车游览瀑布的人；不把品牌宣传的交通时长当作实际路况承诺。",
+    "address": "Avenida Costa e Silva，JL Shopping 对面，Foz do Iguaçu",
+    "lat": -25.5352,
+    "lng": -54.5747,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "城市位置",
+      "购物便利",
+      "现代客房"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.bourbon.com.br/hoteis-e-resorts/jl-hotel-by-bourbon",
+    "website": "https://www.bourbon.com.br/hoteis-e-resorts/jl-hotel-by-bourbon",
+    "bookingUrl": "https://www.bourbon.com.br/hoteis-e-resorts/jl-hotel-by-bourbon",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "JL Hotel by Bourbon · 酒店或品牌官网",
+        "url": "https://www.bourbon.com.br/hoteis-e-resorts/jl-hotel-by-bourbon",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 300,
+        "high": 800,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.bourbon.com.br/hoteis-e-resorts/jl-hotel-by-bourbon",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-foz-do-iguacu-jl-bourbon"
+  },
+  {
+    "id": "stay-depth-foz-do-iguacu-viale",
+    "cityId": "foz-do-iguacu",
+    "kind": "hotel",
+    "name": "Viale Cataratas Hotel & Eventos",
+    "nameEn": "Viale Cataratas Hotel & Eventos",
+    "provider": "Viale Cataratas Hotel & Eventos",
+    "accommodationType": "hotel",
+    "tagline": "泳池休闲 · 瀑布大道",
+    "description": "位于瀑布大道沿线，结合酒店休闲和活动设施；适合作为城市住宿与瀑布景区酒店之间的预算比较。",
+    "address": "Avenida das Cataratas 2420，Vila Yolanda，Foz do Iguaçu",
+    "lat": -25.5606,
+    "lng": -54.5617,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "泳池休闲",
+      "瀑布大道",
+      "城市度假"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.vialehoteis.com.br/galeria-1",
+    "website": "https://www.vialehoteis.com.br/galeria-1",
+    "bookingUrl": "https://www.vialehoteis.com.br/galeria-1",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Viale Cataratas Hotel & Eventos · 酒店或品牌官网",
+        "url": "https://www.vialehoteis.com.br/galeria-1",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 350,
+        "high": 1000,
+        "currency": "BRL",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.vialehoteis.com.br/galeria-1",
+        "note": "编辑估算，仅用于比较；以所选日期的含税报价为准。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-foz-do-iguacu-viale"
+  },
+  {
+    "id": "stay-depth-ushuaia-arakur",
+    "cityId": "ushuaia",
+    "kind": "hotel",
+    "name": "Arakur Ushuaia Resort & Spa",
+    "nameEn": "Arakur Ushuaia Resort & Spa",
+    "provider": "Arakur Ushuaia Resort & Spa",
+    "accommodationType": "hotel",
+    "tagline": "自然保护区 · 山海视野",
+    "description": "位于 Cerro Alarkén 自然保护区内，适合希望在森林与比格尔海峡景色之间休息的人；不在步行老城中心，接驳需按酒店安排确认。",
+    "address": "Cerro Alarkén 1，Reserva Natural Cerro Alarkén，Ushuaia",
+    "lat": -54.792,
+    "lng": -68.267,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "自然保护区",
+      "山海视野",
+      "度假水疗"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://arakur.com/en/ubicacion",
+    "website": "https://arakur.com/en/ubicacion",
+    "bookingUrl": "https://arakur.com/en/ubicacion",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Arakur Ushuaia Resort & Spa · 酒店或品牌官网",
+        "url": "https://arakur.com/en/ubicacion",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "乌斯怀亚旅游局住宿名录",
+        "url": "https://turismoushuaia.com/contenidos/alojamientos/?lang=en_US",
+        "kind": "official-guide",
+        "scope": "酒店存在与市内住宿登记交叉核对",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 400000,
+        "high": 1100000,
+        "currency": "ARS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://arakur.com/en/ubicacion",
+        "note": "ARS 规划预留，阿根廷酒店也可能用 USD 展示价格；按预订当日含税结算和适用支付汇率更新。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-ushuaia-arakur"
+  },
+  {
+    "id": "stay-depth-ushuaia-cauquenes",
+    "cityId": "ushuaia",
+    "kind": "hotel",
+    "name": "Los Cauquenes Resort & Spa",
+    "nameEn": "Los Cauquenes Resort & Spa",
+    "provider": "Los Cauquenes Resort & Spa",
+    "accommodationType": "hotel",
+    "tagline": "比格尔海峡 · 海边度假",
+    "description": "位于海峡岸边、距市中心约 7 公里的度假酒店，适合看海休息；机场及市区接送是否包含、频次如何均按预订确认。",
+    "address": "De la Ermita 3462，Bahía Cauquén，Ushuaia",
+    "lat": -54.8504,
+    "lng": -68.3601,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "比格尔海峡",
+      "海边度假",
+      "水疗设施"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.loscauquenes.com/en/the-hotel/",
+    "website": "https://www.loscauquenes.com/en/the-hotel/",
+    "bookingUrl": "https://www.loscauquenes.com/en/the-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Los Cauquenes Resort & Spa · 酒店或品牌官网",
+        "url": "https://www.loscauquenes.com/en/the-hotel/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "乌斯怀亚旅游局住宿名录",
+        "url": "https://turismoushuaia.com/contenidos/alojamientos/?lang=en_US",
+        "kind": "official-guide",
+        "scope": "酒店存在与市内住宿登记交叉核对",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 350000,
+        "high": 1000000,
+        "currency": "ARS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.loscauquenes.com/en/the-hotel/",
+        "note": "ARS 规划预留，阿根廷酒店也可能用 USD 展示价格；按预订当日含税结算和适用支付汇率更新。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-ushuaia-cauquenes"
+  },
+  {
+    "id": "stay-depth-ushuaia-las-hayas",
+    "cityId": "ushuaia",
+    "kind": "hotel",
+    "name": "Las Hayas Ushuaia Resort",
+    "nameEn": "Las Hayas Ushuaia Resort",
+    "provider": "Las Hayas Ushuaia Resort",
+    "accommodationType": "hotel",
+    "tagline": "山地森林 · 度假设施",
+    "description": "山坡森林环境中的度假酒店，可把室内休息与自然活动结合；前往港口、滑雪场或火地岛国家公园需要分别核算交通。",
+    "address": "Luis F. Martial 1650，Ushuaia",
+    "lat": -54.8028,
+    "lng": -68.3519,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "山地森林",
+      "度假设施",
+      "近郊休闲"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.lashayas.com.ar/",
+    "website": "https://www.lashayas.com.ar/",
+    "bookingUrl": "https://www.lashayas.com.ar/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Las Hayas Ushuaia Resort · 酒店或品牌官网",
+        "url": "https://www.lashayas.com.ar/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "乌斯怀亚旅游局住宿名录",
+        "url": "https://turismoushuaia.com/contenidos/alojamientos/?lang=en_US",
+        "kind": "official-guide",
+        "scope": "酒店存在与市内住宿登记交叉核对",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 250000,
+        "high": 700000,
+        "currency": "ARS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.lashayas.com.ar/",
+        "note": "ARS 规划预留，阿根廷酒店也可能用 USD 展示价格；按预订当日含税结算和适用支付汇率更新。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-ushuaia-las-hayas"
+  },
+  {
+    "id": "stay-depth-ushuaia-los-acebos",
+    "cityId": "ushuaia",
+    "kind": "hotel",
+    "name": "Los Acebos Ushuaia Hotel",
+    "nameEn": "Los Acebos Ushuaia Hotel",
+    "provider": "Los Acebos Ushuaia Hotel",
+    "accommodationType": "hotel",
+    "tagline": "山坡景观 · 家庭住宿",
+    "description": "位于 Luis Martial 山坡方向，适合重视自然环境、可接受市区接驳的人；海峡视野与房型朝向需逐项确认。",
+    "address": "Luis F. Martial 1911，Ushuaia",
+    "lat": -54.804,
+    "lng": -68.3508,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "山坡景观",
+      "家庭住宿",
+      "森林环境"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://losacebos.com.ar/",
+    "website": "https://losacebos.com.ar/",
+    "bookingUrl": "https://losacebos.com.ar/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Los Acebos Ushuaia Hotel · 酒店或品牌官网",
+        "url": "https://losacebos.com.ar/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "乌斯怀亚旅游局住宿名录",
+        "url": "https://turismoushuaia.com/contenidos/alojamientos/?lang=en_US",
+        "kind": "official-guide",
+        "scope": "酒店存在与市内住宿登记交叉核对",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 160000,
+        "high": 450000,
+        "currency": "ARS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://losacebos.com.ar/",
+        "note": "ARS 规划预留，阿根廷酒店也可能用 USD 展示价格；按预订当日含税结算和适用支付汇率更新。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-ushuaia-los-acebos"
+  },
+  {
+    "id": "stay-depth-ushuaia-albatros",
+    "cityId": "ushuaia",
+    "kind": "hotel",
+    "name": "Albatros Hotel",
+    "nameEn": "Albatros Hotel",
+    "provider": "Albatros Hotel",
+    "accommodationType": "hotel",
+    "tagline": "港口附近 · 城市中心",
+    "description": "靠近港口与市中心，便于参加提前集合的比格尔海峡船游；行李寄存、早餐及早出发安排需向酒店确认。",
+    "address": "Maipú 505，Ushuaia",
+    "lat": -54.8076,
+    "lng": -68.3027,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业所在区域近似位置；导航使用酒店官网确认的地址与入口。",
+    "durationMinutes": 0,
+    "features": [
+      "港口附近",
+      "城市中心",
+      "步行便利"
+    ],
+    "requirements": [
+      "按入住日期、房型、成人及儿童人数查询。",
+      "确认早餐、税费、接送、额外床位与取消条件。",
+      "取得含税报价后调整每间每晚预算。"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://albatroshotel.com.ar/contacto/",
+    "website": "https://albatroshotel.com.ar/contacto/",
+    "bookingUrl": "https://albatroshotel.com.ar/contacto/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "editorial-property-allowance",
+    "verificationNote": "已核对官网或品牌页中的酒店身份、地点和特色；未获取指定入住日期的房型报价。",
+    "availabilityNote": "以下是每间每晚的规划预留，不是该酒店实时房价；旺季、特殊活动和取消条件会改变实际金额。",
+    "sourceReferences": [
+      {
+        "name": "Albatros Hotel · 酒店或品牌官网",
+        "url": "https://albatroshotel.com.ar/contacto/",
+        "kind": "official-hotel",
+        "scope": "酒店身份、地点和住宿特色；预算为编辑估计",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "乌斯怀亚旅游局住宿名录",
+        "url": "https://turismoushuaia.com/contenidos/alojamientos/?lang=en_US",
+        "kind": "official-guide",
+        "scope": "酒店存在与市内住宿登记交叉核对",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-allowance",
+        "name": "每间每晚规划预留",
+        "description": "标准房至较宽裕住宿预算，非指定房型报价。",
+        "low": 130000,
+        "high": 400000,
+        "currency": "ARS",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://albatroshotel.com.ar/contacto/",
+        "note": "ARS 规划预留，阿根廷酒店也可能用 USD 展示价格；按预订当日含税结算和适用支付汇率更新。",
+        "includes": [
+          "一间客房一晚的住宿预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐和餐饮",
+          "当地税费及服务费差额",
+          "加床、接送、停车和水疗等附加服务"
+        ]
+      }
+    ],
+    "noArticle": true,
+    "article": null,
+    "imagePolicy": "exact-or-illustration",
+    "imageRef": "stay-depth-ushuaia-albatros"
+  }
+]

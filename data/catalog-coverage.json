@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-09-23T15:20:37.934Z",
+  "checkedAt": "2026-09-23T16:31:19.045Z",
   "schemaVersion": 2,
-  "cities": 173,
-  "countriesAndRegions": 63,
-  "attractions": 5385,
-  "currencies": 45,
+  "cities": 185,
+  "countriesAndRegions": 65,
+  "attractions": 5461,
+  "currencies": 46,
   "fxAsOf": "2026-09-22",
   "photos": {
-    "cities": 173,
-    "attractions": 4669,
-    "experiences": 480,
-    "foods": 662
+    "cities": 185,
+    "attractions": 4718,
+    "experiences": 881,
+    "foods": 690
   },
   "missingPhotos": {
     "cities": [],
@@ -730,7 +730,34 @@
       "tianjin-xibeijiao-breakfast",
       "zunyi-yangliu-political-department",
       "zunyi-1935-historic-quarter",
-      "zunyi-fenghuang-forest"
+      "zunyi-fenghuang-forest",
+      "essaouira-port",
+      "rabat-mmvi",
+      "rabat-garden",
+      "hurghada-museum",
+      "hurghada-mamsha",
+      "mombasa-old-town",
+      "arusha-boma",
+      "arusha-tengeru",
+      "hermanus-valley",
+      "quito-plaza",
+      "quito-ronda",
+      "quito-cable",
+      "cartagena-walls",
+      "cartagena-getsemani",
+      "cartagena-naval",
+      "cartagena-boquilla",
+      "salvador-pelourinho",
+      "salvador-francisco",
+      "salvador-model",
+      "salvador-bonfim",
+      "salvador-tororo",
+      "manaus-musa",
+      "manaus-provincial",
+      "foz-do-iguacu-borders",
+      "ushuaia-maritime",
+      "ushuaia-endmuseum",
+      "ushuaia-esmeralda"
     ],
     "experiences": [
       "ex-shanghai-restaurant-yi-long-court",
@@ -912,6 +939,164 @@
       "ex-guilin-hotel-shangri-la",
       "ex-luoyang-hotel-courtyard",
       "ex-quanzhou-hotel-intercontinental",
+      "ex-depth-cape-town-jazz-festival",
+      "ex-depth-johannesburg-soweto-cycling",
+      "ex-depth-marrakech-amal-cooking",
+      "ex-depth-marrakech-hammam",
+      "ex-depth-fes-sacred-music",
+      "ex-depth-fes-fassi-table",
+      "ex-depth-cairo-felucca",
+      "ex-depth-luxor-balloon",
+      "ex-depth-nairobi-coffee-farm",
+      "ex-depth-nairobi-kitengela-glass",
+      "ex-depth-zanzibar-mnemba-dives",
+      "ex-depth-zanzibar-spice-cooking",
+      "ex-depth-mahe-festival-kreol",
+      "ex-depth-mauritius-wreck-dives",
+      "ex-depth-vancouver-salish-canoe",
+      "ex-depth-toronto-carnival",
+      "ex-depth-quebec-city-winter-carnival",
+      "ex-depth-quebec-city-huron-wendat",
+      "ex-depth-mexico-city-lucha",
+      "ex-depth-cancun-mexican-cooking",
+      "ex-depth-lima-palomino",
+      "ex-depth-cusco-textile",
+      "ex-depth-cusco-chocolate",
+      "ex-depth-rio-de-janeiro-samba-workshop",
+      "ex-depth-buenos-aires-milonga",
+      "ex-depth-buenos-aires-asado",
+      "ex-depth-santiago-maipo-wine",
+      "ex-depth-santiago-fiestas-patrias",
+      "ex-depth-new-york-broadway",
+      "ex-depth-los-angeles-studio-making",
+      "ex-depth-los-angeles-whales-long-beach",
+      "ex-depth-san-francisco-cable-car",
+      "ex-depth-san-francisco-sourdough",
+      "ex-depth-seattle-glass-workshop",
+      "ex-depth-san-diego-leopard-sharks",
+      "ex-depth-san-diego-surf-lesson",
+      "ex-depth-las-vegas-cirque",
+      "ex-depth-portland-coffee-roaster",
+      "ex-depth-monterey-whale-science",
+      "ex-depth-monterey-jazz-festival",
+      "ex-depth-honolulu-lei",
+      "ex-depth-anchorage-aurora",
+      "ex-depth-washington-dc-millennium-stage",
+      "ex-depth-boston-public-market",
+      "ex-depth-philadelphia-mummers",
+      "ex-depth-philadelphia-southeast-market",
+      "ex-depth-chicago-blues-night",
+      "ex-depth-chicago-improv",
+      "ex-depth-atlanta-municipal-market",
+      "ex-depth-atlanta-brewery",
+      "ex-depth-charleston-saltmarsh-kayak",
+      "ex-depth-charleston-gullah-rhythm",
+      "ex-depth-savannah-music-festival",
+      "ex-depth-savannah-gullah-story",
+      "ex-depth-miami-salsa-class",
+      "ex-depth-miami-biscayne-eco",
+      "ex-depth-orlando-rock-springs-paddle",
+      "ex-depth-new-orleans-second-line",
+      "ex-depth-new-orleans-gumbo-class",
+      "ex-depth-nashville-bluebird-songwriters",
+      "ex-depth-nashville-hatch-print",
+      "ex-depth-austin-two-step",
+      "ex-depth-austin-bbq-culture",
+      "ex-depth-san-antonio-mariachi",
+      "ex-depth-denver-march-powwow",
+      "ex-depth-denver-craft-beer",
+      "ex-depth-salt-lake-city-salt-lake-birds",
+      "ex-depth-flagstaff-heritage-festival",
+      "ex-depth-tianjin-yangliuqing-print",
+      "ex-depth-zunyi-loushan-weaving",
+      "ex-depth-kyoto-tondaya-home",
+      "ex-depth-hiroshima-kagura-evening",
+      "ex-depth-busan-temple-day",
+      "ex-depth-singapore-intan-peranakan",
+      "ex-depth-bali-celuk-silver",
+      "ex-depth-ho-chi-minh-city-golden-dragon-puppets",
+      "ex-depth-hoi-an-cam-thanh-basketboat",
+      "ex-depth-kuala-lumpur-pewter-workshop",
+      "ex-depth-langkawi-sunset-sailing",
+      "ex-depth-cebu-moalboal-sardines",
+      "ex-depth-krabi-mangrove-kayak",
+      "ex-depth-ko-lanta-island-thai-cook",
+      "ex-depth-lombok-sukarara-weaving",
+      "ex-depth-kota-kinabalu-island-snorkel",
+      "ex-depth-cappadocia-balloon-landscape",
+      "ex-depth-kathmandu-kirtipur-newari-meal",
+      "ex-depth-jaipur-jhalana-wildlife",
+      "ex-depth-shanghai-era-acrobatics",
+      "ex-depth-chengdu-brocade-encounter",
+      "ex-depth-guangzhou-cantonese-opera",
+      "ex-depth-haikou-dongzhai-mangrove",
+      "ex-depth-lingshui-diaoluo-rainforest",
+      "ex-depth-xiamen-lacquer-thread",
+      "ex-depth-dali-zhoucheng-tiedye",
+      "ex-depth-guilin-yao-oil-tea",
+      "ex-depth-luoyang-sancai-workshop",
+      "ex-depth-luoyang-peony-festival",
+      "ex-depth-luoyang-water-banquet",
+      "ex-depth-quanzhou-marionette-theatre",
+      "ex-depth-quanzhou-xunpu-flower-crown",
+      "ex-depth-nanjing-yunjin-loom",
+      "ex-depth-shenzhen-shiyan-biodiversity",
+      "ex-depth-wuhan-zhiyin-steamer",
+      "ex-depth-wuhan-bamboo-summer",
+      "ex-depth-dunhuang-seal-printing",
+      "ex-depth-zhangjiajie-xiangxi-stage",
+      "ex-depth-zhangjiajie-tujia-three-pot",
+      "ex-depth-rome-mosaic",
+      "ex-depth-istanbul-hammam",
+      "ex-depth-lisbon-saints",
+      "ex-depth-amsterdam-diamond",
+      "ex-depth-berlin-karaoke",
+      "ex-depth-florence-leather",
+      "ex-depth-reykjavik-culture-night",
+      "ex-depth-vik-lava",
+      "ex-depth-akureyri-forest-lagoon",
+      "ex-depth-edinburgh-ceilidh",
+      "ex-depth-dublin-tradfest",
+      "ex-depth-brussels-chocolate",
+      "ex-depth-dubrovnik-kayak",
+      "ex-depth-oslo-jazz",
+      "ex-depth-bergen-fjord",
+      "ex-depth-tromso-sami",
+      "ex-depth-copenhagen-reffen",
+      "ex-depth-rovaniemi-snow-art",
+      "ex-depth-tallinn-sauna",
+      "ex-depth-riga-canal",
+      "ex-depth-vilnius-balloon",
+      "ex-depth-warsaw-vistula",
+      "ex-depth-budapest-tanchaz",
+      "ex-depth-zurich-badi",
+      "ex-depth-athens-cinema",
+      "ex-depth-athens-dance",
+      "ex-depth-santorini-volcanic-table",
+      "ex-depth-madrid-vermouth",
+      "ex-depth-bled-craft-market",
+      "ex-depth-kotor-boka-night",
+      "ex-depth-gozo-festa",
+      "ex-depth-paphos-pottery",
+      "ex-depth-funchal-whales",
+      "ex-depth-seville-flamenco",
+      "ex-depth-granada-hammam",
+      "ex-depth-auckland-whales",
+      "ex-depth-queenstown-stars",
+      "ex-depth-rabat-modern-art",
+      "ex-depth-mombasa-dhow",
+      "ex-depth-mombasa-swahili",
+      "ex-depth-arusha-coffee",
+      "ex-depth-hermanus-wine",
+      "ex-depth-quito-cacao",
+      "ex-depth-quito-clouds",
+      "ex-depth-quito-morning",
+      "ex-depth-cartagena-mangrove",
+      "ex-depth-cartagena-caribbean",
+      "ex-depth-salvador-iemanja",
+      "ex-depth-salvador-bale",
+      "ex-depth-manaus-canopy",
+      "ex-depth-ushuaia-penguins",
       "stay-euro-nice-palais-saleya",
       "stay-euro-nice-villa-hostel",
       "stay-euro-lyon-college",
@@ -976,6 +1161,36 @@
       "ex-krabi-hotel-rayavadee",
       "ex-lombok-hotel-katamaran",
       "ex-naxos-hotel-nissaki-beach",
+      "ex-depth-essaouira-hotel-heure-bleue",
+      "ex-depth-essaouira-hotel-salut-maroc",
+      "ex-depth-essaouira-hotel-chbanate",
+      "ex-depth-essaouira-hotel-villa-maroc",
+      "ex-depth-essaouira-hotel-medina-thalassa",
+      "ex-depth-rabat-hotel-kalaa",
+      "ex-depth-rabat-hotel-tour-hassan",
+      "ex-depth-rabat-hotel-sofitel-roses",
+      "ex-depth-rabat-hotel-story",
+      "ex-depth-rabat-hotel-fairmont-marina",
+      "ex-depth-hurghada-hotel-marriott",
+      "ex-depth-hurghada-hotel-aqua-magic",
+      "ex-depth-hurghada-hotel-jaz-aquamarine",
+      "ex-depth-hurghada-hotel-crystal-bay",
+      "ex-depth-hurghada-hotel-arabia-azur",
+      "ex-depth-mombasa-hotel-serena",
+      "ex-depth-mombasa-hotel-whitesands",
+      "ex-depth-mombasa-hotel-voyager",
+      "ex-depth-mombasa-hotel-severin",
+      "ex-depth-mombasa-hotel-cityblue-creekside",
+      "ex-depth-arusha-hotel-gran-melia",
+      "ex-depth-arusha-hotel-four-points",
+      "ex-depth-arusha-hotel-coffee-lodge",
+      "ex-depth-arusha-hotel-kibo-palace",
+      "ex-depth-arusha-hotel-mount-meru",
+      "ex-depth-hermanus-hotel-marine",
+      "ex-depth-hermanus-hotel-harbour-house",
+      "ex-depth-hermanus-hotel-birkenhead",
+      "ex-depth-hermanus-hotel-auberge-burgundy",
+      "ex-depth-hermanus-hotel-windsor",
       "stay-akureyri-osm-node-13410849064",
       "stay-akureyri-osm-node-3029358577",
       "stay-akureyri-osm-node-4266766800",
@@ -1265,6 +1480,32 @@
       "stay-zhengzhou-osm-node-6915628085",
       "stay-zhengzhou-osm-way-183920504",
       "stay-zurich-osm-node-5263493074",
+      "stay-depth-quito-illa",
+      "stay-depth-quito-patio-andaluz",
+      "stay-depth-quito-casona-ronda",
+      "stay-depth-quito-ibis",
+      "stay-depth-cartagena-movich",
+      "stay-depth-cartagena-san-agustin",
+      "stay-depth-cartagena-bastion",
+      "stay-depth-cartagena-ibis-marbella",
+      "stay-depth-salvador-villa-bahia",
+      "stay-depth-salvador-fera-palace",
+      "stay-depth-salvador-amarelindo",
+      "stay-depth-salvador-ibis-rio-vermelho",
+      "stay-depth-manaus-juma-opera",
+      "stay-depth-manaus-villa-amazonia",
+      "stay-depth-manaus-quality",
+      "stay-depth-manaus-intercity",
+      "stay-depth-manaus-ibis-distrito",
+      "stay-depth-foz-do-iguacu-bourbon-thermas",
+      "stay-depth-foz-do-iguacu-wish",
+      "stay-depth-foz-do-iguacu-jl-bourbon",
+      "stay-depth-foz-do-iguacu-viale",
+      "stay-depth-ushuaia-arakur",
+      "stay-depth-ushuaia-cauquenes",
+      "stay-depth-ushuaia-las-hayas",
+      "stay-depth-ushuaia-los-acebos",
+      "stay-depth-ushuaia-albatros",
       "stay-us-philadelphia-rittenhouse",
       "stay-us-atlanta-whitley",
       "stay-us-charleston-emeline",
@@ -1354,29 +1595,31 @@
       "food-history-nanchang-artemisia-pork",
       "food-history-zunyi-egg-cake",
       "food-history-zunyi-egg-potato-wrap",
-      "food-history-zunyi-yaxi-liangfen"
+      "food-history-zunyi-yaxi-liangfen",
+      "food-depth-tambaqui",
+      "food-depth-cupuacu"
     ]
   },
   "mediaCoverage": {
     "manifest": {
       "cities": {
-        "entities": 173,
-        "cardsWithImage": 173,
-        "localImages": 173,
+        "entities": 185,
+        "cardsWithImage": 185,
+        "localImages": 185,
         "remoteImagesUnverified": 0,
-        "photographs": 173,
+        "photographs": 185,
         "scopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 173,
+          "existing-photo": 185,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 173,
+          "existing-photo": 185,
           "unrecognized": 0
         },
         "missingImageIds": [],
@@ -1384,22 +1627,22 @@
         "unattributedImageIds": []
       },
       "attractions": {
-        "entities": 5385,
-        "cardsWithImage": 5385,
-        "localImages": 5385,
+        "entities": 5461,
+        "cardsWithImage": 5461,
+        "localImages": 5461,
         "remoteImagesUnverified": 0,
-        "photographs": 4669,
+        "photographs": 4718,
         "scopeCounts": {
-          "exact-place": 2082,
-          "nearby": 1488,
-          "illustration": 716,
+          "exact-place": 2130,
+          "nearby": 1489,
+          "illustration": 743,
           "existing-photo": 1099,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 2082,
-          "nearby": 1488,
-          "illustration": 716,
+          "exact-place": 2130,
+          "nearby": 1489,
+          "illustration": 743,
           "existing-photo": 1099,
           "unrecognized": 0
         },
@@ -1408,22 +1651,22 @@
         "unattributedImageIds": []
       },
       "experiences": {
-        "entities": 1029,
-        "cardsWithImage": 1029,
-        "localImages": 1029,
+        "entities": 1644,
+        "cardsWithImage": 1644,
+        "localImages": 1644,
         "remoteImagesUnverified": 0,
-        "photographs": 480,
+        "photographs": 881,
         "scopeCounts": {
-          "exact-place": 477,
-          "nearby": 3,
-          "illustration": 549,
+          "exact-place": 485,
+          "nearby": 396,
+          "illustration": 763,
           "existing-photo": 0,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 477,
-          "nearby": 3,
-          "illustration": 549,
+          "exact-place": 485,
+          "nearby": 396,
+          "illustration": 763,
           "existing-photo": 0,
           "unrecognized": 0
         },
@@ -1432,22 +1675,22 @@
         "unattributedImageIds": []
       },
       "foods": {
-        "entities": 733,
-        "cardsWithImage": 733,
-        "localImages": 733,
+        "entities": 763,
+        "cardsWithImage": 763,
+        "localImages": 763,
         "remoteImagesUnverified": 0,
-        "photographs": 662,
+        "photographs": 690,
         "scopeCounts": {
-          "exact-place": 500,
+          "exact-place": 528,
           "nearby": 0,
-          "illustration": 71,
+          "illustration": 73,
           "existing-photo": 162,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 500,
+          "exact-place": 528,
           "nearby": 0,
-          "illustration": 71,
+          "illustration": 73,
           "existing-photo": 162,
           "unrecognized": 0
         },
@@ -1458,23 +1701,23 @@
     },
     "runtime": {
       "cities": {
-        "entities": 173,
-        "cardsWithImage": 173,
-        "localImages": 173,
+        "entities": 185,
+        "cardsWithImage": 185,
+        "localImages": 185,
         "remoteImagesUnverified": 0,
-        "photographs": 173,
+        "photographs": 185,
         "scopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 173,
+          "existing-photo": 185,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 173,
+          "existing-photo": 185,
           "unrecognized": 0
         },
         "missingImageIds": [],
@@ -1482,22 +1725,22 @@
         "unattributedImageIds": []
       },
       "attractions": {
-        "entities": 5385,
-        "cardsWithImage": 5374,
-        "localImages": 5374,
+        "entities": 5461,
+        "cardsWithImage": 5450,
+        "localImages": 5450,
         "remoteImagesUnverified": 0,
-        "photographs": 4669,
+        "photographs": 4718,
         "scopeCounts": {
-          "exact-place": 2082,
-          "nearby": 1488,
-          "illustration": 705,
+          "exact-place": 2130,
+          "nearby": 1489,
+          "illustration": 732,
           "existing-photo": 1099,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 2082,
-          "nearby": 1488,
-          "illustration": 705,
+          "exact-place": 2130,
+          "nearby": 1489,
+          "illustration": 732,
           "existing-photo": 1099,
           "unrecognized": 0
         },
@@ -1518,22 +1761,22 @@
         "unattributedImageIds": []
       },
       "experiences": {
-        "entities": 1029,
-        "cardsWithImage": 1013,
-        "localImages": 1013,
+        "entities": 1644,
+        "cardsWithImage": 1628,
+        "localImages": 1628,
         "remoteImagesUnverified": 0,
-        "photographs": 480,
+        "photographs": 881,
         "scopeCounts": {
-          "exact-place": 477,
-          "nearby": 3,
-          "illustration": 533,
+          "exact-place": 485,
+          "nearby": 396,
+          "illustration": 747,
           "existing-photo": 0,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 477,
-          "nearby": 3,
-          "illustration": 533,
+          "exact-place": 485,
+          "nearby": 396,
+          "illustration": 747,
           "existing-photo": 0,
           "unrecognized": 0
         },
@@ -1559,22 +1802,22 @@
         "unattributedImageIds": []
       },
       "foods": {
-        "entities": 733,
-        "cardsWithImage": 733,
-        "localImages": 733,
+        "entities": 763,
+        "cardsWithImage": 763,
+        "localImages": 763,
         "remoteImagesUnverified": 0,
-        "photographs": 662,
+        "photographs": 690,
         "scopeCounts": {
-          "exact-place": 500,
+          "exact-place": 528,
           "nearby": 0,
-          "illustration": 71,
+          "illustration": 73,
           "existing-photo": 162,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 500,
+          "exact-place": 528,
           "nearby": 0,
-          "illustration": 71,
+          "illustration": 73,
           "existing-photo": 162,
           "unrecognized": 0
         },
@@ -1585,7 +1828,7 @@
     }
   },
   "imageFileCoverage": {
-    "checkedLocalUrls": 5973,
+    "checkedLocalUrls": 6267,
     "remoteUrlsNotFetched": 0,
     "missing": []
   },
@@ -1593,7 +1836,7 @@
     "minimumMaintainedCities": 169,
     "minimumFoodsPerCity": 5,
     "minimumHotelsPerCity": 5,
-    "cities": 173,
+    "cities": 185,
     "perCity": [
       {
         "cityId": "shanghai",
@@ -2632,6 +2875,78 @@
         "name": "遵义",
         "foods": 5,
         "hotels": 5
+      },
+      {
+        "cityId": "essaouira",
+        "name": "索维拉",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "rabat",
+        "name": "拉巴特",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "hurghada",
+        "name": "赫尔格达",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "mombasa",
+        "name": "蒙巴萨",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "arusha",
+        "name": "阿鲁沙",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "hermanus",
+        "name": "赫尔马努斯",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "quito",
+        "name": "基多",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "cartagena",
+        "name": "卡塔赫纳",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "salvador",
+        "name": "萨尔瓦多",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "manaus",
+        "name": "玛瑙斯",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "foz-do-iguacu",
+        "name": "伊瓜苏市",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "ushuaia",
+        "name": "乌斯怀亚",
+        "foods": 5,
+        "hotels": 5
       }
     ],
     "belowFoodMinimum": [],
@@ -2639,13 +2954,13 @@
     "complete": true
   },
   "experienceCoverage": {
-    "places": 1029,
-    "cities": 173,
-    "options": 2846,
+    "places": 1644,
+    "cities": 185,
+    "options": 3461,
     "categories": {
       "restaurant": 72,
-      "hotel": 880,
-      "experience": 77
+      "hotel": 940,
+      "experience": 632
     },
     "missingCities": [],
     "stayExpansion": {
@@ -2655,10 +2970,1671 @@
       "cityBudgetReferences": 536
     }
   },
+  "experienceDepthCoverage": {
+    "experiences": 555,
+    "themes": {
+      "festival": 81,
+      "marine": 34,
+      "wildlife": 26,
+      "nature": 55,
+      "craft": 83,
+      "performance": 86,
+      "food-life": 108,
+      "local-life": 76,
+      "literary": 6
+    },
+    "dateSpecific": 86,
+    "seasonal": 154,
+    "perCity": [
+      {
+        "cityId": "shanghai",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "festival",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "beijing",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "tokyo",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "kyoto",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "osaka",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "seoul",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "literary"
+        ]
+      },
+      {
+        "cityId": "bangkok",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "singapore",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "bali",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "paris",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "london",
+        "experiences": 3,
+        "themes": [
+          "literary",
+          "festival",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "rome",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "barcelona",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "new-york",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "sydney",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "local-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "dubai",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "local-life",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "istanbul",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "hong-kong",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "chengdu",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "xian",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "hangzhou",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "craft",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "guangzhou",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "lisbon",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "amsterdam",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "local-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "berlin",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "venice",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "florence",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "los-angeles",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "melbourne",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "food-life",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "chiang-mai",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "hanoi",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "ho-chi-minh-city",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "hoi-an",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "local-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "da-nang",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "luang-prabang",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "siem-reap",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "kuala-lumpur",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "penang",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "nature",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "langkawi",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "marine",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "manila",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "reykjavik",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "marine",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "vik",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "akureyri",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "male",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "maafushi",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "wildlife",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "edinburgh",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "literary",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "dublin",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "brussels",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "literary",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "dubrovnik",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "marine",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "cappadocia",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "cape-town",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "johannesburg",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "marrakech",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "local-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "fes",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "cairo",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "luxor",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "nairobi",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "craft",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "zanzibar",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "mahe",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "performance",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "mauritius",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "vancouver",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "toronto",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "quebec-city",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "mexico-city",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "nature",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "cancun",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "wildlife",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "lima",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "wildlife",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "cusco",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "rio-de-janeiro",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "buenos-aires",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "santiago",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "nature",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "cebu",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "taipei",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "local-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "kaohsiung",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "kathmandu",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "delhi",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "jaipur",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "colombo",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "kandy",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "auckland",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "performance",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "queenstown",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "local-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "oslo",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "bergen",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "performance",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "tromso",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "copenhagen",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "food-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "stockholm",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "helsinki",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "festival",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "rovaniemi",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "tallinn",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "riga",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "festival",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "vilnius",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "festival",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "warsaw",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "krakow",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "prague",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "vienna",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "budapest",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "zurich",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "festival",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "interlaken",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "local-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "athens",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "santorini",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "madrid",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "bled",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "kotor",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "festival",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "gozo",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "paphos",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "funchal",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "festival",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "ponta-delgada",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "chongqing",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "local-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "jinan",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "zhengzhou",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "haikou",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "sanya",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "craft",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "wanning",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "lingshui",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "festival",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "xiamen",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "krabi",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "nature",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "ko-lanta",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "lombok",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "craft",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "kota-kinabalu",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "marine",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "naxos",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "qingdao",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "food-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "dali",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "lijiang",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "literary",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "guilin",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "luoyang",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "quanzhou",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "nanjing",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "suzhou",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "san-francisco",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "seattle",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "san-diego",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "wildlife",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "las-vegas",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "portland",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "monterey",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "marine",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "honolulu",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "craft",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "anchorage",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "local-life",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "washington-dc",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "boston",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "philadelphia",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "chicago",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "atlanta",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "charleston",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "nature",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "savannah",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "wildlife",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "miami",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "marine"
+        ]
+      },
+      {
+        "cityId": "orlando",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "wildlife",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "new-orleans",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "food-life",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "nashville",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "austin",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "san-antonio",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "denver",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "salt-lake-city",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "wildlife"
+        ]
+      },
+      {
+        "cityId": "flagstaff",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "sapporo",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "fukuoka",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "craft",
+          "festival"
+        ]
+      },
+      {
+        "cityId": "hiroshima",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "naha",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "wildlife",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "busan",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "jeju",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "shenzhen",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "craft",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "changsha",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "wuhan",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "performance",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "harbin",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "dunhuang",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "zhangjiajie",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "food-life",
+          "nature"
+        ]
+      },
+      {
+        "cityId": "nice",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "lyon",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "festival",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "marseille",
+        "experiences": 3,
+        "themes": [
+          "craft",
+          "nature",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "seville",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "granada",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "local-life",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "porto",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "festival",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "yanan",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "tianjin",
+        "experiences": 3,
+        "themes": [
+          "performance",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "nanchang",
+        "experiences": 3,
+        "themes": [
+          "local-life",
+          "performance",
+          "literary"
+        ]
+      },
+      {
+        "cityId": "zunyi",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "essaouira",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "craft",
+          "marine"
+        ]
+      },
+      {
+        "cityId": "rabat",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "craft",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "hurghada",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "mombasa",
+        "experiences": 3,
+        "themes": [
+          "marine",
+          "local-life",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "arusha",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "wildlife",
+          "craft"
+        ]
+      },
+      {
+        "cityId": "hermanus",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "nature",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "quito",
+        "experiences": 3,
+        "themes": [
+          "food-life",
+          "nature",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "cartagena",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "marine",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "salvador",
+        "experiences": 3,
+        "themes": [
+          "festival",
+          "performance",
+          "food-life"
+        ]
+      },
+      {
+        "cityId": "manaus",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "wildlife",
+          "performance"
+        ]
+      },
+      {
+        "cityId": "foz-do-iguacu",
+        "experiences": 3,
+        "themes": [
+          "nature",
+          "wildlife",
+          "local-life"
+        ]
+      },
+      {
+        "cityId": "ushuaia",
+        "experiences": 3,
+        "themes": [
+          "wildlife",
+          "food-life",
+          "local-life"
+        ]
+      }
+    ],
+    "belowMinimum": []
+  },
   "foodCoverage": {
-    "foods": 733,
-    "cities": 173,
-    "photos": 662,
+    "foods": 763,
+    "cities": 185,
+    "photos": 690,
     "missingPhotos": [
       "food-norwegian-waffle",
       "food-gozo-ftira",
@@ -2730,11 +4706,13 @@
       "food-history-nanchang-artemisia-pork",
       "food-history-zunyi-egg-cake",
       "food-history-zunyi-egg-potato-wrap",
-      "food-history-zunyi-yaxi-liangfen"
+      "food-history-zunyi-yaxi-liangfen",
+      "food-depth-tambaqui",
+      "food-depth-cupuacu"
     ],
-    "cardsWithImage": 733,
+    "cardsWithImage": 763,
     "missingCardImages": [],
-    "dedicatedDishIllustrations": 71,
+    "dedicatedDishIllustrations": 73,
     "genericDishIllustrationIds": [],
     "awaitingDishPhoto": [
       "food-norwegian-waffle",
@@ -2816,69 +4794,198 @@
     "scope": "At most 30 selected places within 6 km of each maintained destination reference center."
   },
   "editorialSourceCoverage": {
-    "entitiesWithReferences": 601,
-    "entitiesWithMultipleHosts": 265,
-    "uniqueLinks": 509,
+    "entitiesWithReferences": 1357,
+    "entitiesWithMultipleHosts": 275,
+    "uniqueLinks": 1123,
     "hosts": [
       "1911museum.cn",
       "19371213.org.cn",
+      "2025.vietnam.travel",
+      "3g.wuhan.gov.cn",
       "93.gov.cn",
+      "adventuredubrovnik.com",
+      "agents.gohawaii.com",
+      "airseychelles.com",
+      "alaskanative.net",
+      "albatroshotel.com.ar",
       "alcazarsevilla.org",
       "all.accor.com",
+      "amalnonprofit.org",
       "amap.com",
+      "anchorage.net",
+      "anokhimuseum.com",
+      "aquariumofpacific.org",
+      "arakur.com",
+      "arcatierra.com",
+      "arushacc.go.tz",
+      "atljazzfest.com",
+      "atmaalam.com",
+      "auberge.co.za",
+      "aucklandnz.com",
+      "austintexas.org",
+      "avanospotteryworkshop.com",
+      "azurhospitality.com",
+      "b2b.wien.info",
       "backoffice.visitporto.travel",
+      "balefolcloricodabahia.com.br",
+      "ballenberg.ch",
+      "bambike.com",
       "banyantree.com",
+      "barcelona.cat",
       "barcelonaturisme.com",
+      "bastionluxuryhotel.com",
       "beijing.gov.cn",
+      "belmond.com",
+      "berliner-philharmoniker.de",
+      "beta-v2.vietnam.travel",
       "bid.barcelonaturisme.com",
+      "biscaynenationalparkinstitute.org",
+      "bled.si",
+      "blm.gov",
+      "blog.padi.com",
+      "bluebirdcafe.com",
+      "bluenotejazz.com",
+      "booking.apopo.org",
       "booking.com",
+      "bostonpublicmarket.org",
+      "bourbon.com.br",
+      "broadway.org",
+      "brokenspokeaustintx.net",
+      "bso.org",
+      "bucketlist.magicalkenya.com",
+      "buenosaires.gob.ar",
       "busanparadisehotel.co.kr",
+      "busaramusic.org",
       "c2-hotel.com",
       "ca.wikipedia.org",
+      "cagalogluhamami.com.tr",
+      "calanques-parcnational.fr",
+      "capetown.travel",
+      "capetownjazzfest.com",
       "casabonay.com",
+      "casadoamarelindo.com",
+      "casagangotena.com",
+      "castellersdebarcelona.cat",
+      "cataratasdoiguacu.com.br",
       "catedraldesevilla.es",
+      "cdf.gov.eg",
+      "cebu.gov.ph",
+      "ceylonteamuseum.com",
+      "charlestoncvb.com",
+      "charlestonmuseum.org",
+      "chile.travel",
       "chinahighlights.com",
+      "chnmus.net",
+      "chocomuseo.com",
+      "choosechicago.com",
+      "chsgeorgia.org",
+      "cirquedusoleil.com",
+      "citybluehotels.com",
+      "cmll.com",
+      "cn-zhangjiajie.cn",
       "college-hotel.com",
+      "colombia.travel",
       "commons.wikimedia.org",
+      "comune.venezia.it",
       "corraldelrey.com",
+      "countrymusichalloffame.org",
       "cq.gov.cn",
       "cqyz.gov.cn",
       "cross-sapporo.orixhotelsandresorts.com",
+      "culturalcenter.gov.ph",
+      "culturalheritagetz.com",
       "culture.gouv.fr",
+      "dali.gov.cn",
+      "danangfantasticity.com",
+      "delhitourism.gov.in",
+      "denver.org",
+      "denvermarchpowwow.com",
+      "destinationtoronto.com",
+      "destinationvancouver.com",
       "dha.ac.cn",
       "dhymg.com",
+      "discoverhongkong.com",
       "dive-hiroshima.com",
+      "dubrovnik-festival.hr",
       "eastmoment.com",
+      "ebrochures.malaysia.travel",
+      "eculture.gov.taipei",
+      "edfringe.com",
+      "edinburgh.org",
+      "egymonuments.gov.eg",
+      "ehangzhou.gov.cn",
+      "elding.is",
+      "elewanacollection.com",
       "elpais.com",
       "en.tj.gov.cn",
+      "en.visitbergen.com",
       "en.visiterlyon.com",
       "en.wikipedia.org",
       "en.wikivoyage.org",
       "enghunan.gov.cn",
+      "english.shanghai.gov.cn",
       "english.visitkorea.or.kr",
       "english.visitseoul.net",
       "english.wuhan.gov.cn",
+      "entopia.com",
+      "era-shanghai.com",
       "es.wikipedia.org",
+      "esmadrid.com",
       "events.kias.re.kr",
+      "experienceegypt.eg",
+      "experiencegaelicgames.com",
+      "experiences.visitdubai.com",
       "explorenicecotedazur.com",
       "fairmont.com",
+      "fasano.com.br",
+      "feel.visitbrasil.com",
+      "ferahoteis.com",
+      "fernkloof.org.za",
+      "festival-gnaoua.net",
+      "fg.sanya.gov.cn",
+      "fib.no",
+      "flagstaffarizona.org",
+      "fnm.ma",
+      "forestry.gov.cn",
       "fourseasons.com",
       "fourviere-hotel.com",
       "fr.wikipedia.org",
       "fuk.hotelokura.co.jp",
+      "futurismo.pt",
+      "galimard.com",
       "gallery-hostel.com",
       "gardenhotels.co.jp",
+      "gassan.com",
+      "gauteng.net",
+      "gazeteazulejos.com",
       "glad-hotels.com",
       "glbb.org.cn",
       "go.trip.com",
+      "go2warsaw.pl",
       "gofukuoka.jp",
+      "gohawaii.com",
       "gotokyo.org",
+      "goturkiye.com",
+      "gov.br",
+      "govilnius.lt",
+      "granada.hammamalandalus.com",
       "grand1934.com",
+      "granvilleisland.com",
+      "grdance.org",
+      "groupe-saintaubin.com",
+      "grupowish.com",
+      "gswbj.gov.cn",
       "gxt.hlj.gov.cn",
+      "gxtyzx.gov.cn",
       "gz.gov.cn",
       "gzstv.com",
       "gzw.nc.gov.cn",
       "haevichi.com",
+      "hallerpark.com",
+      "harbourhousehotel.co.za",
+      "hct.henan.gov.cn",
+      "heritage-eastafrica.com",
+      "heure-bleue.com",
       "hgh.co.jp",
       "hgt.nc.gov.cn",
       "hilton.com",
@@ -2886,6 +4993,9 @@
       "hiroshima.hiltonjapan.co.jp",
       "hiroshimacastle.jp",
       "hlj.gov.cn",
+      "hnembmusuem.com",
+      "hodjapasha.com",
+      "hollywoodbowl.com",
       "hongyanmuseum.cn",
       "hoshinoresorts.com",
       "hotel-residence-marseille.com",
@@ -2893,25 +5003,47 @@
       "hotelbecquer.com",
       "hotelcasa1800granada.com",
       "hotelcasamorisca.com",
+      "hotelcasasanagustin.com",
       "hotelcollective.jp",
       "hotelhenriette.com",
       "hotelinglaterra.es",
       "hotelnational.paris",
+      "hotelpatioandaluz.com",
       "hotelpraktikbakery.com",
       "hotels.ctrip.com",
       "hp.gov.cn",
+      "hrbcredit.harbin.gov.cn",
       "hrbtv.net",
+      "hrbzx.gov.cn",
+      "hrewards.com",
       "hrss.sz.gov.cn",
       "hudong.moe.gov.cn",
       "hunan.gov.cn",
+      "huron-wendat.qc.ca",
       "hyatt.com",
+      "iamsterdam.com",
+      "ich.unesco.org",
       "ichongqing.info",
+      "icomtours.com",
       "icswb.com",
+      "ihchina.cn",
       "ihg.com",
       "iledefrance-mobilites.fr",
+      "illaexperiencehotel.com",
+      "ilpapirofirenze.com",
+      "image.dive-hiroshima.com",
+      "image.vietnam.travel",
+      "indonesia.travel",
+      "intercityhoteis.com.br",
+      "interlaken.ch",
+      "istanbul.goturkiye.com",
+      "jadibatek.com",
       "japan-guide.com",
+      "jazhotels.com",
+      "jazz.dk",
       "jejudreamtower.com",
       "jgj.nc.gov.cn",
+      "jgjs.nanjing.gov.cn",
       "jinan.gov.cn",
       "jngmlsly.cn",
       "jnly.jinan.gov.cn",
@@ -2919,74 +5051,243 @@
       "jpg.josunhotel.com",
       "jrhotels.co.jp",
       "jrk-hotels.co.jp",
+      "jszwb.jiangsu.gov.cn",
+      "jumaopera.com.br",
+      "kayakcapetown.co.za",
       "kempinski.com",
+      "kenmoreair.com",
+      "khh.travel",
+      "khmerceramics.com",
+      "kibopalacehotel.com",
+      "kiwibird.co.nz",
       "klook.com",
+      "krakow.travel",
+      "kws.go.ke",
+      "kyoto.travel",
+      "lacandelariaperu.com",
+      "lacasonadelaronda.com",
       "langhamhotels.com",
+      "lantathaicookeryschool.com",
       "lascasasdelajuderiasevilla.com",
+      "lashayas.com.ar",
+      "latitudushuaia.tur.ar",
+      "lavashow.com",
+      "lavillabahia.com",
       "lenegresco.com",
+      "lesbainsdemarrakech.com",
       "lesbordsdemer.fontenille-collection.com",
+      "letsatlantica.com.br",
+      "lindt-home-of-chocolate.com",
       "livelyhotels.com",
+      "liveriga.com",
+      "livinglandlao.org",
       "livrarialello.pt",
       "lonelyplanet.com",
+      "losacebos.com.ar",
+      "loscauquenes.com",
+      "luneproduction.com",
+      "lwj.sanya.gov.cn",
+      "ly.rootinhenan.gov.cn",
+      "lyj.hainan.gov.cn",
       "lyon.intercontinental.com",
       "m.ctrip.com",
       "m.thepaper.cn",
+      "m.visitjeju.net",
+      "maafushidive.com",
+      "macucosafari.com.br",
+      "magicalkenya.com",
       "mamashelter.com",
+      "manaus.am.gov.br",
       "mapcarta.com",
+      "maradentroexcursiones.com",
       "marcopolohotels.com",
+      "markettheatre.co.za",
+      "maropeng.co.za",
       "marriott.com",
       "marseille-tourisme.com",
       "marseille.intercontinental.com",
+      "mct.gov.cn",
+      "media.gohawaii.com",
+      "media.krakow.travel",
       "meet-in-shanghai.net",
       "meet.barcelona",
+      "melia.com",
+      "mexicocity.cdmx.gob.mx",
+      "mexicolindocooking.com",
       "mf.jinan.gov.cn",
       "mgallery.accor.com",
+      "miamiandbeaches.com",
       "millenniumhotels.com",
       "miyakohotels.ne.jp",
+      "montenegro.travel",
+      "montereybaywhalewatch.com",
+      "montereyjazz.org",
+      "mountmeruhotel.co.tz",
+      "movichhotels.com",
+      "municipalmarketatl.com",
+      "musee-parfum-paris.fragonard.com",
       "museedesconfluences.fr",
       "museodelbaileflamenco.com",
+      "museovetro.visitmuve.it",
+      "museudaamazonia.org.br",
+      "museudofado.pt",
       "museumschina.cn",
+      "musnaz.org",
+      "muzeumobwarzanka.com",
+      "myhelsinki.fi",
       "mzdydysfjng.hnfnu.edu.cn",
       "mzhoudeng.com",
+      "mzt.shandong.gov.cn",
+      "mzzj.yn.gov.cn",
       "nanjing.gov.cn",
+      "naturallylangkawi.my",
+      "naxos.gr",
       "nc.gov.cn",
       "nchdz.nc.gov.cn",
       "ncn4a.cn",
       "ndrc.gov.cn",
+      "neaq.org",
+      "neworleans.com",
+      "neworleansschoolofcooking.com",
       "niccolohotels.com",
       "nice.fr",
+      "nicecarnaval.com",
+      "nizamuddinaulia.org",
+      "njna.nanjing.gov.cn",
+      "nps.gov",
+      "ntb.gov.np",
+      "ntj.jac.go.jp",
+      "nyc.gov",
+      "nync.yn.gov.cn",
+      "ockpoptok.com",
       "oki-park.jp",
+      "ommegang.be",
+      "online.charlestoncvb.com",
       "openstreetmap.org",
+      "operadeparis.fr",
+      "operaroma.it",
+      "osaka-info.jp",
+      "oslojazz.com",
+      "paccari.com",
+      "padi.com",
       "palaciodabolsa.com",
       "palaissaleya.com",
       "paradores.es",
+      "paraempresas.iguassu.com.br",
       "parisjetaime.com",
+      "parquedasaves.com.br",
       "patrimoinemondial.nice.fr",
+      "penguins.org.au",
+      "peru.travel",
       "pestana.com",
+      "pharecircus.org",
+      "phillymagicgardens.org",
+      "pinangperanakanmansion.com.my",
+      "prague.eu",
+      "preservationhall.com",
       "professional.barcelonaturisme.com",
       "pt.wikipedia.org",
+      "public.zhengzhou.gov.cn",
+      "qinfeng.gov.cn",
+      "qingdao.gov.cn",
+      "quanzhou.gov.cn",
+      "quebec-cite.com",
+      "queenstownnz.co.nz",
+      "quito-turismo.gob.ec",
+      "rabatriads.com",
+      "rafainchurrascaria.com.br",
+      "rajadamnern.com",
+      "realnz.com",
+      "redrocksonline.com",
+      "riad-chbanate.com",
       "rihga.com",
       "ritzcarlton.com",
       "rmfkb.cq.gov.cn",
+      "rosefestival.org",
+      "rowvenice.org",
+      "royalballoon.com",
       "rsj.gz.gov.cn",
+      "sabahtourism.com",
+      "sailinriodejaneiro.com",
+      "salutmaroc.com",
+      "salvadordabahia.com",
+      "sandiego.org",
       "sapporo.travel",
+      "sapporobeer.jp",
+      "sarovahotels.com",
+      "sasalao.com",
+      "savannahmusicfestival.org",
+      "scenicboattours.com",
+      "sdaj.hunan.gov.cn",
+      "seattleglassblowing.com",
+      "secondcity.com",
+      "secretparadise.mv",
+      "seemonterey.com",
+      "serenahotels.com",
       "serralves.pt",
       "setasdesevilla.com",
+      "severinsealodge.com",
+      "seychelles.com",
+      "sftravel.com",
       "shaanxi.gov.cn",
+      "shakespearesglobe.com",
       "shanghai.gov.cn",
       "shangri-la.com",
       "shenzhenshizhi.cn",
+      "shgzb.sz.gov.cn",
+      "shiroikoibitopark.jp",
+      "silomthaicooking.com",
       "sina.cn",
       "sjfw.mct.gov.cn",
+      "smzw.hainan.gov.cn",
+      "south.is",
+      "southernrightcharters.co.za",
+      "srilanka.travel",
+      "stateparks.utah.gov",
       "static.tradecms.dragontrail.com",
+      "stlawrencemarket.com",
+      "studiocassio.com",
+      "stumptowncoffee.com",
+      "sunrise-resorts.com",
+      "suzhou.gov.cn",
+      "sw.wuhan.gov.cn",
+      "sweetwaterbrew.com",
       "sxfycc.com",
       "sxggwhy.com",
       "sxya.wenming.cn",
+      "sydney.com",
       "sz.gov.cn",
+      "szsilkmuseum.com",
+      "taipeisprings.org.tw",
+      "tanzaniaparks.go.tz",
+      "taste.visitazores.com",
+      "tastehk.discoverhongkong.com",
+      "tatnews.org",
       "taylor.pt",
+      "tb.nanjing.gov.cn",
+      "teamuseum.cn",
+      "teatroamazonas.com.br",
+      "teatrocolon.org.ar",
+      "teleferico.com.ec",
+      "templestay.com",
+      "tengeruculturaltourism.com",
       "terrace.co.jp",
+      "textilescusco.org",
+      "thai.tourismthailand.org",
+      "thaifarmcooking.com",
+      "thailand.go.th",
+      "thailandtourismus.de",
+      "thailandtravel.or.jp",
+      "the-intan.com",
+      "theargentineexperience.com",
+      "themarinehotel.co.za",
+      "theroyalportfolio.com",
+      "thesanantonioriverwalk.com",
       "thesharehotels.com",
+      "thetabernaclechoir.org",
+      "thisisathens.org",
       "tickets.alhambra-patronato.es",
+      "tileflies.com",
       "timeout.com",
       "timeout.es",
       "tjbwg.cn",
@@ -2994,47 +5295,131 @@
       "torelavantgarde.com",
       "torredosclerigos.pt",
       "touch.piao.qunar.com",
+      "tourhassanpalace.com",
+      "tourism.rajasthan.gov.in",
       "toyoko-inn.com",
+      "tpb.gov.ph",
       "tradeinservices.mofcom.gov.cn",
+      "trails.visitazores.com",
+      "travel.padi.com",
+      "travel.taipei",
       "travelchinaguide.com",
+      "travelportland.com",
+      "trendelfindelmundo.com.ar",
       "trip.com",
+      "tropicalspicegarden.com",
+      "tsuboya-yachimun.com",
+      "turgranada.es",
+      "turismo.azores.gov.pt",
       "turismo.granada.org",
+      "turismo.quito.gob.ec",
+      "turismoitaipu.com.br",
+      "turismoroma.it",
+      "turismoushuaia.com",
       "tw.trip.com",
+      "tyj.gz.gov.cn",
+      "tzdubrovnik.hr",
       "uds-hotels.com",
       "us.trip.com",
+      "vialehoteis.com.br",
+      "vietnam.travel",
+      "villa-maroc.com",
+      "villaamazonia.com",
       "villahostels.com",
+      "visit.brussels",
+      "visit.sapporo.travel",
+      "visitakureyri.is",
       "visitarsevilla.com",
       "visitasevilla.es",
+      "visitberlin.de",
+      "visitbrasil.com",
       "visitbusan.net",
+      "visitcopenhagen.com",
+      "visitdubai.com",
+      "visitdublin.com",
       "visiterlyon.com",
+      "visitgozo.com",
+      "visitgreece.gr",
+      "visithungary.com",
       "visitjeju.net",
+      "visitlasvegas.com",
+      "visitlisboa.com",
+      "visitlondon.com",
+      "visitmadeira.com",
+      "visitmelbourne.com",
+      "visitmorocco.com",
       "visitokinawajapan.com",
+      "visitorcentre.royalselangor.com",
+      "visitorlando.com",
+      "visitorlando.org",
+      "visitoslo.com",
+      "visitpafos.org.cy",
+      "visitphilly.com",
       "visitporto.travel",
+      "visitquito.ec",
+      "visitrabat.com",
+      "visitreykjavik.is",
+      "visitrovaniemi.fi",
+      "visitsaltlake.com",
+      "visitsanantonio.com",
+      "visitsantiago.travel",
+      "visitseattle.org",
+      "visitsingapore.com",
+      "visitstockholm.com",
+      "visittallinn.ee",
+      "visittromso.no",
+      "visittuscany.com",
+      "visittybee.com",
+      "visitvik.is",
+      "vividsydney.com",
+      "w.yp.gov.cn",
+      "walkerbayfishandchips.co.za",
       "wandahotels.com",
+      "wanning.hainan.gov.cn",
+      "washington.org",
+      "wbstudiotour.com",
+      "welcome.interlaken.ch",
       "wglj.gz.gov.cn",
+      "wgxj.nc.gov.cn",
+      "whalecoast.info",
+      "whalewatchingauckland.com",
       "whc.unesco.org",
+      "whhlyt.hunan.gov.cn",
       "whly.tj.gov.cn",
       "whlyj.sh.gov.cn",
       "whlyw.cq.gov.cn",
+      "wien.info",
       "wikidata.org",
+      "windsorhotel.co.za",
       "wlj.nanjing.gov.cn",
       "wlj.wuhan.gov.cn",
       "wlj.xa.gov.cn",
+      "wlt.gxzf.gov.cn",
       "wlt.hlj.gov.cn",
       "wlt.xizang.gov.cn",
       "wuhan.gov.cn",
+      "wwj.beijing.gov.cn",
+      "wwj.chengde.gov.cn",
       "wwj.xa.gov.cn",
       "xhq.nc.gov.cn",
       "xiangshan1949.cn",
+      "xinhuanet.com",
+      "xinhuanet.com.cn",
+      "xmrd.gov.cn",
       "yajs.yau.edu.cn",
       "yaxtjt.cn",
       "yht.nanjing.gov.cn",
+      "ynxc.gov.cn",
       "you.ctrip.com",
       "yoyogipark.trunk-hotel.com",
       "yx.tju.edu.cn",
+      "zanzibartourism.go.tz",
       "zh.wikipedia.org",
       "zhangjiajietravels.com",
+      "zhengzhou.gov.cn",
+      "zhuanti.mct.gov.cn",
       "zjj.nc.gov.cn",
+      "zuerich.com",
       "zunyiol.cn"
     ],
     "note": "Stored reading references and distinct hostnames; this validates metadata only, not live availability, independent ownership or current prices."

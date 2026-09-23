@@ -6,7 +6,7 @@ import { foldSearch } from './destination-utils.mjs';
 import './currency-select.css';
 
 const ALL_CURRENCIES = Object.keys(CURRENCIES);
-const COUNTRY = { CNY:'CN', USD:'US', EUR:'EU', JPY:'JP', GBP:'GB', KRW:'KR', THB:'TH', SGD:'SG', AUD:'AU', HKD:'HK', AED:'AE', IDR:'ID', TRY:'TR', ISK:'IS', MVR:'MV', NOK:'NO', SEK:'SE', DKK:'DK', CHF:'CH', PLN:'PL', CZK:'CZ', HUF:'HU', VND:'VN', LAK:'LA', KHR:'KH', MYR:'MY', PHP:'PH', TWD:'TW', NPR:'NP', INR:'IN', LKR:'LK', NZD:'NZ', ZAR:'ZA', MAD:'MA', EGP:'EG', KES:'KE', TZS:'TZ', SCR:'SC', MUR:'MU', CAD:'CA', MXN:'MX', PEN:'PE', BRL:'BR', ARS:'AR', CLP:'CL' };
+const COUNTRY = { CNY:'CN', USD:'US', EUR:'EU', JPY:'JP', GBP:'GB', KRW:'KR', THB:'TH', SGD:'SG', AUD:'AU', HKD:'HK', AED:'AE', IDR:'ID', TRY:'TR', ISK:'IS', MVR:'MV', NOK:'NO', SEK:'SE', DKK:'DK', CHF:'CH', PLN:'PL', CZK:'CZ', HUF:'HU', VND:'VN', LAK:'LA', KHR:'KH', MYR:'MY', PHP:'PH', TWD:'TW', NPR:'NP', INR:'IN', LKR:'LK', NZD:'NZ', ZAR:'ZA', MAD:'MA', EGP:'EG', KES:'KE', TZS:'TZ', SCR:'SC', MUR:'MU', CAD:'CA', MXN:'MX', PEN:'PE', BRL:'BR', ARS:'AR', CLP:'CL', COP:'CO' };
 const SYMBOL = { CNY:'¥', USD:'$', EUR:'€', JPY:'¥', GBP:'£', KRW:'₩', THB:'฿', SGD:'S$', AUD:'A$', HKD:'HK$', INR:'₹', VND:'₫', PHP:'₱', TRY:'₺', IDR:'Rp', TWD:'NT$', CAD:'C$', NZD:'NZ$', BRL:'R$', CHF:'Fr', PLN:'zł' };
 const POPULAR = ['CNY', 'USD', 'EUR', 'JPY', 'GBP', 'HKD'];
 export default function CurrencySelect({ value, onChange, label = '显示币种', className = '', disabled = false, currencies = ALL_CURRENCIES, compact = false }) {

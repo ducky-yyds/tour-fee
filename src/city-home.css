@@ -1612,3 +1612,20 @@
     height: 28px;
   }
 }
+
+/* Compact themed browsing: long descriptions remain inside the detail panel. */
+.ch-dining-switch.ch-experience-themes { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; scrollbar-width: thin; padding-bottom: 8px; }
+.ch-experience-themes > button { flex: 0 0 auto; white-space: nowrap; }
+.ch-experience-theme-label { display: inline-block; align-self: flex-start; color: #536e54; background: #edf2e8; padding: 4px 9px; border-radius: 20px; font-size: 13px; margin-bottom: 8px; line-height: 1.4; }
+.ch-season-label { display: flex; align-items: flex-start; gap: 6px; font-size: 13px; color: #79613f; margin: 8px 0 0; line-height: 1.6; }
+.ch-season-label svg { flex-shrink: 0; margin-top: 3px; }
+.ch-experience-context { display: grid; gap: 12px; margin: 18px 0; padding: 16px; border-radius: 14px; background: #f4f6ef; }
+.ch-experience-context > div { display: flex; align-items: flex-start; gap: 10px; }
+.ch-experience-context svg { color: #6f8667; flex-shrink: 0; margin-top: 3px; }
+.ch-experience-context strong { display: block; font-size: 14px; line-height: 1.6; }
+.ch-experience-context p { margin: 4px 0 0; font-size: 14px; line-height: 1.75; }
+.ch-date-check { margin-top: 12px; padding: 12px; border: 1px solid #e3dacb; border-radius: 10px; background: #faf6ee; font-size: 14px; line-height: 1.7; }
+.ch-date-check > p { margin: 0 0 8px; }
+.ch-date-check label { display: flex; gap: 8px; align-items: flex-start; }
+.ch-date-check input { flex-shrink: 0; width: 16px; margin-top: 5px; accent-color: #617d59; }
+.ch-date-check small { font-size: 13px; }

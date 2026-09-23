@@ -216,7 +216,7 @@ def exact(items, media, excluded):
         extra = {}
         if item.get('photoFile') or item.get('imageFile'):
             extra['requestedFileTitle'] = file_title(item.get('photoFile') or item.get('imageFile'))
-            if item.get('imagePolicy') == 'exact-only':
+            if item.get('imagePolicy') in ('exact-only', 'exact-or-illustration'):
                 extra['subjectMatched'] = True
         if item.get('imageContextNote'):
             extra['contextNote'] = item['imageContextNote']
@@ -232,7 +232,7 @@ def exact(items, media, excluded):
             return True
         return not (valid_photo(current) and current.get('scope') not in ('nearby', 'illustration'))
     targets = [item for item in items if item['id'] not in excluded and needs_exact(item)
-               and (item.get('imagePolicy') != 'exact-only' or item.get('photoFile') or item.get('imageFile'))]
+               and (item.get('imagePolicy') not in ('exact-only', 'exact-or-illustration') or item.get('photoFile') or item.get('imageFile'))]
     excluded_articles = {row['article'] for row in read(ROOT / 'data/stay-library-exclusions.json', {}).get('excludedImageArticles', [])}
     def exact_identity_allowed(item):
         if item['_kind'] != 'hotel':
@@ -343,7 +343,7 @@ def nearby(cities, items, media, excluded):
             photos.append((file, {'lat': coords[0]['lat'], 'lng': coords[0]['lon']}))
         return photos
     for city in cities:
-        targets = [item for item in items if item['_city']['id'] == city['id'] and item['_kind'] == 'place' and item.get('imagePolicy') != 'exact-only' and item['id'] not in excluded and (not valid_photo(media['attractions'].get(item['id'])) or media['attractions'][item['id']].get('scope') == 'illustration')]
+        targets = [item for item in items if item['_city']['id'] == city['id'] and item['_kind'] == 'place' and item.get('imagePolicy') not in ('exact-only', 'exact-or-illustration') and item['id'] not in excluded and (not valid_photo(media['attractions'].get(item['id'])) or media['attractions'][item['id']].get('scope') == 'illustration')]
         if not targets:
             continue
         try:
@@ -416,12 +416,13 @@ def fallback(items, media):
         if valid_photo(media['attractions'].get(item['id'])):
             continue
         reference = media['attractions'].get(item.get('imageRef'))
-        if item.get('imagePolicy') != 'exact-only' and item.get('imageRef') != item['id'] and valid_photo(reference) and reference.get('scope') != 'illustration' and file_title(reference.get('fileTitle')) not in NEARBY_EXCLUSIONS:
+        if item.get('imagePolicy') not in ('exact-only', 'exact-or-illustration') and item.get('imageRef') != item['id'] and valid_photo(reference) and reference.get('scope') != 'illustration' and file_title(reference.get('fileTitle')) not in NEARBY_EXCLUSIONS:
             media['attractions'][item['id']] = {**reference, 'scope': 'nearby',
-                'contextNote': '与本项目相关的地点实景；不是房间、套餐或供应商设施的实拍承诺。',
+                'contextNote': item.get('imageContextNote') or '与本项目相关的地点实景；不是房间、套餐或供应商设施的实拍承诺。',
                 'alt': item['name'] + '相关地点的环境实景'}
             continue
-        key = 'food' if item['_kind'] in ('food', 'restaurant') else 'stay' if item['_kind'] == 'hotel' else 'nature' if item.get('activityType') == 'leisure' else 'culture' if re.search('博物馆|文化|艺术|历史', item.get('category', '')) else 'walk'
+        themes = {'festival': 'culture', 'marine': 'nature', 'wildlife': 'nature', 'nature': 'nature', 'craft': 'culture', 'performance': 'culture', 'food-life': 'food', 'literary': 'culture', 'local-life': 'walk'}
+        key = 'food' if item['_kind'] in ('food', 'restaurant') else 'stay' if item['_kind'] == 'hotel' else themes.get(item.get('experienceType')) or ('nature' if item.get('activityType') == 'leisure' else 'culture' if re.search('博物馆|文化|艺术|历史', item.get('category', '')) else 'walk')
         file = ROOT / f'public/images/illustration-{key}.png'
         if not file.exists():
             raise ValueError('Missing illustration asset: ' + str(file))
@@ -440,12 +441,15 @@ def main():
     parser.add_argument('--phase', choices=['exact', 'nearby', 'fallback', 'all'], default='all')
     parser.add_argument('--cities', default='')
     parser.add_argument('--kinds', default='', help='Optional comma-separated kinds: place,food,hotel,restaurant,experience')
+    parser.add_argument('--id-prefix', default='', help='Limit downloads to a maintained batch without revisiting unrelated entries')
     parser.add_argument('--photo-packs-only', action='store_true', help='Only process entries with reviewed food/hotel photo expansion mappings')
     parser.add_argument('--reviewed-places-only', action='store_true', help='Only repair places with an explicit exact-only image policy')
     parser.add_argument('--thumb-width', type=int, choices=[320, 400, 500, 640, 960], default=500, help='Requested width for new downloads; existing local images are retained')
     args = parser.parse_args()
     THUMB_WIDTH = args.thumb_width
     cities, items = inventory()
+    if args.id_prefix:
+        items = [item for item in items if item['id'].startswith(args.id_prefix)]
     if args.reviewed_places_only:
         items = [item for item in items if item['_kind'] == 'place' and item.get('imagePolicy') == 'exact-only']
     if args.photo_packs_only:
@@ -473,7 +477,7 @@ def main():
         manual = item.get('photoFile') or item.get('imageFile')
         mismatch = manual and file_title(manual) != file_title(current.get('requestedFileTitle') or current.get('fileTitle'))
         unsuitable = item.get('photoStatus') == 'needs-food-photo' and not manual and not current.get('subjectMatched')
-        unreviewed_identity = item.get('imagePolicy') == 'exact-only' and not (current.get('scope') == 'exact-place' and current.get('subjectMatched'))
+        unreviewed_identity = item.get('imagePolicy') in ('exact-only', 'exact-or-illustration') and not (current.get('scope') == 'exact-place' and current.get('subjectMatched'))
         if mismatch or unsuitable or unreviewed_identity:
             del media['attractions'][item['id']]
             corrected = True

@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "ex-depth-essaouira-hotel-heure-bleue",
+    "cityId": "essaouira",
+    "kind": "hotel",
+    "name": "Heure Bleue Palais 庭院酒店",
+    "nameEn": "Heure Bleue Palais",
+    "provider": "Heure Bleue Palais",
+    "tagline": "古城庭院、屋顶泳池与摩洛哥餐桌",
+    "description": "围绕传统庭院修复的宅邸，屋顶设有泳池和城景露台。适合逛完老城后慢慢休息；烹饪课、Hammam 和私人接送需另外预约。",
+    "address": "2 Rue Ibn Battouta, Essaouira",
+    "lat": 31.511,
+    "lng": -9.766,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "传统庭院",
+      "屋顶泳池",
+      "摩洛哥餐饮"
+    ],
+    "sourceUrl": "https://www.heure-bleue.com/fr/nos-services.html",
+    "bookingUrl": "https://www.heure-bleue.com/fr/nos-services.html",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Heure Bleue Palais 官方资料",
+        "url": "https://www.heure-bleue.com/fr/nos-services.html",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2100,
+        "high": 5000,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.heure-bleue.com/fr/nos-services.html",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-essaouira-hotel-salut-maroc",
+    "cityId": "essaouira",
+    "kind": "hotel",
+    "name": "Salut Maroc 彩色设计旅舍",
+    "nameEn": "Salut Maroc",
+    "provider": "Salut Maroc",
+    "tagline": "把摩洛哥手工艺住进房间",
+    "description": "从商人宅邸改造的精品酒店，以鲜明色彩、铜浴缸与手工家具形成不同房间主题。屋顶餐厅可看海与城墙，海景并非每间客房都有。",
+    "address": "32 Rue Ibn Rochd, Essaouira",
+    "lat": 31.513,
+    "lng": -9.771,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "手工家具",
+      "彩色设计",
+      "海景屋顶餐厅"
+    ],
+    "sourceUrl": "https://www.salutmaroc.com/",
+    "bookingUrl": "https://www.salutmaroc.com/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Salut Maroc 官方资料",
+        "url": "https://www.salutmaroc.com/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1600,
+        "high": 3600,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.salutmaroc.com/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-essaouira-hotel-chbanate",
+    "cityId": "essaouira",
+    "kind": "hotel",
+    "name": "Riad Chbanate 庭院民宿",
+    "nameEn": "Riad Chbanate",
+    "provider": "Riad Chbanate",
+    "tagline": "八间客房的安静庭院",
+    "description": "小型庭院住所保留壁炉与家常餐桌气氛，屋顶有休憩露台和按摩浴池。不同套房布局有差异，携带大件行李时先确认老城接车点及楼梯。",
+    "address": "179 Rue Chbanate, Essaouira",
+    "lat": 31.514,
+    "lng": -9.765,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "小型庭院",
+      "屋顶按摩浴池",
+      "家常餐饮"
+    ],
+    "sourceUrl": "https://www.riad-chbanate.com/",
+    "bookingUrl": "https://www.riad-chbanate.com/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Riad Chbanate 官方资料",
+        "url": "https://www.riad-chbanate.com/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1200,
+        "high": 2900,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.riad-chbanate.com/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-essaouira-hotel-villa-maroc",
+    "cityId": "essaouira",
+    "kind": "hotel",
+    "name": "Villa Maroc 摩洛哥庭院酒店",
+    "nameEn": "Villa Maroc",
+    "provider": "Villa Maroc",
+    "tagline": "四座老宅相连的海港住处",
+    "description": "由四座修复庭院宅邸组成，靠近老城与海边，有全景屋顶、摩洛哥餐厅与 SPA。此项是古城 Villa Maroc，不是城外的 Les Jardins de Villa Maroc。",
+    "address": "10 Rue Abdellah Ben Yassine, Essaouira",
+    "lat": 31.51,
+    "lng": -9.769,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "传统手工艺",
+      "全景屋顶",
+      "老城位置"
+    ],
+    "sourceUrl": "https://villa-maroc.com/",
+    "bookingUrl": "https://villa-maroc.com/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Villa Maroc 官方资料",
+        "url": "https://villa-maroc.com/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1600,
+        "high": 3600,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://villa-maroc.com/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-essaouira-hotel-medina-thalassa",
+    "cityId": "essaouira",
+    "kind": "hotel",
+    "name": "麦地那索维拉 Thalassa Sea & Spa",
+    "nameEn": "Le Médina Essaouira Thalassa Sea & Spa",
+    "provider": "Le Médina Essaouira Thalassa Sea & Spa",
+    "tagline": "海滩大道上的泳池与海疗",
+    "description": "海滨大道酒店适合把古城游览与海边休息结合，有泳池、餐厅和海疗服务。城市景、泳池景与海景房应分别比较，疗程和特定餐饮通常需另选。",
+    "address": "Avenue Mohammed V, Essaouira",
+    "lat": 31.507,
+    "lng": -9.766,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海滨大道",
+      "泳池",
+      "海疗服务"
+    ],
+    "sourceUrl": "https://all.accor.com/hotel/2967/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/2967/index.en.shtml",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Le Médina Essaouira Thalassa Sea & Spa 官方资料",
+        "url": "https://all.accor.com/hotel/2967/index.en.shtml",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1300,
+        "high": 3400,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/2967/index.en.shtml",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-rabat-hotel-kalaa",
+    "cityId": "rabat",
+    "kind": "hotel",
+    "name": "Riad Kalaa 庭院酒店",
+    "nameEn": "Riad Kalaa",
+    "provider": "Riad Kalaa",
+    "tagline": "老城里的安达卢西亚庭院",
+    "description": "十八至十九世纪风格的旧宅内有庭院、露台泳池与摩洛哥餐厅，适合想住进麦地那的旅客。车辆通常停在老城外围，最后一段按酒店指引步行。",
+    "address": "3–5 Rue Zebdi, Ancienne Médina, Rabat",
+    "lat": 34.027,
+    "lng": -6.836,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "安达卢西亚庭院",
+      "露台泳池",
+      "摩洛哥餐厅"
+    ],
+    "sourceUrl": "https://rabatriads.com/en/riads/riad_kalaa/",
+    "bookingUrl": "https://rabatriads.com/en/riads/riad_kalaa/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Riad Kalaa 官方资料",
+        "url": "https://rabatriads.com/en/riads/riad_kalaa/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1100,
+        "high": 2600,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://rabatriads.com/en/riads/riad_kalaa/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-rabat-hotel-tour-hassan",
+    "cityId": "rabat",
+    "kind": "hotel",
+    "name": "La Tour Hassan Palace 哈桑宫酒店",
+    "nameEn": "La Tour Hassan Palace",
+    "provider": "La Tour Hassan Palace",
+    "tagline": "市中心的摩尔式历史酒店",
+    "description": "始建于 1912 年的酒店，以摩尔式装饰、花园和餐饮空间见长。适合将历史建筑与首都市区行程结合，SPA 与高级餐厅单独核算。",
+    "address": "26 Avenue Chellah, Rabat",
+    "lat": 34.02,
+    "lng": -6.828,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "摩尔式建筑",
+      "市中心",
+      "花园与餐厅"
+    ],
+    "sourceUrl": "https://tourhassanpalace.com/en/home/",
+    "bookingUrl": "https://tourhassanpalace.com/en/home/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "La Tour Hassan Palace 官方资料",
+        "url": "https://tourhassanpalace.com/en/home/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2000,
+        "high": 4700,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://tourhassanpalace.com/en/home/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-rabat-hotel-sofitel-roses",
+    "cityId": "rabat",
+    "kind": "hotel",
+    "name": "索菲特拉巴特玫瑰园酒店",
+    "nameEn": "Sofitel Rabat Jardin des Roses",
+    "provider": "Sofitel Rabat Jardin des Roses",
+    "tagline": "在 Souissi 花园里住得从容",
+    "description": "拥有宽阔花园、泳池和 SPA 的城市酒店，适合把住宿本身也作为休息时段。所在 Souissi 距老城仍需车辆接驳，园景房与升级套房分开选择。",
+    "address": "Avenue Imam Malek, Impasse Souissi, Rabat",
+    "lat": 33.9902,
+    "lng": -6.8378,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园环境",
+      "泳池",
+      "SPA"
+    ],
+    "sourceUrl": "https://all.accor.com/hotel/6813/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/6813/index.en.shtml",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Sofitel Rabat Jardin des Roses 官方资料",
+        "url": "https://all.accor.com/hotel/6813/index.en.shtml",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2200,
+        "high": 5200,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://all.accor.com/hotel/6813/index.en.shtml",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-rabat-hotel-story",
+    "cityId": "rabat",
+    "kind": "hotel",
+    "name": "STORY Rabat 精品酒店",
+    "nameEn": "STORY Rabat Boutique Hôtel & Spa",
+    "provider": "STORY Rabat Boutique Hôtel & Spa",
+    "tagline": "使馆区的花园精品住处",
+    "description": "位于 Les Ambassadeurs 的精品酒店，有花园露台、泳池和 Hammam。环境偏安静，适合减少频繁进出老城的度假节奏；前往主要古迹应另留车程。",
+    "address": "Angle Rue Bani Yadder et Rue Jebala, Les Ambassadeurs, Rabat",
+    "lat": 33.941,
+    "lng": -6.825,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园露台",
+      "精品酒店",
+      "Hammam"
+    ],
+    "sourceUrl": "https://www.visitrabat.com/en/lieux/story-rabat-2/",
+    "bookingUrl": "https://www.visitrabat.com/en/lieux/story-rabat-2/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "STORY Rabat Boutique Hôtel & Spa 官方资料",
+        "url": "https://www.visitrabat.com/en/lieux/story-rabat-2/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "name": "Visit Rabat 位置资料",
+        "url": "https://www.visitrabat.com/en/lieux/story-rabat-4/",
+        "kind": "official",
+        "scope": "使馆区地址与酒店身份",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2800,
+        "high": 6500,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.visitrabat.com/en/lieux/story-rabat-2/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-rabat-hotel-fairmont-marina",
+    "cityId": "rabat",
+    "kind": "hotel",
+    "name": "费尔蒙拉巴特萨累码头酒店",
+    "nameEn": "Fairmont La Marina Rabat-Salé",
+    "provider": "Fairmont La Marina Rabat-Salé",
+    "tagline": "住在河口另一岸看拉巴特",
+    "description": "位于萨累码头，隔布雷格雷格河望向拉巴特，有现代餐饮和康养设施。行政区属于 Salé，前往拉巴特老城须考虑过河交通；河景与海景按房型确认。",
+    "address": "Avenue de Fès, Marina de Salé, Salé",
+    "lat": 34.034,
+    "lng": -6.827,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "河口景观",
+      "码头位置",
+      "餐饮与康养"
+    ],
+    "sourceUrl": "https://www.fairmont.com/en/hotels/rabat/fairmont-la-marina-rabat-sale.html",
+    "bookingUrl": "https://www.fairmont.com/en/hotels/rabat/fairmont-la-marina-rabat-sale.html",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费",
+      "酒店位于 Salé；不要把跨河行程当成老城内步行。"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Fairmont La Marina Rabat-Salé 官方资料",
+        "url": "https://www.fairmont.com/en/hotels/rabat/fairmont-la-marina-rabat-sale.html",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 3000,
+        "high": 7000,
+        "currency": "MAD",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.fairmont.com/en/hotels/rabat/fairmont-la-marina-rabat-sale.html",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hurghada-hotel-marriott",
+    "cityId": "hurghada",
+    "kind": "hotel",
+    "name": "赫尔格达万豪海滩度假村",
+    "nameEn": "Hurghada Marriott Beach Resort",
+    "provider": "Hurghada Marriott Beach Resort",
+    "tagline": "较靠近市区的红海度假酒店",
+    "description": "海滨酒店设有泳池、健身及餐饮空间，适合兼顾市区用餐和红海休闲。部分官方预订有机场接送活动，但必须按当期条款确认，不能计作所有订单已含。",
+    "address": "El Corniche Road, Hurghada",
+    "lat": 27.19,
+    "lng": 33.842,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海滨",
+      "泳池",
+      "靠近市区"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/hrgeg-hurghada-marriott-beach-resort/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/hrgeg-hurghada-marriott-beach-resort/overview/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Hurghada Marriott Beach Resort 官方资料",
+        "url": "https://www.marriott.com/en-us/hotels/hrgeg-hurghada-marriott-beach-resort/overview/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 4500,
+        "high": 10500,
+        "currency": "EGP",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/hrgeg-hurghada-marriott-beach-resort/overview/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hurghada-hotel-aqua-magic",
+    "cityId": "hurghada",
+    "kind": "hotel",
+    "name": "施泰根贝格 Aqua Magic",
+    "nameEn": "Steigenberger Aqua Magic",
+    "provider": "Steigenberger Aqua Magic",
+    "tagline": "以水上乐园为重点的亲子住处",
+    "description": "设有水滑梯、漂流河和儿童活动，适合希望在酒店留出完整玩水时间的家庭。海滩在步行道另一侧的姊妹酒店区域，经济房可能没有阳台。",
+    "address": "Youssif Afifi Road, Hurghada",
+    "lat": 27.163,
+    "lng": 33.824,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "水上乐园",
+      "家庭房",
+      "儿童活动"
+    ],
+    "sourceUrl": "https://hrewards.com/en/steigenberger-aqua-magic-hurghada",
+    "bookingUrl": "https://hrewards.com/en/steigenberger-aqua-magic-hurghada",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费",
+      "水上设施按年龄、身高和营业安排使用；核对海滩动线及房间是否有阳台。"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Steigenberger Aqua Magic 官方资料",
+        "url": "https://hrewards.com/en/steigenberger-aqua-magic-hurghada",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 5000,
+        "high": 12500,
+        "currency": "EGP",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://hrewards.com/en/steigenberger-aqua-magic-hurghada",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hurghada-hotel-jaz-aquamarine",
+    "cityId": "hurghada",
+    "kind": "hotel",
+    "name": "JAZ Aquamarine 亲子度假村",
+    "nameEn": "JAZ Aquamarine",
+    "provider": "JAZ Aquamarine",
+    "tagline": "南部海岸的泳池与家庭假期",
+    "description": "规模较大的海滨度假村，提供多泳池、水滑梯及儿童俱乐部，海边浅水区域适合慢节奏停留。远离市区中心，晚餐外出和出海集合需另算接驳。",
+    "address": "Magawish District, South Sahl Hashish Road, Hurghada",
+    "lat": 27.095,
+    "lng": 33.836,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "多泳池",
+      "水滑梯",
+      "儿童俱乐部"
+    ],
+    "sourceUrl": "https://www.jazhotels.com/hoteldetail/25-egypt-hurghada-jaz-aquamarine/overview",
+    "bookingUrl": "https://www.jazhotels.com/hoteldetail/25-egypt-hurghada-jaz-aquamarine/overview",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "JAZ Aquamarine 官方资料",
+        "url": "https://www.jazhotels.com/hoteldetail/25-egypt-hurghada-jaz-aquamarine/overview",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 5500,
+        "high": 14000,
+        "currency": "EGP",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.jazhotels.com/hoteldetail/25-egypt-hurghada-jaz-aquamarine/overview",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hurghada-hotel-crystal-bay",
+    "cityId": "hurghada",
+    "kind": "hotel",
+    "name": "SUNRISE Crystal Bay 度假村",
+    "nameEn": "SUNRISE Crystal Bay Resort",
+    "provider": "SUNRISE Crystal Bay Resort",
+    "tagline": "围绕红海泻湖安排度假",
+    "description": "坐落在私人海湾边，有花园、泳池和多种餐厅。官网列有潜水、水上活动与 SPA，但这些服务是否包含取决于具体套餐；距赫尔格达中心约十九公里。",
+    "address": "Km 20 Hurghada–Safaga Road, Hurghada",
+    "lat": 27.1,
+    "lng": 33.829,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "泻湖海滩",
+      "花园",
+      "多餐厅"
+    ],
+    "sourceUrl": "https://www.sunrise-resorts.com/crystal-bay-resort",
+    "bookingUrl": "https://www.sunrise-resorts.com/crystal-bay-resort",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "SUNRISE Crystal Bay Resort 官方资料",
+        "url": "https://www.sunrise-resorts.com/crystal-bay-resort",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 6000,
+        "high": 15000,
+        "currency": "EGP",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.sunrise-resorts.com/crystal-bay-resort",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hurghada-hotel-arabia-azur",
+    "cityId": "hurghada",
+    "kind": "hotel",
+    "name": "Arabia Azur 度假村",
+    "nameEn": "Arabia Azur Resort",
+    "provider": "Arabia Azur Resort",
+    "tagline": "靠近城市生活的海滨度假选择",
+    "description": "Arabia 区域的海滨度假酒店，可选面向水面或泳池的客房。全包服务有指定餐厅、时段和酒水范围，浮潜、潜水与按摩等活动须单独核对。",
+    "address": "Arabia district, Hurghada",
+    "lat": 27.247,
+    "lng": 33.842,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海滨客房",
+      "全包套餐可选",
+      "城市近郊"
+    ],
+    "sourceUrl": "https://www.azurhospitality.com/en/hurghada/hotel/arabia-azur",
+    "bookingUrl": "https://www.azurhospitality.com/en/hurghada/hotel/arabia-azur",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Arabia Azur Resort 官方资料",
+        "url": "https://www.azurhospitality.com/en/hurghada/hotel/arabia-azur",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 3500,
+        "high": 9000,
+        "currency": "EGP",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.azurhospitality.com/en/hurghada/hotel/arabia-azur",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-mombasa-hotel-serena",
+    "cityId": "mombasa",
+    "kind": "hotel",
+    "name": "Serena Beach 海滩度假村",
+    "nameEn": "Serena Beach Resort & Spa",
+    "provider": "Serena Beach Resort & Spa",
+    "tagline": "斯瓦希里建筑里的印度洋假期",
+    "description": "Shanzu 海滩度假村以斯瓦希里村落为设计参考，有花园、泳池及康养空间。海龟保护与蝴蝶项目应按酒店当期安排了解，不把动物活动当作保证项目。",
+    "address": "Shanzu Beach, Mombasa",
+    "lat": -3.966,
+    "lng": 39.755,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "斯瓦希里建筑",
+      "Shanzu 海滩",
+      "花园康养"
+    ],
+    "sourceUrl": "https://www.serenahotels.com/serena-beach",
+    "bookingUrl": "https://www.serenahotels.com/serena-beach",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Serena Beach Resort & Spa 官方资料",
+        "url": "https://www.serenahotels.com/serena-beach",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 22000,
+        "high": 55000,
+        "currency": "KES",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.serenahotels.com/serena-beach",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-mombasa-hotel-whitesands",
+    "cityId": "mombasa",
+    "kind": "hotel",
+    "name": "Sarova Whitesands 海滩度假村",
+    "nameEn": "Sarova Whitesands Beach Resort & Spa",
+    "provider": "Sarova Whitesands Beach Resort & Spa",
+    "tagline": "Bamburi 海滩的家庭度假基地",
+    "description": "北岸 Bamburi 海滩酒店，棕榈园和不同泳池适合分配亲子与休息时间。距市中心约十四公里，去老城、车站或码头应按交通情况提前出发。",
+    "address": "Bamburi Beach, Mombasa–Malindi Highway, Mombasa",
+    "lat": -3.99,
+    "lng": 39.741,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Bamburi 海滩",
+      "多泳池",
+      "花园"
+    ],
+    "sourceUrl": "https://www.sarovahotels.com/whitesands-mombasa/",
+    "bookingUrl": "https://www.sarovahotels.com/whitesands-mombasa/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Sarova Whitesands Beach Resort & Spa 官方资料",
+        "url": "https://www.sarovahotels.com/whitesands-mombasa/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 22000,
+        "high": 52000,
+        "currency": "KES",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.sarovahotels.com/whitesands-mombasa/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-mombasa-hotel-voyager",
+    "cityId": "mombasa",
+    "kind": "hotel",
+    "name": "Voyager 航海主题海滩酒店",
+    "nameEn": "Voyager Beach Resort",
+    "provider": "Voyager Beach Resort",
+    "tagline": "在航海主题酒店留一整天玩耍",
+    "description": "Nyali 海边的家庭酒店，以航海装饰、儿童活动和晚间节目为特色。全包餐标与水上活动范围须逐项核对；官网曾发布泳池维护公告，出发前确认实际开放设施。",
+    "address": "Mount Kenya Road, Nyali, Mombasa",
+    "lat": -4.024,
+    "lng": 39.72,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "航海主题",
+      "家庭活动",
+      "海滩度假"
+    ],
+    "sourceUrl": "https://www.heritage-eastafrica.com/voyagerbeachresort/",
+    "bookingUrl": "https://www.heritage-eastafrica.com/voyagerbeachresort/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费",
+      "官网 2026 年 8 月 25 日公布 Relax Pool 临时维护，未据此推断已恢复；入住前确认当前设施。"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Voyager Beach Resort 官方资料",
+        "url": "https://www.heritage-eastafrica.com/voyagerbeachresort/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "name": "Voyager 泳池维护公告",
+        "url": "https://www.heritage-eastafrica.com/voyagerbeachresort/media/pdfs/voyager-beach-resort-statement-25th-august-2026-copy.pdf",
+        "kind": "official",
+        "scope": "临时设施维护，非酒店整体停业",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 20000,
+        "high": 45000,
+        "currency": "KES",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.heritage-eastafrica.com/voyagerbeachresort/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-mombasa-hotel-severin",
+    "cityId": "mombasa",
+    "kind": "hotel",
+    "name": "Severin Sea Lodge 海滨酒店",
+    "nameEn": "Severin Sea Lodge",
+    "provider": "Severin Sea Lodge",
+    "tagline": "花园平房与海边慢生活",
+    "description": "以非洲风格木家具和花园环境为特色，客房与平房分布在海边园区。房型可能面向花园或印度洋，SPA 和水上活动另核对，不把所有房间视为海景。",
+    "address": "Bamburi Beach, Malindi Road, Mombasa",
+    "lat": -3.979,
+    "lng": 39.748,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园平房",
+      "Bamburi 海滩",
+      "木质家具"
+    ],
+    "sourceUrl": "https://www.severinsealodge.com/",
+    "bookingUrl": "https://www.severinsealodge.com/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Severin Sea Lodge 官方资料",
+        "url": "https://www.severinsealodge.com/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 16000,
+        "high": 36000,
+        "currency": "KES",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.severinsealodge.com/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-mombasa-hotel-cityblue-creekside",
+    "cityId": "mombasa",
+    "kind": "hotel",
+    "name": "CityBlue Creekside 酒店",
+    "nameEn": "CityBlue Creekside Hotel & Suites",
+    "provider": "CityBlue Creekside Hotel & Suites",
+    "tagline": "潮汐水湾边的城市住处",
+    "description": "面向 Tudor Creek 的酒店有泳池花园、餐厅与部分带小厨房的房型。这里是潮汐水湾，不是可直接下海游泳的沙滩度假村，适合兼顾老城和城市事务。",
+    "address": "Tudor Creek, Nyali Bridge area, Mombasa",
+    "lat": -4.043,
+    "lng": 39.682,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "潮汐水湾",
+      "泳池花园",
+      "部分房型有小厨房"
+    ],
+    "sourceUrl": "https://www.citybluehotels.com/cityblue-creekside-hotel-suites-mombasa",
+    "bookingUrl": "https://www.citybluehotels.com/cityblue-creekside-hotel-suites-mombasa",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "CityBlue Creekside Hotel & Suites 官方资料",
+        "url": "https://www.citybluehotels.com/cityblue-creekside-hotel-suites-mombasa",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 8000,
+        "high": 20000,
+        "currency": "KES",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.citybluehotels.com/cityblue-creekside-hotel-suites-mombasa",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-arusha-hotel-gran-melia",
+    "cityId": "arusha",
+    "kind": "hotel",
+    "name": "阿鲁沙盛美利亚酒店",
+    "nameEn": "Gran Meliá Arusha",
+    "provider": "Gran Meliá Arusha",
+    "tagline": "梅鲁山背景下的花园休息日",
+    "description": "大型花园酒店有屋顶餐饮、泳池与康养服务，适合 Safari 前后留出休整。山景受房型和天气影响；酒店住宿不等于包含国家公园行程。",
+    "address": "Simeon Road, Arusha",
+    "lat": -3.365,
+    "lng": 36.708,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园",
+      "屋顶餐饮",
+      "泳池"
+    ],
+    "sourceUrl": "https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha",
+    "bookingUrl": "https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Gran Meliá Arusha 官方资料",
+        "url": "https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 800000,
+        "high": 1900000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-arusha-hotel-four-points",
+    "cityId": "arusha",
+    "kind": "hotel",
+    "name": "阿鲁沙福朋喜来登酒店",
+    "nameEn": "Four Points by Sheraton Arusha, The Arusha Hotel",
+    "provider": "Four Points by Sheraton Arusha, The Arusha Hotel",
+    "tagline": "钟楼旁的历史城市酒店",
+    "description": "历史酒店保留花园氛围，提供泳池、健身区与 Parachichi 餐厅。位置适合城市短住；机场接送不是默认服务，基础房价也不默认包含早餐。",
+    "address": "Arusha Clock Tower area, Arusha",
+    "lat": -3.372,
+    "lng": 36.695,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "历史酒店",
+      "花园泳池",
+      "市中心"
+    ],
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/jrofp-four-points-arusha-the-arusha-hotel/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/jrofp-four-points-arusha-the-arusha-hotel/overview/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Four Points by Sheraton Arusha, The Arusha Hotel 官方资料",
+        "url": "https://www.marriott.com/en-us/hotels/jrofp-four-points-arusha-the-arusha-hotel/overview/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 550000,
+        "high": 1100000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/jrofp-four-points-arusha-the-arusha-hotel/overview/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-arusha-hotel-coffee-lodge",
+    "cityId": "arusha",
+    "kind": "hotel",
+    "name": "Elewana 阿鲁沙咖啡庄园旅馆",
+    "nameEn": "Elewana Arusha Coffee Lodge",
+    "provider": "Elewana Arusha Coffee Lodge",
+    "tagline": "住在咖啡树之间的庄园小屋",
+    "description": "位于阿鲁沙西侧咖啡庄园，客房和套房以露台、壁炉及种植园环境为特色。咖啡导览与 Shanga 手艺活动按产品确认，距市中心仍需车辆；官网常以每人分住价报价。",
+    "address": "Dodoma Road, western outskirts of Arusha",
+    "lat": -3.378,
+    "lng": 36.647,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "咖啡庄园",
+      "露台小屋",
+      "庄园餐厅"
+    ],
+    "sourceUrl": "https://www.elewanacollection.com/index.php/arusha-coffee-lodge/at-a-glance",
+    "bookingUrl": "https://www.elewanacollection.com/index.php/arusha-coffee-lodge/at-a-glance",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费",
+      "官网 per person sharing 需乘实际住客人数后比较整间费用；ARK 与 JRO 是不同机场，接送距离和价格不同。"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Elewana Arusha Coffee Lodge 官方资料",
+        "url": "https://www.elewanacollection.com/index.php/arusha-coffee-lodge/at-a-glance",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "name": "Elewana 2026 房价与服务口径",
+        "url": "https://www.elewanacollection.com/arusha-coffee-lodge/rates-and-seasons?layout=default&print=1&tmpl=component",
+        "kind": "official",
+        "scope": "确认每人分住与含早口径；此处本币区间仍为编辑估算",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1300000,
+        "high": 3100000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.elewanacollection.com/index.php/arusha-coffee-lodge/at-a-glance",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-arusha-hotel-kibo-palace",
+    "cityId": "arusha",
+    "kind": "hotel",
+    "name": "Kibo Palace 阿鲁沙酒店",
+    "nameEn": "Kibo Palace Hotel Arusha",
+    "provider": "Kibo Palace Hotel Arusha",
+    "tagline": "方便进出市中心的休整住宿",
+    "description": "位于 Nyerere Road，设餐饮、会议与康养设施，可协助安排付费接送。适合需要洗衣、整理行李或等待次日出发的城市停留；Safari 套餐须单订。",
+    "address": "Nyerere Road, Arusha",
+    "lat": -3.378,
+    "lng": 36.697,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "城市位置",
+      "餐饮",
+      "康养设施"
+    ],
+    "sourceUrl": "https://kibopalacehotel.com/kibo-palace-hotel-arusha/",
+    "bookingUrl": "https://kibopalacehotel.com/kibo-palace-hotel-arusha/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Kibo Palace Hotel Arusha 官方资料",
+        "url": "https://kibopalacehotel.com/kibo-palace-hotel-arusha/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 350000,
+        "high": 750000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://kibopalacehotel.com/kibo-palace-hotel-arusha/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-arusha-hotel-mount-meru",
+    "cityId": "arusha",
+    "kind": "hotel",
+    "name": "Mount Meru 梅鲁山酒店",
+    "nameEn": "Mount Meru Hotel",
+    "provider": "Mount Meru Hotel",
+    "tagline": "花园与高尔夫绿地旁的城市酒店",
+    "description": "酒店花园邻近高尔夫绿地，提供泳池、餐厅与健身设施。适合会议或 Safari 前后的住宿，梅鲁山景取决于天气与房间朝向。",
+    "address": "Kanisa Road, Arusha",
+    "lat": -3.36,
+    "lng": 36.7,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "花园绿地",
+      "泳池",
+      "梅鲁山方向景观"
+    ],
+    "sourceUrl": "https://www.mountmeruhotel.co.tz/",
+    "bookingUrl": "https://www.mountmeruhotel.co.tz/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Mount Meru Hotel 官方资料",
+        "url": "https://www.mountmeruhotel.co.tz/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 400000,
+        "high": 850000,
+        "currency": "TZS",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.mountmeruhotel.co.tz/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hermanus-hotel-marine",
+    "cityId": "hermanus",
+    "kind": "hotel",
+    "name": "The Marine 海湾酒店",
+    "nameEn": "The Marine",
+    "provider": "The Marine",
+    "tagline": "悬崖步道旁看沃克湾",
+    "description": "位于赫曼努斯悬崖步道旁，公共区域和部分海景房面向 Walker Bay。适合海岸休闲与餐饮；观鲸取决于季节和动物活动，不能保证从客房看到鲸。",
+    "address": "Main Road, Hermanus",
+    "lat": -34.417,
+    "lng": 19.246,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "悬崖步道",
+      "海湾景观",
+      "精品餐饮"
+    ],
+    "sourceUrl": "https://www.themarinehotel.co.za/",
+    "bookingUrl": "https://www.themarinehotel.co.za/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "The Marine 官方资料",
+        "url": "https://www.themarinehotel.co.za/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 4500,
+        "high": 10500,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.themarinehotel.co.za/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hermanus-hotel-harbour-house",
+    "cityId": "hermanus",
+    "kind": "hotel",
+    "name": "Harbour House 港湾酒店",
+    "nameEn": "Harbour House Hotel",
+    "provider": "Harbour House Hotel",
+    "tagline": "旧港附近的客房与公寓",
+    "description": "房源分布在修复宅邸、新翼及步行可达的 Harbour Square，部分单元有小厨房。适合喜欢自己安排餐饮的人，预订时确认具体楼栋、景观和是否有厨房。",
+    "address": "22 Harbour Road, Hermanus",
+    "lat": -34.421,
+    "lng": 19.243,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "旧港位置",
+      "公寓可选",
+      "部分单元有小厨房"
+    ],
+    "sourceUrl": "https://harbourhousehotel.co.za/rooms/",
+    "bookingUrl": "https://harbourhousehotel.co.za/rooms/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Harbour House Hotel 官方资料",
+        "url": "https://harbourhousehotel.co.za/rooms/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2400,
+        "high": 6000,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://harbourhousehotel.co.za/rooms/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hermanus-hotel-birkenhead",
+    "cityId": "hermanus",
+    "kind": "hotel",
+    "name": "Birkenhead House 海崖酒店",
+    "nameEn": "Birkenhead House",
+    "provider": "Birkenhead House",
+    "tagline": "Voëlklip 海崖上的小型奢华住处",
+    "description": "位于市中心以东的海崖，拥有不同山景与海景客房、餐饮和 SPA。适合把酒店作为度假主场；套餐常有不同含餐口径，须按两位成人入住的总价比较。",
+    "address": "119 11th Street, Voëlklip, Hermanus",
+    "lat": -34.417,
+    "lng": 19.271,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海崖位置",
+      "小型精品酒店",
+      "海岸餐饮"
+    ],
+    "sourceUrl": "https://www.theroyalportfolio.com/birkenhead-house",
+    "bookingUrl": "https://www.theroyalportfolio.com/birkenhead-house",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费",
+      "核对住客年龄限制、每人或每房报价及套餐包含内容；海景房仍不保证遇见鲸。"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Birkenhead House 官方资料",
+        "url": "https://www.theroyalportfolio.com/birkenhead-house",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "name": "Birkenhead 官方价目入口",
+        "url": "https://www.theroyalportfolio.com/birkenhead-house/rates/",
+        "kind": "official",
+        "scope": "年度房价查询入口；此处为编辑预算区间",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 18000,
+        "high": 45000,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.theroyalportfolio.com/birkenhead-house",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hermanus-hotel-auberge-burgundy",
+    "cityId": "hermanus",
+    "kind": "hotel",
+    "name": "Auberge Burgundy 庭院酒店",
+    "nameEn": "Auberge Burgundy Boutique Hotel",
+    "provider": "Auberge Burgundy Boutique Hotel",
+    "tagline": "港口旁的普罗旺斯风格庭院",
+    "description": "小型酒店以庭院、露台和步行可达的海边餐饮为特色，适合不想全天开车的短住。房型分布与朝向不同，不把靠海位置等同于每间都看海。",
+    "address": "16 Harbour Road, Hermanus",
+    "lat": -34.421,
+    "lng": 19.243,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "庭院花园",
+      "旧港位置",
+      "精品客房"
+    ],
+    "sourceUrl": "https://www.auberge.co.za/",
+    "bookingUrl": "https://www.auberge.co.za/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Auberge Burgundy Boutique Hotel 官方资料",
+        "url": "https://www.auberge.co.za/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 2400,
+        "high": 5500,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.auberge.co.za/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  },
+  {
+    "id": "ex-depth-hermanus-hotel-windsor",
+    "cityId": "hermanus",
+    "kind": "hotel",
+    "name": "Windsor 温莎酒店",
+    "nameEn": "Windsor Hotel",
+    "provider": "Windsor Hotel",
+    "tagline": "海滨大道上的经典住宿",
+    "description": "Marine Drive 上的传统酒店，可比较普通客房和海景房，为海岸游览保留较清晰的住宿预算。海景、早餐与停车条件按具体订单确认，旺季应提前订房。",
+    "address": "49 Marine Drive, Hermanus",
+    "lat": -34.421,
+    "lng": 19.239,
+    "coordinateAccuracy": "approximate",
+    "coordinateBasis": "approximate-property-area",
+    "locationNote": "位置为酒店所在区域的近似参考；导航和车辆入口以酒店确认单为准。",
+    "durationMinutes": 0,
+    "features": [
+      "海滨大道",
+      "经典酒店",
+      "海景房可选"
+    ],
+    "sourceUrl": "https://windsorhotel.co.za/contact-windsor-hotel/",
+    "bookingUrl": "https://windsorhotel.co.za/contact-windsor-hotel/",
+    "checkedAt": "2026-09-24",
+    "sourceCheckedAt": "2026-09-24",
+    "requirements": [
+      "按入住日期、人数、年龄与床型重新查询",
+      "核对退改、早餐、旅游税及押金；所列设施不代表全部免费"
+    ],
+    "availabilityNote": "已核对酒店身份和公开服务；房价均为编辑预算，未查询指定日期库存，也未保留房间。",
+    "includesTransfers": false,
+    "sourceReferences": [
+      {
+        "name": "Windsor Hotel 官方资料",
+        "url": "https://windsorhotel.co.za/contact-windsor-hotel/",
+        "kind": "official",
+        "scope": "酒店身份、区域和公开设施；未查询日期库存",
+        "checkedAt": "2026-09-24"
+      },
+      {
+        "name": "Windsor 酒店官网",
+        "url": "https://windsorhotel.co.za/",
+        "kind": "official",
+        "scope": "酒店定位与预订入口；主页抓取间歇失败，联系页可访问",
+        "checkedAt": "2026-09-24"
+      }
+    ],
+    "priceOptions": [
+      {
+        "id": "room-budget",
+        "name": "双人入住客房预算",
+        "description": "按两位成人共住一间一晚估算；具体房型、景观与餐标待选择",
+        "low": 1400,
+        "high": 3300,
+        "currency": "ZAR",
+        "unit": "room-night",
+        "partyCapacity": 2,
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://windsorhotel.co.za/contact-windsor-hotel/",
+        "note": "编辑预算区间，不是指定日期可订报价。若官网按每人分住报价，应按实际入住人数换算后比较；旺季、活动期与升级房型可能超出区间。",
+        "includes": [
+          "两位成人共住一间客房的一晚基础预算"
+        ],
+        "excludes": [
+          "未明确包含的餐饮、旅游税、加床、接送、SPA和付费活动"
+        ],
+        "mealTypes": []
+      }
+    ],
+    "imagePolicy": "exact-or-illustration"
+  }
+]

@@ -3,6 +3,7 @@ import { resolveExperienceSelections, experienceLineId, coveredMealSlots, MEAL_W
 import { buildJourneyWindows } from './journey-windows.mjs';
 import { illustrationFor } from './media.mjs';
 import { getDestinationPlanningProfile, getAttractionActivityType, getAttractionVisitRole, isSupportingVisit, destinationAttractionPriority, automaticDayCapacity } from './destination-planning.mjs';
+import { applyExperienceDates, experienceDateInfo, experienceIsPending } from './experience-discovery.mjs';
 const round = n => Math.round((n + Number.EPSILON) * 100) / 100;
 const attractionMap = city => new Map((city?.attractions || []).map(a => [a.id, a]));
 const validCoordinate = p => Number.isFinite(p?.lat) && Number.isFinite(p?.lng) && Math.abs(p.lat) <= 90 && Math.abs(p.lng) <= 180;
@@ -244,7 +245,7 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
     const city = cityMap.get(stop.cityId);
     if (!city) throw new Error('目的地不存在');
     const assignments = buildDayAssignments(stop, city), byId = attractionMap(city);
-    const selectedExperiences = resolveExperienceSelections(stop, city);
+    const selectedExperiences = applyExperienceDates(resolveExperienceSelections(stop, city), dateAt(plan.departureDate, elapsed));
     const hotel = selectedExperiences.find(row => row.experience.kind === 'hotel');
     const baseStart = parseStartTime(stop.startTime);
     const foodLine = lineMap.get(`stop-${stopIndex}-food`), transportLine = lineMap.get(`stop-${stopIndex}-transport`);
@@ -258,7 +259,7 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       const stayNights = plan.mode === 'stay' ? stop.days : stop.days - (stopIndex === plan.stops.length - 1 ? 1 : 0);
       const hasNightAfterToday = localDay < stayNights && (!budget || (lineMap.get(`stop-${stopIndex}-lodging`)?.quantity || 0) > 0);
       const constrained = Boolean(dayWindow.inbound || dayWindow.outbound || dayWindow.reservedMinutes || dayWindow.startMinute > 0 || dayWindow.endMinute < 1440);
-      const activities = selectedExperiences.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === localDay && row.selection.scheduleStatus !== 'needs-more-days');
+      const activities = selectedExperiences.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === localDay && !experienceIsPending(row));
       const anchor = hotel && validCoordinate(hotel.experience) ? { travelGroup: city.travelGroup, ...hotel.experience, id: `${city.id}-selected-hotel` } : { id: `${city.id}-center-reference`, name: '住宿区域待填写（市中心参考）', lat: city.lat, lng: city.lng, travelGroup: city.travelGroup };
       const ids = [...ordinaryIds];
       for (const row of activities) {
@@ -533,8 +534,8 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       const attractionTotal = budget ? round(items.filter(i => i.kind === 'attraction').reduce((s, i) => s + (i.cost.amount || 0), 0)) : null;
       const foodTotal = budget ? round(items.filter(i => i.kind === 'meal').reduce((s, i) => s + (i.cost.amount || 0), 0)) : null;
       const experienceTotal = budget ? round(items.filter(i => i.kind === 'experience').reduce((s, i) => s + (i.cost.amount || 0), 0)) : null;
-      const unscheduled = selectedExperiences.filter(row => row.selection.scheduleStatus === 'needs-more-days' && row.selection.dayIndex === localDay);
-      for (const row of unscheduled) warnings.push({ code: 'experience-needs-days', severity: 'danger', message: `${row.experience.name}已选择并计入预算，但无法装入现有可用天数，尚未生成可执行时段；请增加天数或调整选择。`, experienceId: row.experience.id });
+      const unscheduled = selectedExperiences.filter(row => experienceIsPending(row) && row.selection.dayIndex === localDay);
+      for (const row of unscheduled) warnings.push({ code: row.selection.scheduleStatus === 'needs-date-check' ? 'experience-needs-date' : 'experience-needs-days', severity: 'warning', message: row.selection.scheduleStatus === 'needs-date-check' ? `${row.experience.name}仅保留愿望预算，尚未排入当天活动。${row.availability?.note || '请先核对活动日期。'}` : `${row.experience.name}已选择并计入预算，但无法装入现有可用天数，尚未生成可执行时段；请增加天数或调整选择。`, experienceId: row.experience.id });
       const intercityTotal = budget ? round(items.filter(i => i.journey && i.kind !== 'journey-transfer').reduce((sum, item) => sum + (item.cost.amount || 0), 0)) : null;
       const transferTotal = budget ? round(items.filter(i => i.kind === 'journey-transfer').reduce((sum, item) => sum + (item.cost.amount || 0), 0)) : null;
       const missingCategories = [...new Set(items.filter(item => item.cost?.missingPrice).map(item => lineMap.get(item.cost.budgetLineId)?.category).filter(Boolean))];
@@ -619,9 +620,14 @@ export function suggestStopPlan(stop, city, { candidateIds, includeOptional = fa
   const activityRows = requestedRows.filter(row => row.experience.kind === 'experience').sort((a, b) => b.durationMinutes - a.durationMinutes);
   for (const row of activityRows) {
     const preferredDay = row.selection.dayIndex;
-    const consideredDays = new Set([preferredDay, ...availableCandidateDays]);
+    // Equal time windows can fall in different seasons or on confirmed event
+    // dates, so experiences must consider every calendar day of this stop.
+    const consideredDays = new Set([preferredDay, ...Array.from({ length: days }, (_, day) => day)]);
     let best = null;
+    let eligibleDates = 0;
     for (const day of consideredDays) {
+      if (!experienceDateInfo(row.experience, dateAt(departureDate, day), row.selection).schedulable) continue;
+      eligibleDates++;
       const window = windowFor(day);
       if (window.travelOnly || window.maxLocalActiveMinutes <= 0) continue;
       const trialRow = { ...row, selection: { ...row.selection, dayIndex: day } };
@@ -638,9 +644,9 @@ export function suggestStopPlan(stop, city, { candidateIds, includeOptional = fa
       selectedRows.push(best.row);
       if (best.row.selection.dayIndex !== preferredDay) smartWarnings.push({ code: 'experience-moved', severity: 'info', experienceId: row.experience.id, message: `${row.experience.name}已移至第 ${best.row.selection.dayIndex + 1} 天，避免同日安排过满。` });
     } else {
-      selectedRows.push({ ...row, selection: { ...row.selection, scheduleStatus: 'needs-more-days' } });
-      unscheduledCount++;
-      smartWarnings.push({ code: 'experience-needs-days', severity: 'warning', experienceId: row.experience.id, message: `${row.experience.name}保留在选择及预算中；现有天数不能排入，请增加天数或调整套餐/时段。` });
+      selectedRows.push({ ...row, selection: { ...row.selection, scheduleStatus: eligibleDates ? 'needs-more-days' : 'needs-date-check' } });
+      if (eligibleDates) unscheduledCount++;
+      smartWarnings.push({ code: eligibleDates ? 'experience-needs-days' : 'experience-needs-date', severity: 'warning', experienceId: row.experience.id, message: eligibleDates ? `${row.experience.name}保留在选择及预算中；现有天数不能排入，请增加天数或调整套餐/时段。` : `${row.experience.name}的季节或场次尚未确认，先保留愿望预算；核对具体日期后再安排行程。` });
     }
   }
   for (const id of candidates) {
@@ -661,7 +667,7 @@ export function suggestStopPlan(stop, city, { candidateIds, includeOptional = fa
     for (const day of [...candidateDays].sort((a, b) => a - b)) {
       const window = windowFor(day);
       if (window.travelOnly || window.maxLocalActiveMinutes <= 0) continue;
-      const explicitActivities = selectedRows.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === day && row.selection.scheduleStatus !== 'needs-more-days').length;
+      const explicitActivities = selectedRows.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === day && !experienceIsPending(row)).length;
       const currentMainCount = mainCount(dayPlans[day]) + explicitActivities;
       if (!requested && !supplement && destinationProfile.maxAutomaticPlacesPerDay !== null && currentMainCount >= destinationProfile.maxAutomaticPlacesPerDay) continue;
       if (closedOn(byId.get(id), dateAt(departureDate, day))) continue;

@@ -1,0 +1,20 @@
+{
+  "food-depth-tambaqui": {
+    "url": "/images/art-food-depth-tambaqui-20260923.webp",
+    "alt": "炭烤亚马孙坦巴基鱼 · AI 菜品示意图",
+    "scope": "illustration",
+    "illustrationSubject": "food-depth-tambaqui",
+    "contextNote": "为炭烤亚马孙坦巴基鱼单独绘制的 AI 菜品示意图，用于认识菜式；不是餐馆实拍，实际做法与摆盘以现场为准。",
+    "credit": "途算 · AI 菜品插画",
+    "license": "AI-generated project artwork",
+    "sourceUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "licenseUrl": "https://github.com/ducky-yyds/tour-fee/blob/main/docs/generated-food-media.md",
+    "checkedAt": "2026-09-23",
+    "width": 768,
+    "height": 512,
+    "bytes": 107208,
+    "generator": "Built-in imagegen",
+    "prompt": "Use case: illustration-story. Asset type: travel website food card, landscape 3:2 composition. Create one refined hand-painted editorial food illustration of Brazilian Amazon tambaqui assado, specifically one half of a broad deep-bodied tambaqui fish split lengthwise and charcoal grilled, dark crisp skin along the edge and ivory flaky flesh visible, laid flat on a simple ceramic platter. Small sides of coarse toasted cassava flour, plain rice, sliced lime and tomato-onion vinaigrette. Warm natural daylight, restrained painterly brush texture, realistic food proportions, inviting but clearly an illustration, unbranded wooden restaurant tabletop in Manaus, no people, no lettering, no logos, no collage. This is a dish illustration, not a fabricated photo of a particular restaurant. Do not show a salmon, a tiny sardine, a giant whole live fish, or generic sushi.",
+    "modifications": "WebP web asset, proportionally resized; no content retouching."
+  }
+}

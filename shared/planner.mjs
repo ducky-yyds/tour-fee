@@ -4,6 +4,7 @@ import { buildDayAssignments } from './itinerary.mjs';
 import { cityCostIsMissing } from './airport-catalog.mjs';
 import { resolveJourneyMode, islandSurfaceBudget, getJourneyModePreference } from './journey-mode.mjs';
 import { resolveExperienceSelections, experienceLineId, experiencePriceValues, experiencePriceNote, coveredMealSlots, MEAL_WEIGHTS, validateExperienceParty } from './experiences.mjs';
+import { applyExperienceDates } from './experience-discovery.mjs';
 export { resolveExperienceSelections, experienceSelectionKey, experienceLineId, applyExperienceSelection, removeExperienceSelection } from './experiences.mjs';
 export { buildDayAssignments, optimizeDayRoute, getVisitDurationRange, suggestStopPlan, mergeCustomAttractions } from './itinerary.mjs';
 export const CATEGORY_LABELS = { intercity: '往返与城际', lodging: '住宿', food: '餐饮', transport: '市内交通', attractions: '景点门票', experiences: '特色体验', transfer: '车站与机场接驳', utilities: '水电网络', misc: '日常杂费', insurance: '旅行保险', connectivity: '通信上网', visa: '签证与入境', reserve: '机动预算' };
@@ -75,6 +76,11 @@ function validatePlan(plan, cities) {
     return { ...stop, days, attractionIds, city, experiences };
   });
   const days = stops.reduce((sum, s) => sum + s.days, 0);
+  let experienceDayOffset = 0;
+  for (const stop of stops) {
+    stop.experiences = applyExperienceDates(stop.experiences, addDays(plan.departureDate, experienceDayOffset));
+    experienceDayOffset += stop.days;
+  }
   if (days > 730) throw new Error('行程最多支持 730 天');
   const travelers = integer(plan.travelers ?? 1, '旅行人数', 1, 20);
   stops.forEach(stop => stop.experiences.forEach(row => validateExperienceParty(row, travelers)));
@@ -202,8 +208,9 @@ export function calculatePlan(plan, cities, rates) {
     }
     for (const { selection, experience, option } of stop.experiences.filter(row => row.experience.kind !== 'hotel')) {
       const dining = experience.kind === 'restaurant', quantity = option.unit === 'booking' ? Math.ceil(travelers / option.partyCapacity) : travelers;
-      add({ id: experienceLineId(index, selection), category: dining ? 'food' : 'experiences', label: `${city.name} · ${experience.name} · ${option.name}`, cityId: city.id, experienceId: experience.id, optionId: option.id, dayIndex: selection.dayIndex, mealType: selection.mealType, scheduleStatus: selection.scheduleStatus, quantity, unit: option.unit === 'booking' ? `单 / 每单最多${option.partyCapacity}人` : '人', values: experiencePriceValues(option), nativeCurrency: option.currency, sourceType: option.type, sourceName: option.sourceName || experience.provider || experience.name, sourceUrl: option.sourceUrl || experience.sourceUrl, bookingUrl: experience.bookingUrl, checkedAt: option.checkedAt ?? (option.type === 'official' ? experience.checkedAt : null), note: `${experiencePriceNote(experience, option)} ${dining ? '已替换该日对应餐次的基础餐费，不重复计餐饮预留。' : selection.scheduleStatus === 'needs-more-days' ? '所选体验仍计入预算，但日程容量不足，尚未安排；请增加天数或移除。' : '独立体验费用，未另加普通景点门票。'}` });
+      add({ id: experienceLineId(index, selection), category: dining ? 'food' : 'experiences', label: `${city.name} · ${experience.name} · ${option.name}`, cityId: city.id, experienceId: experience.id, optionId: option.id, dayIndex: selection.dayIndex, mealType: selection.mealType, scheduleStatus: selection.scheduleStatus, quantity, unit: option.unit === 'booking' ? `单 / 每单最多${option.partyCapacity}人` : '人', values: experiencePriceValues(option), nativeCurrency: option.currency, sourceType: option.type, sourceName: option.sourceName || experience.provider || experience.name, sourceUrl: option.sourceUrl || experience.sourceUrl, bookingUrl: experience.bookingUrl, checkedAt: option.checkedAt ?? (option.type === 'official' ? experience.checkedAt : null), note: `${experiencePriceNote(experience, option)} ${dining ? '已替换该日对应餐次的基础餐费，不重复计餐饮预留。' : selection.scheduleStatus === 'needs-more-days' ? '所选体验仍计入预算，但日程容量不足，尚未安排；请增加天数或移除。' : selection.scheduleStatus === 'needs-date-check' ? '日期尚未确认，仅计入愿望预算，未排入日程。' : '独立体验费用，未另加普通景点门票。'}` });
       if (selection.scheduleStatus === 'needs-more-days') warnings.push(`${experience.name}尚未找到可行日程，费用已保留；建议增加停留天数后重新安排。`);
+      if (selection.scheduleStatus === 'needs-date-check') warnings.push(`${experience.name}的活动日期或季节尚未确认；费用仅作愿望预算保留，未安排可执行时段，请核对官网并在详情中确认日期。`);
     }
     const assignedDays = new Map(buildDayAssignments(stop, city).flatMap((ids, day) => ids.map(id => [id,day])));
     const paidPasses = new Set();

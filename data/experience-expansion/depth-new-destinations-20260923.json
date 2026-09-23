@@ -1,0 +1,2935 @@
+[
+  {
+    "id": "ex-depth-essaouira-gnaoua",
+    "cityId": "essaouira",
+    "kind": "experience",
+    "name": "在格纳瓦音乐节听琴与铁响板",
+    "nameEn": "在格纳瓦音乐节听琴与铁响板",
+    "provider": "Gnaoua 音乐节官网",
+    "tagline": "在索维拉的音乐节舞台认识 guembri 低音弦乐、铁响板和合奏节奏。",
+    "description": "在索维拉的音乐节舞台认识 guembri 低音弦乐、铁响板和合奏节奏。",
+    "localContext": "格纳瓦音乐连接撒哈拉以南非洲传统与摩洛哥城市文化，现场演出与宗教仪式不能混为一谈。",
+    "experienceType": "festival",
+    "durationMinutes": 180,
+    "lat": 31.512,
+    "lng": -9.77,
+    "coordinateAccuracy": "approximate",
+    "address": "索维拉音乐节官方当届场地，按节目单确认",
+    "features": [
+      "节庆日期需核对"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 600,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.festival-gnaoua.net/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.festival-gnaoua.net/",
+    "bookingUrl": "https://www.festival-gnaoua.net/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Gnaoua 音乐节官网",
+        "url": "https://www.festival-gnaoua.net/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        6
+      ],
+      "note": "通常在六月举办；此处不预设下一届日期，需查看主办方节目及免费、付费场次。",
+      "dateSpecific": true
+    },
+    "article": "Gnawa_and_World_Music_Festival",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-essaouira-thuya",
+    "cityId": "essaouira",
+    "kind": "experience",
+    "name": "认识 Thuya 木镶嵌与木工作坊",
+    "nameEn": "认识 Thuya 木镶嵌与木工作坊",
+    "provider": "摩洛哥国家旅游局·传统手艺",
+    "tagline": "在麦地那工艺店观察木纹拼嵌、雕刻和抛光，先询问店家是否方便讲解或拍摄。",
+    "description": "在麦地那工艺店观察木纹拼嵌、雕刻和抛光，先询问店家是否方便讲解或拍摄。",
+    "localContext": "索维拉的 Thuya 木工传统强调天然纹理与镶嵌；这是手艺观察，不代表自动包含一堂动手课。",
+    "experienceType": "craft",
+    "durationMinutes": 90,
+    "lat": 31.514,
+    "lng": -9.771,
+    "coordinateAccuracy": "approximate",
+    "address": "索维拉麦地那手工艺店；购买作品另计",
+    "features": [
+      "手艺与传统"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "自助体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 0,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://visitmorocco.com/en/discover-morocco/traditional-craftsmanship-revisited",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "公共区域自行观察"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://visitmorocco.com/en/discover-morocco/traditional-craftsmanship-revisited",
+    "bookingUrl": "https://visitmorocco.com/en/discover-morocco/traditional-craftsmanship-revisited",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·传统手艺",
+        "url": "https://visitmorocco.com/en/discover-morocco/traditional-craftsmanship-revisited",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Marquetry",
+    "photoFile": "EssaouiraWoodcarving.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:EssaouiraWoodcarving.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "imageScope": "nearby",
+    "imageContextNote": "当地相关地点或工艺的实景参考，不代表某个体验套餐的供应商或设施。"
+  },
+  {
+    "id": "ex-depth-essaouira-surf",
+    "cityId": "essaouira",
+    "kind": "experience",
+    "name": "西迪考基海风与冲浪入门",
+    "nameEn": "西迪考基海风与冲浪入门",
+    "provider": "摩洛哥国家旅游局·索维拉海岸",
+    "tagline": "前往城南海岸，由当地教练按当天浪况选择新手练习区；预留往返与换装时间。",
+    "description": "前往城南海岸，由当地教练按当天浪况选择新手练习区；预留往返与换装时间。",
+    "localContext": "大西洋风浪塑造了这片海岸的生活节奏，海滩下午不必以看完景点为目标。",
+    "experienceType": "marine",
+    "durationMinutes": 300,
+    "lat": 31.353,
+    "lng": -9.797,
+    "coordinateAccuracy": "approximate",
+    "address": "Sidi Kaouki 海岸，距索维拉市区约半小时以上车程",
+    "features": [
+      "海洋体验"
+    ],
+    "requirements": [
+      "教练、装备和接送分别询价；强风浪时改期；300 分钟含交通时间预留，但费用不默认含接送。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 450,
+        "high": 1000,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+    "bookingUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·索维拉海岸",
+        "url": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "essaouira-kaouki",
+    "natureHighlights": [
+      "大西洋海岸",
+      "风浪与沙丘"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-rabat-river",
+    "cityId": "rabat",
+    "kind": "experience",
+    "name": "布雷格雷格河口皮划艇体验",
+    "nameEn": "布雷格雷格河口皮划艇体验",
+    "provider": "摩洛哥国家旅游局·拉巴特水上活动",
+    "tagline": "在乌达雅堡下的水域按俱乐部安排体验划艇，以水上视角看河口两岸。",
+    "description": "在乌达雅堡下的水域按俱乐部安排体验划艇，以水上视角看河口两岸。",
+    "localContext": "拉巴特与萨累隔河相望，河流同时是景观、通勤背景与休闲场所。",
+    "experienceType": "marine",
+    "durationMinutes": 120,
+    "lat": 34.029,
+    "lng": -6.832,
+    "coordinateAccuracy": "approximate",
+    "address": "布雷格雷格河口俱乐部集合点，按预约确认",
+    "features": [
+      "海洋体验"
+    ],
+    "requirements": [
+      "确认是否含指导、救生衣及适合初学者的水域；不自行穿越航道。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 200,
+        "high": 500,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://visitmorocco.com/en/travel/rabat/beach",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://visitmorocco.com/en/travel/rabat/beach",
+    "bookingUrl": "https://visitmorocco.com/en/travel/rabat/beach",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特水上活动",
+        "url": "https://visitmorocco.com/en/travel/rabat/beach",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Bou_Regreg",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-rabat-pottery",
+    "cityId": "rabat",
+    "kind": "experience",
+    "name": "跨河到 Oulja 看陶艺与篮编",
+    "nameEn": "跨河到 Oulja 看陶艺与篮编",
+    "provider": "Visit Rabat·Oulja 陶艺作坊区",
+    "tagline": "前往萨累一侧的工艺作坊区，看器皿成形、装饰与不同材质手艺。",
+    "description": "前往萨累一侧的工艺作坊区，看器皿成形、装饰与不同材质手艺。",
+    "localContext": "Oulja 是活跃的制作与交易空间，先与工匠沟通；参观不等于私人制作课程。",
+    "experienceType": "craft",
+    "durationMinutes": 180,
+    "lat": 34.005,
+    "lng": -6.787,
+    "coordinateAccuracy": "approximate",
+    "address": "Complexe des Potiers de l’Oulja, Salé；从拉巴特跨河接驳另计",
+    "features": [
+      "手艺与传统"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "自助体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 0,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.visitrabat.com/en/lieux/omplexe-des-potiers-oulja/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "公共区域自行观察"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.visitrabat.com/en/lieux/omplexe-des-potiers-oulja/",
+    "bookingUrl": "https://www.visitrabat.com/en/lieux/omplexe-des-potiers-oulja/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Visit Rabat·Oulja 陶艺作坊区",
+        "url": "https://www.visitrabat.com/en/lieux/omplexe-des-potiers-oulja/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Salé",
+    "photoFile": "Oulja Complex (Temporary) - Salé - Morocco - October 2025.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Oulja_Complex_(Temporary)_-_Sal%C3%A9_-_Morocco_-_October_2025.jpg",
+    "photoSourceLicense": "CC BY-SA 4.0",
+    "imageScope": "nearby",
+    "imageContextNote": "当地相关地点或工艺的实景参考，不代表某个体验套餐的供应商或设施。"
+  },
+  {
+    "id": "ex-depth-rabat-modern-art",
+    "cityId": "rabat",
+    "kind": "experience",
+    "name": "从摩洛哥现当代艺术认识首都",
+    "nameEn": "从摩洛哥现当代艺术认识首都",
+    "provider": "摩洛哥国家博物馆基金会·穆罕默德六世美术馆",
+    "tagline": "以一场当前展览为主线慢看穆罕默德六世美术馆，留意作品怎样回应城市与社会。",
+    "description": "以一场当前展览为主线慢看穆罕默德六世美术馆，留意作品怎样回应城市与社会。",
+    "localContext": "摩洛哥不仅有旧城与手工艺，现代创作者也在讨论身份、日常与全球交流。",
+    "experienceType": "local-life",
+    "durationMinutes": 150,
+    "lat": 34.013,
+    "lng": -6.832,
+    "coordinateAccuracy": "approximate",
+    "address": "2 Avenue Moulay Hassan, Rabat",
+    "features": [
+      "城市生活"
+    ],
+    "requirements": [
+      "本项含同馆参观预算，若已选择同名景点请二选一，避免重复。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 40,
+        "high": 100,
+        "currency": "MAD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.fnm.ma/museums/31",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.fnm.ma/museums/31",
+    "bookingUrl": "https://www.fnm.ma/museums/31",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家博物馆基金会·穆罕默德六世美术馆",
+        "url": "https://www.fnm.ma/museums/31",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "rabat-mmvi",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-hurghada-reef",
+    "cityId": "hurghada",
+    "kind": "experience",
+    "name": "红海珊瑚礁双潜或初体验咨询",
+    "nameEn": "红海珊瑚礁双潜或初体验咨询",
+    "provider": "PADI·White Dolphin Diving Center",
+    "tagline": "从赫尔格达潜店选择适合资质的出海项目，潜点按海况、能见度和潜伴经验决定。",
+    "description": "从赫尔格达潜店选择适合资质的出海项目，潜点按海况、能见度和潜伴经验决定。",
+    "localContext": "珊瑚礁、礁壁与鱼群是红海的特色；有证双潜与新手体验潜水是不同产品，预订时必须说明。",
+    "experienceType": "marine",
+    "durationMinutes": 420,
+    "lat": 27.215,
+    "lng": 33.84,
+    "coordinateAccuracy": "approximate",
+    "address": "White Dolphin Diving Center, Villa 11c, El Hadaba；码头按确认单",
+    "features": [
+      "海洋体验"
+    ],
+    "requirements": [
+      "资质、健康问卷、气瓶装备、海洋公园费和接送需逐项确认；浮潜不能视为深潜等价产品。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 3000,
+        "high": 6500,
+        "currency": "EGP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.padi.com/dive-center/egypt/white-dolphin-diving-center-2/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.padi.com/dive-center/egypt/white-dolphin-diving-center-2/",
+    "bookingUrl": "https://www.padi.com/dive-center/egypt/white-dolphin-diving-center-2/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "PADI·White Dolphin Diving Center",
+        "url": "https://www.padi.com/dive-center/egypt/white-dolphin-diving-center-2/",
+        "kind": "dive-reference",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "PADI·赫尔格达潜水指南",
+        "url": "https://www.padi.com/diving-in/hurghada/",
+        "kind": "dive-reference",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "hurghada-redsea",
+    "wildlife": {
+      "species": [
+        "狮子鱼",
+        "海鳗",
+        "鹦嘴鱼"
+      ],
+      "encounterNote": "物种来自区域潜水指南；并非每个潜点或每次下水都能看到。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-hurghada-giftun",
+    "cityId": "hurghada",
+    "kind": "experience",
+    "name": "把一整个午后留给吉夫顿海岛",
+    "nameEn": "把一整个午后留给吉夫顿海岛",
+    "provider": "埃及旅游局·赫尔格达",
+    "tagline": "坐船前往吉夫顿群岛选定海滩区，留时间看浅水色带、休息与按海况浮潜。",
+    "description": "坐船前往吉夫顿群岛选定海滩区，留时间看浅水色带、休息与按海况浮潜。",
+    "localContext": "沙洲、离岸岛屿和珊瑚水域是赫尔格达不同于尼罗河城市的风景。",
+    "experienceType": "nature",
+    "durationMinutes": 420,
+    "lat": 27.2579,
+    "lng": 33.8116,
+    "coordinateAccuracy": "approximate",
+    "address": "赫尔格达出海码头；含候船及往返时间预留",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "确认船费、沙滩区、保护区费、午餐和接送清单；若已选吉夫顿景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 1800,
+        "high": 4500,
+        "currency": "EGP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+    "bookingUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "hurghada-giftun",
+    "natureHighlights": [
+      "浅海沙洲",
+      "离岸岛屿",
+      "红海水色"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-hurghada-market",
+    "cityId": "hurghada",
+    "kind": "experience",
+    "name": "达哈尔市场里的埃及早餐",
+    "nameEn": "达哈尔市场里的埃及早餐",
+    "provider": "埃及旅游局·赫尔格达",
+    "tagline": "在老城市场周边找炖蚕豆、蚕豆炸丸和面包早餐，观察度假区之外的采购日常。",
+    "description": "在老城市场周边找炖蚕豆、蚕豆炸丸和面包早餐，观察度假区之外的采购日常。",
+    "localContext": "从大众早餐和果蔬摊认识居民的生活，比只在全包酒店用餐更接近城市本身。",
+    "experienceType": "food-life",
+    "durationMinutes": 90,
+    "lat": 27.258,
+    "lng": 33.812,
+    "coordinateAccuracy": "approximate",
+    "address": "El Dahar 老城早餐店；按实际菜单点单",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "此项是小食体验预算，若作为完整早餐请相应降低当日基础餐费。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 150,
+        "high": 400,
+        "currency": "EGP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+    "bookingUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "hurghada-dahar",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-mombasa-coral",
+    "cityId": "mombasa",
+    "kind": "experience",
+    "name": "尼亚利出发的珊瑚礁浮潜",
+    "nameEn": "尼亚利出发的珊瑚礁浮潜",
+    "provider": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+    "tagline": "由海洋公园附近的正规水上活动点乘船，按潮位在允许区域看珊瑚与海草床。",
+    "description": "由海洋公园附近的正规水上活动点乘船，按潮位在允许区域看珊瑚与海草床。",
+    "localContext": "这里是斯瓦希里海岸的活珊瑚生态，不是水族馆；水况会改变可见范围。",
+    "experienceType": "marine",
+    "durationMinutes": 240,
+    "lat": -4.047,
+    "lng": 39.707,
+    "coordinateAccuracy": "approximate",
+    "address": "Nyali 海洋公园入口或经营方确认码头",
+    "features": [
+      "海洋体验"
+    ],
+    "requirements": [
+      "预算含船、装备与入园的综合估算；KWS 外国非居民成人入园公开价 USD 25，船及装备另由经营方报价。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 5500,
+        "high": 12000,
+        "currency": "KES",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "基础船程",
+          "浮潜装备预留",
+          "海洋公园入园预算"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+    "bookingUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+        "url": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Mombasa_Marine_National_Park_and_Reserve",
+    "wildlife": {
+      "species": [
+        "笛鲷",
+        "石斑鱼",
+        "刺尾鱼"
+      ],
+      "encounterNote": "区域物种资料不保证遇见；按当天潮位和能见度选择。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-mombasa-dhow",
+    "cityId": "mombasa",
+    "kind": "experience",
+    "name": "乘独桅帆船听海风与斯瓦希里音乐",
+    "nameEn": "乘独桅帆船听海风与斯瓦希里音乐",
+    "provider": "肯尼亚旅游局·黄昏独桅帆船",
+    "tagline": "傍晚登上 dhow 帆船看海港与海岸，按实际套餐选择晚餐或纯航行。",
+    "description": "傍晚登上 dhow 帆船看海港与海岸，按实际套餐选择晚餐或纯航行。",
+    "localContext": "印度洋贸易传统仍留在船型、音乐与餐桌里，黄昏航行适合把节奏放慢。",
+    "experienceType": "local-life",
+    "durationMinutes": 210,
+    "lat": -4.0435,
+    "lng": 39.6682,
+    "coordinateAccuracy": "approximate",
+    "address": "蒙巴萨经营方确认的 dhow 登船码头",
+    "features": [
+      "城市生活"
+    ],
+    "requirements": [
+      "船程、晚餐、饮品与接送并非所有套餐都相同；若含晚餐可在餐饮偏好中扣减相应预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 9000,
+        "high": 18000,
+        "currency": "KES",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://magicalkenya.com/experience/evening-sunset-dhow/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://magicalkenya.com/experience/evening-sunset-dhow/",
+    "bookingUrl": "https://magicalkenya.com/experience/evening-sunset-dhow/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·黄昏独桅帆船",
+        "url": "https://magicalkenya.com/experience/evening-sunset-dhow/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Dhow",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-mombasa-swahili",
+    "cityId": "mombasa",
+    "kind": "experience",
+    "name": "在老城尝香料饭和烤肉串",
+    "nameEn": "在老城尝香料饭和烤肉串",
+    "provider": "肯尼亚旅游局·蒙巴萨指南",
+    "tagline": "从 Kibokoni Road 一带的斯瓦希里餐馆开始，比较香料米饭、烤肉串与椰香小食。",
+    "description": "从 Kibokoni Road 一带的斯瓦希里餐馆开始，比较香料米饭、烤肉串与椰香小食。",
+    "localContext": "海港餐桌融合非洲、阿拉伯和南亚航路带来的食材与做法。",
+    "experienceType": "food-life",
+    "durationMinutes": 120,
+    "lat": -4.06,
+    "lng": 39.677,
+    "coordinateAccuracy": "approximate",
+    "address": "Barka Restaurant 及老城餐馆片区，菜单当天确认",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 1500,
+        "high": 4000,
+        "currency": "KES",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+    "bookingUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "mombasa-old-town",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-arusha-coffee",
+    "cityId": "arusha",
+    "kind": "experience",
+    "name": "梅鲁社区咖啡：从果实到手冲",
+    "nameEn": "梅鲁社区咖啡：从果实到手冲",
+    "provider": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+    "tagline": "在滕格鲁社区向导带领下看咖啡种植与加工，最后品尝现场准备的咖啡。",
+    "description": "在滕格鲁社区向导带领下看咖啡种植与加工，最后品尝现场准备的咖啡。",
+    "localContext": "梅鲁山火山坡地与家庭农业塑造了这里的咖啡生活，活动由社区接待而不是自行进入农庄。",
+    "experienceType": "food-life",
+    "durationMinutes": 240,
+    "lat": -3.37,
+    "lng": 36.79,
+    "coordinateAccuracy": "approximate",
+    "address": "Tengeru Cultural Tourism 集合处，阿鲁沙城东",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "240 分钟包含城东往返时间预留；是否含交通、家庭餐或表演须单独确认。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 70000,
+        "high": 160000,
+        "currency": "TZS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+    "bookingUrl": "https://tengeruculturaltourism.com/tours.html",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+        "url": "https://tengeruculturaltourism.com/tours.html",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "arusha-tengeru",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-arusha-colobus",
+    "cityId": "arusha",
+    "kind": "experience",
+    "name": "梅鲁山麓公园：疣猴与火山湖",
+    "nameEn": "梅鲁山麓公园：疣猴与火山湖",
+    "provider": "坦桑尼亚国家公园局·公园指南",
+    "tagline": "用完整一天在阿鲁沙国家公园选择森林、火山口和湖泊路线，车辆与步行段听从护林员安排。",
+    "description": "用完整一天在阿鲁沙国家公园选择森林、火山口和湖泊路线，车辆与步行段听从护林员安排。",
+    "localContext": "黑白疣猴偏好森林环境，莫梅拉湖则提供水鸟观察；不把这里的物种和塞伦盖蒂迁徙混为一谈。",
+    "experienceType": "wildlife",
+    "durationMinutes": 540,
+    "lat": -3.269,
+    "lng": 36.815,
+    "coordinateAccuracy": "approximate",
+    "address": "Arusha National Park；从阿鲁沙出发的整日路线",
+    "features": [
+      "野生动物观察"
+    ],
+    "requirements": [
+      "需合规向导、车辆和公园票；估算已考虑小团交通，具体包含项确认后再订。若已选国家公园景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 350000,
+        "high": 850000,
+        "currency": "TZS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "国家公园入园预算",
+          "车辆与司机向导的分摊预算"
+        ],
+        "excludes": [
+          "住宿",
+          "未说明的餐饮",
+          "步行或独木舟附加项目"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+    "bookingUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "坦桑尼亚国家公园局·公园指南",
+        "url": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "arusha-park",
+    "wildlife": {
+      "species": [
+        "黑白疣猴",
+        "大火烈鸟",
+        "小火烈鸟"
+      ],
+      "encounterNote": "数量与可见位置随水位、天气和动物移动变化，不保证遇见。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-arusha-craft",
+    "cityId": "arusha",
+    "kind": "experience",
+    "name": "看木雕、绘画与宝石制作的当代手艺",
+    "nameEn": "看木雕、绘画与宝石制作的当代手艺",
+    "provider": "Arusha Cultural Heritage Centre·参观",
+    "tagline": "在文化遗产中心选择工坊观察和艺术展陈，询问创作者的材质、题材与制作过程。",
+    "description": "在文化遗产中心选择工坊观察和艺术展陈，询问创作者的材质、题材与制作过程。",
+    "localContext": "阿鲁沙是北部艺术品与坦桑石交易的重要城市，观赏与购物可以分开。",
+    "experienceType": "craft",
+    "durationMinutes": 150,
+    "lat": -3.393,
+    "lng": 36.654,
+    "coordinateAccuracy": "approximate",
+    "address": "Cultural Heritage Centre, Dodoma Road, Arusha",
+    "features": [
+      "手艺与传统"
+    ],
+    "requirements": [
+      "这是公开工坊观察，非保证可参加的动手课；工匠在场与讲解须询问。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 20000,
+        "currency": "TZS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://culturalheritagetz.com/visit/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://culturalheritagetz.com/visit/",
+    "bookingUrl": "https://culturalheritagetz.com/visit/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Arusha Cultural Heritage Centre·参观",
+        "url": "https://culturalheritagetz.com/visit/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "arusha-art",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-hermanus-whale",
+    "cityId": "hermanus",
+    "kind": "experience",
+    "name": "沃克湾近海观察南露脊鲸",
+    "nameEn": "沃克湾近海观察南露脊鲸",
+    "provider": "Southern Right Charters·赫尔马努斯观鲸",
+    "tagline": "从赫尔马努斯新港乘持牌经营方船只，在合规距离内观察季节性到访的鲸类。",
+    "description": "从赫尔马努斯新港乘持牌经营方船只，在合规距离内观察季节性到访的鲸类。",
+    "localContext": "南露脊鲸利用南非南岸海湾繁殖与育幼；背形、喷气与尾鳍提供不同观察线索。",
+    "experienceType": "wildlife",
+    "durationMinutes": 210,
+    "lat": -34.432,
+    "lng": 19.225,
+    "coordinateAccuracy": "approximate",
+    "address": "Hermanus New Harbour，按 Southern Right Charters 确认集合点",
+    "features": [
+      "野生动物观察"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 1400,
+        "high": 2200,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.southernrightcharters.co.za/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.southernrightcharters.co.za/",
+    "bookingUrl": "https://www.southernrightcharters.co.za/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Southern Right Charters·赫尔马努斯观鲸",
+        "url": "https://www.southernrightcharters.co.za/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "note": "通常六月至十一月为主要鲸季；出海受风浪及动物迁徙影响。",
+      "dateSpecific": false
+    },
+    "article": "Southern_right_whale",
+    "imageScope": "nearby",
+    "imageContextNote": "南露脊鲸物种参考照片，不代表本次航程或拍摄地点。",
+    "wildlife": {
+      "species": [
+        "南露脊鲸",
+        "座头鲸"
+      ],
+      "encounterNote": "主要关注南露脊鲸，其他鲸类偶遇；不保证见鲸或近距离互动。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    }
+  },
+  {
+    "id": "ex-depth-hermanus-fynbos",
+    "cityId": "hermanus",
+    "kind": "experience",
+    "name": "认识芬博斯：一段带观察任务的山径",
+    "nameEn": "认识芬博斯：一段带观察任务的山径",
+    "provider": "Fernkloof Nature Reserve·生态与地质",
+    "tagline": "在芬克鲁夫选择短中程步道，比较花叶、贫瘠砂岩土壤与坡地植被。",
+    "description": "在芬克鲁夫选择短中程步道，比较花叶、贫瘠砂岩土壤与坡地植被。",
+    "localContext": "芬博斯是海角植物区的独特群落，理解地质和季节变化比只爬到观景点更有意思。",
+    "experienceType": "nature",
+    "durationMinutes": 210,
+    "lat": -34.397,
+    "lng": 19.273,
+    "coordinateAccuracy": "approximate",
+    "address": "Fernkloof Nature Reserve 游客步道入口",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "此项为自助植物观察；专业向导另约。若已选同保护区景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "自助体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 0,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.fernkloof.org.za/index.php/ecology/geology",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "公共区域自行观察"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.fernkloof.org.za/index.php/ecology/geology",
+    "bookingUrl": "https://www.fernkloof.org.za/index.php/ecology/geology",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Fernkloof Nature Reserve·生态与地质",
+        "url": "https://www.fernkloof.org.za/index.php/ecology/geology",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "hermanus-fernkloof",
+    "natureHighlights": [
+      "海角芬博斯灌丛",
+      "折叠山地砂岩",
+      "季节性花卉"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-hermanus-wine",
+    "cityId": "hermanus",
+    "kind": "experience",
+    "name": "Hemel-en-Aarde 冷凉产区品鉴",
+    "nameEn": "Hemel-en-Aarde 冷凉产区品鉴",
+    "provider": "Cape Whale Coast·葡萄酒路线",
+    "tagline": "按酒庄预约品尝黑皮诺或霞多丽，比较海风、山谷与酒庄风格。",
+    "description": "按酒庄预约品尝黑皮诺或霞多丽，比较海风、山谷与酒庄风格。",
+    "localContext": "赫尔马努斯背后的酒谷受海洋影响；这段餐桌体验把海岸地理与地方生产联系起来。",
+    "experienceType": "food-life",
+    "durationMinutes": 240,
+    "lat": -34.37,
+    "lng": 19.215,
+    "coordinateAccuracy": "approximate",
+    "address": "Hemel-en-Aarde 酒谷选定酒庄；接驳另计",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "含品鉴的编辑预留，不含酒瓶、正餐和交通；安排司机或接送。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 300,
+        "high": 900,
+        "currency": "ZAR",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://whalecoast.info/attraction/wine-routes/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://whalecoast.info/attraction/wine-routes/",
+    "bookingUrl": "https://whalecoast.info/attraction/wine-routes/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast·葡萄酒路线",
+        "url": "https://whalecoast.info/attraction/wine-routes/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "hermanus-valley",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-quito-cacao",
+    "cityId": "quito",
+    "kind": "experience",
+    "name": "La Floresta 的厄瓜多尔巧克力品鉴",
+    "nameEn": "La Floresta 的厄瓜多尔巧克力品鉴",
+    "provider": "Paccari·La Floresta 体验店",
+    "tagline": "在 Paccari 体验店选择品鉴，认识不同产区可可与风味，再按兴趣点咖啡或甜品。",
+    "description": "在 Paccari 体验店选择品鉴，认识不同产区可可与风味，再按兴趣点咖啡或甜品。",
+    "localContext": "厄瓜多尔可可在本地经过加工成为成品巧克力；城市体验店不等于到雨林种植园。",
+    "experienceType": "food-life",
+    "durationMinutes": 90,
+    "lat": -0.205,
+    "lng": -78.483,
+    "coordinateAccuracy": "approximate",
+    "address": "Paccari Casa de Experiencias, La Floresta, Quito",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "品鉴场次和语言提前确认；购物及额外饮食另计。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 15,
+        "high": 45,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+    "bookingUrl": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Paccari·La Floresta 体验店",
+        "url": "https://paccari.com/locales/paccari-casa-de-experiencias-la-floresta/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Pacari_Chocolate",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-quito-clouds",
+    "cityId": "quito",
+    "kind": "experience",
+    "name": "Cruz Loma 云间的安第斯观景午后",
+    "nameEn": "Cruz Loma 云间的安第斯观景午后",
+    "provider": "TelefériQo·常见问题及票价",
+    "tagline": "搭 TelefériQo 到高处观景区，慢看山城与云层，按身体状态选择短步道。",
+    "description": "搭 TelefériQo 到高处观景区，慢看山城与云层，按身体状态选择短步道。",
+    "localContext": "基多沿山谷延展的形态从高处才容易理解；这不是无需准备的火山登顶项目。",
+    "experienceType": "nature",
+    "durationMinutes": 240,
+    "lat": -0.187,
+    "lng": -78.518,
+    "coordinateAccuracy": "approximate",
+    "address": "TelefériQo 下站集合；山上约 4050 米",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "成人外国游客基础往返票官网为 USD 9；上站附加项目另计。若已选缆车景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 9,
+        "high": 15,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://teleferico.com.ec/preguntas-frecuentes/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://teleferico.com.ec/preguntas-frecuentes/",
+    "bookingUrl": "https://teleferico.com.ec/preguntas-frecuentes/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "TelefériQo·常见问题及票价",
+        "url": "https://teleferico.com.ec/preguntas-frecuentes/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "quito-cable",
+    "natureHighlights": [
+      "安第斯山谷",
+      "高海拔云层",
+      "城市纵向地形"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-quito-morning",
+    "cityId": "quito",
+    "kind": "experience",
+    "name": "基多早餐里的玉米、奶酪与山地作物",
+    "nameEn": "基多早餐里的玉米、奶酪与山地作物",
+    "provider": "Quito Turismo·地方食物介绍",
+    "tagline": "在老城或 La Floresta 找 humita 玉米包、quimbolito 甜蒸糕和当地热饮，边吃边认识名称。",
+    "description": "在老城或 La Floresta 找 humita 玉米包、quimbolito 甜蒸糕和当地热饮，边吃边认识名称。",
+    "localContext": "玉米、土豆与乳制品构成安第斯高地餐桌的一部分，早餐可成为理解地方生活的入口。",
+    "experienceType": "local-life",
+    "durationMinutes": 120,
+    "lat": -0.1807,
+    "lng": -78.4678,
+    "coordinateAccuracy": "approximate",
+    "address": "基多老城或 La Floresta 供应地方早餐的餐馆",
+    "features": [
+      "城市生活"
+    ],
+    "requirements": [
+      "按当日菜单选择，不保证每家店供应全部食物；作为正餐时可调低对应基础餐费。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 8,
+        "high": 20,
+        "currency": "USD",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+    "bookingUrl": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·地方食物介绍",
+        "url": "https://www.quito-turismo.gob.ec/descargas/LOTAIP%202023/MARZO/Vi%C3%A1tico%20al%20exterior%20Rivadeneira%20Cristina%20-%20Gastronom%C3%ADa-Espa%C3%B1a.pdf",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "quito-ronda",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-cartagena-mangrove",
+    "cityId": "cartagena",
+    "kind": "experience",
+    "name": "拉博基利亚：社区独木舟进入红树林",
+    "nameEn": "拉博基利亚：社区独木舟进入红树林",
+    "provider": "Colombia Travel·La Boquilla 社区与红树林",
+    "tagline": "跟社区向导乘窄舟穿行水道，认识红树根系、潟湖与捕鱼日常。",
+    "description": "跟社区向导乘窄舟穿行水道，认识红树根系、潟湖与捕鱼日常。",
+    "localContext": "红树林既是海岸生态屏障，也是非裔加勒比渔村生活的一部分；接待需通过当地组织。",
+    "experienceType": "nature",
+    "durationMinutes": 270,
+    "lat": 10.47,
+    "lng": -75.498,
+    "coordinateAccuracy": "approximate",
+    "address": "La Boquilla 社区组织确认集合处；市区往返另留交通",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 120000,
+        "high": 260000,
+        "currency": "COP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+    "bookingUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·La Boquilla 社区与红树林",
+        "url": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "cartagena-boquilla",
+    "natureHighlights": [
+      "红树林根系",
+      "沿海潟湖",
+      "传统小舟"
+    ],
+    "wildlife": {
+      "species": [
+        "白鹭",
+        "鹮类水鸟"
+      ],
+      "encounterNote": "以栖息地观察为主，鸟类出现取决于潮汐和时段。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-cartagena-rosario",
+    "cityId": "cartagena",
+    "kind": "experience",
+    "name": "罗萨里奥群岛珊瑚与礁鱼船潜",
+    "nameEn": "罗萨里奥群岛珊瑚与礁鱼船潜",
+    "provider": "PADI·Diving Planet 卡塔赫纳及罗萨里奥群岛",
+    "tagline": "从卡塔赫纳出发乘船到群岛，由 PADI 潜店按资质选择两潜或体验潜水项目。",
+    "description": "从卡塔赫纳出发乘船到群岛，由 PADI 潜店按资质选择两潜或体验潜水项目。",
+    "localContext": "海岛距离城市约一小时船程，珊瑚保护区与热带礁鱼构成水下特色；这是一整天的活动。",
+    "experienceType": "marine",
+    "durationMinutes": 540,
+    "lat": 10.176,
+    "lng": -75.744,
+    "coordinateAccuracy": "approximate",
+    "address": "Diving Planet, Plaza de San Diego, Calle 39 No. 8-24；实际登船点另确认",
+    "features": [
+      "海洋体验"
+    ],
+    "requirements": [
+      "区分持证潜水与新手课程；船、装备、保护区费、午餐及市区接送逐项核对。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 650000,
+        "high": 1100000,
+        "currency": "COP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.padi.com/dive-center/colombia/diving-planet/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.padi.com/dive-center/colombia/diving-planet/",
+    "bookingUrl": "https://www.padi.com/dive-center/colombia/diving-planet/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "PADI·Diving Planet 卡塔赫纳及罗萨里奥群岛",
+        "url": "https://www.padi.com/dive-center/colombia/diving-planet/",
+        "kind": "dive-reference",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Rosario_Islands",
+    "wildlife": {
+      "species": [
+        "热带礁鱼"
+      ],
+      "encounterNote": "PADI 描述的是区域生态，不承诺某种大型动物必定出现。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-cartagena-caribbean",
+    "cityId": "cartagena",
+    "kind": "experience",
+    "name": "用鸡蛋玉米饼认识加勒比早餐",
+    "nameEn": "用鸡蛋玉米饼认识加勒比早餐",
+    "provider": "Colombia Travel·卡塔赫纳餐桌",
+    "tagline": "在老城与赫茨马尼的小吃店尝 arepa de huevo，再按食欲选择奶酪汤或本地果汁。",
+    "description": "在老城与赫茨马尼的小吃店尝 arepa de huevo，再按食欲选择奶酪汤或本地果汁。",
+    "localContext": "玉米饼、薯芋与沿海食材表现出不同于安第斯内陆的哥伦比亚餐桌。",
+    "experienceType": "food-life",
+    "durationMinutes": 90,
+    "lat": 10.419,
+    "lng": -75.545,
+    "coordinateAccuracy": "approximate",
+    "address": "卡塔赫纳老城、Getsemaní 餐馆及小吃店",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 25000,
+        "high": 70000,
+        "currency": "COP",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+    "bookingUrl": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Colombia Travel·卡塔赫纳餐桌",
+        "url": "https://colombia.travel/es/cartagena/que-comer-en-cartagena-de-indias",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "cartagena-getsemani",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-salvador-iemanja",
+    "cityId": "salvador",
+    "kind": "experience",
+    "name": "里奥韦尔梅柳的海神节",
+    "nameEn": "里奥韦尔梅柳的海神节",
+    "provider": "萨尔瓦多城市旅游局·海神节",
+    "tagline": "在海边观察献花、鼓乐与社区集会，尊重信众的仪式空间。",
+    "description": "在海边观察献花、鼓乐与社区集会，尊重信众的仪式空间。",
+    "localContext": "Iemanjá 庆典展现非裔巴西宗教与渔业社区的联系；观察体验不等于参加私人宗教仪式。",
+    "experienceType": "festival",
+    "durationMinutes": 210,
+    "lat": -13.01,
+    "lng": -38.488,
+    "coordinateAccuracy": "approximate",
+    "address": "Casa de Iemanjá 周边，Rio Vermelho, Salvador",
+    "features": [
+      "节庆日期需核对"
+    ],
+    "requirements": [
+      "避免把物品投入海中；人像与仪式摄影先征求同意。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "自助体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 0,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.salvadordabahia.com/festa-de-iemanja/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "公共区域自行观察"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.salvadordabahia.com/festa-de-iemanja/",
+    "bookingUrl": "https://www.salvadordabahia.com/festa-de-iemanja/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·海神节",
+        "url": "https://www.salvadordabahia.com/festa-de-iemanja/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        2
+      ],
+      "note": "传统节日为二月二日，前夜也可能有活动；具体年份节目、交通和开放区域需核对。",
+      "dateSpecific": true
+    },
+    "article": "Festa_de_Iemanjá",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-salvador-bale",
+    "cityId": "salvador",
+    "kind": "experience",
+    "name": "看巴伊亚民俗舞团的当期演出",
+    "nameEn": "看巴伊亚民俗舞团的当期演出",
+    "provider": "Balé Folclórico da Bahia 官网",
+    "tagline": "跟随舞团当期节目认识舞蹈、打击乐与非裔巴西文化表达。",
+    "description": "跟随舞团当期节目认识舞蹈、打击乐与非裔巴西文化表达。",
+    "localContext": "舞台作品是艺术家对文化传统的呈现，不应当作对所有社区生活的完整替代。",
+    "experienceType": "performance",
+    "durationMinutes": 120,
+    "lat": -12.974,
+    "lng": -38.51,
+    "coordinateAccuracy": "approximate",
+    "address": "以 Balé Folclórico da Bahia 当期节目公布的剧场为准",
+    "features": [
+      "演出档期需核对"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 80,
+        "high": 200,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.balefolcloricodabahia.com.br/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.balefolcloricodabahia.com.br/",
+    "bookingUrl": "https://www.balefolcloricodabahia.com.br/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Balé Folclórico da Bahia 官网",
+        "url": "https://www.balefolcloricodabahia.com.br/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note": "演出并非每天固定举行，需核对当期节目、场馆和时刻。",
+      "dateSpecific": true
+    },
+    "article": "Balé_Folclórico_da_Bahia",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-salvador-baiana",
+    "cityId": "salvador",
+    "kind": "experience",
+    "name": "向 Baiana 认识 acarajé 的餐桌故事",
+    "nameEn": "向 Baiana 认识 acarajé 的餐桌故事",
+    "provider": "萨尔瓦多城市旅游局·Baianas de Acarajé",
+    "tagline": "在当地 acarajé 摊前观察黑眼豆饼油炸与夹馅，区分炸制 acarajé 和蒸制 abará。",
+    "description": "在当地 acarajé 摊前观察黑眼豆饼油炸与夹馅，区分炸制 acarajé 和蒸制 abará。",
+    "localContext": "Baianas 的服饰、手艺与食物连接非裔巴西女性的劳动和文化传承，先询问再拍照。",
+    "experienceType": "food-life",
+    "durationMinutes": 90,
+    "lat": -13.01,
+    "lng": -38.488,
+    "coordinateAccuracy": "approximate",
+    "address": "Rio Vermelho 或 Pelourinho 的 Baiana 摊位",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "虾、坚果与辣椒可能在酱料中，点单前确认；不把普通买食物包装成正式工坊。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 20,
+        "high": 60,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+    "bookingUrl": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游局·Baianas de Acarajé",
+        "url": "https://www.salvadordabahia.com/baianas-de-acaraje/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Acarajé",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-manaus-river",
+    "cityId": "manaus",
+    "kind": "experience",
+    "name": "两种水色相遇：河流生态船游",
+    "nameEn": "两种水色相遇：河流生态船游",
+    "provider": "Visit Brasil·玛瑙斯",
+    "tagline": "从玛瑙斯码头出发看内格罗河与索利蒙伊斯河汇合，听向导解释水色与河流差异。",
+    "description": "从玛瑙斯码头出发看内格罗河与索利蒙伊斯河汇合，听向导解释水色与河流差异。",
+    "localContext": "黑水与富含悬沙的浅色水流并行，是流域地质和河流过程的可见结果。",
+    "experienceType": "nature",
+    "durationMinutes": 360,
+    "lat": -3.119,
+    "lng": -60.0217,
+    "coordinateAccuracy": "approximate",
+    "address": "玛瑙斯码头按经营方确认；活动含候船及船程时间",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "如果同日已选两河交汇景点，请用此项替代；不默认包含动物互动或所谓部落表演。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 250,
+        "high": 650,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+    "bookingUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Visit Brasil·玛瑙斯",
+        "url": "https://www.visitbrasil.com/location/manaus-pt/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "manaus-waters",
+    "natureHighlights": [
+      "黑水与白水河流",
+      "亚马孙水系",
+      "河岸生活"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-manaus-canopy",
+    "cityId": "manaus",
+    "kind": "experience",
+    "name": "在 MUSA 树冠塔看雨林分层",
+    "nameEn": "在 MUSA 树冠塔看雨林分层",
+    "provider": "MUSA·树冠观察塔",
+    "tagline": "爬上树冠观察塔，在不同高度看雨林结构，静听鸟声而不追求清单式找动物。",
+    "description": "爬上树冠观察塔，在不同高度看雨林结构，静听鸟声而不追求清单式找动物。",
+    "localContext": "城市边缘仍保留复杂的热带森林，树冠高度提供与地面完全不同的生态视角。",
+    "experienceType": "wildlife",
+    "durationMinutes": 240,
+    "lat": -3.008,
+    "lng": -59.941,
+    "coordinateAccuracy": "approximate",
+    "address": "MUSA, Avenida Margarita, 6305, Manaus",
+    "features": [
+      "野生动物观察"
+    ],
+    "requirements": [
+      "普通参观与日出、日落特别场次分开确认；若已选 MUSA 景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 60,
+        "high": 180,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://museudaamazonia.org.br/en/observation-tower/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://museudaamazonia.org.br/en/observation-tower/",
+    "bookingUrl": "https://museudaamazonia.org.br/en/observation-tower/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "MUSA·树冠观察塔",
+        "url": "https://museudaamazonia.org.br/en/observation-tower/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "manaus-musa",
+    "wildlife": {
+      "species": [
+        "森林鸟类"
+      ],
+      "encounterNote": "鸟类活动与天气、时段有关，清晨特别参观须单独预约。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-manaus-stage",
+    "cityId": "manaus",
+    "kind": "experience",
+    "name": "在亚马孙剧院听一场当期音乐会",
+    "nameEn": "在亚马孙剧院听一场当期音乐会",
+    "provider": "Teatro Amazonas·参观路线",
+    "tagline": "根据当前节目选择音乐会、歌剧或其他演出，白天建筑参观不视为演出票。",
+    "description": "根据当前节目选择音乐会、歌剧或其他演出，白天建筑参观不视为演出票。",
+    "localContext": "雨林城市的剧院呈现橡胶时代历史与今日文化生产之间的联系。",
+    "experienceType": "performance",
+    "durationMinutes": 150,
+    "lat": -3.13,
+    "lng": -60.023,
+    "coordinateAccuracy": "approximate",
+    "address": "Teatro Amazonas, Largo de São Sebastião, Manaus",
+    "features": [
+      "演出档期需核对"
+    ],
+    "requirements": [
+      "提前核对营业、年龄与活动条件；用时为规划预留。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 0,
+        "high": 200,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://teatroamazonas.com.br/circuito/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://teatroamazonas.com.br/circuito/",
+    "bookingUrl": "https://teatroamazonas.com.br/circuito/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Teatro Amazonas·参观路线",
+        "url": "https://teatroamazonas.com.br/circuito/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note": "演出日期、票价及免费场次以当前官方节目为准；未核对不自动排入某一天。",
+      "dateSpecific": true
+    },
+    "imageRef": "manaus-theatre",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-foz-do-iguacu-boat",
+    "cityId": "foz-do-iguacu",
+    "kind": "experience",
+    "name": "Macuco Safari：从森林到瀑布水雾",
+    "nameEn": "Macuco Safari：从森林到瀑布水雾",
+    "provider": "Macuco Safari 官方项目与票价",
+    "tagline": "先经森林路线再登艇接近瀑布区域，备换洗衣物并把相机做好防水。",
+    "description": "先经森林路线再登艇接近瀑布区域，备换洗衣物并把相机做好防水。",
+    "localContext": "同一片瀑布，从高处全景与水面仰视感受不同；游船是国家公园门票之外的项目。",
+    "experienceType": "nature",
+    "durationMinutes": 150,
+    "lat": -25.641,
+    "lng": -54.455,
+    "coordinateAccuracy": "approximate",
+    "address": "Macuco Safari 园内站点；先购买伊瓜苏国家公园入园票",
+    "features": [
+      "自然与地形"
+    ],
+    "requirements": [
+      "官网普通成人公开价 BRL 384；国家公园票、酒店接送、储物和照片另计。按约两小时活动另留排队。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "普通成人游船",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 384,
+        "high": 384,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "official",
+        "checkedAt": "2026-09-23",
+        "sourceUrl": "https://macucosafari.com.br/",
+        "note": "官网公开普通成人 BRL 384；不含国家公园门票、酒店交通、储物及摄影。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://macucosafari.com.br/",
+    "bookingUrl": "https://macucosafari.com.br/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Macuco Safari 官方项目与票价",
+        "url": "https://macucosafari.com.br/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Iguazu_Falls",
+    "natureHighlights": [
+      "瀑布水雾",
+      "伊瓜苏河",
+      "大西洋森林"
+    ],
+    "imageScope": "nearby",
+    "imageContextNote": "伊瓜苏瀑布实景，非 Macuco Safari 游船或套餐设施实拍。"
+  },
+  {
+    "id": "ex-depth-foz-do-iguacu-conservation",
+    "cityId": "foz-do-iguacu",
+    "kind": "experience",
+    "name": "大西洋森林鸟类与保育观察",
+    "nameEn": "大西洋森林鸟类与保育观察",
+    "provider": "Parque das Aves·参观",
+    "tagline": "在 Parque das Aves 的步道和大型鸟舍慢看羽色、喙形及栖息方式。",
+    "description": "在 Parque das Aves 的步道和大型鸟舍慢看羽色、喙形及栖息方式。",
+    "localContext": "这是有管理的鸟类保育园区，适合理解大西洋森林受威胁的生态，不能宣传为野外必遇。",
+    "experienceType": "wildlife",
+    "durationMinutes": 180,
+    "lat": -25.616,
+    "lng": -54.48,
+    "coordinateAccuracy": "approximate",
+    "address": "Parque das Aves, Rodovia das Cataratas",
+    "features": [
+      "野生动物观察"
+    ],
+    "requirements": [
+      "不投喂、不触摸；已选择同园景点时请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 90,
+        "high": 150,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+    "bookingUrl": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Parque das Aves·参观",
+        "url": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "foz-do-iguacu-birds",
+    "wildlife": {
+      "species": [
+        "巨嘴鸟类",
+        "金刚鹦鹉类"
+      ],
+      "encounterNote": "园内物种与展示安排可能变化；这是保育园参观。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-foz-do-iguacu-dam",
+    "cityId": "foz-do-iguacu",
+    "kind": "experience",
+    "name": "坐园区巴士理解伊泰普水电与边境",
+    "nameEn": "坐园区巴士理解伊泰普水电与边境",
+    "provider": "Turismo Itaipu·全景参观",
+    "tagline": "参加全景线路，通过坝顶、泄洪观景点与讲解认识两国共同建设的水电工程。",
+    "description": "参加全景线路，通过坝顶、泄洪观景点与讲解认识两国共同建设的水电工程。",
+    "localContext": "这座边境城市不仅依靠瀑布旅游，跨国工程也塑造了地方交通、就业与生活。",
+    "experienceType": "local-life",
+    "durationMinutes": 150,
+    "lat": -25.407,
+    "lng": -54.589,
+    "coordinateAccuracy": "approximate",
+    "address": "Turismo Itaipu 巴西游客接待中心",
+    "features": [
+      "城市生活"
+    ],
+    "requirements": [
+      "官方全景线路约 70 分钟；150 分钟含园区报到预留，不含市区往返。内部技术线另订；已选同景点请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 60,
+        "high": 120,
+        "currency": "BRL",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+    "bookingUrl": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Turismo Itaipu·全景参观",
+        "url": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "foz-do-iguacu-itaipu",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-ushuaia-penguins",
+    "cityId": "ushuaia",
+    "kind": "experience",
+    "name": "夏季到马蒂略岛海域观察企鹅",
+    "nameEn": "夏季到马蒂略岛海域观察企鹅",
+    "provider": "乌斯怀亚市旅游局·Ushuaia Boating",
+    "tagline": "按经营方路线从乌斯怀亚或阿尔曼萨港出发，观察岛上企鹅群与比格尔海峡。",
+    "description": "按经营方路线从乌斯怀亚或阿尔曼萨港出发，观察岛上企鹅群与比格尔海峡。",
+    "localContext": "火地岛的企鹅活动有明显季节性，船上观察与获许可的登陆步行是两种不同产品。",
+    "experienceType": "wildlife",
+    "durationMinutes": 540,
+    "lat": -54.8019,
+    "lng": -68.303,
+    "coordinateAccuracy": "approximate",
+    "address": "Ushuaia Boating 或市旅游局列示经营方确认集合点",
+    "features": [
+      "野生动物观察"
+    ],
+    "requirements": [
+      "540 分钟为含远郊公路、候船和观察的整日预留；确认接送、船程和是否有合法登陆，不自行接近企鹅。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 180000,
+        "high": 380000,
+        "currency": "ARS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://turismoushuaia.com/prestador/ushuaia-boating/?lang=pt_BR",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://turismoushuaia.com/prestador/ushuaia-boating/?lang=pt_BR",
+    "bookingUrl": "https://turismoushuaia.com/prestador/ushuaia-boating/?lang=pt_BR",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·Ushuaia Boating",
+        "url": "https://turismoushuaia.com/prestador/ushuaia-boating/?lang=pt_BR",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "note": "通常十月至三月可关注企鹅季；具体开航、登陆许可及繁殖期安排需确认。",
+      "dateSpecific": false
+    },
+    "article": "Isla_Martillo",
+    "wildlife": {
+      "species": [
+        "麦哲伦企鹅",
+        "巴布亚企鹅"
+      ],
+      "encounterNote": "群落和可见位置随季节变化，不保证两种都见到。",
+      "responsibleNote": "保持距离，不投喂、不触碰、不追逐；遵守保护区和带队人员规定。"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-ushuaia-centolla",
+    "cityId": "ushuaia",
+    "kind": "experience",
+    "name": "阿尔曼萨渔村的帝王蟹与海峡餐桌",
+    "nameEn": "阿尔曼萨渔村的帝王蟹与海峡餐桌",
+    "provider": "Latitud Ushuaia·阿尔曼萨海鲜路线",
+    "tagline": "沿火地岛公路前往阿尔曼萨，选择经营方海鲜午餐或渔村餐馆，了解当地捕捞与供应。",
+    "description": "沿火地岛公路前往阿尔曼萨，选择经营方海鲜午餐或渔村餐馆，了解当地捕捞与供应。",
+    "localContext": "南极石蟹在当地称 centolla；海鲜依季节和捕捞供应，不能把整蟹视作每顿固定内容。",
+    "experienceType": "food-life",
+    "durationMinutes": 480,
+    "lat": -54.867,
+    "lng": -67.557,
+    "coordinateAccuracy": "approximate",
+    "address": "Puerto Almanza；从乌斯怀亚出发需完整往返交通预留",
+    "features": [
+      "地方餐桌"
+    ],
+    "requirements": [
+      "套餐需说明接送、餐食和是否含船游；此项不默认同时包含企鹅岛。若作为午餐请调低当日基础餐费。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 140000,
+        "high": 300000,
+        "currency": "ARS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://latitudushuaia.tur.ar/experiencia/aventura-almanza/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://latitudushuaia.tur.ar/experiencia/aventura-almanza/",
+    "bookingUrl": "https://latitudushuaia.tur.ar/experiencia/aventura-almanza/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "Latitud Ushuaia·阿尔曼萨海鲜路线",
+        "url": "https://latitudushuaia.tur.ar/experiencia/aventura-almanza/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "article": "Puerto_Almanza",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  },
+  {
+    "id": "ex-depth-ushuaia-train",
+    "cityId": "ushuaia",
+    "kind": "experience",
+    "name": "听旧伐木铁路讲火地岛城市史",
+    "nameEn": "听旧伐木铁路讲火地岛城市史",
+    "provider": "世界尽头列车官网",
+    "tagline": "搭乘世界尽头列车，看森林与河谷，并通过解说理解铁路和旧监狱的关系。",
+    "description": "搭乘世界尽头列车，看森林与河谷，并通过解说理解铁路和旧监狱的关系。",
+    "localContext": "铁路由实用生产设施成为观光线路，能把壮阔风景与城市社会史联系起来。",
+    "experienceType": "local-life",
+    "durationMinutes": 180,
+    "lat": -54.833,
+    "lng": -68.425,
+    "coordinateAccuracy": "approximate",
+    "address": "Estación del Fin del Mundo，市西侧铁路下站",
+    "features": [
+      "城市生活"
+    ],
+    "requirements": [
+      "车厢等级、国家公园票和市区接送分别确认；已选同名列车景点时请二选一。"
+    ],
+    "priceOptions": [
+      {
+        "id": "standard",
+        "name": "标准体验预留",
+        "description": "按所述活动范围预留；服务内容以实际提供方确认为准。",
+        "low": 80000,
+        "high": 160000,
+        "currency": "ARS",
+        "unit": "person",
+        "type": "estimate",
+        "checkedAt": null,
+        "sourceUrl": "https://www.trendelfindelmundo.com.ar/",
+        "note": "编辑预算范围，不是实时报价或可售库存。交通、餐饮与附加费用以包含项为准。",
+        "includes": [
+          "所述基本活动"
+        ],
+        "excludes": [
+          "住宿",
+          "未写明的市区接驳",
+          "额外消费"
+        ]
+      }
+    ],
+    "sourceUrl": "https://www.trendelfindelmundo.com.ar/",
+    "bookingUrl": "https://www.trendelfindelmundo.com.ar/",
+    "checkedAt": "2026-09-23",
+    "sourceReferences": [
+      {
+        "name": "世界尽头列车官网",
+        "url": "https://www.trendelfindelmundo.com.ar/",
+        "kind": "official-operator",
+        "scope": "activity-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "全年可关注；实际营业、天气及可预订时段需核对。"
+    },
+    "imageRef": "ushuaia-rail",
+    "imageScope": "nearby",
+    "imageContextNote": "与此体验相关的地点或活动实景参考；不是指定供应商、套餐或当天现场的保证。"
+  }
+]

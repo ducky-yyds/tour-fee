@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { CURRENCIES, REGIONS } from '../shared/currencies.mjs';
 import { cardImage } from '../shared/media.mjs';
 import { readExperienceEntries } from '../server/experience-catalog.mjs';
+import { EXPERIENCE_THEMES } from '../shared/experience-discovery.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = resolve(ROOT, 'public');
@@ -150,6 +151,13 @@ for (const place of experiences) {
   registerId(place, 'experience');
   if (!cityIds.has(place.cityId)) problems.push(`Unknown experience city: ${place.id}`);
   if (!Array.isArray(place.priceOptions) || !place.priceOptions.length) problems.push(`Missing experience options: ${place.id}`);
+  if (place.experienceType) {
+    if (place.kind !== 'experience' || !Object.hasOwn(EXPERIENCE_THEMES, place.experienceType) || !place.localContext || !place.sourceReferences?.length) problems.push(`Incomplete themed experience: ${place.id}`);
+    const season = place.seasonality;
+    if (!season || !Array.isArray(season.months) || season.months.some(month => !Number.isInteger(month) || month < 1 || month > 12) || typeof season.dateSpecific !== 'boolean' || !season.note) problems.push(`Invalid experience season: ${place.id}`);
+    if (place.experienceType === 'festival' && season?.dateSpecific !== true) problems.push(`Festival missing date confirmation: ${place.id}`);
+    if (place.wildlife && (!place.wildlife.species?.length || !place.wildlife.encounterNote || !place.wildlife.responsibleNote)) problems.push(`Incomplete wildlife context: ${place.id}`);
+  }
   for (const option of place.priceOptions || []) {
     if (!(fx.rates[option.currency] > 0)) problems.push(`Missing experience quote currency: ${place.id}/${option.id}`);
     if (!(Number.isFinite(option.low) && option.low >= 0 && Number.isFinite(option.high) && option.high >= option.low)) problems.push(`Invalid experience price: ${place.id}/${option.id}`);
@@ -205,6 +213,19 @@ const experienceCoverage = {
   missingCities: cities.filter(city => !experiences.some(place => place.cityId === city.id)).map(city => city.id),
   stayExpansion: { file: STAYS_FILE, loaded: stays.length, cities: new Set(stays.map(stay => stay.cityId)).size, cityBudgetReferences: stays.filter(stay => stay.priceBasis === 'city-daily-lodging').length },
 };
+const depthByCity = cities.map(city => {
+  const rows = experiences.filter(item => item.cityId === city.id && item.kind === 'experience' && item.experienceType);
+  return { cityId: city.id, experiences: rows.length, themes: [...new Set(rows.map(item => item.experienceType))] };
+});
+const experienceDepthCoverage = {
+  experiences: depthByCity.reduce((sum, row) => sum + row.experiences, 0),
+  themes: Object.fromEntries(Object.keys(EXPERIENCE_THEMES).map(theme => [theme, experiences.filter(item => item.experienceType === theme).length])),
+  dateSpecific: experiences.filter(item => item.seasonality?.dateSpecific).length,
+  seasonal: experiences.filter(item => item.seasonality?.months?.length > 0 && item.seasonality.months.length < 12).length,
+  perCity: depthByCity,
+  belowMinimum: depthByCity.filter(row => row.experiences < 3 || row.themes.length < 2).map(row => row.cityId),
+};
+for (const id of experienceDepthCoverage.belowMinimum) problems.push(`Fewer than 3 themed experiences or 2 themes: ${id}`);
 const foodCoverage = {
   foods: foods.length, cities: foodCities.size,
   photos: mediaCoverage.manifest.foods.photographs, missingPhotos: missingPhotos.foods,
@@ -234,7 +255,7 @@ const report = {
   attractions: attractions.length, currencies: Object.keys(CURRENCIES).length, fxAsOf: fx.asOf,
   photos: Object.fromEntries(IMAGE_GROUPS.map(group => [group, mediaCoverage.manifest[group].photographs])),
   missingPhotos, mediaCoverage, imageFileCoverage, cityMinimumCoverage,
-  experienceCoverage, foodCoverage, placeLibraryCoverage,
+  experienceCoverage, experienceDepthCoverage, foodCoverage, placeLibraryCoverage,
   editorialSourceCoverage: { ...editorialSourceCoverage, uniqueLinks: editorialLinks.size,
     hosts: [...editorialHosts].sort(),
     note: 'Stored reading references and distinct hostnames; this validates metadata only, not live availability, independent ownership or current prices.' },

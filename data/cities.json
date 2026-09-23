@@ -318607,5 +318607,5198 @@
     "photoFile": "民主路 7007.jpg",
     "photoCheckedAt": "2026-09-23",
     "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B0%91%E4%B8%BB%E8%B7%AF_7007.jpg"
+  },
+  {
+    "id": "essaouira",
+    "name": "索维拉",
+    "nameEn": "Essaouira",
+    "country": "摩洛哥",
+    "countryCode": "MA",
+    "currency": "MAD",
+    "region": "非洲",
+    "lat": 31.5085,
+    "lng": -9.7595,
+    "iata": "ESU",
+    "article": "Essaouira",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Essaouira"
+    },
+    "tagline": "在大西洋海风里听格纳瓦节奏，看渔船卸货、木工打磨，再留半天给海岸。",
+    "description": "在大西洋海风里听格纳瓦节奏，看渔船卸货、木工打磨，再留半天给海岸。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·文化体验",
+        "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "建议 3 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        250,
+        700,
+        1800
+      ],
+      "food": [
+        90,
+        220,
+        550
+      ],
+      "transport": [
+        25,
+        90,
+        240
+      ],
+      "misc": [
+        16,
+        40,
+        99
+      ]
+    },
+    "monthly": {
+      "rent": [
+        3000,
+        6500,
+        13000
+      ],
+      "utilities": [
+        270,
+        585,
+        1170
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "essaouira",
+      "intro": "在大西洋海风里听格纳瓦节奏，看渔船卸货、木工打磨，再留半天给海岸。",
+      "foodHighlights": [
+        {
+          "name": "摩洛哥海港烤沙丁鱼",
+          "description": "整条沙丁鱼烤熟后配柠檬、面包或沙拉；索维拉渔港餐馆常见，先问重量、加工与配菜是否分别计价。"
+        },
+        {
+          "name": "摩洛哥塔吉锅",
+          "description": "在锅中慢炖肉类或蔬菜，适合与面包分享，先按人数核对主料与份量。"
+        },
+        {
+          "name": "库斯库斯",
+          "description": "细粒主食配蔬菜或肉类，可作为完整一餐；供应日期和搭配需看菜单。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "索维拉麦地那",
+          "description": "从紧凑的街巷读懂海港商贸历史，画廊和手工艺店适合按兴趣停留。"
+        },
+        {
+          "name": "麦地那海墙炮台",
+          "description": "沿海墙看大西洋与老城轮廓；进入不同炮台的票制可能不同。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "essaouira-medina",
+        "name": "索维拉麦地那",
+        "nameEn": "Medina of Essaouira",
+        "article": "Medina_of_Essaouira",
+        "lat": 31.514,
+        "lng": -9.77,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从紧凑的街巷读懂海港商贸历史，画廊和手工艺店适合按兴趣停留。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·文化体验",
+            "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+          "sourceName": "摩洛哥国家旅游局·文化体验",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "essaouira-sqala",
+        "name": "麦地那海墙炮台",
+        "nameEn": "Essaouira",
+        "article": "Essaouira",
+        "lat": 31.516,
+        "lng": -9.772,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "沿海墙看大西洋与老城轮廓；进入不同炮台的票制可能不同。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·文化体验",
+            "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 100,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+          "sourceName": "摩洛哥国家旅游局·文化体验",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Cannon on Skala de la Ville, Essaouira, Morocco.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Cannon_on_Skala_de_la_Ville,_Essaouira,_Morocco.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "essaouira-port",
+        "name": "索维拉渔港",
+        "nameEn": "Port of Essaouira",
+        "article": "Port_of_Essaouira",
+        "lat": 31.509,
+        "lng": -9.773,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "蓝色渔船、修网与卸货构成仍在运作的港口日常，避开作业通道。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·文化体验",
+            "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+          "sourceName": "摩洛哥国家旅游局·文化体验",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "essaouira-beach",
+        "name": "索维拉海滩",
+        "nameEn": "Essaouira",
+        "article": "Essaouira",
+        "photoFile": "Essaouira Beach, Morocco.jpg",
+        "imageScope": "exact-place",
+        "imageContextNote": "索维拉海滩实景；照片中的骑马者属于拍摄时的海滩场景，不代表本项目包含骑马服务。",
+        "lat": 31.502,
+        "lng": -9.762,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "长沙滩适合放慢脚步；海风和浪况会影响游泳及水上课程。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·索维拉海岸",
+            "url": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+          "sourceName": "摩洛哥国家旅游局·索维拉海岸",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "essaouira-memory",
+        "name": "记忆之家 Bayt Dakira",
+        "nameEn": "Bayt Dakira",
+        "article": "Bayt_Dakira",
+        "lat": 31.515,
+        "lng": -9.769,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "从犹太会堂与城市记忆展陈理解索维拉多社群共居的历史。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·文化体验",
+            "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 50,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+          "sourceName": "摩洛哥国家旅游局·文化体验",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "essaouira-museum",
+        "name": "西迪穆罕默德本阿卜杜拉博物馆",
+        "nameEn": "Sidi Mohammed ben Abdallah Museum",
+        "article": "Sidi_Mohammed_ben_Abdallah_Museum",
+        "lat": 31.513,
+        "lng": -9.771,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "用地方器物、服饰与手工艺认识海港文化，不只看建筑外观。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·文化体验",
+            "url": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 40,
+          "high": 100,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/sites/default/files/atoms/files/mnto_cultural_experiences_brochure_0.pdf",
+          "sourceName": "摩洛哥国家旅游局·文化体验",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "essaouira-kaouki",
+        "name": "西迪考基海岸",
+        "nameEn": "Sidi Kaouki",
+        "article": "Sidi_Kaouki",
+        "lat": 31.353,
+        "lng": -9.797,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "城南独立的海岸村落，适合看浪和海滩午后；需另留索维拉往返车程。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·索维拉海岸",
+            "url": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/en/travel/essaouira-mogador/beach",
+          "sourceName": "摩洛哥国家旅游局·索维拉海岸",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rabat",
+    "name": "拉巴特",
+    "nameEn": "Rabat",
+    "country": "摩洛哥",
+    "countryCode": "MA",
+    "currency": "MAD",
+    "region": "非洲",
+    "lat": 34.0209,
+    "lng": -6.8416,
+    "iata": "RBA",
+    "article": "Rabat",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rabat"
+    },
+    "tagline": "河口、卡斯巴与当代艺术并存的首都，适合把一趟跨河小船和半日博物馆放在一起。",
+    "description": "河口、卡斯巴与当代艺术并存的首都，适合把一趟跨河小船和半日博物馆放在一起。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+    "sourceReferences": [
+      {
+        "name": "摩洛哥国家旅游局·拉巴特",
+        "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "建议 3 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        300,
+        800,
+        2100
+      ],
+      "food": [
+        100,
+        240,
+        600
+      ],
+      "transport": [
+        30,
+        100,
+        280
+      ],
+      "misc": [
+        18,
+        43,
+        108
+      ]
+    },
+    "monthly": {
+      "rent": [
+        3500,
+        7500,
+        16000
+      ],
+      "utilities": [
+        315,
+        675,
+        1440
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "rabat",
+      "intro": "河口、卡斯巴与当代艺术并存的首都，适合把一趟跨河小船和半日博物馆放在一起。",
+      "foodHighlights": [
+        {
+          "name": "摩洛哥塔吉锅",
+          "description": "在锅中慢炖肉类或蔬菜，适合与面包分享，先按人数核对主料与份量。"
+        },
+        {
+          "name": "库斯库斯",
+          "description": "细粒主食配蔬菜或肉类，可作为完整一餐；供应日期和搭配需看菜单。"
+        },
+        {
+          "name": "摩洛哥巴斯蒂亚馅饼",
+          "description": "层叠薄皮包入馅料的料理，咸甜与肉类版本不同，点单前确认。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "哈桑塔广场",
+          "description": "未完成的宣礼塔与石柱阵记录王朝营建的尺度，广场与陵墓可步行衔接。"
+        },
+        {
+          "name": "穆罕默德五世陵墓",
+          "description": "看绿色屋顶、雕花与马赛克工艺，遵守现场着装及参观边界。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "rabat-hassan",
+        "name": "哈桑塔广场",
+        "nameEn": "Hassan Tower",
+        "article": "Hassan_Tower",
+        "lat": 34.024,
+        "lng": -6.823,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "未完成的宣礼塔与石柱阵记录王朝营建的尺度，广场与陵墓可步行衔接。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·拉巴特",
+            "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+          "sourceName": "摩洛哥国家旅游局·拉巴特",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "rabat-mausoleum",
+        "name": "穆罕默德五世陵墓",
+        "nameEn": "Mausoleum of Mohammed V",
+        "article": "Mausoleum_of_Mohammed_V",
+        "lat": 34.022,
+        "lng": -6.822,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "看绿色屋顶、雕花与马赛克工艺，遵守现场着装及参观边界。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·拉巴特",
+            "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+          "sourceName": "摩洛哥国家旅游局·拉巴特",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "rabat-oudayas",
+        "name": "乌达雅堡",
+        "nameEn": "Kasbah of the Udayas",
+        "article": "Kasbah_of_the_Udayas",
+        "lat": 34.031,
+        "lng": -6.836,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "河口堡垒里有居民街巷与海景，适合先看地形再看门楼细节。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·拉巴特",
+            "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+          "sourceName": "摩洛哥国家旅游局·拉巴特",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "rabat-chellah",
+        "name": "舍拉遗址",
+        "nameEn": "Chellah",
+        "article": "Chellah",
+        "lat": 34.006,
+        "lng": -6.82,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "在古代遗迹、陵墓与花木之间理解拉巴特更长的城市层次。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·拉巴特",
+            "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 70,
+          "high": 150,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+          "sourceName": "摩洛哥国家旅游局·拉巴特",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "rabat-mmvi",
+        "name": "穆罕默德六世现当代美术馆",
+        "nameEn": "Mohammed VI Museum of Modern and Contemporary Art",
+        "article": "Mohammed_VI_Museum_of_Modern_and_Contemporary_Art",
+        "lat": 34.013,
+        "lng": -6.832,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "从摩洛哥现代与当代创作认识当地社会，具体展览随档期轮换。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.fnm.ma/museums/31",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家博物馆基金会·穆罕默德六世美术馆",
+            "url": "https://www.fnm.ma/museums/31",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 40,
+          "high": 100,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.fnm.ma/museums/31",
+          "sourceName": "摩洛哥国家博物馆基金会·穆罕默德六世美术馆",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "rabat-garden",
+        "name": "安达卢西亚花园",
+        "nameEn": "Andalusian Gardens of Rabat",
+        "article": "Andalusian_Gardens_of_Rabat",
+        "lat": 34.03,
+        "lng": -6.835,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "在乌达雅堡附近歇脚，看花园布局与河口生活；不必安排成一整段赶景点。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "摩洛哥国家旅游局·拉巴特",
+            "url": "https://www.visitmorocco.com/fr/voyage/rabat",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "MAD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmorocco.com/fr/voyage/rabat",
+          "sourceName": "摩洛哥国家旅游局·拉巴特",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "hurghada",
+    "name": "赫尔格达",
+    "nameEn": "Hurghada",
+    "country": "埃及",
+    "countryCode": "EG",
+    "currency": "EGP",
+    "region": "非洲",
+    "lat": 27.2579,
+    "lng": 33.8116,
+    "iata": "HRG",
+    "article": "Hurghada",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hurghada"
+    },
+    "tagline": "从红海珊瑚和离岸沙洲认识埃及，潜水日之外也可逛地方市场与海港。",
+    "description": "从红海珊瑚和离岸沙洲认识埃及，潜水日之外也可逛地方市场与海港。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+    "sourceReferences": [
+      {
+        "name": "埃及旅游局·赫尔格达",
+        "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        1000,
+        3200,
+        9000
+      ],
+      "food": [
+        350,
+        850,
+        2200
+      ],
+      "transport": [
+        120,
+        350,
+        1000
+      ],
+      "misc": [
+        63,
+        153,
+        396
+      ]
+    },
+    "monthly": {
+      "rent": [
+        13000,
+        30000,
+        65000
+      ],
+      "utilities": [
+        1170,
+        2700,
+        5850
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "hurghada",
+      "intro": "从红海珊瑚和离岸沙洲认识埃及，潜水日之外也可逛地方市场与海港。",
+      "foodHighlights": [
+        {
+          "name": "埃及库沙里",
+          "description": "米、面和豆类等食材组合的主食，按食量选择份量及调味。"
+        },
+        {
+          "name": "埃及炖蚕豆",
+          "description": "蚕豆料理可搭配面饼作早餐或便餐，其他配料按菜单另选。"
+        },
+        {
+          "name": "埃及蚕豆炸丸",
+          "description": "蚕豆与香草制成炸丸，可夹面饼，与以鹰嘴豆为主的版本不同。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "赫尔格达博物馆",
+          "description": "用文物与工艺主题为海滨假期补上一段埃及历史，开放时段请查馆方。"
+        },
+        {
+          "name": "赫尔格达码头",
+          "description": "看游艇与傍晚海港，餐厅和出海集合点各自收费。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "hurghada-museum",
+        "name": "赫尔格达博物馆",
+        "nameEn": "Hurghada Museum",
+        "article": "Hurghada_Museum",
+        "lat": 27.154,
+        "lng": 33.824,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "用文物与工艺主题为海滨假期补上一段埃及历史，开放时段请查馆方。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://egymonuments.gov.eg/ar/museums/hurghada-museum",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "埃及文物主管部门·赫尔格达博物馆",
+            "url": "https://egymonuments.gov.eg/ar/museums/hurghada-museum",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 300,
+          "high": 700,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://egymonuments.gov.eg/ar/museums/hurghada-museum",
+          "sourceName": "埃及文物主管部门·赫尔格达博物馆",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "hurghada-marina",
+        "name": "赫尔格达码头",
+        "nameEn": "Hurghada",
+        "article": "Hurghada",
+        "lat": 27.225,
+        "lng": 33.841,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "看游艇与傍晚海港，餐厅和出海集合点各自收费。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "埃及旅游局·赫尔格达",
+            "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+          "sourceName": "埃及旅游局·赫尔格达",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Hurghada Marina for yachts.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hurghada_Marina_for_yachts.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "hurghada-dahar",
+        "name": "达哈尔老城市场",
+        "nameEn": "Hurghada",
+        "article": "Hurghada",
+        "lat": 27.258,
+        "lng": 33.812,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "从果蔬、日用品与小食摊观察这座度假城市的居民生活。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "埃及旅游局·赫尔格达",
+            "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+          "sourceName": "埃及旅游局·赫尔格达",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Bazaar Street, El Dahar, Hurghada, Egypt, Oct 2004.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Bazaar_Street,_El_Dahar,_Hurghada,_Egypt,_Oct_2004.jpg",
+        "photoSourceLicense": "CC BY-SA 1.0"
+      },
+      {
+        "id": "hurghada-giftun",
+        "name": "吉夫顿群岛海滩",
+        "nameEn": "Giftun Islands",
+        "article": "Giftun_Islands",
+        "lat": 27.185,
+        "lng": 33.969,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 195,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "离岸沙洲与清浅海水适合整段海岛时间，费用按船、沙滩区和保护区收费组合估算。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "埃及旅游局·赫尔格达",
+            "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 1400,
+          "high": 4000,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+          "sourceName": "埃及旅游局·赫尔格达",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "hurghada-mamsha",
+        "name": "El Mamsha 海滨步道",
+        "nameEn": "Hurghada",
+        "lat": 27.18,
+        "lng": 33.825,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "酒店区之外可用一小段傍晚步行连接晚餐与海风，不把商业步道当独立必游景点。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "埃及旅游局·赫尔格达",
+            "url": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.experienceegypt.eg/en/city/23/hurghada-",
+          "sourceName": "埃及旅游局·赫尔格达",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "imagePolicy": "exact-or-illustration"
+      },
+      {
+        "id": "hurghada-redsea",
+        "name": "赫尔格达近海珊瑚礁",
+        "nameEn": "Red Sea",
+        "article": "Red_Sea",
+        "lat": 27.259,
+        "lng": 33.925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "船潜或浮潜看到的珊瑚结构与鱼群因潜点而异；下水方式按资质和海况选择。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.padi.com/diving-in/hurghada/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "PADI·赫尔格达潜水指南",
+            "url": "https://www.padi.com/diving-in/hurghada/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 1800,
+          "high": 4500,
+          "currency": "EGP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.padi.com/diving-in/hurghada/",
+          "sourceName": "PADI·赫尔格达潜水指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Coral reefs in Hurghada.JPG",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_reefs_in_Hurghada.JPG",
+        "photoSourceLicense": "CC BY-SA 3.0"
+      }
+    ]
+  },
+  {
+    "id": "mombasa",
+    "name": "蒙巴萨",
+    "nameEn": "Mombasa",
+    "country": "肯尼亚",
+    "countryCode": "KE",
+    "currency": "KES",
+    "region": "非洲",
+    "lat": -4.0435,
+    "lng": 39.6682,
+    "iata": "MBA",
+    "article": "Mombasa",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mombasa"
+    },
+    "tagline": "斯瓦希里老港、印度洋珊瑚和香料餐桌交织；把海滩、帆船与老城分开慢慢体验。",
+    "description": "斯瓦希里老港、印度洋珊瑚和香料餐桌交织；把海滩、帆船与老城分开慢慢体验。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+    "sourceReferences": [
+      {
+        "name": "肯尼亚旅游局·蒙巴萨指南",
+        "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        4000,
+        12000,
+        30000
+      ],
+      "food": [
+        1500,
+        3500,
+        8500
+      ],
+      "transport": [
+        600,
+        1800,
+        5000
+      ],
+      "misc": [
+        270,
+        630,
+        1530
+      ]
+    },
+    "monthly": {
+      "rent": [
+        30000,
+        75000,
+        180000
+      ],
+      "utilities": [
+        2700,
+        6750,
+        16200
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "老城、尼亚利和北部海滩分区安排，过桥拥堵需留余量；Miritini 铁路站与 MBA 机场均需市区接驳。",
+    "guide": {
+      "cityId": "mombasa",
+      "intro": "斯瓦希里老港、印度洋珊瑚和香料餐桌交织；把海滩、帆船与老城分开慢慢体验。",
+      "foodHighlights": [
+        {
+          "name": "斯瓦希里比尔亚尼饭",
+          "description": "香料米饭配肉类或海鲜酱汁，斯瓦希里海岸的做法与印度版本会有不同；确认份量和主料。"
+        },
+        {
+          "name": "东非烤肉",
+          "description": "现有内罗毕指南收录的烤肉菜肴，按重量或份量点单前先确认价格。"
+        },
+        {
+          "name": "东非玉米主食",
+          "description": "玉米制成的主食可搭蔬菜、酱汁或肉类，是认识家常餐桌的入口。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "耶稣堡",
+          "description": "在海港要塞中了解印度洋航路、斯瓦希里海岸与殖民争夺历史。"
+        },
+        {
+          "name": "蒙巴萨老城",
+          "description": "留意雕花门、阳台和小店，居民空间拍照前征求同意。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "mombasa-fort",
+        "name": "耶稣堡",
+        "nameEn": "Fort Jesus",
+        "article": "Fort_Jesus",
+        "lat": -4.062,
+        "lng": 39.679,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "在海港要塞中了解印度洋航路、斯瓦希里海岸与殖民争夺历史。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "肯尼亚旅游局·蒙巴萨指南",
+            "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 1000,
+          "high": 2000,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+          "sourceName": "肯尼亚旅游局·蒙巴萨指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "mombasa-old-town",
+        "name": "蒙巴萨老城",
+        "nameEn": "Old Town (Mombasa)",
+        "article": "Old_Town_(Mombasa)",
+        "lat": -4.059,
+        "lng": 39.677,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "留意雕花门、阳台和小店，居民空间拍照前征求同意。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "肯尼亚旅游局·蒙巴萨指南",
+            "url": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://magicalkenya.com/wp-content/uploads/2024/10/48-hours-in-Mombasa-brochure.pdf",
+          "sourceName": "肯尼亚旅游局·蒙巴萨指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "mombasa-haller",
+        "name": "哈勒生态公园",
+        "nameEn": "Haller Park (Kenya)",
+        "article": "Haller_Park_(Kenya)",
+        "lat": -4.01,
+        "lng": 39.722,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "从废弃采石场修复成的生态园认识沿海植被与动物保育。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://hallerpark.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Haller Park 官网",
+            "url": "https://hallerpark.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 1200,
+          "high": 2500,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://hallerpark.com/",
+          "sourceName": "Haller Park 官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "mombasa-nyali",
+        "name": "尼亚利海滩",
+        "nameEn": "Nyali",
+        "article": "Nyali",
+        "lat": -4.047,
+        "lng": 39.707,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "把沙滩午后与临海用餐串起来；潮位和海况决定适合下水的区域。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+            "url": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+          "sourceName": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Nyali Beach Mombasa.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Nyali_Beach_Mombasa.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "mombasa-bamburi",
+        "name": "班布里海滩",
+        "nameEn": "Bamburi",
+        "article": "Bamburi",
+        "lat": -3.995,
+        "lng": 39.733,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "北岸度假海滩，适合与海洋公园船游放在同一区域。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+            "url": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+          "sourceName": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Sales booth at Bamburi Beach, Mombasa.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Sales_booth_at_Bamburi_Beach,_Mombasa.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "mombasa-marine",
+        "name": "蒙巴萨海洋国家公园",
+        "nameEn": "Mombasa Marine National Park and Reserve",
+        "article": "Mombasa_Marine_National_Park_and_Reserve",
+        "lat": -4.023,
+        "lng": 39.735,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "珊瑚礁、海草床和浅海生物组成受保护海域，预留船费、装备和入园费用。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+            "url": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 5500,
+          "high": 12000,
+          "currency": "KES",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://kws.go.ke/park/mombasa-marine-national-park-reserve/",
+          "sourceName": "肯尼亚野生动物管理局·蒙巴萨海洋公园",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "arusha",
+    "name": "阿鲁沙",
+    "nameEn": "Arusha",
+    "country": "坦桑尼亚",
+    "countryCode": "TZ",
+    "currency": "TZS",
+    "region": "非洲",
+    "lat": -3.3869,
+    "lng": 36.683,
+    "iata": "ARK",
+    "article": "Arusha",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arusha"
+    },
+    "tagline": "梅鲁山脚的咖啡农庄、艺术与火山湖，让这座游猎门户值得独立停留。",
+    "description": "梅鲁山脚的咖啡农庄、艺术与火山湖，让这座游猎门户值得独立停留。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://arushacc.go.tz/our-history",
+    "sourceReferences": [
+      {
+        "name": "阿鲁沙市政府·城市历史",
+        "url": "https://arushacc.go.tz/our-history",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "建议 3 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        70000,
+        200000,
+        650000
+      ],
+      "food": [
+        30000,
+        75000,
+        180000
+      ],
+      "transport": [
+        15000,
+        45000,
+        140000
+      ],
+      "misc": [
+        5400,
+        13500,
+        32400
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500000,
+        1500000,
+        4000000
+      ],
+      "utilities": [
+        45000,
+        135000,
+        360000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "ARK 是阿鲁沙本地机场，国际航班常到较远的 JRO；二者不能混为一个接驳。公园、滕格鲁及杜卢蒂湖需包车或预订接送。",
+    "guide": {
+      "cityId": "arusha",
+      "intro": "梅鲁山脚的咖啡农庄、艺术与火山湖，让这座游猎门户值得独立停留。",
+      "foodHighlights": [
+        {
+          "name": "坦桑尼亚薯条鸡蛋饼",
+          "description": "把薯条与鸡蛋煎成厚实的一盘，常配辣酱或番茄洋葱小菜；属于大众便餐，不是复杂宴席。"
+        },
+        {
+          "name": "梅鲁山脚咖啡",
+          "description": "从梅鲁山麓种植与家庭加工传统认识当地咖啡；市内咖啡馆与滕格鲁农庄体验是不同消费方式。"
+        },
+        {
+          "name": "东非烤肉",
+          "description": "现有内罗毕指南收录的烤肉菜肴，按重量或份量点单前先确认价格。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "旧堡自然历史博物馆",
+          "description": "在旧堡建筑里了解自然历史与城市形成，适合进入北部公园前建立背景。"
+        },
+        {
+          "name": "阿鲁沙文化遗产中心",
+          "description": "看非洲艺术、木雕与珠宝工艺；商业画廊参观和购买作品分开考虑。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "arusha-boma",
+        "name": "旧堡自然历史博物馆",
+        "nameEn": "Arusha",
+        "lat": -3.369,
+        "lng": 36.692,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "在旧堡建筑里了解自然历史与城市形成，适合进入北部公园前建立背景。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://arushacc.go.tz/our-history",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "阿鲁沙市政府·城市历史",
+            "url": "https://arushacc.go.tz/our-history",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 20000,
+          "high": 50000,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://arushacc.go.tz/our-history",
+          "sourceName": "阿鲁沙市政府·城市历史",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "imagePolicy": "exact-or-illustration"
+      },
+      {
+        "id": "arusha-art",
+        "name": "阿鲁沙文化遗产中心",
+        "nameEn": "Arusha Cultural Heritage Centre",
+        "article": "Arusha_Cultural_Heritage_Centre",
+        "lat": -3.393,
+        "lng": 36.654,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "看非洲艺术、木雕与珠宝工艺；商业画廊参观和购买作品分开考虑。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://culturalheritagetz.com/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Arusha Cultural Heritage Centre·参观",
+            "url": "https://culturalheritagetz.com/visit/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 20000,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://culturalheritagetz.com/visit/",
+          "sourceName": "Arusha Cultural Heritage Centre·参观",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "arusha-park",
+        "name": "阿鲁沙国家公园",
+        "nameEn": "Arusha National Park",
+        "article": "Arusha_National_Park",
+        "lat": -3.269,
+        "lng": 36.815,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 6,
+        "durationRange": {
+          "min": 240,
+          "recommended": 360,
+          "max": 540
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "梅鲁山麓、恩古尔多托火山口和莫梅拉湖构成丰富地形；门票、车辆和向导需组合预算。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "坦桑尼亚国家公园局·公园指南",
+            "url": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 250000,
+          "high": 650000,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1666341420-TANAPA%20GENERAL%20BROCHURES%202020-WEBSITE.pdf",
+          "sourceName": "坦桑尼亚国家公园局·公园指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "arusha-duluti",
+        "name": "杜卢蒂火山湖",
+        "nameEn": "Lake Duluti",
+        "article": "Lake_Duluti",
+        "lat": -3.397,
+        "lng": 36.792,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "城东火山口湖适合看湖岸植被与鸟类，徒步或划船项目需另选。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+            "url": "https://tengeruculturaltourism.com/tours.html",
+            "kind": "official-provider",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 20000,
+          "high": 80000,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+          "sourceName": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "arusha-tengeru",
+        "name": "滕格鲁社区与咖啡农庄",
+        "nameEn": "Tengeru",
+        "article": "Tengeru",
+        "lat": -3.37,
+        "lng": 36.79,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "从咖啡园走进社区加工过程，需联系社区项目安排，不能当作随意进入的私人农田。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+            "url": "https://tengeruculturaltourism.com/tours.html",
+            "kind": "official-provider",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 60000,
+          "high": 150000,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tengeruculturaltourism.com/tours.html",
+          "sourceName": "Tengeru Cultural Tourism·社区咖啡与湖泊游览",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "arusha-clock",
+        "name": "阿鲁沙钟楼与中心街区",
+        "nameEn": "Arusha",
+        "article": "Arusha",
+        "lat": -3.373,
+        "lng": 36.694,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "用钟楼周边认识城市方向，在下一趟公园行程前安排一段咖啡与采购时间。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://arushacc.go.tz/our-history",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "阿鲁沙市政府·城市历史",
+            "url": "https://arushacc.go.tz/our-history",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "TZS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://arushacc.go.tz/our-history",
+          "sourceName": "阿鲁沙市政府·城市历史",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Pedestrians and traffic at the Arusha Clock Tower.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Pedestrians_and_traffic_at_the_Arusha_Clock_Tower.jpg",
+        "photoSourceLicense": "CC0"
+      }
+    ]
+  },
+  {
+    "id": "hermanus",
+    "name": "赫尔马努斯",
+    "nameEn": "Hermanus",
+    "country": "南非",
+    "countryCode": "ZA",
+    "currency": "ZAR",
+    "region": "非洲",
+    "lat": -34.4187,
+    "lng": 19.2345,
+    "iata": "CPT",
+    "article": "Hermanus",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hermanus"
+    },
+    "tagline": "在沃克湾等待南露脊鲸的身影，再去芬博斯山坡认识海角植物与冷凉产区葡萄酒。",
+    "description": "在沃克湾等待南露脊鲸的身影，再去芬博斯山坡认识海角植物与冷凉产区葡萄酒。",
+    "tags": [
+      "地方文化",
+      "自然体验",
+      "慢旅行"
+    ],
+    "officialTourismUrl": "https://whalecoast.info/",
+    "sourceReferences": [
+      {
+        "name": "Cape Whale Coast 目的地官网",
+        "url": "https://whalecoast.info/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "leisure",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "建议 3 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        800,
+        1900,
+        5500
+      ],
+      "food": [
+        350,
+        800,
+        1900
+      ],
+      "transport": [
+        100,
+        350,
+        1000
+      ],
+      "misc": [
+        63,
+        144,
+        342
+      ]
+    },
+    "monthly": {
+      "rent": [
+        11000,
+        23000,
+        48000
+      ],
+      "utilities": [
+        990,
+        2070,
+        4320
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "开普敦 CPT 是外地门户机场，至赫尔马努斯公路约 100 多公里，需另外安排接驳；镇内海岸可步行，酒谷与自然保护区需车辆。",
+    "guide": {
+      "cityId": "hermanus",
+      "intro": "在沃克湾等待南露脊鲸的身影，再去芬博斯山坡认识海角植物与冷凉产区葡萄酒。",
+      "foodHighlights": [
+        {
+          "name": "沃克湾鳕鱼薯条",
+          "description": "南非海岸常见的 hake 鱼配薯条，炸或烤的做法视餐馆而定；这里的 hake 不是英语 cod 的同一种鱼。"
+        },
+        {
+          "name": "南非烤肉",
+          "description": "烤肉与配菜组成适合分享的一餐，按人数和肉类部位确认份量。"
+        },
+        {
+          "name": "开普风味焗肉",
+          "description": "肉末与蛋面层等组成的焗菜，可作为认识开普香料风味的正餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "赫尔马努斯老港",
+          "description": "从旧渔港与岸边展陈了解镇子的渔业来历，室内展馆票制另核对。"
+        },
+        {
+          "name": "Gearing’s Point 海岸观景台",
+          "description": "在沃克湾岸边看海，鲸季可带望远镜等待，但不能保证每次遇见鲸。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "hermanus-old-harbour",
+        "name": "赫尔马努斯老港",
+        "nameEn": "Old Harbour Museum",
+        "article": "Old_Harbour_Museum",
+        "lat": -34.421,
+        "lng": 19.244,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从旧渔港与岸边展陈了解镇子的渔业来历，室内展馆票制另核对。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://whalecoast.info/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Cape Whale Coast 目的地官网",
+            "url": "https://whalecoast.info/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 80,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whalecoast.info/",
+          "sourceName": "Cape Whale Coast 目的地官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "hermanus-gearing",
+        "name": "Gearing’s Point 海岸观景台",
+        "nameEn": "Hermanus",
+        "article": "Hermanus",
+        "lat": -34.422,
+        "lng": 19.243,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "在沃克湾岸边看海，鲸季可带望远镜等待，但不能保证每次遇见鲸。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://whalecoast.info/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Cape Whale Coast 目的地官网",
+            "url": "https://whalecoast.info/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whalecoast.info/",
+          "sourceName": "Cape Whale Coast 目的地官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "imageScope": "nearby",
+        "imageContextNote": "赫尔马努斯老港环境实景，非 Gearing’s Point 观鲸平台实拍。"
+      },
+      {
+        "id": "hermanus-fernkloof",
+        "name": "芬克鲁夫自然保护区",
+        "nameEn": "Fernkloof Nature Reserve",
+        "article": "Fernkloof_Nature_Reserve",
+        "lat": -34.397,
+        "lng": 19.273,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "认识海角芬博斯灌丛及折叠山地，选适合体力的步道，不采摘植物。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.fernkloof.org.za/index.php/ecology/geology",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Fernkloof Nature Reserve·生态与地质",
+            "url": "https://www.fernkloof.org.za/index.php/ecology/geology",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.fernkloof.org.za/index.php/ecology/geology",
+          "sourceName": "Fernkloof Nature Reserve·生态与地质",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "hermanus-grotto",
+        "name": "格罗托海滩",
+        "nameEn": "Grotto Beach",
+        "article": "Grotto_Beach",
+        "lat": -34.415,
+        "lng": 19.288,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "面向沃克湾的宽长沙滩适合休息与野餐，下水前查看旗帜和浪况。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://whalecoast.info/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Cape Whale Coast 目的地官网",
+            "url": "https://whalecoast.info/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whalecoast.info/",
+          "sourceName": "Cape Whale Coast 目的地官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Grotto Beach - Hermanus.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Grotto_Beach_-_Hermanus.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "hermanus-voelklip",
+        "name": "Voëlklip 海滩",
+        "nameEn": "Hermanus",
+        "article": "Hermanus",
+        "lat": -34.414,
+        "lng": 19.282,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "岩石和沙滩相接的小海湾，适合在自然保护区之后停留。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://whalecoast.info/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Cape Whale Coast 目的地官网",
+            "url": "https://whalecoast.info/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whalecoast.info/",
+          "sourceName": "Cape Whale Coast 目的地官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Hermanus, Voelklip Beach.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hermanus,_Voelklip_Beach.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "hermanus-valley",
+        "name": "Hemel-en-Aarde 葡萄酒谷",
+        "nameEn": "Hemel-en-Aarde Valley",
+        "article": "Hemel-en-Aarde_Valley",
+        "lat": -34.37,
+        "lng": 19.215,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "从镇北进入冷凉葡萄酒产区，酒庄有不同品鉴方案，需另安排车辆。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://whalecoast.info/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Cape Whale Coast 目的地官网",
+            "url": "https://whalecoast.info/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 100,
+          "high": 500,
+          "currency": "ZAR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://whalecoast.info/",
+          "sourceName": "Cape Whale Coast 目的地官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ],
+    "airportIsGateway": true,
+    "gatewayTransfer": {
+      "values": [
+        600,
+        1000,
+        1800
+      ],
+      "currency": "ZAR",
+      "note": "经开普敦外地门户机场，赫尔马努斯公路接驳按每人单程预留，实际包车分摊另核对。"
+    }
+  },
+  {
+    "id": "quito",
+    "name": "基多",
+    "nameEn": "Quito",
+    "country": "厄瓜多尔",
+    "countryCode": "EC",
+    "currency": "USD",
+    "region": "美洲",
+    "lat": -0.1807,
+    "lng": -78.4678,
+    "iata": "UIO",
+    "article": "Quito",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quito"
+    },
+    "tagline": "在高海拔的安第斯首都，从殖民老城、火山缆车到巧克力与玉米点心。",
+    "description": "在高海拔的安第斯首都，从殖民老城、火山缆车到巧克力与玉米点心。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://visitquito.ec/es/rutas-de-la-ciudad/",
+    "sourceReferences": [
+      {
+        "name": "Quito Turismo·城市路线",
+        "url": "https://visitquito.ec/es/rutas-de-la-ciudad/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        25,
+        75,
+        230
+      ],
+      "food": [
+        12,
+        30,
+        80
+      ],
+      "transport": [
+        4,
+        15,
+        50
+      ],
+      "misc": [
+        2,
+        5,
+        14
+      ]
+    },
+    "monthly": {
+      "rent": [
+        350,
+        800,
+        1800
+      ],
+      "utilities": [
+        32,
+        72,
+        162
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "老城可结合地铁与步行，缆车下站和北部赤道纪念区另留接驳；先适应高海拔，再选择山上活动。",
+    "guide": {
+      "cityId": "quito",
+      "intro": "在高海拔的安第斯首都，从殖民老城、火山缆车到巧克力与玉米点心。",
+      "foodHighlights": [
+        {
+          "name": "基多土豆奶酪浓汤",
+          "description": "以土豆为主的高地浓汤，常见奶酪、牛油果等搭配，口感温润；具体乳制品与配料向店家确认。"
+        },
+        {
+          "name": "厄瓜多尔玉米叶蒸包",
+          "description": "鲜玉米糊包在玉米叶里蒸熟，常带奶酪香，甜咸与配方依家庭而异；可作为早餐或下午点心。"
+        },
+        {
+          "name": "基多叶包甜蒸糕",
+          "description": "松软甜面糊用叶片包裹蒸熟，常见葡萄干；展开叶包后配咖啡或热饮吃。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "独立广场",
+          "description": "以广场为起点看老城的政治与宗教建筑，内院和展览需各自核对。"
+        },
+        {
+          "name": "圣弗朗西斯科广场与教堂",
+          "description": "从开阔广场走进建筑细节，教堂、博物馆和特殊导览不视为同一张票。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "quito-plaza",
+        "name": "独立广场",
+        "nameEn": "Plaza de la Independencia (Quito)",
+        "article": "Plaza_de_la_Independencia_(Quito)",
+        "lat": -0.22,
+        "lng": -78.512,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "以广场为起点看老城的政治与宗教建筑，内院和展览需各自核对。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Quito·交通与历史城区",
+            "url": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+          "sourceName": "Visit Quito·交通与历史城区",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "quito-san-francisco",
+        "name": "圣弗朗西斯科广场与教堂",
+        "nameEn": "Church and Convent of St. Francis, Quito",
+        "article": "Church_and_Convent_of_St._Francis,_Quito",
+        "lat": -0.221,
+        "lng": -78.515,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "从开阔广场走进建筑细节，教堂、博物馆和特殊导览不视为同一张票。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Quito·交通与历史城区",
+            "url": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 8,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+          "sourceName": "Visit Quito·交通与历史城区",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "quito-compania",
+        "name": "耶稣会教堂",
+        "nameEn": "Church of la Compañía de Jesús, Quito",
+        "article": "Church_of_la_Compañía_de_Jesús,_Quito",
+        "lat": -0.221,
+        "lng": -78.513,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "理解安第斯殖民建筑中的巴洛克装饰，遵守内部摄影规定。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Quito·交通与历史城区",
+            "url": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 5,
+          "high": 10,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+          "sourceName": "Visit Quito·交通与历史城区",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "quito-basilica",
+        "name": "国家誓言圣殿",
+        "nameEn": "Basilica of the National Vow",
+        "article": "Basilica_of_the_National_Vow",
+        "lat": -0.215,
+        "lng": -78.507,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "留意不同于欧洲教堂的动物装饰，登塔部分涉及阶梯和高度。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://visitquito.ec/es/rutas-de-la-ciudad/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Quito Turismo·城市路线",
+            "url": "https://visitquito.ec/es/rutas-de-la-ciudad/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 2,
+          "high": 8,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitquito.ec/es/rutas-de-la-ciudad/",
+          "sourceName": "Quito Turismo·城市路线",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "quito-ronda",
+        "name": "拉龙达街",
+        "nameEn": "Calle La Ronda",
+        "article": "Calle_La_Ronda",
+        "lat": -0.225,
+        "lng": -78.515,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "在手艺小店、音乐与点心之间理解老城生活，活动按实际营业选择。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Quito·交通与历史城区",
+            "url": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitquito.ec/es/como-moverte-en-quito-metro-buses-taxis-y-apps/",
+          "sourceName": "Visit Quito·交通与历史城区",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "quito-cable",
+        "name": "TelefériQo 缆车与 Cruz Loma",
+        "nameEn": "TelefériQo",
+        "article": "TelefériQo",
+        "lat": -0.187,
+        "lng": -78.518,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 79,
+        "description": "乘缆车看基多山城，高处约 4050 米；此项只到观景区，不含登顶皮钦查火山。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://teleferico.com.ec/preguntas-frecuentes/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "TelefériQo·常见问题及票价",
+            "url": "https://teleferico.com.ec/preguntas-frecuentes/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 9,
+          "high": 9,
+          "currency": "USD",
+          "type": "official",
+          "checkedAt": "2026-09-23",
+          "sourceUrl": "https://teleferico.com.ec/preguntas-frecuentes/",
+          "sourceName": "TelefériQo·常见问题及票价",
+          "note": "官网 FAQ：未持厄瓜多尔身份证的成人往返票 USD 9；附加活动另付，以购票当日为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cartagena",
+    "name": "卡塔赫纳",
+    "nameEn": "Cartagena",
+    "country": "哥伦比亚",
+    "countryCode": "CO",
+    "currency": "COP",
+    "region": "美洲",
+    "lat": 10.391,
+    "lng": -75.4794,
+    "iata": "CTG",
+    "article": "Cartagena,_Colombia",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cartagena,_Colombia"
+    },
+    "tagline": "城墙内的加勒比色彩之外，还有渔村红树林、珊瑚海和非裔加勒比餐桌。",
+    "description": "城墙内的加勒比色彩之外，还有渔村红树林、珊瑚海和非裔加勒比餐桌。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://colombia.travel/es/cartagena",
+    "sourceReferences": [
+      {
+        "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+        "url": "https://colombia.travel/es/cartagena",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        130000,
+        420000,
+        1300000
+      ],
+      "food": [
+        65000,
+        150000,
+        420000
+      ],
+      "transport": [
+        25000,
+        80000,
+        220000
+      ],
+      "misc": [
+        11700,
+        27000,
+        75600
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1800000,
+        4200000,
+        9500000
+      ],
+      "utilities": [
+        162000,
+        378000,
+        855000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "cartagena",
+      "intro": "城墙内的加勒比色彩之外，还有渔村红树林、珊瑚海和非裔加勒比餐桌。",
+      "foodHighlights": [
+        {
+          "name": "加勒比鸡蛋玉米饼",
+          "description": "玉米饼炸定形后填入鸡蛋再次炸熟，外皮酥脆；可作早餐，肉馅版本另问。"
+        },
+        {
+          "name": "沿海山药奶酪汤",
+          "description": "用山药与沿海奶酪煮成稠汤，常配米饭；乳制品带来的咸香是这道加勒比地区菜的特点。"
+        },
+        {
+          "name": "卡塔赫纳黑酱炖牛肉",
+          "description": "牛肉慢炖出深色浓汁，风味带甜咸对比，常与椰香米饭组合；深色来自烹饪与酱汁而非烧焦。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "卡塔赫纳城墙与老城",
+          "description": "城墙与街巷记录加勒比海港历史，炎热午后可安排室内停留。"
+        },
+        {
+          "name": "圣费利佩城堡",
+          "description": "通过堡垒坡道和通道理解海港防御体系，部分路面无遮阴。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "cartagena-walls",
+        "name": "卡塔赫纳城墙与老城",
+        "nameEn": "Walls of Cartagena",
+        "article": "Walls_of_Cartagena",
+        "lat": 10.426,
+        "lng": -75.551,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "城墙与街巷记录加勒比海港历史，炎热午后可安排室内停留。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://colombia.travel/es/cartagena",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+            "url": "https://colombia.travel/es/cartagena",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/cartagena",
+          "sourceName": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "cartagena-san-felipe",
+        "name": "圣费利佩城堡",
+        "nameEn": "Castillo San Felipe de Barajas",
+        "article": "Castillo_San_Felipe_de_Barajas",
+        "lat": 10.423,
+        "lng": -75.539,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "通过堡垒坡道和通道理解海港防御体系，部分路面无遮阴。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://colombia.travel/es/cartagena",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+            "url": "https://colombia.travel/es/cartagena",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 30000,
+          "high": 55000,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/cartagena",
+          "sourceName": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "cartagena-getsemani",
+        "name": "赫茨马尼街区",
+        "nameEn": "Getsemaní",
+        "article": "Getsemaní",
+        "lat": 10.419,
+        "lng": -75.545,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "壁画、社区广场和日常生活并存，适合尊重居民的慢游而非整街摆拍。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://colombia.travel/es/cartagena",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+            "url": "https://colombia.travel/es/cartagena",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/cartagena",
+          "sourceName": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "cartagena-naval",
+        "name": "加勒比海军博物馆",
+        "nameEn": "Museo Naval del Caribe",
+        "article": "Museo_Naval_del_Caribe",
+        "lat": 10.421,
+        "lng": -75.552,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "用港口与航海史补足城墙之外的背景，适合炎热时段的室内参观。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://colombia.travel/es/cartagena",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+            "url": "https://colombia.travel/es/cartagena",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 20000,
+          "high": 40000,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/cartagena",
+          "sourceName": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "cartagena-bocagrande",
+        "name": "博卡格兰德海滩",
+        "nameEn": "Bocagrande",
+        "article": "Bocagrande",
+        "lat": 10.4,
+        "lng": -75.557,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "城市高楼前的海滩适合短暂停留，躺椅、遮阳伞和饮食先确认总价。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://colombia.travel/es/cartagena",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+            "url": "https://colombia.travel/es/cartagena",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/cartagena",
+          "sourceName": "哥伦比亚国家旅游推广机构·卡塔赫纳",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "cartagena-boquilla",
+        "name": "拉博基利亚渔村与红树林",
+        "nameEn": "La Boquilla, Cartagena",
+        "article": "La_Boquilla,_Cartagena",
+        "lat": 10.47,
+        "lng": -75.498,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "通过社区向导认识红树林、水道与捕鱼生活；独木舟应作为预约项目安排。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Colombia Travel·La Boquilla 社区与红树林",
+            "url": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 90000,
+          "high": 220000,
+          "currency": "COP",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://colombia.travel/es/blog/revista-colombia/la-boquilla",
+          "sourceName": "Colombia Travel·La Boquilla 社区与红树林",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "salvador",
+    "name": "萨尔瓦多",
+    "nameEn": "Salvador",
+    "country": "巴西",
+    "countryCode": "BR",
+    "currency": "BRL",
+    "region": "美洲",
+    "lat": -12.9777,
+    "lng": -38.5016,
+    "iata": "SSA",
+    "article": "Salvador,_Bahia",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Salvador,_Bahia"
+    },
+    "tagline": "巴伊亚的鼓点、黑人文化、棕榈油香与海边信仰，让旅行有声音也有味道。",
+    "description": "巴伊亚的鼓点、黑人文化、棕榈油香与海边信仰，让旅行有声音也有味道。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://www.salvadordabahia.com/",
+    "sourceReferences": [
+      {
+        "name": "萨尔瓦多城市旅游官网",
+        "url": "https://www.salvadordabahia.com/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        130,
+        380,
+        1100
+      ],
+      "food": [
+        65,
+        160,
+        430
+      ],
+      "transport": [
+        20,
+        70,
+        220
+      ],
+      "misc": [
+        12,
+        29,
+        77
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1800,
+        4000,
+        9000
+      ],
+      "utilities": [
+        162,
+        360,
+        810
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "salvador",
+      "intro": "巴伊亚的鼓点、黑人文化、棕榈油香与海边信仰，让旅行有声音也有味道。",
+      "foodHighlights": [
+        {
+          "name": "巴伊亚虾馅黑眼豆炸饼",
+          "description": "黑眼豆糊用棕榈油炸成饼，再夹虾、vatapá 等馅料；辣酱可分开放，虾与坚果过敏需提前说明。"
+        },
+        {
+          "name": "巴伊亚叶包黑眼豆蒸包",
+          "description": "同样以黑眼豆为基础，但包入香蕉叶蒸熟，口感较柔软；与油炸的 acarajé 区分。"
+        },
+        {
+          "name": "巴伊亚椰奶海鲜炖锅",
+          "description": "鱼或海鲜与椰奶、棕榈油和蔬菜同煮，香浓适合分享；一锅是否含米饭、份量供几人先确认。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "佩洛里尼奥历史中心",
+          "description": "建筑色彩背后有奴隶贸易、黑人文化与城市更新的复杂历史，适合配合导览理解。"
+        },
+        {
+          "name": "圣弗朗西斯科教堂与修道院",
+          "description": "欣赏巴洛克工艺；修缮及开放区域可能变化，出发前核对场馆公告。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "salvador-pelourinho",
+        "name": "佩洛里尼奥历史中心",
+        "nameEn": "Historic Centre of Salvador",
+        "article": "Historic_Centre_of_Salvador",
+        "lat": -12.973,
+        "lng": -38.51,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "建筑色彩背后有奴隶贸易、黑人文化与城市更新的复杂历史，适合配合导览理解。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "salvador-francisco",
+        "name": "圣弗朗西斯科教堂外观",
+        "nameEn": "São Francisco Church and Convent of Salvador",
+        "article": "São_Francisco_Church_and_Convent_of_Salvador",
+        "lat": -12.975,
+        "lng": -38.509,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 0.5,
+        "durationRange": {
+          "min": 15,
+          "recommended": 30,
+          "max": 45
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "在开放的公共街区短暂停留，看看教堂外观与老城建筑关系。教堂及修道院正修复，IPHAN 2026 年 6 月公告预计工程至 2029 年完成；此项不安排室内参观，实际重开日期仍待官方确认。",
+        "features": [
+          "地方文化",
+          "仅看外观",
+          "室内修复中"
+        ],
+        "bestTime": "白天在现场允许通行的公共区域短停；施工围挡和现场要求优先。",
+        "accessNote": "公共街区看外观按免费预留，不含进入教堂、修道院或施工区域；不承诺室内开放。",
+        "sourceUrl": "https://www.gov.br/iphan/pt-br/sala-de-imprensa/notas-e-avisos-de-pauta/iphan-prepara-igreja-de-sao-francisco-para-restauro-obra-emergencial-na-nave-central-termina",
+        "sourceCheckedAt": "2026-09-24",
+        "sourceReferences": [
+          {
+            "name": "巴西国家历史艺术遗产研究所 IPHAN·圣弗朗西斯科教堂修复公告",
+            "url": "https://www.gov.br/iphan/pt-br/sala-de-imprensa/notas-e-avisos-de-pauta/iphan-prepara-igreja-de-sao-francisco-para-restauro-obra-emergencial-na-nave-central-termina",
+            "kind": "official-government",
+            "scope": "opening-status",
+            "checkedAt": "2026-09-24"
+          },
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "free",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gov.br/iphan/pt-br/sala-de-imprensa/notas-e-avisos-de-pauta/iphan-prepara-igreja-de-sao-francisco-para-restauro-obra-emergencial-na-nave-central-termina",
+          "sourceName": "IPHAN·室内修复状态",
+          "note": "仅公共街区外观短停按免费预留；教堂室内尚不开放，不是免费入场票。"
+        }
+      },
+      {
+        "id": "salvador-elevator",
+        "name": "拉塞尔达升降机",
+        "nameEn": "Elevador Lacerda",
+        "article": "Elevador_Lacerda",
+        "lat": -12.973,
+        "lng": -38.513,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "连接上城与下城的日常交通设施，同时打开诸圣湾视角。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 10,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "salvador-model",
+        "name": "莫德洛市场",
+        "nameEn": "Mercado Modelo",
+        "article": "Mercado_Modelo",
+        "lat": -12.972,
+        "lng": -38.514,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "看当地手工艺、乐器与食品，购买和餐饮各自计价。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "salvador-barrafarol",
+        "name": "巴拉灯塔与海事博物馆",
+        "nameEn": "Barra Lighthouse",
+        "article": "Barra_Lighthouse",
+        "lat": -13.01,
+        "lng": -38.532,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "把海事历史与海岬日落放在同一段时光，沙滩停留可另外增加。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 15,
+          "high": 40,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "salvador-bonfim",
+        "name": "邦芬教堂",
+        "nameEn": "Church of Nosso Senhor do Bonfim",
+        "article": "Church_of_Nosso_Senhor_do_Bonfim",
+        "lat": -12.924,
+        "lng": -38.509,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 79,
+        "description": "认识彩带祈愿与当地信仰交汇，礼拜时保持安静。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "salvador-tororo",
+        "name": "托罗罗湖",
+        "nameEn": "Dique do Tororó",
+        "article": "Dique_do_Tororó",
+        "lat": -12.986,
+        "lng": -38.504,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "观察水面上的奥里沙神像与城市日常，是理解非裔巴西文化的一处入口。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.salvadordabahia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "萨尔瓦多城市旅游官网",
+            "url": "https://www.salvadordabahia.com/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.salvadordabahia.com/",
+          "sourceName": "萨尔瓦多城市旅游官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "manaus",
+    "name": "玛瑙斯",
+    "nameEn": "Manaus",
+    "country": "巴西",
+    "countryCode": "BR",
+    "currency": "BRL",
+    "region": "美洲",
+    "lat": -3.119,
+    "lng": -60.0217,
+    "iata": "MAO",
+    "article": "Manaus",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manaus"
+    },
+    "tagline": "黑水河与白水河交汇，树冠之上看雨林，老剧院与河鲜市场记录城市的另一面。",
+    "description": "黑水河与白水河交汇，树冠之上看雨林，老剧院与河鲜市场记录城市的另一面。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+    "sourceReferences": [
+      {
+        "name": "Visit Brasil·玛瑙斯",
+        "url": "https://www.visitbrasil.com/location/manaus-pt/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        420,
+        1150
+      ],
+      "food": [
+        65,
+        160,
+        420
+      ],
+      "transport": [
+        25,
+        80,
+        240
+      ],
+      "misc": [
+        12,
+        29,
+        76
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        3500,
+        8000
+      ],
+      "utilities": [
+        144,
+        315,
+        720
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心以步行结合当地公共交通或出租车；海岛、山地和远郊项目需单独计入接驳与候船时间。",
+    "guide": {
+      "cityId": "manaus",
+      "intro": "黑水河与白水河交汇，树冠之上看雨林，老剧院与河鲜市场记录城市的另一面。",
+      "foodHighlights": [
+        {
+          "name": "炭烤亚马孙坦巴基鱼",
+          "description": "肥厚的淡水鱼常以烤制方式呈现，可搭米饭、木薯粉或地方配菜；鱼刺与份量需留意。"
+        },
+        {
+          "name": "亚马孙塔卡卡汤",
+          "description": "用 tucupi 木薯汁、jambu 叶、虾与木薯淀粉组成的热汤，带独特麻感；通常盛在碗钵中品尝。"
+        },
+        {
+          "name": "亚马孙巨骨舌鱼料理",
+          "description": "这种大型淡水鱼会以煎、烤、炖或咸干方式入菜；选择正规餐馆并询问鱼的合法来源，菜式各店不同。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "亚马孙剧院",
+          "description": "剧院建筑映照橡胶繁荣时期的城市野心，白天参观与晚间演出分别购票。"
+        },
+        {
+          "name": "阿道夫利斯博阿市场",
+          "description": "从河鱼、水果与日用品观察雨林城市的餐桌，食物购买另计。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "manaus-theatre",
+        "name": "亚马孙剧院",
+        "nameEn": "Amazon Theatre",
+        "article": "Amazon_Theatre",
+        "lat": -3.13,
+        "lng": -60.023,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "剧院建筑映照橡胶繁荣时期的城市野心，白天参观与晚间演出分别购票。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://teatroamazonas.com.br/circuito/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Teatro Amazonas·参观路线",
+            "url": "https://teatroamazonas.com.br/circuito/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 20,
+          "high": 80,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://teatroamazonas.com.br/circuito/",
+          "sourceName": "Teatro Amazonas·参观路线",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-market",
+        "name": "阿道夫利斯博阿市场",
+        "nameEn": "Mercado Adolpho Lisboa",
+        "article": "Mercado_Adolpho_Lisboa",
+        "lat": -3.14,
+        "lng": -60.024,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "从河鱼、水果与日用品观察雨林城市的餐桌，食物购买另计。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Brasil·玛瑙斯",
+            "url": "https://www.visitbrasil.com/location/manaus-pt/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+          "sourceName": "Visit Brasil·玛瑙斯",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-waters",
+        "name": "两河交汇",
+        "nameEn": "Meeting of Waters",
+        "article": "Meeting_of_Waters",
+        "lat": -3.135,
+        "lng": -59.906,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "看内格罗河与索利蒙伊斯河水色并行，必须预留码头与船程。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Brasil·玛瑙斯",
+            "url": "https://www.visitbrasil.com/location/manaus-pt/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 200,
+          "high": 600,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitbrasil.com/location/manaus-pt/",
+          "sourceName": "Visit Brasil·玛瑙斯",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-musa",
+        "name": "MUSA 亚马孙博物馆",
+        "nameEn": "Museu da Amazônia",
+        "article": "Museu_da_Amazônia",
+        "lat": -3.008,
+        "lng": -59.941,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "在城市边缘的雨林保留地走步道、看生态展陈与树冠；特殊时段需预约。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://museudaamazonia.org.br/en/visit-musa/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "MUSA 亚马孙博物馆·参观",
+            "url": "https://museudaamazonia.org.br/en/visit-musa/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 40,
+          "high": 120,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://museudaamazonia.org.br/en/visit-musa/",
+          "sourceName": "MUSA 亚马孙博物馆·参观",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-ponta",
+        "name": "黑尖海滩与河岸",
+        "nameEn": "Ponta Negra (Manaus)",
+        "article": "Ponta_Negra_(Manaus)",
+        "lat": -3.063,
+        "lng": -60.103,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 82,
+        "description": "在内格罗河边看城市休闲生活，沙滩和可用区域随水位变化。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "玛瑙斯市政府·游览指南",
+            "url": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+          "sourceName": "玛瑙斯市政府·游览指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-provincial",
+        "name": "省府文化馆 Palacete Provincial",
+        "nameEn": "Palacete Provincial",
+        "article": "Palacete_Provincial",
+        "lat": -3.135,
+        "lng": -60.02,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 79,
+        "description": "在旧建筑里按兴趣选择图像、考古或艺术展陈，不必把所有馆室走完。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "玛瑙斯市政府·游览指南",
+            "url": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 30,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+          "sourceName": "玛瑙斯市政府·游览指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "manaus-palace",
+        "name": "里奥内格罗宫",
+        "nameEn": "Palácio Rio Negro (Manaus)",
+        "article": "Palácio_Rio_Negro_(Manaus)",
+        "lat": -3.136,
+        "lng": -60.015,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "通过宅邸空间和展览认识橡胶时代的社会生活，活动与开放日查当前公告。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "玛瑙斯市政府·游览指南",
+            "url": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 30,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.manaus.am.gov.br/turismo/o-que-ver-e-fazer-em-manaus/",
+          "sourceName": "玛瑙斯市政府·游览指南",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "foz-do-iguacu",
+    "name": "伊瓜苏市",
+    "nameEn": "Foz do Iguaçu",
+    "country": "巴西",
+    "countryCode": "BR",
+    "currency": "BRL",
+    "region": "美洲",
+    "lat": -25.5163,
+    "lng": -54.5854,
+    "iata": "IGU",
+    "article": "Foz_do_Iguaçu",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u"
+    },
+    "tagline": "瀑布水雾、大西洋森林与三国交界文化；在自然奇观之外理解水电与边境生活。",
+    "description": "瀑布水雾、大西洋森林与三国交界文化；在自然奇观之外理解水电与边境生活。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+    "sourceReferences": [
+      {
+        "name": "Visit Brasil·伊瓜苏市",
+        "url": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "建议 3 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        140,
+        420,
+        1450
+      ],
+      "food": [
+        65,
+        160,
+        450
+      ],
+      "transport": [
+        25,
+        90,
+        270
+      ],
+      "misc": [
+        12,
+        29,
+        81
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        3600,
+        8500
+      ],
+      "utilities": [
+        144,
+        324,
+        765
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "瀑布、鸟园和机场在同一南侧走廊，伊泰普在北侧；阿根廷一侧属于跨境行程，证件和过关耗时另核对。",
+    "guide": {
+      "cityId": "foz-do-iguacu",
+      "intro": "瀑布水雾、大西洋森林与三国交界文化；在自然奇观之外理解水电与边境生活。",
+      "foodHighlights": [
+        {
+          "name": "巴西炭烤肉拼盘",
+          "description": "按部位品尝烤肉，餐馆可能采用自助取肉或巡桌服务；不能把所有烤肉餐厅都视为同一套无限量规则。"
+        },
+        {
+          "name": "巴西薄皮炸馅饼",
+          "description": "薄皮包牛肉、奶酪或其他馅料后油炸，是巴西常见小吃；在边境城市餐桌上与多国菜系并存。"
+        },
+        {
+          "name": "巴西黑豆炖肉",
+          "description": "黑豆与肉类慢炖的主菜，可搭配米饭及其他配菜，适合分享。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "伊瓜苏瀑布巴西侧",
+          "description": "从巴西侧步道看瀑布群全景，门票含规定的园内交通；不含阿根廷侧和游船。"
+        },
+        {
+          "name": "鸟类公园 Parque das Aves",
+          "description": "在大西洋森林背景下认识鸟类及保育工作，园区鸟类不等于野外偶遇。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "foz-do-iguacu-falls",
+        "name": "伊瓜苏瀑布巴西侧",
+        "nameEn": "Iguazu Falls",
+        "article": "Iguazu_Falls",
+        "lat": -25.686,
+        "lng": -54.444,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从巴西侧步道看瀑布群全景，门票含规定的园内交通；不含阿根廷侧和游船。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://cataratasdoiguacu.com.br/ajuda-e-cuidados/informacoes-sobre-ingresso/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "伊瓜苏国家公园运营方·门票范围",
+            "url": "https://cataratasdoiguacu.com.br/ajuda-e-cuidados/informacoes-sobre-ingresso/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 110,
+          "high": 160,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://cataratasdoiguacu.com.br/ajuda-e-cuidados/informacoes-sobre-ingresso/",
+          "sourceName": "伊瓜苏国家公园运营方·门票范围",
+          "passGroup": "iguacu-national-park-brazil-day",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "foz-do-iguacu-birds",
+        "name": "鸟类公园 Parque das Aves",
+        "nameEn": "Parque das Aves",
+        "article": "Parque_das_Aves",
+        "lat": -25.616,
+        "lng": -54.48,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "在大西洋森林背景下认识鸟类及保育工作，园区鸟类不等于野外偶遇。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Parque das Aves·参观",
+            "url": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 90,
+          "high": 150,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parquedasaves.com.br/planeje-sua-visita/valores/",
+          "sourceName": "Parque das Aves·参观",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "foz-do-iguacu-itaipu",
+        "name": "伊泰普水电站全景参观",
+        "nameEn": "Itaipu Dam",
+        "article": "Itaipu_Dam",
+        "lat": -25.407,
+        "lng": -54.589,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "乘园方车辆看坝体与工程尺度，全景项目不含所有内部技术参观。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Turismo Itaipu·全景参观",
+            "url": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 60,
+          "high": 120,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoitaipu.com.br/ingressos-e-passeios/itaipu-panoramica/",
+          "sourceName": "Turismo Itaipu·全景参观",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "foz-do-iguacu-borders",
+        "name": "三国交界地标",
+        "nameEn": "Triple Frontier",
+        "article": "Triple_Frontier",
+        "lat": -25.593,
+        "lng": -54.591,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "从巴西岸理解两河与三国的位置，傍晚项目内容依票种和节目表而定。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Brasil·伊瓜苏市",
+            "url": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 40,
+          "high": 100,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+          "sourceName": "Visit Brasil·伊瓜苏市",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "foz-do-iguacu-riverbank",
+        "name": "巴拉那河城市河岸",
+        "nameEn": "Paraná River",
+        "article": "Paraná_River",
+        "lat": -25.532,
+        "lng": -54.601,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "用一段短停留理解边境城市与河流的关系，按开放公共区域选择步行点。",
+        "features": [
+          "地方文化",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "Visit Brasil·伊瓜苏市",
+            "url": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitbrasil.com/en/location/foz-do-iguacu-en/",
+          "sourceName": "Visit Brasil·伊瓜苏市",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "J37 837 Río Paraná, Foz do Iguaçu.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:J37_837_R%C3%ADo_Paran%C3%A1,_Foz_do_Igua%C3%A7u.jpg",
+        "photoSourceLicense": "CC BY-SA 4.0"
+      },
+      {
+        "id": "foz-do-iguacu-forest",
+        "name": "Bananeiras 森林步道",
+        "nameEn": "Iguaçu National Park",
+        "article": "Iguaçu_National_Park",
+        "lat": -25.654,
+        "lng": -54.445,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "约 1.3 公里步道通向伊瓜苏河畔，包含在伊瓜苏国家公园门票内；与巴西侧瀑布安排在同一天时，预算只计一次公园票。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://cataratasdoiguacu.com.br/o-passeio/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "伊瓜苏国家公园运营方·游览路线",
+            "url": "https://cataratasdoiguacu.com.br/o-passeio/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 110,
+          "high": 160,
+          "currency": "BRL",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://cataratasdoiguacu.com.br/o-passeio/",
+          "sourceName": "伊瓜苏国家公园运营方·游览路线",
+          "passGroup": "iguacu-national-park-brazil-day",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ushuaia",
+    "name": "乌斯怀亚",
+    "nameEn": "Ushuaia",
+    "country": "阿根廷",
+    "countryCode": "AR",
+    "currency": "ARS",
+    "region": "美洲",
+    "lat": -54.8019,
+    "lng": -68.303,
+    "iata": "USH",
+    "article": "Ushuaia",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ushuaia"
+    },
+    "tagline": "在比格尔海峡与火地岛森林之间，顺着企鹅季、海鲜餐桌和旧铁路探索高纬南方。",
+    "description": "在比格尔海峡与火地岛森林之间，顺着企鹅季、海鲜餐桌和旧铁路探索高纬南方。",
+    "tags": [
+      "地方餐桌",
+      "文化与自然",
+      "深度探索"
+    ],
+    "officialTourismUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+    "sourceReferences": [
+      {
+        "name": "乌斯怀亚市旅游局·城市文化与餐饮",
+        "url": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "建议 4 天，把市区文化与需要接驳的自然体验分开安排。"
+    },
+    "daily": {
+      "lodging": [
+        70000,
+        180000,
+        480000
+      ],
+      "food": [
+        35000,
+        80000,
+        210000
+      ],
+      "transport": [
+        12000,
+        40000,
+        120000
+      ],
+      "misc": [
+        6300,
+        14400,
+        37800
+      ]
+    },
+    "monthly": {
+      "rent": [
+        800000,
+        1800000,
+        4200000
+      ],
+      "utilities": [
+        72000,
+        162000,
+        378000
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档为编辑规划预留，不是酒店、餐厅实时报价或市场上下限。住宿每间每晚，餐饮交通每成人每天，长租水电每间每月；活动、远郊交通另计。"
+    },
+    "transportNote": "市中心可步行；国家公园、企鹅码头和火地岛湖泊需公路或船舶接驳。天气可改变船班，不要紧接航班安排出海。",
+    "guide": {
+      "cityId": "ushuaia",
+      "intro": "在比格尔海峡与火地岛森林之间，顺着企鹅季、海鲜餐桌和旧铁路探索高纬南方。",
+      "foodHighlights": [
+        {
+          "name": "火地岛南极石蟹",
+          "description": "当地称 centolla 的南方石蟹可整只、取肉或入菜供应；并非每种海鲜拼盘都有整蟹，点单确认份量和季节。"
+        },
+        {
+          "name": "巴塔哥尼亚犬牙鱼",
+          "description": "肉质肥厚的深海鱼在当地餐馆通常作为单份主菜；西语名称虽带 merluza，却不是普通无须鳕。"
+        },
+        {
+          "name": "火地岛烤羊肉",
+          "description": "慢烤羊肉展现火地岛畜牧餐桌，按餐馆可点拼盘或单份；确认是否包含配菜和饮品。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "海事与监狱博物馆",
+          "description": "在旧监狱建筑中看航海、城市与监禁历史，帮助理解世界尽头列车的背景。"
+        },
+        {
+          "name": "世界尽头博物馆",
+          "description": "了解火地岛自然与人群历史，留意原住民叙事而不只收集旅行地标。"
+        }
+      ],
+      "experienceIntro": "按兴趣选一段当地生活、一项文化活动或一趟自然体验；有季节和日期限制的项目先保留在愿望预算中。"
+    },
+    "attractions": [
+      {
+        "id": "ushuaia-maritime",
+        "name": "海事与监狱博物馆",
+        "nameEn": "Maritime Museum of Ushuaia",
+        "article": "Maritime_Museum_of_Ushuaia",
+        "lat": -54.802,
+        "lng": -68.296,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "在旧监狱建筑中看航海、城市与监禁历史，帮助理解世界尽头列车的背景。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·城市文化与餐饮",
+            "url": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 30000,
+          "high": 65000,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+          "sourceName": "乌斯怀亚市旅游局·城市文化与餐饮",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "ushuaia-endmuseum",
+        "name": "世界尽头博物馆",
+        "nameEn": "Museo del Fin del Mundo",
+        "article": "Museo_del_Fin_del_Mundo",
+        "lat": -54.807,
+        "lng": -68.301,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 91,
+        "description": "了解火地岛自然与人群历史，留意原住民叙事而不只收集旅行地标。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·城市文化与餐饮",
+            "url": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 8000,
+          "high": 25000,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+          "sourceName": "乌斯怀亚市旅游局·城市文化与餐饮",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "ushuaia-park",
+        "name": "火地岛国家公园",
+        "nameEn": "Tierra del Fuego National Park",
+        "article": "Tierra_del_Fuego_National_Park",
+        "lat": -54.843,
+        "lng": -68.558,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 195,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 88,
+        "description": "海湾、南极山毛榉林和泥炭地构成高纬风景，园内交通与门票分开确认。",
+        "features": [
+          "自然景观",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·户外活动",
+            "url": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 40000,
+          "high": 65000,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+          "sourceName": "乌斯怀亚市旅游局·户外活动",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        },
+        "photoFile": "Bahía Lapataia.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Bah%C3%ADa_Lapataia.jpg",
+        "photoSourceLicense": "CC BY 4.0"
+      },
+      {
+        "id": "ushuaia-martial",
+        "name": "马蒂亚尔山谷",
+        "nameEn": "Martial Mountains",
+        "article": "Martial_Mountains",
+        "photoFile": "Martial Glacier ski slope.JPG",
+        "imageScope": "exact-place",
+        "imageContextNote": "从马蒂亚尔山谷低处坡地望向比格尔海峡的实景；此项为山谷游览，不包含冰川攀登或滑雪。",
+        "lat": -54.789,
+        "lng": -68.373,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 85,
+        "description": "从城市上方的山谷看海峡；此项为低处步道，不把冰川攀登算作普通散步。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·户外活动",
+            "url": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 20000,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+          "sourceName": "乌斯怀亚市旅游局·户外活动",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "ushuaia-esmeralda",
+        "name": "翡翠湖步道",
+        "nameEn": "Laguna Esmeralda",
+        "article": "Laguna_Esmeralda",
+        "lat": -54.701,
+        "lng": -68.122,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 195,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "泥炭地和山谷中的往返徒步需要完整半日，往返公路接驳另外预留。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·户外活动",
+            "url": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/contenidos/actividades-t/?lang=pt_BR",
+          "sourceName": "乌斯怀亚市旅游局·户外活动",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "ushuaia-rail",
+        "name": "世界尽头列车",
+        "nameEn": "Southern Fuegian Railway",
+        "article": "Southern_Fuegian_Railway",
+        "lat": -54.833,
+        "lng": -68.425,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史与地方文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "循旧伐木铁路认识城市与监狱历史；列车票、国家公园门票和市区接驳不是一项费用。",
+        "features": [
+          "地方文化",
+          "需核对门票"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "金额为规划预留，特殊展览、导览和远郊接驳另计。",
+        "sourceUrl": "https://www.trendelfindelmundo.com.ar/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "世界尽头列车官网",
+            "url": "https://www.trendelfindelmundo.com.ar/",
+            "kind": "official-provider",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 80000,
+          "high": 160000,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.trendelfindelmundo.com.ar/",
+          "sourceName": "世界尽头列车官网",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      },
+      {
+        "id": "ushuaia-waterfront",
+        "name": "比格尔海峡城市海岸",
+        "nameEn": "Beagle Channel",
+        "article": "Beagle_Channel",
+        "lat": -54.809,
+        "lng": -68.305,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区与交通估算；入口、码头和集合点以实际预订为准。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与海岸",
+        "activityType": "leisure",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 58,
+        "description": "用一段港口海岸时间等待天气好转，船游是另行选择的活动。",
+        "features": [
+          "自然景观",
+          "免费户外空间"
+        ],
+        "bestTime": "按天气、开放日与预约时段安排；用时为编辑建议。",
+        "accessNote": "户外参观按免费预留；购物、用餐与进入收费场馆另计。",
+        "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "乌斯怀亚市旅游局·城市文化与餐饮",
+            "url": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "ARS",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismoushuaia.com/zonas/ciudad-ushuaia/?lang=es_A",
+          "sourceName": "乌斯怀亚市旅游局·城市文化与餐饮",
+          "note": "编辑估算，非核验后的实时票价；以具体日期、票种及官网为准。"
+        }
+      }
+    ]
   }
 ]

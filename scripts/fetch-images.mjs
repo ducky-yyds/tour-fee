@@ -478,9 +478,10 @@ async function prefetchCandidates(candidates) {
       await saveLookups();
     } catch (error) { console.warn(`Article batch unavailable; individual lookup retained: ${error.message}`); }
   }
-  for (const group of ['cities', 'attractions']) {
-    const width = group === 'cities' ? 1280 : 960;
-    const files = [...new Set(pending.filter(job => job.group === group).map(job => job.file || manifest[group][job.id]?.fileTitle || articleFileCache.get(job.article)).filter(Boolean).map(canonicalFile))].filter(file=>!metadataCache.has(`${width}:${file}`));
+  for (const [group, width] of [['cities', 1280], ['attractions', 960], ['attractions', 500]]) {
+    const files = [...new Set(pending.filter(job => job.group === group &&
+      (group === 'cities' || (manifest[group][job.id]?.preferredWidth === 500 ? 500 : 960) === width))
+      .map(job => job.file || manifest[group][job.id]?.fileTitle || articleFileCache.get(job.article)).filter(Boolean).map(canonicalFile))].filter(file=>!metadataCache.has(`${width}:${file}`));
     for (let index = 0; index < files.length; index += 10) {
       const batch = files.slice(index, index + 10);
       const endpoint = new URL('https://commons.wikimedia.org/w/api.php');
@@ -509,7 +510,8 @@ async function refresh(job) {
   try {
     let file = job.file || previous?.fileTitle || await fileFromArticle(job.article);
     let info, result, remoteUrl, lastError;
-    const widths = job.group === 'cities' ? [1280, 960, 640, 330] : [960, 640, 330];
+    const widths = job.group === 'cities' ? [1280, 960, 640, 330]
+      : previous?.preferredWidth === 500 ? [500, 330] : [960, 640, 330];
     for (const width of widths) {
       try {
         info = await metadata(file, width);
@@ -557,6 +559,9 @@ async function refresh(job) {
       height: result.height || info.thumbheight,
       bytes: result.buffer.length,
       modifications: 'Wikimedia thumbnail; interface may crop the image to fit.',
+      ...(previous?.preferredWidth === 500 && job.group !== 'cities' ? { preferredWidth: 500 } : {}),
+      ...(previous?.fileTitle && canonicalFile(previous.fileTitle) === canonicalFile(file)
+        ? Object.fromEntries(['scope', 'contextNote', 'contextDistanceMeters'].filter(key => previous[key] !== undefined).map(key => [key, previous[key]])) : {}),
     };
     updated++;
     networkFailureStreak=0;

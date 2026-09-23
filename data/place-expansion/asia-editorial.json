@@ -1,0 +1,703 @@
+[
+  {
+    "cityId": "tokyo",
+    "attractions": [
+      {
+        "id": "tokyo-editorial-yanaka",
+        "name": "谷中银座与根津下町",
+        "nameEn": "Yanaka, Tokyo",
+        "article": "Yanaka, Tokyo",
+        "lat": 35.727,
+        "lng": 139.7664,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 74,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从谷中银座走进旧街巷与小店，按兴趣延伸到根津一带；适合慢吃小点、看看住宅街，拍照别打扰居民。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 谷中银座与根津下町",
+            "url": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Tokyo_-_Yanaka_143.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "tokyo-editorial-shimokitazawa",
+        "name": "下北泽古着与音乐街区",
+        "nameEn": "Shimokitazawa",
+        "article": "Shimokitazawa",
+        "lat": 35.6614,
+        "lng": 139.6682,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 110,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 73,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "午后开始逛古着、唱片和独立书店，再用一杯咖啡或现场演出结束；演出门票另计，上午过早不少店尚未营业。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 下北泽古着与音乐街区",
+            "url": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Shimokitazawa_Street_2015.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "tokyo-editorial-kagurazaka",
+        "name": "神乐坂石板巷与小馆",
+        "nameEn": "Kagurazaka",
+        "article": "Kagurazaka",
+        "lat": 35.7018,
+        "lng": 139.739,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 72,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从坡道转进石板巷，看传统料亭、法式小馆与杂货店相邻的风景；只逛公共街道即可，餐厅按预约和消费另算。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kagurazaka/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 神乐坂石板巷与小馆",
+            "url": "https://www.gotokyo.org/en/destinations/central-tokyo/kagurazaka/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kagurazaka/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kagurazaka/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "KagurazakaStreet.JPG",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "tokyo-editorial-kiyosumi",
+        "name": "清澄白河咖啡与仓库街区",
+        "nameEn": "Kiyosumi-shirakawa",
+        "article": null,
+        "lat": 35.682,
+        "lng": 139.8,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 71,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在传统街道和改造仓库间找咖啡、设计小店与艺术空间；本项为街区散步，清澄庭园和美术馆入场独立选择。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/eastern-tokyo/kiyosumi-shirakawa/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 清澄白河咖啡与仓库街区",
+            "url": "https://www.gotokyo.org/en/destinations/eastern-tokyo/kiyosumi-shirakawa/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/eastern-tokyo/kiyosumi-shirakawa/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/eastern-tokyo/kiyosumi-shirakawa/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Bluebottlejapan-opening-outsidebuilding-feb8-2015.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "tokyo-editorial-jimbocho",
+        "name": "神保町旧书与咖喱",
+        "nameEn": "Jinbōchō",
+        "article": "Jinbōchō",
+        "lat": 35.6959,
+        "lng": 139.7579,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 70,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在书店成排的街道翻找旧书，配一顿咖喱或喫茶店休息；不同语言与专题的书店各有营业日，适合随兴挑选。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 神保町旧书与咖喱",
+            "url": "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/central-tokyo/kanda-and-jimbocho/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Books along a walkway in the Kanda-Jimbocho area of Tokyo.JPG",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "tokyo-editorial-kichijoji",
+        "name": "吉祥寺小店与井之头池畔",
+        "nameEn": "Inokashira Park",
+        "article": "Inokashira Park",
+        "lat": 35.6994,
+        "lng": 139.5743,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 110,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "公园漫步",
+        "activityType": "nature",
+        "priority": 69,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从吉祥寺商店街走向井之头池，留出公园散步、杂货店和下午茶的完整时段；不包含需另预约的三鹰之森吉卜力美术馆。",
+        "features": [
+          "公园漫步",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+        "sourceReferences": [
+          {
+            "name": "GO TOKYO 吉祥寺小店与井之头池畔",
+            "url": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "JPY",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Inokasirakoen-1.JPG",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "cityId": "seoul",
+    "attractions": [
+      {
+        "id": "seoul-editorial-seongsu",
+        "name": "城水洞炼武场街仓库咖啡",
+        "nameEn": "Seongsu-dong",
+        "article": "Seongsu-dong",
+        "lat": 37.5445,
+        "lng": 127.0557,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 74,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在旧工厂与鞋业街区里找咖啡、设计店与快闪展示；品牌活动变动快，按当天开放选择，不保证遇到指定展览。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitseoul.net/area/Yeonmujang-gil/ENP7u7jrk",
+        "sourceReferences": [
+          {
+            "name": "韩国官方旅游 · 城水洞炼武场街仓库咖啡",
+            "url": "https://english.visitseoul.net/area/Yeonmujang-gil/ENP7u7jrk",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitseoul.net/area/Yeonmujang-gil/ENP7u7jrk"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitseoul.net/area/Yeonmujang-gil/ENP7u7jrk",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Evening_street_in_Seongsu-dong.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "seoul-editorial-ikseon",
+        "name": "益善洞韩屋巷弄",
+        "nameEn": "Ikseon-dong",
+        "article": "Ikseon-dong",
+        "lat": 37.574,
+        "lng": 126.9896,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 73,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在紧凑韩屋街巷中找茶馆、甜品与小餐馆，适合午后慢逛；通行免费，部分空间只接待消费客人。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitseoul.net/attractions/ikseongdongHanokVillage/ENP037008",
+        "sourceReferences": [
+          {
+            "name": "韩国官方旅游 · 益善洞韩屋巷弄",
+            "url": "https://english.visitseoul.net/attractions/ikseongdongHanokVillage/ENP037008",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitseoul.net/attractions/ikseongdongHanokVillage/ENP037008"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitseoul.net/attractions/ikseongdongHanokVillage/ENP037008",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "View_of_Ikseon-dong_from_National_Tax_Service_Jongno_District_Office.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "seoul-editorial-mangwon",
+        "name": "望远市场与社区小吃",
+        "nameEn": "Mangwon Market",
+        "article": "Mangwon Market",
+        "lat": 37.5561,
+        "lng": 126.9057,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "市场寻味",
+        "activityType": "culture",
+        "priority": 72,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "逛社区市场的熟食、蔬菜与糕点，再按兴趣走向附近汉江公园；小吃按份选择，不把购物和餐费重复计成景点费用。",
+        "features": [
+          "市场寻味",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitseoul.net/MapoArea/Mangwon-Market/ENP037950",
+        "sourceReferences": [
+          {
+            "name": "韩国官方旅游 · 望远市场与社区小吃",
+            "url": "https://english.visitseoul.net/MapoArea/Mangwon-Market/ENP037950",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitseoul.net/MapoArea/Mangwon-Market/ENP037950"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitseoul.net/MapoArea/Mangwon-Market/ENP037950",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Mercado Mangwon en Seúl.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "seoul-editorial-yeonnam",
+        "name": "延南洞京义线林荫与咖啡",
+        "nameEn": "Yeonnam-dong",
+        "article": "Yeonnam-dong",
+        "lat": 37.5628,
+        "lng": 126.9235,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 70,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 71,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿旧铁道改造的绿地和两侧巷子慢走，找咖啡与小店；可以接弘大，但不必跨城赶到另一片区才安排下午活动。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+        "sourceReferences": [
+          {
+            "name": "韩国官方旅游 · 延南洞京义线林荫与咖啡",
+            "url": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "연남옥탑에서_보이는_전망_1.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "seoul-editorial-hongdae",
+        "name": "弘大步行街音乐与小店",
+        "nameEn": "Hongdae (area)",
+        "article": "Hongdae (area)",
+        "lat": 37.5528,
+        "lng": 126.9228,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 70,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "逛服饰、文创和街头文化，傍晚人气更旺；街头演出不固定，正式演出、酒吧和唱歌活动按个人选择付费。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+        "sourceReferences": [
+          {
+            "name": "韩国官方旅游 · 弘大步行街音乐与小店",
+            "url": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+            "kind": "official-tourism",
+            "scope": "地点、游览内容与位置；未核验实时价格",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=256",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Street_hongdae_Seoul.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      },
+      {
+        "id": "seoul-editorial-euljiro",
+        "name": "乙支路印刷巷与晚间食堂",
+        "nameEn": "Euljiro",
+        "article": "Euljiro",
+        "lat": 37.5662,
+        "lng": 126.9931,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "近似游览区域或场馆位置；实际入口、站点及集合点以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 55,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 69,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在仍有工坊营业的街巷认识首尔另一面，傍晚再找食堂或小酒馆；不要进入工作场地，餐费及酒水另计。",
+        "features": [
+          "街区漫游",
+          "轻松体验"
+        ],
+        "bestTime": "户外依天气与日光安排；市场、场馆和预约项目请核对营业日",
+        "sourceProvider": "editorial-cross-source",
+        "sourceUrl": "https://english.visitseoul.net/editorspicks/seoul-streetside-architecture-3/39527",
+        "sourceReferences": [
+          {
+            "name": "首尔官方 · 乙支路工业街巷",
+            "url": "https://english.visitseoul.net/editorspicks/seoul-streetside-architecture-3/39527",
+            "kind": "official-tourism",
+            "scope": "街区工坊、印刷巷与游览位置；未核验价格",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "首尔官方 · 乙支路Nogari食街",
+            "url": "https://english.visitseoul.net/area/Euljiro-Nogari-Alley/ENPf8bj59",
+            "kind": "official-tourism",
+            "scope": "晚间餐饮街区与位置；未核验店家菜单或消费",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.visitseoul.net/editorspicks/seoul-streetside-architecture-3/39527"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "KRW",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://english.visitseoul.net/editorspicks/seoul-streetside-architecture-3/39527",
+          "sourceName": "编辑游览预算；来源用于内容核验",
+          "note": "基础公共游览按零门票规划；交通、停车、餐饮、购物和收费附加项目另计，免费不代表免预约。"
+        },
+        "photoFile": "Night of Euljiro Alley.jpg",
+        "photoSource": "wikimedia-commons",
+        "photoSubjectCheckedAt": "2026-09-23"
+      }
+    ]
+  }
+]

@@ -7,6 +7,7 @@ import {
   Utensils,
 } from "lucide-react";
 import { Photo, OutLink } from "./ui.jsx";
+import SourceReferences from "./SourceReferences.jsx";
 import "./local-food.css";
 
 const safeUrl = (value) =>
@@ -145,6 +146,7 @@ export default function LocalFoodGuide({ city }) {
                   {imageContext(food.image) && (
                     <p>{imageContext(food.image)}</p>
                   )}
+                  <SourceReferences references={food.sourceReferences} excludeUrls={[food.sourceUrl]} />
                   {food.photoNote && <p>{food.photoNote}</p>}
                   {food.image?.url && safeUrl(food.image.sourceUrl) && (
                     <div className="ch-food-credit">

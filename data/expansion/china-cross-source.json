@@ -1,0 +1,4648 @@
+[
+  {
+    "id": "shenzhen",
+    "name": "深圳",
+    "nameEn": "Shenzhen",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-44",
+    "lat": 22.5431,
+    "lng": 114.0579,
+    "iata": "SZX",
+    "article": "Shenzhen",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shenzhen"
+    },
+    "tagline": "从城中村画室和老城巷弄走向海湾，把科技街区与滨海散步放在同一次旅程。",
+    "description": "从城中村画室和老城巷弄走向海湾，把科技街区与滨海散步放在同一次旅程。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+    "sourceReferences": [
+      {
+        "name": "深圳市政府",
+        "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "市区以地铁和步行为主；南山、福田、罗湖分区安排。大鹏古城和海滨位于东部远郊，单独留一天往返，不能与市中心街区按短距离串联。"
+    },
+    "daily": {
+      "lodging": [
+        180,
+        450,
+        1200
+      ],
+      "food": [
+        70,
+        170,
+        380
+      ],
+      "transport": [
+        25,
+        70,
+        200
+      ],
+      "misc": [
+        25,
+        60,
+        150
+      ]
+    },
+    "monthly": {
+      "rent": [
+        2400,
+        5200,
+        11000
+      ],
+      "utilities": [
+        250,
+        500,
+        900
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "市区以地铁和步行为主；南山、福田、罗湖分区安排。大鹏古城和海滨位于东部远郊，单独留一天往返，不能与市中心街区按短距离串联。",
+    "guide": {
+      "cityId": "shenzhen",
+      "intro": "从城中村画室和老城巷弄走向海湾，把科技街区与滨海散步放在同一次旅程。",
+      "foodHighlights": [
+        {
+          "name": "光明乳鸽",
+          "description": "皮香肉嫩的乳鸽可按只点，适合搭配蔬菜与主食；光明距中心较远，也可先查市区粤菜馆菜单。"
+        },
+        {
+          "name": "沙井蚝风味",
+          "description": "以蚝入菜的地方风味，可选熟制的煎、焗或炸法；按只、份还是重量计价先询问。"
+        },
+        {
+          "name": "南澳海胆炒饭",
+          "description": "海胆与米饭同炒的海滨风味，味道与份量随店家变化；可与东部海滨行程配一餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "南头古城巷弄",
+          "description": "从城门走入小巷，看旧街屋与当代小店并置；书店、咖啡和展览可以按兴趣停留，室内展览另看收费。"
+        },
+        {
+          "name": "大芬油画村画室小巷",
+          "description": "在画廊和装裱店之间看一幅画如何进入日常生活；绘画体验需向具体画室预约并另外付费。"
+        },
+        {
+          "name": "华侨城创意文化园",
+          "description": "旧厂房之间有设计商店、展览与咖啡空间，适合不赶时间地散步；活动并非每天都有，按当期日历选择。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "shenzhen-nantou",
+        "name": "南头古城巷弄",
+        "nameEn": "Nantou Ancient City",
+        "lat": 22.5417,
+        "lng": 113.9231,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从城门走入小巷，看旧街屋与当代小店并置；书店、咖啡和展览可以按兴趣停留，室内展览另看收费。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "深圳市政府",
+            "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Nantou (historic town)",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-lianhuashan",
+        "name": "莲花山公园登高",
+        "nameEn": "Lianhuashan Park",
+        "lat": 22.5556,
+        "lng": 114.0544,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "沿缓坡与林荫道登上观景平台，看福田城市轴线；夏天避开午后热时段，雨后台阶放慢脚步。",
+        "features": [
+          "山水户外",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Lianhuashan Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-bay-park",
+        "name": "深圳湾公园海风散步",
+        "nameEn": "Shenzhen Bay Park",
+        "lat": 22.5166,
+        "lng": 113.9597,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "选择红树林至海滨的一段步道，不追求走完整条海岸；看海、休息和观鸟都可以成为一个轻松下午。",
+        "features": [
+          "江湖散步",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Shenzhen Bay Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-dafen",
+        "name": "大芬油画村画室小巷",
+        "nameEn": "Dafen Oil Painting Village",
+        "lat": 22.6068,
+        "lng": 114.135,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术体验",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在画廊和装裱店之间看一幅画如何进入日常生活；绘画体验需向具体画室预约并另外付费。",
+        "features": [
+          "艺术体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dafen",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Dafen Oil Painting Village (Day).JPG",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dafen_Oil_Painting_Village_%28Day%29.JPG"
+      },
+      {
+        "id": "shenzhen-oct-loft",
+        "name": "华侨城创意文化园",
+        "nameEn": "OCT Loft",
+        "lat": 22.5354,
+        "lng": 113.9942,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "创意街区",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "旧厂房之间有设计商店、展览与咖啡空间，适合不赶时间地散步；活动并非每天都有，按当期日历选择。",
+        "features": [
+          "创意街区",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "华侨城创意园.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%8E%E4%BE%A8%E5%9F%8E%E5%88%9B%E6%84%8F%E5%9B%AD.jpg"
+      },
+      {
+        "id": "shenzhen-huaqiangbei",
+        "name": "华强北电子街区",
+        "nameEn": "Huaqiangbei",
+        "lat": 22.5469,
+        "lng": 114.0851,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从公开营业的电子商场看配件、工具与硬件生意；以街区观察为主，购物时再确认规格与保修。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Huaqiangbei",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-dongmen",
+        "name": "东门老街逛吃",
+        "nameEn": "Dongmen Shenzhen",
+        "lat": 22.5469,
+        "lng": 114.118,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "步行街、小店与小吃窗口组成罗湖热闹的一面；把想吃的食物算进一餐，避免与日常餐饮预算重复。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dongmen, Shenzhen",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-sea-world",
+        "name": "蛇口海上世界与滨海",
+        "nameEn": "Sea World Shenzhen",
+        "lat": 22.4867,
+        "lng": 113.9124,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "滨海休闲",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "以明华轮周边广场和海滨公共步道为主，傍晚找一处面向海风的座位；餐饮和室内项目自选。",
+        "features": [
+          "滨海休闲",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Sea World (Shenzhen)",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "海上世界明华轮.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B5%B7%E4%B8%8A%E4%B8%96%E7%95%8C%E6%98%8E%E5%8D%8E%E8%BD%AE.jpg"
+      },
+      {
+        "id": "shenzhen-museum",
+        "name": "深圳博物馆历史民俗馆",
+        "nameEn": "Shenzhen Museum",
+        "lat": 22.54645,
+        "lng": 114.05681,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "围绕移民城市与岭南民俗挑选重点展厅，安排一段室内慢看；入馆预约、闭馆日和特展另核。",
+        "features": [
+          "博物馆",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "深圳市政府",
+            "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Shenzhen Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "SZ 深圳博物館 Shenzhen Museum front facade name sign Futian Jan-2018 IX1.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A4%A8_Shenzhen_Museum_front_facade_name_sign_Futian_Jan-2018_IX1.jpg"
+      },
+      {
+        "id": "shenzhen-ping-an",
+        "name": "平安金融中心云际观景",
+        "nameEn": "Ping An Finance Centre",
+        "lat": 22.536,
+        "lng": 114.0505,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市观景",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在能见度好的日子看高楼、海湾与城市网格；高层观景票和商场消费分别计算，不承诺能看到固定距离。",
+        "features": [
+          "城市观景",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Ping An Finance Centre",
+        "price": {
+          "low": 150,
+          "high": 250,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "shenzhen-dapeng",
+        "name": "大鹏所城古街",
+        "nameEn": "Dapeng Fortress",
+        "lat": 22.5964,
+        "lng": 114.5218,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "远郊文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "沿城门、古巷和将军府外观认识海防小城；它位于深圳东部，需与市区分日安排，室内场馆费用另核。",
+        "features": [
+          "远郊文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "深圳市政府",
+            "url": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dapeng Fortress",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sz.gov.cn/en_szgov/news/infocus/SZCitywalk/Explore/CitywalkRoutes/VentureSZ/content/post_11894160.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "shenzhen-dameisha",
+        "name": "大梅沙海滨半日",
+        "nameEn": "Dameisha Beach",
+        "lat": 22.5942,
+        "lng": 114.3054,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "滨海休闲",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在开放沙滩看海、散步或坐一会儿，海上项目另约；预约、泳区和天气管制按景区当期公告，不自动安排下水。",
+        "features": [
+          "滨海休闲",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dameisha Beach",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "changsha",
+    "name": "长沙",
+    "nameEn": "Changsha",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-43",
+    "lat": 28.2282,
+    "lng": 112.9388,
+    "iata": "CSX",
+    "article": "Changsha",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Changsha"
+    },
+    "tagline": "湘江两岸有山有洲，早餐米粉、老街小食和博物馆让三天也能过得很充实。",
+    "description": "湘江两岸有山有洲，早餐米粉、老街小食和博物馆让三天也能过得很充实。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/changsha/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "岳麓山与橘子洲分别留出完整时段；老城街区尽量步行连逛，博物馆按预约安排。张家界是另一座城市，需要另设旅程段及城际交通。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        350,
+        900
+      ],
+      "food": [
+        60,
+        130,
+        280
+      ],
+      "transport": [
+        20,
+        60,
+        160
+      ],
+      "misc": [
+        20,
+        45,
+        100
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        3000,
+        6500
+      ],
+      "utilities": [
+        200,
+        380,
+        700
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "岳麓山与橘子洲分别留出完整时段；老城街区尽量步行连逛，博物馆按预约安排。张家界是另一座城市，需要另设旅程段及城际交通。",
+    "guide": {
+      "cityId": "changsha",
+      "intro": "湘江两岸有山有洲，早餐米粉、老街小食和博物馆让三天也能过得很充实。",
+      "foodHighlights": [
+        {
+          "name": "长沙黑色臭豆腐",
+          "description": "外壳酥脆、里面柔软，常配鲜汤与辣椒调味；可先买小份，确认辣度和配料。"
+        },
+        {
+          "name": "糖油粑粑",
+          "description": "糯米团在糖油中煎成柔糯小点，适合几人分食；刚出锅较烫，小份即可感受甜香。"
+        },
+        {
+          "name": "长沙米粉",
+          "description": "扁粉或圆粉配汤与浇头，清早吃一碗更贴近日常；肉丝、牛肉与酸菜等以门店菜单为准。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "太平街与支巷",
+          "description": "从旧街屋走进侧巷，看手艺、小食和文创店；热门时段人多，把咖啡或小吃停留纳入这段散步。"
+        },
+        {
+          "name": "坡子街与黄兴路逛吃",
+          "description": "挑几样想尝的小吃，再沿步行街看看夜色；这是一段餐饮与商业区体验，消费按所点内容计入餐费。"
+        },
+        {
+          "name": "潮宗街慢逛",
+          "description": "在老街尺度中找咖啡、小店和修缮后的建筑细节；不以拍照队伍为路线，留一点坐下来的时间。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "changsha-hunan-museum",
+        "name": "湖南博物院",
+        "nameEn": "Hunan Museum",
+        "lat": 28.2172,
+        "lng": 112.992,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "围绕马王堆与湖南历史选择重点展厅，细看漆器、丝织品和文物故事；提前预约，特展与讲解另外确认。",
+        "features": [
+          "博物馆",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Hunan Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-yuelu-academy",
+        "name": "岳麓书院",
+        "nameEn": "Yuelu Academy",
+        "lat": 28.178,
+        "lng": 112.9394,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "沿院落与讲堂读书院的空间秩序，可以与岳麓山山脚分段组合；不要把两处完整用时相互抵扣。",
+        "features": [
+          "历史文化",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Yuelu Academy",
+        "price": {
+          "low": 40,
+          "high": 80,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "changsha-yuelu-mountain",
+        "name": "岳麓山林荫步道",
+        "nameEn": "Mount Yuelu",
+        "lat": 28.183,
+        "lng": 112.936,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从山脚选择适合体力的林荫路线，登高看湘江与城区；景交和索道是否开放另查，默认以步行为主。",
+        "features": [
+          "山水户外",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Mount Yuelu",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-orange-isle",
+        "name": "橘子洲沿江步行",
+        "nameEn": "Orange Isle",
+        "lat": 28.1704,
+        "lng": 112.9566,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "在洲上看两岸城市与开阔江面，步行距离较长，可只选南段；预约、景交与天气管制分别确认，不承诺有烟花。",
+        "features": [
+          "江湖散步",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Orange Isle",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-taiping",
+        "name": "太平街与支巷",
+        "nameEn": "Taiping Street",
+        "lat": 28.194,
+        "lng": 112.97,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从旧街屋走进侧巷，看手艺、小食和文创店；热门时段人多，把咖啡或小吃停留纳入这段散步。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Taiping Street",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/TouristAttractions/201507/t20150723_1805307.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Taiping Street, Changsha.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Taiping_Street%2C_Changsha.jpg"
+      },
+      {
+        "id": "changsha-pozi-huangxing",
+        "name": "坡子街与黄兴路逛吃",
+        "nameEn": "Pozi Street and Huangxing Road",
+        "lat": 28.1886,
+        "lng": 112.9741,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "挑几样想尝的小吃，再沿步行街看看夜色；这是一段餐饮与商业区体验，消费按所点内容计入餐费。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Huangxing Road",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-chaozong",
+        "name": "潮宗街慢逛",
+        "nameEn": "Chaozong Street",
+        "lat": 28.2049,
+        "lng": 112.9746,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在老街尺度中找咖啡、小店和修缮后的建筑细节；不以拍照队伍为路线，留一点坐下来的时间。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha"
+        },
+        "sourceReferences": [
+          {
+            "name": "尼依格罗酒店",
+            "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Chaozong Street.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chaozong_Street.jpg"
+      },
+      {
+        "id": "changsha-fengying",
+        "name": "丰盈西里小店散步",
+        "nameEn": "Fengying Xili",
+        "lat": 28.1854,
+        "lng": 112.9793,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "选几家有兴趣的小店与咖啡馆，认识热闹商圈背后的较小街巷；店铺营业和消费需现场确认。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha"
+        },
+        "sourceReferences": [
+          {
+            "name": "尼依格罗酒店",
+            "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-dufu",
+        "name": "杜甫江阁外观与江边",
+        "nameEn": "Du Fu River Pavilion",
+        "lat": 28.1836,
+        "lng": 112.9634,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从湘江边看江阁轮廓和两岸夜色，停留不强制登阁；本条仅为公共江岸散步，入阁票另选。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha"
+        },
+        "sourceReferences": [
+          {
+            "name": "尼依格罗酒店",
+            "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Du Fu Pavilion",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Dufujiangge.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dufujiangge.jpg"
+      },
+      {
+        "id": "changsha-kaifu-temple",
+        "name": "开福寺静心参访",
+        "nameEn": "Kaifu Temple",
+        "lat": 28.2383,
+        "lng": 112.98,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化参访",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从山门到院落安静参访，观察建筑和日常礼佛空间；尊重宗教活动，开放和入场条件以寺院公告为准。",
+        "features": [
+          "文化参访",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha"
+        },
+        "sourceReferences": [
+          {
+            "name": "尼依格罗酒店",
+            "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Kaifu Temple",
+        "price": {
+          "low": 10,
+          "high": 30,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "changsha-meixihu",
+        "name": "梅溪湖湖畔与艺术中心外观",
+        "nameEn": "Meixi Lake",
+        "lat": 28.186,
+        "lng": 112.89,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "选一段湖边步道，看艺术中心曲线和开阔水面；演出是独立预约项目，不包含在公共区域散步中。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/changsha/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/changsha/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/changsha/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Meixi Lake",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/changsha/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "changsha-lizi-jian",
+        "name": "李自健美术馆",
+        "nameEn": "Li Zijian Art Museum",
+        "lat": 28.1121,
+        "lng": 112.9353,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在湘江新区的美术馆看当期开放展览，再到周边水岸走走；请核对闭馆日和预约，不将特展一概视作免费。",
+        "features": [
+          "博物馆",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha"
+        },
+        "sourceReferences": [
+          {
+            "name": "尼依格罗酒店",
+            "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Li Zijian Art Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "wuhan",
+    "name": "武汉",
+    "nameEn": "Wuhan",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-42",
+    "lat": 30.5928,
+    "lng": 114.3055,
+    "iata": "WUH",
+    "article": "Wuhan",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wuhan"
+    },
+    "tagline": "从过早的小食摊到开阔江滩，在汉口街区、武昌文物与东湖水岸间认识江城。",
+    "description": "从过早的小食摊到开阔江滩，在汉口街区、武昌文物与东湖水岸间认识江城。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "汉口、武昌、汉阳跨江通行需要时间；同一天尽量围绕一岸或东湖片区安排。东湖很大，只选择一段步道；武大校园按当期访客及赏樱预约规定另选。"
+    },
+    "daily": {
+      "lodging": [
+        160,
+        380,
+        1000
+      ],
+      "food": [
+        65,
+        145,
+        300
+      ],
+      "transport": [
+        25,
+        70,
+        180
+      ],
+      "misc": [
+        20,
+        45,
+        100
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        3300,
+        6800
+      ],
+      "utilities": [
+        220,
+        420,
+        800
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "汉口、武昌、汉阳跨江通行需要时间；同一天尽量围绕一岸或东湖片区安排。东湖很大，只选择一段步道；武大校园按当期访客及赏樱预约规定另选。",
+    "guide": {
+      "cityId": "wuhan",
+      "intro": "从过早的小食摊到开阔江滩，在汉口街区、武昌文物与东湖水岸间认识江城。",
+      "foodHighlights": [
+        {
+          "name": "武汉热干面",
+          "description": "碱水面拌上芝麻酱和调味料，趁热拌匀吃；芝麻、辣油和腌菜可在下单时询问。"
+        },
+        {
+          "name": "三鲜豆皮",
+          "description": "薄皮包住糯米和肉丁等配料煎香，口感饱满；它不同于通常所说的豆腐皮。"
+        },
+        {
+          "name": "排骨藕汤",
+          "description": "排骨与莲藕炖出一锅鲜香热汤，藕的粉糯度随品种与季节而变，适合多人分食。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "江汉路建筑与商街",
+          "description": "看步行街两侧旧建筑与商铺，向江边衔接一段散步；消费和室内场馆按兴趣选择。"
+        },
+        {
+          "name": "汉口江滩晚风",
+          "description": "在公共江滩选一段步道，看江面船只与城市灯光；汛期开放区域可能调整，不能按直线距离假定所有入口可通。"
+        },
+        {
+          "name": "黎黄陂路街头建筑",
+          "description": "在旧汉口街屋与小店之间慢走，挑一处坐下来休息；以建筑外观和街区体验为主，不进入私人院落。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "wuhan-yellow-crane",
+        "name": "黄鹤楼公园",
+        "nameEn": "Yellow Crane Tower",
+        "lat": 30.5442,
+        "lng": 114.302,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从蛇山园路登高，看看诗词中的黄鹤楼与长江大桥；登楼排队和日夜场票种分别确认。",
+        "features": [
+          "历史文化",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Yellow Crane Tower",
+        "price": {
+          "low": 60,
+          "high": 100,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "wuhan-hubei-museum",
+        "name": "湖北省博物馆",
+        "nameEn": "Hubei Provincial Museum",
+        "lat": 30.5617,
+        "lng": 114.3653,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "围绕楚文化与青铜器挑选重点展厅；基本陈列按免费预算，预约、特展与编钟演出是否可约单独核实。",
+        "features": [
+          "博物馆",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Hubei Provincial Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "wuhan-east-lake",
+        "name": "东湖听涛湖岸",
+        "nameEn": "East Lake Tingtao",
+        "lat": 30.575,
+        "lng": 114.372,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "只选听涛片区的一段水边路线，在树荫和湖景间放慢节奏；不把整个东湖环线压缩成一次短打卡。",
+        "features": [
+          "江湖散步",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "East Lake (Wuhan)",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "East Lake Wuhan.JPG",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:East_Lake_Wuhan.JPG"
+      },
+      {
+        "id": "wuhan-jianghan-road",
+        "name": "江汉路建筑与商街",
+        "nameEn": "Jianghan Road",
+        "lat": 30.5827,
+        "lng": 114.2913,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "看步行街两侧旧建筑与商铺，向江边衔接一段散步；消费和室内场馆按兴趣选择。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Jianghan Road",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/travel/tourist4attractions4an4incomplete4list/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Hankou-Hanjiang-Lu-0247.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hankou-Hanjiang-Lu-0247.jpg"
+      },
+      {
+        "id": "wuhan-hankou-river",
+        "name": "汉口江滩晚风",
+        "nameEn": "Hankou Riverside Park",
+        "lat": 30.606,
+        "lng": 114.318,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在公共江滩选一段步道，看江面船只与城市灯光；汛期开放区域可能调整，不能按直线距离假定所有入口可通。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Hankou Jiangtan",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Hankou Jiangtan Park I (29666922544).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hankou_Jiangtan_Park_I_%2829666922544%29.jpg"
+      },
+      {
+        "id": "wuhan-lihuangpi",
+        "name": "黎黄陂路街头建筑",
+        "nameEn": "Lihuangpi Road",
+        "lat": 30.5943,
+        "lng": 114.2987,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在旧汉口街屋与小店之间慢走，挑一处坐下来休息；以建筑外观和街区体验为主，不进入私人院落。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Lihuangpi Road",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "LiHuangPi Road，Wuhan，China.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:LiHuangPi_Road%EF%BC%8CWuhan%EF%BC%8CChina.jpg"
+      },
+      {
+        "id": "wuhan-tanhualin",
+        "name": "昙华林巷弄",
+        "nameEn": "Tanhualin",
+        "lat": 30.5553,
+        "lng": 114.3093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "沿坡路看旧建筑、手工艺与小店，给书店和茶歇留时间；室内展馆是否开放、收费分别核实。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202210/t20221018_2061499.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Tanhualin.JPG",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Tanhualin.JPG"
+      },
+      {
+        "id": "wuhan-hubu",
+        "name": "户部巷过早与小食",
+        "nameEn": "Hubu Alley",
+        "lat": 30.5477,
+        "lng": 114.2967,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "在地饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从一两样想吃的过早小食开始，观察街边现做过程；饮食计入每日餐费，适合与黄鹤楼周边步行相接。",
+        "features": [
+          "在地饮食",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Hubu Alley",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Hubu Xiang Entrance.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hubu_Xiang_Entrance.jpg"
+      },
+      {
+        "id": "wuhan-qingchuan",
+        "name": "晴川阁与汉阳江岸",
+        "nameEn": "Qingchuan Pavilion",
+        "lat": 30.5537,
+        "lng": 114.2825,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从汉阳一侧看江面和楼阁庭院，安排一段与武昌不同视角的江城停留；预约及临时闭馆另核。",
+        "features": [
+          "历史文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Qingchuan Pavilion",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Qingchuan Ge - bixi - P1130420.JPG",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Qingchuan_Ge_-_bixi_-_P1130420.JPG"
+      },
+      {
+        "id": "wuhan-gude",
+        "name": "古德寺建筑参访",
+        "nameEn": "Gude Temple",
+        "lat": 30.6242,
+        "lng": 114.3093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化参访",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在开放院落观察佛寺建筑的独特形式，尊重礼佛与摄影规定；购票和预约按当期官方通知。",
+        "features": [
+          "文化参访",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Gude Temple",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.trip.com/travel-guide/destination/wuhan-145/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        },
+        "photoFile": "古德寺圆通殿2023.4 (1).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8F%A4%E5%BE%B7%E5%AF%BA%E5%9C%86%E9%80%9A%E6%AE%BF2023.4_%281%29.jpg"
+      },
+      {
+        "id": "wuhan-qintai",
+        "name": "古琴台知音文化",
+        "nameEn": "Guqin Tai",
+        "lat": 30.5558,
+        "lng": 114.2651,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "围绕知音故事与古琴展陈慢看，再在月湖旁休息；演奏是否举办及席位不作默认承诺。",
+        "features": [
+          "历史文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.wuhan.gov.cn/sy/whyw/202405/t20240502_2396502.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.wuhan.gov.cn/sy/whyw/202405/t20240502_2396502.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://www.wuhan.gov.cn/sy/whyw/202405/t20240502_2396502.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Guqin Tai",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.wuhan.gov.cn/sy/whyw/202405/t20240502_2396502.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Lute Platform.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lute_Platform.jpg"
+      },
+      {
+        "id": "wuhan-chuhan",
+        "name": "楚河汉街休闲",
+        "nameEn": "Chu River and Han Street",
+        "lat": 30.5574,
+        "lng": 114.343,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "沿河和商业步行街散步，挑一间餐馆或咖啡馆坐下；演出、购物与餐饮都是自选消费。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "武汉市政府",
+            "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Han Street",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Chuhe Hanjie 1.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chuhe_Hanjie_1.jpg"
+      }
+    ]
+  },
+  {
+    "id": "harbin",
+    "name": "哈尔滨",
+    "nameEn": "Harbin",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-23",
+    "lat": 45.8038,
+    "lng": 126.535,
+    "iata": "HRB",
+    "article": "Harbin",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Harbin"
+    },
+    "tagline": "砖石老街、江岸风和东北餐桌构成四季底色，冬季再为冰灯与雪雕多留一天。",
+    "description": "砖石老街、江岸风和东北餐桌构成四季底色，冬季再为冰灯与雪雕多留一天。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省政府",
+        "url": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "Travel China Guide",
+        "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "道里和道外可分片慢逛，松北需单独接驳。冬季户外分段活动并留室内取暖时间；冰雪大世界只在公布的冬季运营期自选，雪乡和亚布力不作为市区顺路点。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        380,
+        1000
+      ],
+      "food": [
+        70,
+        150,
+        320
+      ],
+      "transport": [
+        25,
+        75,
+        180
+      ],
+      "misc": [
+        25,
+        55,
+        130
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1300,
+        2600,
+        5500
+      ],
+      "utilities": [
+        250,
+        500,
+        900
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "道里和道外可分片慢逛，松北需单独接驳。冬季户外分段活动并留室内取暖时间；冰雪大世界只在公布的冬季运营期自选，雪乡和亚布力不作为市区顺路点。",
+    "guide": {
+      "cityId": "harbin",
+      "intro": "砖石老街、江岸风和东北餐桌构成四季底色，冬季再为冰灯与雪雕多留一天。",
+      "foodHighlights": [
+        {
+          "name": "哈尔滨锅包肉",
+          "description": "薄肉片炸脆后挂上酸甜汁，刚出锅最能吃到酥壳；本地传统口味与番茄汁版本不同。"
+        },
+        {
+          "name": "哈尔滨红肠",
+          "description": "带烟熏香气的熟制肉肠，可切片配面包；肉类、蒜味和保存方法按具体产品核对。"
+        },
+        {
+          "name": "大列巴面包",
+          "description": "个头较大的俄式风味面包，适合切片分享或配红肠；不同配方的酸香与硬度差别较大。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "斯大林公园江岸",
+          "description": "沿松花江岸看水面与防洪纪念塔，夏季适合乘凉，冬季只走开放岸线，不把自然冰面当作步道。"
+        },
+        {
+          "name": "中华巴洛克街区",
+          "description": "在道外砖墙与院落外观之间认识中西相融的街屋，小吃、茶馆和展馆按兴趣选；不默认有演出。"
+        },
+        {
+          "name": "太阳岛园林散步",
+          "description": "在园林与水边选择一段轻松路线；雪博会、熊猫馆和其他收费项目不包含在公共景观预算里。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "harbin-central-street",
+        "name": "中央大街建筑慢看",
+        "nameEn": "Zhongyang Street",
+        "lat": 45.7758,
+        "lng": 126.6185,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "沿石板街看旧商号外立面，挑一家店尝面包或热饮；冬季把户外段分短一点，街上消费另计。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Zhongyang Street",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Central Street at West 13th St (20230721112501).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Central_Street_at_West_13th_St_%2820230721112501%29.jpg"
+      },
+      {
+        "id": "harbin-sophia-square",
+        "name": "圣索菲亚教堂外观与广场",
+        "nameEn": "Saint Sophia Cathedral Harbin",
+        "lat": 45.7689,
+        "lng": 126.6261,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从广场看穹顶、砖墙和教堂轮廓；本条以外观为主，进入建筑或参加演出需另核票务。",
+        "features": [
+          "历史文化",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Saint Sophia Cathedral, Harbin",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "harbin-stalin-park",
+        "name": "斯大林公园江岸",
+        "nameEn": "Stalin Park Harbin",
+        "lat": 45.7874,
+        "lng": 126.6155,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "沿松花江岸看水面与防洪纪念塔，夏季适合乘凉，冬季只走开放岸线，不把自然冰面当作步道。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Stalin Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "harbin-baroque",
+        "name": "中华巴洛克街区",
+        "nameEn": "Chinese Baroque Historic Block",
+        "lat": 45.7862,
+        "lng": 126.6463,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在道外砖墙与院落外观之间认识中西相融的街屋，小吃、茶馆和展馆按兴趣选；不默认有演出。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202411/c00_31786532.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202411/c00_31786532.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "黑龙江省文化和旅游厅",
+            "url": "https://wlt.hlj.gov.cn/wlt/c114254/202411/c00_31786532.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202411/c00_31786532.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "harbin-sun-island",
+        "name": "太阳岛园林散步",
+        "nameEn": "Sun Island Harbin",
+        "lat": 45.7938,
+        "lng": 126.5975,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在园林与水边选择一段轻松路线；雪博会、熊猫馆和其他收费项目不包含在公共景观预算里。",
+        "features": [
+          "山水户外",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "黑龙江省政府",
+            "url": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Sun Island (Harbin)",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Taiyang Island 26777-Harbin (30594202797).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Taiyang_Island_26777-Harbin_%2830594202797%29.jpg"
+      },
+      {
+        "id": "harbin-ice-world",
+        "name": "冰雪大世界冬季游园",
+        "nameEn": "Harbin Ice and Snow World",
+        "lat": 45.793,
+        "lng": 126.569,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 195,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "季节体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "只在官方公布的冬季运营期间选择，看冰建筑与灯光并分段取暖；每届开闭园时间受天气影响，九月不安排此冬季项目。",
+        "features": [
+          "季节体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+          "caption": "2014 年哈尔滨冰雪大世界实拍，仅参考历届冰建筑与灯光形态；当季主题、布局和项目以当届公告为准。"
+        },
+        "sourceReferences": [
+          {
+            "name": "黑龙江省政府",
+            "url": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Harbin International Ice and Snow Sculpture Festival",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c107858/202512/c00_31897876.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "冬季专项，按当届开园公告和票种核价；不以往年门票推算未来售价，零占位不代表免费。"
+        },
+        "photoFile": "Harbin Grand Icy World 2014-02 01.jpg",
+        "imageContextNote": "2014 年哈尔滨冰雪大世界实拍，仅参考历届冰建筑与灯光形态；当季主题、布局和项目以当届公告为准。",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Grand_Icy_World_2014-02_01.jpg",
+        "photoCaption": "2014 年哈尔滨冰雪大世界实拍，仅参考历届冰建筑与灯光形态；当季主题、布局和项目以当届公告为准。",
+        "photoNote": "2014 年哈尔滨冰雪大世界实拍，仅参考历届冰建筑与灯光形态；当季主题、布局和项目以当届公告为准。",
+        "photoScope": "past-season-reference",
+        "photoCapturedAt": "2014-02-03"
+      },
+      {
+        "id": "harbin-zhaolin",
+        "name": "兆麟公园林荫小憩",
+        "nameEn": "Zhaolin Park",
+        "lat": 45.7801,
+        "lng": 126.6262,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在市中心绿地走走，给密集街区游览留一点休息；冬季冰灯活动为另行公布的季节项目，不承诺普通游园时能看到。",
+        "features": [
+          "山水户外",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Zhaolin Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Zhaolin Park 10.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Zhaolin_Park_10.jpg"
+      },
+      {
+        "id": "harbin-hongzhuan-market",
+        "name": "红专街早市早餐",
+        "nameEn": "Hongzhuan Street Morning Market",
+        "lat": 45.778,
+        "lng": 126.612,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "在地饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "清早看看摊位与现做早点，挑几样小份食物分享；市场收摊较早，卫生、菜单和价格现场确认。",
+        "features": [
+          "在地饮食",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml"
+        },
+        "sourceReferences": [
+          {
+            "name": "黑龙江省政府",
+            "url": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "harbin-jile",
+        "name": "极乐寺静心参访",
+        "nameEn": "Jile Temple",
+        "lat": 45.7645,
+        "lng": 126.6648,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化参访",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在开放的佛寺院落里缓步参访，留意礼佛动线；门票、开放和摄影规定须以寺院当期信息为准。",
+        "features": [
+          "文化参访",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Jile Temple",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "harbin-opera-exterior",
+        "name": "哈尔滨大剧院建筑与湿地外观",
+        "nameEn": "Harbin Grand Theatre",
+        "lat": 45.8071,
+        "lng": 126.5787,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "建筑体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "从开放公共区域看剧院曲面与湿地天际线；演出、室内参观及屋顶路线只在明确开放时另选，往返松北需接驳。",
+        "features": [
+          "建筑体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/"
+        },
+        "sourceReferences": [
+          {
+            "name": "万豪酒店集团",
+            "url": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Harbin Grand Theatre",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Harbin Grand Theatre 5.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Harbin_Grand_Theatre_5.jpg"
+      },
+      {
+        "id": "harbin-railway-bridge",
+        "name": "滨洲铁路桥步行段",
+        "nameEn": "Harbin Binzhou Railway Bridge",
+        "lat": 45.796,
+        "lng": 126.632,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "沿开放步行段看钢桥结构和松花江，感受铁路城市的另一面；大风冰雪或临时管制时改为岸边停留。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/"
+        },
+        "sourceReferences": [
+          {
+            "name": "万豪酒店集团",
+            "url": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Harbin Binzhou Railway Bridge",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/experiences/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "harbin-gogol-street",
+        "name": "果戈里大街建筑散步",
+        "nameEn": "Gogol Street Harbin",
+        "lat": 45.757,
+        "lng": 126.651,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从南岗的街道尺度看老建筑与日常商业，按兴趣挑小店停留；不将书店或教堂内部开放视为当然。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Travel China Guide",
+            "url": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Gogol Street",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelchinaguide.com/attraction/heilongjiang/harbin/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "果戈里大街2017夏（2）.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9E%9C%E6%88%88%E9%87%8C%E5%A4%A7%E8%A1%972017%E5%A4%8F%EF%BC%882%EF%BC%89.jpg"
+      }
+    ]
+  },
+  {
+    "id": "dunhuang",
+    "name": "敦煌",
+    "nameEn": "Dunhuang",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-62",
+    "lat": 40.1421,
+    "lng": 94.6619,
+    "iata": "DNH",
+    "article": "Dunhuang",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dunhuang"
+    },
+    "tagline": "白天读石窟壁画，傍晚看沙丘光影，再回沙州夜市吃一碗面，给丝路风景留足时间。",
+    "description": "白天读石窟壁画，傍晚看沙丘光影，再回沙州夜市吃一碗面，给丝路风景留足时间。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://www.dha.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "敦煌研究院",
+        "url": "https://www.dha.ac.cn/",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "莫高窟按预约时段到数字展示中心集合并接驳；鸣沙山留半天。阳关、西千佛洞和玉门关、雅丹分别规划西线，雅丹距离市区约 180–200 公里，单独留整天，包车与门票分开核价。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        380,
+        1100
+      ],
+      "food": [
+        70,
+        150,
+        320
+      ],
+      "transport": [
+        35,
+        110,
+        320
+      ],
+      "misc": [
+        25,
+        60,
+        140
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        2500,
+        5000
+      ],
+      "utilities": [
+        200,
+        350,
+        650
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "莫高窟按预约时段到数字展示中心集合并接驳；鸣沙山留半天。阳关、西千佛洞和玉门关、雅丹分别规划西线，雅丹距离市区约 180–200 公里，单独留整天，包车与门票分开核价。",
+    "guide": {
+      "cityId": "dunhuang",
+      "intro": "白天读石窟壁画，傍晚看沙丘光影，再回沙州夜市吃一碗面，给丝路风景留足时间。",
+      "foodHighlights": [
+        {
+          "name": "敦煌驴肉黄面",
+          "description": "黄面与驴肉相配是当地常见面食组合，面和肉可能分开计价；先问小份及配菜。"
+        },
+        {
+          "name": "敦煌酿皮",
+          "description": "蒸制面皮切条拌调味汁，口感筋道，适合炎热白天的小食；蒜汁辣油可按偏好调整。"
+        },
+        {
+          "name": "杏皮水",
+          "description": "以杏干或杏皮等煮成的酸甜饮品，常作为沙漠城市的解渴选择；糖度与冷热可先询问。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "沙州夜市逛吃",
+          "description": "挑一碗黄面、一杯杏皮水，再看看手工艺摊位；食物份量和价格先确认，消费放入每日餐饮预算。"
+        },
+        {
+          "name": "敦煌市博物馆",
+          "description": "从地方文物和丝路生活展陈建立背景，再去看石窟更容易理解；本馆与敦煌研究院艺术馆不同，开放预约另核。"
+        },
+        {
+          "name": "党河风情线傍晚散步",
+          "description": "在市区开放河岸走一段，远离白天的沙漠热度；水岸灯光和活动随季节变化，私人消费不是必需。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "dunhuang-mogao",
+        "name": "莫高窟预约参观",
+        "nameEn": "Mogao Caves",
+        "lat": 40.0421,
+        "lng": 94.809,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "石窟艺术",
+        "activityType": "culture",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "先按预约到数字展示中心，再随官方接驳与讲解参观开放洞窟；不同票型内容不同，洞窟内按规定不拍摄，沙尘和雨天可能调整。",
+        "features": [
+          "石窟艺术",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.dha.ac.cn/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.dha.ac.cn/"
+        },
+        "sourceReferences": [
+          {
+            "name": "敦煌研究院",
+            "url": "https://www.dha.ac.cn/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Mogao Caves",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.dha.ac.cn/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-mingsha-crescent",
+        "name": "鸣沙山月牙泉半日",
+        "nameEn": "Mingsha Mountain and Crescent Lake",
+        "lat": 40.0881,
+        "lng": 94.6696,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "沙漠风景",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "从月牙泉看沙丘，再按体力走一段沙坡，傍晚光线更柔和；高温时避开正午，骑乘、越野和滑沙另付费。",
+        "features": [
+          "沙漠风景",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Crescent Lake (Dunhuang)",
+        "price": {
+          "low": 100,
+          "high": 180,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "dunhuang-shazhou-market",
+        "name": "沙州夜市逛吃",
+        "nameEn": "Shazhou Night Market",
+        "lat": 40.140739,
+        "lng": 94.665458,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "在地饮食",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "挑一碗黄面、一杯杏皮水，再看看手工艺摊位；食物份量和价格先确认，消费放入每日餐饮预算。",
+        "features": [
+          "在地饮食",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Dunhuang Night Market (20230916214410).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dunhuang_Night_Market_%2820230916214410%29.jpg"
+      },
+      {
+        "id": "dunhuang-museum",
+        "name": "敦煌市博物馆",
+        "nameEn": "Dunhuang Museum",
+        "lat": 40.1268,
+        "lng": 94.6599,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从地方文物和丝路生活展陈建立背景，再去看石窟更容易理解；本馆与敦煌研究院艺术馆不同，开放预约另核。",
+        "features": [
+          "博物馆",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dunhuang Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "dunhuang-danghe",
+        "name": "党河风情线傍晚散步",
+        "nameEn": "Danghe River Dunhuang",
+        "lat": 40.1364,
+        "lng": 94.6545,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在市区开放河岸走一段，远离白天的沙漠热度；水岸灯光和活动随季节变化，私人消费不是必需。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "dunhuang-leiyin",
+        "name": "雷音寺参访",
+        "nameEn": "Leiyin Temple Dunhuang",
+        "lat": 40.1063,
+        "lng": 94.672,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 45,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化参访",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在鸣沙山方向的寺院安静参访，观察殿宇与沙漠城市的相邻关系；礼佛、摄影及当期入场规定需现场遵守。",
+        "features": [
+          "文化参访",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.dhymg.com/sys-nd/43.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.dhymg.com/sys-nd/43.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "敦煌阳关玉门关旅游区",
+            "url": "https://www.dhymg.com/sys-nd/43.html",
+            "kind": "official-tourism",
+            "scope": "temple-location-and-introduction",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "携程旅行攻略",
+            "url": "https://you.ctrip.com/sight/dunhuang8/4949.html",
+            "kind": "travel-guide",
+            "scope": "temple-location-and-introduction",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.dhymg.com/sys-nd/43.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-white-horse",
+        "name": "白马塔历史寻访",
+        "nameEn": "White Horse Pagoda Dunhuang",
+        "lat": 40.1394,
+        "lng": 94.6486,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 45,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "围绕白马塔与鸠摩罗什的故事安排短时文化停留；需先确认院落是否开放及收费，不将外观等同于可入内。",
+        "features": [
+          "历史文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "White Horse Pagoda, Dunhuang",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-western-caves",
+        "name": "西千佛洞",
+        "nameEn": "Western Thousand Buddha Caves",
+        "lat": 39.976859,
+        "lng": 94.36655,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "石窟艺术",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "沿党河峡谷认识与莫高窟不同的石窟环境，按当日开放洞窟跟随讲解；位于市区西南，另留道路接驳。",
+        "features": [
+          "石窟艺术",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.dha.ac.cn/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.dha.ac.cn/"
+        },
+        "sourceReferences": [
+          {
+            "name": "敦煌研究院",
+            "url": "https://www.dha.ac.cn/",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Western Thousand Buddha Caves",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.dha.ac.cn/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        },
+        "photoFile": "西千佛洞1.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E5%8D%83%E4%BD%9B%E6%B4%9E1.jpg",
+        "coordinateSourceUrl": "https://commons.wikimedia.org/wiki/Category:Western_Thousand_Buddha_Caves"
+      },
+      {
+        "id": "dunhuang-yangguan",
+        "name": "阳关遗址与博物馆",
+        "nameEn": "Yang Pass",
+        "lat": 39.934,
+        "lng": 94.062,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "丝路遗址",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "从博物馆到遗址视野理解丝路关隘，不只拍一座烽燧；远离市区，预留往返、讲解和景交时间。",
+        "features": [
+          "丝路遗址",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Yang Pass",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-yumen",
+        "name": "玉门关遗址",
+        "nameEn": "Yumen Pass",
+        "lat": 40.3542,
+        "lng": 93.8632,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "丝路遗址",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在戈壁中看关城与汉代边塞遗存，先了解景区交通和开放路线；与雅丹串联属于整日西线，不安排成市区短打卡。",
+        "features": [
+          "丝路遗址",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Yumen Pass",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-yardang",
+        "name": "敦煌雅丹地貌",
+        "nameEn": "Dunhuang Yardang National Geopark",
+        "lat": 40.508,
+        "lng": 93.258,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 4,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "沙漠风景",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "跟随景区允许路线看风蚀土丘和戈壁尺度；距市区很远，用时只含景区，不含数小时往返，日落游须确认返回交通。",
+        "features": [
+          "沙漠风景",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Dunhuang Yardang National Geopark",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "dunhuang-ancient-film-city",
+        "name": "敦煌古城影视场景",
+        "nameEn": "Dunhuang Ancient City Film Set",
+        "lat": 40.08,
+        "lng": 94.443,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "把它当作影视美术空间看城门街景，建筑为拍摄搭建，不是汉唐古城原址；预约、票价与可进入区域另核。",
+        "features": [
+          "文化体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/dunhuang/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zhangjiajie",
+    "name": "张家界",
+    "nameEn": "Zhangjiajie",
+    "country": "中国",
+    "countryCode": "CN",
+    "currency": "CNY",
+    "region": "亚洲",
+    "isoRegion": "CN-43",
+    "lat": 29.1171,
+    "lng": 110.4792,
+    "iata": "DYG",
+    "article": "Zhangjiajie",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zhangjiajie"
+    },
+    "tagline": "石柱峰林、峡谷与土家餐桌适合慢慢体验，山上山下各留一段从容的时间。",
+    "description": "石柱峰林、峡谷与土家餐桌适合慢慢体验，山上山下各留一段从容的时间。",
+    "tags": [
+      "街区慢游",
+      "在地饮食",
+      "文化与风景"
+    ],
+    "officialTourismUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "永定市区靠近机场和天门山索道，武陵源森林公园入口约在市区以北 30–40 公里，换片区通常需约一小时道路接驳并预留堵车。森林公园与天门山各占一天；杨家界西门住宿不能当作武陵源东门步行可达。"
+    },
+    "daily": {
+      "lodging": [
+        160,
+        400,
+        1100
+      ],
+      "food": [
+        65,
+        145,
+        320
+      ],
+      "transport": [
+        40,
+        120,
+        350
+      ],
+      "misc": [
+        25,
+        60,
+        140
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        2400,
+        5000
+      ],
+      "utilities": [
+        200,
+        350,
+        650
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿按每间每晚，餐饮交通杂项每成人每天；长租水电每间每月。节假日、景区接驳与选定酒店需单独核价。"
+    },
+    "transportNote": "永定市区靠近机场和天门山索道，武陵源森林公园入口约在市区以北 30–40 公里，换片区通常需约一小时道路接驳并预留堵车。森林公园与天门山各占一天；杨家界西门住宿不能当作武陵源东门步行可达。",
+    "guide": {
+      "cityId": "zhangjiajie",
+      "intro": "石柱峰林、峡谷与土家餐桌适合慢慢体验，山上山下各留一段从容的时间。",
+      "foodHighlights": [
+        {
+          "name": "土家三下锅",
+          "description": "多种肉类或内脏与配菜同锅烹制，内容因店而异；可先确认原料、干锅汤锅和辣度。"
+        },
+        {
+          "name": "土家腊肉",
+          "description": "烟熏腌制肉切片炒菜，咸香明显，适合配米饭和蔬菜；并非所有店都会用同一种熏制方式。"
+        },
+        {
+          "name": "土家糍粑",
+          "description": "糯米捶打成粑后可煎烤或蘸糖，吃的是柔糯米香；手工制作体验需另约，不默认为餐馆服务。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "溪布街晚间散步",
+          "description": "在武陵源镇区逛开放街巷、看看土家风格建筑并选一顿晚餐；商业街不是传统村落，演出和消费按实际选择。"
+        },
+        {
+          "name": "大庸古城商业街区",
+          "description": "在永定市区的仿古商业街区轻松逛店，适合作为抵达后的短活动；表演与室内收费项目不在零门票预算中。"
+        },
+        {
+          "name": "澧水河岸晚风",
+          "description": "在市区开放河岸散步，看对岸建筑与山影，给登山后的晚上留轻松节奏；汛期和施工路段以现场通行为准。"
+        }
+      ],
+      "experienceIntro": "选择一两个真正想停留的片区，把餐桌、散步和文化体验连成自己的旅行。远郊项目另留交通时间。"
+    },
+    "attractions": [
+      {
+        "id": "zhangjiajie-national-forest",
+        "name": "张家界国家森林公园峰林一日",
+        "nameEn": "Zhangjiajie National Forest Park",
+        "lat": 29.345,
+        "lng": 110.481,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 7,
+        "durationRange": {
+          "min": 270,
+          "recommended": 420,
+          "max": 630
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "用一个完整白天选袁家界、天子山或金鞭溪的合适组合；按入口、景交和体力取舍，索道与百龙天梯是否包含需核票。",
+        "features": [
+          "山水户外",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Zhangjiajie National Forest Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "核心景区门票、景交和索道电梯可能分别计费或组合销售；同一票覆盖的内部景点不重复购买入场票，具体按所选日期与路线核价。"
+        }
+      },
+      {
+        "id": "zhangjiajie-tianmen",
+        "name": "天门山索道与山顶步道",
+        "nameEn": "Tianmen Mountain",
+        "lat": 29.052,
+        "lng": 110.481,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 6,
+        "durationRange": {
+          "min": 240,
+          "recommended": 360,
+          "max": 540
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "priority": 94,
+        "description": "按预约线路体验索道、山顶步道与天门洞，排队也占用时间；与森林公园分开一天，云雾和天气会影响开放与能见度。",
+        "features": [
+          "山水户外",
+          "城市精选"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Tianmen Mountain",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-baofeng",
+        "name": "宝峰湖山水游船",
+        "nameEn": "Baofeng Lake",
+        "lat": 29.322,
+        "lng": 110.568,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在山间湖面换一个看风景的角度，步行与乘船相结合；核对门票是否包含游船和景交，不承诺固定演唱场次。",
+        "features": [
+          "山水户外",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Baofeng Lake",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-huanglong",
+        "name": "黄龙洞地下地貌",
+        "nameEn": "Huanglong Cave",
+        "lat": 29.351,
+        "lng": 110.634,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 3,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "洞穴体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "沿官方洞内路线看钟乳石和地下水道，仍需步行台阶；讲解、游船和灯光开放以当期安排为准。",
+        "features": [
+          "洞穴体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Huanglong Cave",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-grand-canyon",
+        "name": "大峡谷与玻璃桥",
+        "nameEn": "Zhangjiajie Grand Canyon",
+        "lat": 29.398,
+        "lng": 110.698,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 5,
+        "durationRange": {
+          "min": 195,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "按胆量和体力选择桥面与峡谷线路，滑索等附加体验不是必选；位于慈利方向，往返接驳和排队另留缓冲。",
+        "features": [
+          "山水户外",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/"
+        },
+        "sourceReferences": [
+          {
+            "name": "China Highlights",
+            "url": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Zhangjiajie Glass Bridge",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chinahighlights.com/zhangjiajie/attraction/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-xibu",
+        "name": "溪布街晚间散步",
+        "nameEn": "Xibu Street",
+        "lat": 29.3498,
+        "lng": 110.552,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在武陵源镇区逛开放街巷、看看土家风格建筑并选一顿晚餐；商业街不是传统村落，演出和消费按实际选择。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "zhangjiajie-dayong",
+        "name": "大庸古城商业街区",
+        "nameEn": "Dayong Ancient City",
+        "lat": 29.1201,
+        "lng": 110.4875,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在永定市区的仿古商业街区轻松逛店，适合作为抵达后的短活动；表演与室内收费项目不在零门票预算中。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "zhangjiajie-lishui",
+        "name": "澧水河岸晚风",
+        "nameEn": "Lishui River Zhangjiajie",
+        "lat": 29.1177,
+        "lng": 110.487,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在市区开放河岸散步，看对岸建筑与山影，给登山后的晚上留轻松节奏；汛期和施工路段以现场通行为准。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Lishui River",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "China IMG 2807 (29474766142).jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:China_IMG_2807_%2829474766142%29.jpg"
+      },
+      {
+        "id": "zhangjiajie-tujia-folk",
+        "name": "土家风情园",
+        "nameEn": "Tujia Folk Customs Park",
+        "lat": 29.116,
+        "lng": 110.449,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "以集中展示的土家建筑和民俗陈列认识地方文化；它是景区展示空间，活动与讲解场次须另查。",
+        "features": [
+          "文化体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 70,
+          "high": 150,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "zhangjiajie-junsheng",
+        "name": "军声砂石画艺术参观",
+        "nameEn": "Junsheng Sandstone Painting Institute",
+        "lat": 29.1277,
+        "lng": 110.491,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "看看砂石、植物等材料如何进入画面，适合对地方艺术感兴趣的人；参观收费、讲解与体验课程需单独联系确认。",
+        "features": [
+          "艺术体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-72-buildings",
+        "name": "七十二奇楼夜间体验",
+        "nameEn": "72 Unusual Houses",
+        "lat": 29.142,
+        "lng": 110.437,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "夜间体验",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "看吊脚楼意象和灯光营造的夜间商业空间，可选择餐饮和当期演艺；门票、演出套餐、停车与消费分别确认。",
+        "features": [
+          "夜间体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      },
+      {
+        "id": "zhangjiajie-charming-xiangxi",
+        "name": "魅力湘西演出",
+        "nameEn": "Charming Xiangxi Show",
+        "lat": 29.35,
+        "lng": 110.552,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "舞台文化",
+        "activityType": "culture",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "在武陵源用一场舞台演出认识湘西音乐与民俗表达；以当天剧目、票档和开演时间为准，演出后安排回酒店交通。",
+        "features": [
+          "舞台文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "湖南省政府",
+            "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "费用未核验，零占位不代表免费；请按日期、票种及包含项目查询。"
+        }
+      }
+    ]
+  }
+]

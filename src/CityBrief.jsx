@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { getTripDuration } from "../shared/trip-duration.mjs";
 import { OutLink } from "./ui.jsx";
+import SourceReferences from "./SourceReferences.jsx";
 import "./city-brief.css";
 
 const entries = (items) => (Array.isArray(items) ? items : []);
@@ -170,6 +171,7 @@ export default function CityBrief({ city, onRestaurants }) {
                 )}
               </div>
             )}
+            <SourceReferences references={city.sourceReferences} excludeUrls={[city.officialTourismUrl]} />
           </>
         )}
       </div>

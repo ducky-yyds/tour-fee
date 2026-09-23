@@ -5,7 +5,9 @@ import { getTripDuration, recommendedDays } from './trip-duration.mjs';
 // Editorial entry preferences, not a ranking of every city in a country.
 const ENTRY_ORDER = {
   CN: ['beijing', 'shanghai', 'xian', 'chengdu', 'hangzhou', 'guangzhou'],
-  JP: ['tokyo', 'kyoto', 'osaka'], TH: ['bangkok', 'chiang-mai'],
+  JP: ['tokyo', 'kyoto', 'osaka', 'fukuoka', 'hiroshima', 'sapporo', 'naha'], TH: ['bangkok', 'chiang-mai'],
+  KR: ['seoul', 'busan', 'jeju'], FR: ['paris', 'lyon', 'nice', 'marseille'],
+  ES: ['madrid', 'barcelona', 'seville', 'granada'], PT: ['lisbon', 'porto', 'funchal', 'ponta-delgada'],
   IT: ['rome', 'florence', 'venice'], VN: ['hanoi', 'ho-chi-minh-city', 'da-nang', 'hoi-an'],
   MY: ['kuala-lumpur', 'penang', 'langkawi'], IS: ['reykjavik', 'vik', 'akureyri'],
   MV: ['maafushi', 'male'], GB: ['london', 'edinburgh'],

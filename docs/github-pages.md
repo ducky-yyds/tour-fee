@@ -48,8 +48,14 @@ npm run preview:pages
 
 明确要求跳过额外测试的发布可以在提交信息中使用 `[skip tests]`；该标记只跳过对应 push 的测试步骤，构建与部署照常执行。
 
+定时数据维护显式传入 `run_tests: false`，不重复执行应用测试；每次发布仍检查目录字段、每城食宿数量和本地图片引用，然后进行正式构建。手动发布可独立设置 `run_tests`，默认开启。维护失败排查及历史记录见 [每日维护说明](daily-maintenance.md)。
+
+Pages 构建上传文件仅保留 1 天。已发布站点不依赖旧 Actions 上传文件继续保存；清理旧产物时保留当前发布及上一成功发布的可用文件，公共来源缓存保留最近快照，避免下次采集失败时丢失参考值。
+
 仅发布已经维护好的目录或图片时，可用 `[skip refresh]` 跳过该次 push 的外部价格重新采集；仍导入目录、补齐图片并构建发布。它不影响每日定时维护或手动选择的刷新，页面继续保留实际来源日期。
 
 GitHub 定时任务只在默认分支执行，可能因平台负载延迟；公共仓库 60 天没有活动时可能被暂停。可在 Actions 页重新启用或手动运行维护工作流，不能把 cron 配置视为每天一定成功的保证。[GitHub schedule 事件文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
 发布元数据的 `base_path` 取自 GitHub 官方 action 输出；自定义域名可能为空，此时规范化为 `/`。[configure-pages 输出定义](https://github.com/actions/configure-pages/blob/main/action.yml)
+
+构建结束会报告完整站点体积，并在超过 1,000,000,000 字节时中止发布，避免目录扩容后上传过大的产物。GitHub Pages 的已发布网站上限为 1 GB；大型旧卡片可通过 `scripts/compact-catalog-photos.py` 改用同一照片的较小官方缩略图，保留城市封面和全部内容。[GitHub Pages 用量限制](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)

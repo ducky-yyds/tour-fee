@@ -1,0 +1,1408 @@
+[
+  {
+    "id": "food-asia-sapporo-miso-ramen",
+    "cityIds": [
+      "sapporo"
+    ],
+    "name": "札幌味噌拉面",
+    "localName": "Miso ramen",
+    "description": "味噌汤底配卷面，常见蔬菜、叉烧等配料；玉米和黄油是可选风味，并非每碗标配。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Miso ramen Sapporo food",
+    "whereByCity": {
+      "sapporo": [
+        {
+          "name": "薄野与拉面横丁",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo%20Miso%20ramen",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Miso ramen of Sapporo 01.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-sapporo-soup-curry",
+    "cityIds": [
+      "sapporo"
+    ],
+    "name": "札幌汤咖喱",
+    "localName": "Soup curry",
+    "description": "带香料的稀汤咖喱搭配大块蔬菜与肉类，米饭通常另盘上桌，可按店家选辣度。",
+    "article": "Soup curry",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Soup curry Sapporo food",
+    "whereByCity": {
+      "sapporo": [
+        {
+          "name": "大通、薄野和札幌站周边",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo%20Soup%20curry",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "A soup curry dish in Sapporo - Flickr - odako1.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-sapporo-jingisukan",
+    "cityIds": [
+      "sapporo"
+    ],
+    "name": "成吉思汗烤羊肉",
+    "localName": "Jingisukan",
+    "description": "在凸起烤盘上烤羊肉与蔬菜，适合与同伴慢慢吃；套餐、饮料与追加肉份另算。",
+    "article": "Jingisukan",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Jingisukan Sapporo food",
+    "whereByCity": {
+      "sapporo": [
+        {
+          "name": "札幌啤酒园与薄野",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo%20Jingisukan",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Jingisukan_japanese_mutton_barbecue.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-sapporo-kaisen-don",
+    "cityIds": [
+      "sapporo"
+    ],
+    "name": "北海道海鲜丼",
+    "localName": "Kaisen-don",
+    "description": "把鱼片、鱼籽等海鲜铺在米饭上，食材随店铺与季节变化；点单确认生食、份量和价格。",
+    "article": "Kaisendon",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Kaisen-don Sapporo food",
+    "whereByCity": {
+      "sapporo": [
+        {
+          "name": "二条市场与场外市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo%20Kaisen-don",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Kaisendon 001.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-sapporo-shime-parfait",
+    "cityIds": [
+      "sapporo"
+    ],
+    "name": "夜间收尾芭菲",
+    "localName": "Shime parfait",
+    "description": "以冰淇淋、奶油、水果等层次组成的甜品，把晚餐后的一小段时间留给甜味；有些店含酒精配料。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.sapporo.travel/en/feature/sapporo-gourmet-recommend-guide/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Shime parfait Sapporo food",
+    "whereByCity": {
+      "sapporo": [
+        {
+          "name": "薄野甜品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sapporo%20Shime%20parfait",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-asia-fukuoka-tonkotsu",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "name": "博多豚骨拉面",
+    "localName": "Hakata tonkotsu ramen",
+    "description": "浓郁猪骨汤配细直面，可按店家选择面条硬度；替玉是加面，通常需另付费。",
+    "article": "Tonkotsu ramen",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gofukuoka.jp/f-food.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gofukuoka.jp/f-food.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Hakata tonkotsu ramen Fukuoka food",
+    "whereByCity": {
+      "fukuoka": [
+        {
+          "name": "博多站与中洲",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Hakata%20tonkotsu%20ramen",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Tonkotsu_ramen.JPG",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-fukuoka-motsunabe",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "name": "博多牛杂锅",
+    "localName": "Motsunabe",
+    "description": "牛杂与卷心菜、韭菜一同煮，汤底常有酱油或味噌选项；锅物可能设两人起点单。",
+    "article": "Motsunabe",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gofukuoka.jp/f-food.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gofukuoka.jp/f-food.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Motsunabe Fukuoka food",
+    "whereByCity": {
+      "fukuoka": [
+        {
+          "name": "博多与天神锅物店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Motsunabe",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Motsunabe.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-fukuoka-mizutaki",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "name": "博多水炊鸡锅",
+    "localName": "Mizutaki",
+    "description": "先尝鸡汤，再吃鸡肉与蔬菜，口味温润；套餐是否含收尾米饭和小菜需看菜单。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gofukuoka.jp/f-food.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gofukuoka.jp/f-food.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Mizutaki Fukuoka food",
+    "whereByCity": {
+      "fukuoka": [
+        {
+          "name": "中洲与博多鸡锅专门店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Mizutaki",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-asia-fukuoka-mentaiko",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "name": "辛子明太子佐饭",
+    "localName": "Karashi mentaiko",
+    "description": "盐渍调味鳕鱼卵带咸鲜和辣味，可配饭或入菜；不等同一份完整正餐，冷藏伴手礼与堂食份量不同。",
+    "article": "Mentaiko",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gofukuoka.jp/f-food.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gofukuoka.jp/f-food.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Karashi mentaiko Fukuoka food",
+    "whereByCity": {
+      "fukuoka": [
+        {
+          "name": "博多站食品区与地方食堂",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Karashi%20mentaiko",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Mentai-don.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-fukuoka-goboten-udon",
+    "cityIds": [
+      "fukuoka"
+    ],
+    "name": "牛蒡天妇罗乌冬",
+    "localName": "Goboten udon",
+    "description": "柔软乌冬配热汤和酥香牛蒡天妇罗，是不同于豚骨拉面的日常选择；配菜与加面另计。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gofukuoka.jp/f-food.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gofukuoka.jp/f-food.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Goboten udon Fukuoka food",
+    "whereByCity": {
+      "fukuoka": [
+        {
+          "name": "博多与天神乌冬面店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Goboten%20udon",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Goboten-udon.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-hiroshima-okonomiyaki",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "name": "广岛分层御好烧",
+    "localName": "Hiroshima-style okonomiyaki",
+    "description": "饼皮、蔬菜、面和蛋在铁板上分层制作，可依口味选择附加配料；不是大阪式混合面糊煎饼。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://dive-hiroshima.com/en/feature/feature-38422/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://dive-hiroshima.com/en/feature/feature-38422/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Hiroshima-style okonomiyaki Hiroshima food",
+    "whereByCity": {
+      "hiroshima": [
+        {
+          "name": "御好烧村与广岛站餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Hiroshima-style%20okonomiyaki",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Prepared okonomiyaki in Hiroshima.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-hiroshima-anago",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "name": "穴子饭",
+    "localName": "Anago-meshi",
+    "description": "烤海鳗配带酱香的米饭，是宫岛口与广岛一带的代表餐食；与鳗鱼饭品种不同，套餐按店铺。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://dive-hiroshima.com/en/feature/feature-38422/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://dive-hiroshima.com/en/feature/feature-38422/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Anago-meshi Hiroshima food",
+    "whereByCity": {
+      "hiroshima": [
+        {
+          "name": "宫岛口与广岛站",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Anago-meshi",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Anago-meshi あなごめし.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-hiroshima-momiji",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "name": "红叶馒头",
+    "localName": "Momiji manjū",
+    "description": "枫叶形状的小蛋糕包红豆等馅料，适合当茶点；现做、油炸版与礼盒保存方式不同。",
+    "article": "Momiji manjū",
+    "articleScope": "dish",
+    "sourceUrl": "https://dive-hiroshima.com/en/feature/feature-38422/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://dive-hiroshima.com/en/feature/feature-38422/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Momiji manjū Hiroshima food",
+    "whereByCity": {
+      "hiroshima": [
+        {
+          "name": "宫岛表参道与广岛站",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Momiji%20manj%C5%AB",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Momiji_Manju_Hiroshima.JPG",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-hiroshima-tsukemen",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "name": "广岛辣汁蘸面",
+    "localName": "Hiroshima tsukemen",
+    "description": "偏凉的面与蔬菜蘸进带芝麻和辣椒的酱汁，辣度可以从低档尝起；并非所有蘸面店都做广岛风格。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://dive-hiroshima.com/en/feature/feature-38422/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://dive-hiroshima.com/en/feature/feature-38422/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Hiroshima tsukemen Hiroshima food",
+    "whereByCity": {
+      "hiroshima": [
+        {
+          "name": "市中心本通周边",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Hiroshima%20tsukemen",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Hiroshima tsukemen - flickr 4868018529 14936dc677 o.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-hiroshima-kaki-furai",
+    "cityIds": [
+      "hiroshima"
+    ],
+    "name": "广岛炸牡蛎",
+    "localName": "Kaki furai",
+    "description": "牡蛎裹粉炸至酥脆，常配卷心菜、酱汁与米饭；供应季节、牡蛎数量和套餐内容先看菜单。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://dive-hiroshima.com/en/feature/feature-38422/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://dive-hiroshima.com/en/feature/feature-38422/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Kaki furai Hiroshima food",
+    "whereByCity": {
+      "hiroshima": [
+        {
+          "name": "广岛市内居酒屋与宫岛餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hiroshima%20Kaki%20furai",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Oyster Ushimado01s.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-naha-soba",
+    "cityIds": [
+      "naha"
+    ],
+    "name": "冲绳排骨面",
+    "localName": "Okinawa soba / Soki soba",
+    "description": "小麦面配汤汁与炖猪肉，排骨版称soki soba；虽然叫soba，通常不是日式荞麦面。",
+    "article": "Okinawa soba",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Okinawa soba / Soki soba Naha food",
+    "whereByCity": {
+      "naha": [
+        {
+          "name": "牧志市场周边与国际通侧巷",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Naha%20Okinawa%20soba%20/%20Soki%20soba",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "ソーキそば（沖縄そば専門やんばる・有楽町交通会館）20240608-P1043176.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-naha-champuru",
+    "cityIds": [
+      "naha"
+    ],
+    "name": "苦瓜豆腐杂炒",
+    "localName": "Goya champuru",
+    "description": "苦瓜与岛豆腐、鸡蛋等快炒，带微苦口感；猪肉或午餐肉常见，素食者需逐店询问。",
+    "article": "Chanpurū",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Goya champuru Naha food",
+    "whereByCity": {
+      "naha": [
+        {
+          "name": "那霸地方食堂与荣町",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Naha%20Goya%20champuru",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Goya_Champuru_at_Yumenoya.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-naha-rafute",
+    "cityIds": [
+      "naha"
+    ],
+    "name": "琉球炖猪肉",
+    "localName": "Rafute",
+    "description": "猪五花肉慢炖至软糯，调味常带泡盛、酱油与糖；多为小份配菜，可与米饭搭配。",
+    "article": "Rafute",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Rafute Naha food",
+    "whereByCity": {
+      "naha": [
+        {
+          "name": "牧志市场楼上与琉球料理店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Naha%20Rafute",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Okinawan_Rafute.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-naha-taco-rice",
+    "cityIds": [
+      "naha"
+    ],
+    "name": "塔可饭",
+    "localName": "Taco rice",
+    "description": "米饭配调味肉末、生菜、奶酪和莎莎酱，体现冲绳融合饮食；份量、辣度和配料按店选择。",
+    "article": "Taco rice",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Taco rice Naha food",
+    "whereByCity": {
+      "naha": [
+        {
+          "name": "国际通周边食堂与咖啡店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Naha%20Taco%20rice",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Taco_Rice_(cropped).jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-naha-sata-andagi",
+    "cityIds": [
+      "naha"
+    ],
+    "name": "冲绳炸糖球",
+    "localName": "Sata andagi",
+    "description": "外层酥脆、内部像蛋糕的炸点心，原味和黑糖口味常见；适合当小食而非完整一餐。",
+    "article": "Sata andagi",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://visitokinawajapan.com/discover/food-and-longevity/okinawan-food-culture/",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Sata andagi Naha food",
+    "whereByCity": {
+      "naha": [
+        {
+          "name": "牧志市场与国际通点心店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Naha%20Sata%20andagi",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Sata_andagi_001.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-busan-gukbap",
+    "cityIds": [
+      "busan"
+    ],
+    "name": "釜山猪肉汤饭",
+    "localName": "Dwaeji-gukbap",
+    "description": "猪肉与骨汤配米饭，葱、虾酱和辣酱可按口味加；先尝原汤，再慢慢调味。",
+    "article": "Dwaeji-gukbap",
+    "articleScope": "dish",
+    "sourceUrl": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+    "sourceReferences": [
+      {
+        "name": "釜山旅游机构旅行指南 · 韩国高等科学院存档",
+        "url": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+        "kind": "official-tourism",
+        "scope": "旧版官方旅行指南的地方饮食背景；仅用于食物特色，不作为2026营业、菜单、价格或体验运营的核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-guide-archived-copy",
+    "sourceScope": "regional-food-background-archived-guide",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Dwaeji-gukbap Busan food",
+    "whereByCity": {
+      "busan": [
+        {
+          "name": "西面猪肉汤饭街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20Dwaeji-gukbap",
+          "note": "以此片区作为找店起点；旧版指南仅支持当地饮食背景，地图检索不承诺店家当日供应或菜单已核验。"
+        }
+      ]
+    },
+    "photoFile": "Dwaeji-gukbap.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-busan-milmyeon",
+    "cityIds": [
+      "busan"
+    ],
+    "name": "釜山小麦冷面",
+    "localName": "Milmyeon",
+    "description": "以小麦面配冷汤或辣酱，口感与荞麦冷面不同；有汤与拌面版，点单确认辣度。",
+    "article": "Milmyeon",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2285",
+    "sourceReferences": [
+      {
+        "name": "Ilmi Milmyeon · 一味小麦冷面 · 官方旅游资料",
+        "url": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2285",
+        "kind": "official-tourism",
+        "scope": "食物、具名店家与地址；未核验实时菜单价格",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "official-listed-dish-and-venue",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Milmyeon Busan food",
+    "whereByCity": {
+      "busan": [
+        {
+          "name": "Ilmi Milmyeon · 一味小麦冷面",
+          "kind": "restaurant",
+          "sourceUrl": "https://www.visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000302003001000&uc_seq=2285",
+          "note": "大厅洞一带的小麦冷面店，适合与南浦市区安排在一起；汤面、拌面与追加配料按菜单选择。"
+        },
+        {
+          "name": "西面与釜山站附近面店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20Milmyeon",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Korean_cold_noodle_soup-Milmyeon-01.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-busan-eomuk",
+    "cityIds": [
+      "busan"
+    ],
+    "name": "釜山鱼糕",
+    "localName": "Busan eomuk",
+    "description": "鱼肉浆制成鱼糕，可串煮、煎炸或夹馅；小份适合市场途中加餐，海鲜过敏者先确认。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+    "sourceReferences": [
+      {
+        "name": "釜山旅游机构旅行指南 · 韩国高等科学院存档",
+        "url": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+        "kind": "official-tourism",
+        "scope": "旧版官方旅行指南的地方饮食背景；仅用于食物特色，不作为2026营业、菜单、价格或体验运营的核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-guide-archived-copy",
+    "sourceScope": "regional-food-background-archived-guide",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Busan eomuk Busan food",
+    "whereByCity": {
+      "busan": [
+        {
+          "name": "釜山站与南浦洞鱼糕店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20Busan%20eomuk",
+          "note": "以此片区作为找店起点；旧版指南仅支持当地饮食背景，地图检索不承诺店家当日供应或菜单已核验。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-asia-busan-ssiat",
+    "cityIds": [
+      "busan"
+    ],
+    "name": "坚果糖饼",
+    "localName": "Ssiat hotteok",
+    "description": "热糖饼切开后加入种子和坚果，趁温热吃更香；夹馅很烫，坚果过敏者避免。",
+    "article": "Ssiat hotteok",
+    "articleScope": "dish",
+    "sourceUrl": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+    "sourceReferences": [
+      {
+        "name": "釜山旅游机构旅行指南 · 韩国高等科学院存档",
+        "url": "https://events.kias.re.kr/ckfinder/userfiles/201903/files/Busan%20Travel%20Guide%20Book.pdf",
+        "kind": "official-tourism",
+        "scope": "旧版官方旅行指南的地方饮食背景；仅用于食物特色，不作为2026营业、菜单、价格或体验运营的核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-guide-archived-copy",
+    "sourceScope": "regional-food-background-archived-guide",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Ssiat hotteok Busan food",
+    "whereByCity": {
+      "busan": [
+        {
+          "name": "BIFF广场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20Ssiat%20hotteok",
+          "note": "以此片区作为找店起点；旧版指南仅支持当地饮食背景，地图检索不承诺店家当日供应或菜单已核验。"
+        }
+      ]
+    },
+    "photoFile": "Ssiat-hotteok.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-busan-pajeon",
+    "cityIds": [
+      "busan"
+    ],
+    "name": "东莱葱煎饼",
+    "localName": "Dongnae pajeon",
+    "description": "葱与海鲜等铺成的韩式煎饼，东莱风格是当地代表吃法；整张常适合分享，配酒另点。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002002001&uc_seq=1607",
+    "sourceReferences": [
+      {
+        "name": "Dongnae Halmae Pajeon · 东莱奶奶葱饼 · 官方旅游资料",
+        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002002001&uc_seq=1607",
+        "kind": "official-tourism",
+        "scope": "食物、具名店家与地址；未核验实时菜单价格",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "official-listed-dish-and-venue",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Dongnae pajeon Busan food",
+    "whereByCity": {
+      "busan": [
+        {
+          "name": "Dongnae Halmae Pajeon · 东莱奶奶葱饼",
+          "kind": "restaurant",
+          "sourceUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002002001&uc_seq=1607",
+          "note": "东莱区具名葱饼店，大份海鲜葱饼适合分享；出发前核对营业日和份量。"
+        },
+        {
+          "name": "东莱市场及周边韩食馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Busan%20Dongnae%20pajeon",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Korean pan cake-Dongnae pajeon-01.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-jeju-black-pork",
+    "cityIds": [
+      "jeju"
+    ],
+    "name": "济州黑猪肉烧烤",
+    "localName": "Heukdwaeji gui",
+    "description": "把济州黑猪肉厚片烤熟，配生菜、酱料和小菜；标价可能按重量或多人套餐，点单先问份量。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Heukdwaeji gui Jeju Island food",
+    "whereByCity": {
+      "jeju": [
+        {
+          "name": "济州市黑猪肉街与莲洞",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jeju%20Island%20Heukdwaeji%20gui",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-asia-jeju-gogi-guksu",
+    "cityIds": [
+      "jeju"
+    ],
+    "name": "济州猪肉汤面",
+    "localName": "Gogi-guksu",
+    "description": "猪肉汤配小麦面和肉片，是适合午餐的一碗地方滋味；辣酱可按口味另加。",
+    "article": "Gogi-guksu",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Gogi-guksu Jeju Island food",
+    "whereByCity": {
+      "jeju": [
+        {
+          "name": "济州市三姓穴附近面条街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jeju%20Island%20Gogi-guksu",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Jeju_gogi_noodle.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-jeju-abalone-porridge",
+    "cityIds": [
+      "jeju"
+    ],
+    "name": "鲍鱼粥",
+    "localName": "Jeonbok-juk",
+    "description": "鲍鱼切片与米慢煮成粥，颜色和风味会因是否加入内脏而不同；确认份量及配菜。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Jeonbok-juk Jeju Island food",
+    "whereByCity": {
+      "jeju": [
+        {
+          "name": "济州市与东岸海鲜食堂",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jeju%20Island%20Jeonbok-juk",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Korean_abalone_porridge-Jeonbokjuk-02.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-jeju-galchi",
+    "cityIds": [
+      "jeju"
+    ],
+    "name": "辣炖带鱼",
+    "localName": "Galchi-jorim",
+    "description": "带鱼与萝卜等同炖，常做成多人锅物；鱼有细骨，菜单可能按人数或整份计价。",
+    "article": "Galchi-jorim",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Galchi-jorim Jeju Island food",
+    "whereByCity": {
+      "jeju": [
+        {
+          "name": "济州市老城与西归浦食堂",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jeju%20Island%20Galchi-jorim",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Korean braised cutlass fish-Galchi jorim-02.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-jeju-omegi",
+    "cityIds": [
+      "jeju"
+    ],
+    "name": "济州五梅糕",
+    "localName": "Omegi-tteok",
+    "description": "带豆粒包裹的糯软糕点，适合作为茶点或伴手礼；不同店家原料与保存期限各异。",
+    "article": "Omegi-tteok",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.visitjeju.net/en/lowmenu?menuId=DOM_000001703100000000",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Omegi-tteok Jeju Island food",
+    "whereByCity": {
+      "jeju": [
+        {
+          "name": "东门市场糕点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jeju%20Island%20Omegi-tteok",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "오메기떡_정면.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-tokyo-fukagawa",
+    "cityIds": [
+      "tokyo"
+    ],
+    "name": "深川蛤蜊饭",
+    "localName": "Fukagawa-meshi",
+    "description": "蛤蜊与米饭组成的下町餐食，既有汤汁浇饭也有同煮版本；与清澄白河、门前仲町散步搭配很合适。",
+    "article": "Fukagawa-meshi",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Fukagawa-meshi Tokyo food",
+    "whereByCity": {
+      "tokyo": [
+        {
+          "name": "深川与门前仲町",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Fukagawa-meshi",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Fukagawameshi.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-tokyo-unadon",
+    "cityIds": [
+      "tokyo"
+    ],
+    "name": "蒲烧鳗鱼饭",
+    "localName": "Unadon / Unaju",
+    "description": "刷酱烤鳗鱼铺在饭上，盒饭或盖饭份量不同；现烤常需等待，可预留完整用餐时间。",
+    "article": "Unadon",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+    "sourceReferences": [
+      {
+        "name": "地方饮食指南",
+        "url": "https://www.gotokyo.org/en/see-and-do/drinking-and-dining/tokyo-local-food/index.html",
+        "kind": "official-tourism",
+        "scope": "食物名称、地方饮食背景；非菜单或价格核验",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Unadon / Unaju Tokyo food",
+    "whereByCity": {
+      "tokyo": [
+        {
+          "name": "浅草与日本桥鳗鱼专门店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Unadon%20/%20Unaju",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Tokyo_Chikuyotei_Unadon01s2100.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-seoul-bindaetteok",
+    "cityIds": [
+      "seoul"
+    ],
+    "name": "绿豆煎饼",
+    "localName": "Bindae-tteok",
+    "description": "磨制绿豆做成厚煎饼，常加蔬菜与肉类；整张适合分享，素食需求先问馅料。",
+    "article": "Bindae-tteok",
+    "articleScope": "dish",
+    "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194106",
+    "sourceReferences": [
+      {
+        "name": "Soonheenae Bindaetteok · 顺熙家绿豆煎饼 · 官方旅游资料",
+        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194106",
+        "kind": "official-tourism",
+        "scope": "食物、具名店家与地址；未核验实时菜单价格",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "official-listed-dish-and-venue",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Bindae-tteok Seoul food",
+    "whereByCity": {
+      "seoul": [
+        {
+          "name": "Soonheenae Bindaetteok · 顺熙家绿豆煎饼",
+          "kind": "restaurant",
+          "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=194106",
+          "note": "广藏市场店家，官方旅游资料列有现场磨豆制作的绿豆煎饼；份量和当天价格在店内确认。"
+        },
+        {
+          "name": "广藏市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seoul%20Bindae-tteok",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Korea_GwangjangMarket_Eats_11_Bindaetteok.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "food-asia-seoul-seolleongtang",
+    "cityIds": [
+      "seoul"
+    ],
+    "name": "雪浓牛骨汤",
+    "localName": "Seolleongtang",
+    "description": "长时间熬煮的牛骨汤颜色乳白，常配牛肉片、米饭与葱盐；可先尝汤再调味。",
+    "article": "Seolleongtang",
+    "articleScope": "dish",
+    "sourceUrl": "https://english.visitseoul.net/gangnamarea/Yeongdong-Seolleongtang/ENP004984",
+    "sourceReferences": [
+      {
+        "name": "Yeongdong Seolleongtang · 官方旅游资料",
+        "url": "https://english.visitseoul.net/gangnamarea/Yeongdong-Seolleongtang/ENP004984",
+        "kind": "official-tourism",
+        "scope": "食物、具名店家与地址；未核验实时菜单价格",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "official-listed-dish-and-venue",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "作为每日餐饮选择，不重复叠加固定门票；份量、原料、税费和服务内容按店家菜单确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Seolleongtang Seoul food",
+    "whereByCity": {
+      "seoul": [
+        {
+          "name": "Yeongdong Seolleongtang",
+          "kind": "restaurant",
+          "sourceUrl": "https://english.visitseoul.net/gangnamarea/Yeongdong-Seolleongtang/ENP004984",
+          "note": "新沙一带的具名雪浓汤店；官方旅游资料列有此菜，营业与菜单以到店日期确认。"
+        },
+        {
+          "name": "钟路与明洞汤饭店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seoul%20Seolleongtang",
+          "note": "以此片区作为找店起点；地图链接用于检索，不承诺具体店家当日供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Seolleongtang2024.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  }
+]

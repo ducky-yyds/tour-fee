@@ -1,0 +1,3816 @@
+[
+  {
+    "id": "stay-china2-shenzhen-park-hyatt",
+    "cityId": "shenzhen",
+    "kind": "hotel",
+    "name": "深圳柏悦酒店",
+    "nameEn": "Park Hyatt Shenzhen",
+    "provider": "深圳柏悦酒店",
+    "accommodationType": "hotel",
+    "tagline": "福田中心区",
+    "description": "福田商务区的高层住宿，可结合市民中心与城内地铁动线选择；实际景观取决于房型。",
+    "lat": 22.532,
+    "lng": 114.054,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "福田中心区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hyatt.com/en-US/destinations/shenzhen",
+    "website": "https://www.hyatt.com/en-US/destinations/shenzhen",
+    "bookingUrl": "https://www.hyatt.com/en-US/destinations/shenzhen",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按深圳城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按深圳城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按深圳城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1200,
+        "high": 1200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯悦酒店集团",
+        "url": "https://www.hyatt.com/en-US/destinations/shenzhen",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-shenzhen-four-seasons",
+    "cityId": "shenzhen",
+    "kind": "hotel",
+    "name": "深圳四季酒店",
+    "nameEn": "Four Seasons Hotel Shenzhen",
+    "provider": "深圳四季酒店",
+    "accommodationType": "hotel",
+    "tagline": "福田会展中心",
+    "description": "靠近福田会展中心的城市酒店，适合以福田为基地；泳池与餐饮使用条件按预订方案确认。",
+    "lat": 22.534,
+    "lng": 114.057,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "福田会展中心",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fourseasons.com/shenzhen/",
+    "website": "https://www.fourseasons.com/shenzhen/",
+    "bookingUrl": "https://www.fourseasons.com/shenzhen/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按深圳城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按深圳城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按深圳城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1200,
+        "high": 1200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "四季酒店",
+        "url": "https://www.fourseasons.com/shenzhen/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-shenzhen-langham",
+    "cityId": "shenzhen",
+    "kind": "hotel",
+    "name": "深圳东海朗廷酒店",
+    "nameEn": "The Langham Shenzhen",
+    "provider": "深圳东海朗廷酒店",
+    "accommodationType": "hotel",
+    "tagline": "车公庙东海片区",
+    "description": "在福田西部寻找较完整的酒店餐饮与休息空间，可单独比较下午茶和住宿套餐。",
+    "lat": 22.538,
+    "lng": 114.015,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "车公庙东海片区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.langhamhotels.com/en/the-langham/shenzhen/",
+    "website": "https://www.langhamhotels.com/en/the-langham/shenzhen/",
+    "bookingUrl": "https://www.langhamhotels.com/en/the-langham/shenzhen/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按深圳城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按深圳城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按深圳城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1200,
+        "high": 1200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "朗廷酒店",
+        "url": "https://www.langhamhotels.com/en/the-langham/shenzhen/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-shenzhen-shekou",
+    "cityId": "shenzhen",
+    "kind": "hotel",
+    "name": "深圳蛇口希尔顿南海酒店",
+    "nameEn": "Hilton Shenzhen Shekou Nanhai",
+    "provider": "深圳蛇口希尔顿南海酒店",
+    "accommodationType": "hotel",
+    "tagline": "蛇口海滨",
+    "description": "蛇口海滨的度假感住宿，可与海上世界步道组合；它距离福田和罗湖仍有通勤。",
+    "lat": 22.483,
+    "lng": 113.913,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "蛇口海滨",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/zh-hant/hotels/szxsshi-hilton-shenzhen-shekou-nanhai/",
+    "website": "https://www.hilton.com/zh-hant/hotels/szxsshi-hilton-shenzhen-shekou-nanhai/",
+    "bookingUrl": "https://www.hilton.com/zh-hant/hotels/szxsshi-hilton-shenzhen-shekou-nanhai/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按深圳城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按深圳城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按深圳城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1200,
+        "high": 1200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/zh-hant/hotels/szxsshi-hilton-shenzhen-shekou-nanhai/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": "Hilton Shenzhen Shekou Nanhai"
+  },
+  {
+    "id": "stay-china2-shenzhen-garden-nanshan",
+    "cityId": "shenzhen",
+    "kind": "hotel",
+    "name": "深圳南山大道希尔顿花园酒店",
+    "nameEn": "Hilton Garden Inn Shenzhen Nanshan Avenue",
+    "provider": "深圳南山大道希尔顿花园酒店",
+    "accommodationType": "hotel",
+    "tagline": "南山大道",
+    "description": "以南山大道为基地的城市酒店，适合比较南山出行距离与预算；房价含早与否按房型确认。",
+    "lat": 22.519,
+    "lng": 113.924,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "南山大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com.cn/zh-HK/SZXEEGI/",
+    "website": "https://www.hilton.com.cn/zh-HK/SZXEEGI/",
+    "bookingUrl": "https://www.hilton.com.cn/zh-HK/SZXEEGI/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按深圳城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按深圳城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 450,
+        "high": 450,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按深圳城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1200,
+        "high": 1200,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "深圳城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com.cn/zh-HK/SZXEEGI/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-niccolo",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙尼依格罗酒店",
+    "nameEn": "Niccolo Changsha",
+    "provider": "长沙尼依格罗酒店",
+    "accommodationType": "hotel",
+    "tagline": "五一商圈国金中心",
+    "description": "位于国金中心高层，适合希望下楼就逛老城商业区的人；江景与楼层因房型不同。",
+    "lat": 28.192,
+    "lng": 112.976,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "五一商圈国金中心",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+    "website": "https://www.niccolohotels.com/en/niccolo-changsha",
+    "bookingUrl": "https://www.niccolohotels.com/en/niccolo-changsha",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "尼依格罗酒店",
+        "url": "https://www.niccolohotels.com/en/niccolo-changsha",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-grand-hyatt",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙君悦酒店",
+    "nameEn": "Grand Hyatt Changsha",
+    "provider": "长沙君悦酒店",
+    "accommodationType": "hotel",
+    "tagline": "湘江中路",
+    "description": "靠近湘江与杜甫江阁方向，可把江边散步放在入住后；并不等于步行直达橘子洲所有游览点。",
+    "lat": 28.184,
+    "lng": 112.966,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "湘江中路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+    "website": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+    "bookingUrl": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯悦酒店集团",
+        "url": "https://www.hyatt.com/grand-hyatt/en-US/csxgh-grand-hyatt-changsha",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-sheraton",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙运达喜来登酒店",
+    "nameEn": "Sheraton Changsha Hotel",
+    "provider": "长沙运达喜来登酒店",
+    "accommodationType": "hotel",
+    "tagline": "开福区市中心",
+    "description": "市中心城市酒店，适合结合博物院与老城路线比较位置；餐饮及设施开放按酒店确认。",
+    "lat": 28.211,
+    "lng": 112.985,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "开福区市中心",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/csxsi-sheraton-changsha-hotel/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/csxsi-sheraton-changsha-hotel/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/csxsi-sheraton-changsha-hotel/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/hotels/csxsi-sheraton-changsha-hotel/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-intercontinental",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙北辰洲际酒店",
+    "nameEn": "InterContinental Changsha",
+    "provider": "长沙北辰洲际酒店",
+    "accommodationType": "hotel",
+    "tagline": "北辰三角洲",
+    "description": "湘江与浏阳河交汇片区的高层酒店，适合偏好江景与文化场馆周边的人；去五一商圈需接驳。",
+    "lat": 28.251,
+    "lng": 112.977,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "北辰三角洲",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/changsha/csxic/hoteldetail",
+    "website": "https://www.ihg.com/intercontinental/hotels/us/en/changsha/csxic/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/intercontinental/hotels/us/en/changsha/csxic/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "洲际酒店集团 IHG",
+        "url": "https://www.ihg.com/intercontinental/hotels/us/en/changsha/csxic/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-hilton",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙世茂希尔顿酒店",
+    "nameEn": "Hilton Changsha Riverside",
+    "provider": "长沙世茂希尔顿酒店",
+    "accommodationType": "hotel",
+    "tagline": "湘江西岸滨江新城",
+    "description": "在湘江西岸的滨江新城，可结合渔人码头一带休闲；往返老城与岳麓山需按路线预留交通。",
+    "lat": 28.247,
+    "lng": 112.949,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "湘江西岸滨江新城",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/en-gb/hotels/csxcchi-hilton-changsha-riverside/",
+    "website": "https://www.hilton.com/en-gb/hotels/csxcchi-hilton-changsha-riverside/",
+    "bookingUrl": "https://www.hilton.com/en-gb/hotels/csxcchi-hilton-changsha-riverside/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/en-gb/hotels/csxcchi-hilton-changsha-riverside/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-marco-polo",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉马哥孛罗酒店",
+    "nameEn": "Marco Polo Wuhan",
+    "provider": "武汉马哥孛罗酒店",
+    "accommodationType": "hotel",
+    "tagline": "汉口沿江大道",
+    "description": "靠近汉口江岸与旧街区，适合把散步作为晚间安排；江景房需按具体房型选择。",
+    "lat": 30.595,
+    "lng": 114.301,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉口沿江大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marcopolohotels.com/en/marco-polo-wuhan",
+    "website": "https://www.marcopolohotels.com/en/marco-polo-wuhan",
+    "bookingUrl": "https://www.marcopolohotels.com/en/marco-polo-wuhan",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "马哥孛罗酒店",
+        "url": "https://www.marcopolohotels.com/en/marco-polo-wuhan",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-fairmont",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉泛海费尔蒙酒店",
+    "nameEn": "Fairmont Wuhan",
+    "provider": "武汉泛海费尔蒙酒店",
+    "accommodationType": "hotel",
+    "tagline": "汉口中央商务区",
+    "description": "位于汉口中央商务区，便于以汉口为基地安排城市活动；跨江到武昌并非步行邻近。",
+    "lat": 30.608,
+    "lng": 114.25,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉口中央商务区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fairmont.com/en/hotels/wuhan/fairmont-wuhan.html",
+    "website": "https://www.fairmont.com/en/hotels/wuhan/fairmont-wuhan.html",
+    "bookingUrl": "https://www.fairmont.com/en/hotels/wuhan/fairmont-wuhan.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "费尔蒙酒店",
+        "url": "https://www.fairmont.com/en/hotels/wuhan/fairmont-wuhan.html",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-shangri-la",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉香格里拉",
+    "nameEn": "Shangri-La Wuhan",
+    "provider": "武汉香格里拉",
+    "accommodationType": "hotel",
+    "tagline": "汉口建设大道",
+    "description": "汉口城市酒店，可按地铁与各餐饮片区的实际路线比较位置；官网目录确认物业，房态须另查。",
+    "lat": 30.611,
+    "lng": 114.281,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉口建设大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.shangri-la.com/wuhan/shangrila/",
+    "website": "https://www.shangri-la.com/wuhan/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/wuhan/shangrila/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "香格里拉酒店",
+        "url": "https://www.shangri-la.com/wuhan/shangrila/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-riverside",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉世茂希尔顿酒店",
+    "nameEn": "Hilton Wuhan Riverside",
+    "provider": "武汉世茂希尔顿酒店",
+    "accommodationType": "hotel",
+    "tagline": "汉阳滨江",
+    "description": "汉阳长江边的高层酒店，可结合汉阳江岸与古琴台片区；汉口、武昌行程都要计入过江交通。",
+    "lat": 30.54,
+    "lng": 114.273,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉阳滨江",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/en-gb/hotels/wuhrshi-hilton-wuhan-riverside/",
+    "website": "https://www.hilton.com/en-gb/hotels/wuhrshi-hilton-wuhan-riverside/",
+    "bookingUrl": "https://www.hilton.com/en-gb/hotels/wuhrshi-hilton-wuhan-riverside/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/en-gb/hotels/wuhrshi-hilton-wuhan-riverside/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-hyatt-optics",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉光谷凯悦酒店",
+    "nameEn": "Hyatt Regency Wuhan Optics Valley",
+    "provider": "武汉光谷凯悦酒店",
+    "accommodationType": "hotel",
+    "tagline": "光谷大道",
+    "description": "位于光谷片区，适合偏好东部行程或度假式休息的人；到汉口老街距离较远，勿只按全市中心预算接驳。",
+    "lat": 30.501,
+    "lng": 114.429,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "光谷大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hyatt.com/hyatt-regency/zh-CN/wuhrw-hyatt-regency-wuhan-optics-valley",
+    "website": "https://www.hyatt.com/hyatt-regency/zh-CN/wuhrw-hyatt-regency-wuhan-optics-valley",
+    "bookingUrl": "https://www.hyatt.com/hyatt-regency/zh-CN/wuhrw-hyatt-regency-wuhan-optics-valley",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯悦酒店集团",
+        "url": "https://www.hyatt.com/hyatt-regency/zh-CN/wuhrw-hyatt-regency-wuhan-optics-valley",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-harbin-modern",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "哈尔滨中央大街马迭尔宾馆",
+    "nameEn": "Modern Hotel Harbin",
+    "provider": "哈尔滨中央大街马迭尔宾馆",
+    "accommodationType": "hotel",
+    "tagline": "中央大街",
+    "description": "中央大街的历史风貌宾馆，可把老街与早餐散步连在一起；旧建筑不同房型面积与设施有差异。",
+    "lat": 45.777,
+    "lng": 126.619,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "中央大街",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/harbin-hotel-detail-454879/modern-hotel/",
+    "website": "https://www.trip.com/hotels/harbin-hotel-detail-454879/modern-hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/harbin-hotel-detail-454879/modern-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/harbin-hotel-detail-454879/modern-hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "article": "Modern Hotel (Harbin)",
+    "photoFile": "马迭尔宾馆 20220610-2.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%A9%AC%E8%BF%AD%E5%B0%94%E5%AE%BE%E9%A6%86_20220610-2.jpg"
+  },
+  {
+    "id": "stay-china2-harbin-shangri-la",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "哈尔滨香格里拉",
+    "nameEn": "Shangri-La Harbin",
+    "provider": "哈尔滨香格里拉",
+    "accommodationType": "hotel",
+    "tagline": "道里区江南岸",
+    "description": "松花江南岸的城市酒店，适合偏好江景的人；与松北香格里拉为不同物业，预订时确认地址。",
+    "lat": 45.765,
+    "lng": 126.586,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "道里区江南岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.shangri-la.com/harbin/shangrila/",
+    "website": "https://www.shangri-la.com/harbin/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/harbin/shangrila/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "香格里拉酒店",
+        "url": "https://www.shangri-la.com/harbin/shangrila/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-harbin-jw-marriott",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "哈尔滨松北 JW 万豪酒店",
+    "nameEn": "JW Marriott Hotel Harbin River North",
+    "provider": "哈尔滨松北 JW 万豪酒店",
+    "accommodationType": "hotel",
+    "tagline": "松北创新一路",
+    "description": "位于松北，适合以北岸项目为主的住宿安排；到中央大街需过江接驳，冬季另留交通缓冲。",
+    "lat": 45.817,
+    "lng": 126.523,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "松北创新一路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/hotels/hrbjw-jw-marriott-hotel-harbin-river-north/overview/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-harbin-wanda-vista",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "哈尔滨万达文华酒店",
+    "nameEn": "Wanda Vista Harbin",
+    "provider": "哈尔滨万达文华酒店",
+    "accommodationType": "hotel",
+    "tagline": "松北世茂大道",
+    "description": "松北片区的度假式酒店选择，适合把休息与周边项目集中安排；去老城仍需车辆接驳。",
+    "lat": 45.801,
+    "lng": 126.497,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "松北世茂大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.booking.com/hotel/cn/wanda-vista-harbin-songbei.en-gb.html",
+    "website": "https://www.booking.com/hotel/cn/wanda-vista-harbin-songbei.en-gb.html",
+    "bookingUrl": "https://www.booking.com/hotel/cn/wanda-vista-harbin-songbei.en-gb.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Booking.com",
+        "url": "https://www.booking.com/hotel/cn/wanda-vista-harbin-songbei.en-gb.html",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-harbin-ritz-carlton",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "哈尔滨富力丽思卡尔顿酒店",
+    "nameEn": "The Ritz-Carlton Harbin",
+    "provider": "哈尔滨富力丽思卡尔顿酒店",
+    "accommodationType": "hotel",
+    "tagline": "道里区江岸",
+    "description": "临江高层酒店，可按具体景观房型比较；品牌城市目录用于确认物业，实际入住价格另查。",
+    "lat": 45.757,
+    "lng": 126.58,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "道里区江岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/destinations/china/harbin.mi",
+    "website": "https://www.marriott.com/en-us/destinations/china/harbin.mi",
+    "bookingUrl": "https://www.marriott.com/en-us/destinations/china/harbin.mi",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "万豪酒店集团",
+        "url": "https://www.marriott.com/en-us/destinations/china/harbin.mi",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-dunhuang-silk-road",
+    "cityId": "dunhuang",
+    "kind": "hotel",
+    "name": "敦煌山庄",
+    "nameEn": "The Silk Road Dunhuang Hotel",
+    "provider": "敦煌山庄",
+    "accommodationType": "hotel",
+    "tagline": "鸣沙山方向",
+    "description": "在鸣沙山方向的建筑主题住宿，可比较沙丘景观与院落房型；到沙州夜市仍需短程接驳。",
+    "lat": 40.105,
+    "lng": 94.671,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "鸣沙山方向",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-439474/the-silk-road-dunhuang-hotel/",
+    "website": "https://www.trip.com/hotels/dunhuang-hotel-detail-439474/the-silk-road-dunhuang-hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-439474/the-silk-road-dunhuang-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按敦煌城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按敦煌城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按敦煌城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/dunhuang-hotel-detail-439474/the-silk-road-dunhuang-hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-dunhuang-dongyi",
+    "cityId": "dunhuang",
+    "kind": "hotel",
+    "name": "东驿敦煌酒店",
+    "nameEn": "Dongyi Dunhuang Hotels and Resorts",
+    "provider": "东驿敦煌酒店",
+    "accommodationType": "hotel",
+    "tagline": "月牙泉镇花雨东路",
+    "description": "以院落与设计空间为特色，适合给酒店本身留休息时间；远离夜市密集区，接送与用餐需提前确认。",
+    "lat": 40.112,
+    "lng": 94.714,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "月牙泉镇花雨东路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-79565560/dongyi-dunhuang-hotels-and-resorts/",
+    "website": "https://www.trip.com/hotels/dunhuang-hotel-detail-79565560/dongyi-dunhuang-hotels-and-resorts/",
+    "bookingUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-79565560/dongyi-dunhuang-hotels-and-resorts/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按敦煌城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按敦煌城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按敦煌城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/dunhuang-hotel-detail-79565560/dongyi-dunhuang-hotels-and-resorts/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-dunhuang-binguan",
+    "cityId": "dunhuang",
+    "kind": "hotel",
+    "name": "敦煌宾馆",
+    "nameEn": "Dunhuang Binguan",
+    "provider": "敦煌宾馆",
+    "accommodationType": "hotel",
+    "tagline": "阳关中路",
+    "description": "市中心庭院式宾馆，适合希望靠近餐饮与夜市的人；注意与鸣山北路的敦煌饭店区分。",
+    "lat": 40.143,
+    "lng": 94.666,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "阳关中路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-1882116/dunhuang-hotel/",
+    "website": "https://www.trip.com/hotels/dunhuang-hotel-detail-1882116/dunhuang-hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-1882116/dunhuang-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按敦煌城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按敦煌城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按敦煌城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/dunhuang-hotel-detail-1882116/dunhuang-hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-dunhuang-fandian",
+    "cityId": "dunhuang",
+    "kind": "hotel",
+    "name": "敦煌饭店（敦煌夜市店）",
+    "nameEn": "Dunhuang Hotel Mingshan North Road",
+    "provider": "敦煌饭店（敦煌夜市店）",
+    "accommodationType": "hotel",
+    "tagline": "鸣山北路",
+    "description": "鸣山北路的市区住宿，可从夜市与博物馆周边安排日常活动；英文同名较多，预订时核对门牌。",
+    "lat": 40.138,
+    "lng": 94.661,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "鸣山北路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-605636/dunhuang-hotel/",
+    "website": "https://www.trip.com/hotels/dunhuang-hotel-detail-605636/dunhuang-hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/dunhuang-hotel-detail-605636/dunhuang-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按敦煌城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按敦煌城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按敦煌城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/dunhuang-hotel-detail-605636/dunhuang-hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-dunhuang-jangala",
+    "cityId": "dunhuang",
+    "kind": "hotel",
+    "name": "敦煌碧玥酒店",
+    "nameEn": "Jangala Dunhuang",
+    "provider": "敦煌碧玥酒店",
+    "accommodationType": "hotel",
+    "tagline": "七里镇景观大道",
+    "description": "绿洲庭院式度假住宿，距主要景区与市区均需接驳；官网目前注明不接待 12 岁以下儿童，家庭出游先确认政策。",
+    "lat": 40.168,
+    "lng": 94.55,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "七里镇景观大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/en-gb/hotels/dnhjdlx-jangala-dunhuang/",
+    "website": "https://www.hilton.com/en-gb/hotels/dnhjdlx-jangala-dunhuang/",
+    "bookingUrl": "https://www.hilton.com/en-gb/hotels/dnhjdlx-jangala-dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按敦煌城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按敦煌城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按敦煌城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "敦煌城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/en-gb/hotels/dnhjdlx-jangala-dunhuang/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-zhangjiajie-pullman",
+    "cityId": "zhangjiajie",
+    "kind": "hotel",
+    "name": "张家界京武铂尔曼酒店",
+    "nameEn": "Pullman Zhangjiajie",
+    "provider": "张家界京武铂尔曼酒店",
+    "accommodationType": "hotel",
+    "tagline": "武陵源高云路",
+    "description": "位于武陵源镇区，适合以森林公园东门周边为基地；它与永定市区天门山不在同一片区。",
+    "lat": 29.34,
+    "lng": 110.546,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "武陵源高云路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://all.accor.com/hotel/7934/index.en.shtml",
+    "website": "https://all.accor.com/hotel/7934/index.en.shtml",
+    "bookingUrl": "https://all.accor.com/hotel/7934/index.en.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按张家界城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按张家界城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 400,
+        "high": 400,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按张家界城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "雅高酒店集团",
+        "url": "https://all.accor.com/hotel/7934/index.en.shtml",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-zhangjiajie-hampton-tianmen",
+    "cityId": "zhangjiajie",
+    "kind": "hotel",
+    "name": "张家界天门山希尔顿欢朋酒店",
+    "nameEn": "Hampton by Hilton Zhangjiajie Tianmen Mountain",
+    "provider": "张家界天门山希尔顿欢朋酒店",
+    "accommodationType": "hotel",
+    "tagline": "永定市区官黎坪",
+    "description": "永定市区的住宿选择，适合抵达、离开或天门山日；前往武陵源森林公园需要道路接驳。",
+    "lat": 29.109,
+    "lng": 110.483,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "永定市区官黎坪",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/en-gb/hotels/dygzahx-hampton-zhangjiajie-tianmen-mountain/",
+    "website": "https://www.hilton.com/en-gb/hotels/dygzahx-hampton-zhangjiajie-tianmen-mountain/",
+    "bookingUrl": "https://www.hilton.com/en-gb/hotels/dygzahx-hampton-zhangjiajie-tianmen-mountain/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按张家界城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按张家界城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 400,
+        "high": 400,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按张家界城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/en-gb/hotels/dygzahx-hampton-zhangjiajie-tianmen-mountain/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-zhangjiajie-hampton-forest",
+    "cityId": "zhangjiajie",
+    "kind": "hotel",
+    "name": "张家界国家森林公园希尔顿欢朋酒店",
+    "nameEn": "Hampton by Hilton Zhangjiajie National Forest Park",
+    "provider": "张家界国家森林公园希尔顿欢朋酒店",
+    "accommodationType": "hotel",
+    "tagline": "武陵源片区",
+    "description": "武陵源方向的酒店，可结合森林公园安排连续两晚；具体入口与酒店间路线在预订前核对。",
+    "lat": 29.349,
+    "lng": 110.555,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "武陵源片区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hilton.com/en/hotels/dygzjhx-hampton-zhangjiajie-national-forest-park/",
+    "website": "https://www.hilton.com/en/hotels/dygzjhx-hampton-zhangjiajie-national-forest-park/",
+    "bookingUrl": "https://www.hilton.com/en/hotels/dygzjhx-hampton-zhangjiajie-national-forest-park/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按张家界城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按张家界城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 400,
+        "high": 400,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按张家界城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "希尔顿酒店集团",
+        "url": "https://www.hilton.com/en/hotels/dygzjhx-hampton-zhangjiajie-national-forest-park/",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-zhangjiajie-valley-lodge",
+    "cityId": "zhangjiajie",
+    "kind": "hotel",
+    "name": "张家界五号山谷",
+    "nameEn": "No. 5 Valley Lodge",
+    "provider": "张家界五号山谷",
+    "accommodationType": "hotel",
+    "tagline": "杨家界西门方向",
+    "description": "偏乡野山谷的住宿体验，适合从杨家界方向游览；并非武陵源东门镇区，晚餐与接送应预先安排。",
+    "lat": 29.319,
+    "lng": 110.429,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "杨家界西门方向",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1766751/no.-5-valley-inn/",
+    "website": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1766751/no.-5-valley-inn/",
+    "bookingUrl": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1766751/no.-5-valley-inn/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按张家界城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按张家界城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 400,
+        "high": 400,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按张家界城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1766751/no.-5-valley-inn/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-zhangjiajie-phoenix",
+    "cityId": "zhangjiajie",
+    "kind": "hotel",
+    "name": "张家界碧桂园凤凰酒店",
+    "nameEn": "Country Garden Phoenix Hotel Zhangjiajie",
+    "provider": "张家界碧桂园凤凰酒店",
+    "accommodationType": "hotel",
+    "tagline": "沙堤片区",
+    "description": "位于市区与武陵源之间的度假片区，可兼顾酒店休息；去两端景区都需要接驳，不按步行可达处理。",
+    "lat": 29.229,
+    "lng": 110.476,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "沙堤片区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1102752/hotel/",
+    "website": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1102752/hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1102752/hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按张家界城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按张家界城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 400,
+        "high": 400,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按张家界城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1100,
+        "high": 1100,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "张家界城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/zhangjiajie-hotel-detail-1102752/hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-chongqing-niccolo",
+    "cityId": "chongqing",
+    "kind": "hotel",
+    "name": "重庆尼依格罗酒店",
+    "nameEn": "Niccolo Chongqing",
+    "provider": "重庆尼依格罗酒店",
+    "accommodationType": "hotel",
+    "tagline": "江北嘴国金中心",
+    "description": "江北嘴高层酒店，可看两江城市景观；住江北与住解放碑的晚间动线不同，过江交通须计入。",
+    "lat": 29.581,
+    "lng": 106.574,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "江北嘴国金中心",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.niccolohotels.com/en/niccolo-chongqing",
+    "website": "https://www.niccolohotels.com/en/niccolo-chongqing",
+    "bookingUrl": "https://www.niccolohotels.com/en/niccolo-chongqing",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按重庆城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按重庆城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 360,
+        "high": 360,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按重庆城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "尼依格罗酒店",
+        "url": "https://www.niccolohotels.com/en/niccolo-chongqing",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-chongqing-kempinski",
+    "cityId": "chongqing",
+    "kind": "hotel",
+    "name": "重庆凯宾斯基酒店",
+    "nameEn": "Kempinski Hotel Chongqing",
+    "provider": "重庆凯宾斯基酒店",
+    "accommodationType": "hotel",
+    "tagline": "南岸南坪",
+    "description": "南坪片区城市酒店，适合南岸活动与商务出行；到渝中老城需要过江，房型景观须单独确认。",
+    "lat": 29.536,
+    "lng": 106.563,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "南岸南坪",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.kempinski.com/en/destinations/asia/china",
+    "website": "https://www.kempinski.com/en/destinations/asia/china",
+    "bookingUrl": "https://www.kempinski.com/en/destinations/asia/china",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按重庆城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按重庆城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 360,
+        "high": 360,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按重庆城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 850,
+        "high": 850,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "重庆城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯宾斯基酒店",
+        "url": "https://www.kempinski.com/en/destinations/asia/china",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-jinan-hyatt",
+    "cityId": "jinan",
+    "kind": "hotel",
+    "name": "济南富力凯悦酒店",
+    "nameEn": "Hyatt Regency Jinan",
+    "provider": "济南富力凯悦酒店",
+    "accommodationType": "hotel",
+    "tagline": "老商埠经四路",
+    "description": "经四路附近的市区酒店，可与老商埠慢游衔接；到泉水老城仍按实际步行或车辆路线安排。",
+    "lat": 36.664,
+    "lng": 117.006,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "老商埠经四路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/jinhr-hyatt-regency-jinan",
+    "website": "https://www.hyatt.com/hyatt-regency/en-US/jinhr-hyatt-regency-jinan",
+    "bookingUrl": "https://www.hyatt.com/hyatt-regency/en-US/jinhr-hyatt-regency-jinan",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济南城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济南城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济南城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 700,
+        "high": 700,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯悦酒店集团",
+        "url": "https://www.hyatt.com/hyatt-regency/en-US/jinhr-hyatt-regency-jinan",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-jinan-kempinski",
+    "cityId": "jinan",
+    "kind": "hotel",
+    "name": "济南凯宾斯基酒店",
+    "nameEn": "Kempinski Hotel Jinan",
+    "provider": "济南凯宾斯基酒店",
+    "accommodationType": "hotel",
+    "tagline": "汉峪金谷高新区",
+    "description": "高新区高层酒店，适合偏好新城环境与酒店休息的人；距离大明湖和老商埠较远，应把接驳纳入预算。",
+    "lat": 36.65,
+    "lng": 117.128,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉峪金谷高新区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.kempinski.com/en/kempinski-hotel-jinan",
+    "website": "https://www.kempinski.com/en/kempinski-hotel-jinan",
+    "bookingUrl": "https://www.kempinski.com/en/kempinski-hotel-jinan",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济南城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济南城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济南城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 700,
+        "high": 700,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济南城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "凯宾斯基酒店",
+        "url": "https://www.kempinski.com/en/kempinski-hotel-jinan",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-changsha-holiday-express",
+    "cityId": "changsha",
+    "kind": "hotel",
+    "name": "长沙湖南博物院智选假日酒店",
+    "nameEn": "Holiday Inn Express Changsha Hunan Museum",
+    "provider": "长沙湖南博物院智选假日酒店",
+    "accommodationType": "hotel",
+    "tagline": "开福区富兴金融中心",
+    "description": "常规商旅住宿，适合湖南博物院与开福区路线；官网正文仍有五一广场旧名称，预订以富兴金融中心地址和当前房态为准。",
+    "lat": 28.222,
+    "lng": 112.988,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "开福区富兴金融中心",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/changsha/csxff/hoteldetail",
+    "website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/changsha/csxff/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/changsha/csxff/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按长沙城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按长沙城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 350,
+        "high": 350,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按长沙城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 900,
+        "high": 900,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "长沙城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "洲际酒店集团 IHG",
+        "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/changsha/csxff/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-wuhan-holiday-express",
+    "cityId": "wuhan",
+    "kind": "hotel",
+    "name": "武汉江汉路智选假日酒店",
+    "nameEn": "Holiday Inn Express Wuhan Jianghan Road",
+    "provider": "武汉江汉路智选假日酒店",
+    "accommodationType": "hotel",
+    "tagline": "汉口中山大道",
+    "description": "靠近江汉路的常规商旅选择，适合以地铁和步行探索汉口；当前房型、含早人数及洗衣服务条件按订单确认。",
+    "lat": 30.581,
+    "lng": 114.29,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "汉口中山大道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wuhan/wuhwj/hoteldetail",
+    "website": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wuhan/wuhwj/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wuhan/wuhwj/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按武汉城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按武汉城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按武汉城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "武汉城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "洲际酒店集团 IHG",
+        "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/wuhan/wuhwj/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-china2-harbin-ibis-xinyang",
+    "cityId": "harbin",
+    "kind": "hotel",
+    "name": "宜必思酒店（哈尔滨中央大街火车站店）",
+    "nameEn": "Ibis Harbin Central Street Railway Station",
+    "provider": "宜必思酒店（哈尔滨中央大街火车站店）",
+    "accommodationType": "hotel",
+    "tagline": "道里新阳路",
+    "description": "新阳路的常规连锁酒店，可比较老城与车站的实际路线；名称中的中央大街不代表酒店就在步行街上。",
+    "lat": 45.764,
+    "lng": 126.609,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "道里新阳路",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "travel-booking-listing",
+    "sourceUrl": "https://www.trip.com/hotels/harbin-hotel-detail-2301198/ibis-harbin-xinyang-road-hotel/",
+    "website": "https://www.trip.com/hotels/harbin-hotel-detail-2301198/ibis-harbin-xinyang-road-hotel/",
+    "bookingUrl": "https://www.trip.com/hotels/harbin-hotel-detail-2301198/ibis-harbin-xinyang-road-hotel/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "listing-present-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "已阅读酒店官网或旅行平台物业页确认名称及片区；未核验所选日期可订房型与价格。",
+    "availabilityNote": "金额是城市每间每晚住宿预算，不是此酒店报价，不代表能以该档入住；早餐、税费、接驳及取消条件需按日期确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按哈尔滨城市经济档预留一间一晚；不是该酒店房型或报价。",
+        "low": 150,
+        "high": 150,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按哈尔滨城市舒适档预留一间一晚；不是该酒店房型或报价。",
+        "low": 380,
+        "high": 380,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按哈尔滨城市高端档预留一间一晚；不是该酒店房型或报价。",
+        "low": 1000,
+        "high": 1000,
+        "currency": "CNY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "哈尔滨城市住宿编辑预算；非该酒店报价",
+        "note": "须取得所选日期含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的早餐、加床、税费、停车及接送"
+        ]
+      }
+    ],
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://www.trip.com/hotels/harbin-hotel-detail-2301198/ibis-harbin-xinyang-road-hotel/",
+        "kind": "booking-listing",
+        "scope": "property-location-and-identity",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "noArticle": true
+  }
+]

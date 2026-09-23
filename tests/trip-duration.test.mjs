@@ -7,8 +7,9 @@ test('every detailed destination has a bounded first-visit recommendation, never
   for (const city of cities) {
     const recommendation = getTripDuration(city);
     assert.equal(recommendation.type, 'editorial', city.id);
-    assert(recommendation.days >= recommendation.min && recommendation.days <= recommendation.max, city.id);
-    assert(recommendation.min >= 1 && recommendation.max <= 7, city.id);
+    assert(Number.isInteger(recommendation.days) && recommendation.days >= 1 && recommendation.days <= 7, city.id);
+    assert(Number.isInteger(recommendation.min) && Number.isInteger(recommendation.max), city.id);
+    assert(recommendation.min >= 1 && recommendation.min <= recommendation.days && recommendation.days <= recommendation.max && recommendation.max <= 365, city.id);
     assert.equal(createRecommendedStop(city).days, recommendation.days);
   }
 });

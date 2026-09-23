@@ -1,0 +1,3555 @@
+[
+  {
+    "id": "stay-asia-sapporo-nikko",
+    "cityId": "sapporo",
+    "kind": "hotel",
+    "name": "JR Tower Hotel Nikko Sapporo",
+    "nameEn": "JR Tower Hotel Nikko Sapporo",
+    "provider": "JR Tower Hotel Nikko Sapporo",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "札幌站直连",
+    "description": "札幌站直连，高楼层城市视野适合以铁路为中心的旅行。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 43.0683,
+    "lng": 141.3523,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.jrhotels.co.jp/tower/english/",
+    "website": "https://www.jrhotels.co.jp/tower/english/",
+    "bookingUrl": "https://www.jrhotels.co.jp/tower/english/",
+    "sourceReferences": [
+      {
+        "name": "JR Tower Hotel Nikko Sapporo 住宿资料",
+        "url": "https://www.jrhotels.co.jp/tower/english/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按札幌城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按札幌城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按札幌城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 32000,
+        "high": 32000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-sapporo-grand",
+    "cityId": "sapporo",
+    "kind": "hotel",
+    "name": "Sapporo Grand Hotel",
+    "nameEn": "Sapporo Grand Hotel",
+    "provider": "Sapporo Grand Hotel",
+    "article": "Sapporo Grand Hotel",
+    "accommodationType": "hotel",
+    "tagline": "位于札幌站至大通之间",
+    "description": "位于札幌站至大通之间，可通过地下步行通道衔接，雨雪天出行较方便。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 43.0631,
+    "lng": 141.3505,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://grand1934.com/en/",
+    "website": "https://grand1934.com/en/",
+    "bookingUrl": "https://grand1934.com/en/",
+    "sourceReferences": [
+      {
+        "name": "Sapporo Grand Hotel 住宿资料",
+        "url": "https://grand1934.com/en/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按札幌城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按札幌城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按札幌城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 32000,
+        "high": 32000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Sapporo_Grand_Hotel_exterior_01.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-sapporo-cross",
+    "cityId": "sapporo",
+    "kind": "hotel",
+    "name": "Cross Hotel Sapporo",
+    "nameEn": "Cross Hotel Sapporo",
+    "provider": "Cross Hotel Sapporo",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "在札幌站和大通之间",
+    "description": "在札幌站和大通之间，以设计客房和高层公共浴场为特色；使用条件按房价方案。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 43.0648,
+    "lng": 141.3526,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://cross-sapporo.orixhotelsandresorts.com/",
+    "website": "https://cross-sapporo.orixhotelsandresorts.com/",
+    "bookingUrl": "https://cross-sapporo.orixhotelsandresorts.com/",
+    "sourceReferences": [
+      {
+        "name": "Cross Hotel Sapporo 住宿资料",
+        "url": "https://cross-sapporo.orixhotelsandresorts.com/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按札幌城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按札幌城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按札幌城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 32000,
+        "high": 32000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-sapporo-mitsui-west",
+    "cityId": "sapporo",
+    "kind": "hotel",
+    "name": "Mitsui Garden Hotel Sapporo West",
+    "nameEn": "Mitsui Garden Hotel Sapporo West",
+    "provider": "Mitsui Garden Hotel Sapporo West",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "札幌站西侧的现代酒店",
+    "description": "札幌站西侧的现代酒店，装饰融入北海道元素，适合作为市区与铁路旅行据点。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 43.0675,
+    "lng": 141.347,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.gardenhotels.co.jp/sapporo-west/eng/",
+    "website": "https://www.gardenhotels.co.jp/sapporo-west/eng/",
+    "bookingUrl": "https://www.gardenhotels.co.jp/sapporo-west/eng/",
+    "sourceReferences": [
+      {
+        "name": "Mitsui Garden Hotel Sapporo West 住宿资料",
+        "url": "https://www.gardenhotels.co.jp/sapporo-west/eng/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按札幌城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按札幌城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按札幌城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 32000,
+        "high": 32000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-sapporo-unwind",
+    "cityId": "sapporo",
+    "kind": "hotel",
+    "name": "UNWIND HOTEL & BAR SAPPORO",
+    "nameEn": "UNWIND HOTEL & BAR SAPPORO",
+    "provider": "UNWIND HOTEL & BAR SAPPORO",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "靠近中岛公园片区",
+    "description": "靠近中岛公园片区，以山间旅宿气氛和酒吧空间让市内住宿更放松。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 43.0499,
+    "lng": 141.3521,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.livelyhotels.com/en/unwindsapporo/",
+    "website": "https://www.livelyhotels.com/en/unwindsapporo/",
+    "bookingUrl": "https://www.livelyhotels.com/en/unwindsapporo/",
+    "sourceReferences": [
+      {
+        "name": "UNWIND HOTEL & BAR SAPPORO 住宿资料",
+        "url": "https://www.livelyhotels.com/en/unwindsapporo/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按札幌城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按札幌城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按札幌城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 32000,
+        "high": 32000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "札幌城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-fukuoka-grand-hyatt",
+    "cityId": "fukuoka",
+    "kind": "hotel",
+    "name": "Grand Hyatt Fukuoka",
+    "nameEn": "Grand Hyatt Fukuoka",
+    "provider": "Grand Hyatt Fukuoka",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于博多运河城",
+    "description": "位于博多运河城，可把商业区、博多旧城和中洲步行串联。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.5899,
+    "lng": 130.4103,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hyatt.com/grand-hyatt/ja-JP/fukgh-grand-hyatt-fukuoka",
+    "website": "https://www.hyatt.com/grand-hyatt/ja-JP/fukgh-grand-hyatt-fukuoka",
+    "bookingUrl": "https://www.hyatt.com/grand-hyatt/ja-JP/fukgh-grand-hyatt-fukuoka",
+    "sourceReferences": [
+      {
+        "name": "Grand Hyatt Fukuoka 住宿资料",
+        "url": "https://www.hyatt.com/grand-hyatt/ja-JP/fukgh-grand-hyatt-fukuoka",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按福冈城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按福冈城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按福冈城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 34000,
+        "high": 34000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "GrandHyattFukuoka.JPG",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-fukuoka-okura",
+    "cityId": "fukuoka",
+    "kind": "hotel",
+    "name": "Hotel Okura Fukuoka",
+    "nameEn": "Hotel Okura Fukuoka",
+    "provider": "Hotel Okura Fukuoka",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "中洲川端一带的经典酒店",
+    "description": "中洲川端一带的经典酒店，适合兼顾博多文化、餐饮与地铁出行。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.5951,
+    "lng": 130.4056,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.fuk.hotelokura.co.jp/en/",
+    "website": "https://www.fuk.hotelokura.co.jp/en/",
+    "bookingUrl": "https://www.fuk.hotelokura.co.jp/en/",
+    "sourceReferences": [
+      {
+        "name": "Hotel Okura Fukuoka 住宿资料",
+        "url": "https://www.fuk.hotelokura.co.jp/en/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按福冈城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按福冈城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按福冈城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 34000,
+        "high": 34000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Hotel Okura Fukuoka 3-2 Shimo-kawabatamachi Hakata-ku Fukuoka 20230105.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-fukuoka-miyako",
+    "cityId": "fukuoka",
+    "kind": "hotel",
+    "name": "Miyako Hotel Hakata",
+    "nameEn": "Miyako Hotel Hakata",
+    "provider": "Miyako Hotel Hakata",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "在博多站筑紫口一带",
+    "description": "在博多站筑紫口一带，适合有较多铁路行程的旅客；泳池和温浴设施规则请查方案。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.5901,
+    "lng": 130.4225,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.miyakohotels.ne.jp/hakata/",
+    "website": "https://www.miyakohotels.ne.jp/hakata/",
+    "bookingUrl": "https://www.miyakohotels.ne.jp/hakata/",
+    "sourceReferences": [
+      {
+        "name": "Miyako Hotel Hakata 住宿资料",
+        "url": "https://www.miyakohotels.ne.jp/hakata/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按福冈城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按福冈城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按福冈城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 34000,
+        "high": 34000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Miyako Hotel Hakata the SW side 1-1 Hakata-eki-higashi 2-chōme Hakata-ku Fukuoka 20230811.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-fukuoka-tokyu-rei",
+    "cityId": "fukuoka",
+    "kind": "hotel",
+    "name": "Hakata Tokyu REI Hotel",
+    "nameEn": "Hakata Tokyu REI Hotel",
+    "provider": "Hakata Tokyu REI Hotel",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "靠近博多站的实用型据点",
+    "description": "靠近博多站的实用型据点，适合把预算优先留给餐饮和周边旅行。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.5922,
+    "lng": 130.4187,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.tokyuhotels.co.jp/en/hakata-r/index.html",
+    "website": "https://www.tokyuhotels.co.jp/en/hakata-r/index.html",
+    "bookingUrl": "https://www.tokyuhotels.co.jp/en/hakata-r/index.html",
+    "sourceReferences": [
+      {
+        "name": "Hakata Tokyu REI Hotel 住宿资料",
+        "url": "https://www.tokyuhotels.co.jp/en/hakata-r/index.html",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按福冈城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按福冈城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按福冈城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 34000,
+        "high": 34000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Hakata Tokyu REI Hotel.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-fukuoka-lively",
+    "cityId": "fukuoka",
+    "kind": "hotel",
+    "name": "THE LIVELY FUKUOKA HAKATA",
+    "nameEn": "THE LIVELY FUKUOKA HAKATA",
+    "provider": "THE LIVELY FUKUOKA HAKATA",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "中洲片区的生活方式酒店",
+    "description": "中洲片区的生活方式酒店，以公共空间、艺术装饰和餐饮气氛见长。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.5949,
+    "lng": 130.4051,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.livelyhotels.com/en/thelivelyfukuoka/",
+    "website": "https://www.livelyhotels.com/en/thelivelyfukuoka/",
+    "bookingUrl": "https://www.livelyhotels.com/en/thelivelyfukuoka/",
+    "sourceReferences": [
+      {
+        "name": "THE LIVELY FUKUOKA HAKATA 住宿资料",
+        "url": "https://www.livelyhotels.com/en/thelivelyfukuoka/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按福冈城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 7000,
+        "high": 7000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按福冈城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 15000,
+        "high": 15000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按福冈城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 34000,
+        "high": 34000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "福冈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-hiroshima-rihga",
+    "cityId": "hiroshima",
+    "kind": "hotel",
+    "name": "RIHGA Royal Hotel Hiroshima",
+    "nameEn": "RIHGA Royal Hotel Hiroshima",
+    "provider": "RIHGA Royal Hotel Hiroshima",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "靠近基町与巴士中心",
+    "description": "靠近基町与巴士中心，步行可衔接城园和和平公园方向，适合市内文化行程。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 34.3986,
+    "lng": 132.4573,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.rihga.com/hiroshima",
+    "website": "https://www.rihga.com/hiroshima",
+    "bookingUrl": "https://www.rihga.com/hiroshima",
+    "sourceReferences": [
+      {
+        "name": "RIHGA Royal Hotel Hiroshima 住宿资料",
+        "url": "https://www.rihga.com/hiroshima",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按广岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6500,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按广岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 14000,
+        "high": 14000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按广岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 30000,
+        "high": 30000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Rihga Royal Hotel Hiroshima 20170311.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-hiroshima-sheraton",
+    "cityId": "hiroshima",
+    "kind": "hotel",
+    "name": "Sheraton Grand Hiroshima Hotel",
+    "nameEn": "Sheraton Grand Hiroshima Hotel",
+    "provider": "Sheraton Grand Hiroshima Hotel",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "广岛站北侧的铁路据点",
+    "description": "广岛站北侧的铁路据点，适合宫岛、其他城市与机场接驳之间的转移。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 34.3987,
+    "lng": 132.4757,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/hijsi-sheraton-grand-hiroshima-hotel/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/hijsi-sheraton-grand-hiroshima-hotel/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/hijsi-sheraton-grand-hiroshima-hotel/overview/",
+    "sourceReferences": [
+      {
+        "name": "Sheraton Grand Hiroshima Hotel 住宿资料",
+        "url": "https://www.marriott.com/en-us/hotels/hijsi-sheraton-grand-hiroshima-hotel/overview/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按广岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6500,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按广岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 14000,
+        "high": 14000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按广岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 30000,
+        "high": 30000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "シェラトングランドホテル広島 Sheraton Grand Hiroshima Hotel (49307523388).jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-hiroshima-hilton",
+    "cityId": "hiroshima",
+    "kind": "hotel",
+    "name": "Hilton Hiroshima",
+    "nameEn": "Hilton Hiroshima",
+    "provider": "Hilton Hiroshima",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于市中心南侧",
+    "description": "位于市中心南侧，可结合平和大通、袋町及餐饮街区安排慢行。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 34.387,
+    "lng": 132.4623,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://hiroshima.hiltonjapan.co.jp/",
+    "website": "https://hiroshima.hiltonjapan.co.jp/",
+    "bookingUrl": "https://hiroshima.hiltonjapan.co.jp/",
+    "sourceReferences": [
+      {
+        "name": "Hilton Hiroshima 住宿资料",
+        "url": "https://hiroshima.hiltonjapan.co.jp/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按广岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6500,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按广岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 14000,
+        "high": 14000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按广岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 30000,
+        "high": 30000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "ヒルトン広島.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-hiroshima-granvia",
+    "cityId": "hiroshima",
+    "kind": "hotel",
+    "name": "Hotel Granvia Hiroshima",
+    "nameEn": "Hotel Granvia Hiroshima",
+    "provider": "Hotel Granvia Hiroshima",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "紧邻广岛站",
+    "description": "紧邻广岛站，适合携带行李或次日搭乘新干线的行程；留意与South Gate馆区分。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 34.3989,
+    "lng": 132.4745,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://hgh.co.jp/english/stay/",
+    "website": "https://hgh.co.jp/english/stay/",
+    "bookingUrl": "https://hgh.co.jp/english/stay/",
+    "sourceReferences": [
+      {
+        "name": "Hotel Granvia Hiroshima 住宿资料",
+        "url": "https://hgh.co.jp/english/stay/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按广岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6500,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按广岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 14000,
+        "high": 14000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按广岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 30000,
+        "high": 30000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Hotel-Granvia-Hiroshima-2.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-hiroshima-kiro",
+    "cityId": "hiroshima",
+    "kind": "hotel",
+    "name": "KIRO Hiroshima by THE SHARE HOTELS",
+    "nameEn": "KIRO Hiroshima by THE SHARE HOTELS",
+    "provider": "KIRO Hiroshima by THE SHARE HOTELS",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于新天地附近",
+    "description": "位于新天地附近，以改造建筑和公共交流空间为特色，适合逛街与尝御好烧。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 34.3905,
+    "lng": 132.4646,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.thesharehotels.com/kiro/",
+    "website": "https://www.thesharehotels.com/kiro/",
+    "bookingUrl": "https://www.thesharehotels.com/kiro/",
+    "sourceReferences": [
+      {
+        "name": "KIRO Hiroshima by THE SHARE HOTELS 住宿资料",
+        "url": "https://www.thesharehotels.com/kiro/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按广岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6500,
+        "high": 6500,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按广岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 14000,
+        "high": 14000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按广岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 30000,
+        "high": 30000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "广岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-naha-hyatt",
+    "cityId": "naha",
+    "kind": "hotel",
+    "name": "Hyatt Regency Naha, Okinawa",
+    "nameEn": "Hyatt Regency Naha, Okinawa",
+    "provider": "Hyatt Regency Naha, Okinawa",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "牧志片区的城市酒店",
+    "description": "牧志片区的城市酒店，可步行认识壶屋陶器街和国际通侧巷。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 26.213,
+    "lng": 127.69,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/okarn-hyatt-regency-naha-okinawa",
+    "website": "https://www.hyatt.com/hyatt-regency/en-US/okarn-hyatt-regency-naha-okinawa",
+    "bookingUrl": "https://www.hyatt.com/hyatt-regency/en-US/okarn-hyatt-regency-naha-okinawa",
+    "sourceReferences": [
+      {
+        "name": "Hyatt Regency Naha, Okinawa 住宿资料",
+        "url": "https://www.hyatt.com/hyatt-regency/en-US/okarn-hyatt-regency-naha-okinawa",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按那霸城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6000,
+        "high": 6000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按那霸城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 13000,
+        "high": 13000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按那霸城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 28000,
+        "high": 28000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Hyatt Regency Naha Okinawa.JPG",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-naha-collective",
+    "cityId": "naha",
+    "kind": "hotel",
+    "name": "Hotel Collective",
+    "nameEn": "Hotel Collective",
+    "provider": "Hotel Collective",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "面向国际通",
+    "description": "面向国际通，适合把市场、晚餐和市区闲逛集中在步行范围。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 26.2152,
+    "lng": 127.6856,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://hotelcollective.jp/en/",
+    "website": "https://hotelcollective.jp/en/",
+    "bookingUrl": "https://hotelcollective.jp/en/",
+    "sourceReferences": [
+      {
+        "name": "Hotel Collective 住宿资料",
+        "url": "https://hotelcollective.jp/en/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按那霸城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6000,
+        "high": 6000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按那霸城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 13000,
+        "high": 13000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按那霸城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 28000,
+        "high": 28000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Hotel Collective, Naha 20250304 135322.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-naha-blossom",
+    "cityId": "naha",
+    "kind": "hotel",
+    "name": "JR Kyushu Hotel Blossom Naha",
+    "nameEn": "JR Kyushu Hotel Blossom Naha",
+    "provider": "JR Kyushu Hotel Blossom Naha",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "靠近国际通与美荣桥站",
+    "description": "靠近国际通与美荣桥站，室内设计结合冲绳文化与现代城市住宿。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 26.2175,
+    "lng": 127.6853,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.jrk-hotels.co.jp/en/Naha/",
+    "website": "https://www.jrk-hotels.co.jp/en/Naha/",
+    "bookingUrl": "https://www.jrk-hotels.co.jp/en/Naha/",
+    "sourceReferences": [
+      {
+        "name": "JR Kyushu Hotel Blossom Naha 住宿资料",
+        "url": "https://www.jrk-hotels.co.jp/en/Naha/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按那霸城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6000,
+        "high": 6000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按那霸城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 13000,
+        "high": 13000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按那霸城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 28000,
+        "high": 28000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "JP 日本 Japan 沖繩 OKINAWA 那霸 Naha 九州酒店 JR Kyushu Hotel Blossom Naha lobby morning January 2025 R12S.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-naha-terrace",
+    "cityId": "naha",
+    "kind": "hotel",
+    "name": "The Naha Terrace",
+    "nameEn": "The Naha Terrace",
+    "provider": "The Naha Terrace",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "新都心一侧的安静城市酒店",
+    "description": "新都心一侧的安静城市酒店，适合博物馆与市内休息日；餐饮及设施按预订方案。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 26.2241,
+    "lng": 127.6908,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.terrace.co.jp/en/naha/",
+    "website": "https://www.terrace.co.jp/en/naha/",
+    "bookingUrl": "https://www.terrace.co.jp/en/naha/",
+    "sourceReferences": [
+      {
+        "name": "The Naha Terrace 住宿资料",
+        "url": "https://www.terrace.co.jp/en/naha/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按那霸城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6000,
+        "high": 6000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按那霸城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 13000,
+        "high": 13000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按那霸城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 28000,
+        "high": 28000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "The Naha Terrace.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-naha-omo5",
+    "cityId": "naha",
+    "kind": "hotel",
+    "name": "OMO5 Okinawa Naha by Hoshino Resorts",
+    "nameEn": "OMO5 Okinawa Naha by Hoshino Resorts",
+    "provider": "OMO5 Okinawa Naha by Hoshino Resorts",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "以那霸街区探索为主题",
+    "description": "以那霸街区探索为主题，适合愿意把市场和小巷纳入行程的人。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 26.2176,
+    "lng": 127.6776,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://hoshinoresorts.com/en/hotels/omo5okinawanaha/",
+    "website": "https://hoshinoresorts.com/en/hotels/omo5okinawanaha/",
+    "bookingUrl": "https://hoshinoresorts.com/en/hotels/omo5okinawanaha/",
+    "sourceReferences": [
+      {
+        "name": "OMO5 Okinawa Naha by Hoshino Resorts 住宿资料",
+        "url": "https://hoshinoresorts.com/en/hotels/omo5okinawanaha/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按那霸城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 6000,
+        "high": 6000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按那霸城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 13000,
+        "high": 13000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按那霸城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 28000,
+        "high": 28000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "那霸城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-busan-park-hyatt",
+    "cityId": "busan",
+    "kind": "hotel",
+    "name": "Park Hyatt Busan",
+    "nameEn": "Park Hyatt Busan",
+    "provider": "Park Hyatt Busan",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于Marine City",
+    "description": "位于Marine City，适合喜欢港湾与大桥景观的人；不是海云台沙滩正前排。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.1567,
+    "lng": 129.1419,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+    "website": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+    "bookingUrl": "https://www.hyatt.com/park-hyatt/en-US/busph-park-hyatt-busan",
+    "sourceReferences": [
+      {
+        "name": "Park Hyatt Busan 住宿资料",
+        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按釜山城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按釜山城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按釜山城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 350000,
+        "high": 350000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-busan-signiel",
+    "cityId": "busan",
+    "kind": "hotel",
+    "name": "SIGNIEL BUSAN",
+    "nameEn": "SIGNIEL BUSAN",
+    "provider": "SIGNIEL BUSAN",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于海云台东侧LCT塔楼",
+    "description": "位于海云台东侧LCT塔楼，适合以海滩休息和尾浦海岸为主的旅行。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.1602,
+    "lng": 129.1694,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+    "website": "https://www.lottehotel.com/busan-signiel/en.html",
+    "bookingUrl": "https://www.lottehotel.com/busan-signiel/en.html",
+    "sourceReferences": [
+      {
+        "name": "SIGNIEL BUSAN 住宿资料",
+        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按釜山城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按釜山城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按釜山城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 350000,
+        "high": 350000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-busan-paradise",
+    "cityId": "busan",
+    "kind": "hotel",
+    "name": "Paradise Hotel Busan",
+    "nameEn": "Paradise Hotel Busan",
+    "provider": "Paradise Hotel Busan",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "海云台海边酒店",
+    "description": "海云台海边酒店，温泉与亲子设施是可比较特色；设施次数、年龄和季节规则另核。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.16,
+    "lng": 129.1635,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.busanparadisehotel.co.kr/front",
+    "website": "https://www.busanparadisehotel.co.kr/front",
+    "bookingUrl": "https://www.busanparadisehotel.co.kr/front",
+    "sourceReferences": [
+      {
+        "name": "Paradise Hotel Busan 住宿资料",
+        "url": "https://www.busanparadisehotel.co.kr/front",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按釜山城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按釜山城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按釜山城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 350000,
+        "high": 350000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Paradise Hotel Busan.JPG",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-busan-lotte",
+    "cityId": "busan",
+    "kind": "hotel",
+    "name": "LOTTE Hotel Busan",
+    "nameEn": "LOTTE Hotel Busan",
+    "provider": "LOTTE Hotel Busan",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于西面",
+    "description": "位于西面，适合同时探索南浦和海云台的城市旅行；市内移动仍需预留时间。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.1568,
+    "lng": 129.056,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+    "website": "https://www.lottehotel.com/busan-hotel/en.html",
+    "bookingUrl": "https://www.lottehotel.com/busan-hotel/en.html",
+    "sourceReferences": [
+      {
+        "name": "LOTTE Hotel Busan 住宿资料",
+        "url": "https://www.visitbusan.net/index.do?menuCd=DOM_000000301004000000",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按釜山城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按釜山城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按釜山城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 350000,
+        "high": 350000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-busan-toyoko",
+    "cityId": "busan",
+    "kind": "hotel",
+    "name": "Toyoko Inn Busan Station No.1",
+    "nameEn": "Toyoko Inn Busan Station No.1",
+    "provider": "Toyoko Inn Busan Station No.1",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "釜山站旁的实用型酒店",
+    "description": "釜山站旁的实用型酒店，适合搭KTX抵达后放行李，再往南浦或港边出发。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.1136,
+    "lng": 129.0408,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+    "website": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+    "bookingUrl": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+    "sourceReferences": [
+      {
+        "name": "Toyoko Inn Busan Station No.1 住宿资料",
+        "url": "https://www.toyoko-inn.com/eng/search/detail/00194/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按釜山城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按釜山城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按釜山城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 350000,
+        "high": 350000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "釜山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-jeju-grand-hyatt",
+    "cityId": "jeju",
+    "kind": "hotel",
+    "name": "Grand Hyatt Jeju",
+    "nameEn": "Grand Hyatt Jeju",
+    "provider": "Grand Hyatt Jeju",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于济州市新城的双塔综合体",
+    "description": "位于济州市新城的双塔综合体，适合城市餐饮、购物与航空抵达日。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.4859,
+    "lng": 126.481,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.jejudreamtower.com/eng/",
+    "website": "https://www.jejudreamtower.com/eng/",
+    "bookingUrl": "https://www.jejudreamtower.com/eng/",
+    "sourceReferences": [
+      {
+        "name": "Grand Hyatt Jeju 住宿资料",
+        "url": "https://www.jejudreamtower.com/eng/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济州岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济州岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 135000,
+        "high": 135000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济州岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 330000,
+        "high": 330000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-jeju-maison",
+    "cityId": "jeju",
+    "kind": "hotel",
+    "name": "Maison Glad Jeju",
+    "nameEn": "Maison Glad Jeju",
+    "provider": "Maison Glad Jeju",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "莲洞一带的城市酒店",
+    "description": "莲洞一带的城市酒店，适合在餐饮街区与机场之间选择方便的住宿据点。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.4848,
+    "lng": 126.488,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.glad-hotels.com/maisongladjeju/index.do",
+    "website": "https://www.glad-hotels.com/maisongladjeju/index.do",
+    "bookingUrl": "https://www.glad-hotels.com/maisongladjeju/index.do",
+    "sourceReferences": [
+      {
+        "name": "Maison Glad Jeju 住宿资料",
+        "url": "https://www.glad-hotels.com/maisongladjeju/index.do",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济州岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济州岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 135000,
+        "high": 135000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济州岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 330000,
+        "high": 330000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "MAISON GLAD JEJU.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-jeju-lotte-city",
+    "cityId": "jeju",
+    "kind": "hotel",
+    "name": "LOTTE City Hotel Jeju",
+    "nameEn": "LOTTE City Hotel Jeju",
+    "provider": "LOTTE City Hotel Jeju",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "济州市道令路的城市酒店",
+    "description": "济州市道令路的城市酒店，适合机场往返与北岸活动；不在南岸中文度假区。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.491,
+    "lng": 126.487,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500858",
+    "website": "https://www.lottehotel.com/jeju-city/en.html",
+    "bookingUrl": "https://www.lottehotel.com/jeju-city/en.html",
+    "sourceReferences": [
+      {
+        "name": "LOTTE City Hotel Jeju 住宿资料",
+        "url": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500858",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济州岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济州岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 135000,
+        "high": 135000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济州岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 330000,
+        "high": 330000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-jeju-lotte-resort",
+    "cityId": "jeju",
+    "kind": "hotel",
+    "name": "LOTTE Hotel Jeju",
+    "nameEn": "LOTTE Hotel Jeju",
+    "provider": "LOTTE Hotel Jeju",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于西归浦中文度假区",
+    "description": "位于西归浦中文度假区，适合把南岸休闲放在住宿附近；离CJU机场较远，转场时间另留。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.2485,
+    "lng": 126.4105,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500859",
+    "website": "https://www.lottehotel.com/jeju-hotel/en.html",
+    "bookingUrl": "https://www.lottehotel.com/jeju-hotel/en.html",
+    "sourceReferences": [
+      {
+        "name": "LOTTE Hotel Jeju 住宿资料",
+        "url": "https://www.visitjeju.net/en/detail/view?contentsid=CONT_000000000500859",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济州岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济州岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 135000,
+        "high": 135000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济州岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 330000,
+        "high": 330000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "제주 중문관광단지 롯데호텔 제주.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-jeju-haevichi",
+    "cityId": "jeju",
+    "kind": "hotel",
+    "name": "Haevichi Hotel & Resort Jeju",
+    "nameEn": "Haevichi Hotel & Resort Jeju",
+    "provider": "Haevichi Hotel & Resort Jeju",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于表善海岸",
+    "description": "位于表善海岸，适合海边停留与东南部文化行程；不是济州市内酒店，需单列机场接驳。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 33.3216,
+    "lng": 126.8429,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.haevichi.com/jeju/en/",
+    "website": "https://www.haevichi.com/jeju/en/",
+    "bookingUrl": "https://www.haevichi.com/jeju/en/",
+    "sourceReferences": [
+      {
+        "name": "Haevichi Hotel & Resort Jeju 住宿资料",
+        "url": "https://www.haevichi.com/jeju/en/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按济州岛城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 60000,
+        "high": 60000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按济州岛城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 135000,
+        "high": 135000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按济州岛城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 330000,
+        "high": 330000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "济州岛城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-tokyo-yuen",
+    "cityId": "tokyo",
+    "kind": "hotel",
+    "name": "ONSEN RYOKAN YUEN SHINJUKU",
+    "nameEn": "ONSEN RYOKAN YUEN SHINJUKU",
+    "provider": "ONSEN RYOKAN YUEN SHINJUKU",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "在新宿以旅馆风格和高层温浴空间提供安静住宿；温泉为运入水源",
+    "description": "在新宿以旅馆风格和高层温浴空间提供安静住宿；温泉为运入水源，使用条件与房型另核。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.6938,
+    "lng": 139.7133,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.uds-hotels.com/en/yuen/shinjuku/",
+    "website": "https://www.uds-hotels.com/en/yuen/shinjuku/",
+    "bookingUrl": "https://www.uds-hotels.com/en/yuen/shinjuku/",
+    "sourceReferences": [
+      {
+        "name": "ONSEN RYOKAN YUEN SHINJUKU 住宿资料",
+        "url": "https://www.uds-hotels.com/en/yuen/shinjuku/",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按东京城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 8000,
+        "high": 8000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按东京城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 17000,
+        "high": 17000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按东京城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 55000,
+        "high": 55000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-tokyo-trunk-yoyogi",
+    "cityId": "tokyo",
+    "kind": "hotel",
+    "name": "TRUNK(HOTEL) YOYOGI PARK",
+    "nameEn": "TRUNK(HOTEL) YOYOGI PARK",
+    "provider": "TRUNK(HOTEL) YOYOGI PARK",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "面向代代木公园周边",
+    "description": "面向代代木公园周边，以小规模设计酒店和屋顶休闲空间为特色。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 35.668,
+    "lng": 139.6895,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://yoyogipark.trunk-hotel.com/stay",
+    "website": "https://yoyogipark.trunk-hotel.com/stay",
+    "bookingUrl": "https://yoyogipark.trunk-hotel.com/stay",
+    "sourceReferences": [
+      {
+        "name": "TRUNK(HOTEL) YOYOGI PARK 住宿资料",
+        "url": "https://yoyogipark.trunk-hotel.com/stay",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按东京城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 8000,
+        "high": 8000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按东京城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 17000,
+        "high": 17000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按东京城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 55000,
+        "high": 55000,
+        "currency": "JPY",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "东京城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-asia-seoul-rakkojae",
+    "cityId": "seoul",
+    "kind": "hotel",
+    "name": "Rakkojae Seoul Bukchon Hanok Hotel",
+    "nameEn": "Rakkojae Seoul Bukchon Hanok Hotel",
+    "provider": "Rakkojae Seoul Bukchon Hanok Hotel",
+    "article": "Rakkojae",
+    "accommodationType": "hotel",
+    "tagline": "北村韩屋院落型住宿",
+    "description": "北村韩屋院落型住宿，适合想体验传统空间的人；单间、包院及人数条件需要向物业确认。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 37.5806,
+    "lng": 126.9861,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45582",
+    "website": "https://www.rakkojae.com/",
+    "bookingUrl": "https://www.rakkojae.com/",
+    "sourceReferences": [
+      {
+        "name": "Rakkojae Seoul Bukchon Hanok Hotel 住宿资料",
+        "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=45582",
+        "kind": "official-tourism",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按首尔城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按首尔城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按首尔城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 420000,
+        "high": 420000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ],
+    "photoFile": "Rakkojae_-_travel_oriented.jpg",
+    "photoSource": "wikimedia-commons",
+    "photoSubjectCheckedAt": "2026-09-23"
+  },
+  {
+    "id": "stay-asia-seoul-josun-palace",
+    "cityId": "seoul",
+    "kind": "hotel",
+    "name": "Josun Palace, Seoul Gangnam",
+    "nameEn": "Josun Palace, Seoul Gangnam",
+    "provider": "Josun Palace, Seoul Gangnam",
+    "article": null,
+    "accommodationType": "hotel",
+    "tagline": "位于江南德黑兰路的高层酒店",
+    "description": "位于江南德黑兰路的高层酒店，艺术陈设与城市视野适合安排住宿休息日。 进入预订页面后按实际日期比较房型和含税总价。",
+    "lat": 37.5032,
+    "lng": 127.0418,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "物业近似位置；实际入口及接送地址以预订确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "具名住宿",
+      "按日期询价",
+      "城市预算预留"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://jpg.josunhotel.com/main.do",
+    "website": "https://jpg.josunhotel.com/main.do",
+    "bookingUrl": "https://jpg.josunhotel.com/main.do",
+    "sourceReferences": [
+      {
+        "name": "Josun Palace, Seoul Gangnam 住宿资料",
+        "url": "https://jpg.josunhotel.com/main.do",
+        "kind": "official-hotel",
+        "scope": "物业身份、位置与住宿特色；未核验房态及房价",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游目录用于确认物业信息，未查询特定日期的可售房型、房态与成交价格。",
+    "availabilityNote": "金额为城市住宿预算预留，不是此酒店报价，也不保证该档预算可入住；取得实际含税报价后调整。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "以实际报价替换城市住宿预算",
+      "核对住宿税、早餐、停车、设施及取消条款"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按首尔城市经济档预留一间一晚，不是该酒店实际房价。",
+        "low": 65000,
+        "high": 65000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按首尔城市舒适档预留一间一晚，不是该酒店实际房价。",
+        "low": 140000,
+        "high": 140000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按首尔城市高端档预留一间一晚，不是该酒店实际房价。",
+        "low": 420000,
+        "high": 420000,
+        "currency": "KRW",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "首尔城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于本物业，须取得实际含税报价再调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的住宿税、服务费、停车、早餐、加床及接送"
+        ]
+      }
+    ]
+  }
+]

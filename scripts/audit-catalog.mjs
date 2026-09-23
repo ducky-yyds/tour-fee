@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { dirname, isAbsolute, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CURRENCIES } from '../shared/currencies.mjs';
+import { CURRENCIES, REGIONS } from '../shared/currencies.mjs';
 import { cardImage } from '../shared/media.mjs';
 import { readExperienceEntries } from '../server/experience-catalog.mjs';
 
@@ -100,13 +100,32 @@ function auditImage(group, entity, kind) {
   recordImage('runtime', group, entity, runtime);
 }
 
+const editorialLinks = new Set(), editorialHosts = new Set();
+const editorialSourceCoverage = { entitiesWithReferences: 0, entitiesWithMultipleHosts: 0 };
 function registerId(entity, label) {
   if (!entity.id || seen.has(entity.id)) problems.push(`Missing or duplicate ${label} ID: ${entity.id}`);
   seen.add(entity.id);
+  if (entity.sourceReferences == null) return;
+  if (!Array.isArray(entity.sourceReferences)) {
+    problems.push(`Invalid source references: ${entity.id}`); return;
+  }
+  const hosts = new Set();
+  for (const reference of entity.sourceReferences) {
+    try {
+      const url = new URL(reference.url);
+      if (!['https:', 'http:'].includes(url.protocol) || !reference.name || !reference.kind || !reference.scope
+          || !/^\d{4}-\d{2}-\d{2}$/.test(reference.checkedAt || '')) throw new Error('Incomplete reference');
+      const host = url.hostname.replace(/^www\./, '');
+      hosts.add(host); editorialHosts.add(host); editorialLinks.add(url.href);
+    } catch { problems.push(`Invalid editorial reference: ${entity.id}/${reference?.url || '(missing URL)'}`); }
+  }
+  if (hosts.size) editorialSourceCoverage.entitiesWithReferences += 1;
+  if (hosts.size > 1) editorialSourceCoverage.entitiesWithMultipleHosts += 1;
 }
 
 for (const city of cities) {
   registerId(city, 'city');
+  if (!REGIONS.includes(city.region)) problems.push(`Unsupported region: ${city.id}/${city.region}`);
   if (!CURRENCIES[city.currency] || !(fx.rates[city.currency] > 0)) problems.push(`Missing currency: ${city.id}/${city.currency}`);
   if (!guides.some(guide => guide.cityId === city.id)) problems.push(`Missing guide: ${city.id}`);
   if (city.gatewayTransfer && (typeof city.gatewayTransfer !== 'object' || !Array.isArray(city.gatewayTransfer.values) || city.gatewayTransfer.values.length !== 3 || !city.gatewayTransfer.values.every(n => Number.isFinite(n) && n >= 0) || !(fx.rates[city.gatewayTransfer.currency] > 0))) problems.push(`Invalid gateway transfer budget: ${city.id}`);
@@ -158,13 +177,13 @@ const perCity = cities.map(city => ({
   hotels: experiences.filter(place => place.cityId === city.id && place.kind === 'hotel').length,
 }));
 const cityMinimumCoverage = {
-  minimumMaintainedCities: 151, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
+  minimumMaintainedCities: 169, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
   cities: cities.length, perCity,
   belowFoodMinimum: perCity.filter(city => city.foods < 5).map(city => city.cityId),
   belowHotelMinimum: perCity.filter(city => city.hotels < 5).map(city => city.cityId),
 };
-cityMinimumCoverage.complete = cities.length >= 151 && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
-if (cities.length < 151) problems.push(`Fewer than 151 maintained cities: ${cities.length}`);
+cityMinimumCoverage.complete = cities.length >= 169 && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
+if (cities.length < 169) problems.push(`Fewer than 169 maintained cities: ${cities.length}`);
 for (const city of perCity) {
   if (city.foods < 5) problems.push(`Fewer than 5 foods: ${city.cityId}/${city.foods}`);
   if (city.hotels < 5) problems.push(`Fewer than 5 hotels: ${city.cityId}/${city.hotels}`);
@@ -212,6 +231,9 @@ const report = {
   photos: Object.fromEntries(IMAGE_GROUPS.map(group => [group, mediaCoverage.manifest[group].photographs])),
   missingPhotos, mediaCoverage, imageFileCoverage, cityMinimumCoverage,
   experienceCoverage, foodCoverage, placeLibraryCoverage,
+  editorialSourceCoverage: { ...editorialSourceCoverage, uniqueLinks: editorialLinks.size,
+    hosts: [...editorialHosts].sort(),
+    note: 'Stored reading references and distinct hostnames; this validates metadata only, not live availability, independent ownership or current prices.' },
   mediaCountingNotes: [
     'Counts describe entity cards, not unique downloaded files; one illustration or reference photograph can serve multiple cards.',
     'Manifest coverage only uses the entry under the entity ID. Runtime coverage uses the same cardImage resolution as the catalog, including inline images, nearby references and illustrations.',

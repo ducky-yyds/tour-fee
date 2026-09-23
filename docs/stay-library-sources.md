@@ -92,3 +92,7 @@ py -3 scripts/update-stay-library.py --cities paris,london --refresh
 旧照片不证明现有装修、设施开放情况或所选房型。
 原始检索结果保存在本地 `artifacts/stay-image-research.json` 和 `artifacts/stay-commons-research.json`，
 文件类别也用于确认简短说明的物业归属，例如 `Haupttrakt Kempinski Malta.JPG` 属于 Kempinski Hotel San Lawrenz。
+
+## 扩充时保留已有选择
+
+每城五家是补齐下限，不是目录上限。增加人工住宿后，维护任务保留已收录的地图住宿及其 ID；有缓存或新响应时按原 ID 更新已知物业，再补足仍不足五家的城市。一次有界查询没有返回旧物业，不被当作已经关闭。来源明确标记不适合旅行者入住或进入人工排除清单的条目仍会移除。人工住宿本身和地图资料都不代表实时可售房态。

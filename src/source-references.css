@@ -1,0 +1,8 @@
+.ch-reference-links { display: grid; gap: 7px; margin-top: 10px; min-width: 0; }
+.ch-reference-label { color: #717b70; font-size: .82rem; }
+.ch-reference-links ul { display: flex; flex-wrap: wrap; gap: 7px 14px; padding: 0; margin: 0; list-style: none; }
+.ch-reference-links li { min-width: 0; max-width: 100%; }
+.ch-reference-links a { display: inline-flex; align-items: baseline; gap: 4px; color: #46624c; font-size: .86rem; line-height: 1.6; text-decoration: underline; text-underline-offset: 3px; }
+.ch-reference-links a span { overflow-wrap: anywhere; }
+.ch-reference-links svg { flex: 0 0 auto; }
+.ch-reference-links a:focus-visible { outline: 2px solid #68836e; outline-offset: 3px; border-radius: 2px; }

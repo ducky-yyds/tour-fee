@@ -16,3 +16,4 @@ jobs:
     uses: ./.github/workflows/pages.yml
     with:
       refresh_data: true
+      run_tests: false

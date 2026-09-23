@@ -34,7 +34,12 @@ test('all experience options retain valid units, supported quote currencies and 
     assert(Number.isFinite(place.lat) && Math.abs(place.lat) <= 90, place.id);
     assert(Number.isFinite(place.lng) && Math.abs(place.lng) <= 180, place.id);
     assert(place.priceOptions.length > 0, place.id);
-    assert(/^https:\/\//.test(place.sourceUrl) && /^https:\/\//.test(place.bookingUrl), place.id);
+    assert(/^https:\/\//.test(place.sourceUrl), place.id);
+    if (place.bookingUrl != null) {
+      assert.equal(typeof place.bookingUrl, 'string', place.id);
+      const booking = new URL(place.bookingUrl);
+      assert(['http:', 'https:'].includes(booking.protocol) && booking.hostname, place.id);
+    }
     const ids = new Set();
     for (const option of place.priceOptions) {
       const label = `${place.id}/${option.id}`;

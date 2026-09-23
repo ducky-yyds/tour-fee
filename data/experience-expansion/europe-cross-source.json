@@ -1,0 +1,3567 @@
+[
+  {
+    "id": "stay-euro-nice-negresco",
+    "cityId": "nice",
+    "kind": "hotel",
+    "name": "Le Negresco",
+    "nameEn": "Le Negresco",
+    "provider": "Le Negresco",
+    "accommodationType": "hotel",
+    "tagline": "英国人散步道",
+    "description": "面向海湾的历史酒店，把艺术收藏与各具风格的空间融入住宿体验；看海房、早餐与沙滩服务需按报价选择。",
+    "lat": 43.6949,
+    "lng": 7.2589,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "英国人散步道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.lenegresco.com/en",
+    "website": "https://www.lenegresco.com/en",
+    "bookingUrl": "https://www.lenegresco.com/en",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "lenegresco.com",
+        "url": "https://www.lenegresco.com/en",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hotel_Negresco",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按尼斯城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按尼斯城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按尼斯城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 390,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Hotel Negresco",
+    "photoFile": "Nice_Hôtel_Negresco_Extérieur_07.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-nice-palais-mediterranee",
+    "cityId": "nice",
+    "kind": "hotel",
+    "name": "Hôtel Palais de la Méditerranée",
+    "nameEn": "Hôtel Palais de la Méditerranée",
+    "provider": "Hôtel Palais de la Méditerranée",
+    "accommodationType": "hotel",
+    "tagline": "英国人散步道",
+    "description": "以装饰艺术立面识别的海滨酒店，2026 年加入 Hyatt 的 Unbound Collection；实际房型与设施使用条件在预订时核对。",
+    "lat": 43.6954,
+    "lng": 7.2636,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "英国人散步道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hyatt.com/unbound-collection/en-US/ncehr-hotel-palais-de-la-mediterranee",
+    "website": "https://www.hyatt.com/unbound-collection/en-US/ncehr-hotel-palais-de-la-mediterranee",
+    "bookingUrl": "https://www.hyatt.com/unbound-collection/en-US/ncehr-hotel-palais-de-la-mediterranee",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hyatt.com",
+        "url": "https://www.hyatt.com/unbound-collection/en-US/ncehr-hotel-palais-de-la-mediterranee",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Palais_de_la_M%C3%A9diterran%C3%A9e",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按尼斯城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按尼斯城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按尼斯城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 390,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Palais de la Méditerranée",
+    "photoFile": "Palais_de_la_méditérranée.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-nice-west-end",
+    "cityId": "nice",
+    "kind": "hotel",
+    "name": "Hôtel West End",
+    "nameEn": "Hôtel West End",
+    "provider": "Hôtel West End",
+    "accommodationType": "hotel",
+    "tagline": "英国人散步道",
+    "description": "海滨历史建筑中的酒店，适合把散步道作为每日出门起点；房间朝向、停车和合作海滩服务按房价方案确认。",
+    "lat": 43.6947,
+    "lng": 7.2596,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "英国人散步道",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotel-westend.com/en/",
+    "website": "https://www.hotel-westend.com/en/",
+    "bookingUrl": "https://www.hotel-westend.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotel-westend.com",
+        "url": "https://www.hotel-westend.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按尼斯城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按尼斯城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按尼斯城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 390,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-nice-palais-saleya",
+    "cityId": "nice",
+    "kind": "hotel",
+    "name": "Palais Saleya",
+    "nameEn": "Palais Saleya",
+    "provider": "Palais Saleya",
+    "accommodationType": "hotel",
+    "tagline": "旧城司法宫广场",
+    "description": "旧城入口的公寓式酒店，套房与公寓选择适合想在街区多住几天的人；厨房配置与容纳人数须看具体房型。",
+    "lat": 43.6969,
+    "lng": 7.273,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "旧城司法宫广场",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.palaissaleya.com/fr/",
+    "website": "https://www.palaissaleya.com/fr/",
+    "bookingUrl": "https://www.palaissaleya.com/fr/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "palaissaleya.com",
+        "url": "https://www.palaissaleya.com/fr/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按尼斯城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按尼斯城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按尼斯城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 390,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-nice-villa-hostel",
+    "cityId": "nice",
+    "kind": "hotel",
+    "name": "Villa Saint Exupéry Beach Hostel",
+    "nameEn": "Villa Saint Exupéry Beach Hostel",
+    "provider": "Villa Saint Exupéry Beach Hostel",
+    "accommodationType": "hostel",
+    "tagline": "马塞纳广场附近",
+    "description": "靠近中心广场的青旅，可比较床位和私人房；本应用仍按城市一间一晚预留，不能把整间房预算误当成床位报价。",
+    "lat": 43.6997,
+    "lng": 7.2692,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "马塞纳广场附近",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://villahostels.com/",
+    "website": "https://villahostels.com/",
+    "bookingUrl": "https://villahostels.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "villahostels.com",
+        "url": "https://villahostels.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按尼斯城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 90,
+        "high": 90,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按尼斯城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按尼斯城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 390,
+        "high": 390,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "尼斯城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-lyon-hotel-dieu",
+    "cityId": "lyon",
+    "kind": "hotel",
+    "name": "InterContinental Lyon – Hotel Dieu",
+    "nameEn": "InterContinental Lyon – Hotel Dieu",
+    "provider": "InterContinental Lyon – Hotel Dieu",
+    "accommodationType": "hotel",
+    "tagline": "半岛罗讷河岸",
+    "description": "历史医院改造的酒店，以穹顶和内院见长；河景与庭院朝向不同，选择时把想逛的半岛片区一起考虑。",
+    "lat": 45.7584,
+    "lng": 4.8365,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "半岛罗讷河岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://lyon.intercontinental.com/en/",
+    "website": "https://lyon.intercontinental.com/en/",
+    "bookingUrl": "https://lyon.intercontinental.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "lyon.intercontinental.com",
+        "url": "https://lyon.intercontinental.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/H%C3%B4tel-Dieu_de_Lyon",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按里昂城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 75,
+        "high": 75,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按里昂城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 145,
+        "high": 145,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按里昂城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 320,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Hôtel-Dieu de Lyon",
+    "photoFile": "Lyon_(52164665586).jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-lyon-fourviere",
+    "cityId": "lyon",
+    "kind": "hotel",
+    "name": "Fourvière Hôtel",
+    "nameEn": "Fourvière Hôtel",
+    "provider": "Fourvière Hôtel",
+    "accommodationType": "hotel",
+    "tagline": "富维耶山",
+    "description": "山坡上的原修道院建筑，以回廊和里昂历史主题营造安静氛围；往返河岸需考虑坡道和交通。",
+    "lat": 45.759,
+    "lng": 4.8168,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "富维耶山",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.fourviere-hotel.com/",
+    "website": "https://www.fourviere-hotel.com/",
+    "bookingUrl": "https://www.fourviere-hotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "fourviere-hotel.com",
+        "url": "https://www.fourviere-hotel.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按里昂城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 75,
+        "high": 75,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按里昂城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 145,
+        "high": 145,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按里昂城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 320,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-lyon-florentine",
+    "cityId": "lyon",
+    "kind": "hotel",
+    "name": "Villa Florentine",
+    "nameEn": "Villa Florentine",
+    "provider": "Villa Florentine",
+    "accommodationType": "hotel",
+    "tagline": "老里昂上方山坡",
+    "description": "旧修道院改造的山坡酒店，从这里出发可探索老里昂；露台、景观与餐厅是否包含在房价内需分别确认。",
+    "lat": 45.7625,
+    "lng": 4.826,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "老里昂上方山坡",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://en.visiterlyon.com/lyon-for-all/accessible-accommodations/villa-florentine",
+    "website": "https://en.visiterlyon.com/lyon-for-all/accessible-accommodations/villa-florentine",
+    "bookingUrl": "https://en.visiterlyon.com/lyon-for-all/accessible-accommodations/villa-florentine",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.visiterlyon.com",
+        "url": "https://en.visiterlyon.com/lyon-for-all/accessible-accommodations/villa-florentine",
+        "kind": "official-tourism",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按里昂城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 75,
+        "high": 75,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按里昂城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 145,
+        "high": 145,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按里昂城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 320,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-lyon-college",
+    "cityId": "lyon",
+    "kind": "hotel",
+    "name": "Collège Hôtel",
+    "nameEn": "Collège Hôtel",
+    "provider": "Collège Hôtel",
+    "accommodationType": "hotel",
+    "tagline": "老里昂圣保罗",
+    "description": "以校园记忆为设计主题的小酒店，位于老里昂街区；适合重视街区步行与设计细节的人。",
+    "lat": 45.7664,
+    "lng": 4.8273,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "老里昂圣保罗",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.college-hotel.com/",
+    "website": "https://www.college-hotel.com/",
+    "bookingUrl": "https://www.college-hotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "college-hotel.com",
+        "url": "https://www.college-hotel.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按里昂城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 75,
+        "high": 75,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按里昂城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 145,
+        "high": 145,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按里昂城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 320,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-lyon-carlton",
+    "cityId": "lyon",
+    "kind": "hotel",
+    "name": "Carlton Hotel Lyon – MGallery Collection",
+    "nameEn": "Carlton Hotel Lyon – MGallery Collection",
+    "provider": "Carlton Hotel Lyon – MGallery Collection",
+    "accommodationType": "hotel",
+    "tagline": "半岛 République",
+    "description": "保留历史外观的市中心酒店，方便探索半岛商业街与河岸；水疗和早餐按所选方案另核。",
+    "lat": 45.7605,
+    "lng": 4.8364,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "半岛 République",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://mgallery.accor.com/en/hotels/2950.html",
+    "website": "https://mgallery.accor.com/en/hotels/2950.html",
+    "bookingUrl": "https://mgallery.accor.com/en/hotels/2950.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "mgallery.accor.com",
+        "url": "https://mgallery.accor.com/en/hotels/2950.html",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按里昂城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 75,
+        "high": 75,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按里昂城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 145,
+        "high": 145,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按里昂城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 320,
+        "high": 320,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "里昂城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-marseille-hotel-dieu",
+    "cityId": "marseille",
+    "kind": "hotel",
+    "name": "InterContinental Marseille – Hotel Dieu",
+    "nameEn": "InterContinental Marseille – Hotel Dieu",
+    "provider": "InterContinental Marseille – Hotel Dieu",
+    "accommodationType": "hotel",
+    "tagline": "旧港与帕尼耶",
+    "description": "由历史医院改造，适合把帕尼耶与旧港作为活动中心；露台与港景房不是所有房型的共同配置。",
+    "lat": 43.2982,
+    "lng": 5.3694,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "旧港与帕尼耶",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://marseille.intercontinental.com/en/",
+    "website": "https://marseille.intercontinental.com/en/",
+    "bookingUrl": "https://marseille.intercontinental.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "marseille.intercontinental.com",
+        "url": "https://marseille.intercontinental.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/InterContinental_Marseille_Hotel_Dieu",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按马赛城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按马赛城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 140,
+        "high": 140,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按马赛城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 310,
+        "high": 310,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "InterContinental Marseille Hotel Dieu",
+    "photoFile": "Marseille_20131005_02.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-marseille-residence",
+    "cityId": "marseille",
+    "kind": "hotel",
+    "name": "La Résidence du Vieux-Port",
+    "nameEn": "La Résidence du Vieux-Port",
+    "provider": "La Résidence du Vieux-Port",
+    "accommodationType": "hotel",
+    "tagline": "旧港北岸",
+    "description": "港池边的复古设计酒店，适合喜欢每天看船与步行进老城的人；不同房型、早餐与停车条件按日期询价。",
+    "lat": 43.2961,
+    "lng": 5.373,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "旧港北岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotel-residence-marseille.com/",
+    "website": "https://www.hotel-residence-marseille.com/",
+    "bookingUrl": "https://www.hotel-residence-marseille.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotel-residence-marseille.com",
+        "url": "https://www.hotel-residence-marseille.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按马赛城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按马赛城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 140,
+        "high": 140,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按马赛城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 310,
+        "high": 310,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-marseille-bords-mer",
+    "cityId": "marseille",
+    "kind": "hotel",
+    "name": "Les Bords de Mer",
+    "nameEn": "Les Bords de Mer",
+    "provider": "Les Bords de Mer",
+    "accommodationType": "hotel",
+    "tagline": "Corniche / Catalans 海滩",
+    "description": "靠近 Catalans 海滩的海边小酒店，现代设计把视线引向地中海；水疗、泳池与餐厅预约分别确认。",
+    "lat": 43.291,
+    "lng": 5.3525,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Corniche / Catalans 海滩",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.lesbordsdemer.fontenille-collection.com/en/",
+    "website": "https://www.lesbordsdemer.fontenille-collection.com/en/",
+    "bookingUrl": "https://www.lesbordsdemer.fontenille-collection.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "lesbordsdemer.fontenille-collection.com",
+        "url": "https://www.lesbordsdemer.fontenille-collection.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按马赛城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按马赛城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 140,
+        "high": 140,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按马赛城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 310,
+        "high": 310,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-marseille-c2",
+    "cityId": "marseille",
+    "kind": "hotel",
+    "name": "Hôtel C2",
+    "nameEn": "Hôtel C2",
+    "provider": "Hôtel C2",
+    "accommodationType": "hotel",
+    "tagline": "市中心第六区",
+    "description": "历史宅邸中结合当代设计的小型酒店，适合想兼顾市区文化与安静住宿的人；配套活动以当期安排为准。",
+    "lat": 43.2872,
+    "lng": 5.3706,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "市中心第六区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.c2-hotel.com/hotel-w1.html",
+    "website": "https://www.c2-hotel.com/hotel-w1.html",
+    "bookingUrl": "https://www.c2-hotel.com/hotel-w1.html",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "c2-hotel.com",
+        "url": "https://www.c2-hotel.com/hotel-w1.html",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按马赛城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按马赛城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 140,
+        "high": 140,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按马赛城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 310,
+        "high": 310,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-marseille-mama",
+    "cityId": "marseille",
+    "kind": "hotel",
+    "name": "Mama Shelter Marseille",
+    "nameEn": "Mama Shelter Marseille",
+    "provider": "Mama Shelter Marseille",
+    "accommodationType": "hotel",
+    "tagline": "Cours Julien 周边",
+    "description": "带餐厅与社交空间的设计酒店，适合探索壁画、小店和音乐场所；活动噪音及房间位置可在预订时咨询。",
+    "lat": 43.2907,
+    "lng": 5.388,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Cours Julien 周边",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://mamashelter.com/marseille/",
+    "website": "https://mamashelter.com/marseille/",
+    "bookingUrl": "https://mamashelter.com/marseille/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "mamashelter.com",
+        "url": "https://mamashelter.com/marseille/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按马赛城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按马赛城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 140,
+        "high": 140,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按马赛城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 310,
+        "high": 310,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "马赛城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-seville-alfonso",
+    "cityId": "seville",
+    "kind": "hotel",
+    "name": "Hotel Alfonso XIII, a Luxury Collection Hotel",
+    "nameEn": "Hotel Alfonso XIII, a Luxury Collection Hotel",
+    "provider": "Hotel Alfonso XIII, a Luxury Collection Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Puerta de Jerez",
+    "description": "以庭院、彩釉和安达卢西亚细节见长的历史酒店，靠近王宫与圣十字区；城市预算不代表这里的可售价格。",
+    "lat": 37.3818,
+    "lng": -5.9931,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Puerta de Jerez",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/svqlc-hotel-alfonso-xiii-a-luxury-collection-hotel-seville/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/svqlc-hotel-alfonso-xiii-a-luxury-collection-hotel-seville/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/svqlc-hotel-alfonso-xiii-a-luxury-collection-hotel-seville/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "marriott.com",
+        "url": "https://www.marriott.com/en-us/hotels/svqlc-hotel-alfonso-xiii-a-luxury-collection-hotel-seville/overview/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hotel_Alfonso_XIII",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按塞维利亚城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按塞维利亚城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按塞维利亚城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Hotel Alfonso XIII",
+    "photoFile": "Hotel_Alfonso_XIII,_Sevilla,_España,_2015-12-06,_DD_80.JPG",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-seville-corral",
+    "cityId": "seville",
+    "kind": "hotel",
+    "name": "Corral del Rey",
+    "nameEn": "Corral del Rey",
+    "provider": "Corral del Rey",
+    "accommodationType": "hotel",
+    "tagline": "Alfalfa 老城",
+    "description": "由老城宅邸改造的小型精品酒店，中央庭院和木石细节是特色；狭窄街巷的抵达方式请提前咨询。",
+    "lat": 37.389,
+    "lng": -5.9901,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Alfalfa 老城",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.corraldelrey.com/es/",
+    "website": "https://www.corraldelrey.com/es/",
+    "bookingUrl": "https://www.corraldelrey.com/es/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "corraldelrey.com",
+        "url": "https://www.corraldelrey.com/es/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按塞维利亚城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按塞维利亚城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按塞维利亚城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-seville-juderia",
+    "cityId": "seville",
+    "kind": "hotel",
+    "name": "Las Casas de la Judería Sevilla",
+    "nameEn": "Las Casas de la Judería Sevilla",
+    "provider": "Las Casas de la Judería Sevilla",
+    "accommodationType": "hotel",
+    "tagline": "圣十字区",
+    "description": "多幢传统房屋以庭院和通道相连，住宿本身也像一段小巷漫游；台阶与房间位置差异较大，按个人需要确认。",
+    "lat": 37.3859,
+    "lng": -5.9876,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "圣十字区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.lascasasdelajuderiasevilla.com/en/",
+    "website": "https://www.lascasasdelajuderiasevilla.com/en/",
+    "bookingUrl": "https://www.lascasasdelajuderiasevilla.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "lascasasdelajuderiasevilla.com",
+        "url": "https://www.lascasasdelajuderiasevilla.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按塞维利亚城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按塞维利亚城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按塞维利亚城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-seville-inglaterra",
+    "cityId": "seville",
+    "kind": "hotel",
+    "name": "Hotel Inglaterra",
+    "nameEn": "Hotel Inglaterra",
+    "provider": "Hotel Inglaterra",
+    "accommodationType": "hotel",
+    "tagline": "Plaza Nueva",
+    "description": "新广场旁的历史酒店，适合以市中心作为出发点；屋顶开放、早餐与停车需要看当期服务安排。",
+    "lat": 37.3881,
+    "lng": -5.9966,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Plaza Nueva",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelinglaterra.es/",
+    "website": "https://www.hotelinglaterra.es/",
+    "bookingUrl": "https://www.hotelinglaterra.es/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelinglaterra.es",
+        "url": "https://www.hotelinglaterra.es/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按塞维利亚城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按塞维利亚城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按塞维利亚城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-seville-becquer",
+    "cityId": "seville",
+    "kind": "hotel",
+    "name": "Hotel Bécquer",
+    "nameEn": "Hotel Bécquer",
+    "provider": "Hotel Bécquer",
+    "accommodationType": "hotel",
+    "tagline": "老城西侧近河岸",
+    "description": "家庭经营传统延续的市中心酒店，方便跨河去特里亚纳或走进老城；泳池、露台和季节活动按日期确认。",
+    "lat": 37.388,
+    "lng": -5.9996,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "老城西侧近河岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelbecquer.com/en/",
+    "website": "https://www.hotelbecquer.com/en/",
+    "bookingUrl": "https://www.hotelbecquer.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelbecquer.com",
+        "url": "https://www.hotelbecquer.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按塞维利亚城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按塞维利亚城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 135,
+        "high": 135,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按塞维利亚城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 300,
+        "high": 300,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "塞维利亚城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-granada-alhambra-palace",
+    "cityId": "granada",
+    "kind": "hotel",
+    "name": "Alhambra Palace Hotel",
+    "nameEn": "Alhambra Palace Hotel",
+    "provider": "Alhambra Palace Hotel",
+    "accommodationType": "hotel",
+    "tagline": "阿尔罕布拉宫山坡",
+    "description": "具有新摩尔风格的山坡历史酒店，适合围绕宫城慢游；住宿不自动包含阿尔罕布拉宫门票。",
+    "lat": 37.1725,
+    "lng": -3.5881,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "阿尔罕布拉宫山坡",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://turismo.granada.org/es/empresas/alojamientos/alhambra-palace",
+    "website": "https://turismo.granada.org/es/empresas/alojamientos/alhambra-palace",
+    "bookingUrl": "https://turismo.granada.org/es/empresas/alojamientos/alhambra-palace",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "turismo.granada.org",
+        "url": "https://turismo.granada.org/es/empresas/alojamientos/alhambra-palace",
+        "kind": "official-tourism",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按格拉纳达城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 60,
+        "high": 60,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按格拉纳达城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按格拉纳达城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 270,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-granada-parador",
+    "cityId": "granada",
+    "kind": "hotel",
+    "name": "Parador de Granada",
+    "nameEn": "Parador de Granada",
+    "provider": "Parador de Granada",
+    "accommodationType": "hotel",
+    "tagline": "阿尔罕布拉宫园区",
+    "description": "位于宫城园区的历史建筑住宿，抵达与车辆通行应按酒店指示；宫殿参观仍需单独确认门票与时段。",
+    "lat": 37.1764,
+    "lng": -3.5855,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "阿尔罕布拉宫园区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://paradores.es/en/parador-de-granada?language=en",
+    "website": "https://paradores.es/en/parador-de-granada?language=en",
+    "bookingUrl": "https://paradores.es/en/parador-de-granada?language=en",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "paradores.es",
+        "url": "https://paradores.es/en/parador-de-granada?language=en",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Palace_of_the_Convent_of_San_Francisco",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按格拉纳达城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 60,
+        "high": 60,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按格拉纳达城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按格拉纳达城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 270,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Palace of the Convent of San Francisco",
+    "photoFile": "Convent_of_San_Francisco_01.JPG",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-granada-santa-paula",
+    "cityId": "granada",
+    "kind": "hotel",
+    "name": "Hotel Palacio de Santa Paula, Autograph Collection",
+    "nameEn": "Hotel Palacio de Santa Paula, Autograph Collection",
+    "provider": "Hotel Palacio de Santa Paula, Autograph Collection",
+    "accommodationType": "hotel",
+    "tagline": "Gran Vía",
+    "description": "由历史修道院等建筑改造的市中心酒店，适合兼顾教堂、餐饮与老城步行；不同房型的布局会有差异。",
+    "lat": 37.1805,
+    "lng": -3.5988,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Gran Vía",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/grxpa-hotel-palacio-de-santa-paula-autograph-collection/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/grxpa-hotel-palacio-de-santa-paula-autograph-collection/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/grxpa-hotel-palacio-de-santa-paula-autograph-collection/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "marriott.com",
+        "url": "https://www.marriott.com/en-us/hotels/grxpa-hotel-palacio-de-santa-paula-autograph-collection/overview/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按格拉纳达城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 60,
+        "high": 60,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按格拉纳达城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按格拉纳达城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 270,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-granada-casa-morisca",
+    "cityId": "granada",
+    "kind": "hotel",
+    "name": "Hotel Casa Morisca",
+    "nameEn": "Hotel Casa Morisca",
+    "provider": "Hotel Casa Morisca",
+    "accommodationType": "hotel",
+    "tagline": "阿尔拜辛下段",
+    "description": "庭院式历史住宅中的小酒店，靠近达罗河谷与悲伤者步道；适合把石巷漫步和阿尔拜辛山坡留在住宿周边。",
+    "lat": 37.1792,
+    "lng": -3.5856,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "阿尔拜辛下段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelcasamorisca.com/",
+    "website": "https://www.hotelcasamorisca.com/",
+    "bookingUrl": "https://www.hotelcasamorisca.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelcasamorisca.com",
+        "url": "https://www.hotelcasamorisca.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按格拉纳达城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 60,
+        "high": 60,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按格拉纳达城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按格拉纳达城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 270,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-granada-casa1800",
+    "cityId": "granada",
+    "kind": "hotel",
+    "name": "Hotel Casa 1800 Granada",
+    "nameEn": "Hotel Casa 1800 Granada",
+    "provider": "Hotel Casa 1800 Granada",
+    "accommodationType": "hotel",
+    "tagline": "阿尔拜辛下段",
+    "description": "以庭院和历史房屋细节为特色，便于探索河谷与老城；所谓宫景需看具体房型，不能默认每间都有。",
+    "lat": 37.1779,
+    "lng": -3.5944,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "阿尔拜辛下段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelcasa1800granada.com/",
+    "website": "https://www.hotelcasa1800granada.com/",
+    "bookingUrl": "https://www.hotelcasa1800granada.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelcasa1800granada.com",
+        "url": "https://www.hotelcasa1800granada.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按格拉纳达城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 60,
+        "high": 60,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按格拉纳达城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 120,
+        "high": 120,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按格拉纳达城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 270,
+        "high": 270,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "格拉纳达城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-porto-yeatman",
+    "cityId": "porto",
+    "kind": "hotel",
+    "name": "The Yeatman",
+    "nameEn": "The Yeatman",
+    "provider": "The Yeatman",
+    "accommodationType": "hotel",
+    "tagline": "加亚酒窖区",
+    "description": "河对岸加亚的葡萄酒主题酒店，适合把酒窖文化与休闲连在一起；去波尔图中心需要跨河时间。",
+    "lat": 41.1331,
+    "lng": -8.6138,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "加亚酒窖区",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://visitporto.travel/en-GB/poi/5cd04b52f979e000011cf7c2",
+    "website": "https://visitporto.travel/en-GB/poi/5cd04b52f979e000011cf7c2",
+    "bookingUrl": "https://visitporto.travel/en-GB/poi/5cd04b52f979e000011cf7c2",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "visitporto.travel",
+        "url": "https://visitporto.travel/en-GB/poi/5cd04b52f979e000011cf7c2",
+        "kind": "official-tourism",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波尔图城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波尔图城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波尔图城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 290,
+        "high": 290,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-porto-torel",
+    "cityId": "porto",
+    "kind": "hotel",
+    "name": "Torel Avantgarde",
+    "nameEn": "Torel Avantgarde",
+    "provider": "Torel Avantgarde",
+    "accommodationType": "hotel",
+    "tagline": "Massarelos / Restauração",
+    "description": "艺术主题的设计酒店，以不同创作者为房间灵感，适合喜欢当代视觉风格的人；景观与水疗使用条件按房型核对。",
+    "lat": 41.1466,
+    "lng": -8.6242,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Massarelos / Restauração",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.torelavantgarde.com/",
+    "website": "https://www.torelavantgarde.com/",
+    "bookingUrl": "https://www.torelavantgarde.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "torelavantgarde.com",
+        "url": "https://www.torelavantgarde.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波尔图城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波尔图城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波尔图城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 290,
+        "high": 290,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-porto-cardosas",
+    "cityId": "porto",
+    "kind": "hotel",
+    "name": "InterContinental Porto – Palácio das Cardosas",
+    "nameEn": "InterContinental Porto – Palácio das Cardosas",
+    "provider": "InterContinental Porto – Palácio das Cardosas",
+    "accommodationType": "hotel",
+    "tagline": "Liberdade / Aliados",
+    "description": "由历史建筑改造的中心酒店，方便步行去圣本笃与商业街；交通、早餐与附加服务仍需按日期报价。",
+    "lat": 41.1459,
+    "lng": -8.6118,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Liberdade / Aliados",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.ihg.com/intercontinental/hotels/us/en/porto/prtha/hoteldetail",
+    "website": "https://www.ihg.com/intercontinental/hotels/us/en/porto/prtha/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/intercontinental/hotels/us/en/porto/prtha/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "ihg.com",
+        "url": "https://www.ihg.com/intercontinental/hotels/us/en/porto/prtha/hoteldetail",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "pt.wikipedia.org",
+        "url": "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_das_Cardosas",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波尔图城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波尔图城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波尔图城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 290,
+        "high": 290,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null,
+    "photoFile": "Palacio_Cardosas_(Porto).jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "stay-euro-porto-pestana",
+    "cityId": "porto",
+    "kind": "hotel",
+    "name": "Pestana Vintage Porto",
+    "nameEn": "Pestana Vintage Porto",
+    "provider": "Pestana Vintage Porto",
+    "accommodationType": "hotel",
+    "tagline": "里贝拉河岸",
+    "description": "沿河历史房屋改造的酒店，适合喜欢里贝拉早晚氛围的人；河景、阳台与家庭房请逐项比较。",
+    "lat": 41.1405,
+    "lng": -8.6134,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "里贝拉河岸",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.pestana.com/en/hotel/pestana-porto",
+    "website": "https://www.pestana.com/en/hotel/pestana-porto",
+    "bookingUrl": "https://www.pestana.com/en/hotel/pestana-porto",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "pestana.com",
+        "url": "https://www.pestana.com/en/hotel/pestana-porto",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波尔图城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波尔图城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波尔图城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 290,
+        "high": 290,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-porto-gallery",
+    "cityId": "porto",
+    "kind": "hotel",
+    "name": "Gallery Hostel",
+    "nameEn": "Gallery Hostel",
+    "provider": "Gallery Hostel",
+    "accommodationType": "hostel",
+    "tagline": "Miguel Bombarda 画廊街",
+    "description": "旧建筑中的艺术主题青旅，与画廊街气质相近；比较床位和私人房时注意计价单位，本应用预留的是整间一晚预算。",
+    "lat": 41.1497,
+    "lng": -8.6205,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Miguel Bombarda 画廊街",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.gallery-hostel.com/en/gallery-hostel-en",
+    "website": "https://www.gallery-hostel.com/en/gallery-hostel-en",
+    "bookingUrl": "https://www.gallery-hostel.com/en/gallery-hostel-en",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "gallery-hostel.com",
+        "url": "https://www.gallery-hostel.com/en/gallery-hostel-en",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波尔图城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 65,
+        "high": 65,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波尔图城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 130,
+        "high": 130,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波尔图城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 290,
+        "high": 290,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波尔图城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-paris-henriette",
+    "cityId": "paris",
+    "kind": "hotel",
+    "name": "Hôtel Henriette",
+    "nameEn": "Hôtel Henriette",
+    "provider": "Hôtel Henriette",
+    "accommodationType": "hotel",
+    "tagline": "Gobelins / Mouffetard",
+    "description": "位于左岸小街的设计酒店，适合把早餐、庭院和附近街区当作旅行的一部分；无障碍条件应直接向酒店确认。",
+    "lat": 48.8349,
+    "lng": 2.3528,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Gobelins / Mouffetard",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelhenriette.com/",
+    "website": "https://www.hotelhenriette.com/",
+    "bookingUrl": "https://www.hotelhenriette.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelhenriette.com",
+        "url": "https://www.hotelhenriette.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按巴黎城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 85,
+        "high": 85,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按巴黎城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按巴黎城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-paris-national-arts",
+    "cityId": "paris",
+    "kind": "hotel",
+    "name": "Hôtel National des Arts & Métiers",
+    "nameEn": "Hôtel National des Arts & Métiers",
+    "provider": "Hôtel National des Arts & Métiers",
+    "accommodationType": "hotel",
+    "tagline": "Arts et Métiers",
+    "description": "历史立面后是强调石材、木材与手作细节的当代空间，方便探索玛黑北部；屋顶与餐厅开放并非房价承诺。",
+    "lat": 48.8665,
+    "lng": 2.3539,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Arts et Métiers",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelnational.paris/en/",
+    "website": "https://www.hotelnational.paris/en/",
+    "bookingUrl": "https://www.hotelnational.paris/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelnational.paris",
+        "url": "https://www.hotelnational.paris/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按巴黎城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 85,
+        "high": 85,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按巴黎城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 180,
+        "high": 180,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按巴黎城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 650,
+        "high": 650,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴黎城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-barcelona-casa-bonay",
+    "cityId": "barcelona",
+    "kind": "hotel",
+    "name": "Casa Bonay",
+    "nameEn": "Casa Bonay",
+    "provider": "Casa Bonay",
+    "accommodationType": "hotel",
+    "tagline": "扩展区 Gran Via",
+    "description": "把设计住宿、咖啡与餐饮聚在一起的街区酒店，适合喜欢停下来感受城市生活的人；露台与用餐服务按所选方案确认。",
+    "lat": 41.3949,
+    "lng": 2.1751,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "扩展区 Gran Via",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://casabonay.com/",
+    "website": "https://casabonay.com/",
+    "bookingUrl": "https://casabonay.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "casabonay.com",
+        "url": "https://casabonay.com/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按巴塞罗那城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按巴塞罗那城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按巴塞罗那城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 500,
+        "high": 500,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  },
+  {
+    "id": "stay-euro-barcelona-praktik-bakery",
+    "cityId": "barcelona",
+    "kind": "hotel",
+    "name": "Praktik Bakery",
+    "nameEn": "Praktik Bakery",
+    "provider": "Praktik Bakery",
+    "accommodationType": "hotel",
+    "tagline": "扩展区 Provença",
+    "description": "拥有手工面包房的酒店，从早餐就能开始认识街区；部分房间朝内，采光、安静度与早餐包含情况按房型比较。",
+    "lat": 41.3977,
+    "lng": 2.1645,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "扩展区 Provença",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelpraktikbakery.com/en/",
+    "website": "https://www.hotelpraktikbakery.com/en/",
+    "bookingUrl": "https://www.hotelpraktikbakery.com/en/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "sourceReferences": [
+      {
+        "name": "hotelpraktikbakery.com",
+        "url": "https://www.hotelpraktikbakery.com/en/",
+        "kind": "official-hotel",
+        "scope": "property-identity-and-location",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "住宿官网或旅游机构资料用于确认物业与位置，没有查询特定日期可售房型、房态或成交价格。",
+    "availabilityNote": "金额为城市每间每晚预算占位，不是这家住宿报价，也不代表能按该档入住；床位、整间房、税费和餐饮须另核。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "取得实际含税报价后替换城市预算",
+      "确认取消条款、早餐、城市税与接送"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按巴塞罗那城市经济档预留一间一晚，非此物业可售房型或报价。",
+        "low": 70,
+        "high": 70,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按巴塞罗那城市舒适档预留一间一晚，非此物业可售房型或报价。",
+        "low": 160,
+        "high": 160,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按巴塞罗那城市高端档预留一间一晚，非此物业可售房型或报价。",
+        "low": 500,
+        "high": 500,
+        "currency": "EUR",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "巴塞罗那城市住宿编辑预算；非该住宿报价",
+        "note": "该预算可能不适用于此住宿，请按实际房态与总价调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的城市税、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": null
+  }
+]

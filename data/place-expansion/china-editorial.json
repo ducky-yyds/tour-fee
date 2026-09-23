@@ -1,0 +1,651 @@
+[
+  {
+    "cityId": "chongqing",
+    "attractions": [
+      {
+        "id": "chongqing-liziba-view",
+        "name": "李子坝单轨穿楼观景",
+        "nameEn": "Liziba Station Viewpoint",
+        "lat": 29.5539,
+        "lng": 106.5375,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1,
+        "durationRange": {
+          "min": 45,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市交通体验",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从公共观景区域看单轨列车穿楼，等一两班即可；乘车是正常公共交通消费，不需购买所谓专属观景通道。",
+        "features": [
+          "城市交通体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.ichongqing.info/attraction/liziba-more-than-a-subway-station/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.ichongqing.info/attraction/liziba-more-than-a-subway-station/"
+        },
+        "sourceReferences": [
+          {
+            "name": "iChongqing 重庆国际传播",
+            "url": "https://www.ichongqing.info/attraction/liziba-more-than-a-subway-station/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Liziba station",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ichongqing.info/attraction/liziba-more-than-a-subway-station/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "chongqing-huangjueping-art",
+        "name": "黄桷坪涂鸦街",
+        "nameEn": "Huangjueping Graffiti Street",
+        "lat": 29.4868,
+        "lng": 106.5434,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术街区",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "看看街墙与老社区中的绘画痕迹，再沿公开街巷慢走；尊重居民生活，川美校园是否开放需单独确认。",
+        "features": [
+          "艺术街区",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.ichongqing.info/2022/06/29/the-longest-graffiti-street-consumption-series/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.ichongqing.info/2022/06/29/the-longest-graffiti-street-consumption-series/"
+        },
+        "sourceReferences": [
+          {
+            "name": "iChongqing 重庆国际传播",
+            "url": "https://www.ichongqing.info/2022/06/29/the-longest-graffiti-street-consumption-series/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ichongqing.info/2022/06/29/the-longest-graffiti-street-consumption-series/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "chongqing-jiaotong-tea",
+        "name": "交通茶馆盖碗茶",
+        "nameEn": "Jiaotong Teahouse",
+        "lat": 29.486,
+        "lng": 106.5437,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "在地文化",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "找个位子喝杯盖碗茶，听周围聊天、看老茶馆的木桌和光线；茶位按当日菜单付费，摄影先征得被拍者同意。",
+        "features": [
+          "在地文化",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.ichongqing.info/2020/07/21/jiaotong-teahouse-chongqing-delicacies-animation-series/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.ichongqing.info/2020/07/21/jiaotong-teahouse-chongqing-delicacies-animation-series/"
+        },
+        "sourceReferences": [
+          {
+            "name": "iChongqing 重庆国际传播",
+            "url": "https://www.ichongqing.info/2020/07/21/jiaotong-teahouse-chongqing-delicacies-animation-series/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 15,
+          "high": 50,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ichongqing.info/2020/07/21/jiaotong-teahouse-chongqing-delicacies-animation-series/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "人工预算范围，不是实时售价；票种、交通、讲解与附加项目的包含范围须在购票时确认。"
+        }
+      },
+      {
+        "id": "chongqing-beicang",
+        "name": "北仓文创与小店",
+        "nameEn": "Beicang Creative District",
+        "lat": 29.5765,
+        "lng": 106.5342,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "创意街区",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在旧纺织仓库改造的街区看展览、小店和阅读空间，适合与观音桥分段慢逛；室内消费与活动票另选。",
+        "features": [
+          "创意街区",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.ichongqing.info/2021/03/31/chongqing-not-just-a-social-media-favorite-but-also-an-artistic-magnet/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.ichongqing.info/2021/03/31/chongqing-not-just-a-social-media-favorite-but-also-an-artistic-magnet/"
+        },
+        "sourceReferences": [
+          {
+            "name": "iChongqing 重庆国际传播",
+            "url": "https://www.ichongqing.info/2021/03/31/chongqing-not-just-a-social-media-favorite-but-also-an-artistic-magnet/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ichongqing.info/2021/03/31/chongqing-not-just-a-social-media-favorite-but-also-an-artistic-magnet/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "chongqing-guanyinqiao",
+        "name": "观音桥商圈逛吃",
+        "nameEn": "Guanyinqiao Commercial Area",
+        "lat": 29.574,
+        "lng": 106.532,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从公共步行区到商场与小食街，看看江北日常商业生活；选一餐或一间店即可，不把购物当作必须完成的任务。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://go.trip.com/zh-tw/china/chongqing.html",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "chongqing-xiahaoli",
+        "name": "下浩里坡道小巷",
+        "nameEn": "Xiahaoli",
+        "lat": 29.5482,
+        "lng": 106.591,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "与龙门浩相邻却可独立留一段时间，在修缮后的坡道巷弄喝茶看店；若已安排龙门浩长线，可二选一避免重复。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.trip.com/moments/poi-longmenhaolao-street-31662389",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.trip.com/moments/poi-longmenhaolao-street-31662389"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://www.trip.com/moments/poi-longmenhaolao-street-31662389",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.trip.com/moments/poi-longmenhaolao-street-31662389",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      }
+    ]
+  },
+  {
+    "cityId": "jinan",
+    "attractions": [
+      {
+        "id": "jinan-hongjialou",
+        "name": "洪家楼教堂外观与广场",
+        "nameEn": "Hongjialou Cathedral",
+        "lat": 36.689,
+        "lng": 117.0618,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "建筑体验",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在广场看哥特式尖塔与砖石细节；只按外观参访规划，内部开放、宗教礼仪和摄影规则另行确认。",
+        "features": [
+          "建筑体验",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://jnwl.jinan.gov.cn/col/col117280/art/2026/art_1706d5615c584ea0b036eca08efa02ca.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://jnwl.jinan.gov.cn/col/col117280/art/2026/art_1706d5615c584ea0b036eca08efa02ca.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "济南市文化和旅游局",
+            "url": "https://jnwl.jinan.gov.cn/col/col117280/art/2026/art_1706d5615c584ea0b036eca08efa02ca.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Sacred Heart Cathedral, Jinan",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://jnwl.jinan.gov.cn/col/col117280/art/2026/art_1706d5615c584ea0b036eca08efa02ca.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        },
+        "photoFile": "Cathedral of the Sacred Heart, Jinan.jpg",
+        "photoCheckedAt": "2026-09-23",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Cathedral_of_the_Sacred_Heart%2C_Jinan.jpg"
+      },
+      {
+        "id": "jinan-laoshangbu",
+        "name": "老商埠经纬路散步",
+        "nameEn": "Jinan Old Commercial Port",
+        "lat": 36.6638,
+        "lng": 116.995,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "沿经纬路找旧商号、里院和新小店，理解泉城之外的近代商埠面貌；不进入私人院落，展馆可另选。",
+        "features": [
+          "街区漫游",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://mf.jinan.gov.cn/col119962/art/2026/art_119962_4780824.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://mf.jinan.gov.cn/col119962/art/2026/art_119962_4780824.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "济南市民营经济发展局",
+            "url": "https://mf.jinan.gov.cn/col119962/art/2026/art_119962_4780824.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "noArticle": true,
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://mf.jinan.gov.cn/col119962/art/2026/art_119962_4780824.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "jinan-zhongshan-park",
+        "name": "中山公园林荫歇脚",
+        "nameEn": "Zhongshan Park Jinan",
+        "lat": 36.6608,
+        "lng": 116.9824,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市日常",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在老商埠附近的林荫道和公共休息区域放慢脚步，适合逛街之后小憩；季节花展及游乐消费另核。",
+        "features": [
+          "城市日常",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://www.jinan.gov.cn/jpolicy_file/filedata/2026/02/07/101ca1034c6145d0b8534cff8ec737ae.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.jinan.gov.cn/jpolicy_file/filedata/2026/02/07/101ca1034c6145d0b8534cff8ec737ae.pdf"
+        },
+        "sourceReferences": [
+          {
+            "name": "济南市政府",
+            "url": "https://www.jinan.gov.cn/jpolicy_file/filedata/2026/02/07/101ca1034c6145d0b8534cff8ec737ae.pdf",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Zhongshan Park (Jinan)",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.jinan.gov.cn/jpolicy_file/filedata/2026/02/07/101ca1034c6145d0b8534cff8ec737ae.pdf",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "jinan-quancheng-park",
+        "name": "泉城公园花木散步",
+        "nameEn": "Quancheng Park",
+        "lat": 36.6417,
+        "lng": 117.025,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山水户外",
+        "activityType": "nature",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "从开放园路看季节花木和城市绿地，选一处树荫休息；花期取决于天气，草坪活动遵守现场分区。",
+        "features": [
+          "山水户外",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://jnly.jinan.gov.cn/col38938/art/2024/art_38938_4774669.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://jnly.jinan.gov.cn/col38938/art/2024/art_38938_4774669.html"
+        },
+        "sourceReferences": [
+          {
+            "name": "济南市园林和林业绿化局",
+            "url": "https://jnly.jinan.gov.cn/col38938/art/2024/art_38938_4774669.html",
+            "kind": "official-tourism",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Quancheng Park",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://jnly.jinan.gov.cn/col38938/art/2024/art_38938_4774669.html",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "jinan-huashan",
+        "name": "华山湖环湖慢走",
+        "nameEn": "Huashan Lake Jinan",
+        "lat": 36.723,
+        "lng": 117.068,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "江湖散步",
+        "activityType": "nature",
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "priority": 48,
+        "description": "选择一段湖边公共步道看华山山形，不强求环完整个湖；地处主城东北，另留市内接驳时间。",
+        "features": [
+          "江湖散步",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Hua Hill",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      },
+      {
+        "id": "jinan-shandong-art",
+        "name": "山东美术馆",
+        "nameEn": "Shandong Art Museum",
+        "lat": 36.656,
+        "lng": 117.101,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "参考坐标用于片区规划，景区入口、接驳站和预约集合点须按官方导航核对。",
+        "durationHours": 2,
+        "durationRange": {
+          "min": 75,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "leisure",
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "priority": 72,
+        "description": "在省级美术馆挑一两个当期展览慢看，可与邻近山东博物馆择一或分日；预约、闭馆日与特展费用另核。",
+        "features": [
+          "博物馆",
+          "按兴趣停留"
+        ],
+        "bestTime": "按开放日、预约、天气与个人体力调整；所列用时不包含城际抵达",
+        "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/"
+        },
+        "sourceReferences": [
+          {
+            "name": "Trip.com",
+            "url": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+            "kind": "travel-guide",
+            "scope": "destination-content",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "article": "Shandong Art Museum",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://us.trip.com/travel-guide/guidebook/jinan-8289/",
+          "sourceName": "内容来源与编辑预算；非当日售票报价",
+          "budgetUpdatedAt": "2026-09-23",
+          "note": "所述公共空间按零门票预留，购物、餐饮、特展和交通另计；免费不代表免预约。"
+        }
+      }
+    ]
+  }
+]

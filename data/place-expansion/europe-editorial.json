@@ -1,0 +1,729 @@
+[
+  {
+    "cityId": "paris",
+    "attractions": [
+      {
+        "id": "paris-editorial-canal-martin",
+        "name": "圣马丁运河桥边慢走",
+        "nameEn": "Canal Saint-Martin",
+        "article": null,
+        "lat": 48.8717,
+        "lng": 2.3636,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "运河生活",
+        "activityType": "leisure",
+        "priority": 65,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从铁桥与船闸一路看向街边小店，买一份简餐在河边坐坐；游船是另外的可选消费。",
+        "features": [
+          "运河生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://parisjetaime.com/eng/article/cosmopolitan-paris-a920",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "parisjetaime.com",
+            "url": "https://parisjetaime.com/eng/article/cosmopolitan-paris-a920",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Canal_Saint-Martin",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://parisjetaime.com/eng/article/cosmopolitan-paris-a920"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://parisjetaime.com/eng/article/cosmopolitan-paris-a920",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "2022-04-14-Passerelle_de_la_Grange-aux-Belles-8583.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "paris-editorial-buttes-chaumont",
+        "name": "肖蒙山丘公园休息",
+        "nameEn": "Parc des Buttes Chaumont",
+        "article": "Parc des Buttes Chaumont",
+        "lat": 48.8809,
+        "lng": 2.3828,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "城市公园",
+        "activityType": "leisure",
+        "priority": 64,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在起伏绿地与树荫间放慢节奏，适合轻松午后；山崖、桥梁或步道维修时只走当日开放区域。",
+        "features": [
+          "城市公园",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://parisjetaime.com/eng/article/activities-paris-outdoors-a1092",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "parisjetaime.com",
+            "url": "https://parisjetaime.com/eng/article/activities-paris-outdoors-a1092",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Parc_des_Buttes_Chaumont",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://parisjetaime.com/eng/article/activities-paris-outdoors-a1092"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://parisjetaime.com/eng/article/activities-paris-outdoors-a1092",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Passerelle_suspendue,_Buttes_Chaumont,_Paris_14_April_2014.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "paris-editorial-belleville",
+        "name": "美丽城街头艺术与眺望",
+        "nameEn": "Belleville, Paris",
+        "article": "Belleville, Paris",
+        "lat": 48.8721,
+        "lng": 2.3848,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "生活街区",
+        "activityType": "leisure",
+        "priority": 63,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从杂货店、小画廊走向山坡公园，感受多元饮食与街头艺术；壁画不断变化，不保证固定作品仍在。",
+        "features": [
+          "生活街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.timeout.com/paris/en/belleville-area-guide",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "timeout.com",
+            "url": "https://www.timeout.com/paris/en/belleville-area-guide",
+            "kind": "travel-editorial",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Belleville%2C_Paris",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.timeout.com/paris/en/belleville-area-guide"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.timeout.com/paris/en/belleville-area-guide",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Vue_de_Notre-Dame-de-la-Croix_Ménilmontant_depuis_le_2ème_étage_de_22_Rue_Piat,_Belleville.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "paris-editorial-coulee-verte",
+        "name": "勒内·杜蒙高架绿廊",
+        "nameEn": "Coulée verte René-Dumont",
+        "article": "Coulée verte René-Dumont",
+        "lat": 48.8482,
+        "lng": 2.3752,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "城市绿道",
+        "activityType": "leisure",
+        "priority": 62,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从巴士底附近选择一段旧铁路花园，在树木和街区屋顶间步行；按入口与开放时间决定长度。",
+        "features": [
+          "城市绿道",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://parisjetaime.com/eng/things-to-do-in-paris/walks-in-paris-i038",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "parisjetaime.com",
+            "url": "https://parisjetaime.com/eng/things-to-do-in-paris/walks-in-paris-i038",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Coul%C3%A9e_verte_Ren%C3%A9-Dumont",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://parisjetaime.com/eng/things-to-do-in-paris/walks-in-paris-i038"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://parisjetaime.com/eng/things-to-do-in-paris/walks-in-paris-i038",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Coulée_Verte_René-Dumont_@_Paris_(28647219163).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "paris-editorial-petite-ceinture",
+        "name": "小环线铁路第十五区绿道",
+        "nameEn": "Petite Ceinture",
+        "article": null,
+        "lat": 48.8358,
+        "lng": 2.2925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "铁路绿道",
+        "activityType": "leisure",
+        "priority": 61,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿已向公众开放的旧铁路段看轨道与自然植被，只从正式入口进入；不进入封闭隧道和作业区。",
+        "features": [
+          "铁路绿道",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://parisjetaime.com/eng/culture/la-petite-ceinture-p1047",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "parisjetaime.com",
+            "url": "https://parisjetaime.com/eng/culture/la-petite-ceinture-p1047",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://parisjetaime.com/eng/culture/la-petite-ceinture-p1047"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://parisjetaime.com/eng/culture/la-petite-ceinture-p1047",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "paris-editorial-butte-cailles",
+        "name": "鹌鹑丘小巷与街角涂鸦",
+        "nameEn": "Butte-aux-Cailles",
+        "article": "Butte-aux-Cailles",
+        "lat": 48.8274,
+        "lng": 2.3504,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "生活街区",
+        "activityType": "leisure",
+        "priority": 60,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "离开宽阔大道，走进有低层房屋和小酒馆的坡上街区，适合晚饭前轻松散步并留意墙上的小创作。",
+        "features": [
+          "生活街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.iledefrance-mobilites.fr/en/top-6-quartiers-caractere-paris",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "iledefrance-mobilites.fr",
+            "url": "https://www.iledefrance-mobilites.fr/en/top-6-quartiers-caractere-paris",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Butte-aux-Cailles",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.iledefrance-mobilites.fr/en/top-6-quartiers-caractere-paris"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.iledefrance-mobilites.fr/en/top-6-quartiers-caractere-paris",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "P1010326_Paris_XIII_Butte-aux-Cailles_Carrefour_rues_de_la_BaC_et_des_5_diamants_reductwk.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      }
+    ]
+  },
+  {
+    "cityId": "barcelona",
+    "attractions": [
+      {
+        "id": "barcelona-editorial-poblenou",
+        "name": "波布雷诺街区与兰布拉生活",
+        "nameEn": "El Poblenou",
+        "article": "El Poblenou",
+        "lat": 41.4032,
+        "lng": 2.2012,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "生活街区",
+        "activityType": "leisure",
+        "priority": 65,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿街区林荫路看旧工业建筑、咖啡馆与日常小店，可按体力往海边延伸，形成一段轻松探索。",
+        "features": [
+          "生活街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "bid.barcelonaturisme.com",
+            "url": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/El_Poblenou",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "PereIV-HabitatSky.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "barcelona-editorial-sant-antoni",
+        "name": "圣安东尼市场与周边小馆",
+        "nameEn": "Sant Antoni Market",
+        "article": null,
+        "lat": 41.378,
+        "lng": 2.1619,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 64,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在市场看日常食材，再走到附近咖啡馆或小酒馆；周日旧书摊与平日食品市场是不同安排。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.timeout.es/barcelona/es/restaurantes/los-mejores-restaurantes-y-bares-de-sant-antoni",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "timeout.es",
+            "url": "https://www.timeout.es/barcelona/es/restaurantes/los-mejores-restaurantes-y-bares-de-sant-antoni",
+            "kind": "travel-editorial",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "es.wikipedia.org",
+            "url": "https://es.wikipedia.org/wiki/Mercado_de_San_Antonio_%28Barcelona%29",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.timeout.es/barcelona/es/restaurantes/los-mejores-restaurantes-y-bares-de-sant-antoni"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.timeout.es/barcelona/es/restaurantes/los-mejores-restaurantes-y-bares-de-sant-antoni",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Mercat_de_Sant_Antoni,_Barcelona.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "barcelona-editorial-poble-sec",
+        "name": "波布莱塞克与 Blai 街晚餐散步",
+        "nameEn": "El Poble-sec",
+        "article": "El Poble-sec",
+        "lat": 41.3731,
+        "lng": 2.1657,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "生活街区",
+        "activityType": "leisure",
+        "priority": 63,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿山脚街区的小广场与餐馆寻找晚餐灵感，可以只逛或点几份小食，消费计入当天餐饮。",
+        "features": [
+          "生活街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.barcelonaturisme.com/files/11316-28-arxiuENG/Agenda_Visit_Barcelona_September_EN.pdf",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "barcelonaturisme.com",
+            "url": "https://www.barcelonaturisme.com/files/11316-28-arxiuENG/Agenda_Visit_Barcelona_September_EN.pdf",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/El_Poble-sec%2C_Barcelona",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.barcelonaturisme.com/files/11316-28-arxiuENG/Agenda_Visit_Barcelona_September_EN.pdf"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.barcelonaturisme.com/files/11316-28-arxiuENG/Agenda_Visit_Barcelona_September_EN.pdf",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Poble_Sec_capvespre.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "barcelona-editorial-horta",
+        "name": "奥尔塔迷宫花园",
+        "nameEn": "Parc del Laberint d'Horta",
+        "article": "Parc del Laberint d'Horta",
+        "lat": 41.44,
+        "lng": 2.1456,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "花园体验",
+        "activityType": "nature",
+        "priority": 42,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "去城市北侧看历史花园与树篱迷宫，计入地铁和上坡步行；门票、维护封闭及免票日期应再确认。",
+        "features": [
+          "花园体验",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.barcelonaturisme.com/en/home",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "barcelonaturisme.com",
+            "url": "https://www.barcelonaturisme.com/en/home",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Parc_del_Laberint_d%27Horta",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.barcelonaturisme.com/en/home"
+        },
+        "price": {
+          "low": 3,
+          "high": 8,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.barcelonaturisme.com/en/home",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Parc_del_Laberint_d'Horta_Barcelona_1.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "barcelona-editorial-pedralbes",
+        "name": "佩德拉尔韦斯修道院回廊",
+        "nameEn": "Monastery of Pedralbes",
+        "article": "Monastery of Pedralbes",
+        "lat": 41.3957,
+        "lng": 2.1123,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史与庭院",
+        "activityType": "culture",
+        "priority": 41,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在安静回廊看宗教艺术与花园，适合从中心街区抽出半天；特别参观与常设票覆盖范围需核对。",
+        "features": [
+          "历史与庭院",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/400/les-corts-and-pedralbes.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "bid.barcelonaturisme.com",
+            "url": "https://bid.barcelonaturisme.com/wv3/en/page/400/les-corts-and-pedralbes.html",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Monastery_of_Pedralbes",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/400/les-corts-and-pedralbes.html"
+        },
+        "price": {
+          "low": 5,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/en/page/400/les-corts-and-pedralbes.html",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Pedralbes1.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "barcelona-editorial-bogatell",
+        "name": "博加特尔海滩休闲午后",
+        "nameEn": "Bogatell Beach",
+        "article": null,
+        "lat": 41.392,
+        "lng": 2.2075,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "category": "海滩休闲",
+        "activityType": "nature",
+        "priority": 40,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "把一个午后留给沙滩、海风和滨海步道，按天气决定是否下水；遮阳、餐饮及水上项目另计。",
+        "features": [
+          "海滩休闲",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "bid.barcelonaturisme.com",
+            "url": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://bid.barcelonaturisme.com/wv3/es/page/20/sant-marti.html",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。"
+      }
+    ]
+  }
+]

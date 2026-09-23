@@ -1,0 +1,5183 @@
+[
+  {
+    "id": "nice",
+    "name": "尼斯",
+    "nameEn": "Nice",
+    "country": "法国",
+    "countryCode": "FR",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "FR-PAC",
+    "lat": 43.7009,
+    "lng": 7.2684,
+    "iata": "NCE",
+    "article": "Nice",
+    "tagline": "沿天使湾散步，在旧城吃热腾腾的鹰嘴豆薄饼，再留半天给山坡上的美术馆。",
+    "description": "沿天使湾散步，在旧城吃热腾腾的鹰嘴豆薄饼，再留半天给山坡上的美术馆。",
+    "tags": [
+      "海岸步行",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nice"
+    },
+    "officialTourismUrl": "https://www.explorenicecotedazur.com/en/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "旧城与海滨可用两天慢游，加一天给西米耶美术馆和生活街区；海滩休息或周边小镇可再加一天。"
+    },
+    "daily": {
+      "lodging": [
+        90,
+        180,
+        390
+      ],
+      "food": [
+        30,
+        60,
+        125
+      ],
+      "transport": [
+        6,
+        16,
+        45
+      ],
+      "misc": [
+        8,
+        18,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        850,
+        1500,
+        2800
+      ],
+      "utilities": [
+        110,
+        180,
+        300
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "海滨、旧城与市中心结合步行和有轨电车；机场 NCE 在城市西侧，机场电车票种与普通市内票分别核对。西米耶和博隆山有坡度，宜搭公交上山再短走。",
+    "sourceReferences": [
+      {
+        "name": "explorenicecotedazur.com",
+        "url": "https://www.explorenicecotedazur.com/en/",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-nice",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nice",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "nice",
+      "intro": "沿天使湾散步，在旧城吃热腾腾的鹰嘴豆薄饼，再留半天给山坡上的美术馆。",
+      "foodHighlights": [
+        {
+          "name": "尼斯鹰嘴豆薄饼",
+          "description": "热锅烤出的鹰嘴豆薄饼，外层焦香、里面柔软；趁热撒胡椒，适合作为市场散步中的小吃。"
+        },
+        {
+          "name": "尼斯浸油三明治",
+          "description": "面包吸收橄榄油与蔬菜汁，夹入金枪鱼、鸡蛋等配料；鱼类和蛋是常见食材，过敏或忌口请先问。"
+        },
+        {
+          "name": "洋葱凤尾鱼咸挞",
+          "description": "慢炒洋葱铺在面饼上，配凤尾鱼和橄榄，甜咸滋味适合一小块配饮料。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "尼斯旧城巷弄",
+          "description": "从罗塞蒂广场走进狭窄街巷，看暖色立面、香料铺与冰淇淋店，留一点时间随意转弯。"
+        },
+        {
+          "name": "萨莱亚市场与晨间小吃",
+          "description": "在花卉与蔬果摊之间挑选早餐和伴手礼；不同日期的市集种类有变化，零门票不含购物。"
+        },
+        {
+          "name": "帕永绿廊与水镜",
+          "description": "在贯穿市中心的绿廊休息，看水镜倒映天空；适合夹在旧城与广场之间的一段轻松步行。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "nice-promenade",
+        "name": "天使湾英国人散步道",
+        "nameEn": "Promenade des Anglais",
+        "article": "Promenade des Anglais",
+        "lat": 43.6945,
+        "lng": 7.2632,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "海岸步行",
+        "activityType": "nature",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿蓝色海岸选一段慢走，在长椅上看浪与骑行的人；无需走完全程，海滩躺椅及饮食另付费。",
+        "features": [
+          "海岸步行",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://patrimoinemondial.nice.fr/en/panorama",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "patrimoinemondial.nice.fr",
+            "url": "https://patrimoinemondial.nice.fr/en/panorama",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Promenade_des_Anglais",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://patrimoinemondial.nice.fr/en/panorama"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://patrimoinemondial.nice.fr/en/panorama",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "CollineDuChateau_NiceFrance2022.png",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-vieux-nice",
+        "name": "尼斯旧城巷弄",
+        "nameEn": "Vieux Nice",
+        "article": null,
+        "lat": 43.6973,
+        "lng": 7.2762,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "priority": 64,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从罗塞蒂广场走进狭窄街巷，看暖色立面、香料铺与冰淇淋店，留一点时间随意转弯。",
+        "features": [
+          "街区漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Vieux-Nice",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Vue_du_Vieux-Nice.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-cours-saleya",
+        "name": "萨莱亚市场与晨间小吃",
+        "nameEn": "Cours Saleya",
+        "article": null,
+        "lat": 43.6957,
+        "lng": 7.2737,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 63,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在花卉与蔬果摊之间挑选早餐和伴手礼；不同日期的市集种类有变化，零门票不含购物。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Cours_Saleya",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Cours Saleya market fruit stalls Nice 2026.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-castle-hill",
+        "name": "城堡山公园与海湾观景",
+        "nameEn": "Castle of Nice",
+        "article": null,
+        "lat": 43.6956,
+        "lng": 7.2793,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "山海观景",
+        "activityType": "culture",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿山坡上到观景台，将旧城屋顶、港口与海湾放进同一眼景色；按当天开放入口选择台阶或电梯。",
+        "features": [
+          "山海观景",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Castle_of_Nice",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "nice-paillon",
+        "name": "帕永绿廊与水镜",
+        "nameEn": "Promenade du Paillon",
+        "article": null,
+        "lat": 43.6992,
+        "lng": 7.2744,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "花园休息",
+        "activityType": "leisure",
+        "priority": 61,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在贯穿市中心的绿廊休息，看水镜倒映天空；适合夹在旧城与广场之间的一段轻松步行。",
+        "features": [
+          "花园休息",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/culture/promenade-du-paillon/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/culture/promenade-du-paillon/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Promenade_du_Paillon",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/culture/promenade-du-paillon/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/culture/promenade-du-paillon/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Promenade_du_Paillon_Nice_IMG_1241.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-matisse",
+        "name": "尼斯马蒂斯博物馆",
+        "nameEn": "Musée Matisse (Nice)",
+        "article": "Musée Matisse (Nice)",
+        "lat": 43.7195,
+        "lng": 7.276,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 91,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "红色别墅里看马蒂斯的线条、色彩与创作变化，结束后可在西米耶橄榄树间休息。",
+        "features": [
+          "艺术博物馆",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "nice.fr",
+            "url": "https://www.nice.fr/lieux/musee-matisse/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Matisse_%28Nice%29",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/"
+        },
+        "price": {
+          "low": 12,
+          "high": 20,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Musée_Matisse_Nice.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-chagall",
+        "name": "夏加尔国家博物馆",
+        "nameEn": "Musée Marc Chagall",
+        "article": "Musée Marc Chagall",
+        "lat": 43.7094,
+        "lng": 7.2699,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 39,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "用较慢的节奏看夏加尔的大幅作品和色彩空间；适合主动选择的艺术半日，不必与全部美术馆连刷。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/le-label-architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/label-acr-alpes-maritimes/nice/nice-musee-national-marc-chagall",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "culture.gouv.fr",
+            "url": "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/le-label-architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/label-acr-alpes-maritimes/nice/nice-musee-national-marc-chagall",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marc_Chagall",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/le-label-architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/label-acr-alpes-maritimes/nice/nice-musee-national-marc-chagall"
+        },
+        "price": {
+          "low": 10,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/le-label-architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/label-acr-alpes-maritimes/nice/nice-musee-national-marc-chagall",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Musée_Marc_Chagall.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-cimiez-garden",
+        "name": "西米耶橄榄园与修道院花园",
+        "nameEn": "Cimiez",
+        "article": null,
+        "lat": 43.7199,
+        "lng": 7.2776,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "花园休息",
+        "activityType": "leisure",
+        "priority": 58,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "离开海边上到安静的山坡，在橄榄树和花园间休息；此项只含公共花园散步，考古馆另计。",
+        "features": [
+          "花园休息",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "nice.fr",
+            "url": "https://www.nice.fr/lieux/musee-matisse/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nice.fr/lieux/musee-matisse/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "nice-port-lympia",
+        "name": "林皮亚港看船与咖啡",
+        "nameEn": "Port of Nice",
+        "article": null,
+        "lat": 43.6969,
+        "lng": 7.2845,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "海港生活",
+        "activityType": "leisure",
+        "priority": 57,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "围着彩色立面的港池看渔船和游艇，挑一处露台坐坐；咖啡、游船与餐饮是可选消费。",
+        "features": [
+          "海港生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "nice-garibaldi",
+        "name": "加里波第广场与拱廊",
+        "nameEn": "Place Garibaldi",
+        "article": null,
+        "lat": 43.7011,
+        "lng": 7.2806,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 20,
+          "recommended": 45,
+          "max": 70
+        },
+        "category": "城市广场",
+        "activityType": "leisure",
+        "priority": 56,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在赭黄拱廊和电车之间感受城市的意大利气质，适合逛港口前后的小停留。",
+        "features": [
+          "城市广场",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Place_Garibaldi",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Nice_tramway_place_Garibaldi.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "nice-liberation",
+        "name": "解放区市场与生活街区",
+        "nameEn": "解放区市场与生活街区",
+        "article": null,
+        "lat": 43.7106,
+        "lng": 7.2626,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 55,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "去 Avenue Malausséna 周边看当地人买菜，走走露天摊与街角咖啡馆；请按当日市场营业情况安排。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "nice-mont-boron",
+        "name": "博隆山林间与海岸眺望",
+        "nameEn": "Mont Boron",
+        "article": null,
+        "lat": 43.6935,
+        "lng": 7.302,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "林间步行",
+        "activityType": "culture",
+        "priority": 34,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "离开拥挤海滨到林间步道眺望海岸，带水并计入上下山公交；不作为午餐后临时填空的小点。",
+        "features": [
+          "林间步行",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "explorenicecotedazur.com",
+            "url": "https://www.explorenicecotedazur.com/en/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Mont_Boron",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.explorenicecotedazur.com/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Port_de_nice.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      }
+    ],
+    "photoFile": "Promenade_des_Anglais_Nice_IMG_1255.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "lyon",
+    "name": "里昂",
+    "nameEn": "Lyon",
+    "country": "法国",
+    "countryCode": "FR",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "FR-ARA",
+    "lat": 45.764,
+    "lng": 4.8357,
+    "iata": "LYS",
+    "article": "Lyon",
+    "tagline": "两条河围起老城与山丘，穿过丝织工人的巷道，坐下来吃一顿温暖的里昂小馆菜。",
+    "description": "两条河围起老城与山丘，穿过丝织工人的巷道，坐下来吃一顿温暖的里昂小馆菜。",
+    "tags": [
+      "历史街区",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lyon"
+    },
+    "officialTourismUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "三天可分别留给旧城与富维耶、红十字山与市场、河岸和一座博物馆；深度美食或电影主题再加一天。"
+    },
+    "daily": {
+      "lodging": [
+        75,
+        145,
+        320
+      ],
+      "food": [
+        30,
+        60,
+        120
+      ],
+      "transport": [
+        6,
+        15,
+        40
+      ],
+      "misc": [
+        7,
+        17,
+        35
+      ]
+    },
+    "monthly": {
+      "rent": [
+        750,
+        1300,
+        2400
+      ],
+      "utilities": [
+        110,
+        180,
+        290
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "市内步行、地铁、有轨电车和富维耶缆车组合。LYS 圣埃克絮佩里机场位于 Colombier-Saugnieu 郊区，机场快线或巴士接驳另留时间与费用；不要当作市中心车站。",
+    "sourceReferences": [
+      {
+        "name": "visiterlyon.com",
+        "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/articles/ultimate-weekend-in-lyon",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lyon",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "lyon",
+      "intro": "两条河围起老城与山丘，穿过丝织工人的巷道，坐下来吃一顿温暖的里昂小馆菜。",
+      "foodHighlights": [
+        {
+          "name": "里昂梭子鱼丸配酱汁",
+          "description": "柔软的大鱼丸常焗烤后配浓酱上桌，可作为一顿传统小馆午餐的主菜；确认鱼、蛋和奶制品成分。"
+        },
+        {
+          "name": "香草鲜奶酪蘸酱",
+          "description": "名字虽然直译与“脑”有关，实际是鲜奶酪拌香草、葱蒜的冷食，可配面包或土豆。"
+        },
+        {
+          "name": "粉红糖杏仁塔",
+          "description": "粉红色糖衣杏仁与奶油形成甜馅，薄薄一角就很有满足感；适合和咖啡一起分享。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "保罗·博古斯美食市场",
+          "description": "边看熟食、奶酪与糕点边决定午餐，把食物购买计入餐饮预算；市场本身无需另算门票。"
+        },
+        {
+          "name": "红十字山丝织工街区",
+          "description": "从山坡小店、楼梯和开放院落读懂丝织工人的城市记忆；可搭地铁上山，再慢慢往下走。"
+        },
+        {
+          "name": "罗讷河岸散步与休息",
+          "description": "选市中心一段河岸步道，看骑车的人和河上桥梁，带简餐找座位休息；不默认安排收费游船。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "lyon-vieux-traboules",
+        "name": "老里昂与开放式穿堂小巷",
+        "nameEn": "Vieux Lyon",
+        "article": "Vieux Lyon",
+        "lat": 45.7626,
+        "lng": 4.8276,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿圣让街寻找对公众开放的院落和穿堂通道；这些也是居民的家，轻声通过，遇关闭入口就绕行。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments/les-traboules-et-cours-de-lyon",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments/les-traboules-et-cours-de-lyon",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Vieux_Lyon",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments/les-traboules-et-cours-de-lyon"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments/les-traboules-et-cours-de-lyon",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Vieuxlyon_saintjean_toits.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-fourviere",
+        "name": "富维耶圣母院与城市全景",
+        "nameEn": "Basilica of Notre-Dame de Fourvière",
+        "article": "Basilica of Notre-Dame de Fourvière",
+        "lat": 45.7623,
+        "lng": 4.8226,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "上山看教堂与两河交织的城市全景；普通参观与外部观景零门票规划，屋顶导览和缆车另计。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Basilica_of_Notre-Dame_de_Fourvi%C3%A8re",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Fourviere_Lyon.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-roman-theatre",
+        "name": "富维耶罗马剧场遗址",
+        "nameEn": "Ancient Theatre of Fourvière",
+        "article": "Ancient Theatre of Fourvière",
+        "lat": 45.7601,
+        "lng": 4.8197,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "历史遗址",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿古剧场看台感受山坡的层层展开；此项为露天遗址散步，旁边博物馆和演出不包含在内。",
+        "features": [
+          "历史遗址",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Ancient_Theatre_of_Fourvi%C3%A8re",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Lyon_-_Lugdunum_-_Théatre_Romain.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-tete-or",
+        "name": "金头公园湖畔与温室花园",
+        "nameEn": "Parc de la Tête d'or",
+        "article": "Parc de la Tête d'or",
+        "lat": 45.7772,
+        "lng": 4.8553,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "城市公园",
+        "activityType": "nature",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在湖边树荫下散步、读书或野餐，为密集博物馆之间留一个绿意下午；租船与游乐设施另付费。",
+        "features": [
+          "城市公园",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Parc_de_la_T%C3%AAte_d%27or",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Parc_de_la_Tête_d'Or_Vue_sur_le_lac7.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-beaux-arts",
+        "name": "里昂美术馆",
+        "nameEn": "Museum of Fine Arts of Lyon",
+        "article": "Museum of Fine Arts of Lyon",
+        "lat": 45.766,
+        "lng": 4.8336,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 41,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在原修道院中看绘画和雕塑，按兴趣选择展厅；临展票与开放安排另核，不要求一次看完全部收藏。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts_of_Lyon",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 8,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "MBA_Lyon_facade_jour.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-halles-bocuse",
+        "name": "保罗·博古斯美食市场",
+        "nameEn": "Les Halles de Lyon Paul Bocuse",
+        "article": null,
+        "lat": 45.7634,
+        "lng": 4.8493,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 60,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "边看熟食、奶酪与糕点边决定午餐，把食物购买计入餐饮预算；市场本身无需另算门票。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://en.visiterlyon.com/out-and-about/shopping/bon-plan/quels-souvenirs-ramener-de-lyon",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "en.visiterlyon.com",
+            "url": "https://en.visiterlyon.com/out-and-about/shopping/bon-plan/quels-souvenirs-ramener-de-lyon",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Halles_de_Lyon-Paul_Bocuse",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://en.visiterlyon.com/out-and-about/shopping/bon-plan/quels-souvenirs-ramener-de-lyon"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://en.visiterlyon.com/out-and-about/shopping/bon-plan/quels-souvenirs-ramener-de-lyon",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Halles_de_Lyon-Paul_Bocuse_001.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-croix-rousse",
+        "name": "红十字山丝织工街区",
+        "nameEn": "La Croix-Rousse",
+        "article": "La Croix-Rousse",
+        "lat": 45.774,
+        "lng": 4.8326,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "priority": 59,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从山坡小店、楼梯和开放院落读懂丝织工人的城市记忆；可搭地铁上山，再慢慢往下走。",
+        "features": [
+          "街区漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://en.visiterlyon.com/discover/heritage-unesco/remarkable-sites-and-monuments/courtyards-and-traboules-of-croix-rousse",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "en.visiterlyon.com",
+            "url": "https://en.visiterlyon.com/discover/heritage-unesco/remarkable-sites-and-monuments/courtyards-and-traboules-of-croix-rousse",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/La_Croix-Rousse",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://en.visiterlyon.com/discover/heritage-unesco/remarkable-sites-and-monuments/courtyards-and-traboules-of-croix-rousse"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://en.visiterlyon.com/discover/heritage-unesco/remarkable-sites-and-monuments/courtyards-and-traboules-of-croix-rousse",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Colline-de-la-croix-rousse-.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-rhone-banks",
+        "name": "罗讷河岸散步与休息",
+        "nameEn": "Berges du Rhône",
+        "article": "Berges du Rhône",
+        "lat": 45.7552,
+        "lng": 4.8399,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "河岸生活",
+        "activityType": "leisure",
+        "priority": 58,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "选市中心一段河岸步道，看骑车的人和河上桥梁，带简餐找座位休息；不默认安排收费游船。",
+        "features": [
+          "河岸生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Berges_du_Rh%C3%B4ne",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Pont-R08-Lafayet-10.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-confluences",
+        "name": "汇流博物馆",
+        "nameEn": "Musée des Confluences",
+        "article": "Musée des Confluences",
+        "lat": 45.7327,
+        "lng": 4.8183,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "科学与文化",
+        "activityType": "culture",
+        "priority": 37,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在两河交汇处的当代建筑里看生命、社会与文明主题展，预留馆内休息；本项需单独往返市中心。",
+        "features": [
+          "科学与文化",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://museedesconfluences.fr/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "museedesconfluences.fr",
+            "url": "https://museedesconfluences.fr/en",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Confluences",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://museedesconfluences.fr/en"
+        },
+        "price": {
+          "low": 12,
+          "high": 20,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://museedesconfluences.fr/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Confluence_museum_from_Raymond_Barre_bridge.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-lumiere",
+        "name": "卢米埃尔电影博物馆",
+        "nameEn": "Institut Lumière",
+        "article": "Institut Lumière",
+        "lat": 45.7459,
+        "lng": 4.8702,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "电影文化",
+        "activityType": "culture",
+        "priority": 36,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "到电影先驱的故居与工厂遗址认识早期影像，让电影爱好者拥有一段独立主题时间。",
+        "features": [
+          "电影文化",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Institut_Lumi%C3%A8re",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 8,
+          "high": 16,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Institut_Lumière_Lyon.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-bellecour",
+        "name": "白莱果广场与半岛街道",
+        "nameEn": "Place Bellecour",
+        "article": "Place Bellecour",
+        "lat": 45.7578,
+        "lng": 4.832,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "城市广场",
+        "activityType": "leisure",
+        "priority": 55,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "以开阔广场为起点，走进半岛的商业街和小咖啡馆，适合安排抵达后的第一段轻松探索。",
+        "features": [
+          "城市广场",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Place_Bellecour",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Place_Bellecour_(Lyon,_2024,_version_recentrée_2).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "lyon-mur-canuts",
+        "name": "丝织工人壁画外观",
+        "nameEn": "Le Mur des Canuts",
+        "article": null,
+        "lat": 45.7795,
+        "lng": 4.8274,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 20,
+          "recommended": 45,
+          "max": 70
+        },
+        "category": "街头艺术",
+        "activityType": "leisure",
+        "priority": 54,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从人行道看巨幅错视壁画中的楼梯与生活场景，可以与红十字山街区顺路组合。",
+        "features": [
+          "街头艺术",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visiterlyon.com",
+            "url": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visiterlyon.com/decouvrir/sites-et-monuments",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "photoFile": "Lyon-part-dieu-2023.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "marseille",
+    "name": "马赛",
+    "nameEn": "Marseille",
+    "country": "法国",
+    "countryCode": "FR",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "FR-PAC",
+    "lat": 43.2965,
+    "lng": 5.3698,
+    "iata": "MRS",
+    "article": "Marseille",
+    "tagline": "从旧港渔船走向彩绘街巷，把鱼汤、海岸散步与地中海文明放进同一段假期。",
+    "description": "从旧港渔船走向彩绘街巷，把鱼汤、海岸散步与地中海文明放进同一段假期。",
+    "tags": [
+      "海港生活",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Marseille"
+    },
+    "officialTourismUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "旧港、老街和博物馆约两天，再给海岸街区一天；卡朗格徒步或出海需另留半天至整天。"
+    },
+    "daily": {
+      "lodging": [
+        70,
+        140,
+        310
+      ],
+      "food": [
+        28,
+        58,
+        125
+      ],
+      "transport": [
+        6,
+        17,
+        45
+      ],
+      "misc": [
+        8,
+        18,
+        38
+      ]
+    },
+    "monthly": {
+      "rent": [
+        700,
+        1250,
+        2400
+      ],
+      "utilities": [
+        110,
+        175,
+        290
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "市内结合地铁、公交与步行，上守护圣母教堂有明显坡度。MRS 机场在 Marignane，往返 Saint-Charles 的接驳单独计算；海上船班看风浪，卡朗格不作市内顺路点。",
+    "sourceReferences": [
+      {
+        "name": "marseille-tourisme.com",
+        "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/articles/marseille-on-a-budget",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Marseille",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "marseille",
+      "intro": "从旧港渔船走向彩绘街巷，把鱼汤、海岸散步与地中海文明放进同一段假期。",
+      "foodHighlights": [
+        {
+          "name": "马赛鱼汤套餐",
+          "description": "鱼汤与鱼肉可分开上桌，搭蒜香酱和面包；这往往是一顿完整正餐，先问份量、人数要求与包含内容。"
+        },
+        {
+          "name": "炸鹰嘴豆片",
+          "description": "鹰嘴豆粉做成的软糕切片炸至金黄，外脆内软，适合在海边小摊买一份边走边吃。"
+        },
+        {
+          "name": "橙花小船饼干",
+          "description": "带橙花香的小船形饼干，口感偏硬，适合当作咖啡点心或旅途伴手礼。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "帕尼耶老街与创作小店",
+          "description": "在阶梯、彩色街角与手工小店之间随意走走，观察港口城市的日常；保留当地居民的门前通道。"
+        },
+        {
+          "name": "隆尚宫外观与公园",
+          "description": "围着水池和柱廊看隆尚宫的外部景观，再到公园坐坐；馆内展览并不含在这项免费散步中。"
+        },
+        {
+          "name": "朱利安广场壁画与独立小店",
+          "description": "在彩绘楼梯、唱片店与咖啡露台之间认识马赛的创作气质，适合留一段不赶路的下午。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "marseille-vieux-port",
+        "name": "马赛旧港与渔船",
+        "nameEn": "Old Port of Marseille",
+        "article": "Old Port of Marseille",
+        "lat": 43.2955,
+        "lng": 5.3745,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "海港生活",
+        "activityType": "culture",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿港池看船只和晨间鱼摊，傍晚换一个岸边角度看城市；所列零门票不含游船与餐饮。",
+        "features": [
+          "海港生活",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/le-vieux-port/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/le-vieux-port/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Old_Port_of_Marseille",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/le-vieux-port/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/culture-et-patrimoine/sites-et-monuments/le-vieux-port/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Marseille_Old_Port.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-panier",
+        "name": "帕尼耶老街与创作小店",
+        "nameEn": "Le Panier",
+        "article": null,
+        "lat": 43.3007,
+        "lng": 5.367,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "priority": 64,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在阶梯、彩色街角与手工小店之间随意走走，观察港口城市的日常；保留当地居民的门前通道。",
+        "features": [
+          "街区漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Le_Panier",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Rue_Panier_Marseille.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-notre-dame",
+        "name": "守护圣母教堂与山顶眺望",
+        "nameEn": "Notre-Dame de la Garde",
+        "article": "Notre-Dame de la Garde",
+        "lat": 43.2841,
+        "lng": 5.3713,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "城市观景",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "登上俯瞰海港的山丘，看教堂内部与开阔海景；上山交通另计，宗教活动时尊重参观安排。",
+        "features": [
+          "城市观景",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Notre-Dame_de_la_Garde",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Notre-Dame_de_la_Garde_aerial_view_2020.jpeg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-mucem",
+        "name": "MuCEM 地中海文明博物馆",
+        "nameEn": "Museum of European and Mediterranean Civilisations",
+        "article": "Museum of European and Mediterranean Civilisations",
+        "lat": 43.2967,
+        "lng": 5.361,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "文化博物馆",
+        "activityType": "culture",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "看地中海不同社会的生活与文化，也留时间感受建筑的网格光影；付费展览与免费公共通道范围不同。",
+        "features": [
+          "文化博物馆",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 11,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "\"Beeindruckende_Architektur\"._5.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-major",
+        "name": "马赛主教座堂",
+        "nameEn": "Marseille Cathedral",
+        "article": "Marseille Cathedral",
+        "lat": 43.2995,
+        "lng": 5.3653,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 92,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在港区附近看条纹石材与宏大的宗教建筑，作为海滨博物馆路线中的短停留，礼拜期间遵循现场安排。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Marseille_Cathedral",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Cathédrale_Sainte-Marie-Majeure_de_Marseille_le_11_février_2023-1_(cropped).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-longchamp",
+        "name": "隆尚宫外观与公园",
+        "nameEn": "Palais Longchamp",
+        "article": "Palais Longchamp",
+        "lat": 43.3045,
+        "lng": 5.3947,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "花园与建筑",
+        "activityType": "leisure",
+        "priority": 60,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "围着水池和柱廊看隆尚宫的外部景观，再到公园坐坐；馆内展览并不含在这项免费散步中。",
+        "features": [
+          "花园与建筑",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Palais_Longchamp",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Honeymoon-433_(14586751896).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-cours-julien",
+        "name": "朱利安广场壁画与独立小店",
+        "nameEn": "Cours Julien",
+        "article": null,
+        "lat": 43.2945,
+        "lng": 5.3836,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街头艺术",
+        "activityType": "leisure",
+        "priority": 59,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在彩绘楼梯、唱片店与咖啡露台之间认识马赛的创作气质，适合留一段不赶路的下午。",
+        "features": [
+          "街头艺术",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Cours_Julien",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Marseille_-_Cours_Julien_(16272528157).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-noailles",
+        "name": "诺阿耶市场与多元食物街区",
+        "nameEn": "Noailles, Marseille",
+        "article": null,
+        "lat": 43.297,
+        "lng": 5.38,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 58,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿市场和杂货铺看来自地中海不同岸边的食材，挑一份点心或简餐；购物与饮食按实际消费。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Noailles_%28Marseille%29",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Marseille_-_Métro_&_Tramway_-_Noailles_(7537853682).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-auffes",
+        "name": "奥夫小渔港",
+        "nameEn": "Vallon des Auffes",
+        "article": "Vallon des Auffes",
+        "lat": 43.2856,
+        "lng": 5.3506,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "海港漫游",
+        "activityType": "leisure",
+        "priority": 57,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "走到高架桥下的小港看彩色渔船与渔家建筑，适合顺着海岸慢走；进餐需要另留预算与时间。",
+        "features": [
+          "海港漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Vallon_des_Auffes",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "MarseillesRade.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-corniche",
+        "name": "肯尼迪海滨道一段慢走",
+        "nameEn": "Corniche (Marseille)",
+        "article": null,
+        "lat": 43.2775,
+        "lng": 5.352,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "海岸步行",
+        "activityType": "leisure",
+        "priority": 56,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "挑一段海滨长椅与人行道看海，不需要走完全程；风大或炎热时以公交衔接更轻松。",
+        "features": [
+          "海岸步行",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "fr.wikipedia.org",
+            "url": "https://fr.wikipedia.org/wiki/Corniche_du_Pr%C3%A9sident-John-Fitzgerald-Kennedy",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Corniche_Kennedy_Fausse_Monnaie.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-prado",
+        "name": "普拉多海滩度过一个午后",
+        "nameEn": "Plages du Prado",
+        "article": "Plages du Prado",
+        "lat": 43.2597,
+        "lng": 5.3731,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "category": "海滩休闲",
+        "activityType": "nature",
+        "priority": 35,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "把一段时间留给海边休息、散步或下水，按天气、水质与救生安排决定活动；水上运动和租赁另计。",
+        "features": [
+          "海滩休闲",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Plages_du_Prado",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Mistral_gagnant_Plages_du_Prado,_Marseille.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-calanques",
+        "name": "卡朗格海湾徒步半日",
+        "nameEn": "Calanques National Park",
+        "article": "Calanques National Park",
+        "lat": 43.2121,
+        "lng": 5.427,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 6.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 360,
+          "max": 540
+        },
+        "category": "海湾徒步",
+        "activityType": "nature",
+        "priority": 34,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "选一条符合体力的官方步道，单独预留往返与休息；防火封山、天气及部分海湾预约会影响可达性。",
+        "features": [
+          "海湾徒步",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Calanques_National_Park",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "En-Vau_calanque_4.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "marseille-frioul",
+        "name": "弗里乌尔群岛散步",
+        "nameEn": "Frioul archipelago",
+        "article": "Frioul archipelago",
+        "lat": 43.2798,
+        "lng": 5.3055,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 300,
+          "max": 450
+        },
+        "category": "海岛体验",
+        "activityType": "culture",
+        "priority": 33,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "乘船去近海岛屿看岩岸与港湾，预留往返船班和候船；费用为船程编辑预算，岛上活动另核。",
+        "features": [
+          "海岛体验",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "marseille-tourisme.com",
+            "url": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Frioul_archipelago",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/"
+        },
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.marseille-tourisme.com/decouvrez-marseille/incontournables/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Frioul_archipelago_1.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      }
+    ],
+    "photoFile": "Notre-Dame_de_la_Garde_aerial_view_2020.jpeg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "seville",
+    "name": "塞维利亚",
+    "nameEn": "Seville",
+    "country": "西班牙",
+    "countryCode": "ES",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "ES-AN",
+    "lat": 37.3891,
+    "lng": -5.9845,
+    "iata": "SVQ",
+    "article": "Seville",
+    "tagline": "橘树巷道、彩釉庭院与河畔小馆交织成安达卢西亚的日常，黄昏再听一场弗拉明戈。",
+    "description": "橘树巷道、彩釉庭院与河畔小馆交织成安达卢西亚的日常，黄昏再听一场弗拉明戈。",
+    "tags": [
+      "宫殿与庭园",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seville"
+    },
+    "officialTourismUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "三天可兼顾王宫与大教堂、广场花园和特里亚纳；表演或美食主题不必挤在同一晚。"
+    },
+    "daily": {
+      "lodging": [
+        65,
+        135,
+        300
+      ],
+      "food": [
+        25,
+        48,
+        100
+      ],
+      "transport": [
+        5,
+        13,
+        35
+      ],
+      "misc": [
+        7,
+        16,
+        35
+      ]
+    },
+    "monthly": {
+      "rent": [
+        650,
+        1100,
+        2200
+      ],
+      "utilities": [
+        100,
+        165,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "历史中心适合步行，跨河、炎热午后和较远住宿可搭公交或出租车。SVQ 机场接驳另外预留；夏季把长距离户外步行移到早晚。",
+    "sourceReferences": [
+      {
+        "name": "visitasevilla.es",
+        "url": "https://visitasevilla.es/en/interactive-map-seville/",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-seville",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Seville",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "seville",
+      "intro": "橘树巷道、彩釉庭院与河畔小馆交织成安达卢西亚的日常，黄昏再听一场弗拉明戈。",
+      "foodHighlights": [
+        {
+          "name": "鹰嘴豆炖菠菜",
+          "description": "菠菜与鹰嘴豆加入香料和蒜香，是传统酒馆常见的小盘菜；是否素食仍需询问用油与高汤。"
+        },
+        {
+          "name": "慢炖肉小面包",
+          "description": "把慢炖肉混合物夹入小面包，适合点一份搭配其他小盘菜；通常含猪肉与香肠。"
+        },
+        {
+          "name": "炸鳕鱼条",
+          "description": "鳕鱼裹面糊炸至酥脆，适合和清爽蔬菜小盘搭配；确认按份还是按件计价。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "玛丽亚·路易莎公园",
+          "description": "在树荫、喷泉和小路间把脚步放慢，适合与西班牙广场组合，并为炎热午后留休息。"
+        },
+        {
+          "name": "特里亚纳街区与河边生活",
+          "description": "跨桥到陶瓷店、市场与 Calle Betis 河岸之间漫走，透过街角酒馆感受另一面的塞维利亚。"
+        },
+        {
+          "name": "圣十字区的小巷与院落",
+          "description": "从热闹景点旁转进有橘树的小广场和窄巷，给拍照、喝水与坐一会儿留余地。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "seville-alcazar",
+        "name": "塞维利亚王宫与庭园",
+        "nameEn": "Alcázar of Seville",
+        "article": "Alcázar of Seville",
+        "lat": 37.3831,
+        "lng": -5.9902,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "category": "宫殿与庭园",
+        "activityType": "culture",
+        "priority": 45,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "花半天看彩釉、木顶和水池串起的宫殿庭院；提前选预约时段，票种覆盖范围与身份要求以官网为准。",
+        "features": [
+          "宫殿与庭园",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://alcazarsevilla.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "alcazarsevilla.org",
+            "url": "https://alcazarsevilla.org/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://alcazarsevilla.org/"
+        },
+        "price": {
+          "low": 16,
+          "high": 28,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://alcazarsevilla.org/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Sevilla-2-2_(48040287512)-edit.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-cathedral",
+        "name": "塞维利亚大教堂与吉拉尔达塔",
+        "nameEn": "Seville Cathedral",
+        "article": "Seville Cathedral",
+        "lat": 37.3856,
+        "lng": -5.9931,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在哥特式大教堂中看高耸空间，再按体力登吉拉尔达塔；屋顶导览通常是另外的预约项目。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.catedraldesevilla.es/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "catedraldesevilla.es",
+            "url": "https://www.catedraldesevilla.es/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Seville_Cathedral",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.catedraldesevilla.es/"
+        },
+        "price": {
+          "low": 13,
+          "high": 22,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.catedraldesevilla.es/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Sevilla_Cathedral_-_Southeast.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-plaza-espana",
+        "name": "西班牙广场彩釉长廊",
+        "nameEn": "Plaza de España, Seville",
+        "article": "Plaza de España, Seville",
+        "lat": 37.3772,
+        "lng": -5.9869,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "建筑与广场",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿半圆形长廊找不同省份的瓷砖画，再到桥边看倒影；划船、马车和演出消费不包含。",
+        "features": [
+          "建筑与广场",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/interactive-map-seville/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a%2C_Seville",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Plaza_de_España_(Sevilla)_-_01.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-maria-luisa",
+        "name": "玛丽亚·路易莎公园",
+        "nameEn": "Parque de María Luisa",
+        "article": "Parque de María Luisa",
+        "lat": 37.3745,
+        "lng": -5.9881,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "花园休息",
+        "activityType": "leisure",
+        "priority": 62,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在树荫、喷泉和小路间把脚步放慢，适合与西班牙广场组合，并为炎热午后留休息。",
+        "features": [
+          "花园休息",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/interactive-map-seville/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Parque_de_Mar%C3%ADa_Luisa",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Parque_de_María_Luisa_(2).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-triana",
+        "name": "特里亚纳街区与河边生活",
+        "nameEn": "Triana, Seville",
+        "article": "Triana, Seville",
+        "lat": 37.3837,
+        "lng": -6.0033,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "leisure",
+        "priority": 61,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "跨桥到陶瓷店、市场与 Calle Betis 河岸之间漫走，透过街角酒馆感受另一面的塞维利亚。",
+        "features": [
+          "街区漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/barrio-de-triana-y-los-remedios/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/barrio-de-triana-y-los-remedios/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Triana%2C_Seville",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/barrio-de-triana-y-los-remedios/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/barrio-de-triana-y-los-remedios/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Sevilla-3-12_(48040411218).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-ceramics",
+        "name": "特里亚纳陶瓷中心",
+        "nameEn": "特里亚纳陶瓷中心",
+        "article": null,
+        "lat": 37.3852,
+        "lng": -6.0041,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "手工文化",
+        "activityType": "culture",
+        "priority": 40,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在旧陶瓷工坊认识烧制与彩釉传统，适合愿意多了解本地手艺的人；工艺课另询价。",
+        "features": [
+          "手工文化",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/barrio-de-triana-y-los-remedios/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/barrio-de-triana-y-los-remedios/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/barrio-de-triana-y-los-remedios/"
+        },
+        "price": {
+          "low": 3,
+          "high": 8,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/barrio-de-triana-y-los-remedios/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。"
+      },
+      {
+        "id": "seville-santa-cruz",
+        "name": "圣十字区的小巷与院落",
+        "nameEn": "Santa Cruz, Seville",
+        "article": "Santa Cruz, Seville",
+        "lat": 37.3846,
+        "lng": -5.9898,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "历史街区",
+        "activityType": "leisure",
+        "priority": 59,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从热闹景点旁转进有橘树的小广场和窄巷，给拍照、喝水与坐一会儿留余地。",
+        "features": [
+          "历史街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/interactive-map-seville/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Santa_Cruz%2C_Seville",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Plaza_santa_amrta_sevilla.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-setas",
+        "name": "都市阳伞空中步道",
+        "nameEn": "Metropol Parasol",
+        "article": "Metropol Parasol",
+        "lat": 37.3933,
+        "lng": -5.9919,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "城市观景",
+        "activityType": "culture",
+        "priority": 38,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "沿木结构顶部步道看老城屋顶，按想看的日落或灯光时段预约；附加体验与票种以官网为准。",
+        "features": [
+          "城市观景",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://setasdesevilla.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "setasdesevilla.com",
+            "url": "https://setasdesevilla.com/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Metropol_Parasol",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://setasdesevilla.com/"
+        },
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://setasdesevilla.com/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Metropolparasolnov2011001.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-pilatos",
+        "name": "彼拉多之家",
+        "nameEn": "Casa de Pilatos",
+        "article": "Casa de Pilatos",
+        "lat": 37.3899,
+        "lng": -5.987,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "宫殿与庭院",
+        "activityType": "culture",
+        "priority": 37,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在瓷砖、庭院和石雕之间看不同建筑传统相遇；上下层开放范围可能随票种不同。",
+        "features": [
+          "宫殿与庭院",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.visitarsevilla.com/casa-pilatos/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitarsevilla.com",
+            "url": "https://www.visitarsevilla.com/casa-pilatos/",
+            "kind": "tour-operator",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Casa_de_Pilatos",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.visitarsevilla.com/casa-pilatos/"
+        },
+        "price": {
+          "low": 12,
+          "high": 22,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitarsevilla.com/casa-pilatos/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Sevilla-4-7_(48040489973).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-alameda",
+        "name": "阿拉梅达广场与傍晚露台",
+        "nameEn": "Alameda de Hércules",
+        "article": "Alameda de Hércules",
+        "lat": 37.4003,
+        "lng": -5.9945,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "生活街区",
+        "activityType": "leisure",
+        "priority": 56,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "把傍晚留给广场两侧的小店和露台，看城市从午后休息转向晚餐时间；饮食另计。",
+        "features": [
+          "生活街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/interactive-map-seville/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Alameda_de_H%C3%A9rcules",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Alameda_de_Hércules.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-river",
+        "name": "瓜达尔基维尔河畔散步",
+        "nameEn": "Torre del Oro",
+        "article": "Torre del Oro",
+        "lat": 37.3823,
+        "lng": -5.9963,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "河岸生活",
+        "activityType": "leisure",
+        "priority": 55,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从黄金塔外观沿河走向桥边，欣赏两岸与划艇；本项只含公共河岸，不含塔内参观或游船。",
+        "features": [
+          "河岸生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitasevilla.es",
+            "url": "https://visitasevilla.es/en/interactive-map-seville/",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Torre_del_Oro",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitasevilla.es/en/interactive-map-seville/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Torre_del_Oro_flag_Seville_Spain.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "seville-flamenco",
+        "name": "弗拉明戈舞蹈博物馆现场演出",
+        "nameEn": "弗拉明戈舞蹈博物馆现场演出",
+        "article": null,
+        "lat": 37.3884,
+        "lng": -5.9907,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "音乐演出",
+        "activityType": "culture",
+        "priority": 34,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "先选一场正式演出，再围绕实际开场时间安排晚餐；博物馆、演出和组合票要分别确认。",
+        "features": [
+          "音乐演出",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://museodelbaileflamenco.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "museodelbaileflamenco.com",
+            "url": "https://museodelbaileflamenco.com/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://museodelbaileflamenco.com/"
+        },
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://museodelbaileflamenco.com/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。"
+      }
+    ],
+    "photoFile": "Sevilla_Cathedral_-_Southeast.jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "granada",
+    "name": "格拉纳达",
+    "nameEn": "Granada, Spain",
+    "country": "西班牙",
+    "countryCode": "ES",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "ES-AN",
+    "lat": 37.1773,
+    "lng": -3.5986,
+    "iata": "GRX",
+    "article": "Granada, Spain",
+    "tagline": "阿尔罕布拉宫的水院与山城白墙遥相对望，茶铺、窑洞和塔帕斯让历史变得可亲。",
+    "description": "阿尔罕布拉宫的水院与山城白墙遥相对望，茶铺、窑洞和塔帕斯让历史变得可亲。",
+    "tags": [
+      "宫殿与庭园",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Granada%2C_Spain"
+    },
+    "officialTourismUrl": "https://turismo.granada.org/en",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 4,
+      "reason": "阿尔罕布拉宫独留半天，阿尔拜辛与河谷一天，市中心和雷阿莱霍再一天，爬坡间留休息。"
+    },
+    "daily": {
+      "lodging": [
+        60,
+        120,
+        270
+      ],
+      "food": [
+        23,
+        45,
+        95
+      ],
+      "transport": [
+        5,
+        12,
+        32
+      ],
+      "misc": [
+        6,
+        15,
+        32
+      ]
+    },
+    "monthly": {
+      "rent": [
+        550,
+        950,
+        1800
+      ],
+      "utilities": [
+        90,
+        150,
+        260
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "中心步行结合小型公交，上阿尔拜辛、萨克罗蒙特和阿尔罕布拉宫需要爬坡或乘车。GRX 机场在城外，接驳另算；老城限行，不假设出租车能到每家门口。",
+    "sourceReferences": [
+      {
+        "name": "turismo.granada.org",
+        "url": "https://turismo.granada.org/en",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/destinations/spain/andalucia/granada",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Granada",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "granada",
+      "intro": "阿尔罕布拉宫的水院与山城白墙遥相对望，茶铺、窑洞和塔帕斯让历史变得可亲。",
+      "foodHighlights": [
+        {
+          "name": "橙子鳕鱼沙拉",
+          "description": "橙子的酸甜与咸鳕鱼、橄榄和鸡蛋相遇，是适合慢慢吃的清爽冷盘；每家配料会有所变化。"
+        },
+        {
+          "name": "萨克罗蒙特煎蛋饼",
+          "description": "这款地方煎蛋饼传统上会使用动物内脏，风味与普通土豆蛋饼不同；点单前务必确认配料。"
+        },
+        {
+          "name": "圣安东豆类炖锅",
+          "description": "豆类与猪肉慢炖成暖身的一锅，偏冬季与节庆菜；出发前询问餐馆当季是否供应。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "圣尼古拉斯观景台",
+          "description": "在观景台看阿尔罕布拉宫与远山，日落前后往往热闹；愿意安静看景也可以选择较早的时段。"
+        },
+        {
+          "name": "达罗河谷与悲伤者步道",
+          "description": "顺河谷看石桥、白墙与山坡上的宫城，路窄且有通行车辆，适合慢走并随时停下来让路。"
+        },
+        {
+          "name": "卡尔德雷里亚茶铺街",
+          "description": "在小巷茶铺与工艺品店之间浏览，按喜好点茶或甜点；茶水与购物不含在零门票里。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "granada-alhambra",
+        "name": "阿尔罕布拉宫与赫内拉利费",
+        "nameEn": "Alhambra",
+        "article": "Alhambra",
+        "lat": 37.1761,
+        "lng": -3.5881,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 240,
+          "max": 360
+        },
+        "category": "宫殿与庭园",
+        "activityType": "culture",
+        "priority": 45,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "为宫殿、花园与步行留出完整半天；纳斯里德宫按票面时段入场，购票前确认实名证件和所含区域。",
+        "features": [
+          "宫殿与庭园",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://tickets.alhambra-patronato.es/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "tickets.alhambra-patronato.es",
+            "url": "https://tickets.alhambra-patronato.es/en/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Alhambra",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://tickets.alhambra-patronato.es/en/"
+        },
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tickets.alhambra-patronato.es/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "granada-albaicin",
+        "name": "阿尔拜辛白墙街巷",
+        "nameEn": "Albaicín",
+        "article": "Albaicín",
+        "lat": 37.181,
+        "lng": -3.5925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿石阶与白墙小巷缓缓上行，从不同角度看宫城；坡道较多，适合搭公交上山再步行下行。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Albaic%C3%ADn",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "El_Albayzín_panorama_(2010).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "granada-san-nicolas",
+        "name": "圣尼古拉斯观景台",
+        "nameEn": "Mirador de San Nicolás",
+        "article": null,
+        "lat": 37.1814,
+        "lng": -3.5927,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "城市观景",
+        "activityType": "leisure",
+        "priority": 63,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在观景台看阿尔罕布拉宫与远山，日落前后往往热闹；愿意安静看景也可以选择较早的时段。",
+        "features": [
+          "城市观景",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "granada-cathedral",
+        "name": "格拉纳达大教堂",
+        "nameEn": "Granada Cathedral",
+        "article": "Granada Cathedral",
+        "lat": 37.1769,
+        "lng": -3.599,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "走入大教堂看明亮的高柱空间与艺术陈设，安排在附近街区漫步之间；宗教活动时参观可能调整。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Granada_Cathedral",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 6,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Granada_-_Cathedral_Front.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "granada-royal-chapel",
+        "name": "皇家礼拜堂",
+        "nameEn": "Royal Chapel of Granada",
+        "article": "Royal Chapel of Granada",
+        "lat": 37.1763,
+        "lng": -3.5986,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 41,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "了解王室陵墓与城市历史转折，馆藏参观与大教堂是不同项目，不将两张门票误算成一张。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Royal_Chapel_of_Granada",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 6,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Royal_Chapel_of_Granada_(Spain).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "granada-darro",
+        "name": "达罗河谷与悲伤者步道",
+        "nameEn": "Carrera del Darro",
+        "article": null,
+        "lat": 37.1786,
+        "lng": -3.592,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "河岸漫游",
+        "activityType": "leisure",
+        "priority": 60,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "顺河谷看石桥、白墙与山坡上的宫城，路窄且有通行车辆，适合慢走并随时停下来让路。",
+        "features": [
+          "河岸漫游",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "granada-caldereria",
+        "name": "卡尔德雷里亚茶铺街",
+        "nameEn": "卡尔德雷里亚茶铺街",
+        "article": null,
+        "lat": 37.1794,
+        "lng": -3.5971,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "茶馆与小店",
+        "activityType": "leisure",
+        "priority": 59,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在小巷茶铺与工艺品店之间浏览，按喜好点茶或甜点；茶水与购物不含在零门票里。",
+        "features": [
+          "茶馆与小店",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "granada-realejo",
+        "name": "雷阿莱霍壁画与街区",
+        "nameEn": "Realejo",
+        "article": null,
+        "lat": 37.1721,
+        "lng": -3.5935,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街头艺术",
+        "activityType": "leisure",
+        "priority": 58,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿旧街区寻找随时间变化的壁画、广场和小馆，用一段没有固定打卡数的散步认识城市。",
+        "features": [
+          "街头艺术",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "granada-martires",
+        "name": "烈士花园与山坡庭院",
+        "nameEn": "Carmen de los Mártires",
+        "article": null,
+        "lat": 37.1718,
+        "lng": -3.5854,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "花园休息",
+        "activityType": "leisure",
+        "priority": 57,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在宫城附近的花园看水池、树影和城市远景；活动与维护可能影响局部开放，先看当天公告。",
+        "features": [
+          "花园休息",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/es/areas-tematicas/bodas-palacios/carmen-martires",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/es/areas-tematicas/bodas-palacios/carmen-martires",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/es/areas-tematicas/bodas-palacios/carmen-martires"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/es/areas-tematicas/bodas-palacios/carmen-martires",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "granada-sacromonte",
+        "name": "萨克罗蒙特窑洞文化馆",
+        "nameEn": "Sacromonte",
+        "article": null,
+        "lat": 37.1811,
+        "lng": -3.5825,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "生活文化",
+        "activityType": "culture",
+        "priority": 36,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "到山坡窑洞博物馆了解居住、手艺与音乐传统；这是文化参观，夜间弗拉明戈演出需另选场次。",
+        "features": [
+          "生活文化",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 5,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。"
+      },
+      {
+        "id": "granada-corral-carbon",
+        "name": "炭院的拱门与中庭",
+        "nameEn": "Corral del Carbón",
+        "article": "Corral del Carbón",
+        "lat": 37.1747,
+        "lng": -3.5984,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 20,
+          "recommended": 45,
+          "max": 70
+        },
+        "category": "历史小院",
+        "activityType": "leisure",
+        "priority": 55,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从精巧拱门进入旧商旅院落，适合作为市中心散步里的短停留；特别演出并非免费日常参观。",
+        "features": [
+          "历史小院",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Corral_del_Carb%C3%B3n",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Corral_del_Carbón.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "granada-alcaiceria",
+        "name": "阿尔卡伊塞里亚工艺品巷",
+        "nameEn": "Alcaicería",
+        "article": "Alcaicería",
+        "lat": 37.1753,
+        "lng": -3.5988,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 20,
+          "recommended": 45,
+          "max": 70
+        },
+        "category": "手工小店",
+        "activityType": "leisure",
+        "priority": 54,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在狭窄的商巷浏览陶瓷、灯具与纪念品，喜欢再购买，轻松走过也能感受旧市集的尺度。",
+        "features": [
+          "手工小店",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://turismo.granada.org/en",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "turismo.granada.org",
+            "url": "https://turismo.granada.org/en",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Alcaicer%C3%ADa_of_Granada",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://turismo.granada.org/en"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://turismo.granada.org/en",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Alcaiceria_granada.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      }
+    ],
+    "photoFile": "Granada_(25987961022).jpg",
+    "photoStatus": "candidate-metadata-reviewed"
+  },
+  {
+    "id": "porto",
+    "name": "波尔图",
+    "nameEn": "Porto",
+    "country": "葡萄牙",
+    "countryCode": "PT",
+    "currency": "EUR",
+    "region": "欧洲",
+    "isoRegion": "PT-13",
+    "lat": 41.1579,
+    "lng": -8.6291,
+    "iata": "OPO",
+    "article": "Porto",
+    "tagline": "顺着蓝白瓷砖与石阶走到杜罗河，在旧市场吃午餐，跨桥去加亚听波特酒的故事。",
+    "description": "顺着蓝白瓷砖与石阶走到杜罗河，在旧市场吃午餐，跨桥去加亚听波特酒的故事。",
+    "tags": [
+      "河岸街区",
+      "地方美食",
+      "街区慢游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Porto"
+    },
+    "officialTourismUrl": "https://visitporto.travel/en-GB",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "历史中心两天，加一天给河口海岸或塞拉维斯；杜罗河谷一日游应额外安排，不并入城内步行日。"
+    },
+    "daily": {
+      "lodging": [
+        65,
+        130,
+        290
+      ],
+      "food": [
+        24,
+        48,
+        105
+      ],
+      "transport": [
+        6,
+        15,
+        38
+      ],
+      "misc": [
+        7,
+        16,
+        35
+      ]
+    },
+    "monthly": {
+      "rent": [
+        700,
+        1250,
+        2400
+      ],
+      "utilities": [
+        100,
+        160,
+        270
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚；饮食、交通、杂项每成人每天；长租与水电每间每月。城市税、早餐、预约及接送按实际另核。"
+    },
+    "transportNote": "市中心坡道和石阶多，结合地铁、公交与步行；路易一世桥上层留意行驶中的轻轨。OPO 机场接驳另留时间，加亚住宿位于河对岸，跨桥通勤应计入日程。",
+    "sourceReferences": [
+      {
+        "name": "visitporto.travel",
+        "url": "https://visitporto.travel/en-GB",
+        "kind": "official-tourism",
+        "scope": "destination-context",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/articles/top-things-to-do-in-porto",
+        "kind": "travel-editorial",
+        "scope": "editorial-discovery",
+        "checkedAt": "2026-09-23"
+      },
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Porto",
+        "kind": "encyclopedia",
+        "scope": "entity-identity-and-photo-candidate",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "guide": {
+      "cityId": "porto",
+      "intro": "顺着蓝白瓷砖与石阶走到杜罗河，在旧市场吃午餐，跨桥去加亚听波特酒的故事。",
+      "foodHighlights": [
+        {
+          "name": "法兰西小姑娘热三明治",
+          "description": "多种肉类夹入面包，盖上奶酪并浇浓酱，常配薯条；份量不小，适合认真坐下吃一餐。"
+        },
+        {
+          "name": "波尔图牛肚炖白豆",
+          "description": "牛肚与豆类、肉类慢炖的传统菜，适合想了解本地家常味道的人；内脏接受度与份量先考虑。"
+        },
+        {
+          "name": "戈麦斯·德萨风味鳕鱼",
+          "description": "盐渍鳕鱼处理后与土豆、洋葱、鸡蛋和橄榄搭配，是和波尔图联系紧密的鳕鱼做法。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "博良市场与午餐小停留",
+          "description": "看看鱼、蔬果、面包和熟食摊，再按食欲挑一份午餐；消费计入餐饮预算，市场浏览不另算门票。"
+        },
+        {
+          "name": "水晶宫花园与河谷眺望",
+          "description": "在花园小径、草坪和观景平台之间度过安静午后，适合带简餐坐一会儿，活动场馆另计。"
+        },
+        {
+          "name": "米格尔·邦巴尔达画廊街",
+          "description": "在画廊、设计小店和咖啡馆之间边走边看；各店开放日不同，把它当作可自由缩短的街区时间。"
+        }
+      ],
+      "experienceIntro": "地标之外，把时间留给市场、河岸、街区和休息；预约体验与长时活动由你按兴趣加入。"
+    },
+    "attractions": [
+      {
+        "id": "porto-ribeira",
+        "name": "里贝拉河岸与石阶街巷",
+        "nameEn": "Ribeira, Porto",
+        "article": null,
+        "lat": 41.1405,
+        "lng": -8.613,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "河岸街区",
+        "activityType": "culture",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿杜罗河看彩色房屋和船只，再走进坡上的石阶小巷；露台餐饮与游船自选，不强制消费。",
+        "features": [
+          "河岸街区",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "porto-luis-bridge",
+        "name": "路易一世桥与加亚观景",
+        "nameEn": "Dom Luís I Bridge",
+        "article": "Dom Luís I Bridge",
+        "lat": 41.1398,
+        "lng": -8.6095,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "河岸观景",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在步行区域跨过杜罗河，再到加亚一侧看波尔图屋顶；上层有轻轨通行，别把轨道当拍照点。",
+        "features": [
+          "河岸观景",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Dom_Luís_I_Bridge_(36961760686).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-sao-bento",
+        "name": "圣本笃车站瓷砖大厅",
+        "nameEn": "São Bento railway station",
+        "article": "São Bento railway station",
+        "lat": 41.1456,
+        "lng": -8.6106,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 20,
+          "recommended": 45,
+          "max": 70
+        },
+        "category": "城市建筑",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在仍然运营的火车站大厅看蓝白瓷砖画，避开乘客通道；仅参观大厅不需要购火车票。",
+        "features": [
+          "城市建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Bento_railway_station",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Estação_Ferroviária_de_Porto_-_São_Bento.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-bolhao",
+        "name": "博良市场与午餐小停留",
+        "nameEn": "Bolhão Market",
+        "article": null,
+        "lat": 41.1496,
+        "lng": -8.6077,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "市场生活",
+        "activityType": "leisure",
+        "priority": 62,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "看看鱼、蔬果、面包和熟食摊，再按食欲挑一份午餐；消费计入餐饮预算，市场浏览不另算门票。",
+        "features": [
+          "市场生活",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB/attraction/food-wine",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB/attraction/food-wine",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "pt.wikipedia.org",
+            "url": "https://pt.wikipedia.org/wiki/Mercado_do_Bolh%C3%A3o",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB/attraction/food-wine"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB/attraction/food-wine",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Bolhão2023.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-clerigos",
+        "name": "克莱里戈斯塔登高",
+        "nameEn": "Clérigos Church",
+        "article": "Clérigos Church",
+        "lat": 41.1456,
+        "lng": -8.6146,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 92,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "爬台阶到塔上看屋顶与河谷，体力不适时可以只在外面看建筑；所列金额为登塔预算。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.torredosclerigos.pt/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "torredosclerigos.pt",
+            "url": "https://www.torredosclerigos.pt/en/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Cl%C3%A9rigos_Church",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.torredosclerigos.pt/en/"
+        },
+        "price": {
+          "low": 8,
+          "high": 15,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.torredosclerigos.pt/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Torre_de_los_Clérigos,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-lello",
+        "name": "莱罗书店预约参观",
+        "nameEn": "Livraria Lello",
+        "article": "Livraria Lello",
+        "lat": 41.1469,
+        "lng": -8.6149,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "category": "书店文化",
+        "activityType": "culture",
+        "priority": 40,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "提前挑选入场时段，再欣赏楼梯和书架；门票是否可抵购书以及票档内容应在官网核对。",
+        "features": [
+          "书店文化",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://livrarialello.pt/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "livrarialello.pt",
+            "url": "https://livrarialello.pt/en/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Livraria_Lello",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://livrarialello.pt/en/"
+        },
+        "price": {
+          "low": 10,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://livrarialello.pt/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Lello_Bookshop_9_April_2026.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-bolsa",
+        "name": "证券交易所宫导览",
+        "nameEn": "Palácio da Bolsa",
+        "article": "Palácio da Bolsa",
+        "lat": 41.1415,
+        "lng": -8.6158,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "历史宫殿",
+        "activityType": "culture",
+        "priority": 39,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "跟随馆方安排看华丽大厅和商业城市的历史，按照导览语言、场次与实际集合时间安排。",
+        "features": [
+          "历史宫殿",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://palaciodabolsa.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "palaciodabolsa.com",
+            "url": "https://palaciodabolsa.com/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Pal%C3%A1cio_da_Bolsa",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://palaciodabolsa.com/"
+        },
+        "price": {
+          "low": 12,
+          "high": 20,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://palaciodabolsa.com/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Palacio_da_Bolsa_in_Porto_(2).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-cathedral",
+        "name": "波尔图主教座堂与前庭",
+        "nameEn": "Porto Cathedral",
+        "article": "Porto Cathedral",
+        "lat": 41.1428,
+        "lng": -8.611,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 40,
+          "recommended": 75,
+          "max": 110
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从高处的前庭看旧城，再按兴趣参观回廊和教堂空间；收费范围与宗教活动安排以现场为准。",
+        "features": [
+          "历史建筑",
+          "城市精选"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "en.wikipedia.org",
+            "url": "https://en.wikipedia.org/wiki/Porto_Cathedral",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 3,
+          "high": 10,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Porto,_Sé_do_Porto_(9).jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-crystal-gardens",
+        "name": "水晶宫花园与河谷眺望",
+        "nameEn": "Crystal Palace Gardens",
+        "article": null,
+        "lat": 41.1486,
+        "lng": -8.6251,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "花园休息",
+        "activityType": "leisure",
+        "priority": 57,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在花园小径、草坪和观景平台之间度过安静午后，适合带简餐坐一会儿，活动场馆另计。",
+        "features": [
+          "花园休息",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "porto-foz",
+        "name": "福兹海口与大西洋海风",
+        "nameEn": "Foz do Douro",
+        "article": null,
+        "lat": 41.1494,
+        "lng": -8.6755,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "category": "海岸休闲",
+        "activityType": "nature",
+        "priority": 36,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "坐公交到河流入海的地方，挑一段滨海步道看浪；大浪天不要进入封闭防波堤，往返交通另留。",
+        "features": [
+          "海岸休闲",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。"
+      },
+      {
+        "id": "porto-gaia-cellar",
+        "name": "Taylor’s 酒窖参观与波特酒品鉴",
+        "nameEn": "Taylor's Port Cellars",
+        "article": null,
+        "lat": 41.13394,
+        "lng": -8.61435,
+        "coordinateAccuracy": "official-location",
+        "coordinateNote": "官网所列酒窖坐标；按预约确认抵达入口。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "酒文化体验",
+        "activityType": "culture",
+        "priority": 35,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "走进加亚的历史酒窖，用语音导览了解波特酒的酿造与陈年，再按所选体验品尝不同酒款。跨河后仍有上坡路，适合单独留一段时间。",
+        "features": [
+          "酒文化体验",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB/attraction/food-wine",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "taylor.pt",
+            "url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+            "kind": "official-operator",
+            "scope": "entity-identity-location-and-experience",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB/attraction/food-wine"
+        },
+        "price": {
+          "low": 20,
+          "high": 45,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB/attraction/food-wine",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "website": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "bookingUrl": "https://www.taylor.pt/en/visit-taylors/port-cellars"
+      },
+      {
+        "id": "porto-serralves",
+        "name": "塞拉维斯艺术馆与公园",
+        "nameEn": "Serralves",
+        "article": null,
+        "lat": 41.1593,
+        "lng": -8.6606,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "category": "艺术与花园",
+        "activityType": "nature",
+        "priority": 34,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "把半天留给当代展览与园林，按当期票种选择建筑、花园或树冠步道；需预留城西往返。",
+        "features": [
+          "艺术与花园",
+          "自由选择"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://www.serralves.pt/en/",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "serralves.pt",
+            "url": "https://www.serralves.pt/en/",
+            "kind": "official-tourism",
+            "scope": "entity-context",
+            "checkedAt": "2026-09-23"
+          },
+          {
+            "name": "pt.wikipedia.org",
+            "url": "https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_de_Serralves",
+            "kind": "encyclopedia",
+            "scope": "entity-identity-and-photo-candidate",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://www.serralves.pt/en/"
+        },
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.serralves.pt/en/",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "成人编辑预算，未验证特定日期的可售票价；预约、票档、优惠资格和附加费用以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；按预约、往返交通和实际体验时长留出完整时间，不作为自动填补空档的小项目。",
+        "photoFile": "Casa_de_Serralves_2015.jpg",
+        "photoStatus": "candidate-metadata-reviewed"
+      },
+      {
+        "id": "porto-bombarda",
+        "name": "米格尔·邦巴尔达画廊街",
+        "nameEn": "Rua de Miguel Bombarda",
+        "article": null,
+        "lat": 41.1495,
+        "lng": -8.6215,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、步道开放及集合点请以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "category": "独立艺术街区",
+        "activityType": "leisure",
+        "priority": 53,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在画廊、设计小店和咖啡馆之间边走边看；各店开放日不同，把它当作可自由缩短的街区时间。",
+        "features": [
+          "独立艺术街区",
+          "慢慢探索"
+        ],
+        "bestTime": "户外项目尽量在日光下安排；场馆按当天开放日与预约时段确认。",
+        "sourceUrl": "https://visitporto.travel/en-GB",
+        "sourceCheckedAt": "2026-09-23",
+        "sourceReferences": [
+          {
+            "name": "visitporto.travel",
+            "url": "https://visitporto.travel/en-GB",
+            "kind": "official-tourism",
+            "scope": "destination-context",
+            "checkedAt": "2026-09-23"
+          }
+        ],
+        "image": {
+          "sourceUrl": "https://visitporto.travel/en-GB"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitporto.travel/en-GB",
+          "sourceName": "游览资料来源；金额为编辑预算，非实时售价",
+          "note": "仅所述公共区域参观按零门票规划；交通、餐饮、购物和付费附加体验另计。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "photoFile": "Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG",
+    "photoStatus": "candidate-metadata-reviewed"
+  }
+]

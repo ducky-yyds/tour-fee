@@ -301,6 +301,9 @@ def main():
     manual_ids = {e['id'] for e in read(MANUAL, [])}
     existing = {e['id']: e for e in read(OUTPUT, []) if e['id'] not in manual_ids}
     existing.update({e['id']: e for e in read(MANUAL, [])})
+    # Apply explicit exclusions even when this city already meets the minimum.
+    existing = {key: entry for key, entry in existing.items()
+                if key in manual_ids or not entry.get('osm') or eligible(entry['osm'])}
     prefetched, requests = set(), 0
     report = {'startedAt': now(), 'endpoint': args.endpoint, 'radiusMeters': args.radius, 'requestedCities': len(targets),
               'minimumPerCity': args.minimum, 'completed': [], 'failures': [], 'deferred': []}
@@ -309,10 +312,10 @@ def main():
         return p.exists() and (city['id'] in prefetched or (not args.refresh and (time.time()-p.stat().st_mtime)/86400 < args.cache_days))
     for i, city in enumerate(targets):
         old = [e for e in old_rows if e['cityId'] == city['id']]
+        retained = [e for key, e in existing.items() if e['cityId'] == city['id'] and key not in manual_ids]
         if len(old) >= args.minimum:
-            existing = {k: e for k, e in existing.items() if e['cityId'] != city['id'] or k in manual_ids}
             write(OUTPUT, sorted(existing.values(), key=lambda e: (e['cityId'], e['id'])))
-            report['completed'].append({'cityId': city['id'], 'existing': len(old), 'added': 0, 'total': len(old), 'cached': True})
+            report['completed'].append({'cityId': city['id'], 'existing': len(old), 'retained': len(retained), 'added': 0, 'total': len(old)+len(retained), 'cached': True})
             continue
         path = cache_path(city, args.radius)
         raw = read(path)
@@ -371,11 +374,27 @@ def main():
                 report['failures'].append(city['id'])
                 write(CACHE / 'last-run.json', {**report, 'requests': requests, 'updatedAt': now()})
                 continue
-        selected = select(city, raw, old, args.minimum, args.radius)
+        # Five is a minimum, not a cap. Refresh known mapped stays in place so
+        # adding editorial hotels does not remove other existing choices.
+        objects = {f"{item['type']}/{item['id']}": item for item in raw.get('elements', [])}
+        refreshed = []
+        radius = min(args.radius, RULES.get('selectionRadiusMeters', {}).get(city['id'], args.radius))
+        for previous in retained:
+            osm = previous.get('osm', {})
+            current = objects.get(f"{osm.get('type')}/{osm.get('id')}")
+            if current is None:
+                refreshed.append(previous)  # A missing bounded-query result is not proof of closure.
+                continue
+            pos = current.get('center', current)
+            if eligible(current) and 'lat' in pos and 'lon' in pos and distance(city, {'lat': pos['lat'], 'lng': pos['lon']}) <= radius / 1000:
+                refreshed.append(build(city, current, raw))
+        known = old + refreshed
+        selected = select(city, raw, known, args.minimum, args.radius) if len(known) < args.minimum else []
         existing = {k: e for k, e in existing.items() if e['cityId'] != city['id'] or k in manual_ids}
+        existing.update({e['id']: e for e in refreshed})
         existing.update({e['id']: e for e in selected})
         write(OUTPUT, sorted(existing.values(), key=lambda e: (e['cityId'], e['id'])))
-        result = {'cityId': city['id'], 'existing': len(old), 'added': len(selected), 'total': len(old)+len(selected), 'cached': cached}
+        result = {'cityId': city['id'], 'existing': len(old), 'retained': len(refreshed), 'added': len(selected), 'total': len(known)+len(selected), 'cached': cached}
         report['completed'].append(result)
         write(CACHE / 'last-run.json', {**report, 'requests': requests, 'updatedAt': now()})
         print(json.dumps(result, ensure_ascii=False), flush=True)

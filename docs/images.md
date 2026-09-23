@@ -1,6 +1,6 @@
 # 目的地图片维护
 
-本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。151 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。图片从对应地点和食物的 Wikimedia Commons 文件下载，不使用随机城市风景冒充地点。
+本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。169 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。图片从对应地点和食物的 Wikimedia Commons 文件下载，不使用随机城市风景冒充地点。
 
 上一版（2026-09-22）的 100 张目的地主图与 819 张地点照片作为扩充起点保留。本轮继续增加新城市、香港街区、地图小地点和食物摄影；当前缺图清单以目录报告为准，没有运行上一版的额外解码测试。
 
@@ -73,3 +73,9 @@ python3 scripts/complete-media.py --phase fallback
 API 顺序请求，间隔至少 1.25 秒；CDN 最多三个下载任务、统一限速。30 天请求缓存保存在 `artifacts/media-completion-cache`，429 尊重等待时间，401/403 不绕过。新缩略图默认请求宽 500 像素，可用 `--thumb-width=400` 为新增批次请求较小图片（Commons 可能返回最接近的预生成尺寸）；单图不超过 750 KiB，已有图片继续保留。周边检索先取得轻量坐标索引，只为选中的候选读取许可和缩略图信息；排除藏品、人物、菜品、施工等不适合表达周边环境的照片。逐张记录作者、来源和许可，原子写入素材清单。
 
 目录审计分别报告对应实拍、旧版摄影、附近实景、主题插画和仍缺图数量；“有图”不等于“全部已有准确实拍”。卡片默认只展示图片，来源和范围在展开详情中可直接查看。公共 API 资料：[Commons 图片元数据](https://www.mediawiki.org/wiki/API:Imageinfo)、[坐标检索](https://www.mediawiki.org/wiki/API:Geosearch)。
+
+## 控制目录图片体积
+
+`python3 scripts/compact-catalog-photos.py` 只列出体积超过 220 KiB、宽度至少 900 像素的 Commons 卡片照片；加 `--apply --max-images=80` 后，重新下载同一源文件的官方 500 像素缩略图。城市封面不参与，公共 URL、对应地点、署名和许可保持不变；仅在编码一致、授权仍可确认且体积至少缩小 10% 时替换。程序不在本地裁切或改绘照片，失败保留原图。
+
+这是按需执行的发布维护，不会在每日任务中反复下载。报告位于 `artifacts/catalog-photo-compaction.json`；2026-09-23 分两批为 159 张卡片共减少约 41.8 MiB，为新增目的地留出发布空间。素材记录保存 `preferredWidth: 500`，常规刷新继续请求该尺寸，并保留同一源图片的范围说明。

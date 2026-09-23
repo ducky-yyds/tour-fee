@@ -58,6 +58,22 @@
     { "cityId": "san-antonio", "airportCodes": ["SAT"], "sourceUrls": ["https://ourairports.com/airports/KSAT/"] },
     { "cityId": "denver", "airportCodes": ["DEN"], "sourceUrls": ["https://ourairports.com/airports/KDEN/"] },
     { "cityId": "salt-lake-city", "airportCodes": ["SLC"], "sourceUrls": ["https://ourairports.com/airports/KSLC/"] },
-    { "cityId": "flagstaff", "airportCodes": ["FLG"], "sourceUrls": ["https://ourairports.com/airports/KFLG/"] }
+    { "cityId": "flagstaff", "airportCodes": ["FLG"], "sourceUrls": ["https://ourairports.com/airports/KFLG/"] },
+    {"cityId":"shenzhen","airportCodes":["SZX"],"sourceUrls":["https://ourairports.com/airports/ZGSZ/"]},
+    {"cityId":"changsha","airportCodes":["CSX"],"sourceUrls":["https://ourairports.com/airports/ZGHA/"]},
+    {"cityId":"wuhan","airportCodes":["WUH"],"sourceUrls":["https://ourairports.com/airports/ZHHH/"]},
+    {"cityId":"harbin","airportCodes":["HRB"],"sourceUrls":["https://ourairports.com/airports/ZYHB/"]},
+    {"cityId":"dunhuang","airportCodes":["DNH"],"sourceUrls":["https://ourairports.com/airports/ZLDH/"]},
+    {"cityId":"zhangjiajie","airportCodes":["DYG"],"sourceUrls":["https://ourairports.com/airports/ZGDY/"]},
+    {"cityId":"sapporo","airportCodes":["CTS"],"sourceUrls":["https://ourairports.com/airports/RJCC/"]},
+    {"cityId":"fukuoka","airportCodes":["FUK"],"sourceUrls":["https://ourairports.com/airports/RJFF/"]},
+    {"cityId":"hiroshima","airportCodes":["HIJ"],"sourceUrls":["https://ourairports.com/airports/RJOA/"]},
+    {"cityId":"naha","airportCodes":["OKA"],"sourceUrls":["https://ourairports.com/airports/ROAH/"]},
+    {"cityId":"busan","airportCodes":["PUS"],"sourceUrls":["https://ourairports.com/airports/RKPK/"]},
+    {"cityId":"jeju","airportCodes":["CJU"],"sourceUrls":["https://ourairports.com/airports/RKPC/"]},
+    {"cityId":"nice","airportCodes":["NCE"],"sourceUrls":["https://ourairports.com/airports/LFMN/"]},
+    {"cityId":"seville","airportCodes":["SVQ"],"sourceUrls":["https://ourairports.com/airports/LEZL/"]},
+    {"cityId":"granada","airportCodes":["GRX"],"sourceUrls":["https://ourairports.com/airports/LEGR/"]},
+    {"cityId":"porto","airportCodes":["OPO"],"sourceUrls":["https://ourairports.com/airports/LPPR/"]}
   ]
 }

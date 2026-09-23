@@ -1,0 +1,1334 @@
+[
+  {
+    "id": "food-china2-shenzhen-squab",
+    "cityIds": [
+      "shenzhen"
+    ],
+    "name": "光明乳鸽",
+    "localName": "光明红烧乳鸽",
+    "description": "皮香肉嫩的乳鸽可按只点，适合搭配蔬菜与主食；光明距中心较远，也可先查市区粤菜馆菜单。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "光明乳鸽 光明红烧乳鸽 prepared food",
+    "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "深圳市人力资源和社会保障局",
+        "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "shenzhen": [
+        {
+          "name": "光明街道粤菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=shenzhen%20%E5%85%89%E6%98%8E%E8%A1%97%E9%81%93%E7%B2%A4%E8%8F%9C%E9%A6%86%20%E5%85%89%E6%98%8E%E4%B9%B3%E9%B8%BD",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-shenzhen-oyster",
+    "cityIds": [
+      "shenzhen"
+    ],
+    "name": "沙井蚝风味",
+    "localName": "沙井蚝",
+    "description": "以蚝入菜的地方风味，可选熟制的煎、焗或炸法；按只、份还是重量计价先询问。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "沙井蚝风味 沙井蚝 prepared food",
+    "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "深圳市人力资源和社会保障局",
+        "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "shenzhen": [
+        {
+          "name": "沙井老街及蚝乡一带",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=shenzhen%20%E6%B2%99%E4%BA%95%E8%80%81%E8%A1%97%E5%8F%8A%E8%9A%9D%E4%B9%A1%E4%B8%80%E5%B8%A6%20%E6%B2%99%E4%BA%95%E8%9A%9D%E9%A3%8E%E5%91%B3",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-shenzhen-urchin-rice",
+    "cityIds": [
+      "shenzhen"
+    ],
+    "name": "南澳海胆炒饭",
+    "localName": "南澳海胆炒饭",
+    "description": "海胆与米饭同炒的海滨风味，味道与份量随店家变化；可与东部海滨行程配一餐。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "南澳海胆炒饭 南澳海胆炒饭 prepared food",
+    "sourceUrl": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "深圳市人力资源和社会保障局",
+        "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_11293258.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "shenzhen": [
+        {
+          "name": "南澳海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=shenzhen%20%E5%8D%97%E6%BE%B3%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20%E5%8D%97%E6%BE%B3%E6%B5%B7%E8%83%86%E7%82%92%E9%A5%AD",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-shenzhen-poon-choi",
+    "cityIds": [
+      "shenzhen"
+    ],
+    "name": "围村盆菜",
+    "localName": "盆菜 · Poon choi",
+    "description": "多种熟食层叠装盆，适合多人合点；常需预订，人数、食材和最低份量向店家确认。",
+    "article": "Poon choi",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "围村盆菜 盆菜 · Poon choi prepared food",
+    "sourceUrl": "https://www.shenzhenshizhi.cn/book/74883ea15d7a8ccde2dec53f4d82ac7e/%E5%B8%82%E6%83%85%E6%A6%82%E8%B2%8C_26.pdf",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "深圳市史志办公室",
+        "url": "https://www.shenzhenshizhi.cn/book/74883ea15d7a8ccde2dec53f4d82ac7e/%E5%B8%82%E6%83%85%E6%A6%82%E8%B2%8C_26.pdf",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "shenzhen": [
+        {
+          "name": "下沙与南头粤菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=shenzhen%20%E4%B8%8B%E6%B2%99%E4%B8%8E%E5%8D%97%E5%A4%B4%E7%B2%A4%E8%8F%9C%E9%A6%86%20%E5%9B%B4%E6%9D%91%E7%9B%86%E8%8F%9C",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-shenzhen-rice-roll",
+    "cityIds": [
+      "shenzhen"
+    ],
+    "name": "粤式肠粉早餐",
+    "localName": "肠粉 · Cheung fun",
+    "description": "蒸米浆薄皮包住所选馅料，配豉油趁热吃；属于珠三角共享的日常味道，肉蛋虾料可自选。",
+    "article": "Rice noodle roll",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "粤式肠粉早餐 肠粉 · Cheung fun prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/shenzhen/things-to-do.htm",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "shenzhen": [
+        {
+          "name": "南头与东门早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=shenzhen%20%E5%8D%97%E5%A4%B4%E4%B8%8E%E4%B8%9C%E9%97%A8%E6%97%A9%E9%A4%90%E5%BA%97%20%E7%B2%A4%E5%BC%8F%E8%82%A0%E7%B2%89%E6%97%A9%E9%A4%90",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-changsha-stinky-tofu",
+    "cityIds": [
+      "changsha"
+    ],
+    "name": "长沙黑色臭豆腐",
+    "localName": "臭豆腐 · Chòu dòufu",
+    "description": "外壳酥脆、里面柔软，常配鲜汤与辣椒调味；可先买小份，确认辣度和配料。",
+    "article": "Changsha stinky tofu",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "长沙黑色臭豆腐 臭豆腐 · Chòu dòufu prepared food",
+    "sourceUrl": "https://enghunan.gov.cn/hneng/News/Localnews/202405/t20240510_33296477.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://enghunan.gov.cn/hneng/News/Localnews/202405/t20240510_33296477.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "changsha": [
+        {
+          "name": "黄兴路与坡子街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=changsha%20%E9%BB%84%E5%85%B4%E8%B7%AF%E4%B8%8E%E5%9D%A1%E5%AD%90%E8%A1%97%20%E9%95%BF%E6%B2%99%E9%BB%91%E8%89%B2%E8%87%AD%E8%B1%86%E8%85%90",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-changsha-sugar-cake",
+    "cityIds": [
+      "changsha"
+    ],
+    "name": "糖油粑粑",
+    "localName": "糖油粑粑 · Tángyóu bāba",
+    "description": "糯米团在糖油中煎成柔糯小点，适合几人分食；刚出锅较烫，小份即可感受甜香。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "糖油粑粑 糖油粑粑 · Tángyóu bāba prepared food",
+    "sourceUrl": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/Dining/201610/t20161017_3361107.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://www.enghunan.gov.cn/hneng/Tourism/TourHunan/Changsha_55545/Dining/201610/t20161017_3361107.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "changsha": [
+        {
+          "name": "太平街与老城小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=changsha%20%E5%A4%AA%E5%B9%B3%E8%A1%97%E4%B8%8E%E8%80%81%E5%9F%8E%E5%B0%8F%E5%90%83%E5%BA%97%20%E7%B3%96%E6%B2%B9%E7%B2%91%E7%B2%91",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-changsha-rice-noodles",
+    "cityIds": [
+      "changsha"
+    ],
+    "name": "长沙米粉",
+    "localName": "长沙米粉 · Chángshā mǐfěn",
+    "description": "扁粉或圆粉配汤与浇头，清早吃一碗更贴近日常；肉丝、牛肉与酸菜等以门店菜单为准。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "长沙米粉 长沙米粉 · Chángshā mǐfěn prepared food",
+    "sourceUrl": "https://eastmoment.com/chinese-food/changsha-food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "East Moment 旅行指南",
+        "url": "https://eastmoment.com/chinese-food/changsha-food/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "changsha": [
+        {
+          "name": "老城早餐粉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=changsha%20%E8%80%81%E5%9F%8E%E6%97%A9%E9%A4%90%E7%B2%89%E5%BA%97%20%E9%95%BF%E6%B2%99%E7%B1%B3%E7%B2%89",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-changsha-chili-pork",
+    "cityIds": [
+      "changsha"
+    ],
+    "name": "辣椒炒肉",
+    "localName": "辣椒炒肉 · Làjiāo chǎoròu",
+    "description": "青椒与猪肉大火快炒，适合配米饭分享；辣度随椒种而变，点餐时提前说明。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "辣椒炒肉 辣椒炒肉 · Làjiāo chǎoròu prepared food",
+    "sourceUrl": "https://eastmoment.com/chinese-food/changsha-food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "East Moment 旅行指南",
+        "url": "https://eastmoment.com/chinese-food/changsha-food/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "changsha": [
+        {
+          "name": "五一广场周边湘菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=changsha%20%E4%BA%94%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%91%A8%E8%BE%B9%E6%B9%98%E8%8F%9C%E9%A6%86%20%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Sautéed pork with chili pepper at Yinxiang Restaurant (20210522180012).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Saut%C3%A9ed_pork_with_chili_pepper_at_Yinxiang_Restaurant_%2820210522180012%29.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-changsha-fish-head",
+    "cityIds": [
+      "changsha"
+    ],
+    "name": "剁椒鱼头",
+    "localName": "剁椒鱼头 · Duòjiāo yútóu",
+    "description": "剁椒蒸鱼头是湘菜中的分享菜，鱼骨较多，可另配面条拌汁；按份或重量计价要确认。",
+    "article": "Steamed fish head with diced hot red peppers",
+    "articleScope": "dish",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "剁椒鱼头 剁椒鱼头 · Duòjiāo yútóu prepared food",
+    "sourceUrl": "https://eastmoment.com/chinese-food/changsha-food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "East Moment 旅行指南",
+        "url": "https://eastmoment.com/chinese-food/changsha-food/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "changsha": [
+        {
+          "name": "坡子街周边湘菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=changsha%20%E5%9D%A1%E5%AD%90%E8%A1%97%E5%91%A8%E8%BE%B9%E6%B9%98%E8%8F%9C%E9%A6%86%20%E5%89%81%E6%A4%92%E9%B1%BC%E5%A4%B4",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Steamed Fish Head with Diced Chili (20150726122046).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_Fish_Head_with_Diced_Chili_%2820150726122046%29.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-wuhan-reganmian",
+    "cityIds": [
+      "wuhan"
+    ],
+    "name": "武汉热干面",
+    "localName": "热干面 · Règānmiàn",
+    "description": "碱水面拌上芝麻酱和调味料，趁热拌匀吃；芝麻、辣油和腌菜可在下单时询问。",
+    "article": "Hot dry noodles",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "武汉热干面 热干面 · Règānmiàn prepared food",
+    "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "wuhan": [
+        {
+          "name": "粮道街、户部巷或山海关路",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=wuhan%20%E7%B2%AE%E9%81%93%E8%A1%97%E3%80%81%E6%88%B7%E9%83%A8%E5%B7%B7%E6%88%96%E5%B1%B1%E6%B5%B7%E5%85%B3%E8%B7%AF%20%E6%AD%A6%E6%B1%89%E7%83%AD%E5%B9%B2%E9%9D%A2",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-wuhan-doupi",
+    "cityIds": [
+      "wuhan"
+    ],
+    "name": "三鲜豆皮",
+    "localName": "三鲜豆皮 · Sānxiān dòupí",
+    "description": "薄皮包住糯米和肉丁等配料煎香，口感饱满；它不同于通常所说的豆腐皮。",
+    "article": "Doupi",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "三鲜豆皮 三鲜豆皮 · Sānxiān dòupí prepared food",
+    "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "wuhan": [
+        {
+          "name": "户部巷与吉庆街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=wuhan%20%E6%88%B7%E9%83%A8%E5%B7%B7%E4%B8%8E%E5%90%89%E5%BA%86%E8%A1%97%20%E4%B8%89%E9%B2%9C%E8%B1%86%E7%9A%AE",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-wuhan-lotus-rib",
+    "cityIds": [
+      "wuhan"
+    ],
+    "name": "排骨藕汤",
+    "localName": "排骨藕汤 · Páigǔ ǒutāng",
+    "description": "排骨与莲藕炖出一锅鲜香热汤，藕的粉糯度随品种与季节而变，适合多人分食。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "排骨藕汤 排骨藕汤 · Páigǔ ǒutāng prepared food",
+    "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "wuhan": [
+        {
+          "name": "武昌与汉口鄂菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=wuhan%20%E6%AD%A6%E6%98%8C%E4%B8%8E%E6%B1%89%E5%8F%A3%E9%84%82%E8%8F%9C%E9%A6%86%20%E6%8E%92%E9%AA%A8%E8%97%95%E6%B1%A4",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Lotus Root Soup.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lotus_Root_Soup.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-wuhan-wuchang-fish",
+    "cityIds": [
+      "wuhan"
+    ],
+    "name": "清蒸武昌鱼",
+    "localName": "清蒸武昌鱼 · Qīngzhēng Wǔchāngyú",
+    "description": "以整鱼清蒸呈现鲜味，点餐先问重量与计价；有细刺，食用时从容一些。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "清蒸武昌鱼 清蒸武昌鱼 · Qīngzhēng Wǔchāngyú prepared food",
+    "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "wuhan": [
+        {
+          "name": "东湖周边或汉口鄂菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=wuhan%20%E4%B8%9C%E6%B9%96%E5%91%A8%E8%BE%B9%E6%88%96%E6%B1%89%E5%8F%A3%E9%84%82%E8%8F%9C%E9%A6%86%20%E6%B8%85%E8%92%B8%E6%AD%A6%E6%98%8C%E9%B1%BC",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Steamed Wuchang Bream.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Steamed_Wuchang_Bream.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-wuhan-crayfish",
+    "cityIds": [
+      "wuhan"
+    ],
+    "name": "武汉小龙虾",
+    "localName": "小龙虾 · Xiǎolóngxiā",
+    "description": "蒜蓉、油焖等口味适合朋友合吃，按斤或份计价需看清；供应与鲜活季节有关。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "武汉小龙虾 小龙虾 · Xiǎolóngxiā prepared food",
+    "sourceUrl": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "武汉市政府",
+        "url": "https://english.wuhan.gov.cn/H_1/NWP/202606/t20260614_2777080.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "wuhan": [
+        {
+          "name": "万松园与雪松路",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=wuhan%20%E4%B8%87%E6%9D%BE%E5%9B%AD%E4%B8%8E%E9%9B%AA%E6%9D%BE%E8%B7%AF%20%E6%AD%A6%E6%B1%89%E5%B0%8F%E9%BE%99%E8%99%BE",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-harbin-guobaorou",
+    "cityIds": [
+      "harbin"
+    ],
+    "name": "哈尔滨锅包肉",
+    "localName": "锅包肉 · Guōbāoròu",
+    "description": "薄肉片炸脆后挂上酸甜汁，刚出锅最能吃到酥壳；本地传统口味与番茄汁版本不同。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "哈尔滨锅包肉 锅包肉 · Guōbāoròu prepared food",
+    "sourceUrl": "https://gxt.hlj.gov.cn/gxt/c107067/202306/c00_31643460.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省工业和信息化厅",
+        "url": "https://gxt.hlj.gov.cn/gxt/c107067/202306/c00_31643460.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "harbin": [
+        {
+          "name": "道外东北菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=harbin%20%E9%81%93%E5%A4%96%E4%B8%9C%E5%8C%97%E8%8F%9C%E9%A6%86%20%E5%93%88%E5%B0%94%E6%BB%A8%E9%94%85%E5%8C%85%E8%82%89",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-harbin-red-sausage",
+    "cityIds": [
+      "harbin"
+    ],
+    "name": "哈尔滨红肠",
+    "localName": "红肠 · Hóngcháng",
+    "description": "带烟熏香气的熟制肉肠，可切片配面包；肉类、蒜味和保存方法按具体产品核对。",
+    "article": "Harbin red sausage",
+    "articleScope": "dish",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "哈尔滨红肠 红肠 · Hóngcháng prepared food",
+    "sourceUrl": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省政府",
+        "url": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "harbin": [
+        {
+          "name": "秋林商圈与中央大街食品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=harbin%20%E7%A7%8B%E6%9E%97%E5%95%86%E5%9C%88%E4%B8%8E%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E9%A3%9F%E5%93%81%E5%BA%97%20%E5%93%88%E5%B0%94%E6%BB%A8%E7%BA%A2%E8%82%A0",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Smoked Chinese sausage.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Smoked_Chinese_sausage.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-harbin-dalieba",
+    "cityIds": [
+      "harbin"
+    ],
+    "name": "大列巴面包",
+    "localName": "大列巴 · Dàliěba",
+    "description": "个头较大的俄式风味面包，适合切片分享或配红肠；不同配方的酸香与硬度差别较大。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "大列巴面包 大列巴 · Dàliěba prepared food",
+    "sourceUrl": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省政府",
+        "url": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "harbin": [
+        {
+          "name": "中央大街与秋林商圈",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=harbin%20%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E4%B8%8E%E7%A7%8B%E6%9E%97%E5%95%86%E5%9C%88%20%E5%A4%A7%E5%88%97%E5%B7%B4%E9%9D%A2%E5%8C%85",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Dalieba bread in Dalian (2018).jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Dalieba_bread_in_Dalian_%282018%29.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-harbin-kvass",
+    "cityIds": [
+      "harbin"
+    ],
+    "name": "格瓦斯",
+    "localName": "格瓦斯 · Kvass",
+    "description": "带发酵面包香的饮品，在哈尔滨有日常饮用传统；不同产品含糖和酒精情况看瓶身标示。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "格瓦斯 格瓦斯 · Kvass prepared food",
+    "sourceUrl": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省政府",
+        "url": "https://www.hlj.gov.cn/hlj/c107856/202501/c00_31803504.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "harbin": [
+        {
+          "name": "中央大街食品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=harbin%20%E4%B8%AD%E5%A4%AE%E5%A4%A7%E8%A1%97%E9%A3%9F%E5%93%81%E5%BA%97%20%E6%A0%BC%E7%93%A6%E6%96%AF",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-harbin-fried-cake",
+    "cityIds": [
+      "harbin"
+    ],
+    "name": "东北油炸糕",
+    "localName": "油炸糕 · Yóuzhágāo",
+    "description": "糯米外皮包馅炸成热乎小点，适合早市买小份尝味；馅心烫口，先放凉一些。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "东北油炸糕 油炸糕 · Yóuzhágāo prepared food",
+    "sourceUrl": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "黑龙江省政府",
+        "url": "https://www.hlj.gov.cn/hlj/c111007sb/202601/c00_31905425.shtml",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "harbin": [
+        {
+          "name": "红专街早市",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=harbin%20%E7%BA%A2%E4%B8%93%E8%A1%97%E6%97%A9%E5%B8%82%20%E4%B8%9C%E5%8C%97%E6%B2%B9%E7%82%B8%E7%B3%95",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-dunhuang-yellow-noodles",
+    "cityIds": [
+      "dunhuang"
+    ],
+    "name": "敦煌驴肉黄面",
+    "localName": "驴肉黄面 · Lǘròu huángmiàn",
+    "description": "黄面与驴肉相配是当地常见面食组合，面和肉可能分开计价；先问小份及配菜。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "敦煌驴肉黄面 驴肉黄面 · Lǘròu huángmiàn prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "dunhuang": [
+        {
+          "name": "沙州夜市与市区面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=dunhuang%20%E6%B2%99%E5%B7%9E%E5%A4%9C%E5%B8%82%E4%B8%8E%E5%B8%82%E5%8C%BA%E9%9D%A2%E9%A6%86%20%E6%95%A6%E7%85%8C%E9%A9%B4%E8%82%89%E9%BB%84%E9%9D%A2",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-dunhuang-niangpi",
+    "cityIds": [
+      "dunhuang"
+    ],
+    "name": "敦煌酿皮",
+    "localName": "酿皮 · Niàngpí",
+    "description": "蒸制面皮切条拌调味汁，口感筋道，适合炎热白天的小食；蒜汁辣油可按偏好调整。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "敦煌酿皮 酿皮 · Niàngpí prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "dunhuang": [
+        {
+          "name": "沙州夜市",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=dunhuang%20%E6%B2%99%E5%B7%9E%E5%A4%9C%E5%B8%82%20%E6%95%A6%E7%85%8C%E9%85%BF%E7%9A%AE",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-dunhuang-apricot-water",
+    "cityIds": [
+      "dunhuang"
+    ],
+    "name": "杏皮水",
+    "localName": "杏皮水 · Xìngpíshuǐ",
+    "description": "以杏干或杏皮等煮成的酸甜饮品，常作为沙漠城市的解渴选择；糖度与冷热可先询问。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "杏皮水 杏皮水 · Xìngpíshuǐ prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "dunhuang": [
+        {
+          "name": "沙州夜市饮品摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=dunhuang%20%E6%B2%99%E5%B7%9E%E5%A4%9C%E5%B8%82%E9%A5%AE%E5%93%81%E6%91%8A%20%E6%9D%8F%E7%9A%AE%E6%B0%B4",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-dunhuang-fried-pancake",
+    "cityIds": [
+      "dunhuang"
+    ],
+    "name": "敦煌油糕",
+    "localName": "油糕 · Yóugāo",
+    "description": "面团包甜馅后炸制，外脆内软；糖、芝麻或坚果配方随店家而异，适合小份分享。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "敦煌油糕 油糕 · Yóugāo prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "dunhuang": [
+        {
+          "name": "沙州夜市小吃摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=dunhuang%20%E6%B2%99%E5%B7%9E%E5%A4%9C%E5%B8%82%E5%B0%8F%E5%90%83%E6%91%8A%20%E6%95%A6%E7%85%8C%E6%B2%B9%E7%B3%95",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-dunhuang-lamb",
+    "cityIds": [
+      "dunhuang"
+    ],
+    "name": "西北烤羊肉串",
+    "localName": "烤羊肉串 · Kǎo yángròuchuàn",
+    "description": "炭火羊肉配孜然与辣椒，是夜市容易找到的一种西北风味；按串、把还是重量结算要先看清。",
+    "article": "Chuan (food)",
+    "articleScope": "dish",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "西北烤羊肉串 烤羊肉串 · Kǎo yángròuchuàn prepared food",
+    "sourceUrl": "https://www.chinahighlights.com/dunhuang/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "China Highlights",
+        "url": "https://www.chinahighlights.com/dunhuang/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "dunhuang": [
+        {
+          "name": "沙州夜市烧烤摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=dunhuang%20%E6%B2%99%E5%B7%9E%E5%A4%9C%E5%B8%82%E7%83%A7%E7%83%A4%E6%91%8A%20%E8%A5%BF%E5%8C%97%E7%83%A4%E7%BE%8A%E8%82%89%E4%B8%B2",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Barbecued lamb sticks.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Barbecued_lamb_sticks.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-zhangjiajie-sanxiaguo",
+    "cityIds": [
+      "zhangjiajie"
+    ],
+    "name": "土家三下锅",
+    "localName": "三下锅 · Sānxiàguō",
+    "description": "多种肉类或内脏与配菜同锅烹制，内容因店而异；可先确认原料、干锅汤锅和辣度。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "土家三下锅 三下锅 · Sānxiàguō prepared food",
+    "sourceUrl": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Zhangjiajie Travels",
+        "url": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zhangjiajie": [
+        {
+          "name": "武陵源镇区与永定餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zhangjiajie%20%E6%AD%A6%E9%99%B5%E6%BA%90%E9%95%87%E5%8C%BA%E4%B8%8E%E6%B0%B8%E5%AE%9A%E9%A4%90%E9%A6%86%20%E5%9C%9F%E5%AE%B6%E4%B8%89%E4%B8%8B%E9%94%85",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-zhangjiajie-cured-pork",
+    "cityIds": [
+      "zhangjiajie"
+    ],
+    "name": "土家腊肉",
+    "localName": "腊肉 · Làròu",
+    "description": "烟熏腌制肉切片炒菜，咸香明显，适合配米饭和蔬菜；并非所有店都会用同一种熏制方式。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "土家腊肉 腊肉 · Làròu prepared food",
+    "sourceUrl": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Zhangjiajie Travels",
+        "url": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zhangjiajie": [
+        {
+          "name": "溪布街周边土家菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zhangjiajie%20%E6%BA%AA%E5%B8%83%E8%A1%97%E5%91%A8%E8%BE%B9%E5%9C%9F%E5%AE%B6%E8%8F%9C%E9%A6%86%20%E5%9C%9F%E5%AE%B6%E8%85%8A%E8%82%89",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-zhangjiajie-ciba",
+    "cityIds": [
+      "zhangjiajie"
+    ],
+    "name": "土家糍粑",
+    "localName": "糍粑 · Cíbā",
+    "description": "糯米捶打成粑后可煎烤或蘸糖，吃的是柔糯米香；手工制作体验需另约，不默认为餐馆服务。",
+    "article": "Ciba cake",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "土家糍粑 糍粑 · Cíbā prepared food",
+    "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zhangjiajie": [
+        {
+          "name": "武陵源与永定小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zhangjiajie%20%E6%AD%A6%E9%99%B5%E6%BA%90%E4%B8%8E%E6%B0%B8%E5%AE%9A%E5%B0%8F%E5%90%83%E5%BA%97%20%E5%9C%9F%E5%AE%B6%E7%B3%8D%E7%B2%91",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-zhangjiajie-sour-fish",
+    "cityIds": [
+      "zhangjiajie"
+    ],
+    "name": "土家酸鱼风味",
+    "localName": "酸鱼 · Suānyú",
+    "description": "发酵酸香与鱼肉组成地方风味，烹调和鱼种因店不同；建议询问制作方式并选择充分熟制。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "土家酸鱼风味 酸鱼 · Suānyú prepared food",
+    "sourceUrl": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Zhangjiajie Travels",
+        "url": "https://zhangjiajietravels.com/what-to-eat-in-zhangjiajie/",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zhangjiajie": [
+        {
+          "name": "永定土家菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zhangjiajie%20%E6%B0%B8%E5%AE%9A%E5%9C%9F%E5%AE%B6%E8%8F%9C%E9%A6%86%20%E5%9C%9F%E5%AE%B6%E9%85%B8%E9%B1%BC%E9%A3%8E%E5%91%B3",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-zhangjiajie-chestnut-chicken",
+    "cityIds": [
+      "zhangjiajie"
+    ],
+    "name": "板栗炖鸡",
+    "localName": "板栗炖鸡 · Bǎnlì dùnjī",
+    "description": "板栗与鸡肉同炖，适合作为登山后多人分享的温和菜式；可确认是否加辣与季节供应。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "板栗炖鸡 板栗炖鸡 · Bǎnlì dùnjī prepared food",
+    "sourceUrl": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "湖南省政府",
+        "url": "https://enghunan.gov.cn/hneng/Tourism/TourHunan/Zhangjiajie_1/index.html",
+        "kind": "official-tourism",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "zhangjiajie": [
+        {
+          "name": "武陵源土家菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=zhangjiajie%20%E6%AD%A6%E9%99%B5%E6%BA%90%E5%9C%9F%E5%AE%B6%E8%8F%9C%E9%A6%86%20%E6%9D%BF%E6%A0%97%E7%82%96%E9%B8%A1",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-chongqing-chen-mahua",
+    "cityIds": [
+      "chongqing"
+    ],
+    "name": "磁器口麻花",
+    "localName": "陈麻花 · Máhuā",
+    "description": "酥脆拧花小食有甜咸等不同口味，适合逛街少量品尝；袋装重量和保质期看清后再买。",
+    "article": "Mahua (snack)",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "磁器口麻花 陈麻花 · Máhuā prepared food",
+    "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://go.trip.com/zh-tw/china/chongqing.html",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "chongqing": [
+        {
+          "name": "磁器口古镇",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=chongqing%20%E7%A3%81%E5%99%A8%E5%8F%A3%E5%8F%A4%E9%95%87%20%E7%A3%81%E5%99%A8%E5%8F%A3%E9%BA%BB%E8%8A%B1",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-chongqing-qianzhang",
+    "cityIds": [
+      "chongqing"
+    ],
+    "name": "磁器口千张皮",
+    "localName": "千张皮 · Qiānzhāngpí",
+    "description": "豆制薄片配当地调味，作为凉菜或配菜能丰富一餐；不同做法辣度和油量差别较大。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "磁器口千张皮 千张皮 · Qiānzhāngpí prepared food",
+    "sourceUrl": "https://go.trip.com/zh-tw/china/chongqing.html",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Trip.com",
+        "url": "https://go.trip.com/zh-tw/china/chongqing.html",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "chongqing": [
+        {
+          "name": "磁器口巴渝菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=chongqing%20%E7%A3%81%E5%99%A8%E5%8F%A3%E5%B7%B4%E6%B8%9D%E8%8F%9C%E9%A6%86%20%E7%A3%81%E5%99%A8%E5%8F%A3%E5%8D%83%E5%BC%A0%E7%9A%AE",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  },
+  {
+    "id": "food-china2-jinan-jiuzhuan",
+    "cityIds": [
+      "jinan"
+    ],
+    "name": "九转大肠",
+    "localName": "九转大肠 · Jiǔzhuǎn dàcháng",
+    "description": "猪大肠经过多道烹制形成酸甜咸香的鲁菜风味，适合合点小份；属于内脏菜，点餐前确认接受程度。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "exact-food-photo",
+    "imageQuery": "九转大肠 九转大肠 · Jiǔzhuǎn dàcháng prepared food",
+    "sourceUrl": "https://www.travelchinaguide.com/cityguides/shandong/jinan/dining.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Travel China Guide",
+        "url": "https://www.travelchinaguide.com/cityguides/shandong/jinan/dining.htm",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "jinan": [
+        {
+          "name": "老商埠与老城鲁菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=jinan%20%E8%80%81%E5%95%86%E5%9F%A0%E4%B8%8E%E8%80%81%E5%9F%8E%E9%B2%81%E8%8F%9C%E9%A6%86%20%E4%B9%9D%E8%BD%AC%E5%A4%A7%E8%82%A0",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。",
+    "photoFile": "Jiuqu dachang 2009 03.jpg",
+    "photoCheckedAt": "2026-09-23",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Jiuqu_dachang_2009_03.jpg",
+    "photoScope": "dish-reference",
+    "photoNote": "相应菜式实拍，展示形态；不代表本地某家餐馆的份量、配方或当前出品。"
+  },
+  {
+    "id": "food-china2-jinan-roast-duck",
+    "cityIds": [
+      "jinan"
+    ],
+    "name": "济南烤鸭",
+    "localName": "济南烤鸭 · Jǐnán kǎoyā",
+    "description": "烤鸭作为当地鲁菜餐桌的一种选择，可按人数选择半只或整只；饼、配菜和汤是否包含需核对。",
+    "article": null,
+    "articleScope": "food-photo-pending",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "济南烤鸭 济南烤鸭 · Jǐnán kǎoyā prepared food",
+    "sourceUrl": "https://www.travelchinaguide.com/cityguides/shandong/jinan/dining.htm",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "cross-source-editorial",
+    "sourceScope": "regional-food-context",
+    "sourceReferences": [
+      {
+        "name": "Travel China Guide",
+        "url": "https://www.travelchinaguide.com/cityguides/shandong/jinan/dining.htm",
+        "kind": "travel-guide",
+        "scope": "destination-content",
+        "checkedAt": "2026-09-23"
+      }
+    ],
+    "catalogOrigin": "maintained-definition",
+    "whereByCity": {
+      "jinan": [
+        {
+          "name": "老城鲁菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=jinan%20%E8%80%81%E5%9F%8E%E9%B2%81%E8%8F%9C%E9%A6%86%20%E6%B5%8E%E5%8D%97%E7%83%A4%E9%B8%AD",
+          "note": "以该片区为找店起点；链接为检索，不承诺具体店家当日供应。确认菜单、份量和价格后点餐。"
+        }
+      ]
+    },
+    "servingNote": "用于选择每日餐饮，不重复加入固定门票成本；显示介绍不代表某家餐馆当前菜单。"
+  }
+]

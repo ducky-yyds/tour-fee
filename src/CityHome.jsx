@@ -26,6 +26,7 @@ import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import { Photo, Modal, OutLink, money } from "./ui.jsx";
 import CityBrief from "./CityBrief.jsx";
 import LocalFoodGuide from "./LocalFoodGuide.jsx";
+import SourceReferences from "./SourceReferences.jsx";
 import "./city-home.css";
 
 const TABS = [
@@ -238,6 +239,7 @@ function PlaceSourceDetails({ item }) {
       {item.verificationNote && (
         <p className="ch-detail-note">{item.verificationNote}</p>
       )}
+      <SourceReferences references={item.sourceReferences} excludeUrls={[item.sourceUrl, item.price?.sourceUrl]} />
       {osm && (
         <OutLink href="https://www.openstreetmap.org/copyright">
           © OpenStreetMap contributors

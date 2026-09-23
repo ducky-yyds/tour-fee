@@ -5,6 +5,7 @@ import { DATA_SOURCES } from './sources.mjs';
 import { MAINTENANCE_CONFIG } from './maintenance.mjs';
 import { readExperienceEntries } from './experience-catalog.mjs';
 import { normalizedMunicipality } from '../shared/airport-data.mjs';
+import { cardImage } from '../shared/media.mjs';
 
 // Reproducible reference snapshot actually retrieved from Frankfurter on this date.
 // Shown explicitly as cached whenever no validated database snapshot is present.
@@ -110,10 +111,10 @@ export function getCatalog() {
     guide: Array.isArray(guides) ? guides.find(g => g.cityId === city.id) : guides[city.id],
     localFoods: localFoods.filter(food => food.cityIds?.includes(city.id)).map(entry => {
       const { cityIds, whereByCity, ...food } = entry;
-      return { ...food, places: whereByCity?.[city.id] || [], image: food.photoStatus === 'needs-food-photo' || food.articleScope === 'ingredient' ? undefined : media.attractions?.[food.id] };
+      return { ...food, places: whereByCity?.[city.id] || [], image: cardImage(food, media, 'food') };
     }),
     experiences: experiences.filter(e => e.cityId === city.id).map(e => ({ ...e,
-      image: e.imageRef ? media.attractions?.[e.imageRef] : undefined,
+      image: cardImage(e, media, e.kind),
       priceOptions: e.priceOptions.map(option => {
         const source = DATA_SOURCES.find(s => s.kind === 'official-experience' && s.experienceId === e.id);
         const snapshot = source && readSnapshot(source.id);
@@ -124,7 +125,7 @@ export function getCatalog() {
     image: media.cities?.[city.id] || city.image,
     ...(city.id === 'tokyo' && subway ? { transportReference: { ...subway.value, sourceUrl: 'https://www.tokyometro.jp/en/ticket/travel/index.html', sourceName: 'Tokyo Metro', checkedAt: subway.updatedAt } } : {}),
     attractions: (city.attractions || []).map(attraction => {
-      const result = { ...attraction, image: media.attractions?.[attraction.id] || attraction.image };
+      const result = { ...attraction, image: cardImage(attraction, media) };
       if (eiffel && attraction.price?.sourceUrl === 'https://www.toureiffel.paris/en/rates-opening-times') result.price = { ...attraction.price, low: eiffel.value.low, high: eiffel.value.high, checkedAt: eiffel.updatedAt, type: 'official' };
       if (tokyoTower && attraction.price?.sourceUrl === 'https://ticket.tokyotower.co.jp/en/') result.price = { ...attraction.price, low: tokyoTower.value.low, high: tokyoTower.value.high, checkedAt: tokyoTower.updatedAt, type: 'official', note: `成人主展望台网上票 ${tokyoTower.value.low} JPY；Top Deck Tour 网上票 ${tokyoTower.value.high} JPY 起。不含柜台加价、Diamond Tour 或额外体验。` };
       return result;

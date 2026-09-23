@@ -12,6 +12,16 @@
   color: #99aa86;
   margin-top: 7px;
 }
+.timeline-photo-credit {
+  overflow-wrap: anywhere;
+  line-height: 1.7;
+}
+.timeline-photo-credit .out-link {
+  max-width: 100%;
+  white-space: normal;
+  align-items: flex-start;
+  margin-right: 10px;
+}
 .transit-method > summary {
   cursor: pointer;
   font-size: 12px;

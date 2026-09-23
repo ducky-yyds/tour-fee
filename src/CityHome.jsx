@@ -29,10 +29,10 @@ import LocalFoodGuide from "./LocalFoodGuide.jsx";
 import "./city-home.css";
 
 const TABS = [
-  { id: "sights", name: "景点与慢游", short: "去处", icon: Compass },
-  { id: "restaurant", name: "吃点当地的", short: "美食", icon: Utensils },
-  { id: "hotel", name: "选一处好住处", short: "酒店", icon: BedDouble },
-  { id: "experience", name: "值得专程体验", short: "体验", icon: Sparkles },
+  { id: "sights", name: "景点", short: "景点", icon: Compass },
+  { id: "restaurant", name: "美食", short: "美食", icon: Utensils },
+  { id: "hotel", name: "住宿", short: "住宿", icon: BedDouble },
+  { id: "experience", name: "独特体验", short: "体验", icon: Sparkles },
 ];
 const KIND_LABEL = {
   restaurant: "餐厅",
@@ -56,6 +56,25 @@ const priceUnit = (option) =>
     : option.unit === "booking"
       ? `单（最多 ${option.partyCapacity} 人）`
       : "人";
+// Presentation only: these places still use attraction selection and budgeting.
+function isLocalExploration(item) {
+  const price = item.price;
+  const free =
+    price &&
+    price.low != null &&
+    price.type !== "missing" &&
+    !price.missingPrice &&
+    Number(price.low) === 0 &&
+    Number(price.high ?? price.low) === 0;
+  return (
+    free &&
+    getVisitDurationRange(item).recommended <= 120 &&
+    (item.visitRole === "neighborhood" ||
+      /街区|街巷|市场|市集|广场|打卡|漫游|商业街|步行街/.test(
+        item.category || "",
+      ))
+  );
+}
 function initialDraft(city, plan) {
   const stop = plan?.stops?.find((item) => item.cityId === city.id);
   return {
@@ -89,6 +108,7 @@ function rangeText(low, high, currency) {
 function Price({ price, currency, rates, unit = "人", compact = false }) {
   if (
     !price ||
+    price.low == null ||
     price.type === "missing" ||
     price.missingPrice ||
     !Number.isFinite(Number(price.low))
@@ -116,7 +136,7 @@ function Price({ price, currency, rates, unit = "人", compact = false }) {
     </div>
   );
 }
-function PriceSource({ price, sourceUrl }) {
+function PriceSource({ price, sourceUrl, sourceLabel }) {
   const checked = dateLabel(price?.checkedAt);
   const official = price?.type === "official" && checked;
   const url = safeUrl(price?.sourceUrl || sourceUrl);
@@ -132,14 +152,16 @@ function PriceSource({ price, sourceUrl }) {
               : "参考预算 · 非实时售价"}
       </span>
       {url && (
-        <OutLink href={url}>{official ? "价格来源" : "商家与查询来源"}</OutLink>
+        <OutLink href={url}>
+          {official ? "价格来源" : sourceLabel || "商家与查询来源"}
+        </OutLink>
       )}
     </div>
   );
 }
-function ImageCredit({ image }) {
+function ImageCredit({ image, inline = false }) {
   return safeUrl(image?.sourceUrl) ? (
-    <div className="ch-image-credit">
+    <div className={`ch-image-credit${inline ? " is-inline" : ""}`}>
       <a
         href={image.sourceUrl}
         target="_blank"
@@ -160,7 +182,7 @@ function ImageCredit({ image }) {
     </div>
   ) : null;
 }
-function PlaceImage({ item, city, sight = false, className = "" }) {
+function placeMedia(item, city, sight) {
   const related =
     !sight && typeof item.imageRef === "string"
       ? city.attractions?.find((a) => a.id === item.imageRef)
@@ -170,20 +192,58 @@ function PlaceImage({ item, city, sight = false, className = "" }) {
     : related?.image?.url
       ? related.image
       : undefined;
-  const label = item.image?.url
-    ? null
-    : related?.image?.url
-      ? `相关景点 · ${related.name}`
-      : null;
+  const context =
+    image?.contextNote ||
+    (image?.scope === "illustration"
+      ? "插画示意，用于介绍这一地点的氛围。"
+      : image?.scope === "nearby"
+        ? "周边实景，画面不代表该地点本身。"
+        : !item.image?.url && related?.image?.url
+          ? `周边实景：${related.name}，画面不代表该商家本身。`
+          : null);
+  return { image, context };
+}
+function PlaceImage({ item, city, sight = false, className = "" }) {
+  const { image, context } = placeMedia(item, city, sight);
   return (
     <div className={`ch-place-photo ${className}`}>
       <Photo
         image={image}
-        alt={label ? `${city.name} · ${label}` : item.name}
+        alt={context ? `${item.name} · ${context}` : item.name}
       />
-      {label && <span className="ch-photo-label">{label}</span>}
-      <ImageCredit image={image} />
     </div>
+  );
+}
+function PlaceMediaDetails({ item, city, sight = false }) {
+  const { image, context } = placeMedia(item, city, sight);
+  return (
+    <div className="ch-media-details">
+      {context && <p>{context}</p>}
+      <ImageCredit image={image} inline />
+    </div>
+  );
+}
+function PlaceSourceDetails({ item }) {
+  const osm =
+    item.sourceProvider === "openstreetmap" || item.license === "ODbL-1.0";
+  return (
+    <>
+      {osm && (
+        <p className="ch-detail-note">
+          {item.kind === "hotel"
+            ? "住宿信息来自 OpenStreetMap，营业状态、房态和设施尚未独立核实。"
+            : "地点资料来自 OpenStreetMap；地图收录不代表已核实营业、服务或当日入场条件。"}
+        </p>
+      )}
+      {item.verificationNote && (
+        <p className="ch-detail-note">{item.verificationNote}</p>
+      )}
+      {osm && (
+        <OutLink href="https://www.openstreetmap.org/copyright">
+          © OpenStreetMap contributors
+        </OutLink>
+      )}
+    </>
   );
 }
 
@@ -202,6 +262,7 @@ export default function CityHome({
   const [draft, setDraft] = useState(() => initialDraft(city, plan));
   const [tab, setTab] = useState("sights");
   const [diningView, setDiningView] = useState("foods");
+  const [experienceView, setExperienceView] = useState("all");
   const [visitFilter, setVisitFilter] = useState("all");
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
@@ -223,13 +284,17 @@ export default function CityHome({
     setDaysText(String(next.days));
     setTab("sights");
     setDiningView("foods");
+    setExperienceView("all");
     setVisitFilter("all");
     setQuery("");
     setCategory("all");
     setDetail(null);
     setDayError("");
   }, [city.id]);
-  useEffect(() => setVisible(12), [tab, query, category, visitFilter, city.id]);
+  useEffect(
+    () => setVisible(12),
+    [tab, query, category, visitFilter, experienceView, city.id],
+  );
   const currency = plan?.currency || "CNY";
   const people = plan?.travelers || 1;
   const rooms = plan?.rooms || 1;
@@ -242,6 +307,12 @@ export default function CityHome({
       : Math.max(0, draft.days - (isFinalStop ? 1 : 0));
   const sights = asArray(city.attractions);
   const experiences = asArray(city.experiences);
+  const sightIds = new Set(sights.map((item) => item.id));
+  const localExplorations = sights.filter(isLocalExploration);
+  const catalogSights = sights.filter((item) => !isLocalExploration(item));
+  const bookableExperiences = experiences.filter(
+    (item) => item.kind === "experience",
+  );
   const selectedIds = new Set(draft.attractionIds);
   const selectedSights = sights.filter((a) => selectedIds.has(a.id));
   const resolved = draft.experienceSelections
@@ -256,10 +327,18 @@ export default function CityHome({
     })
     .filter(Boolean);
   const categories = [
-    ...new Set(sights.map((a) => a.category).filter(Boolean)),
+    ...new Set(catalogSights.map((a) => a.category).filter(Boolean)),
   ];
   const sourceList =
-    tab === "sights" ? sights : experiences.filter((a) => a.kind === tab);
+    tab === "sights"
+      ? catalogSights
+      : tab === "experience"
+        ? experienceView === "places"
+          ? localExplorations
+          : experienceView === "bookable"
+            ? bookableExperiences
+            : [...bookableExperiences, ...localExplorations]
+        : experiences.filter((a) => a.kind === tab);
   const filtered = useMemo(() => {
     const q = query.trim().toLocaleLowerCase();
     return sourceList.filter(
@@ -442,6 +521,7 @@ export default function CityHome({
   }
   function goTab(id) {
     setTab(id);
+    setExperienceView("all");
     setVisitFilter("all");
     setCategory("all");
     setQuery("");
@@ -575,11 +655,13 @@ export default function CityHome({
                 <span className="ch-tab-short">{short}</span>
                 <small>
                   {id === "sights"
-                    ? sights.length
+                    ? catalogSights.length
                     : id === "restaurant"
                       ? experiences.filter((item) => item.kind === id).length +
                         (city.localFoods?.length || 0)
-                      : experiences.filter((item) => item.kind === id).length}
+                      : id === "experience"
+                        ? bookableExperiences.length + localExplorations.length
+                        : experiences.filter((item) => item.kind === id).length}
                 </small>
               </button>
             ))}
@@ -610,6 +692,33 @@ export default function CityHome({
                   }
                 </small>
               </button>
+            </div>
+          )}
+          {tab === "experience" && (
+            <div
+              className="ch-dining-switch"
+              role="group"
+              aria-label="体验类型"
+            >
+              {[
+                [
+                  "all",
+                  "全部",
+                  bookableExperiences.length + localExplorations.length,
+                ],
+                ["places", "街区小逛", localExplorations.length],
+                ["bookable", "预订项目", bookableExperiences.length],
+              ].map(([id, label, count]) => (
+                <button
+                  key={id}
+                  type="button"
+                  aria-pressed={experienceView === id}
+                  onClick={() => setExperienceView(id)}
+                >
+                  {label}
+                  <small>{count}</small>
+                </button>
+              ))}
             </div>
           )}
           {tab === "restaurant" && diningView === "foods" ? (
@@ -689,8 +798,10 @@ export default function CityHome({
                         ? "选定餐厅与套餐，对应餐次会替换基础餐饮预算。"
                         : tab === "hotel"
                           ? "一个城市选一间酒店，按房间数与停留晚数核算。"
-                          : guide.experienceIntro ||
-                            "为旅程留一点独一无二的记忆。"}
+                          : experienceView === "places"
+                            ? "留一点时间逛街区、广场与市集，按去处加入行程。"
+                            : guide.experienceIntro ||
+                              "街区可以自由探索，商家项目按所选方案核算。"}
                 </p>
                 {tab === "sights" && filtered.length > 0 && (
                   <button
@@ -718,12 +829,12 @@ export default function CityHome({
                 aria-labelledby={`ch-tab-${tab}`}
               >
                 <div
-                  className={`ch-card-grid ${tab !== "sights" ? "ch-experience-grid" : ""}`}
+                  className={`ch-card-grid ${tab !== "sights" && !(tab === "experience" && experienceView === "places") ? "ch-experience-grid" : ""}`}
                 >
                   {filtered
                     .slice(0, visible)
                     .map((item) =>
-                      tab === "sights" ? (
+                      sightIds.has(item.id) ? (
                         <SightCard
                           key={item.id}
                           item={item}
@@ -1032,7 +1143,9 @@ function SightCard({
 }) {
   const minutes = getVisitDurationRange(item);
   return (
-    <article className={`ch-card ${selected ? "is-selected" : ""}`}>
+    <article
+      className={`ch-card ch-sight-card ${selected ? "is-selected" : ""}`}
+    >
       <div className="ch-photo-button">
         <PlaceImage item={item} city={city} sight />
         <button
@@ -1040,7 +1153,6 @@ function SightCard({
           onClick={onDetails}
           aria-label={`查看${item.name}详情`}
         />
-        <span className="ch-card-category">{item.category || "城市风景"}</span>
       </div>
       <div className="ch-card-content">
         <div className="ch-card-heading">
@@ -1057,53 +1169,61 @@ function SightCard({
           </button>
         </div>
         <p className="ch-card-description">{item.description}</p>
-        <div className="ch-feature-tags">
-          {item.visitRole && (
-            <span className="ch-visit-role">
-              {item.visitRole === "optional"
-                ? "按兴趣选择"
-                : item.visitRole === "neighborhood"
-                  ? "街区与小停留"
-                  : "初次到访推荐"}
-            </span>
-          )}
-          {asArray(item.features)
-            .slice(0, 3)
-            .map((feature) => (
-              <span key={feature}>{feature}</span>
-            ))}
-        </div>
         <div className="ch-visit-duration">
           <Clock3 size={13} />
-          <span>
-            {duration(minutes.min)} – {duration(minutes.max)}
-          </span>
-          <small>按自己的节奏</small>
+          <span>约 {duration(minutes.recommended)}</span>
         </div>
-        {item.accessNote && (
-          <p className="ch-access-note">
-            <Info size={13} />
-            {item.accessNote}
-          </p>
-        )}
         <div className="ch-card-price">
-          <Price price={item.price} currency={currency} rates={rates} />
-          <button className="text-button" onClick={onDetails}>
-            详情
-            <ArrowRight size={13} />
-          </button>
+          <Price price={item.price} currency={currency} rates={rates} compact />
         </div>
-        <PriceSource price={item.price} />
-        {item.license === "ODbL-1.0" && (
-          <a
-            className="ch-data-attribution"
-            href="https://www.openstreetmap.org/copyright"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            © OpenStreetMap contributors
-          </a>
-        )}
+        <details className="ch-card-details">
+          <summary>
+            详情
+            <ChevronDown size={14} />
+          </summary>
+          <div className="ch-card-details-body">
+            <p>{item.description}</p>
+            <div className="ch-feature-tags">
+              {item.category && <span>{item.category}</span>}
+              {isLocalExploration(item) && <span>自由探索 · 非商家套餐</span>}
+              {item.visitRole && (
+                <span className="ch-visit-role">
+                  {item.visitRole === "optional"
+                    ? "按兴趣选择"
+                    : item.visitRole === "neighborhood"
+                      ? "街区与小停留"
+                      : "初次到访推荐"}
+                </span>
+              )}
+              {asArray(item.features).map((feature) => (
+                <span key={feature}>{feature}</span>
+              ))}
+            </div>
+            <p>
+              走马观花约 {duration(minutes.min)}，细致游览约{" "}
+              {duration(minutes.max)}。生成后可调整。
+            </p>
+            {item.bestTime && <p>推荐时段：{item.bestTime}</p>}
+            {item.accessNote && (
+              <p className="ch-access-note">
+                <Info size={13} />
+                {item.accessNote}
+              </p>
+            )}
+            {item.price?.note && <p>{item.price.note}</p>}
+            <PriceSource
+              price={item.price}
+              sourceUrl={item.sourceUrl}
+              sourceLabel="地点与入场资料"
+            />
+            <PlaceSourceDetails item={item} />
+            <PlaceMediaDetails item={item} city={city} sight />
+            <button className="text-button" onClick={onDetails}>
+              完整资料
+              <ArrowRight size={13} />
+            </button>
+          </div>
+        </details>
       </div>
     </article>
   );
@@ -1169,203 +1289,276 @@ function ExperienceCard({
         day) &&
     (item.kind !== "restaurant" ||
       (selection.mealType || item.mealType || "dinner") === meal);
+  const cityBudget =
+    item.priceBasis === "city-daily-lodging" ||
+    option?.priceBasis === "city-daily-lodging";
+  const visitMinutes =
+    option?.totalDurationMinutes ||
+    option?.durationMinutes ||
+    item.totalDurationMinutes ||
+    item.durationMinutes;
+  const scheduleLabel =
+    item.kind === "hotel"
+      ? `${nights} 晚`
+      : day === "auto"
+        ? "按路线安排"
+        : `第 ${Number(day) + 1} 天${item.kind === "restaurant" ? mealLabel(meal) : ""}`;
+  const selectionDisabled =
+    !option ||
+    (!same && (partyMismatch || (item.kind === "hotel" && nights === 0)));
+  function applySelection() {
+    if (selectionDisabled) return;
+    if (same) onRemove();
+    else {
+      onSelect(
+        option.id,
+        day === "auto" || item.kind === "hotel" ? undefined : day,
+        meal,
+      );
+    }
+  }
+  function renderSelectionButton() {
+    return (
+      <button
+        type="button"
+        className={same ? "secondary-button" : "primary-button"}
+        disabled={selectionDisabled}
+        onClick={applySelection}
+      >
+        {same ? <Check size={14} /> : <Plus size={14} />}
+        {same
+          ? "已选 · 移除"
+          : selection
+            ? "更新选择"
+            : item.kind === "hotel"
+              ? "选择住宿"
+              : item.kind === "restaurant"
+                ? "安排这顿饭"
+                : "加入行程"}
+      </button>
+    );
+  }
   return (
     <article
       className={`ch-card ch-service-card ${selection ? "is-selected" : ""}`}
     >
       <div className="ch-service-photo">
         <PlaceImage item={item} city={city} />
-        <span className="ch-card-category">{KIND_LABEL[item.kind]}</span>
-        {selection && (
-          <span className="ch-chosen-label">
-            <Check size={13} />
-            已加入
-          </span>
-        )}
+        <button
+          className="ch-photo-hit"
+          onClick={() => onDetails(option?.id)}
+          aria-label={`查看${item.name}详情`}
+        />
       </div>
       <div className="ch-card-content">
         <div className="ch-card-heading">
-          <div>
-            <span className="ch-service-provider">
-              {item.provider || item.nameEn}
-            </span>
-            <h3>
-              <button onClick={() => onDetails(option?.id)}>{item.name}</button>
-            </h3>
-          </div>
+          <h3>
+            <button onClick={() => onDetails(option?.id)}>{item.name}</button>
+          </h3>
         </div>
         <p className="ch-card-description">
           {item.tagline || item.description}
         </p>
-        <div className="ch-feature-tags">
-          {asArray(item.features)
-            .slice(0, 3)
-            .map((feature) => (
-              <span key={feature}>{feature}</span>
-            ))}
+        <div className="ch-visit-duration">
+          <Clock3 size={13} />
+          <span>
+            {item.kind === "hotel"
+              ? `本城 ${nights} 晚`
+              : visitMinutes
+                ? `约 ${duration(visitMinutes)}`
+                : "用时以所选服务为准"}
+          </span>
         </div>
-        {item.address && (
-          <p className="ch-address">
-            <MapPin size={13} />
-            {item.address}
-          </p>
-        )}
-        <label className="ch-option-label">
-          <span>选择{item.kind === "hotel" ? "房型与服务" : "套餐与服务"}</span>
-          <select
-            aria-label={`${item.name}套餐`}
-            value={option?.id || ""}
-            onChange={(e) => setOptionId(e.target.value)}
-          >
-            {asArray(item.priceOptions).map((price) => (
-              <option key={price.id} value={price.id}>
-                {price.name}
-              </option>
-            ))}
-          </select>
-        </label>
         {option && (
           <>
-            <p className="ch-option-description">{option.description}</p>
-            <div className="ch-inclusions">
-              <div>
-                <Check size={13} />
-                <p>
-                  {asArray(option.includes).length
-                    ? option.includes.join(" · ")
-                    : "包含内容请查服务详情"}
-                </p>
-              </div>
-              {asArray(option.excludes).length > 0 && (
-                <div className="is-excluded">
-                  <X size={13} />
-                  <p>另计：{option.excludes.join(" · ")}</p>
-                </div>
-              )}
-            </div>
             <div className="ch-card-price">
               <Price
                 price={option}
                 currency={currency}
                 rates={rates}
                 unit={priceUnit(option)}
+                compact
               />
             </div>
-            <PriceSource price={option} sourceUrl={item.sourceUrl} />
+            {cityBudget && (
+              <span className="ch-budget-basis">城市预算参考</span>
+            )}
+            <p className="ch-selected-option">
+              {option.name} · {scheduleLabel}
+            </p>
           </>
         )}
-        {item.kind !== "hotel" && (
-          <div className="ch-service-schedule">
-            <label>
-              <span>安排在哪天</span>
+        {partyMismatch && (
+          <p className="ch-access-note">
+            {partyRequirement}；当前 {people} 人。
+          </p>
+        )}
+        {item.kind === "hotel" && nights === 0 && (
+          <p className="ch-availability-note">本城未安排过夜，暂无住宿晚数。</p>
+        )}
+        <div className="ch-service-actions">{renderSelectionButton()}</div>
+        <details className="ch-card-details">
+          <summary>
+            {item.kind === "hotel" ? "住宿详情" : "方案与详情"}
+            <ChevronDown size={14} />
+          </summary>
+          <div className="ch-card-details-body">
+            <span className="ch-service-provider">
+              {KIND_LABEL[item.kind]}
+              {item.provider || item.nameEn
+                ? ` · ${item.provider || item.nameEn}`
+                : ""}
+            </span>
+            <p>{item.description}</p>
+            <div className="ch-feature-tags">
+              {asArray(item.features).map((feature) => (
+                <span key={feature}>{feature}</span>
+              ))}
+            </div>
+            {item.address && (
+              <p className="ch-address">
+                <MapPin size={13} />
+                {item.address}
+              </p>
+            )}
+            <label className="ch-option-label">
+              <span>
+                {cityBudget
+                  ? "住宿预算参考"
+                  : item.kind === "hotel"
+                    ? "房型与服务"
+                    : "套餐与服务"}
+              </span>
               <select
-                value={day}
-                onChange={(e) =>
-                  setDay(
-                    e.target.value === "auto" ? "auto" : Number(e.target.value),
-                  )
-                }
-                aria-label={`${item.name}安排日期`}
+                aria-label={`${item.name}${cityBudget ? "住宿预算参考" : "套餐"}`}
+                value={option?.id || ""}
+                onChange={(e) => setOptionId(e.target.value)}
               >
-                {item.kind !== "restaurant" && (
-                  <option value="auto">按路线安排</option>
-                )}
-                {Array.from({ length: days }, (_, index) => (
-                  <option key={index} value={index}>
-                    第 {index + 1} 天
+                {asArray(item.priceOptions).map((price) => (
+                  <option key={price.id} value={price.id}>
+                    {price.name}
                   </option>
                 ))}
               </select>
             </label>
-            {item.kind === "restaurant" ? (
-              <label>
-                <span>用餐时段</span>
-                <select
-                  value={meal}
-                  onChange={(e) => setMeal(e.target.value)}
-                  aria-label={`${item.name}用餐时段`}
-                >
-                  {allowedMeals.map((value) => (
-                    <option key={value} value={value}>
-                      {mealLabel(value)}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            ) : option?.durationMinutes || item.durationMinutes ? (
-              <span className="ch-service-duration">
-                <Clock3 size={14} />约{" "}
-                {duration(option?.durationMinutes || item.durationMinutes)}
-              </span>
-            ) : null}
-          </div>
-        )}
-        {item.kind === "hotel" && (
-          <p className="ch-hotel-note">
-            本城市共 {nights} 晚；选择后替换原住宿预算。
-          </p>
-        )}
-        {item.availabilityNote && (
-          <p className="ch-availability-note">{item.availabilityNote}</p>
-        )}
-        {(minPeople > 1 || maxPeople !== Infinity) && (
-          <p
-            className={
-              partyMismatch ? "ch-access-note" : "ch-availability-note"
-            }
-          >
-            {partyRequirement}
-            {partyMismatch ? `；当前为 ${people} 人，请先调整旅行人数。` : "。"}
-          </p>
-        )}
-        <div className="ch-service-actions">
-          <button
-            className={same ? "secondary-button" : "primary-button"}
-            disabled={
-              !option ||
-              (!same &&
-                (partyMismatch || (item.kind === "hotel" && nights === 0)))
-            }
-            onClick={() =>
-              same
-                ? onRemove()
-                : onSelect(
-                    option.id,
-                    day === "auto" || item.kind === "hotel" ? undefined : day,
-                    meal,
-                  )
-            }
-          >
-            {same ? (
+            {cityBudget && (
+              <p>
+                按该城市日常住宿费用预留，尚非这家住宿的房型报价；房态、服务与实际价格请向住宿方确认。
+              </p>
+            )}
+            {option && (
               <>
-                <Check size={14} />
-                已选 · 点击移除
-              </>
-            ) : (
-              <>
-                <Plus size={14} />
-                {selection
-                  ? "更新我的选择"
-                  : item.kind === "hotel"
-                    ? "住在这里"
-                    : item.kind === "restaurant"
-                      ? "安排这顿饭"
-                      : "加入我的行程"}
+                <p className="ch-option-description">{option.description}</p>
+                <div className="ch-inclusions">
+                  <div>
+                    <Check size={13} />
+                    <p>
+                      {asArray(option.includes).length
+                        ? option.includes.join(" · ")
+                        : "包含内容请查服务详情"}
+                    </p>
+                  </div>
+                  {asArray(option.excludes).length > 0 && (
+                    <div className="is-excluded">
+                      <X size={13} />
+                      <p>另计：{option.excludes.join(" · ")}</p>
+                    </div>
+                  )}
+                </div>
+                {option.note && <p>{option.note}</p>}
+                <PriceSource
+                  price={option}
+                  sourceUrl={item.sourceUrl}
+                  sourceLabel={
+                    item.sourceProvider === "openstreetmap"
+                      ? "地图地点资料"
+                      : undefined
+                  }
+                />
               </>
             )}
-          </button>
-          <button className="text-button" onClick={() => onDetails(option?.id)}>
-            完整详情
-            <ArrowRight size={13} />
-          </button>
-        </div>
-        {safeUrl(item.bookingUrl) && (
-          <OutLink href={item.bookingUrl}>前往官方或商家预订页</OutLink>
-        )}
+            {item.kind !== "hotel" && (
+              <div className="ch-service-schedule">
+                <label>
+                  <span>安排在哪天</span>
+                  <select
+                    value={day}
+                    onChange={(e) =>
+                      setDay(
+                        e.target.value === "auto"
+                          ? "auto"
+                          : Number(e.target.value),
+                      )
+                    }
+                    aria-label={`${item.name}安排日期`}
+                  >
+                    {item.kind !== "restaurant" && (
+                      <option value="auto">按路线安排</option>
+                    )}
+                    {Array.from({ length: days }, (_, index) => (
+                      <option key={index} value={index}>
+                        第 {index + 1} 天
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                {item.kind === "restaurant" && (
+                  <label>
+                    <span>用餐时段</span>
+                    <select
+                      value={meal}
+                      onChange={(e) => setMeal(e.target.value)}
+                      aria-label={`${item.name}用餐时段`}
+                    >
+                      {allowedMeals.map((value) => (
+                        <option key={value} value={value}>
+                          {mealLabel(value)}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                )}
+              </div>
+            )}
+            <div className="ch-service-actions">{renderSelectionButton()}</div>
+            {!same && (
+              <p className="ch-detail-note">点击上方按钮确认方案，选择篮才会更新。</p>
+            )}
+            {item.kind === "hotel" && (
+              <p className="ch-hotel-note">
+                本城市共 {nights} 晚；选择后替换原住宿预算。
+              </p>
+            )}
+            {item.bestTime && <p>推荐时段：{item.bestTime}</p>}
+            {item.availabilityNote && (
+              <p className="ch-availability-note">{item.availabilityNote}</p>
+            )}
+            {(minPeople > 1 || maxPeople !== Infinity) && !partyMismatch && (
+              <p>{partyRequirement}。</p>
+            )}
+            <PlaceSourceDetails item={item} />
+            <PlaceMediaDetails item={item} city={city} />
+            <button
+              className="text-button"
+              onClick={() => onDetails(option?.id)}
+            >
+              完整资料
+              <ArrowRight size={13} />
+            </button>
+            {safeUrl(item.bookingUrl) && (
+              <OutLink href={item.bookingUrl}>
+                {item.sourceProvider === "openstreetmap"
+                  ? "查看所列住宿网站"
+                  : "前往官方或商家预订页"}
+              </OutLink>
+            )}
+          </div>
+        </details>
       </div>
     </article>
   );
 }
+
 function ItemDetails({
   detail,
   city,
@@ -1382,6 +1575,7 @@ function ItemDetails({
   return (
     <div className="ch-details">
       <PlaceImage item={item} city={city} sight className="ch-detail-image" />
+      <PlaceMediaDetails item={item} city={city} sight={sight} />
       <span className="eyebrow">{item.nameEn}</span>
       <p className="ch-detail-description">{item.description}</p>
       <div className="ch-feature-tags">
@@ -1401,6 +1595,14 @@ function ItemDetails({
           {item.accessNote}
         </p>
       )}
+      {item.bestTime && (
+        <p className="ch-detail-note">推荐时段：{item.bestTime}</p>
+      )}
+      {item.priceBasis === "city-daily-lodging" && (
+        <p className="ch-detail-note">
+          城市住宿预算参考，非本店房型报价；营业状态、房态与实际服务尚未独立核实。
+        </p>
+      )}
       {sight ? (
         <>
           <div className="ch-detail-duration">
@@ -1416,7 +1618,11 @@ function ItemDetails({
           </div>
           <Price price={item.price} currency={currency} rates={rates} />
           <p className="ch-detail-note">{item.price?.note}</p>
-          <PriceSource price={item.price} />
+          <PriceSource
+            price={item.price}
+            sourceUrl={item.sourceUrl}
+            sourceLabel="地点与入场资料"
+          />
           <button className="primary-button" onClick={onToggleSight}>
             {selected ? <Check size={15} /> : <Plus size={15} />}
             {selected ? "已选择 · 点击移除" : "加入想去的地方"}
@@ -1465,7 +1671,20 @@ function ItemDetails({
                   </div>
                 </div>
                 {option.note && <p className="ch-detail-note">{option.note}</p>}
-                <PriceSource price={option} sourceUrl={item.sourceUrl} />
+                {option.priceBasis === "city-daily-lodging" && (
+                  <p className="ch-detail-note">
+                    城市预算参考，非本店实际报价。
+                  </p>
+                )}
+                <PriceSource
+                  price={option}
+                  sourceUrl={item.sourceUrl}
+                  sourceLabel={
+                    item.sourceProvider === "openstreetmap"
+                      ? "地图地点资料"
+                      : undefined
+                  }
+                />
               </section>
             ))}
           </div>
@@ -1489,19 +1708,25 @@ function ItemDetails({
             </p>
           )}
           <div className="ch-service-verification">
-            {dateLabel(item.checkedAt) && (
-              <span>
-                商家与服务资料核验于 {dateLabel(item.checkedAt)} ·
-                套餐价格是否核验以各套餐标注为准
-              </span>
-            )}
+            {item.sourceProvider !== "openstreetmap" &&
+              dateLabel(item.checkedAt) && (
+                <span>
+                  商家与服务资料核验于 {dateLabel(item.checkedAt)} ·
+                  套餐价格是否核验以各套餐标注为准
+                </span>
+              )}
           </div>
         </>
       )}
+      <PlaceSourceDetails item={item} />
       <div className="ch-detail-footer">
         {source && <OutLink href={source}>查看原始资料</OutLink>}
         {safeUrl(item.bookingUrl) && (
-          <OutLink href={item.bookingUrl}>查询实际日期与预订</OutLink>
+          <OutLink href={item.bookingUrl}>
+            {item.sourceProvider === "openstreetmap"
+              ? "查看所列住宿网站"
+              : "查询实际日期与预订"}
+          </OutLink>
         )}
         {Number.isFinite(item.lat) && Number.isFinite(item.lng) && (
           <OutLink

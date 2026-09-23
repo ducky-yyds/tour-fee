@@ -1394,3 +1394,221 @@
     display: none;
   }
 }
+
+/* Keep browsing cards brief; disclosure holds sources and configurable detail. */
+.ch-card-grid {
+  align-items: start;
+}
+.ch-card-content,
+.ch-card-heading > *,
+.ch-price,
+.ch-card-details-body {
+  min-width: 0;
+}
+.ch-card h3,
+.ch-card-details-body,
+.ch-selected-option {
+  overflow-wrap: anywhere;
+}
+.ch-card-description {
+  min-height: 0;
+}
+.ch-card-details {
+  margin-top: 12px;
+  border-top: 1px solid #e9ede2;
+}
+.ch-card-details > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 0 1px;
+  color: #637555;
+  font-size: 13px;
+  cursor: pointer;
+  list-style: none;
+}
+.ch-card-details > summary::-webkit-details-marker {
+  display: none;
+}
+.ch-card-details > summary svg {
+  flex: none;
+  transition: transform 0.2s;
+}
+.ch-card-details[open] > summary svg {
+  transform: rotate(180deg);
+}
+.ch-card-details > summary:focus-visible {
+  outline: 2px solid #789067;
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+.ch-card-details-body {
+  padding-top: 9px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #77836d;
+}
+.ch-card-details-body > p {
+  margin: 8px 0;
+}
+.ch-card-details-body > .text-button,
+.ch-card-details-body > .out-link {
+  margin-top: 10px;
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+}
+.ch-card-details-body select {
+  min-width: 0;
+  max-width: 100%;
+}
+.ch-card-details-body .ch-feature-tags {
+  margin: 9px 0;
+}
+.ch-card-details-body .ch-service-schedule {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.ch-card-details-body .ch-inclusions p {
+  min-width: 0;
+}
+.ch-card-details-body .ch-price-source {
+  align-items: start;
+}
+.ch-image-credit.is-inline {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10px;
+  color: #819078;
+  gap: 7px;
+  font-size: 12px;
+}
+.ch-image-credit.is-inline a {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+.ch-media-details {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #87927e;
+}
+.ch-media-details > p {
+  margin-top: 10px;
+}
+.ch-details > .ch-media-details {
+  margin-bottom: 16px;
+}
+.ch-selected-option {
+  font-size: 12px;
+  color: #8b957f;
+  line-height: 1.6;
+  margin: 5px 0 0;
+}
+.ch-budget-basis {
+  display: block;
+  font-size: 12px;
+  color: #948462;
+  margin-top: 3px;
+}
+.ch-service-actions {
+  margin: 12px 0 0;
+}
+.ch-service-actions > button {
+  min-width: 0;
+}
+.ch-visit-duration {
+  padding: 8px 0;
+}
+.ch-card-price {
+  margin-top: 8px;
+}
+@media (max-width: 620px) {
+  .ch-card-grid.ch-experience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+  .city-home .ch-card .ch-place-photo {
+    height: 132px;
+  }
+  .city-home .ch-card .ch-card-content {
+    padding: 11px;
+  }
+  .city-home .ch-card h3 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .city-home .ch-card h3 button {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .city-home .ch-card .ch-card-description {
+    font-size: 14px;
+    line-height: 1.65;
+    min-height: 0;
+    margin-top: 6px;
+  }
+  .city-home .ch-card .ch-price strong {
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .ch-card .ch-price > div > span,
+  .ch-card .ch-price small {
+    font-size: 13px;
+  }
+  .ch-card .ch-selected-option {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .ch-card .ch-visit-duration {
+    font-size: 13px;
+    gap: 4px;
+    padding: 7px 0;
+  }
+  .ch-card .ch-service-actions {
+    margin-top: 10px;
+  }
+  .ch-card .ch-service-actions > button {
+    font-size: 14px;
+    padding: 9px 5px;
+    gap: 4px;
+    min-height: 40px;
+    white-space: normal;
+  }
+  .ch-card-details {
+    margin-top: 9px;
+  }
+  .ch-card-details > summary {
+    font-size: 14px;
+    padding-top: 9px;
+  }
+  .ch-card-details-body {
+    font-size: 14px;
+  }
+  .ch-card-details-body .ch-service-schedule {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ch-card-details-body .ch-option-label {
+    margin-top: 12px;
+  }
+  .ch-card-details-body .ch-option-label select {
+    padding: 8px 4px;
+  }
+  .ch-card-details-body .ch-access-note {
+    padding: 7px;
+  }
+  .ch-card .ch-select-circle {
+    width: 28px;
+    height: 28px;
+  }
+}

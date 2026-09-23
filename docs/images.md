@@ -33,7 +33,7 @@ Windows 默认调用 `py -3`，其他系统调用 `python3`；可通过 `ROAMLY_
 - 自动发现 `data/local-foods.json` 中的食物，可用 `photoFile` 指定人工核对的成品照片；`photoStatus:needs-food-photo`、原材料条目和不准确的跳转页面不会被下载为食物照片。`--catalog=路径` 可为待导入地点提前准备图片。
 - 条目每批最多 20 个、授权元数据每批最多 10 个，图片逐张下载，减少目录扩容带来的 API 请求。
 - 先完成城市主图，再以每批四十个地点处理景点；成功的条目映射和许可查询缓存在 `data/image-lookup-cache.json` 七天，中断后可继续。照片仍按默认三十天刷新。人工精确文件覆盖可维护在 `data/expansion-photo-overrides.json`、`data/africa-photo-overrides.json`、`data/global-photo-overrides.json`。
-- 欧洲补图维护在 `data/europe-photo-overrides.json`。值为 `null` 表示暂不发布该地点独立照片，不反复尝试不合适首图。小美人鱼、西贝柳斯纪念碑采用此方式保留缺图状态，摄影文件的 CC 许可并不当然涵盖雕塑本体授权。
+- 欧洲补图维护在 `data/europe-photo-overrides.json`。值为 `null` 表示暂不发布该地点独立照片，不反复尝试不合适首图。小美人鱼、西贝柳斯纪念碑采用此方式跳过独立照片，整库补图时使用主题插画；摄影文件的 CC 许可并不当然涵盖雕塑本体授权。
 - 每次请求间隔至少 1 秒、单个 worker；HTTP 429 和临时服务器错误有至多 3 次退避重试，Node 网络异常最多重试 2 次。请求有 20 秒超时，Python 子进程另有 25 秒上限。
 - Python 网络异常重试一次并保存简短原因；连续三张照片均网络失败时终止本轮，已下载内容保留，稍后重跑继续缺图，避免网络中断时把整库逐张等到超时。
 - 城市通常取 1280 像素宽缩略图，景点通常取 960 像素；超过 600 KiB 则改取较小尺寸。校验 MIME、文件签名和文件大小，并从下载文件读取实际宽高。
@@ -54,4 +54,22 @@ Windows 默认调用 `py -3`，其他系统调用 `python3`；可通过 `ROAMLY_
 
 首图不合适时，在 `scripts/fetch-images.mjs` 的 `citySources.file` 或 `attractionFiles` 指定经过核实的 Commons 文件名，然后对该 ID 运行 `--force --only=...`。默认首图为地图、Logo、未匹配许可或缺失文件时，抓取会明确失败，不能以无关城市照片替代景点。下载后核对图片内容及文件页，再发布新增目录。
 
-用户自定义地点或新增条目没有准确图片时，城市卡片与行程使用名称和图标占位，减少同一城市风景在不同地点反复出现。已有的明确相关地点引用仍保留其来源语义，不计入独立地点照片覆盖率。
+用户自定义地点或新增条目没有准确图片时，城市卡片与行程使用对应主题的插画。已有的相关地点引用保留其来源语义，不计入独立地点照片覆盖率。
+
+## 整库图片覆盖（2026-09-23）
+
+`scripts/complete-media.py` 使用 Python 3 标准库，将地点、特色食物、住宿、餐厅与体验统一纳入维护。不要与其他图片脚本同时运行：
+
+```sh
+python3 scripts/complete-media.py --phase exact
+python3 scripts/complete-media.py --phase nearby
+python3 scripts/complete-media.py --phase fallback
+```
+
+- `exact`：优先采用人工文件、准确的百科条目和地点 Wikidata 的 P18 图片；过滤人物实体、明显地图／标志、离地点超过两公里的实体坐标，以及不明确的许可。支持 `--cities=hong-kong,beijing` 限定城市。自动匹配仍需人工复核，发现不相符应更换文件，不应只改图片说明。
+- `nearby`：为仍缺图的地点查找 Commons 有坐标标注的周边实景，距离上限 1,250 米。详情显示标注坐标与地点参考点的距离及“不是该地点内部或入口的核验照片”；不会用于冒充酒店客房或某一道菜。附近照片只是环境参考。
+- `fallback`：离线为剩余条目补上主题插画，保留 `scope: illustration` 与明确说明。插画不是实拍，也不代表任何酒店房型或菜品外观。生成提示词和资产清单见 [生成素材记录](generated-media.md)。每次 Pages 构建执行此步骤，保证新增条目也有图。
+
+API 顺序请求，间隔至少 1.25 秒；CDN 最多三个下载任务、统一限速。30 天请求缓存保存在 `artifacts/media-completion-cache`，429 尊重等待时间，401/403 不绕过。新缩略图请求宽 500 像素、单图不超过 750 KiB，早期较大图片继续保留。周边检索先取得轻量坐标索引，只为选中的候选读取许可和缩略图信息；排除藏品、人物、菜品、施工等不适合表达周边环境的照片。逐张记录作者、来源和许可，原子写入素材清单。
+
+目录审计分别报告对应实拍、旧版摄影、附近实景、主题插画和仍缺图数量；“有图”不等于“全部已有准确实拍”。卡片默认只展示图片，来源和范围在展开详情中可直接查看。公共 API 资料：[Commons 图片元数据](https://www.mediawiki.org/wiki/API:Imageinfo)、[坐标检索](https://www.mediawiki.org/wiki/API:Geosearch)。

@@ -19,6 +19,8 @@
     "audit:catalog": "node scripts/audit-catalog.mjs",
     "import:destinations": "node scripts/import-expansion.mjs --refresh",
     "update:images": "node scripts/fetch-images.mjs",
+    "complete:images": "python scripts/complete-media.py",
+    "update:stays": "python scripts/update-stay-library.py",
     "update:map": "node scripts/update-map.mjs",
     "update:airports": "node scripts/update-airports.mjs"
   },

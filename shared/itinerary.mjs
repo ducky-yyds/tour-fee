@@ -1,6 +1,7 @@
 /** Local-day planning only. Routes and times are transparent models, not navigation or timetables. */
 import { resolveExperienceSelections, experienceLineId, coveredMealSlots, MEAL_WEIGHTS } from './experiences.mjs';
 import { buildJourneyWindows } from './journey-windows.mjs';
+import { illustrationFor } from './media.mjs';
 import { getDestinationPlanningProfile, getAttractionActivityType, getAttractionVisitRole, isSupportingVisit, destinationAttractionPriority, automaticDayCapacity } from './destination-planning.mjs';
 const round = n => Math.round((n + Number.EPSILON) * 100) / 100;
 const attractionMap = city => new Map((city?.attractions || []).map(a => [a.id, a]));
@@ -67,6 +68,7 @@ export function mergeCustomAttractions(cities, customs = []) {
     if (input.durationRange) custom.durationRange = getVisitDurationRange(input);
     if (Number.isFinite(input.priority)) custom.priority = input.priority;
     if (imageUrl) custom.image = { url: imageUrl, credit: safeText(input.image.credit, 200, '用户提供'), sourceUrl: safeUrl(input.image.sourceUrl) || imageUrl, license: safeText(input.image.license, 100, '请核对原图使用许可') };
+    else custom.image = illustrationFor(custom);
     used.add(custom.id); city.attractions.push(custom);
   }
   return result;

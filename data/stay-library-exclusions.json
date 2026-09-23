@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-09-23",
+  "selectionRadiusMeters": { "maafushi": 1000 },
+  "selectionRadiusNote": "马富施只保留本岛附近点位，避免将 5 公里外另一座岛的住宿误放入本岛目录；原始有界查询仍可缓存更大范围。",
+  "excludedObjects": [
+    {
+      "osmKey": "way/772271288",
+      "name": "Windsor Hotel (Cairo)",
+      "reason": "公开百科记载曾关闭维修，未获得近期恢复营业的经营者确认；暂不作为普通短住候选。",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Windsor_Hotel_(Cairo)",
+      "sourceKind": "secondary-encyclopedia-unresolved-operation"
+    },
+    {
+      "osmKey": "way/182462868",
+      "name": "New Sanno Hotel",
+      "reason": "经营者要求特定军方或政府资格及担保，不适合作为普通旅客直接选择的住宿。",
+      "sourceUrl": "https://www.thenewsanno.com/accommodations/eligibility"
+    },
+    {
+      "osmKey": "way/37933051",
+      "name": "Hilton Hanoi Opera",
+      "reason": "品牌官方宣布改建及更名，旧名记录不能代表当前可预订住宿；待新店明确营业资料后重新编辑。",
+      "sourceUrl": "https://stories.hilton.com/releases/waldorf-astoria-hanoi-vietnam-signing"
+    },
+    {
+      "osmKey": "way/138801290",
+      "name": "Bauer Palazzo",
+      "reason": "品牌官网仍描述为多年改建后的未来开业项目，不以旧店名作为当前住宿候选。",
+      "sourceUrl": "https://www.rosewoodhotels.com/en/hotel-bauer-venice"
+    },
+    {
+      "osmKey": "way/428017457",
+      "name": "Stay on Main / Cecil Hotel",
+      "reason": "官方住宅项目记录与旧旅游酒店标记存在用途冲突，需专项确认，暂不作为普通短住候选。",
+      "sourceUrl": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?cfnumber=22-0794&fa=ccfi.viewrecord"
+    }
+  ],
+  "excludedImageArticles": [
+    { "article": "Moroccan riad", "reason": "建筑或住宿类别文章，非该具名住宿专页" },
+    { "article": "Marriott International", "reason": "酒店集团文章，非该分店专页" },
+    { "article": "Soho House (club)", "reason": "品牌或会所体系文章，非该分店专页" },
+    { "article": "Axel Hotels", "reason": "酒店品牌文章，非该分店专页" },
+    { "article": "Tru by Hilton", "reason": "酒店品牌文章，非该分店专页" },
+    { "article": "Crown Casino and Entertainment Complex", "reason": "大型综合体文章，不能据此确认具体住宿主体照片" },
+    { "article": "Villa Lituania", "reason": "英文文章是 Via Nomentana 116 的旧使馆，源住宿位于 Piazza Asti 25，为不同实体", "sourceUrl": "https://www.pm-d.it/en/portfolio-item/convitto-villa-lituania-edificio-a-roma/" }
+  ]
+}

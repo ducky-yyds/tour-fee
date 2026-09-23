@@ -44,7 +44,11 @@ npm run preview:pages
 
 街区地点库也纳入同一维护流程：每日最多 6 次串行请求，使用 30 天原始数据缓存；普通代码发布只重用缓存。处理后与人工目录去重，再导入构建。缓存保存原始地点响应，不覆盖 Git 中新的人工城市资料。来源配额、费用未知的表示和采集半径见 [地点库维护](place-library-sources.md)。
 
+具名住宿另有每日最多 6 次串行请求和 30 天原始响应缓存；更新失败保留已有住宿，重放应用人工排除名单。每次构建离线执行 `complete-media.py --phase=fallback`，新条目没有已收录实拍时采用带范围说明的主题插画。对应照片和周边实景的批量补充由图片维护命令单独执行，避免在每次部署中大批请求媒体 API。
+
 明确要求跳过额外测试的发布可以在提交信息中使用 `[skip tests]`；该标记只跳过对应 push 的测试步骤，构建与部署照常执行。
+
+仅发布已经维护好的目录或图片时，可用 `[skip refresh]` 跳过该次 push 的外部价格重新采集；仍导入目录、补齐图片并构建发布。它不影响每日定时维护或手动选择的刷新，页面继续保留实际来源日期。
 
 GitHub 定时任务只在默认分支执行，可能因平台负载延迟；公共仓库 60 天没有活动时可能被暂停。可在 Actions 页重新启用或手动运行维护工作流，不能把 cron 配置视为每天一定成功的保证。[GitHub schedule 事件文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 

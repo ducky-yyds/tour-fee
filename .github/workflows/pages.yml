@@ -60,11 +60,12 @@ jobs:
             data/airport-maintenance.json
             data/experience-audit.json
             artifacts/place-library-cache
+            artifacts/stay-library-cache
           key: tusuan-public-sources-v1-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: tusuan-public-sources-v1-
       - name: Refresh public data, retaining previous values on source failure
         id: update
-        if: github.event_name == 'push' || inputs.refresh_data
+        if: ${{ inputs.refresh_data || (github.event_name == 'push' && !contains(github.event.head_commit.message, '[skip refresh]')) }}
         continue-on-error: true
         timeout-minutes: 15
         env:
@@ -80,6 +81,12 @@ jobs:
         run: python3 scripts/update-place-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
       - name: Import maintained destinations and local places
         run: npm run import:destinations
+      - name: Maintain named stays within the daily request allowance
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python3 scripts/update-stay-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
+      - name: Fill new card images from bundled illustrations
+        run: python3 scripts/complete-media.py --phase=fallback
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
@@ -100,6 +107,7 @@ jobs:
             data/airport-maintenance.json
             data/experience-audit.json
             artifacts/place-library-cache
+            artifacts/stay-library-cache
           key: tusuan-public-sources-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Upload only the static build
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5

@@ -1236,8 +1236,19 @@ function PlacePhoto({ attraction, city, compact = false }) {
     >
       <Photo
         image={hasPhoto ? attraction.image : undefined}
-        alt={attraction.name}
+        alt={attraction.image?.scope && attraction.image.scope !== 'exact-place' ? attraction.image.alt : attraction.name}
       />
+    </div>
+  );
+}
+
+function ImageAttribution({ image }) {
+  if (!/^https?:\/\//i.test(image?.sourceUrl || "")) return null;
+  return (
+    <div className="timeline-photo-credit">
+      {image.contextNote && <p>{image.contextNote}</p>}
+      <OutLink href={image.sourceUrl}>{image.credit || "图片来源"}</OutLink>
+      {/^https?:\/\//i.test(image.licenseUrl || "") && <OutLink href={image.licenseUrl}>{image.license || "图片许可"}</OutLink>}
     </div>
   );
 }
@@ -1957,6 +1968,12 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
                   建议时段：{attraction.bestTime}
                 </p>
               )}
+              {attraction.image?.sourceUrl && (
+                <details className="transit-method">
+                  <summary>图片与来源</summary>
+                  <ImageAttribution image={attraction.image} />
+                </details>
+              )}
               <div className="timeline-attraction-footer">
                 <button
                   className="timeline-price"
@@ -1990,10 +2007,9 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
               <Photo
                 image={experience.image || city.image}
                 alt={
-                  experience.image ? experience.name : `${city.name}城市氛围图`
+                  experience.image?.scope && experience.image.scope !== 'exact-place' ? experience.image.alt : experience.name
                 }
               />
-              <span>{experience.image ? "相关地点" : "城市氛围图"}</span>
             </div>
             <div className="timeline-attraction-info">
               <div className="timeline-attraction-title">
@@ -2028,6 +2044,7 @@ function TimelineItem({ item, city, plan, rates, onEditLine, samples }) {
                   <p>不含：{option.excludes.join("、")}</p>
                 )}
                 <p>{experience.availabilityNote}</p>
+                <ImageAttribution image={experience.image} />
               </details>
               <div className="timeline-attraction-footer">
                 <button

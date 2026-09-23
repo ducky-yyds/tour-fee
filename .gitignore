@@ -15,3 +15,4 @@ data/schedule.json
 data/*.lock*
 data/*.tmp
 .cache/
+__pycache__/

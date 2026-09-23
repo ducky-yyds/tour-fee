@@ -151,6 +151,23 @@ def eligible(element):
     return tags.get('opening_hours', '').strip().lower() not in ('closed', 'off', '24/7 off')
 
 
+def visitor_description(name, category, key):
+    """Visitor-facing ideas based only on the known place type, not invented history."""
+    variants = {
+        '街区漫游': [f'把{name}加入一次不赶时间的街区漫步，沿途留意日常街景，也给随兴停留留一点余地。', f'在{name}放慢脚步，看看这座城市日常的一面。适合与附近的主要去处连成半日步行路线。'],
+        '街巷与广场': [f'路过{name}时，不妨停一会儿看看周围的街景。这类小去处适合穿插在两站之间，轻松走走。', f'为{name}留一段短短的散步时间，看看街角与广场边的风景，再继续下一站。'],
+        '市场与日常': [f'去{name}逛一逛，看看摊档里的日常货品。可以只看不买，也可以按自己的兴趣慢慢挑选。', f'把{name}作为了解当地日常生活的一站，沿摊位慢慢逛；消费金额按自己挑选的东西另计。'],
+        '公园与花园': [f'在{name}留一段放慢节奏的散步时间，让密集的城市游览有一个轻松的间歇。', f'逛累了，可以把{name}加入当天的路线，留出散步与休息的时间，停留长短随天气和体力调整。'],
+        '博物馆与艺术': [f'对文化与展览感兴趣，可以把{name}列入候选。先看看当天展览主题，再决定浅逛还是多留一点时间。', f'想给旅程增加一段看展时间，可以从{name}开始了解。按展览内容与个人兴趣安排参观节奏。'],
+        '历史与文化': [f'到{name}看看当地的一处文化印记。适合与周围街区一起安排，边走边留意建筑与空间的细节。', f'把{name}作为文化散步中的一站，给观察细节、拍照和阅读现场介绍留一点时间。'],
+        '商业街区': [f'在{name}安排一段随意逛逛的时间，按兴趣看看店铺，也可以作为旅途中的休息与补给一站。', f'把{name}放进轻松的逛街时段，不必列好购物清单，照自己的节奏走走看看。'],
+        '城市与自然视野': [f'把{name}留给想看看风景的时刻，安排一点停留与拍照时间；天气合适时更值得放慢脚步。', f'到{name}换个角度看看周围的风景。可与附近路线一起安排，按天气和体力决定停留多久。'],
+        '当地探索': [f'把{name}留作路线中的一个小发现，按自己的兴趣停留，和附近街区一起探索。', f'如果希望在主要景点之外多走一走，可以把{name}加入自己的探索清单。'],
+    }
+    choices = variants.get(category, variants['当地探索'])
+    return choices[int(hashlib.sha1(key.encode()).hexdigest()[:8], 16) % len(choices)]
+
+
 def transform(city, raw, radius, cap):
     old = [a for a in city.get('attractions', []) if a.get('sourceProvider') != 'openstreetmap']
     old_names = {normalize(a.get(k)) for a in old for k in ('name', 'nameEn') if a.get(k)}
@@ -241,7 +258,8 @@ def transform(city, raw, radius, cap):
             'durationBasis': 'editorial-estimate', 'category': cat,
             'activityType': 'leisure' if cat in ('公园与花园', '城市与自然视野') else 'culture',
             'visitRole': role, 'automaticPlanning': public_walk, 'priority': 48 if role == 'neighborhood' else 38,
-            'description': f'{name} 是源地图中具名的{kind}，位于{city["name"]}参考中心周边。可按兴趣加入行程；建议用时为编辑估计，特色内容、入口、营业与可参观范围尚未逐项人工核实。',
+            'description': visitor_description(name, cat, f"{element['type']}-{element['id']}"),
+            'verificationNote': '地点名称与类型来自地图资料；当前开放、具体入口、展览或服务内容请在详情来源中核对。',
             'features': [cat, '可自行加入行程'], 'bestTime': '请核对当天开放与天气；未设定固定游览时段',
             'sourceProvider': 'openstreetmap', 'sourceUrl': source, 'sourceCheckedAt': date,
             'sourceFetchedAt': raw['fetchedAt'], 'sourceDataTimestamp': raw.get('osm3s', {}).get('timestamp_osm_base'),

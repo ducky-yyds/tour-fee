@@ -9,6 +9,7 @@ const ENTRY_ORDER = {
   IT: ['rome', 'florence', 'venice'], VN: ['hanoi', 'ho-chi-minh-city', 'da-nang', 'hoi-an'],
   MY: ['kuala-lumpur', 'penang', 'langkawi'], IS: ['reykjavik', 'vik', 'akureyri'],
   MV: ['maafushi', 'male'], GB: ['london', 'edinburgh'],
+  US: ['new-york', 'washington-dc', 'boston', 'san-francisco', 'los-angeles', 'chicago', 'seattle', 'miami', 'orlando', 'las-vegas'],
   EG: ['cairo', 'luxor'], IN: ['delhi', 'jaipur'], LK: ['colombo', 'kandy'],
 };
 const COUNTRY_LABELS = { HK: '中国香港', TW: '中国台湾' };

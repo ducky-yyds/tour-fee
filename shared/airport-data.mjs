@@ -48,6 +48,20 @@ export function normalizedMunicipality(value) {
   return String(value || '').normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
     .replace(/[^\p{L}\p{N}]+/gu, ' ').trim().replace(/\s+/g, ' ');
 }
+
+// US municipalities often share their name across several states. A source
+// name alone must not turn Portland, Maine into the Oregon destination.
+export function compatibleCuratedAirport(city, airport) {
+  if (!city || city.countryCode !== airport.countryCode) return false;
+  if (city.countryCode !== 'US') return true;
+  if (city.isoRegion && airport.isoRegion && city.isoRegion !== airport.isoRegion) return false;
+  if (![city.lat, city.lng, airport.lat, airport.lng].every(Number.isFinite)) return false;
+  const radians = Math.PI / 180;
+  const h = Math.sin((city.lat - airport.lat) * radians / 2) ** 2
+    + Math.cos(city.lat * radians) * Math.cos(airport.lat * radians)
+    * Math.sin((city.lng - airport.lng) * radians / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(Math.min(1, h))) <= 120;
+}
 function hash(value) {
   let result = 2166136261;
   for (const point of String(value)) { result ^= point.codePointAt(0); result = Math.imul(result, 16777619); }
@@ -120,8 +134,10 @@ export function buildAirportCatalog({ airportRows, countryRows, regionRows = [],
     if (countryName === primary.countryCode) countryName = country.name;
     const explicit = [...new Set(members.map(airport => explicitLinks.get(`${airport.countryCode}|${airport.iata}`)).filter(Boolean))];
     if (explicit.length > 1) throw new Error(`Multiple curated cities linked to one airport municipality: ${id}`);
-    // Name + country matching is safe only for a declared municipality; sharing a gateway IATA is never sufficient.
-    const curatedCityId = explicit[0] || (primary.municipality && curatedByName.get(`${primary.countryCode}|${normalizedMunicipality(primary.municipality)}`)) || null;
+    // Explicit aliases are reviewed separately; inferred US names also need a
+    // matching state and a nearby airport. Sharing a gateway is insufficient.
+    const named = primary.municipality && curatedById.get(curatedByName.get(`${primary.countryCode}|${normalizedMunicipality(primary.municipality)}`));
+    const curatedCityId = explicit[0] || (compatibleCuratedAirport(named, primary) ? named.id : null);
     const city = {
       id, name: primary.municipality || primary.name, nameEn: primary.municipality || primary.name,
       nameKind: primary.municipality ? 'municipality' : 'airport', country: countryName || country.name,

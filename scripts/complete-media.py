@@ -27,6 +27,7 @@ API = 'https://commons.wikimedia.org/w/api.php'
 LOCK = threading.Lock()
 NEXT_REQUEST = {'api': 0, 'cdn': 0}
 MAX_BYTES = 750 * 1024
+THUMB_WIDTH = 500
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
@@ -299,7 +300,7 @@ def exact(items, media, excluded):
     files = list(by_file)
     for start in range(0, len(files), 20):
         try:
-            result = api({'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size', 'iiurlwidth': 500, 'redirects': 1, 'titles': '|'.join('File:'+f for f in files[start:start+20])})
+            result = api({'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size', 'iiurlwidth': THUMB_WIDTH, 'redirects': 1, 'titles': '|'.join('File:'+f for f in files[start:start+20])})
             aliases = {file_title(row['from']): file_title(row['to']) for row in result.get('query', {}).get('normalized', []) + result.get('query', {}).get('redirects', [])}
             resolved = {}
             for requested in files[start:start+20]:
@@ -377,7 +378,7 @@ def nearby(cities, items, media, excluded):
                     batch = requested[start:start+20]
                     fetched.update({file: None for file in batch})
                     result = api({'prop': 'imageinfo', 'titles': '|'.join('File:'+file for file in batch),
-                                  'iiprop': 'url|extmetadata|size', 'iiurlwidth': 500,
+                                  'iiprop': 'url|extmetadata|size', 'iiurlwidth': THUMB_WIDTH,
                                   'iiextmetadatalanguage': 'en', 'iiextmetadatafilter': 'Artist|Attribution|LicenseShortName|LicenseUrl|ImageDescription|DateTimeOriginal'})
                     for page in result.get('query', {}).get('pages', {}).values():
                         file = file_title(page['title'])
@@ -415,11 +416,14 @@ def fallback(items, media):
 
 
 def main():
+    global THUMB_WIDTH
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--phase', choices=['exact', 'nearby', 'fallback', 'all'], default='all')
     parser.add_argument('--cities', default='')
     parser.add_argument('--kinds', default='', help='Optional comma-separated kinds: place,food,hotel,restaurant,experience')
+    parser.add_argument('--thumb-width', type=int, choices=[320, 400, 500, 640, 960], default=500, help='Requested width for new downloads; existing local images are retained')
     args = parser.parse_args()
+    THUMB_WIDTH = args.thumb_width
     cities, items = inventory()
     if args.cities:
         selected = set(args.cities.split(','))

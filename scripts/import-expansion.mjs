@@ -1,4 +1,5 @@
 import { readdirSync, readFileSync, writeFileSync, renameSync, existsSync } from 'node:fs';
+import { mergeFoodExpansions } from './food-expansion.mjs';
 const read = file => JSON.parse(readFileSync(file, 'utf8'));
 const incoming = readdirSync('data/expansion').filter(f => f.endsWith('.json')).flatMap(f => read('data/expansion/' + f));
 if (new Set(incoming.map(c => c.id)).size !== incoming.length) throw new Error('Duplicate expansion city ID');
@@ -31,7 +32,8 @@ if (existsSync('data/place-expansion')) {
 }
 const sightIds = cities.flatMap(c => c.attractions.map(a => a.id));
 if (new Set(sightIds).size !== sightIds.length) throw new Error('Duplicate attraction ID');
-for (const [file,value] of [['data/cities.json',cities],['data/city-guides.json',guides]]) {
+const foods = mergeFoodExpansions(read('data/local-foods.json'), new Set(cities.map(city => city.id)), { refresh: process.argv.includes('--refresh') });
+for (const [file,value] of [['data/cities.json',cities],['data/city-guides.json',guides],['data/local-foods.json',foods]]) {
   writeFileSync(file + '.tmp', JSON.stringify(value, null, 2) + '\n'); renameSync(file + '.tmp',file);
 }
-console.log(JSON.stringify({cities:cities.length,countriesAndRegions:new Set(cities.map(c=>c.countryCode)).size,attractions:sightIds.length}));
+console.log(JSON.stringify({cities:cities.length,countriesAndRegions:new Set(cities.map(c=>c.countryCode)).size,attractions:sightIds.length,foods:foods.length}));

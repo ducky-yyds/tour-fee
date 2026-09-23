@@ -1,0 +1,3755 @@
+[
+  {
+    "id": "stay-us-san-francisco-fairmont",
+    "cityId": "san-francisco",
+    "kind": "hotel",
+    "name": "Fairmont San Francisco",
+    "nameEn": "Fairmont San Francisco",
+    "provider": "Fairmont San Francisco",
+    "accommodationType": "hotel",
+    "tagline": "Nob Hill",
+    "description": "位于Nob Hill，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 37.7924,
+    "lng": -122.4103,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Nob Hill",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.fairmont.com/san-francisco/",
+    "website": "https://www.fairmont.com/san-francisco/",
+    "bookingUrl": "https://www.fairmont.com/san-francisco/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按旧金山城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按旧金山城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按旧金山城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Fairmont San Francisco"
+  },
+  {
+    "id": "stay-us-san-francisco-palace",
+    "cityId": "san-francisco",
+    "kind": "hotel",
+    "name": "Palace Hotel, San Francisco",
+    "nameEn": "Palace Hotel, San Francisco",
+    "provider": "Palace Hotel, San Francisco",
+    "accommodationType": "hotel",
+    "tagline": "Market Street / SoMa",
+    "description": "位于Market Street / SoMa，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 37.7886,
+    "lng": -122.4024,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Market Street / SoMa",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/sfolc-palace-hotel-a-luxury-collection-hotel-san-francisco/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/sfolc-palace-hotel-a-luxury-collection-hotel-san-francisco/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/sfolc-palace-hotel-a-luxury-collection-hotel-san-francisco/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按旧金山城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按旧金山城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按旧金山城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Palace Hotel, San Francisco"
+  },
+  {
+    "id": "stay-us-san-francisco-mark-hopkins",
+    "cityId": "san-francisco",
+    "kind": "hotel",
+    "name": "InterContinental Mark Hopkins",
+    "nameEn": "InterContinental Mark Hopkins",
+    "provider": "InterContinental Mark Hopkins",
+    "accommodationType": "hotel",
+    "tagline": "Nob Hill",
+    "description": "位于Nob Hill，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 37.7917,
+    "lng": -122.4103,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Nob Hill",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.intercontinental.com/hotels/us/en/san-francisco/sfoha/hoteldetail",
+    "website": "https://www.intercontinental.com/hotels/us/en/san-francisco/sfoha/hoteldetail",
+    "bookingUrl": "https://www.intercontinental.com/hotels/us/en/san-francisco/sfoha/hoteldetail",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按旧金山城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按旧金山城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按旧金山城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Mark Hopkins Hotel"
+  },
+  {
+    "id": "stay-us-san-francisco-argonaut",
+    "cityId": "san-francisco",
+    "kind": "hotel",
+    "name": "Argonaut Hotel",
+    "nameEn": "Argonaut Hotel",
+    "provider": "Argonaut Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Fisherman's Wharf",
+    "description": "位于Fisherman's Wharf，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 37.8073,
+    "lng": -122.4204,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Fisherman's Wharf",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.argonauthotel.com/",
+    "website": "https://www.argonauthotel.com/",
+    "bookingUrl": "https://www.argonauthotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按旧金山城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按旧金山城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按旧金山城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Argonaut Hotel"
+  },
+  {
+    "id": "stay-us-san-francisco-st-francis",
+    "cityId": "san-francisco",
+    "kind": "hotel",
+    "name": "The Westin St. Francis",
+    "nameEn": "The Westin St. Francis",
+    "provider": "The Westin St. Francis",
+    "accommodationType": "hotel",
+    "tagline": "Union Square",
+    "description": "位于Union Square，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 37.7877,
+    "lng": -122.4084,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Union Square",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/sfouw-the-westin-st-francis-san-francisco-on-union-square/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/sfouw-the-westin-st-francis-san-francisco-on-union-square/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/sfouw-the-westin-st-francis-san-francisco-on-union-square/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按旧金山城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按旧金山城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按旧金山城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "旧金山城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Westin St. Francis"
+  },
+  {
+    "id": "stay-us-seattle-olympic",
+    "cityId": "seattle",
+    "kind": "hotel",
+    "name": "Fairmont Olympic Hotel",
+    "nameEn": "Fairmont Olympic Hotel",
+    "provider": "Fairmont Olympic Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Downtown",
+    "description": "位于Downtown，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 47.608,
+    "lng": -122.3336,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.fairmontolympic.com/",
+    "website": "https://www.fairmontolympic.com/",
+    "bookingUrl": "https://www.fairmontolympic.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按西雅图城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按西雅图城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 230,
+        "high": 230,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按西雅图城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Fairmont Olympic Hotel"
+  },
+  {
+    "id": "stay-us-seattle-edgewater",
+    "cityId": "seattle",
+    "kind": "hotel",
+    "name": "The Edgewater Hotel",
+    "nameEn": "The Edgewater Hotel",
+    "provider": "The Edgewater Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Pier 67 海滨",
+    "description": "位于Pier 67 海滨，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 47.612,
+    "lng": -122.3517,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Pier 67 海滨",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.edgewaterhotel.com/",
+    "website": "https://www.edgewaterhotel.com/",
+    "bookingUrl": "https://www.edgewaterhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按西雅图城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按西雅图城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 230,
+        "high": 230,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按西雅图城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Edgewater Hotel"
+  },
+  {
+    "id": "stay-us-seattle-sorrento",
+    "cityId": "seattle",
+    "kind": "hotel",
+    "name": "Hotel Sorrento",
+    "nameEn": "Hotel Sorrento",
+    "provider": "Hotel Sorrento",
+    "accommodationType": "hotel",
+    "tagline": "First Hill",
+    "description": "位于First Hill，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 47.6079,
+    "lng": -122.3254,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "First Hill",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelsorrento.com/",
+    "website": "https://www.hotelsorrento.com/",
+    "bookingUrl": "https://www.hotelsorrento.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按西雅图城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按西雅图城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 230,
+        "high": 230,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按西雅图城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Sorrento Hotel"
+  },
+  {
+    "id": "stay-us-seattle-westin",
+    "cityId": "seattle",
+    "kind": "hotel",
+    "name": "The Westin Seattle",
+    "nameEn": "The Westin Seattle",
+    "provider": "The Westin Seattle",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Westlake",
+    "description": "位于Downtown / Westlake，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 47.613,
+    "lng": -122.3378,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Westlake",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/seawi-the-westin-seattle/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/seawi-the-westin-seattle/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/seawi-the-westin-seattle/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按西雅图城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按西雅图城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 230,
+        "high": 230,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按西雅图城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Westin Seattle"
+  },
+  {
+    "id": "stay-us-seattle-inn-market",
+    "cityId": "seattle",
+    "kind": "hotel",
+    "name": "Inn at the Market",
+    "nameEn": "Inn at the Market",
+    "provider": "Inn at the Market",
+    "accommodationType": "hotel",
+    "tagline": "Pike Place Market",
+    "description": "位于Pike Place Market，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 47.6103,
+    "lng": -122.342,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Pike Place Market",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.innatthemarket.com/",
+    "website": "https://www.innatthemarket.com/",
+    "bookingUrl": "https://www.innatthemarket.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按西雅图城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按西雅图城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 230,
+        "high": 230,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按西雅图城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "西雅图城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Inn at the Market"
+  },
+  {
+    "id": "stay-us-san-diego-del-coronado",
+    "cityId": "san-diego",
+    "kind": "hotel",
+    "name": "Hotel del Coronado",
+    "nameEn": "Hotel del Coronado",
+    "provider": "Hotel del Coronado",
+    "accommodationType": "hotel",
+    "tagline": "Coronado 海滩，需过桥或渡轮",
+    "description": "位于Coronado 海滩，需过桥或渡轮，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 32.6808,
+    "lng": -117.1784,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Coronado 海滩，需过桥或渡轮",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://hoteldel.com/",
+    "website": "https://hoteldel.com/",
+    "bookingUrl": "https://hoteldel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣迭戈城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣迭戈城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣迭戈城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Hotel del Coronado"
+  },
+  {
+    "id": "stay-us-san-diego-us-grant",
+    "cityId": "san-diego",
+    "kind": "hotel",
+    "name": "THE US GRANT",
+    "nameEn": "THE US GRANT",
+    "provider": "THE US GRANT",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Gaslamp 北侧",
+    "description": "位于Downtown / Gaslamp 北侧，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 32.716,
+    "lng": -117.1612,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Gaslamp 北侧",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/sanlc-the-us-grant-a-luxury-collection-hotel-san-diego/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/sanlc-the-us-grant-a-luxury-collection-hotel-san-diego/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/sanlc-the-us-grant-a-luxury-collection-hotel-san-diego/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣迭戈城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣迭戈城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣迭戈城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "U.S. Grant Hotel"
+  },
+  {
+    "id": "stay-us-san-diego-lafayette",
+    "cityId": "san-diego",
+    "kind": "hotel",
+    "name": "The Lafayette Hotel & Club",
+    "nameEn": "The Lafayette Hotel & Club",
+    "provider": "The Lafayette Hotel & Club",
+    "accommodationType": "hotel",
+    "tagline": "North Park",
+    "description": "位于North Park，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 32.7553,
+    "lng": -117.1413,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "North Park",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.lafayettehotelsd.com/",
+    "website": "https://www.lafayettehotelsd.com/",
+    "bookingUrl": "https://www.lafayettehotelsd.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣迭戈城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣迭戈城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣迭戈城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Lafayette Hotel, Swim Club & Bungalows"
+  },
+  {
+    "id": "stay-us-san-diego-bahia",
+    "cityId": "san-diego",
+    "kind": "hotel",
+    "name": "Bahia Resort Hotel",
+    "nameEn": "Bahia Resort Hotel",
+    "provider": "Bahia Resort Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Mission Bay",
+    "description": "位于Mission Bay，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 32.7709,
+    "lng": -117.2472,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Mission Bay",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.bahiahotel.com/",
+    "website": "https://www.bahiahotel.com/",
+    "bookingUrl": "https://www.bahiahotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣迭戈城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣迭戈城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣迭戈城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-san-diego-la-jolla-shores",
+    "cityId": "san-diego",
+    "kind": "hotel",
+    "name": "La Jolla Shores Hotel",
+    "nameEn": "La Jolla Shores Hotel",
+    "provider": "La Jolla Shores Hotel",
+    "accommodationType": "hotel",
+    "tagline": "La Jolla Shores，距市中心较远",
+    "description": "位于La Jolla Shores，距市中心较远，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 32.856,
+    "lng": -117.258,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "La Jolla Shores，距市中心较远",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.ljshoreshotel.com/",
+    "website": "https://www.ljshoreshotel.com/",
+    "bookingUrl": "https://www.ljshoreshotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣迭戈城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣迭戈城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣迭戈城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣迭戈城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-las-vegas-bellagio",
+    "cityId": "las-vegas",
+    "kind": "hotel",
+    "name": "Bellagio",
+    "nameEn": "Bellagio",
+    "provider": "Bellagio",
+    "accommodationType": "hotel",
+    "tagline": "大道中段",
+    "description": "位于大道中段，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.1126,
+    "lng": -115.1767,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "大道中段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://bellagio.mgmresorts.com/",
+    "website": "https://bellagio.mgmresorts.com/",
+    "bookingUrl": "https://bellagio.mgmresorts.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Bellagio (resort)"
+  },
+  {
+    "id": "stay-us-las-vegas-venetian",
+    "cityId": "las-vegas",
+    "kind": "hotel",
+    "name": "The Venetian Resort Las Vegas",
+    "nameEn": "The Venetian Resort Las Vegas",
+    "provider": "The Venetian Resort Las Vegas",
+    "accommodationType": "hotel",
+    "tagline": "大道中北段",
+    "description": "位于大道中北段，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.1212,
+    "lng": -115.1697,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "大道中北段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.venetianlasvegas.com/",
+    "website": "https://www.venetianlasvegas.com/",
+    "bookingUrl": "https://www.venetianlasvegas.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "The Venetian Las Vegas"
+  },
+  {
+    "id": "stay-us-las-vegas-wynn",
+    "cityId": "las-vegas",
+    "kind": "hotel",
+    "name": "Wynn Las Vegas",
+    "nameEn": "Wynn Las Vegas",
+    "provider": "Wynn Las Vegas",
+    "accommodationType": "hotel",
+    "tagline": "大道北段",
+    "description": "位于大道北段，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.1265,
+    "lng": -115.1658,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "大道北段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.wynnlasvegas.com/",
+    "website": "https://www.wynnlasvegas.com/",
+    "bookingUrl": "https://www.wynnlasvegas.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Wynn Las Vegas"
+  },
+  {
+    "id": "stay-us-las-vegas-paris",
+    "cityId": "las-vegas",
+    "kind": "hotel",
+    "name": "Paris Las Vegas",
+    "nameEn": "Paris Las Vegas",
+    "provider": "Paris Las Vegas",
+    "accommodationType": "hotel",
+    "tagline": "大道中段",
+    "description": "位于大道中段，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.1125,
+    "lng": -115.1707,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "大道中段",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.caesars.com/paris-las-vegas",
+    "website": "https://www.caesars.com/paris-las-vegas",
+    "bookingUrl": "https://www.caesars.com/paris-las-vegas",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Paris Las Vegas"
+  },
+  {
+    "id": "stay-us-las-vegas-golden-nugget",
+    "cityId": "las-vegas",
+    "kind": "hotel",
+    "name": "Golden Nugget Las Vegas",
+    "nameEn": "Golden Nugget Las Vegas",
+    "provider": "Golden Nugget Las Vegas",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Fremont Street",
+    "description": "位于Downtown / Fremont Street，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.1699,
+    "lng": -115.1451,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Fremont Street",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.goldennugget.com/las-vegas/",
+    "website": "https://www.goldennugget.com/las-vegas/",
+    "bookingUrl": "https://www.goldennugget.com/las-vegas/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按拉斯维加斯城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "拉斯维加斯城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Golden Nugget Las Vegas"
+  },
+  {
+    "id": "stay-us-portland-benson",
+    "cityId": "portland",
+    "kind": "hotel",
+    "name": "The Benson Portland",
+    "nameEn": "The Benson Portland",
+    "provider": "The Benson Portland",
+    "accommodationType": "hotel",
+    "tagline": "Downtown",
+    "description": "位于Downtown，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 45.522,
+    "lng": -122.6785,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://bensonhotel.com/",
+    "website": "https://bensonhotel.com/",
+    "bookingUrl": "https://bensonhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波特兰城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波特兰城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波特兰城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 360,
+        "high": 360,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Benson Hotel"
+  },
+  {
+    "id": "stay-us-portland-heathman",
+    "cityId": "portland",
+    "kind": "hotel",
+    "name": "Heathman Hotel",
+    "nameEn": "Heathman Hotel",
+    "provider": "Heathman Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / 音乐厅旁",
+    "description": "位于Downtown / 音乐厅旁，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 45.5171,
+    "lng": -122.6812,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / 音乐厅旁",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://heathmanhotel.com/",
+    "website": "https://heathmanhotel.com/",
+    "bookingUrl": "https://heathmanhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波特兰城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波特兰城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波特兰城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 360,
+        "high": 360,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Heathman Hotel"
+  },
+  {
+    "id": "stay-us-portland-sentinel",
+    "cityId": "portland",
+    "kind": "hotel",
+    "name": "Sentinel Hotel",
+    "nameEn": "Sentinel Hotel",
+    "provider": "Sentinel Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / West End",
+    "description": "位于Downtown / West End，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 45.5204,
+    "lng": -122.683,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / West End",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.sentinelhotel.com/",
+    "website": "https://www.sentinelhotel.com/",
+    "bookingUrl": "https://www.sentinelhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波特兰城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波特兰城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波特兰城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 360,
+        "high": 360,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Sentinel Hotel"
+  },
+  {
+    "id": "stay-us-portland-nines",
+    "cityId": "portland",
+    "kind": "hotel",
+    "name": "The Nines",
+    "nameEn": "The Nines",
+    "provider": "The Nines",
+    "accommodationType": "hotel",
+    "tagline": "Pioneer Courthouse Square",
+    "description": "位于Pioneer Courthouse Square，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 45.5188,
+    "lng": -122.6784,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Pioneer Courthouse Square",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.thenines.com/",
+    "website": "https://www.thenines.com/",
+    "bookingUrl": "https://www.thenines.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波特兰城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波特兰城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波特兰城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 360,
+        "high": 360,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "The Nines (hotel)"
+  },
+  {
+    "id": "stay-us-portland-lucia",
+    "cityId": "portland",
+    "kind": "hotel",
+    "name": "Hotel Lucia",
+    "nameEn": "Hotel Lucia",
+    "provider": "Hotel Lucia",
+    "accommodationType": "hotel",
+    "tagline": "Downtown",
+    "description": "位于Downtown，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 45.5214,
+    "lng": -122.6787,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotellucia.com/",
+    "website": "https://www.hotellucia.com/",
+    "bookingUrl": "https://www.hotellucia.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波特兰城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波特兰城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波特兰城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 360,
+        "high": 360,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波特兰城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Hotel Lucia"
+  },
+  {
+    "id": "stay-us-monterey-plaza",
+    "cityId": "monterey",
+    "kind": "hotel",
+    "name": "Monterey Plaza Hotel & Spa",
+    "nameEn": "Monterey Plaza Hotel & Spa",
+    "provider": "Monterey Plaza Hotel & Spa",
+    "accommodationType": "hotel",
+    "tagline": "Cannery Row",
+    "description": "位于Cannery Row，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.6139,
+    "lng": -121.8982,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Cannery Row",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://montereyplazahotel.com/",
+    "website": "https://montereyplazahotel.com/",
+    "bookingUrl": "https://montereyplazahotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按蒙特雷城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 140,
+        "high": 140,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按蒙特雷城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 270,
+        "high": 270,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按蒙特雷城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-monterey-clement",
+    "cityId": "monterey",
+    "kind": "hotel",
+    "name": "InterContinental The Clement Monterey",
+    "nameEn": "InterContinental The Clement Monterey",
+    "provider": "InterContinental The Clement Monterey",
+    "accommodationType": "hotel",
+    "tagline": "Cannery Row / 水族馆附近",
+    "description": "位于Cannery Row / 水族馆附近，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.6167,
+    "lng": -121.9002,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Cannery Row / 水族馆附近",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.ictheclementmonterey.com/",
+    "website": "https://www.ictheclementmonterey.com/",
+    "bookingUrl": "https://www.ictheclementmonterey.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按蒙特雷城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 140,
+        "high": 140,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按蒙特雷城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 270,
+        "high": 270,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按蒙特雷城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-monterey-casa-munras",
+    "cityId": "monterey",
+    "kind": "hotel",
+    "name": "Casa Munras Garden Hotel & Spa",
+    "nameEn": "Casa Munras Garden Hotel & Spa",
+    "provider": "Casa Munras Garden Hotel & Spa",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Munras Avenue",
+    "description": "位于Downtown / Munras Avenue，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.5951,
+    "lng": -121.8935,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Munras Avenue",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelcasamunras.com/",
+    "website": "https://www.hotelcasamunras.com/",
+    "bookingUrl": "https://www.hotelcasamunras.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按蒙特雷城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 140,
+        "high": 140,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按蒙特雷城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 270,
+        "high": 270,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按蒙特雷城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-monterey-portola",
+    "cityId": "monterey",
+    "kind": "hotel",
+    "name": "Portola Hotel & Spa",
+    "nameEn": "Portola Hotel & Spa",
+    "provider": "Portola Hotel & Spa",
+    "accommodationType": "hotel",
+    "tagline": "Old Fisherman's Wharf 附近",
+    "description": "位于Old Fisherman's Wharf 附近，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.6025,
+    "lng": -121.8944,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Old Fisherman's Wharf 附近",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.portolahotel.com/",
+    "website": "https://www.portolahotel.com/",
+    "bookingUrl": "https://www.portolahotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按蒙特雷城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 140,
+        "high": 140,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按蒙特雷城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 270,
+        "high": 270,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按蒙特雷城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-monterey-pacific",
+    "cityId": "monterey",
+    "kind": "hotel",
+    "name": "Hotel Pacific",
+    "nameEn": "Hotel Pacific",
+    "provider": "Hotel Pacific",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Pacific Street",
+    "description": "位于Downtown / Pacific Street，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 36.6018,
+    "lng": -121.8958,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Pacific Street",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hotelpacific.com/",
+    "website": "https://www.hotelpacific.com/",
+    "bookingUrl": "https://www.hotelpacific.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按蒙特雷城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 140,
+        "high": 140,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按蒙特雷城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 270,
+        "high": 270,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按蒙特雷城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 520,
+        "high": 520,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "蒙特雷城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-honolulu-royal-hawaiian",
+    "cityId": "honolulu",
+    "kind": "hotel",
+    "name": "The Royal Hawaiian",
+    "nameEn": "The Royal Hawaiian",
+    "provider": "The Royal Hawaiian",
+    "accommodationType": "hotel",
+    "tagline": "Waikiki 海滨",
+    "description": "位于Waikiki 海滨，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 21.2779,
+    "lng": -157.8284,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Waikiki 海滨",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.royal-hawaiian.com/",
+    "website": "https://www.royal-hawaiian.com/",
+    "bookingUrl": "https://www.royal-hawaiian.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 150,
+        "high": 150,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 290,
+        "high": 290,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 650,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Royal Hawaiian Hotel"
+  },
+  {
+    "id": "stay-us-honolulu-moana",
+    "cityId": "honolulu",
+    "kind": "hotel",
+    "name": "Moana Surfrider",
+    "nameEn": "Moana Surfrider",
+    "provider": "Moana Surfrider",
+    "accommodationType": "hotel",
+    "tagline": "Waikiki 海滨",
+    "description": "位于Waikiki 海滨，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 21.2764,
+    "lng": -157.8268,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Waikiki 海滨",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/hnlwi-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/hnlwi-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/hnlwi-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 150,
+        "high": 150,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 290,
+        "high": 290,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 650,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Moana Hotel"
+  },
+  {
+    "id": "stay-us-honolulu-halekulani",
+    "cityId": "honolulu",
+    "kind": "hotel",
+    "name": "Halekulani",
+    "nameEn": "Halekulani",
+    "provider": "Halekulani",
+    "accommodationType": "hotel",
+    "tagline": "Waikiki 海滨",
+    "description": "位于Waikiki 海滨，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 21.278,
+    "lng": -157.8315,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Waikiki 海滨",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.halekulani.com/",
+    "website": "https://www.halekulani.com/",
+    "bookingUrl": "https://www.halekulani.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 150,
+        "high": 150,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 290,
+        "high": 290,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 650,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Halekulani"
+  },
+  {
+    "id": "stay-us-honolulu-hilton-village",
+    "cityId": "honolulu",
+    "kind": "hotel",
+    "name": "Hilton Hawaiian Village Waikiki Beach Resort",
+    "nameEn": "Hilton Hawaiian Village Waikiki Beach Resort",
+    "provider": "Hilton Hawaiian Village Waikiki Beach Resort",
+    "accommodationType": "hotel",
+    "tagline": "Waikiki 西侧",
+    "description": "位于Waikiki 西侧，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 21.2835,
+    "lng": -157.835,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Waikiki 西侧",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hiltonhawaiianvillage.com/",
+    "website": "https://www.hiltonhawaiianvillage.com/",
+    "bookingUrl": "https://www.hiltonhawaiianvillage.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 150,
+        "high": 150,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 290,
+        "high": 290,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 650,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Hilton Hawaiian Village"
+  },
+  {
+    "id": "stay-us-honolulu-kahala",
+    "cityId": "honolulu",
+    "kind": "hotel",
+    "name": "The Kahala Hotel & Resort",
+    "nameEn": "The Kahala Hotel & Resort",
+    "provider": "The Kahala Hotel & Resort",
+    "accommodationType": "hotel",
+    "tagline": "Kahala，需往返市区交通",
+    "description": "位于Kahala，需往返市区交通，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 21.271,
+    "lng": -157.7738,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Kahala，需往返市区交通",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.kahalaresort.com/",
+    "website": "https://www.kahalaresort.com/",
+    "bookingUrl": "https://www.kahalaresort.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 150,
+        "high": 150,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 290,
+        "high": 290,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按檀香山（瓦胡岛）城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 650,
+        "high": 650,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "檀香山（瓦胡岛）城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Kahala Hotel & Resort"
+  },
+  {
+    "id": "stay-us-anchorage-captain-cook",
+    "cityId": "anchorage",
+    "kind": "hotel",
+    "name": "Hotel Captain Cook",
+    "nameEn": "Hotel Captain Cook",
+    "provider": "Hotel Captain Cook",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / West Fifth Avenue",
+    "description": "位于Downtown / West Fifth Avenue，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 61.2176,
+    "lng": -149.8993,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / West Fifth Avenue",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://captaincook.com/",
+    "website": "https://captaincook.com/",
+    "bookingUrl": "https://captaincook.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按安克雷奇城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按安克雷奇城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按安克雷奇城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": null,
+    "photoFile": "Hotel Captain cook Tower II, Downtown Anchorage, AK.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Captain_cook_Tower_II,_Downtown_Anchorage,_AK.jpg"
+  },
+  {
+    "id": "stay-us-anchorage-historic",
+    "cityId": "anchorage",
+    "kind": "hotel",
+    "name": "Historic Anchorage Hotel",
+    "nameEn": "Historic Anchorage Hotel",
+    "provider": "Historic Anchorage Hotel",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / E Street",
+    "description": "位于Downtown / E Street，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 61.2192,
+    "lng": -149.8913,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / E Street",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.historicanchoragehotel.com/",
+    "website": "https://www.historicanchoragehotel.com/",
+    "bookingUrl": "https://www.historicanchoragehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按安克雷奇城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按安克雷奇城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按安克雷奇城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "Anchorage Hotel"
+  },
+  {
+    "id": "stay-us-anchorage-lakefront",
+    "cityId": "anchorage",
+    "kind": "hotel",
+    "name": "The Lakefront Anchorage",
+    "nameEn": "The Lakefront Anchorage",
+    "provider": "The Lakefront Anchorage",
+    "accommodationType": "hotel",
+    "tagline": "Lake Hood，机场附近",
+    "description": "位于Lake Hood，机场附近，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 61.1787,
+    "lng": -149.9459,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Lake Hood，机场附近",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.millenniumhotels.com/en/anchorage/the-lakefront-anchorage/",
+    "website": "https://www.millenniumhotels.com/en/anchorage/the-lakefront-anchorage/",
+    "bookingUrl": "https://www.millenniumhotels.com/en/anchorage/the-lakefront-anchorage/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按安克雷奇城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按安克雷奇城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按安克雷奇城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ],
+    "article": "The Lakefront Anchorage Hotel"
+  },
+  {
+    "id": "stay-us-anchorage-hilton",
+    "cityId": "anchorage",
+    "kind": "hotel",
+    "name": "Hilton Anchorage",
+    "nameEn": "Hilton Anchorage",
+    "provider": "Hilton Anchorage",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Third Avenue",
+    "description": "位于Downtown / Third Avenue，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 61.2195,
+    "lng": -149.8919,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Third Avenue",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.hilton.com/en/hotels/ancahhf-hilton-anchorage/",
+    "website": "https://www.hilton.com/en/hotels/ancahhf-hilton-anchorage/",
+    "bookingUrl": "https://www.hilton.com/en/hotels/ancahhf-hilton-anchorage/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按安克雷奇城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按安克雷奇城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按安克雷奇城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-anchorage-marriott",
+    "cityId": "anchorage",
+    "kind": "hotel",
+    "name": "Marriott Anchorage Downtown",
+    "nameEn": "Marriott Anchorage Downtown",
+    "provider": "Marriott Anchorage Downtown",
+    "accommodationType": "hotel",
+    "tagline": "Downtown / Seventh Avenue",
+    "description": "位于Downtown / Seventh Avenue，可结合周边交通和想逛的片区比较住宿位置。请进入住宿网站查看具体房型、房态与日期报价。",
+    "lat": 61.2154,
+    "lng": -149.898,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "近似物业位置；入口、接驳与实际入住地址以酒店确认为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Seventh Avenue",
+      "具名住宿",
+      "按日期询价"
+    ],
+    "sourceProvider": "official-hotel-or-tourism",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/ancdt-marriott-anchorage-downtown/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/ancdt-marriott-anchorage-downtown/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/ancdt-marriott-anchorage-downtown/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "checkedAt": null,
+    "operatingStatus": "official-listing-not-date-availability",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "verificationNote": "官网或官方旅游住宿目录用于确认物业资料；未查询特定日期房态、房型和成交价格。",
+    "availabilityNote": "显示金额是城市住宿预算占位，不是此酒店报价，也不代表能以该档预算入住；税费、停车、度假村费和早餐请在预订前确认。",
+    "requirements": [
+      "核对入住日期、房型与允许人数",
+      "实际报价替换城市预算后再比较",
+      "确认税费、取消条款、停车及度假村费"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按安克雷奇城市经济档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按安克雷奇城市舒适档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按安克雷奇城市高端档预留一间一晚预算，不是这家酒店的可售房型或实际价格。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "安克雷奇城市住宿编辑预算；非该住宿报价",
+        "note": "此预算可能不适用于该住宿，须取得含税费实际报价后调整。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、停车、早餐、加床与接送"
+        ]
+      }
+    ]
+  }
+]

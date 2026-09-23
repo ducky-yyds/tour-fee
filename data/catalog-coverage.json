@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-09-23T05:19:48.389Z",
+  "checkedAt": "2026-09-23T06:17:55.836Z",
   "schemaVersion": 2,
-  "cities": 127,
+  "cities": 151,
   "countriesAndRegions": 63,
-  "attractions": 4723,
+  "attractions": 5055,
   "currencies": 45,
   "fxAsOf": "2026-09-22",
   "photos": {
-    "cities": 127,
-    "attractions": 4115,
-    "experiences": 258,
-    "foods": 412
+    "cities": 151,
+    "attractions": 4400,
+    "experiences": 328,
+    "foods": 512
   },
   "missingPhotos": {
     "cities": [],
@@ -622,7 +622,54 @@
       "osm-suzhou-node-4977398275",
       "osm-suzhou-node-4942485740",
       "osm-suzhou-node-4976680729",
-      "osm-suzhou-node-3506528956"
+      "osm-suzhou-node-3506528956",
+      "san-francisco-fishermans-wharf",
+      "san-francisco-de-young",
+      "seattle-mopop",
+      "san-diego-coronado",
+      "san-diego-sunset-cliffs",
+      "las-vegas-bellagio-garden",
+      "las-vegas-arts-district",
+      "portland-rose-garden",
+      "portland-pearl",
+      "portland-omsi",
+      "monterey-lovers-point",
+      "monterey-historic-park",
+      "monterey-whale-watch",
+      "monterey-san-carlos",
+      "honolulu-honolulu-art",
+      "anchorage-earthquake",
+      "washington-dc-white-house-exterior",
+      "washington-dc-portrait-gallery",
+      "philadelphia-eastern-state",
+      "atlanta-centennial",
+      "charleston-rainbow-row",
+      "charleston-king-street",
+      "savannah-starland",
+      "orlando-mills-50",
+      "orlando-thornton-park",
+      "new-orleans-magazine-street",
+      "new-orleans-sculpture-garden",
+      "new-orleans-crescent-park",
+      "nashville-farmers-market",
+      "nashville-gulch",
+      "nashville-grand-ole-opry",
+      "austin-east-austin",
+      "austin-red-river",
+      "san-antonio-pearl",
+      "san-antonio-san-fernando",
+      "san-antonio-japanese-garden",
+      "san-antonio-king-william",
+      "san-antonio-hemisfair",
+      "denver-rino",
+      "denver-santa-fe",
+      "salt-lake-city-natural-history",
+      "salt-lake-city-ninth-ninth",
+      "flagstaff-wupatki",
+      "flagstaff-elden",
+      "flagstaff-buffalo-park",
+      "flagstaff-southside",
+      "flagstaff-coconino-arts"
     ],
     "experiences": [
       "ex-shanghai-restaurant-yi-long-court",
@@ -1150,7 +1197,57 @@
       "stay-zhengzhou-osm-node-7683173555",
       "stay-zhengzhou-osm-way-183920504",
       "stay-zurich-osm-node-5263493074",
-      "stay-zurich-osm-node-656327837"
+      "stay-zurich-osm-node-656327837",
+      "stay-us-boston-verb",
+      "stay-us-philadelphia-rittenhouse",
+      "stay-us-philadelphia-monaco",
+      "stay-us-chicago-drake",
+      "stay-us-chicago-athletic",
+      "stay-us-atlanta-clermont",
+      "stay-us-atlanta-whitley",
+      "stay-us-atlanta-omni",
+      "stay-us-charleston-zero-george",
+      "stay-us-charleston-emeline",
+      "stay-us-savannah-orielle",
+      "stay-us-savannah-planters",
+      "stay-us-savannah-river-street",
+      "stay-us-savannah-plant-riverside",
+      "stay-us-miami-betsy",
+      "stay-us-miami-palms",
+      "stay-us-miami-goodtime",
+      "stay-us-orlando-alfond",
+      "stay-us-new-orleans-royal-sonesta",
+      "stay-us-nashville-omni",
+      "stay-us-nashville-hutton",
+      "stay-us-austin-stephen-austin",
+      "stay-us-austin-san-jose",
+      "stay-us-austin-austin-motel",
+      "stay-us-san-antonio-mansion",
+      "stay-us-san-antonio-havana",
+      "stay-us-denver-magnolia",
+      "stay-us-denver-rally",
+      "stay-us-salt-lake-city-monaco",
+      "stay-us-salt-lake-city-marriott-city",
+      "stay-us-flagstaff-monte-vista",
+      "stay-us-flagstaff-little-america",
+      "stay-us-flagstaff-high-country",
+      "stay-us-flagstaff-drury",
+      "stay-us-san-francisco-argonaut",
+      "stay-us-seattle-edgewater",
+      "stay-us-seattle-inn-market",
+      "stay-us-san-diego-lafayette",
+      "stay-us-san-diego-bahia",
+      "stay-us-san-diego-la-jolla-shores",
+      "stay-us-las-vegas-bellagio",
+      "stay-us-monterey-plaza",
+      "stay-us-monterey-clement",
+      "stay-us-monterey-casa-munras",
+      "stay-us-monterey-portola",
+      "stay-us-monterey-pacific",
+      "stay-us-honolulu-halekulani",
+      "stay-us-anchorage-lakefront",
+      "stay-us-anchorage-hilton",
+      "stay-us-anchorage-marriott"
     ],
     "foods": [
       "food-codfish-cakes",
@@ -1231,29 +1328,49 @@
       "food-alouda",
       "food-salmon-candy",
       "food-cusco-adobo",
-      "food-bolovo-bacalhau"
+      "food-bolovo-bacalhau",
+      "food-us-seattle-oysters",
+      "food-us-portland-marionberry",
+      "food-us-monterey-artichoke",
+      "food-us-anchorage-reindeer",
+      "food-us-anchorage-crab",
+      "food-us-washington-dc-mambo",
+      "food-us-philadelphia-roast-pork",
+      "food-us-atlanta-lemon-wings",
+      "food-us-charleston-benne",
+      "food-us-miami-stone-crab",
+      "food-us-austin-brisket",
+      "food-us-austin-migas",
+      "food-us-austin-kolache",
+      "food-us-denver-green-chile",
+      "food-us-denver-omelet",
+      "food-us-denver-bison",
+      "food-us-salt-lake-city-pastrami-burger",
+      "food-us-salt-lake-city-utah-scone",
+      "food-us-flagstaff-mexican-chocolate",
+      "food-us-flagstaff-craft-beer"
     ]
   },
   "mediaCoverage": {
     "manifest": {
       "cities": {
-        "entities": 127,
-        "cardsWithImage": 127,
-        "localImages": 127,
+        "entities": 151,
+        "cardsWithImage": 151,
+        "localImages": 151,
         "remoteImagesUnverified": 0,
-        "photographs": 127,
+        "photographs": 151,
         "scopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 127,
+          "existing-photo": 151,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 127,
+          "existing-photo": 151,
           "unrecognized": 0
         },
         "missingImageIds": [],
@@ -1261,22 +1378,22 @@
         "unattributedImageIds": []
       },
       "attractions": {
-        "entities": 4723,
-        "cardsWithImage": 4723,
-        "localImages": 4723,
+        "entities": 5055,
+        "cardsWithImage": 5055,
+        "localImages": 5055,
         "remoteImagesUnverified": 0,
-        "photographs": 4115,
+        "photographs": 4400,
         "scopeCounts": {
-          "exact-place": 1523,
+          "exact-place": 1808,
           "nearby": 1493,
-          "illustration": 608,
+          "illustration": 655,
           "existing-photo": 1099,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 1523,
+          "exact-place": 1808,
           "nearby": 1493,
-          "illustration": 608,
+          "illustration": 655,
           "existing-photo": 1099,
           "unrecognized": 0
         },
@@ -1285,22 +1402,22 @@
         "unattributedImageIds": []
       },
       "experiences": {
-        "entities": 784,
-        "cardsWithImage": 784,
-        "localImages": 784,
+        "entities": 904,
+        "cardsWithImage": 904,
+        "localImages": 904,
         "remoteImagesUnverified": 0,
-        "photographs": 258,
+        "photographs": 328,
         "scopeCounts": {
-          "exact-place": 255,
+          "exact-place": 325,
           "nearby": 3,
-          "illustration": 526,
+          "illustration": 576,
           "existing-photo": 0,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 255,
+          "exact-place": 325,
           "nearby": 3,
-          "illustration": 526,
+          "illustration": 576,
           "existing-photo": 0,
           "unrecognized": 0
         },
@@ -1309,22 +1426,22 @@
         "unattributedImageIds": []
       },
       "foods": {
-        "entities": 491,
-        "cardsWithImage": 491,
-        "localImages": 491,
+        "entities": 611,
+        "cardsWithImage": 611,
+        "localImages": 611,
         "remoteImagesUnverified": 0,
-        "photographs": 412,
+        "photographs": 512,
         "scopeCounts": {
-          "exact-place": 250,
+          "exact-place": 350,
           "nearby": 0,
-          "illustration": 79,
+          "illustration": 99,
           "existing-photo": 162,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 250,
+          "exact-place": 350,
           "nearby": 0,
-          "illustration": 79,
+          "illustration": 99,
           "existing-photo": 162,
           "unrecognized": 0
         },
@@ -1335,23 +1452,23 @@
     },
     "runtime": {
       "cities": {
-        "entities": 127,
-        "cardsWithImage": 127,
-        "localImages": 127,
+        "entities": 151,
+        "cardsWithImage": 151,
+        "localImages": 151,
         "remoteImagesUnverified": 0,
-        "photographs": 127,
+        "photographs": 151,
         "scopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 127,
+          "existing-photo": 151,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
           "exact-place": 0,
           "nearby": 0,
           "illustration": 0,
-          "existing-photo": 127,
+          "existing-photo": 151,
           "unrecognized": 0
         },
         "missingImageIds": [],
@@ -1359,22 +1476,22 @@
         "unattributedImageIds": []
       },
       "attractions": {
-        "entities": 4723,
-        "cardsWithImage": 4723,
-        "localImages": 4723,
+        "entities": 5055,
+        "cardsWithImage": 5055,
+        "localImages": 5055,
         "remoteImagesUnverified": 0,
-        "photographs": 4115,
+        "photographs": 4400,
         "scopeCounts": {
-          "exact-place": 1523,
+          "exact-place": 1808,
           "nearby": 1493,
-          "illustration": 608,
+          "illustration": 655,
           "existing-photo": 1099,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 1523,
+          "exact-place": 1808,
           "nearby": 1493,
-          "illustration": 608,
+          "illustration": 655,
           "existing-photo": 1099,
           "unrecognized": 0
         },
@@ -1383,22 +1500,22 @@
         "unattributedImageIds": []
       },
       "experiences": {
-        "entities": 784,
-        "cardsWithImage": 784,
-        "localImages": 784,
+        "entities": 904,
+        "cardsWithImage": 904,
+        "localImages": 904,
         "remoteImagesUnverified": 0,
-        "photographs": 258,
+        "photographs": 328,
         "scopeCounts": {
-          "exact-place": 255,
+          "exact-place": 325,
           "nearby": 3,
-          "illustration": 526,
+          "illustration": 576,
           "existing-photo": 0,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 255,
+          "exact-place": 325,
           "nearby": 3,
-          "illustration": 526,
+          "illustration": 576,
           "existing-photo": 0,
           "unrecognized": 0
         },
@@ -1407,22 +1524,22 @@
         "unattributedImageIds": []
       },
       "foods": {
-        "entities": 491,
-        "cardsWithImage": 491,
-        "localImages": 491,
+        "entities": 611,
+        "cardsWithImage": 611,
+        "localImages": 611,
         "remoteImagesUnverified": 0,
-        "photographs": 412,
+        "photographs": 512,
         "scopeCounts": {
-          "exact-place": 250,
+          "exact-place": 350,
           "nearby": 0,
-          "illustration": 79,
+          "illustration": 99,
           "existing-photo": 162,
           "unrecognized": 0
         },
         "declaredScopeCounts": {
-          "exact-place": 250,
+          "exact-place": 350,
           "nearby": 0,
-          "illustration": 79,
+          "illustration": 99,
           "existing-photo": 162,
           "unrecognized": 0
         },
@@ -1433,15 +1550,15 @@
     }
   },
   "imageFileCoverage": {
-    "checkedLocalUrls": 4852,
+    "checkedLocalUrls": 5313,
     "remoteUrlsNotFetched": 0,
     "missing": []
   },
   "cityMinimumCoverage": {
-    "minimumMaintainedCities": 127,
+    "minimumMaintainedCities": 151,
     "minimumFoodsPerCity": 5,
     "minimumHotelsPerCity": 5,
-    "cities": 127,
+    "cities": 151,
     "perCity": [
       {
         "cityId": "shanghai",
@@ -2204,6 +2321,150 @@
         "name": "苏州",
         "foods": 5,
         "hotels": 5
+      },
+      {
+        "cityId": "san-francisco",
+        "name": "旧金山",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "seattle",
+        "name": "西雅图",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "san-diego",
+        "name": "圣迭戈",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "las-vegas",
+        "name": "拉斯维加斯",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "portland",
+        "name": "波特兰",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "monterey",
+        "name": "蒙特雷",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "honolulu",
+        "name": "檀香山（瓦胡岛）",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "anchorage",
+        "name": "安克雷奇",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "washington-dc",
+        "name": "华盛顿特区",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "boston",
+        "name": "波士顿",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "philadelphia",
+        "name": "费城",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "chicago",
+        "name": "芝加哥",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "atlanta",
+        "name": "亚特兰大",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "charleston",
+        "name": "查尔斯顿",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "savannah",
+        "name": "萨凡纳",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "miami",
+        "name": "迈阿密",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "orlando",
+        "name": "奥兰多",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "new-orleans",
+        "name": "新奥尔良",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "nashville",
+        "name": "纳什维尔",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "austin",
+        "name": "奥斯汀",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "san-antonio",
+        "name": "圣安东尼奥",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "denver",
+        "name": "丹佛",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "salt-lake-city",
+        "name": "盐湖城",
+        "foods": 5,
+        "hotels": 5
+      },
+      {
+        "cityId": "flagstaff",
+        "name": "弗拉格斯塔夫",
+        "foods": 5,
+        "hotels": 5
       }
     ],
     "belowFoodMinimum": [],
@@ -2211,12 +2472,12 @@
     "complete": true
   },
   "experienceCoverage": {
-    "places": 784,
-    "cities": 127,
-    "options": 2111,
+    "places": 904,
+    "cities": 151,
+    "options": 2471,
     "categories": {
       "restaurant": 72,
-      "hotel": 635,
+      "hotel": 755,
       "experience": 77
     },
     "missingCities": [],
@@ -2228,9 +2489,9 @@
     }
   },
   "foodCoverage": {
-    "foods": 491,
-    "cities": 127,
-    "photos": 412,
+    "foods": 611,
+    "cities": 151,
+    "photos": 512,
     "missingPhotos": [
       "food-codfish-cakes",
       "food-norwegian-waffle",
@@ -2310,9 +2571,29 @@
       "food-alouda",
       "food-salmon-candy",
       "food-cusco-adobo",
-      "food-bolovo-bacalhau"
+      "food-bolovo-bacalhau",
+      "food-us-seattle-oysters",
+      "food-us-portland-marionberry",
+      "food-us-monterey-artichoke",
+      "food-us-anchorage-reindeer",
+      "food-us-anchorage-crab",
+      "food-us-washington-dc-mambo",
+      "food-us-philadelphia-roast-pork",
+      "food-us-atlanta-lemon-wings",
+      "food-us-charleston-benne",
+      "food-us-miami-stone-crab",
+      "food-us-austin-brisket",
+      "food-us-austin-migas",
+      "food-us-austin-kolache",
+      "food-us-denver-green-chile",
+      "food-us-denver-omelet",
+      "food-us-denver-bison",
+      "food-us-salt-lake-city-pastrami-burger",
+      "food-us-salt-lake-city-utah-scone",
+      "food-us-flagstaff-mexican-chocolate",
+      "food-us-flagstaff-craft-beer"
     ],
-    "cardsWithImage": 491,
+    "cardsWithImage": 611,
     "missingCardImages": [],
     "awaitingDishPhoto": [
       "food-norwegian-waffle",
@@ -2368,7 +2649,24 @@
       "food-alouda",
       "food-salmon-candy",
       "food-cusco-adobo",
-      "food-bolovo-bacalhau"
+      "food-bolovo-bacalhau",
+      "food-us-seattle-oysters",
+      "food-us-portland-marionberry",
+      "food-us-monterey-artichoke",
+      "food-us-anchorage-reindeer",
+      "food-us-anchorage-crab",
+      "food-us-philadelphia-roast-pork",
+      "food-us-atlanta-lemon-wings",
+      "food-us-miami-stone-crab",
+      "food-us-austin-migas",
+      "food-us-austin-kolache",
+      "food-us-denver-green-chile",
+      "food-us-denver-omelet",
+      "food-us-denver-bison",
+      "food-us-salt-lake-city-pastrami-burger",
+      "food-us-salt-lake-city-utah-scone",
+      "food-us-flagstaff-mexican-chocolate",
+      "food-us-flagstaff-craft-beer"
     ]
   },
   "placeLibraryCoverage": {

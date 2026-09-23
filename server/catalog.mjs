@@ -4,7 +4,7 @@ import { ROOT, readSnapshot, sourceStatuses, recentObservations } from './db.mjs
 import { DATA_SOURCES } from './sources.mjs';
 import { MAINTENANCE_CONFIG } from './maintenance.mjs';
 import { readExperienceEntries } from './experience-catalog.mjs';
-import { normalizedMunicipality } from '../shared/airport-data.mjs';
+import { normalizedMunicipality, compatibleCuratedAirport } from '../shared/airport-data.mjs';
 import { cardImage } from '../shared/media.mjs';
 
 // Reproducible reference snapshot actually retrieved from Frankfurter on this date.
@@ -45,8 +45,11 @@ export function getAirportInventory() {
       }));
       const cities = (Array.isArray(cityFile?.cities) ? cityFile.cities : []).map(city => {
         const linked = (city.airportCodes || []).map(code => explicit.get(`${city.countryCode}|${code}`)).find(Boolean);
-        const curatedCityId = linked || (ids.has(city.curatedCityId) ? city.curatedCityId : null) ||
-          (city.nameKind === 'municipality' ? byName.get(`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`) : null) || null;
+        const previous = ids.has(city.curatedCityId) && curated.find(item => item.id === city.curatedCityId);
+        const namedId = city.nameKind === 'municipality' ? byName.get(`${city.countryCode}|${normalizedMunicipality(city.nameEn)}`) : null;
+        const named = namedId && curated.find(item => item.id === namedId);
+        const curatedCityId = linked || (compatibleCuratedAirport(previous, city) ? previous.id : null) ||
+          (compatibleCuratedAirport(named, city) ? named.id : null);
         return curatedCityId === city.curatedCityId ? city : { ...city, curatedCityId };
       });
       airportLinkCache = { snapshot: cityFile, curated, links, cities };

@@ -1,6 +1,6 @@
 # 目的地图片维护
 
-本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。127 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。图片从对应地点和食物的 Wikimedia Commons 文件下载，不使用随机城市风景冒充地点。
+本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。151 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。图片从对应地点和食物的 Wikimedia Commons 文件下载，不使用随机城市风景冒充地点。
 
 上一版（2026-09-22）的 100 张目的地主图与 819 张地点照片作为扩充起点保留。本轮继续增加新城市、香港街区、地图小地点和食物摄影；当前缺图清单以目录报告为准，没有运行上一版的额外解码测试。
 
@@ -70,6 +70,6 @@ python3 scripts/complete-media.py --phase fallback
 - `nearby`：为仍缺图的地点查找 Commons 有坐标标注的周边实景，距离上限 1,250 米。详情显示标注坐标与地点参考点的距离及“不是该地点内部或入口的核验照片”；不会用于冒充酒店客房或某一道菜。附近照片只是环境参考。
 - `fallback`：离线为剩余条目补上主题插画，保留 `scope: illustration` 与明确说明。插画不是实拍，也不代表任何酒店房型或菜品外观。生成提示词和资产清单见 [生成素材记录](generated-media.md)。每次 Pages 构建执行此步骤，保证新增条目也有图。
 
-API 顺序请求，间隔至少 1.25 秒；CDN 最多三个下载任务、统一限速。30 天请求缓存保存在 `artifacts/media-completion-cache`，429 尊重等待时间，401/403 不绕过。新缩略图请求宽 500 像素、单图不超过 750 KiB，早期较大图片继续保留。周边检索先取得轻量坐标索引，只为选中的候选读取许可和缩略图信息；排除藏品、人物、菜品、施工等不适合表达周边环境的照片。逐张记录作者、来源和许可，原子写入素材清单。
+API 顺序请求，间隔至少 1.25 秒；CDN 最多三个下载任务、统一限速。30 天请求缓存保存在 `artifacts/media-completion-cache`，429 尊重等待时间，401/403 不绕过。新缩略图默认请求宽 500 像素，可用 `--thumb-width=400` 为新增批次请求较小图片（Commons 可能返回最接近的预生成尺寸）；单图不超过 750 KiB，已有图片继续保留。周边检索先取得轻量坐标索引，只为选中的候选读取许可和缩略图信息；排除藏品、人物、菜品、施工等不适合表达周边环境的照片。逐张记录作者、来源和许可，原子写入素材清单。
 
 目录审计分别报告对应实拍、旧版摄影、附近实景、主题插画和仍缺图数量；“有图”不等于“全部已有准确实拍”。卡片默认只展示图片，来源和范围在展开详情中可直接查看。公共 API 资料：[Commons 图片元数据](https://www.mediawiki.org/wiki/API:Imageinfo)、[坐标检索](https://www.mediawiki.org/wiki/API:Geosearch)。

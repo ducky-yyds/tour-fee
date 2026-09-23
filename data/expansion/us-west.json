@@ -1,0 +1,5716 @@
+[
+  {
+    "id": "san-francisco",
+    "name": "旧金山",
+    "nameEn": "San Francisco",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "iata": "SFO",
+    "article": "San Francisco",
+    "tagline": "海湾雾气、电车坡道与不同移民街区，让城市的风景和餐桌同样值得慢慢探索。",
+    "description": "海湾雾气、电车坡道与不同移民街区，让城市的风景和餐桌同样值得慢慢探索。",
+    "tags": [
+      "海岸步行",
+      "历史建筑",
+      "海港漫游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/San_Francisco"
+    },
+    "officialTourismUrl": "https://www.sftravel.com/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        130,
+        250,
+        520
+      ],
+      "food": [
+        45,
+        85,
+        170
+      ],
+      "transport": [
+        12,
+        32,
+        90
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1900,
+        3400,
+        6000
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "市内可结合 Muni、步行与网约车；坡道和海湾风会影响步行体验。SFO 接驳单独预留，恶魔岛需预订指定轮渡；优胜美地等远郊不作市内顺路点。",
+    "guide": {
+      "cityId": "san-francisco",
+      "intro": "海湾雾气、电车坡道与不同移民街区，让城市的风景和餐桌同样值得慢慢探索。",
+      "foodHighlights": [
+        {
+          "name": "旧金山海鲜番茄炖汤",
+          "description": "番茄汤底与鱼贝海鲜组成的一锅热汤，适合配酸种面包；海鲜种类与份量随餐馆菜单变化。"
+        },
+        {
+          "name": "旧金山酸种面包",
+          "description": "外壳结实、带发酵酸香的面包，可单买或选择装浓汤的面包碗；套餐内容另核。"
+        },
+        {
+          "name": "米慎风味大卷饼",
+          "description": "饼皮卷入米饭、豆类、肉和莎莎酱，份量常较足；可按喜好选择肉类和辣度。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "渔人码头与 Pier 39 海狮",
+          "description": "沿码头看渔船、海狮与海湾，停下来吃海鲜；公共岸线零门票，商店、餐厅和游船另付费。"
+        },
+        {
+          "name": "唐人街巷弄与点心",
+          "description": "从龙门往 Grant Avenue 和周边街巷漫走，观察会馆、杂货店和点心铺；可以与北滩组合成一段有餐饮停留的城市散步。"
+        },
+        {
+          "name": "米慎区壁画与墨西哥卷饼",
+          "description": "在街巷壁画和 Valencia Street 小店间走走，选一家 taqueria 吃卷饼；看画时尊重住户和工作中的商家。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "san-francisco-golden-gate",
+        "name": "金门大桥南端与观景步道",
+        "nameEn": "Golden Gate Bridge",
+        "article": "Golden Gate Bridge",
+        "lat": 37.8077,
+        "lng": -122.475,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 180
+        },
+        "category": "海岸步行",
+        "activityType": "nature",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从南端步道看海湾、红桥和海雾，可选择走一段桥面；风大时缩短停留，不将来回跨桥默认算进短打卡。",
+        "features": [
+          "海岸步行",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.goldengate.org/bridge/visiting-the-bridge/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.goldengate.org/bridge/visiting-the-bridge/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.goldengate.org/bridge/visiting-the-bridge/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-alcatraz",
+        "name": "恶魔岛轮渡与监狱参观",
+        "nameEn": "Alcatraz Island",
+        "article": "Alcatraz Island",
+        "lat": 37.8267,
+        "lng": -122.423,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 240,
+          "max": 300
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "从 Pier 33 搭授权轮渡登岛，参观牢房和海湾历史。船班须提前预订，所列用时含码头与往返渡轮的预算，餐饮请在上岛前安排。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.nps.gov/alca/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.nps.gov/alca/planyourvisit/index.htm"
+        },
+        "price": {
+          "low": 50,
+          "high": 75,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/alca/planyourvisit/index.htm",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "san-francisco-fishermans-wharf",
+        "name": "渔人码头与 Pier 39 海狮",
+        "nameEn": "Fisherman's Wharf, San Francisco",
+        "article": "Fisherman's Wharf, San Francisco",
+        "lat": 37.808,
+        "lng": -122.4177,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "海港漫游",
+        "activityType": "leisure",
+        "priority": 94,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿码头看渔船、海狮与海湾，停下来吃海鲜；公共岸线零门票，商店、餐厅和游船另付费。",
+        "features": [
+          "海港漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/article/sightseeing-dining-more-fishermans-wharf",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/article/sightseeing-dining-more-fishermans-wharf"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/article/sightseeing-dining-more-fishermans-wharf",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-chinatown",
+        "name": "唐人街巷弄与点心",
+        "nameEn": "Chinatown, San Francisco",
+        "article": "Chinatown, San Francisco",
+        "lat": 37.7941,
+        "lng": -122.4078,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 92,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从龙门往 Grant Avenue 和周边街巷漫走，观察会馆、杂货店和点心铺；可以与北滩组合成一段有餐饮停留的城市散步。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/neighborhoods/visit-chinatown",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/visit-chinatown"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/visit-chinatown",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-mission",
+        "name": "米慎区壁画与墨西哥卷饼",
+        "nameEn": "Mission District, San Francisco",
+        "article": "Mission District, San Francisco",
+        "lat": 37.7599,
+        "lng": -122.4148,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 91,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在街巷壁画和 Valencia Street 小店间走走，选一家 taqueria 吃卷饼；看画时尊重住户和工作中的商家。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/neighborhoods/mission-district",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/mission-district"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/mission-district",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Mission District 2.JPG"
+      },
+      {
+        "id": "san-francisco-dolores",
+        "name": "多洛雷斯公园草坪午后",
+        "nameEn": "Mission Dolores Park",
+        "article": "Mission Dolores Park",
+        "lat": 37.7597,
+        "lng": -122.4269,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 180
+        },
+        "category": "公园休闲",
+        "activityType": "leisure",
+        "priority": 80,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在坡地草坪坐看市区轮廓，可带一份午餐野餐；给慢下来留出整段时间，离开时带走垃圾。",
+        "features": [
+          "公园休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sfrecpark.org/Facilities/Facility/Details/Mission-Dolores-Park-188",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-golden-gate-park",
+        "name": "金门公园湖畔与花园",
+        "nameEn": "Golden Gate Park",
+        "article": "Golden Gate Park",
+        "lat": 37.7694,
+        "lng": -122.4862,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "城市公园",
+        "activityType": "nature",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在大公园内挑选湖边、草坪和林荫道慢走，不必横穿全园；博物馆、温室及部分主题花园另买票。",
+        "features": [
+          "城市公园",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://sfrecpark.org/770/Golden-Gate-Park",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://sfrecpark.org/770/Golden-Gate-Park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://sfrecpark.org/770/Golden-Gate-Park",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-de-young",
+        "name": "笛洋美术馆",
+        "nameEn": "De Young Museum",
+        "article": "De Young Museum",
+        "lat": 37.7715,
+        "lng": -122.4687,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在金门公园停留一段室内艺术时间，按兴趣选择馆藏或特展；特展和普通入场范围可能不同。",
+        "features": [
+          "艺术博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.famsf.org/visit/de-young",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.famsf.org/visit/de-young"
+        },
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.famsf.org/visit/de-young",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-sfmoma",
+        "name": "旧金山现代艺术博物馆",
+        "nameEn": "San Francisco Museum of Modern Art",
+        "article": "San Francisco Museum of Modern Art",
+        "lat": 37.7857,
+        "lng": -122.4011,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "用半天看现代艺术与摄影，不必追求看完每层；提前核对临展和当日开放楼层。",
+        "features": [
+          "艺术博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sfmoma.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sfmoma.org/visit/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sfmoma.org/visit/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-ferry-building",
+        "name": "渡轮大厦市场与海滨",
+        "nameEn": "San Francisco Ferry Building",
+        "article": "San Francisco Ferry Building",
+        "lat": 37.7955,
+        "lng": -122.3937,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "市场漫游",
+        "activityType": "food",
+        "priority": 90,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "逛食品店和海湾步道，遇到农夫市场再多留些时间；这里适合早餐、轻午餐或伴手礼，消费按店家另计。",
+        "features": [
+          "市场漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.ferrybuildingmarketplace.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.ferrybuildingmarketplace.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ferrybuildingmarketplace.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-palace-fine-arts",
+        "name": "艺术宫柱廊与湖边",
+        "nameEn": "Palace of Fine Arts",
+        "article": "Palace of Fine Arts",
+        "lat": 37.8027,
+        "lng": -122.4484,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "category": "建筑散步",
+        "activityType": "culture",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿柱廊和小湖拍照，欣赏古典建筑的尺度；清单指公共外部园地，剧院演出另计。",
+        "features": [
+          "建筑散步",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/neighborhoods/marina-pacific-heights",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/marina-pacific-heights"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/neighborhoods/marina-pacific-heights",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-lombard",
+        "name": "伦巴底九曲花街",
+        "nameEn": "Lombard Street (San Francisco)",
+        "article": "Lombard Street (San Francisco)",
+        "lat": 37.8021,
+        "lng": -122.4187,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 20,
+          "recommended": 40,
+          "max": 60
+        },
+        "category": "街巷打卡",
+        "activityType": "culture",
+        "priority": 76,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从行人台阶观察弯道和坡城景观，注意这里仍是居民街道；不要站到车道或私人台阶拍照。",
+        "features": [
+          "街巷打卡",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-north-beach",
+        "name": "北滩书店与意式街区",
+        "nameEn": "North Beach, San Francisco",
+        "article": "North Beach, San Francisco",
+        "lat": 37.8003,
+        "lng": -122.409,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在书店、咖啡馆和小广场间慢逛，适合接在唐人街之后；餐饮与购书单独预算。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sftravel.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sftravel.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sftravel.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-francisco-lands-end",
+        "name": "Lands End 海岸步道",
+        "nameEn": "Lands End (San Francisco)",
+        "article": "Lands End (San Francisco)",
+        "lat": 37.781,
+        "lng": -122.5033,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "海岸步道",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "沿有海风的步道看桥与礁岸，选择适合体力的一段；湿滑、悬崖边与封闭区不要越界，交通需单独往返。",
+        "features": [
+          "海岸步道",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.nps.gov/goga/planyourvisit/landsend.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.nps.gov/goga/planyourvisit/landsend.htm"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/goga/planyourvisit/landsend.htm",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      }
+    ],
+    "isoRegion": "US-CA"
+  },
+  {
+    "id": "seattle",
+    "name": "西雅图",
+    "nameEn": "Seattle",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "iata": "SEA",
+    "article": "Seattle",
+    "tagline": "从派克市场和海滨步道走进咖啡馆、玻璃艺术与湖畔社区，晴天再看雪山轮廓。",
+    "description": "从派克市场和海滨步道走进咖啡馆、玻璃艺术与湖畔社区，晴天再看雪山轮廓。",
+    "tags": [
+      "市场漫游",
+      "城市观景",
+      "艺术展馆"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seattle"
+    },
+    "officialTourismUrl": "https://visitseattle.org/things-to-do/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        120,
+        230,
+        460
+      ],
+      "food": [
+        40,
+        80,
+        160
+      ],
+      "transport": [
+        12,
+        30,
+        85
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        2800,
+        4800
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "轻轨连接机场与多个街区，市内配合巴士、单轨和步行；横跨水域的轮渡必须查班次。雷尼尔山与奥林匹克半岛需要独立远郊日。",
+    "guide": {
+      "cityId": "seattle",
+      "intro": "从派克市场和海滨步道走进咖啡馆、玻璃艺术与湖畔社区，晴天再看雪山轮廓。",
+      "foodHighlights": [
+        {
+          "name": "太平洋西北鲑鱼料理",
+          "description": "可以选择烤制或烟熏的鲑鱼料理；鱼种、产地和捕捞季节以店家菜单为准。"
+        },
+        {
+          "name": "蛤蜊浓汤",
+          "description": "奶香浓汤里有蛤蜊与土豆，可选杯、碗或面包碗，适合市场午餐。"
+        },
+        {
+          "name": "西雅图照烧饭",
+          "description": "甜咸酱汁烤肉配米饭与简单配菜，是在社区小馆可以寻找的轻松一餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "海滨步道与 Overlook Walk",
+          "description": "从市场一侧步行到海边平台和码头，边走边看轮渡；水族馆、摩天轮和游船是独立付费项目。"
+        },
+        {
+          "name": "先锋广场老城散步",
+          "description": "砖楼、画廊和小广场适合白天慢逛，也能结合附近午餐；地下城导览需另购票。"
+        },
+        {
+          "name": "凯瑞公园城市天际线",
+          "description": "在小观景平台看太空针塔和城区层次，日落前可短暂停留；上坡交通和候车也要留时间。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "seattle-pike-place",
+        "name": "派克市场慢逛",
+        "nameEn": "Pike Place Market",
+        "article": "Pike Place Market",
+        "lat": 47.6095,
+        "lng": -122.3422,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "市场漫游",
+        "activityType": "food",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在海鲜摊、烘焙店、花摊和楼下小店间慢慢逛，午餐可就近解决；市场步行免费，餐饮购物另计。",
+        "features": [
+          "市场漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.pikeplacemarket.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.pikeplacemarket.org/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.pikeplacemarket.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-space-needle",
+        "name": "太空针塔观景",
+        "nameEn": "Space Needle",
+        "article": "Space Needle",
+        "lat": 47.6205,
+        "lng": -122.3493,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "城市观景",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "登塔看海湾、城区与远山，按天气选择时段；玻璃地板体验可自行决定，普通票与联票不要重复购买。",
+        "features": [
+          "城市观景",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.spaceneedle.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.spaceneedle.com/"
+        },
+        "price": {
+          "low": 35,
+          "high": 55,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.spaceneedle.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-chihuly",
+        "name": "奇胡利玻璃艺术园",
+        "nameEn": "Chihuly Garden and Glass",
+        "article": "Chihuly Garden and Glass",
+        "lat": 47.6206,
+        "lng": -122.3505,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "艺术展馆",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在展厅、玻璃屋和花园之间看彩色玻璃作品，适合和太空针塔合并一个片区。",
+        "features": [
+          "艺术展馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.chihulygardenandglass.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.chihulygardenandglass.com/"
+        },
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.chihulygardenandglass.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-mopop",
+        "name": "流行文化博物馆",
+        "nameEn": "Museum of Pop Culture",
+        "article": "Museum of Pop Culture",
+        "lat": 47.6215,
+        "lng": -122.3481,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "文化博物馆",
+        "activityType": "culture",
+        "priority": 90,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从音乐、影视和流行文化展览中挑选兴趣主题；临展与部分互动项目的开放内容会变化。",
+        "features": [
+          "文化博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.mopop.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.mopop.org/"
+        },
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.mopop.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-waterfront",
+        "name": "海滨步道与 Overlook Walk",
+        "nameEn": "Seattle waterfront",
+        "article": "Seattle waterfront",
+        "lat": 47.6078,
+        "lng": -122.3424,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 45,
+          "recommended": 100,
+          "max": 180
+        },
+        "category": "滨水漫游",
+        "activityType": "leisure",
+        "priority": 93,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从市场一侧步行到海边平台和码头，边走边看轮渡；水族馆、摩天轮和游船是独立付费项目。",
+        "features": [
+          "滨水漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://visitseattle.org/press/press-kit/seattles-major-attractions/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://visitseattle.org/press/press-kit/seattles-major-attractions/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitseattle.org/press/press-kit/seattles-major-attractions/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-pioneer-square",
+        "name": "先锋广场老城散步",
+        "nameEn": "Pioneer Square, Seattle",
+        "article": "Pioneer Square, Seattle",
+        "lat": 47.6014,
+        "lng": -122.3331,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "砖楼、画廊和小广场适合白天慢逛，也能结合附近午餐；地下城导览需另购票。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-kerry-park",
+        "name": "凯瑞公园城市天际线",
+        "nameEn": "Kerry Park",
+        "article": "Kerry Park",
+        "lat": 47.6295,
+        "lng": -122.359,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 20,
+          "recommended": 40,
+          "max": 60
+        },
+        "category": "观景打卡",
+        "activityType": "leisure",
+        "priority": 83,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在小观景平台看太空针塔和城区层次，日落前可短暂停留；上坡交通和候车也要留时间。",
+        "features": [
+          "观景打卡",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seattle.gov/parks/allparks/kerry-park",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/kerry-park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/kerry-park",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-gas-works",
+        "name": "煤气厂公园湖畔草地",
+        "nameEn": "Gas Works Park",
+        "article": "Gas Works Park",
+        "lat": 47.6456,
+        "lng": -122.3344,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "公园休闲",
+        "activityType": "leisure",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "工业构筑物与联合湖帆船形成特别的城市景观，适合草地野餐；只走开放区域。",
+        "features": [
+          "公园休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seattle.gov/parks/allparks/gas-works-park",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/gas-works-park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/gas-works-park",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-ballard-locks",
+        "name": "巴拉德船闸与鱼梯",
+        "nameEn": "Ballard Locks",
+        "article": "Ballard Locks",
+        "lat": 47.6686,
+        "lng": -122.3978,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "水岸体验",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "看船只通过闸门，再走到鱼梯和花园；鱼类出现有季节性，不保证每次都能看到洄游。",
+        "features": [
+          "水岸体验",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-capitol-hill",
+        "name": "国会山咖啡与独立小店",
+        "nameEn": "Capitol Hill, Seattle",
+        "article": "Capitol Hill, Seattle",
+        "lat": 47.6141,
+        "lng": -122.3194,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "food",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在咖啡馆、书店和街边小餐馆之间选几站，适合下午到晚餐的过渡，不必把消费塞成固定套餐。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-olympic-sculpture",
+        "name": "奥林匹克雕塑公园",
+        "nameEn": "Olympic Sculpture Park",
+        "article": "Olympic Sculpture Park",
+        "lat": 47.6167,
+        "lng": -122.3553,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "category": "户外艺术",
+        "activityType": "culture",
+        "priority": 82,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿折线步道边看户外雕塑边走向海湾，把这段作为轻松的海滨停留。",
+        "features": [
+          "户外艺术",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seattleartmuseum.org/visit/olympic-sculpture-park",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seattleartmuseum.org/visit/olympic-sculpture-park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seattleartmuseum.org/visit/olympic-sculpture-park",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "seattle-museum-flight",
+        "name": "飞行博物馆",
+        "nameEn": "Museum of Flight",
+        "article": "Museum of Flight",
+        "lat": 47.518,
+        "lng": -122.2963,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "航空博物馆",
+        "activityType": "culture",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "从早期飞行到大型飞机展馆留出半日，对航空有兴趣可延长；位于市区南侧，需单独交通。",
+        "features": [
+          "航空博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.museumofflight.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.museumofflight.org/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.museumofflight.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "seattle-alki",
+        "name": "阿尔基海滩看海湾",
+        "nameEn": "Alki Beach",
+        "article": "Alki Beach",
+        "lat": 47.5796,
+        "lng": -122.4106,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 240
+        },
+        "category": "海滩休闲",
+        "activityType": "leisure",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在西西雅图的海滩步道看对岸城区，吃一顿轻松海边餐；水上出租车与陆上接驳需查班次。",
+        "features": [
+          "海滩休闲",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seattle.gov/parks/allparks/alki-beach-park",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/alki-beach-park"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seattle.gov/parks/allparks/alki-beach-park",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。",
+        "photoFile": "Alki Beach, Seattle in April 2012.JPG"
+      },
+      {
+        "id": "seattle-fremont",
+        "name": "弗里蒙特运河与街头艺术",
+        "nameEn": "Fremont, Seattle",
+        "article": "Fremont, Seattle",
+        "lat": 47.651,
+        "lng": -122.3508,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 160
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 83,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从运河边走到小店和街头雕塑，适合喜欢另类社区气质的人；周末市集需核对日期。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitseattle.org/things-to-do/neighborhoods/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "isoRegion": "US-WA"
+  },
+  {
+    "id": "san-diego",
+    "name": "圣迭戈",
+    "nameEn": "San Diego",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "iata": "SAN",
+    "article": "San Diego",
+    "tagline": "把海滩午后、巴尔博亚文化园和墨西哥风味分开安排，享受南加州不赶路的节奏。",
+    "description": "把海滩午后、巴尔博亚文化园和墨西哥风味分开安排，享受南加州不赶路的节奏。",
+    "tags": [
+      "文化公园",
+      "动物园",
+      "海事博物馆"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/San_Diego"
+    },
+    "officialTourismUrl": "https://www.sandiego.org/things-to-do/top-things-to-do",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        120,
+        240,
+        500
+      ],
+      "food": [
+        40,
+        80,
+        160
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1700,
+        3000,
+        5200
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "市中心可步行结合 Trolley，拉霍亚与海滩片区通常需要巴士、网约车或自驾；科罗纳多在海湾另一侧，需算过桥或渡轮时间。",
+    "guide": {
+      "cityId": "san-diego",
+      "intro": "把海滩午后、巴尔博亚文化园和墨西哥风味分开安排，享受南加州不赶路的节奏。",
+      "foodHighlights": [
+        {
+          "name": "巴哈风味鱼塔可",
+          "description": "鱼肉配卷心菜、酱汁和饼皮，炸鱼或烤鱼版本都常见，可先点两份再补。"
+        },
+        {
+          "name": "加州薯条牛肉卷饼",
+          "description": "将烤牛肉与薯条一起卷入饼皮，饱腹感强；是否含奶酪和鳄梨酱以菜单为准。"
+        },
+        {
+          "name": "烤牛肉薯条",
+          "description": "薯条上加烤牛肉与酱料，适合多人分享的小食或正餐，份量先问清。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "煤气灯街区与晚餐",
+          "description": "在维多利亚式街面和餐馆间走走，可接晚餐；清单不包含酒吧消费或活动票。"
+        },
+        {
+          "name": "小意大利广场与咖啡",
+          "description": "在广场、咖啡馆和意式餐馆之间休息，遇到农夫市场再多留时间；周末常需等位。"
+        },
+        {
+          "name": "日落崖海岸步道",
+          "description": "沿开放步道看海浪与落日，留在护栏和安全距离内；潮汐洞穴不纳入普通散步路线。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "san-diego-balboa",
+        "name": "巴尔博亚公园建筑与花园",
+        "nameEn": "Balboa Park (San Diego)",
+        "article": "Balboa Park (San Diego)",
+        "lat": 32.7311,
+        "lng": -117.1467,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "文化公园",
+        "activityType": "culture",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在拱廊、花园和广场间散步，挑一座博物馆另行参观；园区公共步行区域免费，馆票分开。",
+        "features": [
+          "文化公园",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://balboapark.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://balboapark.org/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://balboapark.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-zoo",
+        "name": "圣迭戈动物园",
+        "nameEn": "San Diego Zoo",
+        "article": "San Diego Zoo",
+        "lat": 32.7353,
+        "lng": -117.149,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 6.0,
+        "durationRange": {
+          "min": 240,
+          "recommended": 360,
+          "max": 480
+        },
+        "category": "动物园",
+        "activityType": "nature",
+        "priority": 95,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "建议留出大半天观察不同栖息地与保育展区；不与多座博物馆挤在一个短下午。",
+        "features": [
+          "动物园",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://zoo.sandiegozoo.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://zoo.sandiegozoo.org/"
+        },
+        "price": {
+          "low": 75,
+          "high": 110,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://zoo.sandiegozoo.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "san-diego-midway",
+        "name": "中途岛号航母博物馆",
+        "nameEn": "USS Midway Museum",
+        "article": "USS Midway Museum",
+        "lat": 32.7137,
+        "lng": -117.175,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 240
+        },
+        "category": "海事博物馆",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "走上飞行甲板并了解舰上生活，内部有楼梯和狭窄通道；需要通行协助时先核对路线。",
+        "features": [
+          "海事博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.midway.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.midway.org/"
+        },
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.midway.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-la-jolla",
+        "name": "拉霍亚海湾与海岸散步",
+        "nameEn": "La Jolla Cove",
+        "article": "La Jolla Cove",
+        "lat": 32.8508,
+        "lng": -117.2728,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "海岸漫游",
+        "activityType": "nature",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿崖顶步道看海湾与海洋动物，保持距离并遵守临时封闭；水上项目需另选合规经营者。",
+        "features": [
+          "海岸漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-coronado",
+        "name": "科罗纳多沙滩午后",
+        "nameEn": "Coronado Beach",
+        "article": "Coronado Beach",
+        "lat": 32.6809,
+        "lng": -117.1795,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "海滩休闲",
+        "activityType": "leisure",
+        "priority": 91,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在红顶酒店附近的公共沙滩散步或休息，再逛 Orange Avenue；过桥或渡轮接驳与停车另算。",
+        "features": [
+          "海滩休闲",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/explore/coastal/coronado",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/explore/coastal/coronado"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/explore/coastal/coronado",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "san-diego-gaslamp",
+        "name": "煤气灯街区与晚餐",
+        "nameEn": "Gaslamp Quarter, San Diego",
+        "article": "Gaslamp Quarter, San Diego",
+        "lat": 32.7107,
+        "lng": -117.1603,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 84,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在维多利亚式街面和餐馆间走走，可接晚餐；清单不包含酒吧消费或活动票。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/urban-neighborhoods",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/urban-neighborhoods"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/urban-neighborhoods",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-little-italy",
+        "name": "小意大利广场与咖啡",
+        "nameEn": "Little Italy, San Diego",
+        "article": "Little Italy, San Diego",
+        "lat": 32.7231,
+        "lng": -117.1684,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "food",
+        "priority": 89,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在广场、咖啡馆和意式餐馆之间休息，遇到农夫市场再多留时间；周末常需等位。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/urban-neighborhoods",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/urban-neighborhoods"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/urban-neighborhoods",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-old-town",
+        "name": "老城历史公园",
+        "nameEn": "Old Town San Diego State Historic Park",
+        "article": "Old Town San Diego State Historic Park",
+        "lat": 32.7549,
+        "lng": -117.1974,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 90,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "看早期加州建筑与展陈，再在周围寻找墨西哥餐饮；部分独立场馆和活动可能收费。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.parks.ca.gov/?page_id=663",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=663"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=663",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-sunset-cliffs",
+        "name": "日落崖海岸步道",
+        "nameEn": "Sunset Cliffs Natural Park",
+        "article": "Sunset Cliffs Natural Park",
+        "lat": 32.7196,
+        "lng": -117.2552,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "海岸步道",
+        "activityType": "nature",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿开放步道看海浪与落日，留在护栏和安全距离内；潮汐洞穴不纳入普通散步路线。",
+        "features": [
+          "海岸步道",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/sunset",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/sunset"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.gov/park-and-recreation/parks/regional/shoreline/sunset",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-mission-beach",
+        "name": "米慎海滩海滨木板路",
+        "nameEn": "Mission Beach, San Diego",
+        "article": "Mission Beach, San Diego",
+        "lat": 32.7705,
+        "lng": -117.2529,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "海滩休闲",
+        "activityType": "leisure",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "把一段午后留给沙滩、步道和简餐，想玩游乐设施再单独选票；海况不适时只在岸上停留。",
+        "features": [
+          "海滩休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/things-to-do/top-things-to-do",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/things-to-do/top-things-to-do"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/things-to-do/top-things-to-do",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-chicano",
+        "name": "奇卡诺公园壁画",
+        "nameEn": "Chicano Park",
+        "article": "Chicano Park",
+        "lat": 32.6999,
+        "lng": -117.1431,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "category": "户外艺术",
+        "activityType": "culture",
+        "priority": 84,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在桥下壁画中认识社区历史，适合与 Barrio Logan 小店慢逛组合；尊重纪念空间和居民。",
+        "features": [
+          "户外艺术",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-torrey-pines",
+        "name": "托里松海岸保护区步道",
+        "nameEn": "Torrey Pines State Natural Reserve",
+        "article": "Torrey Pines State Natural Reserve",
+        "lat": 32.9212,
+        "lng": -117.2539,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "category": "海岸徒步",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "挑选开放的短步道看砂岩崖和海岸松林，单独预留北上往返。这里按步行入园预算，车辆停车按车另付，不含在零门票内。",
+        "features": [
+          "海岸徒步",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.parks.ca.gov/?page_id=657",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=657"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=657",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "san-diego-seaport",
+        "name": "海港村与海湾长椅",
+        "nameEn": "Seaport Village",
+        "article": "Seaport Village",
+        "lat": 32.7095,
+        "lng": -117.1706,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "海港漫游",
+        "activityType": "leisure",
+        "priority": 79,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿滨水小店和长椅散步，适合接航母馆后的轻松停留，购物餐饮不作必选支出。",
+        "features": [
+          "海港漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seaportvillage.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seaportvillage.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seaportvillage.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "san-diego-north-park",
+        "name": "北公园独立商店与餐馆",
+        "nameEn": "North Park, San Diego",
+        "article": "North Park, San Diego",
+        "lat": 32.7489,
+        "lng": -117.1294,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "food",
+        "priority": 82,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在街角咖啡馆、独立店和餐馆之间慢逛，适合用一段完整下午体验本地生活。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.sandiego.org/press-release/san-diegos-buzzing-neighborhoods",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "isoRegion": "US-CA"
+  },
+  {
+    "id": "las-vegas",
+    "name": "拉斯维加斯",
+    "nameEn": "Las Vegas",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "iata": "LAS",
+    "article": "Las Vegas",
+    "tagline": "大道灯光、演出与老城艺术街区构成不同的维加斯；白天留给展馆和休息，夜晚再出门。",
+    "description": "大道灯光、演出与老城艺术街区构成不同的维加斯；白天留给展馆和休息，夜晚再出门。",
+    "tags": [
+      "夜景体验",
+      "花园体验",
+      "夜景街区"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Las_Vegas"
+    },
+    "officialTourismUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        90,
+        190,
+        420
+      ],
+      "food": [
+        45,
+        90,
+        180
+      ],
+      "transport": [
+        15,
+        40,
+        100
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        2100,
+        3800
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "酒店看似相邻，实际绕行天桥和大型楼宇常花很久；可搭巴士或单轨。胡佛坝、红岩峡谷需单独往返，大峡谷不是市内景点；旺季务必核对度假村费与停车费。",
+    "guide": {
+      "cityId": "las-vegas",
+      "intro": "大道灯光、演出与老城艺术街区构成不同的维加斯；白天留给展馆和休息，夜晚再出门。",
+      "foodHighlights": [
+        {
+          "name": "经典冷虾鸡尾杯",
+          "description": "冷虾搭番茄辣酱是老派餐厅常见前菜，适合在老城寻找一份轻开胃菜。"
+        },
+        {
+          "name": "慢烤牛肋排",
+          "description": "按切片份量选择慢烤牛肋排，熟度、配菜和是否套餐要看菜单；不代表固定的优惠餐。"
+        },
+        {
+          "name": "牛排馆晚餐",
+          "description": "可比较部位、重量和熟度，配菜常单独收费；是城市常见用餐选择，并非本地独有菜系。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "百乐宫室内花园",
+          "description": "看季节性花艺和大型布景，适合炎热时的短室内停留；布展更换期间可能受限。"
+        },
+        {
+          "name": "18b 艺术区画廊与咖啡",
+          "description": "逛 Main Street 周边画廊、古着店和咖啡馆，适合把下午留给老城另一种日常。"
+        },
+        {
+          "name": "威尼斯人运河商街",
+          "description": "在室内运河商街看建筑布景和橱窗，可接午餐；贡多拉是独立收费体验，不在免费步行内。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "las-vegas-bellagio-fountains",
+        "name": "百乐宫音乐喷泉",
+        "nameEn": "Fountains of Bellagio",
+        "article": "Fountains of Bellagio",
+        "lat": 36.1126,
+        "lng": -115.1755,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 20,
+          "recommended": 40,
+          "max": 70
+        },
+        "category": "夜景体验",
+        "activityType": "leisure",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在公共步行区看喷泉与灯光，按当晚运行时间选择停留，天气与活动可能调整演出。",
+        "features": [
+          "夜景体验",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/fountains-of-bellagio.html",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-bellagio-garden",
+        "name": "百乐宫室内花园",
+        "nameEn": "Bellagio Conservatory & Botanical Gardens",
+        "article": "Bellagio Conservatory & Botanical Gardens",
+        "lat": 36.1126,
+        "lng": -115.1778,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 20,
+          "recommended": 40,
+          "max": 75
+        },
+        "category": "花园体验",
+        "activityType": "leisure",
+        "priority": 90,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "看季节性花艺和大型布景，适合炎热时的短室内停留；布展更换期间可能受限。",
+        "features": [
+          "花园体验",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/conservatory-botanical-garden.html",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/conservatory-botanical-garden.html"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://bellagio.mgmresorts.com/en/entertainment/conservatory-botanical-garden.html",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-strip",
+        "name": "拉斯维加斯大道夜行",
+        "nameEn": "Las Vegas Strip",
+        "article": "Las Vegas Strip",
+        "lat": 36.1147,
+        "lng": -115.1728,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "夜景街区",
+        "activityType": "leisure",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "只挑中段几家酒店外部与公共商业区走走，留足天桥绕行和休息；购物、表演和游乐设施单独付费。",
+        "features": [
+          "夜景街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-fremont",
+        "name": "弗里蒙特街灯光长廊",
+        "nameEn": "Fremont Street Experience",
+        "article": "Fremont Street Experience",
+        "lat": 36.1707,
+        "lng": -115.1439,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "夜景街区",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在老城步行街看天幕灯光与街头表演，提前查特别活动和年龄规则；滑索另付费。",
+        "features": [
+          "夜景街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://vegasexperience.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://vegasexperience.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://vegasexperience.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-neon",
+        "name": "霓虹博物馆",
+        "nameEn": "Neon Museum",
+        "article": "Neon Museum",
+        "lat": 36.1777,
+        "lng": -115.1353,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 120
+        },
+        "category": "城市博物馆",
+        "activityType": "culture",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从退役招牌认识城市视觉历史，昼夜导览体验不同，入场时段与摄影规则需提前确认。",
+        "features": [
+          "城市博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://neonmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://neonmuseum.org/"
+        },
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://neonmuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Neon Museum Las Vegas walkway.jpg"
+      },
+      {
+        "id": "las-vegas-mob",
+        "name": "黑帮博物馆",
+        "nameEn": "Mob Museum",
+        "article": "Mob Museum",
+        "lat": 36.1728,
+        "lng": -115.141,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "历史博物馆",
+        "activityType": "culture",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "以历史展览理解有组织犯罪与执法，不同加购互动项目有年龄和内容限制。",
+        "features": [
+          "历史博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://themobmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://themobmuseum.org/"
+        },
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://themobmuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-arts-district",
+        "name": "18b 艺术区画廊与咖啡",
+        "nameEn": "Arts District, Las Vegas",
+        "article": "Arts District, Las Vegas",
+        "lat": 36.1595,
+        "lng": -115.1533,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术街区",
+        "activityType": "culture",
+        "priority": 88,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "逛 Main Street 周边画廊、古着店和咖啡馆，适合把下午留给老城另一种日常。",
+        "features": [
+          "艺术街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.visitlasvegas.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.visitlasvegas.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitlasvegas.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-high-roller",
+        "name": "豪客摩天轮",
+        "nameEn": "High Roller (Ferris wheel)",
+        "article": "High Roller (Ferris wheel)",
+        "lat": 36.1176,
+        "lng": -115.1682,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "category": "城市观景",
+        "activityType": "leisure",
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "乘坐观景舱看大道与沙漠城市，排队和到达时间也需预留；夜间票和含饮料套餐不同。",
+        "features": [
+          "城市观景",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.caesars.com/linq/things-to-do/attractions/high-roller",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.caesars.com/linq/things-to-do/attractions/high-roller"
+        },
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.caesars.com/linq/things-to-do/attractions/high-roller",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "las-vegas-venetian",
+        "name": "威尼斯人运河商街",
+        "nameEn": "The Venetian Las Vegas",
+        "article": "The Venetian Las Vegas",
+        "lat": 36.1212,
+        "lng": -115.1697,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "商业街漫游",
+        "activityType": "leisure",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在室内运河商街看建筑布景和橱窗，可接午餐；贡多拉是独立收费体验，不在免费步行内。",
+        "features": [
+          "商业街漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.venetianlasvegas.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.venetianlasvegas.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.venetianlasvegas.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-springs",
+        "name": "泉水保护区展馆与步道",
+        "nameEn": "Springs Preserve",
+        "article": "Springs Preserve",
+        "lat": 36.1721,
+        "lng": -115.19,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "自然文化园",
+        "activityType": "nature",
+        "priority": 87,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在沙漠植物、步道和展馆间认识城市水源与环境，避开酷热时段并单独安排往返。",
+        "features": [
+          "自然文化园",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.springspreserve.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.springspreserve.org/"
+        },
+        "price": {
+          "low": 10,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.springspreserve.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "las-vegas-sphere",
+        "name": "Sphere 沉浸式影像演出",
+        "nameEn": "Sphere (venue)",
+        "article": "Sphere (venue)",
+        "lat": 36.1206,
+        "lng": -115.1619,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "category": "沉浸式演出",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "选择当日确切场次与座位体验球幕影像，不把外墙观赏当作室内门票；感官刺激强度需按个人情况决定。",
+        "features": [
+          "沉浸式演出",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.thesphere.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.thesphere.com/"
+        },
+        "price": {
+          "low": 90,
+          "high": 220,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.thesphere.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "las-vegas-container-park",
+        "name": "集装箱公园与老城小店",
+        "nameEn": "Downtown Container Park",
+        "article": "Downtown Container Park",
+        "lat": 36.1678,
+        "lng": -115.1386,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "category": "街区休闲",
+        "activityType": "leisure",
+        "priority": 77,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在集装箱商店和庭院坐一会，可接弗里蒙特步行；晚间年龄限制和活动安排要先看。",
+        "features": [
+          "街区休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://downtowncontainerpark.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://downtowncontainerpark.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://downtowncontainerpark.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "las-vegas-hoover-dam",
+        "name": "胡佛坝桥上观景与坝顶",
+        "nameEn": "Hoover Dam",
+        "article": "Hoover Dam",
+        "lat": 36.0161,
+        "lng": -114.7377,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 240
+        },
+        "category": "远郊工程观景",
+        "activityType": "culture",
+        "priority": 75,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "位于城外，单程驾车通常约一小时以上，需另留完整半日。此项仅公共外部观景，付费停车、展馆和坝内导览不含。",
+        "features": [
+          "远郊工程观景",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.usbr.gov/lc/hooverdam/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.usbr.gov/lc/hooverdam/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.usbr.gov/lc/hooverdam/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "las-vegas-red-rock",
+        "name": "红岩峡谷自驾观景与短徒步",
+        "nameEn": "Red Rock Canyon National Conservation Area",
+        "article": "Red Rock Canyon National Conservation Area",
+        "lat": 36.1353,
+        "lng": -115.4271,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 300,
+          "max": 420
+        },
+        "category": "远郊自然体验",
+        "activityType": "nature",
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "独立留半日到一日并确认车辆、季节预约和高温。按车入场与预约费用需要单独核算，此项费用待确认，不能视为免费。",
+        "features": [
+          "远郊自然体验",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.redrockcanyonlv.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.redrockcanyonlv.org/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.redrockcanyonlv.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "按车入场与预约费用待按车型、人数和日期核对，未折算为成人门票。交通、停车与租车另计；待确认费用不等于免费。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      }
+    ],
+    "isoRegion": "US-NV"
+  },
+  {
+    "id": "portland",
+    "name": "波特兰",
+    "nameEn": "Portland, Oregon",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 45.5152,
+    "lng": -122.6784,
+    "iata": "PDX",
+    "article": "Portland, Oregon",
+    "tagline": "玫瑰花园、独立书店、咖啡和餐车让日程自然留白，街区散步比赶景点更适合这座城。",
+    "description": "玫瑰花园、独立书店、咖啡和餐车让日程自然留白，街区散步比赶景点更适合这座城。",
+    "tags": [
+      "园林",
+      "城市花园",
+      "书店体验"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portland%2C_Oregon"
+    },
+    "officialTourismUrl": "https://www.travelportland.com/attractions/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        100,
+        190,
+        360
+      ],
+      "food": [
+        35,
+        70,
+        135
+      ],
+      "transport": [
+        8,
+        25,
+        75
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1250,
+        2200,
+        3900
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "MAX 轻轨、街车与巴士适合市区串联；西侧花园存在山坡。哥伦比亚河峡谷需独立交通安排，不能与市区公园按步行相连。",
+    "guide": {
+      "cityId": "portland",
+      "intro": "玫瑰花园、独立书店、咖啡和餐车让日程自然留白，街区散步比赶景点更适合这座城。",
+      "foodHighlights": [
+        {
+          "name": "波特兰甜甜圈",
+          "description": "从基础糖霜到创意口味都可以小份尝试，购买前留意甜度与是否含坚果。"
+        },
+        {
+          "name": "俄勒冈莓果派",
+          "description": "以俄勒冈常见的 Marionberry 莓果做馅，酸甜与酥皮相配；季节和当天烘焙供应需看店家。"
+        },
+        {
+          "name": "独立烘焙咖啡",
+          "description": "找一家独立烘焙店比较浓缩或手冲，给街区慢逛安排一段真正的休息。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "汤姆麦考尔滨水公园",
+          "description": "沿威拉米特河岸步行看桥和草坪，适合作为午后放松；大型活动期间部分区段会调整。"
+        },
+        {
+          "name": "珍珠区画廊与小店",
+          "description": "在仓库改造街区中逛画廊、设计店和咖啡馆，选择几家停留即可。"
+        },
+        {
+          "name": "阿尔伯塔艺术街区",
+          "description": "沿 Alberta Street 看壁画、独立店和餐馆，适合体验住宅街区的轻松节奏。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "portland-japanese-garden",
+        "name": "波特兰日本庭园",
+        "nameEn": "Portland Japanese Garden",
+        "article": "Portland Japanese Garden",
+        "lat": 45.5186,
+        "lng": -122.708,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "园林",
+        "activityType": "nature",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿苔庭、池泉与林间步道慢慢看，雨天亦有安静气氛；入园时段和展馆开放应先核对。",
+        "features": [
+          "园林",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://japanesegarden.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://japanesegarden.org/"
+        },
+        "price": {
+          "low": 20,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://japanesegarden.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-rose-garden",
+        "name": "国际玫瑰试验园",
+        "nameEn": "International Rose Test Garden",
+        "article": "International Rose Test Garden",
+        "lat": 45.519,
+        "lng": -122.7061,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "城市花园",
+        "activityType": "nature",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "花季慢看不同玫瑰品种，非花季可把它当作山坡公园；不要承诺全年盛花。",
+        "features": [
+          "城市花园",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-powells",
+        "name": "鲍威尔书城",
+        "nameEn": "Powell's Books",
+        "article": "Powell's Books",
+        "lat": 45.5231,
+        "lng": -122.6813,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 45,
+          "recommended": 100,
+          "max": 180
+        },
+        "category": "书店体验",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在大型独立书店浏览新书旧书，给挑书和咖啡留时间；免费进入，购书餐饮自选。",
+        "features": [
+          "书店体验",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.powells.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.powells.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.powells.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-lan-su",
+        "name": "兰苏中国园林",
+        "nameEn": "Lan Su Chinese Garden",
+        "article": "Lan Su Chinese Garden",
+        "lat": 45.5254,
+        "lng": -122.6733,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "园林文化",
+        "activityType": "culture",
+        "priority": 91,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在庭院、水面和廊道间感受苏式园林层次，可按开放情况加一段茶歇。",
+        "features": [
+          "园林文化",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://lansugarden.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://lansugarden.org/"
+        },
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://lansugarden.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-waterfront",
+        "name": "汤姆麦考尔滨水公园",
+        "nameEn": "Tom McCall Waterfront Park",
+        "article": "Tom McCall Waterfront Park",
+        "lat": 45.5164,
+        "lng": -122.67,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "滨水漫游",
+        "activityType": "leisure",
+        "priority": 89,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿威拉米特河岸步行看桥和草坪，适合作为午后放松；大型活动期间部分区段会调整。",
+        "features": [
+          "滨水漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-pearl",
+        "name": "珍珠区画廊与小店",
+        "nameEn": "Pearl District, Portland, Oregon",
+        "article": "Pearl District, Portland, Oregon",
+        "lat": 45.5292,
+        "lng": -122.6837,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术街区",
+        "activityType": "culture",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在仓库改造街区中逛画廊、设计店和咖啡馆，选择几家停留即可。",
+        "features": [
+          "艺术街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-alberta",
+        "name": "阿尔伯塔艺术街区",
+        "nameEn": "Alberta Arts District",
+        "article": "Alberta Arts District",
+        "lat": 45.559,
+        "lng": -122.6443,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术街区",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿 Alberta Street 看壁画、独立店和餐馆，适合体验住宅街区的轻松节奏。",
+        "features": [
+          "艺术街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "NE Alberta Street, Portland - DPLA - 24f284a55523376e5ef28ef2ea1494cb.jpg"
+      },
+      {
+        "id": "portland-hawthorne",
+        "name": "霍桑街古着与咖啡",
+        "nameEn": "Hawthorne, Portland, Oregon",
+        "article": "Hawthorne, Portland, Oregon",
+        "lat": 45.5123,
+        "lng": -122.6267,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 84,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在古着、唱片、小书店与咖啡之间挑几站，不必把整条街都走完。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-mt-tabor",
+        "name": "塔博尔山公园步道",
+        "nameEn": "Mount Tabor (Oregon)",
+        "article": "Mount Tabor (Oregon)",
+        "lat": 45.5117,
+        "lng": -122.5943,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "城市徒步",
+        "activityType": "nature",
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在城市中的火山丘步道与蓄水池周边散步，登高段按体力选择。",
+        "features": [
+          "城市徒步",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-forest-park",
+        "name": "森林公园轻徒步",
+        "nameEn": "Forest Park (Portland, Oregon)",
+        "article": "Forest Park (Portland, Oregon)",
+        "lat": 45.5727,
+        "lng": -122.7389,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "森林步道",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "只选一段标记清楚的森林步道，给泥泞、天气和回程留余量；这里不是要求走完全园的路线。",
+        "features": [
+          "森林步道",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/attractions/parks-gardens/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "portland-omsi",
+        "name": "俄勒冈科学与工业博物馆",
+        "nameEn": "Oregon Museum of Science and Industry",
+        "article": "Oregon Museum of Science and Industry",
+        "lat": 45.5085,
+        "lng": -122.6657,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "科学博物馆",
+        "activityType": "culture",
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "把互动科学展当作半日室内内容，潜艇、影院或特展通常需另外选择票种。",
+        "features": [
+          "科学博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://omsi.edu/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://omsi.edu/"
+        },
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://omsi.edu/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-pittock",
+        "name": "皮托克大宅与城市远景",
+        "nameEn": "Pittock Mansion",
+        "article": "Pittock Mansion",
+        "lat": 45.5253,
+        "lng": -122.7163,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "category": "历史建筑",
+        "activityType": "culture",
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "参观山坡历史宅邸并看城市天际线，屋内参观和山坡往返应分开留时间。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://pittockmansion.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://pittockmansion.org/"
+        },
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://pittockmansion.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "portland-food-carts",
+        "name": "餐车聚落品尝午餐",
+        "nameEn": "Food carts in Portland, Oregon",
+        "article": "Food carts in Portland, Oregon",
+        "lat": 45.5211,
+        "lng": -122.6756,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "餐车体验",
+        "activityType": "food",
+        "priority": 92,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "以市中心餐车聚落为起点选择一份午餐，先查看当天营业摊位；浏览无门票，食物计入日常餐饮。",
+        "features": [
+          "餐车体验",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.travelportland.com/culture/food/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.travelportland.com/culture/food/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.travelportland.com/culture/food/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "portland-saturday-market",
+        "name": "波特兰周末手作市场",
+        "nameEn": "Portland Saturday Market",
+        "article": "Portland Saturday Market",
+        "lat": 45.5236,
+        "lng": -122.6709,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "手作市场",
+        "activityType": "culture",
+        "priority": 85,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在有营业的周末看本地手工艺和摊位，与河边散步组合；季节与营业日期需先核对。",
+        "features": [
+          "手作市场",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.portlandsaturdaymarket.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.portlandsaturdaymarket.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.portlandsaturdaymarket.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      }
+    ],
+    "isoRegion": "US-OR"
+  },
+  {
+    "id": "monterey",
+    "name": "蒙特雷",
+    "nameEn": "Monterey, California",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 36.6002,
+    "lng": -121.8947,
+    "iata": "MRY",
+    "article": "Monterey, California",
+    "tagline": "在海獭出没的海湾、罐头厂旧街和海边小镇间慢游，给海风和水族馆留足时间。",
+    "description": "在海獭出没的海湾、罐头厂旧街和海边小镇间慢游，给海风和水族馆留足时间。",
+    "tags": [
+      "海洋展馆",
+      "历史街区",
+      "海港漫游"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Monterey%2C_California"
+    },
+    "officialTourismUrl": "https://www.seemonterey.com/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        140,
+        270,
+        520
+      ],
+      "food": [
+        40,
+        80,
+        155
+      ],
+      "transport": [
+        15,
+        45,
+        110
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1700,
+        2900,
+        5000
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "中心、老码头和 Cannery Row 可沿海岸步道串联；Pacific Grove、Carmel 和 Point Lobos 属周边片区，需预留公交或自驾往返。Big Sur 路况应另查，不作随手加的一小站。",
+    "guide": {
+      "cityId": "monterey",
+      "intro": "在海獭出没的海湾、罐头厂旧街和海边小镇间慢游，给海风和水族馆留足时间。",
+      "foodHighlights": [
+        {
+          "name": "蒙特雷鱿鱼料理",
+          "description": "可选择炸鱿鱼、烤制或其他海鲜做法，适合分享；当天渔获产地需向店家确认。"
+        },
+        {
+          "name": "码头蛤蜊浓汤",
+          "description": "在海风中吃一碗奶香蛤蜊浓汤，可选小杯或面包碗，避免把试吃当作完整正餐。"
+        },
+        {
+          "name": "卡斯特罗维尔风味洋蓟",
+          "description": "附近产区的洋蓟可蒸、烤或做成炸小食，点单时问清可食部位与酱汁搭配。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "老渔人码头看海湾",
+          "description": "看渔船、海湾和海鲜餐馆，适合轻松午餐；观鲸船票与餐饮另付。"
+        },
+        {
+          "name": "蒙特雷湾海岸步道",
+          "description": "从码头往 Cannery Row 选择一段海岸步行或自费租车骑行，保持与野生动物的距离。"
+        },
+        {
+          "name": "丹尼斯淘气公园",
+          "description": "在湖边公园给亲子旅行留一段活动时间，游乐区开放和设备情况以现场为准。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "monterey-aquarium",
+        "name": "蒙特雷湾水族馆",
+        "nameEn": "Monterey Bay Aquarium",
+        "article": "Monterey Bay Aquarium",
+        "lat": 36.6182,
+        "lng": -121.9018,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "category": "海洋展馆",
+        "activityType": "nature",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "给海獭、巨藻森林与海洋保育展区留足时间，周末可提前选时段。",
+        "features": [
+          "海洋展馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.montereybayaquarium.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.montereybayaquarium.org/"
+        },
+        "price": {
+          "low": 60,
+          "high": 80,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montereybayaquarium.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-cannery-row",
+        "name": "罐头厂街海岸与小店",
+        "nameEn": "Cannery Row",
+        "article": "Cannery Row",
+        "lat": 36.6156,
+        "lng": -121.8992,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿旧工业街区走到海边平台，看看改造后的店铺和文学记忆；消费不作必选。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-old-wharf",
+        "name": "老渔人码头看海湾",
+        "nameEn": "Fisherman's Wharf, Monterey, California",
+        "article": "Fisherman's Wharf, Monterey, California",
+        "lat": 36.6047,
+        "lng": -121.8933,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "海港漫游",
+        "activityType": "food",
+        "priority": 91,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "看渔船、海湾和海鲜餐馆，适合轻松午餐；观鲸船票与餐饮另付。",
+        "features": [
+          "海港漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.montereywharf.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.montereywharf.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montereywharf.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-coastal-trail",
+        "name": "蒙特雷湾海岸步道",
+        "nameEn": "Monterey Bay Coastal Recreation Trail",
+        "article": "Monterey Bay Coastal Recreation Trail",
+        "lat": 36.6116,
+        "lng": -121.8954,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 240
+        },
+        "category": "海岸步道",
+        "activityType": "nature",
+        "priority": 93,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从码头往 Cannery Row 选择一段海岸步行或自费租车骑行，保持与野生动物的距离。",
+        "features": [
+          "海岸步道",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-lovers-point",
+        "name": "恋人角公园海景",
+        "nameEn": "Lovers Point State Marine Reserve",
+        "article": "Lovers Point State Marine Reserve",
+        "lat": 36.6244,
+        "lng": -121.9166,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 180
+        },
+        "category": "海岸休闲",
+        "activityType": "leisure",
+        "priority": 89,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "位于 Pacific Grove 的公共海岸公园，可坐看海湾和礁石，和市中心之间另留往返时间。",
+        "features": [
+          "海岸休闲",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "monterey-asilomar",
+        "name": "阿西洛马尔海滩步道",
+        "nameEn": "Asilomar State Beach",
+        "article": "Asilomar State Beach",
+        "lat": 36.618,
+        "lng": -121.9413,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "海滩漫游",
+        "activityType": "nature",
+        "priority": 89,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "沿沙丘栈道和海滩散步，海风与浪涌强时留在安全步道；不要穿越保护沙丘。",
+        "features": [
+          "海滩漫游",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.parks.ca.gov/?page_id=566",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=566"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=566",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "monterey-historic-park",
+        "name": "蒙特雷历史公园与老城",
+        "nameEn": "Monterey State Historic Park",
+        "article": "Monterey State Historic Park",
+        "lat": 36.6025,
+        "lng": -121.894,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "历史街区",
+        "activityType": "culture",
+        "priority": 90,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "沿老城步行路线看土坯建筑与花园；此项按公共步行区规划，室内导览或特别场馆票另核。",
+        "features": [
+          "历史街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.parks.ca.gov/?page_id=575",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=575"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=575",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-art-museum",
+        "name": "蒙特雷美术馆",
+        "nameEn": "Monterey Museum of Art",
+        "article": "Monterey Museum of Art",
+        "lat": 36.5972,
+        "lng": -121.8955,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 84,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在老城附近看加州艺术与地方展览，适合海雾或阴雨天的一段室内安排。",
+        "features": [
+          "艺术博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.montereyart.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.montereyart.org/"
+        },
+        "price": {
+          "low": 10,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.montereyart.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-dennis-park",
+        "name": "丹尼斯淘气公园",
+        "nameEn": "Dennis the Menace Playground",
+        "article": "Dennis the Menace Playground",
+        "lat": 36.5959,
+        "lng": -121.8853,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "亲子公园",
+        "activityType": "leisure",
+        "priority": 75,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在湖边公园给亲子旅行留一段活动时间，游乐区开放和设备情况以现场为准。",
+        "features": [
+          "亲子公园",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "monterey-pacific-grove",
+        "name": "Pacific Grove 小镇街区",
+        "nameEn": "Pacific Grove, California",
+        "article": "Pacific Grove, California",
+        "lat": 36.621,
+        "lng": -121.9166,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "小镇漫游",
+        "activityType": "culture",
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在小镇主街、维多利亚式街面与咖啡馆之间慢走，再选一段海岸。",
+        "features": [
+          "小镇漫游",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "monterey-carmel",
+        "name": "卡梅尔村街与海滩",
+        "nameEn": "Carmel-by-the-Sea, California",
+        "article": "Carmel-by-the-Sea, California",
+        "lat": 36.5552,
+        "lng": -121.9233,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "周边小镇",
+        "activityType": "leisure",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "独立安排半日逛画廊街区、巷道和公共沙滩，别把往返开车与停车算作市中心步行。",
+        "features": [
+          "周边小镇",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.carmelcalifornia.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.carmelcalifornia.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.carmelcalifornia.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。",
+        "photoFile": "Fee Building Ocean Avenue view.jpg"
+      },
+      {
+        "id": "monterey-point-lobos",
+        "name": "罗伯士角海岸步道",
+        "nameEn": "Point Lobos",
+        "article": "Point Lobos",
+        "lat": 36.516,
+        "lng": -121.9424,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 120,
+          "recommended": 210,
+          "max": 300
+        },
+        "category": "远郊海岸徒步",
+        "activityType": "nature",
+        "priority": 91,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "选开放短步道看海湾与柏树林，提前检查停车和天气。此处为步行入园预算，按车停车收费与交通另算。",
+        "features": [
+          "远郊海岸徒步",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.parks.ca.gov/?page_id=571",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=571"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.parks.ca.gov/?page_id=571",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "monterey-whale-watch",
+        "name": "蒙特雷湾出海观鲸",
+        "nameEn": "Monterey Bay",
+        "article": "Monterey Bay",
+        "lat": 36.6054,
+        "lng": -121.8918,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 240,
+          "max": 300
+        },
+        "category": "海上体验",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "从老码头选择正规观鲸船，另留报到和返港时间；海况可能取消，野生鲸豚出现不保证。",
+        "features": [
+          "海上体验",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 65,
+          "high": 110,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "monterey-san-carlos",
+        "name": "圣卡洛斯海滩看海",
+        "nameEn": "San Carlos Beach",
+        "article": "San Carlos Beach",
+        "lat": 36.6123,
+        "lng": -121.8945,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "category": "海滩休闲",
+        "activityType": "leisure",
+        "priority": 78,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在小海滩与草地停留，看海湾和潜水者准备出海；体验潜水须另找经营者培训与预约。",
+        "features": [
+          "海滩休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.seemonterey.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.seemonterey.com/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.seemonterey.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "isoRegion": "US-CA"
+  },
+  {
+    "id": "honolulu",
+    "name": "檀香山（瓦胡岛）",
+    "nameEn": "Honolulu, Oahu",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 21.3099,
+    "lng": -157.8581,
+    "iata": "HNL",
+    "article": "Honolulu",
+    "tagline": "威基基之外，还有夏威夷王国历史、市场小吃、山海步道与适合躺一下午的海岸。",
+    "description": "威基基之外，还有夏威夷王国历史、市场小吃、山海步道与适合躺一下午的海岸。",
+    "tags": [
+      "海滩休闲",
+      "火山步道",
+      "王国历史"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honolulu"
+    },
+    "officialTourismUrl": "https://www.gohawaii.com/islands/oahu",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 5,
+      "min": 4,
+      "max": 7,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        150,
+        290,
+        650
+      ],
+      "food": [
+        45,
+        85,
+        175
+      ],
+      "transport": [
+        12,
+        45,
+        120
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1600,
+        2900,
+        5200
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "TheBus 可覆盖部分城内路线，北岸与东岸需较长车程。所有清单地点均在瓦胡岛；茂宜岛、夏威夷大岛需另加航班和住宿。钻石头、恐龙湾及珍珠港船班应提前核对预约。",
+    "guide": {
+      "cityId": "honolulu",
+      "intro": "威基基之外，还有夏威夷王国历史、市场小吃、山海步道与适合躺一下午的海岸。",
+      "foodHighlights": [
+        {
+          "name": "夏威夷拌鱼",
+          "description": "切块鱼肉与调味料拌成的岛屿风味，可按重量或饭碗选择；含生鱼版本需按个人饮食需求决定。"
+        },
+        {
+          "name": "洛科莫科肉饼蛋饭",
+          "description": "米饭上放肉饼、煎蛋与肉汁，份量通常充足，可作为一顿正餐。"
+        },
+        {
+          "name": "夏威夷刨冰",
+          "description": "细冰配不同糖浆，红豆、冰淇淋等常为加料；适合沙滩午后的一份清凉甜品。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "檀香山唐人街市场与小馆",
+          "description": "白天逛市场、花环店和各式亚洲小馆，适合安排午餐与一段城市日常。"
+        },
+        {
+          "name": "卡卡阿科壁画与咖啡",
+          "description": "在仓库街区看壁画和设计小店，选择几家咖啡或小餐馆停留；注意不要走入私人装卸区。"
+        },
+        {
+          "name": "阿拉莫阿纳海滨公园",
+          "description": "在海滨草地和步道放松，适合带简单午餐或等落日，零门票不包含设备租赁。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "honolulu-waikiki",
+        "name": "威基基海滩慢度午后",
+        "nameEn": "Waikiki",
+        "article": "Waikiki",
+        "lat": 21.2767,
+        "lng": -157.827,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "海滩休闲",
+        "activityType": "leisure",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "把下午留给沙滩与沿海步道，冲浪课和遮阳设施自选付费；海况不适时只在岸边休息。",
+        "features": [
+          "海滩休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/waikiki-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/waikiki-beach"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/waikiki-beach",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-diamond-head",
+        "name": "钻石头登高步道",
+        "nameEn": "Diamond Head, Hawaii",
+        "article": "Diamond Head, Hawaii",
+        "lat": 21.2619,
+        "lng": -157.8059,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "category": "火山步道",
+        "activityType": "nature",
+        "priority": 96,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "登上火山锥边缘看威基基，非夏威夷居民需要预约。需预留台阶、曝晒和往返交通，停车单独按车核算。",
+        "features": [
+          "火山步道",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/"
+        },
+        "price": {
+          "low": 5,
+          "high": 10,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/diamond-head-state-monument/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-iolani",
+        "name": "伊奥拉尼王宫",
+        "nameEn": "Iolani Palace",
+        "article": "Iolani Palace",
+        "lat": 21.3067,
+        "lng": -157.8589,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "王国历史",
+        "activityType": "culture",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "通过王宫建筑和室内展陈认识夏威夷王国历史，按预约时段和着装要求参观。",
+        "features": [
+          "王国历史",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.iolanipalace.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.iolanipalace.org/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.iolanipalace.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-bishop",
+        "name": "主教博物馆",
+        "nameEn": "Bishop Museum",
+        "article": "Bishop Museum",
+        "lat": 21.3339,
+        "lng": -157.8702,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "文化博物馆",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从夏威夷与太平洋文化藏品认识岛屿历史，给主要展厅留出完整半天。",
+        "features": [
+          "文化博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.bishopmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.bishopmuseum.org/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.bishopmuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-pearl-harbor",
+        "name": "珍珠港纪念地与亚利桑那号船班",
+        "nameEn": "Pearl Harbor National Memorial",
+        "article": "Pearl Harbor National Memorial",
+        "lat": 21.367,
+        "lng": -157.9386,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 150,
+          "recommended": 210,
+          "max": 300
+        },
+        "category": "历史纪念地",
+        "activityType": "culture",
+        "priority": 94,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "选择纪念地展览与亚利桑那号项目，船班需核对预约和天气。入园本身免费，预约手续费、停车和其他馆舰不含在内。",
+        "features": [
+          "历史纪念地",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.nps.gov/perl/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.nps.gov/perl/planyourvisit/index.htm"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/perl/planyourvisit/index.htm",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-chinatown",
+        "name": "檀香山唐人街市场与小馆",
+        "nameEn": "Chinatown, Honolulu",
+        "article": "Chinatown, Honolulu",
+        "lat": 21.3114,
+        "lng": -157.863,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "food",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "白天逛市场、花环店和各式亚洲小馆，适合安排午餐与一段城市日常。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-kakaako",
+        "name": "卡卡阿科壁画与咖啡",
+        "nameEn": "Kakaako",
+        "article": "Kakaako",
+        "lat": 21.2972,
+        "lng": -157.8615,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "艺术街区",
+        "activityType": "culture",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在仓库街区看壁画和设计小店，选择几家咖啡或小餐馆停留；注意不要走入私人装卸区。",
+        "features": [
+          "艺术街区",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "photoFile": "Halekauwila Street in Kakaʻako.jpg"
+      },
+      {
+        "id": "honolulu-ala-moana-beach",
+        "name": "阿拉莫阿纳海滨公园",
+        "nameEn": "Ala Moana Beach Park",
+        "article": "Ala Moana Beach Park",
+        "lat": 21.289,
+        "lng": -157.846,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "海滨公园",
+        "activityType": "leisure",
+        "priority": 89,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "在海滨草地和步道放松，适合带简单午餐或等落日，零门票不包含设备租赁。",
+        "features": [
+          "海滨公园",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-honolulu-art",
+        "name": "檀香山艺术博物馆",
+        "nameEn": "Honolulu Museum of Art",
+        "article": "Honolulu Museum of Art",
+        "lat": 21.3038,
+        "lng": -157.8486,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在庭院式建筑中看东西方艺术，适合炎热或阵雨时段的一段安静安排。",
+        "features": [
+          "艺术博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://honolulumuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://honolulumuseum.org/"
+        },
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://honolulumuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "honolulu-hanauma",
+        "name": "恐龙湾预约浮潜",
+        "nameEn": "Hanauma Bay",
+        "article": "Hanauma Bay",
+        "lat": 21.269,
+        "lng": -157.6938,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 300
+        },
+        "category": "海洋保护区",
+        "activityType": "nature",
+        "priority": 94,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "按自然保护区预约和教育说明入场，另算装备与交通。不可触碰珊瑚和海洋动物，海况不合适时取消下水。",
+        "features": [
+          "海洋保护区",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.honolulu.gov/parks-hbay/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.honolulu.gov/parks-hbay/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honolulu.gov/parks-hbay/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-manoa",
+        "name": "马诺阿瀑布雨林步道",
+        "nameEn": "Manoa Falls",
+        "article": "Manoa Falls",
+        "lat": 21.3428,
+        "lng": -157.8,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "category": "雨林徒步",
+        "activityType": "nature",
+        "priority": 87,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "走雨林步道看瀑布与植被，雨后常泥泞；不进入落石区或瀑布水潭，收费停车和交通另算。",
+        "features": [
+          "雨林徒步",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-makapuu",
+        "name": "马卡普乌灯塔海岸步道",
+        "nameEn": "Makapuu Point Light",
+        "article": "Makapuu Point Light",
+        "lat": 21.3104,
+        "lng": -157.6488,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "category": "海岸步道",
+        "activityType": "nature",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在铺装坡道上看东岸海景与灯塔，几乎无遮挡；需带水避开高温，不下到潮池冒险。",
+        "features": [
+          "海岸步道",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/kaiwi-state-scenic-shoreline/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/kaiwi-state-scenic-shoreline/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://dlnr.hawaii.gov/dsp/parks/oahu/kaiwi-state-scenic-shoreline/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-haleiwa",
+        "name": "哈雷伊瓦小镇与北岸午后",
+        "nameEn": "Haleiwa, Hawaii",
+        "article": "Haleiwa, Hawaii",
+        "lat": 21.5928,
+        "lng": -158.1034,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 300,
+          "max": 420
+        },
+        "category": "远郊海岸小镇",
+        "activityType": "leisure",
+        "priority": 87,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "北岸小镇可逛刨冰店、商店和公共海岸，单程通常需一小时以上；冬季巨浪时只在岸上观赏。",
+        "features": [
+          "远郊海岸小镇",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu/regions/north-shore",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu/regions/north-shore"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu/regions/north-shore",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "honolulu-kapiolani",
+        "name": "卡皮欧拉尼公园与海边树荫",
+        "nameEn": "Kapiolani Park",
+        "article": "Kapiolani Park",
+        "lat": 21.2667,
+        "lng": -157.818,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "公园休闲",
+        "activityType": "leisure",
+        "priority": 80,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿草坪、树荫与海岸散步，适合接威基基的一段放松；动物园与水族馆是另外的收费项目。",
+        "features": [
+          "公园休闲",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.gohawaii.com/islands/oahu",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      }
+    ],
+    "isoRegion": "US-HI",
+    "islandGroup": "oahu",
+    "islandAccess": "air",
+    "routeMode": "road"
+  },
+  {
+    "id": "anchorage",
+    "name": "安克雷奇",
+    "nameEn": "Anchorage, Alaska",
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 61.2181,
+    "lng": -149.9003,
+    "iata": "ANC",
+    "article": "Anchorage, Alaska",
+    "tagline": "用博物馆认识阿拉斯加，再在海岸步道与山脚之间散步；季节会彻底改变白昼和玩法。",
+    "description": "用博物馆认识阿拉斯加，再在海岸步道与山脚之间散步；季节会彻底改变白昼和玩法。",
+    "tags": [
+      "文化博物馆",
+      "文化体验",
+      "海岸步道"
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Anchorage%2C_Alaska"
+    },
+    "officialTourismUrl": "https://www.anchorage.net/things-to-do/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "围绕市内文化与街区安排，远郊、长时体验和纯度假日由用户按兴趣额外加入。"
+    },
+    "daily": {
+      "lodging": [
+        120,
+        240,
+        460
+      ],
+      "food": [
+        40,
+        80,
+        150
+      ],
+      "transport": [
+        15,
+        50,
+        125
+      ],
+      "misc": [
+        15,
+        35,
+        75
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1100,
+        1900,
+        3400
+      ],
+      "utilities": [
+        130,
+        220,
+        380
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "经济、舒适、高端为编辑预算，不是实时房价或市场上下限。住宿每间每晚，餐饮交通杂项每成人每天，长租和水电每间每月；税费、小费、停车及度假村费须按实际消费另核。"
+    },
+    "transportNote": "市中心可步行，文化中心、山脚和机场湖区通常需车辆。冰川、野生动物中心和铁路游需独立半日或全天；冬季道路、天光和天气必须重新确认。",
+    "guide": {
+      "cityId": "anchorage",
+      "intro": "用博物馆认识阿拉斯加，再在海岸步道与山脚之间散步；季节会彻底改变白昼和玩法。",
+      "foodHighlights": [
+        {
+          "name": "阿拉斯加鲑鱼料理",
+          "description": "可尝试烤制、烟熏等做法，鱼种与新鲜或冷冻供应随季节变化，向餐馆确认产地。"
+        },
+        {
+          "name": "驯鹿香肠热狗",
+          "description": "阿拉斯加街头常见的香肠吃法，可能混合其他肉类；在市集或小馆点单前查看成分。"
+        },
+        {
+          "name": "大比目鱼炸鱼薯条",
+          "description": "用白肉鱼做炸鱼配薯条，菜单标明 Halibut 时再确认鱼种与份量，适合作为简单的一顿午餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Ship Creek 看溪流与鲑鱼季",
+          "description": "沿市区溪流观景，夏季可能看到洄游与垂钓场景；鱼情有季节性，垂钓须另办许可。"
+        },
+        {
+          "name": "第四大道与市中心街区",
+          "description": "从游客中心附近走到本地商店、公共艺术和餐馆，作为抵达后认识城市的第一段散步。"
+        }
+      ],
+      "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+    },
+    "attractions": [
+      {
+        "id": "anchorage-museum",
+        "name": "安克雷奇博物馆",
+        "nameEn": "Anchorage Museum",
+        "article": "Anchorage Museum",
+        "lat": 61.2164,
+        "lng": -149.8849,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "文化博物馆",
+        "activityType": "culture",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从阿拉斯加艺术、原住民文化与北方生活展览认识这片地区，适合安排抵达后的半日。",
+        "features": [
+          "文化博物馆",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchoragemuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchoragemuseum.org/"
+        },
+        "price": {
+          "low": 20,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchoragemuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "anchorage-heritage",
+        "name": "阿拉斯加原住民文化中心",
+        "nameEn": "Alaska Native Heritage Center",
+        "article": "Alaska Native Heritage Center",
+        "lat": 61.2325,
+        "lng": -149.7181,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 300
+        },
+        "category": "文化体验",
+        "activityType": "culture",
+        "priority": 96,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "参观展览和户外传统居住空间，聆听当地文化介绍；演示和季节开放需先核对，往返另留时间。",
+        "features": [
+          "文化体验",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.alaskanative.net/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.alaskanative.net/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.alaskanative.net/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-coastal",
+        "name": "托尼诺尔斯海岸步道",
+        "nameEn": "Tony Knowles Coastal Trail",
+        "article": "Tony Knowles Coastal Trail",
+        "lat": 61.2109,
+        "lng": -149.918,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 240
+        },
+        "category": "海岸步道",
+        "activityType": "nature",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "从市区入口选择一段海岸步行或骑行，不要求走完整条步道；遇到驼鹿等野生动物保持距离。",
+        "features": [
+          "海岸步道",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/things-to-do/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/things-to-do/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "anchorage-earthquake",
+        "name": "地震公园历史步道",
+        "nameEn": "Earthquake Park",
+        "article": "Earthquake Park",
+        "lat": 61.2011,
+        "lng": -149.9692,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "category": "自然历史",
+        "activityType": "culture",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "description": "在林间步道和解说牌间了解地震改变地貌的痕迹，适合轻量散步。",
+        "features": [
+          "自然历史",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/things-to-do/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/things-to-do/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "anchorage-ship-creek",
+        "name": "Ship Creek 看溪流与鲑鱼季",
+        "nameEn": "Ship Creek (Alaska)",
+        "article": "Ship Creek (Alaska)",
+        "lat": 61.2234,
+        "lng": -149.8866,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 100
+        },
+        "category": "城市自然",
+        "activityType": "nature",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "沿市区溪流观景，夏季可能看到洄游与垂钓场景；鱼情有季节性，垂钓须另办许可。",
+        "features": [
+          "城市自然",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/plan-your-trip/itineraries/locally-made/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/plan-your-trip/itineraries/locally-made/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/plan-your-trip/itineraries/locally-made/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "anchorage-downtown",
+        "name": "第四大道与市中心街区",
+        "nameEn": "Downtown Anchorage",
+        "article": "Downtown Anchorage",
+        "lat": 61.2189,
+        "lng": -149.8925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "街区漫游",
+        "activityType": "culture",
+        "priority": 90,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "description": "从游客中心附近走到本地商店、公共艺术和餐馆，作为抵达后认识城市的第一段散步。",
+        "features": [
+          "街区漫游",
+          "城市精选"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        }
+      },
+      {
+        "id": "anchorage-lake-hood",
+        "name": "胡德湖看水上飞机",
+        "nameEn": "Lake Hood Seaplane Base",
+        "article": "Lake Hood Seaplane Base",
+        "lat": 61.1779,
+        "lng": -149.9729,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "航空观景",
+        "activityType": "leisure",
+        "priority": 86,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "沿开放岸边看水上飞机起降与湖景，只在公众区域停留；飞行观光需另找运营商订购。",
+        "features": [
+          "航空观景",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/things-to-do/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/things-to-do/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-aviation",
+        "name": "阿拉斯加航空博物馆",
+        "nameEn": "Alaska Aviation Museum",
+        "article": "Alaska Aviation Museum",
+        "lat": 61.1766,
+        "lng": -149.9757,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "category": "航空博物馆",
+        "activityType": "culture",
+        "priority": 87,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "看阿拉斯加航空与水上飞机展品，可与胡德湖观景组合成一个片区。",
+        "features": [
+          "航空博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://alaskaairmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://alaskaairmuseum.org/"
+        },
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://alaskaairmuseum.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-potter-marsh",
+        "name": "波特沼泽木栈道观鸟",
+        "nameEn": "Potter Marsh",
+        "article": "Potter Marsh",
+        "lat": 61.0771,
+        "lng": -149.8277,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "category": "湿地观鸟",
+        "activityType": "nature",
+        "priority": 86,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "在木栈道看湿地和季节性鸟类，带望远镜会更有趣；只走开放栈道，不保证特定动物出现。",
+        "features": [
+          "湿地观鸟",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.adfg.alaska.gov/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.adfg.alaska.gov/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.adfg.alaska.gov/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-kincaid",
+        "name": "金凯德公园森林步道",
+        "nameEn": "Kincaid Park",
+        "article": "Kincaid Park",
+        "lat": 61.1547,
+        "lng": -150.0308,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "category": "森林休闲",
+        "activityType": "nature",
+        "priority": 87,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "按季节选择开放步道慢走，林间遇到野生动物应让行；冬季项目需对应装备。",
+        "features": [
+          "森林休闲",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/things-to-do/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/things-to-do/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-flattop",
+        "name": "平顶山山脚与登高步道",
+        "nameEn": "Flattop Mountain (Alaska)",
+        "article": "Flattop Mountain (Alaska)",
+        "lat": 61.099,
+        "lng": -149.6641,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 120,
+          "recommended": 210,
+          "max": 300
+        },
+        "category": "山地徒步",
+        "activityType": "nature",
+        "priority": 86,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "从 Glen Alps 一带根据体力选择山脚或登高，山顶段并非轻松城市散步；天气、积雪及按车停车费需另核。",
+        "features": [
+          "山地徒步",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://dnr.alaska.gov/parks/units/chugach/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://dnr.alaska.gov/parks/units/chugach/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://dnr.alaska.gov/parks/units/chugach/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-railroad",
+        "name": "阿拉斯加铁路风景旅程",
+        "nameEn": "Alaska Railroad",
+        "article": "Alaska Railroad",
+        "lat": 61.2234,
+        "lng": -149.89,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 10.0,
+        "durationRange": {
+          "min": 360,
+          "recommended": 600,
+          "max": 780
+        },
+        "category": "远郊铁路体验",
+        "activityType": "nature",
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "从安克雷奇选择具体季节班次与目的地，单独占用一天或增加住宿；这是铁路体验预算，不能保证任一线路或当日往返可售。",
+        "features": [
+          "远郊铁路体验",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.alaskarailroad.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.alaskarailroad.com/"
+        },
+        "price": {
+          "low": 150,
+          "high": 350,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.alaskarailroad.com/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-wildlife-center",
+        "name": "阿拉斯加野生动物保育中心",
+        "nameEn": "Alaska Wildlife Conservation Center",
+        "article": "Alaska Wildlife Conservation Center",
+        "lat": 60.8213,
+        "lng": -148.9825,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "category": "远郊保育体验",
+        "activityType": "nature",
+        "priority": 86,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "前往 Portage 附近的保育中心观察获救动物，单程通常需一小时以上，建议独立半日并核对天气。",
+        "features": [
+          "远郊保育体验",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://alaskawildlife.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://alaskawildlife.org/"
+        },
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://alaskawildlife.org/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "编辑预算，未逐项核验所选日期票价；成人票、税费、预约、接驳与附加项目以官网为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      },
+      {
+        "id": "anchorage-girdwood",
+        "name": "格德伍德山谷慢游",
+        "nameEn": "Girdwood, Anchorage",
+        "article": "Girdwood, Anchorage",
+        "lat": 60.9424,
+        "lng": -149.1664,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为游览区域或场馆的近似位置，实际入口、码头与集合点以预约单及官方指引为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 300,
+          "max": 420
+        },
+        "category": "远郊山谷",
+        "activityType": "nature",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "description": "为山谷小镇、步道与一顿午餐留出独立半日到一日；单程通常约一小时，缆车、滑雪和接驳另付费。",
+        "features": [
+          "远郊山谷",
+          "自由选择"
+        ],
+        "bestTime": "依据开放日、预约时段和天气安排；户外项目尽量在日光下进行",
+        "sourceUrl": "https://www.anchorage.net/",
+        "sourceCheckedAt": "2026-09-23",
+        "image": {
+          "sourceUrl": "https://www.anchorage.net/"
+        },
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.anchorage.net/",
+          "sourceName": "官方实体与游览资料；金额为编辑预算",
+          "note": "仅所述公共游览或基本入场按零门票规划；交通、餐饮、停车和付费附加项目另计，免费不表示免预约。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "planningNote": "由用户主动选择；请为预约、实际交通与体验时长留足空间，不作为填补空档的默认项目。"
+      }
+    ],
+    "isoRegion": "US-AK"
+  }
+]

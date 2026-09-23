@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { mergeFoodExpansions } from './food-expansion.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (name, fallback = []) => { try { return JSON.parse(fs.readFileSync(path.join(root, name), 'utf8')); } catch (error) { if (error.code === 'ENOENT') return fallback; throw error; } };
 const stamp = '2026-09-23';
@@ -718,7 +719,7 @@ for (const [slug, ids, name, localName, article, description, sourceKey] of supp
     servingNote: '餐饮选择参考，不单独计入行程预算；份量、配料与菜单价格请向店家确认。区域链接仅用于寻找，不能保证某家当日供应。',
     catalogOrigin: 'maintained-definition' });
 }
-const existing = new Map(read('data/local-foods.json').map(food => [food.id, food]));
+const existing = new Map(mergeFoodExpansions(read('data/local-foods.json'), new Set(cityById.keys()), { root }).map(food => [food.id, food]));
 for (const food of generated) {
   const prior = existing.get(food.id);
   existing.set(food.id, prior ? { ...food, ...prior, cityIds: [...new Set([...food.cityIds, ...prior.cityIds])], whereByCity: { ...food.whereByCity, ...prior.whereByCity } } : food);

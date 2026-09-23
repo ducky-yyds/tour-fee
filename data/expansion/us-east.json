@@ -1,0 +1,5822 @@
+[
+  {
+    "id": "washington-dc",
+    "name": "华盛顿特区",
+    "nameEn": "Washington, D.C.",
+    "article": "Washington, D.C.",
+    "isoRegion": "US-DC",
+    "lat": 38.9072,
+    "lng": -77.0369,
+    "iata": "IAD",
+    "tagline": "在纪念碑与免费博物馆之间读历史，也把傍晚留给乔治城河岸。",
+    "tags": [
+      "免费博物馆",
+      "首都历史",
+      "河岸街区"
+    ],
+    "daily": {
+      "lodging": [
+        130,
+        240,
+        500
+      ],
+      "food": [
+        40,
+        80,
+        160
+      ],
+      "transport": [
+        12,
+        30,
+        75
+      ],
+      "misc": [
+        12,
+        25,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1700,
+        2800,
+        4800
+      ],
+      "utilities": [
+        140,
+        230,
+        360
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "在纪念碑与免费博物馆之间读历史，也把傍晚留给乔治城河岸。",
+    "officialTourismUrl": "https://washington.org/",
+    "planningProfile": "balanced",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Washington%2C_D.C."
+    },
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "国家广场步行距离长，一天精选一至两座博物馆；另留一天给乔治城和街区生活。"
+    },
+    "transportNote": "国家广场适合步行结合地铁，但纪念碑间距离比地图印象更远。乔治城河岸需地铁接步行或巴士；IAD与DCA是不同机场，按实际航班预留机场接驳。华盛顿特区不是华盛顿州。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "airportCodes": [
+      "IAD",
+      "DCA"
+    ],
+    "guide": {
+      "cityId": "washington-dc",
+      "intro": "在纪念碑与免费博物馆之间读历史，也把傍晚留给乔治城河岸。",
+      "foodHighlights": [
+        {
+          "name": "华盛顿烟熏辣肠堡",
+          "description": "粗绞烟熏香肠夹入面包，常配辣肉酱与洋葱，适合当作简便午餐；配方和辣度因店而异。"
+        },
+        {
+          "name": "埃塞俄比亚英吉拉拼盘",
+          "description": "用微酸发酵薄饼搭配炖菜与蔬菜，适合分享，也是认识华盛顿移民饮食文化的一餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "乔治城",
+          "description": "沿运河、M街与波托马克河岸慢走，可安排独立半天。"
+        },
+        {
+          "name": "U街与Shaw",
+          "description": "音乐、社区餐馆与埃塞俄比亚饮食让首都呈现另一面。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "washington-dc-national-mall",
+        "name": "国家广场草坪与纪念碑轴线",
+        "nameEn": "National Mall",
+        "lat": 38.8896,
+        "lng": -77.0239,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "纪念地漫步",
+        "description": "在开阔草坪上看国会大厦与纪念碑的城市轴线，挑一段走即可；不把广场两端和全部博物馆当作一次短步行。",
+        "features": [
+          "纪念地漫步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 99,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Mall",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Mall"
+        }
+      },
+      {
+        "id": "washington-dc-lincoln-memorial",
+        "name": "林肯纪念堂与倒影池",
+        "nameEn": "Lincoln Memorial",
+        "lat": 38.8893,
+        "lng": -77.0502,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "历史地标",
+        "description": "登上石阶看林肯雕像，再沿倒影池留出安静步行时间；纪念堂和周边公共区域可组合参观。",
+        "features": [
+          "历史地标",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Lincoln Memorial",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Memorial"
+        }
+      },
+      {
+        "id": "washington-dc-natural-history",
+        "name": "史密森尼国家自然历史博物馆",
+        "nameEn": "National Museum of Natural History",
+        "lat": 38.8913,
+        "lng": -77.0261,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "从恐龙、海洋或矿物挑选最感兴趣的展厅，适合留足半天；基本入馆免费，特别体验与当日安检另核。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://naturalhistory.si.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://naturalhistory.si.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Museum of Natural History",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_Natural_History"
+        }
+      },
+      {
+        "id": "washington-dc-air-space",
+        "name": "国家航空航天博物馆·国家广场馆",
+        "nameEn": "National Air and Space Museum",
+        "lat": 38.8882,
+        "lng": -77.0199,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "把飞机与太空探索放进一段完整参观，先确认定时入场凭证；这是国家广场馆，不是靠近杜勒斯机场的Udvar-Hazy分馆。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.si.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.si.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Air and Space Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Air_and_Space_Museum"
+        },
+        "accessNote": "先确认官方定时入场要求；不得把免费入馆理解为已有预约。"
+      },
+      {
+        "id": "washington-dc-african-american-museum",
+        "name": "非裔美国人历史与文化国家博物馆",
+        "nameEn": "National Museum of African American History and Culture",
+        "lat": 38.8913,
+        "lng": -77.0326,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "从历史展陈到音乐与文化理解非裔美国人的经历；内容丰富且较沉重，建议独立安排半天。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.si.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.si.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Museum of African American History and Culture",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_African_American_History_and_Culture"
+        },
+        "accessNote": "入馆凭证与当日开放须向史密森尼确认。",
+        "photoFile": "National Museum of African American History and Culture in February 2020.jpg"
+      },
+      {
+        "id": "washington-dc-national-gallery",
+        "name": "国家美术馆东西馆精选",
+        "nameEn": "National Gallery of Art",
+        "lat": 38.8913,
+        "lng": -77.02,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在古典绘画与现代艺术之间选择一条主题路线，户外雕塑花园适合中途休息；不必一次走遍两馆。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 93,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nga.gov/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nga.gov/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Gallery of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Gallery_of_Art"
+        }
+      },
+      {
+        "id": "washington-dc-american-history",
+        "name": "美国历史国家博物馆",
+        "nameEn": "National Museum of American History",
+        "lat": 38.8912,
+        "lng": -77.03,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "通过日常物件、交通和公共生活认识美国历史，可按兴趣挑选重点展厅，基本入馆按免费安排。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 85,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.si.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.si.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Museum of American History",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_American_History"
+        }
+      },
+      {
+        "id": "washington-dc-georgetown",
+        "name": "乔治城运河与河岸慢逛",
+        "nameEn": "Georgetown, Washington, D.C.",
+        "lat": 38.9044,
+        "lng": -77.0626,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "从M街店铺转入运河边，再走向波托马克河岸；咖啡、购物和游船自选，漫步本身不要求消费。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://washington.org/visit-dc/things-see-do-georgetown-washington-dc",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://washington.org/visit-dc/things-see-do-georgetown-washington-dc",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Georgetown, Washington, D.C.",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Georgetown%2C_Washington%2C_D.C."
+        }
+      },
+      {
+        "id": "washington-dc-tidal-basin",
+        "name": "潮汐湖与杰斐逊纪念堂外圈",
+        "nameEn": "Tidal Basin",
+        "lat": 38.8815,
+        "lng": -77.0389,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "沿湖岸看纪念堂与水面，花期之外同样适合慢走；春季赏樱人流较多，步道工程或活动可能改变路线。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Tidal Basin",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tidal_Basin"
+        }
+      },
+      {
+        "id": "washington-dc-mlk-memorial",
+        "name": "马丁·路德·金纪念碑",
+        "nameEn": "Martin Luther King Jr. Memorial",
+        "lat": 38.8862,
+        "lng": -77.0445,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "activityType": "culture",
+        "category": "历史地标",
+        "description": "在潮汐湖西侧阅读纪念墙和雕塑，适合与附近湖岸散步衔接，留一点时间理解其公共历史。",
+        "features": [
+          "历史地标",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/nama/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Martin Luther King Jr. Memorial",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Memorial"
+        }
+      },
+      {
+        "id": "washington-dc-capitol",
+        "name": "美国国会大厦预约导览",
+        "nameEn": "United States Capitol",
+        "lat": 38.8899,
+        "lng": -77.0091,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "历史地标",
+        "description": "从国会山建筑进入立法历史；室内导览须按官方流程预约和安检，庭院外观可另行短逛。",
+        "features": [
+          "历史地标",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.visitthecapitol.gov/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitthecapitol.gov/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "United States Capitol",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/United_States_Capitol"
+        },
+        "accessNote": "室内导览名额、证件和安检规则须事先确认，加入计划不代表预约成功。"
+      },
+      {
+        "id": "washington-dc-library-congress",
+        "name": "国会图书馆杰斐逊大楼",
+        "nameEn": "Thomas Jefferson Building",
+        "lat": 38.8887,
+        "lng": -77.0048,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "在公共开放区域欣赏大楼装饰与展览；阅览室参观和研究使用是不同安排，先确认参观凭证。",
+        "features": [
+          "历史建筑",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.loc.gov/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.loc.gov/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Thomas Jefferson Building",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Thomas_Jefferson_Building"
+        },
+        "accessNote": "按官方规定取得参观凭证，阅览室不保证随到随入。"
+      },
+      {
+        "id": "washington-dc-white-house-exterior",
+        "name": "白宫与拉法叶广场外观",
+        "nameEn": "Lafayette Square, Washington, D.C.",
+        "lat": 38.8995,
+        "lng": -77.0365,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "activityType": "culture",
+        "category": "城市打卡",
+        "description": "从开放的公共区域看白宫外观和拉法叶广场；这段行程只含外观，不能理解为白宫内部参观。",
+        "features": [
+          "城市打卡",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/whho/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/whho/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Lafayette Square, Washington, D.C.",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lafayette_Square%2C_Washington%2C_D.C."
+        }
+      },
+      {
+        "id": "washington-dc-the-wharf",
+        "name": "The Wharf码头傍晚",
+        "nameEn": "The Wharf (Washington, D.C.)",
+        "lat": 38.8783,
+        "lng": -77.0254,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "江岸慢游",
+        "description": "沿西南滨水区看船只、街头活动与餐馆，适合博物馆之后放慢节奏；演出、餐饮和水上项目各自收费。",
+        "features": [
+          "江岸慢游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 83,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.wharfdc.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.wharfdc.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "The Wharf (Washington, D.C.)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Wharf_%28Washington%2C_D.C.%29"
+        }
+      },
+      {
+        "id": "washington-dc-eastern-market",
+        "name": "东市场与国会山街区",
+        "nameEn": "Eastern Market, Washington, D.C.",
+        "lat": 38.8844,
+        "lng": -76.9962,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "逛室内食品摊和周边住宅街道，遇到市集日可以多留一会儿；摊位、开放时间与消费另核。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 72,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://easternmarket-dc.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://easternmarket-dc.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Eastern Market, Washington, D.C.",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Eastern_Market%2C_Washington%2C_D.C."
+        }
+      },
+      {
+        "id": "washington-dc-u-street",
+        "name": "U街音乐与社区餐馆",
+        "nameEn": "U Street (Washington, D.C.)",
+        "lat": 38.917,
+        "lng": -77.028,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "把首都的黑人音乐历史与邻里餐馆串成一段漫步；现场演出另购票，夜间用餐可和行程晚餐合并。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 75,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://washington.org/dc-neighborhoods/u-street",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://washington.org/dc-neighborhoods/u-street",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "U Street (Washington, D.C.)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/U_Street_%28Washington%2C_D.C.%29"
+        }
+      },
+      {
+        "id": "washington-dc-portrait-gallery",
+        "name": "国家肖像馆与中庭",
+        "nameEn": "National Portrait Gallery (United States)",
+        "lat": 38.8979,
+        "lng": -77.023,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "从肖像和艺术作品认识不同时期的人物，玻璃中庭适合歇脚；展览选择依当日开放而定。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.si.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.si.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Portrait Gallery (United States)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Portrait_Gallery_%28United_States%29"
+        },
+        "photoFile": "National Portrait Gallery courtyard DC1.jpg"
+      },
+      {
+        "id": "washington-dc-botanic-garden",
+        "name": "美国植物园温室",
+        "nameEn": "United States Botanic Garden",
+        "lat": 38.888,
+        "lng": -77.0129,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "城市花园",
+        "description": "在国会山旁换一个绿色视角，温室和花园适合与附近博物馆穿插，保持对植物与步道的轻声参观。",
+        "features": [
+          "城市花园",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 77,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.usbg.gov/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.usbg.gov/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "United States Botanic Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/United_States_Botanic_Garden"
+        }
+      }
+    ]
+  },
+  {
+    "id": "boston",
+    "name": "波士顿",
+    "nameEn": "Boston",
+    "article": "Boston",
+    "isoRegion": "US-MA",
+    "lat": 42.3601,
+    "lng": -71.0589,
+    "iata": "BOS",
+    "tagline": "沿红砖历史路线走进海港，也在书店、校园与意式小店里慢下来。",
+    "tags": [
+      "独立历史",
+      "海港步行",
+      "校园与艺术"
+    ],
+    "daily": {
+      "lodging": [
+        155,
+        280,
+        550
+      ],
+      "food": [
+        42,
+        85,
+        170
+      ],
+      "transport": [
+        12,
+        30,
+        80
+      ],
+      "misc": [
+        12,
+        28,
+        55
+      ]
+    },
+    "monthly": {
+      "rent": [
+        2000,
+        3200,
+        5200
+      ],
+      "utilities": [
+        150,
+        250,
+        400
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "沿红砖历史路线走进海港，也在书店、校园与意式小店里慢下来。",
+    "officialTourismUrl": "https://www.meetboston.com/",
+    "planningProfile": "balanced",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Boston"
+    },
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "两天认识老城和海港，再留一天给美术馆或剑桥；观鲸、塞勒姆等出城项目另加时间。"
+    },
+    "transportNote": "老城、北端和后湾适合步行结合MBTA。剑桥位于查尔斯河对岸，是独立城市；不要把校园区和芬威艺术馆当成相邻街区。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "boston",
+      "intro": "沿红砖历史路线走进海港，也在书店、校园与意式小店里慢下来。",
+      "foodHighlights": [
+        {
+          "name": "新英格兰蛤蜊浓汤",
+          "description": "奶油汤底搭配蛤蜊和土豆，杯装可作前菜，面包碗通常更饱腹。"
+        },
+        {
+          "name": "龙虾卷",
+          "description": "龙虾肉夹入软面包，冷拌蛋黄酱与温热黄油是不同风格，点单前可确认。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "北端",
+          "description": "意式小店、旧教堂和港口步行可衔接成半天。"
+        },
+        {
+          "name": "后湾与Beacon Hill",
+          "description": "看红砖住宅、书店和城市花园，住宅小巷注意轻声。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "boston-freedom-trail",
+        "name": "自由之路老城段",
+        "nameEn": "Freedom Trail",
+        "lat": 42.3581,
+        "lng": -71.0621,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "历史步行",
+        "description": "沿红砖标记挑选老州议会大厦到北端的一段，把革命历史与街巷联系起来；沿途收费室内场馆不含在步行预算。",
+        "features": [
+          "历史步行",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/bost/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/bost/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Freedom Trail",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Freedom_Trail"
+        }
+      },
+      {
+        "id": "boston-common-garden",
+        "name": "波士顿公园与公共花园",
+        "nameEn": "Boston Public Garden",
+        "lat": 42.3541,
+        "lng": -71.0702,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "从公共花园池畔走到Boston Common，找长椅停留或看季节花木；天鹅船另收费且按季开放。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 92,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/things-to-do/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Boston Public Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Boston_Public_Garden"
+        }
+      },
+      {
+        "id": "boston-beacon-hill",
+        "name": "Beacon Hill红砖街巷",
+        "nameEn": "Beacon Hill, Boston",
+        "lat": 42.3588,
+        "lng": -71.067,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿Charles Street与周边坡道看砖房、门廊和小店；Acorn Street等住宅巷道只在允许的公共区域停留。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Beacon Hill, Boston",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Beacon_Hill%2C_Boston"
+        }
+      },
+      {
+        "id": "boston-north-end",
+        "name": "北端意式街区",
+        "nameEn": "North End, Boston",
+        "lat": 42.365,
+        "lng": -71.0545,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在Hanover Street和小巷寻找意面、咖啡和甜点，适合把一顿饭与慢逛合在一起，餐饮计入日常餐费。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 93,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "North End, Boston",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/North_End%2C_Boston"
+        }
+      },
+      {
+        "id": "boston-quincy-market",
+        "name": "昆西市场与法尼尔厅外广场",
+        "nameEn": "Quincy Market",
+        "lat": 42.36,
+        "lng": -71.055,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "看市场长廊和公共广场的城市生活，按食欲选择小吃；店铺消费不包含在免费漫步中。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/things-to-do/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Quincy Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Quincy_Market"
+        }
+      },
+      {
+        "id": "boston-harborwalk",
+        "name": "海港步道与Long Wharf",
+        "nameEn": "Boston Harborwalk",
+        "lat": 42.3603,
+        "lng": -71.0492,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "海港漫步",
+        "description": "沿Long Wharf附近挑一段海港步道，看船只、码头和海风中的城市轮廓；游船、轮渡需要另买票。",
+        "features": [
+          "海港漫步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/things-to-do/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Boston Harborwalk",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Boston_Harborwalk"
+        },
+        "photoFile": "2010 LongWharf Boston.jpg"
+      },
+      {
+        "id": "boston-fine-arts",
+        "name": "波士顿美术博物馆",
+        "nameEn": "Museum of Fine Arts, Boston",
+        "lat": 42.3394,
+        "lng": -71.094,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "按绘画、亚洲艺术或古代文明选择重点，适合半天室内慢看，特展与票种另核。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.mfa.org/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.mfa.org/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Museum of Fine Arts, Boston",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts%2C_Boston"
+        }
+      },
+      {
+        "id": "boston-gardner",
+        "name": "伊莎贝拉·嘉德纳博物馆",
+        "nameEn": "Isabella Stewart Gardner Museum",
+        "lat": 42.338,
+        "lng": -71.099,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "围绕庭院欣赏收藏与建筑，空间相对紧凑但值得慢看；按官方入场时段订票。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.gardnermuseum.org/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gardnermuseum.org/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Isabella Stewart Gardner Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum"
+        }
+      },
+      {
+        "id": "boston-public-library",
+        "name": "波士顿公共图书馆麦金楼",
+        "nameEn": "Boston Public Library",
+        "lat": 42.3493,
+        "lng": -71.0783,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "在开放区域看壁画、阅读空间与内院，适合与Copley Square连逛；保持安静并遵守读者空间规则。",
+        "features": [
+          "历史建筑",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.bpl.org/locations/3/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.bpl.org/locations/3/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Boston Public Library",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Boston_Public_Library"
+        },
+        "photoFile": "Boston Public Library Reading Room.jpg"
+      },
+      {
+        "id": "boston-newbury-street",
+        "name": "Newbury Street后湾小店",
+        "nameEn": "Newbury Street",
+        "lat": 42.3507,
+        "lng": -71.0785,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在褐石建筑间逛独立店、画廊和咖啡馆，可以只看街景，也可自行增加购物预算。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 79,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/back-bay/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/explore/neighborhoods/back-bay/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Newbury Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Newbury_Street"
+        }
+      },
+      {
+        "id": "boston-fenway-tour",
+        "name": "芬威球场导览",
+        "nameEn": "Fenway Park",
+        "lat": 42.3467,
+        "lng": -71.0972,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "特色体验",
+        "description": "按开放的球场导览认识棒球场与看台文化；导览票和比赛门票不同，比赛日安排先核实。",
+        "features": [
+          "特色体验",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.mlb.com/redsox/ballpark/tours",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 50,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.mlb.com/redsox/ballpark/tours",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Fenway Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fenway_Park"
+        }
+      },
+      {
+        "id": "boston-harvard-square",
+        "name": "剑桥哈佛广场与周边街区",
+        "nameEn": "Harvard Square",
+        "lat": 42.3733,
+        "lng": -71.119,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "校园街区",
+        "description": "搭红线到剑桥，在书店、广场和允许开放的校园道路慢逛；校园通行规则可变，教学楼不默认对游客开放。",
+        "features": [
+          "校园街区",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.harvard.edu/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.harvard.edu/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Harvard Square",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Harvard_Square"
+        },
+        "accessNote": "剑桥为波士顿都会区另一城市，预留往返交通；校园准入与预约以校方为准。"
+      },
+      {
+        "id": "boston-charles-esplanade",
+        "name": "查尔斯河Esplanade步道",
+        "nameEn": "Charles River Esplanade",
+        "lat": 42.3558,
+        "lng": -71.0751,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "江岸慢游",
+        "description": "沿河看帆船与跑步人群，挑一段岸边坐坐；水上项目独立预约，天气不佳可换成图书馆。",
+        "features": [
+          "江岸慢游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.meetboston.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.meetboston.com/things-to-do/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Charles River Esplanade",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Charles_River_Esplanade"
+        }
+      },
+      {
+        "id": "boston-aquarium",
+        "name": "新英格兰水族馆",
+        "nameEn": "New England Aquarium",
+        "lat": 42.3592,
+        "lng": -71.0496,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "自然场馆",
+        "description": "围绕海洋生物展厅与大型水槽参观，适合亲子或雨天；观鲸船属于另外的长时段项目。",
+        "features": [
+          "自然场馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 77,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.neaq.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 35,
+          "high": 55,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.neaq.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "New England Aquarium",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/New_England_Aquarium"
+        }
+      }
+    ]
+  },
+  {
+    "id": "philadelphia",
+    "name": "费城",
+    "nameEn": "Philadelphia",
+    "article": "Philadelphia",
+    "isoRegion": "US-PA",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "iata": "PHL",
+    "tagline": "独立历史只是开场，市集、壁画和邻里三明治让费城更有日常味。",
+    "tags": [
+      "独立历史",
+      "市集美食",
+      "博物馆与壁画"
+    ],
+    "daily": {
+      "lodging": [
+        105,
+        200,
+        430
+      ],
+      "food": [
+        35,
+        70,
+        145
+      ],
+      "transport": [
+        10,
+        28,
+        70
+      ],
+      "misc": [
+        10,
+        22,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        2100,
+        3500
+      ],
+      "utilities": [
+        140,
+        230,
+        350
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "独立历史只是开场，市集、壁画和邻里三明治让费城更有日常味。",
+    "officialTourismUrl": "https://www.visitphilly.com/",
+    "planningProfile": "balanced",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Philadelphia"
+    },
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 4,
+      "reason": "老城历史、市中心美术馆和南费城街区各留一段时间，短住两天可精选其中两条线。"
+    },
+    "transportNote": "Center City与Old City适合分片步行，远一点的美术馆、南费城或Fishtown搭SEPTA或出租车；机场到市区接驳需另外安排。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "philadelphia",
+      "intro": "独立历史只是开场，市集、壁画和邻里三明治让费城更有日常味。",
+      "foodHighlights": [
+        {
+          "name": "费城芝士牛肉三明治",
+          "description": "薄切牛肉配融化芝士夹入长面包，点单时可选择芝士种类与是否加洋葱。"
+        },
+        {
+          "name": "意式烤猪肉三明治",
+          "description": "烤猪肉常搭配苦味绿叶菜与奶酪，比起牛肉三明治是另一种费城日常。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Old City",
+          "description": "历史建筑与小画廊集中，适合慢走和看街角细节。"
+        },
+        {
+          "name": "South Philadelphia",
+          "description": "意大利市场与三明治店可以组成一段吃逛路线。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "philadelphia-independence-hall",
+        "name": "独立宫与独立广场",
+        "nameEn": "Independence Hall",
+        "lat": 39.9489,
+        "lng": -75.15,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "历史地标",
+        "description": "在独立广场认识美国建国历史；室内导览需依官方预约安排，公共广场与内部参观分开理解。",
+        "features": [
+          "历史地标",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/inde/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 5,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/inde/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Independence Hall",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Independence_Hall"
+        },
+        "accessNote": "估算仅预留可能的预约服务费；入馆预约、安检与开放范围须核对。"
+      },
+      {
+        "id": "philadelphia-liberty-bell",
+        "name": "自由钟中心",
+        "nameEn": "Liberty Bell",
+        "lat": 39.9496,
+        "lng": -75.1503,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "culture",
+        "category": "历史地标",
+        "description": "看自由钟及其象征意义的展陈，常需排安检队，适合与独立宫放在同一片区。",
+        "features": [
+          "历史地标",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/inde/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/inde/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Liberty Bell",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Liberty_Bell"
+        }
+      },
+      {
+        "id": "philadelphia-old-city",
+        "name": "Old City与Elfreth’s Alley外观",
+        "nameEn": "Elfreth's Alley",
+        "lat": 39.9527,
+        "lng": -75.1418,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "从旧城街角转入历史住宅小巷，看砖房与门廊；只在公共通道走动，私人住宅与小型博物馆另有准入。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 90,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Elfreth's Alley",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Elfreth%27s_Alley"
+        }
+      },
+      {
+        "id": "philadelphia-reading-terminal",
+        "name": "Reading Terminal Market吃逛",
+        "nameEn": "Reading Terminal Market",
+        "lat": 39.9533,
+        "lng": -75.159,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "在旧火车站市场按食欲选三明治、烘焙或宾州风味小吃，可把这段逛市场直接作为午餐停留。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 96,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://readingterminalmarket.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://readingterminalmarket.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Reading Terminal Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Reading_Terminal_Market"
+        }
+      },
+      {
+        "id": "philadelphia-museum-art",
+        "name": "费城艺术博物馆",
+        "nameEn": "Philadelphia Museum of Art",
+        "lat": 39.9656,
+        "lng": -75.1809,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "馆藏绘画与建筑展陈值得留足时间；台阶外观和馆内参观不同，先确认闭馆日与当日票种。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 95,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.philamuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.philamuseum.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Philadelphia Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art"
+        }
+      },
+      {
+        "id": "philadelphia-rocky-steps",
+        "name": "Rocky台阶与城市视角",
+        "nameEn": "Rocky Steps",
+        "lat": 39.965,
+        "lng": -75.1805,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "activityType": "culture",
+        "category": "城市打卡",
+        "description": "登上艺术博物馆外的台阶回看城市轴线，电影迷可顺路看雕像；只拍外观不需要安排整座美术馆。",
+        "features": [
+          "城市打卡",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 84,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Rocky Steps",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rocky_Steps"
+        }
+      },
+      {
+        "id": "philadelphia-barnes",
+        "name": "巴恩斯基金会艺术馆",
+        "nameEn": "Barnes Foundation",
+        "lat": 39.9606,
+        "lng": -75.1726,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在特别的陈列方式中看印象派及现代艺术，建议提前选择入场时间并慢看重点房间。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.barnesfoundation.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.barnesfoundation.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Barnes Foundation",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Barnes_Foundation"
+        }
+      },
+      {
+        "id": "philadelphia-rittenhouse-square",
+        "name": "里滕豪斯广场停一停",
+        "nameEn": "Rittenhouse Square",
+        "lat": 39.9495,
+        "lng": -75.1719,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "带一杯饮品坐在广场边，看看邻里散步和街角建筑，再按兴趣逛附近商店。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 79,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Rittenhouse Square",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rittenhouse_Square"
+        }
+      },
+      {
+        "id": "philadelphia-italian-market",
+        "name": "南费城意大利市场街区",
+        "nameEn": "Italian Market, Philadelphia",
+        "lat": 39.9369,
+        "lng": -75.1587,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "沿第九街看蔬果、奶酪、肉铺与多元餐馆，老市场的日常感比打卡更值得停留。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://italianmarketphilly.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://italianmarketphilly.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Italian Market, Philadelphia",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Italian_Market%2C_Philadelphia"
+        }
+      },
+      {
+        "id": "philadelphia-magic-gardens",
+        "name": "费城魔法花园",
+        "nameEn": "Philadelphia's Magic Gardens",
+        "lat": 39.9427,
+        "lng": -75.1596,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "艺术体验",
+        "description": "走进马赛克覆盖的庭院与通道，细看回收材料和拼贴作品，需按票务时段入场。",
+        "features": [
+          "艺术体验",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 80,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.phillymagicgardens.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.phillymagicgardens.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Philadelphia's Magic Gardens",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Philadelphia%27s_Magic_Gardens"
+        }
+      },
+      {
+        "id": "philadelphia-schuylkill",
+        "name": "斯库尔基尔河步道",
+        "nameEn": "Schuylkill River Trail",
+        "lat": 39.9528,
+        "lng": -75.1826,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "江岸慢游",
+        "description": "从市中心河段选一段步道散步，水面与桥梁适合傍晚看；不要把整条区域长距离步道当作市内短线。",
+        "features": [
+          "江岸慢游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.schuylkillbanks.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.schuylkillbanks.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Schuylkill River Trail",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Schuylkill_River_Trail"
+        }
+      },
+      {
+        "id": "philadelphia-eastern-state",
+        "name": "东州教养所历史导览",
+        "nameEn": "Eastern State Penitentiary",
+        "lat": 39.9684,
+        "lng": -75.1727,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "历史场馆",
+        "description": "在保留的监狱建筑中了解惩教历史，主题较沉重；夜间特别活动与日间参观分开售票。",
+        "features": [
+          "历史场馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.easternstate.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.easternstate.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Eastern State Penitentiary",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Eastern_State_Penitentiary"
+        }
+      },
+      {
+        "id": "philadelphia-fishtown",
+        "name": "Fishtown咖啡与创意街区",
+        "nameEn": "Fishtown, Philadelphia",
+        "lat": 39.972,
+        "lng": -75.1338,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿Frankford Avenue周边找咖啡、唱片与小店，适合想看费城当代邻里生活的旅客。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 72,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.visitphilly.com/areas/philadelphia-neighborhoods/fishtown/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitphilly.com/areas/philadelphia-neighborhoods/fishtown/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Fishtown, Philadelphia",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fishtown%2C_Philadelphia"
+        }
+      },
+      {
+        "id": "philadelphia-city-hall",
+        "name": "市政厅与Dilworth Park",
+        "nameEn": "Philadelphia City Hall",
+        "lat": 39.9526,
+        "lng": -75.1636,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "culture",
+        "category": "城市打卡",
+        "description": "从市政厅外观转入广场休息，看雕塑与城市街道；塔楼或室内导览不含在免费外观安排中。",
+        "features": [
+          "城市打卡",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.visitphilly.com/features/essential-guide-to-philadelphia/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Philadelphia City Hall",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Philadelphia_City_Hall"
+        }
+      }
+    ]
+  },
+  {
+    "id": "chicago",
+    "name": "芝加哥",
+    "nameEn": "Chicago",
+    "article": "Chicago",
+    "isoRegion": "US-IL",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "iata": "ORD",
+    "tagline": "在建筑河道与密歇根湖边认识城市，再走进有自己味道的街区。",
+    "tags": [
+      "建筑与河道",
+      "湖岸公园",
+      "深盘披萨"
+    ],
+    "daily": {
+      "lodging": [
+        110,
+        220,
+        480
+      ],
+      "food": [
+        38,
+        80,
+        165
+      ],
+      "transport": [
+        12,
+        30,
+        80
+      ],
+      "misc": [
+        12,
+        25,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1400,
+        2300,
+        4200
+      ],
+      "utilities": [
+        140,
+        240,
+        370
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "在建筑河道与密歇根湖边认识城市，再走进有自己味道的街区。",
+    "officialTourismUrl": "https://www.choosechicago.com/",
+    "planningProfile": "balanced",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chicago"
+    },
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "市中心建筑、湖岸博物馆和北侧或西侧街区各需时间，艺术馆和建筑游船可作为不同半天的重点。"
+    },
+    "transportNote": "Loop、River North与湖岸可步行搭CTA，Hyde Park和Pilsen应按独立片区安排。ORD与MDW接驳路线不同，冬季风冷和降雪会拉长户外交通时间。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "airportCodes": [
+      "ORD",
+      "MDW"
+    ],
+    "guide": {
+      "cityId": "chicago",
+      "intro": "在建筑河道与密歇根湖边认识城市，再走进有自己味道的街区。",
+      "foodHighlights": [
+        {
+          "name": "芝加哥深盘披萨",
+          "description": "厚边饼皮里放入芝士和番茄酱，出炉需要时间且分量较大，适合分享。"
+        },
+        {
+          "name": "芝加哥热狗",
+          "description": "牛肉肠配罂粟籽面包、芥末、酸黄瓜和多种蔬菜，味道清脆丰富。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Loop与River North",
+          "description": "建筑、河道、餐馆集中，适合作为首次到访的核心。"
+        },
+        {
+          "name": "Pilsen与Lincoln Park",
+          "description": "壁画和墨西哥文化、湖边绿地呈现不同的城市日常。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "chicago-millennium-park",
+        "name": "千禧公园与Cloud Gate",
+        "nameEn": "Millennium Park",
+        "lat": 41.8827,
+        "lng": -87.6233,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "在Cloud Gate与开放草坪间看城市倒影，挑一段公园漫步；演出与临时围挡可能改变通行。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 99,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Millennium Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Millennium_Park"
+        }
+      },
+      {
+        "id": "chicago-riverwalk",
+        "name": "芝加哥河滨步道",
+        "nameEn": "Chicago Riverwalk",
+        "lat": 41.8871,
+        "lng": -87.6274,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "江岸慢游",
+        "description": "沿河岸看桥梁和高楼立面，在长椅停留比赶路更能感受建筑尺度；河上游船另行购票。",
+        "features": [
+          "江岸慢游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Chicago Riverwalk",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chicago_Riverwalk"
+        }
+      },
+      {
+        "id": "chicago-architecture-cruise",
+        "name": "芝加哥河建筑导览船",
+        "nameEn": "Chicago River",
+        "lat": 41.8879,
+        "lng": -87.6238,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "特色体验",
+        "description": "从河面听建筑故事，适合第一次认识芝加哥天际线；以运营方码头和班次为准，天气会影响开航。",
+        "features": [
+          "特色体验",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 97,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.architecture.org/city-tours/river-cruise",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 45,
+          "high": 80,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.architecture.org/city-tours/river-cruise",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Chicago River",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chicago_River"
+        },
+        "accessNote": "此坐标为Michigan Avenue桥附近参考码头，须按出票运营方确认集合点；仅含游船预算。"
+      },
+      {
+        "id": "chicago-art-institute",
+        "name": "芝加哥艺术博物馆",
+        "nameEn": "Art Institute of Chicago",
+        "lat": 41.8796,
+        "lng": -87.6237,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在绘画与设计馆藏中选择重点，留足半天室内观展；热门特展、票种和本地居民优惠另核。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 97,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.artic.edu/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 50,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.artic.edu/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Art Institute of Chicago",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Art_Institute_of_Chicago"
+        },
+        "photoFile": "Art Institute of Chicago Michigan Avenue.jpg"
+      },
+      {
+        "id": "chicago-lakefront",
+        "name": "密歇根湖岸步道",
+        "nameEn": "Chicago Lakefront Trail",
+        "lat": 41.911,
+        "lng": -87.626,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "湖岸步行",
+        "description": "在北大道海滩附近选一段湖岸步道，看湖水与城市轮廓；全线很长，自动安排只指一段散步。",
+        "features": [
+          "湖岸步行",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 92,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/articles/bucket-list/the-ultimate-chicago-bucket-list/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Chicago Lakefront Trail",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chicago_Lakefront_Trail"
+        }
+      },
+      {
+        "id": "chicago-lincoln-park-zoo",
+        "name": "林肯公园动物园与绿地",
+        "nameEn": "Lincoln Park Zoo",
+        "lat": 41.9211,
+        "lng": -87.6338,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "自然场馆",
+        "description": "在公园绿地中看动物与景观，基本入园免费，付费活动和停车另计，适合亲子慢游。",
+        "features": [
+          "自然场馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.lpzoo.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.lpzoo.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Lincoln Park Zoo",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Park_Zoo"
+        }
+      },
+      {
+        "id": "chicago-navy-pier",
+        "name": "海军码头湖景散步",
+        "nameEn": "Navy Pier",
+        "lat": 41.8917,
+        "lng": -87.6043,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "湖岸步行",
+        "description": "沿码头走向湖面，选择露台或长椅休息；摩天轮、表演和游船不是免费漫步的必选项。",
+        "features": [
+          "湖岸步行",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://navypier.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://navypier.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Navy Pier",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Navy_Pier"
+        }
+      },
+      {
+        "id": "chicago-field-museum",
+        "name": "菲尔德自然史博物馆",
+        "nameEn": "Field Museum of Natural History",
+        "lat": 41.8663,
+        "lng": -87.6169,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "围绕恐龙、自然史与人类文化挑选展厅，适合与湖岸博物馆园区组合；特别展与套票另核。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 91,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.fieldmuseum.org/visit",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 55,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.fieldmuseum.org/visit",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Field Museum of Natural History",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Field_Museum_of_Natural_History"
+        },
+        "photoFile": "Field Museum N.jpg"
+      },
+      {
+        "id": "chicago-skydeck",
+        "name": "威利斯大厦Skydeck观景",
+        "nameEn": "Willis Tower",
+        "lat": 41.8789,
+        "lng": -87.6359,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "城市观景",
+        "description": "在高层看城市网格与湖岸，玻璃观景台需遵守现场分流；选择天气较清晰的时段并提前看预约票。",
+        "features": [
+          "城市观景",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://theskydeck.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 65,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://theskydeck.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Willis Tower",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Willis_Tower"
+        }
+      },
+      {
+        "id": "chicago-magnificent-mile",
+        "name": "华丽一英里建筑与橱窗",
+        "nameEn": "Magnificent Mile",
+        "lat": 41.8947,
+        "lng": -87.6243,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿Michigan Avenue看历史建筑与店铺外观，可按兴趣进入商店；购物花费由用户自行决定。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 81,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Magnificent Mile",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magnificent_Mile"
+        }
+      },
+      {
+        "id": "chicago-pilsen",
+        "name": "Pilsen壁画与墨西哥街区",
+        "nameEn": "Pilsen, Chicago",
+        "lat": 41.8578,
+        "lng": -87.6605,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿18th Street附近看壁画与社区店铺，午餐可以留给墨西哥餐馆；尊重居民和壁画周边空间。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 83,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Pilsen, Chicago",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pilsen%2C_Chicago"
+        }
+      },
+      {
+        "id": "chicago-mexican-art",
+        "name": "美国国家墨西哥艺术博物馆",
+        "nameEn": "National Museum of Mexican Art",
+        "lat": 41.8561,
+        "lng": -87.6729,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在Pilsen通过艺术认识墨西哥与墨裔美国文化，适合和街区壁画安排同一片区。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 81,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://nationalmuseumofmexicanart.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://nationalmuseumofmexicanart.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "National Museum of Mexican Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Museum_of_Mexican_Art"
+        }
+      },
+      {
+        "id": "chicago-wicker-park",
+        "name": "Wicker Park独立店与咖啡",
+        "nameEn": "Wicker Park, Chicago",
+        "lat": 41.9088,
+        "lng": -87.6796,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "围绕Milwaukee Avenue与Damen附近逛唱片、书店和咖啡馆，适合愿意走出游客核心区的半天。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 75,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.choosechicago.com/neighborhoods/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Wicker Park, Chicago",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wicker_Park%2C_Chicago"
+        }
+      },
+      {
+        "id": "chicago-science-industry",
+        "name": "格里芬科学与工业博物馆",
+        "nameEn": "Museum of Science and Industry (Chicago)",
+        "lat": 41.7906,
+        "lng": -87.5831,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "在Hyde Park以互动科学与大型展品安排半天，部分体验需另订票，交通应与市中心分开预留。",
+        "features": [
+          "博物馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 84,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.griffinmsi.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 60,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.griffinmsi.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Museum of Science and Industry (Chicago)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_%28Chicago%29"
+        }
+      },
+      {
+        "id": "chicago-garfield-conservatory",
+        "name": "加菲尔德公园温室",
+        "nameEn": "Garfield Park Conservatory",
+        "lat": 41.8863,
+        "lng": -87.717,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "城市花园",
+        "description": "在温室中看不同气候植物，适合天气不佳时放慢节奏；依访客身份、预约和活动核对当日费用。",
+        "features": [
+          "城市花园",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 73,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://garfieldconservatory.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://garfieldconservatory.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Garfield Park Conservatory",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Garfield_Park_Conservatory"
+        }
+      }
+    ]
+  },
+  {
+    "id": "atlanta",
+    "name": "亚特兰大",
+    "nameEn": "Atlanta",
+    "article": "Atlanta",
+    "isoRegion": "US-GA",
+    "lat": 33.749,
+    "lng": -84.388,
+    "iata": "ATL",
+    "tagline": "从民权历史走向BeltLine步道，南方餐桌与创意街区都值得停留。",
+    "tags": [
+      "民权历史",
+      "绿道与街区",
+      "南方美食"
+    ],
+    "daily": {
+      "lodging": [
+        95,
+        190,
+        390
+      ],
+      "food": [
+        32,
+        68,
+        140
+      ],
+      "transport": [
+        12,
+        35,
+        90
+      ],
+      "misc": [
+        10,
+        22,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        2000,
+        3400
+      ],
+      "utilities": [
+        140,
+        230,
+        360
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "从民权历史走向BeltLine步道，南方餐桌与创意街区都值得停留。",
+    "officialTourismUrl": "https://discoveratlanta.com/",
+    "planningProfile": "balanced",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atlanta"
+    },
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "市中心场馆、Midtown绿地和Old Fourth Ward各留半天以上，远郊体验另加交通日。"
+    },
+    "transportNote": "MARTA连接机场、Downtown和Midtown，BeltLine沿线适合分段步行；Buckhead与其他远处片区不要按市中心短通勤处理，开车需预留拥堵与停车。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "atlanta",
+      "intro": "从民权历史走向BeltLine步道，南方餐桌与创意街区都值得停留。",
+      "foodHighlights": [
+        {
+          "name": "南方炸鸡餐盘",
+          "description": "脆皮炸鸡搭配蔬菜与面包，是南方家常餐桌的一种经典组合，配菜按食欲选择。"
+        },
+        {
+          "name": "柠檬胡椒鸡翅",
+          "description": "柠檬香和胡椒带出炸鸡翅的风味，可区分干调味与带酱版本。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Old Fourth Ward与Inman Park",
+          "description": "民权遗址、BeltLine与市场能组成生活感很强的一天。"
+        },
+        {
+          "name": "Midtown",
+          "description": "公园、艺术馆和植物园适合分上下午从容安排。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "atlanta-mlk-park",
+        "name": "马丁·路德·金国家历史公园",
+        "nameEn": "Martin Luther King Jr. National Historical Park",
+        "lat": 33.7558,
+        "lng": -84.3727,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "历史场馆",
+        "description": "沿Sweet Auburn认识民权运动与社区历史，游客中心和开放区域可精选参观；故居内部名额与修缮情况须单独确认。",
+        "features": [
+          "历史场馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 99,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.nps.gov/malu/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/malu/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Martin Luther King Jr. National Historical Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._National_Historical_Park"
+        }
+      },
+      {
+        "id": "atlanta-beltline-eastside",
+        "name": "BeltLine东侧绿道",
+        "nameEn": "Atlanta BeltLine",
+        "lat": 33.7712,
+        "lng": -84.3636,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在Ponce City Market到Inman Park附近挑一段绿道，沿途看公共艺术和社区生活，租车骑行另收费。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://beltline.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://beltline.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Atlanta BeltLine",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Atlanta_BeltLine"
+        },
+        "photoFile": "Atlanta Beltline Eastside Trail, Inman Park GA.jpg"
+      },
+      {
+        "id": "atlanta-georgia-aquarium",
+        "name": "佐治亚水族馆",
+        "nameEn": "Georgia Aquarium",
+        "lat": 33.7634,
+        "lng": -84.3951,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "activityType": "culture",
+        "category": "自然场馆",
+        "description": "为大型水槽与海洋展厅留完整半天，按入场票种和预约时间安排行程；特别互动项目另外付费。",
+        "features": [
+          "自然场馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 96,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.georgiaaquarium.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 40,
+          "high": 75,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.georgiaaquarium.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Georgia Aquarium",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Georgia_Aquarium"
+        }
+      },
+      {
+        "id": "atlanta-centennial",
+        "name": "百年奥林匹克公园",
+        "nameEn": "Centennial Olympic Park",
+        "lat": 33.7603,
+        "lng": -84.3939,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "在市中心公园看奥运相关景观，适合水族馆前后放松；喷泉与活动场地是否开放以当天为准。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 85,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://discoveratlanta.com/things-to-do/main/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://discoveratlanta.com/things-to-do/main/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Centennial Olympic Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Centennial_Olympic_Park"
+        }
+      },
+      {
+        "id": "atlanta-coca-cola",
+        "name": "可口可乐世界",
+        "nameEn": "World of Coca-Cola",
+        "lat": 33.7629,
+        "lng": -84.3928,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "特色体验",
+        "description": "通过品牌历史与互动展览了解饮料文化，适合轻松的室内参观；票种和体验内容随日期核对。",
+        "features": [
+          "特色体验",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.worldofcoca-cola.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.worldofcoca-cola.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "World of Coca-Cola",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/World_of_Coca-Cola"
+        }
+      },
+      {
+        "id": "atlanta-civil-human-rights",
+        "name": "国家民权与人权中心",
+        "nameEn": "National Center for Civil and Human Rights",
+        "lat": 33.7645,
+        "lng": -84.3924,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "以民权与人权主题展陈理解城市，内容需要耐心阅读，可与附近公园安排为独立半天。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.civilandhumanrights.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.civilandhumanrights.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "National Center for Civil and Human Rights",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Center_for_Civil_and_Human_Rights"
+        }
+      },
+      {
+        "id": "atlanta-piedmont",
+        "name": "皮德蒙特公园",
+        "nameEn": "Piedmont Park",
+        "lat": 33.7851,
+        "lng": -84.3735,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "在草坪、湖畔和树荫步道放慢节奏，看Midtown天际线；野餐消费和特定活动另计。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 91,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://piedmontpark.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://piedmontpark.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Piedmont Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Piedmont_Park"
+        }
+      },
+      {
+        "id": "atlanta-botanical-garden",
+        "name": "亚特兰大植物园",
+        "nameEn": "Atlanta Botanical Garden",
+        "lat": 33.7905,
+        "lng": -84.3737,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "城市花园",
+        "description": "穿过树冠步道与主题花园，适合半天慢看植物；夜间灯展与常规门票可能分开。",
+        "features": [
+          "城市花园",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://atlantabg.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://atlantabg.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Atlanta Botanical Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Atlanta_Botanical_Garden"
+        }
+      },
+      {
+        "id": "atlanta-high-museum",
+        "name": "High艺术博物馆",
+        "nameEn": "High Museum of Art",
+        "lat": 33.7901,
+        "lng": -84.3855,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在白色建筑内看艺术与设计，按兴趣挑两三个展区，避免把Midtown全部场馆塞进一个下午。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://high.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://high.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "High Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/High_Museum_of_Art"
+        }
+      },
+      {
+        "id": "atlanta-ponce-market",
+        "name": "Ponce City Market吃逛",
+        "nameEn": "Ponce City Market",
+        "lat": 33.7726,
+        "lng": -84.3655,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "在旧建筑改造的市场里选一顿轻松午餐，再衔接BeltLine；屋顶游乐与观景独立收费。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://poncecitymarket.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://poncecitymarket.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Ponce City Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ponce_City_Market"
+        }
+      },
+      {
+        "id": "atlanta-krog-market",
+        "name": "Krog Street Market与Inman Park",
+        "nameEn": "Krog Street Market",
+        "lat": 33.757,
+        "lng": -84.363,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "把市场摊位、邻里街道和绿道入口串成一段吃逛，餐饮费用纳入当天餐费即可。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 83,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://discoveratlanta.com/?p=40670",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://discoveratlanta.com/?p=40670",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Krog Street Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Krog_Street_Market"
+        }
+      },
+      {
+        "id": "atlanta-little-five",
+        "name": "Little Five Points独立店",
+        "nameEn": "Little Five Points",
+        "lat": 33.766,
+        "lng": -84.349,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿Moreland与Euclid附近看唱片、古着和创意店面，是轻松了解另类文化的一段街区散步。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 76,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://discoveratlanta.com/things-to-do/main/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://discoveratlanta.com/things-to-do/main/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Little Five Points",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Little_Five_Points"
+        }
+      },
+      {
+        "id": "atlanta-oakland",
+        "name": "奥克兰墓园历史步行",
+        "nameEn": "Oakland Cemetery (Atlanta)",
+        "lat": 33.748,
+        "lng": -84.3717,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "历史步行",
+        "description": "在花园式历史墓园看石雕、树木与城市记忆，适合安静步行；讲解团另有安排，尊重悼念者。",
+        "features": [
+          "历史步行",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://oaklandcemetery.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://oaklandcemetery.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Oakland Cemetery (Atlanta)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Oakland_Cemetery_%28Atlanta%29"
+        }
+      },
+      {
+        "id": "atlanta-history-center",
+        "name": "亚特兰大历史中心",
+        "nameEn": "Atlanta History Center",
+        "lat": 33.8429,
+        "lng": -84.3858,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "用半天了解南方城市变迁与历史建筑，位于Buckhead，需独立预留往返交通。",
+        "features": [
+          "博物馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.atlantahistorycenter.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.atlantahistorycenter.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Atlanta History Center",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Atlanta_History_Center"
+        }
+      }
+    ]
+  },
+  {
+    "id": "charleston",
+    "name": "查尔斯顿",
+    "nameEn": "Charleston, South Carolina",
+    "article": "Charleston, South Carolina",
+    "isoRegion": "US-SC",
+    "lat": 32.7765,
+    "lng": -79.9311,
+    "iata": "CHS",
+    "tagline": "海风、历史街巷与Lowcountry餐桌，也需要认真读懂港口背后的历史。",
+    "tags": [
+      "海滨老城",
+      "Lowcountry料理",
+      "非裔文化"
+    ],
+    "daily": {
+      "lodging": [
+        125,
+        240,
+        500
+      ],
+      "food": [
+        38,
+        80,
+        165
+      ],
+      "transport": [
+        12,
+        35,
+        85
+      ],
+      "misc": [
+        12,
+        25,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        2400,
+        4000
+      ],
+      "utilities": [
+        150,
+        240,
+        370
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "海风、历史街巷与Lowcountry餐桌，也需要认真读懂港口背后的历史。",
+    "officialTourismUrl": "https://www.charlestoncvb.com/",
+    "planningProfile": "leisure",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina"
+    },
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "历史半岛可慢逛两天，再为博物馆或近郊海滩留一天；港口轮渡与远郊需提前安排。"
+    },
+    "transportNote": "历史半岛适合步行和市内公交；Mount Pleasant、Folly Beach与港口要塞是不同方向的半日行程，不要当作市中心相邻点。这里是南卡罗来纳州查尔斯顿。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "charleston",
+      "intro": "海风、历史街巷与Lowcountry餐桌，也需要认真读懂港口背后的历史。",
+      "foodHighlights": [
+        {
+          "name": "鲜虾玉米粥",
+          "description": "鲜虾配粗玉米粉煮成的软糯粥底，酱汁可偏奶油或带熏肉风味。"
+        },
+        {
+          "name": "查尔斯顿蟹肉浓汤",
+          "description": "以蟹肉和奶油为特色的浓汤，有些版本加入雪莉酒；点单时可询问酒与海鲜过敏原。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "French Quarter与海滨",
+          "description": "小巷、画廊和海滨公园适合慢走，不必逐栋打卡。"
+        },
+        {
+          "name": "Upper King",
+          "description": "餐馆与小店更多，适合晚餐前后体验当代城市生活。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "charleston-waterfront",
+        "name": "海滨公园与菠萝喷泉",
+        "nameEn": "Waterfront Park (Charleston)",
+        "lat": 32.7792,
+        "lng": -79.925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "海岸步行",
+        "description": "沿海滨看港口船只，在菠萝喷泉和长椅之间留一点休息时间，适合傍晚慢走。",
+        "features": [
+          "海岸步行",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 97,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Waterfront Park (Charleston)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Waterfront_Park_%28Charleston%29"
+        }
+      },
+      {
+        "id": "charleston-battery",
+        "name": "The Battery与White Point Garden",
+        "nameEn": "The Battery (Charleston)",
+        "lat": 32.7698,
+        "lng": -79.9313,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "从海堤看港湾，再进入古树环绕的花园，历史住宅只看公共路侧外观。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "The Battery (Charleston)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Battery_%28Charleston%29"
+        },
+        "photoFile": "East Battery Street Charleston Aug2010.jpg"
+      },
+      {
+        "id": "charleston-rainbow-row",
+        "name": "Rainbow Row彩色房屋外观",
+        "nameEn": "Rainbow Row",
+        "lat": 32.7751,
+        "lng": -79.927,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 30,
+          "recommended": 45,
+          "max": 60
+        },
+        "activityType": "culture",
+        "category": "城市打卡",
+        "description": "在East Bay Street看连续的彩色历史房屋，适合和海滨步道衔接；建筑多为私人空间。",
+        "features": [
+          "城市打卡",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Rainbow Row",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rainbow_Row"
+        }
+      },
+      {
+        "id": "charleston-city-market",
+        "name": "查尔斯顿城市市场",
+        "nameEn": "City Market (Charleston, South Carolina)",
+        "lat": 32.7815,
+        "lng": -79.9308,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "看当地手工艺与市场长廊，认识Gullah甜草篮等传统，购买与拍摄摊位前先礼貌询问。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 91,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "City Market (Charleston, South Carolina)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Market_%28Charleston%2C_South_Carolina%29"
+        }
+      },
+      {
+        "id": "charleston-iaam",
+        "name": "国际非裔美国人博物馆",
+        "nameEn": "International African American Museum",
+        "lat": 32.7904,
+        "lng": -79.925,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "在Gadsden’s Wharf理解跨大西洋奴隶贸易、非裔经验与文化延续，建议留足阅读与停顿时间。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://iaamuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://iaamuseum.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "International African American Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/International_African_American_Museum"
+        }
+      },
+      {
+        "id": "charleston-gibbes",
+        "name": "吉布斯艺术博物馆",
+        "nameEn": "Gibbes Museum of Art",
+        "lat": 32.7785,
+        "lng": -79.9316,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "通过与美国南方相关的艺术看城市的不同层面，可与French Quarter街区步行放在同一半天。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 85,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.gibbesmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 10,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.gibbesmuseum.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Gibbes Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gibbes_Museum_of_Art"
+        }
+      },
+      {
+        "id": "charleston-french-quarter",
+        "name": "French Quarter画廊与小巷",
+        "nameEn": "French Quarter (Charleston, South Carolina)",
+        "lat": 32.7785,
+        "lng": -79.9283,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在教堂外观、画廊和安静街巷间慢走，进入商业画廊时按开放时间和拍摄要求参观。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "French Quarter (Charleston, South Carolina)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/French_Quarter_%28Charleston%2C_South_Carolina%29"
+        }
+      },
+      {
+        "id": "charleston-king-street",
+        "name": "King Street餐馆与橱窗",
+        "nameEn": "King Street餐馆与橱窗",
+        "lat": 32.7874,
+        "lng": -79.938,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿King Street挑一段看商店和餐馆，午后可找咖啡馆休息；Upper King适合与晚餐安排衔接。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.charlestoncvb.com/plan-your-trip/tours-attractions~204/"
+        }
+      },
+      {
+        "id": "charleston-charleston-museum",
+        "name": "查尔斯顿博物馆",
+        "nameEn": "Charleston Museum",
+        "lat": 32.789,
+        "lng": -79.935,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "博物馆",
+        "description": "从地方历史与物件了解港口城市变化，适合炎热或下雨的半天，与周边历史建筑参观分别安排。",
+        "features": [
+          "博物馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 83,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.charlestonmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 12,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestonmuseum.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Charleston Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Charleston_Museum"
+        }
+      },
+      {
+        "id": "charleston-old-slave-mart",
+        "name": "旧奴隶市场博物馆",
+        "nameEn": "Old Slave Mart",
+        "lat": 32.7765,
+        "lng": -79.928,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "历史场馆",
+        "description": "通过历史展陈认识奴隶贸易与个人遭遇，内容严肃，适合在老城步行中留一段专注时间。",
+        "features": [
+          "历史场馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.oldslavemartmuseum.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 8,
+          "high": 18,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.oldslavemartmuseum.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Old Slave Mart",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Old_Slave_Mart"
+        }
+      },
+      {
+        "id": "charleston-fort-sumter",
+        "name": "萨姆特堡轮渡与历史参观",
+        "nameEn": "Fort Sumter",
+        "lat": 32.7523,
+        "lng": -79.8747,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "历史体验",
+        "description": "乘指定轮渡到港口要塞理解内战历史，必须按出发码头和返程班次安排，不能自行当作随到随进景点。",
+        "features": [
+          "历史体验",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.nps.gov/fosu/planyourvisit/index.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 35,
+          "high": 60,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/fosu/planyourvisit/index.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Fort Sumter",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fort_Sumter"
+        },
+        "accessNote": "估算预留轮渡与参观，不是国家公园按人入场票；往返码头接驳另计。"
+      },
+      {
+        "id": "charleston-patriots-point",
+        "name": "Patriots Point约克城号航母",
+        "nameEn": "USS Yorktown (CV-10)",
+        "lat": 32.7919,
+        "lng": -79.9088,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "历史场馆",
+        "description": "在Mount Pleasant参观航母甲板与舰上展陈，狭窄梯道较多，需按体力选择路线。",
+        "features": [
+          "历史场馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 77,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.patriotspoint.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.patriotspoint.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "USS Yorktown (CV-10)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/USS_Yorktown_%28CV-10%29"
+        },
+        "photoFile": "USS Yorktown (CVS-10) panorama 2012.jpg"
+      },
+      {
+        "id": "charleston-folly-beach",
+        "name": "Folly Beach海边半日",
+        "nameEn": "Folly Beach, South Carolina",
+        "lat": 32.6552,
+        "lng": -79.9408,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "leisure",
+        "category": "海滩休闲",
+        "description": "给海风、沙滩和小镇留完整半天，公共沙滩停留不要求租设备；停车、码头项目与海况另核。",
+        "features": [
+          "海滩休闲",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.charlestoncvb.com/beaches/folly-beach/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.charlestoncvb.com/beaches/folly-beach/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Folly Beach, South Carolina",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Folly_Beach%2C_South_Carolina"
+        },
+        "accessNote": "距历史半岛较远，周末道路和停车可能拥堵；需单独预留往返。"
+      }
+    ]
+  },
+  {
+    "id": "savannah",
+    "name": "萨凡纳",
+    "nameEn": "Savannah, Georgia",
+    "article": "Savannah, Georgia",
+    "isoRegion": "US-GA",
+    "lat": 32.0809,
+    "lng": -81.0912,
+    "iata": "SAV",
+    "tagline": "树荫广场把日子分成小段，河街、艺术与南方餐桌适合慢慢体会。",
+    "tags": [
+      "树荫广场",
+      "历史街巷",
+      "南方慢生活"
+    ],
+    "daily": {
+      "lodging": [
+        105,
+        205,
+        420
+      ],
+      "food": [
+        32,
+        68,
+        145
+      ],
+      "transport": [
+        10,
+        30,
+        75
+      ],
+      "misc": [
+        10,
+        22,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        1900,
+        3200
+      ],
+      "utilities": [
+        140,
+        230,
+        350
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "树荫广场把日子分成小段，河街、艺术与南方餐桌适合慢慢体会。",
+    "officialTourismUrl": "https://visitsavannah.com/",
+    "planningProfile": "leisure",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Savannah%2C_Georgia"
+    },
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 4,
+      "reason": "旧城适合用两天慢走，再给艺术馆或Tybee海滩留半天至一天；不必一天打完所有广场。"
+    },
+    "transportNote": "历史区的网格街道适合步行，但河街台阶与石路对行李不友好。Bonaventure、Wormsloe和Tybee Island需另计交通，不能按旧城街角距离串联。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "savannah",
+      "intro": "树荫广场把日子分成小段，河街、艺术与南方餐桌适合慢慢体会。",
+      "foodHighlights": [
+        {
+          "name": "萨凡纳鲜虾玉米粥",
+          "description": "海鲜与玉米粥结合的Lowcountry餐点，酱汁与配菜体现各店自己的做法。"
+        },
+        {
+          "name": "山核桃糖",
+          "description": "奶香糖浆包裹山核桃，口感甜而浓郁，适合小份分享或带走。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "历史区广场",
+          "description": "挑几座树荫广场慢走即可，Chippewa广场的电影长椅不在原地。"
+        },
+        {
+          "name": "Starland",
+          "description": "咖啡、工作室和餐馆适合看城市当代创意生活。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "savannah-forsyth",
+        "name": "Forsyth Park树荫与喷泉",
+        "nameEn": "Forsyth Park",
+        "lat": 32.0668,
+        "lng": -81.093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "公园散步",
+        "description": "沿古树树荫看喷泉和草坪，挑一个长椅停留，是认识萨凡纳慢节奏的起点。",
+        "features": [
+          "公园散步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Forsyth Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Forsyth_Park"
+        }
+      },
+      {
+        "id": "savannah-squares",
+        "name": "Chippewa与历史区广场漫步",
+        "nameEn": "Chippewa Square",
+        "lat": 32.0762,
+        "lng": -81.0934,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在相邻的几座广场间慢走，欣赏树荫与历史建筑；《阿甘正传》的长椅已不在广场，勿按原物打卡期待。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 97,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Chippewa Square",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chippewa_Square"
+        }
+      },
+      {
+        "id": "savannah-river-street",
+        "name": "River Street河边与旧仓库",
+        "nameEn": "River Street (Savannah, Georgia)",
+        "lat": 32.0818,
+        "lng": -81.0888,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "江岸慢游",
+        "description": "沿河看货船与仓库立面，石路和台阶适合慢慢走，糖果店与餐馆按需自选。",
+        "features": [
+          "江岸慢游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 95,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/list/10-savannah-must-dos-for-first-time-visitors",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/10-savannah-must-dos-for-first-time-visitors",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "River Street (Savannah, Georgia)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/River_Street_%28Savannah%2C_Georgia%29"
+        }
+      },
+      {
+        "id": "savannah-city-market",
+        "name": "萨凡纳City Market",
+        "nameEn": "City Market (Savannah, Georgia)",
+        "lat": 32.0802,
+        "lng": -81.0953,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "市集小逛",
+        "description": "在步行街区看画廊、小店与露天座位，可衔接一顿简餐；演出与商业体验另计。",
+        "features": [
+          "市集小逛",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 87,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "City Market (Savannah, Georgia)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Market_%28Savannah%2C_Georgia%29"
+        }
+      },
+      {
+        "id": "savannah-cathedral",
+        "name": "圣若翰洗者主教座堂",
+        "nameEn": "Cathedral Basilica of St. John the Baptist (Savannah, Georgia)",
+        "lat": 32.0734,
+        "lng": -81.0905,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "在允许参观的时段看教堂建筑与彩色玻璃，礼拜优先，保持安静并依现场规定拍照。",
+        "features": [
+          "历史建筑",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/your-savannah-bucket-list",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Cathedral Basilica of St. John the Baptist (Savannah, Georgia)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cathedral_Basilica_of_St._John_the_Baptist_%28Savannah%2C_Georgia%29"
+        },
+        "accessNote": "礼拜与私人活动时参观受限，建议捐献不视为固定门票。"
+      },
+      {
+        "id": "savannah-telfair",
+        "name": "Telfair Academy艺术馆",
+        "nameEn": "Telfair Academy",
+        "lat": 32.0784,
+        "lng": -81.0973,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在历史建筑中看艺术收藏，可按兴趣选择馆藏，票务是否覆盖其他Telfair场馆须另核。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.telfair.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.telfair.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Telfair Academy",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Telfair_Academy"
+        }
+      },
+      {
+        "id": "savannah-jepson",
+        "name": "Jepson Center现代艺术",
+        "nameEn": "Jepson Center现代艺术",
+        "lat": 32.078,
+        "lng": -81.098,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "明亮空间中的现代艺术和互动内容适合雨天或亲子参观；与Telfair Academy的联票不能重复计费。",
+        "features": [
+          "艺术展馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.telfair.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.telfair.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.telfair.org/visit/"
+        },
+        "accessNote": "如已购买覆盖本馆的Telfair联票，手动将重复门票改为0；未自动叠加联票优惠。",
+        "photoFile": "Jepson Center for the Arts lobby, Savannah, GA US.jpg"
+      },
+      {
+        "id": "savannah-owens-thomas",
+        "name": "Owens–Thomas House与被奴役者居所",
+        "nameEn": "Owens–Thomas House",
+        "lat": 32.0783,
+        "lng": -81.0887,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "历史场馆",
+        "description": "通过主屋与被奴役者居所理解城市财富背后的劳动和社会关系，导览时段需提前确认。",
+        "features": [
+          "历史场馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 88,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.telfair.org/visit/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.telfair.org/visit/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Owens–Thomas House",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Owens%E2%80%93Thomas_House"
+        },
+        "accessNote": "先核对Telfair联票覆盖范围，已有联票不应重复买票。"
+      },
+      {
+        "id": "savannah-scad",
+        "name": "SCAD艺术博物馆",
+        "nameEn": "SCAD Museum of Art",
+        "lat": 32.0771,
+        "lng": -81.1013,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在艺术大学的展览空间看当代创作，适合与附近咖啡馆组合成轻松半天。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 84,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.scadmoa.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 8,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.scadmoa.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "SCAD Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/SCAD_Museum_of_Art"
+        }
+      },
+      {
+        "id": "savannah-broughton",
+        "name": "Broughton Street店铺与甜点",
+        "nameEn": "Broughton Street",
+        "lat": 32.0791,
+        "lng": -81.093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "逛街角小店与甜品铺，留一点自由选择的时间，购物与甜点都不设强制消费。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 80,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/things-to-do",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/things-to-do",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Broughton Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Broughton_Street"
+        },
+        "photoFile": "108 West Broughton Street.jpg"
+      },
+      {
+        "id": "savannah-starland",
+        "name": "Starland创意街区",
+        "nameEn": "Starland创意街区",
+        "lat": 32.0538,
+        "lng": -81.1003,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "离开游客密集的河街，在咖啡馆、工作室和餐馆间看萨凡纳的新日常，具体店铺开放按当天核对。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://visitsavannah.com/things-to-do",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/things-to-do",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://visitsavannah.com/things-to-do"
+        }
+      },
+      {
+        "id": "savannah-bonaventure",
+        "name": "Bonaventure墓园安静步行",
+        "nameEn": "Bonaventure Cemetery",
+        "lat": 32.0455,
+        "lng": -81.0464,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "历史步行",
+        "description": "在古树与纪念雕塑之间认识地方历史，尊重墓园礼仪和悼念者，讲解团与市区接送另计。",
+        "features": [
+          "历史步行",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 76,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://visitsavannah.com/list/15-cant-miss-things-do-savannah",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/list/15-cant-miss-things-do-savannah",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Bonaventure Cemetery",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bonaventure_Cemetery"
+        },
+        "photoFile": "Savannah - Bonaventure Cemetery - Overview.jpg"
+      },
+      {
+        "id": "savannah-tybee",
+        "name": "Tybee Island海滩半日",
+        "nameEn": "Tybee Island, Georgia",
+        "lat": 31.9923,
+        "lng": -80.8486,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "activityType": "leisure",
+        "category": "海滩休闲",
+        "description": "把沙滩与海风安排成完整半天，公共海滩停留按零门票规划；停车、租伞、灯塔参观与水上项目另付。",
+        "features": [
+          "海滩休闲",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 79,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://visitsavannah.com/tybee-island",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://visitsavannah.com/tybee-island",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Tybee Island, Georgia",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tybee_Island%2C_Georgia"
+        },
+        "accessNote": "需另留从萨凡纳往返Tybee Island的道路交通时间，高峰拥堵和停车可能明显延长行程。"
+      }
+    ]
+  },
+  {
+    "id": "miami",
+    "name": "迈阿密",
+    "nameEn": "Miami",
+    "article": "Miami",
+    "isoRegion": "US-FL",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "iata": "MIA",
+    "tagline": "海滩午后、古巴咖啡与街头艺术，把都市和度假的节奏调到一起。",
+    "tags": [
+      "海滩度假",
+      "古巴饮食",
+      "艺术街区"
+    ],
+    "daily": {
+      "lodging": [
+        120,
+        250,
+        550
+      ],
+      "food": [
+        38,
+        85,
+        175
+      ],
+      "transport": [
+        15,
+        45,
+        105
+      ],
+      "misc": [
+        12,
+        30,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1700,
+        2900,
+        4800
+      ],
+      "utilities": [
+        150,
+        250,
+        390
+      ]
+    },
+    "country": "美国",
+    "countryCode": "US",
+    "currency": "USD",
+    "region": "北美洲",
+    "description": "海滩午后、古巴咖啡与街头艺术，把都市和度假的节奏调到一起。",
+    "officialTourismUrl": "https://www.miamiandbeaches.com/",
+    "planningProfile": "leisure",
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Miami"
+    },
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 7,
+      "reason": "海滩、小哈瓦那、艺术街区与滨水博物馆各留半天；大沼泽地需另留完整出城日。"
+    },
+    "transportNote": "Miami Beach与迈阿密本土隔着海湾，过桥与高峰车流需要时间。Metromover适合Downtown部分区域，跨海滩、小哈瓦那、Wynwood通常要结合巴士或出租车；度假村费与停车须单独看报价。",
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档金额为编辑规划预算，不是实时价格或酒店报价。住宿按每间每晚，餐饮/市内交通/杂项按每成人每天；长租与水电按每间每月。预订时核对住宿税、度假村费、停车、餐饮税和小费，远郊租车及跨城交通另算。"
+    },
+    "guide": {
+      "cityId": "miami",
+      "intro": "海滩午后、古巴咖啡与街头艺术，把都市和度假的节奏调到一起。",
+      "foodHighlights": [
+        {
+          "name": "古巴三明治",
+          "description": "烤猪肉、火腿、芝士与酸黄瓜夹入古巴面包压烤，适合当作小哈瓦那的一顿简餐。"
+        },
+        {
+          "name": "古巴炸丸子",
+          "description": "细腻内馅裹上薄脆外层，火腿馅很常见，可配咖啡作为小食，不必点成一大餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "South Beach",
+          "description": "海滩和Art Deco街景适合放慢，不需要每小时都安排活动。"
+        },
+        {
+          "name": "Little Havana与Wynwood",
+          "description": "古巴餐饮、街头壁画和当代艺术是两种不同的城市表情。"
+        }
+      ],
+      "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+    },
+    "attractions": [
+      {
+        "id": "miami-south-beach",
+        "name": "南海滩度过一个午后",
+        "nameEn": "South Beach",
+        "lat": 25.7823,
+        "lng": -80.13,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "leisure",
+        "category": "海滩休闲",
+        "description": "把海风、沙滩和休息留成一整段时间，公共沙滩本身不要求租躺椅；游泳按海况与救生员提示。",
+        "features": [
+          "海滩休闲",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 98,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "South Beach",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/South_Beach"
+        }
+      },
+      {
+        "id": "miami-ocean-drive",
+        "name": "Ocean Drive装饰艺术街景",
+        "nameEn": "Ocean Drive (South Beach)",
+        "lat": 25.7806,
+        "lng": -80.1301,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿海滨街道看Art Deco建筑立面和霓虹细节，咖啡与餐馆由你选择；室内导览需另行预约。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 96,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Ocean Drive (South Beach)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ocean_Drive_%28South_Beach%29"
+        }
+      },
+      {
+        "id": "miami-little-havana",
+        "name": "小哈瓦那Calle Ocho",
+        "nameEn": "Little Havana",
+        "lat": 25.7658,
+        "lng": -80.2198,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在Calle Ocho看壁画、咖啡窗口与社区生活，把古巴小吃融入午餐；拍摄居民与多米诺玩家先询问。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 97,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/little-havana",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/little-havana",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Little Havana",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Little_Havana"
+        }
+      },
+      {
+        "id": "miami-wynwood-walls",
+        "name": "Wynwood Walls壁画艺术园",
+        "nameEn": "Wynwood Walls壁画艺术园",
+        "lat": 25.801,
+        "lng": -80.1994,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术体验",
+        "description": "在专门的户外艺术园看大型壁画，园内需购票；周边公共街道壁画是不同的免费漫步项目。",
+        "features": [
+          "艺术体验",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 92,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://thewynwoodwalls.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 12,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://thewynwoodwalls.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://thewynwoodwalls.com/"
+        },
+        "photoFile": "Wynwood Walls Miami Florida October 2013.jpg"
+      },
+      {
+        "id": "miami-wynwood-streets",
+        "name": "Wynwood街头壁画与小店",
+        "nameEn": "Wynwood",
+        "lat": 25.802,
+        "lng": -80.199,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在公共街道看壁画与设计店面，可按兴趣走走停停；不包含Wynwood Walls收费园区。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 86,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/wynwood",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/wynwood",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Wynwood",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wynwood"
+        },
+        "photoFile": "Wynwood street art.jpg"
+      },
+      {
+        "id": "miami-vizcaya",
+        "name": "Vizcaya博物馆与花园",
+        "nameEn": "Vizcaya Museum and Gardens",
+        "lat": 25.7445,
+        "lng": -80.2106,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "历史花园",
+        "description": "看海湾边的历史住宅、庭院与花园设计，适合留出一整段慢看建筑和绿地。",
+        "features": [
+          "历史花园",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 94,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://vizcaya.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://vizcaya.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Vizcaya Museum and Gardens",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens"
+        }
+      },
+      {
+        "id": "miami-perez",
+        "name": "佩雷斯艺术博物馆",
+        "nameEn": "Pérez Art Museum Miami",
+        "lat": 25.7858,
+        "lng": -80.1863,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "activityType": "culture",
+        "category": "艺术展馆",
+        "description": "在滨水建筑中看现代与当代艺术，室外露台与海湾视野也值得停留；按当日展览选择重点。",
+        "features": [
+          "艺术展馆",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 89,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.pamm.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.pamm.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Pérez Art Museum Miami",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/P%C3%A9rez_Art_Museum_Miami"
+        }
+      },
+      {
+        "id": "miami-frost",
+        "name": "Frost科学博物馆",
+        "nameEn": "Phillip and Patricia Frost Museum of Science",
+        "lat": 25.7852,
+        "lng": -80.1886,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "自然场馆",
+        "description": "水族与科学内容适合亲子半天，天文馆和特别项目按票种确认，避免与旁边艺术馆一起赶场。",
+        "features": [
+          "自然场馆",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.frostscience.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 25,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.frostscience.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Phillip and Patricia Frost Museum of Science",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Phillip_and_Patricia_Frost_Museum_of_Science"
+        },
+        "photoFile": "Frost Science museum viewed from the MacArthur Causeway.jpg"
+      },
+      {
+        "id": "miami-bayfront",
+        "name": "Bayfront Park海湾散步",
+        "nameEn": "Bayfront Park",
+        "lat": 25.7753,
+        "lng": -80.1862,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "activityType": "culture",
+        "category": "海湾漫步",
+        "description": "在Downtown的海湾绿地走走坐坐，看船只与城市高楼，活动场地可能临时限制通行。",
+        "features": [
+          "海湾漫步",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 80,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Bayfront Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bayfront_Park"
+        }
+      },
+      {
+        "id": "miami-coconut-grove",
+        "name": "Coconut Grove树荫与咖啡",
+        "nameEn": "Coconut Grove",
+        "lat": 25.727,
+        "lng": -80.2418,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在绿树覆盖的街道与小店间慢逛，再按兴趣走到滨水公园，适合放松的半天。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 84,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/coconut-grove",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/coconut-grove",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Coconut Grove",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Coconut_Grove"
+        }
+      },
+      {
+        "id": "miami-lincoln-road",
+        "name": "Lincoln Road步行街",
+        "nameEn": "Lincoln Road",
+        "lat": 25.7906,
+        "lng": -80.1356,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "从海滩转到露天咖啡、商店和行人街景，适合晚餐前的一段轻松散步，购物自行预算。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 80,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Lincoln Road",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Road"
+        }
+      },
+      {
+        "id": "miami-south-pointe",
+        "name": "South Pointe Park看海与船",
+        "nameEn": "South Pointe Park",
+        "lat": 25.7651,
+        "lng": -80.1341,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "海岸步行",
+        "description": "沿南端公园看大船出港与海浪，把长椅休息留进计划，码头通行和海况依当日提示。",
+        "features": [
+          "海岸步行",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 90,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/south-beach",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "South Pointe Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/South_Pointe_Park"
+        }
+      },
+      {
+        "id": "miami-fairchild",
+        "name": "Fairchild热带植物园",
+        "nameEn": "Fairchild Tropical Botanic Garden",
+        "lat": 25.6774,
+        "lng": -80.2755,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "城市花园",
+        "description": "在Coral Gables南侧看热带植物、棕榈与园林，园区与市中心有距离，需单独预留接驳。",
+        "features": [
+          "城市花园",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://fairchildgarden.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://fairchildgarden.org/",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "每成人预算预留，非已核验售票价格或市场最低最高价；日期、身份、税费、附加体验与预约条件以官方确认为准。"
+        },
+        "article": "Fairchild Tropical Botanic Garden",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fairchild_Tropical_Botanic_Garden"
+        }
+      },
+      {
+        "id": "miami-coral-gables",
+        "name": "Coral Gables与Miracle Mile",
+        "nameEn": "Coral Gables, Florida",
+        "lat": 25.749,
+        "lng": -80.2591,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "在地中海复兴风格建筑与林荫街道间看橱窗、喝咖啡，泳池与酒店设施不含在公共街区漫步中。",
+        "features": [
+          "街区漫游",
+          "按兴趣慢游"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 76,
+        "visitRole": "neighborhood",
+        "automaticPlanning": true,
+        "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/coral-gables",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.miamiandbeaches.com/neighborhoods/coral-gables",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "仅公共步行区或基本免费开放部分按零门票规划；付费消费、特展、预约服务、停车与接驳另核。"
+        },
+        "article": "Coral Gables, Florida",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Coral_Gables%2C_Florida"
+        }
+      },
+      {
+        "id": "miami-everglades-shark-valley",
+        "name": "大沼泽地Shark Valley湿地日游",
+        "nameEn": "Shark Valley",
+        "lat": 25.7616,
+        "lng": -80.7651,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "所述场馆或游览区域的近似中心；门口、码头与集合点以预约信息和现场导航为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 300,
+          "max": 450
+        },
+        "activityType": "culture",
+        "category": "自然体验",
+        "description": "从Shark Valley认识锯齿草湿地与野生动物，步行、骑行或观光车按体力选择；不要把公园外商业风扇船等同于园内线路。",
+        "features": [
+          "自然体验",
+          "预约另核"
+        ],
+        "bestTime": "按场馆开放与天气选择；户外步行避开高温和恶劣天气",
+        "priority": 79,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "sourceUrl": "https://www.nps.gov/ever/planyourvisit/svdirections.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": null,
+          "high": null,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "budgetUpdatedAt": "2026-09-23",
+          "sourceUrl": "https://www.nps.gov/ever/planyourvisit/fees.htm",
+          "sourceName": "编辑规划估算；官方链接用于核对项目与票务",
+          "note": "需按人数、身份和通行证单独核算：2026年标准私家车入场费35美元/车，另对16岁及以上非美国居民加收100美元/人；合资格通行证可改变收费。按车与按人项目不能简单相加成固定成人票。未计入的门票、往返交通、观光车和租车请在官网确认后补入预算。"
+        },
+        "article": "Shark Valley",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shark_Valley"
+        },
+        "accessNote": "需整天单独安排，并另预留迈阿密往返交通。夏季高温、雷雨与蚊虫会影响路线，观光车/租车另付。",
+        "travelGroup": "everglades-shark-valley",
+        "routeMode": "car",
+        "travelNote": "须整天单独安排，入园停留时间不包含从迈阿密往返道路交通。"
+      }
+    ]
+  }
+]

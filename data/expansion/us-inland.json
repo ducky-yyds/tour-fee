@@ -1,0 +1,5305 @@
+[
+  {
+    "id": "orlando",
+    "name": "奥兰多",
+    "nameEn": "Orlando, Florida",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-FL",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 28.5383,
+    "lng": -81.3792,
+    "iata": "MCO",
+    "tagline": "给主题乐园完整的一天，也给湖边和冬季公园留一点慢生活。",
+    "description": "给主题乐园完整的一天，也给湖边和冬季公园留一点慢生活。",
+    "tags": [
+      "主题乐园",
+      "亲子度假",
+      "湖畔慢游"
+    ],
+    "article": "Orlando, Florida",
+    "officialTourismUrl": "https://www.visitorlando.com/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 5,
+      "min": 4,
+      "max": 7,
+      "reason": "建议选 2–3 座主题乐园，每座各留一整天，再安排湖畔市中心与 Winter Park；乐园之间接驳耗时，不宜半天连刷多园。"
+    },
+    "daily": {
+      "lodging": [
+        95,
+        185,
+        400
+      ],
+      "food": [
+        40,
+        75,
+        150
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        2250,
+        3600
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "乐园、国际大道、市中心与 Winter Park 分散在不同片区，主要靠酒店接驳、公交或出租车。不能把不同乐园当作步行相邻；每个乐园单独留整天，并核对停车、接驳时间和票种。",
+    "attractions": [
+      {
+        "id": "orlando-magic-kingdom",
+        "name": "迪士尼神奇王国 · 一整天",
+        "nameEn": "Magic Kingdom",
+        "lat": 28.4177,
+        "lng": -81.5812,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "城堡、经典乘骑和巡游需要完整乐园日；单选一个园区并另留进出园交通。夜间特别活动不一定包含在日票内。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://disneyworld.disney.go.com/destinations/magic-kingdom/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 130,
+          "high": 220,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://disneyworld.disney.go.com/destinations/magic-kingdom/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Magic Kingdom",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magic_Kingdom"
+        }
+      },
+      {
+        "id": "orlando-epcot",
+        "name": "EPCOT 世界文化与未来体验 · 一整天",
+        "nameEn": "Epcot",
+        "lat": 28.3747,
+        "lng": -81.5494,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "以世界各地展区、未来科技和环湖散步为主，园区尺度大；不与神奇王国拼成半日。餐饮节购买单品另付。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://disneyworld.disney.go.com/destinations/epcot/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 130,
+          "high": 220,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://disneyworld.disney.go.com/destinations/epcot/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Epcot",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Epcot"
+        }
+      },
+      {
+        "id": "orlando-hollywood-studios",
+        "name": "迪士尼好莱坞影城 · 一整天",
+        "nameEn": "Disney's Hollywood Studios",
+        "lat": 28.3575,
+        "lng": -81.5583,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "电影场景、星战区域和舞台表演构成整日体验，提前研究预约、排队和身高限制。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://disneyworld.disney.go.com/destinations/hollywood-studios/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 130,
+          "high": 220,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://disneyworld.disney.go.com/destinations/hollywood-studios/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Disney's Hollywood Studios",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Disney%27s_Hollywood_Studios"
+        }
+      },
+      {
+        "id": "orlando-universal-studios",
+        "name": "环球影城佛罗里达 · 一整天",
+        "nameEn": "Universal Studios Florida",
+        "lat": 28.4752,
+        "lng": -81.467,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "电影主题街景与乘骑单独安排一天；跨园火车及其他园区需要对应票种，快速通道另核。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 96,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 130,
+          "high": 230,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/universal-studios-florida",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Universal Studios Florida",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Universal_Studios_Florida"
+        }
+      },
+      {
+        "id": "orlando-islands-adventure",
+        "name": "冒险岛 · 一整天",
+        "nameEn": "Universal Islands of Adventure",
+        "lat": 28.4714,
+        "lng": -81.4719,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "魔法世界、侏罗纪主题和过山车适合专门安排整日，避免与市中心活动混排。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 130,
+          "high": 230,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Universal Islands of Adventure",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Universal_Islands_of_Adventure"
+        }
+      },
+      {
+        "id": "orlando-epic-universe",
+        "name": "环球史诗宇宙 · 一整天",
+        "nameEn": "Universal Epic Universe",
+        "lat": 28.4386,
+        "lng": -81.4477,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 9.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 540,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "主题乐园",
+        "description": "在独立园区探索任天堂、魔法世界等主题区域；与原环球园区距离较远，交通、单园票和预约规则需独立核对。",
+        "features": [
+          "主题乐园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 95,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/epic-universe",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 140,
+          "high": 240,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.universalorlando.com/web/en/us/theme-parks/epic-universe",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Universal Epic Universe",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Universal_Epic_Universe"
+        }
+      },
+      {
+        "id": "orlando-lake-eola",
+        "name": "伊奥拉湖环湖散步",
+        "nameEn": "Lake Eola Park",
+        "lat": 28.5435,
+        "lng": -81.3732,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "湖畔公园",
+        "description": "绕湖看喷泉、天鹅与城市天际线，找树荫休息；天鹅船另付，周末活动会改变人流。",
+        "features": [
+          "湖畔公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitorlando.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitorlando.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Lake Eola Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lake_Eola_Park"
+        }
+      },
+      {
+        "id": "orlando-winter-park",
+        "name": "Winter Park 林荫街与湖畔",
+        "nameEn": "Winter Park",
+        "lat": 28.5973,
+        "lng": -81.3512,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "沿 Park Avenue 逛小店、在中央公园停留，再挑一家咖啡馆坐下；游船与博物馆可以另外选择。",
+        "features": [
+          "街区漫游",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.visitorlando.com/things-to-do/beyond-theme-parks/neighborhoods/winter-park/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitorlando.com/things-to-do/beyond-theme-parks/neighborhoods/winter-park/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Winter Park, Florida",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Winter_Park%2C_Florida"
+        }
+      },
+      {
+        "id": "orlando-morse-museum",
+        "name": "莫尔斯美国艺术博物馆",
+        "nameEn": "Charles Hosmer Morse Museum of American Art",
+        "lat": 28.6015,
+        "lng": -81.3515,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "把时间留给蒂芙尼玻璃、灯具与室内艺术，和 Park Avenue 漫步组合适合安静的半天。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://morsemuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 6,
+          "high": 15,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://morsemuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Charles Hosmer Morse Museum of American Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Charles_Hosmer_Morse_Museum_of_American_Art"
+        }
+      },
+      {
+        "id": "orlando-leu-gardens",
+        "name": "哈里·P·刘植物园",
+        "nameEn": "Harry P. Leu Gardens",
+        "lat": 28.5685,
+        "lng": -81.3588,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "植物园",
+        "description": "在亚热带树荫和花园路径间慢走，适合从主题乐园抽出一天换个节奏；季节展览另核票。",
+        "features": [
+          "植物园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.leugardens.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.leugardens.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Harry P. Leu Gardens",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Harry_P._Leu_Gardens"
+        }
+      },
+      {
+        "id": "orlando-mills-50",
+        "name": "Mills 50 壁画与亚洲餐馆",
+        "nameEn": "Mills 50",
+        "lat": 28.5548,
+        "lng": -81.3646,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "看墙面艺术、找越南粉与独立咖啡店，把这一站当作街区生活体验；只走公共街道，消费随意。",
+        "features": [
+          "街区漫游",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 82,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitorlando.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitorlando.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.visitorlando.com/"
+        }
+      },
+      {
+        "id": "orlando-disney-springs",
+        "name": "迪士尼之泉湖滨商业区",
+        "nameEn": "Disney Springs",
+        "lat": 28.3702,
+        "lng": -81.5196,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "湖滨步道、主题商店与餐厅适合晚间随逛，进入商业区不等于持有乐园门票；演出和购物分别计费。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 84,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.disneysprings.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.disneysprings.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Disney Springs",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Disney_Springs"
+        }
+      },
+      {
+        "id": "orlando-kennedy-space",
+        "name": "肯尼迪航天中心 · 远郊整日",
+        "nameEn": "Kennedy Space Center Visitor Complex",
+        "lat": 28.5234,
+        "lng": -80.6813,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 8.0,
+        "durationRange": {
+          "min": 360,
+          "recommended": 480,
+          "max": 600
+        },
+        "activityType": "culture",
+        "category": "航天体验",
+        "description": "从奥兰多驱车通常需要约一小时以上单程，航天器展区与园区巴士值得整天。独立预留往返、餐饮和预约；不保证看到发射。",
+        "features": [
+          "航天体验",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.kennedyspacecenter.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 75,
+          "high": 110,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.kennedyspacecenter.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Kennedy Space Center Visitor Complex",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Visitor_Complex"
+        },
+        "photoFile": "Kennedy Space Center Visitor Complex, Merritt Island.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Kennedy_Space_Center_Visitor_Complex%2C_Merritt_Island.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "orlando-thornton-park",
+        "name": "Thornton Park 街角咖啡与老屋",
+        "nameEn": "Thornton Park",
+        "lat": 28.541,
+        "lng": -81.368,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "从湖东侧走进低层住宅与街角餐馆，留一段轻松咖啡时间；欣赏建筑外观，不进入私人庭院。",
+        "features": [
+          "街区漫游",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 73,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitorlando.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitorlando.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://www.visitorlando.com/"
+        },
+        "noArticle": true
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Orlando%2C_Florida"
+    },
+    "guide": {
+      "cityId": "orlando",
+      "intro": "给主题乐园完整的一天，也给湖边和冬季公园留一点慢生活。",
+      "foodHighlights": [
+        {
+          "name": "古巴三明治",
+          "description": "烤猪肉、火腿、奶酪和酸黄瓜压烤成热三明治，是佛罗里达常见的午餐选择。"
+        },
+        {
+          "name": "越南河粉",
+          "description": "Mills 50 的越南餐饮是城市饮食的一部分，一碗清汤河粉适合乐园之外的轻松正餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Lake Eola 与 Thornton Park",
+          "description": "环湖、公园和住宅街适合散步，和乐园区分开安排。"
+        },
+        {
+          "name": "Winter Park",
+          "description": "Park Avenue 店铺、湖链与博物馆组成另一种奥兰多日常。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "new-orleans",
+    "name": "新奥尔良",
+    "nameEn": "New Orleans",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-LA",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "iata": "MSY",
+    "tagline": "爵士乐、铁艺阳台与克里奥尔味道，把一天慢慢延长。",
+    "description": "爵士乐、铁艺阳台与克里奥尔味道，把一天慢慢延长。",
+    "tags": [
+      "爵士现场",
+      "克里奥尔美食",
+      "历史街区"
+    ],
+    "article": "New Orleans",
+    "officialTourismUrl": "https://www.neworleans.com/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 4,
+      "min": 3,
+      "max": 6,
+      "reason": "用一天慢逛法国区与密西西比河畔，另留花园区、城市公园及博物馆；至少留一个晚上听爵士乐，夜场后次日适当晚出发。"
+    },
+    "daily": {
+      "lodging": [
+        95,
+        200,
+        420
+      ],
+      "food": [
+        40,
+        80,
+        170
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1250,
+        2100,
+        3500
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "法国区宜步行，Garden District 与 City Park 可结合有轨电车和出租车。夜间演出核对散场接驳；沼泽等远郊需独立半日或整日交通。",
+    "attractions": [
+      {
+        "id": "new-orleans-jackson-square",
+        "name": "杰克逊广场与圣路易斯主教座堂外观",
+        "nameEn": "Jackson Square",
+        "lat": 29.9574,
+        "lng": -90.0629,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "历史广场",
+        "description": "从广场看教堂轮廓、街头绘画与铁艺阳台，接着走向密西西比河边；宗教活动时尊重礼拜空间。",
+        "features": [
+          "历史广场",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 96,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.neworleans.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Jackson Square (New Orleans)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jackson_Square_%28New_Orleans%29"
+        }
+      },
+      {
+        "id": "new-orleans-french-quarter",
+        "name": "法国区 Royal Street 慢游",
+        "nameEn": "French Quarter",
+        "lat": 29.9584,
+        "lng": -90.0651,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "沿 Royal Street 看古董店、庭院入口和铁艺阳台，走小街比只停在酒吧街更能认识老城。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.neworleans.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "French Quarter",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/French_Quarter"
+        }
+      },
+      {
+        "id": "new-orleans-wwii",
+        "name": "国家二战博物馆",
+        "nameEn": "The National WWII Museum",
+        "lat": 29.943,
+        "lng": -90.0702,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "activityType": "culture",
+        "category": "历史博物馆",
+        "description": "通过实物与展览理解战争中的不同战场和个人经历，内容较多，至少留半天；影片与附加体验另核。",
+        "features": [
+          "历史博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.nationalww2museum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 35,
+          "high": 55,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nationalww2museum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "The National WWII Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_National_WWII_Museum"
+        },
+        "photoFile": "The National WWII Museum (55152081455).jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:The_National_WWII_Museum_%2855152081455%29.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "new-orleans-garden-district",
+        "name": "花园区老宅外观漫步",
+        "nameEn": "Garden District",
+        "lat": 29.9288,
+        "lng": -90.0849,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "在橡树下看不同风格的住宅与门廊，停留在公共人行道；墓园开放、导览和私人建筑不能默认进入。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 92,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.neworleans.com/blog/post/guide-to-the-garden-district/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/blog/post/guide-to-the-garden-district/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Garden District, New Orleans",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Garden_District%2C_New_Orleans"
+        }
+      },
+      {
+        "id": "new-orleans-magazine-street",
+        "name": "Magazine Street 小店与咖啡",
+        "nameEn": "Magazine Street",
+        "lat": 29.9268,
+        "lng": -90.092,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "选 Garden District 附近一小段逛书店、古董与咖啡，不必步行走完整条长街。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 82,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.neworleans.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Magazine Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Magazine_Street"
+        }
+      },
+      {
+        "id": "new-orleans-city-park",
+        "name": "City Park 橡树与水边",
+        "nameEn": "City Park",
+        "lat": 29.9872,
+        "lng": -90.093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "在大橡树、湖边和绿地间散步，给午后留一点树荫；游船、游乐项目及植物园另计。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://neworleanscitypark.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://neworleanscitypark.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "City Park (New Orleans)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Park_%28New_Orleans%29"
+        }
+      },
+      {
+        "id": "new-orleans-noma",
+        "name": "新奥尔良艺术博物馆",
+        "nameEn": "New Orleans Museum of Art",
+        "lat": 29.9865,
+        "lng": -90.0933,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "以艺术馆作为 City Park 的室内停靠点，挑选喜欢的馆藏看；特殊展览票种另核。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://noma.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://noma.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "New Orleans Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/New_Orleans_Museum_of_Art"
+        }
+      },
+      {
+        "id": "new-orleans-sculpture-garden",
+        "name": "贝斯特霍夫雕塑花园",
+        "nameEn": "Sydney and Walda Besthoff Sculpture Garden",
+        "lat": 29.988,
+        "lng": -90.096,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "雕塑花园",
+        "description": "在池塘、树木与户外雕塑之间慢走，艺术作品和水边倒影可以成为一段安静的行程。",
+        "features": [
+          "雕塑花园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://noma.org/besthoff-sculpture-garden/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://noma.org/besthoff-sculpture-garden/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://noma.org/besthoff-sculpture-garden/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "new-orleans-frenchmen",
+        "name": "Frenchmen Street 夜色与音乐门面",
+        "nameEn": "Frenchmen Street",
+        "lat": 29.9636,
+        "lng": -90.0576,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "音乐街区",
+        "description": "先看看各家当晚海报，再按喜好决定是否进场；这里的零门票只指街道漫步，演出、最低消费和饮品另付。",
+        "features": [
+          "音乐街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 85,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.neworleans.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Frenchmen Street",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Frenchmen_Street"
+        }
+      },
+      {
+        "id": "new-orleans-preservation",
+        "name": "Preservation Hall 爵士演出",
+        "nameEn": "Preservation Hall",
+        "lat": 29.9585,
+        "lng": -90.0654,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "现场音乐",
+        "description": "在小型场地专心听传统爵士，选定演出日期和场次后再加进行程；不能把路过当成已订座。",
+        "features": [
+          "现场音乐",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.preservationhall.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 70,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.preservationhall.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Preservation Hall",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Preservation_Hall"
+        }
+      },
+      {
+        "id": "new-orleans-french-market",
+        "name": "法国市场与 Decatur Street",
+        "nameEn": "French Market",
+        "lat": 29.9605,
+        "lng": -90.0591,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "市集街区",
+        "description": "看看摊位、地方小吃和街边店铺，适合接在河岸步行之后；购物与试吃自己决定。",
+        "features": [
+          "市集街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 83,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.frenchmarket.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.frenchmarket.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "French Market",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/French_Market"
+        }
+      },
+      {
+        "id": "new-orleans-crescent-park",
+        "name": "Crescent Park 密西西比河岸",
+        "nameEn": "Crescent Park",
+        "lat": 29.9635,
+        "lng": -90.0471,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "河岸步行",
+        "description": "沿河看货船与城市天际线，选一段公共步道慢走；不同入口之间有距离，按开放时间安排。",
+        "features": [
+          "河岸步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 78,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.neworleans.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.neworleans.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://www.neworleans.com/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "new-orleans-ogden",
+        "name": "奥格登南方艺术博物馆",
+        "nameEn": "Ogden Museum of Southern Art",
+        "lat": 29.9439,
+        "lng": -90.0717,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "通过摄影、绘画与当代创作认识美国南方，在仓库艺术区留一段室内文化时间。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 80,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://ogdenmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://ogdenmuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Ogden Museum of Southern Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ogden_Museum_of_Southern_Art"
+        }
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/New_Orleans"
+    },
+    "guide": {
+      "cityId": "new-orleans",
+      "intro": "爵士乐、铁艺阳台与克里奥尔味道，把一天慢慢延长。",
+      "foodHighlights": [
+        {
+          "name": "糖粉法式炸面饼",
+          "description": "现炸面团撒糖粉，适合配咖啡分享；吃时留意糖粉很容易飞散。"
+        },
+        {
+          "name": "路易斯安那秋葵浓汤",
+          "description": "浓郁汤汁常配米饭，鸡肉香肠与海鲜版本风味不同；下单前确认配料与过敏原。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "French Quarter",
+          "description": "上午逛 Royal Street 与广场，晚间另选一场爵士。"
+        },
+        {
+          "name": "Garden District 与 Magazine Street",
+          "description": "老屋、树荫与小店适合慢步，私人庭院不开放。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "nashville",
+    "name": "纳什维尔",
+    "nameEn": "Nashville, Tennessee",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-TN",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 36.1627,
+    "lng": -86.7816,
+    "iata": "BNA",
+    "tagline": "白天读音乐故事，晚上把时间交给现场。",
+    "description": "白天读音乐故事，晚上把时间交给现场。",
+    "tags": [
+      "乡村音乐",
+      "现场演出",
+      "南方料理"
+    ],
+    "article": "Nashville, Tennessee",
+    "officialTourismUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "两三天可串起乡村音乐博物馆、Ryman 与市中心街区，并留一晚听现场；Opry 演出在另一片区，按开演时间单独安排往返。"
+    },
+    "daily": {
+      "lodging": [
+        110,
+        225,
+        460
+      ],
+      "food": [
+        40,
+        80,
+        155
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1400,
+        2200,
+        3700
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "Downtown、Gulch 与 Midtown 可分片步行，跨片区用公交或出租车。Grand Ole Opry 远离市中心，需要单独接驳；晚场按实际开演与散场安排。",
+    "attractions": [
+      {
+        "id": "nashville-country-hall",
+        "name": "乡村音乐名人堂与博物馆",
+        "nameEn": "Country Music Hall of Fame and Museum",
+        "lat": 36.1583,
+        "lng": -86.7769,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "activityType": "culture",
+        "category": "音乐博物馆",
+        "description": "从舞台服装、乐器和录音故事认识乡村音乐，录音室导览需要另外确认组合票与班次。",
+        "features": [
+          "音乐博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.countrymusichalloffame.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.countrymusichalloffame.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Country Music Hall of Fame and Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Country_Music_Hall_of_Fame_and_Museum"
+        }
+      },
+      {
+        "id": "nashville-ryman",
+        "name": "莱曼礼堂参观",
+        "nameEn": "Ryman Auditorium",
+        "lat": 36.1612,
+        "lng": -86.7785,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "音乐历史",
+        "description": "白天看舞台与礼堂故事，晚上演出是另一种体验；本项预算不含音乐会席位。",
+        "features": [
+          "音乐历史",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 96,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.ryman.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 45,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.ryman.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Ryman Auditorium",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ryman_Auditorium"
+        }
+      },
+      {
+        "id": "nashville-broadway",
+        "name": "Lower Broadway 音乐街漫步",
+        "nameEn": "Broadway, Nashville",
+        "lat": 36.1605,
+        "lng": -86.776,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "音乐街区",
+        "description": "沿霓虹招牌看看现场曲目，挑喜欢的风格再决定入店；零门票只指公共街道，不含酒水、门票与小费。",
+        "features": [
+          "音乐街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 95,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Broadway (Nashville, Tennessee)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Broadway_%28Nashville%2C_Tennessee%29"
+        }
+      },
+      {
+        "id": "nashville-parthenon",
+        "name": "百年公园帕特农神庙",
+        "nameEn": "Parthenon",
+        "lat": 36.1497,
+        "lng": -86.8133,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术与建筑",
+        "description": "在公园草地看建筑比例，若进入馆内再看雅典娜与展览；预算按室内参观预留。",
+        "features": [
+          "艺术与建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 91,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.nashvilleparthenon.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 10,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nashvilleparthenon.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Parthenon (Nashville)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Parthenon_%28Nashville%29"
+        }
+      },
+      {
+        "id": "nashville-centennial",
+        "name": "百年公园湖边休息",
+        "nameEn": "Centennial Park",
+        "lat": 36.1497,
+        "lng": -86.8143,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "在步道、树荫与草地之间放慢脚步，公园外部散步和帕特农室内参观分开选择。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 79,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Centennial Park (Nashville)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Centennial_Park_%28Nashville%29"
+        }
+      },
+      {
+        "id": "nashville-state-museum",
+        "name": "田纳西州立博物馆",
+        "nameEn": "Tennessee State Museum",
+        "lat": 36.1722,
+        "lng": -86.7882,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "历史博物馆",
+        "description": "通过展览理解田纳西历史与地方文化，可结合旁边农贸市场安排半天。",
+        "features": [
+          "历史博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://tnmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tnmuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Tennessee State Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tennessee_State_Museum"
+        }
+      },
+      {
+        "id": "nashville-bicentennial",
+        "name": "二百周年国会山公园",
+        "nameEn": "Bicentennial Capitol Mall State Park",
+        "lat": 36.1719,
+        "lng": -86.785,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "历史公园",
+        "description": "从步道和纪念景观认识州历史，顺路眺望国会山；户外休息与博物馆配对很合适。",
+        "features": [
+          "历史公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 83,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://tnstateparks.com/parks/bicentennial-mall",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tnstateparks.com/parks/bicentennial-mall",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Bicentennial Capitol Mall State Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bicentennial_Capitol_Mall_State_Park"
+        }
+      },
+      {
+        "id": "nashville-farmers-market",
+        "name": "纳什维尔农贸市场",
+        "nameEn": "Nashville Farmers’ Market",
+        "lat": 36.1728,
+        "lng": -86.7889,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "市集体验",
+        "description": "看农产品、地方摊位和餐饮选择，买点食物再去公园；摊位营业与市集日期不同。",
+        "features": [
+          "市集体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 78,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.nashvillefarmersmarket.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nashvillefarmersmarket.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.nashvillefarmersmarket.org/"
+        }
+      },
+      {
+        "id": "nashville-pedestrian-bridge",
+        "name": "约翰·西根瑟勒步行桥",
+        "nameEn": "John Seigenthaler Pedestrian Bridge",
+        "lat": 36.1603,
+        "lng": -86.7703,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "leisure",
+        "category": "河岸步行",
+        "description": "走上坎伯兰河上的步行桥，看两岸天际线与体育场轮廓，日落前后更适合慢慢拍照。",
+        "features": [
+          "河岸步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 85,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "John Seigenthaler Pedestrian Bridge",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/John_Seigenthaler_Pedestrian_Bridge"
+        },
+        "photoFile": "Shelby street bridge day.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Shelby_street_bridge_day.jpg",
+        "imageContextNote": "从 Riverfront Park 望向步行桥的实景；照片拍于 2005 年。"
+      },
+      {
+        "id": "nashville-gulch",
+        "name": "The Gulch 壁画与咖啡",
+        "nameEn": "The Gulch",
+        "lat": 36.1527,
+        "lng": -86.7846,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "看街头壁画、唱片与独立小店，拍照排队不必成为行程核心；给咖啡休息留一点弹性。",
+        "features": [
+          "街区漫游",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 81,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitmusiccity.com/things-to-do-in-nashville",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "The Gulch (Nashville)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Gulch_%28Nashville%29"
+        }
+      },
+      {
+        "id": "nashville-frist",
+        "name": "弗里斯特艺术博物馆",
+        "nameEn": "Frist Art Museum",
+        "lat": 36.1576,
+        "lng": -86.7834,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "在旧邮局建筑里看轮换展览，内容以到访日期的展览为准，适合雨天或炎热午后。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://fristartmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://fristartmuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Frist Art Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Frist_Art_Museum"
+        }
+      },
+      {
+        "id": "nashville-grand-ole-opry",
+        "name": "Grand Ole Opry 现场演出",
+        "nameEn": "Grand Ole Opry",
+        "lat": 36.2069,
+        "lng": -86.692,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 240
+        },
+        "activityType": "culture",
+        "category": "现场音乐",
+        "description": "为一场乡村音乐现场单独留晚上，场馆距市中心较远；按实际出票的场地、开演时间和座位计价。",
+        "features": [
+          "现场音乐",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.opry.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 55,
+          "high": 180,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.opry.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Grand Ole Opry",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Ole_Opry"
+        }
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nashville%2C_Tennessee"
+    },
+    "guide": {
+      "cityId": "nashville",
+      "intro": "白天读音乐故事，晚上把时间交给现场。",
+      "foodHighlights": [
+        {
+          "name": "纳什维尔辣炸鸡",
+          "description": "炸鸡外覆辣油与香料，可从微辣开始；常配白面包和酸黄瓜。"
+        },
+        {
+          "name": "一荤三配菜",
+          "description": "选一份主菜搭三样南方配菜，自由组合豆类、蔬菜和土豆，是感受地方日常的一餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Lower Broadway",
+          "description": "音乐酒吧密集，街上随逛与进场消费分开。"
+        },
+        {
+          "name": "The Gulch 与 12 South",
+          "description": "壁画、咖啡和小店适合轻松探索。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "austin",
+    "name": "奥斯汀",
+    "nameEn": "Austin, Texas",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-TX",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "iata": "AUS",
+    "tagline": "从早餐塔可到日落蝙蝠，音乐和河边步道都有自己的节奏。",
+    "description": "从早餐塔可到日落蝙蝠，音乐和河边步道都有自己的节奏。",
+    "tags": [
+      "现场音乐",
+      "德州烧烤",
+      "河边生活"
+    ],
+    "article": "Austin, Texas",
+    "officialTourismUrl": "https://www.austintexas.org/things-to-do/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "把国会大厦与博物馆、Lady Bird Lake 河畔、South Congress 分片安排，晚上留给现场音乐；看蝙蝠需结合季节与日落时间。"
+    },
+    "daily": {
+      "lodging": [
+        105,
+        210,
+        430
+      ],
+      "food": [
+        40,
+        80,
+        160
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        2300,
+        3900
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "Downtown、South Congress、校园和 East Austin 应分片安排，公交结合出租车。高温时减少正午步行；山地泳池或远郊酒庄单独留接驳，不能按市内散步计算。",
+    "attractions": [
+      {
+        "id": "austin-capitol",
+        "name": "德克萨斯州议会大厦",
+        "nameEn": "Texas State Capitol",
+        "lat": 30.2747,
+        "lng": -97.7404,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "走进公共开放区域看议会建筑与州历史，广场草坪适合稍作休息；安检与导览场次按当天安排。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 96,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://tspb.texas.gov/prop/tc/tc/capitol.html",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tspb.texas.gov/prop/tc/tc/capitol.html",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Texas State Capitol",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Texas_State_Capitol"
+        }
+      },
+      {
+        "id": "austin-lady-bird",
+        "name": "Lady Bird Lake 河边步道",
+        "nameEn": "Lady Bird Lake",
+        "lat": 30.2596,
+        "lng": -97.7495,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "河岸步行",
+        "description": "选 Ann and Roy Butler 步道的一段看跑步、划船与城市天际线，不必走完整圈；租艇另付。",
+        "features": [
+          "河岸步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 96,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://thetrailconservancy.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://thetrailconservancy.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Lady Bird Lake",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lady_Bird_Lake"
+        }
+      },
+      {
+        "id": "austin-south-congress",
+        "name": "South Congress 小店慢逛",
+        "nameEn": "South Congress",
+        "lat": 30.248,
+        "lng": -97.7502,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "沿街看招牌、唱片店和小店，找一处露台休息；选购和音乐演出不包含在街区散步内。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.austintexas.org/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.org/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "South Congress",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/South_Congress"
+        }
+      },
+      {
+        "id": "austin-barton-springs",
+        "name": "Barton Springs 天然泉水泳池",
+        "nameEn": "Barton Springs Pool",
+        "lat": 30.2638,
+        "lng": -97.7712,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 240
+        },
+        "activityType": "culture",
+        "category": "泉水体验",
+        "description": "在泉水补给的泳池游泳或草地休息，提前查看清洁闭场和水质状态；不会游泳可只在许可岸边休息。",
+        "features": [
+          "泉水体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 92,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.austintexas.gov/department/barton-springs-pool",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 8,
+          "high": 18,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.gov/department/barton-springs-pool",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Barton Springs Pool",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Barton_Springs_Pool"
+        }
+      },
+      {
+        "id": "austin-zilker",
+        "name": "Zilker 公园草地时光",
+        "nameEn": "Zilker Park",
+        "lat": 30.2674,
+        "lng": -97.7736,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "在开阔草地野餐、发呆或慢步，遇大型音乐节会改变开放和交通；普通公共区域外另付项目不含。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 87,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.austintexas.org/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.org/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Zilker Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Zilker_Park"
+        }
+      },
+      {
+        "id": "austin-blanton",
+        "name": "布兰顿艺术博物馆",
+        "nameEn": "Blanton Museum of Art",
+        "lat": 30.2808,
+        "lng": -97.7378,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "在大学片区看艺术馆藏、建筑与户外空间，给喜欢的展厅多留一点停留时间。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://blantonmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://blantonmuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Blanton Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Blanton_Museum_of_Art"
+        }
+      },
+      {
+        "id": "austin-bullock",
+        "name": "布洛克德州历史博物馆",
+        "nameEn": "Bullock Texas State History Museum",
+        "lat": 30.2804,
+        "lng": -97.7391,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "历史博物馆",
+        "description": "用展览认识德州的社会、文化与历史，影片和特别项目需核对是否另收费。",
+        "features": [
+          "历史博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.thestoryoftexas.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.thestoryoftexas.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Bullock Texas State History Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bullock_Texas_State_History_Museum"
+        }
+      },
+      {
+        "id": "austin-lbj",
+        "name": "林登·约翰逊总统图书馆",
+        "nameEn": "Lyndon Baines Johnson Library and Museum",
+        "lat": 30.2857,
+        "lng": -97.7293,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "历史博物馆",
+        "description": "从档案与展览理解二十世纪美国政治和社会变化，可结合校园片区安排。",
+        "features": [
+          "历史博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 84,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.lbjlibrary.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.lbjlibrary.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Lyndon Baines Johnson Library and Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lyndon_Baines_Johnson_Library_and_Museum"
+        },
+        "photoFile": "LBJ Presidential LIbrary - UT Austin (54984753236).jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:LBJ_Presidential_LIbrary_-_UT_Austin_%2854984753236%29.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "austin-congress-bats",
+        "name": "国会大道桥日落观蝙蝠",
+        "nameEn": "Congress Avenue Bridge",
+        "lat": 30.261,
+        "lng": -97.7454,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "自然观察",
+        "description": "季节合适时等候蝙蝠从桥下出飞，是否出现受天气和季节影响；只在安全公共观景处停留，不堵人行道。",
+        "features": [
+          "自然观察",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.austintexas.org/things-to-do/outdoors/bat-watching/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.org/things-to-do/outdoors/bat-watching/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Ann W. Richards Congress Avenue Bridge",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ann_W._Richards_Congress_Avenue_Bridge"
+        }
+      },
+      {
+        "id": "austin-mount-bonnell",
+        "name": "Mount Bonnell 俯瞰河谷",
+        "nameEn": "Mount Bonnell",
+        "lat": 30.321,
+        "lng": -97.7733,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "culture",
+        "category": "山顶观景",
+        "description": "沿台阶上到观景区看看河道与绿树，路程不长但有台阶；独立预留往返交通和高温补水。",
+        "features": [
+          "山顶观景",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 80,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.austintexas.org/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.org/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Mount Bonnell",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mount_Bonnell"
+        }
+      },
+      {
+        "id": "austin-east-austin",
+        "name": "East Austin 壁画与餐车",
+        "nameEn": "East Austin",
+        "lat": 30.2634,
+        "lng": -97.7279,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "街区漫游",
+        "description": "选择 East Sixth Street 附近一段找壁画、餐车和咖啡馆，体验街区气氛；餐饮另外从当日预算中选择。",
+        "features": [
+          "街区漫游",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 82,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.austintexas.org/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.austintexas.org/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://www.austintexas.org/things-to-do/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "austin-red-river",
+        "name": "Red River 音乐街与演出海报",
+        "nameEn": "Red River Cultural District",
+        "lat": 30.2693,
+        "lng": -97.7358,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "音乐街区",
+        "description": "先沿街看各场地的演出海报，再选择是否订票进场；街区散步金额不包含任何演出或最低消费。",
+        "features": [
+          "音乐街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 78,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://redriverculturaldistrict.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://redriverculturaldistrict.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://redriverculturaldistrict.org/"
+        },
+        "noArticle": true
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Austin%2C_Texas"
+    },
+    "guide": {
+      "cityId": "austin",
+      "intro": "从早餐塔可到日落蝙蝠，音乐和河边步道都有自己的节奏。",
+      "foodHighlights": [
+        {
+          "name": "德州烟熏牛胸肉",
+          "description": "慢熏牛胸肉按肥瘦与重量点选，常配面包、酸黄瓜和配菜；热门店要给排队留时间。"
+        },
+        {
+          "name": "早餐塔可",
+          "description": "玉米或面粉饼夹鸡蛋、豆子、奶酪与肉类，一次点两三种口味很适合早餐。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "South Congress",
+          "description": "小店、唱片、咖啡和音乐门面串成步行路线。"
+        },
+        {
+          "name": "East Austin",
+          "description": "壁画和餐车适合随意探索，跨片区先看实际距离。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "san-antonio",
+    "name": "圣安东尼奥",
+    "nameEn": "San Antonio",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-TX",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 29.4241,
+    "lng": -98.4936,
+    "iata": "SAT",
+    "tagline": "沿河步道走进传教站历史，再用一顿 Tex-Mex 收尾。",
+    "description": "沿河步道走进传教站历史，再用一顿 Tex-Mex 收尾。",
+    "tags": [
+      "河畔步道",
+      "世界遗产",
+      "Tex-Mex 美食"
+    ],
+    "article": "San Antonio",
+    "officialTourismUrl": "https://www.visitsanantonio.com/things-to-do/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "一天留给阿拉莫与河畔步道，再用一两天逛 Pearl、市场和传教站；各传教站相距较远，需要骑行、开车或接驳。"
+    },
+    "daily": {
+      "lodging": [
+        90,
+        185,
+        380
+      ],
+      "food": [
+        35,
+        70,
+        140
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1200,
+        1850,
+        3100
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "市中心可步行，Pearl 和传教站群建议结合公交、出租车或骑行。南部传教站之间相距数公里，不能按相邻小景点步行串联；河道游船另付。",
+    "attractions": [
+      {
+        "id": "san-antonio-river-walk",
+        "name": "River Walk 核心河岸漫步",
+        "nameEn": "San Antonio River Walk",
+        "lat": 29.424,
+        "lng": -98.4889,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "河岸步行",
+        "description": "沿树荫、小桥和餐馆间的河岸慢走，先体验 Downtown Reach 一段；游船和用餐是独立消费。",
+        "features": [
+          "河岸步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "San Antonio River Walk",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio_River_Walk"
+        }
+      },
+      {
+        "id": "san-antonio-alamo",
+        "name": "阿拉莫教堂与庭院",
+        "nameEn": "Alamo Mission",
+        "lat": 29.426,
+        "lng": -98.4861,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "历史遗址",
+        "description": "在教堂与历史庭院认识德州的复杂历史，免费教堂参观也可能需要时段预约；展览、讲解与组合票另核。",
+        "features": [
+          "历史遗址",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 97,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.thealamo.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.thealamo.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Alamo Mission",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Alamo_Mission"
+        }
+      },
+      {
+        "id": "san-antonio-mission-san-jose",
+        "name": "圣何塞传教站",
+        "nameEn": "Mission San José",
+        "lat": 29.3626,
+        "lng": -98.4793,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "世界遗产",
+        "description": "看石砌教堂、庭院与历史生活空间，结合展板理解殖民与原住民历史；仍在使用的宗教空间尊重礼拜。",
+        "features": [
+          "世界遗产",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 95,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.nps.gov/saan/planyourvisit/fees.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/saan/planyourvisit/fees.htm",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Mission San José (Texas)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mission_San_Jos%C3%A9_%28Texas%29"
+        }
+      },
+      {
+        "id": "san-antonio-mission-concepcion",
+        "name": "康塞普西翁传教站",
+        "nameEn": "Mission Concepción",
+        "lat": 29.3907,
+        "lng": -98.4917,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "世界遗产",
+        "description": "在历史石墙与教堂外观前停留，和其他传教站串联需要独立交通，不按市中心短步行处理。",
+        "features": [
+          "世界遗产",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 87,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.nps.gov/saan/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/saan/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Mission Concepción",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mission_Concepci%C3%B3n"
+        }
+      },
+      {
+        "id": "san-antonio-pearl",
+        "name": "Pearl 旧酿酒厂与美食街区",
+        "nameEn": "Pearl",
+        "lat": 29.4429,
+        "lng": -98.4805,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 210
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "从旧酿酒厂建筑走向市场、餐饮与公共广场，周末市集另查日期；坐下来吃一餐也值得留时间。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/plan-your-trip/neighborhood-guide/pearl-district/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/plan-your-trip/neighborhood-guide/pearl-district/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Pearl Brewing Company",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pearl_Brewing_Company"
+        }
+      },
+      {
+        "id": "san-antonio-market-square",
+        "name": "历史市场广场 El Mercado",
+        "nameEn": "Market Square",
+        "lat": 29.4245,
+        "lng": -98.5012,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "市集街区",
+        "description": "看墨西哥风格手工艺、店铺与餐饮，把糕点或午餐当作这里的一部分；消费与活动票另计。",
+        "features": [
+          "市集街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Market Square (San Antonio)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Market_Square_%28San_Antonio%29"
+        }
+      },
+      {
+        "id": "san-antonio-san-fernando",
+        "name": "圣费尔南多主教座堂与主广场",
+        "nameEn": "Cathedral of San Fernando",
+        "lat": 29.4241,
+        "lng": -98.4941,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 90
+        },
+        "activityType": "culture",
+        "category": "历史广场",
+        "description": "看教堂外观与 Main Plaza，若想观看夜间投影需查当日排期；宗教活动期间按现场引导参观。",
+        "features": [
+          "历史广场",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Cathedral of San Fernando",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cathedral_of_San_Fernando"
+        }
+      },
+      {
+        "id": "san-antonio-japanese-garden",
+        "name": "日本茶园石桥与水景",
+        "nameEn": "Japanese Tea Garden",
+        "lat": 29.462,
+        "lng": -98.4781,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "花园漫步",
+        "description": "沿石桥、池塘与植被慢行，旧采石场变成花园的空间很适合休息；咖啡与活动不含在公共入园内。",
+        "features": [
+          "花园漫步",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 85,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "san-antonio-art-museum",
+        "name": "圣安东尼奥艺术博物馆",
+        "nameEn": "San Antonio Museum of Art",
+        "lat": 29.437,
+        "lng": -98.4829,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "在旧酿酒厂空间看跨文化艺术收藏，可与 Museum Reach 河岸慢步组合。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.samuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.samuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "San Antonio Museum of Art",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio_Museum_of_Art"
+        }
+      },
+      {
+        "id": "san-antonio-mcnay",
+        "name": "麦克奈艺术博物馆",
+        "nameEn": "McNay Art Museum",
+        "lat": 29.4856,
+        "lng": -98.4558,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "在宅邸建筑与花园中看现代艺术，离市中心有一段距离，预留往返交通。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.mcnayart.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.mcnayart.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "McNay Art Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/McNay_Art_Museum"
+        }
+      },
+      {
+        "id": "san-antonio-king-william",
+        "name": "King William 老屋与 Southtown",
+        "nameEn": "King William Historic District",
+        "lat": 29.4144,
+        "lng": -98.4938,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "在树荫人行道看宅邸外观，向 Southtown 找画廊和咖啡；私人住宅不能默认进入。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 83,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsanantonio.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "King William Historic District",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/King_William_Historic_District"
+        }
+      },
+      {
+        "id": "san-antonio-hemisfair",
+        "name": "Hemisfair 城市公园",
+        "nameEn": "Hemisfair",
+        "lat": 29.4186,
+        "lng": -98.4838,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "在公园公共空间看看城市高塔、家庭活动与树荫，适合游览之间放松；登塔和园内付费项目另选。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 79,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://hemisfair.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://hemisfair.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Hemisfair",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hemisfair"
+        }
+      },
+      {
+        "id": "san-antonio-natural-bridge",
+        "name": "Natural Bridge Caverns 洞穴半日",
+        "nameEn": "Natural Bridge Caverns",
+        "lat": 29.6925,
+        "lng": -98.3426,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 240,
+          "max": 360
+        },
+        "activityType": "culture",
+        "category": "远郊洞穴",
+        "description": "参加按场次开放的地下洞穴导览，距市中心需单独往返；不同路线有台阶和体力要求，出发前核对票种。",
+        "features": [
+          "远郊洞穴",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 84,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://naturalbridgecaverns.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 55,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://naturalbridgecaverns.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Natural Bridge Caverns",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Natural_Bridge_Caverns"
+        },
+        "photoFile": "Formations in Natural Bridge Caverns.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Formations_in_Natural_Bridge_Caverns.jpg",
+        "photoStatus": "pending-download"
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/San_Antonio"
+    },
+    "guide": {
+      "cityId": "san-antonio",
+      "intro": "沿河步道走进传教站历史，再用一顿 Tex-Mex 收尾。",
+      "foodHighlights": [
+        {
+          "name": "蓬松炸塔可",
+          "description": "玉米面饼炸得鼓起再夹肉和蔬菜，趁热吃酥松口感；是圣安东尼奥很有辨识度的一口。"
+        },
+        {
+          "name": "早餐塔可",
+          "description": "鸡蛋、土豆、豆泥或肉类装进面饼，适合用几种小份口味开启一天。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "River Walk 与 Alamo Plaza",
+          "description": "地下河岸与地面历史街区可连成一段慢游。"
+        },
+        {
+          "name": "Pearl 与 Southtown",
+          "description": "工业改造、画廊和餐饮各有气氛，分别留时间。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "denver",
+    "name": "丹佛",
+    "nameEn": "Denver",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-CO",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "iata": "DEN",
+    "tagline": "从联合车站与壁画街区出发，把真正的山野另留一整天。",
+    "description": "从联合车站与壁画街区出发，把真正的山野另留一整天。",
+    "tags": [
+      "城市艺术",
+      "科罗拉多风味",
+      "落基山门户"
+    ],
+    "article": "Denver",
+    "officialTourismUrl": "https://visitdenver.com/things-to-do/attractions/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "市中心、联合车站与 RiNo 街区可安排一天，博物馆和城市公园再留一两天；若去落基山国家公园，应额外预留整天及往返交通。"
+    },
+    "daily": {
+      "lodging": [
+        105,
+        210,
+        430
+      ],
+      "food": [
+        40,
+        80,
+        160
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1500,
+        2300,
+        3900
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "机场可结合轨道交通进入市区，LoDo、RiNo、博物馆区分片探索。红石剧场需独立接驳，落基山国家公园通常单程约1.5至2小时或更久；高海拔、天气和入园预约不能忽略。",
+    "attractions": [
+      {
+        "id": "denver-union-station",
+        "name": "丹佛联合车站",
+        "nameEn": "Denver Union Station",
+        "lat": 39.7527,
+        "lng": -105.0002,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "在公共大厅看老车站建筑，顺路找咖啡或小店；注意正常乘客通行，酒店客房区域不开放。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 95,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.denverunionstation.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.denverunionstation.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Denver Union Station",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Denver_Union_Station"
+        }
+      },
+      {
+        "id": "denver-art-museum",
+        "name": "丹佛艺术博物馆",
+        "nameEn": "Denver Art Museum",
+        "lat": 39.7372,
+        "lng": -104.9893,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "艺术博物馆",
+        "description": "建筑本身与跨文化艺术收藏都值得停留，按兴趣挑选展区，不需要匆忙看完全部。",
+        "features": [
+          "艺术博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 97,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.denverartmuseum.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.denverartmuseum.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Denver Art Museum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Denver_Art_Museum"
+        },
+        "photoFile": "Denver Art Museum - Sie Welcome Center 01.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Denver_Art_Museum_-_Sie_Welcome_Center_01.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "denver-botanic",
+        "name": "丹佛植物园 York Street",
+        "nameEn": "Denver Botanic Gardens",
+        "lat": 39.7314,
+        "lng": -104.9619,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "植物园",
+        "description": "在高原城市里看花园、温室与季节植被，建议在炎热时段寻找树荫；晚间特别活动另核。",
+        "features": [
+          "植物园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 93,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.botanicgardens.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 30,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.botanicgardens.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Denver Botanic Gardens",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Denver_Botanic_Gardens"
+        }
+      },
+      {
+        "id": "denver-rino",
+        "name": "RiNo 壁画与仓库街区",
+        "nameEn": "River North Art District",
+        "lat": 39.7592,
+        "lng": -104.9827,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "艺术街区",
+        "description": "沿公共街道寻找大幅壁画、画廊门面和餐饮市场，挑一段走透比来回跨街区更轻松。",
+        "features": [
+          "艺术街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 92,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://rinoartdistrict.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://rinoartdistrict.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://rinoartdistrict.org/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "denver-larimer",
+        "name": "Larimer Square 老街慢走",
+        "nameEn": "Larimer Square",
+        "lat": 39.7477,
+        "lng": -104.9993,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "看看砖墙建筑与街道尺度，顺路停一杯咖啡；店铺和公共空间的临时施工以现场为准。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 84,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Larimer Square",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Larimer_Square"
+        }
+      },
+      {
+        "id": "denver-nature-science",
+        "name": "丹佛自然与科学博物馆",
+        "nameEn": "Denver Museum of Nature and Science",
+        "lat": 39.7475,
+        "lng": -104.9426,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "自然科学馆",
+        "description": "从自然历史与科学展区选择感兴趣的主题，适合亲子或雨天；天文馆和影片票种另核。",
+        "features": [
+          "自然科学馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.dmns.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 40,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.dmns.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Denver Museum of Nature and Science",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Denver_Museum_of_Nature_and_Science"
+        }
+      },
+      {
+        "id": "denver-city-park",
+        "name": "City Park 湖边天际线",
+        "nameEn": "City Park",
+        "lat": 39.7465,
+        "lng": -104.9517,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "从公园绿地和湖边看城市与山的方向，适合在博物馆之后放松；动物园不包含在这项散步内。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 83,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "City Park, Denver",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Park%2C_Denver"
+        }
+      },
+      {
+        "id": "denver-state-capitol",
+        "name": "科罗拉多州议会大厦",
+        "nameEn": "Colorado State Capitol",
+        "lat": 39.7393,
+        "lng": -104.9848,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "看金色穹顶和公共开放区域，导览、安检和节假日开放请事先核对。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 85,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.colorado.gov/pacific/capitol/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.colorado.gov/pacific/capitol/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Colorado State Capitol",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Colorado_State_Capitol"
+        }
+      },
+      {
+        "id": "denver-confluence",
+        "name": "Confluence Park 两河交汇",
+        "nameEn": "Confluence Park",
+        "lat": 39.7547,
+        "lng": -105.0088,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "leisure",
+        "category": "河岸步行",
+        "description": "在 South Platte River 与 Cherry Creek 交汇处走走，体验城市骑行和河边生活；下水项目需另核条件。",
+        "features": [
+          "河岸步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 79,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitdenver.com/things-to-do/attractions/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Confluence Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Confluence_Park"
+        }
+      },
+      {
+        "id": "denver-history-colorado",
+        "name": "History Colorado 历史中心",
+        "nameEn": "History Colorado Center",
+        "lat": 39.7355,
+        "lng": -104.9874,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "历史博物馆",
+        "description": "通过互动展览了解州内不同社群的故事，可和艺术博物馆区集中安排。",
+        "features": [
+          "历史博物馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 82,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.historycolorado.org/history-colorado-center",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.historycolorado.org/history-colorado-center",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "History Colorado Center",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/History_Colorado_Center"
+        }
+      },
+      {
+        "id": "denver-red-rocks",
+        "name": "红石公园与露天剧场外观",
+        "nameEn": "Red Rocks Park and Amphitheatre",
+        "lat": 39.6654,
+        "lng": -105.2057,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 360
+        },
+        "activityType": "culture",
+        "category": "远郊山地体验",
+        "description": "白天沿许可区域看看红色岩壁与剧场，演出布场可能限制开放；需独立往返交通，音乐会门票完全另计。",
+        "features": [
+          "远郊山地体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.redrocksonline.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.redrocksonline.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Red Rocks Amphitheatre",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Red_Rocks_Amphitheatre"
+        }
+      },
+      {
+        "id": "denver-rocky-mountain",
+        "name": "落基山国家公园 · 远郊整日",
+        "nameEn": "Rocky Mountain National Park",
+        "lat": 40.3772,
+        "lng": -105.5217,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 10.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 600,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "国家公园",
+        "description": "从丹佛出发单程通常约1.5至2小时或更久，另留整日欣赏山景与短步道。旺季分时入园、Bear Lake 区域预约和高海拔天气必须提前确认。",
+        "features": [
+          "国家公园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.nps.gov/romo/planyourvisit/fees.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/romo/planyourvisit/fees.htm",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "费用待按身份、车辆、年票与日期核算，不表示免费。标准车辆费按车收取，不能直接当成人票；2026年16岁及以上非美国居民另有每人100美元附加费，符合有效通行证规则的情况除外。往返交通、预约及停车等另核。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Rocky Mountain National Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rocky_Mountain_National_Park"
+        }
+      },
+      {
+        "id": "denver-santa-fe",
+        "name": "Santa Fe 艺术区小逛",
+        "nameEn": "Art District on Santa Fe",
+        "lat": 39.7306,
+        "lng": -104.9986,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "艺术街区",
+        "description": "沿 Santa Fe Drive 看画廊和壁画，开放工作室与艺术夜按日历选择；商店休息日会影响可逛内容。",
+        "features": [
+          "艺术街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 77,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://denversartdistrict.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://denversartdistrict.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://denversartdistrict.org/"
+        }
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Denver"
+    },
+    "guide": {
+      "cityId": "denver",
+      "intro": "从联合车站与壁画街区出发，把真正的山野另留一整天。",
+      "foodHighlights": [
+        {
+          "name": "绿辣椒炖酱",
+          "description": "带炖肉与烤绿辣椒香气的浓酱常浇在卷饼或早餐上，点单先确认辣度和是否含猪肉。"
+        },
+        {
+          "name": "丹佛煎蛋卷",
+          "description": "鸡蛋卷入火腿、洋葱和青椒，是经典美式早午餐口味，可搭土豆或吐司。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "LoDo 与 Union Station",
+          "description": "旧仓库和车站周边适合步行找餐馆。"
+        },
+        {
+          "name": "RiNo",
+          "description": "壁画、工业建筑和美食市场可组成轻松半天。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "salt-lake-city",
+    "name": "盐湖城",
+    "nameEn": "Salt Lake City",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-UT",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 40.7608,
+    "lng": -111.891,
+    "iata": "SLC",
+    "tagline": "山脚下的博物馆、街区和公园，是探索犹他的从容起点。",
+    "description": "山脚下的博物馆、街区和公园，是探索犹他的从容起点。",
+    "tags": [
+      "山城生活",
+      "自然历史",
+      "滑雪门户"
+    ],
+    "article": "Salt Lake City",
+    "officialTourismUrl": "https://www.visitsaltlake.com/things-to-do/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "两三天适合市中心历史街区、自然历史博物馆与山脚花园；羚羊岛或 Park City 各留独立一天，冬季滑雪另核道路和接驳。"
+    },
+    "daily": {
+      "lodging": [
+        95,
+        190,
+        390
+      ],
+      "food": [
+        35,
+        70,
+        145
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1400,
+        2100,
+        3400
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "机场和市中心可结合 TRAX，东部博物馆与山麓需公交或出租车。大盐湖、羚羊岛与滑雪场需要独立交通；冬季峡谷道路、停车预约和雪链规定要看当天信息。",
+    "attractions": [
+      {
+        "id": "salt-lake-city-temple-square",
+        "name": "圣殿广场开放区域与外观",
+        "nameEn": "Temple Square",
+        "lat": 40.7705,
+        "lng": -111.8919,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "认识城市的宗教建筑与花园，改造期间只走已开放区域；不要默认圣殿内部可进入，具体围挡和导览以官方公告为准。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 92,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/temple-square-renovation-update/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/temple-square-renovation-update/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Temple Square",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Temple_Square"
+        },
+        "photoFile": "SLTempleRemodel-April2025.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:SLTempleRemodel-April2025.jpg",
+        "photoStatus": "pending-download",
+        "verificationNote": "截至2026年9月圣殿仍在改造，2027年公众开放活动需按最新公告预约；此项只包括当前开放公共区域。图片为2025年施工期间外观。"
+      },
+      {
+        "id": "salt-lake-city-capitol",
+        "name": "犹他州议会大厦",
+        "nameEn": "Utah State Capitol",
+        "lat": 40.7774,
+        "lng": -111.8882,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "从山坡看城市和山脉，按开放安排参观公共内部；步行上山有坡度，可结合交通。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://utahstatecapitol.utah.gov/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://utahstatecapitol.utah.gov/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Utah State Capitol",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Utah_State_Capitol"
+        }
+      },
+      {
+        "id": "salt-lake-city-natural-history",
+        "name": "犹他自然历史博物馆",
+        "nameEn": "Natural History Museum of Utah",
+        "lat": 40.764,
+        "lng": -111.8235,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "自然历史馆",
+        "description": "从恐龙、地质到地方自然环境，建筑与山麓景观也很值得停留；至少给主要展厅半天。",
+        "features": [
+          "自然历史馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://nhmu.utah.edu/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 20,
+          "high": 35,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://nhmu.utah.edu/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Natural History Museum of Utah",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Natural_History_Museum_of_Utah"
+        }
+      },
+      {
+        "id": "salt-lake-city-red-butte",
+        "name": "Red Butte 植物园",
+        "nameEn": "Red Butte Garden",
+        "lat": 40.7658,
+        "lng": -111.8234,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "植物园",
+        "description": "在山麓园林和季节花木之间慢行，适合和自然历史馆分配同一天；音乐会票另计。",
+        "features": [
+          "植物园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 91,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://redbuttegarden.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://redbuttegarden.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Red Butte Garden and Arboretum",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Red_Butte_Garden_and_Arboretum"
+        }
+      },
+      {
+        "id": "salt-lake-city-city-library",
+        "name": "盐湖城公共图书馆",
+        "nameEn": "Salt Lake City Public Library",
+        "lat": 40.7593,
+        "lng": -111.883,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 30,
+          "recommended": 75,
+          "max": 120
+        },
+        "activityType": "culture",
+        "category": "城市建筑",
+        "description": "看弧形玻璃建筑与公共空间，开放时可安静阅览；屋顶、活动和内部区域遵守图书馆安排。",
+        "features": [
+          "城市建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://services.slcpl.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://services.slcpl.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Salt Lake City Public Library",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Salt_Lake_City_Public_Library"
+        }
+      },
+      {
+        "id": "salt-lake-city-liberty-park",
+        "name": "Liberty Park 树荫与湖边",
+        "nameEn": "Liberty Park",
+        "lat": 40.7449,
+        "lng": -111.8751,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "围着绿地和小湖放松，适合带着咖啡慢走；园内鸟园和其他收费设施另选。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 85,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Liberty Park (Salt Lake City)",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Liberty_Park_%28Salt_Lake_City%29"
+        }
+      },
+      {
+        "id": "salt-lake-city-tracy-aviary",
+        "name": "Tracy Aviary 鸟园",
+        "nameEn": "Tracy Aviary",
+        "lat": 40.744,
+        "lng": -111.8759,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "culture",
+        "category": "自然体验",
+        "description": "沿鸟园步道观察不同鸟类，给讲解与慢看留时间；保持安静，不把公共公园免费与鸟园门票混为一谈。",
+        "features": [
+          "自然体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://tracyaviary.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 12,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://tracyaviary.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Tracy Aviary",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tracy_Aviary"
+        }
+      },
+      {
+        "id": "salt-lake-city-sugar-house",
+        "name": "Sugar House 公园与街区",
+        "nameEn": "Sugar House",
+        "lat": 40.7258,
+        "lng": -111.8596,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "activityType": "leisure",
+        "category": "街区公园",
+        "description": "在公园草地看山，再到周边街区找咖啡和小店，适合放慢节奏的一段午后。",
+        "features": [
+          "街区公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 84,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Sugar House Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sugar_House_Park"
+        }
+      },
+      {
+        "id": "salt-lake-city-ninth-ninth",
+        "name": "9th and 9th 街角小店",
+        "nameEn": "9th and 9th",
+        "lat": 40.75,
+        "lng": -111.8653,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "在小尺度路口周边找书店、咖啡与餐馆，适合比大型购物区更悠闲的停留。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 77,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "salt-lake-city-city-creek",
+        "name": "City Creek Center 与市中心步行",
+        "nameEn": "City Creek Center",
+        "lat": 40.7682,
+        "lng": -111.8907,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "商业街区",
+        "description": "从步行空间看商店和流水景观，适合补给和休息；营业日、购物和停车另核。",
+        "features": [
+          "商业街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 79,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "City Creek Center",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/City_Creek_Center"
+        }
+      },
+      {
+        "id": "salt-lake-city-antelope-island",
+        "name": "羚羊岛与大盐湖 · 远郊整日",
+        "nameEn": "Antelope Island State Park",
+        "lat": 41.058,
+        "lng": -112.2407,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 7.0,
+        "durationRange": {
+          "min": 300,
+          "recommended": 420,
+          "max": 540
+        },
+        "activityType": "leisure",
+        "category": "湖岛自然",
+        "description": "通过堤道到大盐湖岛上看盐湖、草原与野生动物，车程通常需一小时以上单程；蚊虫、天气与道路状态会影响体验，不靠近野牛。",
+        "features": [
+          "湖岛自然",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://stateparks.utah.gov/parks/antelope-island/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://stateparks.utah.gov/parks/antelope-island/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "费用待核：州立公园常按车辆与乘员规则收费，不能直接折算为每成人门票；本项不含往返交通，查看当日车辆、徒步或骑行收费。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Antelope Island State Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Antelope_Island_State_Park"
+        },
+        "photoFile": "Antelope Island.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Antelope_Island.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "salt-lake-city-snowbird",
+        "name": "Snowbird 山地与滑雪 · 整日可选",
+        "nameEn": "Snowbird",
+        "lat": 40.5813,
+        "lng": -111.6563,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 8.0,
+        "durationRange": {
+          "min": 360,
+          "recommended": 480,
+          "max": 660
+        },
+        "activityType": "culture",
+        "category": "远郊山地体验",
+        "description": "冬季滑雪、夏季山地项目按季节择一；峡谷往返、装备租赁、课程与缆车票要单独确认，初学者应预约课程。",
+        "features": [
+          "远郊山地体验",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 90,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.snowbird.com/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.snowbird.com/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "滑雪或夏季项目票种差异大，费用待按日期和项目核算；不含交通、装备、课程及餐饮，也不是免费景点。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Snowbird, Utah",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Snowbird%2C_Utah"
+        },
+        "photoFile": "Snowbird Gondola photo Don Ramey Logan.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Snowbird_Gondola_photo_Don_Ramey_Logan.jpg",
+        "photoStatus": "pending-download"
+      },
+      {
+        "id": "salt-lake-city-memory-grove",
+        "name": "Memory Grove 林荫步道",
+        "nameEn": "Memory Grove",
+        "lat": 40.7768,
+        "lng": -111.8826,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "公园步行",
+        "description": "从纪念花园走一段林荫路径，适合市中心之外的短暂安静；只走开放路线，不把峡谷长线徒步混入。",
+        "features": [
+          "公园步行",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 80,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitsaltlake.com/things-to-do/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Memory Grove",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Memory_Grove"
+        }
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Salt_Lake_City"
+    },
+    "guide": {
+      "cityId": "salt-lake-city",
+      "intro": "山脚下的博物馆、街区和公园，是探索犹他的从容起点。",
+      "foodHighlights": [
+        {
+          "name": "烟熏牛肉汉堡",
+          "description": "牛肉汉堡上再叠一层热 pastrami，咸香份量足，是盐湖城很有地方感的快餐选择。"
+        },
+        {
+          "name": "薯条配粉色蘸酱",
+          "description": "当地汉堡店常见的番茄酱与蛋黄酱风格蘸酱，配一份薯条尝试各店差异。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Downtown 与 Capitol Hill",
+          "description": "公共广场、图书馆与山坡街道可分段慢走。"
+        },
+        {
+          "name": "Sugar House 与 9th and 9th",
+          "description": "咖啡、小店和公园展示山城日常。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  },
+  {
+    "id": "flagstaff",
+    "name": "弗拉格斯塔夫",
+    "nameEn": "Flagstaff, Arizona",
+    "country": "美国",
+    "countryCode": "US",
+    "isoRegion": "US-AZ",
+    "currency": "USD",
+    "region": "北美洲",
+    "lat": 35.1983,
+    "lng": -111.6513,
+    "iata": "FLG",
+    "tagline": "在六十六号公路和暗夜星空之间，慢慢走进科罗拉多高原。",
+    "description": "在六十六号公路和暗夜星空之间，慢慢走进科罗拉多高原。",
+    "tags": [
+      "暗夜观星",
+      "66号公路",
+      "大峡谷门户"
+    ],
+    "article": "Flagstaff, Arizona",
+    "officialTourismUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "days": 3,
+      "min": 2,
+      "max": 5,
+      "reason": "先用一天认识 66 号公路老城与洛厄尔天文台，再按兴趣选择火山遗迹或山地活动；大峡谷南缘往返需独立整天，别压缩夜间休息。"
+    },
+    "daily": {
+      "lodging": [
+        100,
+        190,
+        350
+      ],
+      "food": [
+        35,
+        70,
+        135
+      ],
+      "transport": [
+        12,
+        40,
+        100
+      ],
+      "misc": [
+        12,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1400,
+        2200,
+        3500
+      ],
+      "utilities": [
+        160,
+        240,
+        360
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-23",
+      "note": "三档是城市编辑预算，非酒店、餐厅实时报价或市场最低最高价。住宿每间每晚，餐饮、当地交通及杂项每成人每天；租金及水电每间每月。房税、目的地费、停车、小费与大型活动期间溢价需另核；远郊租车和门票不包含在市内交通中。"
+    },
+    "transportNote": "市中心可步行，但天文台、博物馆、火山和峡谷分布较远。大峡谷南缘单程通常约1.5小时或更久，务必独立整日；冬季结冰、积雪与高海拔需留弹性。",
+    "attractions": [
+      {
+        "id": "flagstaff-lowell",
+        "name": "洛厄尔天文台",
+        "nameEn": "Lowell Observatory",
+        "lat": 35.2027,
+        "lng": -111.6646,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 120,
+          "recommended": 180,
+          "max": 270
+        },
+        "activityType": "culture",
+        "category": "观星体验",
+        "description": "了解冥王星发现与天文学，在条件允许时通过望远镜看天空；日夜项目、云量和预约会影响体验，不能保证晴夜。",
+        "features": [
+          "观星体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 98,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://lowell.edu/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 30,
+          "high": 50,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://lowell.edu/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Lowell Observatory",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lowell_Observatory"
+        }
+      },
+      {
+        "id": "flagstaff-downtown",
+        "name": "历史市中心与66号公路",
+        "nameEn": "Downtown Flagstaff",
+        "lat": 35.1975,
+        "lng": -111.6517,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "从火车站周边看旅馆霓虹和老街建筑，慢逛小店、喝咖啡，感受公路城镇的节奏。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 95,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Flagstaff station",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Flagstaff_station"
+        }
+      },
+      {
+        "id": "flagstaff-northern-arizona",
+        "name": "北亚利桑那博物馆",
+        "nameEn": "Museum of Northern Arizona",
+        "lat": 35.2357,
+        "lng": -111.6654,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "地方文化馆",
+        "description": "从艺术、自然与文化展览认识科罗拉多高原，关注地方与原住民叙事，而非只把这里当峡谷过夜点。",
+        "features": [
+          "地方文化馆",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 94,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://musnaz.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://musnaz.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Museum of Northern Arizona",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museum_of_Northern_Arizona"
+        }
+      },
+      {
+        "id": "flagstaff-riordan",
+        "name": "里奥丹宅邸州立历史公园",
+        "nameEn": "Riordan Mansion State Historic Park",
+        "lat": 35.1895,
+        "lng": -111.6618,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 60,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "历史建筑",
+        "description": "通过宅邸建筑了解木材工业时代的家庭生活，内部参观通常按导览安排，先查班次。",
+        "features": [
+          "历史建筑",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 89,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://azstateparks.com/riordan-mansion",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 10,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://azstateparks.com/riordan-mansion",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Riordan Mansion State Historic Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Riordan_Mansion_State_Historic_Park"
+        }
+      },
+      {
+        "id": "flagstaff-walnut-canyon",
+        "name": "核桃峡谷遗址 · 半日",
+        "nameEn": "Walnut Canyon National Monument",
+        "lat": 35.1712,
+        "lng": -111.5093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 240,
+          "max": 330
+        },
+        "activityType": "culture",
+        "category": "峡谷遗址",
+        "description": "在许可步道上看峡谷崖壁遗址，Island Trail 有较多台阶；独立预留出城往返，不进入封闭遗迹。",
+        "features": [
+          "峡谷遗址",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 91,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.nps.gov/waca/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/waca/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "费用按车辆、入园方式与通行证规则待核；不能把车辆入园费当成人票。往返交通、路况和步道开放另查。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Walnut Canyon National Monument",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Walnut_Canyon_National_Monument"
+        }
+      },
+      {
+        "id": "flagstaff-sunset-crater",
+        "name": "日落火山熔岩步道 · 半日",
+        "nameEn": "Sunset Crater Volcano National Monument",
+        "lat": 35.371,
+        "lng": -111.5431,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 4.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 240,
+          "max": 360
+        },
+        "activityType": "culture",
+        "category": "火山自然",
+        "description": "沿开放熔岩步道看火山地貌与松林，不攀登禁止进入的火山锥；需独立往返交通和道路查询。",
+        "features": [
+          "火山自然",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.nps.gov/sucr/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/sucr/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "园区费用按车辆和通行证待核，不能直接按成人乘算；与 Wupatki 的票据互通规则应看官网，勿重复购买。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Sunset Crater",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sunset_Crater"
+        }
+      },
+      {
+        "id": "flagstaff-wupatki",
+        "name": "乌帕特基遗址 · 远郊半日",
+        "nameEn": "Wupatki National Monument",
+        "lat": 35.5202,
+        "lng": -111.3712,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 180,
+          "recommended": 300,
+          "max": 420
+        },
+        "activityType": "culture",
+        "category": "文化遗址",
+        "description": "在高原开阔地貌中认识普韦布洛遗址和地方历史，夏季注意高温补水；出城较远，和火山环线组合要另留整日。",
+        "features": [
+          "文化遗址",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 88,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.nps.gov/wupa/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/wupa/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "园区按车辆、通行证与联合门票规则核费；未按成人填入车辆费，金额待核且不代表免费。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Wupatki National Monument",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wupatki_National_Monument"
+        }
+      },
+      {
+        "id": "flagstaff-grand-canyon",
+        "name": "大峡谷南缘 · 远郊整日",
+        "nameEn": "Grand Canyon South Rim",
+        "lat": 36.0591,
+        "lng": -112.1093,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 10.0,
+        "durationRange": {
+          "min": 420,
+          "recommended": 600,
+          "max": 720
+        },
+        "activityType": "leisure",
+        "category": "国家公园",
+        "description": "从弗拉格斯塔夫到南缘通常约1.5小时或更久单程，选择观景点与一段 Rim Trail 即可。独立留全天和往返，不把下到谷底再返回当普通一日散步。",
+        "features": [
+          "国家公园",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 99,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.nps.gov/grca/planyourvisit/fees.htm",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nps.gov/grca/planyourvisit/fees.htm",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "费用待按居民身份、年龄、车辆及年票核算，不表示免费。标准私家车票35美元按车而非按人；2026年16岁及以上非美国居民另有每人100美元附加费，符合有效通行证规则的情况除外。租车、油费与交通另计。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Grand Canyon National Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Canyon_National_Park"
+        }
+      },
+      {
+        "id": "flagstaff-arboretum",
+        "name": "弗拉格斯塔夫树木园",
+        "nameEn": "The Arboretum at Flagstaff",
+        "lat": 35.1607,
+        "lng": -111.731,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 210
+        },
+        "activityType": "culture",
+        "category": "植物园",
+        "description": "在高海拔花园认识本地植物，开放有季节限制；通往树木园的道路与到达方式先确认。",
+        "features": [
+          "植物园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 82,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://thearb.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 10,
+          "high": 20,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://thearb.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "金额为成人一次入场编辑预算，未核验所选日期票价；税费、附加项目、特殊展览及预约以经营者为准。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "The Arboretum at Flagstaff",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Arboretum_at_Flagstaff"
+        }
+      },
+      {
+        "id": "flagstaff-snowbowl",
+        "name": "Arizona Snowbowl 山地整日",
+        "nameEn": "Arizona Snowbowl",
+        "lat": 35.331,
+        "lng": -111.7102,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 8.0,
+        "durationRange": {
+          "min": 360,
+          "recommended": 480,
+          "max": 660
+        },
+        "activityType": "culture",
+        "category": "远郊山地体验",
+        "description": "按季节选择缆车或滑雪，海拔明显升高，天气与道路会改变开放；独立留交通、装备和课程时间。",
+        "features": [
+          "远郊山地体验",
+          "整日可选"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.snowbowl.ski/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "missing",
+          "checkedAt": null,
+          "sourceUrl": "https://www.snowbowl.ski/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "滑雪票、观光缆车、装备、课程和停车是不同项目，所选日期费用待核；不得把夏季缆车估算当作冬季滑雪总价。",
+          "budgetUpdatedAt": "2026-09-23",
+          "missingPrice": true
+        },
+        "article": "Arizona Snowbowl",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Arizona_Snowbowl"
+        },
+        "photoFile": "Snowbowl at Sunset-Fall 2021.jpg",
+        "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Snowbowl_at_Sunset-Fall_2021.jpg",
+        "imageContextNote": "Snowbowl 山坡的秋季日落实景，非冬季雪况；拍于 2021 年。"
+      },
+      {
+        "id": "flagstaff-elden",
+        "name": "Elden Pueblo 遗址短访",
+        "nameEn": "Elden Pueblo",
+        "lat": 35.2454,
+        "lng": -111.5569,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "文化遗址",
+        "description": "沿开放区域认识祖先普韦布洛聚落，保护遗址并遵守现场标识；参观仅限开放步道。",
+        "features": [
+          "文化遗址",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 79,
+        "automaticPlanning": false,
+        "visitRole": "optional",
+        "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Elden_Pueblo"
+        },
+        "noArticle": true
+      },
+      {
+        "id": "flagstaff-buffalo-park",
+        "name": "Buffalo Park 松林与山景",
+        "nameEn": "Buffalo Park",
+        "lat": 35.2219,
+        "lng": -111.631,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "城市公园",
+        "description": "在高原开阔步道看群山和草地，步行比驾车更能感受清凉山城；日晒强，带水与防晒。",
+        "features": [
+          "城市公园",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 86,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "article": "Buffalo Park",
+        "image": {
+          "sourceUrl": "https://en.wikipedia.org/wiki/Buffalo_Park"
+        }
+      },
+      {
+        "id": "flagstaff-southside",
+        "name": "Southside 街区与绿皮书历史",
+        "nameEn": "Southside Flagstaff",
+        "lat": 35.194,
+        "lng": -111.6514,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "leisure",
+        "category": "历史街区",
+        "description": "从铁路南侧的街道和官方自助导览线索，认识公路旅行、少数族裔社群与小城生活。",
+        "features": [
+          "历史街区",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 81,
+        "automaticPlanning": true,
+        "visitRole": "neighborhood",
+        "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "noArticle": true,
+        "image": {
+          "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/"
+        }
+      },
+      {
+        "id": "flagstaff-coconino-arts",
+        "name": "Coconino 艺术中心",
+        "nameEn": "Coconino Center for the Arts",
+        "lat": 35.2245,
+        "lng": -111.6547,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "坐标为所述游览区域或场馆的近似位置，实际入口、接驳和集合点请按官网确认。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "activityType": "culture",
+        "category": "艺术体验",
+        "description": "看看地方艺术展览与创作者的表达，音乐会和工作坊需另查日期与费用；普通展览开放也应先确认。",
+        "features": [
+          "艺术体验",
+          "自由选择"
+        ],
+        "bestTime": "依开放日、季节与天气安排；夜间项目请核对场次",
+        "priority": 78,
+        "automaticPlanning": true,
+        "visitRole": "highlight",
+        "sourceUrl": "https://coconinoarts.org/",
+        "sourceCheckedAt": "2026-09-23",
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "USD",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://coconinoarts.org/",
+          "sourceName": "官方旅游或场馆内容参考；金额为编辑预算",
+          "note": "仅公共区域按零门票规划；消费、导览、特别活动、预约与停车另核。",
+          "budgetUpdatedAt": "2026-09-23"
+        },
+        "image": {
+          "sourceUrl": "https://coconinoarts.org/"
+        },
+        "noArticle": true
+      }
+    ],
+    "image": {
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flagstaff%2C_Arizona"
+    },
+    "guide": {
+      "cityId": "flagstaff",
+      "intro": "在六十六号公路和暗夜星空之间，慢慢走进科罗拉多高原。",
+      "foodHighlights": [
+        {
+          "name": "原住民风味炸面饼",
+          "description": "炸面饼可作甜点或搭肉豆成为正餐，是在北亚利桑那了解地方饮食的一种入口。"
+        },
+        {
+          "name": "咖啡馆扭纹炸面圈",
+          "description": "蓬松扭纹炸面圈适合搭晨间咖啡；市中心烘焙咖啡馆常见，不宣称为本城发明。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Downtown 与 Route 66",
+          "description": "老旅馆招牌、铁路和小店适合慢逛。"
+        },
+        {
+          "name": "Southside",
+          "description": "在历史街区找咖啡与小型餐馆，了解公路旅行背后的不同社群故事。"
+        }
+      ],
+      "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+    }
+  }
+]

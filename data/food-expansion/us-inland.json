@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "food-us-orlando-cuban",
+    "cityIds": [
+      "orlando"
+    ],
+    "name": "古巴三明治",
+    "localName": "Cuban sandwich",
+    "description": "烤猪肉、火腿、奶酪和酸黄瓜压烤成热三明治，是佛罗里达常见的午餐选择。",
+    "article": "Cuban sandwich",
+    "sourceUrl": "https://www.visitorlando.com/blog/post/orlando-budget-bites/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Cuban sandwich food",
+    "whereByCity": {
+      "orlando": [
+        {
+          "name": "Downtown Orlando",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Downtown%20Orlando%20Cuban%20sandwich",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Winter Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Winter%20Park%20Cuban%20sandwich",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-orlando-pho",
+    "cityIds": [
+      "orlando"
+    ],
+    "name": "越南河粉",
+    "localName": "Phở",
+    "description": "Mills 50 的越南餐饮是城市饮食的一部分，一碗清汤河粉适合乐园之外的轻松正餐。",
+    "article": "Pho",
+    "sourceUrl": "https://www.visitorlando.com/things-to-do/beyond-theme-parks/neighborhoods/mills-50/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Phở food",
+    "whereByCity": {
+      "orlando": [
+        {
+          "name": "Mills 50",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Mills%2050%20Ph%E1%BB%9F",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-orlando-banh-mi",
+    "cityIds": [
+      "orlando"
+    ],
+    "name": "越式法包",
+    "localName": "Bánh mì",
+    "description": "法包夹肉、腌蔬菜和香草，点单可询问辣椒与香菜；属于当地越南社区风味。",
+    "article": "Bánh mì",
+    "sourceUrl": "https://www.visitorlando.com/blog/post/orlando-budget-bites/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Bánh mì food",
+    "whereByCity": {
+      "orlando": [
+        {
+          "name": "Mills 50",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Mills%2050%20B%C3%A1nh%20m%C3%AC",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-orlando-mofongo",
+    "cityIds": [
+      "orlando"
+    ],
+    "name": "波多黎各炸青蕉泥",
+    "localName": "Mofongo",
+    "description": "捣碎炸青蕉配蒜香与肉类或海鲜，体现中佛州的波多黎各饮食传统。",
+    "article": "Mofongo",
+    "sourceUrl": "https://www.experiencekissimmee.com/kissimmee-latin-culinary-trail",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Mofongo food",
+    "whereByCity": {
+      "orlando": [
+        {
+          "name": "Kissimmee",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Kissimmee%20Mofongo",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Orlando",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20South%20Orlando%20Mofongo",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-orlando-key-lime",
+    "cityIds": [
+      "orlando"
+    ],
+    "name": "青柠派",
+    "localName": "Key lime pie",
+    "description": "酸甜青柠馅配饼底，是佛罗里达地区甜点选择，适合分享一块；并非奥兰多独有。",
+    "article": "Key lime pie",
+    "sourceUrl": "https://www.visitflorida.com/travel-ideas/articles/eat-drink-la-savina-mediterranean-grill-mondrian-south-beach/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Key lime pie food",
+    "whereByCity": {
+      "orlando": [
+        {
+          "name": "Winter Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20Winter%20Park%20Key%20lime%20pie",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "International Drive",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Orlando%2C%20Florida%20International%20Drive%20Key%20lime%20pie",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-new-orleans-beignet",
+    "cityIds": [
+      "new-orleans"
+    ],
+    "name": "糖粉法式炸面饼",
+    "localName": "Beignets",
+    "description": "现炸面团撒糖粉，适合配咖啡分享；吃时留意糖粉很容易飞散。",
+    "article": "Beignet",
+    "sourceUrl": "https://www.neworleans.com/restaurants/traditional-new-orleans-foods/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Beignets food",
+    "whereByCity": {
+      "new-orleans": [
+        {
+          "name": "French Quarter",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20French%20Quarter%20Beignets",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "City Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20City%20Park%20Beignets",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-new-orleans-gumbo",
+    "cityIds": [
+      "new-orleans"
+    ],
+    "name": "路易斯安那秋葵浓汤",
+    "localName": "Gumbo",
+    "description": "浓郁汤汁常配米饭，鸡肉香肠与海鲜版本风味不同；下单前确认配料与过敏原。",
+    "article": "Gumbo",
+    "sourceUrl": "https://www.neworleans.com/restaurants/traditional-new-orleans-foods/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Gumbo food",
+    "whereByCity": {
+      "new-orleans": [
+        {
+          "name": "French Quarter",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20French%20Quarter%20Gumbo",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Tremé",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Trem%C3%A9%20Gumbo",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-new-orleans-poboy",
+    "cityIds": [
+      "new-orleans"
+    ],
+    "name": "穷小子三明治",
+    "localName": "Po’ boy",
+    "description": "酥壳法式长面包夹炸虾、牡蛎或烤牛肉，份量通常适合当一顿正餐。",
+    "article": "Po' boy",
+    "sourceUrl": "https://www.neworleans.com/restaurants/traditional-new-orleans-foods/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Po’ boy food",
+    "whereByCity": {
+      "new-orleans": [
+        {
+          "name": "Mid-City",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Mid-City%20Po%E2%80%99%20boy",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "French Quarter",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20French%20Quarter%20Po%E2%80%99%20boy",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-new-orleans-muffuletta",
+    "cityIds": [
+      "new-orleans"
+    ],
+    "name": "橄榄沙拉圆面包三明治",
+    "localName": "Muffuletta",
+    "description": "大圆面包夹冷切肉、奶酪和橄榄沙拉，点半份或与同伴分享更从容。",
+    "article": "Muffuletta",
+    "sourceUrl": "https://www.neworleans.com/restaurants/traditional-new-orleans-foods/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Muffuletta food",
+    "whereByCity": {
+      "new-orleans": [
+        {
+          "name": "French Quarter",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20French%20Quarter%20Muffuletta",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-new-orleans-jambalaya",
+    "cityIds": [
+      "new-orleans"
+    ],
+    "name": "克里奥尔什锦饭",
+    "localName": "Jambalaya",
+    "description": "把米饭与肉类、香肠或海鲜同煮，番茄与香料的用法因店家而异。",
+    "article": "Jambalaya",
+    "sourceUrl": "https://www.neworleans.com/restaurants/traditional-new-orleans-foods/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Jambalaya food",
+    "whereByCity": {
+      "new-orleans": [
+        {
+          "name": "French Quarter",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20French%20Quarter%20Jambalaya",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Warehouse District",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=New%20Orleans%20Warehouse%20District%20Jambalaya",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-nashville-hot-chicken",
+    "cityIds": [
+      "nashville"
+    ],
+    "name": "纳什维尔辣炸鸡",
+    "localName": "Nashville hot chicken",
+    "description": "炸鸡外覆辣油与香料，可从微辣开始；常配白面包和酸黄瓜。",
+    "article": "Hot chicken",
+    "sourceUrl": "https://www.visitmusiccity.com/nashville-trip-ideas/foodie-track",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Nashville hot chicken food",
+    "whereByCity": {
+      "nashville": [
+        {
+          "name": "Midtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Midtown%20Nashville%20hot%20chicken",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Downtown%20Nashville%20hot%20chicken",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-nashville-meat-three",
+    "cityIds": [
+      "nashville"
+    ],
+    "name": "一荤三配菜",
+    "localName": "Meat and three",
+    "description": "选一份主菜搭三样南方配菜，自由组合豆类、蔬菜和土豆，是感受地方日常的一餐。",
+    "article": "Meat and three",
+    "sourceUrl": "https://www.visitmusiccity.com/nashville-trip-ideas/foodie-track",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Meat and three food",
+    "whereByCity": {
+      "nashville": [
+        {
+          "name": "Germantown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Germantown%20Meat%20and%20three",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Midtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Midtown%20Meat%20and%20three",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-nashville-pulled-pork",
+    "cityIds": [
+      "nashville"
+    ],
+    "name": "烟熏手撕猪肉",
+    "localName": "Pulled pork barbecue",
+    "description": "慢熏猪肉撕成肉丝，可做三明治或拼盘，酱汁与配菜按店家风格选择。",
+    "article": "Pulled pork",
+    "sourceUrl": "https://www.visitmusiccity.com/nashville-trip-ideas/foodie-track",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Pulled pork barbecue food",
+    "whereByCity": {
+      "nashville": [
+        {
+          "name": "The Gulch",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20The%20Gulch%20Pulled%20pork%20barbecue",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "12 South",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%2012%20South%20Pulled%20pork%20barbecue",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Pulled pork, baked beans and mac & cheese from Peg Leg Porker in Nashville, TN.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Pulled_pork%2C_baked_beans_and_mac_%26_cheese_from_Peg_Leg_Porker_in_Nashville%2C_TN.jpg",
+    "imageContextNote": "图片为纳什维尔 Peg Leg Porker 的手撕猪肉配菜拼盘，拍于 2021 年；当前份量与配菜以菜单为准。",
+    "photoNote": "图片为纳什维尔 Peg Leg Porker 的手撕猪肉配菜拼盘，拍于 2021 年；当前份量与配菜以菜单为准。"
+  },
+  {
+    "id": "food-us-nashville-biscuits",
+    "cityIds": [
+      "nashville"
+    ],
+    "name": "南方式酥饼早餐",
+    "localName": "Biscuits and gravy",
+    "description": "松软美式酥饼配肉汁，是温暖扎实的早餐；不同店家的肉汁可能含猪肉。",
+    "article": "Biscuits and gravy",
+    "sourceUrl": "https://www.visitmusiccity.com/nashville-trip-ideas/nashville-weekend",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Biscuits and gravy food",
+    "whereByCity": {
+      "nashville": [
+        {
+          "name": "Biscuit Love",
+          "kind": "restaurant",
+          "sourceUrl": "https://www.visitmusiccity.com/nashville-businesses/biscuit-love/6237",
+          "sourceCheckedAt": "2026-09-23",
+          "note": "官方旅游页面介绍的南方早餐店；分店菜单、候位和营业请店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-nashville-banana-pudding",
+    "cityIds": [
+      "nashville"
+    ],
+    "name": "香蕉布丁",
+    "localName": "Banana pudding",
+    "description": "香蕉、奶油布丁与饼干层叠的小甜点，常作为炸鸡或烧烤后的甜口收尾。",
+    "article": "Banana pudding",
+    "sourceUrl": "https://www.visitmusiccity.com/nashville-trip-ideas/foodie-track",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Banana pudding food",
+    "whereByCity": {
+      "nashville": [
+        {
+          "name": "Midtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Midtown%20Banana%20pudding",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nashville%2C%20Tennessee%20Downtown%20Banana%20pudding",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-austin-brisket",
+    "cityIds": [
+      "austin"
+    ],
+    "name": "德州烟熏牛胸肉",
+    "localName": "Texas smoked brisket",
+    "description": "慢熏牛胸肉按肥瘦与重量点选，常配面包、酸黄瓜和配菜；热门店要给排队留时间。",
+    "article": "Barbecue in Texas",
+    "sourceUrl": "https://www.austintexas.org/austin-insider-blog/blog/post/the-ultimate-guide-to-austin-barbecue/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "food-family",
+    "photoStatus": "pending-download",
+    "imageQuery": "Texas smoked brisket food",
+    "whereByCity": {
+      "austin": [
+        {
+          "name": "East Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20East%20Austin%20Texas%20smoked%20brisket",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20South%20Austin%20Texas%20smoked%20brisket",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoNote": "图片展示德州烧烤拼盘，非奥斯汀指定餐厅的实际出品，牛胸肉和配菜按店家菜单选择。"
+  },
+  {
+    "id": "food-us-austin-breakfast-taco",
+    "cityIds": [
+      "austin"
+    ],
+    "name": "早餐塔可",
+    "localName": "Breakfast tacos",
+    "description": "玉米或面粉饼夹鸡蛋、豆子、奶酪与肉类，一次点两三种口味很适合早餐。",
+    "article": "Breakfast taco",
+    "sourceUrl": "https://www.austintexas.org/food-and-drink/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Breakfast tacos food",
+    "whereByCity": {
+      "austin": [
+        {
+          "name": "East Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20East%20Austin%20Breakfast%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South First Street",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20South%20First%20Street%20Breakfast%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "BreakfastTaco.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:BreakfastTaco.jpg"
+  },
+  {
+    "id": "food-us-austin-queso",
+    "cityIds": [
+      "austin"
+    ],
+    "name": "热奶酪蘸酱",
+    "localName": "Chile con queso",
+    "description": "暖热奶酪与辣椒做成蘸酱配玉米片，适合作为多人分享的前菜。",
+    "article": "Chile con queso",
+    "sourceUrl": "https://www.austintexas.org/food-and-drink/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Chile con queso food",
+    "whereByCity": {
+      "austin": [
+        {
+          "name": "South Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20South%20Austin%20Chile%20con%20queso",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20Downtown%20Chile%20con%20queso",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-austin-migas",
+    "cityIds": [
+      "austin"
+    ],
+    "name": "脆玉米片炒蛋",
+    "localName": "Tex-Mex migas",
+    "description": "鸡蛋与玉米片、蔬菜、辣椒一起炒，可单盘吃或包进塔可；这是 Tex-Mex 风格，不同于伊比利亚面包菜。",
+    "article": null,
+    "sourceUrl": "https://www.austintexas.org/explore/cultural-heritage/latino-austin/food-drink/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Tex-Mex migas food",
+    "whereByCity": {
+      "austin": [
+        {
+          "name": "East Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20East%20Austin%20Tex-Mex%20migas",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Austin",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Austin%2C%20Texas%20South%20Austin%20Tex-Mex%20migas",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-austin-kolache",
+    "cityIds": [
+      "austin"
+    ],
+    "name": "捷克裔德州果馅面包",
+    "localName": "Kolache",
+    "description": "柔软面团中央放果酱或奶酪馅，常见于德州烘焙店；香肠卷通常是另一种咸味做法。",
+    "article": null,
+    "sourceUrl": "https://www.austintexas.org/listings/san-francisco-bakery-%26-caf%C3%A9/15222/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Kolache food",
+    "whereByCity": {
+      "austin": [
+        {
+          "name": "San Francisco Bakery & Café",
+          "kind": "restaurant",
+          "sourceUrl": "https://www.austintexas.org/listings/san-francisco-bakery-%26-caf%C3%A9/15222/",
+          "sourceCheckedAt": "2026-09-23",
+          "note": "官方旅游页面介绍其供应 kolaches；当前口味、份量和营业请店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-san-antonio-puffy-taco",
+    "cityIds": [
+      "san-antonio"
+    ],
+    "name": "蓬松炸塔可",
+    "localName": "Puffy tacos",
+    "description": "玉米面饼炸得鼓起再夹肉和蔬菜，趁热吃酥松口感；是圣安东尼奥很有辨识度的一口。",
+    "article": null,
+    "sourceUrl": "https://www.visitsanantonio.com/in-the-news/post/the-ultimate-texas-hill-country-road-trip-includes-tree-houses-tubing-and-tacos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "pending-download",
+    "imageQuery": "Puffy tacos food",
+    "whereByCity": {
+      "san-antonio": [
+        {
+          "name": "Westside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Westside%20Puffy%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Northwest Side",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Northwest%20Side%20Puffy%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "Puffy taco.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Puffy_taco.jpg"
+  },
+  {
+    "id": "food-us-san-antonio-breakfast-tacos",
+    "cityIds": [
+      "san-antonio"
+    ],
+    "name": "早餐塔可",
+    "localName": "Breakfast tacos",
+    "description": "鸡蛋、土豆、豆泥或肉类装进面饼，适合用几种小份口味开启一天。",
+    "article": "Breakfast taco",
+    "sourceUrl": "https://www.visitsanantonio.com/restaurants-and-nightlife/dining/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Breakfast tacos food",
+    "whereByCity": {
+      "san-antonio": [
+        {
+          "name": "Westside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Westside%20Breakfast%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Southtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Southtown%20Breakfast%20tacos",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "BreakfastTaco.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:BreakfastTaco.jpg"
+  },
+  {
+    "id": "food-us-san-antonio-barbacoa",
+    "cityIds": [
+      "san-antonio"
+    ],
+    "name": "慢炖牛肉塔可",
+    "localName": "Barbacoa",
+    "description": "把慢煮软烂的肉配玉米饼与莎莎酱，店家部位和辣度不同；周末更值得留意。",
+    "article": "Barbacoa",
+    "sourceUrl": "https://www.visitsanantonio.com/restaurants-and-nightlife/dining/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "food-family",
+    "photoStatus": "pending-download",
+    "imageQuery": "Barbacoa food",
+    "whereByCity": {
+      "san-antonio": [
+        {
+          "name": "Westside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Westside%20Barbacoa",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Southtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Southtown%20Barbacoa",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoNote": "图片展示牛肉 barbacoa 塔可，拍于芝加哥，作为菜品形态参考；圣安东尼奥各店做法与配菜可能不同。",
+    "photoFile": "Barbacoa taco.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Barbacoa_taco.jpg",
+    "imageContextNote": "图片展示牛肉 barbacoa 塔可，拍于芝加哥，作为菜品形态参考；圣安东尼奥各店做法与配菜可能不同。"
+  },
+  {
+    "id": "food-us-san-antonio-pan-dulce",
+    "cityIds": [
+      "san-antonio"
+    ],
+    "name": "墨西哥甜面包",
+    "localName": "Pan dulce",
+    "description": "在烘焙柜选贝壳面包等甜面包，配咖啡当早餐或下午茶，花色与口味由当天出炉决定。",
+    "article": "Pan dulce",
+    "sourceUrl": "https://www.visitsanantonio.com/restaurants-and-nightlife/dining-guides/sweet-tooth/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Pan dulce food",
+    "whereByCity": {
+      "san-antonio": [
+        {
+          "name": "Market Square",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Market%20Square%20Pan%20dulce",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Westside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Westside%20Pan%20dulce",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-san-antonio-enchilada",
+    "cityIds": [
+      "san-antonio"
+    ],
+    "name": "德州墨式辣酱卷饼",
+    "localName": "Tex-Mex enchiladas",
+    "description": "玉米饼包馅后覆酱汁与奶酪，配米饭和豆子是一份完整正餐。",
+    "article": "Enchilada",
+    "sourceUrl": "https://www.visitsanantonio.com/restaurants-and-nightlife/dining/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Tex-Mex enchiladas food",
+    "whereByCity": {
+      "san-antonio": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Downtown%20Tex-Mex%20enchiladas",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Southtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Antonio%20Southtown%20Tex-Mex%20enchiladas",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-denver-green-chile",
+    "cityIds": [
+      "denver"
+    ],
+    "name": "绿辣椒炖酱",
+    "localName": "Colorado green chile",
+    "description": "带炖肉与烤绿辣椒香气的浓酱常浇在卷饼或早餐上，点单先确认辣度和是否含猪肉。",
+    "article": null,
+    "sourceUrl": "https://visitdenver.com/blog/post/green-chile/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Colorado green chile food",
+    "whereByCity": {
+      "denver": [
+        {
+          "name": "Federal Boulevard",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Federal%20Boulevard%20Colorado%20green%20chile",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Broadway",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20South%20Broadway%20Colorado%20green%20chile",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-denver-omelet",
+    "cityIds": [
+      "denver"
+    ],
+    "name": "丹佛煎蛋卷",
+    "localName": "Denver omelet",
+    "description": "鸡蛋卷入火腿、洋葱和青椒，是经典美式早午餐口味，可搭土豆或吐司。",
+    "article": null,
+    "sourceUrl": "https://www.denver.org/blog/post/where-to-have-a-great-breakfast-in-denver/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Denver omelet food",
+    "whereByCity": {
+      "denver": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Downtown%20Denver%20omelet",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Capitol Hill",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Capitol%20Hill%20Denver%20omelet",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-denver-bison",
+    "cityIds": [
+      "denver"
+    ],
+    "name": "美洲野牛肉料理",
+    "localName": "Bison burger / bison entrée",
+    "description": "科罗拉多餐厅常见的地方牧场肉类，可选汉堡或正餐做法；照片与菜单以具体菜式为准。",
+    "article": null,
+    "sourceUrl": "https://visitdenver.com/things-to-do/attractions/museums-historical-attractions/old-west-attractions/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Bison burger / bison entrée food",
+    "whereByCity": {
+      "denver": [
+        {
+          "name": "LoDo",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20LoDo%20Bison%20burger%20/%20bison%20entr%C3%A9e",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Berkeley",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Berkeley%20Bison%20burger%20/%20bison%20entr%C3%A9e",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-denver-mountain-oysters",
+    "cityIds": [
+      "denver"
+    ],
+    "name": "落基山“牡蛎”",
+    "localName": "Rocky Mountain oysters",
+    "description": "名称里的牡蛎并非海鲜，实际是裹粉油炸的牛睾丸；适合愿意尝试牧场饮食传统的人。",
+    "article": "Rocky Mountain oysters",
+    "sourceUrl": "https://visitdenver.com/blog/post/rocky-mountain-oysters-denver/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Rocky Mountain oysters food",
+    "whereByCity": {
+      "denver": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Downtown%20Rocky%20Mountain%20oysters",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Morrison",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Morrison%20Rocky%20Mountain%20oysters",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-denver-frybread",
+    "cityIds": [
+      "denver"
+    ],
+    "name": "原住民风味炸面饼",
+    "localName": "Frybread",
+    "description": "炸面饼可配豆子、蔬菜与肉类，尝试时也可了解经营者呈现的原住民当代饮食。",
+    "article": "Frybread",
+    "sourceUrl": "https://visitdenver.com/things-to-do/attractions/museums-historical-attractions/old-west-attractions/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Frybread food",
+    "whereByCity": {
+      "denver": [
+        {
+          "name": "Berkeley",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Denver%20Berkeley%20Frybread",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-salt-lake-city-pastrami-burger",
+    "cityIds": [
+      "salt-lake-city"
+    ],
+    "name": "烟熏牛肉汉堡",
+    "localName": "Pastrami burger",
+    "description": "牛肉汉堡上再叠一层热 pastrami，咸香份量足，是盐湖城很有地方感的快餐选择。",
+    "article": null,
+    "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/where-to-eat-in-salt-lake/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Pastrami burger food",
+    "whereByCity": {
+      "salt-lake-city": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Downtown%20Pastrami%20burger",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Salt Lake",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20South%20Salt%20Lake%20Pastrami%20burger",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-salt-lake-city-fry-sauce",
+    "cityIds": [
+      "salt-lake-city"
+    ],
+    "name": "薯条配粉色蘸酱",
+    "localName": "Fry sauce",
+    "description": "当地汉堡店常见的番茄酱与蛋黄酱风格蘸酱，配一份薯条尝试各店差异。",
+    "article": "Fry sauce",
+    "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/where-to-eat-in-salt-lake/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Fry sauce food",
+    "whereByCity": {
+      "salt-lake-city": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Downtown%20Fry%20sauce",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Sugar House",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Sugar%20House%20Fry%20sauce",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-salt-lake-city-funeral-potatoes",
+    "cityIds": [
+      "salt-lake-city"
+    ],
+    "name": "犹他芝士焗土豆",
+    "localName": "Funeral potatoes",
+    "description": "奶酪、土豆与酥脆顶层烤成的家常菜，名字来自聚会与慰问餐传统，并非只能在葬礼吃。",
+    "article": "Funeral potatoes",
+    "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/where-to-eat-in-salt-lake/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Funeral potatoes food",
+    "whereByCity": {
+      "salt-lake-city": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Downtown%20Funeral%20potatoes",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "South Salt Lake",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20South%20Salt%20Lake%20Funeral%20potatoes",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-salt-lake-city-utah-scone",
+    "cityIds": [
+      "salt-lake-city"
+    ],
+    "name": "犹他蜂蜜黄油炸面饼",
+    "localName": "Utah scones",
+    "description": "这里的 scone 是蓬松炸面团，常配蜂蜜黄油，与英式司康口感不同。",
+    "article": null,
+    "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/where-to-eat-in-salt-lake/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Utah scones food",
+    "whereByCity": {
+      "salt-lake-city": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Downtown%20Utah%20scones",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Sugar House",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Sugar%20House%20Utah%20scones",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-salt-lake-city-dirty-soda",
+    "cityIds": [
+      "salt-lake-city"
+    ],
+    "name": "犹他风味混合汽水",
+    "localName": "Dirty soda",
+    "description": "以汽水配糖浆、果味或奶油组成的无酒精饮品，可按喜好调整甜度。",
+    "article": "Dirty soda",
+    "sourceUrl": "https://www.visitsaltlake.com/blog/stories/post/where-to-eat-in-salt-lake/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Dirty soda food",
+    "whereByCity": {
+      "salt-lake-city": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Downtown%20Dirty%20soda",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Sugar House",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salt%20Lake%20City%20Sugar%20House%20Dirty%20soda",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-flagstaff-frybread",
+    "cityIds": [
+      "flagstaff"
+    ],
+    "name": "原住民风味炸面饼",
+    "localName": "Native American frybread",
+    "description": "炸面饼可作甜点或搭肉豆成为正餐，是在北亚利桑那了解地方饮食的一种入口。",
+    "article": "Frybread",
+    "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Native American frybread food",
+    "whereByCity": {
+      "flagstaff": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Downtown%20Native%20American%20frybread",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-flagstaff-cruller",
+    "cityIds": [
+      "flagstaff"
+    ],
+    "name": "咖啡馆扭纹炸面圈",
+    "localName": "French cruller",
+    "description": "外侧带纹路、内部轻盈的法式炸面圈适合搭晨间咖啡；可在市中心 Tourist Home 留意当日烘焙，并把早餐与 Southside 漫步安排在一起。",
+    "article": "Cruller",
+    "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Cruller food",
+    "whereByCity": {
+      "flagstaff": [
+        {
+          "name": "Southside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Southside%20Cruller",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoFile": "French-Cruller-Donut.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:French-Cruller-Donut.jpg",
+    "imageContextNote": "图片展示法式圈形 cruller，来自美国连锁店，作为甜点形态参考；非弗拉格斯塔夫指定咖啡馆出品。",
+    "photoNote": "图片展示法式圈形 cruller，来自美国连锁店，作为甜点形态参考；非弗拉格斯塔夫指定咖啡馆出品。"
+  },
+  {
+    "id": "food-us-flagstaff-mexican-chocolate",
+    "cityIds": [
+      "flagstaff"
+    ],
+    "name": "墨西哥巧克力甜点",
+    "localName": "Mexican chocolate dessert",
+    "description": "用可可与香料表达墨西哥风味，可选择慕斯等做法；含酒精、奶制品和坚果情况向店家确认。",
+    "article": null,
+    "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Mexican chocolate dessert food",
+    "whereByCity": {
+      "flagstaff": [
+        {
+          "name": "East Route 66",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20East%20Route%2066%20Mexican%20chocolate%20dessert",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-flagstaff-craft-beer",
+    "cityIds": [
+      "flagstaff"
+    ],
+    "name": "高原精酿啤酒",
+    "localName": "Flagstaff craft beer",
+    "description": "从本地酒厂挑少量不同风格尝试，也可选择无酒精饮品；饮酒后不要安排自驾。",
+    "article": null,
+    "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "none",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Flagstaff craft beer food",
+    "whereByCity": {
+      "flagstaff": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Downtown%20Flagstaff%20craft%20beer",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Southside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Southside%20Flagstaff%20craft%20beer",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。"
+  },
+  {
+    "id": "food-us-flagstaff-roasted-coffee",
+    "cityIds": [
+      "flagstaff"
+    ],
+    "name": "山城本地烘焙咖啡",
+    "localName": "Locally roasted coffee",
+    "description": "市中心咖啡馆适合观星后的慢早餐或步行休息，先问烘焙和冲煮风格再点单。",
+    "article": "Coffee",
+    "sourceUrl": "https://www.flagstaffarizona.org/things-to-do/discover-flagstaffs-top-21-must-dos/",
+    "sourceStatus": "official-reference",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceScope": "regional-food-reference",
+    "catalogOrigin": "maintained-definition",
+    "articleScope": "dish",
+    "photoStatus": "pending-download",
+    "imageQuery": "Locally roasted coffee food",
+    "whereByCity": {
+      "flagstaff": [
+        {
+          "name": "Downtown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Downtown%20Locally%20roasted%20coffee",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        },
+        {
+          "name": "Southside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Flagstaff%2C%20Arizona%20Southside%20Locally%20roasted%20coffee",
+          "note": "从这里寻找供应这类食物的店家；所选日期的菜单、份量和价格请向店家确认。"
+        }
+      ]
+    },
+    "servingNote": "在每日餐饮预算中选择，不重复添加固定门票费用。单品价格、份量、税费和小费请查看当日菜单；地区常见食物不等于本城独有。",
+    "photoNote": "咖啡成品参考，不代表弗拉格斯塔夫指定咖啡馆或当地豆种。"
+  }
+]

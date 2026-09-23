@@ -1,0 +1,1201 @@
+[
+  {
+    "id": "food-us-san-francisco-cioppino",
+    "cityIds": [
+      "san-francisco"
+    ],
+    "name": "旧金山海鲜番茄炖汤",
+    "localName": "Cioppino",
+    "description": "番茄汤底与鱼贝海鲜组成的一锅热汤，适合配酸种面包；海鲜种类与份量随餐馆菜单变化。",
+    "article": "Cioppino",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sftravel.com/article/iconic-san-francisco-eats-drinks-every-visitor-must-try",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Cioppino San Francisco food",
+    "whereByCity": {
+      "san-francisco": [
+        {
+          "name": "Fisherman's Wharf",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20Fisherman%27s%20Wharf%20Cioppino",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-francisco-sourdough",
+    "cityIds": [
+      "san-francisco"
+    ],
+    "name": "旧金山酸种面包",
+    "localName": "San Francisco sourdough",
+    "description": "外壳结实、带发酵酸香的面包，可单买或选择装浓汤的面包碗；套餐内容另核。",
+    "article": "Sourdough",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sftravel.com/article/iconic-san-francisco-eats-drinks-every-visitor-must-try",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "San Francisco sourdough San Francisco food",
+    "whereByCity": {
+      "san-francisco": [
+        {
+          "name": "Fisherman's Wharf",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20Fisherman%27s%20Wharf%20San%20Francisco%20sourdough",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-francisco-burrito",
+    "cityIds": [
+      "san-francisco"
+    ],
+    "name": "米慎风味大卷饼",
+    "localName": "Mission burrito",
+    "description": "饼皮卷入米饭、豆类、肉和莎莎酱，份量常较足；可按喜好选择肉类和辣度。",
+    "article": "Mission burrito",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sftravel.com/article/iconic-san-francisco-eats-drinks-every-visitor-must-try",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Mission burrito San Francisco food",
+    "whereByCity": {
+      "san-francisco": [
+        {
+          "name": "Mission District",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20Mission%20District%20Mission%20burrito",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-francisco-irish-coffee",
+    "cityIds": [
+      "san-francisco"
+    ],
+    "name": "爱尔兰咖啡",
+    "localName": "Irish coffee",
+    "description": "热咖啡、威士忌与奶油的组合，在海湾寒风中是有故事的一杯；含酒精，点单前确认。",
+    "article": "Irish coffee",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sftravel.com/article/iconic-san-francisco-eats-drinks-every-visitor-must-try",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Irish coffee San Francisco food",
+    "whereByCity": {
+      "san-francisco": [
+        {
+          "name": "Fisherman's Wharf",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20Fisherman%27s%20Wharf%20Irish%20coffee",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-francisco-dim-sum",
+    "cityIds": [
+      "san-francisco"
+    ],
+    "name": "唐人街粤式点心",
+    "localName": "Dim sum",
+    "description": "虾饺、烧卖和包点可按小份分享，适合作为唐人街慢逛时的一顿早午餐。",
+    "article": "Dim sum",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sftravel.com/article/iconic-san-francisco-eats-drinks-every-visitor-must-try",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Dim sum San Francisco food",
+    "whereByCity": {
+      "san-francisco": [
+        {
+          "name": "Chinatown",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20Chinatown%20Dim%20sum",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-seattle-salmon",
+    "cityIds": [
+      "seattle"
+    ],
+    "name": "太平洋西北鲑鱼料理",
+    "localName": "Pacific Northwest salmon",
+    "description": "可以选择烤制或烟熏的鲑鱼料理；鱼种、产地和捕捞季节以店家菜单为准。",
+    "article": "Salmon as food",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://visitseattle.org/food-drink/restaurants/eat-local/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Pacific Northwest salmon Seattle food",
+    "whereByCity": {
+      "seattle": [
+        {
+          "name": "Pike Place Market",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seattle%20Pike%20Place%20Market%20Pacific%20Northwest%20salmon",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "雪松板烤三文鱼的成品实拍；配菜与鱼种以实际菜单为准。",
+    "photoFile": "Cedar-Planked Salmon with couscous, spinach, tomatoes and olives.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Cedar-Planked_Salmon_with_couscous%2C_spinach%2C_tomatoes_and_olives.jpg"
+  },
+  {
+    "id": "food-us-seattle-chowder",
+    "cityIds": [
+      "seattle"
+    ],
+    "name": "蛤蜊浓汤",
+    "localName": "Clam chowder",
+    "description": "奶香浓汤里有蛤蜊与土豆，可选杯、碗或面包碗，适合市场午餐。",
+    "article": "Clam chowder",
+    "articleScope": "dish",
+    "sourceUrl": "https://visitseattle.org/food-drink/restaurants/eat-local/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Clam chowder Seattle food",
+    "whereByCity": {
+      "seattle": [
+        {
+          "name": "Pike Place Market",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seattle%20Pike%20Place%20Market%20Clam%20chowder",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-seattle-teriyaki",
+    "cityIds": [
+      "seattle"
+    ],
+    "name": "西雅图照烧饭",
+    "localName": "Seattle-style teriyaki",
+    "description": "甜咸酱汁烤肉配米饭与简单配菜，是在社区小馆可以寻找的轻松一餐。",
+    "article": "Teriyaki",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://visitseattle.org/food-drink/restaurants/best-comfort-food-restaurants-in-seattle/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Seattle-style teriyaki Seattle food",
+    "whereByCity": {
+      "seattle": [
+        {
+          "name": "University District",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seattle%20University%20District%20Seattle-style%20teriyaki",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片展示西雅图地区照烧鸡饭的常见搭配，不代表每家餐馆都使用相同配方。",
+    "photoFile": "Chicken Teriyaki (with rice and slaw) at Toshi’s Teriyaki Grill, Seattle, Washington.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Teriyaki_%28with_rice_and_slaw%29_at_Toshi%E2%80%99s_Teriyaki_Grill%2C_Seattle%2C_Washington.jpg"
+  },
+  {
+    "id": "food-us-seattle-oysters",
+    "cityIds": [
+      "seattle"
+    ],
+    "name": "西北海岸生蚝",
+    "localName": "Pacific Northwest oysters",
+    "description": "按产区与大小点单的贝类体验，可选熟制做法；当天品种和是否本地养殖向餐馆确认。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://visitseattle.org/food-drink/restaurants/eat-local/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Pacific Northwest oysters Seattle food",
+    "whereByCity": {
+      "seattle": [
+        {
+          "name": "Capitol Hill",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seattle%20Capitol%20Hill%20Pacific%20Northwest%20oysters",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+  },
+  {
+    "id": "food-us-seattle-coffee",
+    "cityIds": [
+      "seattle"
+    ],
+    "name": "西雅图咖啡馆的一杯",
+    "localName": "Seattle coffee",
+    "description": "从浓缩到奶咖，选择一家社区咖啡馆坐一会；这是咖啡文化体验，并非限定某家连锁店。",
+    "article": "Espresso",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://visitseattle.org/food-drink/restaurants/eat-local/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Seattle coffee Seattle food",
+    "whereByCity": {
+      "seattle": [
+        {
+          "name": "Capitol Hill",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Seattle%20Capitol%20Hill%20Seattle%20coffee",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为同类饮食参考，不代表特定餐馆、配方或鱼种；实际做法以菜单为准。"
+  },
+  {
+    "id": "food-us-san-diego-fish-taco",
+    "cityIds": [
+      "san-diego"
+    ],
+    "name": "巴哈风味鱼塔可",
+    "localName": "Baja-style fish taco",
+    "description": "鱼肉配卷心菜、酱汁和饼皮，炸鱼或烤鱼版本都常见，可先点两份再补。",
+    "article": "Fish taco",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sandiego.org/food-drink",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Baja-style fish taco San Diego food",
+    "whereByCity": {
+      "san-diego": [
+        {
+          "name": "Barrio Logan",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20Barrio%20Logan%20Baja-style%20fish%20taco",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Baja Style Fish taco, Fried rock fish, cabbage, heirloom tomato, avocado, Serrano chile, lime, crema, herbs - 18511248695.jpg",
+    "photoNote": "图片展示 Baja 风格炸鱼塔可，不代表指定圣迭戈店家的当前菜单。",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Baja_Style_Fish_taco%2C_Fried_rock_fish%2C_cabbage%2C_heirloom_tomato%2C_avocado%2C_Serrano_chile%2C_lime%2C_crema%2C_herbs_-_18511248695.jpg"
+  },
+  {
+    "id": "food-us-san-diego-california-burrito",
+    "cityIds": [
+      "san-diego"
+    ],
+    "name": "加州薯条牛肉卷饼",
+    "localName": "California burrito",
+    "description": "将烤牛肉与薯条一起卷入饼皮，饱腹感强；是否含奶酪和鳄梨酱以菜单为准。",
+    "article": "California burrito",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sandiego.org/press-release/san-diego-tourism-authority-celebrates-national-burrito-day-by-honoring-the",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "California burrito San Diego food",
+    "whereByCity": {
+      "san-diego": [
+        {
+          "name": "North Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20North%20Park%20California%20burrito",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "C&F California Burrito - bisected.jpg",
+    "photoNote": "圣迭戈 California burrito 的剖面实拍；实际馅料、份量与价格以店家菜单为准。",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:C%26F_California_Burrito_-_bisected.jpg"
+  },
+  {
+    "id": "food-us-san-diego-carne-asada-fries",
+    "cityIds": [
+      "san-diego"
+    ],
+    "name": "烤牛肉薯条",
+    "localName": "Carne asada fries",
+    "description": "薯条上加烤牛肉与酱料，适合多人分享的小食或正餐，份量先问清。",
+    "article": "Carne asada fries",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sandiego.org/food-drink",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Carne asada fries San Diego food",
+    "whereByCity": {
+      "san-diego": [
+        {
+          "name": "North Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20North%20Park%20Carne%20asada%20fries",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-diego-ceviche",
+    "cityIds": [
+      "san-diego"
+    ],
+    "name": "酸橘汁腌海鲜",
+    "localName": "Ceviche",
+    "description": "以柑橘酸味突出海鲜口感，可能含生或未完全熟制海鲜；也可询问熟制替代。",
+    "article": "Ceviche",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.sandiego.org/food-drink",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Ceviche San Diego food",
+    "whereByCity": {
+      "san-diego": [
+        {
+          "name": "Barrio Logan",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20Barrio%20Logan%20Ceviche",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-san-diego-craft-beer",
+    "cityIds": [
+      "san-diego"
+    ],
+    "name": "圣迭戈精酿啤酒",
+    "localName": "San Diego craft beer",
+    "description": "当地酒馆可比较不同啤酒风格，小杯尝味比一次点满杯更便于选择；仅适合达到法定饮酒年龄者。",
+    "article": "India pale ale",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.sandiego.org/food-drink",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "San Diego craft beer San Diego food",
+    "whereByCity": {
+      "san-diego": [
+        {
+          "name": "North Park",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20North%20Park%20San%20Diego%20craft%20beer",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为加州 Stone Brewing 的一款精酿啤酒示例，不代表当前有售酒款或限定产地。",
+    "photoFile": "Stone Imperial Black IPA.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Stone_Imperial_Black_IPA.jpg"
+  },
+  {
+    "id": "food-us-las-vegas-shrimp-cocktail",
+    "cityIds": [
+      "las-vegas"
+    ],
+    "name": "经典冷虾鸡尾杯",
+    "localName": "Shrimp cocktail",
+    "description": "冷虾搭番茄辣酱是老派餐厅常见前菜，适合在老城寻找一份轻开胃菜。",
+    "article": "Prawn cocktail",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.goldengatecasino.com/blog/history-of-shrimp-cocktail-las-vegas/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Shrimp cocktail Las Vegas food",
+    "whereByCity": {
+      "las-vegas": [
+        {
+          "name": "Downtown Las Vegas",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Downtown%20Las%20Vegas%20Shrimp%20cocktail",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-las-vegas-prime-rib",
+    "cityIds": [
+      "las-vegas"
+    ],
+    "name": "慢烤牛肋排",
+    "localName": "Prime rib",
+    "description": "按切片份量选择慢烤牛肋排，熟度、配菜和是否套餐要看菜单；不代表固定的优惠餐。",
+    "article": "Standing rib roast",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitlasvegas.com/experience/post/the-best-rooftop-bars-and-restaurants-in-las-vegas/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Prime rib Las Vegas food",
+    "whereByCity": {
+      "las-vegas": [
+        {
+          "name": "Downtown Las Vegas",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Downtown%20Las%20Vegas%20Prime%20rib",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Magnolia's prime rib.jpg",
+    "photoNote": "图片展示拉斯维加斯餐厅的烤肋眼成品，供认识菜式；不代表当前摆盘或价格。",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Magnolia%27s_prime_rib.jpg"
+  },
+  {
+    "id": "food-us-las-vegas-steak",
+    "cityIds": [
+      "las-vegas"
+    ],
+    "name": "牛排馆晚餐",
+    "localName": "Steakhouse steak",
+    "description": "可比较部位、重量和熟度，配菜常单独收费；是城市常见用餐选择，并非本地独有菜系。",
+    "article": "Beefsteak",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Steakhouse steak Las Vegas food",
+    "whereByCity": {
+      "las-vegas": [
+        {
+          "name": "Las Vegas Strip",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Las%20Vegas%20Strip%20Steakhouse%20steak",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-las-vegas-buffet",
+    "cityIds": [
+      "las-vegas"
+    ],
+    "name": "度假酒店自助餐",
+    "localName": "Las Vegas buffet",
+    "description": "适合想在一餐比较多种口味的人；早餐、午餐、晚餐及饮料套餐价格不同，需要预约时段。",
+    "article": "Buffet",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitlasvegas.com/experience/post/buffets-on-and-off-the-strip/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Las Vegas buffet Las Vegas food",
+    "whereByCity": {
+      "las-vegas": [
+        {
+          "name": "Las Vegas Strip",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Las%20Vegas%20Strip%20Las%20Vegas%20buffet",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "The Buffet at Bellagio, Las Vegas - 5306609356.jpg",
+    "photoNote": "图片为拉斯维加斯 Bellagio 自助餐的历史用餐实拍，菜品与营业安排以当天菜单为准。",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Buffet_at_Bellagio%2C_Las_Vegas_-_5306609356.jpg"
+  },
+  {
+    "id": "food-us-las-vegas-tacos",
+    "cityIds": [
+      "las-vegas"
+    ],
+    "name": "拉斯维加斯塔可小馆",
+    "localName": "Tacos",
+    "description": "大道外和老城都可寻找不同墨西哥风味小馆，按份选择肉馅与酱汁，适合轻松午餐。",
+    "article": "Taco",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.visitlasvegas.com/experience/post/top-5-things-to-do-in-las-vegas/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Tacos Las Vegas food",
+    "whereByCity": {
+      "las-vegas": [
+        {
+          "name": "Downtown Las Vegas",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Las%20Vegas%20Downtown%20Las%20Vegas%20Tacos",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-portland-doughnut",
+    "cityIds": [
+      "portland"
+    ],
+    "name": "波特兰甜甜圈",
+    "localName": "Portland doughnuts",
+    "description": "从基础糖霜到创意口味都可以小份尝试，购买前留意甜度与是否含坚果。",
+    "article": "Doughnut",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.travelportland.com/culture/food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Portland doughnuts Portland, Oregon food",
+    "whereByCity": {
+      "portland": [
+        {
+          "name": "Downtown Portland",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Portland%2C%20Oregon%20Downtown%20Portland%20Portland%20doughnuts",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-portland-marionberry",
+    "cityIds": [
+      "portland"
+    ],
+    "name": "俄勒冈莓果派",
+    "localName": "Marionberry pie",
+    "description": "以俄勒冈常见的 Marionberry 莓果做馅，酸甜与酥皮相配；季节和当天烘焙供应需看店家。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://traveloregon.com/things-to-do/eat-drink/artisan-producers/oregons-pit-stop-worthy-pies/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Marionberry pie Portland, Oregon food",
+    "whereByCity": {
+      "portland": [
+        {
+          "name": "Pearl District",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Portland%2C%20Oregon%20Pearl%20District%20Marionberry%20pie",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+  },
+  {
+    "id": "food-us-portland-coffee",
+    "cityIds": [
+      "portland"
+    ],
+    "name": "独立烘焙咖啡",
+    "localName": "Portland coffee",
+    "description": "找一家独立烘焙店比较浓缩或手冲，给街区慢逛安排一段真正的休息。",
+    "article": "Espresso",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.travelportland.com/culture/food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Portland coffee Portland, Oregon food",
+    "whereByCity": {
+      "portland": [
+        {
+          "name": "Alberta Arts District",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Portland%2C%20Oregon%20Alberta%20Arts%20District%20Portland%20coffee",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为同类饮食参考，不代表特定餐馆、配方或鱼种；实际做法以菜单为准。"
+  },
+  {
+    "id": "food-us-portland-chicken-rice",
+    "cityIds": [
+      "portland"
+    ],
+    "name": "餐车泰式鸡饭",
+    "localName": "Khao man gai",
+    "description": "米饭、鸡肉与酱汁的组合适合餐车午餐，泰式版本常以酱料见长，可以边逛边选择当天想吃的一份。",
+    "article": "Hainanese chicken rice",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.travelportland.com/culture/food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Khao man gai Portland, Oregon food",
+    "whereByCity": {
+      "portland": [
+        {
+          "name": "Downtown Portland",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Portland%2C%20Oregon%20Downtown%20Portland%20Khao%20man%20gai",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片展示波特兰的泰式鸡饭成品，不代表每家店的份量、配方或当前菜单。",
+    "photoFile": "Khao Man Gai at Nong's Khao Man Gai.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Khao_Man_Gai_at_Nong%27s_Khao_Man_Gai.jpg"
+  },
+  {
+    "id": "food-us-portland-vegan-burger",
+    "cityIds": [
+      "portland"
+    ],
+    "name": "植物汉堡与素食餐车",
+    "localName": "Vegan burger",
+    "description": "豆类、蔬菜或植物蛋白做成不同口感的汉堡，点餐时确认奶酪、酱料是否也为纯素。",
+    "article": "Veggie burger",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.travelportland.com/culture/food/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Vegan burger Portland, Oregon food",
+    "whereByCity": {
+      "portland": [
+        {
+          "name": "Hawthorne",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Portland%2C%20Oregon%20Hawthorne%20Vegan%20burger",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-monterey-calamari",
+    "cityIds": [
+      "monterey"
+    ],
+    "name": "蒙特雷鱿鱼料理",
+    "localName": "Calamari",
+    "description": "可选择炸鱿鱼、烤制或其他海鲜做法，适合分享；当天渔获产地需向店家确认。",
+    "article": "Squid as food",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.seemonterey.com/food-drink/made-in-monterey/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Calamari Monterey, California food",
+    "whereByCity": {
+      "monterey": [
+        {
+          "name": "Cannery Row",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monterey%2C%20California%20Cannery%20Row%20Calamari",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoFile": "Deep-fried Calamari Rings.jpg",
+    "photoNote": "图片为炸鱿鱼圈的做法参考，不代表特定蒙特雷餐厅或已核验的鱿鱼产地。",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Deep-fried_Calamari_Rings.jpg"
+  },
+  {
+    "id": "food-us-monterey-chowder",
+    "cityIds": [
+      "monterey"
+    ],
+    "name": "码头蛤蜊浓汤",
+    "localName": "Clam chowder",
+    "description": "在海风中吃一碗奶香蛤蜊浓汤，可选小杯或面包碗，避免把试吃当作完整正餐。",
+    "article": "Clam chowder",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.seemonterey.com/food-drink/made-in-monterey/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Clam chowder Monterey, California food",
+    "whereByCity": {
+      "monterey": [
+        {
+          "name": "Old Fisherman's Wharf",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monterey%2C%20California%20Old%20Fisherman%27s%20Wharf%20Clam%20chowder",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-monterey-artichoke",
+    "cityIds": [
+      "monterey"
+    ],
+    "name": "卡斯特罗维尔风味洋蓟",
+    "localName": "Castroville artichokes",
+    "description": "附近产区的洋蓟可蒸、烤或做成炸小食，点单时问清可食部位与酱汁搭配。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.seemonterey.com/food-drink/made-in-monterey/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Castroville artichokes Monterey, California food",
+    "whereByCity": {
+      "monterey": [
+        {
+          "name": "Downtown Monterey",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monterey%2C%20California%20Downtown%20Monterey%20Castroville%20artichokes",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+  },
+  {
+    "id": "food-us-monterey-fish-chips",
+    "cityIds": [
+      "monterey"
+    ],
+    "name": "海边炸鱼薯条",
+    "localName": "Fish and chips",
+    "description": "鱼柳与薯条适合轻松海边午餐，鱼种、份量与酱料看当日菜单。",
+    "article": "Fish and chips",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.seemonterey.com/food-drink/made-in-monterey/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Fish and chips Monterey, California food",
+    "whereByCity": {
+      "monterey": [
+        {
+          "name": "Old Fisherman's Wharf",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monterey%2C%20California%20Old%20Fisherman%27s%20Wharf%20Fish%20and%20chips",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-monterey-cioppino",
+    "cityIds": [
+      "monterey"
+    ],
+    "name": "海鲜番茄炖汤",
+    "localName": "Cioppino",
+    "description": "加州海岸常见的鱼贝炖汤，可在码头或海岸餐馆寻找，海鲜组合会随供货变化。",
+    "article": "Cioppino",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.seemonterey.com/food-drink/made-in-monterey/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Cioppino Monterey, California food",
+    "whereByCity": {
+      "monterey": [
+        {
+          "name": "Cannery Row",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monterey%2C%20California%20Cannery%20Row%20Cioppino",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-honolulu-poke",
+    "cityIds": [
+      "honolulu"
+    ],
+    "name": "夏威夷拌鱼",
+    "localName": "Poke",
+    "description": "切块鱼肉与调味料拌成的岛屿风味，可按重量或饭碗选择；含生鱼版本需按个人饮食需求决定。",
+    "article": "Poke (dish)",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gohawaii.com/experiences/culinary-experiences",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Poke Honolulu, Oahu food",
+    "whereByCity": {
+      "honolulu": [
+        {
+          "name": "Ala Moana",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Honolulu%2C%20Oahu%20Ala%20Moana%20Poke",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-honolulu-loco-moco",
+    "cityIds": [
+      "honolulu"
+    ],
+    "name": "洛科莫科肉饼蛋饭",
+    "localName": "Loco moco",
+    "description": "米饭上放肉饼、煎蛋与肉汁，份量通常充足，可作为一顿正餐。",
+    "article": "Loco moco",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gohawaii.com/experiences/culinary-experiences",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Loco moco Honolulu, Oahu food",
+    "whereByCity": {
+      "honolulu": [
+        {
+          "name": "Kapahulu",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Honolulu%2C%20Oahu%20Kapahulu%20Loco%20moco",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-honolulu-shave-ice",
+    "cityIds": [
+      "honolulu"
+    ],
+    "name": "夏威夷刨冰",
+    "localName": "Shave ice",
+    "description": "细冰配不同糖浆，红豆、冰淇淋等常为加料；适合沙滩午后的一份清凉甜品。",
+    "article": "Shave ice",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gohawaii.com/experiences/culinary-experiences",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Shave ice Honolulu, Oahu food",
+    "whereByCity": {
+      "honolulu": [
+        {
+          "name": "Waikiki",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Honolulu%2C%20Oahu%20Waikiki%20Shave%20ice",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-honolulu-malasada",
+    "cityIds": [
+      "honolulu"
+    ],
+    "name": "马拉萨达糖衣炸面包",
+    "localName": "Malasada",
+    "description": "热炸面团撒糖，可选原味或夹馅，适合少量分享；这是夏威夷多元饮食中的常见甜点。",
+    "article": "Malassada",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gohawaii.com/experiences/culinary-experiences",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Malasada Honolulu, Oahu food",
+    "whereByCity": {
+      "honolulu": [
+        {
+          "name": "Kapahulu",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Honolulu%2C%20Oahu%20Kapahulu%20Malasada",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-honolulu-plate-lunch",
+    "cityIds": [
+      "honolulu"
+    ],
+    "name": "夏威夷拼盘饭",
+    "localName": "Plate lunch",
+    "description": "米饭、通心粉沙拉与自选主菜搭配，适合尝试不同族群融合而来的家常口味。",
+    "article": "Plate lunch",
+    "articleScope": "dish",
+    "sourceUrl": "https://www.gohawaii.com/experiences/culinary-experiences",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Plate lunch Honolulu, Oahu food",
+    "whereByCity": {
+      "honolulu": [
+        {
+          "name": "Downtown Honolulu",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Honolulu%2C%20Oahu%20Downtown%20Honolulu%20Plate%20lunch",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-us-anchorage-salmon",
+    "cityIds": [
+      "anchorage"
+    ],
+    "name": "阿拉斯加鲑鱼料理",
+    "localName": "Alaska salmon",
+    "description": "可尝试烤制、烟熏等做法，鱼种与新鲜或冷冻供应随季节变化，向餐馆确认产地。",
+    "article": "Salmon as food",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.anchorage.net/restaurants/downtown/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Alaska salmon Anchorage, Alaska food",
+    "whereByCity": {
+      "anchorage": [
+        {
+          "name": "Downtown Anchorage",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anchorage%2C%20Alaska%20Downtown%20Anchorage%20Alaska%20salmon",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为烤三文鱼的做法参考，不代表特定餐厅或已核验的阿拉斯加鱼种来源。",
+    "photoFile": "Grilled salmon garnished with lemon and parsley.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Grilled_salmon_garnished_with_lemon_and_parsley.jpg"
+  },
+  {
+    "id": "food-us-anchorage-reindeer",
+    "cityIds": [
+      "anchorage"
+    ],
+    "name": "驯鹿香肠热狗",
+    "localName": "Reindeer sausage",
+    "description": "阿拉斯加街头常见的香肠吃法，可能混合其他肉类；在市集或小馆点单前查看成分。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.anchorage.net/restaurants/downtown/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Reindeer sausage Anchorage, Alaska food",
+    "whereByCity": {
+      "anchorage": [
+        {
+          "name": "Downtown Anchorage",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anchorage%2C%20Alaska%20Downtown%20Anchorage%20Reindeer%20sausage",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+  },
+  {
+    "id": "food-us-anchorage-halibut",
+    "cityIds": [
+      "anchorage"
+    ],
+    "name": "大比目鱼炸鱼薯条",
+    "localName": "Halibut fish and chips",
+    "description": "用白肉鱼做炸鱼配薯条，菜单标明 Halibut 时再确认鱼种与份量，适合作为简单的一顿午餐。",
+    "article": "Fish and chips",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.anchorage.net/restaurants/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Halibut fish and chips Anchorage, Alaska food",
+    "whereByCity": {
+      "anchorage": [
+        {
+          "name": "Downtown Anchorage",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anchorage%2C%20Alaska%20Downtown%20Anchorage%20Halibut%20fish%20and%20chips",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为同类饮食参考，不代表特定餐馆、配方或鱼种；实际做法以菜单为准。"
+  },
+  {
+    "id": "food-us-anchorage-crab",
+    "cityIds": [
+      "anchorage"
+    ],
+    "name": "阿拉斯加蟹腿",
+    "localName": "Alaska crab legs",
+    "description": "按重量或套餐供应的蟹腿通常价格较高，先确认品种、时价和是否含配菜再决定。",
+    "article": null,
+    "articleScope": "dish",
+    "sourceUrl": "https://www.anchorage.net/restaurants/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "needs-food-photo",
+    "imageQuery": "Alaska crab legs Anchorage, Alaska food",
+    "whereByCity": {
+      "anchorage": [
+        {
+          "name": "Downtown Anchorage",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anchorage%2C%20Alaska%20Downtown%20Anchorage%20Alaska%20crab%20legs",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "暂无可核验的对应食物实拍，使用主题插画，不代表实际菜品。"
+  },
+  {
+    "id": "food-us-anchorage-pancakes",
+    "cityIds": [
+      "anchorage"
+    ],
+    "name": "酸种早餐松饼",
+    "localName": "Sourdough pancakes",
+    "description": "带发酵风味的早餐松饼适合配咖啡，糖浆、鸡蛋与肉类常有不同套餐组合。",
+    "article": "Pancake",
+    "articleScope": "dish-family",
+    "sourceUrl": "https://www.anchorage.net/restaurants/downtown/",
+    "sourceCheckedAt": "2026-09-23",
+    "sourceStatus": "official-regional-reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "servingNote": "特色食物作为每日餐饮选择，不重复叠加固定门票。份量、菜单、服务费、小费及税费请向店家确认。",
+    "photoStatus": "pending-download",
+    "imageQuery": "Sourdough pancakes Anchorage, Alaska food",
+    "whereByCity": {
+      "anchorage": [
+        {
+          "name": "Downtown Anchorage",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anchorage%2C%20Alaska%20Downtown%20Anchorage%20Sourdough%20pancakes",
+          "note": "以该街区为查找起点；此链接是餐饮检索，不承诺任一店家当天供应或已核验菜单。"
+        }
+      ]
+    },
+    "photoNote": "图片为同类饮食参考，不代表特定餐馆、配方或鱼种；实际做法以菜单为准。"
+  }
+]

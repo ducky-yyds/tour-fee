@@ -3173,5 +3173,665 @@
       }
     ],
     "experienceIntro": "一天精选一个主要文化或自然体验，再给附近街区、湖岸和吃饭留出慢时间；清单是备选，不是需要全部完成的任务。"
+  },
+  {
+    "cityId": "san-francisco",
+    "intro": "海湾雾气、电车坡道与不同移民街区，让城市的风景和餐桌同样值得慢慢探索。",
+    "foodHighlights": [
+      {
+        "name": "旧金山海鲜番茄炖汤",
+        "description": "番茄汤底与鱼贝海鲜组成的一锅热汤，适合配酸种面包；海鲜种类与份量随餐馆菜单变化。"
+      },
+      {
+        "name": "旧金山酸种面包",
+        "description": "外壳结实、带发酵酸香的面包，可单买或选择装浓汤的面包碗；套餐内容另核。"
+      },
+      {
+        "name": "米慎风味大卷饼",
+        "description": "饼皮卷入米饭、豆类、肉和莎莎酱，份量常较足；可按喜好选择肉类和辣度。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "渔人码头与 Pier 39 海狮",
+        "description": "沿码头看渔船、海狮与海湾，停下来吃海鲜；公共岸线零门票，商店、餐厅和游船另付费。"
+      },
+      {
+        "name": "唐人街巷弄与点心",
+        "description": "从龙门往 Grant Avenue 和周边街巷漫走，观察会馆、杂货店和点心铺；可以与北滩组合成一段有餐饮停留的城市散步。"
+      },
+      {
+        "name": "米慎区壁画与墨西哥卷饼",
+        "description": "在街巷壁画和 Valencia Street 小店间走走，选一家 taqueria 吃卷饼；看画时尊重住户和工作中的商家。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "seattle",
+    "intro": "从派克市场和海滨步道走进咖啡馆、玻璃艺术与湖畔社区，晴天再看雪山轮廓。",
+    "foodHighlights": [
+      {
+        "name": "太平洋西北鲑鱼料理",
+        "description": "可以选择烤制或烟熏的鲑鱼料理；鱼种、产地和捕捞季节以店家菜单为准。"
+      },
+      {
+        "name": "蛤蜊浓汤",
+        "description": "奶香浓汤里有蛤蜊与土豆，可选杯、碗或面包碗，适合市场午餐。"
+      },
+      {
+        "name": "西雅图照烧饭",
+        "description": "甜咸酱汁烤肉配米饭与简单配菜，是在社区小馆可以寻找的轻松一餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "海滨步道与 Overlook Walk",
+        "description": "从市场一侧步行到海边平台和码头，边走边看轮渡；水族馆、摩天轮和游船是独立付费项目。"
+      },
+      {
+        "name": "先锋广场老城散步",
+        "description": "砖楼、画廊和小广场适合白天慢逛，也能结合附近午餐；地下城导览需另购票。"
+      },
+      {
+        "name": "凯瑞公园城市天际线",
+        "description": "在小观景平台看太空针塔和城区层次，日落前可短暂停留；上坡交通和候车也要留时间。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "san-diego",
+    "intro": "把海滩午后、巴尔博亚文化园和墨西哥风味分开安排，享受南加州不赶路的节奏。",
+    "foodHighlights": [
+      {
+        "name": "巴哈风味鱼塔可",
+        "description": "鱼肉配卷心菜、酱汁和饼皮，炸鱼或烤鱼版本都常见，可先点两份再补。"
+      },
+      {
+        "name": "加州薯条牛肉卷饼",
+        "description": "将烤牛肉与薯条一起卷入饼皮，饱腹感强；是否含奶酪和鳄梨酱以菜单为准。"
+      },
+      {
+        "name": "烤牛肉薯条",
+        "description": "薯条上加烤牛肉与酱料，适合多人分享的小食或正餐，份量先问清。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "煤气灯街区与晚餐",
+        "description": "在维多利亚式街面和餐馆间走走，可接晚餐；清单不包含酒吧消费或活动票。"
+      },
+      {
+        "name": "小意大利广场与咖啡",
+        "description": "在广场、咖啡馆和意式餐馆之间休息，遇到农夫市场再多留时间；周末常需等位。"
+      },
+      {
+        "name": "日落崖海岸步道",
+        "description": "沿开放步道看海浪与落日，留在护栏和安全距离内；潮汐洞穴不纳入普通散步路线。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "las-vegas",
+    "intro": "大道灯光、演出与老城艺术街区构成不同的维加斯；白天留给展馆和休息，夜晚再出门。",
+    "foodHighlights": [
+      {
+        "name": "经典冷虾鸡尾杯",
+        "description": "冷虾搭番茄辣酱是老派餐厅常见前菜，适合在老城寻找一份轻开胃菜。"
+      },
+      {
+        "name": "慢烤牛肋排",
+        "description": "按切片份量选择慢烤牛肋排，熟度、配菜和是否套餐要看菜单；不代表固定的优惠餐。"
+      },
+      {
+        "name": "牛排馆晚餐",
+        "description": "可比较部位、重量和熟度，配菜常单独收费；是城市常见用餐选择，并非本地独有菜系。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "百乐宫室内花园",
+        "description": "看季节性花艺和大型布景，适合炎热时的短室内停留；布展更换期间可能受限。"
+      },
+      {
+        "name": "18b 艺术区画廊与咖啡",
+        "description": "逛 Main Street 周边画廊、古着店和咖啡馆，适合把下午留给老城另一种日常。"
+      },
+      {
+        "name": "威尼斯人运河商街",
+        "description": "在室内运河商街看建筑布景和橱窗，可接午餐；贡多拉是独立收费体验，不在免费步行内。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "portland",
+    "intro": "玫瑰花园、独立书店、咖啡和餐车让日程自然留白，街区散步比赶景点更适合这座城。",
+    "foodHighlights": [
+      {
+        "name": "波特兰甜甜圈",
+        "description": "从基础糖霜到创意口味都可以小份尝试，购买前留意甜度与是否含坚果。"
+      },
+      {
+        "name": "俄勒冈莓果派",
+        "description": "以俄勒冈常见的 Marionberry 莓果做馅，酸甜与酥皮相配；季节和当天烘焙供应需看店家。"
+      },
+      {
+        "name": "独立烘焙咖啡",
+        "description": "找一家独立烘焙店比较浓缩或手冲，给街区慢逛安排一段真正的休息。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "汤姆麦考尔滨水公园",
+        "description": "沿威拉米特河岸步行看桥和草坪，适合作为午后放松；大型活动期间部分区段会调整。"
+      },
+      {
+        "name": "珍珠区画廊与小店",
+        "description": "在仓库改造街区中逛画廊、设计店和咖啡馆，选择几家停留即可。"
+      },
+      {
+        "name": "阿尔伯塔艺术街区",
+        "description": "沿 Alberta Street 看壁画、独立店和餐馆，适合体验住宅街区的轻松节奏。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "monterey",
+    "intro": "在海獭出没的海湾、罐头厂旧街和海边小镇间慢游，给海风和水族馆留足时间。",
+    "foodHighlights": [
+      {
+        "name": "蒙特雷鱿鱼料理",
+        "description": "可选择炸鱿鱼、烤制或其他海鲜做法，适合分享；当天渔获产地需向店家确认。"
+      },
+      {
+        "name": "码头蛤蜊浓汤",
+        "description": "在海风中吃一碗奶香蛤蜊浓汤，可选小杯或面包碗，避免把试吃当作完整正餐。"
+      },
+      {
+        "name": "卡斯特罗维尔风味洋蓟",
+        "description": "附近产区的洋蓟可蒸、烤或做成炸小食，点单时问清可食部位与酱汁搭配。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "老渔人码头看海湾",
+        "description": "看渔船、海湾和海鲜餐馆，适合轻松午餐；观鲸船票与餐饮另付。"
+      },
+      {
+        "name": "蒙特雷湾海岸步道",
+        "description": "从码头往 Cannery Row 选择一段海岸步行或自费租车骑行，保持与野生动物的距离。"
+      },
+      {
+        "name": "丹尼斯淘气公园",
+        "description": "在湖边公园给亲子旅行留一段活动时间，游乐区开放和设备情况以现场为准。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "honolulu",
+    "intro": "威基基之外，还有夏威夷王国历史、市场小吃、山海步道与适合躺一下午的海岸。",
+    "foodHighlights": [
+      {
+        "name": "夏威夷拌鱼",
+        "description": "切块鱼肉与调味料拌成的岛屿风味，可按重量或饭碗选择；含生鱼版本需按个人饮食需求决定。"
+      },
+      {
+        "name": "洛科莫科肉饼蛋饭",
+        "description": "米饭上放肉饼、煎蛋与肉汁，份量通常充足，可作为一顿正餐。"
+      },
+      {
+        "name": "夏威夷刨冰",
+        "description": "细冰配不同糖浆，红豆、冰淇淋等常为加料；适合沙滩午后的一份清凉甜品。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "檀香山唐人街市场与小馆",
+        "description": "白天逛市场、花环店和各式亚洲小馆，适合安排午餐与一段城市日常。"
+      },
+      {
+        "name": "卡卡阿科壁画与咖啡",
+        "description": "在仓库街区看壁画和设计小店，选择几家咖啡或小餐馆停留；注意不要走入私人装卸区。"
+      },
+      {
+        "name": "阿拉莫阿纳海滨公园",
+        "description": "在海滨草地和步道放松，适合带简单午餐或等落日，零门票不包含设备租赁。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "anchorage",
+    "intro": "用博物馆认识阿拉斯加，再在海岸步道与山脚之间散步；季节会彻底改变白昼和玩法。",
+    "foodHighlights": [
+      {
+        "name": "阿拉斯加鲑鱼料理",
+        "description": "可尝试烤制、烟熏等做法，鱼种与新鲜或冷冻供应随季节变化，向餐馆确认产地。"
+      },
+      {
+        "name": "驯鹿香肠热狗",
+        "description": "阿拉斯加街头常见的香肠吃法，可能混合其他肉类；在市集或小馆点单前查看成分。"
+      },
+      {
+        "name": "大比目鱼炸鱼薯条",
+        "description": "用白肉鱼做炸鱼配薯条，菜单标明 Halibut 时再确认鱼种与份量，适合作为简单的一顿午餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Ship Creek 看溪流与鲑鱼季",
+        "description": "沿市区溪流观景，夏季可能看到洄游与垂钓场景；鱼情有季节性，垂钓须另办许可。"
+      },
+      {
+        "name": "第四大道与市中心街区",
+        "description": "从游客中心附近走到本地商店、公共艺术和餐馆，作为抵达后认识城市的第一段散步。"
+      }
+    ],
+    "experienceIntro": "在地标之外，选一段街区慢走、市场午餐或海岸休息；可选体验不要求全部加入日程。"
+  },
+  {
+    "cityId": "washington-dc",
+    "intro": "在纪念碑与免费博物馆之间读历史，也把傍晚留给乔治城河岸。",
+    "foodHighlights": [
+      {
+        "name": "华盛顿烟熏辣肠堡",
+        "description": "粗绞烟熏香肠夹入面包，常配辣肉酱与洋葱，适合当作简便午餐；配方和辣度因店而异。"
+      },
+      {
+        "name": "埃塞俄比亚英吉拉拼盘",
+        "description": "用微酸发酵薄饼搭配炖菜与蔬菜，适合分享，也是认识华盛顿移民饮食文化的一餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "乔治城",
+        "description": "沿运河、M街与波托马克河岸慢走，可安排独立半天。"
+      },
+      {
+        "name": "U街与Shaw",
+        "description": "音乐、社区餐馆与埃塞俄比亚饮食让首都呈现另一面。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "boston",
+    "intro": "沿红砖历史路线走进海港，也在书店、校园与意式小店里慢下来。",
+    "foodHighlights": [
+      {
+        "name": "新英格兰蛤蜊浓汤",
+        "description": "奶油汤底搭配蛤蜊和土豆，杯装可作前菜，面包碗通常更饱腹。"
+      },
+      {
+        "name": "龙虾卷",
+        "description": "龙虾肉夹入软面包，冷拌蛋黄酱与温热黄油是不同风格，点单前可确认。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "北端",
+        "description": "意式小店、旧教堂和港口步行可衔接成半天。"
+      },
+      {
+        "name": "后湾与Beacon Hill",
+        "description": "看红砖住宅、书店和城市花园，住宅小巷注意轻声。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "philadelphia",
+    "intro": "独立历史只是开场，市集、壁画和邻里三明治让费城更有日常味。",
+    "foodHighlights": [
+      {
+        "name": "费城芝士牛肉三明治",
+        "description": "薄切牛肉配融化芝士夹入长面包，点单时可选择芝士种类与是否加洋葱。"
+      },
+      {
+        "name": "意式烤猪肉三明治",
+        "description": "烤猪肉常搭配苦味绿叶菜与奶酪，比起牛肉三明治是另一种费城日常。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Old City",
+        "description": "历史建筑与小画廊集中，适合慢走和看街角细节。"
+      },
+      {
+        "name": "South Philadelphia",
+        "description": "意大利市场与三明治店可以组成一段吃逛路线。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "chicago",
+    "intro": "在建筑河道与密歇根湖边认识城市，再走进有自己味道的街区。",
+    "foodHighlights": [
+      {
+        "name": "芝加哥深盘披萨",
+        "description": "厚边饼皮里放入芝士和番茄酱，出炉需要时间且分量较大，适合分享。"
+      },
+      {
+        "name": "芝加哥热狗",
+        "description": "牛肉肠配罂粟籽面包、芥末、酸黄瓜和多种蔬菜，味道清脆丰富。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Loop与River North",
+        "description": "建筑、河道、餐馆集中，适合作为首次到访的核心。"
+      },
+      {
+        "name": "Pilsen与Lincoln Park",
+        "description": "壁画和墨西哥文化、湖边绿地呈现不同的城市日常。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "atlanta",
+    "intro": "从民权历史走向BeltLine步道，南方餐桌与创意街区都值得停留。",
+    "foodHighlights": [
+      {
+        "name": "南方炸鸡餐盘",
+        "description": "脆皮炸鸡搭配蔬菜与面包，是南方家常餐桌的一种经典组合，配菜按食欲选择。"
+      },
+      {
+        "name": "柠檬胡椒鸡翅",
+        "description": "柠檬香和胡椒带出炸鸡翅的风味，可区分干调味与带酱版本。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Old Fourth Ward与Inman Park",
+        "description": "民权遗址、BeltLine与市场能组成生活感很强的一天。"
+      },
+      {
+        "name": "Midtown",
+        "description": "公园、艺术馆和植物园适合分上下午从容安排。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "charleston",
+    "intro": "海风、历史街巷与Lowcountry餐桌，也需要认真读懂港口背后的历史。",
+    "foodHighlights": [
+      {
+        "name": "鲜虾玉米粥",
+        "description": "鲜虾配粗玉米粉煮成的软糯粥底，酱汁可偏奶油或带熏肉风味。"
+      },
+      {
+        "name": "查尔斯顿蟹肉浓汤",
+        "description": "以蟹肉和奶油为特色的浓汤，有些版本加入雪莉酒；点单时可询问酒与海鲜过敏原。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "French Quarter与海滨",
+        "description": "小巷、画廊和海滨公园适合慢走，不必逐栋打卡。"
+      },
+      {
+        "name": "Upper King",
+        "description": "餐馆与小店更多，适合晚餐前后体验当代城市生活。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "savannah",
+    "intro": "树荫广场把日子分成小段，河街、艺术与南方餐桌适合慢慢体会。",
+    "foodHighlights": [
+      {
+        "name": "萨凡纳鲜虾玉米粥",
+        "description": "海鲜与玉米粥结合的Lowcountry餐点，酱汁与配菜体现各店自己的做法。"
+      },
+      {
+        "name": "山核桃糖",
+        "description": "奶香糖浆包裹山核桃，口感甜而浓郁，适合小份分享或带走。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "历史区广场",
+        "description": "挑几座树荫广场慢走即可，Chippewa广场的电影长椅不在原地。"
+      },
+      {
+        "name": "Starland",
+        "description": "咖啡、工作室和餐馆适合看城市当代创意生活。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "miami",
+    "intro": "海滩午后、古巴咖啡与街头艺术，把都市和度假的节奏调到一起。",
+    "foodHighlights": [
+      {
+        "name": "古巴三明治",
+        "description": "烤猪肉、火腿、芝士与酸黄瓜夹入古巴面包压烤，适合当作小哈瓦那的一顿简餐。"
+      },
+      {
+        "name": "古巴炸丸子",
+        "description": "细腻内馅裹上薄脆外层，火腿馅很常见，可配咖啡作为小食，不必点成一大餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "South Beach",
+        "description": "海滩和Art Deco街景适合放慢，不需要每小时都安排活动。"
+      },
+      {
+        "name": "Little Havana与Wynwood",
+        "description": "古巴餐饮、街头壁画和当代艺术是两种不同的城市表情。"
+      }
+    ],
+    "experienceIntro": "选一处最想深入的博物馆或体验，再留一段街区、海岸或公园时光；免费漫步也可以成为旅程的重点。"
+  },
+  {
+    "cityId": "orlando",
+    "intro": "给主题乐园完整的一天，也给湖边和冬季公园留一点慢生活。",
+    "foodHighlights": [
+      {
+        "name": "古巴三明治",
+        "description": "烤猪肉、火腿、奶酪和酸黄瓜压烤成热三明治，是佛罗里达常见的午餐选择。"
+      },
+      {
+        "name": "越南河粉",
+        "description": "Mills 50 的越南餐饮是城市饮食的一部分，一碗清汤河粉适合乐园之外的轻松正餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Lake Eola 与 Thornton Park",
+        "description": "环湖、公园和住宅街适合散步，和乐园区分开安排。"
+      },
+      {
+        "name": "Winter Park",
+        "description": "Park Avenue 店铺、湖链与博物馆组成另一种奥兰多日常。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "new-orleans",
+    "intro": "爵士乐、铁艺阳台与克里奥尔味道，把一天慢慢延长。",
+    "foodHighlights": [
+      {
+        "name": "糖粉法式炸面饼",
+        "description": "现炸面团撒糖粉，适合配咖啡分享；吃时留意糖粉很容易飞散。"
+      },
+      {
+        "name": "路易斯安那秋葵浓汤",
+        "description": "浓郁汤汁常配米饭，鸡肉香肠与海鲜版本风味不同；下单前确认配料与过敏原。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "French Quarter",
+        "description": "上午逛 Royal Street 与广场，晚间另选一场爵士。"
+      },
+      {
+        "name": "Garden District 与 Magazine Street",
+        "description": "老屋、树荫与小店适合慢步，私人庭院不开放。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "nashville",
+    "intro": "白天读音乐故事，晚上把时间交给现场。",
+    "foodHighlights": [
+      {
+        "name": "纳什维尔辣炸鸡",
+        "description": "炸鸡外覆辣油与香料，可从微辣开始；常配白面包和酸黄瓜。"
+      },
+      {
+        "name": "一荤三配菜",
+        "description": "选一份主菜搭三样南方配菜，自由组合豆类、蔬菜和土豆，是感受地方日常的一餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Lower Broadway",
+        "description": "音乐酒吧密集，街上随逛与进场消费分开。"
+      },
+      {
+        "name": "The Gulch 与 12 South",
+        "description": "壁画、咖啡和小店适合轻松探索。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "austin",
+    "intro": "从早餐塔可到日落蝙蝠，音乐和河边步道都有自己的节奏。",
+    "foodHighlights": [
+      {
+        "name": "德州烟熏牛胸肉",
+        "description": "慢熏牛胸肉按肥瘦与重量点选，常配面包、酸黄瓜和配菜；热门店要给排队留时间。"
+      },
+      {
+        "name": "早餐塔可",
+        "description": "玉米或面粉饼夹鸡蛋、豆子、奶酪与肉类，一次点两三种口味很适合早餐。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "South Congress",
+        "description": "小店、唱片、咖啡和音乐门面串成步行路线。"
+      },
+      {
+        "name": "East Austin",
+        "description": "壁画和餐车适合随意探索，跨片区先看实际距离。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "san-antonio",
+    "intro": "沿河步道走进传教站历史，再用一顿 Tex-Mex 收尾。",
+    "foodHighlights": [
+      {
+        "name": "蓬松炸塔可",
+        "description": "玉米面饼炸得鼓起再夹肉和蔬菜，趁热吃酥松口感；是圣安东尼奥很有辨识度的一口。"
+      },
+      {
+        "name": "早餐塔可",
+        "description": "鸡蛋、土豆、豆泥或肉类装进面饼，适合用几种小份口味开启一天。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "River Walk 与 Alamo Plaza",
+        "description": "地下河岸与地面历史街区可连成一段慢游。"
+      },
+      {
+        "name": "Pearl 与 Southtown",
+        "description": "工业改造、画廊和餐饮各有气氛，分别留时间。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "denver",
+    "intro": "从联合车站与壁画街区出发，把真正的山野另留一整天。",
+    "foodHighlights": [
+      {
+        "name": "绿辣椒炖酱",
+        "description": "带炖肉与烤绿辣椒香气的浓酱常浇在卷饼或早餐上，点单先确认辣度和是否含猪肉。"
+      },
+      {
+        "name": "丹佛煎蛋卷",
+        "description": "鸡蛋卷入火腿、洋葱和青椒，是经典美式早午餐口味，可搭土豆或吐司。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "LoDo 与 Union Station",
+        "description": "旧仓库和车站周边适合步行找餐馆。"
+      },
+      {
+        "name": "RiNo",
+        "description": "壁画、工业建筑和美食市场可组成轻松半天。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "salt-lake-city",
+    "intro": "山脚下的博物馆、街区和公园，是探索犹他的从容起点。",
+    "foodHighlights": [
+      {
+        "name": "烟熏牛肉汉堡",
+        "description": "牛肉汉堡上再叠一层热 pastrami，咸香份量足，是盐湖城很有地方感的快餐选择。"
+      },
+      {
+        "name": "薯条配粉色蘸酱",
+        "description": "当地汉堡店常见的番茄酱与蛋黄酱风格蘸酱，配一份薯条尝试各店差异。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown 与 Capitol Hill",
+        "description": "公共广场、图书馆与山坡街道可分段慢走。"
+      },
+      {
+        "name": "Sugar House 与 9th and 9th",
+        "description": "咖啡、小店和公园展示山城日常。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
+  },
+  {
+    "cityId": "flagstaff",
+    "intro": "在六十六号公路和暗夜星空之间，慢慢走进科罗拉多高原。",
+    "foodHighlights": [
+      {
+        "name": "原住民风味炸面饼",
+        "description": "炸面饼可作甜点或搭肉豆成为正餐，是在北亚利桑那了解地方饮食的一种入口。"
+      },
+      {
+        "name": "咖啡馆扭纹炸面圈",
+        "description": "蓬松扭纹炸面圈适合搭晨间咖啡；市中心烘焙咖啡馆常见，不宣称为本城发明。"
+      }
+    ],
+    "neighborhoods": [
+      {
+        "name": "Downtown 与 Route 66",
+        "description": "老旅馆招牌、铁路和小店适合慢逛。"
+      },
+      {
+        "name": "Southside",
+        "description": "在历史街区找咖啡与小型餐馆，了解公路旅行背后的不同社群故事。"
+      }
+    ],
+    "experienceIntro": "从一段喜欢的街区、绿地或现场文化开始，把休息、餐饮和慢慢逛的时间也留在行程里；远郊项目需要单独选择。"
   }
 ]

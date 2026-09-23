@@ -1,0 +1,3813 @@
+[
+  {
+    "id": "stay-us-orlando-grand-floridian",
+    "cityId": "orlando",
+    "kind": "hotel",
+    "name": "Disney's Grand Floridian Resort & Spa",
+    "nameEn": "Disney's Grand Floridian Resort & Spa",
+    "accommodationType": "hotel",
+    "provider": "Disney's Grand Floridian Resort & Spa",
+    "tagline": "Magic Kingdom 度假区",
+    "description": "湖边维多利亚风格度假酒店，适合围绕神奇王国安排住宿；前往市中心需另预留交通。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 28.411,
+    "lng": -81.587,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Magic Kingdom 度假区",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+    "bookingUrl": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+    "website": "https://disneyworld.disney.go.com/resorts/grand-floridian-resort-and-spa/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 400,
+        "high": 400,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Disney's Grand Floridian Resort & Spa"
+  },
+  {
+    "id": "stay-us-orlando-contemporary",
+    "cityId": "orlando",
+    "kind": "hotel",
+    "name": "Disney's Contemporary Resort",
+    "nameEn": "Disney's Contemporary Resort",
+    "accommodationType": "hotel",
+    "provider": "Disney's Contemporary Resort",
+    "tagline": "Magic Kingdom 度假区",
+    "description": "以单轨穿楼和现代建筑闻名，适合重视乐园区位的行程；房型、入园权益和交通政策需按预订确认。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 28.4145,
+    "lng": -81.5744,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Magic Kingdom 度假区",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://disneyworld.disney.go.com/resorts/contemporary-resort/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://disneyworld.disney.go.com/resorts/contemporary-resort/",
+    "bookingUrl": "https://disneyworld.disney.go.com/resorts/contemporary-resort/",
+    "website": "https://disneyworld.disney.go.com/resorts/contemporary-resort/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 400,
+        "high": 400,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Disney's Contemporary Resort"
+  },
+  {
+    "id": "stay-us-orlando-polynesian",
+    "cityId": "orlando",
+    "kind": "hotel",
+    "name": "Disney's Polynesian Village Resort",
+    "nameEn": "Disney's Polynesian Village Resort",
+    "accommodationType": "hotel",
+    "provider": "Disney's Polynesian Village Resort",
+    "tagline": "Seven Seas Lagoon",
+    "description": "以南太平洋意象布置的湖畔度假酒店，可在乐园日之间留一些度假时间。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 28.4051,
+    "lng": -81.5852,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Seven Seas Lagoon",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/",
+    "bookingUrl": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/",
+    "website": "https://disneyworld.disney.go.com/resorts/polynesian-village-resort/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 400,
+        "high": 400,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Disney's Polynesian Village Resort"
+  },
+  {
+    "id": "stay-us-orlando-swan",
+    "cityId": "orlando",
+    "kind": "hotel",
+    "name": "Walt Disney World Swan",
+    "nameEn": "Walt Disney World Swan",
+    "accommodationType": "hotel",
+    "provider": "Walt Disney World Swan",
+    "tagline": "EPCOT 度假区",
+    "description": "建筑外观醒目的度假酒店，位于 EPCOT 与 Hollywood Studios 周边片区；各园交通按酒店最新安排。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 28.3649,
+    "lng": -81.5581,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "EPCOT 度假区",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://swandolphin.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://swandolphin.com/",
+    "bookingUrl": "https://swandolphin.com/",
+    "website": "https://swandolphin.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 400,
+        "high": 400,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Walt Disney World Swan"
+  },
+  {
+    "id": "stay-us-orlando-alfond",
+    "cityId": "orlando",
+    "kind": "hotel",
+    "name": "The Alfond Inn",
+    "nameEn": "The Alfond Inn",
+    "accommodationType": "hotel",
+    "provider": "The Alfond Inn",
+    "tagline": "Winter Park",
+    "description": "在 Winter Park 艺术与林荫街区住宿，适合把画廊、湖边和 Park Avenue 当作旅行重点。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 28.5949,
+    "lng": -81.3486,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Winter Park",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://thealfondinn.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://thealfondinn.com/",
+    "bookingUrl": "https://thealfondinn.com/",
+    "website": "https://thealfondinn.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥兰多城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 400,
+        "high": 400,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥兰多城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-new-orleans-monteleone",
+    "cityId": "new-orleans",
+    "kind": "hotel",
+    "name": "Hotel Monteleone",
+    "nameEn": "Hotel Monteleone",
+    "accommodationType": "hotel",
+    "provider": "Hotel Monteleone",
+    "tagline": "French Quarter",
+    "description": "Royal Street 上的历史酒店，适合以法国区步行为主的路线；旋转酒吧与餐饮消费独立。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.9548,
+    "lng": -90.0675,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "French Quarter",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://hotelmonteleone.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://hotelmonteleone.com/",
+    "bookingUrl": "https://hotelmonteleone.com/",
+    "website": "https://hotelmonteleone.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Hotel Monteleone"
+  },
+  {
+    "id": "stay-us-new-orleans-roosevelt",
+    "cityId": "new-orleans",
+    "kind": "hotel",
+    "name": "The Roosevelt New Orleans",
+    "nameEn": "The Roosevelt New Orleans",
+    "accommodationType": "hotel",
+    "provider": "The Roosevelt New Orleans",
+    "tagline": "Canal Street 周边",
+    "description": "在法国区边缘体验历史酒店建筑，兼顾市中心和老城步行；餐饮与水疗需另订。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.9547,
+    "lng": -90.0717,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Canal Street 周边",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.therooseveltneworleans.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.therooseveltneworleans.com/",
+    "bookingUrl": "https://www.therooseveltneworleans.com/",
+    "website": "https://www.therooseveltneworleans.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "The Roosevelt New Orleans",
+    "photoFile": "Lobby of the Roosevelt Hotel, New Orleans 2022.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Lobby_of_the_Roosevelt_Hotel%2C_New_Orleans_2022.jpg",
+    "photoStatus": "pending-download"
+  },
+  {
+    "id": "stay-us-new-orleans-pontchartrain",
+    "cityId": "new-orleans",
+    "kind": "hotel",
+    "name": "The Pontchartrain Hotel",
+    "nameEn": "The Pontchartrain Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Pontchartrain Hotel",
+    "tagline": "Lower Garden District",
+    "description": "位于 St. Charles Avenue 的历史酒店，适合把花园区和有轨电车纳入住宿考虑。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.9337,
+    "lng": -90.0803,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Lower Garden District",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://thepontchartrainhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://thepontchartrainhotel.com/",
+    "bookingUrl": "https://thepontchartrainhotel.com/",
+    "website": "https://thepontchartrainhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Pontchartrain Hotel"
+  },
+  {
+    "id": "stay-us-new-orleans-bourbon-orleans",
+    "cityId": "new-orleans",
+    "kind": "hotel",
+    "name": "Bourbon Orleans Hotel",
+    "nameEn": "Bourbon Orleans Hotel",
+    "accommodationType": "hotel",
+    "provider": "Bourbon Orleans Hotel",
+    "tagline": "French Quarter",
+    "description": "位于老城音乐街与杰克逊广场周边，喜欢中心区位可考虑；夜间热闹程度应按房型确认。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.959,
+    "lng": -90.0647,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "French Quarter",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.bourbonorleans.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.bourbonorleans.com/",
+    "bookingUrl": "https://www.bourbonorleans.com/",
+    "website": "https://www.bourbonorleans.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Bourbon Orleans Hotel",
+    "photoFile": "Bourbon Orleans Hotel.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Bourbon_Orleans_Hotel.jpg",
+    "photoStatus": "pending-download"
+  },
+  {
+    "id": "stay-us-new-orleans-royal-sonesta",
+    "cityId": "new-orleans",
+    "kind": "hotel",
+    "name": "The Royal Sonesta New Orleans",
+    "nameEn": "The Royal Sonesta New Orleans",
+    "accommodationType": "hotel",
+    "provider": "The Royal Sonesta New Orleans",
+    "tagline": "Bourbon Street",
+    "description": "围绕庭院布置的法国区酒店，适合老城探索；街面房与内院房的环境差异值得预订前询问。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.9564,
+    "lng": -90.0673,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Bourbon Street",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.sonesta.com/royal-sonesta/la/new-orleans/royal-sonesta-new-orleans",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.sonesta.com/royal-sonesta/la/new-orleans/royal-sonesta-new-orleans",
+    "bookingUrl": "https://www.sonesta.com/royal-sonesta/la/new-orleans/royal-sonesta-new-orleans",
+    "website": "https://www.sonesta.com/royal-sonesta/la/new-orleans/royal-sonesta-new-orleans",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按新奥尔良城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "新奥尔良城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-nashville-hermitage",
+    "cityId": "nashville",
+    "kind": "hotel",
+    "name": "The Hermitage Hotel",
+    "nameEn": "The Hermitage Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Hermitage Hotel",
+    "tagline": "Downtown",
+    "description": "国会山周边的历史酒店，适合步行探索市中心与音乐场馆。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 36.1646,
+    "lng": -86.7836,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.thehermitagehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.thehermitagehotel.com/",
+    "bookingUrl": "https://www.thehermitagehotel.com/",
+    "website": "https://www.thehermitagehotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 225,
+        "high": 225,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Hermitage Hotel"
+  },
+  {
+    "id": "stay-us-nashville-union-station",
+    "cityId": "nashville",
+    "kind": "hotel",
+    "name": "The Union Station Nashville Yards",
+    "nameEn": "The Union Station Nashville Yards",
+    "accommodationType": "hotel",
+    "provider": "The Union Station Nashville Yards",
+    "tagline": "Downtown / Broadway 西端",
+    "description": "旧铁路车站改造的酒店，拱形大厅与铁路建筑是特色，适合喜欢历史空间的住宿。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 36.1578,
+    "lng": -86.7848,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Broadway 西端",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.unionstationhotelnashville.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.unionstationhotelnashville.com/",
+    "bookingUrl": "https://www.unionstationhotelnashville.com/",
+    "website": "https://www.unionstationhotelnashville.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 225,
+        "high": 225,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Union Station (Nashville)"
+  },
+  {
+    "id": "stay-us-nashville-gaylord",
+    "cityId": "nashville",
+    "kind": "hotel",
+    "name": "Gaylord Opryland Resort & Convention Center",
+    "nameEn": "Gaylord Opryland Resort & Convention Center",
+    "accommodationType": "hotel",
+    "provider": "Gaylord Opryland Resort & Convention Center",
+    "tagline": "Opryland",
+    "description": "大型花园中庭度假酒店，适合围绕 Opryland 安排住宿；市中心往返需另算交通。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 36.2116,
+    "lng": -86.6944,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Opryland",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/bnago-gaylord-opryland-resort-and-convention-center/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.marriott.com/en-us/hotels/bnago-gaylord-opryland-resort-and-convention-center/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/bnago-gaylord-opryland-resort-and-convention-center/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/bnago-gaylord-opryland-resort-and-convention-center/overview/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 225,
+        "high": 225,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Gaylord Opryland Resort & Convention Center"
+  },
+  {
+    "id": "stay-us-nashville-omni",
+    "cityId": "nashville",
+    "kind": "hotel",
+    "name": "Omni Nashville Hotel",
+    "nameEn": "Omni Nashville Hotel",
+    "accommodationType": "hotel",
+    "provider": "Omni Nashville Hotel",
+    "tagline": "SoBro",
+    "description": "靠近乡村音乐名人堂的市中心酒店，适合把博物馆与现场演出集中在同一区域。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 36.1569,
+    "lng": -86.7765,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "SoBro",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.omnihotels.com/hotels/nashville",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.omnihotels.com/hotels/nashville",
+    "bookingUrl": "https://www.omnihotels.com/hotels/nashville",
+    "website": "https://www.omnihotels.com/hotels/nashville",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 225,
+        "high": 225,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-nashville-hutton",
+    "cityId": "nashville",
+    "kind": "hotel",
+    "name": "Hutton Hotel",
+    "nameEn": "Hutton Hotel",
+    "accommodationType": "hotel",
+    "provider": "Hutton Hotel",
+    "tagline": "Midtown",
+    "description": "位于 Midtown 的设计酒店，适合结合餐馆和音乐场景；是否有当晚演出需查看日历。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 36.1528,
+    "lng": -86.7962,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Midtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.huttonhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.huttonhotel.com/",
+    "bookingUrl": "https://www.huttonhotel.com/",
+    "website": "https://www.huttonhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 225,
+        "high": 225,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按纳什维尔城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 460,
+        "high": 460,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "纳什维尔城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-austin-driskill",
+    "cityId": "austin",
+    "kind": "hotel",
+    "name": "The Driskill",
+    "nameEn": "The Driskill",
+    "accommodationType": "hotel",
+    "provider": "The Driskill",
+    "tagline": "Downtown / Sixth Street",
+    "description": "市中心历史酒店，适合把议会大厦和音乐街区安排在步行范围内。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 30.2682,
+    "lng": -97.7417,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Sixth Street",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://driskillhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://driskillhotel.com/",
+    "bookingUrl": "https://driskillhotel.com/",
+    "website": "https://driskillhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Driskill Hotel"
+  },
+  {
+    "id": "stay-us-austin-stephen-austin",
+    "cityId": "austin",
+    "kind": "hotel",
+    "name": "The Stephen F Austin Royal Sonesta Hotel",
+    "nameEn": "The Stephen F Austin Royal Sonesta Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Stephen F Austin Royal Sonesta Hotel",
+    "tagline": "Congress Avenue",
+    "description": "Congress Avenue 上的历史高楼酒店，方便探索州议会与市中心剧院。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 30.2692,
+    "lng": -97.7424,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Congress Avenue",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.sonesta.com/royal-sonesta/tx/austin/stephen-f-austin-royal-sonesta-hotel",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.sonesta.com/royal-sonesta/tx/austin/stephen-f-austin-royal-sonesta-hotel",
+    "bookingUrl": "https://www.sonesta.com/royal-sonesta/tx/austin/stephen-f-austin-royal-sonesta-hotel",
+    "website": "https://www.sonesta.com/royal-sonesta/tx/austin/stephen-f-austin-royal-sonesta-hotel",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-austin-san-jose",
+    "cityId": "austin",
+    "kind": "hotel",
+    "name": "Hotel San José",
+    "nameEn": "Hotel San José",
+    "accommodationType": "hotel",
+    "provider": "Hotel San José",
+    "tagline": "South Congress",
+    "description": "庭院式精品酒店，适合把 South Congress 的唱片、小店和咖啡当作旅行中心。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 30.2502,
+    "lng": -97.7499,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "South Congress",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.bunkhousehotels.com/hotel-san-jose",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.bunkhousehotels.com/hotel-san-jose",
+    "bookingUrl": "https://www.bunkhousehotels.com/hotel-san-jose",
+    "website": "https://www.bunkhousehotels.com/hotel-san-jose",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-austin-austin-motel",
+    "cityId": "austin",
+    "kind": "hotel",
+    "name": "Austin Motel",
+    "nameEn": "Austin Motel",
+    "accommodationType": "hotel",
+    "provider": "Austin Motel",
+    "tagline": "South Congress",
+    "description": "霓虹招牌与低层汽车旅馆建筑是街区熟悉的风景，适合喜欢复古住宿氛围的旅客。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 30.2494,
+    "lng": -97.7497,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "South Congress",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.bunkhousehotels.com/austin-motel",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.bunkhousehotels.com/austin-motel",
+    "bookingUrl": "https://www.bunkhousehotels.com/austin-motel",
+    "website": "https://www.bunkhousehotels.com/austin-motel",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-austin-fairmont",
+    "cityId": "austin",
+    "kind": "hotel",
+    "name": "Fairmont Austin",
+    "nameEn": "Fairmont Austin",
+    "accommodationType": "hotel",
+    "provider": "Fairmont Austin",
+    "tagline": "Downtown / Waller Creek",
+    "description": "市中心高层酒店，方便连接河边和餐饮街区；高层景观房及停车需单独询价。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 30.2621,
+    "lng": -97.7387,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Waller Creek",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.fairmont.com/en/hotels/austin/fairmont-austin.html",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.fairmont.com/en/hotels/austin/fairmont-austin.html",
+    "bookingUrl": "https://www.fairmont.com/en/hotels/austin/fairmont-austin.html",
+    "website": "https://www.fairmont.com/en/hotels/austin/fairmont-austin.html",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按奥斯汀城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "奥斯汀城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Fairmont Austin"
+  },
+  {
+    "id": "stay-us-san-antonio-emma",
+    "cityId": "san-antonio",
+    "kind": "hotel",
+    "name": "Hotel Emma",
+    "nameEn": "Hotel Emma",
+    "accommodationType": "hotel",
+    "provider": "Hotel Emma",
+    "tagline": "Pearl",
+    "description": "旧酿酒厂改造的酒店保留工业建筑气质，适合以 Pearl 餐饮和河岸慢游为中心。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.4436,
+    "lng": -98.4803,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Pearl",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://thehotelemma.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://thehotelemma.com/",
+    "bookingUrl": "https://thehotelemma.com/",
+    "website": "https://thehotelemma.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 380,
+        "high": 380,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Hotel Emma"
+  },
+  {
+    "id": "stay-us-san-antonio-menger",
+    "cityId": "san-antonio",
+    "kind": "hotel",
+    "name": "Menger Hotel",
+    "nameEn": "Menger Hotel",
+    "accommodationType": "hotel",
+    "provider": "Menger Hotel",
+    "tagline": "Alamo Plaza",
+    "description": "阿拉莫旁的历史酒店，适合步行探索市中心历史区域。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.4254,
+    "lng": -98.4868,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Alamo Plaza",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.mengerhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.mengerhotel.com/",
+    "bookingUrl": "https://www.mengerhotel.com/",
+    "website": "https://www.mengerhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 380,
+        "high": 380,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Menger Hotel"
+  },
+  {
+    "id": "stay-us-san-antonio-st-anthony",
+    "cityId": "san-antonio",
+    "kind": "hotel",
+    "name": "The St. Anthony, a Luxury Collection Hotel",
+    "nameEn": "The St. Anthony, a Luxury Collection Hotel",
+    "accommodationType": "hotel",
+    "provider": "The St. Anthony, a Luxury Collection Hotel",
+    "tagline": "Downtown",
+    "description": "市中心历史酒店，以经典公共空间和城市区位见长，房型与附加消费按日期询价。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.4275,
+    "lng": -98.4891,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.thestanthonyhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.thestanthonyhotel.com/",
+    "bookingUrl": "https://www.thestanthonyhotel.com/",
+    "website": "https://www.thestanthonyhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 380,
+        "high": 380,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "St. Anthony Hotel"
+  },
+  {
+    "id": "stay-us-san-antonio-mansion",
+    "cityId": "san-antonio",
+    "kind": "hotel",
+    "name": "Omni La Mansión del Rio",
+    "nameEn": "Omni La Mansión del Rio",
+    "accommodationType": "hotel",
+    "provider": "Omni La Mansión del Rio",
+    "tagline": "River Walk",
+    "description": "面向河岸的庭院式酒店，适合夜间沿河散步；河景房和停车需独立核对。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.4256,
+    "lng": -98.4903,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "River Walk",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.omnihotels.com/hotels/san-antonio-la-mansion-del-rio",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.omnihotels.com/hotels/san-antonio-la-mansion-del-rio",
+    "bookingUrl": "https://www.omnihotels.com/hotels/san-antonio-la-mansion-del-rio",
+    "website": "https://www.omnihotels.com/hotels/san-antonio-la-mansion-del-rio",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 380,
+        "high": 380,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-san-antonio-havana",
+    "cityId": "san-antonio",
+    "kind": "hotel",
+    "name": "Hotel Havana",
+    "nameEn": "Hotel Havana",
+    "accommodationType": "hotel",
+    "provider": "Hotel Havana",
+    "tagline": "River Walk 北段",
+    "description": "小型历史建筑与河边露台形成安静气氛，可步行连接市中心；餐饮和房间设施按预订确认。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 29.431,
+    "lng": -98.4905,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "River Walk 北段",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.bunkhousehotels.com/hotel-havana",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.bunkhousehotels.com/hotel-havana",
+    "bookingUrl": "https://www.bunkhousehotels.com/hotel-havana",
+    "website": "https://www.bunkhousehotels.com/hotel-havana",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 90,
+        "high": 90,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 185,
+        "high": 185,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按圣安东尼奥城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 380,
+        "high": 380,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "圣安东尼奥城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-denver-brown-palace",
+    "cityId": "denver",
+    "kind": "hotel",
+    "name": "The Brown Palace Hotel and Spa",
+    "nameEn": "The Brown Palace Hotel and Spa",
+    "accommodationType": "hotel",
+    "provider": "The Brown Palace Hotel and Spa",
+    "tagline": "Downtown",
+    "description": "以历史中庭和建筑闻名的市中心酒店，适合喜欢经典空间的住宿；下午茶等消费另订。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 39.7442,
+    "lng": -104.9875,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.brownpalace.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.brownpalace.com/",
+    "bookingUrl": "https://www.brownpalace.com/",
+    "website": "https://www.brownpalace.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Brown Palace Hotel (Denver)",
+    "photoFile": "Brownpalace1.JPG",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Brownpalace1.JPG",
+    "imageContextNote": "丹佛 Brown Palace 酒店建筑外观，房型与设施以酒店当前介绍为准。"
+  },
+  {
+    "id": "stay-us-denver-oxford",
+    "cityId": "denver",
+    "kind": "hotel",
+    "name": "The Oxford Hotel",
+    "nameEn": "The Oxford Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Oxford Hotel",
+    "tagline": "LoDo",
+    "description": "联合车站周边的历史酒店，方便步行探索 LoDo 的餐饮和街区。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 39.7522,
+    "lng": -104.9993,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "LoDo",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.theoxfordhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.theoxfordhotel.com/",
+    "bookingUrl": "https://www.theoxfordhotel.com/",
+    "website": "https://www.theoxfordhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Oxford Hotel (Denver, Colorado)",
+    "imageContextNote": "酒店建筑外观；来源拍摄日期有异常，实际拍摄时间未核实。"
+  },
+  {
+    "id": "stay-us-denver-crawford",
+    "cityId": "denver",
+    "kind": "hotel",
+    "name": "The Crawford Hotel",
+    "nameEn": "The Crawford Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Crawford Hotel",
+    "tagline": "Union Station",
+    "description": "位于联合车站建筑内的酒店，适合喜欢铁路空间与市中心便利度的旅客。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 39.7527,
+    "lng": -105.0002,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Union Station",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.thecrawfordhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.thecrawfordhotel.com/",
+    "bookingUrl": "https://www.thecrawfordhotel.com/",
+    "website": "https://www.thecrawfordhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Denver Union Station",
+    "imageContextNote": "照片展示酒店所在的丹佛联合车站建筑外观，非客房照片。"
+  },
+  {
+    "id": "stay-us-denver-magnolia",
+    "cityId": "denver",
+    "kind": "hotel",
+    "name": "Magnolia Hotel Denver",
+    "nameEn": "Magnolia Hotel Denver",
+    "accommodationType": "hotel",
+    "provider": "Magnolia Hotel Denver",
+    "tagline": "Downtown",
+    "description": "在市中心历史商业建筑中住宿，方便连接公共交通与餐馆；停车费用另核。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 39.7472,
+    "lng": -104.9926,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.magnoliahotels.com/denver/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.magnoliahotels.com/denver/",
+    "bookingUrl": "https://www.magnoliahotels.com/denver/",
+    "website": "https://www.magnoliahotels.com/denver/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-denver-rally",
+    "cityId": "denver",
+    "kind": "hotel",
+    "name": "The Rally Hotel",
+    "nameEn": "The Rally Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Rally Hotel",
+    "tagline": "McGregor Square / Ballpark",
+    "description": "靠近球场和餐饮广场的酒店，适合把比赛与 LoDo 步行安排在一起；赛事日价格另核。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 39.7547,
+    "lng": -104.9953,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "McGregor Square / Ballpark",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.therallyhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.therallyhotel.com/",
+    "bookingUrl": "https://www.therallyhotel.com/",
+    "website": "https://www.therallyhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 210,
+        "high": 210,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按丹佛城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "丹佛城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-salt-lake-city-grand-america",
+    "cityId": "salt-lake-city",
+    "kind": "hotel",
+    "name": "The Grand America Hotel",
+    "nameEn": "The Grand America Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Grand America Hotel",
+    "tagline": "Downtown",
+    "description": "市中心经典大型酒店，以庭院与公共空间见长，适合慢节奏城市住宿。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 40.7567,
+    "lng": -111.8907,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.grandamerica.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.grandamerica.com/",
+    "bookingUrl": "https://www.grandamerica.com/",
+    "website": "https://www.grandamerica.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Grand America Hotel",
+    "photoFile": "Slc grand america hotel.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Slc_grand_america_hotel.jpg",
+    "photoStatus": "pending-download"
+  },
+  {
+    "id": "stay-us-salt-lake-city-little-america",
+    "cityId": "salt-lake-city",
+    "kind": "hotel",
+    "name": "Little America Hotel Salt Lake City",
+    "nameEn": "Little America Hotel Salt Lake City",
+    "accommodationType": "hotel",
+    "provider": "Little America Hotel Salt Lake City",
+    "tagline": "Downtown / Courthouse",
+    "description": "靠近轻轨的市中心酒店，适合在城市游览与山地往返之间安排住宿。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 40.7581,
+    "lng": -111.8914,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Courthouse",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://saltlake.littleamerica.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://saltlake.littleamerica.com/",
+    "bookingUrl": "https://saltlake.littleamerica.com/",
+    "website": "https://saltlake.littleamerica.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Little America Hotel (Salt Lake City)",
+    "photoFile": "Little America Hotel, Salt Lake City, Oct 16.jpg",
+    "photoSourceUrl": "https://commons.wikimedia.org/wiki/File:Little_America_Hotel%2C_Salt_Lake_City%2C_Oct_16.jpg",
+    "photoStatus": "pending-download"
+  },
+  {
+    "id": "stay-us-salt-lake-city-peery",
+    "cityId": "salt-lake-city",
+    "kind": "hotel",
+    "name": "The Peery Salt Lake City Downtown",
+    "nameEn": "The Peery Salt Lake City Downtown",
+    "accommodationType": "hotel",
+    "provider": "The Peery Salt Lake City Downtown",
+    "tagline": "Downtown / Broadway",
+    "description": "百老汇街一带的历史酒店，适合步行找餐馆和探索市中心。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 40.7632,
+    "lng": -111.8941,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown / Broadway",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.peeryhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.peeryhotel.com/",
+    "bookingUrl": "https://www.peeryhotel.com/",
+    "website": "https://www.peeryhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Peery Hotel"
+  },
+  {
+    "id": "stay-us-salt-lake-city-monaco",
+    "cityId": "salt-lake-city",
+    "kind": "hotel",
+    "name": "Kimpton Hotel Monaco Salt Lake City",
+    "nameEn": "Kimpton Hotel Monaco Salt Lake City",
+    "accommodationType": "hotel",
+    "provider": "Kimpton Hotel Monaco Salt Lake City",
+    "tagline": "Downtown",
+    "description": "市中心精品酒店，可结合公共交通与周边餐饮安排行程。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 40.7649,
+    "lng": -111.8907,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.monaco-saltlakecity.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.monaco-saltlakecity.com/",
+    "bookingUrl": "https://www.monaco-saltlakecity.com/",
+    "website": "https://www.monaco-saltlakecity.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "noArticle": true
+  },
+  {
+    "id": "stay-us-salt-lake-city-marriott-city",
+    "cityId": "salt-lake-city",
+    "kind": "hotel",
+    "name": "Salt Lake City Marriott City Center",
+    "nameEn": "Salt Lake City Marriott City Center",
+    "accommodationType": "hotel",
+    "provider": "Salt Lake City Marriott City Center",
+    "tagline": "Gallivan Plaza",
+    "description": "面向 Gallivan Plaza 的市中心酒店，适合把广场和城市步行安排在同一片区。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 40.764,
+    "lng": -111.8881,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Gallivan Plaza",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview/",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview/",
+    "website": "https://www.marriott.com/en-us/hotels/slccc-salt-lake-city-marriott-city-center/overview/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按盐湖城城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "盐湖城城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-flagstaff-monte-vista",
+    "cityId": "flagstaff",
+    "kind": "hotel",
+    "name": "Hotel Monte Vista",
+    "nameEn": "Hotel Monte Vista",
+    "accommodationType": "hotel",
+    "provider": "Hotel Monte Vista",
+    "tagline": "Downtown",
+    "description": "老城中心的霓虹招牌酒店，是66号公路街景的一部分；酒吧与街道噪音可预订前询问。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 35.1986,
+    "lng": -111.6489,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.hotelmontevista.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.hotelmontevista.com/",
+    "bookingUrl": "https://www.hotelmontevista.com/",
+    "website": "https://www.hotelmontevista.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 350,
+        "high": 350,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Hotel Monte Vista"
+  },
+  {
+    "id": "stay-us-flagstaff-weatherford",
+    "cityId": "flagstaff",
+    "kind": "hotel",
+    "name": "Weatherford Hotel",
+    "nameEn": "Weatherford Hotel",
+    "accommodationType": "hotel",
+    "provider": "Weatherford Hotel",
+    "tagline": "Downtown",
+    "description": "老街转角的历史酒店，适合步行探索市中心；演出与餐饮属于独立消费。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 35.1988,
+    "lng": -111.6499,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://weatherfordhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://weatherfordhotel.com/",
+    "bookingUrl": "https://weatherfordhotel.com/",
+    "website": "https://weatherfordhotel.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 350,
+        "high": 350,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ],
+    "article": "Weatherford Hotel"
+  },
+  {
+    "id": "stay-us-flagstaff-little-america",
+    "cityId": "flagstaff",
+    "kind": "hotel",
+    "name": "Little America Hotel Flagstaff",
+    "nameEn": "Little America Hotel Flagstaff",
+    "accommodationType": "hotel",
+    "provider": "Little America Hotel Flagstaff",
+    "tagline": "East Butler Avenue",
+    "description": "松林环境中的酒店，适合自驾旅客休息；与市中心之间需安排交通。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 35.1903,
+    "lng": -111.617,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "East Butler Avenue",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://flagstaff.littleamerica.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://flagstaff.littleamerica.com/",
+    "bookingUrl": "https://flagstaff.littleamerica.com/",
+    "website": "https://flagstaff.littleamerica.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 350,
+        "high": 350,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-flagstaff-high-country",
+    "cityId": "flagstaff",
+    "kind": "hotel",
+    "name": "High Country Motor Lodge",
+    "nameEn": "High Country Motor Lodge",
+    "accommodationType": "hotel",
+    "provider": "High Country Motor Lodge",
+    "tagline": "West Route 66",
+    "description": "以公路旅行为灵感的低层住宿，方便连接66号公路与市中心片区；水疗和活动按预订确认。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 35.192,
+    "lng": -111.6637,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "West Route 66",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://highcountrymotorlodge.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://highcountrymotorlodge.com/",
+    "bookingUrl": "https://highcountrymotorlodge.com/",
+    "website": "https://highcountrymotorlodge.com/",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 350,
+        "high": 350,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-flagstaff-drury",
+    "cityId": "flagstaff",
+    "kind": "hotel",
+    "name": "Drury Plaza Hotel Flagstaff",
+    "nameEn": "Drury Plaza Hotel Flagstaff",
+    "accommodationType": "hotel",
+    "provider": "Drury Plaza Hotel Flagstaff",
+    "tagline": "Northern Arizona University 周边",
+    "description": "靠近大学与会议中心的酒店，可作为市区停留与远郊自驾之间的住宿点。",
+    "verificationNote": "酒店实体及区位参考经营者官网或官方旅游介绍；未查询实时房态、当前房型与所选日期报价。",
+    "lat": 35.1939,
+    "lng": -111.6562,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "酒店近似位置，入口与接送安排按酒店确认。",
+    "durationMinutes": 0,
+    "features": [
+      "Northern Arizona University 周边",
+      "具名住宿",
+      "房价待询"
+    ],
+    "sourceProvider": "editorial",
+    "sourceUrl": "https://www.druryhotels.com/locations/flagstaff-az/drury-plaza-hotel-flagstaff",
+    "sourceCheckedAt": "2026-09-23",
+    "officialUrl": "https://www.druryhotels.com/locations/flagstaff-az/drury-plaza-hotel-flagstaff",
+    "bookingUrl": "https://www.druryhotels.com/locations/flagstaff-az/drury-plaza-hotel-flagstaff",
+    "website": "https://www.druryhotels.com/locations/flagstaff-az/drury-plaza-hotel-flagstaff",
+    "checkedAt": null,
+    "operatingStatus": "official-web-presence",
+    "hotelQuoteStatus": "not-verified",
+    "priceBasis": "city-daily-lodging",
+    "availabilityNote": "三档为城市住宿预算占位，不是这家酒店的真实报价；房态、税费和设施开放请向酒店核对。",
+    "requirements": [
+      "先选择入住日期并核对实时房态",
+      "确认房间人数、房税、度假村费与停车费用",
+      "取得报价后更新预算，核对取消政策"
+    ],
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 100,
+        "high": 100,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按弗拉格斯塔夫城市住宿档预留一间一晚预算；不是该酒店的房型、报价或可售套餐。",
+        "low": 350,
+        "high": 350,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "弗拉格斯塔夫城市住宿编辑预算；非该住宿报价",
+        "note": "金额可能不适用于该酒店；请在取得所选日期实际报价后调整预算，另核房税、度假村费、停车、含餐及取消条件。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、停车、早餐及其他服务"
+        ]
+      }
+    ]
+  }
+]

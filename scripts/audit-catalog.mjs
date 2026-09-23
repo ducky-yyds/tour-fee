@@ -158,13 +158,13 @@ const perCity = cities.map(city => ({
   hotels: experiences.filter(place => place.cityId === city.id && place.kind === 'hotel').length,
 }));
 const cityMinimumCoverage = {
-  minimumMaintainedCities: 127, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
+  minimumMaintainedCities: 151, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
   cities: cities.length, perCity,
   belowFoodMinimum: perCity.filter(city => city.foods < 5).map(city => city.cityId),
   belowHotelMinimum: perCity.filter(city => city.hotels < 5).map(city => city.cityId),
 };
-cityMinimumCoverage.complete = cities.length >= 127 && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
-if (cities.length < 127) problems.push(`Fewer than 127 maintained cities: ${cities.length}`);
+cityMinimumCoverage.complete = cities.length >= 151 && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
+if (cities.length < 151) problems.push(`Fewer than 151 maintained cities: ${cities.length}`);
 for (const city of perCity) {
   if (city.foods < 5) problems.push(`Fewer than 5 foods: ${city.cityId}/${city.foods}`);
   if (city.hotels < 5) problems.push(`Fewer than 5 hotels: ${city.cityId}/${city.hotels}`);

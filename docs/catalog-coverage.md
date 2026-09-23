@@ -2,7 +2,7 @@
 
 运行 `npm run audit:catalog` 更新 `data/catalog-coverage.json`。图片或数据批次仍在写入时，先等待任务完成，再生成最终快照。
 
-`cityMinimumCoverage` 检查至少 127 个详细目的地，并逐城列出特色食物与酒店数量；每城各不少于 5 项。食物按共享定义的 `cityIds` 归属统计，住宿通过统一体验目录加载，包含 `data/experience-expansion/stays-global.json`。达到数量要求不代表覆盖全城、核实营业或拥有可订房态；城市住宿预算仍是估算。
+`cityMinimumCoverage` 检查至少 151 个详细目的地，并逐城列出特色食物与酒店数量；每城各不少于 5 项。食物按共享定义的 `cityIds` 归属统计，住宿通过统一体验目录加载，包含 `data/experience-expansion/stays-global.json` 和美国分区包。达到数量要求不代表覆盖全城、核实营业或拥有可订房态；城市住宿预算仍是估算。
 
 `mediaCoverage.manifest` 只统计 `media.json` 中直接属于该项目 ID 的记录。`mediaCoverage.runtime` 使用和城市目录相同的图片解析规则，包含项目自带图片、相关地点引用及主题插画。两套数据同时保留，运行时补图不会覆盖原始缺图事实。
 

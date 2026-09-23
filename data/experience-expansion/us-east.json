@@ -1,0 +1,3747 @@
+[
+  {
+    "id": "stay-us-washington-dc-willard",
+    "cityId": "washington-dc",
+    "kind": "hotel",
+    "name": "Willard InterContinental Washington, D.C.",
+    "nameEn": "Willard InterContinental Washington, D.C.",
+    "accommodationType": "hotel",
+    "provider": "Willard InterContinental Washington, D.C.",
+    "tagline": "宾夕法尼亚大道 · 具名住宿",
+    "description": "宾夕法尼亚大道上的历史酒店，适合以国家广场和市中心为主要活动区。",
+    "lat": 38.8966,
+    "lng": -77.0328,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "宾夕法尼亚大道",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://washington.intercontinental.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://washington.intercontinental.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-washington-dc-willard",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按华盛顿特区城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按华盛顿特区城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按华盛顿特区城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Willard InterContinental Washington"
+  },
+  {
+    "id": "stay-us-washington-dc-hay-adams",
+    "cityId": "washington-dc",
+    "kind": "hotel",
+    "name": "The Hay-Adams",
+    "nameEn": "The Hay-Adams",
+    "accommodationType": "hotel",
+    "provider": "The Hay-Adams",
+    "tagline": "拉法叶广场 · 具名住宿",
+    "description": "紧邻拉法叶广场的历史酒店，适合重视首都建筑氛围的旅客；景观房须单独确认。",
+    "lat": 38.9004,
+    "lng": -77.0365,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "拉法叶广场",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hayadams.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.hayadams.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-washington-dc-hay-adams",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按华盛顿特区城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按华盛顿特区城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按华盛顿特区城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Hay–Adams Hotel"
+  },
+  {
+    "id": "stay-us-washington-dc-watergate",
+    "cityId": "washington-dc",
+    "kind": "hotel",
+    "name": "The Watergate Hotel",
+    "nameEn": "The Watergate Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Watergate Hotel",
+    "tagline": "Foggy Bottom河岸 · 具名住宿",
+    "description": "位于Watergate建筑群的河岸酒店，可把波托马克河边漫步加入住宿日程。",
+    "lat": 38.8996,
+    "lng": -77.0556,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Foggy Bottom河岸",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thewatergatehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thewatergatehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-washington-dc-watergate",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按华盛顿特区城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按华盛顿特区城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按华盛顿特区城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Watergate complex"
+  },
+  {
+    "id": "stay-us-washington-dc-jefferson",
+    "cityId": "washington-dc",
+    "kind": "hotel",
+    "name": "The Jefferson, Washington, DC",
+    "nameEn": "The Jefferson, Washington, DC",
+    "accommodationType": "hotel",
+    "provider": "The Jefferson, Washington, DC",
+    "tagline": "16th Street NW · 具名住宿",
+    "description": "市中心的精品历史酒店，适合在博物馆之外安排邻里餐馆与散步。",
+    "lat": 38.9056,
+    "lng": -77.0368,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "16th Street NW",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.jeffersondc.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.jeffersondc.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-washington-dc-jefferson",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按华盛顿特区城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按华盛顿特区城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按华盛顿特区城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "The Jefferson"
+  },
+  {
+    "id": "stay-us-washington-dc-shoreham",
+    "cityId": "washington-dc",
+    "kind": "hotel",
+    "name": "Omni Shoreham Hotel",
+    "nameEn": "Omni Shoreham Hotel",
+    "accommodationType": "hotel",
+    "provider": "Omni Shoreham Hotel",
+    "tagline": "Woodley Park · 具名住宿",
+    "description": "Woodley Park的花园式历史酒店，周边绿意较多，前往国家广场需另留地铁时间。",
+    "lat": 38.9227,
+    "lng": -77.0532,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Woodley Park",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.omnihotels.com/hotels/washington-dc-shoreham",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.omnihotels.com/hotels/washington-dc-shoreham",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-washington-dc-shoreham",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按华盛顿特区城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 130,
+        "high": 130,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按华盛顿特区城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按华盛顿特区城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "华盛顿特区城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Omni Shoreham Hotel"
+  },
+  {
+    "id": "stay-us-boston-parker-house",
+    "cityId": "boston",
+    "kind": "hotel",
+    "name": "Omni Parker House",
+    "nameEn": "Omni Parker House",
+    "accommodationType": "hotel",
+    "provider": "Omni Parker House",
+    "tagline": "Downtown · 具名住宿",
+    "description": "自由之路附近的历史酒店，适合把老城步行作为旅程主线。",
+    "lat": 42.3578,
+    "lng": -71.0601,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.omnihotels.com/hotels/boston-parker-house",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.omnihotels.com/hotels/boston-parker-house",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-boston-parker-house",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波士顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 155,
+        "high": 155,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波士顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 280,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波士顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Omni Parker House"
+  },
+  {
+    "id": "stay-us-boston-copley-plaza",
+    "cityId": "boston",
+    "kind": "hotel",
+    "name": "Fairmont Copley Plaza",
+    "nameEn": "Fairmont Copley Plaza",
+    "accommodationType": "hotel",
+    "provider": "Fairmont Copley Plaza",
+    "tagline": "Back Bay · 具名住宿",
+    "description": "Copley Square旁的历史酒店，可从图书馆与后湾街区开始一天。",
+    "lat": 42.3491,
+    "lng": -71.0766,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Back Bay",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fairmont.com/en/hotels/boston/fairmont-copley-plaza.html",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.fairmont.com/en/hotels/boston/fairmont-copley-plaza.html",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-boston-copley-plaza",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波士顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 155,
+        "high": 155,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波士顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 280,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波士顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Fairmont Copley Plaza"
+  },
+  {
+    "id": "stay-us-boston-liberty",
+    "cityId": "boston",
+    "kind": "hotel",
+    "name": "The Liberty Hotel",
+    "nameEn": "The Liberty Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Liberty Hotel",
+    "tagline": "Beacon Hill · 具名住宿",
+    "description": "由历史监狱建筑改造的酒店，建筑空间有辨识度，邻近Beacon Hill与查尔斯河。",
+    "lat": 42.3616,
+    "lng": -71.0708,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Beacon Hill",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://libertyhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://libertyhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-boston-liberty",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波士顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 155,
+        "high": 155,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波士顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 280,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波士顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Charles Street Jail",
+    "photoFile": "Liberty Hotel formerly Charles Street Jail.jpg"
+  },
+  {
+    "id": "stay-us-boston-harbor",
+    "cityId": "boston",
+    "kind": "hotel",
+    "name": "Boston Harbor Hotel",
+    "nameEn": "Boston Harbor Hotel",
+    "accommodationType": "hotel",
+    "provider": "Boston Harbor Hotel",
+    "tagline": "Rowes Wharf · 具名住宿",
+    "description": "位于Rowes Wharf的滨水酒店，适合重视海港步道和码头氛围的住宿。",
+    "lat": 42.356,
+    "lng": -71.05,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Rowes Wharf",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.bostonharborhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.bostonharborhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-boston-harbor",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波士顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 155,
+        "high": 155,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波士顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 280,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波士顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Boston Harbor Hotel"
+  },
+  {
+    "id": "stay-us-boston-verb",
+    "cityId": "boston",
+    "kind": "hotel",
+    "name": "The Verb Hotel",
+    "nameEn": "The Verb Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Verb Hotel",
+    "tagline": "Fenway · 具名住宿",
+    "description": "芬威附近以音乐文化为主题的酒店，适合把球场与美术馆安排在同一天。",
+    "lat": 42.3455,
+    "lng": -71.0975,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Fenway",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.theverbhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.theverbhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-boston-verb",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按波士顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 155,
+        "high": 155,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按波士顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 280,
+        "high": 280,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按波士顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "波士顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-philadelphia-loews",
+    "cityId": "philadelphia",
+    "kind": "hotel",
+    "name": "Loews Philadelphia Hotel",
+    "nameEn": "Loews Philadelphia Hotel",
+    "accommodationType": "hotel",
+    "provider": "Loews Philadelphia Hotel",
+    "tagline": "Market Street · 具名住宿",
+    "description": "位于PSFS历史摩天楼中的酒店，靠近Reading Terminal Market与市中心公共交通。",
+    "lat": 39.9514,
+    "lng": -75.1602,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Market Street",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.loewshotels.com/philadelphia-hotel",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.loewshotels.com/philadelphia-hotel",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-philadelphia-loews",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按费城城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按费城城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按费城城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "PSFS Building",
+    "photoFile": "PSFS-MarketSt.JPG"
+  },
+  {
+    "id": "stay-us-philadelphia-bellevue",
+    "cityId": "philadelphia",
+    "kind": "hotel",
+    "name": "The Bellevue Hotel",
+    "nameEn": "The Bellevue Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Bellevue Hotel",
+    "tagline": "Broad Street · 具名住宿",
+    "description": "Broad Street上的历史酒店，适合将剧院、餐馆和市中心步行串在一起。",
+    "lat": 39.9494,
+    "lng": -75.1646,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Broad Street",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thebellevuehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thebellevuehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-philadelphia-bellevue",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按费城城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按费城城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按费城城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "The Bellevue-Stratford Hotel"
+  },
+  {
+    "id": "stay-us-philadelphia-rittenhouse",
+    "cityId": "philadelphia",
+    "kind": "hotel",
+    "name": "The Rittenhouse",
+    "nameEn": "The Rittenhouse",
+    "accommodationType": "hotel",
+    "provider": "The Rittenhouse",
+    "tagline": "Rittenhouse Square · 具名住宿",
+    "description": "面向Rittenhouse Square的酒店，广场和周边餐馆适合旅程中的慢节奏住宿。",
+    "lat": 39.9498,
+    "lng": -75.172,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Rittenhouse Square",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.rittenhousehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.rittenhousehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-philadelphia-rittenhouse",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按费城城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按费城城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按费城城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-philadelphia-monaco",
+    "cityId": "philadelphia",
+    "kind": "hotel",
+    "name": "Kimpton Hotel Monaco Philadelphia",
+    "nameEn": "Kimpton Hotel Monaco Philadelphia",
+    "accommodationType": "hotel",
+    "provider": "Kimpton Hotel Monaco Philadelphia",
+    "tagline": "Old City · 具名住宿",
+    "description": "独立宫片区的精品酒店，适合希望清早步行游览旧城历史景点的旅客。",
+    "lat": 39.9496,
+    "lng": -75.149,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Old City",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.monaco-philadelphia.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.monaco-philadelphia.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-philadelphia-monaco",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按费城城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按费城城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按费城城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-philadelphia-four-seasons",
+    "cityId": "philadelphia",
+    "kind": "hotel",
+    "name": "Four Seasons Hotel Philadelphia at Comcast Center",
+    "nameEn": "Four Seasons Hotel Philadelphia at Comcast Center",
+    "accommodationType": "hotel",
+    "provider": "Four Seasons Hotel Philadelphia at Comcast Center",
+    "tagline": "Center City · 具名住宿",
+    "description": "位于Comcast Technology Center高层的酒店，住宿以城市天际线视角为特色；房型景观需按预订确认。",
+    "lat": 39.9549,
+    "lng": -75.17,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Center City",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fourseasons.com/philadelphia/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.fourseasons.com/philadelphia/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-philadelphia-four-seasons",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按费城城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按费城城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 200,
+        "high": 200,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按费城城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 430,
+        "high": 430,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "费城城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Comcast Technology Center"
+  },
+  {
+    "id": "stay-us-chicago-palmer",
+    "cityId": "chicago",
+    "kind": "hotel",
+    "name": "Palmer House, a Hilton Hotel",
+    "nameEn": "Palmer House, a Hilton Hotel",
+    "accommodationType": "hotel",
+    "provider": "Palmer House, a Hilton Hotel",
+    "tagline": "Loop · 具名住宿",
+    "description": "Loop内以历史大堂著称的酒店，适合步行前往艺术博物馆与剧院。",
+    "lat": 41.8808,
+    "lng": -87.6269,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Loop",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.palmerhousehiltonhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.palmerhousehiltonhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-chicago-palmer",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按芝加哥城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按芝加哥城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 220,
+        "high": 220,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按芝加哥城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 480,
+        "high": 480,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Palmer House Hotel"
+  },
+  {
+    "id": "stay-us-chicago-blackstone",
+    "cityId": "chicago",
+    "kind": "hotel",
+    "name": "The Blackstone",
+    "nameEn": "The Blackstone",
+    "accommodationType": "hotel",
+    "provider": "The Blackstone",
+    "tagline": "South Loop · 具名住宿",
+    "description": "Michigan Avenue上的历史酒店，可将Grant Park与南侧博物馆园区串联安排。",
+    "lat": 41.8738,
+    "lng": -87.6245,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "South Loop",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.theblackstonehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.theblackstonehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-chicago-blackstone",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按芝加哥城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按芝加哥城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 220,
+        "high": 220,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按芝加哥城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 480,
+        "high": 480,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Blackstone Hotel"
+  },
+  {
+    "id": "stay-us-chicago-drake",
+    "cityId": "chicago",
+    "kind": "hotel",
+    "name": "The Drake",
+    "nameEn": "The Drake",
+    "accommodationType": "hotel",
+    "provider": "The Drake",
+    "tagline": "Gold Coast · 具名住宿",
+    "description": "位于华丽一英里北端的历史酒店，邻近湖岸与Gold Coast街区。",
+    "lat": 41.9,
+    "lng": -87.6235,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Gold Coast",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thedrakehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thedrakehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-chicago-drake",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按芝加哥城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按芝加哥城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 220,
+        "high": 220,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按芝加哥城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 480,
+        "high": 480,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-chicago-athletic",
+    "cityId": "chicago",
+    "kind": "hotel",
+    "name": "Chicago Athletic Association",
+    "nameEn": "Chicago Athletic Association",
+    "accommodationType": "hotel",
+    "provider": "Chicago Athletic Association",
+    "tagline": "Millennium Park周边 · 具名住宿",
+    "description": "由历史运动俱乐部建筑改造的酒店，位置适合千禧公园与Loop建筑步行。",
+    "lat": 41.8815,
+    "lng": -87.6249,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Millennium Park周边",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.chicagoathletichotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.chicagoathletichotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-chicago-athletic",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按芝加哥城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按芝加哥城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 220,
+        "high": 220,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按芝加哥城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 480,
+        "high": 480,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-chicago-congress",
+    "cityId": "chicago",
+    "kind": "hotel",
+    "name": "Congress Plaza Hotel",
+    "nameEn": "Congress Plaza Hotel",
+    "accommodationType": "hotel",
+    "provider": "Congress Plaza Hotel",
+    "tagline": "Grant Park · 具名住宿",
+    "description": "Grant Park对面的历史酒店，可比较不同房型后选择适合市中心步行的住宿。",
+    "lat": 41.8756,
+    "lng": -87.6246,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Grant Park",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.congressplazahotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.congressplazahotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-chicago-congress",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按芝加哥城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 110,
+        "high": 110,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按芝加哥城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 220,
+        "high": 220,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按芝加哥城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 480,
+        "high": 480,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "芝加哥城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Congress Plaza Hotel"
+  },
+  {
+    "id": "stay-us-atlanta-georgian-terrace",
+    "cityId": "atlanta",
+    "kind": "hotel",
+    "name": "The Georgian Terrace",
+    "nameEn": "The Georgian Terrace",
+    "accommodationType": "hotel",
+    "provider": "The Georgian Terrace",
+    "tagline": "Midtown · 具名住宿",
+    "description": "Fox Theatre对面的历史酒店，适合以Midtown剧院、餐馆和艺术馆为主的旅程。",
+    "lat": 33.7723,
+    "lng": -84.3847,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Midtown",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://thegeorgianterrace.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://thegeorgianterrace.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-atlanta-georgian-terrace",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按亚特兰大城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按亚特兰大城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按亚特兰大城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Georgian Terrace Hotel"
+  },
+  {
+    "id": "stay-us-atlanta-clermont",
+    "cityId": "atlanta",
+    "kind": "hotel",
+    "name": "Hotel Clermont",
+    "nameEn": "Hotel Clermont",
+    "accommodationType": "hotel",
+    "provider": "Hotel Clermont",
+    "tagline": "Poncey-Highland · 具名住宿",
+    "description": "Ponce de Leon Avenue上的精品酒店，可连接Ponce City Market与东侧绿道。",
+    "lat": 33.774,
+    "lng": -84.3613,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Poncey-Highland",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.hotelclermont.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.hotelclermont.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-atlanta-clermont",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按亚特兰大城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按亚特兰大城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按亚特兰大城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-atlanta-whitley",
+    "cityId": "atlanta",
+    "kind": "hotel",
+    "name": "The Whitley, a Luxury Collection Hotel",
+    "nameEn": "The Whitley, a Luxury Collection Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Whitley, a Luxury Collection Hotel",
+    "tagline": "Buckhead · 具名住宿",
+    "description": "位于Buckhead的酒店，适合把购物和北侧餐馆作为重点，前往Downtown需另留交通。",
+    "lat": 33.8498,
+    "lng": -84.3632,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Buckhead",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://thewhitleyhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://thewhitleyhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-atlanta-whitley",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按亚特兰大城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按亚特兰大城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按亚特兰大城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-atlanta-omni",
+    "cityId": "atlanta",
+    "kind": "hotel",
+    "name": "Omni Atlanta Hotel at Centennial Park",
+    "nameEn": "Omni Atlanta Hotel at Centennial Park",
+    "accommodationType": "hotel",
+    "provider": "Omni Atlanta Hotel at Centennial Park",
+    "tagline": "Downtown · 具名住宿",
+    "description": "靠近百年奥林匹克公园的酒店，适合水族馆与市中心场馆集中的行程。",
+    "lat": 33.7588,
+    "lng": -84.395,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Downtown",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.omnihotels.com/hotels/atlanta-centennial-park",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.omnihotels.com/hotels/atlanta-centennial-park",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-atlanta-omni",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按亚特兰大城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按亚特兰大城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按亚特兰大城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-atlanta-four-seasons",
+    "cityId": "atlanta",
+    "kind": "hotel",
+    "name": "Four Seasons Hotel Atlanta",
+    "nameEn": "Four Seasons Hotel Atlanta",
+    "accommodationType": "hotel",
+    "provider": "Four Seasons Hotel Atlanta",
+    "tagline": "Midtown · 具名住宿",
+    "description": "Midtown的高层酒店，适合将艺术馆、餐馆与城市公园安排在同一片区。",
+    "lat": 33.7862,
+    "lng": -84.3867,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Midtown",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fourseasons.com/atlanta/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.fourseasons.com/atlanta/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-atlanta-four-seasons",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按亚特兰大城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 95,
+        "high": 95,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按亚特兰大城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 190,
+        "high": 190,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按亚特兰大城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 390,
+        "high": 390,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "亚特兰大城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Four Seasons Hotel Atlanta"
+  },
+  {
+    "id": "stay-us-charleston-francis-marion",
+    "cityId": "charleston",
+    "kind": "hotel",
+    "name": "Francis Marion Hotel",
+    "nameEn": "Francis Marion Hotel",
+    "accommodationType": "hotel",
+    "provider": "Francis Marion Hotel",
+    "tagline": "Marion Square · 具名住宿",
+    "description": "面向Marion Square的历史酒店，可把King Street餐馆与博物馆步行连接。",
+    "lat": 32.7855,
+    "lng": -79.9368,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Marion Square",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.francismarionhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.francismarionhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-charleston-francis-marion",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按查尔斯顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 125,
+        "high": 125,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按查尔斯顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按查尔斯顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Francis Marion Hotel"
+  },
+  {
+    "id": "stay-us-charleston-charleston-place",
+    "cityId": "charleston",
+    "kind": "hotel",
+    "name": "The Charleston Place",
+    "nameEn": "The Charleston Place",
+    "accommodationType": "hotel",
+    "provider": "The Charleston Place",
+    "tagline": "Historic District · 具名住宿",
+    "description": "历史城区中心的酒店，适合以市场、画廊和海滨步行为主的住宿。",
+    "lat": 32.7817,
+    "lng": -79.9332,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Historic District",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://charlestonplace.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://charlestonplace.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-charleston-charleston-place",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按查尔斯顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 125,
+        "high": 125,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按查尔斯顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按查尔斯顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Charleston Place"
+  },
+  {
+    "id": "stay-us-charleston-dewberry",
+    "cityId": "charleston",
+    "kind": "hotel",
+    "name": "The Dewberry Charleston",
+    "nameEn": "The Dewberry Charleston",
+    "accommodationType": "hotel",
+    "provider": "The Dewberry Charleston",
+    "tagline": "Marion Square · 具名住宿",
+    "description": "由20世纪中期现代风格联邦办公建筑改造的酒店，面向Marion Square一带。",
+    "lat": 32.7874,
+    "lng": -79.9348,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Marion Square",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://thedewberrycharleston.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://thedewberrycharleston.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-charleston-dewberry",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按查尔斯顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 125,
+        "high": 125,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按查尔斯顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按查尔斯顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "The Dewberry"
+  },
+  {
+    "id": "stay-us-charleston-zero-george",
+    "cityId": "charleston",
+    "kind": "hotel",
+    "name": "Zero George",
+    "nameEn": "Zero George",
+    "accommodationType": "hotel",
+    "provider": "Zero George",
+    "tagline": "Ansonborough · 具名住宿",
+    "description": "由历史住宅和庭院组成的精品住宿，适合重视安静街区与建筑细节的旅客。",
+    "lat": 32.7877,
+    "lng": -79.9296,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Ansonborough",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://zerogeorge.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://zerogeorge.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-charleston-zero-george",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按查尔斯顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 125,
+        "high": 125,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按查尔斯顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按查尔斯顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-charleston-emeline",
+    "cityId": "charleston",
+    "kind": "hotel",
+    "name": "Emeline",
+    "nameEn": "Emeline",
+    "accommodationType": "hotel",
+    "provider": "Emeline",
+    "tagline": "City Market · 具名住宿",
+    "description": "Church Street上的设计酒店，靠近城市市场，适合把老城小店与餐饮排进住宿日。",
+    "lat": 32.7812,
+    "lng": -79.9297,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "City Market",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://hotelemeline.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://hotelemeline.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-charleston-emeline",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按查尔斯顿城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 125,
+        "high": 125,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按查尔斯顿城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 240,
+        "high": 240,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按查尔斯顿城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 500,
+        "high": 500,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "查尔斯顿城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-savannah-desoto",
+    "cityId": "savannah",
+    "kind": "hotel",
+    "name": "The DeSoto",
+    "nameEn": "The DeSoto",
+    "accommodationType": "hotel",
+    "provider": "The DeSoto",
+    "tagline": "Historic District · 具名住宿",
+    "description": "位于历史区的酒店，可从Liberty Street步行进入多个树荫广场。",
+    "lat": 32.0741,
+    "lng": -81.0923,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Historic District",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://thedesotosavannah.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://thedesotosavannah.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-savannah-desoto",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按萨凡纳城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按萨凡纳城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 205,
+        "high": 205,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按萨凡纳城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "The DeSoto"
+  },
+  {
+    "id": "stay-us-savannah-orielle",
+    "cityId": "savannah",
+    "kind": "hotel",
+    "name": "Hotel Orielle, Autograph Collection",
+    "nameEn": "Hotel Orielle, Autograph Collection",
+    "accommodationType": "hotel",
+    "provider": "Hotel Orielle, Autograph Collection",
+    "tagline": "Riverfront · 具名住宿",
+    "description": "河滨酒店，前身为Bohemian Hotel Savannah Riverfront；适合希望步行体验River Street的旅客。",
+    "lat": 32.0823,
+    "lng": -81.094,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Riverfront",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/savak-hotel-orielle-autograph-collection/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/savak-hotel-orielle-autograph-collection/overview/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-savannah-orielle",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按萨凡纳城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按萨凡纳城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 205,
+        "high": 205,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按萨凡纳城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-savannah-planters",
+    "cityId": "savannah",
+    "kind": "hotel",
+    "name": "Planters Inn on Reynolds Square",
+    "nameEn": "Planters Inn on Reynolds Square",
+    "accommodationType": "hotel",
+    "provider": "Planters Inn on Reynolds Square",
+    "tagline": "Reynolds Square · 具名住宿",
+    "description": "Reynolds Square旁的精品住宿，适合以历史广场与老城餐馆为主的慢游。",
+    "lat": 32.0793,
+    "lng": -81.0894,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Reynolds Square",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.plantersinnsavannah.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.plantersinnsavannah.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-savannah-planters",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按萨凡纳城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按萨凡纳城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 205,
+        "high": 205,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按萨凡纳城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-savannah-river-street",
+    "cityId": "savannah",
+    "kind": "hotel",
+    "name": "River Street Inn",
+    "nameEn": "River Street Inn",
+    "accommodationType": "hotel",
+    "provider": "River Street Inn",
+    "tagline": "River Street · 具名住宿",
+    "description": "旧仓库建筑中的河街酒店，河滨氛围鲜明；携带行李前确认入口与台阶路线。",
+    "lat": 32.0815,
+    "lng": -81.0894,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "River Street",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.riverstreetinn.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.riverstreetinn.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-savannah-river-street",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按萨凡纳城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按萨凡纳城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 205,
+        "high": 205,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按萨凡纳城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-savannah-plant-riverside",
+    "cityId": "savannah",
+    "kind": "hotel",
+    "name": "JW Marriott Savannah Plant Riverside District",
+    "nameEn": "JW Marriott Savannah Plant Riverside District",
+    "accommodationType": "hotel",
+    "provider": "JW Marriott Savannah Plant Riverside District",
+    "tagline": "Plant Riverside District · 具名住宿",
+    "description": "位于发电厂改造河滨片区的酒店，可将滨水餐饮和散步留在住宿日程里。",
+    "lat": 32.0832,
+    "lng": -81.0974,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Plant Riverside District",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.marriott.com/en-us/hotels/savjw-jw-marriott-savannah-plant-riverside-district/overview/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.marriott.com/en-us/hotels/savjw-jw-marriott-savannah-plant-riverside-district/overview/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-savannah-plant-riverside",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按萨凡纳城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 105,
+        "high": 105,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按萨凡纳城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 205,
+        "high": 205,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按萨凡纳城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 420,
+        "high": 420,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "萨凡纳城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-miami-fontainebleau",
+    "cityId": "miami",
+    "kind": "hotel",
+    "name": "Fontainebleau Miami Beach",
+    "nameEn": "Fontainebleau Miami Beach",
+    "accommodationType": "hotel",
+    "provider": "Fontainebleau Miami Beach",
+    "tagline": "Mid-Beach · 具名住宿",
+    "description": "Miami Beach中段的大型海滨酒店，适合把泳池与海滩休息作为旅程重点。",
+    "lat": 25.817,
+    "lng": -80.1226,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Mid-Beach",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.fontainebleau.com/miamibeach/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.fontainebleau.com/miamibeach/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-miami-fontainebleau",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按迈阿密城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按迈阿密城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按迈阿密城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Fontainebleau Miami Beach"
+  },
+  {
+    "id": "stay-us-miami-biltmore",
+    "cityId": "miami",
+    "kind": "hotel",
+    "name": "The Biltmore Hotel Miami Coral Gables",
+    "nameEn": "The Biltmore Hotel Miami Coral Gables",
+    "accommodationType": "hotel",
+    "provider": "The Biltmore Hotel Miami Coral Gables",
+    "tagline": "Coral Gables · 具名住宿",
+    "description": "Coral Gables的历史酒店，建筑与园林氛围突出；不是South Beach海滨住宿。",
+    "lat": 25.7407,
+    "lng": -80.279,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Coral Gables",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://biltmorehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://biltmorehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。 相关百科照片用于建筑外观识别，不代表所订房型、现有品牌设施或套餐内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-miami-biltmore",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按迈阿密城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按迈阿密城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按迈阿密城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ],
+    "article": "Miami Biltmore Hotel"
+  },
+  {
+    "id": "stay-us-miami-betsy",
+    "cityId": "miami",
+    "kind": "hotel",
+    "name": "The Betsy Hotel",
+    "nameEn": "The Betsy Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Betsy Hotel",
+    "tagline": "South Beach · 具名住宿",
+    "description": "Ocean Drive北端的精品酒店，可连接沙滩、艺术与步行街，具体景观取决于房型。",
+    "lat": 25.7868,
+    "lng": -80.1301,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "South Beach",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thebetsyhotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thebetsyhotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-miami-betsy",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按迈阿密城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按迈阿密城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按迈阿密城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-miami-palms",
+    "cityId": "miami",
+    "kind": "hotel",
+    "name": "The Palms Hotel & Spa",
+    "nameEn": "The Palms Hotel & Spa",
+    "accommodationType": "hotel",
+    "provider": "The Palms Hotel & Spa",
+    "tagline": "Mid-Beach · 具名住宿",
+    "description": "Miami Beach的热带花园海滨酒店，适合计划中留较多海边休息时间的住宿。",
+    "lat": 25.8077,
+    "lng": -80.1247,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "Mid-Beach",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thepalmshotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thepalmshotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-miami-palms",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按迈阿密城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按迈阿密城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按迈阿密城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stay-us-miami-goodtime",
+    "cityId": "miami",
+    "kind": "hotel",
+    "name": "The Goodtime Hotel",
+    "nameEn": "The Goodtime Hotel",
+    "accommodationType": "hotel",
+    "provider": "The Goodtime Hotel",
+    "tagline": "South Beach · 具名住宿",
+    "description": "South Beach的设计酒店，适合街区餐饮与海滩步行；泳池活动、年龄与附加费按房价条款确认。",
+    "lat": 25.7765,
+    "lng": -80.134,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "用于比较所在街区，实际入口、停车与入住地址以酒店确认信息为准。",
+    "durationMinutes": 0,
+    "features": [
+      "South Beach",
+      "具名住宿",
+      "官网询价"
+    ],
+    "sourceProvider": "official-hotel",
+    "sourceUrl": "https://www.thegoodtimehotel.com/",
+    "sourceCheckedAt": "2026-09-23",
+    "bookingUrl": "https://www.thegoodtimehotel.com/",
+    "websiteVerification": "official-site-reference",
+    "priceBasis": "city-daily-lodging",
+    "hotelQuoteStatus": "not-verified",
+    "operatingStatus": "official-site-listed",
+    "availabilityNote": "金额是所在城市的住宿预算占位，并非这家酒店可订房价。房型、日期、最低入住年龄、税费、度假村费、押金、停车与取消条款须在官网确认。",
+    "verificationNote": "已参考酒店官方页面的名称与定位；没有查询特定入住日期的房态、房型价格或套餐包含内容。",
+    "requirements": [
+      "先按实际入住日期取得官网报价，再调整住宿预算",
+      "核对每间入住人数、税费、度假村费、早餐与停车",
+      "确认入住年龄、押金和取消条款"
+    ],
+    "imageRef": "stay-us-miami-goodtime",
+    "priceOptions": [
+      {
+        "id": "budget-allowance",
+        "name": "经济预算预留 · 城市参考",
+        "description": "按迈阿密城市经济住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 120,
+        "high": 120,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "comfort-allowance",
+        "name": "舒适预算预留 · 城市参考",
+        "description": "按迈阿密城市舒适住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 250,
+        "high": 250,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      },
+      {
+        "id": "premium-allowance",
+        "name": "高端预算预留 · 城市参考",
+        "description": "按迈阿密城市高端住宿档预留一间一晚；不是本酒店的实际售价、房型或可售套餐。",
+        "low": 550,
+        "high": 550,
+        "currency": "USD",
+        "unit": "room-night",
+        "type": "estimate",
+        "checkedAt": null,
+        "priceBasis": "city-daily-lodging",
+        "sourceName": "迈阿密城市住宿编辑预算；非该酒店报价",
+        "note": "仅用于取得酒店报价前预留成本，可能不适用于本酒店；实际住宿税、度假村费、停车、早餐和房型需向酒店确认。",
+        "includes": [],
+        "excludes": [
+          "未确认包含的税费、度假村费、早餐、加床、停车与接送"
+        ]
+      }
+    ]
+  }
+]

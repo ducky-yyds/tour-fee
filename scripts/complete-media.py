@@ -148,6 +148,19 @@ def scenery(file, description, captured_at=''):
 def inventory():
     cities = read(ROOT / 'data/cities.json', [])
     image_sources = read(ROOT / 'data/experience-image-sources.json', {})
+    place_sources = {}
+    for path in sorted((ROOT / 'data/place-photo-expansion').glob('*.json')):
+        for item_id, photo in read(path, {}).items():
+            if item_id in place_sources or not photo.get('photoFile') or not photo.get('sourceUrl', '').startswith('https://') or not photo.get('license') or not photo.get('imageContextNote'):
+                raise ValueError('Invalid or duplicate reviewed place photo: ' + item_id)
+            place_sources[item_id] = {'photoFile': photo['photoFile'], 'imageScope': photo.get('imageScope', 'nearby'), 'imageContextNote': photo['imageContextNote']}
+    reviewed_experience_ids = set()
+    for path in sorted((ROOT / 'data/experience-photo-expansion').glob('*.json')):
+        for item_id, photo in read(path, {}).items():
+            if item_id in reviewed_experience_ids or not photo.get('photoFile') or not photo.get('sourceUrl', '').startswith('https://') or not photo.get('license') or not photo.get('imageContextNote'):
+                raise ValueError('Invalid or duplicate reviewed experience photo: ' + item_id)
+            reviewed_experience_ids.add(item_id)
+            image_sources[item_id] = {**image_sources.get(item_id, {}), 'photoFile': photo['photoFile'], 'imageScope': photo.get('imageScope', 'nearby'), 'imageContextNote': photo['imageContextNote']}
     # Subject-checked hotel photographs survive imports and daily maintenance.
     for path in sorted((ROOT / 'data/hotel-photo-expansion').glob('*.json')):
         for item_id, photo in read(path, {}).items():
@@ -157,7 +170,7 @@ def inventory():
     items = []
     for city in cities:
         for place in city['attractions']:
-            items.append({**place, '_city': city, '_kind': 'place'})
+            items.append({**place, **place_sources.get(place['id'], {}), '_city': city, '_kind': 'place'})
     for food in read(ROOT / 'data/local-foods.json', []):
         items.append({**food, '_city': next((c for c in cities if c['id'] in food.get('cityIds', [])), cities[0]), '_kind': 'food'})
     for path in [ROOT/'data/city-experiences.json', ROOT/'data/city-activities.json', *sorted((ROOT/'data/experience-expansion').glob('*.json'))]:
@@ -216,22 +229,25 @@ def exact(items, media, excluded):
         extra = {}
         if item.get('photoFile') or item.get('imageFile'):
             extra['requestedFileTitle'] = file_title(item.get('photoFile') or item.get('imageFile'))
-            if item.get('imagePolicy') in ('exact-only', 'exact-or-illustration'):
+            if item.get('imagePolicy') in ('exact-only', 'exact-or-illustration') and item.get('imageScope') not in ('nearby', 'related-theme'):
                 extra['subjectMatched'] = True
         if item.get('imageContextNote'):
             extra['contextNote'] = item['imageContextNote']
-        if item.get('imageScope') == 'nearby':
-            extra['scope'] = 'nearby'
+        if item.get('imageScope') in ('nearby', 'related-theme'):
+            extra['scope'] = item['imageScope']
             extra['contextNote'] = item.get('imageContextNote') or '相关地点或活动实景，不代表某一供应商的设施或套餐。'
         return extra
 
     def needs_exact(item):
         current = media['attractions'].get(item['id'])
         manual = item.get('photoFile') or item.get('imageFile')
-        if manual and current and file_title(manual) != file_title(current.get('requestedFileTitle') or current.get('fileTitle')):
-            return True
+        if manual:
+            return not (valid_photo(current) and current.get('scope') != 'illustration'
+                        and file_title(manual) == file_title(current.get('requestedFileTitle') or current.get('fileTitle')))
         return not (valid_photo(current) and current.get('scope') not in ('nearby', 'illustration'))
-    targets = [item for item in items if item['id'] not in excluded and needs_exact(item)
+    # An excluded automatic article match must not block a reviewed contextual
+    # photograph, which explicitly identifies its actual subject in the card.
+    targets = [item for item in items if (item['id'] not in excluded or item.get('photoFile') and item.get('imageScope') in ('nearby', 'related-theme')) and needs_exact(item)
                and (item.get('imagePolicy') not in ('exact-only', 'exact-or-illustration') or item.get('photoFile') or item.get('imageFile'))]
     excluded_articles = {row['article'] for row in read(ROOT / 'data/stay-library-exclusions.json', {}).get('excludedImageArticles', [])}
     def exact_identity_allowed(item):
@@ -413,13 +429,15 @@ def fallback(items, media):
             # An exact photograph always wins, including on the next refresh.
             media['attractions'][item['id']] = {key: value for key, value in artwork.items() if key != 'prompt'}
             continue
-        if valid_photo(media['attractions'].get(item['id'])):
+        if valid_photo(current) and current.get('scope') != 'illustration':
             continue
         reference = media['attractions'].get(item.get('imageRef'))
         if item.get('imagePolicy') not in ('exact-only', 'exact-or-illustration') and item.get('imageRef') != item['id'] and valid_photo(reference) and reference.get('scope') != 'illustration' and file_title(reference.get('fileTitle')) not in NEARBY_EXCLUSIONS:
             media['attractions'][item['id']] = {**reference, 'scope': 'nearby',
                 'contextNote': item.get('imageContextNote') or '与本项目相关的地点实景；不是房间、套餐或供应商设施的实拍承诺。',
                 'alt': item['name'] + '相关地点的环境实景'}
+            continue
+        if valid_photo(current):
             continue
         themes = {'festival': 'culture', 'marine': 'nature', 'wildlife': 'nature', 'nature': 'nature', 'craft': 'culture', 'performance': 'culture', 'food-life': 'food', 'literary': 'culture', 'local-life': 'walk'}
         key = 'food' if item['_kind'] in ('food', 'restaurant') else 'stay' if item['_kind'] == 'hotel' else themes.get(item.get('experienceType')) or ('nature' if item.get('activityType') == 'leisure' else 'culture' if re.search('博物馆|文化|艺术|历史', item.get('category', '')) else 'walk')
@@ -442,8 +460,8 @@ def main():
     parser.add_argument('--cities', default='')
     parser.add_argument('--kinds', default='', help='Optional comma-separated kinds: place,food,hotel,restaurant,experience')
     parser.add_argument('--id-prefix', default='', help='Limit downloads to a maintained batch without revisiting unrelated entries')
-    parser.add_argument('--photo-packs-only', action='store_true', help='Only process entries with reviewed food/hotel photo expansion mappings')
-    parser.add_argument('--reviewed-places-only', action='store_true', help='Only repair places with an explicit exact-only image policy')
+    parser.add_argument('--photo-packs-only', action='store_true', help='Only process entries with reviewed food/hotel/experience/place photo expansion mappings')
+    parser.add_argument('--reviewed-places-only', action='store_true', help='Only repair places with an explicit photograph or exact-only image policy')
     parser.add_argument('--thumb-width', type=int, choices=[320, 400, 500, 640, 960], default=500, help='Requested width for new downloads; existing local images are retained')
     args = parser.parse_args()
     THUMB_WIDTH = args.thumb_width
@@ -451,10 +469,10 @@ def main():
     if args.id_prefix:
         items = [item for item in items if item['id'].startswith(args.id_prefix)]
     if args.reviewed_places_only:
-        items = [item for item in items if item['_kind'] == 'place' and item.get('imagePolicy') == 'exact-only']
+        items = [item for item in items if item['_kind'] == 'place' and (item.get('photoFile') or item.get('imageFile') or item.get('imagePolicy') == 'exact-only')]
     if args.photo_packs_only:
         selected = set()
-        for directory in ('food-photo-expansion', 'hotel-photo-expansion'):
+        for directory in ('food-photo-expansion', 'hotel-photo-expansion', 'experience-photo-expansion', 'place-photo-expansion'):
             for path in sorted((ROOT / 'data' / directory).glob('*.json')):
                 selected.update(read(path, {}))
         items = [item for item in items if item['id'] in selected]
@@ -487,8 +505,9 @@ def main():
         current = media['attractions'].get(item['id'])
         if current and current.get('scope') != 'illustration' and item.get('imageContextNote'):
             current['contextNote'] = item['imageContextNote']
-            if item.get('imageScope') == 'nearby':
-                current['scope'] = 'nearby'
+            if item.get('imageScope') in ('nearby', 'related-theme'):
+                current['scope'] = item['imageScope']
+                current.pop('subjectMatched', None)
             corrected = True
         if current and current.get('scope') == 'nearby' and '拍摄坐标' in current.get('contextNote', ''):
             current['contextNote'] = current['contextNote'].replace('拍摄坐标', '图片标注坐标')
@@ -507,14 +526,14 @@ def main():
         nearby(cities, items, media, excluded)
     if args.phase in ('fallback', 'all'):
         fallback(items, media)
-    report = {'at': stamp(), 'items': len(items), 'exact': 0, 'nearby': 0, 'illustration': 0, 'missing': []}
+    report = {'at': stamp(), 'items': len(items), 'exact': 0, 'nearby': 0, 'related-theme': 0, 'illustration': 0, 'missing': []}
     for item in items:
         photo = media['attractions'].get(item['id'])
         if not valid_photo(photo):
             report['missing'].append(item['id'])
         else:
             scope = photo.get('scope', 'exact-place')
-            report['nearby' if scope == 'nearby' else 'illustration' if scope == 'illustration' else 'exact'] += 1
+            report[scope if scope in ('nearby', 'related-theme', 'illustration') else 'exact'] += 1
     write(CACHE / 'last-run.json', report)
     print(json.dumps({key: value if key != 'missing' else len(value) for key, value in report.items()}), flush=True)
 

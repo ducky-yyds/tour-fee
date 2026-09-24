@@ -32,12 +32,15 @@ export function cardImage(entity, media, kind = 'place') {
     return illustrationFor(entity, kind);
   }
   if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return illustrationFor(entity, kind);
-  if (image?.url) return image;
-  if (entity.image?.url) return entity.image;
+  if (image?.url && image.scope !== 'illustration') return image;
+  if (entity.image?.url && entity.image.scope !== 'illustration') return entity.image;
   if (entity.imageRef && media?.attractions?.[entity.imageRef]?.url) {
     const referenced = media.attractions[entity.imageRef];
-    if (referenced.scope === 'illustration' || media.nearbyExcludedFiles?.includes(referenced.fileTitle?.replaceAll('_', ' '))) return illustrationFor(entity, kind);
-    return { ...referenced, scope: 'nearby', contextNote: entity.imageContextNote || '与本项目相关的地点实景，非房间、套餐或供应商设施的实拍承诺。' };
+    if (referenced.scope !== 'illustration' && !media.nearbyExcludedFiles?.includes(referenced.fileTitle?.replaceAll('_', ' '))) {
+      return { ...referenced, scope: 'nearby', contextNote: entity.imageContextNote || '与本项目相关的地点实景，非房间、套餐或供应商设施的实拍承诺。' };
+    }
   }
+  if (image?.url) return image;
+  if (entity.image?.url) return entity.image;
   return illustrationFor(entity, kind);
 }

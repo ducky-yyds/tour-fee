@@ -118,5 +118,11 @@
   },
   "osm-lijiang-node-9201553045": {
     "imagePolicy": "exact-only"
+  },
+  "tianjin-xibeijiao-breakfast": {
+    "imagePolicy": "real-photo-preferred"
+  },
+  "zunyi-1935-historic-quarter": {
+    "imagePolicy": "real-photo-preferred"
   }
 }

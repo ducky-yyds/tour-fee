@@ -18,6 +18,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--max-images', type=int, default=80)
+    parser.add_argument('--thumb-width', type=int, choices=[400, 500], default=500)
     args = parser.parse_args()
     if not 1 <= args.max_images <= 200:
         parser.error('--max-images must be between 1 and 200')
@@ -27,12 +28,12 @@ def main():
     candidates = {}
     for image in manifest.get('attractions', {}).values():
         url = image.get('url', '')
-        if not url.startswith('/images/') or url in covers or image.get('width', 0) < 900:
+        if not url.startswith('/images/') or url in covers or image.get('width', 0) <= args.thumb_width * 1.25:
             continue
         if not image.get('fileTitle') or not image.get('sourceUrl', '').startswith('https://commons.wikimedia.org/wiki/File:'):
             continue
         local = (public / url.lstrip('/')).resolve()
-        if local.parent != public / 'images' or not local.is_file() or local.stat().st_size <= 220 * 1024:
+        if local.parent != public / 'images' or not local.is_file() or local.stat().st_size <= 160 * 1024:
             continue
         candidates[url] = {'url': url, 'path': local, 'file': media_tools.file_title(image['fileTitle']), 'bytes': local.stat().st_size}
     selected = sorted(candidates.values(), key=lambda row: -row['bytes'])[:args.max_images]
@@ -56,7 +57,7 @@ def main():
     for start in range(0, len(selected), 20):
         batch = selected[start:start + 20]
         try:
-            result = media_tools.api({'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size', 'iiurlwidth': 500,
+            result = media_tools.api({'prop': 'imageinfo', 'iiprop': 'url|extmetadata|size', 'iiurlwidth': args.thumb_width,
                                       'redirects': 1, 'titles': '|'.join('File:' + row['file'] for row in batch)})
             aliases = {media_tools.file_title(row['from']): media_tools.file_title(row['to']) for row in result.get('query', {}).get('normalized', []) + result.get('query', {}).get('redirects', [])}
             metadata = {media_tools.file_title(page['title']): (page.get('imageinfo') or [{}])[0] for page in result.get('query', {}).get('pages', {}).values()}
@@ -82,7 +83,7 @@ def main():
                         temporary.replace(row['path'])
                         for image in manifest['attractions'].values():
                             if image.get('url') == row['url']:
-                                image.update({'remoteUrl': info['thumburl'], 'bytes': len(body), 'preferredWidth': 500,
+                                image.update({'remoteUrl': info['thumburl'], 'bytes': len(body), 'preferredWidth': args.thumb_width,
                                               'width': info.get('thumbwidth'), 'height': info.get('thumbheight'),
                                               'checkedAt': media_tools.stamp()})
                         report['savedBytes'] += row['bytes'] - len(body)

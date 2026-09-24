@@ -1,10 +1,11 @@
-import { readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, statSync, readdirSync } from 'node:fs';
 import { dirname, isAbsolute, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CURRENCIES, REGIONS } from '../shared/currencies.mjs';
 import { cardImage } from '../shared/media.mjs';
 import { readExperienceEntries } from '../server/experience-catalog.mjs';
 import { EXPERIENCE_THEMES } from '../shared/experience-discovery.mjs';
+import { destinationDepthReport } from './destination-depth-report.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const PUBLIC = resolve(ROOT, 'public');
@@ -15,13 +16,33 @@ const experiences = readExperienceEntries(ROOT), foods = read('data/local-foods.
 const cityIds = new Set(cities.map(city => city.id));
 const problems = [], seen = new Set();
 const experienceIds = new Set(experiences.map(place => place.id));
+const reviewedPhotoIds = new Set();
+// Reviewed replacements must survive imports without becoming orphan mappings.
+for (const [folder, ids] of [
+  ['place-photo-expansion', new Set(cities.flatMap(city => city.attractions.map(place => place.id)))],
+  ['experience-photo-expansion', experienceIds],
+]) {
+  const directory = resolve(ROOT, 'data', folder), mapped = new Set();
+  if (!existsSync(directory)) continue;
+  for (const file of readdirSync(directory).filter(name => name.endsWith('.json'))) {
+    for (const [id, photo] of Object.entries(read(`data/${folder}/${file}`))) {
+      // OSM refreshes may retire an entry; retaining its photo override is safe
+      // and allows the same stable ID to regain its reviewed photo later.
+      if ((!ids.has(id) && !id.startsWith('osm-')) || mapped.has(id)) problems.push(`Orphan or duplicate reviewed photo: ${folder}/${id}`);
+      mapped.add(id);
+      reviewedPhotoIds.add(id);
+      if (!photo.photoFile || !photo.sourceUrl?.startsWith('https://') || !photo.license || !photo.imageContextNote
+        || !['exact-place', 'nearby', 'related-theme'].includes(photo.imageScope)) problems.push(`Incomplete reviewed photo: ${folder}/${id}`);
+    }
+  }
+}
 const STAYS_FILE = 'data/experience-expansion/stays-global.json';
 const stays = existsSync(resolve(ROOT, STAYS_FILE)) ? read(STAYS_FILE) : [];
 if (!existsSync(resolve(ROOT, STAYS_FILE))) problems.push(`Missing stay expansion: ${STAYS_FILE}`);
 
 const IMAGE_GROUPS = ['cities', 'attractions', 'experiences', 'foods'];
-const IMAGE_SCOPES = ['exact-place', 'nearby', 'illustration', 'existing-photo', 'unrecognized'];
-const PHOTO_SCOPES = new Set(['exact-place', 'nearby', 'existing-photo']);
+const IMAGE_SCOPES = ['exact-place', 'nearby', 'related-theme', 'illustration', 'existing-photo', 'unrecognized'];
+const PHOTO_SCOPES = new Set(['exact-place', 'nearby', 'related-theme', 'existing-photo']);
 const newScopeCounts = () => Object.fromEntries(IMAGE_SCOPES.map(scope => [scope, 0]));
 const newMediaSummary = () => ({
   entities: 0, cardsWithImage: 0, localImages: 0, remoteImagesUnverified: 0,
@@ -97,6 +118,7 @@ function auditImage(group, entity, kind) {
   const manifest = (group === 'cities' ? media.cities : media.attractions)?.[entity.id];
   // Keep these resolution paths aligned with server/catalog.mjs.
   const runtime = group === 'cities' ? manifest || entity.image : cardImage(entity, media, kind);
+  if (reviewedPhotoIds.has(entity.id) && manifest?.url && PHOTO_SCOPES.has(imageScope(manifest)) && !PHOTO_SCOPES.has(imageScope(runtime))) problems.push(`Reviewed photograph hidden by image policy: ${entity.id}`);
   recordImage('manifest', group, entity, manifest);
   recordImage('runtime', group, entity, runtime);
 }
@@ -138,6 +160,10 @@ for (const city of cities) {
     registerId(attraction, 'attraction');
     if (!Number.isFinite(attraction.lat) || !Number.isFinite(attraction.lng) || Math.abs(attraction.lat) > 90 || Math.abs(attraction.lng) > 180) problems.push(`Invalid coordinates: ${attraction.id}`);
     const price = attraction.price;
+    const duration = attraction.durationRange;
+    if (duration && (![duration.min, duration.recommended, duration.max].every(value => Number.isFinite(value) && value >= 5)
+      || duration.min > duration.recommended || duration.recommended > duration.max
+      || (Number.isFinite(attraction.durationHours) && Math.abs(duration.recommended - attraction.durationHours * 60) > 15))) problems.push(`Invalid visit duration in minutes: ${attraction.id}`);
     // Unknown admission is supported, but is not a free or verified quote.
     if (!price || (price.type !== 'missing' && !price.missingPrice && !(Number.isFinite(price.low) && price.low >= 0 && Number.isFinite(price.high) && price.high >= price.low))) problems.push(`Invalid price: ${attraction.id}`);
     if (price?.type === 'official' && (!price.checkedAt || !price.sourceUrl)) problems.push(`Untraceable official price: ${attraction.id}`);
@@ -213,6 +239,9 @@ const experienceCoverage = {
   missingCities: cities.filter(city => !experiences.some(place => place.cityId === city.id)).map(city => city.id),
   stayExpansion: { file: STAYS_FILE, loaded: stays.length, cities: new Set(stays.map(stay => stay.cityId)).size, cityBudgetReferences: stays.filter(stay => stay.priceBasis === 'city-daily-lodging').length },
 };
+const destinationDepthCoverage = destinationDepthReport(cities, experiences, media);
+writeFileSync(resolve(ROOT, 'data/destination-depth-audit.json'), JSON.stringify(destinationDepthCoverage, null, 2) + '\n');
+for (const id of destinationDepthCoverage.belowMinimum) problems.push(`Fewer than 20 attractions and experiences: ${id}`);
 const depthByCity = cities.map(city => {
   const rows = experiences.filter(item => item.cityId === city.id && item.kind === 'experience' && item.experienceType);
   return { cityId: city.id, experiences: rows.length, themes: [...new Set(rows.map(item => item.experienceType))] };
@@ -255,14 +284,14 @@ const report = {
   attractions: attractions.length, currencies: Object.keys(CURRENCIES).length, fxAsOf: fx.asOf,
   photos: Object.fromEntries(IMAGE_GROUPS.map(group => [group, mediaCoverage.manifest[group].photographs])),
   missingPhotos, mediaCoverage, imageFileCoverage, cityMinimumCoverage,
-  experienceCoverage, experienceDepthCoverage, foodCoverage, placeLibraryCoverage,
+  experienceCoverage, experienceDepthCoverage, destinationDepthCoverage, foodCoverage, placeLibraryCoverage,
   editorialSourceCoverage: { ...editorialSourceCoverage, uniqueLinks: editorialLinks.size,
     hosts: [...editorialHosts].sort(),
     note: 'Stored reading references and distinct hostnames; this validates metadata only, not live availability, independent ownership or current prices.' },
   mediaCountingNotes: [
     'Counts describe entity cards, not unique downloaded files; one illustration or reference photograph can serve multiple cards.',
     'Manifest coverage only uses the entry under the entity ID. Runtime coverage uses the same cardImage resolution as the catalog, including inline images, nearby references and illustrations.',
-    'exact-place, nearby and legacy existing-photo are photographs; illustration is never included in photos. Missing scope means existing-photo, not a newly verified exact-place photograph.',
+    'exact-place, nearby, related-theme and legacy existing-photo are photographs; illustration is never included in photos. related-theme can show another location and requires a context note. Missing scope means existing-photo, not a newly verified exact-place photograph.',
     'A food marked needs-food-photo can have a visible illustration. awaitingDishPhoto is separate from missingCardImages.',
     'Local image URLs are checked against public files. Remote URLs are recorded without fetching and their current availability is unverified.',
   ],

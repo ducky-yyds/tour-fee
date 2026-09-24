@@ -202,6 +202,8 @@ function placeMedia(item, city, sight) {
     image?.contextNote ||
     (image?.scope === "illustration"
       ? "插画示意，用于介绍这一地点的氛围。"
+      : image?.scope === "related-theme"
+        ? "同主题实景，拍摄地点和服务内容可能不同，请查看图片来源。"
       : image?.scope === "nearby"
         ? "周边实景，画面不代表该地点本身。"
         : !item.image?.url && related?.image?.url

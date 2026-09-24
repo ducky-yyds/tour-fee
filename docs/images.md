@@ -1,16 +1,16 @@
 # 目的地图片维护
 
-本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。169 座目的地扩展后的实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。实拍来自 Wikimedia Commons 与逐图核实开放许可的 Flickr 文件；食物专属示意图另行标注。不使用随机城市风景冒充地点。
+本地图片位于 `public/images/`，映射与逐张署名位于 `data/media.json`。实际图片覆盖与缺失清单以 `data/catalog-coverage.json` 为准，可运行 `npm.cmd run audit:catalog` 更新。`cities` 按城市 ID 索引，`attractions` 按地点或食物 ID 索引；前端使用记录的 `url`，不要自行拼接扩展名。实拍来自 Wikimedia Commons 与逐图核实开放许可的 Flickr 文件；食物专属示意图另行标注。不使用随机城市风景冒充地点。
 
 上一版（2026-09-22）的 100 张目的地主图与 819 张地点照片作为扩充起点保留。本轮继续增加新城市、香港街区、地图小地点和食物摄影；当前缺图清单以目录报告为准，没有运行上一版的额外解码测试。
 
 ## 更新命令
 
-人工核对菜品实拍的映射独立保存在 `data/food-photo-expansion/`，酒店实拍在 `data/hotel-photo-expansion/`；包含具体主体、来源文件、作者、许可及匹配依据。食物映射每次导入都会覆盖旧的不准确首图；酒店映射由整库图片维护读取。映射是候选来源，只有成功下载并核对后才记为照片。
+人工核对菜品实拍的映射独立保存在 `data/food-photo-expansion/`，酒店实拍在 `data/hotel-photo-expansion/`，体验实拍在 `data/experience-photo-expansion/`，街区与地点的替换图在 `data/place-photo-expansion/`；包含具体主体、来源文件、许可及匹配依据。作者和实际下载元数据保存在媒体清单。映射是候选来源，只有成功下载并核对后才记为照片。
 
 ```sh
 npm run import:destinations
-python scripts/complete-media.py --phase exact --kinds food,hotel --photo-packs-only --thumb-width 400
+python scripts/maintain-reviewed-images.py
 python scripts/complete-media.py --phase fallback
 ```
 
@@ -96,6 +96,14 @@ API 顺序请求，间隔至少 1.25 秒；CDN 最多三个下载任务、统一
 
 ## 控制目录图片体积
 
-`python3 scripts/compact-catalog-photos.py` 只列出体积超过 220 KiB、宽度至少 900 像素的 Commons 卡片照片；加 `--apply --max-images=80` 后，重新下载同一源文件的官方 500 像素缩略图。城市封面不参与，公共 URL、对应地点、署名和许可保持不变；仅在编码一致、授权仍可确认且体积至少缩小 10% 时替换。程序不在本地裁切或改绘照片，失败保留原图。
+`python3 scripts/compact-catalog-photos.py` 列出体积超过 160 KiB、宽度超过目标宽度 1.25 倍的 Commons 卡片照片；加 `--apply --max-images=80` 后，重新下载同一源文件的官方缩略图。默认目标宽度 500，可用 `--thumb-width=400`；Commons 可能返回最接近的预生成尺寸。城市封面不参与，公共 URL、对应地点、署名和许可保持不变；仅在编码一致、授权仍可确认且体积至少缩小 10% 时替换。程序不在本地裁切或改绘照片，失败保留原图。
 
 这是按需执行的发布维护，不会在每日任务中反复下载。报告位于 `artifacts/catalog-photo-compaction.json`；2026-09-23 分两批为 159 张卡片共减少约 41.8 MiB，为新增目的地留出发布空间。素材记录保存 `preferredWidth: 500`，常规刷新继续请求该尺寸，并保留同一源图片的范围说明。
+
+## 体验实拍与城市深度维护（2026-09-24）
+
+本轮优先用真实活动、自然环境、街区及文化照片替换通用 AI 插画，没有新生成 AI 图。`exact-place` 仅用于对应地点；`nearby` 为同城或活动区域的相关实拍；`related-theme` 为同主题参考照片，必须写明真实拍摄对象和地点差异。图片范围说明和署名放在展开详情中，不给卡片叠加“场景参考图”等大标签。
+
+新的人工映射在每次维护时优先于旧图。真实 `imageRef` 也优先于已有通用插画，避免补了实拍后仍显示 AI 图。每日维护读取四类照片包，并修复新增地点中显式 `photoFile` 的图片；不重新盲取网络搜索首图。
+
+`npm run audit:catalog` 同时更新 `data/destination-depth-audit.json`，按城市统计景点加 `kind=experience` 的项目数，排除酒店、餐厅与食物。少于 20 项会阻止发布；审计还检查游览分钟单位、人工照片映射及其是否被旧图片策略挡回插画。原始数量检查之外，新增批次另做主题重复、地点归属与远郊交通复核。逐城记录见 `docs/coverage-*-20260924.md`。

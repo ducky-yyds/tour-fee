@@ -92,7 +92,7 @@ jobs:
         continue-on-error: true
         timeout-minutes: 5
         run: python3 scripts/update-stay-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
-      - name: Repair missing reviewed food and hotel photographs
+      - name: Repair missing reviewed catalog photographs
         if: inputs.refresh_data
         continue-on-error: true
         timeout-minutes: 5

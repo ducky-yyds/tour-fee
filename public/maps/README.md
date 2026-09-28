@@ -16,3 +16,9 @@ of the polygon set. Route curves are great-circle planning connections, not
 airline flight paths or booked tickets.
 
 Reproduce from the locked package version with `npm run update:map`, then build.
+
+Country and province/state names use a separate fixed-anchor index,
+[`label-places.json`](label-places.json). See [label sources and regeneration](label-places.md).
+The globe shows countries at a distance, regions at medium zoom, and travel
+cities close up. Label boxes keep fixed offsets from their geographic anchors;
+screen-space collisions hide lower-priority labels instead of moving them around.

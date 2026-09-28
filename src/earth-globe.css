@@ -115,44 +115,85 @@
   stroke: #fffbe2;
   stroke-width: 1.9;
 }
-.eg-city-label {
+.eg-surface .eg-region-label,
+.eg-surface .eg-city-label {
   position: absolute;
+  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   height: 26px;
   border: none;
   background: transparent;
-  color: #fffefa;
-  padding: 2px 5px;
-  font-size: 13px !important;
   line-height: 22px;
-  text-align: left;
+  user-select: none;
   text-shadow:
     0 1px 3px #000,
     0 0 5px #03121f,
     0 0 8px #03121f;
+  /* Projected coordinates must follow the globe without the global button
+     transform transition or a second, animated position. */
+  transition: opacity 120ms linear, color 120ms linear;
+}
+.eg-surface .eg-region-label {
+  padding: 2px 8px;
+  text-align: center;
+  pointer-events: none;
+}
+.eg-surface .eg-region-label.is-country {
+  color: #d4e4e9;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+.eg-surface .eg-region-label.is-province {
+  color: #afc7d0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.eg-surface .eg-city-label {
+  color: #fffefa;
+  padding: 2px 5px;
+  font-size: 13px !important;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-align: left;
   border-radius: 5px;
   pointer-events: auto;
 }
-.eg-city-label.is-airport {
+.eg-surface .eg-city-label.is-airport {
   color: #bdd5df;
-  font-size: 13px !important;
 }
-.eg-city-label.is-selected {
-  background: #071926c9;
+.eg-surface .eg-city-label.is-selected {
+  background: #07192650;
   color: #ffe4b6;
-  border: 1px solid #ddc08a78;
-  padding-top: 1px;
 }
-.eg-city-label.is-visited {
+.eg-surface .eg-city-label.is-visited {
   color: #ffddaa;
 }
-.eg-city-label:hover,
-.eg-city-label:focus-visible {
+.eg-surface .eg-city-label:hover,
+.eg-surface .eg-city-label:focus-visible {
   background: #142c40f5;
   outline: 1px solid #adccdc !important;
   outline-offset: 0 !important;
+}
+.eg-label-scale {
+  position: absolute;
+  top: 65px;
+  left: 22px;
+  z-index: 5;
+  max-width: calc(100% - 162px);
+  overflow: hidden;
+  padding: 8px 0;
+  color: #abc1cc;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.035em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow: 0 1px 4px #03121f;
+  pointer-events: none;
 }
 .eg-view-tools {
   position: absolute;
@@ -326,8 +367,9 @@
 }
 .eg-fallback-note {
   position: absolute;
-  left: 24px;
-  top: 66px;
+  left: 22px;
+  top: 104px;
+  max-width: calc(100% - 44px);
   color: #bad1df;
   z-index: 4;
   font-size: 12px;
@@ -349,6 +391,15 @@
   .eg-view-tools {
     right: 17px;
     top: 61px;
+  }
+  .eg-label-scale {
+    left: 17px;
+    top: 61px;
+  }
+  .eg-fallback-note {
+    left: 17px;
+    top: 100px;
+    max-width: calc(100% - 34px);
   }
   .eg-satellite-caption {
     left: 18px;
@@ -382,8 +433,8 @@
   .eg-view-tools {
     gap: 10px;
   }
-  .eg-city-label {
-    font-size: 12px !important;
+  .eg-label-scale {
+    max-width: calc(100% - 115px);
   }
   .eg-fallback-note {
     left: 17px;
@@ -396,6 +447,10 @@
     animation: none;
   }
   .eg-earth-canvas {
+    transition: none;
+  }
+  .eg-surface .eg-region-label,
+  .eg-surface .eg-city-label {
     transition: none;
   }
 }

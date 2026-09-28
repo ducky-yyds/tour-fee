@@ -4,6 +4,9 @@ const validPoint = (city) =>
   Number.isFinite(city.lat) &&
   Math.abs(city.lat) <= 90 &&
   Math.abs(city.lng) <= 180;
+export const MIN_GLOBE_ZOOM = 0.7;
+export const MAX_GLOBE_ZOOM = 8;
+export const clampGlobeZoom = value => Math.max(MIN_GLOBE_ZOOM, Math.min(MAX_GLOBE_ZOOM, value));
 export function normalizePlaceSearch(value) {
   return String(value ?? "")
     .normalize("NFD")

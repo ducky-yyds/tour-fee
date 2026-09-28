@@ -26,6 +26,7 @@ import {
   normalizeRotation,
   projectRoute,
   rotationForCity,
+  clampGlobeZoom, MIN_GLOBE_ZOOM, MAX_GLOBE_ZOOM,
 } from "../shared/globe.mjs";
 import {
   PASSPORT_KEY,
@@ -387,8 +388,8 @@ export default function GlobePage({
                 <button
                   type="button"
                   aria-label="缩小地球"
-                  onClick={() => setZoom((value) => Math.max(0.7, value - 0.2))}
-                  disabled={zoom <= 0.7}
+                  onClick={() => setZoom((value) => clampGlobeZoom(value / 1.25))}
+                  disabled={zoom <= MIN_GLOBE_ZOOM}
                 >
                   <Minus size={16} />
                 </button>
@@ -396,8 +397,8 @@ export default function GlobePage({
                 <button
                   type="button"
                   aria-label="放大地球"
-                  onClick={() => setZoom((value) => Math.min(4.6, value + 0.2))}
-                  disabled={zoom >= 4.6}
+                  onClick={() => setZoom((value) => clampGlobeZoom(value * 1.25))}
+                  disabled={zoom >= MAX_GLOBE_ZOOM}
                 >
                   <Plus size={16} />
                 </button>
@@ -420,7 +421,7 @@ export default function GlobePage({
             )}
           </div>
           <div className="gl-map-instructions" id="gl-map-help">
-            <span>悬停城市看一眼 · 拖动旋转 · 点击后滚轮缩放</span>
+            <span>{locale === 'en' ? 'Zoom from countries to regions and cities · Drag to rotate · Hover a city to preview' : '缩小时看国家 · 放大逐级看省州与城市 · 拖动旋转，悬停城市预览'}</span>
             <div className="gl-turn-controls">
               {[
                 [ArrowLeft, "向左旋转地球", -15, 0],

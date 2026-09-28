@@ -1,18 +1,20 @@
 import React, { useEffect, useId, useMemo, useRef, useState } from "react";
 import { assetUrl } from "./api.mjs";
 import * as THREE from "three";
-import { geoDistance, geoInterpolate, geoOrthographic, geoPath } from "d3-geo";
+import { geoCentroid, geoDistance, geoInterpolate, geoOrthographic, geoPath } from "d3-geo";
 import { ArrowUpRight, Check, Cloud, Globe2, MapPin, X } from "lucide-react";
 import { ISO2_TO_NUMERIC } from "../shared/country-codes.mjs";
 import {
   cityPoint,
   normalizeRotation,
   rotationForCity,
+  clampGlobeZoom,
 } from "../shared/globe.mjs";
 import {
   earthVector,
   projectEarthVector,
-  layoutCityLabels,
+  layoutMapLabels,
+  labelDetailLevel,
   sampleCityPoints,
   hoverCardPosition,
 } from "../shared/globe-visual.mjs";
@@ -23,8 +25,13 @@ import "./earth-globe.css";
 
 const RAD = Math.PI / 180;
 const numericCode = (value) => String(value ?? "").padStart(3, "0");
-const clampZoom = (value) => Math.max(0.7, Math.min(4.6, value));
+const clampZoom = clampGlobeZoom;
 const SPHERE = { type: "Sphere" };
+const NUMERIC_TO_ISO2 = Object.fromEntries(Object.entries(ISO2_TO_NUMERIC).map(([iso, number]) => [numericCode(number), iso]));
+const REGION_NAMES = {
+  zh: new Intl.DisplayNames(['zh-CN'], { type: 'region' }),
+  en: new Intl.DisplayNames(['en'], { type: 'region' }),
+};
 
 function createEarth(canvas, onReady, onError) {
   const compact =
@@ -280,6 +287,11 @@ export default function EarthGlobe({
     [fallback, setFallback] = useState(false);
   const [cloudLayer, setCloudLayer] = useState(true),
     [hoverId, setHoverId] = useState("");
+  const [regionPlaces, setRegionPlaces] = useState(null);
+  const [regionLabelsFailed, setRegionLabelsFailed] = useState(false);
+  const [detailLevel, setDetailLevel] = useState(() => labelDetailLevel(zoom));
+  const [labelsSettled, setLabelsSettled] = useState(true);
+  const labelHistory = useRef({ scope: '', ids: new Set() });
   const gradientId = useId().replace(/:/g, "");
   const radius = Math.min(size.width * 0.424, size.height * 0.412) * zoom;
   const routeCityIds = useMemo(
@@ -319,7 +331,7 @@ export default function EarthGlobe({
         .sort((a, b) => b.priority - a.priority),
     [geographicCities, selectedId, routeCityIds, visited, mode],
   );
-  const projected = useMemo(() => {
+  const allProjected = useMemo(() => {
     const output = [];
     for (const item of rankedCities) {
       if (
@@ -345,21 +357,73 @@ export default function EarthGlobe({
       )
         output.push({ ...item, ...point });
     }
-    return sampleCityPoints(output, zoom < 1.8 ? 10 : 7);
-  }, [rankedCities, displayRotation, radius, size]);
-  const labels = useMemo(
-    () =>
-      layoutCityLabels(projected, {
-        ...size,
-        labelForCity: city => destinationName(city, locale),
-        limit: size.width < 500 ? 17 : zoom < 1.5 ? 34 : 46,
-        reserved: [
-          { x: size.width - 123, y: 58, width: 109, height: 43 },
-          { x: 18, y: size.height - 84, width: 142, height: 20 },
-        ],
-      }),
-    [projected, size, zoom, locale],
-  );
+    return output;
+  }, [rankedCities, displayRotation, radius, size, zoom]);
+  // Sampling is only for dots: changing a screen grid cell must never replace a label.
+  const projected = useMemo(() => sampleCityPoints(allProjected, zoom < 1.8 ? 10 : 7), [allProjected, zoom]);
+  const geographicRegions = useMemo(() => {
+    const fallbackCountries = countries.map(country => {
+      const countryCode = NUMERIC_TO_ISO2[numericCode(country.id)];
+      const [lng, lat] = geoCentroid(country);
+      return { id: `country-${country.id}`, countryCode, lat, lng, rank: 3, minZoom: 0.7,
+        name: countryCode ? REGION_NAMES.zh.of(countryCode) : country.properties?.name,
+        nameEn: countryCode ? REGION_NAMES.en.of(countryCode) : country.properties?.name };
+    });
+    return [
+      ...(regionPlaces?.countries || (regionLabelsFailed ? fallbackCountries : [])).map(place => ({ ...place, kind: 'country' })),
+      ...(regionPlaces?.provinces || []).map(place => ({ ...place, kind: 'province' })),
+    ].map(place => ({ ...place, vector: earthVector(place) })).filter(place => place.vector);
+  }, [regionPlaces, countries, regionLabelsFailed]);
+  const labelCandidates = useMemo(() => {
+    const context = [];
+    for (const place of geographicRegions) {
+      if (detailLevel === 'country' && place.kind !== 'country') continue;
+      if (detailLevel === 'city' && place.kind === 'country') continue;
+      if (zoom < (place.minZoom || 0.7) - (labelHistory.current.ids.has(place.id) ? 0.12 : 0)) continue;
+      const point = projectEarthVector(place.vector, displayRotation, size.width, size.height, radius);
+      if (point.depth < 0.05 || point.x < -160 || point.x > size.width + 160 || point.y < 0 || point.y > size.height) continue;
+      context.push({ ...place, ...point, label: locale === 'en' ? place.nameEn : place.name,
+        priority: (detailLevel === 'city' ? 25 : place.kind === 'province' ? 180 : 140) - Math.min(10, place.rank || 0) });
+    }
+    // At the regional scale, small countries still provide context; large
+    // countries give their space to province/state labels already in view.
+    const regionalCountries = new Set(context.filter(place => place.kind === 'province').map(place => place.countryCode));
+    const geography = detailLevel === 'province' ? context.filter(place => place.kind !== 'country' || !regionalCountries.has(place.countryCode)) : context;
+    const cityLabels = allProjected.filter(point => detailLevel === 'city' || mode !== 'explore' && point.priority >= 500)
+      .map(point => ({ ...point, id: point.city.id, kind: 'city', label: destinationName(point.city, locale) }));
+    return [...cityLabels, ...geography];
+  }, [geographicRegions, allProjected, displayRotation, size, radius, zoom, detailLevel, locale, mode]);
+  const labelScope = `${detailLevel}:${locale}:${size.width}:${size.height}:${mode}`;
+  const labels = useMemo(() => layoutMapLabels(labelCandidates, {
+    ...size,
+    limit: detailLevel === 'country' ? (size.width < 500 ? 8 : 12) : detailLevel === 'province' ? (size.width < 500 ? 12 : 18) : (size.width < 500 ? 16 : 26),
+    previousIds: labelHistory.current.scope === labelScope ? labelHistory.current.ids : new Set(),
+    allowNew: labelsSettled || labelHistory.current.scope !== labelScope,
+    reserved: [
+      { x: 18, y: 58, width: size.width < 500 ? 135 : 200, height: 40 },
+      { x: size.width - 135, y: 58, width: 121, height: 43 },
+      { x: 18, y: size.height - 84, width: 142, height: 20 },
+    ],
+  }), [labelCandidates, size, detailLevel, labelScope, labelsSettled]);
+  useEffect(() => { labelHistory.current = { scope: labelScope, ids: new Set(labels.map(point => point.id)) }; }, [labels, labelScope]);
+  useEffect(() => setDetailLevel(previous => labelDetailLevel(zoom, previous)), [zoom]);
+  useEffect(() => {
+    setLabelsSettled(false);
+    const timer = setTimeout(() => setLabelsSettled(true), 180);
+    return () => clearTimeout(timer);
+  }, [displayRotation, zoom]);
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch(assetUrl('/maps/label-places.json'), { signal: controller.signal })
+      .then(response => { if (!response.ok) throw new Error('Map label data unavailable'); return response.json(); })
+      .then(data => {
+        if (!Array.isArray(data.countries) || !Array.isArray(data.provinces)) throw new Error('Invalid map labels');
+        setRegionPlaces(data);
+      }).catch(error => {
+        if (error.name !== 'AbortError') setRegionLabelsFailed(true);
+      });
+    return () => controller.abort();
+  }, []);
   const projection = useMemo(
     () =>
       geoOrthographic()
@@ -370,7 +434,7 @@ export default function EarthGlobe({
     [size, radius, displayRotation],
   );
   const path = useMemo(() => geoPath(projection), [projection]);
-  const hovered = projected.find((point) => point.city.id === hoverId);
+  const hovered = allProjected.find((point) => point.city.id === hoverId);
   const hoverPosition = hovered
     ? hoverCardPosition(hovered, size.width, size.height)
     : null;
@@ -489,8 +553,8 @@ export default function EarthGlobe({
             : 0.16
           : prominent
             ? 1
-            : mode === "explore"
-              ? 0.85
+          : mode === "explore"
+              ? detailLevel === 'city' ? 0.82 : detailLevel === 'province' ? 0.38 : 0.18
               : 0.32;
       if (prominent) {
         context.beginPath();
@@ -508,7 +572,7 @@ export default function EarthGlobe({
       context.arc(
         p.x,
         p.y,
-        prominent ? 3.4 : airport ? 1.3 : 2.2,
+        prominent ? 3.4 : airport ? 1.1 : detailLevel === 'city' ? 2.2 : 1.5,
         0,
         Math.PI * 2,
       );
@@ -524,7 +588,7 @@ export default function EarthGlobe({
         context.stroke();
       }
     }
-  }, [projected, size, mode, selectedId]);
+  }, [projected, size, mode, selectedId, detailLevel]);
   useEffect(() => {
     const node = surfaceRef.current;
     const wheel = (event) => {
@@ -535,7 +599,7 @@ export default function EarthGlobe({
         return;
       event.preventDefault();
       setHoverId("");
-      setZoom((value) => clampZoom(value - event.deltaY * 0.0015));
+      setZoom((value) => clampZoom(value * Math.exp(-event.deltaY * 0.0015)));
     };
     node.addEventListener("wheel", wheel, { passive: false });
     return () => node.removeEventListener("wheel", wheel);
@@ -555,8 +619,8 @@ export default function EarthGlobe({
       x = event.clientX - rect.left,
       y = event.clientY - rect.top;
     let best = null,
-      distance = event.pointerType === "touch" ? 22 : 10;
-    for (const point of projected) {
+      distance = event.pointerType === "touch" ? 22 : detailLevel === 'city' ? 10 : 6;
+    for (const point of allProjected) {
       const next = Math.hypot(point.x - x, point.y - y);
       if (next < distance) {
         best = point;
@@ -583,11 +647,6 @@ export default function EarthGlobe({
     drag.current = {
       x: event.clientX,
       y: event.clientY,
-      lastX: event.clientX,
-      lastY: event.clientY,
-      lastTime: event.timeStamp,
-      vx: 0,
-      vy: 0,
       rotation: currentRotation.current,
       zoom,
       moved: false,
@@ -633,15 +692,6 @@ export default function EarthGlobe({
     const dx = event.clientX - state.x,
       dy = event.clientY - state.y;
     if (Math.hypot(dx, dy) > 4) state.moved = true;
-    const elapsed = Math.max(
-      8,
-      event.timeStamp - (state.lastTime || event.timeStamp),
-    );
-    state.vx = (event.clientX - (state.lastX ?? event.clientX)) / elapsed;
-    state.vy = (event.clientY - (state.lastY ?? event.clientY)) / elapsed;
-    state.lastX = event.clientX;
-    state.lastY = event.clientY;
-    state.lastTime = event.timeStamp;
     const next = normalizeRotation([
       state.rotation[0] + (dx * 90) / radius,
       state.rotation[1] - (dy * 90) / radius,
@@ -672,25 +722,7 @@ export default function EarthGlobe({
       };
     } else {
       drag.current = null;
-      // A brief ease-out after a flick; no continuous rotation or animation loop.
-      if (
-        state?.moved &&
-        !state.pinch &&
-        !reduced.current &&
-        event.timeStamp - state.lastTime < 90
-      ) {
-        const momentum = (60 * 90) / radius;
-        const dx = Math.max(-18, Math.min(18, (state.vx || 0) * momentum));
-        const dy = Math.max(-14, Math.min(14, (state.vy || 0) * momentum));
-        if (Math.hypot(dx, dy) > 0.5)
-          setRotation(
-            normalizeRotation([
-              currentRotation.current[0] + dx,
-              currentRotation.current[1] - dy,
-              0,
-            ]),
-          );
-      }
+      // Releasing the globe also stops it; labels do not keep drifting after a drag.
     }
   }
   function keyboard(event) {
@@ -715,7 +747,7 @@ export default function EarthGlobe({
     }
     if (["+", "=", "-"].includes(event.key)) {
       event.preventDefault();
-      setZoom((value) => clampZoom(value + (event.key === "-" ? -0.2 : 0.2)));
+      setZoom((value) => clampZoom(value * (event.key === "-" ? 1 / 1.25 : 1.25)));
     }
     if (event.key === "Home") {
       event.preventDefault();
@@ -756,6 +788,7 @@ export default function EarthGlobe({
       aria-describedby="gl-map-help"
       tabIndex={0}
       data-renderer={ready && !fallback ? "webgl" : "vector"}
+      data-label-level={detailLevel}
       onPointerDown={pointerDown}
       onPointerMove={pointerMove}
       onPointerUp={pointerUp}
@@ -825,13 +858,22 @@ export default function EarthGlobe({
         ref={pointsCanvas}
         aria-hidden="true"
       />
-      <div className="eg-label-layer" aria-label="地球上的城市">
-        {labels.map((point) => (
+      <div className="eg-label-layer" aria-label={locale === 'en' ? 'Map place names' : '地图地名'}>
+        {labels.map((point) => point.kind !== 'city' ? (
+          <span key={point.id} className={`eg-region-label is-${point.kind}`} data-place-id={point.id}
+            data-label-kind={point.kind} data-anchor-x={point.x} data-anchor-y={point.y}
+            style={{ left: point.box.x, top: point.box.y, width: point.box.width }} title={point.label} translate="no">
+            {point.label}
+          </span>
+        ) : (
           <button
-            key={point.city.id}
+            key={point.id}
             type="button"
             className={`eg-city-label ${point.city.id === selectedId ? "is-selected" : ""} ${visited.has(point.city.id) ? "is-visited" : ""} ${point.city.coverage === "airport-only" ? "is-airport" : ""}`}
             data-city-id={point.city.id}
+            data-label-kind="city"
+            data-anchor-x={point.x}
+            data-anchor-y={point.y}
             style={{
               left: point.box.x,
               top: point.box.y,
@@ -855,6 +897,9 @@ export default function EarthGlobe({
           </button>
         ))}
       </div>
+      <span className="eg-label-scale" aria-hidden="true" translate="no">
+        {(locale === 'en' ? { country: 'Countries', province: 'Regions & states', city: 'Cities' } : { country: '国家与地区', province: '省份与州', city: '城市' })[detailLevel]}
+      </span>
       <div className="eg-view-tools">
         <button
           type="button"

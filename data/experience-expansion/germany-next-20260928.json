@@ -1,0 +1,2156 @@
+[
+  {
+    "id": "ex-hamburg-harbour-cruise",
+    "cityId": "hamburg",
+    "kind": "experience",
+    "name": "乘港口游船认识汉堡",
+    "nameEn": "乘港口游船认识汉堡",
+    "provider": "查看官方活动与预约入口",
+    "address": "乘港口游船认识汉堡",
+    "lat": 53.5456,
+    "lng": 9.9694,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "从水面观察码头与港区运作；小船能否进入仓库城水道受潮位影响，选择语言和路线后再预约。",
+    "tagline": "港口运作与水上视角",
+    "localContext": "港口运作与水上视角",
+    "experienceType": "local-life",
+    "features": [
+      "港口运作与水上视角"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/harbour-round-trips/",
+    "bookingUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/harbour-round-trips/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/see-explore/round-trips-tours/harbour-round-trips/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Port of Hamburg",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burchardkai-Nacht-%28Hamburg%29-msu-2021-4873-.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 24,
+        "high": 55,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/harbour-round-trips/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Burchardkai-Nacht-(Hamburg)-msu-2021-4873-.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-hamburg-alster-cruise",
+    "cityId": "hamburg",
+    "kind": "experience",
+    "name": "在阿尔斯特湖上慢下来",
+    "nameEn": "在阿尔斯特湖上慢下来",
+    "provider": "查看官方活动与预约入口",
+    "address": "在阿尔斯特湖上慢下来",
+    "lat": 53.5541,
+    "lng": 9.9947,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "从少女堤附近选择湖上游船，水面、绿岸和住宅区呈现港口以外的汉堡；路线与开行受季节和天气影响。",
+    "tagline": "内湖水岸与城市自然",
+    "localContext": "内湖水岸与城市自然",
+    "experienceType": "nature",
+    "features": [
+      "内湖水岸与城市自然"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/alster-round-trips/",
+    "bookingUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/alster-round-trips/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/see-explore/round-trips-tours/alster-round-trips/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Alster",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Binnenalster_and_Au%C3%9Fenalster_%28view_from_the_southwest%29.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 22,
+        "high": 40,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/round-trips-tours/alster-round-trips/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Aerial_image_of_Binnenalster_and_Außenalster_(view_from_the_southwest).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-hamburg-elbphilharmonie-concert",
+    "cityId": "hamburg",
+    "kind": "experience",
+    "name": "易北爱乐音乐厅听一场现场",
+    "nameEn": "易北爱乐音乐厅听一场现场",
+    "provider": "查看官方活动与预约入口",
+    "address": "易北爱乐音乐厅听一场现场",
+    "lat": 53.5413,
+    "lng": 9.9841,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 150,
+    "description": "按节目选择交响、室内乐或其他演出，预留安检和入座时间；票价随座位和场次变化，Plaza参观不等于音乐会门票。",
+    "tagline": "音乐厅声学与现场表演",
+    "localContext": "音乐厅声学与现场表演",
+    "experienceType": "performance",
+    "features": [
+      "音乐厅声学与现场表演"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.elbphilharmonie.de/en/",
+    "bookingUrl": "https://www.elbphilharmonie.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.elbphilharmonie.de",
+        "url": "https://www.elbphilharmonie.de/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Elbphilharmonie",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie_2025.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 25,
+        "high": 180,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.elbphilharmonie.de/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Elbphilharmonie_2025.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-hamburg-fish-market-breakfast",
+    "cityId": "hamburg",
+    "kind": "experience",
+    "name": "星期天清晨逛鱼市吃早饭",
+    "nameEn": "星期天清晨逛鱼市吃早饭",
+    "provider": "查看官方活动与预约入口",
+    "address": "星期天清晨逛鱼市吃早饭",
+    "lat": 53.5457,
+    "lng": 9.9526,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "在周日清晨看摊贩叫卖，再选择鱼肉面包或早餐；不是每日开放的普通市场，所选日期需确认，早餐替代当天对应餐费。",
+    "tagline": "早起的港口市集生活",
+    "localContext": "早起的港口市集生活",
+    "experienceType": "food-life",
+    "features": [
+      "早起的港口市集生活"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+    "bookingUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg%2C_St.-Pauli-Fischmarkt%2C_Fischauktionshalle_--_2016_--_3078.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "汉堡鱼市场拍卖大厅实拍，用于认识周日市场场地，不代表当天摊位与早餐供应。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 8,
+        "high": 25,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ],
+        "includedMeals": [
+          "breakfast"
+        ]
+      }
+    ],
+    "photoFile": "Hamburg, St.-Pauli-Fischmarkt, Fischauktionshalle -- 2016 -- 3078.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-hamburg-port-anniversary",
+    "cityId": "hamburg",
+    "kind": "experience",
+    "name": "汉堡港口生日节",
+    "nameEn": "汉堡港口生日节",
+    "provider": "查看官方活动与预约入口",
+    "address": "汉堡港口生日节",
+    "lat": 53.546,
+    "lng": 9.967,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 180,
+    "description": "在官方活动日期观看港口庆典与公开岸边节目；入船、座席、餐饮和游艺可能另收费，不能把普通五月日期当成活动日。",
+    "tagline": "海港城市的年度庆典",
+    "localContext": "海港城市的年度庆典",
+    "experienceType": "festival",
+    "features": [
+      "海港城市的年度庆典"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.hamburg-travel.com/see-explore/events/hamburg-port-anniversary/",
+    "bookingUrl": "https://www.hamburg-travel.com/see-explore/events/hamburg-port-anniversary/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/see-explore/events/hamburg-port-anniversary/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Hafengeburtstag",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sea_Cloud_in_Hamburg.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        5
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 0,
+        "high": 0,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/events/hamburg-port-anniversary/",
+        "checkedAt": null,
+        "note": "仅公共室外区域的零门票预算；收费内部、讲解、交通和消费另计。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Sea_Cloud_in_Hamburg.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-hamburg-superbude",
+    "cityId": "hamburg",
+    "kind": "hotel",
+    "name": "Superbude Hamburg St. Pauli",
+    "nameEn": "Superbude Hamburg St. Pauli",
+    "lat": 53.5618,
+    "lng": 9.9593,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Juliusstraße 1–7",
+    "durationMinutes": 0,
+    "description": "在圣保利与Schanze片区选择较轻松的设计旅宿，适合喜欢街区餐馆的旅人；按独立房预留。",
+    "tagline": "在圣保利与Schanze片区选择较轻松的设计旅宿，适合喜欢街区餐馆的旅人；按独立房预留。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.superbude.com/en/hotel-hamburg/st-pauli/",
+    "bookingUrl": "https://www.superbude.com/en/hotel-hamburg/st-pauli/",
+    "sourceReferences": [
+      {
+        "name": "www.superbude.com",
+        "url": "https://www.superbude.com/en/hotel-hamburg/st-pauli/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Hamburg",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "在酒店实拍图核对前展示对应建筑或所在城市环境，不作为客房及设施照片。",
+    "priceOptions": [
+      {
+        "low": 85,
+        "high": 200,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.superbude.com/en/hotel-hamburg/st-pauli/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Hamburg,_Landungsbrücken_--_2016_--_3131-7.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-hamburg-motel-one-fleetinsel",
+    "cityId": "hamburg",
+    "kind": "hotel",
+    "name": "Motel One Hamburg-Fleetinsel",
+    "nameEn": "Motel One Hamburg-Fleetinsel",
+    "lat": 53.5486,
+    "lng": 9.9845,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Fleetinsel",
+    "durationMinutes": 0,
+    "description": "靠近市中心水道与港区路线，适合主要使用步行和公共交通的短住。",
+    "tagline": "靠近市中心水道与港区路线，适合主要使用步行和公共交通的短住。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.motel-one.com/en/hotels/hamburg/",
+    "bookingUrl": "https://www.motel-one.com/en/hotels/hamburg/",
+    "sourceReferences": [
+      {
+        "name": "www.motel-one.com",
+        "url": "https://www.motel-one.com/en/hotels/hamburg/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Hamburg",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "在酒店实拍图核对前展示对应建筑或所在城市环境，不作为客房及设施照片。",
+    "priceOptions": [
+      {
+        "low": 100,
+        "high": 220,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.motel-one.com/en/hotels/hamburg/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Hamburg,_Landungsbrücken_--_2016_--_3131-7.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-hamburg-25hours-hafencity",
+    "cityId": "hamburg",
+    "kind": "hotel",
+    "name": "25hours Hotel HafenCity",
+    "nameEn": "25hours Hotel HafenCity",
+    "lat": 53.541,
+    "lng": 9.9976,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Überseeallee 5",
+    "durationMinutes": 0,
+    "description": "航海主题设计与港口新区环境适合城市度假，交通与房型差异在预订时比较。",
+    "tagline": "航海主题设计与港口新区环境适合城市度假，交通与房型差异在预订时比较。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://25hours-hotels.com/hamburg/hafencity/",
+    "bookingUrl": "https://25hours-hotels.com/hamburg/hafencity/",
+    "sourceReferences": [
+      {
+        "name": "25hours-hotels.com",
+        "url": "https://25hours-hotels.com/hamburg/hafencity/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "HafenCity",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HC-%C3%9CQ-Osakaallee-%C3%9Cberseeallee.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 140,
+        "high": 310,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://25hours-hotels.com/hamburg/hafencity/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "HC-ÜQ-Osakaallee-Überseeallee.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-hamburg-hotel-hafen",
+    "cityId": "hamburg",
+    "kind": "hotel",
+    "name": "Hotel Hafen Hamburg",
+    "nameEn": "Hotel Hafen Hamburg",
+    "lat": 53.5485,
+    "lng": 9.9709,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Seewartenstraße 9",
+    "durationMinutes": 0,
+    "description": "港口山坡上的历史酒店选择，部分房型面向港景；景观和早餐需按具体套餐确认。",
+    "tagline": "港口山坡上的历史酒店选择，部分房型面向港景；景观和早餐需按具体套餐确认。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.hotel-hafen-hamburg.de/en/",
+    "bookingUrl": "https://www.hotel-hafen-hamburg.de/en/",
+    "sourceReferences": [
+      {
+        "name": "www.hotel-hafen-hamburg.de",
+        "url": "https://www.hotel-hafen-hamburg.de/en/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Hafen_HH_045.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "酒店建筑实拍，房型、室内布置和包含服务以当前预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 150,
+        "high": 340,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hotel-hafen-hamburg.de/en/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Hotel Hafen HH 045.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-hamburg-fontenay",
+    "cityId": "hamburg",
+    "kind": "hotel",
+    "name": "The Fontenay",
+    "nameEn": "The Fontenay",
+    "lat": 53.5685,
+    "lng": 9.9964,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Fontenay 10",
+    "durationMinutes": 0,
+    "description": "靠近外阿尔斯特湖的高端住宿，适合重视湖边环境和酒店休息时间的旅人。",
+    "tagline": "靠近外阿尔斯特湖的高端住宿，适合重视湖边环境和酒店休息时间的旅人。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.thefontenay.com/en/",
+    "bookingUrl": "https://www.thefontenay.com/en/",
+    "sourceReferences": [
+      {
+        "name": "www.thefontenay.com",
+        "url": "https://www.thefontenay.com/en/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "The Fontenay",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Fontenay_Hamburg_Hotel_pre-opening_phase_in_march_2018.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "酒店建筑实拍，房型、室内布置和包含服务以当前预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 320,
+        "high": 850,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.thefontenay.com/en/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "The_Fontenay_Hamburg_Hotel_pre-opening_phase_in_march_2018.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-cologne-rhine-cruise",
+    "cityId": "cologne",
+    "kind": "experience",
+    "name": "从莱茵河上看科隆天际线",
+    "nameEn": "从莱茵河上看科隆天际线",
+    "provider": "查看官方活动与预约入口",
+    "address": "从莱茵河上看科隆天际线",
+    "lat": 50.9402,
+    "lng": 6.963,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "选择经过老城与港区的短程游船，岸上地标从水面连成一条线；以出票码头和班次为准，餐饮及特殊航次另计。",
+    "tagline": "莱茵河航行文化",
+    "localContext": "莱茵河航行文化",
+    "experienceType": "local-life",
+    "features": [
+      "莱茵河航行文化"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.k-d.com/en/",
+    "bookingUrl": "https://www.k-d.com/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.k-d.com",
+        "url": "https://www.k-d.com/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Cologne",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kranh%C3%A4user_Cologne%2C_April_2018_-01.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 18,
+        "high": 40,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.k-d.com/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Kranhäuser_Cologne,_April_2018_-01.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-cologne-cable-car",
+    "cityId": "cologne",
+    "kind": "experience",
+    "name": "坐缆车跨越莱茵河",
+    "nameEn": "坐缆车跨越莱茵河",
+    "provider": "查看官方活动与预约入口",
+    "address": "坐缆车跨越莱茵河",
+    "lat": 50.9582,
+    "lng": 6.9758,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 45,
+    "description": "从动物园一侧乘缆车看河道与两岸公园，可再沿河安排休息；按季节营业，风力或检修可能停运。",
+    "tagline": "从空中理解两岸城市",
+    "localContext": "从空中理解两岸城市",
+    "experienceType": "nature",
+    "features": [
+      "从空中理解两岸城市"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.koelner-seilbahn.de/en/",
+    "bookingUrl": "https://www.koelner-seilbahn.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.koelner-seilbahn.de",
+        "url": "https://www.koelner-seilbahn.de/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Cologne Cable Car",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cologne_Cable_Car.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 7,
+        "high": 18,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.koelner-seilbahn.de/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Cologne_Cable_Car.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-cologne-philharmonie",
+    "cityId": "cologne",
+    "kind": "experience",
+    "name": "科隆爱乐厅音乐之夜",
+    "nameEn": "科隆爱乐厅音乐之夜",
+    "provider": "查看官方活动与预约入口",
+    "address": "科隆爱乐厅音乐之夜",
+    "lat": 50.9406,
+    "lng": 6.9613,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 150,
+    "description": "在大教堂附近选择一场古典、爵士或其他现场演出；先看节目与座位，再把入场时间加入行程。",
+    "tagline": "城市音乐生活",
+    "localContext": "城市音乐生活",
+    "experienceType": "performance",
+    "features": [
+      "城市音乐生活"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.koelner-philharmonie.de/en",
+    "bookingUrl": "https://www.koelner-philharmonie.de/en",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.koelner-philharmonie.de",
+        "url": "https://www.koelner-philharmonie.de/en",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Kölner Philharmonie",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koelnerphilharmonie.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 18,
+        "high": 130,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.koelner-philharmonie.de/en",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Koelnerphilharmonie.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-cologne-brauhaus-dinner",
+    "cityId": "cologne",
+    "kind": "experience",
+    "name": "在传统啤酒馆吃一顿科隆晚餐",
+    "nameEn": "在传统啤酒馆吃一顿科隆晚餐",
+    "provider": "查看官方活动与预约入口",
+    "address": "在传统啤酒馆吃一顿科隆晚餐",
+    "lat": 50.9403,
+    "lng": 6.9575,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 120,
+    "description": "以 Früh am Dom 等传统啤酒馆为起点，品尝本地菜和小杯饮品；不饮酒也可点餐，菜品预算替代当天晚餐而非重复叠加。",
+    "tagline": "Köbes 服务与科隆餐桌",
+    "localContext": "Köbes 服务与科隆餐桌",
+    "experienceType": "food-life",
+    "features": [
+      "Köbes 服务与科隆餐桌"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+    "bookingUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "willkommen.koelntourismus.de",
+        "url": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Kölsch (beer)",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zunft-K%C3%B6lsch_Glas.JPG"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 20,
+        "high": 55,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ],
+        "includedMeals": [
+          "dinner"
+        ]
+      }
+    ],
+    "photoFile": "Zunft-Kölsch_Glas.JPG",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-cologne-carnival",
+    "cityId": "cologne",
+    "kind": "experience",
+    "name": "科隆狂欢节看装扮与巡游",
+    "nameEn": "科隆狂欢节看装扮与巡游",
+    "provider": "查看官方活动与预约入口",
+    "address": "科隆狂欢节看装扮与巡游",
+    "lat": 50.9386,
+    "lng": 6.959,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 180,
+    "description": "只在官方公布的庆典日期安排，体验装扮、街头音乐与巡游；公共街边观看与收费看台、舞会票要分开，拥挤时留足步行时间。",
+    "tagline": "莱茵地区的季节性民俗",
+    "localContext": "莱茵地区的季节性民俗",
+    "experienceType": "festival",
+    "features": [
+      "莱茵地区的季节性民俗"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.cologne-tourism.com/",
+    "bookingUrl": "https://www.cologne-tourism.com/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.cologne-tourism.com",
+        "url": "https://www.cologne-tourism.com/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Cologne Carnival",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sessionser%C3%B6ffnung_am_11.11._am_Tanzbrunnen.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        2,
+        3,
+        11
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 0,
+        "high": 0,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.cologne-tourism.com/",
+        "checkedAt": null,
+        "note": "仅公共室外区域的零门票预算；收费内部、讲解、交通和消费另计。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Sessionseröffnung am 11.11. am Tanzbrunnen.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-cologne-motel-one-neumarkt",
+    "cityId": "cologne",
+    "kind": "hotel",
+    "name": "Motel One Köln-Neumarkt",
+    "nameEn": "Motel One Köln-Neumarkt",
+    "lat": 50.9359,
+    "lng": 6.949,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Cäcilienstraße 32",
+    "durationMinutes": 0,
+    "description": "靠近Neumarkt与博物馆片区，适合以市区公共交通和步行串联行程。",
+    "tagline": "靠近Neumarkt与博物馆片区，适合以市区公共交通和步行串联行程。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.motel-one.com/en/hotels/cologne/hotel-cologne-neumarkt/",
+    "bookingUrl": "https://www.motel-one.com/en/hotels/cologne/hotel-cologne-neumarkt/",
+    "sourceReferences": [
+      {
+        "name": "www.motel-one.com",
+        "url": "https://www.motel-one.com/en/hotels/cologne/hotel-cologne-neumarkt/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Cologne",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motel_One_K%C3%B6ln-Neumarkt-5519.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 90,
+        "high": 220,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.motel-one.com/en/hotels/cologne/hotel-cologne-neumarkt/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Motel One Köln-Neumarkt-5519.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-cologne-25hours-circle",
+    "cityId": "cologne",
+    "kind": "hotel",
+    "name": "25hours Hotel The Circle",
+    "nameEn": "25hours Hotel The Circle",
+    "lat": 50.9431,
+    "lng": 6.9442,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Im Klapperhof 22–24",
+    "durationMinutes": 0,
+    "description": "以鲜明设计和餐饮空间见长，适合把住宿也当成城市体验的一部分。",
+    "tagline": "以鲜明设计和餐饮空间见长，适合把住宿也当成城市体验的一部分。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://25hours-hotels.com/cologne/the-circle/",
+    "bookingUrl": "https://25hours-hotels.com/cologne/the-circle/",
+    "sourceReferences": [
+      {
+        "name": "25hours-hotels.com",
+        "url": "https://25hours-hotels.com/cologne/the-circle/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Cologne",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:25hours_Hotel_K%C3%B6ln_The_Circle-7265.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 130,
+        "high": 310,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://25hours-hotels.com/cologne/the-circle/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "25hours Hotel Köln The Circle-7265.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-cologne-hyatt-regency",
+    "cityId": "cologne",
+    "kind": "hotel",
+    "name": "Hyatt Regency Cologne",
+    "nameEn": "Hyatt Regency Cologne",
+    "lat": 50.9402,
+    "lng": 6.9697,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Kennedy-Ufer 2A",
+    "durationMinutes": 0,
+    "description": "位于莱茵河东岸，适合喜欢河边环境的住宿；面向大教堂的景观房需另比较房型。",
+    "tagline": "位于莱茵河东岸，适合喜欢河边环境的住宿；面向大教堂的景观房需另比较房型。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/colog-hyatt-regency-cologne",
+    "bookingUrl": "https://www.hyatt.com/hyatt-regency/en-US/colog-hyatt-regency-cologne",
+    "sourceReferences": [
+      {
+        "name": "www.hyatt.com",
+        "url": "https://www.hyatt.com/hyatt-regency/en-US/colog-hyatt-regency-cologne",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Cologne",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyatt_Regency_Cologne.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 170,
+        "high": 450,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.hyatt.com/hyatt-regency/en-US/colog-hyatt-regency-cologne",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Hyatt Regency Cologne.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-cologne-excelsior-ernst",
+    "cityId": "cologne",
+    "kind": "hotel",
+    "name": "Excelsior Hotel Ernst",
+    "nameEn": "Excelsior Hotel Ernst",
+    "lat": 50.9423,
+    "lng": 6.9562,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Domplatz / Trankgasse 1–5",
+    "durationMinutes": 0,
+    "description": "大教堂附近的传统豪华酒店，适合需要中央车站与老城便利位置的旅人。",
+    "tagline": "大教堂附近的传统豪华酒店，适合需要中央车站与老城便利位置的旅人。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.excelsiorhotelernst.com/",
+    "bookingUrl": "https://www.excelsiorhotelernst.com/",
+    "sourceReferences": [
+      {
+        "name": "www.excelsiorhotelernst.com",
+        "url": "https://www.excelsiorhotelernst.com/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Excelsior Hotel Ernst",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Excelsior_Hotel_Ernst_K%C3%B6ln_%284973%29.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "酒店建筑实拍，房型、室内布置和包含服务以当前预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 260,
+        "high": 650,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.excelsiorhotelernst.com/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Excelsior_Hotel_Ernst_Köln_(4973).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-cologne-maritim",
+    "cityId": "cologne",
+    "kind": "hotel",
+    "name": "Maritim Hotel Köln",
+    "nameEn": "Maritim Hotel Köln",
+    "lat": 50.935,
+    "lng": 6.9597,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Heumarkt 20",
+    "durationMinutes": 0,
+    "description": "在老城与莱茵河之间选择大型酒店，适合会合与较稳妥的城市短住；早餐、停车另核。",
+    "tagline": "在老城与莱茵河之间选择大型酒店，适合会合与较稳妥的城市短住；早餐、停车另核。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.maritim.com/en/hotels/germany/hotel-cologne",
+    "bookingUrl": "https://www.maritim.com/en/hotels/germany/hotel-cologne",
+    "sourceReferences": [
+      {
+        "name": "www.maritim.com",
+        "url": "https://www.maritim.com/en/hotels/germany/hotel-cologne",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Cologne",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atrium_Maritim_Hotel_K%C3%B6ln.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 110,
+        "high": 300,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.maritim.com/en/hotels/germany/hotel-cologne",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Atrium Maritim Hotel Köln.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-frankfurt-apple-wine-table",
+    "cityId": "frankfurt",
+    "kind": "experience",
+    "name": "在萨克森豪森尝苹果酒馆家常菜",
+    "nameEn": "在萨克森豪森尝苹果酒馆家常菜",
+    "provider": "查看官方活动与预约入口",
+    "address": "在萨克森豪森尝苹果酒馆家常菜",
+    "lat": 50.1029,
+    "lng": 8.6874,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 120,
+    "description": "点一份绿酱配菜或地方主食，在传统酒馆感受长桌氛围；饮品可选无酒精，预算作为一顿正餐使用。",
+    "tagline": "苹果酒馆与黑森餐桌",
+    "localContext": "苹果酒馆与黑森餐桌",
+    "experienceType": "food-life",
+    "features": [
+      "苹果酒馆与黑森餐桌"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "bookingUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Apfelwein",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apfelwein_Geripptes_Bembel.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 20,
+        "high": 50,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ],
+        "includedMeals": [
+          "dinner"
+        ]
+      }
+    ],
+    "photoFile": "Apfelwein_Geripptes_Bembel.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-frankfurt-ebbelwei-express",
+    "cityId": "frankfurt",
+    "kind": "experience",
+    "name": "乘苹果酒观光电车",
+    "nameEn": "乘苹果酒观光电车",
+    "provider": "查看官方活动与预约入口",
+    "address": "乘苹果酒观光电车",
+    "lat": 50.1113,
+    "lng": 8.6881,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "乘 VGF 的主题电车认识市区，核对当天运行和上下车站点；套餐是否含饮品、零食以当期票种为准，不能当成普通交通票。",
+    "tagline": "城市电车与地方饮食符号",
+    "localContext": "城市电车与地方饮食符号",
+    "experienceType": "local-life",
+    "features": [
+      "城市电车与地方饮食符号"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.ebbelwei-express.de/en/",
+    "bookingUrl": "https://www.ebbelwei-express.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.ebbelwei-express.de",
+        "url": "https://www.ebbelwei-express.de/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:VGF_K107_15.3.03_Zoo.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 10,
+        "high": 20,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.ebbelwei-express.de/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "VGF K107 15.3.03 Zoo.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-frankfurt-main-cruise",
+    "cityId": "frankfurt",
+    "kind": "experience",
+    "name": "美因河上看银行区与博物馆岸",
+    "nameEn": "美因河上看银行区与博物馆岸",
+    "provider": "查看官方活动与预约入口",
+    "address": "美因河上看银行区与博物馆岸",
+    "lat": 50.1081,
+    "lng": 8.6822,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 90,
+    "description": "选择短程观光船，从河面看高楼、桥梁与岸边绿地；靠泊点、方向和开行日以运营方为准。",
+    "tagline": "河流与都市天际线",
+    "localContext": "河流与都市天际线",
+    "experienceType": "nature",
+    "features": [
+      "河流与都市天际线"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.primus-linie.de/en/",
+    "bookingUrl": "https://www.primus-linie.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.primus-linie.de",
+        "url": "https://www.primus-linie.de/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Main (river)",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eiserner-Steg-2012-Ffm-977-8.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "法兰克福美因河铁桥与滨水环境实拍，不代表预订的具体船只。",
+    "seasonality": {
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "dateSpecific": false,
+      "note": "按天气、季节和运营方当期安排开行。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 16,
+        "high": 35,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.primus-linie.de/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Eiserner-Steg-2012-Ffm-977-8.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-frankfurt-opera-evening",
+    "cityId": "frankfurt",
+    "kind": "experience",
+    "name": "法兰克福歌剧院之夜",
+    "nameEn": "法兰克福歌剧院之夜",
+    "provider": "查看官方活动与预约入口",
+    "address": "法兰克福歌剧院之夜",
+    "lat": 50.1086,
+    "lng": 8.674,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 180,
+    "description": "按具体剧目选择歌剧或音乐活动，先确认字幕、演出时长和剧场地址；这里与老歌剧院广场并非同一演出地点。",
+    "tagline": "城市的当代歌剧现场",
+    "localContext": "城市的当代歌剧现场",
+    "experienceType": "performance",
+    "features": [
+      "城市的当代歌剧现场"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://oper-frankfurt.de/en/",
+    "bookingUrl": "https://oper-frankfurt.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "oper-frankfurt.de",
+        "url": "https://oper-frankfurt.de/en/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Oper Frankfurt",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oper_house_Frankfurt_with_posters.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 20,
+        "high": 160,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://oper-frankfurt.de/en/",
+        "checkedAt": null,
+        "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Oper_house_Frankfurt_with_posters.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "ex-frankfurt-christmas-market",
+    "cityId": "frankfurt",
+    "kind": "experience",
+    "name": "罗马广场圣诞市集",
+    "nameEn": "罗马广场圣诞市集",
+    "provider": "查看官方活动与预约入口",
+    "address": "罗马广场圣诞市集",
+    "lat": 50.1105,
+    "lng": 8.6821,
+    "coordinateNote": "片区或常见出发点近似定位；集合地点以实际票面和主办方通知为准。",
+    "durationMinutes": 120,
+    "description": "在当年官方开市日期看木屋摊位与节日灯饰，公共市集参观不含食品、热饮和纪念品；杯子押金与实际消费区分。",
+    "tagline": "冬日手作与市集文化",
+    "localContext": "冬日手作与市集文化",
+    "experienceType": "festival",
+    "features": [
+      "冬日手作与市集文化"
+    ],
+    "requirements": [
+      "先确认日期、场次、语言、集合地点与包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/event/christmas-market",
+    "bookingUrl": "https://www.visitfrankfurt.travel/en/event/christmas-market",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/event/christmas-market",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Frankfurt Christmas Market",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Christmas_market.jpg"
+    },
+    "imageScope": "related-theme",
+    "imageContextNote": "展示对应地点或文化主题，不代表当日活动场景与已购买服务。",
+    "seasonality": {
+      "months": [
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "固定场次与节庆日期须看当年官方公告；常见月份不等于每日可参加。"
+    },
+    "availabilityNote": "选择不会自动预订；需另核余位，费用为编辑规划预留。",
+    "priceOptions": [
+      {
+        "low": 0,
+        "high": 0,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/event/christmas-market",
+        "checkedAt": null,
+        "note": "仅公共室外区域的零门票预算；收费内部、讲解、交通和消费另计。",
+        "unit": "person",
+        "id": "planning",
+        "name": "每人活动规划预算",
+        "includes": [
+          "说明中列出的活动或餐饮范围"
+        ],
+        "excludes": [
+          "未明确包含的交通",
+          "其他购物或餐饮"
+        ]
+      }
+    ],
+    "photoFile": "Frankfurt_Christmas_market.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-frankfurt-motel-one-roemer",
+    "cityId": "frankfurt",
+    "kind": "hotel",
+    "name": "Motel One Frankfurt-Römer",
+    "nameEn": "Motel One Frankfurt-Römer",
+    "lat": 50.1113,
+    "lng": 8.6784,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Berliner Straße 55",
+    "durationMinutes": 0,
+    "description": "靠近老城和市中心，适合短住时把步行距离放在优先位置。",
+    "tagline": "靠近老城和市中心，适合短住时把步行距离放在优先位置。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.motel-one.com/de/de/hotels/frankfurt/",
+    "bookingUrl": "https://www.motel-one.com/de/de/hotels/frankfurt/",
+    "sourceReferences": [
+      {
+        "name": "www.motel-one.com",
+        "url": "https://www.motel-one.com/de/de/hotels/frankfurt/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Frankfurt",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motel_One_Frankfurt-R%C3%B6mer,_West_view_20200419_1.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 90,
+        "high": 220,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.motel-one.com/de/de/hotels/frankfurt/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Motel One Frankfurt-Römer, West view 20200419 1.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-frankfurt-scandic-museumsufer",
+    "cityId": "frankfurt",
+    "kind": "hotel",
+    "name": "Scandic Frankfurt Museumsufer",
+    "nameEn": "Scandic Frankfurt Museumsufer",
+    "lat": 50.1047,
+    "lng": 8.6685,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Wilhelm-Leuschner-Straße 44",
+    "durationMinutes": 0,
+    "description": "靠近中央车站与美因河，可步行衔接博物馆岸；高层景观需看所订房型。",
+    "tagline": "靠近中央车站与美因河，可步行衔接博物馆岸；高层景观需看所订房型。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.scandichotels.com/de/hotels/scandic-frankfurt-museumsufer",
+    "bookingUrl": "https://www.scandichotels.com/de/hotels/scandic-frankfurt-museumsufer",
+    "sourceReferences": [
+      {
+        "name": "www.scandichotels.com",
+        "url": "https://www.scandichotels.com/de/hotels/scandic-frankfurt-museumsufer",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Frankfurt",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scandic,_Frankfurt_am_Main_(IMG_20220329_184238_1).jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "Scandic Frankfurt Museumsufer 酒店外观实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 110,
+        "high": 270,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.scandichotels.com/de/hotels/scandic-frankfurt-museumsufer",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Scandic, Frankfurt am Main (IMG 20220329 184238 1).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-frankfurt-25hours-goldman",
+    "cityId": "frankfurt",
+    "kind": "hotel",
+    "name": "25hours Hotel The Goldman",
+    "nameEn": "25hours Hotel The Goldman",
+    "lat": 50.1118,
+    "lng": 8.7118,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Hanauer Landstraße 127–129",
+    "durationMinutes": 0,
+    "description": "东区色彩鲜明的设计酒店，适合探索河岸和餐饮片区；前往老城可比较电车与步行。",
+    "tagline": "东区色彩鲜明的设计酒店，适合探索河岸和餐饮片区；前往老城可比较电车与步行。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://25hours-hotels.com/frankfurt/the-goldman/",
+    "bookingUrl": "https://25hours-hotels.com/frankfurt/the-goldman/",
+    "sourceReferences": [
+      {
+        "name": "25hours-hotels.com",
+        "url": "https://25hours-hotels.com/frankfurt/the-goldman/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Frankfurt",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:25hours_Hotel_The_Goldman,_Frankfurt_am_Main_(P1032662).jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "该酒店建筑实景；当前房型和设施以预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 100,
+        "high": 260,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://25hours-hotels.com/frankfurt/the-goldman/",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "25hours Hotel The Goldman, Frankfurt am Main (P1032662).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-frankfurt-nhow",
+    "cityId": "frankfurt",
+    "kind": "hotel",
+    "name": "nhow Frankfurt",
+    "nameEn": "nhow Frankfurt",
+    "lat": 50.1107,
+    "lng": 8.653,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Brüsseler Straße 1–3",
+    "durationMinutes": 0,
+    "description": "会展区的现代设计住宿，适合把天际线与酒店公共空间作为停留体验；展会期间房价波动较大。",
+    "tagline": "会展区的现代设计住宿，适合把天际线与酒店公共空间作为停留体验；展会期间房价波动较大。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://www.nhow-hotels.com/en/nhow-frankfurt",
+    "bookingUrl": "https://www.nhow-hotels.com/en/nhow-frankfurt",
+    "sourceReferences": [
+      {
+        "name": "www.nhow-hotels.com",
+        "url": "https://www.nhow-hotels.com/en/nhow-frankfurt",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Frankfurt",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "在酒店实拍图核对前展示对应建筑或所在城市环境，不作为客房及设施照片。",
+    "priceOptions": [
+      {
+        "low": 150,
+        "high": 360,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.nhow-hotels.com/en/nhow-frankfurt",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "hotel-frankfurt-frankfurter-hof",
+    "cityId": "frankfurt",
+    "kind": "hotel",
+    "name": "Steigenberger Icon Frankfurter Hof",
+    "nameEn": "Steigenberger Icon Frankfurter Hof",
+    "lat": 50.1094,
+    "lng": 8.6746,
+    "coordinateNote": "酒店所在街区的近似定位，实际入口以预订页地址为准。",
+    "address": "Am Kaiserplatz",
+    "durationMinutes": 0,
+    "description": "市中心传统豪华酒店，适合想兼顾老城与银行区的旅人；不同套餐的早餐与附加服务需比较。",
+    "tagline": "市中心传统豪华酒店，适合想兼顾老城与银行区的旅人；不同套餐的早餐与附加服务需比较。",
+    "features": [
+      "官方预订入口",
+      "按日期和房型核价"
+    ],
+    "sourceUrl": "https://hrewards.com/en/steigenberger-icon-frankfurter-hof",
+    "bookingUrl": "https://hrewards.com/en/steigenberger-icon-frankfurter-hof",
+    "sourceReferences": [
+      {
+        "name": "hrewards.com",
+        "url": "https://hrewards.com/en/steigenberger-icon-frankfurter-hof",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置和特色；非实时报价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg"
+    },
+    "imageScope": "exact-place",
+    "imageContextNote": "酒店建筑实拍，房型、室内布置和包含服务以当前预订页面为准。",
+    "priceOptions": [
+      {
+        "low": 240,
+        "high": 600,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://hrewards.com/en/steigenberger-icon-frankfurter-hof",
+        "checkedAt": null,
+        "note": "每间每晚的编辑规划区间，不是该酒店实时报价。日期、房型、入住人数和税费会改变费用；早餐、停车及接送若未明示包含应另计。",
+        "unit": "room-night",
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车与接送",
+          "另列税费及附加服务"
+        ]
+      }
+    ],
+    "photoFile": "Frankfurt Steigenberger Frankfurter Hof.20150405.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  }
+]

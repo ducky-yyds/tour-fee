@@ -1,5 +1,5 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   Copy,
@@ -54,13 +54,22 @@ export function ProjectBar({ project, projects, onSwitch, onManage, onNew }) {
   );
 }
 
-export function ProjectForm({ cities, originId, departureDate, returnTrip = true, onClose, onCreate }) {
+export function ProjectForm({ cities, originId, departureDate, returnTrip = true, onClose, onCreate, onEnsureCities }) {
+  const submittingRef = useRef(false);
+  const [submitting, setSubmitting] = useState(false);
   const [unit, setUnit] = useState('city');
   const [name, setName] = useState("");
   const [cityId, setCityId] = useState("beijing");
   const [days, setDays] = useState(() => recommendedDays('beijing'));
   const [daysSource, setDaysSource] = useState('recommendation');
   const selectedCity = cities.find(c => c.id === cityId);
+  const submit = async values => {
+    if (submittingRef.current) return;
+    submittingRef.current = true;
+    setSubmitting(true);
+    try { await onCreate(values); }
+    finally { submittingRef.current = false; setSubmitting(false); }
+  };
   return (
     <Modal title="给下一段旅程，留一个位置" onClose={onClose} wide={unit === 'country'}>
       <div className="planning-unit-switch" role="group" aria-label="按城市或国家规划">
@@ -69,12 +78,12 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
       </div>
       {unit === 'country' ? <>
         <label className="country-project-name">项目名称<input aria-label="国家旅行项目名称" maxLength={60} placeholder="例如：日本七日慢游" value={name} onChange={event => setName(event.target.value)} /></label>
-        <CountryTripPlanner cities={cities} originId={originId} departureDate={departureDate} returnToOrigin={returnTrip} initialDays={7} onApply={countryDraft => onCreate({ name, countryDraft })} applyLabel="创建国家旅行项目" />
+        <CountryTripPlanner cities={cities} onEnsureCities={onEnsureCities} originId={originId} departureDate={departureDate} returnToOrigin={returnTrip} initialDays={7} onApply={countryDraft => submit({ name, countryDraft })} pending={submitting} applyLabel={submitting ? '正在创建…' : '创建国家旅行项目'} />
       </> : <form
         className="project-form"
         onSubmit={(e) => {
           e.preventDefault();
-          onCreate({ name, cityId, days: Number(days), daysSource });
+          submit({ name, cityId, days: Number(days), daysSource });
         }}
       >
         <p className="muted">
@@ -111,9 +120,9 @@ export function ProjectForm({ cities, originId, departureDate, returnTrip = true
           {selectedCity?.coverage === 'airport-only' ? '这一站的景点和食宿预算待补充，创建后可以自行录入。' : '先按可用时间安排精选景点，其他想去的地方可以随时加入。'}
         </p>
         <div className="modal-actions">
-          <button className="primary-button" type="submit">
+          <button className="primary-button" type="submit" disabled={submitting}>
             <Plus size={16} />
-            创建旅行项目
+            {submitting ? '正在加载城市并创建…' : '创建旅行项目'}
           </button>
         </div>
       </form>}
@@ -134,6 +143,8 @@ export function ProjectsModal({
   onDelete,
   onImport,
   onExport,
+  onExportWorkspace,
+  onImportWorkspace,
 }) {
   const [editing, setEditing] = useState(null);
   const [name, setName] = useState("");
@@ -295,6 +306,11 @@ export function ProjectsModal({
             </article>
           );
         })}
+      </div>
+      <div className="workspace-transfer">
+        <div><strong>完整个人资料 · 换设备或迁移网站</strong><p className="muted">一起保存全部旅行项目、当前编辑、环球足迹和旅居偏好。导入将替换此浏览器资料，并先导出一份原资料备份。</p></div>
+        <button className="secondary-button" onClick={onExportWorkspace}><Download size={15} />导出全部资料</button>
+        <button className="secondary-button" onClick={onImportWorkspace}><Upload size={15} />导入并替换工作区</button>
       </div>
       <div className="modal-actions">
         <button className="secondary-button" onClick={onImport}>

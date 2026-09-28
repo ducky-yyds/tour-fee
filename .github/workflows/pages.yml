@@ -1,26 +1,19 @@
-name: Build and deploy GitHub Pages
+name: Build and deploy preview
 
 on:
   push:
     branches: [main, master]
   workflow_dispatch:
     inputs:
-      refresh_data:
-        description: Refresh public data before publishing
-        type: boolean
-        default: true
       run_tests:
-        description: Run application tests before publishing
-        type: boolean
-        default: true
-  workflow_call:
-    inputs:
-      refresh_data:
+        description: Run application tests explicitly
         type: boolean
         default: false
+  workflow_call:
+    inputs:
       run_tests:
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: read
@@ -38,8 +31,9 @@ jobs:
     timeout-minutes: 30
     env:
       AUTO_UPDATE: '0'
+      TRAVEL_DB_PATH: ':memory:'
     steps:
-      - name: Check out repository
+      - name: Check out archived public content
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
           persist-credentials: false
@@ -50,81 +44,21 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Run tests
-        if: ${{ (github.event_name == 'push' || inputs.run_tests) && !contains(github.event.head_commit.message, '[skip tests]') }}
-        env:
-          TRAVEL_DB_PATH: ':memory:'
+      - name: Run explicitly requested application tests
+        if: inputs.run_tests
         run: npm test
-      - name: Restore last public source snapshots
-        uses: actions/cache/restore@v6
-        with:
-          path: |
-            ${{ runner.temp }}/tusuan-pages.sqlite
-            ${{ runner.temp }}/tusuan-pages.sqlite-wal
-            ${{ runner.temp }}/tusuan-pages.sqlite-shm
-            data/airports.json
-            data/airport-cities.json
-            data/airport-maintenance.json
-            data/experience-audit.json
-            artifacts/place-library-cache
-            artifacts/stay-library-cache
-          key: tusuan-public-sources-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: tusuan-public-sources-v1-
-      - name: Refresh public data, retaining previous values on source failure
-        id: update
-        if: ${{ inputs.refresh_data || (github.event_name == 'push' && !contains(github.event.head_commit.message, '[skip refresh]')) }}
-        continue-on-error: true
-        timeout-minutes: 15
-        env:
-          # Cache only public-source snapshots, never the user's local database.
-          TRAVEL_DB_PATH: ${{ runner.temp }}/tusuan-pages.sqlite
-        run: npm run update:data
-      - name: Explain partial source update
-        if: steps.update.outcome == 'failure'
-        run: echo '::warning::Some public sources could not be refreshed. Valid cached snapshots or dated reference values will be published; source status remains visible.'
-      - name: Maintain nearby places within the daily request allowance
-        continue-on-error: true
-        timeout-minutes: 8
-        run: python3 scripts/update-place-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
-      - name: Import maintained destinations and local places
+      - name: Assemble maintained source packages
         run: npm run import:destinations
-      - name: Maintain named stays within the daily request allowance
-        continue-on-error: true
-        timeout-minutes: 5
-        run: python3 scripts/update-stay-library.py --max-requests=${{ inputs.refresh_data && '6' || '0' }} --delay=5
-      - name: Repair missing reviewed catalog photographs
-        if: inputs.refresh_data
-        continue-on-error: true
-        timeout-minutes: 5
-        run: python3 scripts/maintain-reviewed-images.py
-      - name: Fill new card images from bundled illustrations
-        # Subject-specific food art is bundled and never needs generation in CI.
-        run: python3 scripts/complete-media.py --phase=fallback
-      - name: Validate maintained catalog and bundled image references
+      - name: Validate public catalog and bundled images
         run: npm run audit:catalog
-      - name: Configure Pages
+      - name: Configure Pages preview
         id: pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
-      - name: Export public snapshots and build static app
+      - name: Build preview from versioned data
         env:
           PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH || steps.pages.outputs.base_path }}
-          TRAVEL_DB_PATH: ${{ runner.temp }}/tusuan-pages.sqlite
         run: npm run build:pages
-      - name: Cache public maintenance results
-        uses: actions/cache/save@v6
-        with:
-          path: |
-            ${{ runner.temp }}/tusuan-pages.sqlite
-            ${{ runner.temp }}/tusuan-pages.sqlite-wal
-            ${{ runner.temp }}/tusuan-pages.sqlite-shm
-            data/airports.json
-            data/airport-cities.json
-            data/airport-maintenance.json
-            data/experience-audit.json
-            artifacts/place-library-cache
-            artifacts/stay-library-cache
-          key: tusuan-public-sources-v1-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Upload only the static build
+      - name: Upload preview only
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5
         with:
           path: dist-pages
@@ -137,6 +71,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy Pages artifact
+      - name: Deploy Pages preview
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5

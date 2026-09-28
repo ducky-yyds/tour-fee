@@ -38,7 +38,7 @@ export async function updateData() {
       results.push({ id: source.id, status: 'error', error: error.message });
     }
   }
-  try {
+  if (process.env.UPDATE_SKIP_EXPERIENCE_AUDIT !== '1') try {
     const audit = await auditExperiences();
     results.push({ id: 'experience-source-audit', status: 'ok', checked: audit.checkedThisRun, reviewCount: audit.review.length });
   } catch (error) { results.push({ id: 'experience-source-audit', status: 'error', error: error.message }); }

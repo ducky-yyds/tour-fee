@@ -18,6 +18,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from media_paths import media_root, media_path
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE = ROOT / 'artifacts/media-completion-cache'
@@ -180,7 +181,8 @@ def inventory():
 
 
 def valid_photo(record):
-    return record and record.get('url') and (ROOT / 'public' / record['url'].lstrip('/')).is_file()
+    local = media_path(record.get('url')) if record else None
+    return bool(local and local.is_file())
 
 
 def save_download(file, info):
@@ -188,7 +190,8 @@ def save_download(file, info):
     extension = pathlib.Path(urllib.parse.urlparse(info.get('thumburl') or info['url']).path).suffix.lower()
     if extension not in ('.jpg', '.jpeg', '.png', '.webp'):
         extension = '.jpg'
-    path = ROOT / 'public/images' / f'commons-{name}{extension}'
+    path = media_root() / f'commons-{name}{extension}'
+    path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
         body = request(info.get('thumburl') or info['url'], True)
         temp = path.with_suffix(path.suffix + '.tmp')
@@ -441,7 +444,7 @@ def fallback(items, media):
             continue
         themes = {'festival': 'culture', 'marine': 'nature', 'wildlife': 'nature', 'nature': 'nature', 'craft': 'culture', 'performance': 'culture', 'food-life': 'food', 'literary': 'culture', 'local-life': 'walk'}
         key = 'food' if item['_kind'] in ('food', 'restaurant') else 'stay' if item['_kind'] == 'hotel' else themes.get(item.get('experienceType')) or ('nature' if item.get('activityType') == 'leisure' else 'culture' if re.search('博物馆|文化|艺术|历史', item.get('category', '')) else 'walk')
-        file = ROOT / f'public/images/illustration-{key}.png'
+        file = media_root() / f'illustration-{key}.png'
         if not file.exists():
             raise ValueError('Missing illustration asset: ' + str(file))
         media['attractions'][item['id']] = {'url': f'/images/illustration-{key}.png', 'alt': item['name']+' · 主题插画', 'scope': 'illustration',

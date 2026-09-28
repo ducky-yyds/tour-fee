@@ -1,8 +1,13 @@
 {
   "version": 1,
-  "reviewedAt": "2026-09-24",
+  "reviewedAt": "2026-09-28",
   "basis": "Manual municipality aliases and districts checked against the OurAirports source records. Shared gateway airports do not merge separate tourism destinations. Independent airport municipalities such as Narita, Newark, Taoyuan, Sepang and Nevsehir remain independently searchable.",
   "links": [
+    {"cityId": "hamburg", "airportCodes": ["HAM"], "sourceUrls": ["https://ourairports.com/airports/EDDH/"]},
+    {"cityId": "cologne", "airportCodes": ["CGN"], "sourceUrls": ["https://ourairports.com/airports/EDDK/"]},
+    {"cityId": "frankfurt", "airportCodes": ["FRA"], "sourceUrls": ["https://ourairports.com/airports/EDDF/"]},
+    {"cityId": "munich", "airportCodes": ["MUC"], "sourceUrls": ["https://ourairports.com/airports/EDDM/"]},
+    {"cityId": "shangri-la", "airportCodes": ["DIG"], "sourceUrls": ["https://ourairports.com/airports/ZPDQ/"]},
     {"cityId": "shanghai", "airportCodes": ["PVG", "SHA"], "sourceUrls": ["https://ourairports.com/airports/ZSPD/", "https://ourairports.com/airports/ZSSS/"]},
     {"cityId": "beijing", "airportCodes": ["PEK", "PKX"], "sourceUrls": ["https://ourairports.com/airports/ZBAA/", "https://ourairports.com/airports/ZBAD/"]},
     {"cityId": "chengdu", "airportCodes": ["CTU", "TFU"], "sourceUrls": ["https://ourairports.com/airports/ZUUU/", "https://ourairports.com/airports/ZUTF/"]},

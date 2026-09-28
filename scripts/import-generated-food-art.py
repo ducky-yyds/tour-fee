@@ -7,6 +7,8 @@ import argparse
 import json
 from pathlib import Path
 from PIL import Image, ImageOps
+from archive_assets import archive_generated_original, preserve_media_urls
+from media_paths import media_root
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,11 +24,20 @@ def main():
     prompt = Path(args.prompt_file).read_text('utf-8-sig').strip()
     if not prompt:
         raise ValueError('Missing generation prompt')
-    output = ROOT/'public/images'/f'art-{args.id}-20260923.webp'
+    output = media_root()/f'art-{args.id}-20260923.webp'
+    output.parent.mkdir(parents=True, exist_ok=True)
+    archive_generated_original(args.source, '/images/' + output.name,
+                               {'generator': 'Built-in imagegen', 'prompt': prompt,
+                                'recordFile': f'data/food-art-expansion/{args.id}.json',
+                                'license': 'AI-generated project artwork'})
+    pack = ROOT/'data/food-art-expansion'/f'{args.id}.json'
+    preserve_media_urls(['/images/' + output.name], metadata_files=[pack])
     with Image.open(args.source) as source:
         # Web asset encoding only; no object/content edits or compositing.
         image = ImageOps.contain(source.convert('RGB'), (768, 512))
-        image.save(output, 'WEBP', quality=84, method=6)
+        temporary = output.with_suffix('.webp.tmp')
+        image.save(temporary, 'WEBP', quality=84, method=6)
+        temporary.replace(output)
         width, height = image.size
     food = foods[args.id]
     record = {'url': '/images/' + output.name, 'alt': food['name'] + ' · AI 菜品示意图',
@@ -38,9 +49,10 @@ def main():
               'checkedAt': '2026-09-23', 'width': width, 'height': height,
               'bytes': output.stat().st_size, 'generator': 'Built-in imagegen', 'prompt': prompt,
               'modifications': 'WebP web asset, proportionally resized; no content retouching.'}
-    pack = ROOT/'data/food-art-expansion'/f'{args.id}.json'
     pack.parent.mkdir(parents=True, exist_ok=True)
     pack.write_text(json.dumps({args.id: record}, ensure_ascii=False, indent=2)+'\n', 'utf-8')
+    preserve_media_urls([record['url']], records={record['url']: {**record,
+        'recordFile': pack.relative_to(ROOT).as_posix(), 'recordKey': args.id}})
     print(json.dumps({'food': args.id, 'asset': output.name, 'bytes': record['bytes']}))
 
 if __name__ == '__main__':

@@ -11,6 +11,8 @@ import pathlib
 import re
 import urllib.parse
 import urllib.request
+from media_paths import media_root
+from archive_assets import preserve_media_urls
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 USER_AGENT = "TusuanTravelPlanner/1.0 (Wikimedia Commons scene references; credits retained)"
@@ -44,7 +46,7 @@ def main():
     pages = {page["title"].removeprefix("File:").replace("_", " "): page["imageinfo"][0]
              for page in result.get("query", {}).get("pages", {}).values() if page.get("imageinfo")}
     checked_at = datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z")
-    output = ROOT / "public" / "images"
+    output = media_root()
     output.mkdir(parents=True, exist_ok=True)
 
     def download(entry):
@@ -77,6 +79,7 @@ def main():
     # Validate all downloads before replacing the published manifest or photographs.
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
         downloaded = list(pool.map(download, SOURCES.items()))
+    preserve_media_urls([record['url'] for _, record, _ in downloaded])
     records = {}
     for key, record, content in downloaded:
         target = output / pathlib.Path(record["url"]).name
@@ -89,6 +92,7 @@ def main():
     temporary = manifest.with_suffix(".json.tmp")
     temporary.write_text(json.dumps({"version": 1, "checkedAt": checked_at, "images": records}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     temporary.replace(manifest)
+    preserve_media_urls([record['url'] for record in records.values()])
 
 
 if __name__ == "__main__":

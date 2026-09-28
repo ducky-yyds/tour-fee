@@ -1,7 +1,8 @@
 /** Public city pickers only offer destinations with actual travel content. */
 export function isTravelDestination(city) {
   return Boolean(city && !city.legacyAirportAlias && city.coverage !== 'airport-only' && city.nameKind !== 'airport'
-    && (city.attractions?.length || city.experiences?.length || city.localFoods?.length));
+    && (city.attractions?.length || city.experiences?.length || city.localFoods?.length
+      || city.contentCounts?.attractions || city.contentCounts?.experiences || city.contentCounts?.localFoods));
 }
 
 /** Retain airport nodes for transport and previously saved trips, not browsing. */

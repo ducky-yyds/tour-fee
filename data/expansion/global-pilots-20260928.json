@@ -1,0 +1,2087 @@
+[
+  {
+    "id": "munich",
+    "name": "慕尼黑",
+    "nameEn": "Munich",
+    "countryCode": "DE",
+    "country": "德国",
+    "region": "欧洲",
+    "currency": "EUR",
+    "lat": 48.1372,
+    "lng": 11.5756,
+    "iata": "MUC",
+    "article": "Munich",
+    "aliases": [
+      "München",
+      "Muenchen",
+      "慕尼黑"
+    ],
+    "wikidataId": "Q1726",
+    "contentTier": "priority",
+    "tierReason": "用户点名补齐的重点目的地",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "tagline": "从老城钟楼到艺术馆，再在栗树下分享一顿巴伐利亚午餐；这座城市适合把博物馆与户外生活交替安排。",
+    "description": "从老城钟楼到艺术馆，再在栗树下分享一顿巴伐利亚午餐；这座城市适合把博物馆与户外生活交替安排。",
+    "tags": [
+      "地方文化",
+      "自然与街区",
+      "特色饮食"
+    ],
+    "daily": {
+      "lodging": [
+        60,
+        145,
+        360
+      ],
+      "food": [
+        25,
+        55,
+        120
+      ],
+      "transport": [
+        10,
+        18,
+        60
+      ],
+      "misc": [
+        8,
+        20,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        900,
+        1700,
+        3200
+      ],
+      "utilities": [
+        160,
+        260,
+        450
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-28",
+      "note": "经济、舒适、高端三档规划估算，不是市场最低最高价或商家实时报价。住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。节庆、日期与房型会改变实际支出。"
+    },
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 7,
+      "reason": "老城可步行；宁芬堡宫、奥林匹克公园和安联球场用地铁、电车及公交衔接。机场接驳另计，德国城市之间可优先比较铁路。啤酒节期间住宿应单独核价。"
+    },
+    "transportNote": "老城可步行；宁芬堡宫、奥林匹克公园和安联球场用地铁、电车及公交衔接。机场接驳另计，德国城市之间可优先比较铁路。啤酒节期间住宿应单独核价。",
+    "attractions": [
+      {
+        "id": "munich-marienplatz",
+        "name": "玛利亚广场",
+        "nameEn": "Marienplatz",
+        "lat": 48.1372,
+        "lng": 11.5755,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 0.8333333333333334,
+        "durationRange": {
+          "min": 25,
+          "recommended": 50,
+          "max": 75
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史广场",
+        "activityType": "culture",
+        "description": "从市政厅立面与街道尺度认识老城中心；钟琴演出依季节有固定场次，登塔与内部导览另购票。",
+        "article": "Marienplatz",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Marienplatz"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史广场",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-frauenkirche",
+        "name": "圣母教堂",
+        "nameEn": "Frauenkirche, Munich",
+        "lat": 48.1386,
+        "lng": 11.573,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 0.8333333333333334,
+        "durationRange": {
+          "min": 25,
+          "recommended": 50,
+          "max": 75
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "双塔是慕尼黑天际线的标志；参观教堂与付费登塔分开安排，礼拜时段尊重宗教活动。",
+        "article": "Frauenkirche, Munich",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Frauenkirche%2C_Munich"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-residenz",
+        "name": "慕尼黑王宫博物馆",
+        "nameEn": "Munich Residenz",
+        "lat": 48.1411,
+        "lng": 11.5786,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宫殿博物馆",
+        "activityType": "culture",
+        "description": "穿过厅堂、庭院与宫廷收藏认识维特尔斯巴赫王朝；宝库和剧院的票种可能与主体展线不同。",
+        "article": "Munich Residenz",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Munich_Residenz"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宫殿博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.residenz-muenchen.de/englisch/tourist/index.htm",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.residenz-muenchen.de",
+            "url": "https://www.residenz-muenchen.de/englisch/tourist/index.htm",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.residenz-muenchen.de/englisch/tourist/index.htm",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-nymphenburg",
+        "name": "宁芬堡宫",
+        "nameEn": "Nymphenburg Palace",
+        "lat": 48.158,
+        "lng": 11.5034,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宫殿园林",
+        "activityType": "culture",
+        "description": "夏宫主体、马车馆和园中小宫殿适合按兴趣选择，别将整片公园当作短暂停留点。",
+        "article": "Nymphenburg Palace",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nymphenburg_Palace"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宫殿园林",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.schloss-nymphenburg.de/englisch/tourist/index.htm",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.schloss-nymphenburg.de",
+            "url": "https://www.schloss-nymphenburg.de/englisch/tourist/index.htm",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.schloss-nymphenburg.de/englisch/tourist/index.htm",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-deutsches",
+        "name": "德意志博物馆",
+        "nameEn": "Deutsches Museum",
+        "lat": 48.1299,
+        "lng": 11.5834,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "科学博物馆",
+        "activityType": "culture",
+        "description": "沿航天、能源与技术展线探索，动手展项适合慢慢看；部分展厅可能因更新临时调整。",
+        "article": "Deutsches Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Deutsches_Museum"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "科学博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.deutsches-museum.de/en/museumsinsel/visit",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.deutsches-museum.de",
+            "url": "https://www.deutsches-museum.de/en/museumsinsel/visit",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 15,
+          "high": 25,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.deutsches-museum.de/en/museumsinsel/visit",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-alte-pinakothek",
+        "name": "老绘画陈列馆",
+        "nameEn": "Alte Pinakothek",
+        "lat": 48.1484,
+        "lng": 11.5702,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "description": "挑选欧洲古典绘画展厅细看光线与人物，预留座椅休息时间，避免同一天连续塞满美术馆。",
+        "article": "Alte Pinakothek",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Alte_Pinakothek"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "艺术博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.pinakothek.de",
+            "url": "https://www.pinakothek.de/en/visit/alte-pinakothek",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 7,
+          "high": 16,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-modern-pinakothek",
+        "name": "现代艺术陈列馆",
+        "nameEn": "Pinakothek der Moderne",
+        "lat": 48.1468,
+        "lng": 11.5723,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "description": "艺术、设计、建筑与版画的收藏同处一馆，适合根据特展与自己的兴趣确定路线。",
+        "article": "Pinakothek der Moderne",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pinakothek_der_Moderne"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "艺术博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.pinakothek.de/en/visit/pinakothek-der-moderne",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.pinakothek.de",
+            "url": "https://www.pinakothek.de/en/visit/pinakothek-der-moderne",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.pinakothek.de/en/visit/pinakothek-der-moderne",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-lenbachhaus",
+        "name": "伦巴赫美术馆",
+        "nameEn": "Lenbachhaus",
+        "lat": 48.1467,
+        "lng": 11.563,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "艺术博物馆",
+        "activityType": "culture",
+        "description": "围绕蓝骑士与现代艺术看慕尼黑的另一面；别错过别墅建筑和安静庭院。",
+        "article": "Lenbachhaus",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Lenbachhaus"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "艺术博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.lenbachhaus.de/en/visit",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.lenbachhaus.de",
+            "url": "https://www.lenbachhaus.de/en/visit",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10,
+          "high": 18,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.lenbachhaus.de/en/visit",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-brandhorst",
+        "name": "布兰德霍斯特博物馆",
+        "nameEn": "Museum Brandhorst",
+        "lat": 48.1484,
+        "lng": 11.5741,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "当代艺术",
+        "activityType": "culture",
+        "description": "以轮换展览认识当代绘画与艺术收藏，彩色立面适合作为艺术区路线的起点。",
+        "article": "Museum Brandhorst",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museum_Brandhorst"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "当代艺术",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.museum-brandhorst.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museum-brandhorst.de",
+            "url": "https://www.museum-brandhorst.de/en/",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 7,
+          "high": 15,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museum-brandhorst.de/en/",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-egyptian",
+        "name": "巴伐利亚埃及艺术博物馆",
+        "nameEn": "Staatliches Museum Ägyptischer Kunst",
+        "lat": 48.1467,
+        "lng": 11.5693,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "考古博物馆",
+        "activityType": "culture",
+        "description": "地下展厅以雕塑、器物与文字展开古埃及艺术，适合雨天与相邻美术馆择一组合。",
+        "article": "Staatliches Museum Ägyptischer Kunst",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Staatliches_Museum_%C3%84gyptischer_Kunst"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "考古博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://smaek.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "smaek.de",
+            "url": "https://smaek.de/en/",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 7,
+          "high": 15,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://smaek.de/en/",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-english-garden",
+        "name": "英国花园",
+        "nameEn": "Englischer Garten",
+        "lat": 48.164,
+        "lng": 11.605,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然公园",
+        "activityType": "nature",
+        "description": "草地、林荫路与湖面构成城市休闲空间，可以只选择南段，骑车和餐饮另计。",
+        "article": "Englischer Garten",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Englischer_Garten"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "自然公园",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-olympiapark",
+        "name": "奥林匹克公园",
+        "nameEn": "Olympiapark, Munich",
+        "lat": 48.1731,
+        "lng": 11.5503,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "现代建筑与公园",
+        "activityType": "culture",
+        "description": "从湖边看1972年场馆的帐篷形屋顶，可登奥林匹克山丘；场馆活动与付费导览需另订。",
+        "article": "Olympiapark, Munich",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Olympiapark%2C_Munich"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "现代建筑与公园",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.olympiapark.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.olympiapark.de",
+            "url": "https://www.olympiapark.de/en",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.olympiapark.de/en",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-bmw-welt",
+        "name": "宝马世界",
+        "nameEn": "BMW Welt",
+        "lat": 48.1769,
+        "lng": 11.5563,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "汽车与设计",
+        "activityType": "culture",
+        "description": "进入开放展示空间欣赏建筑与车型，工厂导览和旁边宝马博物馆不是同一项目。",
+        "article": "BMW Welt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/BMW_Welt"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "汽车与设计",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.bmw-welt.com/en.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.bmw-welt.com",
+            "url": "https://www.bmw-welt.com/en.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.bmw-welt.com/en.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-bmw-museum",
+        "name": "宝马博物馆",
+        "nameEn": "BMW Museum",
+        "lat": 48.177,
+        "lng": 11.5592,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "工业博物馆",
+        "activityType": "culture",
+        "description": "沿车型、摩托车与品牌历史展线参观；与宝马世界步行相连但需分别安排门票和用时。",
+        "article": "BMW Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/BMW_Museum"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "工业博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.bmw-welt.com/en/locations/museum.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.bmw-welt.com",
+            "url": "https://www.bmw-welt.com/en/locations/museum.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12,
+          "high": 22,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.bmw-welt.com/en/locations/museum.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-allianz",
+        "name": "安联球场及拜仁博物馆",
+        "nameEn": "Allianz Arena",
+        "lat": 48.2188,
+        "lng": 11.6247,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "体育文化",
+        "activityType": "culture",
+        "description": "球场导览和俱乐部博物馆适合球迷，比赛日路线与开放范围会变；从市中心乘地铁后仍需步行。",
+        "article": "Allianz Arena",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Allianz_Arena"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "体育文化",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://allianz-arena.com/en/arena-tours",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "allianz-arena.com",
+            "url": "https://allianz-arena.com/en/arena-tours",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 25,
+          "high": 50,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://allianz-arena.com/en/arena-tours",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-asam",
+        "name": "阿萨姆教堂",
+        "nameEn": "Asam Church, Munich",
+        "lat": 48.135,
+        "lng": 11.5699,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 0.5833333333333334,
+        "durationRange": {
+          "min": 20,
+          "recommended": 35,
+          "max": 52
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "窄街立面之后是密集的巴洛克装饰，适合仔细观看祭坛与天花；开放受宗教活动影响。",
+        "article": "Asam Church, Munich",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Asam_Church%2C_Munich"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/artikel/muenchen-tipps-fuer/kostenlose-guenstige-aktivitaeten-muenchen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/artikel/muenchen-tipps-fuer/kostenlose-guenstige-aktivitaeten-muenchen",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/artikel/muenchen-tipps-fuer/kostenlose-guenstige-aktivitaeten-muenchen",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-viktualienmarkt",
+        "name": "谷物市场",
+        "nameEn": "Viktualienmarkt",
+        "lat": 48.1352,
+        "lng": 11.5761,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方市场",
+        "activityType": "culture",
+        "description": "从奶酪、面包与花摊认识城市日常，可以将午餐放在市场，购物和饮食按实际消费计算。",
+        "article": "Viktualienmarkt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Viktualienmarkt"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "地方市场",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-konigsplatz",
+        "name": "国王广场",
+        "nameEn": "Königsplatz, Munich",
+        "lat": 48.1456,
+        "lng": 11.5658,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 67
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史广场",
+        "activityType": "culture",
+        "description": "古典柱廊围合的广场与艺术区相连，室外参观与周边考古馆的门票分开计算。",
+        "article": "Königsplatz, Munich",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/K%C3%B6nigsplatz%2C_Munich"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史广场",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.munich.travel",
+            "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-ns-documentation",
+        "name": "慕尼黑纳粹历史文献中心",
+        "nameEn": "Munich Documentation Centre for the History of National Socialism",
+        "lat": 48.1453,
+        "lng": 11.5685,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史教育",
+        "activityType": "culture",
+        "description": "通过常设展理解纳粹运动在慕尼黑的兴起及迫害历史，适合预留安静阅读与思考的时间。",
+        "article": "Munich Documentation Centre for the History of National Socialism",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Munich_Documentation_Centre_for_the_History_of_National_Socialism"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史教育",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.nsdoku.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.nsdoku.de",
+            "url": "https://www.nsdoku.de/en/",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.nsdoku.de/en/",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "munich-botanical",
+        "name": "宁芬堡植物园",
+        "nameEn": "Botanischer Garten München-Nymphenburg",
+        "lat": 48.1633,
+        "lng": 11.5017,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "植物与自然",
+        "activityType": "nature",
+        "description": "观察温室和季节性花园；与宁芬堡宫相邻但收藏独立，冬季开放区域与时段需提前核对。",
+        "article": "Botanischer Garten München-Nymphenburg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Botanischer_Garten_M%C3%BCnchen-Nymphenburg"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "植物与自然",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://botmuc.snsb.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "botmuc.snsb.de",
+            "url": "https://botmuc.snsb.de/en/",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 6,
+          "high": 12,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://botmuc.snsb.de/en/",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      }
+    ],
+    "guide": {
+      "cityId": "munich",
+      "intro": "从老城钟楼到艺术馆，再在栗树下分享一顿巴伐利亚午餐；这座城市适合把博物馆与户外生活交替安排。",
+      "foodHighlights": [
+        {
+          "name": "巴伐利亚白香肠",
+          "description": "热水温煮的白香肠常搭配甜芥末和碱水面包；一般去掉肠衣食用，可按一份早餐或早午餐预算。"
+        },
+        {
+          "name": "巴伐利亚碱水面包",
+          "description": "结状面包带深褐色外皮与盐粒，适合当小食，也常与奶酪酱一起作为简餐。"
+        },
+        {
+          "name": "巴伐利亚奶酪酱",
+          "description": "软奶酪、黄油和调味料拌成的抹酱，常搭配洋葱与面包分享；乳制品过敏者应先询问配方。"
+        },
+        {
+          "name": "巴伐利亚烤猪肘",
+          "description": "酥皮猪肘通常配马铃薯团子或卷心菜，份量较大，可询问是否适合分享。"
+        },
+        {
+          "name": "巴伐利亚炸面饼",
+          "description": "边缘鼓起、中间薄脆的酵母炸面饼，现炸搭配咖啡更适合下午茶；并非有馅的柏林甜甜圈。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Altstadt / Maxvorstadt",
+          "description": "老城历史建筑与艺术区适合分半天安排，馆际步行也要留出时间。"
+        }
+      ],
+      "experienceIntro": "将具体体验加入行程，季节性活动先核对日期；城外路线应单独留出交通时间。"
+    },
+    "officialTourismUrl": "https://www.munich.travel/en",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/topics/urban-districts/munich-sights-at-a-glance",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  },
+  {
+    "id": "shangri-la",
+    "name": "香格里拉",
+    "nameEn": "Shangri-La",
+    "countryCode": "CN",
+    "country": "中国",
+    "region": "亚洲",
+    "currency": "CNY",
+    "lat": 27.81,
+    "lng": 99.706,
+    "iata": "DIG",
+    "article": "Shangri-La, Yunnan",
+    "aliases": [
+      "香格里拉市",
+      "中甸",
+      "Zhongdian",
+      "Shangri-La City"
+    ],
+    "wikidataId": "Q933866",
+    "contentTier": "priority",
+    "tierReason": "用户点名补齐的重点目的地",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "tagline": "高原湖泊、藏式村落与手艺人的炉火共同组成香格里拉；先慢慢适应海拔，再选择寺院、非遗与山野的一天。",
+    "description": "高原湖泊、藏式村落与手艺人的炉火共同组成香格里拉；先慢慢适应海拔，再选择寺院、非遗与山野的一天。",
+    "tags": [
+      "地方文化",
+      "自然与街区",
+      "特色饮食"
+    ],
+    "daily": {
+      "lodging": [
+        160,
+        420,
+        1500
+      ],
+      "food": [
+        60,
+        150,
+        380
+      ],
+      "transport": [
+        25,
+        90,
+        350
+      ],
+      "misc": [
+        25,
+        65,
+        180
+      ]
+    },
+    "monthly": {
+      "rent": [
+        1300,
+        3000,
+        7000
+      ],
+      "utilities": [
+        200,
+        400,
+        800
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-28",
+      "note": "经济、舒适、高端三档规划估算，不是市场最低最高价或商家实时报价。住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。节庆、日期与房型会改变实际支出。"
+    },
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 7,
+      "reason": "古城及城区用步行和出租车组合；松赞林与纳帕海需接驳。普达措、尼西、虎跳峡和三坝方向不可按同一片区衔接，远郊路线宜单独成日。可比较丽江至香格里拉铁路，海拔较高需循序安排体力。"
+    },
+    "transportNote": "古城及城区用步行和出租车组合；松赞林与纳帕海需接驳。普达措、尼西、虎跳峡和三坝方向不可按同一片区衔接，远郊路线宜单独成日。可比较丽江至香格里拉铁路，海拔较高需循序安排体力。",
+    "attractions": [
+      {
+        "id": "shangri-la-songzanlin",
+        "name": "噶丹松赞林寺",
+        "nameEn": "Ganden Sumtseling Monastery",
+        "lat": 27.8619,
+        "lng": 99.7068,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "藏传佛教建筑",
+        "activityType": "culture",
+        "description": "沿台阶进入寺院建筑群，留出听讲解和远看金顶的时间；尊重礼仪，殿内摄影遵守现场规定。",
+        "article": "Ganden Sumtseling Monastery",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ganden_Sumtseling_Monastery"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "藏传佛教建筑",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.ihg.com",
+            "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 75,
+          "high": 130,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-dukezong",
+        "name": "独克宗古城",
+        "nameEn": "Dukezong",
+        "lat": 27.8094,
+        "lng": 99.7065,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 50,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史街区",
+        "activityType": "culture",
+        "description": "在仓房街与金龙街辨认藏式民居和茶马古道街巷，石板路不平，古城消费与周边场馆另计。",
+        "article": "Dukezong",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dukezong"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史街区",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/fzjhbg1/fzjhbg/202512/20251217_236264.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.xianggelila.gov.cn",
+            "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/fzjhbg1/fzjhbg/202512/20251217_236264.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/fzjhbg1/fzjhbg/202512/20251217_236264.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-guishan",
+        "name": "龟山公园与转经筒",
+        "nameEn": "Guishan Park, Shangri-La",
+        "lat": 27.809,
+        "lng": 99.7078,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 67
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化地标",
+        "activityType": "culture",
+        "description": "登上古城中的小山看屋顶与转经筒，台阶需要放慢速度，初到高原不宜急走。",
+        "article": "Dukezong",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dukezong"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "文化地标",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.ihg.com",
+            "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-diqing-museum",
+        "name": "迪庆州博物馆",
+        "nameEn": "Diqing Museum",
+        "lat": 27.81,
+        "lng": 99.7072,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方博物馆",
+        "activityType": "culture",
+        "description": "用文物与地方展览了解迪庆的多民族生活和历史，为之后的村落与寺院游览补充背景。",
+        "article": "Shangri-La, Yunnan",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "地方博物馆",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2020-05/22/5513734/files/1b6a0d01bf584c20bf17d5801a3e3e6f.pdf",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.gov.cn",
+            "url": "https://www.gov.cn/zhengce/zhengceku/2020-05/22/5513734/files/1b6a0d01bf584c20bf17d5801a3e3e6f.pdf",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2020-05/22/5513734/files/1b6a0d01bf584c20bf17d5801a3e3e6f.pdf",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-long-march",
+        "name": "迪庆红军长征博物馆",
+        "nameEn": "Diqing Red Army Long March Museum",
+        "lat": 27.8098,
+        "lng": 99.7065,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史教育",
+        "activityType": "culture",
+        "description": "从长征在迪庆的展览认识当地红色历史，可结合中心镇公堂旧址；入馆以馆方当日开放与预约安排为准。",
+        "article": "Dukezong",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dukezong"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史教育",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://diqing.gov.cn/zfxxgk_dqzzf/fdzdgknr/zdmslyxx/lysczxhfwzl/jiudianjingqudengjipingdingxinxi/202409/20240905_215624.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "diqing.gov.cn",
+            "url": "https://diqing.gov.cn/zfxxgk_dqzzf/fdzdgknr/zdmslyxx/lysczxhfwzl/jiudianjingqudengjipingdingxinxi/202409/20240905_215624.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://diqing.gov.cn/zfxxgk_dqzzf/fdzdgknr/zdmslyxx/lysczxhfwzl/jiudianjingqudengjipingdingxinxi/202409/20240905_215624.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-baiji",
+        "name": "百鸡寺",
+        "nameEn": "Baiji Temple",
+        "lat": 27.8037,
+        "lng": 99.7002,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.1666666666666667,
+        "durationRange": {
+          "min": 35,
+          "recommended": 70,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山地寺院",
+        "activityType": "culture",
+        "description": "位于古城西侧山坡，沿步道缓慢上行看城镇与山谷；不追逐动物，参观范围以现场开放为准。",
+        "article": "Dukezong",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dukezong"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "山地寺院",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://zh.wikipedia.org/wiki/香格里拉市各级文物保护单位列表",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "zh.wikipedia.org",
+            "url": "https://zh.wikipedia.org/wiki/香格里拉市各级文物保护单位列表",
+            "kind": "encyclopedia",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://zh.wikipedia.org/wiki/香格里拉市各级文物保护单位列表",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-ringha-temple",
+        "name": "大宝寺与仁安谷地",
+        "nameEn": "Ringha Temple",
+        "lat": 27.734,
+        "lng": 99.784,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "藏族村落与寺院",
+        "activityType": "culture",
+        "description": "在仁安谷地观察寺院与村居的关系，山谷距古城有一段车程；进入建筑前询问开放与礼仪。",
+        "article": "Shangri-La, Yunnan",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "藏族村落与寺院",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.banyantree.com/china/ringha",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.banyantree.com",
+            "url": "https://www.banyantree.com/china/ringha",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 30,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.banyantree.com/china/ringha",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-napahai",
+        "name": "纳帕海湖滨与湿地",
+        "nameEn": "Napa Lake",
+        "lat": 27.867,
+        "lng": 99.645,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "高原自然",
+        "activityType": "nature",
+        "description": "季节变化让湖面与草甸呈现不同景观，只在开放道路和合法观景点停留，不驶入湿地或随意进入牧场。",
+        "article": "Napa Lake",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Napa_Lake"
+        },
+        "priority": 86,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "高原自然",
+          "可自选停留时间"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://xianggelila.gov.cn/zwxx/yw/202609/20260907_245206.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "xianggelila.gov.cn",
+            "url": "https://xianggelila.gov.cn/zwxx/yw/202609/20260907_245206.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://xianggelila.gov.cn/zwxx/yw/202609/20260907_245206.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        }
+      },
+      {
+        "id": "shangri-la-potatso",
+        "name": "普达措国家公园",
+        "nameEn": "Pudacuo National Park",
+        "lat": 27.835,
+        "lng": 99.963,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 4.5,
+        "durationRange": {
+          "min": 135,
+          "recommended": 270,
+          "max": 405
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "高原湖泊与森林",
+        "activityType": "culture",
+        "description": "在景区开放线路上看湖泊、草甸与森林，步道和接驳都需要时间；不要将同一公园的不同湖泊重复算作必去点。",
+        "article": "Pudacuo National Park",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pudacuo_National_Park"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "高原湖泊与森林",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://lcj.yn.gov.cn/special/2020/0712/2890.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "lcj.yn.gov.cn",
+            "url": "https://lcj.yn.gov.cn/special/2020/0712/2890.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 130,
+          "high": 200,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://lcj.yn.gov.cn/special/2020/0712/2890.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-shika",
+        "name": "石卡雪山",
+        "nameEn": "Shika Snow Mountain",
+        "lat": 27.776,
+        "lng": 99.602,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 3.5,
+        "durationRange": {
+          "min": 105,
+          "recommended": 210,
+          "max": 315
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "高山自然",
+        "activityType": "nature",
+        "description": "缆车和山上观景适合天气稳定且适应海拔后选择；遇风雪、维护或停运应取消，不以山顶活动填满抵达首日。",
+        "article": "Shika Snow Mountain",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shika_Snow_Mountain"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "高山自然",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://invest.yn.gov.cn/tzyn/ynsjzdxm/material/xm2026a/06010.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "invest.yn.gov.cn",
+            "url": "https://invest.yn.gov.cn/tzyn/ynsjzdxm/material/xm2026a/06010.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 180,
+          "high": 300,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://invest.yn.gov.cn/tzyn/ynsjzdxm/material/xm2026a/06010.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-balagezong",
+        "name": "巴拉格宗峡谷",
+        "nameEn": "Balagezong",
+        "lat": 28.241,
+        "lng": 99.443,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 5.0,
+        "durationRange": {
+          "min": 150,
+          "recommended": 300,
+          "max": 450
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "峡谷与山地",
+        "activityType": "culture",
+        "description": "将峡谷栈道、村落和观景接驳放在完整一天内选择，往返城区车程另留；不要与东面的普达措硬接同一天。",
+        "article": "Balagezong",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Balagezong"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "峡谷与山地",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "mz.yn.gov.cn",
+            "url": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 170,
+          "high": 260,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-baishuitai",
+        "name": "白水台",
+        "nameEn": "Baishuitai",
+        "lat": 27.503,
+        "lng": 100.03,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然与东巴文化",
+        "activityType": "nature",
+        "description": "在指定步道欣赏层叠的钙华台地，并了解当地东巴文化；不能踩入池体，三坝方向山路交通另留。",
+        "article": "Baishuitai",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Baishuitai"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "自然与东巴文化",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.diqing.gov.cn/file/diqing/dqzzf_zwhhlyj/file/20240904/1725418456204010539.pdf",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.diqing.gov.cn",
+            "url": "https://www.diqing.gov.cn/file/diqing/dqzzf_zwhhlyj/file/20240904/1725418456204010539.pdf",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 30,
+          "high": 70,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.diqing.gov.cn/file/diqing/dqzzf_zwhhlyj/file/20240904/1725418456204010539.pdf",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-tiger-leaping",
+        "name": "虎跳峡上虎跳观景",
+        "nameEn": "Tiger Leaping Gorge",
+        "lat": 27.181,
+        "lng": 100.11,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "峡谷自然",
+        "activityType": "nature",
+        "description": "沿开放观景设施看金沙江急流，台阶上下需体力；这条观景路线不等同于需多日准备的高路徒步。",
+        "article": "Tiger Leaping Gorge",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tiger_Leaping_Gorge"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "峡谷自然",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.ihg.com",
+            "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 45,
+          "high": 80,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-haba-village",
+        "name": "哈巴村",
+        "nameEn": "Haba village",
+        "lat": 27.377,
+        "lng": 100.115,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "山地村落",
+        "activityType": "culture",
+        "description": "在村落远望哈巴雪山、了解山地生活，可作为徒步前后的落脚点；村落游览不包括登顶活动。",
+        "article": "Haba Snow Mountain",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Haba_Snow_Mountain"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "山地村落",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "tyj.yn.gov.cn",
+            "url": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      },
+      {
+        "id": "shangri-la-niru-village",
+        "name": "尼汝村",
+        "nameEn": "Niru village",
+        "lat": 27.941,
+        "lng": 100.095,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用位置；实际入口以场馆或预约指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "高原村落",
+        "activityType": "culture",
+        "description": "在开放村道观察木屋、河谷与藏族乡村生活，尊重住户和牧场边界；路远，建议结合住宿而不是当作市区短途。",
+        "article": "Shangri-La, Yunnan",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "高原村落",
+          "远郊需安排接驳"
+        ],
+        "bestTime": "先核对开放日、天气及预约要求；推荐用时不含前往该处的交通。",
+        "sourceUrl": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "nync.yn.gov.cn",
+            "url": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+            "kind": "primary-source",
+            "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0,
+          "high": 0,
+          "currency": "CNY",
+          "type": "estimate",
+          "sourceUrl": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+          "checkedAt": null,
+          "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。"
+        },
+        "accessNote": "远郊项目，不能与市中心按步行衔接；单独核对往返车程与运营情况。"
+      }
+    ],
+    "guide": {
+      "cityId": "shangri-la",
+      "intro": "高原湖泊、藏式村落与手艺人的炉火共同组成香格里拉；先慢慢适应海拔，再选择寺院、非遗与山野的一天。",
+      "foodHighlights": [
+        {
+          "name": "酥油茶",
+          "description": "茶汤与酥油搅打成咸香饮品，适合小杯品尝；不应把饮用酥油茶视为治疗或预防高原反应。"
+        },
+        {
+          "name": "糌粑",
+          "description": "炒熟青稞磨成的粉常与酥油茶和乳品混合食用，能观察主食从原料到餐桌的不同吃法。"
+        },
+        {
+          "name": "藏式乳渣与奶酪",
+          "description": "以乳制品加工而成，鲜软、干制和入菜的口感不同；点餐时问清甜咸做法和一份的分量。"
+        },
+        {
+          "name": "时令松茸",
+          "description": "雨季高原山林的代表性菌类，可以在正规餐馆选择熟制菜品；单品价格随品级、重量和季节变化明显。"
+        },
+        {
+          "name": "藏式包子",
+          "description": "藏餐馆常见的蒸制面食，馅料与蘸料按店家做法不同；可以搭配酥油茶，点餐时问清是否为牛羊肉馅。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "独克宗 / 松赞林片区",
+          "description": "古城适合步行慢看，寺院方向另留接驳；远郊自然路线独立成日。"
+        }
+      ],
+      "experienceIntro": "将具体体验加入行程，季节性活动先核对日期；城外路线应单独留出交通时间。"
+    },
+    "isoRegion": "CN-YN",
+    "officialTourismUrl": "https://www.xianggelila.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      },
+      {
+        "name": "mzzj.yn.gov.cn",
+        "url": "https://mzzj.yn.gov.cn/html/2022/difangdongtai_0519/42816.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  }
+]

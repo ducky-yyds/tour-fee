@@ -14,6 +14,7 @@ const make = (id, cities, modes, currency, sourceName, sourceUrl, fastSpeed, rai
 export const RAIL_NETWORKS = [
   make('cn-mainland', china, ['high-speed-rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 215, 75, [0.38,0.6,1.65], [0.12,0.24,0.42], { minimumFare: 15 }),
   make('cn-conventional', chinaConventional, ['rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 215, 75, [0.38,0.6,1.65], [0.12,0.24,0.42], { minimumFare: 15, note: '按普速铁路网络预留，可能需要换乘；硬座、卧铺与日期车次的实际差价以 12306 为准。' }),
+  make('cn-shangri-la', [...chinaConventional, 'shangri-la'], ['rail'], 'CNY', '中国铁路 12306 / 丽香铁路', 'https://www.12306.cn/index/', 140, 100, [0.38,0.6,1.0], [0.28,0.55,1.0], { minimumFare: 15, railLabel: '铁路 / 动车', routeFactor: 1.5, reviewedAt: '2026-09-28', evidenceUrl: 'https://source.nra.gov.cn/xwzx/xwxx/xwlb/202311/t20231127_343786.shtml', note: '香格里拉通过丽香铁路连接丽江、大理及全国路网，部分行程需换乘。丽香段设计时速140公里，不套用高速铁路平均速度。' }),
   make('cn-dunhuang', [...chinaConventional,'dunhuang'], ['rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 150, 70, [0.38,0.6,1.65], [0.12,0.24,0.42], { minimumFare: 15, routeFactor: 1.4, note: '敦煌方向按普速铁路及可能换乘估算，不把柳园南站当作敦煌市中心的高铁站。' }),
   make('cn-hk', [...china,'hong-kong'], ['high-speed-rail'], 'CNY', '中国铁路 12306 / 香港西九龙', 'https://www.12306.cn/index/', 210, 75, [0.42,0.65,1.7], [0.12,0.24,0.42], { stationMinutes: 120, minimumFare: 30, note: '涉及香港西九龙口岸，额外预留通关时间；证件、车站与具体班次在订票前核对。' }),
   make('hainan', ['haikou','sanya','wanning','lingshui'], ['high-speed-rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 145, 75, [0.38,0.6,0.95], [0.12,0.24,0.42], { minimumFare: 15, routeFactor: 1.25, stationMinutes: 75, note: '仅海南岛内动车；跨海往返大陆不按纯铁路处理。' }),
@@ -22,6 +23,7 @@ export const RAIL_NETWORKS = [
   make('kr-main', ['seoul','busan'], ['high-speed-rail','rail'], 'KRW', '韩国铁路 KORAIL', 'https://www.letskorail.com/', 185, 85, [110,155,225], [60,85,120], { routeFactor: 1.3, note: 'KTX 与常规铁路分别预留；济州岛不接入该铁路组。' }),
   make('tw-main', ['taipei','kaohsiung'], ['high-speed-rail','rail'], 'TWD', '台湾高铁 / 台铁', 'https://en.thsrc.com.tw/', 200, 95, [3.2,4.2,6], [1.6,2.2,3], { sourceUrls: { rail: 'https://www.railway.gov.tw/tra-tip-web/tip?lang=EN_US' }, routeFactor: 1.25 }),
   make('fr-main', ['paris','lyon','marseille','nice'], ['high-speed-rail','rail'], 'EUR', 'SNCF Connect', 'https://www.sncf-connect.com/en-en/train', 195, 95, [0.05,0.13,0.28], [0.05,0.1,0.2], { note: 'TGV 可包含普速线路区段；普通铁路通常需要换乘。票价随日期、席别和预订时间变化。' }),
+  make('de-main', ['berlin','munich','hamburg','cologne','frankfurt'], ['high-speed-rail','rail'], 'EUR', '德国铁路 Deutsche Bahn', 'https://int.bahn.de/en/booking-information/travel-with-deutsche-bahn', 185, 95, [0.045,0.14,0.3], [0.05,0.12,0.24], { fastLabel: 'ICE 高速列车', railLabel: '城际 / 区域铁路', minimumFare: 12, reviewedAt: '2026-09-28', note: '按德国ICE及城际铁路网络估算，可能换乘；区域铁路与ICE票种不同，请核对所购车票的适用范围、席别、换乘和日期价格。' }),
   make('es-main', ['madrid','barcelona','seville','granada'], ['high-speed-rail'], 'EUR', '西班牙铁路 Renfe', 'https://www.renfe.com/es/en', 210, 95, [0.04,0.11,0.24], [0.04,0.09,0.18], { routeFactor: 1.4, note: '按已连接的西班牙高速铁路网估算，城市对之间可能经马德里等枢纽换乘。' }),
   make('pt-main', ['lisbon','porto'], ['rail'], 'EUR', '葡萄牙铁路 CP', 'https://www.cp.pt/en/pesquisa-comboio', 160, 110, [0.05,0.1,0.2], [0.04,0.1,0.16], { note: '按 Alfa Pendular / Intercidades 城际列车预算；不把葡萄牙岛屿接入大陆铁路。' }),
   make('it-main', ['rome','florence','venice'], ['high-speed-rail','rail'], 'EUR', '意大利铁路 Trenitalia', 'https://www.trenitalia.com/en.html', 180, 90, [0.05,0.14,0.3], [0.04,0.09,0.17]),
@@ -52,6 +54,8 @@ const ANCHORS = {
   'hong-kong|shenzhen': { km: 40, fast: 25 },
   'chengdu|chongqing': { km: 308, fast: 105, rail: 270 },
   'dali|lijiang': { km: 159, fast: 100, rail: 165 },
+  'lijiang|shangri-la': { km: 139, rail: 105 },
+  'dali|shangri-la': { km: 300, rail: 255 },
   'changsha|zhangjiajie': { km: 350, fast: 150, rail: 330 },
   'haikou|sanya': { km: 308, fast: 140 },
   'kyoto|tokyo': { km: 514, fast: 145, rail: 510 },
@@ -96,12 +100,12 @@ export function railPlanningModel(from, to, distanceKm, mode) {
   const routeKm = network.anchor?.km || Math.max(1, distanceKm) * network.routeFactor;
   const rideMinutes = network.anchor?.[fast ? 'fast' : 'rail'] || routeKm / (fast ? network.fastSpeed : network.railSpeed) * 60 + (routeKm > 650 ? 45 : 15);
   const values = (fast ? network.fastRates : network.railRates).map(rate => Math.round(Math.max(network.minimumFare, routeKm * rate)));
-  const modeLabel = fast ? network.fastLabel || (from.countryCode === 'JP' && to.countryCode === 'JP' ? '新干线' : '高铁 / 动车') : from.countryCode === 'CN' && to.countryCode === 'CN' ? '普速铁路' : '城际铁路';
+  const modeLabel = fast ? network.fastLabel || (from.countryCode === 'JP' && to.countryCode === 'JP' ? '新干线' : '高铁 / 动车') : network.railLabel || (from.countryCode === 'CN' && to.countryCode === 'CN' ? '普速铁路' : '城际铁路');
   return {
     modeLabel, networkId: network.id, routeKm: Math.round(routeKm), rideMinutes: Math.ceil(rideMinutes / 15) * 15,
     stationMinutes: network.stationMinutes, estimatedMinutes: Math.ceil((rideMinutes + network.stationMinutes) / 15) * 15,
     values, nativeCurrency: network.currency, sourceUrl: network.sourceUrl, sourceName: `${network.sourceName} · 编辑预算`,
-    checkedAt: RAIL_REVIEWED_AT,
+    checkedAt: network.reviewedAt || RAIL_REVIEWED_AT,
     note: `${network.note || ''} 路程、换乘和票价为编辑估算；${network.anchor ? '部分路段采用取整行程参考' : '按路网绕行系数及平均速度预留'}，不是实时车次、余票或已确认直达列车。经济 / 舒适 / 高端是预算区间，不保证每趟列车提供对应席别；两端车站接驳另计。`,
   };
 }

@@ -19,7 +19,7 @@ const ENTRY_ORDER = {
 const COUNTRY_LABELS = { HK: '中国香港', TW: '中国台湾' };
 const MODES = { air: '航空交通预留', 'high-speed-rail': '高铁 / 动车预留', rail: '城际铁路预留', road: '公路交通预留', boat: '船运交通预留' };
 const dateAfter = (value, days) => new Date(Date.parse(`${value}T12:00:00Z`) + days * 86400000).toISOString().slice(0, 10);
-const validCity = city => isTravelDestination(city) && city.countryCode && Array.isArray(city.attractions) && city.attractions.length > 0 && Number.isFinite(city.lat) && Number.isFinite(city.lng);
+const validCity = city => isTravelDestination(city) && city.countryCode && (city.attractions?.length > 0 || city.contentCounts?.attractions > 0) && Number.isFinite(city.lat) && Number.isFinite(city.lng);
 const compareCity = (a, b) => {
   const priority = ENTRY_ORDER[a.countryCode] || [];
   const aRank = priority.indexOf(a.id), bRank = priority.indexOf(b.id);
@@ -136,6 +136,16 @@ function chooseRoute(context, cities) {
   return selected;
 }
 
+/** Transport and stay summaries are sufficient to choose cities before downloading their sights. */
+export function countryDetailIds(input) {
+  const allCities = Array.isArray(input?.cities) ? input.cities : [];
+  const context = normalizedContext(input || {}, allCities);
+  if (Array.isArray(input.cityIds)) return input.cityIds.filter(id => context.pool.some(city => city.id === id));
+  const contextIds = new Set([context.originId, ...context.existingStops.map(stop => stop.cityId)]);
+  const cities = allCities.filter(city => validCity(city) || contextIds.has(city.id));
+  return chooseRoute(context, cities).route.map(city => city.id);
+}
+
 /**
  * totalDays belongs to the NEW country segment, including its travel days.
  * planContext keeps previous stops unchanged; stops contains only new stops,
@@ -160,6 +170,7 @@ export function buildCountryDraft(input) {
       if (!Array.isArray(days) || days.length !== route.length || days.some(day => !Number.isInteger(day) || day < 1) || days.reduce((a, b) => a + b, 0) !== context.totalDays) throw new Error('各城天数之和必须等于本次总天数，每城至少一天。');
     } else days = allocateDays(route, context.totalDays, context, cities);
   } else ({ route, days } = chooseRoute(context, cities));
+  if (route.some(city => city.detailStatus === 'summary')) throw new Error('正在加载入选城市的景点与体验，请稍候再生成行程。');
   const review = inspect(route, days, context, cities);
   const base = rawPlan(route, days, context);
   // Only this new segment is generated. Existing manual AND smart stops keep

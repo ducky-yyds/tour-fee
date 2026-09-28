@@ -7,11 +7,13 @@ import { getCatalog, dataStatus, searchAirports } from './catalog.mjs';
 import { mergeAirportCities } from '../shared/airport-catalog.mjs';
 import { calculatePlan, generateItinerary, mergeCustomAttractions } from '../shared/planner.mjs';
 import { startMaintenance } from './maintenance.mjs';
+import { summarizeCatalog, selectCityDetails } from '../shared/catalog-delivery.mjs';
 
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '127.0.0.1';
 const dist = resolve(ROOT, 'dist');
 const publicRoot = resolve(ROOT, 'public');
+const mediaRoot = resolve(process.env.MEDIA_ROOT || resolve(publicRoot, 'images'));
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.png': 'image/png', '.webp': 'image/webp', '.ico': 'image/x-icon', '.woff2': 'font/woff2' };
 function json(response, status, data) {
   const body = Buffer.from(JSON.stringify(data));
@@ -42,7 +44,11 @@ export const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url, `http://${request.headers.host || 'localhost'}`);
     if (url.pathname === '/api/health') return json(response, 200, { ok: true, app: '途算', time: new Date().toISOString() });
-    if (url.pathname === '/api/catalog' && request.method === 'GET') return json(response, 200, getCatalog());
+    if (url.pathname === '/api/catalog' && request.method === 'GET') return json(response, 200, summarizeCatalog(getCatalog()));
+    if (url.pathname === '/api/cities' && request.method === 'GET') {
+      try { return json(response, 200, selectCityDetails(getCatalog(), url.searchParams.get('ids'))); }
+      catch (error) { return json(response, 400, { error: error.message }); }
+    }
     if (url.pathname === '/api/data-status' && request.method === 'GET') return json(response, 200, dataStatus());
     if (url.pathname === '/api/airports' && request.method === 'GET') {
       try { return json(response, 200, searchAirports({ q: url.searchParams.get('q') ?? '', cityId: url.searchParams.get('cityId') ?? '', offset: url.searchParams.get('offset') ?? 0, limit: url.searchParams.get('limit') ?? 40 })); }
@@ -60,8 +66,9 @@ export const server = createServer(async (request, response) => {
     if (!['GET', 'HEAD'].includes(request.method)) return json(response, 405, { error: '不支持此请求方法' });
     const decoded = decodeURIComponent(url.pathname);
     // Image maintenance can publish a new local file + manifest without rebuilding the UI bundle.
-    const assetRoot = decoded.startsWith('/images/') ? publicRoot : dist;
-    let target = resolve(assetRoot, '.' + decoded);
+    const mediaRequest = decoded.startsWith('/images/');
+    const assetRoot = mediaRequest ? mediaRoot : dist;
+    let target = resolve(assetRoot, '.' + (mediaRequest ? decoded.slice('/images'.length) : decoded));
     if (target !== assetRoot && !target.startsWith(assetRoot + sep)) return json(response, 403, { error: '无效路径' });
     if (!existsSync(target) || statSync(target).isDirectory()) {
       // SPA navigation only; a missing asset should never receive HTML.

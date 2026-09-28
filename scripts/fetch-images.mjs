@@ -11,10 +11,20 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import { archiveAssets } from './archive-assets.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const MANIFEST = path.join(ROOT, 'data', 'media.json');
-const IMAGE_DIR = path.join(ROOT, 'public', 'images');
+const IMAGE_DIR = path.resolve(ROOT, process.env.MEDIA_ROOT || 'public/images');
+const localImagePath = url => {
+  if (typeof url !== 'string' || !url.startsWith('/images/')) return null;
+  try {
+    const relative = decodeURIComponent(url.split(/[?#]/, 1)[0].slice('/images/'.length));
+    if (!relative || relative.includes('\\') || relative.includes(':') || relative.split('/').includes('..')) return null;
+    const local = path.resolve(IMAGE_DIR, relative);
+    return local.startsWith(IMAGE_DIR + path.sep) ? local : null;
+  } catch { return null; }
+};
 const USER_AGENT = 'RoamlyTravelPlanner/1.0 (local destination image cache; Wikimedia Commons attribution retained)';
 const MAX_BYTES = 600 * 1024;
 const MAX_AGE = 30 * 24 * 60 * 60 * 1000;
@@ -453,7 +463,7 @@ async function isFresh(job) {
   const previous = manifest[job.group][job.id];
   if (catalogPlaces.get(job.id)?.imagePolicy === 'exact-only' && (!previous?.subjectMatched || previous.scope !== 'exact-place' || canonicalFile(previous.fileTitle) !== canonicalFile(job.file))) return false;
   if (force || !previous?.checkedAt || Date.now() - Date.parse(previous.checkedAt) >= MAX_AGE) return false;
-  try { return (await stat(path.join(ROOT, 'public', previous.url))).size > 1000; } catch { return false; }
+  try { return (await stat(localImagePath(previous.url))).size > 1000; } catch { return false; }
 }
 
 // MediaWiki supports multiple titles in one read-only request. Resolve exact
@@ -508,7 +518,7 @@ const failures = [];
 async function refresh(job) {
   const previous = manifest[job.group][job.id];
   if (!force && previous?.checkedAt && Date.now() - Date.parse(previous.checkedAt) < MAX_AGE) {
-    const localPath = path.join(ROOT, 'public', previous.url);
+    const localPath = localImagePath(previous.url);
     try { if ((await stat(localPath)).size > 1000) { skipped++; return; } } catch { /* missing cache is refetched */ }
   }
   try {
@@ -544,6 +554,7 @@ async function refresh(job) {
     const filename = `${job.group === 'cities' ? 'city' : 'place'}-${job.id}.${result.extension}`;
     const output = path.join(IMAGE_DIR, filename);
     const temp = `${output}.${process.pid}.tmp`;
+    await archiveAssets(['--preserve', `/images/${filename}`]);
     await writeFile(temp, result.buffer);
     await rename(temp, output);
     const extra = info.extmetadata;
@@ -600,7 +611,11 @@ for (const group of ['cities','attractions']) {
     for(const job of batch){
       const before=updated+failures.length;
       await refresh(job);
-      if(before!==updated+failures.length) await saveManifest();
+      if(before!==updated+failures.length) {
+        await saveManifest();
+        const imageUrl = manifest[job.group]?.[job.id]?.url;
+        if (imageUrl?.startsWith('/images/')) await archiveAssets(['--preserve', imageUrl]);
+      }
       if(networkPaused) break;
     }
   }

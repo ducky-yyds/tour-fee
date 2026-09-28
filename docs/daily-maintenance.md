@@ -1,5 +1,7 @@
 # 每日公开数据维护失败与修复
 
+> 本文记录 2026-09-23 的故障与当时修复。2026-09-28 起已改为本机维护完整数据库和原件，再发布预览；GitHub 每日工作流只检查来源可访问性。当前执行方式见 [本地部署与迁移](local-deployment.md) 和 [Pages 预览](github-pages.md)，不再依赖本文描述的云端公共源缓存与自动采集。
+
 ## 失败范围
 
 [Daily public data maintenance #1](https://github.com/ducky-yyds/tour-fee/actions/runs/35838532937) 于 2026-09-23 08:41 UTC 执行，使用提交 `076d6be7064f677978cbc94fc250430b4977e3ff`。复用 `pages.yml` 的 `Run tests` 步骤报告 184 项中 181 项通过、3 项失败；之后的缓存恢复、公开数据刷新、附近地点维护、住宿维护、图片补齐、构建和部署均未执行。

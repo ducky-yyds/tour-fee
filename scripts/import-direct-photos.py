@@ -9,8 +9,10 @@ import hashlib
 import importlib.util
 import json
 import pathlib
+import os
 import re
 import urllib.parse
+from archive_assets import preserve_media_urls
 
 spec = importlib.util.spec_from_file_location('media_tools', pathlib.Path(__file__).with_name('complete-media.py'))
 media_tools = importlib.util.module_from_spec(spec)
@@ -55,8 +57,12 @@ def main():
                 cache.parent.mkdir(parents=True, exist_ok=True)
                 cache.write_bytes(body)
             if not args.preview:
-                target = ROOT/'public/images'/name
-                target.write_bytes(cache.read_bytes())
+                target = media_tools.media_root()/name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                preserve_media_urls(['/images/' + name])
+                temporary = target.with_name(target.name + f'.{os.getpid()}.tmp')
+                temporary.write_bytes(cache.read_bytes())
+                temporary.replace(target)
                 manifest['attractions'][item_id] = {
                     'url': '/images/' + name, 'alt': row.get('title') or known[item_id]['name'],
                     'scope': 'exact-place', 'subjectMatched': True,
@@ -69,6 +75,8 @@ def main():
                     'width': row.get('width'), 'height': row.get('height'), 'bytes': target.stat().st_size,
                     'modifications': 'Flickr display derivative; interface may crop the image to fit. License retained.',
                 }
+                preserve_media_urls(['/images/' + name], records={'/images/' + name:
+                    {**manifest['attractions'][item_id], 'recordFile': 'data/media.json', 'recordKey': 'attractions/' + item_id}})
             result['imported'].append({'id': item_id, 'filename': name})
         except Exception as error:
             result['failed'].append({'id': item_id, 'reason': str(error)})

@@ -1,61 +1,46 @@
-# GitHub Pages 静态发布
+# GitHub Pages 公共预览
 
-静态站点在构建时导出城市、价格来源状态与机场索引；行程、费用和自定义景点继续使用共享规划模块在浏览器计算。打开网页不需要常驻 Node 服务，也不需要机票或酒店 API 密钥。旅行项目与足迹仍保存在当前浏览器，可使用原有导入导出功能。跨浏览器和跨设备不会自动同步这些存档。
+GitHub Pages 由已提交的公共目录与网页派生图构建，是项目的预览入口。本地 JSON 目录、SQLite、图片原件和完整备份是主版本；正式部署不依赖 Pages，见 [本地完整资产与正式部署](local-deployment.md)。
 
-## 发布到 GitHub
+静态预览在浏览器内使用共享逻辑计算行程和预算。旅行项目、足迹和旅居偏好保存在当前浏览器，不上传到 Pages，也不会跨设备自动同步。换域名之前，可在项目页导出完整个人工作区，在新网站导入；原有单项目和足迹导出继续可用。
 
-1. 将项目代码和 `public/` 内的城市照片、地球纹理、地图许可文件提交到仓库。不要提交本机 `.env`、SQLite 数据库、`data/schedule.json`、日志、`dist/` 或 `dist-pages/`；这些已加入忽略规则。
-2. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
-3. 推送到默认的 `main` 或 `master` 分支，或手动运行 **Build and deploy GitHub Pages**。工作流安装 Node 24、运行测试、更新公共来源、导出快照、构建，并且仅上传 `dist-pages/`。如果仓库默认分支名称不同，修改 `pages.yml` 的 push 分支配置。
-4. 部署地址来自 `actions/configure-pages`。项目站点的 `/仓库名/` 与自定义域名的 `/` 会自动作为 Vite base；确需覆写时添加仓库 Actions 变量 `PAGES_BASE_PATH`，例如 `/tour-fee/`。
+## 发布
 
-GitHub Pages 的 Actions 发布需要 `pages: write`、`id-token: write`、`github-pages` environment，以及先构建后上传再部署的依赖关系；工作流据此配置，未请求仓库内容写入权限。[GitHub 自定义 Pages 工作流文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+1. 将代码、经维护的 `data/` 公共 JSON、`public/images/` 派生图和地图资源提交到仓库。`.env`、本机 SQLite、`storage/` 私有归档、日志和构建目录不提交。
+2. 在仓库 Settings → Pages 将发布来源设为 GitHub Actions。
+3. 推送默认 `main` 或 `master` 分支，或手动运行 **Build and deploy preview**。工作流安装依赖、合并已提交扩充包、审计目录和本地图片，再构建 `dist-pages/` 并部署。应用测试仅在手动明确选择 `run_tests` 时运行，默认关闭。
+4. `PAGES_BASE_PATH` 默认来自 Pages 配置，也可使用同名仓库变量覆盖。项目站点使用 `/tour-fee/`，自定义域名通常使用 `/`。
 
-Vite 项目站点应使用 `/仓库名/`，用户站点和自定义域名使用 `/`；`base` 同时决定 JS/CSS 产物路径。图片、地图与纹理的运行时路径由 `assetUrl()` 统一添加相同前缀。[Vite 静态发布文档](https://vite.dev/guide/static-deploy.html#github-pages)
+工作流不抓取新价格或照片，不自动生成 AI 兜底图，也不把 runner 的临时数据当作主版本。新增数据和照片必须先在维护环境保全与核对，再提交给预览构建。旧的 `[skip refresh]`、`[skip tests]` 提交标记不再决定该工作流的采集或测试行为。
 
-## 在本地验证静态版
-
-PowerShell：
+## 本地构建预览
 
 ```powershell
-npm ci
+npm.cmd ci
 $env:PAGES_BASE_PATH = '/tour-fee/'
-npm run build:pages
-npm run preview:pages
+npm.cmd run build:pages
+npm.cmd run preview:pages
 ```
 
-浏览器打开 `http://localhost:4173/tour-fee/`。应验证城市首页、计划生成、机场详情搜索、状态页、城市图片、3D 地球纹理和轻量地图都可加载；开发者工具里不会有发往 `/api/` 的静态站点网络请求。预览时需要与构建保持相同 `PAGES_BASE_PATH`。也可用 `npm run build:pages -- --base=/tour-fee/` 覆写构建路径。Pages 产物独立写入 `dist-pages/`，不会覆盖本机 Node 服务使用的 `dist/`。
+打开 `http://localhost:4173/tour-fee/`。也可使用 `npm.cmd run build:pages -- --base=/tour-fee/`。预览与构建需使用相同路径；静态网页计算行程时不会请求常驻 Node API。`dist-pages/` 与生产 Node 服务的 `dist/` 相互独立。
 
-回到本地 Node 模式时，在 PowerShell 清除 `PAGES_BASE_PATH` 和 `VITE_STATIC_DATA` 环境变量后运行 `npm run dev`，或 `npm run build` 再 `npm start`。原 `/api/*` 服务继续有效。`build:pages` 在子进程里设置静态模式，不会自行改变终端里的环境变量。
+回到服务器模式前，清除终端中显式设置的 `PAGES_BASE_PATH`、`VITE_STATIC_DATA`，再执行 `npm.cmd run build` 和 `npm.cmd start`。`build:pages` 仅在自己的进程中启用静态模式，不修改终端设置。
 
-## 数据文件与隐私边界
+## 数据交付
 
-- `scripts/export-static-data.mjs` 产生被 Git 忽略的 `public/static-data/manifest.json` 和带内容哈希的目录、状态、机场索引文件；Vite 将它们复制到 `dist-pages/` 静态发布目录。普通 `npm run build` 仍输出 `dist/`。
-- 默认导出使用内存 SQLite，不会隐式读取本机 `data/travel.sqlite`。维护工作流显式使用 runner 临时目录的独立数据库，并将其中仅包含公共来源的快照放进 Actions 缓存，供下次失败时保留旧参考值。该数据库从不进入 Git 提交或 Pages artifact。
-- 导出仅包含公共目录、来源状态与简要更新时间；Windows 调度配置、本机路径、原始错误、观察记录 payload、环境变量和浏览器旅行存档不导出。
-- 目录与机场索引附带 gzip 文件。支持 `DecompressionStream` 的浏览器优先下载压缩版本；不支持或压缩加载失败时退回普通 JSON。机场完整索引仅在首次打开机场查询时加载，搜索分页与 Node API 的规则相同：默认 40、最多 100，支持城市 ID、机场代码、城市名和去重音搜索。
-- `src/api.mjs` 的 `apiFetch` 在静态模式返回兼容 fetch 的 Response；`POST /api/plan` 在内存中调用共享规划器，绝不将项目上传到静态托管平台。外部订票/酒店链接依然跳转经营者，未接入实时库存的项目继续明确标注估算或待补价。
+- `scripts/export-static-data.mjs` 在 `public/static-data/` 生成内容哈希文件与 manifest。v2 格式先加载轻量城市摘要，随后按需获取各城市详情；旧版 manifest 仍兼容。国家规划、选择器与环球地图可先使用摘要，不会把未加载详情当作城市没有内容。
+- 加载个人项目时先获取相关城市，再恢复已选景点和活动；网络失败会提示重试，不能因为详情暂缺而裁剪存档。
+- JSON 同时提供 gzip 版本；支持浏览器解压时优先使用，否则回退普通 JSON。机场索引与必要的历史地点资料按需读取，机场存在不代表旅行内容已收录。
+- 导出使用内存 SQLite，并读取已提交的公共来源快照；不隐式读取私有运行数据库。导出不包含原件归档、本机路径、环境变量、完整观察历史或浏览器个人资料。
+- Node 正式部署提供兼容的摘要与详情接口：`GET /api/catalog`、`GET /api/cities?ids=...`，共享同一目录和预算逻辑。
+- 图片通过统一资源路径加载。可配置 `VITE_MEDIA_BASE_URL` 使用公开派生图 CDN；图片原件及私人备份不作为静态站点目录发布。
 
-## 每日维护
+## 维护职责
 
-`maintain-data.yml` 每日 03:23 UTC（北京时间 11:23）调用同一个发布工作流，并运行现有 `npm run update:data`。它更新已接入汇率和官方票价、按原规则每七天更新机场资料，并轮询经营者公开页面；没有机器访问权限或价格解析不确定时保留上次成功值。酒店与城市食宿的编辑预算不会因重新构建变成官方实价。
+本地运行 `npm.cmd run maintain:local -- --publish`，负责完整维护、原件与数据库备份，并在审计和构建通过后提交公共数据、推送预览。本机关闭时维护暂停，恢复后继续；正式服务器可以调度相同命令。维护状态见 `storage/maintenance-state.json`，完整流程和 Windows 调度方式见 [本地部署说明](local-deployment.md)。
 
-部分来源失败会产生 Actions warning，仍发布可验证旧快照，页面保留真实核验日期与失败状态。缓存被清理时退回版本库中的有日期参考值。工作流不把更新结果写回 Git，不需要保存个人访问令牌；下一次发布通过独立公共数据缓存延续维护状态。
+GitHub 的 **Daily source availability report** 每日按工作流设定的 03:23 UTC 调度，仅检查轮换来源样本并保存诊断报告。它不更新主目录、不产生新官方价格、不部署预览，也不能作为本机每天已成功维护的证明。HTTP 成功只说明页面可访问；价格有效性、经营状态与照片匹配仍需要相应核验。
 
-街区地点库也纳入同一维护流程：每日最多 6 次串行请求，使用 30 天原始数据缓存；普通代码发布只重用缓存。处理后与人工目录去重，再导入构建。缓存保存原始地点响应，不覆盖 Git 中新的人工城市资料。来源配额、费用未知的表示和采集半径见 [地点库维护](place-library-sources.md)。
+Pages 上传产物仅保留短期构建文件，不能承担长期备份职责。预览构建报告完整网站体积，超过脚本设置的 1,000,000,000 字节阈值时中止；缩小派生图之前必须先保存原始字节。正式网站与本地原件库不使用此预览体积阈值。
 
-具名住宿另有每日最多 6 次串行请求和 30 天原始响应缓存；更新失败保留已有住宿，重放应用人工排除名单。每次构建离线执行 `complete-media.py --phase=fallback`，新条目没有已收录实拍时采用带范围说明的主题插画。对应照片和周边实景的批量补充由图片维护命令单独执行，避免在每次部署中大批请求媒体 API。
-
-明确要求跳过额外测试的发布可以在提交信息中使用 `[skip tests]`；该标记只跳过对应 push 的测试步骤，构建与部署照常执行。
-
-定时数据维护显式传入 `run_tests: false`，不重复执行应用测试；每次发布仍检查目录字段、每城食宿数量和本地图片引用，然后进行正式构建。手动发布可独立设置 `run_tests`，默认开启。维护失败排查及历史记录见 [每日维护说明](daily-maintenance.md)。
-
-Pages 构建上传文件仅保留 1 天。已发布站点不依赖旧 Actions 上传文件继续保存；清理旧产物时保留当前发布及上一成功发布的可用文件，公共来源缓存保留最近快照，避免下次采集失败时丢失参考值。
-
-仅发布已经维护好的目录或图片时，可用 `[skip refresh]` 跳过该次 push 的外部价格重新采集；仍导入目录、补齐图片并构建发布。它不影响每日定时维护或手动选择的刷新，页面继续保留实际来源日期。
-
-GitHub 定时任务只在默认分支执行，可能因平台负载延迟；公共仓库 60 天没有活动时可能被暂停。可在 Actions 页重新启用或手动运行维护工作流，不能把 cron 配置视为每天一定成功的保证。[GitHub schedule 事件文档](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
-
-发布元数据的 `base_path` 取自 GitHub 官方 action 输出；自定义域名可能为空，此时规范化为 `/`。[configure-pages 输出定义](https://github.com/actions/configure-pages/blob/main/action.yml)
-
-构建结束会报告完整站点体积，并在超过 1,000,000,000 字节时中止发布，避免目录扩容后上传过大的产物。GitHub Pages 的已发布网站上限为 1 GB；大型旧卡片可通过 `scripts/compact-catalog-photos.py` 改用同一照片的较小官方缩略图，保留城市封面和全部内容。[GitHub Pages 用量限制](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
+城市数量不固定写入部署文档：内容质量和缺图见 [目录覆盖报告](../data/catalog-coverage.json)，已发现、待补齐与达到编辑目标的目的地见 [全球覆盖报告](../data/destination-coverage.json)。报告中有缺口的条目不会因为发布成功而自动变成完整内容。

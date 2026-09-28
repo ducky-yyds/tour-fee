@@ -1,0 +1,502 @@
+[
+  {
+    "id": "food-munich-weisswurst",
+    "cityIds": [
+      "munich"
+    ],
+    "name": "巴伐利亚白香肠",
+    "localName": "Weißwurst",
+    "description": "热水温煮的白香肠常搭配甜芥末和碱水面包；一般去掉肠衣食用，可按一份早餐或早午餐预算。",
+    "article": "Weisswurst",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Weisswurst"
+    },
+    "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7,
+      "high": 16,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "munich": [
+        {
+          "name": "Viktualienmarkt / 老城巴伐利亚餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20Viktualienmarkt%20/%20%E8%80%81%E5%9F%8E%E5%B7%B4%E4%BC%90%E5%88%A9%E4%BA%9A%E9%A4%90%E9%A6%86%20Wei%C3%9Fwurst",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-munich-brezn",
+    "cityIds": [
+      "munich"
+    ],
+    "name": "巴伐利亚碱水面包",
+    "localName": "Brezn",
+    "description": "结状面包带深褐色外皮与盐粒，适合当小食，也常与奶酪酱一起作为简餐。",
+    "article": "Pretzel",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pretzel"
+    },
+    "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2,
+      "high": 5,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "munich": [
+        {
+          "name": "老城面包店 / 啤酒花园",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20%E8%80%81%E5%9F%8E%E9%9D%A2%E5%8C%85%E5%BA%97%20/%20%E5%95%A4%E9%85%92%E8%8A%B1%E5%9B%AD%20Brezn",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-munich-obatzda",
+    "cityIds": [
+      "munich"
+    ],
+    "name": "巴伐利亚奶酪酱",
+    "localName": "Obazda / Obatzter",
+    "description": "软奶酪、黄油和调味料拌成的抹酱，常搭配洋葱与面包分享；乳制品过敏者应先询问配方。",
+    "article": "Obatzda",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Obatzda"
+    },
+    "sourceUrl": "https://www.munich.travel/en/content/download/261600/file/Gaestefuehrg_Brosch-UK.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/content/download/261600/file/Gaestefuehrg_Brosch-UK.pdf",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7,
+      "high": 15,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.munich.travel/en/content/download/261600/file/Gaestefuehrg_Brosch-UK.pdf",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "munich": [
+        {
+          "name": "Viktualienmarkt / 啤酒花园",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20Viktualienmarkt%20/%20%E5%95%A4%E9%85%92%E8%8A%B1%E5%9B%AD%20Obazda%20/%20Obatzter",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-munich-schweinshaxe",
+    "cityIds": [
+      "munich"
+    ],
+    "name": "巴伐利亚烤猪肘",
+    "localName": "Schweinshaxe",
+    "description": "酥皮猪肘通常配马铃薯团子或卷心菜，份量较大，可询问是否适合分享。",
+    "article": "Schweinshaxe",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Schweinshaxe"
+    },
+    "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20,
+      "high": 38,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.munich.travel/en/topics/eat-drink/bavarian-food",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "munich": [
+        {
+          "name": "老城传统 Wirtshaus",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20%E8%80%81%E5%9F%8E%E4%BC%A0%E7%BB%9F%20Wirtshaus%20Schweinshaxe",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-munich-auszogne",
+    "cityIds": [
+      "munich"
+    ],
+    "name": "巴伐利亚炸面饼",
+    "localName": "Auszogne / Schmalznudel",
+    "description": "边缘鼓起、中间薄脆的酵母炸面饼，现炸搭配咖啡更适合下午茶；并非有馅的柏林甜甜圈。",
+    "article": "Knieküchle",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kniek%C3%BCchle"
+    },
+    "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/local-love-munich/altstadt-s-fast-eats",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/topics/urban-districts/local-love-munich/altstadt-s-fast-eats",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3,
+      "high": 7,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.munich.travel/en/topics/urban-districts/local-love-munich/altstadt-s-fast-eats",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "munich": [
+        {
+          "name": "Café Frischhut / Viktualienmarkt",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Munich%20Caf%C3%A9%20Frischhut%20/%20Viktualienmarkt%20Auszogne%20/%20Schmalznudel",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shangri-la-butter-tea",
+    "cityIds": [
+      "shangri-la"
+    ],
+    "name": "酥油茶",
+    "localName": "酥油茶 · Po cha",
+    "description": "茶汤与酥油搅打成咸香饮品，适合小杯品尝；不应把饮用酥油茶视为治疗或预防高原反应。",
+    "article": "Butter tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Butter_tea"
+    },
+    "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10,
+      "high": 35,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "shangri-la": [
+        {
+          "name": "独克宗藏餐馆 / 酒店藏式早餐",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20%E7%8B%AC%E5%85%8B%E5%AE%97%E8%97%8F%E9%A4%90%E9%A6%86%20/%20%E9%85%92%E5%BA%97%E8%97%8F%E5%BC%8F%E6%97%A9%E9%A4%90%20%E9%85%A5%E6%B2%B9%E8%8C%B6%20%C2%B7%20Po%20cha",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shangri-la-tsampa",
+    "cityIds": [
+      "shangri-la"
+    ],
+    "name": "糌粑",
+    "localName": "糌粑 · Tsampa",
+    "description": "炒熟青稞磨成的粉常与酥油茶和乳品混合食用，能观察主食从原料到餐桌的不同吃法。",
+    "article": "Tsampa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tsampa"
+    },
+    "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12,
+      "high": 35,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "shangri-la": [
+        {
+          "name": "独克宗藏餐馆 / 藏式早餐",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20%E7%8B%AC%E5%85%8B%E5%AE%97%E8%97%8F%E9%A4%90%E9%A6%86%20/%20%E8%97%8F%E5%BC%8F%E6%97%A9%E9%A4%90%20%E7%B3%8C%E7%B2%91%20%C2%B7%20Tsampa",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shangri-la-tibetan-cheese",
+    "cityIds": [
+      "shangri-la"
+    ],
+    "name": "藏式乳渣与奶酪",
+    "localName": "奶渣 · Chura",
+    "description": "以乳制品加工而成，鲜软、干制和入菜的口感不同；点餐时问清甜咸做法和一份的分量。",
+    "article": "Tibetan cheese",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tibetan_cheese"
+    },
+    "sourceUrl": "https://m.ccas.com.cn/site/content/88723.html",
+    "sourceReferences": [
+      {
+        "name": "m.ccas.com.cn",
+        "url": "https://m.ccas.com.cn/site/content/88723.html",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15,
+      "high": 45,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://m.ccas.com.cn/site/content/88723.html",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "shangri-la": [
+        {
+          "name": "独克宗藏餐馆 / 松赞林卡餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20%E7%8B%AC%E5%85%8B%E5%AE%97%E8%97%8F%E9%A4%90%E9%A6%86%20/%20%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%8D%A1%E9%A4%90%E5%8E%85%20%E5%A5%B6%E6%B8%A3%20%C2%B7%20Chura",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shangri-la-matsutake",
+    "cityIds": [
+      "shangri-la"
+    ],
+    "name": "时令松茸",
+    "localName": "松茸 · Matsutake",
+    "description": "雨季高原山林的代表性菌类，可以在正规餐馆选择熟制菜品；单品价格随品级、重量和季节变化明显。",
+    "article": "Matsutake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matsutake"
+    },
+    "sourceUrl": "https://www.songtsam.com/en/hotel/info/1",
+    "sourceReferences": [
+      {
+        "name": "www.songtsam.com",
+        "url": "https://www.songtsam.com/en/hotel/info/1",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60,
+      "high": 220,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.songtsam.com/en/hotel/info/1",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "shangri-la": [
+        {
+          "name": "城区市场周边餐馆 / 松赞林卡餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20%E5%9F%8E%E5%8C%BA%E5%B8%82%E5%9C%BA%E5%91%A8%E8%BE%B9%E9%A4%90%E9%A6%86%20/%20%E6%9D%BE%E8%B5%9E%E6%9E%97%E5%8D%A1%E9%A4%90%E5%8E%85%20%E6%9D%BE%E8%8C%B8%20%C2%B7%20Matsutake",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shangri-la-momo",
+    "cityIds": [
+      "shangri-la"
+    ],
+    "name": "藏式包子",
+    "localName": "藏式包子 · Momo",
+    "description": "藏餐馆常见的蒸制面食，馅料与蘸料按店家做法不同；可以搭配酥油茶，点餐时问清是否为牛羊肉馅。",
+    "article": "Momo (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Momo_%28food%29"
+    },
+    "sourceUrl": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+    "sourceReferences": [
+      {
+        "name": "www.ynxc.gov.cn",
+        "url": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+        "kind": "primary-source",
+        "scope": "当地食物与饮食文化",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 18,
+      "high": 45,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+      "checkedAt": null,
+      "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "shangri-la": [
+        {
+          "name": "红心小吃 / 扎西卡达藏餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Shangri-La%20%E7%BA%A2%E5%BF%83%E5%B0%8F%E5%90%83%20/%20%E6%89%8E%E8%A5%BF%E5%8D%A1%E8%BE%BE%E8%97%8F%E9%A4%90%E5%BA%97%20%E8%97%8F%E5%BC%8F%E5%8C%85%E5%AD%90%20%C2%B7%20Momo",
+          "note": "餐饮检索起点；请到具体商家核对当日菜单、份量与价格。"
+        }
+      ]
+    }
+  }
+]

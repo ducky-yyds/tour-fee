@@ -1,0 +1,3622 @@
+[
+  {
+    "id": "hamburg",
+    "name": "汉堡",
+    "nameEn": "Hamburg",
+    "country": "德国",
+    "countryCode": "DE",
+    "region": "欧洲",
+    "currency": "EUR",
+    "lat": 53.5504,
+    "lng": 9.9922,
+    "iata": "HAM",
+    "article": "Hamburg",
+    "aliases": [
+      "Hamburg",
+      "汉堡"
+    ],
+    "wikidataId": "Q1055",
+    "contentTier": "priority",
+    "tierReason": "德国官方旅游目录收录的知名文化与城市旅行目的地",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg%2C_Landungsbr%C3%BCcken_--_2016_--_3131-7.jpg"
+    },
+    "tagline": "红砖仓库、水道与现场音乐，把港口城市的日常铺开。",
+    "description": "汉堡适合在港区、艺术馆和湖岸之间切换，既能安排半日看展，也能用一段船程和当地早餐感受水边生活。",
+    "tags": [
+      "港口与水道",
+      "艺术与音乐",
+      "北德饮食"
+    ],
+    "daily": {
+      "lodging": [
+        80,
+        155,
+        350
+      ],
+      "food": [
+        24,
+        50,
+        110
+      ],
+      "transport": [
+        9,
+        18,
+        55
+      ],
+      "misc": [
+        7,
+        18,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        850,
+        1450,
+        2700
+      ],
+      "utilities": [
+        150,
+        250,
+        420
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-28",
+      "note": "经济、舒适、高端三档编辑估算，不是市场最低最高价或酒店餐馆实时报价；住宿按每间每晚，餐饮交通杂项按每成人每天，月租水电按每间每月。展会与节庆日期需单独核价。"
+    },
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "核心街区之外还可安排多座博物馆和水上、音乐或餐饮体验；远郊与跨城交通单独留时间。"
+    },
+    "transportNote": "市区以U-Bahn、S-Bahn和公交衔接，部分渡轮属于公共交通；景点游船另购票，诺因加默纪念地等远郊地点单独留往返时间。",
+    "officialTourismUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "attractions": [
+      {
+        "id": "hamburg-speicherstadt",
+        "name": "仓库城水道与红砖仓库",
+        "nameEn": "Speicherstadt",
+        "lat": 53.5437,
+        "lng": 9.989,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "沿红砖仓库和运河看汉堡港的贸易空间，桥上取景与岸边步行可连在一起；馆内展览另购票。",
+        "article": "Speicherstadt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Speicherstadt_abends.jpg"
+        },
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburg-travel.com",
+            "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Speicherstadt_abends.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-miniatur-wunderland",
+        "name": "微缩景观世界",
+        "nameEn": "Miniatur Wunderland",
+        "lat": 53.5439,
+        "lng": 9.9883,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "细看铁路、机场和城市模型中的动态细节；适合放慢速度，热门日期先预约入场时段。",
+        "article": "Miniatur Wunderland",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miniatur_wunderland.jpg"
+        },
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.miniatur-wunderland.com/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.miniatur-wunderland.com",
+            "url": "https://www.miniatur-wunderland.com/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 25.0,
+          "high": 40.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.miniatur-wunderland.com/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Miniatur_wunderland.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-elbphilharmonie",
+        "name": "易北爱乐音乐厅外观与滨水平台",
+        "nameEn": "Elbphilharmonie waterfront",
+        "lat": 53.5413,
+        "lng": 9.9841,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "从滨水空间欣赏红砖基座与玻璃屋顶；本项仅安排建筑外观，Plaza预约和演出另作选择。",
+        "article": "Elbphilharmonie",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie_2025.jpg"
+        },
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.elbphilharmonie.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.elbphilharmonie.de",
+            "url": "https://www.elbphilharmonie.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.elbphilharmonie.de/en/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Elbphilharmonie_2025.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-rathaus",
+        "name": "汉堡市政厅广场",
+        "nameEn": "Hamburg Rathaus",
+        "lat": 53.5504,
+        "lng": 9.9922,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在广场观察市政厅立面与汉萨城市建筑，适合与内阿尔斯特湖连游；内部导览另核门票。",
+        "article": "Hamburg City Hall",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_Rathausmarkt_und_Rathaus.jpg"
+        },
+        "priority": 85,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburg-travel.com",
+            "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Hamburg_Rathausmarkt_und_Rathaus.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-michel",
+        "name": "圣米迦勒教堂与登塔",
+        "nameEn": "St Michael's Church Hamburg",
+        "lat": 53.5483,
+        "lng": 9.9789,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "巴洛克教堂与高处港景构成不同体验；预算为登塔等收费项目预留，礼拜期间遵守参观安排。",
+        "article": "St. Michael's Church, Hamburg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg-Michaeliskirche-Hafen.jpg"
+        },
+        "priority": 84,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.st-michaelis.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.st-michaelis.de",
+            "url": "https://www.st-michaelis.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.st-michaelis.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburg-Michaeliskirche-Hafen.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-elbe-tunnel",
+        "name": "圣保利旧易北河隧道",
+        "nameEn": "St Pauli Elbe Tunnel",
+        "lat": 53.5461,
+        "lng": 9.9666,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "穿过历史河底隧道，在南岸回望港口；步行往返需预留时间，施工时依现场开放通道行走。",
+        "article": "Elbe Tunnel (1911)",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alter_Elbtunnel_Hamburg_menschenleer.jpg"
+        },
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburg-travel.com",
+            "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Alter_Elbtunnel_Hamburg_menschenleer.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-kunsthalle",
+        "name": "汉堡美术馆",
+        "nameEn": "Hamburger Kunsthalle",
+        "lat": 53.5554,
+        "lng": 10.0032,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从古典绘画看到现代与当代艺术，按兴趣挑选馆藏区域；临时撤展及特展安排以馆方通知为准。",
+        "article": "Hamburger Kunsthalle",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_Kunsthalle.jpg"
+        },
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburger-kunsthalle.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburger-kunsthalle.de",
+            "url": "https://www.hamburger-kunsthalle.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 15.0,
+          "high": 28.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburger-kunsthalle.de/en",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburger_Kunsthalle.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-mkg",
+        "name": "汉堡工艺美术博物馆",
+        "nameEn": "Museum für Kunst und Gewerbe",
+        "lat": 53.5511,
+        "lng": 10.0109,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "家具、海报、器物和设计让日常用品变得值得细看；可重点选择一两类收藏，避免走马观花。",
+        "article": "Museum für Kunst und Gewerbe Hamburg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museumfuerkunstundgewerbehamburg-lot.jpg"
+        },
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.mkg-hamburg.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.mkg-hamburg.de",
+            "url": "https://www.mkg-hamburg.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.mkg-hamburg.de/en",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Museumfuerkunstundgewerbehamburg-lot.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-maritime-museum",
+        "name": "国际海事博物馆",
+        "nameEn": "International Maritime Museum",
+        "lat": 53.5437,
+        "lng": 9.9992,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在旧仓库内看船模、航海与海洋相关展览，适合对港口和远洋航行有兴趣的旅人。",
+        "article": "Internationales Maritimes Museum Hamburg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Internationales_Maritimes_Museum_Hamburg.jpg"
+        },
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://imm-hamburg.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "imm-hamburg.de",
+            "url": "https://imm-hamburg.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 15.0,
+          "high": 25.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://imm-hamburg.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburg - Internationales Maritimes Museum Hamburg.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-planten-un-blomen",
+        "name": "植物与花卉公园",
+        "nameEn": "Planten un Blomen",
+        "lat": 53.5635,
+        "lng": 9.982,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "用花园、草地和水景给市区行程留一段轻松时间；园内表演有季节与场次，不保证每天举行。",
+        "article": "Planten un Blomen",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonnt%C3%A4gliche_Wiese_in_Planten_un_Blomen.jpg"
+        },
+        "priority": 79,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburg-travel.com",
+            "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Sonntägliche_Wiese_in_Planten_un_Blomen.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-hagenbeck",
+        "name": "哈根贝克动物园",
+        "nameEn": "Tierpark Hagenbeck",
+        "lat": 53.5948,
+        "lng": 9.9433,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "按园区步道观察不同动物与栖地，留出休息和步行时间；水族馆可能使用不同票种。",
+        "article": "Tierpark Hagenbeck",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hagenbecks_Tierpark_Eingang_barrierefrei_Tourismus_Hamburg_01.jpg"
+        },
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://hagenbeck.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "hagenbeck.de",
+            "url": "https://hagenbeck.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 30.0,
+          "high": 50.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://hagenbeck.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hagenbecks_Tierpark_Eingang_barrierefrei_Tourismus_Hamburg_01.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-planetarium",
+        "name": "汉堡天文馆",
+        "nameEn": "Hamburg Planetarium",
+        "lat": 53.5972,
+        "lng": 10.0083,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在城市公园中的天文馆选择星空或科学节目；先确认语言、适龄范围和场次，再安排抵达时间。",
+        "article": "Hamburg Planetarium",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_Planetarium.jpg"
+        },
+        "priority": 77,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.planetarium-hamburg.de/en/home",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.planetarium-hamburg.de",
+            "url": "https://www.planetarium-hamburg.de/en/home",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.planetarium-hamburg.de/en/home",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburg Planetarium.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-st-nikolai",
+        "name": "圣尼古拉教堂战争纪念馆",
+        "nameEn": "St Nikolai Memorial",
+        "lat": 53.5478,
+        "lng": 9.9906,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "教堂遗址、战争历史展览与塔楼让人理解城市遭受的破坏；参观时给历史资料留出安静阅读时间。",
+        "article": "St. Nicholas Church, Hamburg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg_StNikolai_Panorama.jpg"
+        },
+        "priority": 76,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.mahnmal-st-nikolai.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.mahnmal-st-nikolai.de",
+            "url": "https://www.mahnmal-st-nikolai.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 6.0,
+          "high": 14.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.mahnmal-st-nikolai.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburg_StNikolai_Panorama.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-chilehaus",
+        "name": "智利大厦与办公楼建筑群",
+        "nameEn": "Chilehaus",
+        "lat": 53.5481,
+        "lng": 10.0018,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "沿街欣赏砖砌建筑的尖角与曲线，观察汉堡近代商贸建筑；本项只含外部公共街道。",
+        "article": "Chilehaus",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilehaus_-_Hamburg.jpg"
+        },
+        "priority": 75,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.hamburg-travel.com",
+            "url": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.hamburg-travel.com/see-explore/sightseeing/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Chilehaus_-_Hamburg.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-jenisch-house",
+        "name": "耶尼施庄园博物馆",
+        "nameEn": "Jenisch House",
+        "lat": 53.5508,
+        "lng": 9.8687,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在易北河西侧的庄园了解汉萨家庭居住文化，室内展览可与周围园地结合；往返市中心另留交通。",
+        "article": "Jenisch House",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburg.Jenischhaus.wmt.jpg"
+        },
+        "priority": 74,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.shmh.de/jenisch-haus/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.shmh.de",
+            "url": "https://www.shmh.de/jenisch-haus/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 16.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.shmh.de/jenisch-haus/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Hamburg.Jenischhaus.wmt.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-ballinstadt",
+        "name": "巴林城移民博物馆",
+        "nameEn": "BallinStadt",
+        "lat": 53.5226,
+        "lng": 10.0163,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从个人迁徙故事认识汉堡作为远洋出发港的历史，可与当天港口游览互相补充。",
+        "article": "BallinStadt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-06-07-BallinStadt-Hamburg.jpg"
+        },
+        "priority": 73,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.ballinstadt.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.ballinstadt.de",
+            "url": "https://www.ballinstadt.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 14.0,
+          "high": 24.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.ballinstadt.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "2015-06-07-BallinStadt-Hamburg.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-neuengamme",
+        "name": "诺因加默集中营纪念地",
+        "nameEn": "Neuengamme Memorial",
+        "lat": 53.4303,
+        "lng": 10.2332,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "参观历史遗址和受害者相关展览，了解纳粹迫害与强迫劳动；位于远郊，单独预留往返交通，不与繁密市区行程硬排。",
+        "article": "Neuengamme concentration camp",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gestaltung_des_Haeftlingslagers.jpg"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.kz-gedenkstaette-neuengamme.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.kz-gedenkstaette-neuengamme.de",
+            "url": "https://www.kz-gedenkstaette-neuengamme.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "free",
+          "sourceUrl": "https://www.kz-gedenkstaette-neuengamme.de/en/service/about-the-memorial/",
+          "checkedAt": "2026-09-28",
+          "note": "官网注明纪念地免费参观；交通、导览或其他预约服务另核。"
+        },
+        "photoFile": "Gestaltung des Haeftlingslagers.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-deichtorhallen",
+        "name": "堤坝门当代艺术展馆",
+        "nameEn": "Deichtorhallen",
+        "lat": 53.5465,
+        "lng": 10.0078,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在大型展厅观看当代艺术与摄影项目；不同场馆、改造工程和展期间歇会影响可参观内容。",
+        "article": "Deichtorhallen",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deichtorhallen_%28Hamburg-Altstadt%29.Internationale_Kunst.1.ajb.jpg"
+        },
+        "priority": 71,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "北德饮食",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.deichtorhallen.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.deichtorhallen.de",
+            "url": "https://www.deichtorhallen.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12.0,
+          "high": 25.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.deichtorhallen.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Deichtorhallen (Hamburg-Altstadt).Internationale Kunst.1.ajb.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-krameramtsstuben",
+        "name": "克拉默寡妇院历史住宅",
+        "nameEn": "Krameramtsstuben",
+        "lat": 53.5482,
+        "lng": 9.9792,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "小尺度院落与历史居室呈现旧汉堡生活，适合与附近教堂连游；预算为开放住宅展室预留。",
+        "article": "Krameramtsstuben",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krameramtsstuben.JPG"
+        },
+        "priority": 70,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "港口与水道",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.shmh.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.shmh.de",
+            "url": "https://www.shmh.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 5.0,
+          "high": 12.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.shmh.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Krameramtsstuben.JPG",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "hamburg-rickmer-rickmers",
+        "name": "里克默·里克默斯帆船博物馆",
+        "nameEn": "Rickmer Rickmers",
+        "lat": 53.5456,
+        "lng": 9.9728,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "登上港边历史帆船，认识船员工作与船舱生活；上下舷梯需注意台阶，开放范围以现场为准。",
+        "article": "Rickmer Rickmers",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rickmer_Rickmers_nach_Restaurierung_09-2016_%282%29.jpg"
+        },
+        "priority": 69,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "艺术与音乐",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.rickmer-rickmers.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.rickmer-rickmers.de",
+            "url": "https://www.rickmer-rickmers.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 7.0,
+          "high": 16.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.rickmer-rickmers.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Rickmer_Rickmers_nach_Restaurierung_09-2016_(2).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      }
+    ],
+    "guide": {
+      "cityId": "hamburg",
+      "intro": "汉堡适合在港区、艺术馆和湖岸之间切换，既能安排半日看展，也能用一段船程和当地早餐感受水边生活。",
+      "foodHighlights": [
+        {
+          "name": "汉堡肉桂甜酥卷",
+          "description": "层叠酥皮卷入肉桂与糖，适合作为早餐或咖啡时间的小点。"
+        },
+        {
+          "name": "鱼肉面包",
+          "description": "硬皮面包夹鱼和配菜，腌鲱鱼、炸鱼等版本味道不同，点单前看清鱼种与做法。"
+        },
+        {
+          "name": "水手牛肉土豆泥",
+          "description": "牛肉、土豆与甜菜根形成浓厚口感，常搭煎蛋和腌菜；配鱼的版本先确认。"
+        },
+        {
+          "name": "红莓甜羹",
+          "description": "多种红色浆果煮成的甜羹常配香草酱或奶油，适合餐后少量品尝。"
+        },
+        {
+          "name": "咖喱香肠小食",
+          "description": "切段香肠配咖喱番茄酱，可搭薯条作为快餐；这道街头食物在汉堡常见，并非当地独有。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Altstadt / HafenCity / St. Pauli",
+          "description": "市区以U-Bahn、S-Bahn和公交衔接，部分渡轮属于公共交通；景点游船另购票，诺因加默纪念地等远郊地点单独留往返时间。"
+        }
+      ],
+      "experienceIntro": "把观展、用餐、水上活动与现场演出组合起来；季节节庆先核对日期，避免用散步填满每一天。"
+    },
+    "photoFile": "Hamburg,_Landungsbrücken_--_2016_--_3131-7.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "cologne",
+    "name": "科隆",
+    "nameEn": "Cologne",
+    "country": "德国",
+    "countryCode": "DE",
+    "region": "欧洲",
+    "currency": "EUR",
+    "lat": 50.9384,
+    "lng": 6.9603,
+    "iata": "CGN",
+    "article": "Cologne",
+    "aliases": [
+      "Köln",
+      "Koeln",
+      "Cologne",
+      "科隆"
+    ],
+    "wikidataId": "Q365",
+    "contentTier": "priority",
+    "tierReason": "德国官方旅游目录收录的知名文化与城市旅行目的地",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kranh%C3%A4user_Cologne%2C_April_2018_-01.jpg"
+    },
+    "tagline": "在莱茵河两岸，把大教堂、博物馆和热闹的餐桌连起来。",
+    "description": "科隆既有大教堂与罗曼式教堂，也有现代艺术、设计和城市历史展馆；河岸、啤酒馆与节庆让文化体验不止于建筑外观。",
+    "tags": [
+      "莱茵河",
+      "博物馆",
+      "狂欢节文化"
+    ],
+    "daily": {
+      "lodging": [
+        70,
+        135,
+        310
+      ],
+      "food": [
+        24,
+        50,
+        110
+      ],
+      "transport": [
+        9,
+        18,
+        55
+      ],
+      "misc": [
+        7,
+        18,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        750,
+        1250,
+        2200
+      ],
+      "utilities": [
+        150,
+        250,
+        420
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-28",
+      "note": "经济、舒适、高端三档编辑估算，不是市场最低最高价或酒店餐馆实时报价；住宿按每间每晚，餐饮交通杂项按每成人每天，月租水电按每间每月。展会与节庆日期需单独核价。"
+    },
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "核心街区之外还可安排多座博物馆和水上、音乐或餐饮体验；远郊与跨城交通单独留时间。"
+    },
+    "transportNote": "老城核心适合步行，两岸与较远街区可用轻轨、S-Bahn和公交；机场列车与跨城铁路单独比较，狂欢节期间注意道路封闭。",
+    "officialTourismUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+    "sourceReferences": [
+      {
+        "name": "www.cologne-tourism.com",
+        "url": "https://www.cologne-tourism.com/arts-culture/sights",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "attractions": [
+      {
+        "id": "cologne-cathedral",
+        "name": "科隆大教堂",
+        "nameEn": "Cologne Cathedral",
+        "lat": 50.9413,
+        "lng": 6.9583,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "走进哥特式大教堂，观察高耸拱顶、彩窗与双塔建筑。2026年7月起游客进入内部需购票；登塔与宝物馆另购票，宗教活动时段遵守现场安排。",
+        "article": "Cologne Cathedral",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg"
+        },
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.koelner-dom.de/besuchen/neue-besichtigungsgebuehr-ab-dem-1-juli-2026",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.koelner-dom.de",
+            "url": "https://www.koelner-dom.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          },
+          {
+            "name": "Cologne Cathedral",
+            "url": "https://www.koelner-dom.de/besuchen/neue-besichtigungsgebuehr-ab-dem-1-juli-2026",
+            "kind": "primary-source",
+            "checkedAt": "2026-09-28",
+            "scope": "2026年7月起内部观光收费与标准成人票"
+          }
+        ],
+        "price": {
+          "low": 12,
+          "high": 12,
+          "currency": "EUR",
+          "type": "official",
+          "sourceUrl": "https://www.koelner-dom.de/besuchen/neue-besichtigungsgebuehr-ab-dem-1-juli-2026",
+          "checkedAt": "2026-09-28",
+          "note": "官网标准成人内部参观票12欧元；不含登塔、宝物馆与导览，优惠及免票资格另按官网规定核对。"
+        },
+        "photoFile": "Kölner_Dom_-_Westfassade_2022_ohne_Gerüst-0968_b.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-museum-ludwig",
+        "name": "路德维希博物馆",
+        "nameEn": "Museum Ludwig",
+        "lat": 50.9408,
+        "lng": 6.9601,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "以现代与当代艺术为主，适合喜欢波普艺术和不同媒介的旅人；按展览兴趣给自己留出两小时以上。",
+        "article": "Museum Ludwig",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Ludwig_002.jpg"
+        },
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museen.koeln",
+            "url": "https://www.museen.koeln/entdecken/sammlungen",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 15.0,
+          "high": 25.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Museum_Ludwig_002.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-wallraf",
+        "name": "瓦尔拉夫—里夏茨美术馆",
+        "nameEn": "Wallraf-Richartz Museum",
+        "lat": 50.938,
+        "lng": 6.9583,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在老城内观看欧洲绘画，与现代艺术馆形成不同侧重；特展与常设展票种可能不同。",
+        "article": "Wallraf–Richartz Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wallraf-Richartz-Museum_%26_Foundation_Corboud%2C_Frontansicht%2C_Oktober_2014.jpg"
+        },
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.wallraf.museum/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.wallraf.museum",
+            "url": "https://www.wallraf.museum/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.wallraf.museum/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Wallraf-Richartz-Museum_&_Foundation_Corboud,_Frontansicht,_Oktober_2014.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-chocolate-museum",
+        "name": "科隆巧克力博物馆",
+        "nameEn": "Chocolate Museum Cologne",
+        "lat": 50.9315,
+        "lng": 6.9642,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从可可原料与制作流程认识巧克力，适合亲子或雨天；手作课程需另看场次及收费。",
+        "article": "Schokoladenmuseum Köln",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schoko_Koeln_20061015.jpg"
+        },
+        "priority": 85,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.schokoladenmuseum.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.schokoladenmuseum.de",
+            "url": "https://www.schokoladenmuseum.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 15.0,
+          "high": 24.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.schokoladenmuseum.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Schoko_Koeln_20061015.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-kolumba",
+        "name": "科伦巴艺术博物馆",
+        "nameEn": "Kolumba",
+        "lat": 50.9381,
+        "lng": 6.9537,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "当代建筑包容教堂遗迹与艺术收藏，适合安静观察光线、材料和展品之间的关系。",
+        "article": "Kolumba",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kolumba.jpg"
+        },
+        "priority": 84,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.kolumba.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.kolumba.de",
+            "url": "https://www.kolumba.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.kolumba.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Kolumba.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-ns-documentation",
+        "name": "EL-DE大楼纳粹历史文献中心",
+        "nameEn": "NS Documentation Center Cologne",
+        "lat": 50.9408,
+        "lng": 6.9505,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "通过旧盖世太保拘禁空间与文献认识纳粹时期的城市历史，内容较沉重，宜单独留出阅读时间。",
+        "article": "NS Documentation Centre of the City of Cologne",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cologne-EL-DE-House-UpperFloorMuseum.JPG"
+        },
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museen.koeln",
+            "url": "https://www.museen.koeln/entdecken/sammlungen",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Cologne-EL-DE-House-UpperFloorMuseum.JPG",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-rautenstrauch-joest",
+        "name": "劳滕施特劳赫—约斯特世界文化博物馆",
+        "nameEn": "Rautenstrauch-Joest Museum",
+        "lat": 50.9355,
+        "lng": 6.9515,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从世界各地器物与当代讨论认识文化差异，同时关注收藏来源和殖民历史的解释。",
+        "article": "Rautenstrauch-Joest Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kulturquartier_K%C3%B6ln_-_Rautenstrauch-Joest-Museum_-_Vorderseite_%286904-06%29.jpg"
+        },
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museen.koeln",
+            "url": "https://www.museen.koeln/entdecken/sammlungen",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Kulturquartier_Köln_-_Rautenstrauch-Joest-Museum_-_Vorderseite_(6904-06).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-makk",
+        "name": "科隆应用艺术博物馆",
+        "nameEn": "Museum of Applied Arts Cologne",
+        "lat": 50.9404,
+        "lng": 6.9554,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "家具、工艺与设计展览适合从日常物件理解审美变化；开放展区和特展应先查看馆方公告。",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_f%C3%BCr_Angewandte_Kunst_K%C3%B6ln_-_Minoritenkirche.jpg"
+        },
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museen.koeln",
+            "url": "https://www.museen.koeln/entdecken/sammlungen",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Museum für Angewandte Kunst Köln - Minoritenkirche.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-schnuetgen",
+        "name": "施努特根中世纪艺术博物馆",
+        "nameEn": "Museum Schnütgen",
+        "lat": 50.9357,
+        "lng": 6.952,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在历史教堂空间观看中世纪雕塑与宗教艺术，可与相邻的世界文化博物馆择一或分段参观。",
+        "article": "Schnütgen Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_Schn%C3%BCtgen_-_Innenaufnahmen-6428.jpg"
+        },
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museen.koeln",
+            "url": "https://www.museen.koeln/entdecken/sammlungen",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museen.koeln/entdecken/sammlungen",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Museum_Schnütgen_-_Innenaufnahmen-6428.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-city-museum",
+        "name": "科隆城市博物馆",
+        "nameEn": "Kölnisches Stadtmuseum",
+        "lat": 50.9394,
+        "lng": 6.9526,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "通过城市故事认识科隆人的生活与身份；当前参观按官网公布的 Minoritenstraße 馆址安排，勿按旧军械库地址前往。",
+        "article": "Kölnisches Stadtmuseum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B6lnisches_Stadtmuseum_im_Haus_Sauer-9703.jpg"
+        },
+        "priority": 79,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.koelnisches-stadtmuseum.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.koelnisches-stadtmuseum.de",
+            "url": "https://www.koelnisches-stadtmuseum.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 6.0,
+          "high": 16.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.koelnisches-stadtmuseum.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Kölnisches_Stadtmuseum_im_Haus_Sauer-9703.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-farina",
+        "name": "法里纳香水博物馆",
+        "nameEn": "Farina Fragrance Museum",
+        "lat": 50.9381,
+        "lng": 6.9579,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在古龙水诞生相关的历史场所了解气味与品牌故事；多为分时导览，先确认可选语言和预约。",
+        "article": "Fragrance Museum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farinahaus.jpg"
+        },
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://farina.org/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "farina.org",
+            "url": "https://farina.org/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 8.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://farina.org/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Farinahaus.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-hohenzollern",
+        "name": "霍亨索伦桥步道",
+        "nameEn": "Hohenzollern Bridge",
+        "lat": 50.9413,
+        "lng": 6.965,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "步行跨过莱茵河，从东岸回望大教堂与铁路桥；高峰时避让骑行者，锁与商业拍摄都不是必需消费。",
+        "article": "Hohenzollern Bridge",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hohenzollernbr%C3%BCcke_K%C3%B6ln_von_oben.jpg"
+        },
+        "priority": 77,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Hohenzollernbrücke_Köln_von_oben.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-flora",
+        "name": "科隆植物园与花卉园",
+        "nameEn": "Flora and Botanical Garden",
+        "lat": 50.9607,
+        "lng": 6.9711,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在正式花坛与植物园步道之间放松，适合与北侧动物园分配半天；温室开放按园方公告。",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flora_-_K%C3%B6ln.jpg"
+        },
+        "priority": 76,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Flora - Köln.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-zoo",
+        "name": "科隆动物园",
+        "nameEn": "Cologne Zoological Garden",
+        "lat": 50.9584,
+        "lng": 6.9731,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 90,
+          "recommended": 180,
+          "max": 240
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "安排足够时间在园内步行观察动物，适合家庭慢慢游览；组合票和特殊活动需要另外比较。",
+        "article": "Cologne Zoological Garden",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Zoo_%28Flight_over_Cologne%29.jpg"
+        },
+        "priority": 75,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.koelnerzoo.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.koelnerzoo.de",
+            "url": "https://www.koelnerzoo.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 25.0,
+          "high": 40.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.koelnerzoo.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Kölner_Zoo_(Flight_over_Cologne).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-triangle",
+        "name": "科隆三角大楼观景台",
+        "nameEn": "KölnTriangle",
+        "lat": 50.9404,
+        "lng": 6.9716,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从莱茵河东岸高处看大教堂全貌和城市屋顶，天气会明显影响能见度；临时停运需出发前核对。",
+        "article": "Kölntriangle",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%B6lnTriangle_%280684%29.jpg"
+        },
+        "priority": 74,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.koelntrianglepanorama.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.koelntrianglepanorama.de",
+            "url": "https://www.koelntrianglepanorama.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 5.0,
+          "high": 12.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.koelntrianglepanorama.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "KölnTriangle_(0684).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-great-st-martin",
+        "name": "大圣马丁教堂",
+        "nameEn": "Great St Martin Church",
+        "lat": 50.9384,
+        "lng": 6.962,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "罗曼式塔楼与老城河岸构成科隆另一种天际线；本项以外观和开放的公共教堂区域为主。 本项按建筑外观及周边公共空间规划；如进入内部，请另核开放和收费。",
+        "article": "Great St. Martin Church, Cologne",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Koeln_gross_st_martin.jpg"
+        },
+        "priority": 73,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Koeln_gross_st_martin.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-st-gereon",
+        "name": "圣格里安教堂",
+        "nameEn": "St Gereon's Basilica",
+        "lat": 50.9437,
+        "lng": 6.9477,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在西北老城认识不同于大教堂的罗曼式建筑，按礼拜与开放安排安静参观。 本项按建筑外观及周边公共空间规划；如进入内部，请另核开放和收费。",
+        "article": "St. Gereon's Basilica, Cologne",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Gereon_K%C3%B6ln_-_Ostseite_%282520%29.jpg"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "St._Gereon_Köln_-_Ostseite_(2520).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-roman-tower",
+        "name": "罗马城墙塔楼",
+        "nameEn": "Römerturm",
+        "lat": 50.9407,
+        "lng": 6.9469,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.5,
+        "durationRange": {
+          "min": 15,
+          "recommended": 30,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "沿街寻找保留下来的罗马城防遗迹，从小尺度砖石细节理解科隆更早的历史；本项为室外观看。",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roemerturm_Koeln2007.jpg"
+        },
+        "priority": 71,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "狂欢节文化",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Roemerturm Koeln2007.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-rheinauhafen",
+        "name": "莱茵港与起重机大厦",
+        "nameEn": "Rheinauhafen",
+        "lat": 50.9257,
+        "lng": 6.9633,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "沿河看旧港口转型与悬挑建筑，适合作为博物馆之间的休息段；楼内空间不默认开放。",
+        "article": "Rheinauhafen",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cologne_%28K%C3%B6ln%29_Rhine_River_view_b.jpg"
+        },
+        "priority": 70,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "莱茵河",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Cologne_(Köln)_Rhine_River_view_b.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "cologne-melaten",
+        "name": "梅拉滕历史墓园",
+        "nameEn": "Melaten cemetery",
+        "lat": 50.9375,
+        "lng": 6.9214,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在树荫小路观察雕塑与城市人物纪念，保持安静并避开葬礼活动；导览服务另外预订。",
+        "article": "Melaten cemetery",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-06-19-Sensemann_%28August_Schmiemann%29-9947.jpg"
+        },
+        "priority": 69,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.cologne-tourism.com",
+            "url": "https://www.cologne-tourism.com/arts-culture/sights",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.cologne-tourism.com/arts-culture/sights",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "2022-06-19-Sensemann (August Schmiemann)-9947.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      }
+    ],
+    "guide": {
+      "cityId": "cologne",
+      "intro": "科隆既有大教堂与罗曼式教堂，也有现代艺术、设计和城市历史展馆；河岸、啤酒馆与节庆让文化体验不止于建筑外观。",
+      "foodHighlights": [
+        {
+          "name": "黑麦面包配奶酪",
+          "description": "名称容易误会，实际是黑麦小面包搭奶酪、洋葱与芥末，不是半只鸡。"
+        },
+        {
+          "name": "苹果土豆泥配血肠",
+          "description": "苹果和土豆的柔软口感配煎血肠与洋葱，点单前确认是否接受血制品。"
+        },
+        {
+          "name": "莱茵酸炖肉",
+          "description": "腌制后慢炖的肉带酸甜酱汁，常配主食与蔬菜；具体肉类和配菜由餐馆决定。"
+        },
+        {
+          "name": "科隆血肠",
+          "description": "当地传统血肠可冷食或热食，搭面包和洋葱；与完整的苹果土豆泥主菜份量不同。"
+        },
+        {
+          "name": "莱茵土豆饼",
+          "description": "现煎土豆饼外脆内软，常配苹果酱；作为街头小食时留意每份个数。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Altstadt / Deutz / Belgisches Viertel",
+          "description": "老城核心适合步行，两岸与较远街区可用轻轨、S-Bahn和公交；机场列车与跨城铁路单独比较，狂欢节期间注意道路封闭。"
+        }
+      ],
+      "experienceIntro": "把观展、用餐、水上活动与现场演出组合起来；季节节庆先核对日期，避免用散步填满每一天。"
+    },
+    "photoFile": "Kranhäuser_Cologne,_April_2018_-01.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "frankfurt",
+    "name": "法兰克福",
+    "nameEn": "Frankfurt",
+    "country": "德国",
+    "countryCode": "DE",
+    "region": "欧洲",
+    "currency": "EUR",
+    "lat": 50.1109,
+    "lng": 8.6821,
+    "iata": "FRA",
+    "article": "Frankfurt",
+    "aliases": [
+      "Frankfurt am Main",
+      "法兰克福",
+      "美因河畔法兰克福"
+    ],
+    "wikidataId": "Q1794",
+    "contentTier": "priority",
+    "tierReason": "德国官方旅游目录收录的知名文化与城市旅行目的地",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg"
+    },
+    "tagline": "在天际线下面，发现博物馆岸、香草绿酱与苹果酒馆。",
+    "description": "法兰克福不只是机场和金融区，美因河两岸聚集艺术、历史与设计展馆；老城、市集和萨克森豪森适合穿插在参观之间。",
+    "tags": [
+      "博物馆岸",
+      "河流与天际线",
+      "黑森餐桌"
+    ],
+    "daily": {
+      "lodging": [
+        70,
+        145,
+        340
+      ],
+      "food": [
+        24,
+        50,
+        110
+      ],
+      "transport": [
+        9,
+        18,
+        55
+      ],
+      "misc": [
+        7,
+        18,
+        40
+      ]
+    },
+    "monthly": {
+      "rent": [
+        850,
+        1450,
+        2600
+      ],
+      "utilities": [
+        150,
+        250,
+        420
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-09-28",
+      "note": "经济、舒适、高端三档编辑估算，不是市场最低最高价或酒店餐馆实时报价；住宿按每间每晚，餐饮交通杂项按每成人每天，月租水电按每间每月。展会与节庆日期需单独核价。"
+    },
+    "planningProfile": "balanced",
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "核心街区之外还可安排多座博物馆和水上、音乐或餐饮体验；远郊与跨城交通单独留时间。"
+    },
+    "transportNote": "市区可用步行、U-Bahn、S-Bahn与电车衔接；机场和德国其他城市优先比较铁路，跨河步行与博物馆之间也要预留交通时间。",
+    "officialTourismUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "kind": "primary-source",
+        "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "attractions": [
+      {
+        "id": "frankfurt-roemerberg",
+        "name": "罗马广场与市政厅外观",
+        "nameEn": "Römerberg",
+        "lat": 50.1105,
+        "lng": 8.6821,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在木筋屋立面与市政厅广场认识老城中心，可衔接新老城小巷；此项只含公共广场和建筑外观。",
+        "article": "Römerberg (Frankfurt)",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roemerberg-ffm-033.jpg"
+        },
+        "priority": 88,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Roemerberg-ffm-033.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-cathedral",
+        "name": "法兰克福皇帝大教堂",
+        "nameEn": "Frankfurt Cathedral",
+        "lat": 50.1106,
+        "lng": 8.6852,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "认识这座与帝国选举和加冕历史相连的哥特式建筑；本项不含收费登塔或导览。 本项按建筑外观及周边公共空间规划；如进入内部，请另核开放和收费。",
+        "article": "Frankfurt Cathedral",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt-Dom-04-2016-gje.jpg"
+        },
+        "priority": 87,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Frankfurt-Dom-04-2016-gje.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-paulskirche",
+        "name": "圣保罗教堂与民主历史广场",
+        "nameEn": "St Paul's Church Frankfurt",
+        "lat": 50.1112,
+        "lng": 8.6808,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "从德国首届国民议会的历史线索理解城市的政治记忆；活动封闭时以外观和周边广场为主。 本项按建筑外观及周边公共空间规划；如进入内部，请另核开放和收费。",
+        "article": "St. Paul's Church, Frankfurt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Paulskirche_au%C3%9Fen_2011a.jpg"
+        },
+        "priority": 86,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Frankfurt_Paulskirche_außen_2011a.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-eiserner-steg",
+        "name": "铁桥与美因河天际线",
+        "nameEn": "Eiserner Steg",
+        "lat": 50.1085,
+        "lng": 8.6822,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "跨河连接老城和萨克森豪森，从桥上看高楼与两岸生活；适合作为步行线路的衔接段。",
+        "article": "Eiserner Steg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eiserner-Steg-2012-Ffm-977-8.jpg"
+        },
+        "priority": 85,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Eiserner-Steg-2012-Ffm-977-8.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-goethe-house",
+        "name": "歌德故居",
+        "nameEn": "Goethe House",
+        "lat": 50.1113,
+        "lng": 8.6778,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在复原的生活空间中认识歌德的早年环境，邻近展馆的参观范围和票种可按兴趣选择。",
+        "article": "Goethe House",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg"
+        },
+        "priority": 84,
+        "visitRole": "highlight",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://freies-deutsches-hochstift.de/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "freies-deutsches-hochstift.de",
+            "url": "https://freies-deutsches-hochstift.de/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://freies-deutsches-hochstift.de/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Frankfurt_Am_Main-Goethe-Haus-Ansicht_am_Grossen_Hirschgraben.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-staedel",
+        "name": "施泰德艺术馆",
+        "nameEn": "Städel Museum",
+        "lat": 50.1033,
+        "lng": 8.6738,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "沿欧洲艺术的不同阶段看绘画与当代作品，馆藏较多，建议预留一个完整上午或下午。",
+        "article": "Städel",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:St%C3%A4del_Museum%2C_Frankfurt_am_Main%2C_Au%C3%9Fenansicht_%28cropped%29.jpg"
+        },
+        "priority": 83,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.staedelmuseum.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.staedelmuseum.de",
+            "url": "https://www.staedelmuseum.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 18.0,
+          "high": 30.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.staedelmuseum.de/en",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Städel Museum, Frankfurt am Main, Außenansicht (cropped).jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-liebieghaus",
+        "name": "利比希雕塑博物馆",
+        "nameEn": "Liebieghaus",
+        "lat": 50.1029,
+        "lng": 8.6694,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 50,
+          "recommended": 100,
+          "max": 160
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从古代到不同历史时期的雕塑中观察身体、材料与宗教表达；花园可作为馆后休息空间。",
+        "article": "Liebieghaus",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liebieghaus.jpg"
+        },
+        "priority": 82,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.liebieghaus.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.liebieghaus.de",
+            "url": "https://www.liebieghaus.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.liebieghaus.de/en",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Liebieghaus.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-senckenberg",
+        "name": "森肯贝格自然博物馆",
+        "nameEn": "Senckenberg Natural History Museum",
+        "lat": 50.1178,
+        "lng": 8.6518,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "恐龙骨架、动物标本与地球演化内容适合带着问题观看，亲子游客可选重点展区慢慢逛。",
+        "article": "Naturmuseum Senckenberg",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senckenberganlage_29%2C_Senckenberg_Museum_Frankfurt_am_Main_20200925_0035.jpg"
+        },
+        "priority": 81,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://museumfrankfurt.senckenberg.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "museumfrankfurt.senckenberg.de",
+            "url": "https://museumfrankfurt.senckenberg.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12.0,
+          "high": 24.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://museumfrankfurt.senckenberg.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Senckenberganlage_29,_Senckenberg_Museum_Frankfurt_am_Main_20200925_0035.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-palmengarten",
+        "name": "棕榈园",
+        "nameEn": "Palmengarten",
+        "lat": 50.1233,
+        "lng": 8.658,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 75,
+          "recommended": 150,
+          "max": 210
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在温室和园地之间认识不同气候带植物，室内外比例可按天气安排；温室维护可能调整开放范围。",
+        "article": "Palmengarten",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eingang_Palmengarten_Frankfurt.JPG"
+        },
+        "priority": 80,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.palmengarten.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.palmengarten.de",
+            "url": "https://www.palmengarten.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.palmengarten.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Eingang_Palmengarten_Frankfurt.JPG",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-main-tower",
+        "name": "美因塔观景台",
+        "nameEn": "Main Tower",
+        "lat": 50.1128,
+        "lng": 8.6723,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从高处认识银行区、美因河与远处地形；需要安检，强风等天气可能影响露天平台开放。",
+        "article": "Main Tower",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maintower_Frankfurt.jpg"
+        },
+        "priority": 79,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.maintower.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.maintower.de",
+            "url": "https://www.maintower.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.maintower.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Maintower_Frankfurt.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-alte-oper",
+        "name": "老歌剧院广场",
+        "nameEn": "Alte Oper",
+        "lat": 50.1157,
+        "lng": 8.6726,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 22,
+          "recommended": 45,
+          "max": 105
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "从歌剧院立面和广场喷泉感受城市公共空间；此项为室外游览，演出与内部参观另外预订。",
+        "article": "Alte Oper",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alte_Oper_Frankfurt_2019.jpg"
+        },
+        "priority": 78,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Alte_Oper_Frankfurt_2019.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-historical-museum",
+        "name": "法兰克福历史博物馆",
+        "nameEn": "Historical Museum Frankfurt",
+        "lat": 50.1098,
+        "lng": 8.6821,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "通过城市模型、收藏与居民故事理解法兰克福如何变化，适合在老城步行前后加入。",
+        "article": "Historical Museum, Frankfurt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Am_Main-Saalhof-Ansicht_vom_Eisernen_Steg.jpg"
+        },
+        "priority": 77,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://historisches-museum-frankfurt.de/en",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "historisches-museum-frankfurt.de",
+            "url": "https://historisches-museum-frankfurt.de/en",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 22.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://historisches-museum-frankfurt.de/en",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Frankfurt_Am_Main-Saalhof-Ansicht_vom_Eisernen_Steg.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-mmk",
+        "name": "法兰克福现代艺术博物馆",
+        "nameEn": "Museum für Moderne Kunst",
+        "lat": 50.1121,
+        "lng": 8.6844,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "在现代建筑中观看当代艺术，空间和展览主题会改变参观方式；确认票种对应的馆址。",
+        "article": "Museum für Moderne Kunst",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_MMK.jpg"
+        },
+        "priority": 76,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.mmk.art/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.mmk.art",
+            "url": "https://www.mmk.art/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 12.0,
+          "high": 25.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.mmk.art/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Frankfurt MMK.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-applied-art",
+        "name": "应用艺术博物馆",
+        "nameEn": "Museum Angewandte Kunst",
+        "lat": 50.1056,
+        "lng": 8.6802,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 50,
+          "recommended": 100,
+          "max": 160
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从设计、工艺与生活文化展览理解物品如何进入日常，适合与旁边河岸花园搭配。",
+        "article": "Museum Angewandte Kunst",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luftansicht_Museum_Angewandte_Kunst_und_Villa_Metzler.jpg"
+        },
+        "priority": 75,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.museumangewandtekunst.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.museumangewandtekunst.de",
+            "url": "https://www.museumangewandtekunst.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.museumangewandtekunst.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Luftansicht_Museum_Angewandte_Kunst_und_Villa_Metzler.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-film-museum",
+        "name": "德国电影博物馆",
+        "nameEn": "German Film Museum",
+        "lat": 50.1048,
+        "lng": 8.6774,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 50,
+          "recommended": 100,
+          "max": 160
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从影像技术与电影语言认识银幕背后的制作，放映活动另看日期和语言，不默认包含在参观中。",
+        "article": "Deutsches Filminstitut",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deutsches_Filmmuseum_Frankfurt.jpg"
+        },
+        "priority": 74,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.dff.film/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.dff.film",
+            "url": "https://www.dff.film/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.dff.film/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Deutsches Filmmuseum Frankfurt.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-architecture-museum",
+        "name": "德国建筑博物馆",
+        "nameEn": "German Architecture Museum",
+        "lat": 50.1047,
+        "lng": 8.6773,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 45,
+          "recommended": 90,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "借模型与展览观察建筑如何改变城市；按官网当期馆址与开放展览安排，避免沿用旧临时展址。",
+        "article": "Deutsches Architekturmuseum",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Deutsches_Architektur_Museum.20130603.jpg"
+        },
+        "priority": 73,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://dam-online.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "dam-online.de",
+            "url": "https://dam-online.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://dam-online.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Frankfurt_Deutsches_Architektur_Museum.20130603.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-jewish-museum",
+        "name": "法兰克福犹太博物馆",
+        "nameEn": "Jewish Museum Frankfurt",
+        "lat": 50.1074,
+        "lng": 8.6749,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 60,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化与展览",
+        "activityType": "culture",
+        "description": "从个人、家庭与城市生活认识犹太历史，历史宫邸和新展馆结合，适合留出安静阅读时间。",
+        "article": "Jewish Museum Frankfurt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:J%C3%BCdisches_Museum-Frankfurt-927-9.jpg"
+        },
+        "priority": 72,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.juedischesmuseum.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.juedischesmuseum.de",
+            "url": "https://www.juedischesmuseum.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 10.0,
+          "high": 20.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.juedischesmuseum.de/en/",
+          "checkedAt": null,
+          "note": "成人规划预留，非实时或已核验票价；请按日期、票种及包含服务在官网核对。"
+        },
+        "photoFile": "Jüdisches Museum-Frankfurt-927-9.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-kleinmarkthalle",
+        "name": "小市场大厅",
+        "nameEn": "Kleinmarkthalle",
+        "lat": 50.1133,
+        "lng": 8.6824,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 30,
+          "recommended": 60,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "看看食材摊位与熟食柜台，按喜好买一份小食；参观市场不等于用餐，消费应计入餐饮预算。",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kleinmarkthalle%2C_Frankfurt%2C_Interior_view_20190914_1.jpg"
+        },
+        "priority": 71,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "黑森餐桌",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.visitfrankfurt.travel",
+            "url": "https://www.visitfrankfurt.travel/en/experience/attractions",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Kleinmarkthalle, Frankfurt, Interior view 20190914 1.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-botanical-garden",
+        "name": "法兰克福植物园",
+        "nameEn": "Botanical Garden Frankfurt",
+        "lat": 50.1313,
+        "lng": 8.6608,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在以植物与生态观察为主的园地慢慢看，和收费棕榈园是不同参观区域；季节会改变可见植物。",
+        "article": "Botanical Garden Frankfurt",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main%2C_Botanischer_Garten%2C_bust_of_Senckenberg.jpg"
+        },
+        "priority": 70,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆岸",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.palmengarten.de/en/",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "www.palmengarten.de",
+            "url": "https://www.palmengarten.de/en/",
+            "kind": "primary-source",
+            "scope": "地点与文化背景；费用、停留时间和坐标为规划参考",
+            "checkedAt": "2026-09-28"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.palmengarten.de/en/",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Frankfurt_am_Main,_Botanischer_Garten,_bust_of_Senckenberg.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      },
+      {
+        "id": "frankfurt-hafenpark",
+        "name": "哈芬公园与东部河岸",
+        "nameEn": "Hafenpark",
+        "lat": 50.108,
+        "lng": 8.7081,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "规划用近似位置，实际入口与交通接驳请按官网指引核对。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 37,
+          "recommended": 75,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市风景",
+        "activityType": "culture",
+        "description": "在东部河岸看桥梁、城市运动场地和高楼，适合留一段休息时间；注意骑行道与正在使用的运动区域。",
+        "image": {
+          "url": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hafenpark-2016-Skatepark-Ffm-238.jpg"
+        },
+        "priority": 69,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "河流与天际线",
+          "可调整停留时间"
+        ],
+        "bestTime": "先核对开放日、临时关闭与预约要求；推荐用时不含往返交通。",
+        "sourceUrl": "https://www.visitfrankfurt.travel/poi/hafenpark",
+        "sourceCheckedAt": "2026-09-28",
+        "sourceReferences": [
+          {
+            "name": "Frankfurt Tourism",
+            "url": "https://www.visitfrankfurt.travel/poi/hafenpark",
+            "kind": "primary-source",
+            "checkedAt": "2026-09-28",
+            "scope": "公园位置与运动场地"
+          }
+        ],
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "EUR",
+          "type": "estimate",
+          "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/attractions",
+          "checkedAt": null,
+          "note": "仅描述中公共区域或建筑外观的零门票规划预算，不含收费展览、登塔、导览和个人消费；开放范围请查官网。"
+        },
+        "photoFile": "Hafenpark-2016-Skatepark-Ffm-238.jpg",
+        "photoSourceCheckedAt": "2026-09-28"
+      }
+    ],
+    "guide": {
+      "cityId": "frankfurt",
+      "intro": "法兰克福不只是机场和金融区，美因河两岸聚集艺术、历史与设计展馆；老城、市集和萨克森豪森适合穿插在参观之间。",
+      "foodHighlights": [
+        {
+          "name": "法兰克福七香草绿酱",
+          "description": "多种鲜香草制成的冷酱常配土豆和鸡蛋，是认识黑森风味的一道清爽正餐。"
+        },
+        {
+          "name": "洋葱腌酸乳酪",
+          "description": "酸乳奶酪搭醋油和洋葱，风味鲜明，通常配面包作为小食或前菜。"
+        },
+        {
+          "name": "法兰克福细香肠",
+          "description": "细长熏制香肠常成对上桌，搭芥末或面包；与更粗的牛肉香肠是不同选择。"
+        },
+        {
+          "name": "贝特曼杏仁点心",
+          "description": "以杏仁糖膏制作的小点心，外侧饰有杏仁，适合少量购买配咖啡。"
+        },
+        {
+          "name": "法兰克福皇冠蛋糕",
+          "description": "环形蛋糕夹奶油并裹坚果碎，通常按片享用；乳制品与坚果过敏者先核对配方。"
+        }
+      ],
+      "neighborhoods": [
+        {
+          "name": "Altstadt / Sachsenhausen / Ostend",
+          "description": "市区可用步行、U-Bahn、S-Bahn与电车衔接；机场和德国其他城市优先比较铁路，跨河步行与博物馆之间也要预留交通时间。"
+        }
+      ],
+      "experienceIntro": "把观展、用餐、水上活动与现场演出组合起来；季节节庆先核对日期，避免用散步填满每一天。"
+    },
+    "photoFile": "Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  }
+]

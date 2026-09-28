@@ -1,0 +1,1743 @@
+[
+  {
+    "id": "ex-munich-oktoberfest",
+    "cityId": "munich",
+    "kind": "experience",
+    "name": "十月啤酒节与民俗游艺",
+    "nameEn": "十月啤酒节与民俗游艺",
+    "provider": "详见活动来源及预约入口",
+    "address": "十月啤酒节与民俗游艺",
+    "lat": 48.1314,
+    "lng": 11.5498,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 240,
+    "description": "在特蕾西娅草坪感受帐篷音乐、游艺和巴伐利亚服饰；场地参观与餐饮、游艺分开计费，确认日期与席位后再加入行程。",
+    "tagline": "Wiesn 是城市的季节性民俗聚会",
+    "localContext": "Wiesn 是城市的季节性民俗聚会",
+    "experienceType": "festival",
+    "features": [
+      "Wiesn 是城市的季节性民俗聚会"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.munich.travel/en/pois/markets-festivals/oktoberfest",
+    "bookingUrl": "https://www.munich.travel/en/pois/markets-festivals/oktoberfest",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/pois/markets-festivals/oktoberfest",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Oktoberfest",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oktoberfest"
+    },
+    "seasonality": {
+      "months": [
+        9,
+        10
+      ],
+      "dateSpecific": true,
+      "note": "日期须查当年官方公告；月份不等于每天都有活动。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 35,
+        "high": 100,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.munich.travel/en/pois/markets-festivals/oktoberfest",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-munich-biergarten",
+    "cityId": "munich",
+    "kind": "experience",
+    "name": "栗树下的啤酒花园午后",
+    "nameEn": "栗树下的啤酒花园午后",
+    "provider": "详见活动来源及预约入口",
+    "address": "栗树下的啤酒花园午后",
+    "lat": 48.1441,
+    "lng": 11.5497,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 120,
+    "description": "在 Augustiner-Keller 等啤酒花园找一张长桌，搭配面包、奶酪或热食慢慢坐；饮食可替代原本的一餐，开放受天气影响。",
+    "tagline": "长桌与树荫里的巴伐利亚社交生活",
+    "localContext": "长桌与树荫里的巴伐利亚社交生活",
+    "experienceType": "food-life",
+    "features": [
+      "长桌与树荫里的巴伐利亚社交生活"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.munich.travel/en",
+    "bookingUrl": "https://www.munich.travel/en",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Augustiner-Keller",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Augustiner-Keller"
+    },
+    "seasonality": {
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 15,
+        "high": 40,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.munich.travel/en",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-munich-opera",
+    "cityId": "munich",
+    "kind": "experience",
+    "name": "巴伐利亚国家歌剧院之夜",
+    "nameEn": "巴伐利亚国家歌剧院之夜",
+    "provider": "详见活动来源及预约入口",
+    "address": "巴伐利亚国家歌剧院之夜",
+    "lat": 48.1396,
+    "lng": 11.5798,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 180,
+    "description": "按剧目选择歌剧或芭蕾，入场前留出取票与寄存时间；演出时长、座位视线及票价以具体场次为准。",
+    "tagline": "历史剧院里的现场表演",
+    "localContext": "历史剧院里的现场表演",
+    "experienceType": "performance",
+    "features": [
+      "历史剧院里的现场表演"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.staatsoper.de/en/",
+    "bookingUrl": "https://www.staatsoper.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.staatsoper.de",
+        "url": "https://www.staatsoper.de/en/",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "National Theatre Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/National_Theatre_Munich"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "日期须查当年官方公告；月份不等于每天都有活动。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 15,
+        "high": 180,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.staatsoper.de/en/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-munich-isar-picnic",
+    "cityId": "munich",
+    "kind": "experience",
+    "name": "伊萨尔河岸野餐与慢骑",
+    "nameEn": "伊萨尔河岸野餐与慢骑",
+    "provider": "详见活动来源及预约入口",
+    "address": "伊萨尔河岸野餐与慢骑",
+    "lat": 48.1217,
+    "lng": 11.5674,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 150,
+    "description": "在 Flaucher 合法开放河岸休息或沿骑行道慢骑，带走垃圾；不把游泳当作默认项目，自行车租赁另计。",
+    "tagline": "把城市里的半天交给河流与树荫",
+    "localContext": "把城市里的半天交给河流与树荫",
+    "experienceType": "nature",
+    "features": [
+      "把城市里的半天交给河流与树荫"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.munich.travel/en/pois/sports-leisure/flosslaende",
+    "bookingUrl": "https://www.munich.travel/en/pois/sports-leisure/flosslaende",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.munich.travel",
+        "url": "https://www.munich.travel/en/pois/sports-leisure/flosslaende",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Flaucher",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flaucher"
+    },
+    "seasonality": {
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 25,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.munich.travel/en/pois/sports-leisure/flosslaende",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-munich-christmas",
+    "cityId": "munich",
+    "kind": "experience",
+    "name": "玛利亚广场圣诞集市",
+    "nameEn": "玛利亚广场圣诞集市",
+    "provider": "详见活动来源及预约入口",
+    "address": "玛利亚广场圣诞集市",
+    "lat": 48.1372,
+    "lng": 11.5755,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 100,
+    "description": "在冬季集市挑选手工装饰、热饮和季节小吃；以当年官方日期为准，品尝与购物按实际消费计算。",
+    "tagline": "冬日灯饰与热饮组成的传统集市",
+    "localContext": "冬日灯饰与热饮组成的传统集市",
+    "experienceType": "festival",
+    "features": [
+      "冬日灯饰与热饮组成的传统集市"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.christkindlmarkt-muenchen.de/en/",
+    "bookingUrl": "https://www.christkindlmarkt-muenchen.de/en/",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.christkindlmarkt-muenchen.de",
+        "url": "https://www.christkindlmarkt-muenchen.de/en/",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Munich Christmas Market",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich_Christmas_Market"
+    },
+    "seasonality": {
+      "months": [
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "日期须查当年官方公告；月份不等于每天都有活动。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 30,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.christkindlmarkt-muenchen.de/en/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-nixi-pottery",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "尼西汤堆黑陶工艺体验",
+    "nameEn": "尼西汤堆黑陶工艺体验",
+    "provider": "详见活动来源及预约入口",
+    "address": "尼西汤堆黑陶工艺体验",
+    "lat": 27.999,
+    "lng": 99.564,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 150,
+    "description": "先看陶匠如何塑形与打磨，再向尼西黑陶研习或展示工坊询问可预约的入门体验；烧制、寄送和作品费用需分别确认。",
+    "tagline": "黑陶连接炊具、炉火与藏家日常",
+    "localContext": "黑陶连接炊具、炉火与藏家日常",
+    "experienceType": "craft",
+    "features": [
+      "黑陶连接炊具、炉火与藏家日常"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.xianggelila.gov.cn/zwxx/xzdt/202604/20260407_239741.html",
+    "bookingUrl": "https://www.xianggelila.gov.cn/zwxx/xzdt/202604/20260407_239741.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.xianggelila.gov.cn",
+        "url": "https://www.xianggelila.gov.cn/zwxx/xzdt/202604/20260407_239741.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Pottery",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pottery"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 80,
+        "high": 250,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.xianggelila.gov.cn/zwxx/xzdt/202604/20260407_239741.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-napahai-birds",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "纳帕海冬季远距观鸟",
+    "nameEn": "纳帕海冬季远距观鸟",
+    "provider": "详见活动来源及预约入口",
+    "address": "纳帕海冬季远距观鸟",
+    "lat": 27.87,
+    "lng": 99.639,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 150,
+    "description": "在开放观鸟点用望远镜观察越冬水鸟，选择当地合规向导时另计服务费；保持距离、不投喂、不进入保护核心区，不能保证遇见某种鸟。",
+    "tagline": "湿地是候鸟迁徙与越冬的栖息地",
+    "localContext": "湿地是候鸟迁徙与越冬的栖息地",
+    "experienceType": "wildlife",
+    "features": [
+      "湿地是候鸟迁徙与越冬的栖息地"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/jytabljggk/rdjybljggk/202105/20210528_160514.html",
+    "bookingUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/jytabljggk/rdjybljggk/202105/20210528_160514.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.xianggelila.gov.cn",
+        "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/jytabljggk/rdjybljggk/202105/20210528_160514.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Black-necked crane",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Black-necked_crane"
+    },
+    "seasonality": {
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 200,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/jytabljggk/rdjybljggk/202105/20210528_160514.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ],
+    "wildlife": {
+      "species": [
+        "黑颈鹤",
+        "黑鹳",
+        "斑头雁"
+      ],
+      "encounterNote": "季节与野生动物活动不可保证，使用远距观察。",
+      "responsibleNote": "不投喂、不追逐、不进入保护核心区。"
+    }
+  },
+  {
+    "id": "ex-shangri-la-guozhuang",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "独克宗广场锅庄文化",
+    "nameEn": "独克宗广场锅庄文化",
+    "provider": "详见活动来源及预约入口",
+    "address": "独克宗广场锅庄文化",
+    "lat": 27.81,
+    "lng": 99.7063,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 60,
+    "description": "晚间遇到公共锅庄活动时先观察节奏，经参与者邀请再加入；并非每天有固定演出，尊重领舞与当地人的活动空间。",
+    "tagline": "圆圈舞中的社区生活",
+    "localContext": "圆圈舞中的社区生活",
+    "experienceType": "performance",
+    "features": [
+      "圆圈舞中的社区生活"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://mzzj.yn.gov.cn/html/2022/difangdongtai_0519/42816.html",
+    "bookingUrl": "https://mzzj.yn.gov.cn/html/2022/difangdongtai_0519/42816.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "mzzj.yn.gov.cn",
+        "url": "https://mzzj.yn.gov.cn/html/2022/difangdongtai_0519/42816.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Guozhuang dance",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guozhuang_dance"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "日期须查当年官方公告；月份不等于每天都有活动。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 0,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://mzzj.yn.gov.cn/html/2022/difangdongtai_0519/42816.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-thangka",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "唐卡绘画入门与观摩",
+    "nameEn": "唐卡绘画入门与观摩",
+    "provider": "详见活动来源及预约入口",
+    "address": "唐卡绘画入门与观摩",
+    "lat": 27.8078,
+    "lng": 99.7118,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 120,
+    "description": "通过月光城英迪格酒店提供的唐卡艺术中心咨询入口，了解绘画与色彩，再确认是否有适合初学者的课程；材料与作品规格需预约时询问。",
+    "tagline": "用绘画认识藏族艺术中的图案语言",
+    "localContext": "用绘画认识藏族艺术中的图案语言",
+    "experienceType": "craft",
+    "features": [
+      "用绘画认识藏族艺术中的图案语言"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Thangka",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thangka"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 120,
+        "high": 400,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-tibetan-table",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "藏式早餐与酥油茶饮食课",
+    "nameEn": "藏式早餐与酥油茶饮食课",
+    "provider": "详见活动来源及预约入口",
+    "address": "藏式早餐与酥油茶饮食课",
+    "lat": 27.859,
+    "lng": 99.711,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 90,
+    "description": "选择提供藏式早餐的餐厅，从咸味酥油茶、糌粑和当地乳制品认识高原餐桌；捏糌粑等互动先向店家确认，费用可替代当天早餐。",
+    "tagline": "乳品、青稞与茶组成的日常饮食",
+    "localContext": "乳品、青稞与茶组成的日常饮食",
+    "experienceType": "food-life",
+    "features": [
+      "乳品、青稞与茶组成的日常饮食"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Butter tea",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Butter_tea"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 60,
+        "high": 180,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-horse-festival",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "格咱松茸与传统赛马节",
+    "nameEn": "格咱松茸与传统赛马节",
+    "provider": "详见活动来源及预约入口",
+    "address": "格咱松茸与传统赛马节",
+    "lat": 28.057,
+    "lng": 99.826,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 240,
+    "description": "了解格咱乡传统赛马、非遗展陈和松茸文化活动；2026年活动已有官方记录，未来出行必须重新核对当年日期及具体马场。",
+    "tagline": "山林物产与民间赛事相遇",
+    "localContext": "山林物产与民间赛事相遇",
+    "experienceType": "festival",
+    "features": [
+      "山林物产与民间赛事相遇"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/gzdt/202607/20260721_243561.html",
+    "bookingUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/gzdt/202607/20260721_243561.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.xianggelila.gov.cn",
+        "url": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/gzdt/202607/20260721_243561.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Horse racing",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Horse_racing"
+    },
+    "seasonality": {
+      "months": [
+        7
+      ],
+      "dateSpecific": true,
+      "note": "日期须查当年官方公告；月份不等于每天都有活动。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 150,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.xianggelila.gov.cn/zfxxgk_xglls/fdzdgknr/gzdt/202607/20260721_243561.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-seasonal-market",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "松茸季的高原市场寻味",
+    "nameEn": "松茸季的高原市场寻味",
+    "provider": "详见活动来源及预约入口",
+    "address": "松茸季的高原市场寻味",
+    "lat": 27.8195,
+    "lng": 99.704,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 90,
+    "description": "雨季在城区市场观察松茸等级和当地农产品，再在正规餐馆选择熟食；不要自行采食不认识的野菌，鲜货价格与季节波动很大。",
+    "tagline": "从市场认识山林物产的季节性",
+    "localContext": "从市场认识山林物产的季节性",
+    "experienceType": "food-life",
+    "features": [
+      "从市场认识山林物产的季节性"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": true,
+    "sourceUrl": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+    "bookingUrl": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "www.ynxc.gov.cn",
+        "url": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Matsutake",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matsutake"
+    },
+    "seasonality": {
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 30,
+        "high": 150,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.ynxc.gov.cn/html/2025/whxdfocus_0402/3022216.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-niru-waterfall",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "尼汝七彩瀑布徒步",
+    "nameEn": "尼汝七彩瀑布徒步",
+    "provider": "详见活动来源及预约入口",
+    "address": "尼汝七彩瀑布徒步",
+    "lat": 27.941,
+    "lng": 100.095,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 420,
+    "description": "从尼汝村安排往返七彩瀑布的向导徒步，线路较长，应先确认实际里程、通行条件和体能；另留抵达尼汝与住宿时间。",
+    "tagline": "森林、河谷与苔藓瀑布的整日路线",
+    "localContext": "森林、河谷与苔藓瀑布的整日路线",
+    "experienceType": "nature",
+    "features": [
+      "森林、河谷与苔藓瀑布的整日路线"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+    "bookingUrl": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "nync.yn.gov.cn",
+        "url": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Waterfall",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Waterfall"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 150,
+        "high": 500,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://nync.yn.gov.cn/html/2025/zhoushilianbo-new_1104/1422432.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-haba-foothills",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "哈巴雪山山麓向导徒步",
+    "nameEn": "哈巴雪山山麓向导徒步",
+    "provider": "详见活动来源及预约入口",
+    "address": "哈巴雪山山麓向导徒步",
+    "lat": 27.376,
+    "lng": 100.113,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 300,
+    "description": "以哈巴村为出发点，向合规运营者确认适合自身的山麓线路；预算不包含技术攀登和登顶，需另行核对路况、装备和接驳。",
+    "tagline": "村落之上的高山植被与雪峰视野",
+    "localContext": "村落之上的高山植被与雪峰视野",
+    "experienceType": "nature",
+    "features": [
+      "村落之上的高山植被与雪峰视野"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+    "bookingUrl": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "tyj.yn.gov.cn",
+        "url": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Haba Snow Mountain",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Haba_Snow_Mountain"
+    },
+    "seasonality": {
+      "months": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 180,
+        "high": 550,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://tyj.yn.gov.cn/tyzx/tycy/202310/t20231025_3417340.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ex-shangri-la-xiaozhongdian-flowers",
+    "cityId": "shangri-la",
+    "kind": "experience",
+    "name": "小中甸杜鹃花季田野休息",
+    "nameEn": "小中甸杜鹃花季田野休息",
+    "provider": "详见活动来源及预约入口",
+    "address": "小中甸杜鹃花季田野休息",
+    "lat": 27.618,
+    "lng": 99.807,
+    "coordinateNote": "活动片区近似定位，集合点须向运营方确认。",
+    "durationMinutes": 150,
+    "description": "在允许进入的乡村步道看草甸和花期变化，找一处不打扰牧场的地点休息；不压花、不越围栏，开花时间随气候变化。",
+    "tagline": "把一段高原午后留给季节风景",
+    "localContext": "把一段高原午后留给季节风景",
+    "experienceType": "nature",
+    "features": [
+      "把一段高原午后留给季节风景"
+    ],
+    "requirements": [
+      "需先核对所选日期、场次、余位、集合地点及包含服务。"
+    ],
+    "automaticPlanning": false,
+    "sourceUrl": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+    "bookingUrl": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+    "checkedAt": "2026-09-28",
+    "sourceReferences": [
+      {
+        "name": "mz.yn.gov.cn",
+        "url": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+        "kind": "primary-source",
+        "scope": "地点、文化背景及参与方式；预算与用时为编辑估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "article": "Rhododendron",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rhododendron"
+    },
+    "seasonality": {
+      "months": [
+        5,
+        6
+      ],
+      "dateSpecific": false,
+      "note": "户外活动受天气和当地开放安排影响。"
+    },
+    "availabilityNote": "选择项目不会自动预订；费用为活动本身的规划预留，未包含城外接驳。",
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "活动预算",
+        "low": 0,
+        "high": 60,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://mz.yn.gov.cn/html/2019/difangdongtai_0424/32103.html",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "person",
+        "includes": [
+          "说明中列出的体验范围"
+        ],
+        "excludes": [
+          "城外接驳交通",
+          "额外餐饮和购物"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-munich-wombats",
+    "cityId": "munich",
+    "kind": "hotel",
+    "name": "Wombat’s City Hostel Munich Hauptbahnhof",
+    "nameEn": "Wombat’s City Hostel Munich Hauptbahnhof",
+    "lat": 48.1387,
+    "lng": 11.5606,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "中央车站附近的青年旅舍选择；本项按独立房规划，多人间床位的价格另行核对。",
+    "tagline": "中央车站附近的青年旅舍选择；本项按独立房规划，多人间床位的价格另行核对。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.wombats-hostels.com/munich/hauptbahnhof/contact-directions",
+    "bookingUrl": "https://www.wombats-hostels.com/munich/hauptbahnhof/contact-directions",
+    "sourceReferences": [
+      {
+        "name": "www.wombats-hostels.com",
+        "url": "https://www.wombats-hostels.com/munich/hauptbahnhof/contact-directions",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 90,
+        "high": 220,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.wombats-hostels.com/munich/hauptbahnhof/contact-directions",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-munich-motel-one",
+    "cityId": "munich",
+    "kind": "hotel",
+    "name": "Motel One München-Sendlinger Tor",
+    "nameEn": "Motel One München-Sendlinger Tor",
+    "lat": 48.1329,
+    "lng": 11.5668,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "靠近森德灵门，适合以步行和地铁探索老城；早餐和停车是否包含以房价条款为准。",
+    "tagline": "靠近森德灵门，适合以步行和地铁探索老城；早餐和停车是否包含以房价条款为准。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.motel-one.com/en/hotels/munich/hotel-munich-sendlinger-tor/",
+    "bookingUrl": "https://www.motel-one.com/en/hotels/munich/hotel-munich-sendlinger-tor/",
+    "sourceReferences": [
+      {
+        "name": "www.motel-one.com",
+        "url": "https://www.motel-one.com/en/hotels/munich/hotel-munich-sendlinger-tor/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 100,
+        "high": 230,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.motel-one.com/en/hotels/munich/hotel-munich-sendlinger-tor/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-munich-platzl",
+    "cityId": "munich",
+    "kind": "hotel",
+    "name": "Platzl Hotel",
+    "nameEn": "Platzl Hotel",
+    "lat": 48.1378,
+    "lng": 11.579,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "老城传统风格酒店，靠近歌剧院与谷物市场，适合希望晚间步行回房的旅客。",
+    "tagline": "老城传统风格酒店，靠近歌剧院与谷物市场，适合希望晚间步行回房的旅客。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.platzl.de/en/",
+    "bookingUrl": "https://www.platzl.de/en/",
+    "sourceReferences": [
+      {
+        "name": "www.platzl.de",
+        "url": "https://www.platzl.de/en/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 180,
+        "high": 420,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.platzl.de/en/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-munich-bayerischer-hof",
+    "cityId": "munich",
+    "kind": "hotel",
+    "name": "Hotel Bayerischer Hof",
+    "nameEn": "Hotel Bayerischer Hof",
+    "lat": 48.1404,
+    "lng": 11.5731,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "老城高端酒店，文化场馆与购物街步行可达；套房、餐厅和其他服务分别核价。",
+    "tagline": "老城高端酒店，文化场馆与购物街步行可达；套房、餐厅和其他服务分别核价。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.bayerischerhof.de/en/",
+    "bookingUrl": "https://www.bayerischerhof.de/en/",
+    "sourceReferences": [
+      {
+        "name": "www.bayerischerhof.de",
+        "url": "https://www.bayerischerhof.de/en/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 350,
+        "high": 900,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.bayerischerhof.de/en/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-munich-vier-jahreszeiten",
+    "cityId": "munich",
+    "kind": "hotel",
+    "name": "Hotel Vier Jahreszeiten Kempinski München",
+    "nameEn": "Hotel Vier Jahreszeiten Kempinski München",
+    "lat": 48.1392,
+    "lng": 11.5824,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "位于马克西米利安大街的高端酒店，适合将歌剧、艺术与城市购物组合成行程。",
+    "tagline": "位于马克西米利安大街的高端酒店，适合将歌剧、艺术与城市购物组合成行程。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
+    "bookingUrl": "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
+    "sourceReferences": [
+      {
+        "name": "www.kempinski.com",
+        "url": "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Munich",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Munich"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 350,
+        "high": 1000,
+        "currency": "EUR",
+        "type": "estimate",
+        "sourceUrl": "https://www.kempinski.com/en/hotel-vier-jahreszeiten",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-shangri-la-resort",
+    "cityId": "shangri-la",
+    "kind": "hotel",
+    "name": "香格里拉大酒店 Shangri-La Resort",
+    "nameEn": "香格里拉大酒店 Shangri-La Resort",
+    "lat": 27.824,
+    "lng": 99.705,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "城区酒店，提供藏式设计与多种餐饮服务；供氧设备、早餐和接机按所订房型套餐核对。",
+    "tagline": "城区酒店，提供藏式设计与多种餐饮服务；供氧设备、早餐和接机按所订房型套餐核对。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.shangri-la.com/yunnan/shangrila/",
+    "bookingUrl": "https://www.shangri-la.com/yunnan/shangrila/",
+    "sourceReferences": [
+      {
+        "name": "www.shangri-la.com",
+        "url": "https://www.shangri-la.com/yunnan/shangrila/",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Shangri-La, Yunnan",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 650,
+        "high": 1800,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.shangri-la.com/yunnan/shangrila/",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-shangri-la-indigo",
+    "cityId": "shangri-la",
+    "kind": "hotel",
+    "name": "迪庆月光城英迪格酒店",
+    "nameEn": "迪庆月光城英迪格酒店",
+    "lat": 27.8068,
+    "lng": 99.7112,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "位于独克宗古城高处，以茶马古道与藏族文化为设计线索；坡道接驳和客房视野需核对。",
+    "tagline": "位于独克宗古城高处，以茶马古道与藏族文化为设计线索；坡道接驳和客房视野需核对。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "bookingUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+    "sourceReferences": [
+      {
+        "name": "www.ihg.com",
+        "url": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Shangri-La, Yunnan",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 1000,
+        "high": 2600,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/diqing/digdq/hoteldetail",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-shangri-la-ringha",
+    "cityId": "shangri-la",
+    "kind": "hotel",
+    "name": "仁安悦榕庄",
+    "nameEn": "仁安悦榕庄",
+    "lat": 27.736,
+    "lng": 99.781,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "仁安谷地以藏式农舍转化的别墅度假体验；距离古城较远，适合留在山谷慢住并另算接驳。",
+    "tagline": "仁安谷地以藏式农舍转化的别墅度假体验；距离古城较远，适合留在山谷慢住并另算接驳。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.banyantree.com/china/ringha",
+    "bookingUrl": "https://www.banyantree.com/china/ringha",
+    "sourceReferences": [
+      {
+        "name": "www.banyantree.com",
+        "url": "https://www.banyantree.com/china/ringha",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Shangri-La, Yunnan",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 1300,
+        "high": 3800,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.banyantree.com/china/ringha",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-shangri-la-linka",
+    "cityId": "shangri-la",
+    "kind": "hotel",
+    "name": "松赞香格里拉林卡",
+    "nameEn": "松赞香格里拉林卡",
+    "lat": 27.865,
+    "lng": 99.711,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "松赞林寺附近的藏式石屋度假空间，结合乡村景观与地方餐饮；活动与餐食是否包含以套餐为准。",
+    "tagline": "松赞林寺附近的藏式石屋度假空间，结合乡村景观与地方餐饮；活动与餐食是否包含以套餐为准。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.songtsam.com/en/hotel/info/1",
+    "bookingUrl": "https://www.songtsam.com/en/hotel/info/1",
+    "sourceReferences": [
+      {
+        "name": "www.songtsam.com",
+        "url": "https://www.songtsam.com/en/hotel/info/1",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Shangri-La, Yunnan",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 1500,
+        "high": 4200,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.songtsam.com/en/hotel/info/1",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotel-shangri-la-lvgu",
+    "cityId": "shangri-la",
+    "kind": "hotel",
+    "name": "松赞香格里拉绿谷",
+    "nameEn": "松赞香格里拉绿谷",
+    "lat": 27.861,
+    "lng": 99.704,
+    "coordinateNote": "酒店片区近似位置，以预订页面实际地址为准。",
+    "durationMinutes": 0,
+    "description": "靠近松赞林寺的松赞山居，适合寺院与乡村路线；与松赞林卡是不同酒店，预订时确认名称。",
+    "tagline": "靠近松赞林寺的松赞山居，适合寺院与乡村路线；与松赞林卡是不同酒店，预订时确认名称。",
+    "features": [
+      "官方预订入口",
+      "按日期核价"
+    ],
+    "sourceUrl": "https://www.songtsam.com/en/contact",
+    "bookingUrl": "https://www.songtsam.com/en/contact",
+    "sourceReferences": [
+      {
+        "name": "www.songtsam.com",
+        "url": "https://www.songtsam.com/en/contact",
+        "kind": "primary-source",
+        "scope": "酒店身份、位置与特色；非实时房价",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "checkedAt": "2026-09-28",
+    "article": "Shangri-La, Yunnan",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shangri-La%2C_Yunnan"
+    },
+    "imageScope": "nearby",
+    "imageContextNote": "展示所在目的地环境，非该酒店客房或设施照片。",
+    "priceOptions": [
+      {
+        "id": "room",
+        "name": "每间每晚规划预算",
+        "low": 1000,
+        "high": 2600,
+        "currency": "CNY",
+        "type": "estimate",
+        "sourceUrl": "https://www.songtsam.com/en/contact",
+        "checkedAt": null,
+        "note": "规划预留，非指定日期或票种的实时报价；公共区域零门票不含接驳、讲解、消费和收费内部区域。",
+        "unit": "room-night",
+        "includes": [
+          "房间预算预留"
+        ],
+        "excludes": [
+          "未明确包含的早餐",
+          "停车",
+          "接送",
+          "税费及附加服务"
+        ]
+      }
+    ]
+  }
+]

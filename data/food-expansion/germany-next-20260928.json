@@ -1,0 +1,781 @@
+[
+  {
+    "id": "food-hamburg-franzbroetchen",
+    "cityIds": [
+      "hamburg"
+    ],
+    "name": "汉堡肉桂甜酥卷",
+    "localName": "Franzbrötchen",
+    "description": "层叠酥皮卷入肉桂与糖，适合作为早餐或咖啡时间的小点。",
+    "article": "Franzbrötchen",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franzbroetchen.wmt.jpg"
+    },
+    "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2,
+      "high": 5,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "hamburg": [
+        {
+          "name": "市中心及圣保利面包店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hamburg%20Franzbr%C3%B6tchen",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Franzbroetchen.wmt.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-hamburg-fischbroetchen",
+    "cityIds": [
+      "hamburg"
+    ],
+    "name": "鱼肉面包",
+    "localName": "Fischbrötchen",
+    "description": "硬皮面包夹鱼和配菜，腌鲱鱼、炸鱼等版本味道不同，点单前看清鱼种与做法。",
+    "article": "Fischbrötchen",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fischbroetchen_01_%28fcm%29.jpg"
+    },
+    "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5,
+      "high": 12,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "hamburg": [
+        {
+          "name": "Landungsbrücken / Altona 鱼市",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hamburg%20Fischbr%C3%B6tchen",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Fischbroetchen_01_(fcm).jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-hamburg-labskaus",
+    "cityIds": [
+      "hamburg"
+    ],
+    "name": "水手牛肉土豆泥",
+    "localName": "Labskaus",
+    "description": "牛肉、土豆与甜菜根形成浓厚口感，常搭煎蛋和腌菜；配鱼的版本先确认。",
+    "article": "Labskaus",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamburger_Labskaus_1.jpg"
+    },
+    "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 16,
+      "high": 30,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "hamburg": [
+        {
+          "name": "老城与港区传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hamburg%20Labskaus",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Hamburger_Labskaus_1.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-hamburg-rote-gruetze",
+    "cityIds": [
+      "hamburg"
+    ],
+    "name": "红莓甜羹",
+    "localName": "Rote Grütze",
+    "description": "多种红色浆果煮成的甜羹常配香草酱或奶油，适合餐后少量品尝。",
+    "article": "Rødgrød",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rote_Gr%C3%BCtze_mit_Vanilleso%C3%9Fe.JPG"
+    },
+    "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5,
+      "high": 10,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "hamburg": [
+        {
+          "name": "汉堡咖啡馆与北德餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hamburg%20Rote%20Gr%C3%BCtze",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Rote_Grütze_mit_Vanillesoße.JPG",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-hamburg-currywurst",
+    "cityIds": [
+      "hamburg"
+    ],
+    "name": "咖喱香肠小食",
+    "localName": "Currywurst",
+    "description": "切段香肠配咖喱番茄酱，可搭薯条作为快餐；这道街头食物在汉堡常见，并非当地独有。",
+    "article": "Currywurst",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20220430_currywurst.jpg"
+    },
+    "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+    "sourceReferences": [
+      {
+        "name": "www.hamburg-travel.com",
+        "url": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5,
+      "high": 12,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.hamburg-travel.com/blog/hamburg-cuisine-dishes-you-should-definitely-try/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "hamburg": [
+        {
+          "name": "圣保利及市区快餐摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hamburg%20Currywurst",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "20220430_currywurst.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-cologne-halver-hahn",
+    "cityIds": [
+      "cologne"
+    ],
+    "name": "黑麦面包配奶酪",
+    "localName": "Halver Hahn",
+    "description": "名称容易误会，实际是黑麦小面包搭奶酪、洋葱与芥末，不是半只鸡。",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-10-28-Halve_Hahn-9090.jpg"
+    },
+    "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+    "sourceReferences": [
+      {
+        "name": "willkommen.koelntourismus.de",
+        "url": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7,
+      "high": 15,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "cologne": [
+        {
+          "name": "Früh am Dom 及老城传统啤酒馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cologne%20Halver%20Hahn",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "2018-10-28-Halve Hahn-9090.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-cologne-himmel-aad",
+    "cityIds": [
+      "cologne"
+    ],
+    "name": "苹果土豆泥配血肠",
+    "localName": "Himmel un Ääd",
+    "description": "苹果和土豆的柔软口感配煎血肠与洋葱，点单前确认是否接受血制品。",
+    "article": "Himmel und Erde",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-01-03_Himmel_und_Erde_anagoria.JPG"
+    },
+    "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+    "sourceReferences": [
+      {
+        "name": "willkommen.koelntourismus.de",
+        "url": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15,
+      "high": 27,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "cologne": [
+        {
+          "name": "Früh am Dom 及莱茵风味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cologne%20Himmel%20un%20%C3%84%C3%A4d",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "2016-01-03_Himmel_und_Erde_anagoria.JPG",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-cologne-sauerbraten",
+    "cityIds": [
+      "cologne"
+    ],
+    "name": "莱茵酸炖肉",
+    "localName": "Rheinischer Sauerbraten",
+    "description": "腌制后慢炖的肉带酸甜酱汁，常配主食与蔬菜；具体肉类和配菜由餐馆决定。",
+    "article": "Sauerbraten",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heldrunger_Sauerbraten_2.JPG"
+    },
+    "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+    "sourceReferences": [
+      {
+        "name": "willkommen.koelntourismus.de",
+        "url": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 18,
+      "high": 34,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://willkommen.koelntourismus.de/terminal/singlepage/en/gastro/frueh-am-dom",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "cologne": [
+        {
+          "name": "Früh am Dom 及传统啤酒馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cologne%20Rheinischer%20Sauerbraten",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Heldrunger_Sauerbraten_2.JPG",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-cologne-floenz",
+    "cityIds": [
+      "cologne"
+    ],
+    "name": "科隆血肠",
+    "localName": "Flönz",
+    "description": "当地传统血肠可冷食或热食，搭面包和洋葱；与完整的苹果土豆泥主菜份量不同。",
+    "article": "Flönz",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-07-28-K%C3%B6lscher_Kaviar-9875.jpg"
+    },
+    "sourceUrl": "https://www.cologne-tourism.com/eat-drink",
+    "sourceReferences": [
+      {
+        "name": "www.cologne-tourism.com",
+        "url": "https://www.cologne-tourism.com/eat-drink",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8,
+      "high": 18,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.cologne-tourism.com/eat-drink",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "cologne": [
+        {
+          "name": "老城啤酒馆 / 熟食店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cologne%20Fl%C3%B6nz",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "2018-07-28-Kölscher_Kaviar-9875.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-cologne-reibekuchen",
+    "cityIds": [
+      "cologne"
+    ],
+    "name": "莱茵土豆饼",
+    "localName": "Reibekuchen",
+    "description": "现煎土豆饼外脆内软，常配苹果酱；作为街头小食时留意每份个数。",
+    "article": "Potato pancake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kartoffelpuffer.jpg"
+    },
+    "sourceUrl": "https://www.koeln.de/tourismus/ll/9-dinge-die-man-in-koeln-gegessen-haben-sollte/",
+    "sourceReferences": [
+      {
+        "name": "www.koeln.de",
+        "url": "https://www.koeln.de/tourismus/ll/9-dinge-die-man-in-koeln-gegessen-haben-sollte/",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5,
+      "high": 12,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.koeln.de/tourismus/ll/9-dinge-die-man-in-koeln-gegessen-haben-sollte/",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "cologne": [
+        {
+          "name": "市集 / 传统啤酒馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cologne%20Reibekuchen",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Kartoffelpuffer.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-frankfurt-green-sauce",
+    "cityIds": [
+      "frankfurt"
+    ],
+    "name": "法兰克福七香草绿酱",
+    "localName": "Frankfurter Grüne Soße",
+    "description": "多种鲜香草制成的冷酱常配土豆和鸡蛋，是认识黑森风味的一道清爽正餐。",
+    "article": "Green sauce",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne_So%C3%9Fe_mit_Ei_und_Kartoffeln.jpg"
+    },
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12,
+      "high": 24,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "frankfurt": [
+        {
+          "name": "萨克森豪森苹果酒馆 / Kleinmarkthalle",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Frankfurt%20Frankfurter%20Gr%C3%BCne%20So%C3%9Fe",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Grüne Soße mit Ei und Kartoffeln.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-frankfurt-handkaes",
+    "cityIds": [
+      "frankfurt"
+    ],
+    "name": "洋葱腌酸乳酪",
+    "localName": "Handkäs mit Musik",
+    "description": "酸乳奶酪搭醋油和洋葱，风味鲜明，通常配面包作为小食或前菜。",
+    "article": "Handkäse",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handkaese_20060117.jpg"
+    },
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7,
+      "high": 15,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "frankfurt": [
+        {
+          "name": "萨克森豪森苹果酒馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Frankfurt%20Handk%C3%A4s%20mit%20Musik",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Handkaese_20060117.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-frankfurt-frankfurter-wuerstchen",
+    "cityIds": [
+      "frankfurt"
+    ],
+    "name": "法兰克福细香肠",
+    "localName": "Frankfurter Würstchen",
+    "description": "细长熏制香肠常成对上桌，搭芥末或面包；与更粗的牛肉香肠是不同选择。",
+    "article": "Frankfurter Würstchen",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurter_wuerstchen.jpg"
+    },
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6,
+      "high": 14,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "frankfurt": [
+        {
+          "name": "小市场大厅熟食摊 / 传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Frankfurt%20Frankfurter%20W%C3%BCrstchen",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Frankfurter_wuerstchen.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-frankfurt-bethmaennchen",
+    "cityIds": [
+      "frankfurt"
+    ],
+    "name": "贝特曼杏仁点心",
+    "localName": "Bethmännchen",
+    "description": "以杏仁糖膏制作的小点心，外侧饰有杏仁，适合少量购买配咖啡。",
+    "article": "Bethmännchen",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bethmaennchen1.jpg"
+    },
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3,
+      "high": 9,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "frankfurt": [
+        {
+          "name": "老城糕点铺 / 季节性市集",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Frankfurt%20Bethm%C3%A4nnchen",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Bethmaennchen1.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  },
+  {
+    "id": "food-frankfurt-frankfurter-kranz",
+    "cityIds": [
+      "frankfurt"
+    ],
+    "name": "法兰克福皇冠蛋糕",
+    "localName": "Frankfurter Kranz",
+    "description": "环形蛋糕夹奶油并裹坚果碎，通常按片享用；乳制品与坚果过敏者先核对配方。",
+    "article": "Frankfurter Kranz",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurter_kranz_hg.jpg"
+    },
+    "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+    "sourceReferences": [
+      {
+        "name": "www.visitfrankfurt.travel",
+        "url": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+        "kind": "primary-source",
+        "scope": "当地饮食与可品尝区域，金额为单份规划估算",
+        "checkedAt": "2026-09-28"
+      }
+    ],
+    "sourceCheckedAt": "2026-09-28",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5,
+      "high": 10,
+      "currency": "EUR",
+      "type": "estimate",
+      "sourceUrl": "https://www.visitfrankfurt.travel/en/experience/cuisine/frankfurt-specialities",
+      "checkedAt": null,
+      "note": "单份或一人份的编辑预算；不是商家实时报价，份量、配菜与饮品请按菜单核对。",
+      "unit": "serving"
+    },
+    "servingNote": "作为每日餐饮的一种选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "frankfurt": [
+        {
+          "name": "市中心糕点店与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Frankfurt%20Frankfurter%20Kranz",
+          "note": "餐饮检索起点；具体商家是否供应、营业时间和菜单价格需再核对。"
+        }
+      ]
+    },
+    "photoFile": "Frankfurter_kranz_hg.jpg",
+    "photoSourceCheckedAt": "2026-09-28"
+  }
+]

@@ -1,7 +1,7 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { ArrowDown, ArrowRight, ArrowUp, CalendarDays, Check, ChevronLeft, ChevronRight, Clock3, Compass, MapPin, Plus, RotateCcw, Route, Sparkles, Trash2, TriangleAlert } from 'lucide-react';
-import { buildCountryDraft, listCountryDestinations } from '../shared/country-planning.mjs';
+import { buildCountryDraft, listCountryDestinations, countryDetailIds } from '../shared/country-planning.mjs';
 import { Photo } from './ui.jsx';
 import { CountrySelect } from './DestinationSelect.jsx';
 import './country-trip-planner.css';
@@ -14,7 +14,7 @@ const EMPTY = Object.freeze([]);
 export default function CountryTripPlanner({
   cities = EMPTY, originId, departureDate, returnToOrigin = true, planContext,
   excludedCityIds = EMPTY, maxCities, initialCountryCode = 'JP', initialDays = 7,
-  onApply, onCancel, applyLabel = '使用这份国家旅程',
+  onApply, onCancel, onEnsureCities, pending = false, applyLabel = '使用这份国家旅程',
 }) {
   const countries = useMemo(() => listCountryDestinations(cities), [cities]);
   const [countryCode, setCountryCode] = useState(() => countries.some(country => country.countryCode === initialCountryCode) ? initialCountryCode : countries[0]?.countryCode || '');
@@ -23,6 +23,20 @@ export default function CountryTripPlanner({
   const [includeReturn, setIncludeReturn] = useState(returnToOrigin);
   const [cityIds, setCityIds] = useState(undefined);
   const [dayAllocations, setDayAllocations] = useState(undefined);
+  const [loadError, setLoadError] = useState('');
+  const [retry, setRetry] = useState(0);
+  const requiredIds = useMemo(() => {
+    try {
+      return countryDetailIds({ cities, countryCode, totalDays, originId, departureDate: date, returnToOrigin: includeReturn, planContext, excludedCityIds, maxCities, cityIds, dayAllocations })
+        .filter(id => cities.find(city => city.id === id)?.detailStatus === 'summary').join(',');
+    } catch { return ''; }
+  }, [cities, countryCode, totalDays, originId, date, includeReturn, planContext, excludedCityIds, maxCities, cityIds, dayAllocations]);
+  useEffect(() => {
+    let active = true;
+    setLoadError('');
+    if (requiredIds && onEnsureCities) onEnsureCities(requiredIds.split(',')).catch(error => { if (active) setLoadError(error.message); });
+    return () => { active = false; };
+  }, [requiredIds, onEnsureCities, retry]);
   const cityMap = useMemo(() => new Map(cities.map(city => [city.id, city])), [cities]);
   const { draft, error } = useMemo(() => {
     try {
@@ -61,7 +75,7 @@ export default function CountryTripPlanner({
       {!planContext && <label>出发日期<input aria-label="国家旅程出发日期" type="date" value={date} onChange={event => setDate(event.target.value)} /></label>}
     </div>
     <div className="country-trip-origin"><Route size={17} /><span>{priorStops.length ? `接续 ${entryCity?.name || '上一站'}` : `从 ${origin?.name || '尚未选择的出发地'} 出发`}{draft && ` · ${draft.departureDate}`}</span>{!planContext ? <label><input type="checkbox" checked={includeReturn} onChange={event => setIncludeReturn(event.target.checked)} />预留返回出发地的交通</label> : <span>{planContext.returnTrip !== false ? `含最终返回${origin?.name || '原出发地'}的时间` : '沿用原行程的单程安排'}</span>}</div>
-    {error && <p className="country-trip-error" role="alert"><TriangleAlert size={18} />{error}</p>}
+    {error && <p className="country-trip-error" role="alert"><TriangleAlert size={18} />{loadError || error}{loadError && <button className="text-button" onClick={() => setRetry(value => value + 1)}>重新加载</button>}</p>}
     {draft && <>
       <div className="country-trip-metrics" aria-live="polite">
         <div><span><CalendarDays size={17} /> 总天数</span><strong>{draft.totalDays}<small>天，含交通日</small></strong></div>
@@ -86,6 +100,6 @@ export default function CountryTripPlanner({
       {draft.candidates.length > 0 && <details className="country-trip-candidates"><summary>还可以考虑 {draft.candidates.length} 座城市</summary><p>加入后重新分配现有天数；时间不足时会提示，不会自动增加假期。</p><div>{draft.candidates.map(candidate => <button type="button" key={candidate.cityId} disabled={draft.stops.length >= capacity} onClick={() => { setCityIds([...draft.stops.map(stop => stop.cityId), candidate.cityId]); setDayAllocations(undefined); }}><Plus size={15} />{candidate.name}<small>通常 {candidate.recommendedDays} 天</small></button>)}</div></details>}
       <div className="country-trip-notes">{draft.warnings.map(warning => <p key={warning.code} className={warning.severity === 'danger' ? 'is-danger' : ''}>{['danger', 'warning'].includes(warning.severity) ? <TriangleAlert size={16} /> : <Check size={15} />}<span>{warning.message}</span></p>)}</div>
     </>}
-    <footer className="country-trip-footer">{onCancel && <button type="button" className="secondary-button" onClick={onCancel}>取消</button>}<button type="button" className="primary-button" disabled={!draft?.feasible || !onApply} onClick={() => onApply(draft)}><Sparkles size={17} />{applyLabel}<ArrowRight size={17} /></button></footer>
+    <footer className="country-trip-footer">{onCancel && <button type="button" className="secondary-button" onClick={onCancel}>取消</button>}<button type="button" className="primary-button" disabled={!draft?.feasible || !onApply || pending} onClick={() => onApply(draft)}><Sparkles size={17} />{applyLabel}<ArrowRight size={17} /></button></footer>
   </section>;
 }

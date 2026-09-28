@@ -1,19 +1,29 @@
-name: Daily public data maintenance
+name: Daily source availability report
 
 on:
   schedule:
-    # 03:23 UTC / 11:23 China Standard Time; avoid the busy top of the hour.
     - cron: '23 3 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
-  refresh-and-deploy:
-    uses: ./.github/workflows/pages.yml
-    with:
-      refresh_data: true
-      run_tests: false
+  inspect-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: '24'
+      - name: Check a rotating sample without changing canonical data
+        run: node scripts/check-source-health.mjs
+      - name: Retain diagnostic report
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-availability
+          path: artifacts/source-health/report.json
+          retention-days: 30

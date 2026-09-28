@@ -1,5 +1,5 @@
 import { DatabaseSync } from 'node:sqlite';
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, existsSync, readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -18,6 +18,17 @@ export function database() {
     CREATE TABLE IF NOT EXISTS source_status (id TEXT PRIMARY KEY, name TEXT NOT NULL, url TEXT NOT NULL, kind TEXT NOT NULL, status TEXT NOT NULL, attempted_at TEXT NOT NULL, success_at TEXT, message TEXT, details TEXT);
     CREATE TABLE IF NOT EXISTS maintenance_lock (key TEXT PRIMARY KEY, acquired_at INTEGER NOT NULL, owner TEXT NOT NULL);
   `);
+  // Preview builds use an in-memory DB populated only from the versioned public snapshot.
+  // Never replace a production database or its observation history with preview data.
+  const publicSnapshot = resolve(ROOT, 'data/public-source-snapshot.json');
+  if (DB_PATH === ':memory:' && existsSync(publicSnapshot)) {
+    const published = JSON.parse(readFileSync(publicSnapshot, 'utf8'));
+    if (published.version !== 1 || !Array.isArray(published.snapshots) || !Array.isArray(published.sourceStatus)) throw new Error('Invalid public source snapshot');
+    const putSnapshot = connection.prepare('INSERT OR IGNORE INTO snapshots(key,value,updated_at) VALUES(?,?,?)');
+    const putStatus = connection.prepare('INSERT OR IGNORE INTO source_status(id,name,url,kind,status,attempted_at,success_at,message,details) VALUES(?,?,?,?,?,?,?,?,?)');
+    for (const row of published.snapshots) { JSON.parse(row.value); putSnapshot.run(row.key, row.value, row.updated_at); }
+    for (const row of published.sourceStatus) putStatus.run(row.id,row.name,row.url,row.kind,row.status,row.attempted_at,row.success_at,row.message,'{}');
+  }
   return connection;
 }
 export function readSnapshot(key) {

@@ -148,6 +148,17 @@ function registerId(entity, label) {
 
 for (const city of cities) {
   registerId(city, 'city');
+  if (city.contentTier && !['standard', 'priority'].includes(city.contentTier)) problems.push(`Invalid content tier: ${city.id}/${city.contentTier}`);
+  if (city.contentTier) {
+    const localRows = [...(city.attractions || []), ...experiences.filter(item => item.cityId === city.id && item.kind === 'experience')];
+    const identities = new Set();
+    for (const item of localRows) {
+      const identity = item.countingIdentity || item.wikidataId || item.name.normalize('NFKC').replace(/[\s·•，,。.!！]/g, '').toLocaleLowerCase();
+      if (identities.has(identity)) problems.push(`Duplicate destination activity identity: ${city.id}/${item.id}`);
+      identities.add(identity);
+      if (!item.sourceReferences?.length || !item.description?.trim()) problems.push(`Untraceable new destination content: ${item.id}`);
+    }
+  }
   if (!REGIONS.includes(city.region)) problems.push(`Unsupported region: ${city.id}/${city.region}`);
   if (!CURRENCIES[city.currency] || !(fx.rates[city.currency] > 0)) problems.push(`Missing currency: ${city.id}/${city.currency}`);
   if (!guides.some(guide => guide.cityId === city.id)) problems.push(`Missing guide: ${city.id}`);
@@ -212,14 +223,17 @@ const perCity = cities.map(city => ({
   foods: foods.filter(food => food.cityIds?.includes(city.id)).length,
   hotels: experiences.filter(place => place.cityId === city.id && place.kind === 'hotel').length,
 }));
+const registry = existsSync(resolve(ROOT, 'data/destination-registry.json')) ? read('data/destination-registry.json') : null;
+const baselineCityIds = registry?.baselineCityIds || [];
+for (const id of baselineCityIds) if (!cityIds.has(id)) problems.push(`Maintained baseline city removed: ${id}`);
 const cityMinimumCoverage = {
-  minimumMaintainedCities: 169, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
+  minimumMaintainedCities: baselineCityIds.length || 169, baselineCityIds, minimumFoodsPerCity: 5, minimumHotelsPerCity: 5,
   cities: cities.length, perCity,
   belowFoodMinimum: perCity.filter(city => city.foods < 5).map(city => city.cityId),
   belowHotelMinimum: perCity.filter(city => city.hotels < 5).map(city => city.cityId),
 };
-cityMinimumCoverage.complete = cities.length >= 169 && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
-if (cities.length < 169) problems.push(`Fewer than 169 maintained cities: ${cities.length}`);
+cityMinimumCoverage.complete = cities.length >= cityMinimumCoverage.minimumMaintainedCities && baselineCityIds.every(id => cityIds.has(id)) && !cityMinimumCoverage.belowFoodMinimum.length && !cityMinimumCoverage.belowHotelMinimum.length;
+if (cities.length < cityMinimumCoverage.minimumMaintainedCities) problems.push(`Fewer maintained cities than the preserved baseline: ${cities.length}`);
 for (const city of perCity) {
   if (city.foods < 5) problems.push(`Fewer than 5 foods: ${city.cityId}/${city.foods}`);
   if (city.hotels < 5) problems.push(`Fewer than 5 hotels: ${city.cityId}/${city.hotels}`);
@@ -239,9 +253,9 @@ const experienceCoverage = {
   missingCities: cities.filter(city => !experiences.some(place => place.cityId === city.id)).map(city => city.id),
   stayExpansion: { file: STAYS_FILE, loaded: stays.length, cities: new Set(stays.map(stay => stay.cityId)).size, cityBudgetReferences: stays.filter(stay => stay.priceBasis === 'city-daily-lodging').length },
 };
-const destinationDepthCoverage = destinationDepthReport(cities, experiences, media);
+const destinationDepthCoverage = destinationDepthReport(cities, experiences, media, foods);
 writeFileSync(resolve(ROOT, 'data/destination-depth-audit.json'), JSON.stringify(destinationDepthCoverage, null, 2) + '\n');
-for (const id of destinationDepthCoverage.belowMinimum) problems.push(`Fewer than 20 attractions and experiences: ${id}`);
+for (const id of destinationDepthCoverage.belowMinimum) problems.push(`Destination below its content tier: ${id}`);
 const depthByCity = cities.map(city => {
   const rows = experiences.filter(item => item.cityId === city.id && item.kind === 'experience' && item.experienceType);
   return { cityId: city.id, experiences: rows.length, themes: [...new Set(rows.map(item => item.experienceType))] };

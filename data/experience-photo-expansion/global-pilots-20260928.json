@@ -1,0 +1,82 @@
+{
+  "ex-munich-biergarten": {
+    "photoFile": "MUC Augustinerbiergarten.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MUC_Augustinerbiergarten.jpg",
+    "license": "CC BY-SA 3.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "慕尼黑 Augustiner 啤酒花园实景，具体座位和营业以店家为准。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-munich-isar-picnic": {
+    "photoFile": "2015-10-24 D300-3666 Achim-Lammerts Munich-Isar-Flaucher.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-10-24_D300-3666_Achim-Lammerts_Munich-Isar-Flaucher.jpg",
+    "license": "CC BY-SA 4.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "伊萨尔河 Flaucher 河岸实景。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-munich-christmas": {
+    "photoFile": "Marienplatz Christkindlmarkt, 2013.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marienplatz_Christkindlmarkt,_2013.jpg",
+    "license": "CC BY 2.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "玛利亚广场圣诞集市往年实景；不代表当前年份的布置与活动日期。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-nixi-pottery": {
+    "photoFile": "Tibetan Nixi Potter (33183559198).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibetan_Nixi_Potter_(33183559198).jpg",
+    "license": "CC BY-SA 2.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "尼西陶匠制陶实景；不代表某个具体工坊的预约名额。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-guozhuang": {
+    "photoFile": "Public Dance (43823654535).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Public_Dance_(43823654535).jpg",
+    "license": "CC BY-SA 2.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "香格里拉公共舞蹈活动实景，现场是否有活动需另核对。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-horse-festival": {
+    "photoFile": "Horse Race, Diqing Zangzu, Yunnan, China.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horse_Race,_Diqing_Zangzu,_Yunnan,_China.jpg",
+    "license": "CC BY-SA 2.0",
+    "imageScope": "related-theme",
+    "imageContextNote": "迪庆传统赛马实景，展示当地赛马文化；不是所选年份格咱赛马节的现场承诺。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-niru-waterfall": {
+    "photoFile": "Meadow in Pudacuo.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow_in_Pudacuo.JPG",
+    "license": "CC BY-SA 3.0",
+    "imageScope": "nearby",
+    "imageContextNote": "普达措区域高原草甸实景，说明区域生态；不是尼汝七彩瀑布的现场照片。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-xiaozhongdian-flowers": {
+    "photoFile": "Meadow in Pudacuo.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow_in_Pudacuo.JPG",
+    "license": "CC BY-SA 3.0",
+    "imageScope": "related-theme",
+    "imageContextNote": "香格里拉高原草甸实景，用于说明季节环境；不是小中甸杜鹃花期的现场照片。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-napahai-birds": {
+    "photoFile": "Black necked crane at Hanle.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_necked_crane_at_Hanle.jpg",
+    "license": "CC BY-SA 4.0",
+    "imageScope": "related-theme",
+    "imageContextNote": "黑颈鹤物种实拍，拍于 Hanle；不是纳帕海现场，野外遇见情况不作保证。",
+    "checkedAt": "2026-09-28"
+  },
+  "ex-shangri-la-thangka": {
+    "photoFile": "Buddha Vairocana - Google Art Project.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buddha_Vairocana_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "imageScope": "related-theme",
+    "imageContextNote": "唐卡艺术作品，用于说明绘画主题；不代表课程成品或现场工坊。",
+    "checkedAt": "2026-09-28"
+  }
+}

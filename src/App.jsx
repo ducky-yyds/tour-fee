@@ -1,6 +1,7 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, {
   lazy,
+  useCallback,
   Suspense,
   useEffect,
   useMemo,
@@ -27,7 +28,9 @@ import CostPreferences from "./CostPreferences.jsx";
 import CityHome from "./CityHome.jsx";
 import AirportCityHome from "./AirportCityHome.jsx";
 import HeroCarousel from "./HeroCarousel.jsx";
-import { apiFetch } from "./api.mjs";
+import { apiFetch, fetchCityDetails } from "./api.mjs";
+import { applyCityDetails, planCityIds } from "../shared/catalog-delivery.mjs";
+import { exportWorkspace, inspectWorkspace, validateWorkspace, restoreWorkspace, workspaceCityIds } from "../shared/browser-workspace.mjs";
 import CountryTripPlanner from "./CountryTripPlanner.jsx";
 import CurrencySelect from "./CurrencySelect.jsx";
 import DestinationGallery from "./DestinationGallery.jsx";
@@ -420,28 +423,64 @@ export default function App() {
   const [status, setStatus] = useState(null);
   const [statusLoading, setStatusLoading] = useState(false);
   const importRef = useRef(null);
+  const workspaceImportRef = useRef(null);
+  const catalogRef = useRef(null);
+  const pendingCities = useRef(new globalThis.Map());
+  const [detailErrors, setDetailErrors] = useState({});
+  const ensureCities = useCallback(async (ids) => {
+    const current = catalogRef.current;
+    if (!current) throw new Error('城市目录尚未加载');
+    const known = new globalThis.Map([...current.cities, ...(current.airportCities || [])].map(city => [city.id, city]));
+    const missing = [...new Set(ids.filter(Boolean))].filter(id => !known.has(id) || known.get(id).detailStatus === 'summary');
+    if (missing.length) {
+      const fresh = missing.filter(id => !pendingCities.current.has(id));
+      if (fresh.length) {
+        const request = fetchCityDetails(fresh).then(details => {
+          catalogRef.current = applyCityDetails(catalogRef.current, details);
+          setCatalog(catalogRef.current);
+          setDetailErrors(previous => Object.fromEntries(Object.entries(previous).filter(([id]) => !fresh.includes(id))));
+        }).catch(error => {
+          setDetailErrors(previous => ({ ...previous, ...Object.fromEntries(fresh.map(id => [id, error.message])) }));
+          throw error;
+        }).finally(() => fresh.forEach(id => pendingCities.current.delete(id)));
+        fresh.forEach(id => pendingCities.current.set(id, request));
+      }
+      await Promise.all(missing.map(id => pendingCities.current.get(id)));
+    }
+    const updated = catalogRef.current;
+    return mergeAirportCities(updated.cities, updated.airportCities || [], updated.airportCityAliases);
+  }, []);
   async function load() {
     setError("");
     try {
       const r = await apiFetch("/api/catalog");
       if (!r.ok) throw Error("服务暂时不可用");
-      const data = await r.json();
+      let data = await r.json();
       if (!data.cities?.length) throw Error("城市数据库尚未准备好");
-      setCatalog(data);
+      const storedProjects = safeRead(PROJECT_STORAGE_KEY, null);
+      const storedCurrent = safeRead("tusuan-current", null);
+      const storedSaved = safeRead("tusuan-saved", []);
+      const storedPlans = [storedCurrent, ...(storedProjects?.projects || []).map(project => project.plan), ...(Array.isArray(storedSaved) ? storedSaved : []).map(project => project.plan)];
+      const passportIds = workspaceCityIds({ 'tusuan-passport-v1': safeRead('tusuan-passport-v1', null) }).filter(id => !data.cities.some(city => city.id === id));
+      const required = [...new Set(['shanghai', 'tokyo', 'kyoto', ...planCityIds(storedPlans), ...passportIds])];
+      // Load every saved project's details before normalization; a failed fetch must never erase selections.
+      if (data.catalogVersion === 2) data = applyCityDetails(data, await fetchCityDetails(required));
       const availableCities = mergeAirportCities(data.cities, data.airportCities || [], data.airportCityAliases);
       const workspace = hydrateProjects(
-        safeRead(PROJECT_STORAGE_KEY, null),
-        safeRead("tusuan-current", null),
-        safeRead("tusuan-saved", []),
+        storedProjects,
+        storedCurrent,
+        storedSaved,
         (p) => normalizePlan(p, availableCities),
         (p) =>
           p.stops
             .map((s) => availableCities.find((c) => c.id === s.cityId)?.name)
             .join(" · ") + "之旅",
       );
+      catalogRef.current = data;
+      setCatalog(data);
       setProjects(workspace.projects);
       setActiveProjectId(workspace.activeId);
-      setPlan(workspace.projects.find((p) => p.id === workspace.activeId).plan);
+      setPlan(storedCurrent ? normalizePlan(storedCurrent, availableCities) : workspace.projects.find((p) => p.id === workspace.activeId).plan);
       setProjectReady(true);
     } catch (e) {
       setError(e.message);
@@ -450,6 +489,9 @@ export default function App() {
   useEffect(() => {
     load();
   }, []);
+  useEffect(() => {
+    if (view === 'city' && catalogRef.current && !detailErrors[homeCityId]) ensureCities([homeCityId]).catch(() => {});
+  }, [view, homeCityId, Boolean(catalog), ensureCities]);
   useEffect(() => {
     const syncRoute = () => {
       const route = readRoute(window.location.hash);
@@ -565,10 +607,8 @@ export default function App() {
   const categories = budget?.categories || [];
   const editBudgetLine = (id) => { const line = lines.find((item) => item.id === id); if (line) { window.dispatchEvent(new CustomEvent('budget-detail-open', { detail: 'line-editor' })); setModal({ type: 'line', line }); } };
   const activeProject = projects.find((p) => p.id === activeProjectId);
-  const sourceCount = cities
-    .flatMap((c) => c.attractions)
-    .filter((a) => a.price.type === "official").length;
-  function change(patch, { keep = false } = {}) {
+  const sourceCount = detailedCities.reduce((sum, city) => sum + (city.contentCounts?.officialPrices ?? city.attractions.filter(item => item.price.type === 'official').length), 0);
+  function change(patch, { keep = false, cityData = cities } = {}) {
     if (patch.stops?.reduce((sum, s) => sum + s.days, 0) > 730) {
       setToast("完整行程最多支持 730 天");
       return false;
@@ -600,7 +640,7 @@ export default function App() {
           plan.stops.map((s) => `${s.cityId}:${s.days}`).join("|"));
     if (routeChanged) {
       try {
-        patch.stops = suggestJourneyStops({ ...plan, ...patch }, cities, {
+        patch.stops = suggestJourneyStops({ ...plan, ...patch }, cityData, {
           automaticOnly: true,
         });
       } catch (error) {
@@ -870,7 +910,7 @@ export default function App() {
     setTab("overview");
     return true;
   }
-  function createProject({ name, cityId, days, daysSource = 'user', countryDraft }) {
+  async function createProject({ name, cityId, days, daysSource = 'user', countryDraft }) {
     if (countryDraft) {
       const next = { ...defaultPlan(catalogCities), originId: countryDraft.originId, departureDate: countryDraft.planDepartureDate || countryDraft.departureDate, returnTrip: countryDraft.returnTrip, currency: plan.currency, tier: plan.tier, travelers: plan.travelers, rooms: plan.rooms, mode: 'travel', stops: countryDraft.stops, transportModes: countryDraft.transportModes || {}, transportModelVersion: 2 };
       if (appendProject(name.trim() || `${countryDraft.countryName} · ${countryDraft.totalDays} 日之旅`, next)) setToast('国家路线已建立，可继续调整城市和景点');
@@ -880,8 +920,10 @@ export default function App() {
       setToast("停留天数应为 1 至 365 天");
       return;
     }
-    const destination = catalogCities.find((c) => c.id === cityId);
-    const base = defaultPlan(catalogCities);
+    let loadedCities;
+    try { loadedCities = await ensureCities([cityId]); } catch (error) { setToast(error.message); return; }
+    const destination = loadedCities.find((c) => c.id === cityId);
+    const base = defaultPlan(loadedCities);
     const next = {
       ...base,
       originId: plan.originId,
@@ -895,7 +937,7 @@ export default function App() {
         },
       ],
     };
-    next.stops = suggestJourneyStops(next, cities);
+    next.stops = suggestJourneyStops(next, loadedCities);
     if (
       appendProject(name.trim() || `${destination.name} · ${days} 日之旅`, next)
     )
@@ -1106,6 +1148,41 @@ export default function App() {
     download("途算-旅行预算.csv", csv, "text/csv;charset=utf-8");
     setToast("预算明细已导出");
   }
+  function personalWorkspace() {
+    return exportWorkspace(localStorage, {
+      [PROJECT_STORAGE_KEY]: { version: 1, activeId: activeProjectId, projects: projects.map(project => project.id === activeProjectId ? { ...project, plan } : project) },
+      'tusuan-current': plan,
+      'tusuan-saved': saved,
+    });
+  }
+  function exportPersonalWorkspace() {
+    try {
+      download(`途算-全部个人资料-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(personalWorkspace(), null, 2));
+      setToast('全部项目、当前编辑、足迹和旅居偏好已导出，可迁移到正式网站');
+    } catch (error) { setToast(`导出失败：${error.message}`); }
+  }
+  async function importPersonalWorkspace(event) {
+    try {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      if (file.size > 20_000_000) throw new Error('个人工作区文件不能超过 20 MB');
+      const incoming = JSON.parse(await file.text()), parsed = inspectWorkspace(incoming);
+      const loadedCities = await ensureCities(workspaceCityIds(parsed.records, parsed.plans));
+      const checked = validateWorkspace(incoming, loadedCities);
+      for (const candidate of parsed.plans) calculatePlan(candidate, mergeCustomAttractions(loadedCities, candidate.customAttractions), rates);
+      // Keep a portable copy before replacing the browser's complete workspace.
+      download(`途算-导入前备份-${Date.now()}.json`, JSON.stringify(personalWorkspace(), null, 2));
+      restoreWorkspace(localStorage, checked.records);
+      setProjects(checked.workspace.projects);
+      setActiveProjectId(checked.workspace.activeId);
+      setPlan(checked.current);
+      setSaved(checked.legacy);
+      setModuleCurrency(checked.records['tusuan-display-currency'] || null);
+      setActiveStop(0); setModal(null); navigate('planner');
+      setToast(`已恢复 ${checked.workspace.projects.length} 个旅行项目及个人偏好；原资料已导出备份`);
+    } catch (error) { setToast(`工作区导入失败：${error.message}`); }
+    finally { event.target.value = ''; }
+  }
   async function importPlan(e) {
     try {
       const file = e.target.files?.[0];
@@ -1113,16 +1190,17 @@ export default function App() {
       if (file.size > 500000) throw Error("文件过大");
       const data = JSON.parse(await file.text());
       const p = data.plan || data;
+      const loadedCities = await ensureCities(planCityIds([p]));
       if (
         !Array.isArray(p.stops) ||
         !p.stops.length ||
-        !p.stops.every((s) => cityById(s.cityId))
+        !p.stops.every((s) => loadedCities.some(city => city.id === s.cityId))
       )
         throw Error("文件中含有不支持的城市");
       if (
         appendProject(
           data.name || file.name.replace(/\.json$/i, ""),
-          normalizePlan(p, catalogCities),
+          normalizePlan(p, loadedCities),
         )
       )
         setToast("已导入为独立旅行项目");
@@ -1132,7 +1210,7 @@ export default function App() {
       e.target.value = "";
     }
   }
-  function addCity(id, nextView = "planner") {
+  async function addCity(id, nextView = "planner") {
     id = cityById(id)?.canonicalCityId || id;
     if (!isTravelDestination(cityById(id))) {
       setToast("请选择有旅行内容的城市");
@@ -1146,14 +1224,16 @@ export default function App() {
       setToast("这座城市已在旅程中");
       return;
     }
-    const nextStop = createRecommendedStop(cityById(id));
+    let loadedCities;
+    try { loadedCities = mergeCustomAttractions(await ensureCities([id]), plan.customAttractions); } catch (error) { setToast(error.message); return; }
+    const nextStop = createRecommendedStop(loadedCities.find(city => city.id === id));
     const nextPlan = { ...plan, stops: [...plan.stops, nextStop] };
     nextPlan.stops[nextPlan.stops.length - 1] = suggestJourneyStop(
       nextPlan,
-      cities,
+      loadedCities,
       nextPlan.stops.length - 1,
     );
-    if (!change({ stops: nextPlan.stops })) return;
+    if (!change({ stops: nextPlan.stops }, { cityData: loadedCities })) return;
     setActiveStop(plan.stops.length);
     setModal(null);
     setView(nextView);
@@ -2390,7 +2470,8 @@ export default function App() {
       )}
 
       {view === "city" && cityById(homeCityId)?.coverage === 'airport-only' && <AirportCityHome city={cityById(homeCityId)} onBack={() => navigate('globe')} onChooseDestination={() => navigate('explore')} />}
-      {view === "city" && cityById(homeCityId)?.coverage !== 'airport-only' && (
+      {view === 'city' && (cityById(homeCityId)?.detailStatus === 'summary' || !cityById(homeCityId)) && <main className="module-loading page-width" role="status"><Compass size={30} /><p>{detailErrors[homeCityId] || '正在加载这座城市的景点、美食与体验…'}</p>{detailErrors[homeCityId] && <button className="secondary-button" onClick={() => ensureCities([homeCityId]).catch(() => {})}>重新加载</button>}</main>}
+      {view === "city" && cityById(homeCityId) && cityById(homeCityId)?.detailStatus !== 'summary' && cityById(homeCityId)?.coverage !== 'airport-only' && (
         <CityHome
           key={activeProjectId}
           city={cityById(homeCityId) || cities[0]}
@@ -2425,7 +2506,7 @@ export default function App() {
               </span>
               <span>
                 <strong>
-                  {detailedCities.reduce((n, c) => n + c.attractions.length, 0)}
+                  {detailedCities.reduce((n, c) => n + (c.contentCounts?.attractions ?? c.attractions.length), 0)}
                 </strong>{" "}
                 处风景与体验
               </span>
@@ -2633,7 +2714,7 @@ export default function App() {
               <span>
                 <strong>商家来源检查</strong>
                 {catalog.experienceMaintenance?.audit
-                  ? `${catalog.experienceMaintenance.audit.totalSources} 个公开链接 · ${catalog.experienceMaintenance.audit.review.length} 个地点待复核`
+                  ? `${catalog.experienceMaintenance.audit.totalSources} 个公开链接 · ${catalog.experienceMaintenance.audit.reviewCount ?? catalog.experienceMaintenance.audit.review?.length ?? 0} 个地点待复核`
                   : "来源资料已记录，等待自动链接检查"}
               </span>
               <span>
@@ -2711,15 +2792,16 @@ export default function App() {
             </div>
             <div className="source-list">
               {detailedCities.map((c) => (
-                <details className="panel city-sources" key={c.id}>
+                <details className="panel city-sources" key={c.id} onToggle={event => { if (event.currentTarget.open && c.detailStatus === 'summary') ensureCities([c.id]).catch(() => {}); }}>
                   <summary>
                     <span>
                       {c.name} <small>{c.nameEn}</small>
                     </span>
                     <span>
-                      {c.attractions.length} 项<ChevronDown size={16} />
+                      {c.contentCounts?.attractions ?? c.attractions.length} 项<ChevronDown size={16} />
                     </span>
                   </summary>
+                  {c.detailStatus === 'summary' && <p className="muted">{detailErrors[c.id] || '正在加载价格及图片来源…'}{detailErrors[c.id] && <button className="text-button" onClick={() => ensureCities([c.id]).catch(() => {})}>重试</button>}</p>}
                   {c.attractions.map((a) => (
                     <div className="source-item" key={a.id}>
                       <div>
@@ -2841,6 +2923,7 @@ export default function App() {
         hidden
         onChange={importPlan}
       />
+      <input ref={workspaceImportRef} type="file" accept="application/json,.json" hidden onChange={importPersonalWorkspace} />
       {modal?.type === "origin" && (
         <CityPicker
           origin
@@ -2858,6 +2941,7 @@ export default function App() {
       {modal?.type === "new-project" && (
         <ProjectForm
           cities={catalogCities}
+          onEnsureCities={ensureCities}
           originId={plan.originId}
           departureDate={plan.departureDate}
           returnTrip={plan.returnTrip}
@@ -2890,6 +2974,8 @@ export default function App() {
           onDuplicate={duplicateProject}
           onDelete={deleteProject}
           onImport={() => importRef.current.click()}
+          onExportWorkspace={exportPersonalWorkspace}
+          onImportWorkspace={() => workspaceImportRef.current.click()}
           onExport={() =>
             download(
               `途算-${activeProject?.name || "旅行项目"}.json`,
@@ -2913,7 +2999,7 @@ export default function App() {
           onChooseCountry={() => setModal({ type: 'country-destination' })}
         />
       )}
-      {modal?.type === 'country-destination' && <Modal title="用一段时间，探索一个国家" onClose={() => setModal(null)} wide><div className="planning-unit-switch" role="group" aria-label="按城市或国家添加"><button type="button" aria-pressed="false" onClick={() => setModal({ type: 'destination' })}>选择城市</button><button type="button" aria-pressed="true">探索一个国家</button></div><CountryTripPlanner cities={cities} planContext={plan} originId={plan.originId} departureDate={plan.departureDate} returnToOrigin={plan.returnTrip} initialDays={7} onApply={addCountry} applyLabel="将这些城市加入旅程" /></Modal>}
+      {modal?.type === 'country-destination' && <Modal title="用一段时间，探索一个国家" onClose={() => setModal(null)} wide><div className="planning-unit-switch" role="group" aria-label="按城市或国家添加"><button type="button" aria-pressed="false" onClick={() => setModal({ type: 'destination' })}>选择城市</button><button type="button" aria-pressed="true">探索一个国家</button></div><CountryTripPlanner cities={cities} onEnsureCities={ensureCities} planContext={plan} originId={plan.originId} departureDate={plan.departureDate} returnToOrigin={plan.returnTrip} initialDays={7} onApply={addCountry} applyLabel="将这些城市加入旅程" /></Modal>}
       {modal?.type === "travelers" && (
         <Modal title="和谁一起出发？" onClose={() => setModal(null)}>
           <p className="muted">

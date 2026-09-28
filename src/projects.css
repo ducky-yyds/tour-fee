@@ -276,3 +276,14 @@
 .project-bar + .trip-controls {
   margin-top: 0;
 }
+.workspace-transfer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid var(--line, #e2e5df);
+}
+.workspace-transfer > div { flex: 1 1 100%; }
+.workspace-transfer p { margin: 8px 0 0; line-height: 1.6; }

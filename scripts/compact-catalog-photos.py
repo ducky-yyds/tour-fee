@@ -8,13 +8,14 @@ import concurrent.futures
 import importlib.util
 import json
 import pathlib
+import archive_assets
 
 spec = importlib.util.spec_from_file_location('catalog_media', pathlib.Path(__file__).with_name('complete-media.py'))
 media_tools = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(media_tools)
 
 
-def main():
+def compact():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--max-images', type=int, default=80)
@@ -24,7 +25,7 @@ def main():
         parser.error('--max-images must be between 1 and 200')
     manifest = media_tools.read(media_tools.OUTPUT)
     covers = {image.get('url') for image in manifest.get('cities', {}).values()}
-    public = (media_tools.ROOT / 'public').resolve()
+    images = media_tools.media_root()
     candidates = {}
     for image in manifest.get('attractions', {}).values():
         url = image.get('url', '')
@@ -32,8 +33,8 @@ def main():
             continue
         if not image.get('fileTitle') or not image.get('sourceUrl', '').startswith('https://commons.wikimedia.org/wiki/File:'):
             continue
-        local = (public / url.lstrip('/')).resolve()
-        if local.parent != public / 'images' or not local.is_file() or local.stat().st_size <= 160 * 1024:
+        local = media_tools.media_path(url)
+        if not local or local.parent != images or not local.is_file() or local.stat().st_size <= 160 * 1024:
             continue
         candidates[url] = {'url': url, 'path': local, 'file': media_tools.file_title(image['fileTitle']), 'bytes': local.stat().st_size}
     selected = sorted(candidates.values(), key=lambda row: -row['bytes'])[:args.max_images]
@@ -96,6 +97,28 @@ def main():
         media_tools.write(media_tools.OUTPUT, manifest)
         print(json.dumps({'processed': min(start + 20, len(selected)), 'updated': len(report['updated']), 'savedMiB': round(report['savedBytes'] / 1048576, 2)}), flush=True)
     media_tools.write(media_tools.ROOT / 'artifacts/catalog-photo-compaction.json', report)
+
+
+def main():
+    # Save the current bytes BEFORE any destructive thumbnail replacement. A
+    # failed archive aborts compaction; neither originals nor earlier derivatives
+    # can be lost to a successful web optimisation.
+    import os
+    import sys
+    if '--apply' not in sys.argv:
+        return compact()
+    archive_dir = pathlib.Path(os.environ.get('ASSET_ARCHIVE_DIR', str(media_tools.ROOT / 'storage/originals'))).resolve()
+    with archive_assets.archive_lock(archive_dir):
+        manifest = archive_assets.load_manifest(archive_dir)
+        archive_assets.inventory(archive_dir, manifest)
+    try:
+        compact()
+    finally:
+        # Downloading derivatives must not block other short archive writers.
+        # Re-read the manifest so any originals recovered meanwhile are retained.
+        with archive_assets.archive_lock(archive_dir):
+            manifest = archive_assets.load_manifest(archive_dir)
+            archive_assets.inventory(archive_dir, manifest)
 
 
 if __name__ == '__main__':

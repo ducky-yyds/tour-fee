@@ -17,6 +17,8 @@ import {
   hoverCardPosition,
 } from "../shared/globe-visual.mjs";
 import { Photo } from "./ui.jsx";
+import { useLocale } from "./locale.jsx";
+import { destinationName, destinationCountryName } from "./destination-utils.mjs";
 import "./earth-globe.css";
 
 const RAD = Math.PI / 180;
@@ -259,6 +261,7 @@ export default function EarthGlobe({
   onSelect,
   budgetLabel,
 }) {
+  const { locale } = useLocale();
   const surfaceRef = useRef(null),
     canvasRef = useRef(null),
     pointsCanvas = useRef(null),
@@ -348,13 +351,14 @@ export default function EarthGlobe({
     () =>
       layoutCityLabels(projected, {
         ...size,
+        labelForCity: city => destinationName(city, locale),
         limit: size.width < 500 ? 17 : zoom < 1.5 ? 34 : 46,
         reserved: [
           { x: size.width - 123, y: 58, width: 109, height: 43 },
           { x: 18, y: size.height - 84, width: 142, height: 20 },
         ],
       }),
-    [projected, size, zoom],
+    [projected, size, zoom, locale],
   );
   const projection = useMemo(
     () =>
@@ -809,7 +813,7 @@ export default function EarthGlobe({
                 className="gl-route-line"
               >
                 <title>
-                  {leg.from.city.name} → {leg.to.city.name} · 规划示意
+                  {destinationName(leg.from.city, locale)} → {destinationName(leg.to.city, locale)} · 规划示意
                 </title>
               </path>
             ))}
@@ -833,7 +837,11 @@ export default function EarthGlobe({
               top: point.box.y,
               width: point.box.width,
             }}
-            aria-label={`${point.city.name}，${point.city.country}${visited.has(point.city.id) ? "，已打卡" : ""}`}
+            aria-label={locale === 'en'
+              ? `${point.label}, ${destinationCountryName(point.city, locale)}${visited.has(point.city.id) ? ', visited' : ''}`
+              : `${point.label}，${destinationCountryName(point.city, locale)}${visited.has(point.city.id) ? '，已打卡' : ''}`}
+            title={point.label}
+            translate="no"
             onPointerEnter={() => showHover(point.city.id)}
             onPointerLeave={hideHover}
             onFocus={() => showHover(point.city.id)}
@@ -843,7 +851,7 @@ export default function EarthGlobe({
               showHover(point.city.id);
             }}
           >
-            {point.city.name}
+            {point.label}
           </button>
         ))}
       </div>
@@ -868,7 +876,7 @@ export default function EarthGlobe({
           className="eg-hover-card"
           data-testid="globe-city-preview"
           role="dialog"
-          aria-label={`${hovered.city.name}目的地预览`}
+          aria-label={locale === 'en' ? `${destinationName(hovered.city, locale)} destination preview` : `${destinationName(hovered.city, locale)}目的地预览`}
           style={hoverPosition}
           onPointerEnter={() => showHover(hoverId)}
           onPointerLeave={hideHover}
@@ -889,7 +897,7 @@ export default function EarthGlobe({
             {hovered.city.image?.url ? (
               <Photo
                 image={hovered.city.image}
-                alt={`${hovered.city.name}风景`}
+                alt={locale === 'en' ? `${destinationName(hovered.city, locale)} scenery` : `${destinationName(hovered.city, locale)}风景`}
               />
             ) : (
               <div className="eg-city-placeholder">
@@ -906,8 +914,8 @@ export default function EarthGlobe({
           </div>
           <div className="eg-hover-body">
             <div>
-              <strong>{hovered.city.name}</strong>
-              <span>{hovered.city.country}</span>
+              <strong>{destinationName(hovered.city, locale)}</strong>
+              <span>{destinationCountryName(hovered.city, locale)}</span>
             </div>
             <p>
               {hovered.city.coverage === "airport-only"

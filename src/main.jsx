@@ -1,7 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
+import { LocaleProvider } from './locale.jsx';
 import "./styles.css";
+import './locale.css';
 class ErrorBoundary extends React.Component {
   state = { error: null };
   static getDerivedStateFromError(error) {
@@ -25,8 +27,8 @@ class ErrorBoundary extends React.Component {
 }
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ErrorBoundary>
+    <LocaleProvider><ErrorBoundary>
       <App />
-    </ErrorBoundary>
+    </ErrorBoundary></LocaleProvider>
   </React.StrictMode>,
 );

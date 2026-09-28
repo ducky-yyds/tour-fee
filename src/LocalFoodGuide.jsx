@@ -16,7 +16,7 @@ const safeUrl = (value) =>
 export default function LocalFoodGuide({ city }) {
   const [query, setQuery] = useState("");
   const foods = (city.localFoods || []).filter((food) =>
-    [food.name, food.localName, food.description]
+    [food.name, food.nameEn, food.localName, food.description]
       .join(" ")
       .toLowerCase()
       .includes(query.trim().toLowerCase()),

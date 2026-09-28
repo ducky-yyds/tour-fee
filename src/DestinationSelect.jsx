@@ -1,9 +1,10 @@
 import React, { useEffect, useId, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowUpRight, Check, ChevronDown, ChevronRight, Globe2, MapPin, Search, X } from 'lucide-react';
+import { ArrowLeft, Check, ChevronDown, ChevronRight, Globe2, MapPin, Search, X } from 'lucide-react';
 import { assetUrl } from './api.mjs';
 import { isTravelDestination } from '../shared/airport-catalog.mjs';
 import flagCodes from './flag-codes.json';
-import { CONTINENTS, cityInitial, compareCities, countryNameEn, countryOptions, foldSearch, getContinent, groupedInitials } from './destination-utils.mjs';
+import { CONTINENTS, cityInitial, compareCities, countryNameEn, countryOptions, destinationName, destinationCountryName, getContinent, matchesDestination } from './destination-utils.mjs';
+import { useLocale } from './locale.jsx';
 import './destination-select.css';
 
 const EMPTY = Object.freeze([]);
@@ -28,7 +29,7 @@ export function SelectPopover({ label, children, selection, disabled = false, cl
       if (!anchor) return;
       const viewportWidth = window.visualViewport?.width || window.innerWidth;
       const viewportHeight = window.visualViewport?.height || window.innerHeight;
-      const width = Math.min(compact ? 360 : 660, viewportWidth - 24);
+      const width = Math.min(compact ? 360 : 820, viewportWidth - 24);
       const below = viewportHeight - anchor.bottom - 16;
       const above = anchor.top - 16;
       const placeAbove = below < Math.min(300, above) && above > below;
@@ -80,7 +81,8 @@ function Continents({ value, onChange, available }) {
 }
 
 function LetterIndex({ letters, selected, onSelect }) {
-  return <div className="destination-letters" role="group" aria-label="英文名首字母"><button type="button" aria-pressed={!selected} onClick={() => onSelect('')}>全部</button>{letters.map(letter => <button type="button" key={letter} aria-pressed={selected === letter} onClick={() => onSelect(letter)}>{letter}</button>)}</div>;
+  const { locale } = useLocale();
+  return <div className="destination-letters" role="group" aria-label={locale === 'en' ? 'English name initials' : '中文名拼音首字母'}><button type="button" aria-pressed={!selected} onClick={() => onSelect('')}>全部</button>{letters.map(letter => <button type="button" key={letter} aria-pressed={selected === letter} onClick={() => onSelect(letter)}>{letter}</button>)}</div>;
 }
 
 export function moveResultFocus(event) {
@@ -107,37 +109,36 @@ function CityThumbnail({ city }) {
 }
 
 export function DestinationBrowser({ cities = EMPTY, onPick, exclude = EMPTY, value, compact = false, renderMeta, autoFocus = true }) {
+  const { locale } = useLocale();
   const [query, setQuery] = useState(''), [continent, setContinent] = useState('全部'), [country, setCountry] = useState('');
-  const [mode, setMode] = useState('country'), [letter, setLetter] = useState(''), [limit, setLimit] = useState(48);
+  const [mode, setMode] = useState('alphabet'), [letter, setLetter] = useState(''), [limit, setLimit] = useState(48);
   const excluded = useMemo(() => new Set(exclude), [exclude]);
-  const indexed = useMemo(() => cities.filter(city => isTravelDestination(city) && !excluded.has(city.id)).map(city => ({ city, text: foldSearch([city.name, city.nameEn, city.country, city.countryEn, city.countryCode, city.iata, city.subdivision, ...(city.airportCodes || []), ...(city.tags || [])].join(' ')) })), [cities, excluded]);
-  const countries = useMemo(() => countryOptions(indexed.map(row => row.city)), [indexed]);
+  const indexed = useMemo(() => cities.filter(city => isTravelDestination(city) && !excluded.has(city.id)), [cities, excluded]);
+  const countries = useMemo(() => countryOptions(indexed, locale), [indexed, locale]);
   const available = useMemo(() => [...new Set(countries.map(item => item.region))], [countries]);
   const selectedCountry = countries.find(item => item.countryCode === country);
   const browsingCountries = mode === 'country' && !country && !query.trim();
   const filtered = useMemo(() => {
     if (browsingCountries) return [];
-    const term = foldSearch(query).trim();
-    return indexed.filter(({ city, text }) => (continent === '全部' || getContinent(city) === continent) && (!country || city.countryCode === country) && (!term || text.includes(term))).map(row => row.city).sort(compareCities);
-  }, [indexed, continent, country, query, browsingCountries]);
-  const letters = useMemo(() => [...new Set(filtered.map(cityInitial))], [filtered]);
-  const matches = useMemo(() => letter ? filtered.filter(city => cityInitial(city) === letter) : filtered, [filtered, letter]);
-  const groups = useMemo(() => groupedInitials(matches.slice(0, limit)), [matches, limit]);
-  useEffect(() => { setLimit(48); setLetter(''); }, [query, continent, country, mode]);
+    return indexed.filter(city => (continent === '全部' || getContinent(city) === continent) && (!country || city.countryCode === country) && matchesDestination(city, query)).sort((a, b) => compareCities(a, b, locale));
+  }, [indexed, continent, country, query, browsingCountries, locale]);
+  const letters = useMemo(() => [...new Set(filtered.map(city => cityInitial(city, locale)))], [filtered, locale]);
+  const matches = useMemo(() => letter ? filtered.filter(city => cityInitial(city, locale) === letter) : filtered, [filtered, letter, locale]);
+  useEffect(() => { setLimit(48); setLetter(''); }, [query, continent, country, mode, locale]);
   useEffect(() => setLimit(48), [letter]);
   const chooseCountry = code => { setCountry(code); setMode('country'); setQuery(''); setLetter(''); };
   return <div className={`destination-browser ${compact ? 'destination-browser-compact' : ''}`} onKeyDown={moveResultFocus}>
-    <div className="destination-search"><Search size={17} /><input aria-label="搜索城市或国家" placeholder="搜索城市或国家" value={query} autoFocus={autoFocus} onChange={event => setQuery(event.target.value)} />{query && <button type="button" aria-label="清空搜索" onClick={() => setQuery('')}><X size={15} /></button>}</div>
+    <div className="destination-search"><Search size={17} /><input aria-label="搜索城市或国家" placeholder={locale === 'en' ? 'Search cities or countries' : '城市、国家、全拼或拼音首字母'} value={query} autoFocus={autoFocus} onChange={event => setQuery(event.target.value)} />{query && <button type="button" aria-label="清空搜索" onClick={() => setQuery('')}><X size={15} /></button>}</div>
     <Continents value={continent} available={available} onChange={region => { setContinent(region); setCountry(''); }} />
-    <div className="destination-browse-tools"><div className="destination-view-switch" role="group" aria-label="目的地浏览方式"><button type="button" aria-pressed={mode === 'country'} onClick={() => setMode('country')}>先选国家</button><button type="button" aria-pressed={mode === 'alphabet'} onClick={() => { setMode('alphabet'); setCountry(''); }}>城市 A–Z</button></div></div>
-    {country && <div className="destination-breadcrumb"><button type="button" onClick={() => { setCountry(''); setQuery(''); }}><ArrowLeft size={15} />国家 / 地区</button><ChevronRight size={13} /><CountryFlag code={country} /><strong>{selectedCountry?.name || country}</strong></div>}
+    <div className="destination-browse-tools"><div className="destination-view-switch" role="group" aria-label="目的地浏览方式"><button type="button" aria-pressed={mode === 'alphabet'} onClick={() => { setMode('alphabet'); setCountry(''); }}>城市 A–Z</button><button type="button" aria-pressed={mode === 'country'} onClick={() => setMode('country')}>先选国家</button></div></div>
+    {country && <div className="destination-breadcrumb"><button type="button" onClick={() => { setCountry(''); setQuery(''); }}><ArrowLeft size={15} />国家 / 地区</button><ChevronRight size={13} /><CountryFlag code={country} /><strong>{destinationName(selectedCountry, locale) || country}</strong></div>}
     {browsingCountries ? <div className="destination-country-groups">{[...CONTINENTS, '其他地区'].filter(region => continent === '全部' || continent === region).map(region => {
       const rows = countries.filter(item => item.region === region);
       if (!rows.length) return null;
-      return <section className="destination-country-group" key={region}><h4><Globe2 size={15} />{region}</h4><div className="destination-country-grid">{rows.map(item => <button type="button" key={item.countryCode} data-destination-result onClick={() => chooseCountry(item.countryCode)}><CountryFlag code={item.countryCode} /><span><strong>{item.name}</strong><small>{item.nameEn}</small></span><ChevronRight size={15} /></button>)}</div></section>;
+      return <section className="destination-country-group" key={region}><h4><Globe2 size={15} />{region}</h4><div className="destination-country-grid">{rows.map(item => <button type="button" key={item.countryCode} data-destination-result onClick={() => chooseCountry(item.countryCode)}><CountryFlag code={item.countryCode} /><span><strong>{destinationName(item, locale)}</strong>{locale === 'zh' && <small>{item.nameEn}</small>}</span><ChevronRight size={15} /></button>)}</div></section>;
     })}{!countries.length && <p className="destination-empty">暂无可选择的目的地。</p>}</div> : <>
-      <div className="destination-order-note">按英文名 / 罗马字首字母排列</div><LetterIndex letters={letters} selected={letter} onSelect={setLetter} />
-      <div className="destination-results">{groups.map(([initial, rows]) => <section key={initial} className="destination-letter-group"><h4>{initial}</h4><div className="destination-city-grid">{rows.map(city => <button key={city.id} type="button" className={`destination-city ${value === city.id ? 'is-selected' : ''}`} data-destination-result aria-pressed={value === city.id} onClick={() => onPick(city.id)}><CityThumbnail city={city} /><span className="destination-city-copy"><strong>{city.name}</strong>{city.nameEn !== city.name && <small>{city.nameEn}</small>}<span className="destination-city-country"><CountryFlag code={city.countryCode} />{city.country}{city.iata ? ` · ${city.iata}` : ''}</span>{renderMeta ? <span className="destination-city-meta">{renderMeta(city)}</span> : city.subdivision && <small className="destination-city-subdivision">{city.subdivision}</small>}</span>{value === city.id ? <Check size={17} /> : <ArrowUpRight size={16} />}</button>)}</div></section>)}</div>
+      <div className="destination-order-note">{locale === 'en' ? 'English name A–Z' : '中文名拼音 A–Z · 支持全拼与首字母搜索'}</div><LetterIndex letters={letters} selected={letter} onSelect={setLetter} />
+      <div className="destination-results"><div className="destination-city-grid">{matches.slice(0, limit).map(city => <button key={city.id} type="button" className={`destination-city ${value === city.id ? 'is-selected' : ''}`} data-destination-result aria-pressed={value === city.id} onClick={() => onPick(city.id)}><CityThumbnail city={city} /><span className="destination-city-copy"><strong>{destinationName(city, locale)}</strong>{locale === 'zh' && city.nameEn !== city.name && <small>{city.nameEn}</small>}<span className="destination-city-country"><CountryFlag code={city.countryCode} /><span>{destinationCountryName(city, locale)}</span></span>{renderMeta && <span className="destination-city-meta">{renderMeta(city)}</span>}</span><span className="destination-city-status" aria-hidden="true">{value === city.id ? <Check size={15} /> : <span className="destination-city-initial">{cityInitial(city, locale)}</span>}</span></button>)}</div></div>
       {matches.length > limit && <button type="button" className="destination-more" onClick={() => setLimit(current => current + 48)}>继续浏览<ChevronDown size={15} /></button>}
       {!matches.length && <p className="destination-empty"><MapPin size={22} />没有找到匹配的城市，试试其他名称或国家。</p>}
     </>}
@@ -145,21 +146,24 @@ export function DestinationBrowser({ cities = EMPTY, onPick, exclude = EMPTY, va
 }
 
 export default function DestinationSelect({ cities = EMPTY, value, onChange, label = '选择城市', placeholder = '请选择城市', exclude = EMPTY, disabled = false, className = '' }) {
+  const { locale } = useLocale();
   const city = useMemo(() => cities.find(item => item.id === value), [cities, value]);
-  return <SelectPopover label={label} disabled={disabled} className={className} selection={city ? <><CountryFlag code={city.countryCode} /><span><strong>{city.name}</strong><small>{city.country}</small></span></> : <><MapPin size={19} /><span>{placeholder}</span></>}>
+  return <SelectPopover label={label} disabled={disabled} className={className} selection={city ? <><CountryFlag code={city.countryCode} /><span><strong>{destinationName(city, locale)}</strong><small>{destinationCountryName(city, locale)}</small></span></> : <><MapPin size={19} /><span>{placeholder}</span></>}>
     {close => <DestinationBrowser cities={cities} value={value} exclude={exclude} compact onPick={id => { onChange(id); close(); }} />}
   </SelectPopover>;
 }
 
 export function CountrySelect({ countries = EMPTY, value, onChange, label = '国家 / 地区', placeholder = '选择国家 / 地区', disabled = false, className = '', allowAll = false, allValue = 'all' }) {
+  const { locale } = useLocale();
   const [query, setQuery] = useState(''), [continent, setContinent] = useState('全部'), [letter, setLetter] = useState('');
   const normalized = useMemo(() => countries.map(country => ({ ...country, name: country.name || country.country, nameEn: country.nameEn || country.countryEn || countryNameEn(country.countryCode), region: getContinent(country) })), [countries]);
   const selected = normalized.find(country => country.countryCode === value);
   const available = [...new Set(normalized.map(country => country.region))];
-  const filtered = normalized.filter(country => (continent === '全部' || country.region === continent) && foldSearch([country.name, country.nameEn, country.countryCode, ...(country.cities || []).flatMap(city => [city.name, city.nameEn])].join(' ')).includes(foldSearch(query).trim())).sort((a, b) => compareCities(a, b));
-  const letters = [...new Set(filtered.map(cityInitial))];
-  const groups = groupedInitials(filtered.filter(country => !letter || cityInitial(country) === letter));
-  return <SelectPopover label={label} disabled={disabled} className={className} selection={selected ? <><CountryFlag code={value} /><span>{selected.name}</span></> : <><Globe2 size={19} /><span>{allowAll && value === allValue ? '全部国家 / 地区' : placeholder}</span></>}>
-    {close => <div className="destination-browser" onKeyDown={moveResultFocus}><div className="destination-search"><Search size={17} /><input autoFocus aria-label="搜索国家或地区" placeholder="国家、地区或城市" value={query} onChange={event => { setQuery(event.target.value); setLetter(''); }} /></div><Continents value={continent} available={available} onChange={region => { setContinent(region); setLetter(''); }} /><div className="destination-order-note">国家英文名 A–Z</div><LetterIndex letters={letters} selected={letter} onSelect={setLetter} />{allowAll && <button type="button" className="destination-all-countries" data-destination-result onClick={() => { onChange(allValue); close(); }}><Globe2 size={18} />全部国家 / 地区{value === allValue && <Check size={16} />}</button>}{groups.map(([initial, rows]) => <section key={initial} className="destination-letter-group"><h4>{initial}</h4><div className="destination-country-grid">{rows.map(country => <button key={country.countryCode} type="button" data-destination-result aria-pressed={value === country.countryCode} onClick={() => { onChange(country.countryCode); close(); }}><CountryFlag code={country.countryCode} /><span><strong>{country.name}</strong><small>{country.nameEn}</small></span>{value === country.countryCode ? <Check size={16} /> : <ChevronRight size={14} />}</button>)}</div></section>)}{!filtered.length && <p className="destination-empty">没有找到匹配的国家或地区。</p>}</div>}
+  const filtered = normalized.filter(country => (continent === '全部' || country.region === continent) && (matchesDestination(country, query) || (country.cities || []).some(city => matchesDestination(city, query)))).sort((a, b) => compareCities(a, b, locale));
+  const letters = [...new Set(filtered.map(country => cityInitial(country, locale)))];
+  const visible = filtered.filter(country => !letter || cityInitial(country, locale) === letter);
+  useEffect(() => setLetter(''), [locale]);
+  return <SelectPopover label={label} disabled={disabled} className={className} selection={selected ? <><CountryFlag code={value} /><span>{destinationName(selected, locale)}</span></> : <><Globe2 size={19} /><span>{allowAll && value === allValue ? '全部国家 / 地区' : placeholder}</span></>}>
+    {close => <div className="destination-browser" onKeyDown={moveResultFocus}><div className="destination-search"><Search size={17} /><input autoFocus aria-label="搜索国家或地区" placeholder={locale === 'en' ? 'Country, region or city' : '国家、地区、城市或拼音'} value={query} onChange={event => { setQuery(event.target.value); setLetter(''); }} /></div><Continents value={continent} available={available} onChange={region => { setContinent(region); setLetter(''); }} /><div className="destination-order-note">{locale === 'en' ? 'Country names A–Z' : '国家中文名拼音 A–Z'}</div><LetterIndex letters={letters} selected={letter} onSelect={setLetter} />{allowAll && <button type="button" className="destination-all-countries" data-destination-result onClick={() => { onChange(allValue); close(); }}><Globe2 size={18} />全部国家 / 地区{value === allValue && <Check size={16} />}</button>}<div className="destination-country-grid destination-country-results">{visible.map(country => <button key={country.countryCode} type="button" data-destination-result aria-pressed={value === country.countryCode} onClick={() => { onChange(country.countryCode); close(); }}><CountryFlag code={country.countryCode} /><span><strong>{destinationName(country, locale)}</strong>{locale === 'zh' && <small>{country.nameEn}</small>}</span>{value === country.countryCode ? <Check size={16} /> : <ChevronRight size={14} />}</button>)}</div>{!visible.length && <p className="destination-empty">没有找到匹配的国家或地区。</p>}</div>}
   </SelectPopover>;
 }

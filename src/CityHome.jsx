@@ -1,4 +1,5 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
+import { useLocale } from './locale.jsx';
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -266,6 +267,7 @@ export default function CityHome({
   onGenerate,
   onToast,
 }) {
+  const { locale } = useLocale();
   const drafts = useRef(new Map());
   const currentCity = useRef(city.id);
   const [draft, setDraft] = useState(() => initialDraft(city, plan));
@@ -569,9 +571,9 @@ export default function CityHome({
           </div>
           <h1>
             {city.name}
-            <span>{city.nameEn}</span>
+            <span translate="no">{locale === 'en' ? city.name : city.nameEn}</span>
           </h1>
-          <p>{city.tagline || city.description}</p>
+          <p>{locale === 'en' ? city.taglineEn || `Explore ${city.nameEn}: sights, local food, places to stay and distinctive experiences.` : city.tagline || city.description}</p>
           <div className="ch-hero-tags">
             {asArray(city.tags)
               .slice(0, 4)
@@ -603,6 +605,7 @@ export default function CityHome({
         </div>
         <ImageCredit image={city.image} />
       </section>
+      {locale === 'en' && <p className="original-content-note" lang="en">Some destination descriptions are currently available in Chinese only.</p>}
       <CityBrief
         key={city.id}
         city={city}
@@ -784,7 +787,7 @@ export default function CityHome({
                   >
                     <option value="all">所有类型</option>
                     {categories.map((item) => (
-                      <option key={item}>{item}</option>
+                      <option key={item} value={item}>{item}</option>
                     ))}
                   </select>
                 )}

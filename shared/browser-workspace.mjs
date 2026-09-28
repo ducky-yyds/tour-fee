@@ -5,7 +5,7 @@ import { CURRENCIES } from './currencies.mjs';
 import { planCityIds } from './catalog-delivery.mjs';
 
 export const WORKSPACE_FORMAT = 'tusuan-personal-workspace';
-export const WORKSPACE_KEYS = [PROJECT_STORAGE_KEY, 'tusuan-current', 'tusuan-saved', PASSPORT_KEY, LIVING_STORAGE_KEY, 'tusuan-display-currency'];
+export const WORKSPACE_KEYS = [PROJECT_STORAGE_KEY, 'tusuan-current', 'tusuan-saved', PASSPORT_KEY, LIVING_STORAGE_KEY, 'tusuan-display-currency', 'tusuan-language'];
 
 export function workspaceCityIds(records, plans = []) {
   const living = records[LIVING_STORAGE_KEY];
@@ -43,6 +43,7 @@ export function inspectWorkspace(input) {
       || plan.stops.reduce((sum, stop) => sum + stop.days, 0) > 730) throw new Error('工作区包含无效的旅行安排');
   }
   const currency = records['tusuan-display-currency'];
+  if (records['tusuan-language'] != null && !['zh', 'en'].includes(records['tusuan-language'])) throw new Error('界面语言无效');
   if (currency != null && !Object.hasOwn(CURRENCIES, currency)) throw new Error('显示币种无效');
   return { records, workspace, current, legacy, plans };
 }

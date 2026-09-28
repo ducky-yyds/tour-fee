@@ -18,6 +18,7 @@ import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import "./projects.css";
 import CountryTripPlanner from "./CountryTripPlanner.jsx";
 import DestinationSelect from './DestinationSelect.jsx';
+import { intlLocale } from './localization.mjs';
 
 export function ProjectBar({ project, projects, onSwitch, onManage, onNew }) {
   return (
@@ -33,7 +34,7 @@ export function ProjectBar({ project, projects, onSwitch, onManage, onNew }) {
           onChange={(e) => onSwitch(e.target.value)}
         >
           {projects.map((p) => (
-            <option key={p.id} value={p.id}>
+            <option key={p.id} value={p.id} translate="no">
               {p.name}
             </option>
           ))}
@@ -226,7 +227,7 @@ export function ProjectsModal({
                     </button>
                   </form>
                 ) : (
-                  <h3>{project.name}</h3>
+                  <h3 translate="no">{project.name}</h3>
                 )}
                 <p>
                   {project.plan.stops
@@ -246,11 +247,11 @@ export function ProjectsModal({
                 </div>
                 <small className="project-updated">
                   {project.plan.departureDate} 出发 ·{" "}
-                  {new Date(project.updatedAt).toLocaleDateString("zh-CN")} 更新
+                  {new Date(project.updatedAt).toLocaleDateString(intlLocale())} 更新
                 </small>
                 {deleting === project.id ? (
                   <div className="project-delete">
-                    <p>删除“{project.name}”？</p>
+                    <p>删除“<span translate="no">{project.name}</span>”？</p>
                     <button
                       onClick={() => {
                         onDelete(project.id);

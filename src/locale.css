@@ -1,0 +1,43 @@
+.language-switch { display: inline-flex; align-items: center; gap: 2px; border: 1px solid #dce4d5; border-radius: 9px; background: #f7f9f1; padding: 3px; flex-shrink: 0; }
+.language-switch button { border: 0; border-radius: 6px; min-height: 32px; min-width: 36px; padding: 5px 7px; color: #708267; background: transparent; font: inherit; font-size: 13px; cursor: pointer; }
+.language-switch button[aria-pressed="true"] { color: #fff; background: #49664c; }
+.language-switch button:focus-visible { outline: 2px solid #739363; outline-offset: 2px; }
+.original-content-note { max-width: 1240px; margin: 12px auto; padding: 0 24px; color: #7b8874; font-size: 13px; line-height: 1.65; }
+html[lang="en"] .brand strong { letter-spacing: -.5px; font-size: 23px; }
+html[lang="en"] .main-nav { gap: clamp(10px, 1.4vw, 22px); }
+html[lang="en"] .main-nav > button { font-size: 14px; letter-spacing: 0; }
+html[lang="en"] .header-right { gap: 12px; }
+html[lang="en"] .explore-photo h2, html[lang="en"] .ch-hero h1 { letter-spacing: -.02em; overflow-wrap: anywhere; }
+html[lang="en"] .hero h1 { letter-spacing: -.02em; }
+html[lang="en"] .destination-selected strong, html[lang="en"] .ch-tab { letter-spacing: 0; }
+html[lang="en"] .cost-pref-label, html[lang="en"] .cost-pref-description { overflow-wrap: anywhere; }
+@media (max-width: 1000px) {
+  .site-header .header-right { margin-left: auto; }
+  .site-header .mobile-menu { display: inline-flex; }
+  .site-header .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; box-shadow: 0 12px 20px #314c3512; z-index: 10; gap: 0; flex-direction: column; padding: 10px 5% 17px; }
+  .site-header .main-nav.is-open { display: flex; }
+  .site-header .main-nav > button { padding: 13px 10px; text-align: left; font-size: 14px; }
+  .site-header .main-nav > button.active { background: #f2f5ec; }
+  .site-header .main-nav > button.active::after { display: none; }
+}
+@media (max-width: 1150px) and (min-width: 801px) {
+  .site-header { gap: 12px; padding-inline: 20px; }
+  .header-right { gap: 9px; }
+  .header-right .saved-button { width: 34px; padding: 7px; min-width: 34px; }
+  .header-right .saved-button > span, .header-right .saved-button > b { display: none; }
+}
+@media (max-width: 800px) {
+  .site-header .currency-select-inline > .destination-select-label { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .language-switch { padding: 2px; }
+  .language-switch button { min-height: 32px; min-width: 32px; padding-inline: 5px; font-size: 12px; }
+  .site-header .header-right { gap: 8px; }
+  html[lang="en"] .brand strong { font-size: 19px; }
+}
+@media (max-width: 420px) {
+  .site-header { padding-inline: 12px; gap: 8px; }
+  .site-header .header-right { gap: 6px; }
+  .site-header .currency-current > strong { display: none; }
+  .site-header .currency-select-inline .destination-select-trigger { padding: 5px; gap: 4px; }
+  .site-header .currency-select-inline .country-flag { width: 18px; height: 14px; flex-basis: 18px; }
+  .site-header .brand { gap: 5px; }
+}

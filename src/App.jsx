@@ -1,4 +1,6 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
+import { useLocale, LanguageSwitch } from './locale.jsx';
+import { registerCatalogNames, intlLocale, translate, setLocale as applyLocale } from './localization.mjs';
 import React, {
   lazy,
   useCallback,
@@ -396,6 +398,7 @@ function readRoute(hash) {
 }
 
 export default function App() {
+  const { locale } = useLocale();
   const [catalog, setCatalog] = useState(null);
   const [error, setError] = useState("");
   const [plan, setPlan] = useState(null);
@@ -436,6 +439,7 @@ export default function App() {
       const fresh = missing.filter(id => !pendingCities.current.has(id));
       if (fresh.length) {
         const request = fetchCityDetails(fresh).then(details => {
+          registerCatalogNames(details);
           catalogRef.current = applyCityDetails(catalogRef.current, details);
           setCatalog(catalogRef.current);
           setDetailErrors(previous => Object.fromEntries(Object.entries(previous).filter(([id]) => !fresh.includes(id))));
@@ -477,6 +481,7 @@ export default function App() {
             .join(" · ") + "之旅",
       );
       catalogRef.current = data;
+      registerCatalogNames(data);
       setCatalog(data);
       setProjects(workspace.projects);
       setActiveProjectId(workspace.activeId);
@@ -1141,11 +1146,11 @@ export default function App() {
       rows
         .map((r) =>
           r
-            .map((v) => '"' + String(v ?? "").replace(/"/g, '""') + '"')
+            .map((v) => '"' + String(translate(v) ?? "").replace(/"/g, '""') + '"')
             .join(","),
         )
         .join("\r\n");
-    download("途算-旅行预算.csv", csv, "text/csv;charset=utf-8");
+    download(locale === 'en' ? 'Wayfarer-travel-budget.csv' : '途算-旅行预算.csv', csv, 'text/csv;charset=utf-8');
     setToast("预算明细已导出");
   }
   function personalWorkspace() {
@@ -1153,11 +1158,12 @@ export default function App() {
       [PROJECT_STORAGE_KEY]: { version: 1, activeId: activeProjectId, projects: projects.map(project => project.id === activeProjectId ? { ...project, plan } : project) },
       'tusuan-current': plan,
       'tusuan-saved': saved,
+      'tusuan-language': locale,
     });
   }
   function exportPersonalWorkspace() {
     try {
-      download(`途算-全部个人资料-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(personalWorkspace(), null, 2));
+      download(`${locale === 'en' ? 'Wayfarer-personal-workspace' : '途算-全部个人资料'}-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(personalWorkspace(), null, 2));
       setToast('全部项目、当前编辑、足迹和旅居偏好已导出，可迁移到正式网站');
     } catch (error) { setToast(`导出失败：${error.message}`); }
   }
@@ -1171,8 +1177,9 @@ export default function App() {
       const checked = validateWorkspace(incoming, loadedCities);
       for (const candidate of parsed.plans) calculatePlan(candidate, mergeCustomAttractions(loadedCities, candidate.customAttractions), rates);
       // Keep a portable copy before replacing the browser's complete workspace.
-      download(`途算-导入前备份-${Date.now()}.json`, JSON.stringify(personalWorkspace(), null, 2));
+      download(`${locale === 'en' ? 'Wayfarer-before-import' : '途算-导入前备份'}-${Date.now()}.json`, JSON.stringify(personalWorkspace(), null, 2));
       restoreWorkspace(localStorage, checked.records);
+      applyLocale(checked.records['tusuan-language'] || locale);
       setProjects(checked.workspace.projects);
       setActiveProjectId(checked.workspace.activeId);
       setPlan(checked.current);
@@ -1297,9 +1304,8 @@ export default function App() {
           <span className="brand-mark">
             <Compass size={29} strokeWidth={1.3} />
           </span>
-          <strong>途算</strong>
-          <span className="brand-divider" />
-          <span className="brand-en">WAYFARER</span>
+          <strong translate="no">{locale === 'en' ? 'Wayfarer' : '途算'}</strong>
+          {locale === 'zh' && <><span className="brand-divider" /><span className="brand-en">WAYFARER</span></>}
         </a>
         <nav
           className={mobileNav ? "main-nav is-open" : "main-nav"}
@@ -1354,6 +1360,7 @@ export default function App() {
           </button>
         </nav>
         <div className="header-right">
+          <LanguageSwitch />
           <CurrencySelect label="显示币种" value={displayCurrency} currencies={availableCurrencies} compact
               onChange={(code) => {
                 if (independentModule) {
@@ -2541,12 +2548,12 @@ export default function App() {
                       )}
                     </button>
                     <div>
-                      <small>{c.nameEn.toUpperCase()}</small>
+                      <small translate="no">{locale === 'en' ? c.name : c.nameEn.toUpperCase()}</small>
                       <h2>{c.name}</h2>
                     </div>
                   </div>
                   <div className="explore-card-body">
-                    <p>{c.tagline}</p>
+                    <p>{locale === 'en' ? c.taglineEn || `${c.contentCounts?.attractions ?? c.attractions.length} sights · ${c.contentCounts?.experiences ?? c.experiences?.filter(item => item.kind === 'experience').length ?? 0} local experiences` : c.tagline}</p>
                     <button
                       className="city-home-entry"
                       onClick={() => openCityHome(c.id)}
@@ -2663,7 +2670,7 @@ export default function App() {
               </span>
             </div>
           </div>
-          {!!catalog.airportCoverage?.airportCount && <section className="panel data-principles"><h2>全球机场与城市名录</h2><p>收录 {catalog.airportCoverage.airportCount.toLocaleString('zh-CN')} 座机场、{catalog.airportCoverage.airportCityCount.toLocaleString('zh-CN')} 个城市或机场所在地，覆盖 {catalog.airportCoverage.countryCount} 个国家与地区。</p><p>{catalog.airportCoverage.note}</p><p className="small muted">来源：<OutLink href="https://ourairports.com/data/">OurAirports · 公有领域机场数据</OutLink> · 采集于 {catalog.airportCoverage.generatedAt?.slice(0,10)}。每 7 天随现有维护任务刷新；失败保留上次完整数据。最新检查状态：{(status?.airportCoverage || catalog.airportCoverage).maintenance?.status === 'error' ? '更新失败，保留旧数据' : '已有有效快照'}。</p></section>}
+          {!!catalog.airportCoverage?.airportCount && <section className="panel data-principles"><h2>全球机场与城市名录</h2><p>收录 {catalog.airportCoverage.airportCount.toLocaleString(intlLocale())} 座机场、{catalog.airportCoverage.airportCityCount.toLocaleString(intlLocale())} 个城市或机场所在地，覆盖 {catalog.airportCoverage.countryCount} 个国家与地区。</p><p>{catalog.airportCoverage.note}</p><p className="small muted">来源：<OutLink href="https://ourairports.com/data/">OurAirports · 公有领域机场数据</OutLink> · 采集于 {catalog.airportCoverage.generatedAt?.slice(0,10)}。每 7 天随现有维护任务刷新；失败保留上次完整数据。最新检查状态：{(status?.airportCoverage || catalog.airportCoverage).maintenance?.status === 'error' ? '更新失败，保留旧数据' : '已有有效快照'}。</p></section>}
           <section className="panel data-principles">
             <h2>理解你的预算</h2>
             <div className="principle-grid">
@@ -2749,7 +2756,7 @@ export default function App() {
                       <small>
                         {s.successAt
                           ? "最近成功 " +
-                            new Date(s.successAt).toLocaleString("zh-CN")
+                            new Date(s.successAt).toLocaleString(intlLocale())
                           : "暂无成功采集，保留原参考值"}
                       </small>
                     </span>
@@ -2978,7 +2985,7 @@ export default function App() {
           onImportWorkspace={() => workspaceImportRef.current.click()}
           onExport={() =>
             download(
-              `途算-${activeProject?.name || "旅行项目"}.json`,
+              `${locale === 'en' ? 'Wayfarer' : '途算'}-${activeProject?.name || (locale === 'en' ? 'Travel project' : '旅行项目')}.json`,
               JSON.stringify(
                 { version: 2, name: activeProject?.name, plan },
                 null,
@@ -3109,9 +3116,9 @@ export default function App() {
             {saved.map((s) => (
               <div className="saved-item" key={s.id}>
                 <div>
-                  <strong>{s.name}</strong>
+                  <strong translate="no">{s.name}</strong>
                   <small>
-                    {new Date(s.savedAt).toLocaleDateString("zh-CN")} ·{" "}
+                    {new Date(s.savedAt).toLocaleDateString(intlLocale())} ·{" "}
                     {s.plan.stops.length} 座城市
                   </small>
                 </div>
@@ -3154,7 +3161,7 @@ export default function App() {
               className="primary-button"
               onClick={() =>
                 download(
-                  "途算-旅程.json",
+                  locale === 'en' ? 'Wayfarer-trip.json' : '途算-旅程.json',
                   JSON.stringify({ version: 1, plan }, null, 2),
                 )
               }

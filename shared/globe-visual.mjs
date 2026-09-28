@@ -40,7 +40,7 @@ const overlaps = (a, b, gap = 5) =>
   a.y + a.height + gap > b.y;
 export function layoutCityLabels(
   points,
-  { width, height, limit = 36, reserved = [] },
+  { width, height, limit = 36, reserved = [], labelForCity = city => city.name },
 ) {
   const accepted = [];
   const sorted = [...points].sort(
@@ -59,7 +59,8 @@ export function layoutCityLabels(
       point.y > height - 64
     )
       continue;
-    const w = labelWidth(point.city.name),
+    const label = String(labelForCity(point.city) || point.city.name || '');
+    const w = labelWidth(label),
       h = 26;
     const slots = [
       [point.x + 7, point.y - 12],
@@ -78,7 +79,7 @@ export function layoutCityLabels(
         accepted.some((item) => overlaps(box, item.box))
       )
         continue;
-      accepted.push({ ...point, box });
+      accepted.push({ ...point, label, box });
       break;
     }
   }

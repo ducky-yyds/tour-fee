@@ -1424,9 +1424,9 @@ function AttractionPicker({
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
               >
-                <option>全部</option>
+                <option value="全部">全部</option>
                 {categories.map((name) => (
-                  <option key={name}>{name}</option>
+                  <option key={name} value={name}>{name}</option>
                 ))}
               </select>
             </label>

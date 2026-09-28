@@ -1,6 +1,7 @@
 import EditableNumberInput from "./EditableNumberInput.jsx";
 import React, { useEffect, useRef, useState } from "react";
 import { assetUrl } from "./api.mjs";
+import { intlLocale } from './localization.mjs';
 import { X, MapPin, Check, ArrowUpRight, ImageOff } from "lucide-react";
 
 import { DestinationBrowser } from './DestinationSelect.jsx';
@@ -23,7 +24,7 @@ export const SYMBOLS = {
 export function money(amount, currency = "CNY", decimal = false) {
   return (
     (SYMBOLS[currency] || currency + " ") +
-    new Intl.NumberFormat("zh-CN", {
+    new Intl.NumberFormat(intlLocale(), {
       maximumFractionDigits: decimal ? 2 : 0,
     }).format(Number(amount) || 0)
   );
@@ -38,7 +39,7 @@ export function addDays(date, n) {
 }
 export function shortDate(date) {
   return date
-    ? new Intl.DateTimeFormat("zh-CN", {
+    ? new Intl.DateTimeFormat(intlLocale(), {
         month: "long",
         day: "numeric",
         timeZone: "UTC",

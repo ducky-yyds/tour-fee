@@ -40,6 +40,8 @@ import "./globe.css";
 import { DestinationBrowser } from "./DestinationSelect.jsx";
 import { isTravelDestination } from "../shared/airport-catalog.mjs";
 import EarthGlobe from "./EarthGlobe.jsx";
+import { useLocale } from "./locale.jsx";
+import { compareCities, destinationName, destinationCountryName } from "./destination-utils.mjs";
 
 const MODES = [
   { id: "explore", label: "探索目的地", icon: Compass },
@@ -92,7 +94,8 @@ export default function GlobePage({
   onOpenProject,
   onToast,
 }) {
-  const travelCities = useMemo(() => cities.filter(isTravelDestination), [cities]);
+  const { locale, t } = useLocale();
+  const travelCities = useMemo(() => cities.filter(isTravelDestination).sort((a, b) => compareCities(a, b, locale)), [cities, locale]);
   const travelCityIds = useMemo(
     () => new Set(travelCities.map((city) => city.id)),
     [travelCities],
@@ -242,7 +245,7 @@ export default function GlobePage({
         entry,
       ],
     };
-    savePassport(next, `已保存 ${selected.name} 的足迹`);
+    savePassport(next, locale === 'en' ? `Saved your visit to ${destinationName(selected, locale)}` : `已保存 ${selected.name} 的足迹`);
   }
   function removeVisit() {
     savePassport(
@@ -250,7 +253,7 @@ export default function GlobePage({
         version: 1,
         visits: passport.visits.filter((visit) => visit.cityId !== selected.id),
       },
-      `已取消 ${selected.name} 的打卡`,
+      locale === 'en' ? `Removed your visit to ${destinationName(selected, locale)}` : `已取消 ${selected.name} 的打卡`,
     );
   }
   async function importPassport(event) {
@@ -444,7 +447,7 @@ export default function GlobePage({
             <p className="gl-browse-hint">选择一个城市，在地球上找到它。</p>
             <DestinationBrowser cities={scopeCities} value={selectedId} compact autoFocus={false}
               onPick={(id) => { const city = scopeCities.find(item => item.id === id); if (city) chooseCity(city); }}
-              renderMeta={(city) => visited.has(city.id) ? '已留下足迹' : city.nameEn} />
+              renderMeta={(city) => visited.has(city.id) ? '已留下足迹' : null} />
           </div>
         </div>
         <aside className="gl-sidebar" aria-label="所选目的地">
@@ -461,11 +464,11 @@ export default function GlobePage({
                 ) : (
                   <Photo
                     image={selected.image}
-                    alt={`${selected.name}城市风景`}
+                    alt={locale === 'en' ? `${destinationName(selected, locale)} city scenery` : `${selected.name}城市风景`}
                   />
                 )}
                 <span>
-                  {selected.region} · {selected.country}
+                  {selected.region} · {destinationCountryName(selected, locale)}
                 </span>
                 {visited.has(selected.id) && (
                   <span className="gl-visited-badge">
@@ -475,8 +478,8 @@ export default function GlobePage({
                 )}
               </div>
               <div className="gl-city-body">
-                <p className="gl-city-english">{selected.nameEn}</p>
-                <h2>{selected.name}</h2>
+                {locale === 'zh' && <p className="gl-city-english">{selected.nameEn}</p>}
+                <h2>{destinationName(selected, locale)}</h2>
                 <p className="gl-city-tagline">
                   {selected.tagline ||
                     selected.description ||
@@ -538,8 +541,9 @@ export default function GlobePage({
                   </button>}
                   <p className="gl-active-project-note">
                     当前项目：
-                    {projects.find((project) => project.id === activeProjectId)
-                      ?.name || "我的旅行"}
+                    {projects.find((project) => project.id === activeProjectId)?.name
+                      ? <span translate="no">{projects.find((project) => project.id === activeProjectId).name}</span>
+                      : '我的旅行'}
                   </p>
                 </div>
               </div>
@@ -567,7 +571,7 @@ export default function GlobePage({
                     }}
                   >
                     {projects.map((project) => (
-                      <option key={project.id} value={project.id}>
+                      <option key={project.id} value={project.id} translate="no">
                         {project.name}
                       </option>
                     ))}
@@ -620,10 +624,11 @@ export default function GlobePage({
               </label>
               <textarea
                 id="gl-visit-note"
+                translate="no"
                 rows={2}
                 maxLength={200}
                 value={note}
-                placeholder="例如：第一次看见北极光的夜晚"
+                placeholder={t('例如：第一次看见北极光的夜晚')}
                 onChange={(event) => setNote(event.target.value)}
               />
               <div className="gl-visit-actions">
@@ -654,7 +659,7 @@ export default function GlobePage({
           <div className="gl-section-heading">
             <div>
               <span className="gl-eyebrow">A JOURNEY IN THE MAKING</span>
-              <h2>{selectedProject?.name || "等待下一段旅程"}</h2>
+              <h2 translate={selectedProject?.name ? 'no' : undefined}>{selectedProject?.name || "等待下一段旅程"}</h2>
             </div>
             <span>{route.legs.length} 段规划连接</span>
           </div>
@@ -677,7 +682,7 @@ export default function GlobePage({
                       )}
                     </span>
                     <div>
-                      <strong>{stop.city.name}</strong>
+                      <strong>{destinationName(stop.city, locale)}</strong>
                       <span>
                         {stop.kind === "origin" ? "出发地" : stop.label}
                         {stop.date
@@ -762,9 +767,9 @@ export default function GlobePage({
                     >
                       <Photo image={city.image} alt="" />
                       <span>
-                        <strong>{city.name}</strong>
-                        <small>{visit.visitedOn || city.country}</small>
-                        {visit.note && <em>{visit.note}</em>}
+                        <strong>{destinationName(city, locale)}</strong>
+                        <small>{visit.visitedOn || destinationCountryName(city, locale)}</small>
+                        {visit.note && <em translate="no">{visit.note}</em>}
                       </span>
                       <Check size={15} />
                     </button>

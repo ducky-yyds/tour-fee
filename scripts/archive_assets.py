@@ -115,6 +115,9 @@ def archive_lock(directory):
     directory = Path(directory).resolve()
     if within(ROOT, directory) and not within(ROOT / 'storage', directory):
         raise ValueError('In-project archives must stay under storage/, separate from source and public assets')
+    served_images = media_directory()
+    if within(directory, served_images) or within(served_images, directory):
+        raise ValueError('MEDIA_ROOT and ASSET_ARCHIVE_DIR must not overlap')
     directory.mkdir(parents=True, exist_ok=True)
     lock = directory / '.archive.lock'
     token = os.urandom(16).hex()

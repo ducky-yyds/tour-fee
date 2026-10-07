@@ -5,6 +5,7 @@ import { cityCostIsMissing } from './airport-catalog.mjs';
 import { resolveJourneyMode, islandSurfaceBudget, getJourneyModePreference } from './journey-mode.mjs';
 import { resolveExperienceSelections, experienceLineId, experiencePriceValues, experiencePriceNote, coveredMealSlots, MEAL_WEIGHTS, validateExperienceParty } from './experiences.mjs';
 import { applyExperienceDates } from './experience-discovery.mjs';
+import { buildJourneyWindows, lodgingDayIndexes } from './journey-windows.mjs';
 export { resolveExperienceSelections, experienceSelectionKey, experienceLineId, applyExperienceSelection, removeExperienceSelection } from './experiences.mjs';
 export { buildDayAssignments, optimizeDayRoute, getVisitDurationRange, suggestStopPlan, mergeCustomAttractions } from './itinerary.mjs';
 export const CATEGORY_LABELS = { intercity: '往返与城际', lodging: '住宿', food: '餐饮', transport: '市内交通', attractions: '景点门票', experiences: '特色体验', transfer: '车站与机场接驳', utilities: '水电网络', misc: '日常杂费', insurance: '旅行保险', connectivity: '通信上网', visa: '签证与入境', reserve: '机动预算' };
@@ -104,6 +105,9 @@ export function calculatePlan(plan, cities, rates) {
   convertCurrency(1, 'CNY', currency, rates);
   const stay = plan.mode === 'stay';
   const nights = stay ? days : Math.max(days - 1, 0);
+  const journeyWindows = buildJourneyWindows({ ...plan, stops }, cities);
+  const lodgingDaysByStop = stops.map((stop, index) => lodgingDayIndexes(stop, index, stops.length, journeyWindows[index], { stay }));
+  const lodgingNights = lodgingDaysByStop.reduce((sum, indexes) => sum + indexes.length, 0);
   const lines = [], legs = [], warnings = [];
   let confirmedCount = 0;
   const add = (data) => {
@@ -174,10 +178,38 @@ export function calculatePlan(plan, cities, rates) {
     const gatewayNotes = [from,to].filter(city => city.gatewayTransfer).map(city => `${city.name}：${city.gatewayTransfer.note}`).join(' ');
     add({ id: `transfer-${index}`, category: 'transfer', label: `${from.name} → ${to.name} · 两端机场接驳`, cityId: to.id, quantity: travelers, unit: '人 / 两端', values: transferValues, sourceType: 'allowance', ...metadata, note: `${gatewayNotes} 按两端机场接驳预留；酒店报价已含接送或无需接驳时可改为 0。市内交通预算不含这部分。`.trim() });
   };
+  // Pass validity follows calendar days across the whole trip, including
+  // repeated visits to the same city. Identical pass names in other cities
+  // remain independent products.
+  const assignedDaysByStop = stops.map(stop => new Map(buildDayAssignments(stop, stop.city).flatMap((ids, day) => ids.map(id => [id, day]))));
+  const passVisits = new Map(), paidPasses = new Set();
+  let passDayOffset = 0;
+  stops.forEach((stop, index) => {
+    for (const attractionId of stop.attractionIds) {
+      const price = stop.city.attractions.find(a => a.id === attractionId).price;
+      if (!price.passGroup) continue;
+      const key = `${stop.cityId}:${price.passGroup}`;
+      const validity = Number.isInteger(price.passValidityDays) && price.passValidityDays > 0 ? price.passValidityDays : 1;
+      const group = passVisits.get(key) || { days: new Set(), validity, windows: new Map() };
+      group.validity = Math.min(group.validity, validity);
+      group.days.add(passDayOffset + (assignedDaysByStop[index].get(attractionId) ?? 0));
+      passVisits.set(key, group);
+    }
+    passDayOffset += stop.days;
+  });
+  for (const group of passVisits.values()) {
+    let start = -Infinity;
+    for (const day of [...group.days].sort((a, b) => a - b)) {
+      if (day >= start + group.validity) start = day;
+      group.windows.set(day, start);
+    }
+  }
   stops.forEach((stop, index) => {
     const city = stop.city;
     addLeg(previousCity, city, index, addDays(plan.departureDate, elapsed));
-    const stopNights = stay ? stop.days : stop.days - (index === stops.length - 1 ? 1 : 0);
+    const lodgingDays = lodgingDaysByStop[index], stopNights = lodgingDays.length;
+    const transitNights = (stay ? stop.days : stop.days - (index === stops.length - 1 ? 1 : 0)) - stopNights;
+    const transitNote = transitNights ? ` 已扣除 ${transitNights} 晚抵达前或跨夜交通占用的目的地住宿；卧铺票种需核对，需另订中转酒店时请补充实际费用。` : '';
     if (city.greenTax) add({ id:`stop-${index}-green-tax`, category:'lodging', cityId:city.id, label:`${city.name} · Green Tax 住宿税预留`, quantity:stopNights*travelers, unit:'成人夜', values:[city.greenTax.low,city.greenTax.high,city.greenTax.high], nativeCurrency:city.greenTax.currency, sourceType:'allowance', sourceName:'按官方税率的规划预留', sourceUrl:city.greenTax.sourceUrl, checkedAt:city.greenTax.checkedAt, note:city.greenTax.note });
     const basis = { cityId: city.id, nativeCurrency: city.currency, checkedAt: city.budgetBasis?.updatedAt, sourceType: 'editorial-estimate', sourceName: '城市消费预算区间', note: city.budgetBasis?.note || '人工维护的规划区间；不代表当前可预订价格。' };
     const preference = (category, fallback, monthly = false) => {
@@ -186,16 +218,17 @@ export function calculatePlan(plan, cities, rates) {
       const value = finite(amount, '每日费用偏好', 0, 1e7) * (monthly ? 30 : 1);
       return { values: [value, value, value], missingPrice: false, sourceType: 'user-preference', sourceName: '你的每日费用偏好', checkedAt: null, note: `按你填写的 ${amount} ${city.currency} / ${category === 'lodging' ? '间夜' : category === 'utilities' ? '间天' : '人天'} 计算${monthly ? '，以 30 天折算月度金额' : ''}；这是预算目标，不是已核实成交价格。${city.budgetCurrencyOnly ? ' USD 只是你填写预算的币种，不代表该地的法定货币。' : ''}` };
     };
-    const links = bookingLinks({ origin: previousCity, destination: city, departureDate: addDays(plan.departureDate, elapsed), returnDate: addDays(plan.departureDate, elapsed + stopNights), travelers, rooms });
+    const links = bookingLinks({ origin: previousCity, destination: city, departureDate: addDays(plan.departureDate, elapsed + (lodgingDays[0] ?? 0)), returnDate: addDays(plan.departureDate, elapsed + (lodgingDays.at(-1) ?? -1) + 1), travelers, rooms });
     const hotel = stop.experiences.find(row => row.experience.kind === 'hotel');
     if (hotel) {
       const { experience, option, selection } = hotel;
-      add({ id: `stop-${index}-lodging`, category: 'lodging', label: `${city.name} · ${experience.name} · ${option.name}`, cityId: city.id, experienceId: experience.id, optionId: option.id, quantity: stopNights * rooms, unit: '间夜', values: experiencePriceValues(option), nativeCurrency: option.currency, sourceType: option.type, sourceName: option.sourceName || experience.provider || experience.name, sourceUrl: option.sourceUrl || experience.sourceUrl, bookingUrl: experience.bookingUrl, checkedAt: option.checkedAt ?? (option.type === 'official' ? experience.checkedAt : null), note: `${experiencePriceNote(experience, option)} 本站 ${stopNights} 晚 × ${rooms} 间房，已替换城市住宿参考预算。${stopNights === 0 ? '当天往返没有住宿夜数，不计酒店费用。' : ''}`, selection });
+      add({ id: `stop-${index}-lodging`, category: 'lodging', label: `${city.name} · ${experience.name} · ${option.name}`, cityId: city.id, experienceId: experience.id, optionId: option.id, quantity: stopNights * rooms, lodgingDays, unit: '间夜', values: experiencePriceValues(option), nativeCurrency: option.currency, sourceType: option.type, sourceName: option.sourceName || experience.provider || experience.name, sourceUrl: option.sourceUrl || experience.sourceUrl, bookingUrl: experience.bookingUrl, checkedAt: option.checkedAt ?? (option.type === 'official' ? experience.checkedAt : null), note: `${experiencePriceNote(experience, option)} 本站 ${stopNights} 晚 × ${rooms} 间房，已替换城市住宿参考预算。${stopNights === 0 ? '本站没有可入住夜数，不计酒店费用。' : ''}${transitNote}`, selection });
       if (stopNights === 0) warnings.push(`${city.name}所选酒店没有对应住宿夜数，当前未计住宿；如需入住请增加停留天数。`);
     } else if (stay) {
       add({ ...basis, id: `stop-${index}-lodging`, category: 'lodging', label: `${city.name} · 月租折算`, quantity: stop.days / 30 * rooms, unit: '间 / 30天', sourceUrl: links.hotels, note: `${basis.note} 按 30 天月租线性折算；短租溢价、押金及清洁费未包含，需按实际合同调整。`, ...preference('lodging', city.monthly.rent, true) });
     } else {
-      add({ ...basis, id: `stop-${index}-lodging`, category: 'lodging', label: `${city.name} · ${stopNights} 晚住宿`, quantity: stopNights * rooms, unit: '间夜', sourceUrl: stopNights > 0 ? links.hotels : null, ...preference('lodging', city.daily.lodging) });
+      const model = preference('lodging', city.daily.lodging);
+      add({ ...basis, id: `stop-${index}-lodging`, category: 'lodging', label: `${city.name} · ${stopNights} 晚住宿`, quantity: stopNights * rooms, lodgingDays, unit: '间夜', sourceUrl: stopNights > 0 ? links.hotels : null, ...model, note: `${model.note || basis.note}${transitNote}` });
     }
     if (stay) add({ ...basis, id: `stop-${index}-utilities`, category: 'utilities', label: `${city.name} · 水电网络`, quantity: hotel ? 0 : stop.days / 30 * rooms, unit: '间 / 30天', ...preference('utilities', city.monthly.utilities, true), note: hotel ? '已选择按晚计费的酒店，不再另加月租水电网络预算；如有另收费项目请填写实际金额。' : '月度水电与固定网络预留，按 30 天比例折算；含费租约可改为 0。' });
     const restaurants = stop.experiences.filter(row => row.experience.kind === 'restaurant');
@@ -212,20 +245,30 @@ export function calculatePlan(plan, cities, rates) {
       if (selection.scheduleStatus === 'needs-more-days') warnings.push(`${experience.name}尚未找到可行日程，费用已保留；建议增加停留天数后重新安排。`);
       if (selection.scheduleStatus === 'needs-date-check') warnings.push(`${experience.name}的活动日期或季节尚未确认；费用仅作愿望预算保留，未安排可执行时段，请核对官网并在详情中确认日期。`);
     }
-    const assignedDays = new Map(buildDayAssignments(stop, city).flatMap((ids, day) => ids.map(id => [id,day])));
-    const paidPasses = new Set();
-    for (const attractionId of stop.attractionIds) {
+    const assignedDays = assignedDaysByStop[index];
+    // Attach the purchase to the first chronological visit, even if the user
+    // reordered the selected IDs independently of the day assignments.
+    const pricedAttractions = [...stop.attractionIds].sort((a, b) => (assignedDays.get(a) ?? 0) - (assignedDays.get(b) ?? 0));
+    for (const attractionId of pricedAttractions) {
       const attraction = city.attractions.find(a => a.id === attractionId);
       const p = attraction.price;
-      const passKey = p.passGroup ? `${p.passGroup}:${assignedDays.get(attractionId) ?? 0}` : null;
+      // A reviewed multi-day pass starts on its first selected visit, not on
+      // arrival in the city. Unspecified passes retain the existing day-ticket rule.
+      const passGroupKey = `${city.id}:${p.passGroup}`;
+      const validityDays = passVisits.get(passGroupKey)?.validity || 1;
+      const passWindow = passVisits.get(passGroupKey)?.windows.get(elapsed + (assignedDays.get(attractionId) ?? 0));
+      const passKey = p.passGroup ? `${passGroupKey}:${passWindow}` : null;
       const included = passKey && paidPasses.has(passKey);
       if (passKey) paidPasses.add(passKey);
-      add({ id: `stop-${index}-attraction-${attraction.id}`, category: 'attractions', label: `${city.name} · ${attraction.name}${included ? '（已含当日通票）' : p.passGroup ? '（当日通票）' : ''}`, cityId: city.id, attractionId, quantity: included ? 0 : travelers, unit: included ? '已含当日通票' : '成人票', values: [p.low, p.high, p.high], nativeCurrency: p.currency || city.currency, missingPrice: p.type === 'missing' || p.missingPrice === true, sourceType: included ? 'included' : p.type, sourceName: p.sourceName || (p.type === 'free' ? '免费公共空间' : '景点预算'), sourceUrl: p.sourceUrl, checkedAt: p.checkedAt, note: `${p.note || ''} ${p.passGroup ? '相同通票组同一安排日只计一次，不同日期按日票分别预留；多日优惠票、有效期及额外参观点数量限制请在官网核对。' : ''} 按成人计费；舒适/高端档按票价区间上限预留，优惠资格、时段、预约和附加体验请核对官网。`.trim() });
+      const passLabel = validityDays > 1 ? '联票' : '当日通票';
+      add({ id: `stop-${index}-attraction-${attraction.id}`, category: 'attractions', label: `${city.name} · ${attraction.name}${included ? `（已含${passLabel}）` : p.passGroup ? `（${passLabel}）` : ''}`, cityId: city.id, attractionId, admissionPassGroup: p.passGroup || null, admissionPassValidityDays: p.passGroup ? validityDays : null, quantity: included ? 0 : travelers, unit: included ? `已含${passLabel}` : '成人票', values: [p.low, p.high, p.high], nativeCurrency: p.currency || city.currency, missingPrice: p.type === 'missing' || p.missingPrice === true, sourceType: included ? 'included' : p.type, sourceName: p.sourceName || (p.type === 'free' ? '免费公共空间' : '景点预算'), sourceUrl: p.sourceUrl, checkedAt: p.checkedAt, note: `${p.note || ''} ${p.passGroup ? validityDays > 1 ? `相同联票组从首次游览日起${validityDays}个自然日内只计一次，超出有效期重新预留；各馆入场次数及票种限制以官网为准。` : '相同通票组同一安排日只计一次，不同日期按日票分别预留；多日优惠票、有效期及额外参观点数量限制请在官网核对。' : ''} 按成人计费；舒适/高端档按票价区间上限预留，优惠资格、时段、预约和附加体验请核对官网。`.trim() });
     }
     if (stop.attractionIds.reduce((sum, id) => sum + (city.attractions.find(a => a.id === id)?.durationHours || 2), 0) > stop.days * 6) warnings.push(`${city.name}景点较密集，建议增加停留天数或减少景点。`);
     previousCity = city; elapsed += stop.days;
   });
-  if (plan.returnTrip !== false) addLeg(previousCity, byId.get(plan.originId), 'return', addDays(plan.departureDate, stay ? days : days - 1), true);
+  const firstReturnDay = journeyWindows.at(-1)?.findIndex(window => window.outbound) ?? -1;
+  const returnDay = stay ? days : firstReturnDay >= 0 ? days - stops.at(-1).days + firstReturnDay : days - 1;
+  if (plan.returnTrip !== false) addLeg(previousCity, byId.get(plan.originId), 'return', addDays(plan.departureDate, returnDay), true);
   add({ id: 'insurance', category: 'insurance', label: '旅行保险预留', quantity: days * travelers, unit: '人天', values: [3, 8, 20], sourceType: 'allowance', note: '预算占位，非保险产品报价。请按目的地、年龄、活动和实际保单改写。' });
   add({ id: 'connectivity', category: 'connectivity', label: '手机上网预留', quantity: travelers * Math.ceil(days / 30), unit: '人 / 30天以内', values: [30, 100, 250], sourceType: 'allowance', note: '按每人每 30 天一个套餐预留，非运营商报价；已有漫游或本地套餐可改为 0。' });
   add({ id: 'visa', category: 'visa', label: '签证与入境费用 · 待填写', quantity: travelers, unit: '人', values: [0, 0, 0], sourceType: 'excluded', note: '未获取国籍、居留身份和签证类型，默认不计入；请核对每一目的地官方要求并填写团队总额。0 不代表免签。' });
@@ -255,7 +298,7 @@ export function calculatePlan(plan, cities, rates) {
   if (plan.departureDate < new Date().toISOString().slice(0, 10)) warnings.push('出发日期已过去；此预算可用于复盘，预订前请更新日期。');
   const missingCosts = lines.filter(line => line.missingPrice).map(({ id, category, cityId, label, quantity, unit, nativeCurrency }) => ({ id, category, cityId, label, quantity, unit, nativeCurrency }));
   if (missingCosts.length) warnings.push(`预算尚不完整：有 ${missingCosts.length} 项当地费用待填写；当前总额及机动预算仅包含已知金额，缺失项目不是免费。`);
-  return { incomplete: missingCosts.length > 0, missingCosts, knownSubtotal: total, total, low, high, subtotal, perPerson: round(total / travelers), perDay: round(total / days), perPersonPerDay: round(total / travelers / days), days, nights, currency, lines, legs, categories, costGroups, warnings, confirmedCount, confirmedAmount: round(lines.filter(l => l.confirmed).reduce((s, l) => s + l.amount, 0)), estimatedCount: lines.length - confirmedCount, endDate: addDays(plan.departureDate, stay ? days : days - 1) };
+  return { incomplete: missingCosts.length > 0, missingCosts, knownSubtotal: total, total, low, high, subtotal, perPerson: round(total / travelers), perDay: round(total / days), perPersonPerDay: round(total / travelers / days), days, nights, lodgingNights, transitNights: Math.max(0, nights - lodgingNights), currency, lines, legs, categories, costGroups, warnings, confirmedCount, confirmedAmount: round(lines.filter(l => l.confirmed).reduce((s, l) => s + l.amount, 0)), estimatedCount: lines.length - confirmedCount, endDate: addDays(plan.departureDate, stay ? days : days - 1) };
 }
 export function generateItinerary(plan, cities, rates) {
   validatePlan(plan, cities);

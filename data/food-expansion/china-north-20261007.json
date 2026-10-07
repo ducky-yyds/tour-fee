@@ -1,0 +1,3667 @@
+[
+  {
+    "id": "food-chengde-buckwheat",
+    "cityIds": [
+      "chengde"
+    ],
+    "name": "荞面饸饹",
+    "nameEn": "Buckwheat Hele Noodles",
+    "localName": "荞面饸饹 · Buckwheat Hele Noodles",
+    "description": "细长荞麦面常浇热卤，口感结实，适合作为一碗正餐。",
+    "article": "Buckwheat Hele Noodles",
+    "articleScope": "dish",
+    "photoQuery": "Hele noodles",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Buckwheat_Hele_Noodles"
+    },
+    "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+    "sourceReferences": [
+      {
+        "name": "lywh.chengde.gov.cn",
+        "url": "https://lywh.chengde.gov.cn/col/col268/index.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.chengde.gov.cn",
+        "url": "https://www.chengde.gov.cn/art/2022/8/5/art_360_868409.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Chengde",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "chengde": [
+        {
+          "name": "二仙居小吃街",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%BE%B7%20%E4%BA%8C%E4%BB%99%E5%B1%85%E5%B0%8F%E5%90%83%E8%A1%97%20%E8%8D%9E%E9%9D%A2%E9%A5%B8%E9%A5%B9",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-chengde-oat",
+    "cityIds": [
+      "chengde"
+    ],
+    "name": "莜面窝子",
+    "nameEn": "Youmian Oat Noodle Rolls",
+    "localName": "莜面窝子 · Youmian Oat Noodle Rolls",
+    "description": "薄莜面卷成蜂窝状蒸熟，蘸汁或配炖菜食用；多人分享一笼时另加蔬菜。",
+    "article": "Youmian Oat Noodle Rolls",
+    "articleScope": "dish",
+    "photoQuery": "Youmian kaolao",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Youmian_Oat_Noodle_Rolls"
+    },
+    "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+    "sourceReferences": [
+      {
+        "name": "lywh.chengde.gov.cn",
+        "url": "https://lywh.chengde.gov.cn/col/col268/index.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.chengde.gov.cn",
+        "url": "https://www.chengde.gov.cn/art/2022/8/5/art_360_868409.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Chengde",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "chengde": [
+        {
+          "name": "南营子大街家常菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%BE%B7%20%E5%8D%97%E8%90%A5%E5%AD%90%E5%A4%A7%E8%A1%97%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%20%E8%8E%9C%E9%9D%A2%E7%AA%9D%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-chengde-lamb-soup",
+    "cityIds": [
+      "chengde"
+    ],
+    "name": "平泉羊汤",
+    "nameEn": "Pingquan Lamb Soup",
+    "localName": "平泉羊汤 · Pingquan Lamb Soup",
+    "description": "以羊肉羊杂熬出热汤，饼和配菜通常另点；先确认是否接受内脏。",
+    "article": "Pingquan Lamb Soup",
+    "articleScope": "dish",
+    "photoQuery": "Chinese lamb soup",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pingquan_Lamb_Soup"
+    },
+    "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+    "sourceReferences": [
+      {
+        "name": "lywh.chengde.gov.cn",
+        "url": "https://lywh.chengde.gov.cn/col/col268/index.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.chengde.gov.cn",
+        "url": "https://www.chengde.gov.cn/art/2022/8/5/art_360_868409.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Chengde",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 18.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "chengde": [
+        {
+          "name": "老城平泉羊汤店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%BE%B7%20%E8%80%81%E5%9F%8E%E5%B9%B3%E6%B3%89%E7%BE%8A%E6%B1%A4%E5%BA%97%20%E5%B9%B3%E6%B3%89%E7%BE%8A%E6%B1%A4",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-chengde-donkey-roll",
+    "cityIds": [
+      "chengde"
+    ],
+    "name": "驴打滚",
+    "nameEn": "Ludagun Soybean Rice Rolls",
+    "localName": "驴打滚 · Ludagun Soybean Rice Rolls",
+    "description": "糯米卷裹豆面、夹豆沙，适合买一小份作茶点，留意当天制作与储存。",
+    "article": "Ludagun Soybean Rice Rolls",
+    "articleScope": "dish",
+    "photoQuery": "Ludagun",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ludagun_Soybean_Rice_Rolls"
+    },
+    "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+    "sourceReferences": [
+      {
+        "name": "lywh.chengde.gov.cn",
+        "url": "https://lywh.chengde.gov.cn/col/col268/index.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.chengde.gov.cn",
+        "url": "https://www.chengde.gov.cn/art/2022/8/5/art_360_868409.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Chengde",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "chengde": [
+        {
+          "name": "二仙居糕点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%BE%B7%20%E4%BA%8C%E4%BB%99%E5%B1%85%E7%B3%95%E7%82%B9%E9%93%BA%20%E9%A9%B4%E6%89%93%E6%BB%9A",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-chengde-almond-tea",
+    "cityIds": [
+      "chengde"
+    ],
+    "name": "杏仁茶",
+    "nameEn": "Apricot Kernel Sweet Tea",
+    "localName": "杏仁茶 · Apricot Kernel Sweet Tea",
+    "description": "塞外杏仁香气融入温热甜糊，可配酥饼作早餐；对坚果过敏者应先问配料。",
+    "article": "Apricot Kernel Sweet Tea",
+    "articleScope": "dish",
+    "photoQuery": "Chinese almond tea",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Apricot_Kernel_Sweet_Tea"
+    },
+    "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+    "sourceReferences": [
+      {
+        "name": "lywh.chengde.gov.cn",
+        "url": "https://lywh.chengde.gov.cn/col/col268/index.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.chengde.gov.cn",
+        "url": "https://www.chengde.gov.cn/art/2022/8/5/art_360_868409.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Chengde",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://lywh.chengde.gov.cn/col/col268/index.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "chengde": [
+        {
+          "name": "承德老城传统早点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%BE%B7%20%E6%89%BF%E5%BE%B7%E8%80%81%E5%9F%8E%E4%BC%A0%E7%BB%9F%E6%97%A9%E7%82%B9%E9%93%BA%20%E6%9D%8F%E4%BB%81%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-qinhuangdao-hun-pot",
+    "cityIds": [
+      "qinhuangdao"
+    ],
+    "name": "山海关浑锅",
+    "nameEn": "Shanhaiguan Mixed Hotpot",
+    "localName": "山海关浑锅 · Shanhaiguan Mixed Hotpot",
+    "description": "白菜、酸菜、肉片和海味在铜锅中煮出复合滋味，按多人共享一锅考虑，人少先问小份。",
+    "article": "Shanhaiguan Mixed Hotpot",
+    "articleScope": "dish",
+    "photoQuery": "Chinese copper hot pot",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shanhaiguan_Mixed_Hotpot"
+    },
+    "sourceUrl": "https://www.shgjq.com/",
+    "sourceReferences": [
+      {
+        "name": "www.shgjq.com",
+        "url": "https://www.shgjq.com/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Qinhuangdao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Beidaihe",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 50.0,
+      "high": 100.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.shgjq.com/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "qinhuangdao": [
+        {
+          "name": "山海关古城浑锅店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%20%E5%B1%B1%E6%B5%B7%E5%85%B3%E5%8F%A4%E5%9F%8E%E6%B5%91%E9%94%85%E5%BA%97%20%E5%B1%B1%E6%B5%B7%E5%85%B3%E6%B5%91%E9%94%85",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-qinhuangdao-miancha",
+    "cityIds": [
+      "qinhuangdao"
+    ],
+    "name": "面茶",
+    "nameEn": "Millet Sesame Paste Breakfast",
+    "localName": "面茶 · Millet Sesame Paste Breakfast",
+    "description": "热面糊配芝麻酱的咸香早点，与海港城市早餐文化相连，适合单碗配小烧饼。",
+    "article": "Millet Sesame Paste Breakfast",
+    "articleScope": "dish",
+    "photoQuery": "Miancha",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Millet_Sesame_Paste_Breakfast"
+    },
+    "sourceUrl": "https://www.shgjq.com/",
+    "sourceReferences": [
+      {
+        "name": "www.shgjq.com",
+        "url": "https://www.shgjq.com/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Qinhuangdao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Beidaihe",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.shgjq.com/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "qinhuangdao": [
+        {
+          "name": "山海关古城早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%20%E5%B1%B1%E6%B5%B7%E5%85%B3%E5%8F%A4%E5%9F%8E%E6%97%A9%E9%A4%90%E9%93%BA%20%E9%9D%A2%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-qinhuangdao-four-buns",
+    "cityIds": [
+      "qinhuangdao"
+    ],
+    "name": "四条包子",
+    "nameEn": "Sitiao Steamed Buns",
+    "localName": "四条包子 · Sitiao Steamed Buns",
+    "description": "关城老字号式包子常作为早餐或简餐，鲜肉馅和素馅按实际菜单选择。",
+    "article": "Sitiao Steamed Buns",
+    "articleScope": "dish",
+    "photoQuery": "Chinese baozi steamed buns",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sitiao_Steamed_Buns"
+    },
+    "sourceUrl": "https://www.shgjq.com/",
+    "sourceReferences": [
+      {
+        "name": "www.shgjq.com",
+        "url": "https://www.shgjq.com/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Qinhuangdao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Beidaihe",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.shgjq.com/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "qinhuangdao": [
+        {
+          "name": "山海关四条包子铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%20%E5%B1%B1%E6%B5%B7%E5%85%B3%E5%9B%9B%E6%9D%A1%E5%8C%85%E5%AD%90%E9%93%BA%20%E5%9B%9B%E6%9D%A1%E5%8C%85%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-qinhuangdao-seafood",
+    "cityIds": [
+      "qinhuangdao"
+    ],
+    "name": "渤海蒸海鲜",
+    "nameEn": "Bohai Steamed Seafood",
+    "localName": "渤海蒸海鲜 · Bohai Steamed Seafood",
+    "description": "蛤蜊、扇贝等按当天到货选择，清蒸便于品尝原味；按斤报价不等于一盘总价。",
+    "article": "Bohai Steamed Seafood",
+    "articleScope": "dish",
+    "photoQuery": "Steamed scallops China",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bohai_Steamed_Seafood"
+    },
+    "sourceUrl": "https://www.shgjq.com/",
+    "sourceReferences": [
+      {
+        "name": "www.shgjq.com",
+        "url": "https://www.shgjq.com/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Qinhuangdao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Beidaihe",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 40.0,
+      "high": 160.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.shgjq.com/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "qinhuangdao": [
+        {
+          "name": "海港区水产市场与海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%20%E6%B5%B7%E6%B8%AF%E5%8C%BA%E6%B0%B4%E4%BA%A7%E5%B8%82%E5%9C%BA%E4%B8%8E%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20%E6%B8%A4%E6%B5%B7%E8%92%B8%E6%B5%B7%E9%B2%9C",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-qinhuangdao-sesame-cake",
+    "cityIds": [
+      "qinhuangdao"
+    ],
+    "name": "芝麻烧饼",
+    "nameEn": "Sesame Shaobing",
+    "localName": "芝麻烧饼 · Sesame Shaobing",
+    "description": "外皮酥脆带芝麻香，可配羊汤或面茶；买现烤小份比一次购太多更合适。",
+    "article": "Sesame Shaobing",
+    "articleScope": "dish",
+    "photoQuery": "Shaobing sesame",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sesame_Shaobing"
+    },
+    "sourceUrl": "https://www.shgjq.com/",
+    "sourceReferences": [
+      {
+        "name": "www.shgjq.com",
+        "url": "https://www.shgjq.com/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Qinhuangdao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Beidaihe",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.shgjq.com/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "qinhuangdao": [
+        {
+          "name": "山海关古城烧饼铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%A6%E7%9A%87%E5%B2%9B%20%E5%B1%B1%E6%B5%B7%E5%85%B3%E5%8F%A4%E5%9F%8E%E7%83%A7%E9%A5%BC%E9%93%BA%20%E8%8A%9D%E9%BA%BB%E7%83%A7%E9%A5%BC",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-datong-knife-noodles",
+    "cityIds": [
+      "datong"
+    ],
+    "name": "大同刀削面",
+    "nameEn": "Datong Knife-cut Noodles",
+    "localName": "大同刀削面 · Datong Knife-cut Noodles",
+    "description": "面片外滑内韧，搭配猪肉卤、豆腐和卤蛋很常见；按一碗主食预留。",
+    "article": "Datong Knife-cut Noodles",
+    "articleScope": "dish",
+    "photoQuery": "Knife cut noodles",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Datong_Knife-cut_Noodles"
+    },
+    "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+    "sourceReferences": [
+      {
+        "name": "dt.gov.cn",
+        "url": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.dt.gov.cn",
+        "url": "https://www.dt.gov.cn/dtszf/tzggnr/202504/a8ebe399d79a444e828d7aa0dbaf6214.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Datong",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "datong": [
+        {
+          "name": "东方削面及古城面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%90%8C%20%E4%B8%9C%E6%96%B9%E5%89%8A%E9%9D%A2%E5%8F%8A%E5%8F%A4%E5%9F%8E%E9%9D%A2%E9%A6%86%20%E5%A4%A7%E5%90%8C%E5%88%80%E5%89%8A%E9%9D%A2",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-datong-shaomai",
+    "cityIds": [
+      "datong"
+    ],
+    "name": "大同烧麦",
+    "nameEn": "Datong Shaomai",
+    "localName": "大同烧麦 · Datong Shaomai",
+    "description": "薄皮花边包裹肉馅，蘸醋配热茶，按一笼或菜单标示的面粉两数点单。",
+    "article": "Datong Shaomai",
+    "articleScope": "dish",
+    "photoQuery": "Datong shaomai",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Datong_Shaomai"
+    },
+    "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+    "sourceReferences": [
+      {
+        "name": "dt.gov.cn",
+        "url": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.dt.gov.cn",
+        "url": "https://www.dt.gov.cn/dtszf/tzggnr/202504/a8ebe399d79a444e828d7aa0dbaf6214.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Datong",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 30.0,
+      "high": 75.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "datong": [
+        {
+          "name": "凤临阁及鼓楼周边烧麦店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%90%8C%20%E5%87%A4%E4%B8%B4%E9%98%81%E5%8F%8A%E9%BC%93%E6%A5%BC%E5%91%A8%E8%BE%B9%E7%83%A7%E9%BA%A6%E5%BA%97%20%E5%A4%A7%E5%90%8C%E7%83%A7%E9%BA%A6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-datong-liangfen",
+    "cityIds": [
+      "datong"
+    ],
+    "name": "浑源凉粉",
+    "nameEn": "Hunyuan Liangfen",
+    "localName": "浑源凉粉 · Hunyuan Liangfen",
+    "description": "凉粉配辣油、醋与豆干，凉爽酸辣；到浑源县游古建时可作午间小食。",
+    "article": "Hunyuan Liangfen",
+    "articleScope": "dish",
+    "photoQuery": "Hunyuan liangfen",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hunyuan_Liangfen"
+    },
+    "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+    "sourceReferences": [
+      {
+        "name": "dt.gov.cn",
+        "url": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.dt.gov.cn",
+        "url": "https://www.dt.gov.cn/dtszf/tzggnr/202504/a8ebe399d79a444e828d7aa0dbaf6214.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Datong",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "datong": [
+        {
+          "name": "浑源县鼓楼周边凉粉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%90%8C%20%E6%B5%91%E6%BA%90%E5%8E%BF%E9%BC%93%E6%A5%BC%E5%91%A8%E8%BE%B9%E5%87%89%E7%B2%89%E5%BA%97%20%E6%B5%91%E6%BA%90%E5%87%89%E7%B2%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-datong-yellow-cake",
+    "cityIds": [
+      "datong"
+    ],
+    "name": "黄米油炸糕",
+    "nameEn": "Fried Yellow Millet Cake",
+    "localName": "黄米油炸糕 · Fried Yellow Millet Cake",
+    "description": "黏软黄米面包豆馅后炸出酥皮，刚出锅很烫，适合少量分享。",
+    "article": "Fried Yellow Millet Cake",
+    "articleScope": "dish",
+    "photoQuery": "Shanxi fried millet cake",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fried_Yellow_Millet_Cake"
+    },
+    "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+    "sourceReferences": [
+      {
+        "name": "dt.gov.cn",
+        "url": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.dt.gov.cn",
+        "url": "https://www.dt.gov.cn/dtszf/tzggnr/202504/a8ebe399d79a444e828d7aa0dbaf6214.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Datong",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "datong": [
+        {
+          "name": "大同古城糕点与家常菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%90%8C%20%E5%A4%A7%E5%90%8C%E5%8F%A4%E5%9F%8E%E7%B3%95%E7%82%B9%E4%B8%8E%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%20%E9%BB%84%E7%B1%B3%E6%B2%B9%E7%82%B8%E7%B3%95",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-datong-copper-pot",
+    "cityIds": [
+      "datong"
+    ],
+    "name": "大同什锦铜火锅",
+    "nameEn": "Datong Copper Hotpot",
+    "localName": "大同什锦铜火锅 · Datong Copper Hotpot",
+    "description": "酥肉、丸子、烧肉和蔬菜在铜锅中层叠炖煮，按多人共享的一锅折算人均。",
+    "article": "Datong Copper Hotpot",
+    "articleScope": "dish",
+    "photoQuery": "Datong hot pot",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Datong_Copper_Hotpot"
+    },
+    "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+    "sourceReferences": [
+      {
+        "name": "dt.gov.cn",
+        "url": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.dt.gov.cn",
+        "url": "https://www.dt.gov.cn/dtszf/tzggnr/202504/a8ebe399d79a444e828d7aa0dbaf6214.shtml",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Datong",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 150.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://dt.gov.cn/dtszf/whlvn/whly.shtml",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "datong": [
+        {
+          "name": "古城鼓楼附近铜火锅店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%90%8C%20%E5%8F%A4%E5%9F%8E%E9%BC%93%E6%A5%BC%E9%99%84%E8%BF%91%E9%93%9C%E7%81%AB%E9%94%85%E5%BA%97%20%E5%A4%A7%E5%90%8C%E4%BB%80%E9%94%A6%E9%93%9C%E7%81%AB%E9%94%85",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-pingyao-beef",
+    "cityIds": [
+      "pingyao"
+    ],
+    "name": "平遥牛肉",
+    "nameEn": "Pingyao Beef",
+    "localName": "平遥牛肉 · Pingyao Beef",
+    "description": "盐卤慢煮后切片，肉纹紧密，适合作为冷盘与面食一起分享；真空特产与堂食单盘价不同。",
+    "article": "Pingyao Beef",
+    "articleScope": "dish",
+    "photoQuery": "Pingyao beef",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pingyao_Beef"
+    },
+    "sourceUrl": "https://www.pygc.com/single/13",
+    "sourceReferences": [
+      {
+        "name": "www.pygc.com",
+        "url": "https://www.pygc.com/single/13",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/812/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Pingyao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 30.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.pygc.com/single/13",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "pingyao": [
+        {
+          "name": "冠云牛肉门店与古城晋菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%81%A5%20%E5%86%A0%E4%BA%91%E7%89%9B%E8%82%89%E9%97%A8%E5%BA%97%E4%B8%8E%E5%8F%A4%E5%9F%8E%E6%99%8B%E8%8F%9C%E9%A6%86%20%E5%B9%B3%E9%81%A5%E7%89%9B%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-pingyao-wantuo",
+    "cityIds": [
+      "pingyao"
+    ],
+    "name": "平遥碗托",
+    "nameEn": "Pingyao Wantuo",
+    "localName": "平遥碗托 · Pingyao Wantuo",
+    "description": "荞麦或面粉糊蒸熟切条，可凉拌也可炒食，蒜醋香气鲜明。",
+    "article": "Pingyao Wantuo",
+    "articleScope": "dish",
+    "photoQuery": "Pingyao wantuo",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pingyao_Wantuo"
+    },
+    "sourceUrl": "https://www.pygc.com/single/13",
+    "sourceReferences": [
+      {
+        "name": "www.pygc.com",
+        "url": "https://www.pygc.com/single/13",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/812/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Pingyao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.pygc.com/single/13",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "pingyao": [
+        {
+          "name": "南大街与北大街碗托铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%81%A5%20%E5%8D%97%E5%A4%A7%E8%A1%97%E4%B8%8E%E5%8C%97%E5%A4%A7%E8%A1%97%E7%A2%97%E6%89%98%E9%93%BA%20%E5%B9%B3%E9%81%A5%E7%A2%97%E6%89%98",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-pingyao-kaolao",
+    "cityIds": [
+      "pingyao"
+    ],
+    "name": "莜面栲栳栳",
+    "nameEn": "Youmian Kaolaolao",
+    "localName": "莜面栲栳栳 · Youmian Kaolaolao",
+    "description": "蜂窝形莜面卷蒸好后蘸卤食用，作为主食按笼点，通常适合两人分享。",
+    "article": "Youmian Kaolaolao",
+    "articleScope": "dish",
+    "photoQuery": "Youmian kaolao",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Youmian_Kaolaolao"
+    },
+    "sourceUrl": "https://www.pygc.com/single/13",
+    "sourceReferences": [
+      {
+        "name": "www.pygc.com",
+        "url": "https://www.pygc.com/single/13",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/812/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Pingyao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.pygc.com/single/13",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "pingyao": [
+        {
+          "name": "古城晋菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%81%A5%20%E5%8F%A4%E5%9F%8E%E6%99%8B%E8%8F%9C%E9%A6%86%20%E8%8E%9C%E9%9D%A2%E6%A0%B2%E6%A0%B3%E6%A0%B3",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-pingyao-long-yam",
+    "cityIds": [
+      "pingyao"
+    ],
+    "name": "长山药甜品",
+    "nameEn": "Pingyao Chinese Yam Dessert",
+    "localName": "长山药甜品 · Pingyao Chinese Yam Dessert",
+    "description": "当地长山药可蒸、拔丝或做甜品，不同做法含糖和份量差异较大，先选适合自己的版本。",
+    "article": "Pingyao Chinese Yam Dessert",
+    "articleScope": "dish",
+    "photoQuery": "Chinese yam dessert",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pingyao_Chinese_Yam_Dessert"
+    },
+    "sourceUrl": "https://www.pygc.com/single/13",
+    "sourceReferences": [
+      {
+        "name": "www.pygc.com",
+        "url": "https://www.pygc.com/single/13",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/812/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Pingyao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 50.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.pygc.com/single/13",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "pingyao": [
+        {
+          "name": "南大街晋菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%81%A5%20%E5%8D%97%E5%A4%A7%E8%A1%97%E6%99%8B%E8%8F%9C%E9%A6%86%20%E9%95%BF%E5%B1%B1%E8%8D%AF%E7%94%9C%E5%93%81",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-pingyao-youcha",
+    "cityIds": [
+      "pingyao"
+    ],
+    "name": "油茶",
+    "nameEn": "Shanxi Roasted Flour Tea",
+    "localName": "油茶 · Shanxi Roasted Flour Tea",
+    "description": "炒面与芝麻等配料冲成温热糊状，是古城早餐或茶点的一种，先问是否含坚果。",
+    "article": "Shanxi Roasted Flour Tea",
+    "articleScope": "dish",
+    "photoQuery": "Chinese youcha flour tea",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shanxi_Roasted_Flour_Tea"
+    },
+    "sourceUrl": "https://www.pygc.com/single/13",
+    "sourceReferences": [
+      {
+        "name": "www.pygc.com",
+        "url": "https://www.pygc.com/single/13",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/812/",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Pingyao",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 15.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.pygc.com/single/13",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "pingyao": [
+        {
+          "name": "古城早点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E9%81%A5%20%E5%8F%A4%E5%9F%8E%E6%97%A9%E7%82%B9%E9%93%BA%20%E6%B2%B9%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hohhot-shaomai",
+    "cityIds": [
+      "hohhot"
+    ],
+    "name": "青城烧麦",
+    "nameEn": "Hohhot Shaomai",
+    "localName": "青城烧麦 · Hohhot Shaomai",
+    "description": "薄皮羊肉烧麦配浓茶，是青城有代表性的早饭；按一两面粉计量的店家要先问个数。",
+    "article": "Hohhot Shaomai",
+    "articleScope": "dish",
+    "photoQuery": "Hohhot shaomai",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hohhot_Shaomai"
+    },
+    "sourceUrl": "https://wlt.nmg.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "wlt.nmg.gov.cn",
+        "url": "https://wlt.nmg.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hohhot",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "szb.nmgnews.com.cn",
+        "url": "https://szb.nmgnews.com.cn/bfxb/resfile/2026-04-30/04/bfxb2026043004.pdf",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 60.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlt.nmg.gov.cn/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hohhot": [
+        {
+          "name": "麦香村、老绥元与大召周边烧麦馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%20%E9%BA%A6%E9%A6%99%E6%9D%91%E3%80%81%E8%80%81%E7%BB%A5%E5%85%83%E4%B8%8E%E5%A4%A7%E5%8F%AC%E5%91%A8%E8%BE%B9%E7%83%A7%E9%BA%A6%E9%A6%86%20%E9%9D%92%E5%9F%8E%E7%83%A7%E9%BA%A6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hohhot-milk-tea",
+    "cityIds": [
+      "hohhot"
+    ],
+    "name": "咸奶茶",
+    "nameEn": "Mongolian Salted Milk Tea",
+    "localName": "咸奶茶 · Mongolian Salted Milk Tea",
+    "description": "砖茶与牛奶煮出的咸奶茶常配炒米和奶食，按一壶或一碗的菜单单位比较。",
+    "article": "Mongolian Salted Milk Tea",
+    "articleScope": "dish",
+    "photoQuery": "Suutei tsai",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mongolian_Salted_Milk_Tea"
+    },
+    "sourceUrl": "https://wlt.nmg.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "wlt.nmg.gov.cn",
+        "url": "https://wlt.nmg.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hohhot",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "szb.nmgnews.com.cn",
+        "url": "https://szb.nmgnews.com.cn/bfxb/resfile/2026-04-30/04/bfxb2026043004.pdf",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlt.nmg.gov.cn/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hohhot": [
+        {
+          "name": "塞上老街蒙餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%20%E5%A1%9E%E4%B8%8A%E8%80%81%E8%A1%97%E8%92%99%E9%A4%90%E9%A6%86%20%E5%92%B8%E5%A5%B6%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hohhot-hand-lamb",
+    "cityIds": [
+      "hohhot"
+    ],
+    "name": "手把肉",
+    "nameEn": "Boiled Lamb on the Bone",
+    "localName": "手把肉 · Boiled Lamb on the Bone",
+    "description": "清煮羊肉带骨上桌，蘸料可选，适合多人分享；按重量点菜并先确认是生重还是熟重。",
+    "article": "Boiled Lamb on the Bone",
+    "articleScope": "dish",
+    "photoQuery": "Mongolian boiled lamb",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Boiled_Lamb_on_the_Bone"
+    },
+    "sourceUrl": "https://wlt.nmg.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "wlt.nmg.gov.cn",
+        "url": "https://wlt.nmg.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hohhot",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "szb.nmgnews.com.cn",
+        "url": "https://szb.nmgnews.com.cn/bfxb/resfile/2026-04-30/04/bfxb2026043004.pdf",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 70.0,
+      "high": 160.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlt.nmg.gov.cn/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hohhot": [
+        {
+          "name": "额尔敦及市区蒙餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%20%E9%A2%9D%E5%B0%94%E6%95%A6%E5%8F%8A%E5%B8%82%E5%8C%BA%E8%92%99%E9%A4%90%E9%A6%86%20%E6%89%8B%E6%8A%8A%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hohhot-cheese",
+    "cityIds": [
+      "hohhot"
+    ],
+    "name": "奶皮子",
+    "nameEn": "Urume Milk Skin",
+    "localName": "奶皮子 · Urume Milk Skin",
+    "description": "浓缩乳脂形成的奶皮子奶香足，可与奶茶、小米或糕点搭配，少量尝试即可。",
+    "article": "Urume Milk Skin",
+    "articleScope": "dish",
+    "photoQuery": "Mongolian urum",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Urume_Milk_Skin"
+    },
+    "sourceUrl": "https://wlt.nmg.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "wlt.nmg.gov.cn",
+        "url": "https://wlt.nmg.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hohhot",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "szb.nmgnews.com.cn",
+        "url": "https://szb.nmgnews.com.cn/bfxb/resfile/2026-04-30/04/bfxb2026043004.pdf",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlt.nmg.gov.cn/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hohhot": [
+        {
+          "name": "宽巷子奶食铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%20%E5%AE%BD%E5%B7%B7%E5%AD%90%E5%A5%B6%E9%A3%9F%E9%93%BA%20%E5%A5%B6%E7%9A%AE%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hohhot-oat",
+    "cityIds": [
+      "hohhot"
+    ],
+    "name": "莜面",
+    "nameEn": "Inner Mongolian Oat Noodles",
+    "localName": "莜面 · Inner Mongolian Oat Noodles",
+    "description": "莜面可卷、搓或拌，常搭配土豆、蘑菇和肉卤，适合作为一份扎实主食。",
+    "article": "Inner Mongolian Oat Noodles",
+    "articleScope": "dish",
+    "photoQuery": "Youmian noodles",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Inner_Mongolian_Oat_Noodles"
+    },
+    "sourceUrl": "https://wlt.nmg.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "wlt.nmg.gov.cn",
+        "url": "https://wlt.nmg.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hohhot",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "szb.nmgnews.com.cn",
+        "url": "https://szb.nmgnews.com.cn/bfxb/resfile/2026-04-30/04/bfxb2026043004.pdf",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlt.nmg.gov.cn/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hohhot": [
+        {
+          "name": "市区莜面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%20%E5%B8%82%E5%8C%BA%E8%8E%9C%E9%9D%A2%E9%A6%86%20%E8%8E%9C%E9%9D%A2",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hailar-hand-lamb",
+    "cityIds": [
+      "hailar"
+    ],
+    "name": "呼伦贝尔手把肉",
+    "nameEn": "Hulunbuir Boiled Lamb",
+    "localName": "呼伦贝尔手把肉 · Hulunbuir Boiled Lamb",
+    "description": "带骨羊肉清煮后蘸料食用，风味来自原料与火候；按斤点菜时确认熟重、配菜与总价。",
+    "article": "Hulunbuir Boiled Lamb",
+    "articleScope": "dish",
+    "photoQuery": "Mongolian boiled lamb",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hulunbuir_Boiled_Lamb"
+    },
+    "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+    "sourceReferences": [
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessGazette/show/8450.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hailar",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 70.0,
+      "high": 170.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hailar": [
+        {
+          "name": "海拉尔蒙餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%C2%B7%E6%B5%B7%E6%8B%89%E5%B0%94%20%E6%B5%B7%E6%8B%89%E5%B0%94%E8%92%99%E9%A4%90%E9%A6%86%20%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%E6%89%8B%E6%8A%8A%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hailar-buuz",
+    "cityIds": [
+      "hailar"
+    ],
+    "name": "布里亚特包子",
+    "nameEn": "Buryat Buuz",
+    "localName": "布里亚特包子 · Buryat Buuz",
+    "description": "开口或褶口大包子里包牛羊肉馅，汤汁较足，刚蒸好时先小口咬开。",
+    "article": "Buryat Buuz",
+    "articleScope": "dish",
+    "photoQuery": "Buryat buuz",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Buryat_Buuz"
+    },
+    "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+    "sourceReferences": [
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessGazette/show/8450.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hailar",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 60.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hailar": [
+        {
+          "name": "海拉尔布里亚特包子馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%C2%B7%E6%B5%B7%E6%8B%89%E5%B0%94%20%E6%B5%B7%E6%8B%89%E5%B0%94%E5%B8%83%E9%87%8C%E4%BA%9A%E7%89%B9%E5%8C%85%E5%AD%90%E9%A6%86%20%E5%B8%83%E9%87%8C%E4%BA%9A%E7%89%B9%E5%8C%85%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hailar-milk-pot",
+    "cityIds": [
+      "hailar"
+    ],
+    "name": "蒙古锅茶",
+    "nameEn": "Mongolian Pot Tea",
+    "localName": "蒙古锅茶 · Mongolian Pot Tea",
+    "description": "奶茶加入炒米、奶食或肉干，既是热饮也是分享式食物，按一锅的人数折算预算。",
+    "article": "Mongolian Pot Tea",
+    "articleScope": "dish",
+    "photoQuery": "Mongolian pot tea",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mongolian_Pot_Tea"
+    },
+    "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+    "sourceReferences": [
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessGazette/show/8450.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hailar",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hailar": [
+        {
+          "name": "诺敏塔拉奶茶馆及市区蒙餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%C2%B7%E6%B5%B7%E6%8B%89%E5%B0%94%20%E8%AF%BA%E6%95%8F%E5%A1%94%E6%8B%89%E5%A5%B6%E8%8C%B6%E9%A6%86%E5%8F%8A%E5%B8%82%E5%8C%BA%E8%92%99%E9%A4%90%E9%A6%86%20%E8%92%99%E5%8F%A4%E9%94%85%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hailar-leba",
+    "cityIds": [
+      "hailar"
+    ],
+    "name": "俄式列巴",
+    "nameEn": "Russian-style Rye Bread",
+    "localName": "俄式列巴 · Russian-style Rye Bread",
+    "description": "酸香扎实的面包可配黄油、奶酪或果酱，不同店用料和大小差别明显。",
+    "article": "Russian-style Rye Bread",
+    "articleScope": "dish",
+    "photoQuery": "Russian rye bread",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Russian-style_Rye_Bread"
+    },
+    "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+    "sourceReferences": [
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessGazette/show/8450.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hailar",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hailar": [
+        {
+          "name": "海拉尔俄式面包店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%C2%B7%E6%B5%B7%E6%8B%89%E5%B0%94%20%E6%B5%B7%E6%8B%89%E5%B0%94%E4%BF%84%E5%BC%8F%E9%9D%A2%E5%8C%85%E5%BA%97%20%E4%BF%84%E5%BC%8F%E5%88%97%E5%B7%B4",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-hailar-roast-lamb",
+    "cityIds": [
+      "hailar"
+    ],
+    "name": "烤羊排",
+    "nameEn": "Roasted Lamb Ribs",
+    "localName": "烤羊排 · Roasted Lamb Ribs",
+    "description": "表面烤香、内部保留肉汁，通常按份或按重量点；两人用餐不必点整羊。",
+    "article": "Roasted Lamb Ribs",
+    "articleScope": "dish",
+    "photoQuery": "Mongolian roasted lamb ribs",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roasted_Lamb_Ribs"
+    },
+    "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+    "sourceReferences": [
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.hlbe.gov.cn",
+        "url": "https://www.hlbe.gov.cn/OpennessGazette/show/8450.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Hailar",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 80.0,
+      "high": 200.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.hlbe.gov.cn/OpennessContent/show/436851.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "hailar": [
+        {
+          "name": "海拉尔市区烤羊排餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%C2%B7%E6%B5%B7%E6%8B%89%E5%B0%94%20%E6%B5%B7%E6%8B%89%E5%B0%94%E5%B8%82%E5%8C%BA%E7%83%A4%E7%BE%8A%E6%8E%92%E9%A4%90%E9%A6%86%20%E7%83%A4%E7%BE%8A%E6%8E%92",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shenyang-dumpling",
+    "cityIds": [
+      "shenyang"
+    ],
+    "name": "老边饺子",
+    "nameEn": "Laobian Dumplings",
+    "localName": "老边饺子 · Laobian Dumplings",
+    "description": "以熟馅与多种蒸煮做法闻名，按一盘或一笼实际个数比较，搭配蔬菜即可成为正餐。",
+    "article": "Laobian Dumplings",
+    "articleScope": "dish",
+    "photoQuery": "Laobian dumplings",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Laobian_Dumplings"
+    },
+    "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+    "sourceReferences": [
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/xxfb/tpxw/202207/t20220718_3444966.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Shenyang",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 30.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "shenyang": [
+        {
+          "name": "老边饺子馆中街店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E9%98%B3%20%E8%80%81%E8%BE%B9%E9%A5%BA%E5%AD%90%E9%A6%86%E4%B8%AD%E8%A1%97%E5%BA%97%20%E8%80%81%E8%BE%B9%E9%A5%BA%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shenyang-chicken",
+    "cityIds": [
+      "shenyang"
+    ],
+    "name": "沈阳鸡架",
+    "nameEn": "Shenyang Chicken Rack",
+    "localName": "沈阳鸡架 · Shenyang Chicken Rack",
+    "description": "鸡架有拌、熏、炸和烤等做法，吃的是骨边肉与调味，留意小骨，适合小份分享。",
+    "article": "Shenyang Chicken Rack",
+    "articleScope": "dish",
+    "photoQuery": "Shenyang chicken rack",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shenyang_Chicken_Rack"
+    },
+    "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+    "sourceReferences": [
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/xxfb/tpxw/202207/t20220718_3444966.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Shenyang",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "shenyang": [
+        {
+          "name": "中街与老北市鸡架店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E9%98%B3%20%E4%B8%AD%E8%A1%97%E4%B8%8E%E8%80%81%E5%8C%97%E5%B8%82%E9%B8%A1%E6%9E%B6%E5%BA%97%20%E6%B2%88%E9%98%B3%E9%B8%A1%E6%9E%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shenyang-cold-noodle",
+    "cityIds": [
+      "shenyang"
+    ],
+    "name": "西塔冷面",
+    "nameEn": "Xita Cold Noodles",
+    "localName": "西塔冷面 · Xita Cold Noodles",
+    "description": "朝鲜族冷面常带酸甜冷汤和蔬菜配料，冬夏都有人吃，不吃牛肉需先问汤底。",
+    "article": "Xita Cold Noodles",
+    "articleScope": "dish",
+    "photoQuery": "Naengmyeon",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Xita_Cold_Noodles"
+    },
+    "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+    "sourceReferences": [
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/xxfb/tpxw/202207/t20220718_3444966.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Shenyang",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "shenyang": [
+        {
+          "name": "西塔大冷面及西塔街区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E9%98%B3%20%E8%A5%BF%E5%A1%94%E5%A4%A7%E5%86%B7%E9%9D%A2%E5%8F%8A%E8%A5%BF%E5%A1%94%E8%A1%97%E5%8C%BA%20%E8%A5%BF%E5%A1%94%E5%86%B7%E9%9D%A2",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shenyang-pork",
+    "cityIds": [
+      "shenyang"
+    ],
+    "name": "辽宁锅包肉",
+    "nameEn": "Liaoning Guobaorou",
+    "localName": "辽宁锅包肉 · Liaoning Guobaorou",
+    "description": "炸肉片裹酸甜汁，部分辽宁做法带番茄风味，口味因店而异；按一盘两人共享。",
+    "article": "Liaoning Guobaorou",
+    "articleScope": "dish",
+    "photoQuery": "Guobaorou",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liaoning_Guobaorou"
+    },
+    "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+    "sourceReferences": [
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/xxfb/tpxw/202207/t20220718_3444966.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Shenyang",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 35.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "shenyang": [
+        {
+          "name": "宝发园及市区东北菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E9%98%B3%20%E5%AE%9D%E5%8F%91%E5%9B%AD%E5%8F%8A%E5%B8%82%E5%8C%BA%E4%B8%9C%E5%8C%97%E8%8F%9C%E9%A6%86%20%E8%BE%BD%E5%AE%81%E9%94%85%E5%8C%85%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-shenyang-sauerkraut",
+    "cityIds": [
+      "shenyang"
+    ],
+    "name": "酸菜白肉血肠",
+    "nameEn": "Sauerkraut Pork and Blood Sausage",
+    "localName": "酸菜白肉血肠 · Sauerkraut Pork and Blood Sausage",
+    "description": "酸菜与白肉炖汤，血肠通常另切上桌，点单前说明是否接受动物血制品。",
+    "article": "Sauerkraut Pork and Blood Sausage",
+    "articleScope": "dish",
+    "photoQuery": "Suan cai pork blood sausage",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sauerkraut_Pork_and_Blood_Sausage"
+    },
+    "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+    "sourceReferences": [
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "wlgd.shenyang.gov.cn",
+        "url": "https://wlgd.shenyang.gov.cn/xxfb/tpxw/202207/t20220718_3444966.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Shenyang",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 40.0,
+      "high": 90.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://wlgd.shenyang.gov.cn/rhjsdwlzds/202607/t20260723_5061456.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "shenyang": [
+        {
+          "name": "市区白肉血肠馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E9%98%B3%20%E5%B8%82%E5%8C%BA%E7%99%BD%E8%82%89%E8%A1%80%E8%82%A0%E9%A6%86%20%E9%85%B8%E8%8F%9C%E7%99%BD%E8%82%89%E8%A1%80%E8%82%A0",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-dalian-menzi",
+    "cityIds": [
+      "dalian"
+    ],
+    "name": "大连焖子",
+    "nameEn": "Dalian Menzi",
+    "localName": "大连焖子 · Dalian Menzi",
+    "description": "淀粉块煎出焦壳，配芝麻酱、蒜水与调味汁，海鲜版本通常更贵。",
+    "article": "Dalian Menzi",
+    "articleScope": "dish",
+    "photoQuery": "Dalian menzi",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dalian_Menzi"
+    },
+    "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+    "sourceReferences": [
+      {
+        "name": "www.sport.gov.cn",
+        "url": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.mct.gov.cn",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/202503/t20250326_959022.htm",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Dalian",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "dalian": [
+        {
+          "name": "天津街、桃源市场焖子铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%BF%9E%20%E5%A4%A9%E6%B4%A5%E8%A1%97%E3%80%81%E6%A1%83%E6%BA%90%E5%B8%82%E5%9C%BA%E7%84%96%E5%AD%90%E9%93%BA%20%E5%A4%A7%E8%BF%9E%E7%84%96%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-dalian-mackerel",
+    "cityIds": [
+      "dalian"
+    ],
+    "name": "鲅鱼水饺",
+    "nameEn": "Spanish Mackerel Dumplings",
+    "localName": "鲅鱼水饺 · Spanish Mackerel Dumplings",
+    "description": "细腻鱼肉馅带海鲜鲜味，按盘或按两售卖，先问份量避免点太多。",
+    "article": "Spanish Mackerel Dumplings",
+    "articleScope": "dish",
+    "photoQuery": "Mackerel dumplings",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spanish_Mackerel_Dumplings"
+    },
+    "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+    "sourceReferences": [
+      {
+        "name": "www.sport.gov.cn",
+        "url": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.mct.gov.cn",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/202503/t20250326_959022.htm",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Dalian",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 35.0,
+      "high": 75.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "dalian": [
+        {
+          "name": "日丰园与大连饺子馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%BF%9E%20%E6%97%A5%E4%B8%B0%E5%9B%AD%E4%B8%8E%E5%A4%A7%E8%BF%9E%E9%A5%BA%E5%AD%90%E9%A6%86%20%E9%B2%85%E9%B1%BC%E6%B0%B4%E9%A5%BA",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-dalian-seaweed",
+    "cityIds": [
+      "dalian"
+    ],
+    "name": "海菜包子",
+    "nameEn": "Seaweed Steamed Buns",
+    "localName": "海菜包子 · Seaweed Steamed Buns",
+    "description": "海菜与肉馅搭配，春季鲜海菜风味突出；咸鲜口适合作早餐或轻午餐。",
+    "article": "Seaweed Steamed Buns",
+    "articleScope": "dish",
+    "photoQuery": "Seaweed baozi",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seaweed_Steamed_Buns"
+    },
+    "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+    "sourceReferences": [
+      {
+        "name": "www.sport.gov.cn",
+        "url": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.mct.gov.cn",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/202503/t20250326_959022.htm",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Dalian",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "dalian": [
+        {
+          "name": "黑石礁与天津街包子铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%BF%9E%20%E9%BB%91%E7%9F%B3%E7%A4%81%E4%B8%8E%E5%A4%A9%E6%B4%A5%E8%A1%97%E5%8C%85%E5%AD%90%E9%93%BA%20%E6%B5%B7%E8%8F%9C%E5%8C%85%E5%AD%90",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-dalian-seafood-noodle",
+    "cityIds": [
+      "dalian"
+    ],
+    "name": "海鲜焖面",
+    "nameEn": "Dalian Seafood Noodles",
+    "localName": "海鲜焖面 · Dalian Seafood Noodles",
+    "description": "海鲜与面条同煮或焖制，汤汁和用料因店而异，单人可选择一碗海鲜面替代整桌海鲜。",
+    "article": "Dalian Seafood Noodles",
+    "articleScope": "dish",
+    "photoQuery": "Chinese seafood noodles",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dalian_Seafood_Noodles"
+    },
+    "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+    "sourceReferences": [
+      {
+        "name": "www.sport.gov.cn",
+        "url": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.mct.gov.cn",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/202503/t20250326_959022.htm",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Dalian",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 65.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "dalian": [
+        {
+          "name": "桃源市场周边面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%BF%9E%20%E6%A1%83%E6%BA%90%E5%B8%82%E5%9C%BA%E5%91%A8%E8%BE%B9%E9%9D%A2%E9%A6%86%20%E6%B5%B7%E9%B2%9C%E7%84%96%E9%9D%A2",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-dalian-scallops",
+    "cityIds": [
+      "dalian"
+    ],
+    "name": "蒜蓉蒸扇贝",
+    "nameEn": "Garlic Steamed Scallops",
+    "localName": "蒜蓉蒸扇贝 · Garlic Steamed Scallops",
+    "description": "蒜蓉、粉丝与贝肉搭配，按只售卖时比较大小和实际数量，尽量现蒸。",
+    "article": "Garlic Steamed Scallops",
+    "articleScope": "dish",
+    "photoQuery": "Garlic steamed scallops",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Garlic_Steamed_Scallops"
+    },
+    "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+    "sourceReferences": [
+      {
+        "name": "www.sport.gov.cn",
+        "url": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.mct.gov.cn",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/ln/202503/t20250326_959022.htm",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Dalian",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.sport.gov.cn/n14471/n14503/n14535/c29133766/content.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "dalian": [
+        {
+          "name": "市区明码标价海鲜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%BF%9E%20%E5%B8%82%E5%8C%BA%E6%98%8E%E7%A0%81%E6%A0%87%E4%BB%B7%E6%B5%B7%E9%B2%9C%E9%A6%86%20%E8%92%9C%E8%93%89%E8%92%B8%E6%89%87%E8%B4%9D",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-changchun-spring-pancake",
+    "cityIds": [
+      "changchun"
+    ],
+    "name": "春饼卷菜",
+    "nameEn": "Spring Pancakes with Fillings",
+    "localName": "春饼卷菜 · Spring Pancakes with Fillings",
+    "description": "薄饼包炒菜、肉丝或鸡蛋，多人各选几种馅料共享，比一人点整桌更合理。",
+    "article": "Spring Pancakes with Fillings",
+    "articleScope": "dish",
+    "photoQuery": "Chunbing spring pancake",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spring_Pancakes_with_Fillings"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250703_9272013.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Changchun",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 60.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "changchun": [
+        {
+          "name": "老昌春饼",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%BF%E6%98%A5%20%E8%80%81%E6%98%8C%E6%98%A5%E9%A5%BC%20%E6%98%A5%E9%A5%BC%E5%8D%B7%E8%8F%9C",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-changchun-pot-stew",
+    "cityIds": [
+      "changchun"
+    ],
+    "name": "东北铁锅炖",
+    "nameEn": "Northeastern Iron-pot Stew",
+    "localName": "东北铁锅炖 · Northeastern Iron-pot Stew",
+    "description": "大铁锅炖鱼、鸡或鹅，配贴饼和蔬菜；按共享一锅的人数折算单人预算。",
+    "article": "Northeastern Iron-pot Stew",
+    "articleScope": "dish",
+    "photoQuery": "Dongbei iron pot stew",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Northeastern_Iron-pot_Stew"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250703_9272013.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Changchun",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 50.0,
+      "high": 120.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "changchun": [
+        {
+          "name": "长春市区铁锅炖馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%BF%E6%98%A5%20%E9%95%BF%E6%98%A5%E5%B8%82%E5%8C%BA%E9%93%81%E9%94%85%E7%82%96%E9%A6%86%20%E4%B8%9C%E5%8C%97%E9%93%81%E9%94%85%E7%82%96",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-changchun-guobaorou",
+    "cityIds": [
+      "changchun"
+    ],
+    "name": "锅包肉",
+    "nameEn": "Guobaorou",
+    "localName": "锅包肉 · Guobaorou",
+    "description": "炸肉片裹酸甜汁，刚出锅口感更好，适合两三人分享一盘。",
+    "article": "Guobaorou",
+    "articleScope": "dish",
+    "photoQuery": "Guobaorou",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guobaorou"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250703_9272013.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Changchun",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 35.0,
+      "high": 70.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "changchun": [
+        {
+          "name": "春发合及市区东北菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%BF%E6%98%A5%20%E6%98%A5%E5%8F%91%E5%90%88%E5%8F%8A%E5%B8%82%E5%8C%BA%E4%B8%9C%E5%8C%97%E8%8F%9C%E9%A6%86%20%E9%94%85%E5%8C%85%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-changchun-hotpot",
+    "cityIds": [
+      "changchun"
+    ],
+    "name": "铜锅涮羊肉",
+    "nameEn": "Copper-pot Lamb Hotpot",
+    "localName": "铜锅涮羊肉 · Copper-pot Lamb Hotpot",
+    "description": "薄切羊肉涮煮配芝麻酱，按盘点菜，先看锅底、蘸料与蔬菜是否另收。",
+    "article": "Copper-pot Lamb Hotpot",
+    "articleScope": "dish",
+    "photoQuery": "Chinese copper hotpot lamb",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Copper-pot_Lamb_Hotpot"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250703_9272013.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Changchun",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 140.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "changchun": [
+        {
+          "name": "元盛居",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%BF%E6%98%A5%20%E5%85%83%E7%9B%9B%E5%B1%85%20%E9%93%9C%E9%94%85%E6%B6%AE%E7%BE%8A%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-changchun-sticky-bun",
+    "cityIds": [
+      "changchun"
+    ],
+    "name": "粘豆包",
+    "nameEn": "Sticky Millet Bean Buns",
+    "localName": "粘豆包 · Sticky Millet Bean Buns",
+    "description": "黄米或糯米面包豆馅，蒸后软糯，蘸糖与否可自选，适合作早餐或小份甜点。",
+    "article": "Sticky Millet Bean Buns",
+    "articleScope": "dish",
+    "photoQuery": "Niandoubao",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sticky_Millet_Bean_Buns"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250703_9272013.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Changchun",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272968.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "changchun": [
+        {
+          "name": "市区东北家常菜馆与早点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%95%BF%E6%98%A5%20%E5%B8%82%E5%8C%BA%E4%B8%9C%E5%8C%97%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%E4%B8%8E%E6%97%A9%E7%82%B9%E9%93%BA%20%E7%B2%98%E8%B1%86%E5%8C%85",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yanji-cold-noodles",
+    "cityIds": [
+      "yanji"
+    ],
+    "name": "延吉冷面",
+    "nameEn": "Yanji Naengmyeon",
+    "localName": "延吉冷面 · Yanji Naengmyeon",
+    "description": "荞麦面常配酸甜冷汤、牛肉和蔬菜，先确认是否含牛肉汤与过敏配料。",
+    "article": "Yanji Naengmyeon",
+    "articleScope": "dish",
+    "photoQuery": "Naengmyeon",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yanji_Naengmyeon"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/ljs/202506/t20250625_9264390.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yanji",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yanji": [
+        {
+          "name": "服务大楼冷面、金达莱冷面",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%90%89%20%E6%9C%8D%E5%8A%A1%E5%A4%A7%E6%A5%BC%E5%86%B7%E9%9D%A2%E3%80%81%E9%87%91%E8%BE%BE%E8%8E%B1%E5%86%B7%E9%9D%A2%20%E5%BB%B6%E5%90%89%E5%86%B7%E9%9D%A2",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yanji-ricecake",
+    "cityIds": [
+      "yanji"
+    ],
+    "name": "朝鲜族打糕",
+    "nameEn": "Korean Pounded Rice Cake",
+    "localName": "朝鲜族打糕 · Korean Pounded Rice Cake",
+    "description": "糯米反复捶打后裹豆粉或芝麻，软糯有弹性，现做小份更适合旅途中食用。",
+    "article": "Korean Pounded Rice Cake",
+    "articleScope": "dish",
+    "photoQuery": "Injeolmi",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Korean_Pounded_Rice_Cake"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/ljs/202506/t20250625_9264390.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yanji",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yanji": [
+        {
+          "name": "水上市场与西市场打糕摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%90%89%20%E6%B0%B4%E4%B8%8A%E5%B8%82%E5%9C%BA%E4%B8%8E%E8%A5%BF%E5%B8%82%E5%9C%BA%E6%89%93%E7%B3%95%E6%91%8A%20%E6%9C%9D%E9%B2%9C%E6%97%8F%E6%89%93%E7%B3%95",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yanji-rice-sausage",
+    "cityIds": [
+      "yanji"
+    ],
+    "name": "朝鲜族米肠",
+    "nameEn": "Korean Rice Sausage",
+    "localName": "朝鲜族米肠 · Korean Rice Sausage",
+    "description": "米与肉或血制品灌入肠衣蒸煮，口味因店而异，不接受内脏者可改选米糕。",
+    "article": "Korean Rice Sausage",
+    "articleScope": "dish",
+    "photoQuery": "Korean sundae sausage",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Korean_Rice_Sausage"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/ljs/202506/t20250625_9264390.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yanji",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yanji": [
+        {
+          "name": "水上市场朝鲜族熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%90%89%20%E6%B0%B4%E4%B8%8A%E5%B8%82%E5%9C%BA%E6%9C%9D%E9%B2%9C%E6%97%8F%E7%86%9F%E9%A3%9F%E6%91%8A%20%E6%9C%9D%E9%B2%9C%E6%97%8F%E7%B1%B3%E8%82%A0",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yanji-bibimbap",
+    "cityIds": [
+      "yanji"
+    ],
+    "name": "石锅拌饭",
+    "nameEn": "Dolsot Bibimbap",
+    "localName": "石锅拌饭 · Dolsot Bibimbap",
+    "description": "热石锅中米饭、蔬菜、肉和蛋拌酱食用，想保留锅巴可稍等再拌；生蛋或辣酱可先提出调整。",
+    "article": "Dolsot Bibimbap",
+    "articleScope": "dish",
+    "photoQuery": "Dolsot bibimbap",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dolsot_Bibimbap"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/ljs/202506/t20250625_9264390.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yanji",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 55.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yanji": [
+        {
+          "name": "全州拌饭等延吉拌饭馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%90%89%20%E5%85%A8%E5%B7%9E%E6%8B%8C%E9%A5%AD%E7%AD%89%E5%BB%B6%E5%90%89%E6%8B%8C%E9%A5%AD%E9%A6%86%20%E7%9F%B3%E9%94%85%E6%8B%8C%E9%A5%AD",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yanji-pollock",
+    "cityIds": [
+      "yanji"
+    ],
+    "name": "辣拌明太鱼",
+    "nameEn": "Seasoned Dried Pollock",
+    "localName": "辣拌明太鱼 · Seasoned Dried Pollock",
+    "description": "明太鱼干撕条后拌辣甜酱，适合做配菜而非一整餐，海鲜过敏者避免。",
+    "article": "Seasoned Dried Pollock",
+    "articleScope": "dish",
+    "photoQuery": "Myeongtae muchim",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seasoned_Dried_Pollock"
+    },
+    "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+    "sourceReferences": [
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "whhlyt.jl.gov.cn",
+        "url": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/ljs/202506/t20250625_9264390.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yanji",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 50.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/ybz/yjs/202506/t20250625_9264370.html",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yanji": [
+        {
+          "name": "西市场朝鲜族熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BB%B6%E5%90%89%20%E8%A5%BF%E5%B8%82%E5%9C%BA%E6%9C%9D%E9%B2%9C%E6%97%8F%E7%86%9F%E9%A3%9F%E6%91%8A%20%E8%BE%A3%E6%8B%8C%E6%98%8E%E5%A4%AA%E9%B1%BC",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yinchuan-lamb",
+    "cityIds": [
+      "yinchuan"
+    ],
+    "name": "宁夏手抓羊肉",
+    "nameEn": "Ningxia Hand-pulled Lamb",
+    "localName": "宁夏手抓羊肉 · Ningxia Hand-pulled Lamb",
+    "description": "清水煮滩羊突出肉香，蘸盐或蒜食用，按斤点单先确认生熟重与份量。",
+    "article": "Ningxia Hand-pulled Lamb",
+    "articleScope": "dish",
+    "photoQuery": "Ningxia lamb",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ningxia_Hand-pulled_Lamb"
+    },
+    "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+    "sourceReferences": [
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202404/t20240429_4526366.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202505/t20250506_4898432.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yinchuan",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 150.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yinchuan": [
+        {
+          "name": "老毛手抓、国强手抓",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%B7%9D%20%E8%80%81%E6%AF%9B%E6%89%8B%E6%8A%93%E3%80%81%E5%9B%BD%E5%BC%BA%E6%89%8B%E6%8A%93%20%E5%AE%81%E5%A4%8F%E6%89%8B%E6%8A%93%E7%BE%8A%E8%82%89",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yinchuan-offal",
+    "cityIds": [
+      "yinchuan"
+    ],
+    "name": "羊杂碎",
+    "nameEn": "Lamb Offal Soup",
+    "localName": "羊杂碎 · Lamb Offal Soup",
+    "description": "羊肚、羊肺等杂碎配热汤和辣油，搭油香或茴香饼；不吃内脏可换羊肉面。",
+    "article": "Lamb Offal Soup",
+    "articleScope": "dish",
+    "photoQuery": "Chinese lamb offal soup",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lamb_Offal_Soup"
+    },
+    "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+    "sourceReferences": [
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202404/t20240429_4526366.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202505/t20250506_4898432.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yinchuan",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yinchuan": [
+        {
+          "name": "阿叶羊杂碎",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%B7%9D%20%E9%98%BF%E5%8F%B6%E7%BE%8A%E6%9D%82%E7%A2%8E%20%E7%BE%8A%E6%9D%82%E7%A2%8E",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yinchuan-tea",
+    "cityIds": [
+      "yinchuan"
+    ],
+    "name": "盖碗八宝茶",
+    "nameEn": "Eight-treasure Tea",
+    "localName": "盖碗八宝茶 · Eight-treasure Tea",
+    "description": "茶叶配枣、枸杞、桂圆和糖等，多次续水慢慢喝，具体配料因店而异。",
+    "article": "Eight-treasure Tea",
+    "articleScope": "dish",
+    "photoQuery": "Eight treasure tea",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eight-treasure_Tea"
+    },
+    "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+    "sourceReferences": [
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202404/t20240429_4526366.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202505/t20250506_4898432.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yinchuan",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yinchuan": [
+        {
+          "name": "老城清真餐馆与茶馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%B7%9D%20%E8%80%81%E5%9F%8E%E6%B8%85%E7%9C%9F%E9%A4%90%E9%A6%86%E4%B8%8E%E8%8C%B6%E9%A6%86%20%E7%9B%96%E7%A2%97%E5%85%AB%E5%AE%9D%E8%8C%B6",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yinchuan-youxiang",
+    "cityIds": [
+      "yinchuan"
+    ],
+    "name": "油香",
+    "nameEn": "Youxiang Fried Bread",
+    "localName": "油香 · Youxiang Fried Bread",
+    "description": "外层微脆的圆形油饼常配羊汤，热食口感好，可两人分食一个。",
+    "article": "Youxiang Fried Bread",
+    "articleScope": "dish",
+    "photoQuery": "Youxiang fried bread",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Youxiang_Fried_Bread"
+    },
+    "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+    "sourceReferences": [
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202404/t20240429_4526366.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202505/t20250506_4898432.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yinchuan",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yinchuan": [
+        {
+          "name": "怀远夜市与老城早点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%B7%9D%20%E6%80%80%E8%BF%9C%E5%A4%9C%E5%B8%82%E4%B8%8E%E8%80%81%E5%9F%8E%E6%97%A9%E7%82%B9%E9%93%BA%20%E6%B2%B9%E9%A6%99",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-yinchuan-lahuhu",
+    "cityIds": [
+      "yinchuan"
+    ],
+    "name": "辣糊糊",
+    "nameEn": "Ningxia Lahuhu",
+    "localName": "辣糊糊 · Ningxia Lahuhu",
+    "description": "蔬菜、豆制品和面筋裹浓稠辣汤，按串或按份计价；辣度和芝麻酱等过敏配料先问。",
+    "article": "Ningxia Lahuhu",
+    "articleScope": "dish",
+    "photoQuery": "Ningxia lahuhu",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ningxia_Lahuhu"
+    },
+    "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+    "sourceReferences": [
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202404/t20240429_4526366.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "www.yinchuan.gov.cn",
+        "url": "https://www.yinchuan.gov.cn/xwzx/mrdt/202505/t20250506_4898432.html",
+        "kind": "primary-source",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "name": "en.wikivoyage.org",
+        "url": "https://en.wikivoyage.org/wiki/Yinchuan",
+        "kind": "reference",
+        "scope": "地点身份、旅行主题与参与方式；价格、车程和用时为编辑估算",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-07",
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://www.yinchuan.gov.cn/sshc/lyjd/zdlyjq/",
+      "checkedAt": null,
+      "note": "按介绍中的单份或共享份量规划预留，不是门店当日菜单报价；份量、时令原料、加工费和饮品另核。"
+    },
+    "servingNote": "按介绍中的单份、单盘或说明份量预留；作为日常餐饮选择，不重复叠加到每日餐费。",
+    "whereByCity": {
+      "yinchuan": [
+        {
+          "name": "怀远夜市辣糊糊摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%B7%9D%20%E6%80%80%E8%BF%9C%E5%A4%9C%E5%B8%82%E8%BE%A3%E7%B3%8A%E7%B3%8A%E6%91%8A%20%E8%BE%A3%E7%B3%8A%E7%B3%8A",
+          "note": "具体门店与当日菜单须核对；所列区域或老字号作为寻味入口，非已锁定套餐。"
+        }
+      ]
+    }
+  }
+]

@@ -41,6 +41,18 @@ export function normalizeTransportWindow(value, days) {
   return normalized;
 }
 
+/** Destination-room nights, shared by pricing and the timeline. A blocked
+ * sightseeing day alone does not remove a hotel night: only an explicit
+ * overnight-in-transit marker does. Returned indexes refer to local stop days. */
+export function lodgingDayIndexes(stop, stopIndex, totalStops, windows = [], { stay = false } = {}) {
+  const days = Number(stop?.days);
+  if (!Number.isInteger(days) || days < 1) return [];
+  const count = Math.max(0, days - (!stay && stopIndex === totalStops - 1 ? 1 : 0));
+  // Long-stay budgets represent the whole booked rental period; a journey
+  // does not shorten a lease or guarantee a refund for an unused first night.
+  return Array.from({ length: count }, (_, day) => day).filter(day => stay || windows[day]?.lodgingInTransit !== true);
+}
+
 function distance(a, b) {
   if (![a?.lat, a?.lng, b?.lat, b?.lng].every(Number.isFinite)) return null;
   const r = Math.PI / 180;
@@ -133,7 +145,44 @@ function allocatedLeg(
     basis,
   };
 }
+const continuousRail = leg => ['rail', 'high-speed-rail'].includes(leg.mode) && leg.estimatedMinutes > CAPACITY;
+
+// A through railway journey keeps moving overnight. Calendar slices retain
+// all elapsed minutes; only their daytime overlap consumes the sightseeing
+// load budget. This remains an estimate, never an actual departure timetable.
+function automaticContinuousRail(windows, leg, direction) {
+  let remaining = leg.estimatedMinutes;
+  const inbound = direction === 'inbound';
+  const order = inbound ? windows.map((_, i) => i) : windows.map((_, i) => i).reverse();
+  for (let position = 0; position < order.length && remaining > 0; position++) {
+    const window = windows[order[position]];
+    const boundary = position === 0 ? (inbound ? DAY_START : DAY_END) : (inbound ? 0 : 1440);
+    const allocated = Math.min(inbound ? 1440 - boundary : boundary, remaining);
+    const start = inbound ? boundary : boundary - allocated;
+    const end = inbound ? boundary + allocated : boundary;
+    const daytimeMinutes = Math.max(0, Math.min(end, DAY_END) - Math.max(start, DAY_START));
+    window[direction] = { ...allocatedLeg(leg, allocated, start, end), continuous: true, activityReservedMinutes: daytimeMinutes };
+    window.continuousTravelMinutes = (window.continuousTravelMinutes || 0) + allocated;
+    window.overnightTravelMinutes = (window.overnightTravelMinutes || 0) + allocated - daytimeMinutes;
+    // Inbound allocation walks forward; outbound allocation walks backwards,
+    // so its following calendar slice has already been allocated.
+    if (end === 1440 && (!inbound || remaining > allocated)) window.lodgingInTransit = true;
+    if (inbound) {
+      window.startMinute = end;
+      window.endMinute = DAY_END;
+    } else {
+      window.endMinute = Math.min(window.endMinute, start);
+      window.startMinute = Math.max(window.startMinute, DAY_START);
+    }
+    addNote(window, `${inbound ? '入城' : '返程'}铁路按连续路程预留，本日占 ${minutesText(allocated)}，跨夜路程不会在次日重新从 09:00 开始；夜间占时 ${minutesText(allocated - daytimeMinutes)} 不重复扣除白天游览容量，抵达后仍应安排休息。发到时刻与卧铺须按实际车票核对。`);
+    remaining -= allocated;
+  }
+  if (remaining > 0) {
+    for (const window of windows) addNote(window, `本站 ${windows.length} 天不足以容纳${inbound ? '入城' : '返程'}交通，仍有 ${minutesText(remaining)} 未能分配；请延长停留或填写核实后的当地可活动时间。`);
+  }
+}
 function automaticInbound(windows, leg) {
+  if (continuousRail(leg)) return automaticContinuousRail(windows, leg, 'inbound');
   let remaining = leg.estimatedMinutes;
   for (const window of windows) {
     if (remaining <= 0) break;
@@ -160,6 +209,7 @@ function automaticInbound(windows, leg) {
       );
 }
 function automaticOutbound(windows, leg) {
+  if (continuousRail(leg)) return automaticContinuousRail(windows, leg, 'outbound');
   let remaining = leg.estimatedMinutes;
   for (let i = windows.length - 1; i >= 0 && remaining > 0; i--) {
     const allocated = Math.min(CAPACITY, remaining);
@@ -220,7 +270,10 @@ function manualInbound(windows, leg, settings, city) {
         ? `你设定在本站第 ${offset + 1} 天 ${settings.arrivalReadyTime || "09:00"} 才可开始活动，本日保留给交通。`
         : `按你填写的当地 ${settings.arrivalReadyTime || "09:00"} 开始活动；这不是自动推算的列车或航班抵达时刻。`,
     );
-    if (beforeArrival) window.travelOnly = true;
+    if (beforeArrival) {
+      window.travelOnly = true;
+      window.lodgingInTransit = true;
+    }
   }
   if (offset >= windows.length)
     for (const window of windows)
@@ -230,7 +283,8 @@ function manualInbound(windows, leg, settings, city) {
       );
 }
 
-/** Returns perStop[stopIndex][dayIndex]. Reservations never exceed 690 minutes/day. */
+/** Returns perStop[stopIndex][dayIndex]. Daytime load reservations never exceed
+ * 690 minutes/day; continuous railway slices can include overnight minutes. */
 export function buildJourneyWindows(plan, cities) {
   const byId = new Map((cities || []).map((city) => [city.id, city]));
   const stops = Array.isArray(plan?.stops) ? plan.stops : [];
@@ -278,8 +332,8 @@ export function buildJourneyWindows(plan, cities) {
       } else if (outbound) automaticOutbound(windows, outbound);
     }
     for (const window of windows) {
-      const inboundReserve = window.inbound?.reservedMinutes || 0,
-        outboundReserve = window.outbound?.reservedMinutes || 0;
+      const inboundReserve = window.inbound?.activityReservedMinutes ?? window.inbound?.reservedMinutes ?? 0,
+        outboundReserve = window.outbound?.activityReservedMinutes ?? window.outbound?.reservedMinutes ?? 0;
       window.reservedMinutes = Math.min(
         CAPACITY,
         inboundReserve + outboundReserve,
@@ -311,6 +365,17 @@ export function buildJourneyWindows(plan, cities) {
             window,
             "交通预留已达到每日 8 小时活动负荷，本日余下时间留作休息，不再自动安排景点。",
           );
+      }
+    }
+    // Editorial arrival pacing is separate from transport time. Apply it on
+    // the first usable local day (a long train journey can occupy earlier days).
+    const arrivalLimit = city?.arrivalDayMaxActiveMinutes;
+    if (previous?.id !== city?.id && Number.isInteger(arrivalLimit) && arrivalLimit >= 60 && arrivalLimit <= 480) {
+      const firstLocalDay = windows.find(window => !window.travelOnly && window.maxLocalActiveMinutes > 0);
+      if (firstLocalDay) {
+        firstLocalDay.maxLocalActiveMinutes = Math.min(firstLocalDay.maxLocalActiveMinutes, arrivalLimit);
+        firstLocalDay.paceLimited = true;
+        firstLocalDay.paceNote = city.arrivalPaceNote || '抵达后的首个活动日放慢节奏，先安排休息与短途活动。';
       }
     }
     perStop.push(windows);

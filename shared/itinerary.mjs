@@ -1,6 +1,6 @@
 /** Local-day planning only. Routes and times are transparent models, not navigation or timetables. */
 import { resolveExperienceSelections, experienceLineId, coveredMealSlots, MEAL_WEIGHTS } from './experiences.mjs';
-import { buildJourneyWindows } from './journey-windows.mjs';
+import { buildJourneyWindows, lodgingDayIndexes } from './journey-windows.mjs';
 import { illustrationFor } from './media.mjs';
 import { getDestinationPlanningProfile, getAttractionActivityType, getAttractionVisitRole, isSupportingVisit, destinationAttractionPriority, automaticDayCapacity } from './destination-planning.mjs';
 import { applyExperienceDates, experienceDateInfo, experienceIsPending } from './experience-discovery.mjs';
@@ -253,12 +253,12 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
     const foodWeights = assignments.flatMap((_, day) => ['breakfast', 'lunch', 'dinner'].map(meal => coveredMealSlots(selectedExperiences, day).has(meal) ? 0 : MEAL_WEIGHTS[meal]));
     const baselineMealShares = foodWeights.some(weight => weight > 0) ? allocateMoney(foodLine?.amount, foodWeights) : foodWeights.map(() => budget ? 0 : null);
     const transportShares = allocateMoney(transportLine?.amount, assignments.map(() => 1));
+    const lodgingDays = lodgingDayIndexes(stop, stopIndex, plan.stops.length, journeyWindows?.[stopIndex], { stay: plan.mode === 'stay' });
     assignments.forEach((ordinaryIds, localDay) => {
       const dayWindow = journeyWindows?.[stopIndex]?.[localDay] || { startMinute: 0, endMinute: 1440, maxLocalActiveMinutes: 480, reservedMinutes: 0 };
       const arrivalCompleted = completesArrival(dayWindow, journeyWindows?.[stopIndex] || [dayWindow], localDay);
-      const stayNights = plan.mode === 'stay' ? stop.days : stop.days - (stopIndex === plan.stops.length - 1 ? 1 : 0);
-      const hasNightAfterToday = localDay < stayNights && (!budget || (lineMap.get(`stop-${stopIndex}-lodging`)?.quantity || 0) > 0);
-      const constrained = Boolean(dayWindow.inbound || dayWindow.outbound || dayWindow.reservedMinutes || dayWindow.startMinute > 0 || dayWindow.endMinute < 1440);
+      const hasNightAfterToday = lodgingDays.includes(localDay) && (!budget || (lineMap.get(`stop-${stopIndex}-lodging`)?.quantity || 0) > 0);
+      const constrained = Boolean(dayWindow.paceLimited || dayWindow.inbound || dayWindow.outbound || dayWindow.reservedMinutes || dayWindow.startMinute > 0 || dayWindow.endMinute < 1440);
       const activities = selectedExperiences.filter(row => row.experience.kind === 'experience' && row.selection.dayIndex === localDay && !experienceIsPending(row));
       const anchor = hotel && validCoordinate(hotel.experience) ? { travelGroup: city.travelGroup, ...hotel.experience, id: `${city.id}-selected-hotel` } : { id: `${city.id}-center-reference`, name: '住宿区域待填写（市中心参考）', lat: city.lat, lng: city.lng, travelGroup: city.travelGroup };
       const ids = [...ordinaryIds];
@@ -321,7 +321,7 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
         const duration = Math.max(0, end - Math.max(cursor, start));
         const alreadyCharged = chargedJourneyLines.has(legId);
         const cost = alreadyCharged ? { ...emptyCost(currency), budgetLineId: legId, note: '这段交通的预算已在此前的交通日计入，不重复收费。' } : !line && budget ? emptyCost(currency) : lineCost(line, currency);
-        push({ id: `${dayId}-${direction}-journey`, kind: direction === 'inbound' ? 'arrival' : 'departure', journey: true, journeyPhase: 'in-transit', journeyDirection: direction, transportMode: journey.mode || journey.transportMode, plannedStartMinute: start, plannedEndMinute: end, reservedDurationMinutes: journey.reservedMinutes || end - start, title: direction === 'inbound' ? `${localDay ? '继续前往' : '出发前往'}${city.name} · 跨城交通` : `返程交通 · ${line?.label || '离开目的地'}`, description: `${dayWindow.note || '跨城交通占时预留。'} 此处为当地日间规划占位，不是航班或车次时刻；接驳、候车与路程已纳入占时，实际票面日期和时区需另核对。${alreadyCharged ? '票价已在此前交通日列出。' : '以下金额引用现有整团交通预算，不新增一笔费用。'}`, timeUnconfirmed: true, cost }, duration, start);
+        push({ id: `${dayId}-${direction}-journey`, kind: direction === 'inbound' ? 'arrival' : 'departure', journey: true, journeyPhase: 'in-transit', journeyDirection: direction, transportMode: journey.mode || journey.transportMode, plannedStartMinute: start, plannedEndMinute: end, reservedDurationMinutes: journey.reservedMinutes || end - start, title: direction === 'inbound' ? `${localDay ? '继续前往' : '出发前往'}${city.name} · 跨城交通` : `返程交通 · ${line?.label || '离开目的地'}`, description: `${dayWindow.note || '跨城交通占时预留。'} 此处为当地日历内的交通规划占位，不是航班或车次时刻；接驳、候车与路程已纳入占时，实际票面日期和时区需另核对。${alreadyCharged ? '票价已在此前交通日列出。' : '以下金额引用现有整团交通预算，不新增一笔费用。'}`, timeUnconfirmed: true, cost }, duration, start);
         chargedJourneyLines.add(legId);
         const transferId = legId.replace(/^leg-/, 'transfer-');
         const transfer = lineMap.get(transferId);
@@ -511,22 +511,25 @@ export function generateDetailedItinerary(plan, cities, budget = null, planningW
       const visitMinutes = items.filter(i => ['attraction', 'experience'].includes(i.kind)).reduce((s, i) => s + i.durationMinutes, 0);
       const localTravelMinutes = segments.reduce((s, i) => s + i.durationMinutes, 0) + items.reduce((sum, item) => sum + (item.routineType === 'citywalk' ? item.walkingMinutes : 0), 0);
       const localActiveMinutes = items.filter(i => !i.journey).reduce((s, i) => s + i.durationMinutes, 0);
-      const intercityMinutes = dayWindow.reservedMinutes || 0;
+      const intercityMinutes = [dayWindow.inbound, dayWindow.outbound].reduce((sum, journey) => sum + (journey?.allocatedMinutes ?? journey?.reservedMinutes ?? 0), 0);
       const travelMinutes = localTravelMinutes + intercityMinutes;
-      const activeMinutes = localActiveMinutes + intercityMinutes;
+      const activeMinutes = localActiveMinutes + (dayWindow.reservedMinutes || 0);
       const timedLocalItems = items.filter(i => !i.journey && i.durationMinutes > 0);
       const journeyConflict = constrained && (localActiveMinutes > dayWindow.maxLocalActiveMinutes || timedLocalItems.some(i => i.startMinute < dayWindow.startMinute || i.endMinute > dayWindow.endMinute));
-      if (journeyConflict) warnings.push({ code: 'journey-window-conflict', severity: 'danger', message: `当天跨城交通后可在当地活动的窗口为 ${formatItineraryTime(dayWindow.startMinute)}–${formatItineraryTime(dayWindow.endMinute)}，当前手动选择与交通预留冲突；景点已保留，请智能重排、移至其他天或按真实票面信息修改交通设置。` });
+      if (journeyConflict) warnings.push({ code: 'journey-window-conflict', severity: 'danger', message: dayWindow.paceLimited && localActiveMinutes > dayWindow.maxLocalActiveMinutes ? `当前安排超过抵达日建议活动量（含用餐和市内交通共 ${dayWindow.maxLocalActiveMinutes} 分钟）；所选内容已保留，请减少项目或移到后续日期。` : `当天跨城交通后可在当地活动的窗口为 ${formatItineraryTime(dayWindow.startMinute)}–${formatItineraryTime(dayWindow.endMinute)}，当前手动选择与交通预留冲突；景点已保留，请智能重排、移至其他天或按真实票面信息修改交通设置。` });
+      if (dayWindow.paceLimited) warnings.push({ code: 'arrival-pace', severity: 'info', message: dayWindow.paceNote });
       if (dayWindow.travelOnly) warnings.push({ code: 'journey-travel-only', severity: 'info', message: '这一天主要预留给跨城交通；自动规划不安排景点，日常餐费继续作为途中开销预算保留。' });
       if ((dayWindow.inbound && dayWindow.outbound && dayWindow.inbound.endMinute > dayWindow.outbound.startMinute) || /未能分配|不足以容纳|抵达日在本站/.test(dayWindow.note || '')) warnings.push({ code: 'journey-capacity-conflict', severity: 'danger', message: `现有天数不足或入城与返程的交通预留重叠，尚不能形成可执行的交通安排。${dayWindow.note || ''} 请增加天数，或依据已核实的票面信息填写当地可活动窗口。` });
       const distance = segments.reduce((s, i) => s + i.segment.distanceKm, 0) + items.reduce((sum, item) => sum + (item.routineType === 'citywalk' ? item.distanceKm : 0), 0);
       if (activeMinutes > 480 && localActiveMinutes > 0) warnings.push({ code: 'busy-day', severity: activeMinutes > 660 ? 'danger' : 'warning', message: `今天安排约 ${Math.round(activeMinutes / 60 * 10) / 10} 小时（含游览、城际及市内交通与用餐），超过 8 小时；建议移动部分景点到其他天。` });
-      if (cursor > 1230) warnings.push({ code: 'late-finish', severity: 'warning', message: `预计结束于 ${formatItineraryTime(cursor)}，晚于 20:30；可提前开始或减少景点。` });
+      const continuousNightJourney = [dayWindow.inbound, dayWindow.outbound].some(journey => journey?.continuous && journey.endMinute === 1440) && cursor <= 1440 && timedLocalItems.every(item => item.endMinute <= 1440);
+      if (cursor > 1230 && !continuousNightJourney) warnings.push({ code: 'late-finish', severity: 'warning', message: `预计结束于 ${formatItineraryTime(cursor)}，晚于 20:30；可提前开始或减少景点。` });
       if (arriving && localActiveMinutes > 360) warnings.push({ code: 'busy-arrival', severity: 'warning', message: '抵达当天的本地安排超过 6 小时，且另有城际交通占时；请核对抵达窗口并删减或移走景点。' });
       if (returning && localActiveMinutes > 300) warnings.push({ code: 'busy-return', severity: 'warning', message: '返程当天的本地安排超过 5 小时；请核对已预留的返程窗口与实际票面时刻是否一致。' });
       const nightAttractions = items.filter(i => i.kind === 'attraction' && i.endMinute > 1320);
       if (nightAttractions.length) warnings.push({ code: 'late-attraction', severity: 'danger', message: `${nightAttractions.map(i => i.title).join('、')}被安排到 22:00 以后，可能已闭馆；请重新分配景点并查验官网。` });
-      if (cursor >= 1440) warnings.push({ code: 'after-midnight', severity: 'danger', message: '行程已经跨到次日（时间标为 +1）；它会占用下一天，建议拆分，不应直接照此出行。' });
+      if (continuousNightJourney) warnings.push({ code: 'overnight-journey', severity: 'info', message: `本段铁路持续至次日，已按日历拆分占时；${plan.mode === 'stay' ? '旅居住宿仍按完整租期预留' : '途中夜不另计目的地酒店'}，发到时刻和卧铺仍需核对车票。` });
+      else if (cursor >= 1440) warnings.push({ code: 'after-midnight', severity: 'danger', message: '行程已经跨到次日（时间标为 +1）；它会占用下一天，建议拆分，不应直接照此出行。' });
       const suggestedOrder = optimizeDayRoute(ordinaryIds, city);
       const routeDistance = pathDistance(ordinaryIds, byId), optimizedDistance = pathDistance(suggestedOrder, byId);
       if (routeDistance !== null && optimizedDistance !== null && optimizedDistance > 0 && routeDistance > optimizedDistance * 1.3 && (routeDistance - optimizedDistance) * 1.35 > 3) warnings.push({ code: 'detour', severity: 'warning', message: `当前景点顺序按地理模型约多绕 ${round((routeDistance - optimizedDistance) * 1.35)} km；可查看建议顺序后自行应用。模型未考虑开放时间、真实线路或预约。`, suggestedOrder });
@@ -635,7 +638,7 @@ export function suggestStopPlan(stop, city, { candidateIds, includeOptional = fa
       // The same experience cannot be selected twice for the same day.
       if (selectedRows.some(other => other.experience.id === row.experience.id && other.selection.dayIndex === day)) continue;
       const detail = evaluate([], day, [trialRow]);
-      const constrainedDay = Boolean(window.inbound || window.outbound || window.reservedMinutes || window.startMinute > 0 || window.endMinute < 1440);
+      const constrainedDay = Boolean(window.paceLimited || window.inbound || window.outbound || window.reservedMinutes || window.startMinute > 0 || window.endMinute < 1440);
       if (detail.localActiveMinutes > (constrainedDay ? window.maxLocalActiveMinutes : 720) || detail.localEndMinute > window.endMinute || detail.items.at(-1).endMinute > 1440 || detail.warnings.some(w => ['experience-time-conflict', 'closed-attraction', 'journey-window-conflict'].includes(w.code))) continue;
       const score = (day === preferredDay ? -100000 : 0) + detail.activeMinutes * 10 + day;
       if (!best || score < best.score) best = { row: trialRow, score };
@@ -679,7 +682,7 @@ export function suggestStopPlan(stop, city, { candidateIds, includeOptional = fa
         const detail = evaluate(trial, day);
         const lateSelected = selectedRows.some(row => row.selection.dayIndex === day && row.preferredStartTime && row.preferredStartTime >= '17:00');
         const fullDayRequested = requested && visitDuration(byId.get(id), stop) >= 360 && trial.length === 1 && explicitActivities === 0;
-        const constrainedDay = Boolean(window.inbound || window.outbound || window.reservedMinutes || window.startMinute > 0 || window.endMinute < 1440);
+        const constrainedDay = Boolean(window.paceLimited || window.inbound || window.outbound || window.reservedMinutes || window.startMinute > 0 || window.endMinute < 1440);
         const capacity = fullDayRequested
           ? (constrainedDay ? Math.min(720, window.maxLocalActiveMinutes) : 720)
           : requested ? Math.min(480, window.maxLocalActiveMinutes) : automaticDayCapacity(destinationProfile, mainCount(trial) + explicitActivities, window);

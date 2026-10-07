@@ -1,6 +1,9 @@
 // Shared interface labels and validation messages not owned by a page component.
 // This dictionary changes display copy only; source records and identifiers remain intact.
 export default {
+  '联票': 'Combined admission',
+  '已含联票': 'Included in combined admission',
+  '中国澳门': 'Macao',
   '亚洲': 'Asia',
   '欧洲': 'Europe',
   '非洲': 'Africa',

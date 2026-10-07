@@ -4,14 +4,23 @@
  * All duration/fare coefficients below are editorial planning assumptions.
  */
 export const RAIL_REVIEWED_AT = '2026-09-23';
-const china = ['beijing','shanghai','chengdu','xian','hangzhou','guangzhou','chongqing','jinan','zhengzhou','xiamen','qingdao','dali','lijiang','guilin','luoyang','quanzhou','nanjing','suzhou','shenzhen','changsha','wuhan','harbin','zhangjiajie','nanchang','tianjin','zunyi','yanan'];
-const chinaConventional = china.filter(cityId => cityId !== 'quanzhou');
+// Membership evidence and the distinction between stations and destinations:
+// docs/china-expansion-20261007.md. These are connected networks, not promises
+// of direct trains. Slow western and plateau corridors have separate models.
+const china = ['beijing','shanghai','chengdu','xian','hangzhou','guangzhou','chongqing','jinan','zhengzhou','xiamen','qingdao','dali','lijiang','guilin','luoyang','quanzhou','nanjing','suzhou','shenzhen','changsha','wuhan','harbin','zhangjiajie','nanchang','tianjin','zunyi','yanan','chengde','qinhuangdao','datong','pingyao','hohhot','shenyang','dalian','changchun','yanji','huangshan','hefei','fuzhou','wuyishan','jingdezhen','yangzhou','shaoxing','chaozhou','leshan','guiyang','kunming','xining','yinchuan','lanzhou','zhangye','urumqi'];
+// Do not infer conventional passenger services merely from a new HSR station.
+const chinaConventional = ['beijing','shanghai','chengdu','xian','hangzhou','guangzhou','chongqing','jinan','zhengzhou','xiamen','qingdao','dali','lijiang','guilin','luoyang','nanjing','suzhou','shenzhen','changsha','wuhan','harbin','zhangjiajie','nanchang','tianjin','zunyi','yanan','chengde','qinhuangdao','datong','pingyao','hohhot','shenyang','dalian','changchun','yanji','hefei','fuzhou','jingdezhen','yangzhou','shaoxing','guiyang','kunming','xining','yinchuan','lanzhou','zhangye','urumqi'];
 const japan = ['tokyo','kyoto','osaka','fukuoka','hiroshima'];
 const make = (id, cities, modes, currency, sourceName, sourceUrl, fastSpeed, railSpeed, fastRates, railRates, extra = {}) => ({
   id, cities, modes, currency, sourceName, sourceUrl, fastSpeed, railSpeed, fastRates, railRates,
   routeFactor: 1.3, stationMinutes: 90, minimumFare: currency === 'JPY' ? 300 : currency === 'KRW' ? 4000 : 8, ...extra,
 });
 export const RAIL_NETWORKS = [
+  make('cn-yunnan-south', ['kunming','jinghong'], ['rail'], 'CNY', '中国铁路 12306 / 中老铁路国内段', 'https://www.12306.cn/index/', 140, 120, [0.38,0.6,1.0], [0.35,0.55,0.9], { minimumFare: 15, railLabel: '城际动车', routeFactor: 1.45, evidenceUrl: 'https://www.nra.gov.cn/tlfc/tpsy/202512/t20251203_350211.shtml', note: '景洪使用西双版纳站；中老铁路国内段按城际动车预算，其他城市可先到昆明另加一段行程。' }),
+  make('cn-lhasa-nyingchi', ['lhasa','nyingchi'], ['rail'], 'CNY', '中国铁路 12306 / 拉林铁路', 'https://www.12306.cn/index/', 130, 100, [0.35,0.55,0.8], [0.28,0.45,0.7], { minimumFare: 15, railLabel: '高原动车', evidenceUrl: 'https://www.nra.gov.cn/tlfc/tpsy/202206/t20220627_327490.shtml', note: '拉林铁路按高原动车估算，不套用平原高速铁路的速度；林芝站与八一城区之间还需接驳。' }),
+  make('cn-qinghai-tibet', ['xining','lhasa'], ['rail'], 'CNY', '中国铁路 12306 / 青藏铁路', 'https://www.12306.cn/index/', 120, 75, [0.3,0.5,0.8], [0.14,0.3,0.5], { minimumFare: 15, railLabel: '青藏铁路 / 卧铺', stationMinutes: 120, evidenceUrl: 'https://www.gov.cn/test/2006-06/27/content_320445.htm', note: '西宁至拉萨按跨夜长途铁路预留；硬座、硬卧、软卧须按实际车次核对，旅行日需完整留出。其他城市可先到西宁再加此段。' }),
+  make('cn-xinjiang-west', ['urumqi','kashgar','yining'], ['rail'], 'CNY', '中国铁路 12306 / 南疆与精伊霍铁路', 'https://www.12306.cn/index/', 140, 75, [0.38,0.6,1.0], [0.14,0.3,0.5], { minimumFare: 15, railLabel: '铁路 / 城际动车', routeFactor: 1.8, evidenceUrl: 'https://source.nra.gov.cn/xxgk/gkml/ztjg/jgxx/gkgc/202204/t20220405_290283.shtml', note: '喀什、伊宁不按兰新高铁直达处理；跨天和换乘应单独留时，伊宁至喀什按经乌鲁木齐的保守行程预算。' }),
+  make('cn-hailar', ['harbin','hailar'], ['rail'], 'CNY', '中国铁路 12306 / 滨洲铁路', 'https://www.12306.cn/index/', 120, 70, [0.3,0.5,0.8], [0.13,0.28,0.45], { minimumFare: 15, railLabel: '长途铁路 / 卧铺', routeFactor: 1.5, note: '海拉尔按哈尔滨方向长途铁路估算，不视为高速铁路；从其他城市可先到哈尔滨衔接。' }),
   make('cn-mainland', china, ['high-speed-rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 215, 75, [0.38,0.6,1.65], [0.12,0.24,0.42], { minimumFare: 15 }),
   make('cn-conventional', chinaConventional, ['rail'], 'CNY', '中国铁路 12306', 'https://www.12306.cn/index/', 215, 75, [0.38,0.6,1.65], [0.12,0.24,0.42], { minimumFare: 15, note: '按普速铁路网络预留，可能需要换乘；硬座、卧铺与日期车次的实际差价以 12306 为准。' }),
   make('cn-shangri-la', [...chinaConventional, 'shangri-la'], ['rail'], 'CNY', '中国铁路 12306 / 丽香铁路', 'https://www.12306.cn/index/', 140, 100, [0.38,0.6,1.0], [0.28,0.55,1.0], { minimumFare: 15, railLabel: '铁路 / 动车', routeFactor: 1.5, reviewedAt: '2026-09-28', evidenceUrl: 'https://source.nra.gov.cn/xwzx/xwxx/xwlb/202311/t20231127_343786.shtml', note: '香格里拉通过丽香铁路连接丽江、大理及全国路网，部分行程需换乘。丽香段设计时速140公里，不套用高速铁路平均速度。' }),
@@ -38,6 +47,25 @@ export const RAIL_NETWORKS = [
 // Selected busy city pairs use edited route/time anchors rather than straight
 // line speed alone. These are rounded planning allowances, NEVER a timetable.
 const ANCHORS = {
+  'beijing|chengde': { km: 225, fast: 75, rail: 360 },
+  'beijing|datong': { km: 330, fast: 120, rail: 390 },
+  'beijing|hohhot': { km: 490, fast: 150, rail: 600 },
+  'changchun|yanji': { km: 470, fast: 165, rail: 540 },
+  'chengdu|leshan': { km: 135, fast: 65 },
+  'kunming|dali': { km: 328, fast: 135, rail: 390 },
+  'kunming|jinghong': { km: 500, rail: 225 },
+  'lanzhou|yinchuan': { km: 431, fast: 195, rail: 540 },
+  'lanzhou|xining': { km: 188, fast: 75, rail: 180 },
+  'lanzhou|zhangye': { km: 515, fast: 195, rail: 420 },
+  'lanzhou|urumqi': { km: 1786, fast: 690, rail: 1320 },
+  'xining|urumqi': { km: 1598, fast: 600, rail: 1200 },
+  'zhangye|urumqi': { km: 1270, fast: 480, rail: 960 },
+  'xining|lhasa': { km: 1956, rail: 1320 },
+  'lhasa|nyingchi': { km: 435, rail: 240 },
+  'urumqi|kashgar': { km: 1475, rail: 960 },
+  'urumqi|yining': { km: 625, rail: 360 },
+  'kashgar|yining': { km: 2100, rail: 1440 },
+  'harbin|hailar': { km: 750, rail: 660 },
   'beijing|shanghai': { km: 1318, fast: 285, rail: 900 },
   'beijing|guangzhou': { km: 2298, fast: 510, rail: 1320 },
   'beijing|shenzhen': { km: 2400, fast: 555, rail: 1440 },
@@ -105,7 +133,7 @@ export function railPlanningModel(from, to, distanceKm, mode) {
     modeLabel, networkId: network.id, routeKm: Math.round(routeKm), rideMinutes: Math.ceil(rideMinutes / 15) * 15,
     stationMinutes: network.stationMinutes, estimatedMinutes: Math.ceil((rideMinutes + network.stationMinutes) / 15) * 15,
     values, nativeCurrency: network.currency, sourceUrl: network.sourceUrl, sourceName: `${network.sourceName} · 编辑预算`,
-    checkedAt: network.reviewedAt || RAIL_REVIEWED_AT,
+    checkedAt: network.reviewedAt || (network.id.startsWith('cn-') ? '2026-10-07' : RAIL_REVIEWED_AT),
     note: `${network.note || ''} 路程、换乘和票价为编辑估算；${network.anchor ? '部分路段采用取整行程参考' : '按路网绕行系数及平均速度预留'}，不是实时车次、余票或已确认直达列车。经济 / 舒适 / 高端是预算区间，不保证每趟列车提供对应席别；两端车站接驳另计。`,
   };
 }

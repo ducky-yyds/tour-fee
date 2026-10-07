@@ -1,0 +1,1805 @@
+{
+  "checkedAt": "2026-10-07T12:59:03.924Z",
+  "maintainedDestinations": 223,
+  "mainlandChineseDestinations": 65,
+  "newDestinations": 33,
+  "contentCounts": {
+    "attractions": 650,
+    "experiences": 175,
+    "foods": 165,
+    "hotels": 165
+  },
+  "photographCounts": {
+    "attractions": 318,
+    "experiences": 60,
+    "foods": 77,
+    "hotels": 15
+  },
+  "cityCovers": 33,
+  "photoNote": "Photographs count entity cards, not distinct files. Nearby/theme photographs retain their context and are not exact property photos. A missing verified photo is reported, never counted as completed.",
+  "existingCityAdditions": 16,
+  "perCity": [
+    {
+      "cityId": "chengde",
+      "name": "承德",
+      "themes": [
+        "performance",
+        "food-life",
+        "nature",
+        "craft",
+        "local-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 13,
+        "experiences": 1,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "chengde-pushan",
+          "chengde-old-streets",
+          "chengde-kuixing",
+          "chengde-sengguan",
+          "chengde-xinglong-cave",
+          "chengde-ban-cheng",
+          "chengde-lotus-mountain"
+        ],
+        "experiences": [
+          "ex-chengde-kangxi-show",
+          "ex-chengde-manchu-food",
+          "ex-chengde-resort-boat",
+          "ex-chengde-hot-spring"
+        ],
+        "foods": [
+          "food-chengde-buckwheat",
+          "food-chengde-lamb-soup",
+          "food-chengde-almond-tea"
+        ],
+        "hotels": [
+          "hotel-chengde-holiday-yuanbao",
+          "hotel-chengde-express-yuanbao",
+          "hotel-chengde-express-downtown",
+          "hotel-chengde-yunshan",
+          "hotel-chengde-qianyang"
+        ]
+      }
+    },
+    {
+      "cityId": "qinhuangdao",
+      "name": "秦皇岛",
+      "themes": [
+        "wildlife",
+        "marine",
+        "food-life",
+        "craft",
+        "festival"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 6,
+        "experiences": 0,
+        "foods": 3,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "qinhuangdao-pass-museum",
+          "qinhuangdao-mengjiang",
+          "qinhuangdao-pigeon-nest",
+          "qinhuangdao-tiger-rock",
+          "qinhuangdao-laohushi-west",
+          "qinhuangdao-gezi-wetland",
+          "qinhuangdao-botanical",
+          "qinhuangdao-xianluo",
+          "qinhuangdao-aranya",
+          "qinhuangdao-sea-museum",
+          "qinhuangdao-xigang",
+          "qinhuangdao-dolphin-bay",
+          "qinhuangdao-xinlu",
+          "qinhuangdao-lianfeng"
+        ],
+        "experiences": [
+          "ex-qinhuangdao-birdwatch",
+          "ex-qinhuangdao-beach-afternoon",
+          "ex-qinhuangdao-seafood-market",
+          "ex-qinhuangdao-greatwall-photo",
+          "ex-qinhuangdao-aranya-festival"
+        ],
+        "foods": [
+          "food-qinhuangdao-hun-pot",
+          "food-qinhuangdao-four-buns"
+        ],
+        "hotels": [
+          "hotel-qinhuangdao-shangrila",
+          "hotel-qinhuangdao-sheraton",
+          "hotel-qinhuangdao-marriott",
+          "hotel-qinhuangdao-clubmed",
+          "hotel-qinhuangdao-express"
+        ]
+      }
+    },
+    {
+      "cityId": "datong",
+      "name": "大同",
+      "themes": [
+        "food-life",
+        "craft",
+        "festival",
+        "literary"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 13,
+        "experiences": 1,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "datong-museum",
+          "datong-chunyang",
+          "datong-sculpture",
+          "datong-panjiayuan",
+          "datong-wenying",
+          "datong-mingtang",
+          "datong-earth-forest"
+        ],
+        "experiences": [
+          "ex-datong-noodle-demo",
+          "ex-datong-copper-hotpot",
+          "ex-datong-bronze-craft",
+          "ex-datong-lanterns"
+        ],
+        "foods": [
+          "food-datong-shaomai",
+          "food-datong-liangfen",
+          "food-datong-yellow-cake",
+          "food-datong-copper-pot"
+        ],
+        "hotels": [
+          "hotel-datong-jianguo",
+          "hotel-datong-wangfu",
+          "hotel-datong-pushy",
+          "hotel-datong-datong-hotel",
+          "hotel-datong-weidu"
+        ]
+      }
+    },
+    {
+      "cityId": "pingyao",
+      "name": "平遥",
+      "themes": [
+        "performance",
+        "craft",
+        "festival",
+        "local-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 14,
+        "experiences": 0,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "pingyao-xietongqing",
+          "pingyao-ma-house",
+          "pingyao-baichuantong",
+          "pingyao-erlang",
+          "pingyao-weishengchang",
+          "pingyao-huabei-escort"
+        ],
+        "experiences": [
+          "ex-pingyao-encore",
+          "ex-pingyao-lacquer",
+          "ex-pingyao-photo-festival",
+          "ex-pingyao-noodle-workshop",
+          "ex-pingyao-courtyard-tea"
+        ],
+        "foods": [
+          "food-pingyao-beef",
+          "food-pingyao-wantuo",
+          "food-pingyao-long-yam",
+          "food-pingyao-youcha"
+        ],
+        "hotels": [
+          "hotel-pingyao-jing",
+          "hotel-pingyao-yunjincheng",
+          "hotel-pingyao-hongshanyi",
+          "hotel-pingyao-dechaoge",
+          "hotel-pingyao-tianyuankui"
+        ]
+      }
+    },
+    {
+      "cityId": "hohhot",
+      "name": "呼和浩特",
+      "themes": [
+        "food-life",
+        "craft",
+        "performance",
+        "festival"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 12,
+        "experiences": 3,
+        "foods": 5,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "hohhot-inner-mongolia-museum",
+          "hohhot-natural-museum",
+          "hohhot-kuanxiangzi",
+          "hohhot-chilechuan",
+          "hohhot-hasuhai",
+          "hohhot-huhe-museum",
+          "hohhot-naobao",
+          "hohhot-racecourse"
+        ],
+        "experiences": [
+          "ex-hohhot-morin-khuur",
+          "ex-hohhot-naadam"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-hohhot-shangrila",
+          "hotel-hohhot-express-east",
+          "hotel-hohhot-wanda",
+          "hotel-hohhot-xincheng"
+        ]
+      }
+    },
+    {
+      "cityId": "hailar",
+      "name": "呼伦贝尔·海拉尔",
+      "themes": [
+        "nature",
+        "food-life",
+        "craft",
+        "local-life",
+        "performance",
+        "festival",
+        "wildlife"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 15,
+        "experiences": 10,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 2,
+        "experiences": 3,
+        "foods": 3,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "hailar-west-forest",
+          "hailar-history-museum",
+          "hailar-ethnic-museum",
+          "hailar-genghis",
+          "hailar-old-city",
+          "hailar-yimin",
+          "hailar-darjilin",
+          "hailar-evenki",
+          "hailar-bayan-hushuo",
+          "hailar-huhe-nuoer",
+          "hailar-chenbarhu",
+          "hailar-hake",
+          "hailar-hake-cliff"
+        ],
+        "experiences": [
+          "ex-hailar-grassland-horse",
+          "ex-hailar-archery",
+          "ex-hailar-naadam",
+          "ex-hailar-wetland-birds",
+          "ex-hailar-winter-culture",
+          "ex-hailar-night-sky",
+          "ex-hailar-dance"
+        ],
+        "foods": [
+          "food-hailar-milk-pot",
+          "food-hailar-leba"
+        ],
+        "hotels": [
+          "hotel-hailar-tianjiao",
+          "hotel-hailar-hampton",
+          "hotel-hailar-garden",
+          "hotel-hailar-hanting-central"
+        ]
+      }
+    },
+    {
+      "cityId": "shenyang",
+      "name": "沈阳",
+      "themes": [
+        "performance",
+        "food-life",
+        "craft",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 15,
+        "experiences": 0,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "shenyang-marshal",
+          "shenyang-918",
+          "shenyang-shenyang-museum",
+          "shenyang-hongmei",
+          "shenyang-1905"
+        ],
+        "experiences": [
+          "ex-shenyang-errenzhuan",
+          "ex-shenyang-morning-market",
+          "ex-shenyang-chicken-rack",
+          "ex-shenyang-qipao",
+          "ex-shenyang-ice-snow"
+        ],
+        "foods": [
+          "food-shenyang-dumpling",
+          "food-shenyang-chicken",
+          "food-shenyang-cold-noodle",
+          "food-shenyang-sauerkraut"
+        ],
+        "hotels": [
+          "hotel-shenyang-conrad",
+          "hotel-shenyang-shangrila",
+          "hotel-shenyang-jen",
+          "hotel-shenyang-express-north",
+          "hotel-shenyang-mukden"
+        ]
+      }
+    },
+    {
+      "cityId": "dalian",
+      "name": "大连",
+      "themes": [
+        "local-life",
+        "food-life",
+        "marine",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 13,
+        "experiences": 3,
+        "foods": 0,
+        "hotels": 2
+      },
+      "photoGaps": {
+        "attractions": [
+          "dalian-fisherman",
+          "dalian-venice",
+          "dalian-lianhua",
+          "dalian-fujiazhuang",
+          "dalian-taiyanggou",
+          "dalian-prison",
+          "dalian-dongguan"
+        ],
+        "experiences": [
+          "ex-dalian-seafood-market",
+          "ex-dalian-sailing"
+        ],
+        "foods": [
+          "food-dalian-menzi",
+          "food-dalian-mackerel",
+          "food-dalian-seaweed",
+          "food-dalian-seafood-noodle",
+          "food-dalian-scallops"
+        ],
+        "hotels": [
+          "hotel-dalian-shangrila",
+          "hotel-dalian-express",
+          "hotel-dalian-aloft"
+        ]
+      }
+    },
+    {
+      "cityId": "changchun",
+      "name": "长春",
+      "themes": [
+        "local-life",
+        "performance",
+        "nature",
+        "craft",
+        "food-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 5,
+        "experiences": 2,
+        "foods": 1,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "changchun-film",
+          "changchun-science",
+          "changchun-optics",
+          "changchun-nanhu",
+          "changchun-nanxi",
+          "changchun-zheyou-shan",
+          "changchun-xinmin",
+          "changchun-banruo",
+          "changchun-wanshou",
+          "changchun-beihu",
+          "changchun-film-wonderland",
+          "changchun-zoological",
+          "changchun-water-culture",
+          "changchun-railway-station",
+          "changchun-chongqing-road"
+        ],
+        "experiences": [
+          "ex-changchun-vasa",
+          "ex-changchun-auto",
+          "ex-changchun-stew"
+        ],
+        "foods": [
+          "food-changchun-spring-pancake",
+          "food-changchun-pot-stew",
+          "food-changchun-hotpot",
+          "food-changchun-sticky-bun"
+        ],
+        "hotels": [
+          "hotel-changchun-hyatt",
+          "hotel-changchun-holiday-hightech",
+          "hotel-changchun-express-ecology",
+          "hotel-changchun-sheraton"
+        ]
+      }
+    },
+    {
+      "cityId": "yanji",
+      "name": "延吉",
+      "themes": [
+        "craft",
+        "performance",
+        "local-life",
+        "food-life",
+        "nature",
+        "festival",
+        "literary"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 15,
+        "experiences": 10,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 9,
+        "experiences": 3,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "yanji-dinosaur-park",
+          "yanji-river",
+          "yanji-youth-lake",
+          "yanji-daeseong",
+          "yanji-poet-house",
+          "yanji-piyan"
+        ],
+        "experiences": [
+          "ex-yanji-farm-dance",
+          "ex-yanji-coffee",
+          "ex-yanji-barbecue",
+          "ex-yanji-football",
+          "ex-yanji-ski",
+          "ex-yanji-harvest-festival",
+          "ex-yanji-literature"
+        ],
+        "foods": [
+          "food-yanji-cold-noodles",
+          "food-yanji-ricecake",
+          "food-yanji-rice-sausage",
+          "food-yanji-pollock"
+        ],
+        "hotels": [
+          "hotel-yanji-hampton",
+          "hotel-yanji-baishan",
+          "hotel-yanji-hongju",
+          "hotel-yanji-yanbian",
+          "hotel-yanji-xi-an"
+        ]
+      }
+    },
+    {
+      "cityId": "yinchuan",
+      "name": "银川",
+      "themes": [
+        "food-life",
+        "performance",
+        "local-life",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 2,
+        "experiences": 1,
+        "foods": 0,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "yinchuan-helan-rock",
+          "yinchuan-zhenbeibao",
+          "yinchuan-shuidonggou",
+          "yinchuan-suyukou",
+          "yinchuan-haibao",
+          "yinchuan-chengtian",
+          "yinchuan-drum",
+          "yinchuan-yuhuang",
+          "yinchuan-south-gate",
+          "yinchuan-lanshan",
+          "yinchuan-yuehai",
+          "yinchuan-mingcui",
+          "yinchuan-art-museum",
+          "yinchuan-baishikou",
+          "yinchuan-geology",
+          "yinchuan-goji",
+          "yinchuan-zhongshan",
+          "yinchuan-hongfo"
+        ],
+        "experiences": [
+          "ex-yinchuan-winery",
+          "ex-yinchuan-manpu",
+          "ex-yinchuan-night-food",
+          "ex-yinchuan-desert-edge"
+        ],
+        "foods": [
+          "food-yinchuan-lamb",
+          "food-yinchuan-offal",
+          "food-yinchuan-tea",
+          "food-yinchuan-youxiang",
+          "food-yinchuan-lahuhu"
+        ],
+        "hotels": [
+          "hotel-yinchuan-jw",
+          "hotel-yinchuan-kempinski",
+          "hotel-yinchuan-courtyard",
+          "hotel-yinchuan-express",
+          "hotel-yinchuan-holiday-guomao"
+        ]
+      }
+    },
+    {
+      "cityId": "huangshan",
+      "name": "黄山",
+      "themes": [
+        "craft",
+        "food-life",
+        "festival",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 14,
+        "experiences": 5,
+        "foods": 4,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "huangshan-liyang",
+          "huangshan-xixinan",
+          "huangshan-tangyue",
+          "huangshan-lucun",
+          "huangshan-bishan",
+          "huangshan-xin-anjiang"
+        ],
+        "experiences": [],
+        "foods": [
+          "food-huangshan-shaobing"
+        ],
+        "hotels": [
+          "hotel-huangshan-hyatt-place",
+          "hotel-huangshan-crowne",
+          "hotel-huangshan-hyatt-regency",
+          "hotel-huangshan-banyan",
+          "hotel-huangshan-baiyun"
+        ]
+      }
+    },
+    {
+      "cityId": "hefei",
+      "name": "合肥",
+      "themes": [
+        "performance",
+        "food-life",
+        "nature",
+        "craft"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 10,
+        "experiences": 2,
+        "foods": 0,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "hefei-anhui-museum",
+          "hefei-art-museum",
+          "hefei-geological",
+          "hefei-swan-lake",
+          "hefei-hechai",
+          "hefei-science",
+          "hefei-dashushan",
+          "hefei-botanical",
+          "hefei-san-guo",
+          "hefei-liujiafan"
+        ],
+        "experiences": [
+          "ex-hefei-jianghuai-breakfast",
+          "ex-hefei-sanhe-rice",
+          "ex-hefei-hechai-art"
+        ],
+        "foods": [
+          "food-hefei-rice-dumpling",
+          "food-hefei-chicken-dumpling",
+          "food-hefei-duck-shaobing",
+          "food-hefei-wushan-goose",
+          "food-hefei-hotchpotch"
+        ],
+        "hotels": [
+          "hotel-hefei-express",
+          "hotel-hefei-holiday",
+          "hotel-hefei-shangrila",
+          "hotel-hefei-hyatt",
+          "hotel-hefei-hightech"
+        ]
+      }
+    },
+    {
+      "cityId": "fuzhou",
+      "name": "福州",
+      "themes": [
+        "food-life",
+        "performance",
+        "craft",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 12,
+        "experiences": 3,
+        "foods": 5,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "fuzhou-zhuzifang",
+          "fuzhou-wushan",
+          "fuzhou-yantaishan",
+          "fuzhou-minjiang-heart",
+          "fuzhou-luoxing",
+          "fuzhou-gushan",
+          "fuzhou-forest",
+          "fuzhou-fudao"
+        ],
+        "experiences": [
+          "ex-fuzhou-river-cruise",
+          "ex-fuzhou-hot-spring"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-fuzhou-hyatt",
+          "hotel-fuzhou-westin",
+          "hotel-fuzhou-intercontinental",
+          "hotel-fuzhou-express"
+        ]
+      }
+    },
+    {
+      "cityId": "wuyishan",
+      "name": "武夷山",
+      "themes": [
+        "nature",
+        "food-life",
+        "craft",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 10,
+        "experiences": 2,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "wuyishan-dahongpao",
+          "wuyishan-wufu",
+          "wuyishan-xiamei-tea",
+          "wuyishan-xiangjiang",
+          "wuyishan-yanzike",
+          "wuyishan-xiamei-river",
+          "wuyishan-chongyang-river",
+          "wuyishan-chishi-memorial",
+          "wuyishan-qinglong",
+          "wuyishan-longchuan"
+        ],
+        "experiences": [
+          "ex-wuyishan-tea-making",
+          "ex-wuyishan-impression",
+          "ex-wuyishan-tea-path"
+        ],
+        "foods": [
+          "food-wuyishan-smoked-goose",
+          "food-wuyishan-guangbing",
+          "food-wuyishan-lotus-soup",
+          "food-wuyishan-bamboo-shoot"
+        ],
+        "hotels": [
+          "hotel-wuyishan-ancient-five",
+          "hotel-wuyishan-cd-resort",
+          "hotel-wuyishan-dahongpao",
+          "hotel-wuyishan-wuyi-villa",
+          "hotel-wuyishan-fliport"
+        ]
+      }
+    },
+    {
+      "cityId": "jingdezhen",
+      "name": "景德镇",
+      "themes": [
+        "craft",
+        "food-life",
+        "performance",
+        "festival"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 9,
+        "experiences": 1,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "jingdezhen-industrial-museum",
+          "jingdezhen-sanbao",
+          "jingdezhen-sanbaopeng",
+          "jingdezhen-sculpture",
+          "jingdezhen-hutian",
+          "jingdezhen-hanxi",
+          "jingdezhen-bingding",
+          "jingdezhen-mingfang",
+          "jingdezhen-ceramics-art",
+          "jingdezhen-sanlv",
+          "jingdezhen-changjiang"
+        ],
+        "experiences": [
+          "ex-jingdezhen-wheel",
+          "ex-jingdezhen-painting",
+          "ex-jingdezhen-tea-landscape",
+          "ex-jingdezhen-china-show"
+        ],
+        "foods": [
+          "food-jingdezhen-alkaline-cake",
+          "food-jingdezhen-lengfen",
+          "food-jingdezhen-dumpling-cake",
+          "food-jingdezhen-porcelain-pork"
+        ],
+        "hotels": [
+          "hotel-jingdezhen-express-center",
+          "hotel-jingdezhen-express-old",
+          "hotel-jingdezhen-holiday",
+          "hotel-jingdezhen-hyatt-place",
+          "hotel-jingdezhen-unbound"
+        ]
+      }
+    },
+    {
+      "cityId": "yangzhou",
+      "name": "扬州",
+      "themes": [
+        "food-life",
+        "performance",
+        "craft",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 17,
+        "experiences": 3,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "yangzhou-zhushi",
+          "yangzhou-guanyin",
+          "yangzhou-zhuyuwan"
+        ],
+        "experiences": [
+          "ex-yangzhou-canal-boat",
+          "ex-yangzhou-paper-cut"
+        ],
+        "foods": [
+          "food-yangzhou-gansi",
+          "food-yangzhou-lion-head",
+          "food-yangzhou-jade-shaomai"
+        ],
+        "hotels": [
+          "hotel-yangzhou-hampton",
+          "hotel-yangzhou-fairfield",
+          "hotel-yangzhou-shangrila",
+          "hotel-yangzhou-doubletree",
+          "hotel-yangzhou-express"
+        ]
+      }
+    },
+    {
+      "cityId": "shaoxing",
+      "name": "绍兴",
+      "themes": [
+        "nature",
+        "food-life",
+        "performance",
+        "craft",
+        "festival"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 15,
+        "experiences": 4,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "shaoxing-huangjiu",
+          "shaoxing-dongpu",
+          "shaoxing-fushan",
+          "shaoxing-tashan",
+          "shaoxing-yangming"
+        ],
+        "experiences": [
+          "ex-shaoxing-calligraphy"
+        ],
+        "foods": [
+          "food-shaoxing-fennel-beans",
+          "food-shaoxing-drunken-chicken",
+          "food-shaoxing-cream-xiaopan"
+        ],
+        "hotels": [
+          "hotel-shaoxing-crowne",
+          "hotel-shaoxing-dayu",
+          "hotel-shaoxing-xianheng",
+          "hotel-shaoxing-holiday",
+          "hotel-shaoxing-shaoxing-hotel"
+        ]
+      }
+    },
+    {
+      "cityId": "chaozhou",
+      "name": "潮州",
+      "themes": [
+        "food-life",
+        "craft",
+        "performance",
+        "festival",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 14,
+        "experiences": 3,
+        "foods": 4,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "chaozhou-rao-museum",
+          "chaozhou-qinglong",
+          "chaozhou-fenghuangzhou",
+          "chaozhou-danfu",
+          "chaozhou-fenghuang-tea",
+          "chaozhou-huiru"
+        ],
+        "experiences": [
+          "ex-chaozhou-lantern-festival",
+          "ex-chaozhou-phoenix-tea"
+        ],
+        "foods": [
+          "food-chaozhou-rice-roll"
+        ],
+        "hotels": [
+          "hotel-chaozhou-crowne",
+          "hotel-chaozhou-hampton",
+          "hotel-chaozhou-chaozhou-hotel",
+          "hotel-chaozhou-han-ting",
+          "hotel-chaozhou-linjiang"
+        ]
+      }
+    },
+    {
+      "cityId": "macau",
+      "name": "澳门",
+      "themes": [
+        "food-life",
+        "festival",
+        "performance",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 20,
+        "experiences": 4,
+        "foods": 5,
+        "hotels": 4
+      },
+      "photoGaps": {
+        "attractions": [],
+        "experiences": [
+          "ex-macau-coloane-trail"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-macau-caravel"
+        ]
+      }
+    },
+    {
+      "cityId": "leshan",
+      "name": "乐山",
+      "themes": [
+        "nature",
+        "local-life",
+        "food-life",
+        "craft"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 10,
+        "experiences": 3,
+        "foods": 3,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "leshan-leshan-museum",
+          "leshan-shangzhongshun",
+          "leshan-zhang-gongqiao",
+          "leshan-lvxin",
+          "leshan-haitang",
+          "leshan-suji",
+          "leshan-luocheng",
+          "leshan-dongfeng",
+          "leshan-jiajiang-paper",
+          "leshan-jiayang"
+        ],
+        "experiences": [
+          "ex-leshan-tea-house",
+          "ex-leshan-paper-making"
+        ],
+        "foods": [
+          "food-leshan-sweet-duck",
+          "food-leshan-ka-bing"
+        ],
+        "hotels": [
+          "hotel-leshan-express",
+          "hotel-leshan-hampton-center",
+          "hotel-leshan-hampton-station",
+          "hotel-leshan-jinjiang",
+          "hotel-leshan-chanyi"
+        ]
+      }
+    },
+    {
+      "cityId": "guiyang",
+      "name": "贵阳",
+      "themes": [
+        "food-life",
+        "craft",
+        "wildlife",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 7,
+        "experiences": 1,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "guiyang-wenchang",
+          "guiyang-qianming",
+          "guiyang-qingyun",
+          "guiyang-minsheng",
+          "guiyang-taiping",
+          "guiyang-guanshanhu",
+          "guiyang-huaxi-park",
+          "guiyang-shilihetan",
+          "guiyang-zhen-shan",
+          "guiyang-gaopo",
+          "guiyang-nanjiang",
+          "guiyang-xifeng",
+          "guiyang-hongfeng"
+        ],
+        "experiences": [
+          "ex-guiyang-batik",
+          "ex-guiyang-wetland-birds",
+          "ex-guiyang-ethnic-performance",
+          "ex-guiyang-market-breakfast"
+        ],
+        "foods": [
+          "food-guiyang-changwang",
+          "food-guiyang-tofu-balls",
+          "food-guiyang-qingyan-trotter",
+          "food-guiyang-sticky-rice"
+        ],
+        "hotels": [
+          "hotel-guiyang-novotel-center",
+          "hotel-guiyang-novotel-panjiang",
+          "hotel-guiyang-hyatt",
+          "hotel-guiyang-sofitel",
+          "hotel-guiyang-express-qingyan"
+        ]
+      }
+    },
+    {
+      "cityId": "kunming",
+      "name": "昆明",
+      "themes": [
+        "food-life",
+        "wildlife",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 16,
+        "experiences": 2,
+        "foods": 5,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "kunming-western-hills",
+          "kunming-east-west-pagodas",
+          "kunming-southwest-university",
+          "kunming-haigeng"
+        ],
+        "experiences": [
+          "ex-kunming-zhuanxin-tasting",
+          "ex-kunming-gull-watching",
+          "ex-kunming-theatre"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-kunming-green-lake",
+          "hotel-kunming-sofitel",
+          "hotel-kunming-grand-hyatt",
+          "hotel-kunming-holiday-inn"
+        ]
+      }
+    },
+    {
+      "cityId": "jinghong",
+      "name": "景洪·西双版纳",
+      "themes": [
+        "craft",
+        "nature",
+        "food-life",
+        "festival",
+        "wildlife"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 7,
+        "experiences": 2,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "jinghong-manting",
+          "jinghong-zongfo",
+          "jinghong-tropical-flowers",
+          "jinghong-mengle",
+          "jinghong-jiangbian",
+          "jinghong-manjinglan",
+          "jinghong-wild-elephant-valley",
+          "jinghong-mantuan",
+          "jinghong-manzhang",
+          "jinghong-manluan",
+          "jinghong-nannuo",
+          "jinghong-dadugang",
+          "jinghong-mengyang"
+        ],
+        "experiences": [
+          "ex-jinghong-paper-making",
+          "ex-jinghong-dai-table",
+          "ex-jinghong-songkran"
+        ],
+        "foods": [
+          "food-jinghong-lemongrass-fish",
+          "food-jinghong-pounded-feet",
+          "food-jinghong-nanmi"
+        ],
+        "hotels": [
+          "hotel-jinghong-intercontinental",
+          "hotel-jinghong-pullman",
+          "hotel-jinghong-sheraton",
+          "hotel-jinghong-four-points",
+          "hotel-jinghong-anantara"
+        ]
+      }
+    },
+    {
+      "cityId": "tengchong",
+      "name": "腾冲",
+      "themes": [
+        "local-life",
+        "craft",
+        "performance",
+        "wildlife",
+        "food-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 6,
+        "experiences": 2,
+        "foods": 4,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "tengchong-cemetery",
+          "tengchong-dieshui",
+          "tengchong-laifeng",
+          "tengchong-qiluo",
+          "tengchong-ginkgo",
+          "tengchong-yunfeng",
+          "tengchong-simola",
+          "tengchong-jiangju",
+          "tengchong-paper-village",
+          "tengchong-gaoligong-tea",
+          "tengchong-he-mu",
+          "tengchong-pa-lian",
+          "tengchong-xinqi",
+          "tengchong-cherry-valley"
+        ],
+        "experiences": [
+          "ex-tengchong-hot-spring",
+          "ex-tengchong-paper-workshop",
+          "ex-tengchong-shadow-puppets"
+        ],
+        "foods": [
+          "food-tengchong-pine-pollen-cake"
+        ],
+        "hotels": [
+          "hotel-tengchong-banyan",
+          "hotel-tengchong-bolian",
+          "hotel-tengchong-lost-stone",
+          "hotel-tengchong-vinetree",
+          "hotel-tengchong-ji-rehai"
+        ]
+      }
+    },
+    {
+      "cityId": "lhasa",
+      "name": "拉萨",
+      "themes": [
+        "food-life",
+        "craft",
+        "festival",
+        "local-life",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 13,
+        "experiences": 1,
+        "foods": 3,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "lhasa-meru",
+          "lhasa-resident-minister",
+          "lhasa-gendun-chophel",
+          "lhasa-gyabum-gang",
+          "lhasa-lalu",
+          "lhasa-lhasa-river",
+          "lhasa-yerpa"
+        ],
+        "experiences": [
+          "ex-lhasa-sweet-tea",
+          "ex-lhasa-thangka",
+          "ex-lhasa-linka",
+          "ex-lhasa-princess-drama"
+        ],
+        "foods": [
+          "food-lhasa-momo",
+          "food-lhasa-yogurt"
+        ],
+        "hotels": [
+          "hotel-lhasa-shangri-la",
+          "hotel-lhasa-intercontinental",
+          "hotel-lhasa-home2-museum",
+          "hotel-lhasa-four-points"
+        ]
+      }
+    },
+    {
+      "cityId": "nyingchi",
+      "name": "林芝",
+      "themes": [
+        "festival",
+        "food-life",
+        "craft",
+        "wildlife",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 4,
+        "experiences": 0,
+        "foods": 1,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "nyingchi-museum",
+          "nyingchi-gongbu-park",
+          "nyingchi-niyang-waterfront",
+          "nyingchi-gala",
+          "nyingchi-giant-cypress",
+          "nyingchi-biri",
+          "nyingchi-cuomuji-ri",
+          "nyingchi-serkhyim",
+          "nyingchi-lulang-forest",
+          "nyingchi-zhaxigang",
+          "nyingchi-jieba",
+          "nyingchi-cuogao",
+          "nyingchi-yarlung-canyon",
+          "nyingchi-suosong",
+          "nyingchi-danniang",
+          "nyingchi-nanyi"
+        ],
+        "experiences": [
+          "ex-nyingchi-peach-festival",
+          "ex-nyingchi-lulang-pot",
+          "ex-nyingchi-gongbu-culture",
+          "ex-nyingchi-forest-birding",
+          "ex-nyingchi-niyang-picnic"
+        ],
+        "foods": [
+          "food-nyingchi-stone-chicken",
+          "food-nyingchi-tibetan-pork",
+          "food-nyingchi-mushrooms",
+          "food-nyingchi-buckwheat-cake"
+        ],
+        "hotels": [
+          "hotel-nyingchi-hilton",
+          "hotel-nyingchi-poly",
+          "hotel-nyingchi-songtsam-namcha",
+          "hotel-nyingchi-songtsam-lulang",
+          "hotel-nyingchi-bayi-budget"
+        ]
+      }
+    },
+    {
+      "cityId": "xining",
+      "name": "西宁",
+      "themes": [
+        "food-life",
+        "performance",
+        "craft",
+        "festival",
+        "local-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 6,
+        "experiences": 0,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "xining-qinghai-museum",
+          "xining-tibetan-culture",
+          "xining-beichan",
+          "xining-nanshan",
+          "xining-botanical",
+          "xining-plateau-zoo",
+          "xining-shenan",
+          "xining-wenmiao",
+          "xining-xining-museum",
+          "xining-danggar",
+          "xining-niangniang",
+          "xining-huangshui",
+          "xining-limei",
+          "xining-qinghai-lake"
+        ],
+        "experiences": [
+          "ex-xining-breakfast",
+          "ex-xining-flower-song",
+          "ex-xining-thangka",
+          "ex-xining-shehuo",
+          "ex-xining-river-tea"
+        ],
+        "foods": [
+          "food-xining-yogurt",
+          "food-xining-gamian",
+          "food-xining-tianpei"
+        ],
+        "hotels": [
+          "hotel-xining-sofitel",
+          "hotel-xining-wanda",
+          "hotel-xining-holiday-express",
+          "hotel-xining-fairfield",
+          "hotel-xining-holiday-hot-spring"
+        ]
+      }
+    },
+    {
+      "cityId": "lanzhou",
+      "name": "兰州",
+      "themes": [
+        "food-life",
+        "local-life",
+        "nature",
+        "craft",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 2,
+        "experiences": 1,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "lanzhou-zhongshan",
+          "lanzhou-baita",
+          "lanzhou-yellow-river-mother",
+          "lanzhou-waterwheel",
+          "lanzhou-wuwuan",
+          "lanzhou-lanzhou-museum",
+          "lanzhou-gansu-art",
+          "lanzhou-readers",
+          "lanzhou-science",
+          "lanzhou-yellow-river-building",
+          "lanzhou-wu-muquan",
+          "lanzhou-bapanxia",
+          "lanzhou-xinglong",
+          "lanzhou-qingcheng",
+          "lanzhou-hekou",
+          "lanzhou-yantan",
+          "lanzhou-baitashan-tunnel",
+          "lanzhou-ru-yuan"
+        ],
+        "experiences": [
+          "ex-lanzhou-beef-noodle",
+          "ex-lanzhou-river-tea",
+          "ex-lanzhou-river-cruise",
+          "ex-lanzhou-gourd-carving"
+        ],
+        "foods": [
+          "food-lanzhou-grey-peas",
+          "food-lanzhou-milk-egg",
+          "food-lanzhou-sanpaotai"
+        ],
+        "hotels": [
+          "hotel-lanzhou-hyatt",
+          "hotel-lanzhou-crowne",
+          "hotel-lanzhou-hilton",
+          "hotel-lanzhou-sheraton",
+          "hotel-lanzhou-holiday-express"
+        ]
+      }
+    },
+    {
+      "cityId": "zhangye",
+      "name": "张掖",
+      "themes": [
+        "nature",
+        "craft",
+        "wildlife",
+        "food-life"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 5,
+        "experiences": 1,
+        "foods": 0,
+        "hotels": 1
+      },
+      "photoGaps": {
+        "attractions": [
+          "zhangye-wooden-pagoda",
+          "zhangye-bell-tower",
+          "zhangye-wetland",
+          "zhangye-ganquan",
+          "zhangye-heihe",
+          "zhangye-pingshan",
+          "zhangye-jinta",
+          "zhangye-shandan-great-wall",
+          "zhangye-shandan-museum",
+          "zhangye-rewi",
+          "zhangye-horse-farm",
+          "zhangye-gaotai-memorial",
+          "zhangye-wulan",
+          "zhangye-bals",
+          "zhangye-kangle"
+        ],
+        "experiences": [
+          "ex-zhangye-yugur-culture",
+          "ex-zhangye-wetland-birding",
+          "ex-zhangye-noodle-workshop",
+          "ex-zhangye-horse-intro"
+        ],
+        "foods": [
+          "food-zhangye-saozi",
+          "food-zhangye-fish-noodle",
+          "food-zhangye-chaobola",
+          "food-zhangye-juanzi-chicken",
+          "food-zhangye-beef-rice"
+        ],
+        "hotels": [
+          "hotel-zhangye-holiday-express",
+          "hotel-zhangye-hampton",
+          "hotel-zhangye-zhangye-hotel",
+          "hotel-zhangye-tianyu"
+        ]
+      }
+    },
+    {
+      "cityId": "urumqi",
+      "name": "乌鲁木齐",
+      "themes": [
+        "performance",
+        "food-life",
+        "craft",
+        "nature"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 10,
+        "experiences": 1,
+        "foods": 5,
+        "hotels": 2
+      },
+      "photoGaps": {
+        "attractions": [
+          "urumqi-hongguangshan",
+          "urumqi-geology-museum",
+          "urumqi-art-museum",
+          "urumqi-city-museum",
+          "urumqi-salt-lake",
+          "urumqi-dabancheng",
+          "urumqi-tianshan-canyon",
+          "urumqi-west-baiyang",
+          "urumqi-silk-road-resort",
+          "urumqi-annanqu"
+        ],
+        "experiences": [
+          "ex-urumqi-uyghur-music",
+          "ex-urumqi-felt-craft",
+          "ex-urumqi-ski-lesson",
+          "ex-urumqi-mountain-picnic"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-urumqi-hilton",
+          "hotel-urumqi-conrad",
+          "hotel-urumqi-jinjiang"
+        ]
+      }
+    },
+    {
+      "cityId": "kashgar",
+      "name": "喀什",
+      "themes": [
+        "craft",
+        "food-life",
+        "performance"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 1,
+        "experiences": 1,
+        "foods": 5,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "kashgar-old-city",
+          "kashgar-id-kah",
+          "kashgar-apakh-hoja",
+          "kashgar-gaotai",
+          "kashgar-museum",
+          "kashgar-pan-tuo",
+          "kashgar-yusuf",
+          "kashgar-east-lake",
+          "kashgar-people-park",
+          "kashgar-id-kah-square",
+          "kashgar-kashgar-university",
+          "kashgar-qinibagh",
+          "kashgar-three-fairy-caves",
+          "kashgar-morr-stupa",
+          "kashgar-han-nuoyi",
+          "kashgar-shule-museum",
+          "kashgar-shufu-musical-village",
+          "kashgar-dawakul",
+          "kashgar-aksu-orchard"
+        ],
+        "experiences": [
+          "ex-kashgar-copper-craft",
+          "ex-kashgar-pottery",
+          "ex-kashgar-tea-house",
+          "ex-kashgar-night-food"
+        ],
+        "foods": [],
+        "hotels": [
+          "hotel-kashgar-radisson",
+          "hotel-kashgar-hampton",
+          "hotel-kashgar-holiday-express",
+          "hotel-kashgar-seman",
+          "hotel-kashgar-qiniwak"
+        ]
+      }
+    },
+    {
+      "cityId": "yining",
+      "name": "伊宁",
+      "themes": [
+        "performance",
+        "food-life",
+        "nature",
+        "craft"
+      ],
+      "cityCover": true,
+      "counts": {
+        "attractions": 20,
+        "experiences": 5,
+        "foods": 5,
+        "hotels": 5
+      },
+      "photographs": {
+        "attractions": 6,
+        "experiences": 1,
+        "foods": 2,
+        "hotels": 0
+      },
+      "photoGaps": {
+        "attractions": [
+          "yining-kazanqi",
+          "yining-liuxing",
+          "yining-accordion",
+          "yining-ili-river",
+          "yining-ili-bridge",
+          "yining-hanren-market",
+          "yining-wangmeng",
+          "yining-suburb-village",
+          "yining-silk-road-light",
+          "yining-people-park",
+          "yining-ningyuan",
+          "yining-qapqal",
+          "yining-lavender",
+          "yining-kuerdening"
+        ],
+        "experiences": [
+          "ex-yining-accordion-music",
+          "ex-yining-ice-cream",
+          "ex-yining-xibe-archery",
+          "ex-yining-leather-craft"
+        ],
+        "foods": [
+          "food-yining-ice-cream",
+          "food-yining-leba",
+          "food-yining-fentang"
+        ],
+        "hotels": [
+          "hotel-yining-hampton",
+          "hotel-yining-intercontinental",
+          "hotel-yining-even",
+          "hotel-yining-home2",
+          "hotel-yining-ili-hotel"
+        ]
+      }
+    }
+  ],
+  "problems": []
+}

@@ -1,0 +1,1286 @@
+{
+  "jinghong-botanical-garden": {
+    "photoFile": "Tropical Botanical Garden, Xishuangbanna - panoramio - Colin W (1).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropical_Botanical_Garden,_Xishuangbanna_-_panoramio_-_Colin_W_(1).jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Colin W",
+    "imageScope": "exact-place",
+    "imageContextNote": "中科院西双版纳热带植物园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-dai-garden": {
+    "photoFile": "Jinghong Xishuangbanna Daizu Yuan 20250809 091109.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinghong_Xishuangbanna_Daizu_Yuan_20250809_091109.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Zhangzhugang",
+    "imageScope": "exact-place",
+    "imageContextNote": "勐罕傣族园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-ethnic-museum": {
+    "photoFile": "Xishuangbanna Nationality Museum 3221.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xishuangbanna_Nationality_Museum_3221.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Cangminzho",
+    "imageScope": "exact-place",
+    "imageContextNote": "西双版纳民族博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-forest-park": {
+    "photoFile": "Xishuangbanna Primeval Forest Park - panoramio.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xishuangbanna_Primeval_Forest_Park_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Colin W",
+    "imageScope": "exact-place",
+    "imageContextNote": "西双版纳原始森林公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-gaozhuang": {
+    "photoFile": "告庄西双景 2026-04-02 12.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%91%8A%E5%BA%84%E8%A5%BF%E5%8F%8C%E6%99%AF_2026-04-02_12.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Roller Coaster Philosophy",
+    "imageScope": "exact-place",
+    "imageContextNote": "告庄西双景实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-jinuo": {
+    "photoFile": "Jinuo Village.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jinuo_Village.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Taco Witte",
+    "imageScope": "exact-place",
+    "imageContextNote": "基诺山寨实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "jinghong-man-ge": {
+    "photoFile": "20251226 Mange Si.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20251226_Mange_Si.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Yumeto",
+    "imageScope": "exact-place",
+    "imageContextNote": "曼阁佛寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-black-dragon-pool": {
+    "photoFile": "Black Dragon Pool Park in Kunming 13.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Dragon_Pool_Park_in_Kunming_13.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Zhangmoon618",
+    "imageScope": "exact-place",
+    "imageContextNote": "黑龙潭公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-botanical-garden": {
+    "photoFile": "Kunming Botanical Garden - DSC03095.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunming_Botanical_Garden_-_DSC03095.JPG",
+    "license": "Public domain",
+    "author": "Daderot",
+    "imageScope": "exact-place",
+    "imageContextNote": "昆明植物园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-daguan": {
+    "photoFile": "大观楼 2025-09-20 13.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%A7%82%E6%A5%BC_2025-09-20_13.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Kcx36",
+    "imageScope": "exact-place",
+    "imageContextNote": "大观公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-dongchuan": {
+    "photoFile": "Red earth at Hongtudi1.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_earth_at_Hongtudi1.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Dgbouma",
+    "imageScope": "exact-place",
+    "imageContextNote": "东川红土地开放观景点实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-ethnic-museum": {
+    "photoFile": "Yunnan Nationalities Museum - DSC03551.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yunnan_Nationalities_Museum_-_DSC03551.JPG",
+    "license": "Public domain",
+    "author": "Daderot",
+    "imageScope": "exact-place",
+    "imageContextNote": "云南民族博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-ethnic-village": {
+    "photoFile": "云南民族村-入口牌坊.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E6%B0%91%E6%97%8F%E6%9D%91-%E5%85%A5%E5%8F%A3%E7%89%8C%E5%9D%8A.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "董辰兴",
+    "imageScope": "exact-place",
+    "imageContextNote": "云南民族村实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-golden-temple": {
+    "photoFile": "Golden Temple Kunming Gate 2009 07.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Temple_Kunming_Gate_2009_07.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Rolfmueller",
+    "imageScope": "exact-place",
+    "imageContextNote": "金殿风景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-green-lake": {
+    "photoFile": "Cui hu park.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cui_hu_park.jpg",
+    "license": "Public domain",
+    "author": "Kaupthng",
+    "imageScope": "exact-place",
+    "imageContextNote": "翠湖公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-guandu": {
+    "photoFile": "2026.04.27.161011 Vajra Pagoda Guandu Ancient Town Kunming Yunnan China.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026.04.27.161011_Vajra_Pagoda_Guandu_Ancient_Town_Kunming_Yunnan_China.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Hermann Luyken",
+    "imageScope": "exact-place",
+    "imageContextNote": "官渡古镇实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-jiuxiang": {
+    "photoFile": "Jiuxiang 2.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiuxiang_2.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Deadkid dk",
+    "imageScope": "exact-place",
+    "imageContextNote": "九乡风景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-kunming-old-street": {
+    "photoFile": "Old Street Kunming - Buildings in Kunming - DSC03474.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Street_Kunming_-_Buildings_in_Kunming_-_DSC03474.JPG",
+    "license": "Public domain",
+    "author": "Daderot",
+    "imageScope": "exact-place",
+    "imageContextNote": "昆明老街与文明街实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-military-academy": {
+    "photoFile": "Kunming Yunnan Lujun Jiangwutang Jiuzhi 2014.09.26 18-26-32.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunming_Yunnan_Lujun_Jiangwutang_Jiuzhi_2014.09.26_18-26-32.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Zhangzhugang",
+    "imageScope": "exact-place",
+    "imageContextNote": "云南陆军讲武堂历史博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-provincial-museum": {
+    "photoFile": "云南省博物馆 2025-09-17 01.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E7%9C%81%E5%8D%9A%E7%89%A9%E9%A6%86_2025-09-17_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Kcx36",
+    "imageScope": "exact-place",
+    "imageContextNote": "云南省博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-railway-museum": {
+    "photoFile": "Kunming North Station - exterior - P1340619.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunming_North_Station_-_exterior_-_P1340619.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "User:Vmenkov",
+    "imageScope": "exact-place",
+    "imageContextNote": "云南铁路博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-stone-forest": {
+    "photoFile": "Shilin, Yunnan 24740.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shilin,_Yunnan_24740.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "xiquinhosilva",
+    "imageScope": "exact-place",
+    "imageContextNote": "石林风景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kunming-yuantong": {
+    "photoFile": "昆明圆通寺.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%86%E6%98%8E%E5%9C%86%E9%80%9A%E5%AF%BA.JPG",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "Gisling",
+    "imageScope": "exact-place",
+    "imageContextNote": "圆通寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-ani-tsangkhung": {
+    "photoFile": "TIB-lhasa-anisangkhung-eing.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TIB-lhasa-anisangkhung-eing.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Bgabel",
+    "imageScope": "exact-place",
+    "imageContextNote": "仓姑寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-barkhor": {
+    "photoFile": "LhasaBarskor.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LhasaBarskor.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "Taken by Fanghong",
+    "imageScope": "exact-place",
+    "imageContextNote": "八廓街实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-chagpori-view": {
+    "photoFile": "309Blick auf Chokpori.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:309Blick_auf_Chokpori.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "RThiele",
+    "imageScope": "exact-place",
+    "imageContextNote": "药王山开放观景台实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-drepung": {
+    "photoFile": "Drepung monastery.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drepung_monastery.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "imageScope": "exact-place",
+    "imageContextNote": "哲蚌寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-ganden": {
+    "photoFile": "Ganden monastery.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ganden_monastery.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "imageScope": "exact-place",
+    "imageContextNote": "甘丹寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-jokhang": {
+    "photoFile": "Jokhang Temple in Tibet.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jokhang_Temple_in_Tibet.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "onwardtibet.org",
+    "imageScope": "exact-place",
+    "imageContextNote": "大昭寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-namtso": {
+    "photoFile": "Namtso-and-holy-rock.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Namtso-and-holy-rock.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "Peter Vigier",
+    "imageScope": "exact-place",
+    "imageContextNote": "纳木错扎西半岛实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-norbulingka": {
+    "photoFile": "Norbulingka on a sunny day.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norbulingka_on_a_sunny_day.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "travel oriented",
+    "imageScope": "exact-place",
+    "imageContextNote": "罗布林卡实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-potala": {
+    "photoFile": "Potala Palace HQ.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potala_Palace_HQ.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Lhasa Government",
+    "imageScope": "exact-place",
+    "imageContextNote": "布达拉宫实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-ramoche": {
+    "photoFile": "Ramoche-Tempel Schuh 2007.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ramoche-Tempel_Schuh_2007.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Dieter Schuh 18:55, 30. Sep. 2009 (CEST)",
+    "imageScope": "exact-place",
+    "imageContextNote": "小昭寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-sera": {
+    "photoFile": "Sera Mey.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sera_Mey.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Evanosherow",
+    "imageScope": "exact-place",
+    "imageContextNote": "色拉寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-tibet-museum": {
+    "photoFile": "TibetanMuseum.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TibetanMuseum.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Fanghong",
+    "imageScope": "exact-place",
+    "imageContextNote": "西藏博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lhasa-zongjiao": {
+    "photoFile": "Lhukhang8.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lhukhang8.JPG",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "ignat",
+    "imageScope": "exact-place",
+    "imageContextNote": "宗角禄康公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "nyingchi-basum": {
+    "photoFile": "BasumTso-wiki.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BasumTso-wiki.jpg",
+    "license": "Public domain",
+    "author": "Kosigrim at English Wikipedia",
+    "imageScope": "exact-place",
+    "imageContextNote": "巴松措景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "nyingchi-kading": {
+    "photoFile": "卡定沟 - panoramio.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%A1%E5%AE%9A%E6%B2%9F_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "山海风",
+    "imageScope": "exact-place",
+    "imageContextNote": "卡定沟实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "nyingchi-lamaling": {
+    "photoFile": "LamaLing-wiki.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LamaLing-wiki.jpg",
+    "license": "Public domain",
+    "author": "en:User:Kosigrim",
+    "imageScope": "exact-place",
+    "imageContextNote": "喇嘛岭寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "nyingchi-lulang-town": {
+    "photoFile": "西藏林芝-鲁朗 - panoramio (4).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E8%97%8F%E6%9E%97%E8%8A%9D-%E9%B2%81%E6%9C%97_-_panoramio_(4).jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "牛糞",
+    "imageScope": "exact-place",
+    "imageContextNote": "鲁朗国际旅游小镇实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-beihai": {
+    "photoFile": "The sunset in Beihai Wetland, Tengchong, China.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_sunset_in_Beihai_Wetland,_Tengchong,_China.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Windmemories",
+    "imageScope": "exact-place",
+    "imageContextNote": "北海湿地实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-heshun": {
+    "photoFile": "Old village of Heshun - panoramio.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_village_of_Heshun_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "oldhouse.yin",
+    "imageScope": "exact-place",
+    "imageContextNote": "和顺古镇实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-li-genyuan": {
+    "photoFile": "Li Genyuan residence 02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Li_Genyuan_residence_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "STW932",
+    "imageScope": "exact-place",
+    "imageContextNote": "李根源旧居实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-re-hai": {
+    "photoFile": "Rehai 13.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rehai_13.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "STW932",
+    "imageScope": "exact-place",
+    "imageContextNote": "腾冲热海景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-volcano": {
+    "photoFile": "云南腾冲火山地热国家地质公园.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%91%E5%8D%97%E8%85%BE%E5%86%B2%E7%81%AB%E5%B1%B1%E5%9C%B0%E7%83%AD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Kcx36",
+    "imageScope": "exact-place",
+    "imageContextNote": "马站火山地质公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "tengchong-war-museum": {
+    "photoFile": "Memorial Hall of the Anti-Japanese War in Western Yunnan.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_of_the_Anti-Japanese_War_in_Western_Yunnan.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "STW932",
+    "imageScope": "exact-place",
+    "imageContextNote": "滇西抗战纪念馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-dongguan": {
+    "photoFile": "Dongguan Mosque in Xining (2025).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongguan_Mosque_in_Xining_(2025).jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "Michał Beim",
+    "imageScope": "exact-place",
+    "imageContextNote": "东关清真大寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-laoye": {
+    "photoFile": "大通老爷山 - panoramio.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%80%9A%E8%80%81%E7%88%B7%E5%B1%B1_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "crongbin",
+    "imageScope": "exact-place",
+    "imageContextNote": "大通老爷山实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-ma-bufang": {
+    "photoFile": "Qinghai.Xining.Résidence.Ma Bufang.Cour1.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qinghai.Xining.R%C3%A9sidence.Ma_Bufang.Cour1.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Popolon",
+    "imageScope": "exact-place",
+    "imageContextNote": "马步芳公馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-renmin": {
+    "photoFile": "Xining People's Park (20011014).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xining_People%27s_Park_(20011014).jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "Mintchocicecream at English Wikipedia",
+    "imageScope": "exact-place",
+    "imageContextNote": "人民公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-sun-moon": {
+    "photoFile": "Riyue Mountain.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riyue_Mountain.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "慕尼黑啤酒",
+    "imageScope": "exact-place",
+    "imageContextNote": "日月山实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "xining-taer": {
+    "photoFile": "Kumbum Monastery (53726823486).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kumbum_Monastery_(53726823486).jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "xiquinhosilva",
+    "imageScope": "exact-place",
+    "imageContextNote": "塔尔寺院落实景，摄于 2024 年。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "single-image",
+      "artifact": "artifacts/china-west-visual-review/xining-taer-replacement.jpg"
+    }
+  },
+  "lanzhou-gansu-museum": {
+    "photoFile": "New Exhibition Building of the Gansu Provincial Museum.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Exhibition_Building_of_the_Gansu_Provincial_Museum.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "幽灵巴尼",
+    "imageScope": "exact-place",
+    "imageContextNote": "甘肃省博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "lanzhou-xiguan": {
+    "photoFile": "Night View of the Xiguan Mosque, Lanzhou, China.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_View_of_the_Xiguan_Mosque,_Lanzhou,_China.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Pcemzumark",
+    "imageScope": "exact-place",
+    "imageContextNote": "西关清真大寺外观实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "zhangye-binggou": {
+    "photoFile": "Binggou Danxia - 55340169288.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Binggou_Danxia_-_55340169288.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "xiquinhosilva",
+    "imageScope": "exact-place",
+    "imageContextNote": "冰沟丹霞实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "zhangye-colorful-danxia": {
+    "photoFile": "Zhangye National Geopark 5.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangye_National_Geopark_5.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "H2v5o68z",
+    "imageScope": "exact-place",
+    "imageContextNote": "张掖七彩丹霞实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "zhangye-dafo": {
+    "photoFile": "Zhangye Dafo Si 2014.01.02 15-26-54.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangye_Dafo_Si_2014.01.02_15-26-54.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Zhangzhugang",
+    "imageScope": "exact-place",
+    "imageContextNote": "张掖大佛寺实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "zhangye-mati": {
+    "photoFile": "Matisi Gisela-Brantl 18.JPG",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matisi_Gisela-Brantl_18.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Immanuel Giel",
+    "imageScope": "exact-place",
+    "imageContextNote": "马蹄寺石窟群实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "zhangye-shandan-hall": {
+    "photoFile": "Zhangye Shanxi Huiguan 2014.01.02 10-04-54.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangye_Shanxi_Huiguan_2014.01.02_10-04-54.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Zhangzhugang",
+    "imageScope": "exact-place",
+    "imageContextNote": "山西会馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-botanical": {
+    "photoFile": "A corner of Urumqi Botanical Garden乌鲁木齐市植物园一角.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_corner_of_Urumqi_Botanical_Garden%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E6%A4%8D%E7%89%A9%E5%9B%AD%E4%B8%80%E8%A7%92.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "乌鲁木齐植物园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-grand-bazaar": {
+    "photoFile": "Urumqi s bazzar.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urumqi_s_bazzar.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "29cm from Hong Kong",
+    "imageScope": "exact-place",
+    "imageContextNote": "新疆国际大巴扎实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-heavenly-lake": {
+    "photoFile": "The Heavenly Lake 天池 (8064381762).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Heavenly_Lake_%E5%A4%A9%E6%B1%A0_(8064381762).jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "Caitriana Nicholson from 北京 ~ Beijing, 中国 ~ China",
+    "imageScope": "exact-place",
+    "imageContextNote": "天山天池实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-hongshan": {
+    "photoFile": "Hong Shan.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Shan.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Ccyber5 (talk)",
+    "imageScope": "exact-place",
+    "imageContextNote": "红山公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-people-park": {
+    "photoFile": "乌鲁木齐人民公园封面.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%E5%B0%81%E9%9D%A2.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "人民公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-science-museum": {
+    "photoFile": "新疆科技馆 Xinjiang science and technology museum.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E7%A7%91%E6%8A%80%E9%A6%86_Xinjiang_science_and_technology_museum.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "新疆科技馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-shanxi-mosque": {
+    "photoFile": "乌鲁木齐陕西大寺.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E9%99%95%E8%A5%BF%E5%A4%A7%E5%AF%BA.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "陕西大寺外观实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-shuimogou": {
+    "photoFile": "水磨沟风景区大门.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B0%B4%E7%A3%A8%E6%B2%9F%E9%A3%8E%E6%99%AF%E5%8C%BA%E5%A4%A7%E9%97%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "水磨沟公园实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-wenmiao": {
+    "photoFile": "乌鲁木齐文庙大门.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E6%96%87%E5%BA%99%E5%A4%A7%E9%97%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "乌鲁木齐文庙实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "urumqi-xinjiang-museum": {
+    "photoFile": "新疆博物馆 全景（2021）.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E5%8D%9A%E7%89%A9%E9%A6%86_%E5%85%A8%E6%99%AF%EF%BC%882021%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "新疆维吾尔自治区博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "kashgar-old-consulate": {
+    "photoFile": "Former Russian Consulate in Kashgar.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Russian_Consulate_in_Kashgar.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "asb110273",
+    "imageScope": "exact-place",
+    "imageContextNote": "色满宾馆历史庭院实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-baitullah": {
+    "photoFile": "伊宁市解放南路清真寺.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E5%AE%81%E5%B8%82%E8%A7%A3%E6%94%BE%E5%8D%97%E8%B7%AF%E6%B8%85%E7%9C%9F%E5%AF%BA.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "拜图拉清真寺外观实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-huiyuan": {
+    "photoFile": "惠远古城 (IMG 20170511 163204).jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%83%A0%E8%BF%9C%E5%8F%A4%E5%9F%8E_(IMG_20170511_163204).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Voidvector",
+    "imageScope": "exact-place",
+    "imageContextNote": "惠远古城实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-ili-museum": {
+    "photoFile": "伊犁州博物馆内部.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E7%8A%81%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86%E5%86%85%E9%83%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "伊犁州博物馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-princess": {
+    "photoFile": "汉家公主纪念馆馆舍（汉家公主展厅）.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B1%89%E5%AE%B6%E5%85%AC%E4%B8%BB%E7%BA%AA%E5%BF%B5%E9%A6%86%E9%A6%86%E8%88%8D%EF%BC%88%E6%B1%89%E5%AE%B6%E5%85%AC%E4%B8%BB%E5%B1%95%E5%8E%85%EF%BC%89.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "HaziiDozen",
+    "imageScope": "exact-place",
+    "imageContextNote": "汉家公主纪念馆实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-sayram": {
+    "photoFile": "赛里木湖远景，摄于湖畔山丘.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E8%BF%9C%E6%99%AF%EF%BC%8C%E6%91%84%E4%BA%8E%E6%B9%96%E7%95%94%E5%B1%B1%E4%B8%98.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "author": "BitsRot",
+    "imageScope": "exact-place",
+    "imageContextNote": "赛里木湖开放景区实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  },
+  "yining-sha-an": {
+    "photoFile": "Shaanxi Great Mosque.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaanxi_Great_Mosque.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Charlie Qi",
+    "imageScope": "exact-place",
+    "imageContextNote": "陕西大寺外观实景或对应展陈。",
+    "checkedAt": "2026-10-07",
+    "reviewBasis": "Commons filename, description and indexed contact-sheet image checked",
+    "visualReview": {
+      "status": "passed",
+      "checkedAt": "2026-10-07",
+      "method": "indexed-contact-sheet",
+      "artifact": "artifacts/china-west-visual-review/index.json"
+    }
+  }
+}

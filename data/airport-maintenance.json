@@ -7,51 +7,51 @@
     "licenseUrl": "https://ourairports.com/data/"
   },
   "status": "ok",
-  "lastAttemptAt": "2026-10-03T06:34:08.696Z",
-  "lastSuccessAt": "2026-10-03T06:34:08.696Z",
+  "lastAttemptAt": "2026-10-07T12:07:47.925Z",
+  "lastSuccessAt": "2026-10-07T12:07:47.925Z",
   "refreshIntervalDays": 7,
   "sources": [
     {
       "kind": "airports",
       "url": "https://davidmegginson.github.io/ourairports-data/airports.csv",
-      "checkedAt": "2026-10-03T06:34:08.696Z",
-      "rowCount": 86158
+      "checkedAt": "2026-10-07T12:07:47.925Z",
+      "rowCount": 86215
     },
     {
       "kind": "countries",
       "url": "https://davidmegginson.github.io/ourairports-data/countries.csv",
-      "checkedAt": "2026-10-03T06:34:08.696Z",
+      "checkedAt": "2026-10-07T12:07:47.925Z",
       "rowCount": 249
     },
     {
       "kind": "regions",
       "url": "https://davidmegginson.github.io/ourairports-data/regions.csv",
-      "checkedAt": "2026-10-03T06:34:08.696Z",
+      "checkedAt": "2026-10-07T12:07:47.925Z",
       "rowCount": 3987
     }
   ],
   "counts": {
-    "sourceAirports": 86158,
-    "includedAirports": 49321,
-    "airportCities": 34916,
+    "sourceAirports": 86215,
+    "includedAirports": 49353,
+    "airportCities": 34926,
     "scheduledAirports": 4223,
     "scheduledCities": 4136,
     "countries": 239,
-    "citiesWithoutMunicipality": 3502,
+    "citiesWithoutMunicipality": 3504,
     "airportsWithoutValidCoordinates": 0,
-    "curatedLinkedCities": 188,
+    "curatedLinkedCities": 216,
     "types": {
-      "heliport": 23218,
-      "small_airport": 42767,
-      "closed": 13556,
+      "heliport": 23237,
+      "small_airport": 42800,
+      "closed": 13562,
       "seaplane_base": 1273,
-      "medium_airport": 4106,
+      "medium_airport": 4105,
       "balloonport": 63,
       "large_airport": 1175
     },
     "excludedTypes": {
-      "heliport": 23218,
-      "closed": 13556,
+      "heliport": 23237,
+      "closed": 13562,
       "balloonport": 63
     }
   },

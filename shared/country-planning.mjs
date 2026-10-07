@@ -16,7 +16,7 @@ const ENTRY_ORDER = {
   US: ['new-york', 'washington-dc', 'boston', 'san-francisco', 'los-angeles', 'chicago', 'seattle', 'miami', 'orlando', 'las-vegas'],
   EG: ['cairo', 'luxor'], IN: ['delhi', 'jaipur'], LK: ['colombo', 'kandy'],
 };
-const COUNTRY_LABELS = { HK: '中国香港', TW: '中国台湾' };
+const COUNTRY_LABELS = { HK: '中国香港', MO: '中国澳门', TW: '中国台湾' };
 const MODES = { air: '航空交通预留', 'high-speed-rail': '高铁 / 动车预留', rail: '城际铁路预留', road: '公路交通预留', boat: '船运交通预留' };
 const dateAfter = (value, days) => new Date(Date.parse(`${value}T12:00:00Z`) + days * 86400000).toISOString().slice(0, 10);
 const validCity = city => isTravelDestination(city) && city.countryCode && (city.attractions?.length > 0 || city.contentCounts?.attractions > 0) && Number.isFinite(city.lat) && Number.isFinite(city.lng);

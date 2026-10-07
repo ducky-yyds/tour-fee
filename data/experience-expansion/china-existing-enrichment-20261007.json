@@ -1,0 +1,1417 @@
+[
+  {
+    "id": "ex-china26-chengdu-sichuan-cooking",
+    "cityId": "chengdu",
+    "kind": "experience",
+    "name": "在川菜博物馆学做一道川菜",
+    "nameEn": "Sichuan cooking at the cuisine museum",
+    "experienceType": "food-life",
+    "lat": 30.871,
+    "lng": 103.887,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "在川菜博物馆学做一道川菜",
+    "description": "先看郫县豆瓣和传统炊具，再预约动手烹饪课程，理解花椒、豆瓣与火候如何组成川味。课程内容和是否包含用餐要向馆方确认；场馆位于郫都区古城镇，往返市中心宜留半日。",
+    "tagline": "川菜的调味不仅是辣，也包括发酵、香气与火候。",
+    "localContext": "川菜的调味不仅是辣，也包括发酵、香气与火候。",
+    "durationMinutes": 180,
+    "durationRange": {
+      "min": 117,
+      "recommended": 180,
+      "max": 252
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "川菜的调味不仅是辣，也包括发酵、香气与火候。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://zhuanti.mct.gov.cn/xcss2024_xcyfw/sichuan/detail/7522.html",
+    "bookingUrl": "https://zhuanti.mct.gov.cn/xcss2024_xcyfw/sichuan/detail/7522.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "zhuanti.mct.gov.cn",
+        "url": "https://zhuanti.mct.gov.cn/xcss2024_xcyfw/sichuan/detail/7522.html",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Sichuan cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://zhuanti.mct.gov.cn/xcss2024_xcyfw/sichuan/detail/7522.html"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 180,
+        "high": 480,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://zhuanti.mct.gov.cn/xcss2024_xcyfw/sichuan/detail/7522.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-guangzhou-canton-enamel",
+    "cityId": "guangzhou",
+    "kind": "experience",
+    "name": "在广彩工坊认识金彩与瓷绘",
+    "nameEn": "Canton enamel porcelain workshop",
+    "experienceType": "craft",
+    "lat": 23.119,
+    "lng": 113.252,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "在广彩工坊认识金彩与瓷绘",
+    "description": "从大新路一带的传统工艺展示与广彩工坊开始，观察金彩、花鸟和开光构图。选择公开预约的课程后再安排瓷绘体验，烧制、取件或寄送另向工坊确认。",
+    "tagline": "外销瓷传统与广府手艺在笔触和配色中相遇。",
+    "localContext": "外销瓷传统与广府手艺在笔触和配色中相遇。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "外销瓷传统与广府手艺在笔触和配色中相遇。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.gz.gov.cn/zt/zzyyzq/wlzx/content/post_8518845.html",
+    "bookingUrl": "https://www.gz.gov.cn/zt/zzyyzq/wlzx/content/post_8518845.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.gz.gov.cn",
+        "url": "https://www.gz.gov.cn/zt/zzyyzq/wlzx/content/post_8518845.html",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Canton porcelain",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.gz.gov.cn/zt/zzyyzq/wlzx/content/post_8518845.html"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 100,
+        "high": 350,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://www.gz.gov.cn/zt/zzyyzq/wlzx/content/post_8518845.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-harbin-songhua-ice-games",
+    "cityId": "harbin",
+    "kind": "experience",
+    "name": "松花江开放冰场的冰上游戏",
+    "nameEn": "Songhua River winter ice activities",
+    "experienceType": "nature",
+    "lat": 45.783,
+    "lng": 126.615,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "松花江开放冰场的冰上游戏",
+    "description": "冰雪嘉年华开放期间，可按当天项目选择冰滑梯、雪圈和冰上游戏。只进入有管理的开放冰场，项目开放受冰情影响；往年活动不代表出行日已有运营。",
+    "tagline": "冻结的江面在冬季成为城市游乐空间。",
+    "localContext": "冻结的江面在冬季成为城市游乐空间。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "冻结的江面在冬季成为城市游乐空间。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://hrbggzy.harbin.gov.cn/cqjy/003008/003008001/20251117/a0aab43a-21ff-4816-8507-5fc9db344467.html",
+    "bookingUrl": "https://hrbggzy.harbin.gov.cn/cqjy/003008/003008001/20251117/a0aab43a-21ff-4816-8507-5fc9db344467.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "hrbggzy.harbin.gov.cn",
+        "url": "https://hrbggzy.harbin.gov.cn/cqjy/003008/003008001/20251117/a0aab43a-21ff-4816-8507-5fc9db344467.html",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Songhua River",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://hrbggzy.harbin.gov.cn/cqjy/003008/003008001/20251117/a0aab43a-21ff-4816-8507-5fc9db344467.html"
+    },
+    "seasonality": {
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 50,
+        "high": 200,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://hrbggzy.harbin.gov.cn/cqjy/003008/003008001/20251117/a0aab43a-21ff-4816-8507-5fc9db344467.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-harbin-yabuli-ski",
+    "cityId": "harbin",
+    "kind": "experience",
+    "name": "亚布力滑雪入门的一整天",
+    "nameEn": "A full ski day at Yabuli",
+    "experienceType": "nature",
+    "lat": 44.756,
+    "lng": 128.466,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "亚布力滑雪入门的一整天",
+    "description": "提前选择适合初学者的雪场与教练，预算分别核对雪票、雪具、教学和保险。亚布力远离哈尔滨城区，应安排铁路加接驳或住一晚，不能与市区半日游直接拼接。",
+    "tagline": "从缓坡学会制动，再按技术水平选择雪道。",
+    "localContext": "从缓坡学会制动，再按技术水平选择雪道。",
+    "durationMinutes": 420,
+    "durationRange": {
+      "min": 273,
+      "recommended": 420,
+      "max": 588
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "从缓坡学会制动，再按技术水平选择雪道。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://tyj.hlj.gov.cn/tyj/c112420/202511/c00_31885318.shtml",
+    "bookingUrl": "https://tyj.hlj.gov.cn/tyj/c112420/202511/c00_31885318.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "tyj.hlj.gov.cn",
+        "url": "https://tyj.hlj.gov.cn/tyj/c112420/202511/c00_31885318.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Yabuli Ski Resort",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://tyj.hlj.gov.cn/tyj/c112420/202511/c00_31885318.shtml"
+    },
+    "seasonality": {
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 350,
+        "high": 950,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://tyj.hlj.gov.cn/tyj/c112420/202511/c00_31885318.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-harbin-songhua-ferry",
+    "cityId": "harbin",
+    "kind": "experience",
+    "name": "坐轮渡从江面看哈尔滨",
+    "nameEn": "Cross the Songhua by passenger ferry",
+    "experienceType": "local-life",
+    "lat": 45.786,
+    "lng": 126.617,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "坐轮渡从江面看哈尔滨",
+    "description": "在防洪纪念塔附近码头选择当日运营的客渡航线，从江面看两岸建筑与太阳岛。单程过江和环线游船是不同产品，核对到达码头与末班后再购买。",
+    "tagline": "过江船让城市通勤与江上风景共用一段时间。",
+    "localContext": "过江船让城市通勤与江上风景共用一段时间。",
+    "durationMinutes": 60,
+    "durationRange": {
+      "min": 39,
+      "recommended": 60,
+      "max": 84
+    },
+    "includesTransfers": false,
+    "automaticPlanning": true,
+    "visitRole": "optional",
+    "features": [
+      "过江船让城市通勤与江上风景共用一段时间。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://hlj.msa.gov.cn/content/2024/22141.html",
+    "bookingUrl": "https://hlj.msa.gov.cn/content/2024/22141.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "hlj.msa.gov.cn",
+        "url": "https://hlj.msa.gov.cn/content/2024/22141.html",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Songhua River",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://hlj.msa.gov.cn/content/2024/22141.html"
+    },
+    "seasonality": {
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 10,
+        "high": 60,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://hlj.msa.gov.cn/content/2024/22141.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-harbin-forest-botany",
+    "cityId": "harbin",
+    "kind": "experience",
+    "name": "在森林植物园认识东北林木与物候",
+    "nameEn": "Discover northeastern trees at the forest botanical garden",
+    "experienceType": "nature",
+    "lat": 45.703,
+    "lng": 126.648,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "在森林植物园认识东北林木与物候",
+    "description": "沿植物园开放路线观察树叶、树皮和季节花园，对照标牌认识东北林木；选择一两个专类园慢看即可。花期受天气影响，地铁到站后仍有步行距离，闭园季不排入。",
+    "tagline": "城市中的森林课堂可以随季节看见不同的植物生长阶段。",
+    "localContext": "城市中的森林课堂可以随季节看见不同的植物生长阶段。",
+    "durationMinutes": 150,
+    "durationRange": {
+      "min": 98,
+      "recommended": 150,
+      "max": 210
+    },
+    "includesTransfers": false,
+    "automaticPlanning": true,
+    "visitRole": "optional",
+    "features": [
+      "城市中的森林课堂可以随季节看见不同的植物生长阶段。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202503/c00_31824273.shtml",
+    "bookingUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202503/c00_31824273.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "wlt.hlj.gov.cn",
+        "url": "https://wlt.hlj.gov.cn/wlt/c114254/202503/c00_31824273.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Heilongjiang Forest Botanical Garden",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202503/c00_31824273.shtml"
+    },
+    "seasonality": {
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 15,
+        "high": 40,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114254/202503/c00_31824273.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-harbin-beer-culture",
+    "cityId": "harbin",
+    "kind": "experience",
+    "name": "在哈啤博物馆读一座城市的酿造史",
+    "nameEn": "Harbin brewing history at the beer museum",
+    "experienceType": "food-life",
+    "lat": 45.59,
+    "lng": 126.631,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "在哈啤博物馆读一座城市的酿造史",
+    "description": "从设备和互动展项理解酿造流程与哈尔滨工业生活。位于平房区哈啤路9号，先确认开放和预约；品饮是否包含另核，未成年人选择不含酒精的参观内容。",
+    "tagline": "啤酒工业也是这座城市近现代生活史的一部分。",
+    "localContext": "啤酒工业也是这座城市近现代生活史的一部分。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "啤酒工业也是这座城市近现代生活史的一部分。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://dva.hlj.gov.cn/dva/c111601/202406/c00_31743667.shtml",
+    "bookingUrl": "https://dva.hlj.gov.cn/dva/c111601/202406/c00_31743667.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "dva.hlj.gov.cn",
+        "url": "https://dva.hlj.gov.cn/dva/c111601/202406/c00_31743667.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Harbin Beer",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://dva.hlj.gov.cn/dva/c111601/202406/c00_31743667.shtml"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 50,
+        "high": 120,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://dva.hlj.gov.cn/dva/c111601/202406/c00_31743667.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-lijiang-lashi-birds",
+    "cityId": "lijiang",
+    "kind": "experience",
+    "name": "拉市海冬季湿地观鸟",
+    "nameEn": "Winter birdwatching at Lashihai",
+    "experienceType": "wildlife",
+    "lat": 26.889,
+    "lng": 100.139,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "拉市海冬季湿地观鸟",
+    "description": "带望远镜在允许进入的观鸟点观察迁徙水鸟，远离保护核心区。请在出发前确认开放步道和接驳；如需向导单独计费，不承诺遇见某一种鸟。",
+    "tagline": "高原湿地为迁徙鸟类提供停歇和越冬空间。",
+    "localContext": "高原湿地为迁徙鸟类提供停歇和越冬空间。",
+    "durationMinutes": 180,
+    "durationRange": {
+      "min": 117,
+      "recommended": 180,
+      "max": 252
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "高原湿地为迁徙鸟类提供停歇和越冬空间。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.forestry.gov.cn/c/www/dzw/678579.jhtml",
+    "bookingUrl": "https://www.forestry.gov.cn/c/www/dzw/678579.jhtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.forestry.gov.cn",
+        "url": "https://www.forestry.gov.cn/c/www/dzw/678579.jhtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Lashi Lake",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.forestry.gov.cn/c/www/dzw/678579.jhtml"
+    },
+    "seasonality": {
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 0,
+        "high": 180,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://www.forestry.gov.cn/c/www/dzw/678579.jhtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。",
+    "wildlife": {
+      "species": [
+        "黑头白鹮",
+        "棉凫"
+      ],
+      "encounterNote": "这些是保护区监测记录，迁徙与野生动物活动不可保证，保持距离观察。",
+      "responsibleNote": "不投喂、不追赶、不进入保护核心区。"
+    }
+  },
+  {
+    "id": "ex-china26-lijiang-baisha-tie-dye",
+    "cityId": "lijiang",
+    "kind": "experience",
+    "name": "白沙古镇的扎染手作",
+    "nameEn": "Tie-dye workshop in Baisha",
+    "experienceType": "craft",
+    "lat": 26.954,
+    "lng": 100.215,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "白沙古镇的扎染手作",
+    "description": "在白沙选择可预约的扎染手作店，亲手折布、捆扎与染色，再等待图案显现。先确认布料、颜料、晾干和取件时间，避免临离城才安排制作。",
+    "tagline": "把古镇停留变成一次可带走作品的手作体验。",
+    "localContext": "把古镇停留变成一次可带走作品的手作体验。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "把古镇停留变成一次可带走作品的手作体验。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.lijiang.cn/article/148097.html",
+    "bookingUrl": "https://www.lijiang.cn/article/148097.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.lijiang.cn",
+        "url": "https://www.lijiang.cn/article/148097.html",
+        "checkedAt": "2026-10-07",
+        "kind": "primary-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Tie-dye",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.lijiang.cn/article/148097.html"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 80,
+        "high": 240,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://www.lijiang.cn/article/148097.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-nanjing-qinhuai-boat",
+    "cityId": "nanjing",
+    "kind": "experience",
+    "name": "乘秦淮画舫看桨声灯影",
+    "nameEn": "An evening Qinhuai boat ride",
+    "experienceType": "local-life",
+    "lat": 32.02,
+    "lng": 118.789,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "乘秦淮画舫看桨声灯影",
+    "description": "从夫子庙泮池码头登船，从水上观看桥洞、临水楼阁和灯影。东线、西线和日夜票是不同产品，选择一条线路即可；推荐用时包含候船预留。",
+    "tagline": "水路为秦淮街巷提供了不同于步行的观看角度。",
+    "localContext": "水路为秦淮街巷提供了不同于步行的观看角度。",
+    "durationMinutes": 75,
+    "durationRange": {
+      "min": 49,
+      "recommended": 75,
+      "max": 105
+    },
+    "includesTransfers": false,
+    "automaticPlanning": true,
+    "visitRole": "optional",
+    "features": [
+      "水路为秦淮街巷提供了不同于步行的观看角度。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/",
+    "bookingUrl": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.njqh.gov.cn",
+        "url": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Qinhuai River",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "east-night",
+        "name": "夫子庙游船东线夜票",
+        "low": 100,
+        "high": 100,
+        "currency": "CNY",
+        "type": "official",
+        "unit": "person",
+        "sourceUrl": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/",
+        "checkedAt": "2026-10-07",
+        "includes": [
+          "东线夜间游船成人票"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "秦淮区官方游览页面列示夜票东线100元/人；以运营方所选日期售票情况为准。"
+      },
+      {
+        "id": "west-night",
+        "name": "夫子庙游船西线夜票",
+        "low": 140,
+        "high": 140,
+        "currency": "CNY",
+        "type": "official",
+        "unit": "person",
+        "sourceUrl": "https://www.njqh.gov.cn/dmqh/yzqh/qhhssylx/",
+        "checkedAt": "2026-10-07",
+        "includes": [
+          "西线夜间游船成人票"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "秦淮区官方游览页面列示夜票西线140元/人；不与东线重复购买。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-nanjing-woodblock-printing",
+    "cityId": "nanjing",
+    "kind": "experience",
+    "name": "金陵刻经处认识雕版印刷",
+    "nameEn": "Woodblock printing at Jinling Sutra Press",
+    "experienceType": "craft",
+    "lat": 32.034,
+    "lng": 118.79,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "金陵刻经处认识雕版印刷",
+    "description": "从刻字、上墨和纸张理解传统雕版印刷，参观前向金陵刻经处确认对外开放和讲解。只有当期公开活动接受报名时才选择动手拓印，保护经版，不能自行触摸或操作。",
+    "tagline": "一块版、一张纸和反写字构成延续至今的印刷手艺。",
+    "localContext": "一块版、一张纸和反写字构成延续至今的印刷手艺。",
+    "durationMinutes": 90,
+    "durationRange": {
+      "min": 58,
+      "recommended": 90,
+      "max": 126
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "一块版、一张纸和反写字构成延续至今的印刷手艺。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://yht.nanjing.gov.cn/rednanjing/hsjy/hsrl/202504/t20250410_5121629.html",
+    "bookingUrl": "https://yht.nanjing.gov.cn/rednanjing/hsjy/hsrl/202504/t20250410_5121629.html",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "yht.nanjing.gov.cn",
+        "url": "https://yht.nanjing.gov.cn/rednanjing/hsjy/hsrl/202504/t20250410_5121629.html",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Jinling Sutra Press",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://yht.nanjing.gov.cn/rednanjing/hsjy/hsrl/202504/t20250410_5121629.html"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 30,
+        "high": 150,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://yht.nanjing.gov.cn/rednanjing/hsjy/hsrl/202504/t20250410_5121629.html",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-sanya-houhai-surf",
+    "cityId": "sanya",
+    "kind": "experience",
+    "name": "后海湾初学者冲浪课",
+    "nameEn": "Beginner surf lesson at Houhai Bay",
+    "experienceType": "marine",
+    "lat": 18.271,
+    "lng": 109.734,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "后海湾初学者冲浪课",
+    "description": "在后海湾选择合规冲浪学校，先学岸上动作和水中规则，再由教练带领尝试起乘。确认教学人数、装备与保险，风浪不适合时改期；城区往返另留时间。",
+    "tagline": "把海边午后留给一次循序渐进的海浪练习。",
+    "localContext": "把海边午后留给一次循序渐进的海浪练习。",
+    "durationMinutes": 150,
+    "durationRange": {
+      "min": 98,
+      "recommended": 150,
+      "max": 210
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "把海边午后留给一次循序渐进的海浪练习。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://tzb.sanya.gov.cn/tzbsite/jctz/202602/98c232f91ce54b7c948ed5f8d8de7abc.shtml",
+    "bookingUrl": "https://tzb.sanya.gov.cn/tzbsite/jctz/202602/98c232f91ce54b7c948ed5f8d8de7abc.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "tzb.sanya.gov.cn",
+        "url": "https://tzb.sanya.gov.cn/tzbsite/jctz/202602/98c232f91ce54b7c948ed5f8d8de7abc.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Houhai, Sanya",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://tzb.sanya.gov.cn/tzbsite/jctz/202602/98c232f91ce54b7c948ed5f8d8de7abc.shtml"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 200,
+        "high": 450,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://tzb.sanya.gov.cn/tzbsite/jctz/202602/98c232f91ce54b7c948ed5f8d8de7abc.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-sanya-serenity-sailing",
+    "cityId": "sanya",
+    "kind": "experience",
+    "name": "半山半岛帆船港出海体验",
+    "nameEn": "Sailing from Sanya Serenity Marina",
+    "experienceType": "marine",
+    "lat": 18.211,
+    "lng": 109.486,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "半山半岛帆船港出海体验",
+    "description": "从半山半岛帆船港选择持证运营方，核对拼船或包船、航行范围与实际海上时间。推荐用时包含报到和装备说明；帆船、游艇与尾波冲浪不是同一套餐。",
+    "tagline": "从海上看鹿回头一带海岸，并认识风帆如何借风前进。",
+    "localContext": "从海上看鹿回头一带海岸，并认识风帆如何借风前进。",
+    "durationMinutes": 150,
+    "durationRange": {
+      "min": 98,
+      "recommended": 150,
+      "max": 210
+    },
+    "includesTransfers": false,
+    "automaticPlanning": true,
+    "visitRole": "optional",
+    "features": [
+      "从海上看鹿回头一带海岸，并认识风帆如何借风前进。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://english.sanya.gov.cn/syen/CharmingSanya/202002/48bc16a1ce224b068ae7fa2c816b5c27.shtml",
+    "bookingUrl": "https://english.sanya.gov.cn/syen/CharmingSanya/202002/48bc16a1ce224b068ae7fa2c816b5c27.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "english.sanya.gov.cn",
+        "url": "https://english.sanya.gov.cn/syen/CharmingSanya/202002/48bc16a1ce224b068ae7fa2c816b5c27.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Sanya Serenity Marina",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://english.sanya.gov.cn/syen/CharmingSanya/202002/48bc16a1ce224b068ae7fa2c816b5c27.shtml"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": false,
+      "note": "户外项目受气候与当日运营影响。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 180,
+        "high": 500,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://english.sanya.gov.cn/syen/CharmingSanya/202002/48bc16a1ce224b068ae7fa2c816b5c27.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-suzhou-biluochun-tea",
+    "cityId": "suzhou",
+    "kind": "experience",
+    "name": "东山春茶采制与品饮",
+    "nameEn": "Spring Biluochun tea in Dongshan",
+    "experienceType": "food-life",
+    "lat": 31.073,
+    "lng": 120.407,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "东山春茶采制与品饮",
+    "description": "在东山茶园确认当年采摘开放后，预约采茶或炒茶观摩，再比较新茶的香气。春茶季短，非采摘季改为品茶与茶文化参观；不能把往年团体活动当作每日散客课程。",
+    "tagline": "洞庭山的春天藏在嫩芽、揉捻与温热茶汤里。",
+    "localContext": "洞庭山的春天藏在嫩芽、揉捻与温热茶汤里。",
+    "durationMinutes": 180,
+    "durationRange": {
+      "min": 117,
+      "recommended": 180,
+      "max": 252
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "洞庭山的春天藏在嫩芽、揉捻与温热茶汤里。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/dwjlylxjy/202604/773b767848c24ef6b1cd499e32e77a70.shtml",
+    "bookingUrl": "https://www.suzhou.gov.cn/szsrmzf/dwjlylxjy/202604/773b767848c24ef6b1cd499e32e77a70.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.suzhou.gov.cn",
+        "url": "https://www.suzhou.gov.cn/szsrmzf/dwjlylxjy/202604/773b767848c24ef6b1cd499e32e77a70.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Biluochun",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/dwjlylxjy/202604/773b767848c24ef6b1cd499e32e77a70.shtml"
+    },
+    "seasonality": {
+      "months": [
+        3,
+        4
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 80,
+        "high": 260,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/dwjlylxjy/202604/773b767848c24ef6b1cd499e32e77a70.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  },
+  {
+    "id": "ex-china26-suzhou-kunqu-evening",
+    "cityId": "suzhou",
+    "kind": "experience",
+    "name": "在昆曲传习所听水磨腔",
+    "nameEn": "An evening of Kunqu in Suzhou",
+    "experienceType": "performance",
+    "lat": 31.292,
+    "lng": 120.627,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "在昆曲传习所听水磨腔",
+    "description": "按照苏州昆剧院当期节目选择对公众售票的折子戏或园林演出，先了解故事再听唱腔与笛声。传习所、剧院和园林场地不同，预约后以票面地点和时刻排程。",
+    "tagline": "唱、念、身段与园林空间共同呈现江南戏曲。",
+    "localContext": "唱、念、身段与园林空间共同呈现江南戏曲。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "唱、念、身段与园林空间共同呈现江南戏曲。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202606/731eb928842747d89792493f266c2756.shtml",
+    "bookingUrl": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202606/731eb928842747d89792493f266c2756.shtml",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "wglj.suzhou.gov.cn",
+        "url": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202606/731eb928842747d89792493f266c2756.shtml",
+        "checkedAt": "2026-10-07",
+        "kind": "official-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "Kunqu",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202606/731eb928842747d89792493f266c2756.shtml"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 100,
+        "high": 380,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://wglj.suzhou.gov.cn/szwhgdhlyj/hdxx/202606/731eb928842747d89792493f266c2756.shtml",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ]
+  },
+  {
+    "id": "ex-china26-xian-huaqing-dance",
+    "cityId": "xian",
+    "kind": "experience",
+    "name": "华清宫《长恨歌》山水实景演出",
+    "nameEn": "The Song of Everlasting Sorrow at Huaqing Palace",
+    "experienceType": "performance",
+    "lat": 34.365,
+    "lng": 109.212,
+    "coordinateAccuracy": "approximate",
+    "coordinateNote": "活动场馆或片区的规划定位，以实际预约入口为准。",
+    "provider": "以来源中的场馆或合规运营方为准",
+    "address": "华清宫《长恨歌》山水实景演出",
+    "description": "在临潼华清宫观看以唐代故事为线索的山水舞剧。演出票与白天景区票分别核价，核对座区、当季版本及散场时间，提前安排回城区交通。",
+    "tagline": "骊山和水面成为舞台的一部分；故事为艺术演绎。",
+    "localContext": "骊山和水面成为舞台的一部分；故事为艺术演绎。",
+    "durationMinutes": 120,
+    "durationRange": {
+      "min": 78,
+      "recommended": 120,
+      "max": 168
+    },
+    "includesTransfers": false,
+    "automaticPlanning": false,
+    "visitRole": "optional",
+    "features": [
+      "骊山和水面成为舞台的一部分；故事为艺术演绎。",
+      "需预约或核对开放情况"
+    ],
+    "requirements": [
+      "出发前确认营业、天气、场次与套餐内容。"
+    ],
+    "sourceUrl": "https://www.hqc.cn/ChangHenGe1/Introduction/",
+    "bookingUrl": "https://www.hqc.cn/ChangHenGe1/Introduction/",
+    "checkedAt": "2026-10-07",
+    "sourceReferences": [
+      {
+        "name": "www.hqc.cn",
+        "url": "https://www.hqc.cn/ChangHenGe1/Introduction/",
+        "checkedAt": "2026-10-07",
+        "kind": "primary-reference",
+        "scope": "场馆身份、文化背景与参与方式；价格和停留时间另作编辑估算"
+      }
+    ],
+    "article": "The Song of Everlasting Sorrow",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://www.hqc.cn/ChangHenGe1/Introduction/"
+    },
+    "seasonality": {
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dateSpecific": true,
+      "note": "请核对当年日期或可预约场次，月份不代表每日可参加。"
+    },
+    "priceOptions": [
+      {
+        "id": "planning",
+        "name": "体验预算预留",
+        "low": 260,
+        "high": 600,
+        "currency": "CNY",
+        "type": "estimate",
+        "unit": "person",
+        "sourceUrl": "https://www.hqc.cn/ChangHenGe1/Introduction/",
+        "checkedAt": null,
+        "includes": [
+          "所选体验的预算预留"
+        ],
+        "excludes": [
+          "往返集合地点交通",
+          "未明确包含的餐饮、材料或附加服务"
+        ],
+        "note": "编辑规划估算；来源用于核对项目身份与参与方式，不作为当日实时报价。"
+      }
+    ],
+    "accessNote": "远郊或城外项目；推荐用时不含往返交通，请另外预留接驳和必要住宿。"
+  }
+]

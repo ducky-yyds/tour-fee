@@ -428,6 +428,7 @@ export default function App() {
   const importRef = useRef(null);
   const workspaceImportRef = useRef(null);
   const catalogRef = useRef(null);
+  const catalogLoadVersion = useRef(0);
   const pendingCities = useRef(new globalThis.Map());
   const [detailErrors, setDetailErrors] = useState({});
   const ensureCities = useCallback(async (ids) => {
@@ -455,6 +456,7 @@ export default function App() {
     return mergeAirportCities(updated.cities, updated.airportCities || [], updated.airportCityAliases);
   }, []);
   async function load() {
+    const loadVersion = ++catalogLoadVersion.current;
     setError("");
     try {
       const r = await apiFetch("/api/catalog");
@@ -469,6 +471,9 @@ export default function App() {
       const required = [...new Set(['shanghai', 'tokyo', 'kyoto', ...planCityIds(storedPlans), ...passportIds])];
       // Load every saved project's details before normalization; a failed fetch must never erase selections.
       if (data.catalogVersion === 2) data = applyCityDetails(data, await fetchCityDetails(required));
+      // A slower overlapping initial load must not replace city details that
+      // the current route has already fetched with an older summary catalog.
+      if (loadVersion !== catalogLoadVersion.current) return;
       const availableCities = mergeAirportCities(data.cities, data.airportCities || [], data.airportCityAliases);
       const workspace = hydrateProjects(
         storedProjects,
@@ -488,7 +493,7 @@ export default function App() {
       setPlan(storedCurrent ? normalizePlan(storedCurrent, availableCities) : workspace.projects.find((p) => p.id === workspace.activeId).plan);
       setProjectReady(true);
     } catch (e) {
-      setError(e.message);
+      if (loadVersion === catalogLoadVersion.current) setError(e.message);
     }
   }
   useEffect(() => {

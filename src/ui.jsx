@@ -17,6 +17,7 @@ export const SYMBOLS = {
   SGD: "S$",
   AUD: "A$",
   HKD: "HK$",
+  MOP: "MOP$",
   AED: "AED ",
   IDR: "Rp ",
   TRY: "₺",

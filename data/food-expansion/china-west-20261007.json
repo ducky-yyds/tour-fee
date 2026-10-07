@@ -1,0 +1,2862 @@
+[
+  {
+    "id": "food-kunming-bridge-noodles",
+    "cityIds": [
+      "kunming"
+    ],
+    "name": "过桥米线",
+    "localName": "Crossing-the-bridge rice noodles",
+    "description": "热汤、米线与配料分开上桌，按店家提示先烫熟生食；不同套餐配料差异很大。",
+    "article": "Crossing-the-bridge noodles",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crossing-the-bridge_noodles"
+    },
+    "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.visityunnanchina.com",
+        "url": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 65.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kunming": [
+        {
+          "name": "建新园米线馆及南屏街周边正规米线店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kunming%20%E5%BB%BA%E6%96%B0%E5%9B%AD%E7%B1%B3%E7%BA%BF%E9%A6%86%E5%8F%8A%E5%8D%97%E5%B1%8F%E8%A1%97%E5%91%A8%E8%BE%B9%E6%AD%A3%E8%A7%84%E7%B1%B3%E7%BA%BF%E5%BA%97%20Crossing-the-bridge%20rice%20noodles",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Crossing-the-bridge rice noodles",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kunming-small-pot-noodles",
+    "cityIds": [
+      "kunming"
+    ],
+    "name": "小锅米线",
+    "localName": "Xiaoguo mixian",
+    "description": "米线与肉末、腌菜在小锅现煮，酸辣香气鲜明，辣椒和荤素配料可先询问。",
+    "article": "Small pot rice noodles",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Small_pot_rice_noodles"
+    },
+    "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.visityunnanchina.com",
+        "url": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kunming": [
+        {
+          "name": "篆新农贸市场及周边米线店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kunming%20%E7%AF%86%E6%96%B0%E5%86%9C%E8%B4%B8%E5%B8%82%E5%9C%BA%E5%8F%8A%E5%91%A8%E8%BE%B9%E7%B1%B3%E7%BA%BF%E5%BA%97%20Xiaoguo%20mixian",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Xiaoguo mixian",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kunming-erkuai",
+    "cityIds": [
+      "kunming"
+    ],
+    "name": "烧饵块",
+    "localName": "Grilled erkuai",
+    "description": "烤热的米制饵块夹酱料、油条或其他馅料，适合早餐或小食，不同加料另收费。",
+    "article": "Erkuai",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Erkuai"
+    },
+    "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.visityunnanchina.com",
+        "url": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kunming": [
+        {
+          "name": "篆新农贸市场熟食区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kunming%20%E7%AF%86%E6%96%B0%E5%86%9C%E8%B4%B8%E5%B8%82%E5%9C%BA%E7%86%9F%E9%A3%9F%E5%8C%BA%20Grilled%20erkuai",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Grilled erkuai",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kunming-steam-chicken",
+    "cityIds": [
+      "kunming"
+    ],
+    "name": "汽锅鸡",
+    "localName": "Steam-pot chicken",
+    "description": "陶汽锅用蒸汽凝结成汤，鸡肉与清汤适合多人分食，点餐确认整锅或小份。",
+    "article": "Steam pot chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Steam_pot_chicken"
+    },
+    "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.visityunnanchina.com",
+        "url": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 180.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kunming": [
+        {
+          "name": "昆明老街周边滇菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kunming%20%E6%98%86%E6%98%8E%E8%80%81%E8%A1%97%E5%91%A8%E8%BE%B9%E6%BB%87%E8%8F%9C%E9%A6%86%20Steam-pot%20chicken",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Steam-pot chicken",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kunming-flower-cake",
+    "cityIds": [
+      "kunming"
+    ],
+    "name": "鲜花饼",
+    "localName": "Rose flower cake",
+    "description": "玫瑰花馅配酥皮，现烤与礼盒包装价格不同，配料中可能含乳、蛋或坚果。",
+    "article": "Flower cake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flower_cake"
+    },
+    "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+    "sourceReferences": [
+      {
+        "name": "www.visityunnanchina.com",
+        "url": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 12.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.visityunnanchina.com/files/2021-06/Colorful%20Yunnan.pdf",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kunming": [
+        {
+          "name": "嘉华鲜花饼门店及南屏街饼店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kunming%20%E5%98%89%E5%8D%8E%E9%B2%9C%E8%8A%B1%E9%A5%BC%E9%97%A8%E5%BA%97%E5%8F%8A%E5%8D%97%E5%B1%8F%E8%A1%97%E9%A5%BC%E5%BA%97%20Rose%20flower%20cake",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Rose flower cake",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-jinghong-pineapple-rice",
+    "cityIds": [
+      "jinghong"
+    ],
+    "name": "菠萝紫米饭",
+    "localName": "Pineapple purple rice",
+    "description": "糯米与菠萝的酸甜形成傣味餐桌常见主食，份量从单人到分享装不等。",
+    "article": "Pineapple rice Yunnan",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pineapple_rice_Yunnan"
+    },
+    "sourceUrl": "https://www.xtbg.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xtbg.ac.cn",
+        "url": "https://www.xtbg.ac.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 18.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xtbg.ac.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "jinghong": [
+        {
+          "name": "曼景兰傣味餐馆及江边餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jinghong%2C%20Xishuangbanna%20%E6%9B%BC%E6%99%AF%E5%85%B0%E5%82%A3%E5%91%B3%E9%A4%90%E9%A6%86%E5%8F%8A%E6%B1%9F%E8%BE%B9%E9%A4%90%E9%A5%AE%E5%8C%BA%20Pineapple%20purple%20rice",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Pineapple purple rice",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-jinghong-lemongrass-fish",
+    "cityIds": [
+      "jinghong"
+    ],
+    "name": "香茅草烤鱼",
+    "localName": "Lemongrass grilled fish",
+    "description": "香茅与香草包裹鱼肉烤制，按条或重量计价，确认鱼种、份量与配菜。",
+    "article": "Dai lemongrass grilled fish",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dai_lemongrass_grilled_fish"
+    },
+    "sourceUrl": "https://www.xtbg.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xtbg.ac.cn",
+        "url": "https://www.xtbg.ac.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 40.0,
+      "high": 100.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xtbg.ac.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "jinghong": [
+        {
+          "name": "曼听路及勐罕傣味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jinghong%2C%20Xishuangbanna%20%E6%9B%BC%E5%90%AC%E8%B7%AF%E5%8F%8A%E5%8B%90%E7%BD%95%E5%82%A3%E5%91%B3%E9%A4%90%E9%A6%86%20Lemongrass%20grilled%20fish",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Lemongrass grilled fish",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-jinghong-bamboo-rice",
+    "cityIds": [
+      "jinghong"
+    ],
+    "name": "香竹饭",
+    "localName": "Bamboo tube rice",
+    "description": "糯米装入竹筒烤熟带淡淡竹香，可作为小份主食，现做与预包装要区分。",
+    "article": "Bamboo rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bamboo_rice"
+    },
+    "sourceUrl": "https://www.xtbg.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xtbg.ac.cn",
+        "url": "https://www.xtbg.ac.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xtbg.ac.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "jinghong": [
+        {
+          "name": "曼掌村营业小吃店及告庄餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jinghong%2C%20Xishuangbanna%20%E6%9B%BC%E6%8E%8C%E6%9D%91%E8%90%A5%E4%B8%9A%E5%B0%8F%E5%90%83%E5%BA%97%E5%8F%8A%E5%91%8A%E5%BA%84%E9%A4%90%E9%A5%AE%E5%8C%BA%20Bamboo%20tube%20rice",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Bamboo tube rice",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-jinghong-pounded-feet",
+    "cityIds": [
+      "jinghong"
+    ],
+    "name": "舂鸡脚",
+    "localName": "Pounded chicken feet",
+    "description": "熟鸡脚与酸辣香料舂拌，口味通常偏酸辣，购买正规熟食并问清是否去骨。",
+    "article": "Pounded chicken feet",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pounded_chicken_feet"
+    },
+    "sourceUrl": "https://www.xtbg.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xtbg.ac.cn",
+        "url": "https://www.xtbg.ac.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 50.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xtbg.ac.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "jinghong": [
+        {
+          "name": "江边夜市及告庄正规熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jinghong%2C%20Xishuangbanna%20%E6%B1%9F%E8%BE%B9%E5%A4%9C%E5%B8%82%E5%8F%8A%E5%91%8A%E5%BA%84%E6%AD%A3%E8%A7%84%E7%86%9F%E9%A3%9F%E6%91%8A%20Pounded%20chicken%20feet",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Pounded chicken feet",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-jinghong-nanmi",
+    "cityIds": [
+      "jinghong"
+    ],
+    "name": "番茄喃咪与蔬菜",
+    "localName": "Dai tomato nanmi dip",
+    "description": "烤番茄与香草做成蘸酱，配蔬菜或主食；不同喃咪可能含鱼或虾酱。",
+    "article": "Dai tomato nanmi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dai_tomato_nanmi"
+    },
+    "sourceUrl": "https://www.xtbg.ac.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xtbg.ac.cn",
+        "url": "https://www.xtbg.ac.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xtbg.ac.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "jinghong": [
+        {
+          "name": "曼景兰和勐罕傣味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jinghong%2C%20Xishuangbanna%20%E6%9B%BC%E6%99%AF%E5%85%B0%E5%92%8C%E5%8B%90%E7%BD%95%E5%82%A3%E5%91%B3%E9%A4%90%E9%A6%86%20Dai%20tomato%20nanmi%20dip",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Dai tomato nanmi dip",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-tengchong-dajiujia",
+    "cityIds": [
+      "tengchong"
+    ],
+    "name": "大救驾",
+    "localName": "Dajiujia fried erkuai",
+    "description": "饵块片与鸡蛋、蔬菜炒制，是腾冲代表性家常主食，荤素版本先问清。",
+    "article": "Dajiujia",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dajiujia"
+    },
+    "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+    "sourceReferences": [
+      {
+        "name": "tengchong.gov.cn",
+        "url": "https://tengchong.gov.cn/info/16031/5029153.htm",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "tengchong": [
+        {
+          "name": "和顺古镇及腾越老城餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tengchong%20%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87%E5%8F%8A%E8%85%BE%E8%B6%8A%E8%80%81%E5%9F%8E%E9%A4%90%E9%A6%86%20Dajiujia%20fried%20erkuai",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Dajiujia fried erkuai",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-tengchong-ersi",
+    "cityIds": [
+      "tengchong"
+    ],
+    "name": "腾冲饵丝",
+    "localName": "Tengchong ersi",
+    "description": "米制细条可汤煮或凉拌，常配肉汤与腌菜，作为早餐可按单碗预算。",
+    "article": "Ersi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ersi"
+    },
+    "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+    "sourceReferences": [
+      {
+        "name": "tengchong.gov.cn",
+        "url": "https://tengchong.gov.cn/info/16031/5029153.htm",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "tengchong": [
+        {
+          "name": "绮罗与腾越城区早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tengchong%20%E7%BB%AE%E7%BD%97%E4%B8%8E%E8%85%BE%E8%B6%8A%E5%9F%8E%E5%8C%BA%E6%97%A9%E9%A4%90%E5%BA%97%20Tengchong%20ersi",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tengchong ersi",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-tengchong-earthen-pot",
+    "cityIds": [
+      "tengchong"
+    ],
+    "name": "腾冲土锅子",
+    "localName": "Tengchong earthen hot pot",
+    "description": "炭火土锅里搭配肉类、蛋卷和蔬菜，多人分享更合适，按整锅确认人数。",
+    "article": "Tengchong hot pot",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tengchong_hot_pot"
+    },
+    "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+    "sourceReferences": [
+      {
+        "name": "tengchong.gov.cn",
+        "url": "https://tengchong.gov.cn/info/16031/5029153.htm",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 100.0,
+      "high": 260.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "tengchong": [
+        {
+          "name": "和顺与腾冲城区土锅子餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tengchong%20%E5%92%8C%E9%A1%BA%E4%B8%8E%E8%85%BE%E5%86%B2%E5%9F%8E%E5%8C%BA%E5%9C%9F%E9%94%85%E5%AD%90%E9%A4%90%E9%A6%86%20Tengchong%20earthen%20hot%20pot",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tengchong earthen hot pot",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-tengchong-chickpea-jelly",
+    "cityIds": [
+      "tengchong"
+    ],
+    "name": "鸡豆凉粉",
+    "localName": "Chickpea jelly",
+    "description": "以鸡豆制成的凉粉可凉拌或煎食，酸辣蘸料和薄荷让口感清爽。",
+    "article": "Jidou liangfen",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jidou_liangfen"
+    },
+    "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+    "sourceReferences": [
+      {
+        "name": "tengchong.gov.cn",
+        "url": "https://tengchong.gov.cn/info/16031/5029153.htm",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "tengchong": [
+        {
+          "name": "和顺古镇熟食摊及绮罗小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tengchong%20%E5%92%8C%E9%A1%BA%E5%8F%A4%E9%95%87%E7%86%9F%E9%A3%9F%E6%91%8A%E5%8F%8A%E7%BB%AE%E7%BD%97%E5%B0%8F%E5%90%83%E5%BA%97%20Chickpea%20jelly",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Chickpea jelly",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-tengchong-pine-pollen-cake",
+    "cityIds": [
+      "tengchong"
+    ],
+    "name": "松花糕",
+    "localName": "Pine pollen rice cake",
+    "description": "米糕与松花粉组成细软点心，适合小份尝味，是否加糖及包装保质期先核对。",
+    "article": "Tengchong pine pollen cake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tengchong_pine_pollen_cake"
+    },
+    "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+    "sourceReferences": [
+      {
+        "name": "tengchong.gov.cn",
+        "url": "https://tengchong.gov.cn/info/16031/5029153.htm",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://tengchong.gov.cn/info/16031/5029153.htm",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "tengchong": [
+        {
+          "name": "腾越老城糕点店及和顺小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tengchong%20%E8%85%BE%E8%B6%8A%E8%80%81%E5%9F%8E%E7%B3%95%E7%82%B9%E5%BA%97%E5%8F%8A%E5%92%8C%E9%A1%BA%E5%B0%8F%E5%90%83%E5%BA%97%20Pine%20pollen%20rice%20cake",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Pine pollen rice cake",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lhasa-butter-tea",
+    "cityIds": [
+      "lhasa"
+    ],
+    "name": "酥油茶",
+    "localName": "Po cha · Butter tea",
+    "description": "茶与酥油搅打成咸香饮品，初尝可点小杯；饮用不是高原反应的预防或治疗方法。",
+    "article": "Butter tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Butter_tea"
+    },
+    "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.lasa.gov.cn",
+        "url": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lhasa": [
+        {
+          "name": "仓姑寺茶馆周边及八廓藏餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lhasa%20%E4%BB%93%E5%A7%91%E5%AF%BA%E8%8C%B6%E9%A6%86%E5%91%A8%E8%BE%B9%E5%8F%8A%E5%85%AB%E5%BB%93%E8%97%8F%E9%A4%90%E9%A6%86%20Po%20cha%20%C2%B7%20Butter%20tea",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Po cha · Butter tea",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lhasa-tsampa",
+    "cityIds": [
+      "lhasa"
+    ],
+    "name": "糌粑",
+    "localName": "Tsampa",
+    "description": "炒青稞粉与茶、乳品按习惯混合，店内吃法不同，先询问配料和单份份量。",
+    "article": "Tsampa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tsampa"
+    },
+    "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.lasa.gov.cn",
+        "url": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lhasa": [
+        {
+          "name": "八廓藏餐馆及酒店藏式早餐",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lhasa%20%E5%85%AB%E5%BB%93%E8%97%8F%E9%A4%90%E9%A6%86%E5%8F%8A%E9%85%92%E5%BA%97%E8%97%8F%E5%BC%8F%E6%97%A9%E9%A4%90%20Tsampa",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tsampa",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lhasa-momo",
+    "cityIds": [
+      "lhasa"
+    ],
+    "name": "藏式包子",
+    "localName": "Momo",
+    "description": "面皮包入肉或蔬菜蒸制，点单时问清馅料，蒸熟趁热搭配蘸料。",
+    "article": "Momo (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Momo_%28food%29"
+    },
+    "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.lasa.gov.cn",
+        "url": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 18.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lhasa": [
+        {
+          "name": "八廓及北京东路藏餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lhasa%20%E5%85%AB%E5%BB%93%E5%8F%8A%E5%8C%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E8%97%8F%E9%A4%90%E9%A6%86%20Momo",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Momo",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lhasa-thukpa",
+    "cityIds": [
+      "lhasa"
+    ],
+    "name": "藏面",
+    "localName": "Thukpa",
+    "description": "肉汤和面条搭配葱与调味，适合作为茶馆早餐，不同店家的面条和肉量不同。",
+    "article": "Thukpa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thukpa"
+    },
+    "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.lasa.gov.cn",
+        "url": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lhasa": [
+        {
+          "name": "光明港琼甜茶馆周边营业茶馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lhasa%20%E5%85%89%E6%98%8E%E6%B8%AF%E7%90%BC%E7%94%9C%E8%8C%B6%E9%A6%86%E5%91%A8%E8%BE%B9%E8%90%A5%E4%B8%9A%E8%8C%B6%E9%A6%86%20Thukpa",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Thukpa",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lhasa-yogurt",
+    "cityIds": [
+      "lhasa"
+    ],
+    "name": "藏式酸奶",
+    "localName": "Tibetan yogurt",
+    "description": "发酵乳口味偏酸，可按个人喜好加糖，乳制品过敏者须先核对。",
+    "article": "Tibetan yogurt",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tibetan_yogurt"
+    },
+    "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.lasa.gov.cn",
+        "url": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/msgj/201706/ea2ee50de05f4c918c4c1c9eba23a6f9.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lhasa": [
+        {
+          "name": "八廓老城正规酸奶店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lhasa%20%E5%85%AB%E5%BB%93%E8%80%81%E5%9F%8E%E6%AD%A3%E8%A7%84%E9%85%B8%E5%A5%B6%E5%BA%97%20Tibetan%20yogurt",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tibetan yogurt",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-nyingchi-stone-chicken",
+    "cityIds": [
+      "nyingchi"
+    ],
+    "name": "鲁朗石锅鸡",
+    "localName": "Lulang stone pot chicken",
+    "description": "鸡汤在石锅中配菌类慢煮，通常按锅分享，配菌与肉量会改变价格。",
+    "article": "Lulang stone pot chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lulang_stone_pot_chicken"
+    },
+    "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+    "sourceReferences": [
+      {
+        "name": "wlj.linzhi.gov.cn",
+        "url": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 160.0,
+      "high": 360.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "nyingchi": [
+        {
+          "name": "鲁朗小镇石锅鸡餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nyingchi%20%E9%B2%81%E6%9C%97%E5%B0%8F%E9%95%87%E7%9F%B3%E9%94%85%E9%B8%A1%E9%A4%90%E9%A6%86%20Lulang%20stone%20pot%20chicken",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Lulang stone pot chicken",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-nyingchi-tibetan-pork",
+    "cityIds": [
+      "nyingchi"
+    ],
+    "name": "藏香猪菜肴",
+    "localName": "Tibetan pork",
+    "description": "本地餐馆以烧、炖或烤等做法呈现猪肉，询问部位、做法与份量，肉源以店家标注为准。",
+    "article": "Tibetan pork dish",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tibetan_pork_dish"
+    },
+    "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+    "sourceReferences": [
+      {
+        "name": "wlj.linzhi.gov.cn",
+        "url": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 150.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "nyingchi": [
+        {
+          "name": "八一城区藏餐馆及鲁朗餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nyingchi%20%E5%85%AB%E4%B8%80%E5%9F%8E%E5%8C%BA%E8%97%8F%E9%A4%90%E9%A6%86%E5%8F%8A%E9%B2%81%E6%9C%97%E9%A4%90%E9%A5%AE%E5%8C%BA%20Tibetan%20pork",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tibetan pork",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-nyingchi-mushrooms",
+    "cityIds": [
+      "nyingchi"
+    ],
+    "name": "林芝时令菌汤",
+    "localName": "Nyingchi mushroom soup",
+    "description": "正规餐馆熟制菌汤适合分享，松茸与普通菌类价差大，不自行采食不认识的野菌。",
+    "article": "Matsutake soup",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matsutake_soup"
+    },
+    "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+    "sourceReferences": [
+      {
+        "name": "wlj.linzhi.gov.cn",
+        "url": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 220.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "nyingchi": [
+        {
+          "name": "鲁朗与八一城区正规餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nyingchi%20%E9%B2%81%E6%9C%97%E4%B8%8E%E5%85%AB%E4%B8%80%E5%9F%8E%E5%8C%BA%E6%AD%A3%E8%A7%84%E9%A4%90%E9%A6%86%20Nyingchi%20mushroom%20soup",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Nyingchi mushroom soup",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-nyingchi-butter-tea",
+    "cityIds": [
+      "nyingchi"
+    ],
+    "name": "酥油茶",
+    "localName": "Po cha · Butter tea",
+    "description": "咸香热茶与乳香相配，适合小杯品尝；不将茶饮作为适应海拔的医疗手段。",
+    "article": "Butter tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Butter_tea"
+    },
+    "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+    "sourceReferences": [
+      {
+        "name": "wlj.linzhi.gov.cn",
+        "url": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "nyingchi": [
+        {
+          "name": "八一城区藏餐馆与鲁朗酒店餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nyingchi%20%E5%85%AB%E4%B8%80%E5%9F%8E%E5%8C%BA%E8%97%8F%E9%A4%90%E9%A6%86%E4%B8%8E%E9%B2%81%E6%9C%97%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%20Po%20cha%20%C2%B7%20Butter%20tea",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Po cha · Butter tea",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-nyingchi-buckwheat-cake",
+    "cityIds": [
+      "nyingchi"
+    ],
+    "name": "荞麦饼",
+    "localName": "Tibetan buckwheat pancake",
+    "description": "荞麦面烙成薄饼，可配酥油或蜂蜜，具体甜咸做法与配料向店家确认。",
+    "article": "Tibetan buckwheat pancake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tibetan_buckwheat_pancake"
+    },
+    "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+    "sourceReferences": [
+      {
+        "name": "wlj.linzhi.gov.cn",
+        "url": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202108/6bb104a8e13a48188c7746615ae49eef.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "nyingchi": [
+        {
+          "name": "鲁朗村落餐馆及八一藏餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nyingchi%20%E9%B2%81%E6%9C%97%E6%9D%91%E8%90%BD%E9%A4%90%E9%A6%86%E5%8F%8A%E5%85%AB%E4%B8%80%E8%97%8F%E9%A4%90%E9%A6%86%20Tibetan%20buckwheat%20pancake",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tibetan buckwheat pancake",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-xining-yogurt",
+    "cityIds": [
+      "xining"
+    ],
+    "name": "青海老酸奶",
+    "localName": "Qinghai yogurt",
+    "description": "碗装发酵酸奶常有乳脂层，糖可另外加入，是否巴氏消毒及储存情况购买时留意。",
+    "article": "Qinghai yogurt",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Qinghai_yogurt"
+    },
+    "sourceUrl": "https://www.qh.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.qh.gov.cn",
+        "url": "https://www.qh.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.qh.gov.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "xining": [
+        {
+          "name": "莫家街正规酸奶店及大新街食品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Xining%20%E8%8E%AB%E5%AE%B6%E8%A1%97%E6%AD%A3%E8%A7%84%E9%85%B8%E5%A5%B6%E5%BA%97%E5%8F%8A%E5%A4%A7%E6%96%B0%E8%A1%97%E9%A3%9F%E5%93%81%E5%BA%97%20Qinghai%20yogurt",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Qinghai yogurt",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-xining-niangpi",
+    "cityIds": [
+      "xining"
+    ],
+    "name": "青海酿皮",
+    "localName": "Qinghai niangpi",
+    "description": "淀粉皮与面筋搭配醋、蒜和辣椒，凉食选择卫生良好的店铺，可请店家少辣。",
+    "article": "Niangpi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Niangpi"
+    },
+    "sourceUrl": "https://www.qh.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.qh.gov.cn",
+        "url": "https://www.qh.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.qh.gov.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "xining": [
+        {
+          "name": "莫家街及下南关街小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Xining%20%E8%8E%AB%E5%AE%B6%E8%A1%97%E5%8F%8A%E4%B8%8B%E5%8D%97%E5%85%B3%E8%A1%97%E5%B0%8F%E5%90%83%E5%BA%97%20Qinghai%20niangpi",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Qinghai niangpi",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-xining-shouzhua",
+    "cityIds": [
+      "xining"
+    ],
+    "name": "手抓羊肉",
+    "localName": "Shouzhua mutton",
+    "description": "清煮羊肉突出肉香，通常按重量或拼盘计价，点单前确认骨肉比例与适合人数。",
+    "article": "Shou zhua yang rou",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shou_zhua_yang_rou"
+    },
+    "sourceUrl": "https://www.qh.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.qh.gov.cn",
+        "url": "https://www.qh.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 60.0,
+      "high": 160.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.qh.gov.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "xining": [
+        {
+          "name": "下南关街清真餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Xining%20%E4%B8%8B%E5%8D%97%E5%85%B3%E8%A1%97%E6%B8%85%E7%9C%9F%E9%A4%90%E9%A6%86%20Shouzhua%20mutton",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Shouzhua mutton",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-xining-gamian",
+    "cityIds": [
+      "xining"
+    ],
+    "name": "尕面片",
+    "localName": "Qinghai ga mianpian",
+    "description": "小面片配肉汤、蔬菜热煮，适合一碗正餐，荤素与辣度可先沟通。",
+    "article": "Qinghai noodle pieces",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Qinghai_noodle_pieces"
+    },
+    "sourceUrl": "https://www.qh.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.qh.gov.cn",
+        "url": "https://www.qh.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.qh.gov.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "xining": [
+        {
+          "name": "西宁城东区正规面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Xining%20%E8%A5%BF%E5%AE%81%E5%9F%8E%E4%B8%9C%E5%8C%BA%E6%AD%A3%E8%A7%84%E9%9D%A2%E9%A6%86%20Qinghai%20ga%20mianpian",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Qinghai ga mianpian",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-xining-tianpei",
+    "cityIds": [
+      "xining"
+    ],
+    "name": "甜醅",
+    "localName": "Tianpei fermented barley",
+    "description": "青稞等谷物发酵后带自然甜香，通常冷饮或甜点食用，含发酵成分需按个人情况选择。",
+    "article": "Tianpei",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tianpei"
+    },
+    "sourceUrl": "https://www.qh.gov.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.qh.gov.cn",
+        "url": "https://www.qh.gov.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.qh.gov.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "xining": [
+        {
+          "name": "莫家街及大新街甜品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Xining%20%E8%8E%AB%E5%AE%B6%E8%A1%97%E5%8F%8A%E5%A4%A7%E6%96%B0%E8%A1%97%E7%94%9C%E5%93%81%E5%BA%97%20Tianpei%20fermented%20barley",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Tianpei fermented barley",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lanzhou-beef-noodle",
+    "cityIds": [
+      "lanzhou"
+    ],
+    "name": "兰州牛肉面",
+    "localName": "Lanzhou beef noodles",
+    "description": "清汤、萝卜、香菜蒜苗与辣油搭配拉面，可选择毛细、二细等面型，肉蛋另加常单计。",
+    "article": "Lanzhou beef noodles",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lanzhou_beef_noodles"
+    },
+    "sourceUrl": "https://www.gansumuseum.com/",
+    "sourceReferences": [
+      {
+        "name": "www.gansumuseum.com",
+        "url": "https://www.gansumuseum.com/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.gansumuseum.com/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lanzhou": [
+        {
+          "name": "马子禄、大众巷及城区正规牛肉面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lanzhou%20%E9%A9%AC%E5%AD%90%E7%A6%84%E3%80%81%E5%A4%A7%E4%BC%97%E5%B7%B7%E5%8F%8A%E5%9F%8E%E5%8C%BA%E6%AD%A3%E8%A7%84%E7%89%9B%E8%82%89%E9%9D%A2%E9%A6%86%20Lanzhou%20beef%20noodles",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Lanzhou beef noodles",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lanzhou-niangpi",
+    "cityIds": [
+      "lanzhou"
+    ],
+    "name": "兰州酿皮",
+    "localName": "Lanzhou niangpi",
+    "description": "厚薄不同的面皮配蒜汁、醋与辣椒，常配面筋，作为小食或简餐。",
+    "article": "Niangpi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Niangpi"
+    },
+    "sourceUrl": "https://www.gansumuseum.com/",
+    "sourceReferences": [
+      {
+        "name": "www.gansumuseum.com",
+        "url": "https://www.gansumuseum.com/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.gansumuseum.com/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lanzhou": [
+        {
+          "name": "正宁路、大众巷正规小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lanzhou%20%E6%AD%A3%E5%AE%81%E8%B7%AF%E3%80%81%E5%A4%A7%E4%BC%97%E5%B7%B7%E6%AD%A3%E8%A7%84%E5%B0%8F%E5%90%83%E5%BA%97%20Lanzhou%20niangpi",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Lanzhou niangpi",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lanzhou-grey-peas",
+    "cityIds": [
+      "lanzhou"
+    ],
+    "name": "灰豆子",
+    "localName": "Huidouzi sweet pea soup",
+    "description": "豌豆与枣等熬成绵软甜汤，热食口感厚润，糖量与份量向店家确认。",
+    "article": "Huidouzi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Huidouzi"
+    },
+    "sourceUrl": "https://www.gansumuseum.com/",
+    "sourceReferences": [
+      {
+        "name": "www.gansumuseum.com",
+        "url": "https://www.gansumuseum.com/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.gansumuseum.com/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lanzhou": [
+        {
+          "name": "大众巷灰豆子店及木塔巷小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lanzhou%20%E5%A4%A7%E4%BC%97%E5%B7%B7%E7%81%B0%E8%B1%86%E5%AD%90%E5%BA%97%E5%8F%8A%E6%9C%A8%E5%A1%94%E5%B7%B7%E5%B0%8F%E5%90%83%E5%BA%97%20Huidouzi%20sweet%20pea%20soup",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Huidouzi sweet pea soup",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lanzhou-milk-egg",
+    "cityIds": [
+      "lanzhou"
+    ],
+    "name": "牛奶鸡蛋醪糟",
+    "localName": "Milk egg and fermented rice pudding",
+    "description": "牛奶、鸡蛋和发酵米制成热甜品，常加坚果果干，点餐时先问过敏原。",
+    "article": "Milk egg fermented rice Lanzhou",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Milk_egg_fermented_rice_Lanzhou"
+    },
+    "sourceUrl": "https://www.gansumuseum.com/",
+    "sourceReferences": [
+      {
+        "name": "www.gansumuseum.com",
+        "url": "https://www.gansumuseum.com/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.gansumuseum.com/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lanzhou": [
+        {
+          "name": "正宁路夜市正规甜品摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lanzhou%20%E6%AD%A3%E5%AE%81%E8%B7%AF%E5%A4%9C%E5%B8%82%E6%AD%A3%E8%A7%84%E7%94%9C%E5%93%81%E6%91%8A%20Milk%20egg%20and%20fermented%20rice%20pudding",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Milk egg and fermented rice pudding",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-lanzhou-sanpaotai",
+    "cityIds": [
+      "lanzhou"
+    ],
+    "name": "三泡台盖碗茶",
+    "localName": "Sanpaotai tea",
+    "description": "盖碗里搭配茶叶、糖和干果等配料，适合河岸茶座慢饮，按杯或席位计价先问清。",
+    "article": "Sanpaotai tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sanpaotai_tea"
+    },
+    "sourceUrl": "https://www.gansumuseum.com/",
+    "sourceReferences": [
+      {
+        "name": "www.gansumuseum.com",
+        "url": "https://www.gansumuseum.com/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.gansumuseum.com/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "lanzhou": [
+        {
+          "name": "黄河岸边正规茶摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lanzhou%20%E9%BB%84%E6%B2%B3%E5%B2%B8%E8%BE%B9%E6%AD%A3%E8%A7%84%E8%8C%B6%E6%91%8A%20Sanpaotai%20tea",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Sanpaotai tea",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-zhangye-saozi",
+    "cityIds": [
+      "zhangye"
+    ],
+    "name": "张掖臊面",
+    "localName": "Zhangye saozi noodles",
+    "description": "细长面条搭配热汤臊子，常作早餐，配料随店家变化，按单碗预算。",
+    "article": "Zhangye saozi noodles",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zhangye_saozi_noodles"
+    },
+    "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+    "sourceReferences": [
+      {
+        "name": "www.zhangye.gov.cn",
+        "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "zhangye": [
+        {
+          "name": "甘州市场及老城面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhangye%20%E7%94%98%E5%B7%9E%E5%B8%82%E5%9C%BA%E5%8F%8A%E8%80%81%E5%9F%8E%E9%9D%A2%E9%A6%86%20Zhangye%20saozi%20noodles",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Zhangye saozi noodles",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-zhangye-fish-noodle",
+    "cityIds": [
+      "zhangye"
+    ],
+    "name": "搓鱼面",
+    "localName": "Fish-shaped hand-rolled noodles",
+    "description": "面团搓成两头尖的小条，因形似小鱼得名，通常并不含鱼，荤素浇头先询问。",
+    "article": "Cuoyu noodles",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cuoyu_noodles"
+    },
+    "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+    "sourceReferences": [
+      {
+        "name": "www.zhangye.gov.cn",
+        "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "zhangye": [
+        {
+          "name": "甘州老城面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhangye%20%E7%94%98%E5%B7%9E%E8%80%81%E5%9F%8E%E9%9D%A2%E9%A6%86%20Fish-shaped%20hand-rolled%20noodles",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Fish-shaped hand-rolled noodles",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-zhangye-chaobola",
+    "cityIds": [
+      "zhangye"
+    ],
+    "name": "炒拨拉",
+    "localName": "Chaobola stir-fry",
+    "description": "在铁板上炒制肉类或杂碎并配蔬菜，份量和食材先问清，选择正规熟制餐馆。",
+    "article": "Chaobola",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chaobola"
+    },
+    "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+    "sourceReferences": [
+      {
+        "name": "www.zhangye.gov.cn",
+        "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 65.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "zhangye": [
+        {
+          "name": "甘州市场与张掖正规夜间餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhangye%20%E7%94%98%E5%B7%9E%E5%B8%82%E5%9C%BA%E4%B8%8E%E5%BC%A0%E6%8E%96%E6%AD%A3%E8%A7%84%E5%A4%9C%E9%97%B4%E9%A4%90%E9%A5%AE%E5%8C%BA%20Chaobola%20stir-fry",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Chaobola stir-fry",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-zhangye-juanzi-chicken",
+    "cityIds": [
+      "zhangye"
+    ],
+    "name": "卷子鸡",
+    "localName": "Chicken with dough rolls",
+    "description": "鸡肉与面卷同炖，让面卷吸收汤汁，常按锅分享，先确认适合人数和鸡肉份量。",
+    "article": "Zhangye juanzi chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zhangye_juanzi_chicken"
+    },
+    "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+    "sourceReferences": [
+      {
+        "name": "www.zhangye.gov.cn",
+        "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 70.0,
+      "high": 150.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "zhangye": [
+        {
+          "name": "甘州城区地方菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhangye%20%E7%94%98%E5%B7%9E%E5%9F%8E%E5%8C%BA%E5%9C%B0%E6%96%B9%E8%8F%9C%E9%A6%86%20Chicken%20with%20dough%20rolls",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Chicken with dough rolls",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-zhangye-beef-rice",
+    "cityIds": [
+      "zhangye"
+    ],
+    "name": "牛肉小饭",
+    "localName": "Beef tiny-noodle soup",
+    "description": "名称中的小饭实际多为小面粒，配牛肉汤作早餐，点餐可问清配料和辣度。",
+    "article": "Zhangye beef small rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zhangye_beef_small_rice"
+    },
+    "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+    "sourceReferences": [
+      {
+        "name": "www.zhangye.gov.cn",
+        "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 25.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "zhangye": [
+        {
+          "name": "张掖老城牛肉小饭店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhangye%20%E5%BC%A0%E6%8E%96%E8%80%81%E5%9F%8E%E7%89%9B%E8%82%89%E5%B0%8F%E9%A5%AD%E5%BA%97%20Beef%20tiny-noodle%20soup",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Beef tiny-noodle soup",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-urumqi-dapanji",
+    "cityIds": [
+      "urumqi"
+    ],
+    "name": "大盘鸡",
+    "localName": "Dapanji",
+    "description": "鸡块与土豆、辣椒炖炒，常配宽面分享，半份整份和追加面条分别询价。",
+    "article": "Dapanji",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dapanji"
+    },
+    "sourceUrl": "https://www.xjmuseum.com.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xjmuseum.com.cn",
+        "url": "https://www.xjmuseum.com.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 70.0,
+      "high": 180.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xjmuseum.com.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "urumqi": [
+        {
+          "name": "乌鲁木齐正规新疆菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi%20%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E6%AD%A3%E8%A7%84%E6%96%B0%E7%96%86%E8%8F%9C%E9%A6%86%20Dapanji",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Dapanji",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-urumqi-laghman",
+    "cityIds": [
+      "urumqi"
+    ],
+    "name": "过油肉拌面",
+    "localName": "Laghman with stir-fried lamb",
+    "description": "拉条子配炒肉蔬菜，面与菜份量不同，是否可免费加面以店家规则为准。",
+    "article": "Laghman",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Laghman"
+    },
+    "sourceUrl": "https://www.xjmuseum.com.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xjmuseum.com.cn",
+        "url": "https://www.xjmuseum.com.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 50.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xjmuseum.com.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "urumqi": [
+        {
+          "name": "二道桥与城区拌面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi%20%E4%BA%8C%E9%81%93%E6%A1%A5%E4%B8%8E%E5%9F%8E%E5%8C%BA%E6%8B%8C%E9%9D%A2%E9%A6%86%20Laghman%20with%20stir-fried%20lamb",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Laghman with stir-fried lamb",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-urumqi-polo",
+    "cityIds": [
+      "urumqi"
+    ],
+    "name": "抓饭",
+    "localName": "Uyghur polo",
+    "description": "米饭与羊肉、胡萝卜等同焖，碎肉、肉块和羊排版本价差明显。",
+    "article": "Uyghur polo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uyghur_polo"
+    },
+    "sourceUrl": "https://www.xjmuseum.com.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xjmuseum.com.cn",
+        "url": "https://www.xjmuseum.com.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 55.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xjmuseum.com.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "urumqi": [
+        {
+          "name": "城区正规抓饭馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi%20%E5%9F%8E%E5%8C%BA%E6%AD%A3%E8%A7%84%E6%8A%93%E9%A5%AD%E9%A6%86%20Uyghur%20polo",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Uyghur polo",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-urumqi-samsa",
+    "cityIds": [
+      "urumqi"
+    ],
+    "name": "烤包子",
+    "localName": "Samsa",
+    "description": "面皮包肉丁与洋葱烤制，外皮焦香，现烤热食要注意内馅温度。",
+    "article": "Samsa (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samsa_%28food%29"
+    },
+    "sourceUrl": "https://www.xjmuseum.com.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xjmuseum.com.cn",
+        "url": "https://www.xjmuseum.com.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xjmuseum.com.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "urumqi": [
+        {
+          "name": "二道桥及营业馕店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi%20%E4%BA%8C%E9%81%93%E6%A1%A5%E5%8F%8A%E8%90%A5%E4%B8%9A%E9%A6%95%E5%BA%97%20Samsa",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Samsa",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-urumqi-kebab",
+    "cityIds": [
+      "urumqi"
+    ],
+    "name": "新疆烤肉",
+    "localName": "Kawap · Lamb skewers",
+    "description": "羊肉串现烤撒调料，大小与按串计价因店而异，先问清数量和肥瘦比例。",
+    "article": "Chuan (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chuan_%28food%29"
+    },
+    "sourceUrl": "https://www.xjmuseum.com.cn/",
+    "sourceReferences": [
+      {
+        "name": "www.xjmuseum.com.cn",
+        "url": "https://www.xjmuseum.com.cn/",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.xjmuseum.com.cn/",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "urumqi": [
+        {
+          "name": "二道桥及正规烤肉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Urumqi%20%E4%BA%8C%E9%81%93%E6%A1%A5%E5%8F%8A%E6%AD%A3%E8%A7%84%E7%83%A4%E8%82%89%E5%BA%97%20Kawap%20%C2%B7%20Lamb%20skewers",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Kawap · Lamb skewers",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kashgar-samsa",
+    "cityIds": [
+      "kashgar"
+    ],
+    "name": "喀什烤包子",
+    "localName": "Samsa",
+    "description": "羊肉洋葱馅包入方形面皮烤制，适合与茶搭配，单个和一份的数量要问清。",
+    "article": "Samsa (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samsa_%28food%29"
+    },
+    "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.kashi.gov.cn",
+        "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kashgar": [
+        {
+          "name": "古城营业烤包子店及艾提尕尔周边",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kashgar%20%E5%8F%A4%E5%9F%8E%E8%90%A5%E4%B8%9A%E7%83%A4%E5%8C%85%E5%AD%90%E5%BA%97%E5%8F%8A%E8%89%BE%E6%8F%90%E5%B0%95%E5%B0%94%E5%91%A8%E8%BE%B9%20Samsa",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Samsa",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kashgar-polo",
+    "cityIds": [
+      "kashgar"
+    ],
+    "name": "喀什抓饭",
+    "localName": "Uyghur polo",
+    "description": "羊肉、胡萝卜与米饭同焖，不同肉块和加配价格不同，一盘可作一餐。",
+    "article": "Uyghur polo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uyghur_polo"
+    },
+    "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.kashi.gov.cn",
+        "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 60.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kashgar": [
+        {
+          "name": "喀什古城及艾提尕尔周边抓饭馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kashgar%20%E5%96%80%E4%BB%80%E5%8F%A4%E5%9F%8E%E5%8F%8A%E8%89%BE%E6%8F%90%E5%B0%95%E5%B0%94%E5%91%A8%E8%BE%B9%E6%8A%93%E9%A5%AD%E9%A6%86%20Uyghur%20polo",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Uyghur polo",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kashgar-nan",
+    "cityIds": [
+      "kashgar"
+    ],
+    "name": "馕",
+    "localName": "Uyghur nan",
+    "description": "馕坑烤制面饼，洋葱、芝麻等配料随品种变化，按个或重量购买，适合当主食。",
+    "article": "Uyghur nan",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Uyghur_nan"
+    },
+    "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.kashi.gov.cn",
+        "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 15.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kashgar": [
+        {
+          "name": "古城营业馕铺及正规食品市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kashgar%20%E5%8F%A4%E5%9F%8E%E8%90%A5%E4%B8%9A%E9%A6%95%E9%93%BA%E5%8F%8A%E6%AD%A3%E8%A7%84%E9%A3%9F%E5%93%81%E5%B8%82%E5%9C%BA%20Uyghur%20nan",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Uyghur nan",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kashgar-lung-sausage",
+    "cityIds": [
+      "kashgar"
+    ],
+    "name": "面肺子与米肠子",
+    "localName": "Stuffed lung and rice sausage",
+    "description": "地方熟食以羊肺、肠及谷物制作，配辣醋调味，内脏食材接受度因人而异，选择卫生摊店。",
+    "article": "Mianfeizi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mianfeizi"
+    },
+    "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.kashi.gov.cn",
+        "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 40.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kashgar": [
+        {
+          "name": "喀什正规熟食店及古城餐饮区",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kashgar%20%E5%96%80%E4%BB%80%E6%AD%A3%E8%A7%84%E7%86%9F%E9%A3%9F%E5%BA%97%E5%8F%8A%E5%8F%A4%E5%9F%8E%E9%A4%90%E9%A5%AE%E5%8C%BA%20Stuffed%20lung%20and%20rice%20sausage",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Stuffed lung and rice sausage",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-kashgar-kebab",
+    "cityIds": [
+      "kashgar"
+    ],
+    "name": "喀什烤羊肉",
+    "localName": "Kawap",
+    "description": "炭烤羊肉适合搭配馕与蔬菜，按串或重量报价需事先确认，点餐问清肥瘦。",
+    "article": "Chuan (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chuan_%28food%29"
+    },
+    "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.kashi.gov.cn",
+        "url": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 18.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.kashi.gov.cn/ksdqxzgs/c106707/202307/ef05aa1c91d64ae9bbdc5fa6e31b4ad7.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "kashgar": [
+        {
+          "name": "古城夜间营业烤肉店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kashgar%20%E5%8F%A4%E5%9F%8E%E5%A4%9C%E9%97%B4%E8%90%A5%E4%B8%9A%E7%83%A4%E8%82%89%E5%BA%97%20Kawap",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Kawap",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-yining-ice-cream",
+    "cityIds": [
+      "yining"
+    ],
+    "name": "伊宁手工冰淇淋",
+    "localName": "Yining handmade ice cream",
+    "description": "以乳香和绵密口感见长，店家常提供不同口味，坚果和果干配料需问清。",
+    "article": "Yining ice cream",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yining_ice_cream"
+    },
+    "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.yining.gov.cn",
+        "url": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "yining": [
+        {
+          "name": "六星街古兰丹姆等营业冰淇淋店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yining%20%E5%85%AD%E6%98%9F%E8%A1%97%E5%8F%A4%E5%85%B0%E4%B8%B9%E5%A7%86%E7%AD%89%E8%90%A5%E4%B8%9A%E5%86%B0%E6%B7%87%E6%B7%8B%E5%BA%97%20Yining%20handmade%20ice%20cream",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Yining handmade ice cream",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-yining-leba",
+    "cityIds": [
+      "yining"
+    ],
+    "name": "俄罗斯列巴",
+    "localName": "Russian rye bread",
+    "description": "大块烘焙面包可切片配茶，原味、果仁和乳制配方不同，按份或重量询价。",
+    "article": "Russian rye bread",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Russian_rye_bread"
+    },
+    "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.yining.gov.cn",
+        "url": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 45.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "yining": [
+        {
+          "name": "六星街柳芭俄罗斯列巴房等营业面包店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yining%20%E5%85%AD%E6%98%9F%E8%A1%97%E6%9F%B3%E8%8A%AD%E4%BF%84%E7%BD%97%E6%96%AF%E5%88%97%E5%B7%B4%E6%88%BF%E7%AD%89%E8%90%A5%E4%B8%9A%E9%9D%A2%E5%8C%85%E5%BA%97%20Russian%20rye%20bread",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Russian rye bread",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-yining-kvass",
+    "cityIds": [
+      "yining"
+    ],
+    "name": "格瓦斯",
+    "localName": "Kvass",
+    "description": "谷物发酵饮品带麦香与轻微酸甜，可能含微量酒精，成分以商家说明为准。",
+    "article": "Kvass",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kvass"
+    },
+    "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.yining.gov.cn",
+        "url": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "yining": [
+        {
+          "name": "六星街营业饮品店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yining%20%E5%85%AD%E6%98%9F%E8%A1%97%E8%90%A5%E4%B8%9A%E9%A5%AE%E5%93%81%E5%BA%97%20Kvass",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Kvass",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-yining-fentang",
+    "cityIds": [
+      "yining"
+    ],
+    "name": "伊宁粉汤",
+    "localName": "Yining fentang",
+    "description": "热汤里搭配粉块、肉与蔬菜，酸辣口味依店家做法，适合早餐或简餐。",
+    "article": "Yining fentang",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yining_fentang"
+    },
+    "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.yining.gov.cn",
+        "url": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "yining": [
+        {
+          "name": "汉人街及喀赞其粉汤店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yining%20%E6%B1%89%E4%BA%BA%E8%A1%97%E5%8F%8A%E5%96%80%E8%B5%9E%E5%85%B6%E7%B2%89%E6%B1%A4%E5%BA%97%20Yining%20fentang",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Yining fentang",
+    "editorialReviewedAt": "2026-10-07"
+  },
+  {
+    "id": "food-yining-laghman",
+    "cityIds": [
+      "yining"
+    ],
+    "name": "伊犁拌面",
+    "localName": "Ili laghman",
+    "description": "手工拉条子配炒肉与时令蔬菜，过油肉、碎肉等浇头按店家菜单选择。",
+    "article": "Laghman",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Laghman"
+    },
+    "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+    "sourceReferences": [
+      {
+        "name": "www.yining.gov.cn",
+        "url": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+        "kind": "primary-source",
+        "scope": "地域饮食背景；商家菜单、单品配方和价格需另核实",
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceScope": "regional-context; individual merchant menus and prices not checked",
+    "sourceStatus": "primary-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 25.0,
+      "high": 50.0,
+      "currency": "CNY",
+      "type": "estimate",
+      "sourceUrl": "https://www.yining.gov.cn/yining/tsyn/201603/a831d06ed7254e01b0246bd681916b5e.shtml",
+      "checkedAt": null,
+      "note": "一份、单个或描述所列分享份量的编辑预算，非商家菜单报价；实际价格取决于配料、重量、餐馆和日期。",
+      "unit": "serving"
+    },
+    "servingNote": "单份或说明中份量的编辑预算；作为每日餐饮选择，不重复叠加固定费用。",
+    "whereByCity": {
+      "yining": [
+        {
+          "name": "汉人街与喀赞其营业面馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yining%20%E6%B1%89%E4%BA%BA%E8%A1%97%E4%B8%8E%E5%96%80%E8%B5%9E%E5%85%B6%E8%90%A5%E4%B8%9A%E9%9D%A2%E9%A6%86%20Ili%20laghman",
+          "note": "具体找店起点；不表示名单内每家每天都有此菜。请进入商家页面确认当前营业、菜单、份量和价格。"
+        }
+      ]
+    },
+    "nameEn": "Ili laghman",
+    "editorialReviewedAt": "2026-10-07"
+  }
+]

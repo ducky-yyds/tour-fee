@@ -1,0 +1,20 @@
+{
+  "zunyi-yangliu-political-department": {
+    "photoFile": "老天主堂05239.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%80%81%E5%A4%A9%E4%B8%BB%E5%A0%8205239.jpg",
+    "license": "CC BY-SA 4.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "遵义杨柳街老天主堂入口实景，该建筑曾作为红军总政治部驻地。",
+    "checkedAt": "2026-10-07",
+    "visualReview": "Downloaded thumbnail inspected; subject and source description checked."
+  },
+  "lijiang-baisha": {
+    "photoFile": "20240503 Baisha.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240503_Baisha.jpg",
+    "license": "CC BY-SA 4.0",
+    "imageScope": "exact-place",
+    "imageContextNote": "丽江白沙古镇街巷实景。",
+    "sourceCheckedAt": "2026-10-07",
+    "visualReview": "Thumbnail reviewed for subject and location; context distinguishes demonstrative imagery."
+  }
+}

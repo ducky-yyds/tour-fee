@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "exportedAt": "2026-10-07T12:59:00.138Z",
+  "exportedAt": "2026-10-08T07:18:22.492Z",
   "snapshots": [
     {
       "key": "dubai-hero-balloon",
-      "value": "{\"cityId\":\"dubai\",\"experienceId\":\"ex-dubai-hero-balloon\",\"currency\":\"AED\",\"options\":[{\"optionId\":\"signature\",\"amount\":1695,\"low\":1695,\"high\":1695,\"currency\":\"AED\",\"unit\":\"person\"}],\"evidence\":\"Unique adult AED amount extracted from the Signature section before the Private section; child and private-booking prices excluded.\",\"scope\":\"Shared Signature adult public rate only. Seasonal operation and participation conditions still apply; no dated flight inventory or private quotation queried.\",\"contentHash\":\"d4cdda3bb6b884cd83565da879e1f048cb3cabcf92aacd0ded3e5f51e723165d\"}",
-      "updated_at": "2026-10-06T11:04:33.769Z"
+      "value": "{\"cityId\":\"dubai\",\"experienceId\":\"ex-dubai-hero-balloon\",\"currency\":\"AED\",\"options\":[{\"optionId\":\"signature\",\"amount\":1695,\"low\":1695,\"high\":1695,\"currency\":\"AED\",\"unit\":\"person\"}],\"evidence\":\"Unique adult AED amount extracted from the Signature section before the Private section; child and private-booking prices excluded.\",\"scope\":\"Shared Signature adult public rate only. Seasonal operation and participation conditions still apply; no dated flight inventory or private quotation queried.\",\"contentHash\":\"ac590f21d2e67cc81583df8cc133b5d4ac7824aaafdd853752a87015ab0abc0f\"}",
+      "updated_at": "2026-10-08T07:11:44.858Z"
     },
     {
       "key": "frankfurter",
@@ -30,7 +30,7 @@
     {
       "key": "paris-bateaux-mouches",
       "value": "{\"cityId\":\"paris\",\"experienceId\":\"ex-paris-bateaux-mouches\",\"currency\":\"EUR\",\"options\":[{\"optionId\":\"sightseeing\",\"amount\":20,\"low\":20,\"high\":20,\"currency\":\"EUR\",\"unit\":\"person\"},{\"optionId\":\"early-dinner\",\"amount\":90,\"low\":90,\"high\":90,\"currency\":\"EUR\",\"unit\":\"person\"},{\"optionId\":\"prestige\",\"amount\":135,\"low\":135,\"high\":135,\"currency\":\"EUR\",\"unit\":\"person\"}],\"evidence\":\"Adult EUR amounts matched within sightseeing and named 6pm early-bird / Prestige dinner sections. Child, lunch, Discovery and Excellence fares excluded.\",\"scope\":\"Public adult per-person sightseeing and named dinner fares. No departure-date inventory, extras or cancellation terms queried.\",\"contentHash\":\"95d3004d52986673fa41ed97d2f8d2328d3de3e23695604cde05c6257358c60c\"}",
-      "updated_at": "2026-10-06T11:04:31.218Z"
+      "updated_at": "2026-10-08T07:11:42.516Z"
     },
     {
       "key": "tokyo-subway",
@@ -50,8 +50,8 @@
       "url": "https://uae.heroballoonflights.com/",
       "kind": "official-experience",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:33.769Z",
-      "success_at": "2026-10-06T11:04:33.769Z",
+      "attempted_at": "2026-10-08T07:11:44.858Z",
+      "success_at": "2026-10-08T07:11:44.858Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -110,8 +110,8 @@
       "url": "https://www.bateaux-mouches.fr/en/cruise/information",
       "kind": "official-experience",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:31.218Z",
-      "success_at": "2026-10-06T11:04:31.218Z",
+      "attempted_at": "2026-10-08T07:11:42.516Z",
+      "success_at": "2026-10-08T07:11:42.516Z",
       "message": "Validated public source; snapshot updated"
     },
     {

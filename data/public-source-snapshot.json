@@ -1,46 +1,46 @@
 {
   "version": 1,
-  "exportedAt": "2026-10-08T07:18:22.492Z",
+  "exportedAt": "2026-10-09T10:57:04.709Z",
   "snapshots": [
     {
       "key": "dubai-hero-balloon",
-      "value": "{\"cityId\":\"dubai\",\"experienceId\":\"ex-dubai-hero-balloon\",\"currency\":\"AED\",\"options\":[{\"optionId\":\"signature\",\"amount\":1695,\"low\":1695,\"high\":1695,\"currency\":\"AED\",\"unit\":\"person\"}],\"evidence\":\"Unique adult AED amount extracted from the Signature section before the Private section; child and private-booking prices excluded.\",\"scope\":\"Shared Signature adult public rate only. Seasonal operation and participation conditions still apply; no dated flight inventory or private quotation queried.\",\"contentHash\":\"ac590f21d2e67cc81583df8cc133b5d4ac7824aaafdd853752a87015ab0abc0f\"}",
-      "updated_at": "2026-10-08T07:11:44.858Z"
+      "value": "{\"cityId\":\"dubai\",\"experienceId\":\"ex-dubai-hero-balloon\",\"currency\":\"AED\",\"options\":[{\"optionId\":\"signature\",\"amount\":1695,\"low\":1695,\"high\":1695,\"currency\":\"AED\",\"unit\":\"person\"}],\"evidence\":\"Unique adult AED amount extracted from the Signature section before the Private section; child and private-booking prices excluded.\",\"scope\":\"Shared Signature adult public rate only. Seasonal operation and participation conditions still apply; no dated flight inventory or private quotation queried.\",\"contentHash\":\"2110dfd75963f4c10463715f29b376e5589b7f7a85ada821dc5e364c357b7b84\"}",
+      "updated_at": "2026-10-09T10:50:11.979Z"
     },
     {
       "key": "frankfurter",
-      "value": "{\"base\":\"CNY\",\"rates\":{\"CNY\":1,\"USD\":0.14924,\"EUR\":0.1327,\"JPY\":23.606,\"GBP\":0.11252,\"KRW\":200.11,\"THB\":5.0173,\"SGD\":0.19074,\"AUD\":0.21406,\"HKD\":1.1721,\"MOP\":1.2073,\"AED\":0.54809,\"IDR\":2669.22,\"TRY\":7.338,\"ISK\":18.2073,\"MVR\":2.3036,\"NOK\":1.4293,\"SEK\":1.4935,\"DKK\":0.99238,\"CHF\":0.12408,\"PLN\":0.58024,\"CZK\":3.2411,\"HUF\":48.562,\"VND\":3871.78,\"LAK\":3322.27,\"KHR\":605.77,\"MYR\":0.60968,\"PHP\":9.3616,\"TWD\":4.7471,\"NPR\":23.024,\"INR\":14.3812,\"LKR\":49.333,\"NZD\":0.26595,\"ZAR\":2.4678,\"MAD\":1.4884,\"EGP\":7.809,\"KES\":19.3471,\"TZS\":393.02,\"SCR\":2.1676,\"MUR\":7.1029,\"CAD\":0.21233,\"MXN\":2.6877,\"PEN\":0.51245,\"BRL\":0.74403,\"ARS\":226.86,\"CLP\":145.33,\"COP\":480.62},\"asOf\":\"2026-10-07\",\"source\":\"Frankfurter · central bank reference rates\",\"sourceUrl\":\"https://frankfurter.dev/\",\"fetchedAt\":\"2026-10-07T12:42:59.380Z\",\"status\":\"fresh\",\"note\":\"参考中间汇率；不含银行手续费、刷卡加价与买卖价差。\"}",
-      "updated_at": "2026-10-07T12:42:59.388Z"
+      "value": "{\"base\":\"CNY\",\"rates\":{\"CNY\":1,\"USD\":0.1493,\"EUR\":0.13324,\"JPY\":23.628,\"GBP\":0.11287,\"KRW\":200.35,\"THB\":5.0227,\"SGD\":0.1912,\"AUD\":0.21465,\"HKD\":1.1726,\"MOP\":1.2077,\"AED\":0.5483,\"IDR\":2670.94,\"TRY\":7.3486,\"ISK\":18.2825,\"MVR\":2.3048,\"NOK\":1.4296,\"SEK\":1.4937,\"DKK\":0.99668,\"CHF\":0.12428,\"PLN\":0.58404,\"CZK\":3.2558,\"HUF\":48.853,\"VND\":3862.46,\"LAK\":3330.38,\"KHR\":606.91,\"MYR\":0.61046,\"PHP\":9.3866,\"TWD\":4.7627,\"NPR\":23.111,\"INR\":14.4295,\"LKR\":49.357,\"NZD\":0.26654,\"ZAR\":2.4789,\"MAD\":1.489,\"EGP\":7.8204,\"KES\":19.3671,\"TZS\":393.07,\"SCR\":2.1394,\"MUR\":7.0817,\"CAD\":0.21255,\"MXN\":2.6932,\"PEN\":0.51399,\"BRL\":0.74862,\"ARS\":226.65,\"CLP\":146.13,\"COP\":483.07},\"asOf\":\"2026-10-08\",\"source\":\"Frankfurter · central bank reference rates\",\"sourceUrl\":\"https://frankfurter.dev/\",\"fetchedAt\":\"2026-10-09T10:50:14.851Z\",\"status\":\"fresh\",\"note\":\"参考中间汇率；不含银行手续费、刷卡加价与买卖价差。\"}",
+      "updated_at": "2026-10-09T10:50:14.852Z"
     },
     {
       "key": "ichiran-kyoto",
       "value": "{\"items\":[{\"id\":\"kyoto-ichiran-ramen\",\"amount\":1080,\"currency\":\"JPY\"},{\"id\":\"kyoto-ichiran-tea\",\"amount\":280,\"currency\":\"JPY\"}],\"evidence\":\"Branch identity and exact Japanese menu labels matched to a unique listed amount; late-night surcharges excluded.\",\"contentHash\":\"0183b576ab3b76a24afbf9e3a1de920c32d0db3c9f7be7fe2783119442ab560f\",\"cityId\":\"kyoto\",\"scope\":\"Named store individual menu items, not a complete meal or city average; surcharges subject to store conditions\"}",
-      "updated_at": "2026-10-06T11:05:03.800Z"
+      "updated_at": "2026-10-09T10:50:33.811Z"
     },
     {
       "key": "ichiran-shibuya",
-      "value": "{\"items\":[{\"id\":\"tokyo-ichiran-ramen\",\"amount\":1180,\"currency\":\"JPY\"},{\"id\":\"tokyo-ichiran-egg\",\"amount\":160,\"currency\":\"JPY\"}],\"evidence\":\"Branch identity and exact Japanese menu labels matched to a unique listed amount; late-night surcharges excluded.\",\"contentHash\":\"5bc96abb7628d00be955467da264083052a4d6a5fbea6c164fc8a6d4fe3a67cf\",\"cityId\":\"tokyo\",\"scope\":\"Named store individual menu items, not a complete meal or city average; surcharges subject to store conditions\"}",
-      "updated_at": "2026-10-06T11:04:55.045Z"
+      "value": "{\"items\":[{\"id\":\"tokyo-ichiran-ramen\",\"amount\":1180,\"currency\":\"JPY\"},{\"id\":\"tokyo-ichiran-egg\",\"amount\":160,\"currency\":\"JPY\"}],\"evidence\":\"Branch identity and exact Japanese menu labels matched to a unique listed amount; late-night surcharges excluded.\",\"contentHash\":\"40630dde2590ebf8c0ab99f975f87b3a567ab841a09a1324944ce5c2a4084553\",\"cityId\":\"tokyo\",\"scope\":\"Named store individual menu items, not a complete meal or city average; surcharges subject to store conditions\"}",
+      "updated_at": "2026-10-09T10:50:30.129Z"
     },
     {
       "key": "los-angeles-warner-studio",
-      "value": "{\"cityId\":\"los-angeles\",\"experienceId\":\"ex-los-angeles-warner-studio\",\"currency\":\"USD\",\"options\":[{\"optionId\":\"studio\",\"amount\":79,\"low\":79,\"high\":79,\"currency\":\"USD\",\"unit\":\"person\"}],\"evidence\":\"Hollywood/Burbank identity and the standard Studio Tour headline ticket block validated; amount labelled Adult Age 11+ selected, excluding child and comparison-table upgrades.\",\"scope\":\"Public standard adult (age 11+) per-person base ticket. Not a reserved date, Plus upgrade, parking-inclusive quote or child ticket.\",\"contentHash\":\"3597a5e867fda03039fe831b24274deb808bfcc2fe9793cea07448b2900db18d\"}",
-      "updated_at": "2026-10-06T11:04:35.764Z"
+      "value": "{\"cityId\":\"los-angeles\",\"experienceId\":\"ex-los-angeles-warner-studio\",\"currency\":\"USD\",\"options\":[{\"optionId\":\"studio\",\"amount\":79,\"low\":79,\"high\":79,\"currency\":\"USD\",\"unit\":\"person\"}],\"evidence\":\"Hollywood/Burbank identity and the standard Studio Tour headline ticket block validated; amount labelled Adult Age 11+ selected, excluding child and comparison-table upgrades.\",\"scope\":\"Public standard adult (age 11+) per-person base ticket. Not a reserved date, Plus upgrade, parking-inclusive quote or child ticket.\",\"contentHash\":\"e63549e44ecdd1390f0ab0a10c3e4dbb8bddecbac28243eb9f85455b3b8e7f1a\"}",
+      "updated_at": "2026-10-09T10:50:13.772Z"
     },
     {
       "key": "paris-bateaux-mouches",
       "value": "{\"cityId\":\"paris\",\"experienceId\":\"ex-paris-bateaux-mouches\",\"currency\":\"EUR\",\"options\":[{\"optionId\":\"sightseeing\",\"amount\":20,\"low\":20,\"high\":20,\"currency\":\"EUR\",\"unit\":\"person\"},{\"optionId\":\"early-dinner\",\"amount\":90,\"low\":90,\"high\":90,\"currency\":\"EUR\",\"unit\":\"person\"},{\"optionId\":\"prestige\",\"amount\":135,\"low\":135,\"high\":135,\"currency\":\"EUR\",\"unit\":\"person\"}],\"evidence\":\"Adult EUR amounts matched within sightseeing and named 6pm early-bird / Prestige dinner sections. Child, lunch, Discovery and Excellence fares excluded.\",\"scope\":\"Public adult per-person sightseeing and named dinner fares. No departure-date inventory, extras or cancellation terms queried.\",\"contentHash\":\"95d3004d52986673fa41ed97d2f8d2328d3de3e23695604cde05c6257358c60c\"}",
-      "updated_at": "2026-10-08T07:11:42.516Z"
+      "updated_at": "2026-10-09T10:50:10.095Z"
     },
     {
       "key": "tokyo-subway",
       "value": "{\"currency\":\"JPY\",\"prices\":{\"24h\":1000,\"48h\":1500,\"72h\":2000},\"evidence\":\"Adult subway ticket amounts parsed from labelled 24/48/72-hour products.\",\"contentHash\":\"6a73e149d274fcd9d4e558dfba00e85982f8b9f87a54ca675b2ae3a4768b18dd\",\"scope\":\"Tokyo Metro + Toei Subway; visitor eligibility applies; excludes JR and airport services\"}",
-      "updated_at": "2026-10-06T11:04:37.165Z"
+      "updated_at": "2026-10-09T10:50:15.112Z"
     },
     {
       "key": "tokyo-tower",
       "value": "{\"currency\":\"JPY\",\"low\":1500,\"high\":3300,\"products\":[{\"name\":\"MAIN DECK\",\"price\":1500},{\"name\":\"TOP DECK TOUR\",\"price\":3300}],\"evidence\":\"Named adult MAIN DECK and TOP DECK TOUR web products in official JSON-LD verified against visible content.\",\"contentHash\":\"c425b8d0024c530c1bb6ee35acab78d79542b12c65489bdba38035ebbbfb6a05\",\"scope\":\"Adult online base prices; excludes counter supplement and Diamond Tour; availability not checked\"}",
-      "updated_at": "2026-10-06T11:04:43.520Z"
+      "updated_at": "2026-10-09T10:50:20.954Z"
     }
   ],
   "sourceStatus": [
@@ -50,8 +50,8 @@
       "url": "https://uae.heroballoonflights.com/",
       "kind": "official-experience",
       "status": "ok",
-      "attempted_at": "2026-10-08T07:11:44.858Z",
-      "success_at": "2026-10-08T07:11:44.858Z",
+      "attempted_at": "2026-10-09T10:50:11.979Z",
+      "success_at": "2026-10-09T10:50:11.979Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -60,7 +60,7 @@
       "url": "https://www.toureiffel.paris/en/rates-opening-times",
       "kind": "official-price",
       "status": "error",
-      "attempted_at": "2026-10-06T11:04:45.220Z",
+      "attempted_at": "2026-10-09T10:50:22.537Z",
       "success_at": null,
       "message": "Fetch or validation failed; previous snapshot retained"
     },
@@ -70,9 +70,9 @@
       "url": "https://api.frankfurter.dev/v2/rates?base=CNY&quotes=USD,EUR,JPY,GBP,KRW,THB,SGD,AUD,HKD,MOP,AED,IDR,TRY,ISK,MVR,NOK,SEK,DKK,CHF,PLN,CZK,HUF,VND,LAK,KHR,MYR,PHP,TWD,NPR,INR,LKR,NZD,ZAR,MAD,EGP,KES,TZS,SCR,MUR,CAD,MXN,PEN,BRL,ARS,CLP,COP",
       "kind": "exchange-rates",
       "status": "ok",
-      "attempted_at": "2026-10-07T12:42:59.388Z",
-      "success_at": "2026-10-07T12:42:59.388Z",
-      "message": "Complete reference currency set including MOP fetched and validated"
+      "attempted_at": "2026-10-09T10:50:14.852Z",
+      "success_at": "2026-10-09T10:50:14.852Z",
+      "message": "Validated public source; snapshot updated"
     },
     {
       "id": "ichiran-kyoto",
@@ -80,8 +80,8 @@
       "url": "https://ichiran.com/shop/kinki/kyoto-kawaramachi/",
       "kind": "official-menu",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:05:03.800Z",
-      "success_at": "2026-10-06T11:05:03.800Z",
+      "attempted_at": "2026-10-09T10:50:33.811Z",
+      "success_at": "2026-10-09T10:50:33.811Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -90,8 +90,8 @@
       "url": "https://ichiran.com/shop/tokyo/shibuya/",
       "kind": "official-menu",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:55.045Z",
-      "success_at": "2026-10-06T11:04:55.045Z",
+      "attempted_at": "2026-10-09T10:50:30.129Z",
+      "success_at": "2026-10-09T10:50:30.129Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -100,8 +100,8 @@
       "url": "https://www.wbstudiotour.com/tour/studio/",
       "kind": "official-experience",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:35.764Z",
-      "success_at": "2026-10-06T11:04:35.764Z",
+      "attempted_at": "2026-10-09T10:50:13.772Z",
+      "success_at": "2026-10-09T10:50:13.772Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -110,8 +110,8 @@
       "url": "https://www.bateaux-mouches.fr/en/cruise/information",
       "kind": "official-experience",
       "status": "ok",
-      "attempted_at": "2026-10-08T07:11:42.516Z",
-      "success_at": "2026-10-08T07:11:42.516Z",
+      "attempted_at": "2026-10-09T10:50:10.095Z",
+      "success_at": "2026-10-09T10:50:10.095Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -120,8 +120,8 @@
       "url": "https://www.tokyometro.jp/en/ticket/travel/index.html",
       "kind": "official-price",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:37.165Z",
-      "success_at": "2026-10-06T11:04:37.165Z",
+      "attempted_at": "2026-10-09T10:50:15.112Z",
+      "success_at": "2026-10-09T10:50:15.112Z",
       "message": "Validated public source; snapshot updated"
     },
     {
@@ -130,8 +130,8 @@
       "url": "https://ticket.tokyotower.co.jp/en/",
       "kind": "official-price",
       "status": "ok",
-      "attempted_at": "2026-10-06T11:04:43.520Z",
-      "success_at": "2026-10-06T11:04:43.520Z",
+      "attempted_at": "2026-10-09T10:50:20.954Z",
+      "success_at": "2026-10-09T10:50:20.954Z",
       "message": "Validated public source; snapshot updated"
     }
   ]

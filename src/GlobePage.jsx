@@ -12,6 +12,7 @@ import {
   Compass,
   Flag,
   Globe2,
+  Map as MapIcon,
   MapPin,
   Minus,
   Plus,
@@ -41,6 +42,7 @@ import "./globe.css";
 import { DestinationBrowser } from "./DestinationSelect.jsx";
 import { isTravelDestination } from "../shared/airport-catalog.mjs";
 import EarthGlobe from "./EarthGlobe.jsx";
+import CountryExplorer from "./CountryExplorer.jsx";
 import { useLocale } from "./locale.jsx";
 import { compareCities, destinationName, destinationCountryName } from "./destination-utils.mjs";
 
@@ -106,6 +108,7 @@ export default function GlobePage({
     travelCities[0] ||
     cities[0];
   const [mode, setMode] = useState("explore");
+  const [exploreSurface, setExploreSurface] = useState("flat");
   const [selectedId, setSelectedId] = useState(initialCity?.id || "");
   const [rotation, setRotation] = useState(() => rotationForCity(initialCity));
   const [zoom, setZoom] = useState(1);
@@ -114,6 +117,7 @@ export default function GlobePage({
   );
   const [countries, setCountries] = useState([]);
   const [mapError, setMapError] = useState(false);
+  const [mapAttempt, setMapAttempt] = useState(0);
   const initialPassport = useMemo(() => readPassport(cities), []);
   const [passport, setPassport] = useState(initialPassport.data);
   const [passportError, setPassportError] = useState(initialPassport.error);
@@ -169,6 +173,7 @@ export default function GlobePage({
 
   useEffect(() => {
     const controller = new AbortController();
+    setMapError(false);
     fetch(assetUrl("/maps/countries-110m.json"), { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error("map");
@@ -183,7 +188,7 @@ export default function GlobePage({
         if (error.name !== "AbortError") setMapError(true);
       });
     return () => controller.abort();
-  }, []);
+  }, [mapAttempt]);
   useEffect(() => {
     if (activeProjectId) setProjectId(activeProjectId);
   }, [activeProjectId]);
@@ -292,8 +297,8 @@ export default function GlobePage({
           <span className="gl-eyebrow">
             <Globe2 size={15} /> WORLD EXPLORER
           </span>
-          <h1 id="gl-page-title">把下一站，放在地球上。</h1>
-          <p>转动世界，串起想去的地方，也留住已经走过的足迹。</p>
+          <h1 id="gl-page-title">{mode === 'explore' && exploreSurface === 'flat' ? (locale === 'en' ? 'A whole world. Your next stop.' : '世界很大，下一站由你点选。') : '把下一站，放在地球上。'}</h1>
+          <p>{mode === 'explore' && exploreSurface === 'flat' ? (locale === 'en' ? 'Choose a country, discover its cities, and start shaping your journey.' : '点选一个国家，看看有哪些城市值得停留，再把心动的地方加入旅程。') : '转动世界，串起想去的地方，也留住已经走过的足迹。'}</p>
         </div>
         <div className="gl-catalog-stat">
           <strong>{scopeCities.length.toLocaleString("en-US")}</strong>
@@ -318,13 +323,16 @@ export default function GlobePage({
             </button>
           ))}
         </div>
-        <span className="gl-mode-hint">
+        {mode === 'explore' ? <div className="gl-surface-toggle" aria-label={locale === 'en' ? 'Map style' : '地图显示方式'}>
+          <button type="button" aria-pressed={exploreSurface === 'flat'} onClick={() => setExploreSurface('flat')}><MapIcon size={16} />{locale === 'en' ? 'World map' : '平面地图'}</button>
+          <button type="button" aria-pressed={exploreSurface === 'globe'} onClick={() => setExploreSurface('globe')}><Globe2 size={16} />{locale === 'en' ? '3D globe' : '立体地球'}</button>
+        </div> : <span className="gl-mode-hint">
           {mode === "explore"
             ? "让好奇心决定下一站"
             : mode === "routes"
               ? "规划中的连接，尚未成行的期待"
               : "每一个坐标，都属于你的故事"}
-        </span>
+        </span>}
       </div>
       {contextCities.length > 0 && (
         <p className="gl-context-note" role="status">
@@ -333,7 +341,17 @@ export default function GlobePage({
           个资料待补充的机场节点；搜索与城市计数仍按上方范围显示。
         </p>
       )}
-      <div className="gl-workspace">
+      {mode === 'explore' && exploreSurface === 'flat' ? <CountryExplorer
+        cities={travelCities}
+        countries={countries}
+        selectedCountryCode={selected?.countryCode}
+        onSelectCountry={(code) => { const city = travelCities.find(item => item.countryCode === code); if (city) chooseCity(city); }}
+        onOpenCity={onOpenCity}
+        onAddCity={onAddCity}
+        budgetLabel={(city) => budgetLabel(city, currency, rates)}
+        mapError={mapError}
+        onRetry={() => setMapAttempt(value => value + 1)}
+      /> : <div className="gl-workspace">
         <div className="gl-world-column">
           <div
             className="gl-world"
@@ -654,7 +672,7 @@ export default function GlobePage({
             </div>
           )}
         </aside>
-      </div>
+      </div>}
       {mode === "routes" && (
         <div className="gl-panel gl-route-panel">
           <div className="gl-section-heading">
@@ -786,7 +804,7 @@ export default function GlobePage({
           )}
         </div>
       )}
-      {passportError && (
+      {Boolean(passportError) && (
         <p className="gl-error" role="alert">
           {passportError}
         </p>
@@ -795,6 +813,7 @@ export default function GlobePage({
         {status}
       </span>
       <p className="gl-attribution">
+        {mode === 'explore' && exploreSurface === 'flat' ? <>{locale === 'en' ? 'Map: ' : '地图：'}<a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a>{locale === 'en' ? ' · City photo credits are available on destination pages.' : ' · 城市图片署名见目的地主页。'}</> : <>
         地表与云层：
         <a
           href="https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/"
@@ -813,6 +832,7 @@ export default function GlobePage({
         </a>{" "}
         ·
         缩放后显示更多城市；小岛与小型机场以坐标点呈现。城市图片署名见目的地主页。
+        </>}
       </p>
     </main>
   );

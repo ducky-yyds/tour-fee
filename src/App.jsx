@@ -2915,7 +2915,7 @@ export default function App() {
         </div>
         <small>WAYFARER © {new Date().getFullYear()}</small>
       </footer>
-      {toast && (
+      {Boolean(toast) && (
         <div className="toast" role="status">
           <CircleCheck size={17} />
           {toast}

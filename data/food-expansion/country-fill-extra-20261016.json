@@ -1,0 +1,2092 @@
+[
+  {
+    "id": "food-nuuk-soup",
+    "cityIds": [
+      "nuuk"
+    ],
+    "name": "苏阿萨特炖汤",
+    "nameEn": "Suaasat",
+    "localName": "Suaasat",
+    "description": "以肉、洋葱和谷物等慢煮的传统汤，肉类随家庭与店家配方变化。",
+    "article": "Suaasat",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suaasat"
+    },
+    "imageQuery": "Suaasat food",
+    "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "nuuk": [
+        {
+          "name": "努克市中心格陵兰菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nuuk%20%E5%8A%AA%E5%85%8B%E5%B8%82%E4%B8%AD%E5%BF%83%E6%A0%BC%E9%99%B5%E5%85%B0%E8%8F%9C%E9%A4%90%E5%8E%85%20Suaasat",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nuuk-fish",
+    "cityIds": [
+      "nuuk"
+    ],
+    "name": "当季格陵兰鱼排",
+    "nameEn": "Greenlandic fish plate",
+    "localName": "Greenlandic fish plate",
+    "description": "以当地捕获鱼类为主的餐盘，煎烤方式和配菜按当日渔获变化。",
+    "article": "Greenlandic cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Greenlandic_cuisine"
+    },
+    "imageQuery": "Greenlandic fish plate food",
+    "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 20.0,
+      "high": 45.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "nuuk": [
+        {
+          "name": "旧港及市中心餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nuuk%20%E6%97%A7%E6%B8%AF%E5%8F%8A%E5%B8%82%E4%B8%AD%E5%BF%83%E9%A4%90%E5%8E%85%20Greenlandic%20fish%20plate",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nuuk-reindeer",
+    "cityIds": [
+      "nuuk"
+    ],
+    "name": "驯鹿肉料理",
+    "nameEn": "Reindeer steak",
+    "localName": "Reindeer steak",
+    "description": "北极食材在现代餐厅中的一种选择，可先问熟度、来源与供应季节。",
+    "article": "Reindeer meat",
+    "articleScope": "ingredient",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reindeer_meat"
+    },
+    "imageQuery": "Reindeer steak food",
+    "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 30.0,
+      "high": 65.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "nuuk": [
+        {
+          "name": "市中心北欧风味餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nuuk%20%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8C%97%E6%AC%A7%E9%A3%8E%E5%91%B3%E9%A4%90%E5%8E%85%20Reindeer%20steak",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nuuk-muskox",
+    "cityIds": [
+      "nuuk"
+    ],
+    "name": "麝牛肉汉堡",
+    "nameEn": "Musk ox burger",
+    "localName": "Musk ox burger",
+    "description": "用麝牛肉替代常规牛肉的汉堡并非每店都有，点单时确认实际肉类。",
+    "article": "Greenlandic cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Greenlandic_cuisine"
+    },
+    "imageQuery": "Musk ox burger food",
+    "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 22.0,
+      "high": 38.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "nuuk": [
+        {
+          "name": "努克市中心咖啡餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nuuk%20%E5%8A%AA%E5%85%8B%E5%B8%82%E4%B8%AD%E5%BF%83%E5%92%96%E5%95%A1%E9%A4%90%E5%8E%85%20Musk%20ox%20burger",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nuuk-shrimp",
+    "cityIds": [
+      "nuuk"
+    ],
+    "name": "格陵兰虾开放三明治",
+    "nameEn": "Greenland shrimp smorrebrod",
+    "localName": "Greenland shrimp smorrebrod",
+    "description": "虾与面包组成轻食，适合在博物馆和港湾参观间安排午餐。",
+    "article": "Smørrebrød",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sm%C3%B8rrebr%C3%B8d"
+    },
+    "imageQuery": "Greenland shrimp smorrebrod food",
+    "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 25.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://visitgreenland.com/activities/greenlandic-gastronomy-a-taste-of-greenland/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "nuuk": [
+        {
+          "name": "市中心咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nuuk%20%E5%B8%82%E4%B8%AD%E5%BF%83%E5%92%96%E5%95%A1%E9%A6%86%20Greenland%20shrimp%20smorrebrod",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-moresby-mumu",
+    "cityIds": [
+      "port-moresby"
+    ],
+    "name": "木木地炉料理",
+    "nameEn": "Mumu",
+    "localName": "Mumu",
+    "description": "用热石慢熟肉类与根茎，是聚餐烹饪方式，需找明确提供该餐的活动或餐厅。",
+    "article": "Mumu (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mumu_%28food%29"
+    },
+    "imageQuery": "Mumu food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "port-moresby": [
+        {
+          "name": "提供巴新菜的酒店餐厅与预约文化餐",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Moresby%20%E6%8F%90%E4%BE%9B%E5%B7%B4%E6%96%B0%E8%8F%9C%E7%9A%84%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%E4%B8%8E%E9%A2%84%E7%BA%A6%E6%96%87%E5%8C%96%E9%A4%90%20Mumu",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-moresby-sago",
+    "cityIds": [
+      "port-moresby"
+    ],
+    "name": "西米饼",
+    "nameEn": "Sago pancake",
+    "localName": "Sago pancake",
+    "description": "以西米加工的饼食反映区域主食传统，口感和搭配随做法变化。",
+    "article": "Sago",
+    "articleScope": "ingredient",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sago"
+    },
+    "imageQuery": "Sago pancake food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "port-moresby": [
+        {
+          "name": "地方菜餐厅和市场熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Moresby%20%E5%9C%B0%E6%96%B9%E8%8F%9C%E9%A4%90%E5%8E%85%E5%92%8C%E5%B8%82%E5%9C%BA%E7%86%9F%E9%A3%9F%E6%91%8A%20Sago%20pancake",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-moresby-greens",
+    "cityIds": [
+      "port-moresby"
+    ],
+    "name": "椰奶绿叶菜",
+    "nameEn": "Aibika in coconut milk",
+    "localName": "Aibika in coconut milk",
+    "description": "用当地叶菜和椰奶烹煮，适合搭配根茎或米饭。",
+    "article": "Abelmoschus manihot",
+    "articleScope": "ingredient",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Abelmoschus_manihot"
+    },
+    "imageQuery": "Aibika in coconut milk food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "port-moresby": [
+        {
+          "name": "地方菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Moresby%20%E5%9C%B0%E6%96%B9%E8%8F%9C%E9%A4%90%E5%8E%85%20Aibika%20in%20coconut%20milk",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-moresby-taro",
+    "cityIds": [
+      "port-moresby"
+    ],
+    "name": "蒸芋头与甘薯",
+    "nameEn": "Taro and kaukau",
+    "localName": "Taro and kaukau",
+    "description": "根茎食物在日常餐桌中常见，可作为主食或烤肉配菜。",
+    "article": "Sweet potato",
+    "articleScope": "ingredient",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sweet_potato"
+    },
+    "imageQuery": "Taro and kaukau food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "port-moresby": [
+        {
+          "name": "市场熟食与本地餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Moresby%20%E5%B8%82%E5%9C%BA%E7%86%9F%E9%A3%9F%E4%B8%8E%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%20Taro%20and%20kaukau",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-moresby-fish",
+    "cityIds": [
+      "port-moresby"
+    ],
+    "name": "沿海烤鱼",
+    "nameEn": "Grilled coastal fish",
+    "localName": "Grilled coastal fish",
+    "description": "按当日渔获选择熟制鱼类，配椰奶蔬菜或根茎更接近当地家常搭配。",
+    "article": "Grilled fish",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grilled_fish"
+    },
+    "imageQuery": "Grilled coastal fish food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 30.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinean_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "port-moresby": [
+        {
+          "name": "海滨及酒店餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Moresby%20%E6%B5%B7%E6%BB%A8%E5%8F%8A%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%20Grilled%20coastal%20fish",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-granada-nicaragua-vigoron",
+    "cityIds": [
+      "granada-nicaragua"
+    ],
+    "name": "木薯猪皮沙拉",
+    "nameEn": "Vigoron",
+    "localName": "Vigoron",
+    "description": "熟木薯、脆猪皮与卷心菜组合，是格拉纳达常见地方小吃。",
+    "article": "Vigorón",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vigor%C3%B3n"
+    },
+    "imageQuery": "Vigoron food",
+    "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "granada-nicaragua": [
+        {
+          "name": "中央公园周边",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Granada%2C%20Nicaragua%20%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9B%AD%E5%91%A8%E8%BE%B9%20Vigoron",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-granada-nicaragua-gallo-pinto",
+    "cityIds": [
+      "granada-nicaragua"
+    ],
+    "name": "米豆饭",
+    "nameEn": "Gallo pinto",
+    "localName": "Gallo pinto",
+    "description": "米饭与豆类混炒，常作为早餐或配菜。",
+    "article": "Gallo pinto",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gallo_pinto"
+    },
+    "imageQuery": "Gallo pinto food",
+    "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "granada-nicaragua": [
+        {
+          "name": "中央公园及本地早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Granada%2C%20Nicaragua%20%E4%B8%AD%E5%A4%AE%E5%85%AC%E5%9B%AD%E5%8F%8A%E6%9C%AC%E5%9C%B0%E6%97%A9%E9%A4%90%E5%BA%97%20Gallo%20pinto",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-granada-nicaragua-nacatamal",
+    "cityIds": [
+      "granada-nicaragua"
+    ],
+    "name": "尼加拉瓜大粽",
+    "nameEn": "Nacatamal",
+    "localName": "Nacatamal",
+    "description": "玉米面包裹肉与配料后蒸熟，份量较大，常见于周末家庭餐。",
+    "article": "Nacatamal",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nacatamal"
+    },
+    "imageQuery": "Nacatamal food",
+    "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 9.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "granada-nicaragua": [
+        {
+          "name": "老城本地餐厅与周末熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Granada%2C%20Nicaragua%20%E8%80%81%E5%9F%8E%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%E4%B8%8E%E5%91%A8%E6%9C%AB%E7%86%9F%E9%A3%9F%E6%91%8A%20Nacatamal",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-granada-nicaragua-baho",
+    "cityIds": [
+      "granada-nicaragua"
+    ],
+    "name": "蕉叶蒸肉",
+    "nameEn": "Baho",
+    "localName": "Baho",
+    "description": "肉、木薯与大蕉慢蒸，适合分食并搭配清爽蔬菜。",
+    "article": "Vaho",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vaho"
+    },
+    "imageQuery": "Baho food",
+    "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 12.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "granada-nicaragua": [
+        {
+          "name": "本地午餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Granada%2C%20Nicaragua%20%E6%9C%AC%E5%9C%B0%E5%8D%88%E9%A4%90%E5%BA%97%20Baho",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-granada-nicaragua-quesillo",
+    "cityIds": [
+      "granada-nicaragua"
+    ],
+    "name": "奶酪玉米饼",
+    "nameEn": "Quesillo nicaraguense",
+    "localName": "Quesillo nicaraguense",
+    "description": "软奶酪、玉米饼与洋葱等组成的小食，不同地区做法有差别。",
+    "article": "Quesillo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Quesillo"
+    },
+    "imageQuery": "Quesillo nicaraguense food",
+    "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 5.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.visitanicaragua.com/en/atractivos/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "granada-nicaragua": [
+        {
+          "name": "老城小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Granada%2C%20Nicaragua%20%E8%80%81%E5%9F%8E%E5%B0%8F%E5%90%83%E5%BA%97%20Quesillo%20nicaraguense",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-havana-ropa",
+    "cityIds": [
+      "havana"
+    ],
+    "name": "撕牛肉炖菜",
+    "nameEn": "Ropa vieja",
+    "localName": "Ropa vieja",
+    "description": "慢炖撕肉配番茄、甜椒等，常与米饭和豆类同吃。",
+    "article": "Ropa vieja",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ropa_vieja"
+    },
+    "imageQuery": "Ropa vieja food",
+    "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 22.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "havana": [
+        {
+          "name": "老城与维达多的paladar",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Havana%20%E8%80%81%E5%9F%8E%E4%B8%8E%E7%BB%B4%E8%BE%BE%E5%A4%9A%E7%9A%84paladar%20Ropa%20vieja",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-havana-moros",
+    "cityIds": [
+      "havana"
+    ],
+    "name": "黑豆米饭",
+    "nameEn": "Moros y cristianos",
+    "localName": "Moros y cristianos",
+    "description": "黑豆与米饭同煮，可作为主食或烤肉配菜。",
+    "article": "Moros y Cristianos (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moros_y_Cristianos_%28food%29"
+    },
+    "imageQuery": "Moros y cristianos food",
+    "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "havana": [
+        {
+          "name": "本地餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Havana%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%20Moros%20y%20cristianos",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-havana-yuca",
+    "cityIds": [
+      "havana"
+    ],
+    "name": "蒜香木薯",
+    "nameEn": "Yuca con mojo",
+    "localName": "Yuca con mojo",
+    "description": "木薯配蒜与柑橘风味酱，口感与土豆不同。",
+    "article": "Yuca con mojo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yuca_con_mojo"
+    },
+    "imageQuery": "Yuca con mojo food",
+    "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 9.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "havana": [
+        {
+          "name": "古巴菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Havana%20%E5%8F%A4%E5%B7%B4%E8%8F%9C%E9%A4%90%E5%8E%85%20Yuca%20con%20mojo",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-havana-tostones",
+    "cityIds": [
+      "havana"
+    ],
+    "name": "炸青大蕉",
+    "nameEn": "Tostones",
+    "localName": "Tostones",
+    "description": "压扁后再次炸制的大蕉片，适合分食，蘸酱依店家变化。",
+    "article": "Tostones",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tostones"
+    },
+    "imageQuery": "Tostones food",
+    "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "havana": [
+        {
+          "name": "老城小餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Havana%20%E8%80%81%E5%9F%8E%E5%B0%8F%E9%A4%90%E5%8E%85%20Tostones",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-havana-flan",
+    "cityIds": [
+      "havana"
+    ],
+    "name": "焦糖布丁",
+    "nameEn": "Flan cubano",
+    "localName": "Flan cubano",
+    "description": "古巴家庭和餐厅常见甜点，甜度较高，可与咖啡分食。",
+    "article": "Crème caramel",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cr%C3%A8me_caramel"
+    },
+    "imageQuery": "Flan cubano food",
+    "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba/restaurants-in-havana",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "havana": [
+        {
+          "name": "咖啡馆与餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Havana%20%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E9%A4%90%E5%8E%85%20Flan%20cubano",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-roatan-baleada",
+    "cityIds": [
+      "roatan"
+    ],
+    "name": "豆泥折叠面饼",
+    "nameEn": "Baleada",
+    "localName": "Baleada",
+    "description": "软面饼里加入豆泥、奶酪等，是洪都拉斯常见实惠餐食。",
+    "article": "Baleada",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Baleada"
+    },
+    "imageQuery": "Baleada food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "roatan": [
+        {
+          "name": "西端村本地早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roatan%20%E8%A5%BF%E7%AB%AF%E6%9D%91%E6%9C%AC%E5%9C%B0%E6%97%A9%E9%A4%90%E5%BA%97%20Baleada",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-roatan-machuca",
+    "cityIds": [
+      "roatan"
+    ],
+    "name": "马丘卡鱼汤",
+    "nameEn": "Machuca",
+    "localName": "Machuca",
+    "description": "捣制大蕉配鱼汤体现加里富纳餐桌传统，按店家确认鱼种与椰奶配方。",
+    "article": "Machuca (dish)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Machuca_%28dish%29"
+    },
+    "imageQuery": "Machuca food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 22.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "roatan": [
+        {
+          "name": "蓬塔戈尔达社区餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roatan%20%E8%93%AC%E5%A1%94%E6%88%88%E5%B0%94%E8%BE%BE%E7%A4%BE%E5%8C%BA%E9%A4%90%E5%8E%85%20Machuca",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-roatan-rice-beans",
+    "cityIds": [
+      "roatan"
+    ],
+    "name": "椰香红豆饭",
+    "nameEn": "Coconut rice and beans",
+    "localName": "Coconut rice and beans",
+    "description": "岛屿餐桌常见配菜，椰奶与豆类搭配鱼肉。",
+    "article": "Rice and beans",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rice_and_beans"
+    },
+    "imageQuery": "Coconut rice and beans food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 12.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "roatan": [
+        {
+          "name": "西端与海岸本地餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roatan%20%E8%A5%BF%E7%AB%AF%E4%B8%8E%E6%B5%B7%E5%B2%B8%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%20Coconut%20rice%20and%20beans",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-roatan-fish",
+    "cityIds": [
+      "roatan"
+    ],
+    "name": "加勒比烤鱼",
+    "nameEn": "Caribbean grilled fish",
+    "localName": "Caribbean grilled fish",
+    "description": "按当日渔获选熟鱼料理，确认重量、配菜与整鱼计价方式。",
+    "article": "Grilled fish",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grilled_fish"
+    },
+    "imageQuery": "Caribbean grilled fish food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 28.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "roatan": [
+        {
+          "name": "西端海滨餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roatan%20%E8%A5%BF%E7%AB%AF%E6%B5%B7%E6%BB%A8%E9%A4%90%E5%8E%85%20Caribbean%20grilled%20fish",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-roatan-coconut-bread",
+    "cityIds": [
+      "roatan"
+    ],
+    "name": "椰子面包",
+    "nameEn": "Pan de coco",
+    "localName": "Pan de coco",
+    "description": "带椰香的面包适合早餐或海边小食，配咖啡另计。",
+    "article": "Pan de coco (Honduran cuisine)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pan_de_coco_%28Honduran_cuisine%29"
+    },
+    "imageQuery": "Pan de coco food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 5.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduran_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "roatan": [
+        {
+          "name": "岛上面包店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roatan%20%E5%B2%9B%E4%B8%8A%E9%9D%A2%E5%8C%85%E5%BA%97%20Pan%20de%20coco",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antigua-guatemala-pepian",
+    "cityIds": [
+      "antigua-guatemala"
+    ],
+    "name": "佩皮安炖菜",
+    "nameEn": "Pepian",
+    "localName": "Pepian",
+    "description": "用焙烤香料、种子和蔬菜调味的浓汁炖菜，肉类按店家配方变化。",
+    "article": "Pepián",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pepi%C3%A1n"
+    },
+    "imageQuery": "Pepian food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 16.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "antigua-guatemala": [
+        {
+          "name": "老城本地午餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antigua%20Guatemala%20%E8%80%81%E5%9F%8E%E6%9C%AC%E5%9C%B0%E5%8D%88%E9%A4%90%E5%BA%97%20Pepian",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antigua-guatemala-jocon",
+    "cityIds": [
+      "antigua-guatemala"
+    ],
+    "name": "绿酱鸡",
+    "nameEn": "Jocon",
+    "localName": "Jocon",
+    "description": "以绿色蔬菜与香草组成的酱汁配鸡肉，常与米饭或玉米饼同吃。",
+    "article": "Jocón",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Joc%C3%B3n"
+    },
+    "imageQuery": "Jocon food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 16.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "antigua-guatemala": [
+        {
+          "name": "传统危地马拉菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antigua%20Guatemala%20%E4%BC%A0%E7%BB%9F%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89%E8%8F%9C%E9%A4%90%E5%8E%85%20Jocon",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antigua-guatemala-tamales",
+    "cityIds": [
+      "antigua-guatemala"
+    ],
+    "name": "蕉叶玉米粽",
+    "nameEn": "Guatemalan tamales",
+    "localName": "Guatemalan tamales",
+    "description": "蒸制玉米面加肉或其他馅料，叶包形式与口味有地区差别。",
+    "article": "Tamal",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tamal"
+    },
+    "imageQuery": "Guatemalan tamales food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "antigua-guatemala": [
+        {
+          "name": "中央市场熟食摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antigua%20Guatemala%20%E4%B8%AD%E5%A4%AE%E5%B8%82%E5%9C%BA%E7%86%9F%E9%A3%9F%E6%91%8A%20Guatemalan%20tamales",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antigua-guatemala-rellenitos",
+    "cityIds": [
+      "antigua-guatemala"
+    ],
+    "name": "豆沙大蕉球",
+    "nameEn": "Rellenitos de platano",
+    "localName": "Rellenitos de platano",
+    "description": "甜大蕉包豆馅后煎炸的小食，适合与同伴分食。",
+    "article": "Rellenitos de plátano",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rellenitos_de_pl%C3%A1tano"
+    },
+    "imageQuery": "Rellenitos de platano food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 5.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "antigua-guatemala": [
+        {
+          "name": "市场和传统甜点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antigua%20Guatemala%20%E5%B8%82%E5%9C%BA%E5%92%8C%E4%BC%A0%E7%BB%9F%E7%94%9C%E7%82%B9%E5%BA%97%20Rellenitos%20de%20platano",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antigua-guatemala-atol",
+    "cityIds": [
+      "antigua-guatemala"
+    ],
+    "name": "甜玉米热饮",
+    "nameEn": "Atol de elote",
+    "localName": "Atol de elote",
+    "description": "用嫩玉米制成的浓热饮，甜度和香料因摊位而异。",
+    "article": "Atol de elote",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atol_de_elote"
+    },
+    "imageQuery": "Atol de elote food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 4.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guatemalan_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "antigua-guatemala": [
+        {
+          "name": "市场早餐摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antigua%20Guatemala%20%E5%B8%82%E5%9C%BA%E6%97%A9%E9%A4%90%E6%91%8A%20Atol%20de%20elote",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-monrovia-cassava-leaf",
+    "cityIds": [
+      "monrovia"
+    ],
+    "name": "木薯叶炖菜",
+    "nameEn": "Cassava leaf stew",
+    "localName": "Cassava leaf stew",
+    "description": "充分熟制的木薯叶与肉、鱼或油脂同炖，通常配米饭。",
+    "article": "Cassava leaf soup",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cassava_leaf_soup"
+    },
+    "imageQuery": "Cassava leaf stew food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 15.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "monrovia": [
+        {
+          "name": "市中心利比里亚菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monrovia%20%E5%B8%82%E4%B8%AD%E5%BF%83%E5%88%A9%E6%AF%94%E9%87%8C%E4%BA%9A%E8%8F%9C%E9%A4%90%E5%8E%85%20Cassava%20leaf%20stew",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-monrovia-palm-butter",
+    "cityIds": [
+      "monrovia"
+    ],
+    "name": "棕榈汁炖菜",
+    "nameEn": "Palm butter",
+    "localName": "Palm butter",
+    "description": "用棕榈果汁形成浓郁汤汁，肉或鱼的搭配依餐厅变化。",
+    "article": "Palm nut soup",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Palm_nut_soup"
+    },
+    "imageQuery": "Palm butter food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 17.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "monrovia": [
+        {
+          "name": "本地午餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monrovia%20%E6%9C%AC%E5%9C%B0%E5%8D%88%E9%A4%90%E5%BA%97%20Palm%20butter",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-monrovia-jollof",
+    "cityIds": [
+      "monrovia"
+    ],
+    "name": "西非番茄米饭",
+    "nameEn": "Liberian jollof rice",
+    "localName": "Liberian jollof rice",
+    "description": "利比里亚家庭式番茄米饭有自己的配料习惯，与烤肉或蔬菜组合。",
+    "article": "Jollof rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jollof_rice"
+    },
+    "imageQuery": "Liberian jollof rice food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 15.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "monrovia": [
+        {
+          "name": "本地餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monrovia%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%20Liberian%20jollof%20rice",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-monrovia-torborgee",
+    "cityIds": [
+      "monrovia"
+    ],
+    "name": "托博吉炖豆",
+    "nameEn": "Torborgee",
+    "localName": "Torborgee",
+    "description": "以豆类和特色调味烹制的利比里亚菜，味道较浓，适合先点小份。",
+    "article": "Torborgee",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Torborgee"
+    },
+    "imageQuery": "Torborgee food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 15.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "monrovia": [
+        {
+          "name": "提供地方菜的餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monrovia%20%E6%8F%90%E4%BE%9B%E5%9C%B0%E6%96%B9%E8%8F%9C%E7%9A%84%E9%A4%90%E5%8E%85%20Torborgee",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-monrovia-dry-rice",
+    "cityIds": [
+      "monrovia"
+    ],
+    "name": "干米饭配鱼",
+    "nameEn": "Liberian dry rice",
+    "localName": "Liberian dry rice",
+    "description": "以米饭配熏鱼、酱汁或调味，是当地日常餐食的一种形式。",
+    "article": "Liberian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine"
+    },
+    "imageQuery": "Liberian dry rice food",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 12.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_cuisine",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "monrovia": [
+        {
+          "name": "市区本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Monrovia%20%E5%B8%82%E5%8C%BA%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Liberian%20dry%20rice",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-santo-domingo-mangu",
+    "cityIds": [
+      "santo-domingo"
+    ],
+    "name": "青大蕉泥早餐",
+    "nameEn": "Mangu",
+    "localName": "Mangu",
+    "description": "煮熟青大蕉捣泥，常配鸡蛋、奶酪等；组合内容与价格按菜单选择。",
+    "article": "Mangú",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mang%C3%BA"
+    },
+    "imageQuery": "Mangu food",
+    "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "mirex.gob.do",
+        "url": "https://mirex.gob.do/cultura/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 12.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "santo-domingo": [
+        {
+          "name": "殖民城早餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Santo%20Domingo%20%E6%AE%96%E6%B0%91%E5%9F%8E%E6%97%A9%E9%A4%90%E5%BA%97%20Mangu",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-santo-domingo-sancocho",
+    "cityIds": [
+      "santo-domingo"
+    ],
+    "name": "桑科乔炖汤",
+    "nameEn": "Dominican sancocho",
+    "localName": "Dominican sancocho",
+    "description": "肉、根茎和蔬菜组成的浓汤，实际肉类种数不固定。",
+    "article": "Sancocho",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sancocho"
+    },
+    "imageQuery": "Dominican sancocho food",
+    "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "mirex.gob.do",
+        "url": "https://mirex.gob.do/cultura/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 18.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "santo-domingo": [
+        {
+          "name": "多米尼加菜餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Santo%20Domingo%20%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%8A%A0%E8%8F%9C%E9%A4%90%E5%8E%85%20Dominican%20sancocho",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-santo-domingo-bandera",
+    "cityIds": [
+      "santo-domingo"
+    ],
+    "name": "多米尼加家常套餐",
+    "nameEn": "La bandera dominicana",
+    "localName": "La bandera dominicana",
+    "description": "米饭、豆类和肉菜构成的日常午餐组合，适合对比不同餐馆的配菜。",
+    "article": "Dominican Republic cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dominican_Republic_cuisine"
+    },
+    "imageQuery": "La bandera dominicana food",
+    "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "mirex.gob.do",
+        "url": "https://mirex.gob.do/cultura/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 15.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "santo-domingo": [
+        {
+          "name": "本地午餐店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Santo%20Domingo%20%E6%9C%AC%E5%9C%B0%E5%8D%88%E9%A4%90%E5%BA%97%20La%20bandera%20dominicana",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-santo-domingo-tostones",
+    "cityIds": [
+      "santo-domingo"
+    ],
+    "name": "炸青大蕉",
+    "nameEn": "Tostones",
+    "localName": "Tostones",
+    "description": "双炸大蕉片适合分食，作为配菜时不用再点多份主食。",
+    "article": "Tostones",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tostones"
+    },
+    "imageQuery": "Tostones food",
+    "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "mirex.gob.do",
+        "url": "https://mirex.gob.do/cultura/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "santo-domingo": [
+        {
+          "name": "本地餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Santo%20Domingo%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E5%8E%85%20Tostones",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-santo-domingo-habichuelas",
+    "cityIds": [
+      "santo-domingo"
+    ],
+    "name": "甜奶红豆羹",
+    "nameEn": "Habichuelas con dulce",
+    "localName": "Habichuelas con dulce",
+    "description": "豆类、奶与香料制成的甜品，尤其与复活节时期饮食相关。",
+    "article": "Habichuelas con dulce",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Habichuelas_con_dulce"
+    },
+    "imageQuery": "Habichuelas con dulce food",
+    "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+    "sourceReferences": [
+      {
+        "name": "mirex.gob.do",
+        "url": "https://mirex.gob.do/cultura/gastronomia/",
+        "scope": "区域饮食文化参考，不表示每间餐馆都供应或已核验菜单价格",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "sourceCheckedAt": "2026-10-16",
+    "sourceStatus": "reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 7.0,
+      "currency": "USD",
+      "unit": "serving",
+      "type": "estimate",
+      "checkedAt": null,
+      "sourceUrl": "https://mirex.gob.do/cultura/gastronomia/",
+      "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+    },
+    "servingNote": "按一份预留，作为当日餐饮选择，不与基础餐饮预算重复累加。",
+    "whereByCity": {
+      "santo-domingo": [
+        {
+          "name": "传统甜品店和季节摊点",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Santo%20Domingo%20%E4%BC%A0%E7%BB%9F%E7%94%9C%E5%93%81%E5%BA%97%E5%92%8C%E5%AD%A3%E8%8A%82%E6%91%8A%E7%82%B9%20Habichuelas%20con%20dulce",
+          "note": "寻味区域或经营者检索入口；具体菜单以当日供应为准。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  }
+]

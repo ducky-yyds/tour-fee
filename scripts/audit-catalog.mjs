@@ -136,8 +136,10 @@ function registerId(entity, label) {
   for (const reference of entity.sourceReferences) {
     try {
       const url = new URL(reference.url);
+      const readOnDate = /^\d{4}-\d{2}-\d{2}$/.test(reference.checkedAt || '');
+      const unverifiedLink = reference.verificationStatus === 'unverified' && reference.checkedAt == null;
       if (!['https:', 'http:'].includes(url.protocol) || !reference.name || !reference.kind || !reference.scope
-          || !/^\d{4}-\d{2}-\d{2}$/.test(reference.checkedAt || '')) throw new Error('Incomplete reference');
+          || (!readOnDate && !unverifiedLink)) throw new Error('Incomplete reference');
       const host = url.hostname.replace(/^www\./, '');
       hosts.add(host); editorialHosts.add(host); editorialLinks.add(url.href);
     } catch { problems.push(`Invalid editorial reference: ${entity.id}/${reference?.url || '(missing URL)'}`); }
@@ -301,7 +303,7 @@ const report = {
   experienceCoverage, experienceDepthCoverage, destinationDepthCoverage, foodCoverage, placeLibraryCoverage,
   editorialSourceCoverage: { ...editorialSourceCoverage, uniqueLinks: editorialLinks.size,
     hosts: [...editorialHosts].sort(),
-    note: 'Stored reading references and distinct hostnames; this validates metadata only, not live availability, independent ownership or current prices.' },
+    note: 'Stored references and distinct hostnames; explicitly unverified links have no checkedAt date. This validates metadata only, not live availability, independent ownership or current prices.' },
   mediaCountingNotes: [
     'Counts describe entity cards, not unique downloaded files; one illustration or reference photograph can serve multiple cards.',
     'Manifest coverage only uses the entry under the entity ID. Runtime coverage uses the same cardImage resolution as the catalog, including inline images, nearby references and illustrations.',

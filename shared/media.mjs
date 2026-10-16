@@ -23,6 +23,7 @@ export function illustrationFor(entity, kind = 'place') {
 
 export function cardImage(entity, media, kind = 'place') {
   const image = media?.attractions?.[entity.id];
+  const missingPhotograph = { scope: 'unavailable', alt: entity.name, contextNote: '对应实景照片待补充；可从详情中的来源查看地点或商户资料。' };
   if (entity.imagePolicy === 'exact-only') {
     if (image?.scope === 'exact-place' && image?.subjectMatched) return image;
     return { scope: 'unavailable', alt: entity.name, contextNote: '实景照片待补充；可在下方来源中查看场馆资料。' };
@@ -31,7 +32,7 @@ export function cardImage(entity, media, kind = 'place') {
     if (image?.scope === 'exact-place' && image?.subjectMatched) return image;
     return illustrationFor(entity, kind);
   }
-  if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return illustrationFor(entity, kind);
+  if (kind === 'food' && entity.photoStatus === 'needs-food-photo' && !entity.photoFile && image?.scope !== 'illustration' && !image?.subjectMatched) return entity.imagePolicy === 'photograph-only' ? missingPhotograph : illustrationFor(entity, kind);
   if (image?.url && image.scope !== 'illustration') return image;
   if (entity.image?.url && entity.image.scope !== 'illustration') return entity.image;
   if (entity.imageRef && media?.attractions?.[entity.imageRef]?.url) {
@@ -40,6 +41,7 @@ export function cardImage(entity, media, kind = 'place') {
       return { ...referenced, scope: 'nearby', contextNote: entity.imageContextNote || '与本项目相关的地点实景，非房间、套餐或供应商设施的实拍承诺。' };
     }
   }
+  if (entity.imagePolicy === 'photograph-only') return missingPhotograph;
   if (image?.url) return image;
   if (entity.image?.url) return entity.image;
   return illustrationFor(entity, kind);

@@ -1,0 +1,5617 @@
+[
+  {
+    "id": "food-port-sudan-ful-medames",
+    "cityIds": [
+      "port-sudan"
+    ],
+    "name": "苏丹蚕豆泥",
+    "nameEn": "Ful medames",
+    "localName": "Ful medames",
+    "description": "炖软蚕豆配油、调味与面包，是可按一份早餐预算的日常食物。",
+    "article": "Ful medames",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ful_medames",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "port-sudan": [
+        {
+          "name": "市区早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Sudan%20%E5%B8%82%E5%8C%BA%E6%97%A9%E9%A4%90%E9%93%BA%20Ful%20medames",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-sudan-kisra",
+    "cityIds": [
+      "port-sudan"
+    ],
+    "name": "基斯拉薄饼",
+    "nameEn": "Kisra",
+    "localName": "Kisra",
+    "description": "用高粱等谷物发酵成薄饼，通常搭配炖菜食用，份量随餐馆组合变化。",
+    "article": "Kisra",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kisra"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kisra",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kisra",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kisra",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "port-sudan": [
+        {
+          "name": "苏丹家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Sudan%20%E8%8B%8F%E4%B8%B9%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Kisra",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-sudan-asida",
+    "cityIds": [
+      "port-sudan"
+    ],
+    "name": "阿西达谷物团",
+    "nameEn": "Asida",
+    "localName": "Asida",
+    "description": "谷物粉煮成较稠的主食，搭配咸味酱汁或炖菜，询问当天做法。",
+    "article": "Asida",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asida"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Asida",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Asida",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asida",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "port-sudan": [
+        {
+          "name": "苏丹家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Sudan%20%E8%8B%8F%E4%B8%B9%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Asida",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-sudan-agashe",
+    "cityIds": [
+      "port-sudan"
+    ],
+    "name": "苏丹烤肉",
+    "nameEn": "Agashe",
+    "localName": "Agashe",
+    "description": "花生与香料调味的烤肉传统，点餐时确认肉类、辣度与配菜。",
+    "article": "Agashe",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Agashe"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Agashe",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Agashe",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Agashe",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "port-sudan": [
+        {
+          "name": "市区烧烤餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Sudan%20%E5%B8%82%E5%8C%BA%E7%83%A7%E7%83%A4%E9%A4%90%E9%A6%86%20Agashe",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-port-sudan-karkade",
+    "cityIds": [
+      "port-sudan"
+    ],
+    "name": "洛神花茶",
+    "nameEn": "Karkade",
+    "localName": "Karkade",
+    "description": "洛神花泡成酸甜饮品，可冷饮或热饮，糖量能够另行调整。",
+    "article": "Hibiscus tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "port-sudan": [
+        {
+          "name": "茶铺与酒店餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Sudan%20%E8%8C%B6%E9%93%BA%E4%B8%8E%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%20Karkade",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-addis-ababa-injera",
+    "cityIds": [
+      "addis-ababa"
+    ],
+    "name": "英吉拉酸面饼",
+    "nameEn": "Injera",
+    "localName": "Injera",
+    "description": "发酵面糊做成多孔酸面饼，常作为炖菜拼盘的底与取食工具。",
+    "article": "Injera",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Injera"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Injera",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Injera",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Injera",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "addis-ababa": [
+        {
+          "name": "Bole与Piazza埃塞餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addis%20Ababa%20Bole%E4%B8%8EPiazza%E5%9F%83%E5%A1%9E%E9%A4%90%E9%A6%86%20Injera",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-addis-ababa-doro-wat",
+    "cityIds": [
+      "addis-ababa"
+    ],
+    "name": "多罗瓦特鸡肉炖菜",
+    "nameEn": "Doro wat",
+    "localName": "Doro wat",
+    "description": "洋葱、香料与鸡肉慢炖，常配鸡蛋和英吉拉，辣度可先询问。",
+    "article": "Doro wat",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Doro_wat"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Doro_wat",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Doro_wat",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Doro_wat",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "addis-ababa": [
+        {
+          "name": "传统埃塞俄比亚餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addis%20Ababa%20%E4%BC%A0%E7%BB%9F%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E9%A4%90%E9%A6%86%20Doro%20wat",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-addis-ababa-shiro",
+    "cityIds": [
+      "addis-ababa"
+    ],
+    "name": "希罗豆粉炖菜",
+    "nameEn": "Shiro",
+    "localName": "Shiro",
+    "description": "鹰嘴豆或豆类粉煮成浓稠酱汁，是常见的植物性餐食选择。",
+    "article": "Shiro (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "addis-ababa": [
+        {
+          "name": "素食与斋期菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addis%20Ababa%20%E7%B4%A0%E9%A3%9F%E4%B8%8E%E6%96%8B%E6%9C%9F%E8%8F%9C%E9%A4%90%E9%A6%86%20Shiro",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-addis-ababa-tibs",
+    "cityIds": [
+      "addis-ababa"
+    ],
+    "name": "提布斯炒肉",
+    "nameEn": "Tibs",
+    "localName": "Tibs",
+    "description": "肉块与洋葱等食材快炒，有不同辣度与油脂比例，点单时确认肉种。",
+    "article": "Ethiopian cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ethiopian_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ethiopian_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ethiopian_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ethiopian_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "addis-ababa": [
+        {
+          "name": "Bole传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addis%20Ababa%20Bole%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20Tibs",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-addis-ababa-buna",
+    "cityIds": [
+      "addis-ababa"
+    ],
+    "name": "埃塞咖啡",
+    "nameEn": "Buna",
+    "localName": "Buna",
+    "description": "浓香的小杯咖啡适合搭配短暂停留，完整咖啡仪式另需安排时长。",
+    "article": "Coffee ceremony",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_ceremony",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_ceremony",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Coffee_ceremony",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_ceremony",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "addis-ababa": [
+        {
+          "name": "Piazza咖啡店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Addis%20Ababa%20Piazza%E5%92%96%E5%95%A1%E5%BA%97%20Buna",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-windhoek-kapana",
+    "cityIds": [
+      "windhoek"
+    ],
+    "name": "卡帕纳烤肉",
+    "nameEn": "Kapana",
+    "localName": "Kapana",
+    "description": "现烤肉块搭配辣椒、盐与洋葱番茄调味，是市场常见的共享小食。",
+    "article": "Kapana",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kapana"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kapana",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kapana",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kapana",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "windhoek": [
+        {
+          "name": "Katutura Single Quarters市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Windhoek%20Katutura%20Single%20Quarters%E5%B8%82%E5%9C%BA%20Kapana",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-windhoek-biltong",
+    "cityIds": [
+      "windhoek"
+    ],
+    "name": "比尔通风干肉",
+    "nameEn": "Biltong",
+    "localName": "Biltong",
+    "description": "香料腌制后风干的肉食，口感和干度各异，注意出入境携带限制。",
+    "article": "Biltong",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Biltong"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Biltong",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Biltong",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Biltong",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "windhoek": [
+        {
+          "name": "市区熟食与肉铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Windhoek%20%E5%B8%82%E5%8C%BA%E7%86%9F%E9%A3%9F%E4%B8%8E%E8%82%89%E9%93%BA%20Biltong",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-windhoek-oshifima",
+    "cityIds": [
+      "windhoek"
+    ],
+    "name": "奥希芬玛谷物主食",
+    "nameEn": "Oshifima",
+    "localName": "Oshifima",
+    "description": "用珍珠粟或玉米粉煮成的主食，通常与蔬菜或炖肉一起食用。",
+    "article": "Ugali",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ugali",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "windhoek": [
+        {
+          "name": "纳米比亚家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Windhoek%20%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Oshifima",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-windhoek-braai",
+    "cityIds": [
+      "windhoek"
+    ],
+    "name": "南部非洲烧烤",
+    "nameEn": "Braai",
+    "localName": "Braai",
+    "description": "以炭火烤肉、香肠和配菜组成一餐，按具体拼盘份量比较预算。",
+    "article": "Regional variations of barbecue",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 28.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "windhoek": [
+        {
+          "name": "Klein Windhoek餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Windhoek%20Klein%20Windhoek%E9%A4%90%E9%A6%86%20Braai",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-windhoek-vetkoek",
+    "cityIds": [
+      "windhoek"
+    ],
+    "name": "油炸面包球",
+    "nameEn": "Vetkoek",
+    "localName": "Vetkoek",
+    "description": "外层金黄、内里柔软的面团，可原味吃或夹咸馅，适合作为小点。",
+    "article": "Vetkoek",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Vetkoek",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "windhoek": [
+        {
+          "name": "街头小吃与咖啡店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Windhoek%20%E8%A1%97%E5%A4%B4%E5%B0%8F%E5%90%83%E4%B8%8E%E5%92%96%E5%95%A1%E5%BA%97%20Vetkoek",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maputo-matapa",
+    "cityIds": [
+      "maputo"
+    ],
+    "name": "木薯叶花生炖菜",
+    "nameEn": "Matapa",
+    "localName": "Matapa",
+    "description": "木薯叶与花生等煮成浓稠炖菜，部分版本加入海鲜，素食者需询问配方。",
+    "article": "Matapa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matapa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Matapa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Matapa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matapa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maputo": [
+        {
+          "name": "家常莫桑比克餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maputo%20%E5%AE%B6%E5%B8%B8%E8%8E%AB%E6%A1%91%E6%AF%94%E5%85%8B%E9%A4%90%E9%A6%86%20Matapa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maputo-piri-piri-chicken",
+    "cityIds": [
+      "maputo"
+    ],
+    "name": "辣椒烤鸡",
+    "nameEn": "Piri-piri chicken",
+    "localName": "Piri-piri chicken",
+    "description": "用辣椒与酸香调味烤鸡，辣度与配菜可以分别询价。",
+    "article": "Piri piri",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Piri_piri",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Piri_piri",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Piri_piri",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Piri_piri",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maputo": [
+        {
+          "name": "市区烧烤餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maputo%20%E5%B8%82%E5%8C%BA%E7%83%A7%E7%83%A4%E9%A4%90%E9%A6%86%20Piri-piri%20chicken",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maputo-grilled-prawns",
+    "cityIds": [
+      "maputo"
+    ],
+    "name": "烤大虾",
+    "nameEn": "Grilled prawns",
+    "localName": "Grilled prawns",
+    "description": "按虾的大小、重量与烹饪方式计价，明确单份或整盘再下单。",
+    "article": "Mozambican cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mozambican_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mozambican_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mozambican_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 12.0,
+      "high": 35.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mozambican_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maputo": [
+        {
+          "name": "Costa do Sol与海鲜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maputo%20Costa%20do%20Sol%E4%B8%8E%E6%B5%B7%E9%B2%9C%E9%A4%90%E9%A6%86%20Grilled%20prawns",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maputo-xima",
+    "cityIds": [
+      "maputo"
+    ],
+    "name": "西马玉米主食",
+    "nameEn": "Xima",
+    "localName": "Xima",
+    "description": "玉米粉煮成的主食，搭配蔬菜、豆类或鱼肉酱汁食用。",
+    "article": "Ugali",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ugali",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maputo": [
+        {
+          "name": "市区家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maputo%20%E5%B8%82%E5%8C%BA%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Xima",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maputo-badjia",
+    "cityIds": [
+      "maputo"
+    ],
+    "name": "巴吉亚豆饼",
+    "nameEn": "Badjia",
+    "localName": "Badjia",
+    "description": "豆类磨浆油炸成小饼，适合早餐或下午小点，单份大小不同。",
+    "article": "Bhaji",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bhaji",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bhaji",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bhaji",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bhaji",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maputo": [
+        {
+          "name": "市场与街头小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maputo%20%E5%B8%82%E5%9C%BA%E4%B8%8E%E8%A1%97%E5%A4%B4%E5%B0%8F%E5%90%83%E9%93%BA%20Badjia",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-livingstone-nshima",
+    "cityIds": [
+      "livingstone"
+    ],
+    "name": "恩希玛玉米主食",
+    "nameEn": "Nshima",
+    "localName": "Nshima",
+    "description": "玉米粉煮成团状主食，通常和叶菜、豆类或炖肉配成一餐。",
+    "article": "Nshima",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nshima"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nshima",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nshima",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nshima",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "livingstone": [
+        {
+          "name": "Livingstone市区家常菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Livingstone%2C%20Zambia%20Livingstone%E5%B8%82%E5%8C%BA%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%20Nshima",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-livingstone-kapenta",
+    "cityIds": [
+      "livingstone"
+    ],
+    "name": "卡彭塔小鱼",
+    "nameEn": "Kapenta",
+    "localName": "Kapenta",
+    "description": "小鱼可煎炸或炖煮，风干版本味道更浓，常作为主食配菜。",
+    "article": "Kapenta",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kapenta",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kapenta",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kapenta",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kapenta",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "livingstone": [
+        {
+          "name": "本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Livingstone%2C%20Zambia%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Kapenta",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-livingstone-ifisashi",
+    "cityIds": [
+      "livingstone"
+    ],
+    "name": "花生南瓜叶",
+    "nameEn": "Ifisashi",
+    "localName": "Ifisashi",
+    "description": "叶菜与花生酱煮成的家常料理，食材随季节变化。",
+    "article": "Ifisashi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ifisashi"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ifisashi",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ifisashi",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ifisashi",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "livingstone": [
+        {
+          "name": "赞比亚家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Livingstone%2C%20Zambia%20%E8%B5%9E%E6%AF%94%E4%BA%9A%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Ifisashi",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-livingstone-zambezi-bream",
+    "cityIds": [
+      "livingstone"
+    ],
+    "name": "赞比西烤鱼",
+    "nameEn": "Zambezi bream",
+    "localName": "Zambezi bream",
+    "description": "当地鱼料理可烤或煎，先确认按条、按重量还是套餐计费。",
+    "article": "Zambian cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zambian_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zambian_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Zambian_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 20.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zambian_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "livingstone": [
+        {
+          "name": "河岸与市区餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Livingstone%2C%20Zambia%20%E6%B2%B3%E5%B2%B8%E4%B8%8E%E5%B8%82%E5%8C%BA%E9%A4%90%E9%A6%86%20Zambezi%20bream",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-livingstone-vitumbuwa",
+    "cityIds": [
+      "livingstone"
+    ],
+    "name": "维图姆布瓦炸面点",
+    "nameEn": "Vitumbuwa",
+    "localName": "Vitumbuwa",
+    "description": "油炸面点适合作为早餐或小食，与茶一起点单时另计饮品。",
+    "article": "Mandazi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mandazi",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "livingstone": [
+        {
+          "name": "早餐铺与市区市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Livingstone%2C%20Zambia%20%E6%97%A9%E9%A4%90%E9%93%BA%E4%B8%8E%E5%B8%82%E5%8C%BA%E5%B8%82%E5%9C%BA%20Vitumbuwa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-juba-aseeda",
+    "cityIds": [
+      "juba"
+    ],
+    "name": "高粱阿西达",
+    "nameEn": "Aseeda",
+    "localName": "Aseeda",
+    "description": "高粱等谷物煮成主食，配蔬菜与酱汁；具体谷物和搭配按菜单确认。",
+    "article": "Asida",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asida"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Asida",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Asida",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asida",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "juba": [
+        {
+          "name": "本地家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juba%20%E6%9C%AC%E5%9C%B0%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Aseeda",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-juba-kisra",
+    "cityIds": [
+      "juba"
+    ],
+    "name": "基斯拉薄饼",
+    "nameEn": "Kisra",
+    "localName": "Kisra",
+    "description": "发酵谷物薄饼常搭炖菜，酸味与厚薄因做法不同。",
+    "article": "Kisra",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kisra"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kisra",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kisra",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kisra",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "juba": [
+        {
+          "name": "苏丹与南苏丹餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juba%20%E8%8B%8F%E4%B8%B9%E4%B8%8E%E5%8D%97%E8%8B%8F%E4%B8%B9%E9%A4%90%E9%A6%86%20Kisra",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-juba-groundnut-stew",
+    "cityIds": [
+      "juba"
+    ],
+    "name": "花生炖菜",
+    "nameEn": "Groundnut stew",
+    "localName": "Groundnut stew",
+    "description": "花生提供浓郁口感，可搭叶菜或肉类，注意花生过敏。",
+    "article": "Peanut stew",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Peanut_stew",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "juba": [
+        {
+          "name": "朱巴家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juba%20%E6%9C%B1%E5%B7%B4%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Groundnut%20stew",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-juba-nile-fish",
+    "cityIds": [
+      "juba"
+    ],
+    "name": "尼罗河鱼料理",
+    "nameEn": "Nile fish",
+    "localName": "Nile fish",
+    "description": "鱼可煎、烤或炖，先确认当天来源、份量与烹饪方式。",
+    "article": "South Sudanese cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/South_Sudanese_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/South_Sudanese_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/South_Sudanese_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/South_Sudanese_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "juba": [
+        {
+          "name": "酒店与本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juba%20%E9%85%92%E5%BA%97%E4%B8%8E%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Nile%20fish",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-juba-bamia",
+    "cityIds": [
+      "juba"
+    ],
+    "name": "秋葵炖菜",
+    "nameEn": "Bamia",
+    "localName": "Bamia",
+    "description": "秋葵与调味煮成稠汤，有素食或加肉版本，配主食构成一餐。",
+    "article": "Bamia",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bamia"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bamia",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bamia",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bamia",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "juba": [
+        {
+          "name": "市区家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Juba%20%E5%B8%82%E5%8C%BA%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Bamia",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maun-seswaa",
+    "cityIds": [
+      "maun"
+    ],
+    "name": "塞斯瓦手撕炖肉",
+    "nameEn": "Seswaa",
+    "localName": "Seswaa",
+    "description": "肉慢炖后捣碎，常配主食和叶菜，适合了解博茨瓦纳家常口味。",
+    "article": "Seswaa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seswaa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Seswaa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Seswaa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seswaa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maun": [
+        {
+          "name": "马翁本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maun%2C%20Botswana%20%E9%A9%AC%E7%BF%81%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Seswaa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maun-bogobe",
+    "cityIds": [
+      "maun"
+    ],
+    "name": "索戈姆酸粥",
+    "nameEn": "Bogobe",
+    "localName": "Bogobe",
+    "description": "高粱等谷物做成粥或较稠主食，酸味与稠度随家庭做法变化。",
+    "article": "Ugali",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ugali",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugali",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maun": [
+        {
+          "name": "家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maun%2C%20Botswana%20%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Bogobe",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maun-dikgobe",
+    "cityIds": [
+      "maun"
+    ],
+    "name": "豆类玉米杂粮",
+    "nameEn": "Dikgobe",
+    "localName": "Dikgobe",
+    "description": "豆类与谷物同煮，能作为较有饱腹感的主食或配菜。",
+    "article": "Dikgobe",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dikgobe"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dikgobe",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Dikgobe",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dikgobe",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maun": [
+        {
+          "name": "本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maun%2C%20Botswana%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Dikgobe",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maun-morogo",
+    "cityIds": [
+      "maun"
+    ],
+    "name": "莫罗戈叶菜",
+    "nameEn": "Morogo",
+    "localName": "Morogo",
+    "description": "不同叶菜清炒或炖煮，可询问是否加入动物油或肉汤。",
+    "article": "Morogo",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Morogo",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Morogo",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Morogo",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Morogo",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maun": [
+        {
+          "name": "当地家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maun%2C%20Botswana%20%E5%BD%93%E5%9C%B0%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Morogo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-maun-magwinya",
+    "cityIds": [
+      "maun"
+    ],
+    "name": "马格文亚炸面包",
+    "nameEn": "Magwinya",
+    "localName": "Magwinya",
+    "description": "油炸面团常作早餐或零食，可单吃也可夹馅。",
+    "article": "Vetkoek",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Vetkoek",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vetkoek",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "maun": [
+        {
+          "name": "早餐摊与市场",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Maun%2C%20Botswana%20%E6%97%A9%E9%A4%90%E6%91%8A%E4%B8%8E%E5%B8%82%E5%9C%BA%20Magwinya",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antananarivo-romazava",
+    "cityIds": [
+      "antananarivo"
+    ],
+    "name": "罗马扎瓦肉菜汤",
+    "nameEn": "Romazava",
+    "localName": "Romazava",
+    "description": "肉与叶菜煮成清汤式料理，常配米饭，叶菜品种随季节变化。",
+    "article": "Romazava",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Romazava"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Romazava",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Romazava",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Romazava",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "antananarivo": [
+        {
+          "name": "高地家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antananarivo%20%E9%AB%98%E5%9C%B0%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Romazava",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antananarivo-ravitoto",
+    "cityIds": [
+      "antananarivo"
+    ],
+    "name": "拉维托托木薯叶",
+    "nameEn": "Ravitoto",
+    "localName": "Ravitoto",
+    "description": "木薯叶捣碎后炖煮，常与猪肉同做，素食者应先问配方。",
+    "article": "Ravitoto",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ravitoto"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ravitoto",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ravitoto",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ravitoto",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "antananarivo": [
+        {
+          "name": "马达加斯加餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antananarivo%20%E9%A9%AC%E8%BE%BE%E5%8A%A0%E6%96%AF%E5%8A%A0%E9%A4%90%E9%A6%86%20Ravitoto",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antananarivo-koba",
+    "cityIds": [
+      "antananarivo"
+    ],
+    "name": "库巴花生米糕",
+    "nameEn": "Koba",
+    "localName": "Koba",
+    "description": "米粉、花生等做成的甜点，通常切片售卖，留意花生过敏。",
+    "article": "Koba (sweet)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Koba_%28sweet%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Koba_%28sweet%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Koba_%28sweet%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Koba_%28sweet%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "antananarivo": [
+        {
+          "name": "市场糕点摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antananarivo%20%E5%B8%82%E5%9C%BA%E7%B3%95%E7%82%B9%E6%91%8A%20Koba",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antananarivo-mofo-gasy",
+    "cityIds": [
+      "antananarivo"
+    ],
+    "name": "莫福加西米粉小点",
+    "nameEn": "Mofo gasy",
+    "localName": "Mofo gasy",
+    "description": "米粉面糊在小圆模中煎烤，适合配咖啡或茶作早餐。",
+    "article": "Mofo gasy",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mofo_gasy"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mofo_gasy",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mofo_gasy",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mofo_gasy",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "antananarivo": [
+        {
+          "name": "早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antananarivo%20%E6%97%A9%E9%A4%90%E9%93%BA%20Mofo%20gasy",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-antananarivo-sambos",
+    "cityIds": [
+      "antananarivo"
+    ],
+    "name": "萨莫萨三角饺",
+    "nameEn": "Sambos",
+    "localName": "Sambos",
+    "description": "薄皮包肉或蔬菜后油炸，按个或小份销售，辣酱另配。",
+    "article": "Samosa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samosa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Samosa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Samosa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samosa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "antananarivo": [
+        {
+          "name": "市区小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Antananarivo%20%E5%B8%82%E5%8C%BA%E5%B0%8F%E5%90%83%E9%93%BA%20Sambos",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-mogadishu-canjeero",
+    "cityIds": [
+      "mogadishu"
+    ],
+    "name": "卡内罗发酵薄饼",
+    "nameEn": "Canjeero",
+    "localName": "Canjeero",
+    "description": "发酵面糊制成带孔薄饼，可搭糖、茶或咸味配菜。",
+    "article": "Lahoh",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lahoh"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lahoh",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lahoh",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lahoh",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "mogadishu": [
+        {
+          "name": "索马里早餐餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mogadishu%20%E7%B4%A2%E9%A9%AC%E9%87%8C%E6%97%A9%E9%A4%90%E9%A4%90%E9%A6%86%20Canjeero",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-mogadishu-bariis-iskukaris",
+    "cityIds": [
+      "mogadishu"
+    ],
+    "name": "香料米饭",
+    "nameEn": "Bariis iskukaris",
+    "localName": "Bariis iskukaris",
+    "description": "香料米饭常搭肉类与配菜，份量、肉种与饮品分开确认。",
+    "article": "Bariis iskukaris",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bariis_iskukaris"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bariis_iskukaris",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bariis_iskukaris",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bariis_iskukaris",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "mogadishu": [
+        {
+          "name": "索马里家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mogadishu%20%E7%B4%A2%E9%A9%AC%E9%87%8C%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Bariis%20iskukaris",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-mogadishu-sambusa",
+    "cityIds": [
+      "mogadishu"
+    ],
+    "name": "索马里桑布萨",
+    "nameEn": "Sambusa",
+    "localName": "Sambusa",
+    "description": "薄皮三角炸饺包肉或蔬菜，常作为开胃小食。",
+    "article": "Samosa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samosa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Samosa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Samosa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samosa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "mogadishu": [
+        {
+          "name": "小吃餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mogadishu%20%E5%B0%8F%E5%90%83%E9%A4%90%E9%A6%86%20Sambusa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-mogadishu-suqaar",
+    "cityIds": [
+      "mogadishu"
+    ],
+    "name": "苏卡尔炖肉",
+    "nameEn": "Suqaar",
+    "localName": "Suqaar",
+    "description": "小块肉与蔬菜香料炒炖，通常搭面饼、米饭或意面。",
+    "article": "Suqaar",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suqaar"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Suqaar",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Suqaar",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suqaar",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "mogadishu": [
+        {
+          "name": "家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mogadishu%20%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Suqaar",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-mogadishu-shaah",
+    "cityIds": [
+      "mogadishu"
+    ],
+    "name": "索马里香料茶",
+    "nameEn": "Shaah",
+    "localName": "Shaah",
+    "description": "红茶加入香料，奶与糖的做法不同，点单可先说明偏好。",
+    "article": "Somali cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Somali_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Somali_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Somali_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Somali_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "mogadishu": [
+        {
+          "name": "茶铺与酒店餐厅",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mogadishu%20%E8%8C%B6%E9%93%BA%E4%B8%8E%E9%85%92%E5%BA%97%E9%A4%90%E5%8E%85%20Shaah",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-victoria-falls-sadza",
+    "cityIds": [
+      "victoria-falls"
+    ],
+    "name": "萨扎玉米主食",
+    "nameEn": "Sadza",
+    "localName": "Sadza",
+    "description": "玉米粉煮成主食，常配叶菜、豆类或肉汁。",
+    "article": "Sadza",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sadza"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sadza",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sadza",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sadza",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "victoria-falls": [
+        {
+          "name": "津巴布韦家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Falls%2C%20Zimbabwe%20%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Sadza",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-victoria-falls-muriwo-une-dovi",
+    "cityIds": [
+      "victoria-falls"
+    ],
+    "name": "花生叶菜",
+    "nameEn": "Muriwo une dovi",
+    "localName": "Muriwo une dovi",
+    "description": "叶菜配花生酱，浓稠程度随做法变化，花生过敏者应避开。",
+    "article": "Zimbabwean cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "victoria-falls": [
+        {
+          "name": "本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Falls%2C%20Zimbabwe%20%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Muriwo%20une%20dovi",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-victoria-falls-bream",
+    "cityIds": [
+      "victoria-falls"
+    ],
+    "name": "烤鲷鱼",
+    "nameEn": "Bream",
+    "localName": "Bream",
+    "description": "整鱼或鱼排的计价不同，可先确认份量和配菜。",
+    "article": "Zimbabwean cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 22.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zimbabwean_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "victoria-falls": [
+        {
+          "name": "河岸与镇区餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Falls%2C%20Zimbabwe%20%E6%B2%B3%E5%B2%B8%E4%B8%8E%E9%95%87%E5%8C%BA%E9%A4%90%E9%A6%86%20Bream",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-victoria-falls-nyama-braai",
+    "cityIds": [
+      "victoria-falls"
+    ],
+    "name": "南部非洲烤肉",
+    "nameEn": "Nyama braai",
+    "localName": "Nyama braai",
+    "description": "炭烤肉搭主食和蔬菜，适合按实际肉种与人数分配预算。",
+    "article": "Regional variations of barbecue",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 25.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Regional_variations_of_barbecue",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "victoria-falls": [
+        {
+          "name": "烧烤餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Falls%2C%20Zimbabwe%20%E7%83%A7%E7%83%A4%E9%A4%90%E9%A6%86%20Nyama%20braai",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-victoria-falls-samp-and-beans",
+    "cityIds": [
+      "victoria-falls"
+    ],
+    "name": "奶油玉米豆类",
+    "nameEn": "Samp and beans",
+    "localName": "Samp and beans",
+    "description": "碎玉米粒与豆类同煮，可作为主食或配菜，肉汤版本应先询问。",
+    "article": "Samp",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samp",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Samp",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Samp",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samp",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "victoria-falls": [
+        {
+          "name": "家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Falls%2C%20Zimbabwe%20%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Samp%20and%20beans",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kampala-rolex",
+    "cityIds": [
+      "kampala"
+    ],
+    "name": "乌干达鸡蛋卷饼",
+    "nameEn": "Rolex",
+    "localName": "Rolex",
+    "description": "煎蛋、蔬菜与chapati卷在一起，按蛋数和馅料调整预算。",
+    "article": "Rolex (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rolex_%28food%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rolex_%28food%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Rolex_%28food%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rolex_%28food%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "kampala": [
+        {
+          "name": "Kabalagala与市区早餐摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kampala%20Kabalagala%E4%B8%8E%E5%B8%82%E5%8C%BA%E6%97%A9%E9%A4%90%E6%91%8A%20Rolex",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kampala-matoke",
+    "cityIds": [
+      "kampala"
+    ],
+    "name": "马托凯蒸蕉",
+    "nameEn": "Matoke",
+    "localName": "Matoke",
+    "description": "未熟食蕉蒸熟或炖煮，可搭花生酱或肉类炖汁。",
+    "article": "Matoke",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matoke"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Matoke",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Matoke",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matoke",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "kampala": [
+        {
+          "name": "乌干达家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kampala%20%E4%B9%8C%E5%B9%B2%E8%BE%BE%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Matoke",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kampala-luwombo",
+    "cityIds": [
+      "kampala"
+    ],
+    "name": "卢旺博蕉叶蒸菜",
+    "nameEn": "Luwombo",
+    "localName": "Luwombo",
+    "description": "食材包入蕉叶烹调，常见鸡肉、牛肉或花生版本。",
+    "article": "Luwombo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luwombo"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Luwombo",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Luwombo",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luwombo",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "kampala": [
+        {
+          "name": "传统布干达餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kampala%20%E4%BC%A0%E7%BB%9F%E5%B8%83%E5%B9%B2%E8%BE%BE%E9%A4%90%E9%A6%86%20Luwombo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kampala-groundnut-sauce",
+    "cityIds": [
+      "kampala"
+    ],
+    "name": "乌干达花生酱菜",
+    "nameEn": "Groundnut sauce",
+    "localName": "Groundnut sauce",
+    "description": "浓稠花生酱与主食和蔬菜搭配，点餐时确认是否加鱼肉。",
+    "article": "Ugandan cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugandan_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ugandan_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ugandan_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ugandan_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "kampala": [
+        {
+          "name": "当地家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kampala%20%E5%BD%93%E5%9C%B0%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Groundnut%20sauce",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kampala-gonja",
+    "cityIds": [
+      "kampala"
+    ],
+    "name": "炸蕉小点",
+    "nameEn": "Gonja",
+    "localName": "Gonja",
+    "description": "成熟食蕉烤或炸后带甜味，适合当配菜或小点。",
+    "article": "Fried plantain",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fried_plantain"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fried_plantain",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Fried_plantain",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fried_plantain",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "kampala": [
+        {
+          "name": "市区小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kampala%20%E5%B8%82%E5%8C%BA%E5%B0%8F%E5%90%83%E9%93%BA%20Gonja",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-accra-ghanaian-jollof",
+    "cityIds": [
+      "accra"
+    ],
+    "name": "加纳乔洛夫饭",
+    "nameEn": "Ghanaian jollof",
+    "localName": "Ghanaian jollof",
+    "description": "番茄、香料与米饭同煮，可搭鸡肉、鱼或蔬菜。",
+    "article": "Jollof rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jollof_rice"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jollof_rice",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Jollof_rice",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jollof_rice",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "accra": [
+        {
+          "name": "Osu与市区加纳餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20Osu%E4%B8%8E%E5%B8%82%E5%8C%BA%E5%8A%A0%E7%BA%B3%E9%A4%90%E9%A6%86%20Ghanaian%20jollof",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-accra-waakye",
+    "cityIds": [
+      "accra"
+    ],
+    "name": "瓦切豆米饭",
+    "nameEn": "Waakye",
+    "localName": "Waakye",
+    "description": "豆和米同煮，搭配酱料、鸡蛋或其他配菜，点单时逐项确认。",
+    "article": "Waakye",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Waakye"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Waakye",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Waakye",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Waakye",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "accra": [
+        {
+          "name": "早餐摊和家常餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20%E6%97%A9%E9%A4%90%E6%91%8A%E5%92%8C%E5%AE%B6%E5%B8%B8%E9%A4%90%E9%A6%86%20Waakye",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-accra-banku",
+    "cityIds": [
+      "accra"
+    ],
+    "name": "班库发酵主食",
+    "nameEn": "Banku",
+    "localName": "Banku",
+    "description": "发酵玉米和木薯做成的主食，常配烤鱼或汤。",
+    "article": "Banku",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Banku"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Banku",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Banku",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Banku",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "accra": [
+        {
+          "name": "海岸与本地餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20%E6%B5%B7%E5%B2%B8%E4%B8%8E%E6%9C%AC%E5%9C%B0%E9%A4%90%E9%A6%86%20Banku",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-accra-kelewele",
+    "cityIds": [
+      "accra"
+    ],
+    "name": "凯莱韦莱辣炸蕉",
+    "nameEn": "Kelewele",
+    "localName": "Kelewele",
+    "description": "成熟食蕉切块用香料调味后炸制，常作为晚间小食。",
+    "article": "Kelewele",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kelewele"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Kelewele",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kelewele",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kelewele",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "accra": [
+        {
+          "name": "Osu小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20Osu%E5%B0%8F%E5%90%83%E9%93%BA%20Kelewele",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-accra-fufu",
+    "cityIds": [
+      "accra"
+    ],
+    "name": "富富与汤",
+    "nameEn": "Fufu",
+    "localName": "Fufu",
+    "description": "捣制主食与浓汤组成一餐，主料和汤中肉类可分别询问。",
+    "article": "Fufu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fufu"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fufu",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Fufu",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fufu",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "accra": [
+        {
+          "name": "加纳家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Accra%20%E5%8A%A0%E7%BA%B3%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Fufu",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tunis-brik",
+    "cityIds": [
+      "tunis"
+    ],
+    "name": "布里克薄皮炸包",
+    "nameEn": "Brik",
+    "localName": "Brik",
+    "description": "薄皮包鸡蛋、金枪鱼等油炸，蛋的熟度可先沟通。",
+    "article": "Brik",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brik"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brik",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Brik",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brik",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "tunis": [
+        {
+          "name": "老城餐馆与小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tunis%20%E8%80%81%E5%9F%8E%E9%A4%90%E9%A6%86%E4%B8%8E%E5%B0%8F%E5%90%83%E5%BA%97%20Brik",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tunis-lablabi",
+    "cityIds": [
+      "tunis"
+    ],
+    "name": "拉布拉比鹰嘴豆汤",
+    "nameEn": "Lablabi",
+    "localName": "Lablabi",
+    "description": "鹰嘴豆汤搭面包与调味，鸡蛋和金枪鱼等配料可另选。",
+    "article": "Lablabi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lablabi"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lablabi",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lablabi",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lablabi",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "tunis": [
+        {
+          "name": "麦地那早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tunis%20%E9%BA%A6%E5%9C%B0%E9%82%A3%E6%97%A9%E9%A4%90%E9%93%BA%20Lablabi",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tunis-tunisian-couscous",
+    "cityIds": [
+      "tunis"
+    ],
+    "name": "突尼斯古斯米",
+    "nameEn": "Tunisian couscous",
+    "localName": "Tunisian couscous",
+    "description": "蒸制粗粒面配蔬菜和鱼肉，辣酱与份量依餐馆版本不同。",
+    "article": "Couscous",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couscous"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Couscous",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Couscous",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couscous",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "tunis": [
+        {
+          "name": "传统突尼斯餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tunis%20%E4%BC%A0%E7%BB%9F%E7%AA%81%E5%B0%BC%E6%96%AF%E9%A4%90%E9%A6%86%20Tunisian%20couscous",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tunis-mechouia-salad",
+    "cityIds": [
+      "tunis"
+    ],
+    "name": "梅什维亚烤菜沙拉",
+    "nameEn": "Mechouia salad",
+    "localName": "Mechouia salad",
+    "description": "烤椒、番茄等切碎调味，常配橄榄油，部分会加鱼或蛋。",
+    "article": "Mechouia salad",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mechouia_salad"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mechouia_salad",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mechouia_salad",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mechouia_salad",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "tunis": [
+        {
+          "name": "老城与市区餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tunis%20%E8%80%81%E5%9F%8E%E4%B8%8E%E5%B8%82%E5%8C%BA%E9%A4%90%E9%A6%86%20Mechouia%20salad",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tunis-makroudh",
+    "cityIds": [
+      "tunis"
+    ],
+    "name": "马格鲁德椰枣糕",
+    "nameEn": "Makroudh",
+    "localName": "Makroudh",
+    "description": "粗粒面包裹椰枣馅的甜糕，适合作为少量下午茶。",
+    "article": "Makroudh",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Makroudh"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Makroudh",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Makroudh",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Makroudh",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "tunis": [
+        {
+          "name": "传统糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tunis%20%E4%BC%A0%E7%BB%9F%E7%B3%95%E7%82%B9%E5%BA%97%20Makroudh",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asmara-injera",
+    "cityIds": [
+      "asmara"
+    ],
+    "name": "因吉拉薄饼",
+    "nameEn": "Injera",
+    "localName": "Injera",
+    "description": "发酵薄饼配多种酱汁与炖菜，是共享餐盘常见的主食。",
+    "article": "Injera",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Injera"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Injera",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Injera",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Injera",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asmara": [
+        {
+          "name": "市中心厄立特里亚餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asmara%20%E5%B8%82%E4%B8%AD%E5%BF%83%E5%8E%84%E7%AB%8B%E7%89%B9%E9%87%8C%E4%BA%9A%E9%A4%90%E9%A6%86%20Injera",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asmara-zigni",
+    "cityIds": [
+      "asmara"
+    ],
+    "name": "齐格尼辣炖肉",
+    "nameEn": "Zigni",
+    "localName": "Zigni",
+    "description": "香料与肉慢炖，辣度通常明显，点单前可询问。",
+    "article": "Zigni",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zigni"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zigni",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Zigni",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Zigni",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asmara": [
+        {
+          "name": "传统餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asmara%20%E4%BC%A0%E7%BB%9F%E9%A4%90%E9%A6%86%20Zigni",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asmara-shiro",
+    "cityIds": [
+      "asmara"
+    ],
+    "name": "希罗豆粉炖菜",
+    "nameEn": "Shiro",
+    "localName": "Shiro",
+    "description": "豆粉煮成浓稠料理，常作为斋期或植物性食物选择。",
+    "article": "Shiro (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shiro_%28food%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asmara": [
+        {
+          "name": "本地家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asmara%20%E6%9C%AC%E5%9C%B0%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Shiro",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asmara-ful-medames",
+    "cityIds": [
+      "asmara"
+    ],
+    "name": "富尔早餐",
+    "nameEn": "Ful medames",
+    "localName": "Ful medames",
+    "description": "蚕豆炖软后加油与调味，配面包组成简单早餐。",
+    "article": "Ful medames",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ful_medames",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ful_medames",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asmara": [
+        {
+          "name": "早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asmara%20%E6%97%A9%E9%A4%90%E9%93%BA%20Ful%20medames",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asmara-pasta-in-eritrea",
+    "cityIds": [
+      "asmara"
+    ],
+    "name": "厄立特里亚意面",
+    "nameEn": "Pasta in Eritrea",
+    "localName": "Pasta in Eritrea",
+    "description": "城市饮食保留意面传统，酱汁可带当地辛香，按具体菜单选择。",
+    "article": "Eritrean cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eritrean_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eritrean_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Eritrean_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 13.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Eritrean_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asmara": [
+        {
+          "name": "Harnet Avenue餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asmara%20Harnet%20Avenue%E9%A4%90%E9%A6%86%20Pasta%20in%20Eritrea",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lilongwe-nsima",
+    "cityIds": [
+      "lilongwe"
+    ],
+    "name": "恩西玛玉米主食",
+    "nameEn": "Nsima",
+    "localName": "Nsima",
+    "description": "浓稠玉米主食配蔬菜、豆类和鱼肉，是日常一餐的核心。",
+    "article": "Nshima",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nshima"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nshima",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nshima",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nshima",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "lilongwe": [
+        {
+          "name": "旧城家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lilongwe%20%E6%97%A7%E5%9F%8E%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Nsima",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lilongwe-chambo",
+    "cityIds": [
+      "lilongwe"
+    ],
+    "name": "昌博鱼",
+    "nameEn": "Chambo",
+    "localName": "Chambo",
+    "description": "常以烤或煎鱼形式配主食，鱼种、大小和供应按菜单确认。",
+    "article": "Malawian cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "lilongwe": [
+        {
+          "name": "市区马拉维餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lilongwe%20%E5%B8%82%E5%8C%BA%E9%A9%AC%E6%8B%89%E7%BB%B4%E9%A4%90%E9%A6%86%20Chambo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lilongwe-ndiwo",
+    "cityIds": [
+      "lilongwe"
+    ],
+    "name": "恩迪沃叶菜",
+    "nameEn": "Ndiwo",
+    "localName": "Ndiwo",
+    "description": "为主食配上的叶菜或其他配菜，有花生等不同调味方式。",
+    "article": "Malawian cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malawian_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "lilongwe": [
+        {
+          "name": "家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lilongwe%20%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Ndiwo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lilongwe-mbatata",
+    "cityIds": [
+      "lilongwe"
+    ],
+    "name": "姆巴塔塔红薯点心",
+    "nameEn": "Mbatata",
+    "localName": "Mbatata",
+    "description": "红薯做成的小点心，适合寻找本地烘焙菜单，未必每家店供应。",
+    "article": "Mbatata cookies",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mbatata_cookies",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mbatata_cookies",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mbatata_cookies",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mbatata_cookies",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "lilongwe": [
+        {
+          "name": "糕点与咖啡店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lilongwe%20%E7%B3%95%E7%82%B9%E4%B8%8E%E5%92%96%E5%95%A1%E5%BA%97%20Mbatata",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lilongwe-mandasi",
+    "cityIds": [
+      "lilongwe"
+    ],
+    "name": "曼达齐炸面点",
+    "nameEn": "Mandasi",
+    "localName": "Mandasi",
+    "description": "微甜炸面点常配茶，价格按个或份数区分。",
+    "article": "Mandazi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mandazi",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mandazi",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "lilongwe": [
+        {
+          "name": "旧城早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lilongwe%20%E6%97%A7%E5%9F%8E%E6%97%A9%E9%A4%90%E9%93%BA%20Mandasi",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-la-paz-saltena",
+    "cityIds": [
+      "la-paz"
+    ],
+    "name": "萨尔特尼亚馅饼",
+    "nameEn": "Saltena",
+    "localName": "Saltena",
+    "description": "多汁肉馅包在微甜烤皮内，多在上午供应，吃时注意热汤。",
+    "article": "Salteña",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Salte%C3%B1a"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Salte%C3%B1a",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Salte%C3%B1a",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Salte%C3%B1a",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "la-paz": [
+        {
+          "name": "市中心早餐面点铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=La%20Paz%20%E5%B8%82%E4%B8%AD%E5%BF%83%E6%97%A9%E9%A4%90%E9%9D%A2%E7%82%B9%E9%93%BA%20Saltena",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-la-paz-plato-paceno",
+    "cityIds": [
+      "la-paz"
+    ],
+    "name": "帕塞尼奥拼盘",
+    "nameEn": "Plato paceno",
+    "localName": "Plato paceno",
+    "description": "玉米、豆类、土豆与奶酪组成高原风味餐盘，不同店可能加肉。",
+    "article": "Plato paceño",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plato_pace%C3%B1o"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Plato_pace%C3%B1o",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Plato_pace%C3%B1o",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plato_pace%C3%B1o",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "la-paz": [
+        {
+          "name": "拉巴斯家常菜馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=La%20Paz%20%E6%8B%89%E5%B7%B4%E6%96%AF%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A6%86%20Plato%20paceno",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-la-paz-sopa-de-mani",
+    "cityIds": [
+      "la-paz"
+    ],
+    "name": "花生汤",
+    "nameEn": "Sopa de mani",
+    "localName": "Sopa de mani",
+    "description": "花生磨碎煮汤，常搭蔬菜、肉或面，注意花生过敏。",
+    "article": "Sopa de maní",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_de_man%C3%AD"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_de_man%C3%AD",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sopa_de_man%C3%AD",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_de_man%C3%AD",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "la-paz": [
+        {
+          "name": "本地午餐餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=La%20Paz%20%E6%9C%AC%E5%9C%B0%E5%8D%88%E9%A4%90%E9%A4%90%E9%A6%86%20Sopa%20de%20mani",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-la-paz-chairo",
+    "cityIds": [
+      "la-paz"
+    ],
+    "name": "丘纽汤",
+    "nameEn": "Chairo",
+    "localName": "Chairo",
+    "description": "以冻干土豆等食材煮成的汤，体现高原储粮与烹饪传统。",
+    "article": "Chairo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chairo"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chairo",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chairo",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chairo",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "la-paz": [
+        {
+          "name": "高原家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=La%20Paz%20%E9%AB%98%E5%8E%9F%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Chairo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-la-paz-bunuelos",
+    "cityIds": [
+      "la-paz"
+    ],
+    "name": "布努埃洛炸面饼",
+    "nameEn": "Bunuelos",
+    "localName": "Bunuelos",
+    "description": "炸面饼可配糖浆或热饮，按份量与配料计算。",
+    "article": "Buñuelo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bu%C3%B1uelo"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bu%C3%B1uelo",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bu%C3%B1uelo",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bu%C3%B1uelo",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "la-paz": [
+        {
+          "name": "市集面点摊",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=La%20Paz%20%E5%B8%82%E9%9B%86%E9%9D%A2%E7%82%B9%E6%91%8A%20Bunuelos",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asuncion-sopa-paraguaya",
+    "cityIds": [
+      "asuncion"
+    ],
+    "name": "巴拉圭玉米烤糕",
+    "nameEn": "Sopa paraguaya",
+    "localName": "Sopa paraguaya",
+    "description": "名字虽有汤，实际是奶酪、玉米等做成的咸味烤糕。",
+    "article": "Sopa paraguaya",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_paraguaya"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_paraguaya",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sopa_paraguaya",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sopa_paraguaya",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asuncion": [
+        {
+          "name": "老城家常餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n%20%E8%80%81%E5%9F%8E%E5%AE%B6%E5%B8%B8%E9%A4%90%E9%A6%86%20Sopa%20paraguaya",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asuncion-chipa",
+    "cityIds": [
+      "asuncion"
+    ],
+    "name": "奇帕奶酪面包",
+    "nameEn": "Chipa",
+    "localName": "Chipa",
+    "description": "木薯淀粉与奶酪做成的小面包，现烤时外香内韧。",
+    "article": "Chipa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chipa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chipa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chipa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chipa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asuncion": [
+        {
+          "name": "面包店与早餐铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n%20%E9%9D%A2%E5%8C%85%E5%BA%97%E4%B8%8E%E6%97%A9%E9%A4%90%E9%93%BA%20Chipa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asuncion-chipa-guasu",
+    "cityIds": [
+      "asuncion"
+    ],
+    "name": "奇帕瓜苏玉米焗糕",
+    "nameEn": "Chipa guasu",
+    "localName": "Chipa guasu",
+    "description": "鲜玉米与奶酪等烤成较湿润的菜肴，常作为配菜。",
+    "article": "Chipa guasu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chipa_guasu"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chipa_guasu",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chipa_guasu",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chipa_guasu",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asuncion": [
+        {
+          "name": "巴拉圭餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n%20%E5%B7%B4%E6%8B%89%E5%9C%AD%E9%A4%90%E9%A6%86%20Chipa%20guasu",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asuncion-mbeju",
+    "cityIds": [
+      "asuncion"
+    ],
+    "name": "姆贝尤木薯饼",
+    "nameEn": "Mbeju",
+    "localName": "Mbeju",
+    "description": "木薯淀粉和奶酪做成的煎饼，常配热饮或特雷雷。",
+    "article": "Mbejú",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mbej%C3%BA"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mbej%C3%BA",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mbej%C3%BA",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mbej%C3%BA",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asuncion": [
+        {
+          "name": "早餐与小吃餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n%20%E6%97%A9%E9%A4%90%E4%B8%8E%E5%B0%8F%E5%90%83%E9%A4%90%E9%A6%86%20Mbeju",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-asuncion-vori-vori",
+    "cityIds": [
+      "asuncion"
+    ],
+    "name": "博里博里汤",
+    "nameEn": "Vori vori",
+    "localName": "Vori vori",
+    "description": "玉米奶酪小团煮入汤中，常有鸡肉或蔬菜版本。",
+    "article": "Vorí vorí",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vor%C3%AD_vor%C3%AD"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vor%C3%AD_vor%C3%AD",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Vor%C3%AD_vor%C3%AD",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vor%C3%AD_vor%C3%AD",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "asuncion": [
+        {
+          "name": "家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n%20%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Vori%20vori",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-georgetown-guyanese-pepperpot",
+    "cityIds": [
+      "georgetown"
+    ],
+    "name": "圭亚那胡椒锅",
+    "nameEn": "Guyanese pepperpot",
+    "localName": "Guyanese pepperpot",
+    "description": "肉类与木薯制调味液慢炖，节庆常见，是否供应应提前问。",
+    "article": "Guyanese pepperpot",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_pepperpot"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_pepperpot",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guyanese_pepperpot",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 22.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_pepperpot",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "georgetown": [
+        {
+          "name": "圭亚那家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Georgetown%2C%20Guyana%20%E5%9C%AD%E4%BA%9A%E9%82%A3%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Guyanese%20pepperpot",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-georgetown-cook-up-rice",
+    "cityIds": [
+      "georgetown"
+    ],
+    "name": "库克阿普米饭",
+    "nameEn": "Cook-up rice",
+    "localName": "Cook-up rice",
+    "description": "米饭、豆类与椰奶等同煮，肉类和素食版本不同。",
+    "article": "Cook-up rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cook-up_rice"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cook-up_rice",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cook-up_rice",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cook-up_rice",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "georgetown": [
+        {
+          "name": "市场与家常餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Georgetown%2C%20Guyana%20%E5%B8%82%E5%9C%BA%E4%B8%8E%E5%AE%B6%E5%B8%B8%E9%A4%90%E9%A6%86%20Cook-up%20rice",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-georgetown-curry-and-roti",
+    "cityIds": [
+      "georgetown"
+    ],
+    "name": "咖喱与罗蒂",
+    "nameEn": "Curry and roti",
+    "localName": "Curry and roti",
+    "description": "扁面饼配咖喱，馅料、辣度与份量可独立选择。",
+    "article": "Guyanese cuisine",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_cuisine",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_cuisine",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guyanese_cuisine",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guyanese_cuisine",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "georgetown": [
+        {
+          "name": "南亚风味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Georgetown%2C%20Guyana%20%E5%8D%97%E4%BA%9A%E9%A3%8E%E5%91%B3%E9%A4%90%E9%A6%86%20Curry%20and%20roti",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-georgetown-mithai",
+    "cityIds": [
+      "georgetown"
+    ],
+    "name": "梅泰炸甜点",
+    "nameEn": "Mithai",
+    "localName": "Mithai",
+    "description": "香料面团切条炸脆，再裹上结晶糖衣；圭亚那常称Mithai，也有较软版本，购买时确认种类。",
+    "article": "Mithai",
+    "articleScope": "regional-food-context",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mithai",
+      "pendingReason": "需找到本条菜品实物照片，禁止用菜系、原料或其他菜品照片代替。"
+    },
+    "sourceUrl": "https://www.alicaspepperpot.com/crunchy-mithai-kurma/",
+    "sourceCheckedAt": "2026-10-16",
+    "sourceReferences": [
+      {
+        "name": "www.alicaspepperpot.com",
+        "url": "https://www.alicaspepperpot.com/crunchy-mithai-kurma/",
+        "kind": "recipe-author",
+        "scope": "圭亚那食谱作者提供的菜品做法与当地名称；不验证餐馆售价。",
+        "checkedAt": "2026-10-16",
+        "verificationStatus": "scope-checked"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mithai",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "georgetown": [
+        {
+          "name": "市区糕点与小吃铺",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Georgetown%2C%20Guyana%20%E5%B8%82%E5%8C%BA%E7%B3%95%E7%82%B9%E4%B8%8E%E5%B0%8F%E5%90%83%E9%93%BA%20Mithai",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-georgetown-cassava-bread",
+    "cityIds": [
+      "georgetown"
+    ],
+    "name": "木薯面包",
+    "nameEn": "Cassava bread",
+    "localName": "Cassava bread",
+    "description": "木薯做成薄脆面饼，可搭餐食；选购现成安全加工产品。",
+    "article": "Casabe",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Casabe"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Casabe",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Casabe",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Casabe",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "georgetown": [
+        {
+          "name": "市场与本地食材店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Georgetown%2C%20Guyana%20%E5%B8%82%E5%9C%BA%E4%B8%8E%E6%9C%AC%E5%9C%B0%E9%A3%9F%E6%9D%90%E5%BA%97%20Cassava%20bread",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-paramaribo-surinamese-roti",
+    "cityIds": [
+      "paramaribo"
+    ],
+    "name": "苏里南罗蒂",
+    "nameEn": "Surinamese roti",
+    "localName": "Surinamese roti",
+    "description": "扁面饼配咖喱、土豆与蔬菜，可询问鸡肉或素食版本。",
+    "article": "Roti",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roti"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Roti",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Roti",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 13.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roti",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "paramaribo": [
+        {
+          "name": "印度裔风味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Paramaribo%20%E5%8D%B0%E5%BA%A6%E8%A3%94%E9%A3%8E%E5%91%B3%E9%A4%90%E9%A6%86%20Surinamese%20roti",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-paramaribo-saoto",
+    "cityIds": [
+      "paramaribo"
+    ],
+    "name": "绍托汤",
+    "nameEn": "Saoto",
+    "localName": "Saoto",
+    "description": "清汤搭鸡肉、豆芽等配料，米饭和额外配菜按店内点法。",
+    "article": "Soto (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soto_%28food%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Soto_%28food%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Soto_%28food%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soto_%28food%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "paramaribo": [
+        {
+          "name": "爪哇风味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Paramaribo%20%E7%88%AA%E5%93%87%E9%A3%8E%E5%91%B3%E9%A4%90%E9%A6%86%20Saoto",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-paramaribo-pom",
+    "cityIds": [
+      "paramaribo"
+    ],
+    "name": "波姆焗菜",
+    "nameEn": "Pom",
+    "localName": "Pom",
+    "description": "根茎食材与肉等烘焗，口感绵密，是否供应通常需查当日菜单。",
+    "article": "Pom (dish)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pom_%28dish%29"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pom_%28dish%29",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Pom_%28dish%29",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pom_%28dish%29",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "paramaribo": [
+        {
+          "name": "克里奥尔家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Paramaribo%20%E5%85%8B%E9%87%8C%E5%A5%A5%E5%B0%94%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Pom",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-paramaribo-bami",
+    "cityIds": [
+      "paramaribo"
+    ],
+    "name": "巴米炒面",
+    "nameEn": "Bami",
+    "localName": "Bami",
+    "description": "带当地调味的炒面，可搭鸡肉、蔬菜与辣酱。",
+    "article": "Mie goreng",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mie_goreng"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mie_goreng",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mie_goreng",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mie_goreng",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "paramaribo": [
+        {
+          "name": "爪哇风味餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Paramaribo%20%E7%88%AA%E5%93%87%E9%A3%8E%E5%91%B3%E9%A4%90%E9%A6%86%20Bami",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-paramaribo-bojo",
+    "cityIds": [
+      "paramaribo"
+    ],
+    "name": "博约椰香木薯糕",
+    "nameEn": "Bojo",
+    "localName": "Bojo",
+    "description": "木薯与椰子等烤制成的甜糕，适合作为小份下午点心。",
+    "article": "Bojo cake",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bojo_cake"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bojo_cake",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bojo_cake",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bojo_cake",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "paramaribo": [
+        {
+          "name": "市区糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Paramaribo%20%E5%B8%82%E5%8C%BA%E7%B3%95%E7%82%B9%E5%BA%97%20Bojo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-montevideo-chivito",
+    "cityIds": [
+      "montevideo"
+    ],
+    "name": "奇维托牛肉三明治",
+    "nameEn": "Chivito",
+    "localName": "Chivito",
+    "description": "薄牛肉片搭多种配料的三明治，也有盘装版本，份量通常较大。",
+    "article": "Chivito",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chivito"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chivito",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chivito",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chivito",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "montevideo": [
+        {
+          "name": "市区快餐与咖啡馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Montevideo%20%E5%B8%82%E5%8C%BA%E5%BF%AB%E9%A4%90%E4%B8%8E%E5%92%96%E5%95%A1%E9%A6%86%20Chivito",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-montevideo-asado",
+    "cityIds": [
+      "montevideo"
+    ],
+    "name": "乌拉圭烤肉",
+    "nameEn": "Asado",
+    "localName": "Asado",
+    "description": "按肉种、重量与拼盘人数比较费用，沙拉和饮料通常另点。",
+    "article": "Asado",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asado"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Asado",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Asado",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 15.0,
+      "high": 35.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asado",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "montevideo": [
+        {
+          "name": "Mercado del Puerto烤肉馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Montevideo%20Mercado%20del%20Puerto%E7%83%A4%E8%82%89%E9%A6%86%20Asado",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-montevideo-faina",
+    "cityIds": [
+      "montevideo"
+    ],
+    "name": "法伊纳鹰嘴豆饼",
+    "nameEn": "Faina",
+    "localName": "Faina",
+    "description": "鹰嘴豆粉烤成薄饼，可单吃或与披萨搭配。",
+    "article": "Farinata",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Farinata"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Farinata",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Farinata",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Farinata",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "montevideo": [
+        {
+          "name": "披萨店与小餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Montevideo%20%E6%8A%AB%E8%90%A8%E5%BA%97%E4%B8%8E%E5%B0%8F%E9%A4%90%E9%A6%86%20Faina",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-montevideo-tortas-fritas",
+    "cityIds": [
+      "montevideo"
+    ],
+    "name": "炸面饼",
+    "nameEn": "Tortas fritas",
+    "localName": "Tortas fritas",
+    "description": "面团炸成扁饼，常配马黛茶，适合少量试吃。",
+    "article": "Torta frita",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Torta_frita"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Torta_frita",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Torta_frita",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Torta_frita",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "montevideo": [
+        {
+          "name": "街头小吃与面包店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Montevideo%20%E8%A1%97%E5%A4%B4%E5%B0%8F%E5%90%83%E4%B8%8E%E9%9D%A2%E5%8C%85%E5%BA%97%20Tortas%20fritas",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-montevideo-alfajores",
+    "cityIds": [
+      "montevideo"
+    ],
+    "name": "焦糖奶酱饼干",
+    "nameEn": "Alfajores",
+    "localName": "Alfajores",
+    "description": "两片饼干夹焦糖奶酱，外层可裹巧克力或椰丝。",
+    "article": "Alfajor",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alfajor"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alfajor",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Alfajor",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alfajor",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "montevideo": [
+        {
+          "name": "面包糕点店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Montevideo%20%E9%9D%A2%E5%8C%85%E7%B3%95%E7%82%B9%E5%BA%97%20Alfajores",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-caracas-arepa",
+    "cityIds": [
+      "caracas"
+    ],
+    "name": "阿雷帕玉米饼",
+    "nameEn": "Arepa",
+    "localName": "Arepa",
+    "description": "玉米面饼剖开夹肉、豆、奶酪或其他馅料，价格随馅料而变。",
+    "article": "Arepa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arepa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arepa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Arepa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arepa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "caracas": [
+        {
+          "name": "市区arepera餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Caracas%20%E5%B8%82%E5%8C%BAarepera%E9%A4%90%E9%A6%86%20Arepa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-caracas-pabellon-criollo",
+    "cityIds": [
+      "caracas"
+    ],
+    "name": "克里奥尔拼盘",
+    "nameEn": "Pabellon criollo",
+    "localName": "Pabellon criollo",
+    "description": "米饭、黑豆、手撕肉与食蕉组成典型拼盘。",
+    "article": "Pabellón criollo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "caracas": [
+        {
+          "name": "委内瑞拉家常菜餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Caracas%20%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E5%AE%B6%E5%B8%B8%E8%8F%9C%E9%A4%90%E9%A6%86%20Pabellon%20criollo",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-caracas-cachapa",
+    "cityIds": [
+      "caracas"
+    ],
+    "name": "卡查帕甜玉米饼",
+    "nameEn": "Cachapa",
+    "localName": "Cachapa",
+    "description": "鲜玉米做成较厚煎饼，常夹软奶酪，咸甜口感相互平衡。",
+    "article": "Cachapa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cachapa"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cachapa",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cachapa",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cachapa",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "caracas": [
+        {
+          "name": "玉米饼餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Caracas%20%E7%8E%89%E7%B1%B3%E9%A5%BC%E9%A4%90%E9%A6%86%20Cachapa",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-caracas-tequenos",
+    "cityIds": [
+      "caracas"
+    ],
+    "name": "特克尼奥奶酪卷",
+    "nameEn": "Tequenos",
+    "localName": "Tequenos",
+    "description": "面皮包奶酪后炸制，适合按小份或拼盘试吃。",
+    "article": "Tequeño",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Teque%C3%B1o"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Teque%C3%B1o",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Teque%C3%B1o",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Teque%C3%B1o",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "caracas": [
+        {
+          "name": "咖啡馆与小吃店",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Caracas%20%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E5%B0%8F%E5%90%83%E5%BA%97%20Tequenos",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-caracas-venezuelan-empanada",
+    "cityIds": [
+      "caracas"
+    ],
+    "name": "委内瑞拉恩帕纳达",
+    "nameEn": "Venezuelan empanada",
+    "localName": "Venezuelan empanada",
+    "description": "玉米面皮包馅后油炸，肉、鱼或奶酪版本不同。",
+    "article": "Empanada",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Empanada"
+    },
+    "sourceUrl": "https://en.wikipedia.org/wiki/Empanada",
+    "sourceCheckedAt": null,
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Empanada",
+        "kind": "encyclopedia-reference",
+        "scope": "菜品名称、食材与主题图片线索；未核验具体餐馆当日菜单。",
+        "checkedAt": null,
+        "verificationStatus": "unverified"
+      }
+    ],
+    "sourceScope": "regional-food-context",
+    "sourceStatus": "editorial-reference",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Empanada",
+      "checkedAt": null,
+      "note": "美元规划估算，非实时报价；不代表市场最低和最高价。实际日期、税费、票种与包含服务须向经营者核对。",
+      "unit": "serving"
+    },
+    "servingNote": "按单份或一人份规划；计入日常餐费，不额外叠加成门票。",
+    "whereByCity": {
+      "caracas": [
+        {
+          "name": "早餐铺与小吃餐馆",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Caracas%20%E6%97%A9%E9%A4%90%E9%93%BA%E4%B8%8E%E5%B0%8F%E5%90%83%E9%A4%90%E9%A6%86%20Venezuelan%20empanada",
+          "note": "餐饮检索区域，具体商家是否供应及当日价格请查看菜单。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  }
+]

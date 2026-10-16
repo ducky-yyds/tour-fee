@@ -27,6 +27,7 @@ import { getVisitDurationRange } from "../shared/itinerary.mjs";
 import { getTripDuration, recommendedDays } from "../shared/trip-duration.mjs";
 import { Photo, Modal, OutLink, money } from "./ui.jsx";
 import CityBrief from "./CityBrief.jsx";
+import TravelConditions from './TravelConditions.jsx';
 import LocalFoodGuide from "./LocalFoodGuide.jsx";
 import SourceReferences from "./SourceReferences.jsx";
 import DestinationSelect from "./DestinationSelect.jsx";
@@ -606,6 +607,7 @@ export default function CityHome({
         <ImageCredit image={city.image} />
       </section>
       {locale === 'en' && <p className="original-content-note" lang="en">Some destination descriptions are currently available in Chinese only.</p>}
+      <TravelConditions advisory={city.travelAdvisory} />
       <CityBrief
         key={city.id}
         city={city}

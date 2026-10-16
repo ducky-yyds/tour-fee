@@ -1,0 +1,1884 @@
+{
+  "checkedAt": "2026-10-16T08:29:50.821Z",
+  "thresholdKm2": 100000,
+  "scope": "Large ISO countries and regions, excluding Antarctica; small-scale map geometry supplemented with published Liberia, South Korea and Western Sahara areas. Geographic inventory, not a recommendation or assertion of current travel access.",
+  "mapSource": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+  "targetCountriesAndRegions": 109,
+  "coveredTargets": 109,
+  "totalCities": 294,
+  "totalCountriesAndRegions": 136,
+  "addedCities": 71,
+  "addedEntries": 1420,
+  "photographCoverage": {
+    "place": {
+      "total": 497,
+      "photographs": 365,
+      "pending": 132
+    },
+    "experience": {
+      "total": 213,
+      "photographs": 151,
+      "pending": 62
+    },
+    "food": {
+      "total": 355,
+      "photographs": 250,
+      "pending": 105
+    },
+    "hotel": {
+      "total": 355,
+      "photographs": 37,
+      "pending": 318
+    }
+  },
+  "countries": [
+    {
+      "countryCode": "AF",
+      "nameEn": "Afghanistan",
+      "approximateAreaKm2": 652474,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kabul"
+      ]
+    },
+    {
+      "countryCode": "AO",
+      "nameEn": "Angola",
+      "approximateAreaKm2": 1250215,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "luanda"
+      ]
+    },
+    {
+      "countryCode": "AR",
+      "nameEn": "Argentina",
+      "approximateAreaKm2": 2784442,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "buenos-aires",
+        "ushuaia"
+      ]
+    },
+    {
+      "countryCode": "AU",
+      "nameEn": "Australia",
+      "approximateAreaKm2": 7702302,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "sydney",
+        "melbourne"
+      ]
+    },
+    {
+      "countryCode": "BD",
+      "nameEn": "Bangladesh",
+      "approximateAreaKm2": 134089,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "dhaka"
+      ]
+    },
+    {
+      "countryCode": "BF",
+      "nameEn": "Burkina Faso",
+      "approximateAreaKm2": 272626,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "ouagadougou"
+      ]
+    },
+    {
+      "countryCode": "BG",
+      "nameEn": "Bulgaria",
+      "approximateAreaKm2": 110041,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "sofia"
+      ]
+    },
+    {
+      "countryCode": "BJ",
+      "nameEn": "Benin",
+      "approximateAreaKm2": 117487,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "cotonou"
+      ]
+    },
+    {
+      "countryCode": "BO",
+      "nameEn": "Bolivia",
+      "approximateAreaKm2": 1088944,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "la-paz"
+      ]
+    },
+    {
+      "countryCode": "BR",
+      "nameEn": "Brazil",
+      "approximateAreaKm2": 8540767,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "rio-de-janeiro",
+        "salvador",
+        "manaus",
+        "foz-do-iguacu"
+      ]
+    },
+    {
+      "countryCode": "BW",
+      "nameEn": "Botswana",
+      "approximateAreaKm2": 593404,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "maun"
+      ]
+    },
+    {
+      "countryCode": "BY",
+      "nameEn": "Belarus",
+      "approximateAreaKm2": 208116,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "minsk"
+      ]
+    },
+    {
+      "countryCode": "CA",
+      "nameEn": "Canada",
+      "approximateAreaKm2": 9984362,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "vancouver",
+        "toronto",
+        "quebec-city"
+      ]
+    },
+    {
+      "countryCode": "CD",
+      "nameEn": "Dem. Rep. Congo",
+      "approximateAreaKm2": 2333678,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kinshasa"
+      ]
+    },
+    {
+      "countryCode": "CF",
+      "nameEn": "Central African Rep.",
+      "approximateAreaKm2": 624495,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bangui"
+      ]
+    },
+    {
+      "countryCode": "CG",
+      "nameEn": "Congo",
+      "approximateAreaKm2": 341214,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "brazzaville"
+      ]
+    },
+    {
+      "countryCode": "CI",
+      "nameEn": "Côte d'Ivoire",
+      "approximateAreaKm2": 331252,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "abidjan"
+      ]
+    },
+    {
+      "countryCode": "CL",
+      "nameEn": "Chile",
+      "approximateAreaKm2": 814463,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "santiago"
+      ]
+    },
+    {
+      "countryCode": "CM",
+      "nameEn": "Cameroon",
+      "approximateAreaKm2": 462339,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "yaounde"
+      ]
+    },
+    {
+      "countryCode": "CN",
+      "nameEn": "China",
+      "approximateAreaKm2": 9407917,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "shanghai",
+        "beijing",
+        "chengdu",
+        "xian",
+        "hangzhou",
+        "guangzhou",
+        "chongqing",
+        "jinan",
+        "zhengzhou",
+        "haikou",
+        "sanya",
+        "wanning",
+        "lingshui",
+        "xiamen",
+        "qingdao",
+        "dali",
+        "lijiang",
+        "guilin",
+        "luoyang",
+        "quanzhou",
+        "nanjing",
+        "suzhou",
+        "shenzhen",
+        "changsha",
+        "wuhan",
+        "harbin",
+        "dunhuang",
+        "zhangjiajie",
+        "yanan",
+        "tianjin",
+        "nanchang",
+        "zunyi",
+        "shangri-la",
+        "huangshan",
+        "hefei",
+        "fuzhou",
+        "wuyishan",
+        "jingdezhen",
+        "yangzhou",
+        "shaoxing",
+        "chaozhou",
+        "leshan",
+        "guiyang",
+        "kunming",
+        "jinghong",
+        "tengchong",
+        "lhasa",
+        "nyingchi",
+        "xining",
+        "lanzhou",
+        "zhangye",
+        "urumqi",
+        "kashgar",
+        "yining",
+        "chengde",
+        "qinhuangdao",
+        "datong",
+        "pingyao",
+        "hohhot",
+        "hailar",
+        "shenyang",
+        "dalian",
+        "changchun",
+        "yanji",
+        "yinchuan"
+      ]
+    },
+    {
+      "countryCode": "CO",
+      "nameEn": "Colombia",
+      "approximateAreaKm2": 1157019,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "cartagena"
+      ]
+    },
+    {
+      "countryCode": "CU",
+      "nameEn": "Cuba",
+      "approximateAreaKm2": 115201,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "havana"
+      ]
+    },
+    {
+      "countryCode": "DE",
+      "nameEn": "Germany",
+      "approximateAreaKm2": 356101,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "berlin",
+        "munich",
+        "hamburg",
+        "cologne",
+        "frankfurt"
+      ]
+    },
+    {
+      "countryCode": "DZ",
+      "nameEn": "Algeria",
+      "approximateAreaKm2": 2319400,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "algiers"
+      ]
+    },
+    {
+      "countryCode": "EC",
+      "nameEn": "Ecuador",
+      "approximateAreaKm2": 251869,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "quito"
+      ]
+    },
+    {
+      "countryCode": "EG",
+      "nameEn": "Egypt",
+      "approximateAreaKm2": 998017,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "cairo",
+        "luxor",
+        "hurghada"
+      ]
+    },
+    {
+      "countryCode": "EH",
+      "nameEn": "Western Sahara",
+      "publishedAreaKm2": 266000,
+      "sourceUrl": "https://www.un.org/dppa/decolonization/en/nsgt/western-sahara",
+      "basis": "published-territory-area",
+      "cities": [
+        "dakhla"
+      ]
+    },
+    {
+      "countryCode": "ER",
+      "nameEn": "Eritrea",
+      "approximateAreaKm2": 119707,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "asmara"
+      ]
+    },
+    {
+      "countryCode": "ES",
+      "nameEn": "Spain",
+      "approximateAreaKm2": 501719,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "barcelona",
+        "madrid",
+        "seville",
+        "granada"
+      ]
+    },
+    {
+      "countryCode": "ET",
+      "nameEn": "Ethiopia",
+      "approximateAreaKm2": 1137033,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "addis-ababa"
+      ]
+    },
+    {
+      "countryCode": "FI",
+      "nameEn": "Finland",
+      "approximateAreaKm2": 339051,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "helsinki",
+        "rovaniemi"
+      ]
+    },
+    {
+      "countryCode": "FR",
+      "nameEn": "France",
+      "approximateAreaKm2": 643818,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "paris",
+        "nice",
+        "lyon",
+        "marseille"
+      ]
+    },
+    {
+      "countryCode": "GA",
+      "nameEn": "Gabon",
+      "approximateAreaKm2": 270696,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "libreville"
+      ]
+    },
+    {
+      "countryCode": "GB",
+      "nameEn": "United Kingdom",
+      "approximateAreaKm2": 248938,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "london",
+        "edinburgh"
+      ]
+    },
+    {
+      "countryCode": "GH",
+      "nameEn": "Ghana",
+      "approximateAreaKm2": 244475,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "accra"
+      ]
+    },
+    {
+      "countryCode": "GL",
+      "nameEn": "Greenland",
+      "approximateAreaKm2": 2189757,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "nuuk"
+      ]
+    },
+    {
+      "countryCode": "GN",
+      "nameEn": "Guinea",
+      "approximateAreaKm2": 240532,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "conakry"
+      ]
+    },
+    {
+      "countryCode": "GR",
+      "nameEn": "Greece",
+      "approximateAreaKm2": 131885,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "athens",
+        "santorini",
+        "naxos"
+      ]
+    },
+    {
+      "countryCode": "GT",
+      "nameEn": "Guatemala",
+      "approximateAreaKm2": 109851,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "antigua-guatemala"
+      ]
+    },
+    {
+      "countryCode": "GY",
+      "nameEn": "Guyana",
+      "approximateAreaKm2": 210761,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "georgetown"
+      ]
+    },
+    {
+      "countryCode": "HN",
+      "nameEn": "Honduras",
+      "approximateAreaKm2": 114194,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "roatan"
+      ]
+    },
+    {
+      "countryCode": "ID",
+      "nameEn": "Indonesia",
+      "approximateAreaKm2": 1827552,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bali",
+        "lombok"
+      ]
+    },
+    {
+      "countryCode": "IN",
+      "nameEn": "India",
+      "approximateAreaKm2": 3150403,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "delhi",
+        "jaipur"
+      ]
+    },
+    {
+      "countryCode": "IQ",
+      "nameEn": "Iraq",
+      "approximateAreaKm2": 437211,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "baghdad"
+      ]
+    },
+    {
+      "countryCode": "IR",
+      "nameEn": "Iran",
+      "approximateAreaKm2": 1618519,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "tehran"
+      ]
+    },
+    {
+      "countryCode": "IS",
+      "nameEn": "Iceland",
+      "approximateAreaKm2": 107024,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "reykjavik",
+        "vik",
+        "akureyri"
+      ]
+    },
+    {
+      "countryCode": "IT",
+      "nameEn": "Italy",
+      "approximateAreaKm2": 314540,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "rome",
+        "venice",
+        "florence"
+      ]
+    },
+    {
+      "countryCode": "JP",
+      "nameEn": "Japan",
+      "approximateAreaKm2": 404393,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "tokyo",
+        "kyoto",
+        "osaka",
+        "sapporo",
+        "fukuoka",
+        "hiroshima",
+        "naha"
+      ]
+    },
+    {
+      "countryCode": "KE",
+      "nameEn": "Kenya",
+      "approximateAreaKm2": 593551,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "nairobi",
+        "mombasa"
+      ]
+    },
+    {
+      "countryCode": "KG",
+      "nameEn": "Kyrgyzstan",
+      "approximateAreaKm2": 195673,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bishkek"
+      ]
+    },
+    {
+      "countryCode": "KH",
+      "nameEn": "Cambodia",
+      "approximateAreaKm2": 182954,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "siem-reap"
+      ]
+    },
+    {
+      "countryCode": "KP",
+      "nameEn": "North Korea",
+      "approximateAreaKm2": 125536,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "pyongyang"
+      ]
+    },
+    {
+      "countryCode": "KR",
+      "nameEn": "South Korea",
+      "publishedAreaKm2": 100450,
+      "sourceUrl": "https://data.worldbank.org/indicator/AG.SRF.TOTL.K2?locations=KR",
+      "basis": "published-surface-area",
+      "cities": [
+        "seoul",
+        "busan",
+        "jeju"
+      ]
+    },
+    {
+      "countryCode": "KZ",
+      "nameEn": "Kazakhstan",
+      "approximateAreaKm2": 2721779,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "almaty"
+      ]
+    },
+    {
+      "countryCode": "LA",
+      "nameEn": "Laos",
+      "approximateAreaKm2": 229800,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "luang-prabang"
+      ]
+    },
+    {
+      "countryCode": "LR",
+      "nameEn": "Liberia",
+      "publishedAreaKm2": 111370,
+      "sourceUrl": "https://data.worldbank.org/indicator/AG.SRF.TOTL.K2?locations=LR",
+      "basis": "published-surface-area",
+      "cities": [
+        "monrovia"
+      ]
+    },
+    {
+      "countryCode": "LY",
+      "nameEn": "Libya",
+      "approximateAreaKm2": 1636663,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "tripoli-libya"
+      ]
+    },
+    {
+      "countryCode": "MA",
+      "nameEn": "Morocco",
+      "approximateAreaKm2": 592381,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "marrakech",
+        "fes",
+        "essaouira",
+        "rabat"
+      ]
+    },
+    {
+      "countryCode": "MG",
+      "nameEn": "Madagascar",
+      "approximateAreaKm2": 591061,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "antananarivo"
+      ]
+    },
+    {
+      "countryCode": "ML",
+      "nameEn": "Mali",
+      "approximateAreaKm2": 1239559,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bamako"
+      ]
+    },
+    {
+      "countryCode": "MM",
+      "nameEn": "Myanmar",
+      "approximateAreaKm2": 681309,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "yangon"
+      ]
+    },
+    {
+      "countryCode": "MN",
+      "nameEn": "Mongolia",
+      "approximateAreaKm2": 1540299,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "ulaanbaatar"
+      ]
+    },
+    {
+      "countryCode": "MR",
+      "nameEn": "Mauritania",
+      "approximateAreaKm2": 1057283,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "nouakchott"
+      ]
+    },
+    {
+      "countryCode": "MW",
+      "nameEn": "Malawi",
+      "approximateAreaKm2": 111596,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "lilongwe"
+      ]
+    },
+    {
+      "countryCode": "MX",
+      "nameEn": "Mexico",
+      "approximateAreaKm2": 1973933,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "mexico-city",
+        "cancun"
+      ]
+    },
+    {
+      "countryCode": "MY",
+      "nameEn": "Malaysia",
+      "approximateAreaKm2": 339750,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kuala-lumpur",
+        "penang",
+        "langkawi",
+        "kota-kinabalu"
+      ]
+    },
+    {
+      "countryCode": "MZ",
+      "nameEn": "Mozambique",
+      "approximateAreaKm2": 813664,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "maputo"
+      ]
+    },
+    {
+      "countryCode": "NA",
+      "nameEn": "Namibia",
+      "approximateAreaKm2": 827108,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "windhoek"
+      ]
+    },
+    {
+      "countryCode": "NE",
+      "nameEn": "Niger",
+      "approximateAreaKm2": 1186147,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "niamey"
+      ]
+    },
+    {
+      "countryCode": "NG",
+      "nameEn": "Nigeria",
+      "approximateAreaKm2": 908762,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "lagos"
+      ]
+    },
+    {
+      "countryCode": "NI",
+      "nameEn": "Nicaragua",
+      "approximateAreaKm2": 130021,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "granada-nicaragua"
+      ]
+    },
+    {
+      "countryCode": "NO",
+      "nameEn": "Norway",
+      "approximateAreaKm2": 395406,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "oslo",
+        "bergen",
+        "tromso"
+      ]
+    },
+    {
+      "countryCode": "NP",
+      "nameEn": "Nepal",
+      "approximateAreaKm2": 150927,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kathmandu"
+      ]
+    },
+    {
+      "countryCode": "NZ",
+      "nameEn": "New Zealand",
+      "approximateAreaKm2": 277224,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "auckland",
+        "queenstown"
+      ]
+    },
+    {
+      "countryCode": "OM",
+      "nameEn": "Oman",
+      "approximateAreaKm2": 310208,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "muscat"
+      ]
+    },
+    {
+      "countryCode": "PE",
+      "nameEn": "Peru",
+      "approximateAreaKm2": 1315164,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "lima",
+        "cusco"
+      ]
+    },
+    {
+      "countryCode": "PG",
+      "nameEn": "Papua New Guinea",
+      "approximateAreaKm2": 466500,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "port-moresby"
+      ]
+    },
+    {
+      "countryCode": "PH",
+      "nameEn": "Philippines",
+      "approximateAreaKm2": 293251,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "manila",
+        "cebu"
+      ]
+    },
+    {
+      "countryCode": "PK",
+      "nameEn": "Pakistan",
+      "approximateAreaKm2": 875144,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "lahore"
+      ]
+    },
+    {
+      "countryCode": "PL",
+      "nameEn": "Poland",
+      "approximateAreaKm2": 309190,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "warsaw",
+        "krakow"
+      ]
+    },
+    {
+      "countryCode": "PY",
+      "nameEn": "Paraguay",
+      "approximateAreaKm2": 402308,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "asuncion"
+      ]
+    },
+    {
+      "countryCode": "RO",
+      "nameEn": "Romania",
+      "approximateAreaKm2": 237769,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bucharest"
+      ]
+    },
+    {
+      "countryCode": "RU",
+      "nameEn": "Russia",
+      "approximateAreaKm2": 16924438,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "moscow",
+        "saint-petersburg"
+      ]
+    },
+    {
+      "countryCode": "SA",
+      "nameEn": "Saudi Arabia",
+      "approximateAreaKm2": 1924615,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "riyadh"
+      ]
+    },
+    {
+      "countryCode": "SD",
+      "nameEn": "Sudan",
+      "approximateAreaKm2": 1857287,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "port-sudan"
+      ]
+    },
+    {
+      "countryCode": "SE",
+      "nameEn": "Sweden",
+      "approximateAreaKm2": 447840,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "stockholm"
+      ]
+    },
+    {
+      "countryCode": "SN",
+      "nameEn": "Senegal",
+      "approximateAreaKm2": 195072,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "dakar"
+      ]
+    },
+    {
+      "countryCode": "SO",
+      "nameEn": "Somalia",
+      "approximateAreaKm2": 486627,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "mogadishu"
+      ]
+    },
+    {
+      "countryCode": "SR",
+      "nameEn": "Suriname",
+      "approximateAreaKm2": 144945,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "paramaribo"
+      ]
+    },
+    {
+      "countryCode": "SS",
+      "nameEn": "S. Sudan",
+      "approximateAreaKm2": 627532,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "juba"
+      ]
+    },
+    {
+      "countryCode": "SY",
+      "nameEn": "Syria",
+      "approximateAreaKm2": 184991,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "damascus"
+      ]
+    },
+    {
+      "countryCode": "TD",
+      "nameEn": "Chad",
+      "approximateAreaKm2": 1276027,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "ndjamena"
+      ]
+    },
+    {
+      "countryCode": "TH",
+      "nameEn": "Thailand",
+      "approximateAreaKm2": 511939,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "bangkok",
+        "chiang-mai",
+        "krabi",
+        "ko-lanta"
+      ]
+    },
+    {
+      "countryCode": "TJ",
+      "nameEn": "Tajikistan",
+      "approximateAreaKm2": 138018,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "dushanbe"
+      ]
+    },
+    {
+      "countryCode": "TM",
+      "nameEn": "Turkmenistan",
+      "approximateAreaKm2": 480372,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "ashgabat"
+      ]
+    },
+    {
+      "countryCode": "TN",
+      "nameEn": "Tunisia",
+      "approximateAreaKm2": 156296,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "tunis"
+      ]
+    },
+    {
+      "countryCode": "TR",
+      "nameEn": "Turkey",
+      "approximateAreaKm2": 798153,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "istanbul",
+        "cappadocia"
+      ]
+    },
+    {
+      "countryCode": "TZ",
+      "nameEn": "Tanzania",
+      "approximateAreaKm2": 936832,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "zanzibar",
+        "arusha"
+      ]
+    },
+    {
+      "countryCode": "UA",
+      "nameEn": "Ukraine",
+      "approximateAreaKm2": 570736,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kyiv"
+      ]
+    },
+    {
+      "countryCode": "UG",
+      "nameEn": "Uganda",
+      "approximateAreaKm2": 246860,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "kampala"
+      ]
+    },
+    {
+      "countryCode": "US",
+      "nameEn": "United States of America",
+      "approximateAreaKm2": 9494324,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "new-york",
+        "los-angeles",
+        "san-francisco",
+        "seattle",
+        "san-diego",
+        "las-vegas",
+        "portland",
+        "monterey",
+        "honolulu",
+        "anchorage",
+        "washington-dc",
+        "boston",
+        "philadelphia",
+        "chicago",
+        "atlanta",
+        "charleston",
+        "savannah",
+        "miami",
+        "orlando",
+        "new-orleans",
+        "nashville",
+        "austin",
+        "san-antonio",
+        "denver",
+        "salt-lake-city",
+        "flagstaff"
+      ]
+    },
+    {
+      "countryCode": "UY",
+      "nameEn": "Uruguay",
+      "approximateAreaKm2": 176982,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "montevideo"
+      ]
+    },
+    {
+      "countryCode": "UZ",
+      "nameEn": "Uzbekistan",
+      "approximateAreaKm2": 460707,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "samarkand"
+      ]
+    },
+    {
+      "countryCode": "VE",
+      "nameEn": "Venezuela",
+      "approximateAreaKm2": 912352,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "caracas"
+      ]
+    },
+    {
+      "countryCode": "VN",
+      "nameEn": "Vietnam",
+      "approximateAreaKm2": 337129,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "hanoi",
+        "ho-chi-minh-city",
+        "hoi-an",
+        "da-nang"
+      ]
+    },
+    {
+      "countryCode": "YE",
+      "nameEn": "Yemen",
+      "approximateAreaKm2": 457454,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "sanaa"
+      ]
+    },
+    {
+      "countryCode": "ZA",
+      "nameEn": "South Africa",
+      "approximateAreaKm2": 1218037,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "cape-town",
+        "johannesburg",
+        "hermanus"
+      ]
+    },
+    {
+      "countryCode": "ZM",
+      "nameEn": "Zambia",
+      "approximateAreaKm2": 754809,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "livingstone"
+      ]
+    },
+    {
+      "countryCode": "ZW",
+      "nameEn": "Zimbabwe",
+      "approximateAreaKm2": 377474,
+      "basis": "bundled-map-geometry",
+      "cities": [
+        "victoria-falls"
+      ]
+    }
+  ],
+  "added": [
+    {
+      "cityId": "port-sudan",
+      "name": "苏丹港",
+      "countryCode": "SD",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "addis-ababa",
+      "name": "亚的斯亚贝巴",
+      "countryCode": "ET",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "windhoek",
+      "name": "温得和克",
+      "countryCode": "NA",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "maputo",
+      "name": "马普托",
+      "countryCode": "MZ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "livingstone",
+      "name": "利文斯通",
+      "countryCode": "ZM",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "juba",
+      "name": "朱巴",
+      "countryCode": "SS",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "maun",
+      "name": "马翁",
+      "countryCode": "BW",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "antananarivo",
+      "name": "塔那那利佛",
+      "countryCode": "MG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "mogadishu",
+      "name": "摩加迪沙",
+      "countryCode": "SO",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "victoria-falls",
+      "name": "维多利亚瀑布镇",
+      "countryCode": "ZW",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "kampala",
+      "name": "坎帕拉",
+      "countryCode": "UG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "accra",
+      "name": "阿克拉",
+      "countryCode": "GH",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "tunis",
+      "name": "突尼斯市",
+      "countryCode": "TN",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "asmara",
+      "name": "阿斯马拉",
+      "countryCode": "ER",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "lilongwe",
+      "name": "利隆圭",
+      "countryCode": "MW",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "la-paz",
+      "name": "拉巴斯",
+      "countryCode": "BO",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "asuncion",
+      "name": "亚松森",
+      "countryCode": "PY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "georgetown",
+      "name": "乔治敦",
+      "countryCode": "GY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "paramaribo",
+      "name": "帕拉马里博",
+      "countryCode": "SR",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "montevideo",
+      "name": "蒙得维的亚",
+      "countryCode": "UY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "caracas",
+      "name": "加拉加斯",
+      "countryCode": "VE",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "kinshasa",
+      "name": "金沙萨",
+      "countryCode": "CD",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "algiers",
+      "name": "阿尔及尔",
+      "countryCode": "DZ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "tripoli-libya",
+      "name": "的黎波里",
+      "countryCode": "LY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "ndjamena",
+      "name": "恩贾梅纳",
+      "countryCode": "TD",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "luanda",
+      "name": "罗安达",
+      "countryCode": "AO",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "bamako",
+      "name": "巴马科",
+      "countryCode": "ML",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "niamey",
+      "name": "尼亚美",
+      "countryCode": "NE",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "nouakchott",
+      "name": "努瓦克肖特",
+      "countryCode": "MR",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "lagos",
+      "name": "拉各斯",
+      "countryCode": "NG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "bangui",
+      "name": "班吉",
+      "countryCode": "CF",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "yaounde",
+      "name": "雅温得",
+      "countryCode": "CM",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "brazzaville",
+      "name": "布拉柴维尔",
+      "countryCode": "CG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "abidjan",
+      "name": "阿比让",
+      "countryCode": "CI",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "ouagadougou",
+      "name": "瓦加杜古",
+      "countryCode": "BF",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "libreville",
+      "name": "利伯维尔",
+      "countryCode": "GA",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "conakry",
+      "name": "科纳克里",
+      "countryCode": "GN",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "dakar",
+      "name": "达喀尔",
+      "countryCode": "SN",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "cotonou",
+      "name": "科托努",
+      "countryCode": "BJ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "dakhla",
+      "name": "达赫拉",
+      "countryCode": "EH",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "moscow",
+      "name": "莫斯科",
+      "countryCode": "RU",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "saint-petersburg",
+      "name": "圣彼得堡",
+      "countryCode": "RU",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "ulaanbaatar",
+      "name": "乌兰巴托",
+      "countryCode": "MN",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "almaty",
+      "name": "阿拉木图",
+      "countryCode": "KZ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "riyadh",
+      "name": "利雅得",
+      "countryCode": "SA",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "tehran",
+      "name": "德黑兰",
+      "countryCode": "IR",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "lahore",
+      "name": "拉合尔",
+      "countryCode": "PK",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "yangon",
+      "name": "仰光",
+      "countryCode": "MM",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "kabul",
+      "name": "喀布尔",
+      "countryCode": "AF",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "kyiv",
+      "name": "基辅",
+      "countryCode": "UA",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "ashgabat",
+      "name": "阿什哈巴德",
+      "countryCode": "TM",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "samarkand",
+      "name": "撒马尔罕",
+      "countryCode": "UZ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "sanaa",
+      "name": "萨那",
+      "countryCode": "YE",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "baghdad",
+      "name": "巴格达",
+      "countryCode": "IQ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "muscat",
+      "name": "马斯喀特",
+      "countryCode": "OM",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "bucharest",
+      "name": "布加勒斯特",
+      "countryCode": "RO",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "minsk",
+      "name": "明斯克",
+      "countryCode": "BY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "bishkek",
+      "name": "比什凯克",
+      "countryCode": "KG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "damascus",
+      "name": "大马士革",
+      "countryCode": "SY",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "dushanbe",
+      "name": "杜尚别",
+      "countryCode": "TJ",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "dhaka",
+      "name": "达卡",
+      "countryCode": "BD",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "pyongyang",
+      "name": "平壤",
+      "countryCode": "KP",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "sofia",
+      "name": "索非亚",
+      "countryCode": "BG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "nuuk",
+      "name": "努克",
+      "countryCode": "GL",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "port-moresby",
+      "name": "莫尔兹比港",
+      "countryCode": "PG",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "granada-nicaragua",
+      "name": "格拉纳达（尼加拉瓜）",
+      "countryCode": "NI",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "havana",
+      "name": "哈瓦那",
+      "countryCode": "CU",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "roatan",
+      "name": "罗阿坦岛",
+      "countryCode": "HN",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "antigua-guatemala",
+      "name": "安提瓜（危地马拉）",
+      "countryCode": "GT",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "monrovia",
+      "name": "蒙罗维亚",
+      "countryCode": "LR",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    },
+    {
+      "cityId": "santo-domingo",
+      "name": "圣多明各",
+      "countryCode": "DO",
+      "sights": 7,
+      "experiences": 3,
+      "foods": 5,
+      "hotels": 5,
+      "total": 20
+    }
+  ],
+  "problems": []
+}

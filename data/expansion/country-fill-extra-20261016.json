@@ -1,0 +1,3918 @@
+[
+  {
+    "id": "nuuk",
+    "name": "努克",
+    "nameEn": "Nuuk",
+    "countryCode": "GL",
+    "country": "格陵兰",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "DKK",
+    "lat": 64.1814,
+    "lng": -51.6941,
+    "iata": "GOH",
+    "article": "Nuuk",
+    "aliases": [
+      "努克",
+      "Nuuk"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nuuk"
+    },
+    "tagline": "在彩色港湾读因纽特文化，去峡湾看山海，再把夜晚留给格陵兰音乐。",
+    "description": "在彩色港湾读因纽特文化，去峡湾看山海，再把夜晚留给格陵兰音乐。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        95,
+        180,
+        340
+      ],
+      "food": [
+        30,
+        65,
+        125
+      ],
+      "transport": [
+        8,
+        25,
+        80
+      ],
+      "misc": [
+        10,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        950,
+        1750,
+        2900
+      ],
+      "utilities": [
+        100,
+        220,
+        420
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 DKK；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 6,
+      "reason": "中心步行结合公交；峡湾游船另订，不把出海与市内步行按同一交通方式计算。"
+    },
+    "transportNote": "中心步行结合公交；峡湾游船另订，不把出海与市内步行按同一交通方式计算。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "visitgreenland.com",
+        "url": "https://visitgreenland.com/destinations/nuuk/",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://visitgreenland.com/destinations/nuuk/",
+    "attractions": [
+      {
+        "id": "nuuk-national-museum",
+        "name": "格陵兰国家博物馆",
+        "nameEn": "Greenland National Museum",
+        "article": "Greenland National Museum",
+        "lat": 64.1826,
+        "lng": -51.7216,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "description": "从皮船、传统服饰与考古收藏理解格陵兰历史，尊重馆内对敏感展品的拍摄要求。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Greenland_National_Museum"
+        },
+        "price": {
+          "low": 8.0,
+          "high": 18.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-katuaq",
+        "name": "卡图阿克文化中心",
+        "nameEn": "Katuaq",
+        "article": "Katuaq",
+        "lat": 64.1763,
+        "lng": -51.7378,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化场馆",
+        "activityType": "culture",
+        "description": "欣赏以极光为灵感的木质立面，展览、咖啡和演出票务分开选择。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "文化场馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Katuaq"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-art-museum",
+        "name": "努克艺术博物馆",
+        "nameEn": "Nuuk Art Museum",
+        "article": "Nuuk Art Museum",
+        "lat": 64.1798,
+        "lng": -51.7308,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "美术馆",
+        "activityType": "culture",
+        "description": "看格陵兰艺术家的创作与不同年代对北极生活的表达，按实际展线参观。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "美术馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nuuk_Art_Museum"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-cathedral",
+        "name": "努克主教座堂",
+        "nameEn": "Nuuk Cathedral",
+        "article": "Nuuk Cathedral",
+        "lat": 64.1838,
+        "lng": -51.744,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 24,
+          "recommended": 40,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "从教堂外的海岸位置看旧城轮廓；内部参观以礼拜和开放安排为准。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nuuk_Cathedral"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-colonial-harbour",
+        "name": "努克旧港",
+        "nameEn": "Nuuk",
+        "article": "Nuuk",
+        "lat": 64.1825,
+        "lng": -51.74,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.3333333333333333,
+        "durationRange": {
+          "min": 48,
+          "recommended": 80,
+          "max": 120
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "港湾",
+        "activityType": "culture",
+        "description": "沿公开木栈道看传统建筑、海湾与日常渔港，私人码头和住宅保持距离。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "港湾",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nuuk"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imageScope": "nearby",
+        "imageContextNote": "所在城市或街区的实景参考；不表示照片正对该地点入口。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-egede-house",
+        "name": "汉斯埃格德故居外观",
+        "nameEn": "Hans Egede House",
+        "article": "Hans Egede House",
+        "lat": 64.1818,
+        "lng": -51.7388,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.5833333333333334,
+        "durationRange": {
+          "min": 21,
+          "recommended": 35,
+          "max": 52
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "description": "从公共道路看旧港的早期木屋，了解殖民历史；建筑仍有公务用途，不默认室内开放。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "历史建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Hans_Egede_House"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "nuuk-local-museum",
+        "name": "努托卡克地方博物馆",
+        "nameEn": "Nuuk Local Museum",
+        "article": "Nuuk Local Museum",
+        "lat": 64.1824,
+        "lng": -51.7393,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方博物馆",
+        "activityType": "culture",
+        "description": "以城市居民的生活、照片和物件认识努克的近现代变化，与国家博物馆的展览主题不同。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "地方博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+        "sourceReferences": [
+          {
+            "name": "visitgreenland.com",
+            "url": "https://visitgreenland.com/destinations/nuuk/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nuuk_Local_Museum"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 12.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitgreenland.com/destinations/nuuk/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "nuuk",
+      "intro": "在彩色港湾读因纽特文化，去峡湾看山海，再把夜晚留给格陵兰音乐。",
+      "foodHighlights": [
+        {
+          "name": "苏阿萨特炖汤",
+          "description": "以肉、洋葱和谷物等慢煮的传统汤，肉类随家庭与店家配方变化。"
+        },
+        {
+          "name": "当季格陵兰鱼排",
+          "description": "以当地捕获鱼类为主的餐盘，煎烤方式和配菜按当日渔获变化。"
+        },
+        {
+          "name": "驯鹿肉料理",
+          "description": "北极食材在现代餐厅中的一种选择，可先问熟度、来源与供应季节。"
+        },
+        {
+          "name": "麝牛肉汉堡",
+          "description": "用麝牛肉替代常规牛肉的汉堡并非每店都有，点单时确认实际肉类。"
+        },
+        {
+          "name": "格陵兰虾开放三明治",
+          "description": "虾与面包组成轻食，适合在博物馆和港湾参观间安排午餐。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "port-moresby",
+    "name": "莫尔兹比港",
+    "nameEn": "Port Moresby",
+    "countryCode": "PG",
+    "country": "巴布亚新几内亚",
+    "region": "大洋洲",
+    "currency": "USD",
+    "localCurrency": "PGK",
+    "lat": -9.4438,
+    "lng": 147.1803,
+    "iata": "POM",
+    "article": "Port Moresby",
+    "aliases": [
+      "莫尔兹比港",
+      "Port Moresby"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Port_Moresby"
+    },
+    "tagline": "用博物馆、鸟类和海港认识巴布亚新几内亚的多样文化，近郊森林与海岛单独安排。",
+    "description": "用博物馆、鸟类和海港认识巴布亚新几内亚的多样文化，近郊森林与海岛单独安排。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        85,
+        155,
+        300
+      ],
+      "food": [
+        18,
+        40,
+        90
+      ],
+      "transport": [
+        30,
+        65,
+        140
+      ],
+      "misc": [
+        10,
+        25,
+        60
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 PGK；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "优先酒店接送、正规出租或预约向导，市区景点分散；机场与城外森林另留车程。"
+    },
+    "transportNote": "优先酒店接送、正规出租或预约向导，市区景点分散；机场与城外森林另留车程。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "papuanewguinea.travel",
+        "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+    "attractions": [
+      {
+        "id": "port-moresby-museum",
+        "name": "巴布亚新几内亚国家博物馆",
+        "nameEn": "Papua New Guinea National Museum and Art Gallery",
+        "article": "Papua New Guinea National Museum and Art Gallery",
+        "lat": -9.411,
+        "lng": 147.184,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "description": "看传统船只、雕刻与区域文化藏品，按馆方当期开放范围安排。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Papua_New_Guinea_National_Museum_and_Art_Gallery"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 20.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-nature-park",
+        "name": "莫尔兹比港自然公园",
+        "nameEn": "Port Moresby Nature Park",
+        "article": "Port Moresby Nature Park",
+        "lat": -9.375,
+        "lng": 147.151,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然公园",
+        "activityType": "nature",
+        "description": "沿园内步道观察当地植物与鸟类，适合先认识区域生态。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "自然公园",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Port_Moresby_Nature_Park"
+        },
+        "price": {
+          "low": 15.0,
+          "high": 35.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-parliament",
+        "name": "国民议会外观",
+        "nameEn": "National Parliament House, Papua New Guinea",
+        "article": "National Parliament House, Papua New Guinea",
+        "lat": -9.414,
+        "lng": 147.183,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 27,
+          "recommended": 45,
+          "max": 68
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "建筑",
+        "activityType": "culture",
+        "description": "观察融合传统屋顶语言的建筑外观；内部访问须另行获准，不默认开放。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/National_Parliament_House%2C_Papua_New_Guinea"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-bomana",
+        "name": "博马纳战争公墓",
+        "nameEn": "Port Moresby (Bomana) War Cemetery",
+        "article": "Port Moresby (Bomana) War Cemetery",
+        "lat": -9.387,
+        "lng": 147.247,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史纪念",
+        "activityType": "culture",
+        "description": "在战争公墓了解太平洋战事与个人生命的历史，保持肃静。",
+        "priority": 65,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "历史纪念",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Port_Moresby_%28Bomana%29_War_Cemetery"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-ela-beach",
+        "name": "埃拉海滩",
+        "nameEn": "Ela Beach",
+        "article": "Ela Beach",
+        "lat": -9.48,
+        "lng": 147.151,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滩",
+        "activityType": "nature",
+        "description": "选择白天和适合当地条件的短时海滨停留，出行前向住宿方确认路线。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "海滩",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ela_Beach"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/stories/things-to-do-port-moresby/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-apec-haus",
+        "name": "APEC大厦海滨外观",
+        "nameEn": "APEC Haus",
+        "article": "APEC Haus",
+        "lat": -9.4814,
+        "lng": 147.1518,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 24,
+          "recommended": 40,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "当代建筑",
+        "activityType": "culture",
+        "description": "在允许进入的公共海滨看以航海文化为灵感的建筑；会议区域和内部访问须获准。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "当代建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/port-moresby-ncd/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/port-moresby-ncd/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/APEC_Haus"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/port-moresby-ncd/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "port-moresby-adventure-park",
+        "name": "冒险公园与兰花园",
+        "nameEn": "Adventure Park PNG",
+        "article": "Adventure Park PNG",
+        "lat": -9.354,
+        "lng": 147.282,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 108,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然公园",
+        "activityType": "nature",
+        "description": "在14英里方向的公园欣赏兰花和园林，游乐项目另付费，入园与项目开放先询问园方。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "自然公园",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://papuanewguinea.travel/port-moresby-ncd/",
+        "sourceReferences": [
+          {
+            "name": "papuanewguinea.travel",
+            "url": "https://papuanewguinea.travel/port-moresby-ncd/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Adventure_Park_PNG"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 30.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://papuanewguinea.travel/port-moresby-ncd/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "port-moresby",
+      "intro": "用博物馆、鸟类和海港认识巴布亚新几内亚的多样文化，近郊森林与海岛单独安排。",
+      "foodHighlights": [
+        {
+          "name": "木木地炉料理",
+          "description": "用热石慢熟肉类与根茎，是聚餐烹饪方式，需找明确提供该餐的活动或餐厅。"
+        },
+        {
+          "name": "西米饼",
+          "description": "以西米加工的饼食反映区域主食传统，口感和搭配随做法变化。"
+        },
+        {
+          "name": "椰奶绿叶菜",
+          "description": "用当地叶菜和椰奶烹煮，适合搭配根茎或米饭。"
+        },
+        {
+          "name": "蒸芋头与甘薯",
+          "description": "根茎食物在日常餐桌中常见，可作为主食或烤肉配菜。"
+        },
+        {
+          "name": "沿海烤鱼",
+          "description": "按当日渔获选择熟制鱼类，配椰奶蔬菜或根茎更接近当地家常搭配。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "granada-nicaragua",
+    "name": "格拉纳达（尼加拉瓜）",
+    "nameEn": "Granada, Nicaragua",
+    "countryCode": "NI",
+    "country": "尼加拉瓜",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "NIO",
+    "lat": 11.9344,
+    "lng": -85.956,
+    "iata": "MGA",
+    "article": "Granada, Nicaragua",
+    "aliases": [
+      "格拉纳达（尼加拉瓜）",
+      "Granada, Nicaragua"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Granada%2C_Nicaragua"
+    },
+    "tagline": "从彩色庭院走到湖畔，在市场尝木薯与猪皮的组合，再留半天给火山湖岛。",
+    "description": "从彩色庭院走到湖畔，在市场尝木薯与猪皮的组合，再留半天给火山湖岛。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        30,
+        70,
+        150
+      ],
+      "food": [
+        10,
+        25,
+        55
+      ],
+      "transport": [
+        8,
+        20,
+        50
+      ],
+      "misc": [
+        5,
+        15,
+        35
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 NIO；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "老城以步行为主；从马那瓜机场需公路接驳。湖岛和蒙巴乔火山分开安排，不当市内步行点。"
+    },
+    "transportNote": "老城以步行为主；从马那瓜机场需公路接驳。湖岛和蒙巴乔火山分开安排，不当市内步行点。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "www.visitanicaragua.com",
+        "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+    "attractions": [
+      {
+        "id": "granada-nicaragua-cathedral",
+        "name": "格拉纳达主教座堂",
+        "nameEn": "Cathedral of Granada, Nicaragua",
+        "article": "Cathedral of Granada, Nicaragua",
+        "lat": 11.934,
+        "lng": -85.956,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "以中央公园周边建筑认识老城，登塔和内部参观按现场安排另计。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "sourceReferences": [
+          {
+            "name": "www.visitanicaragua.com",
+            "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cathedral_of_Granada%2C_Nicaragua"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 5.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-merced",
+        "name": "拉梅尔塞德教堂",
+        "nameEn": "Iglesia de La Merced, Granada",
+        "article": "Iglesia de La Merced, Granada",
+        "lat": 11.931,
+        "lng": -85.961,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "可询问钟楼开放与登塔方式，从高处读老城街道和屋顶。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "sourceReferences": [
+          {
+            "name": "www.visitanicaragua.com",
+            "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Iglesia_de_La_Merced%2C_Granada"
+        },
+        "price": {
+          "low": 2.0,
+          "high": 5.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-san-francisco",
+        "name": "圣方济各修道院博物馆",
+        "nameEn": "San Francisco Convent, Granada",
+        "article": "San Francisco Convent, Granada",
+        "lat": 11.933,
+        "lng": -85.953,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "description": "在历史修道院建筑中看地方文化与考古展示，按实际馆区参观。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "sourceReferences": [
+          {
+            "name": "www.visitanicaragua.com",
+            "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/San_Francisco_Convent%2C_Granada"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-central-park",
+        "name": "中央公园",
+        "nameEn": "Granada, Nicaragua",
+        "article": "Granada, Nicaragua",
+        "lat": 11.934,
+        "lng": -85.956,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市广场",
+        "activityType": "culture",
+        "description": "在树荫、摊点与人群中认识市中心，适合安排一顿当地小吃。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "城市广场",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "sourceReferences": [
+          {
+            "name": "www.visitanicaragua.com",
+            "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Granada%2C_Nicaragua"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imageScope": "nearby",
+        "imageContextNote": "所在城市或街区的实景参考；不表示照片正对该地点入口。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-islets",
+        "name": "格拉纳达湖岛",
+        "nameEn": "Islets of Granada",
+        "article": "Islets of Granada",
+        "lat": 11.912,
+        "lng": -85.915,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 108,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "湖泊",
+        "activityType": "nature",
+        "description": "乘正规游船看尼加拉瓜湖中的小岛，遵守自然观察距离，不诱喂动物。",
+        "priority": 65,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "湖泊",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+        "sourceReferences": [
+          {
+            "name": "www.visitanicaragua.com",
+            "url": "https://www.visitanicaragua.com/en/ciudades/granada/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Islets_of_Granada"
+        },
+        "price": {
+          "low": 25.0,
+          "high": 70.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.visitanicaragua.com/en/ciudades/granada/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-polvora",
+        "name": "拉波尔沃拉堡",
+        "nameEn": "Fuerte La Polvora",
+        "article": "Fuerte La Polvora",
+        "lat": 11.928,
+        "lng": -85.971,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "description": "沿旧城西侧认识早期防御建筑，内部开放不固定，可先以公共区域外观参观安排。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "历史建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+        "sourceReferences": [
+          {
+            "name": "www.nicaraguacreativa.com",
+            "url": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fuerte_La_Polvora"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 5.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "granada-nicaragua-calzada",
+        "name": "拉卡尔萨达街",
+        "nameEn": "Calle La Calzada, Granada",
+        "article": "Calle La Calzada, Granada",
+        "lat": 11.9308,
+        "lng": -85.9517,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "街区",
+        "activityType": "culture",
+        "description": "在老城连接湖岸方向的街道看彩色立面、咖啡馆和夜间餐饮，步行本身免费，消费另算。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "街区",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+        "sourceReferences": [
+          {
+            "name": "www.nicaraguacreativa.com",
+            "url": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Calle_La_Calzada%2C_Granada"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.nicaraguacreativa.com/wp-content/uploads/2022/04/Mapa-Granada_Ruta-creativa_compressed.pdf",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "granada-nicaragua",
+      "intro": "从彩色庭院走到湖畔，在市场尝木薯与猪皮的组合，再留半天给火山湖岛。",
+      "foodHighlights": [
+        {
+          "name": "木薯猪皮沙拉",
+          "description": "熟木薯、脆猪皮与卷心菜组合，是格拉纳达常见地方小吃。"
+        },
+        {
+          "name": "米豆饭",
+          "description": "米饭与豆类混炒，常作为早餐或配菜。"
+        },
+        {
+          "name": "尼加拉瓜大粽",
+          "description": "玉米面包裹肉与配料后蒸熟，份量较大，常见于周末家庭餐。"
+        },
+        {
+          "name": "蕉叶蒸肉",
+          "description": "肉、木薯与大蕉慢蒸，适合分食并搭配清爽蔬菜。"
+        },
+        {
+          "name": "奶酪玉米饼",
+          "description": "软奶酪、玉米饼与洋葱等组成的小食，不同地区做法有差别。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "havana",
+    "name": "哈瓦那",
+    "nameEn": "Havana",
+    "countryCode": "CU",
+    "country": "古巴",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "CUP",
+    "lat": 23.1136,
+    "lng": -82.3666,
+    "iata": "HAV",
+    "article": "Havana",
+    "aliases": [
+      "哈瓦那",
+      "Havana"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Havana"
+    },
+    "tagline": "用老城广场、海堤与现场音乐认识哈瓦那；把休息和交通弹性留在日程中。",
+    "description": "用老城广场、海堤与现场音乐认识哈瓦那；把休息和交通弹性留在日程中。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        35,
+        100,
+        240
+      ],
+      "food": [
+        12,
+        30,
+        70
+      ],
+      "transport": [
+        12,
+        35,
+        90
+      ],
+      "misc": [
+        8,
+        20,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 CUP；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 6,
+      "reason": "旧城局部可步行，跨到维达多需车程；供电、燃油与支付条件按出发前信息确认，美元预算不等同于当地兑换或支付承诺。"
+    },
+    "transportNote": "旧城局部可步行，跨到维达多需车程；供电、燃油与支付条件按出发前信息确认，美元预算不等同于当地兑换或支付承诺。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "www.cuba.travel",
+        "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+    "attractions": [
+      {
+        "id": "havana-old-square",
+        "name": "老广场",
+        "nameEn": "Plaza Vieja, Havana",
+        "article": "Plaza Vieja, Havana",
+        "lat": 23.135,
+        "lng": -82.35,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史广场",
+        "activityType": "culture",
+        "description": "从庭院、阳台与公共空间认识哈瓦那老城，咖啡和博物馆可按兴趣选。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史广场",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Plaza_Vieja%2C_Havana"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-cathedral",
+        "name": "哈瓦那主教座堂广场",
+        "nameEn": "Havana Cathedral",
+        "article": "Havana Cathedral",
+        "lat": 23.141,
+        "lng": -82.352,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "欣赏石质立面与周边建筑，礼拜和收费内部区域另行确认。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Havana_Cathedral"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 5.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-capitol",
+        "name": "古巴国会大厦",
+        "nameEn": "El Capitolio",
+        "article": "El Capitolio",
+        "lat": 23.136,
+        "lng": -82.359,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "description": "内部导览与外部观赏分开安排，先核对票务与开放范围。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/El_Capitolio"
+        },
+        "price": {
+          "low": 10.0,
+          "high": 25.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-malecon",
+        "name": "马雷贡海堤",
+        "nameEn": "Malecón, Havana",
+        "article": "Malecón, Havana",
+        "lat": 23.142,
+        "lng": -82.373,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滨",
+        "activityType": "culture",
+        "description": "选择海浪较平稳的路段看城市与海面，恶劣天气不靠近护岸。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "海滨",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Malec%C3%B3n%2C_Havana"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-fine-arts",
+        "name": "古巴国家美术馆",
+        "nameEn": "Museo Nacional de Bellas Artes de La Habana",
+        "article": "Museo Nacional de Bellas Artes de La Habana",
+        "lat": 23.14,
+        "lng": -82.357,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.5,
+        "durationRange": {
+          "min": 90,
+          "recommended": 150,
+          "max": 225
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "美术馆",
+        "activityType": "culture",
+        "description": "按兴趣选择古巴艺术或其他馆区，不把分散的展馆当成同一入口。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "美术馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museo_Nacional_de_Bellas_Artes_de_La_Habana"
+        },
+        "price": {
+          "low": 8.0,
+          "high": 20.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/destinations/la-havana-cuba",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-revolution-museum",
+        "name": "革命博物馆外观与纪念区",
+        "nameEn": "Museum of the Revolution (Cuba)",
+        "article": "Museum of the Revolution (Cuba)",
+        "lat": 23.1417,
+        "lng": -82.3567,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史博物馆",
+        "activityType": "culture",
+        "description": "旧总统府周边展示革命历史；主馆若维修则只看开放的外部与纪念区，先确认实际展览范围。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "历史博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museum_of_the_Revolution_%28Cuba%29"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "havana-real-fuerza",
+        "name": "皇家军队城堡",
+        "nameEn": "Castillo de la Real Fuerza",
+        "article": "Castillo de la Real Fuerza",
+        "lat": 23.1445,
+        "lng": -82.3491,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史要塞",
+        "activityType": "culture",
+        "description": "从港口防御建筑与馆内航海展示认识城市海洋史，按开放区域选择参观。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "历史要塞",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+        "sourceReferences": [
+          {
+            "name": "www.cuba.travel",
+            "url": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Castillo_de_la_Real_Fuerza"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.cuba.travel/en/wheretogo/havana/whattodo/culture",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "havana",
+      "intro": "用老城广场、海堤与现场音乐认识哈瓦那；把休息和交通弹性留在日程中。",
+      "foodHighlights": [
+        {
+          "name": "撕牛肉炖菜",
+          "description": "慢炖撕肉配番茄、甜椒等，常与米饭和豆类同吃。"
+        },
+        {
+          "name": "黑豆米饭",
+          "description": "黑豆与米饭同煮，可作为主食或烤肉配菜。"
+        },
+        {
+          "name": "蒜香木薯",
+          "description": "木薯配蒜与柑橘风味酱，口感与土豆不同。"
+        },
+        {
+          "name": "炸青大蕉",
+          "description": "压扁后再次炸制的大蕉片，适合分食，蘸酱依店家变化。"
+        },
+        {
+          "name": "焦糖布丁",
+          "description": "古巴家庭和餐厅常见甜点，甜度较高，可与咖啡分食。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "roatan",
+    "name": "罗阿坦岛",
+    "nameEn": "Roatan",
+    "countryCode": "HN",
+    "country": "洪都拉斯",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "HNL",
+    "lat": 16.3298,
+    "lng": -86.5299,
+    "iata": "RTB",
+    "article": "Roatán",
+    "aliases": [
+      "罗阿坦岛",
+      "Roatan"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roatan"
+    },
+    "tagline": "在加勒比珊瑚礁与加里富纳节奏之间慢下来，海滩午后本身也是旅行内容。",
+    "description": "在加勒比珊瑚礁与加里富纳节奏之间慢下来，海滩午后本身也是旅行内容。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        45,
+        120,
+        300
+      ],
+      "food": [
+        15,
+        35,
+        80
+      ],
+      "transport": [
+        10,
+        30,
+        75
+      ],
+      "misc": [
+        8,
+        20,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 HNL；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 6,
+      "reason": "西端、西湾与机场分散，陆路或水上出租需先问价；潜水和东岸村落分别留出半日。"
+    },
+    "transportNote": "西端、西湾与机场分散，陆路或水上出租需先问价；潜水和东岸村落分别留出半日。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "www.honduras.travel",
+        "url": "https://www.honduras.travel/playas.php",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://www.honduras.travel/playas.php",
+    "attractions": [
+      {
+        "id": "roatan-west-bay",
+        "name": "西湾海滩",
+        "nameEn": "West Bay, Roatan",
+        "article": "West Bay, Roatan",
+        "lat": 16.275,
+        "lng": -86.598,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 108,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滩",
+        "activityType": "nature",
+        "description": "把半天留给海边休息，沙滩床、淋浴与餐饮按各经营者收费另计。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "海滩",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/playas.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/playas.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/West_Bay%2C_Roatan"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/playas.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-half-moon",
+        "name": "半月湾",
+        "nameEn": "West End, Roatan",
+        "article": "West End, Roatan",
+        "lat": 16.305,
+        "lng": -86.592,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海湾",
+        "activityType": "nature",
+        "description": "小海湾连着餐馆与潜店，可结合岸边休息；下水前核对船只航道。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "海湾",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/playas.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/playas.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/West_End%2C_Roatan"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/playas.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-carambola",
+        "name": "卡兰博拉植物园",
+        "nameEn": "Carambola Botanical Gardens",
+        "article": "Carambola Botanical Gardens",
+        "lat": 16.328,
+        "lng": -86.567,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然公园",
+        "activityType": "nature",
+        "description": "在植物园步道看热带植物与岛屿环境，雨后路面留意湿滑。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "自然公园",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/playas.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/playas.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Carambola_Botanical_Gardens"
+        },
+        "price": {
+          "low": 12.0,
+          "high": 25.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/playas.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-oak-ridge",
+        "name": "橡树岭水上聚落",
+        "nameEn": "Oak Ridge, Roatan",
+        "article": "Oak Ridge, Roatan",
+        "lat": 16.386,
+        "lng": -86.353,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "港湾",
+        "activityType": "culture",
+        "description": "观察水边木屋与船只交通，进入村民住宅或拍摄人物前征求同意。",
+        "priority": 65,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "港湾",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/playas.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/playas.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Oak_Ridge%2C_Roatan"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/playas.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-punta-gorda",
+        "name": "蓬塔戈尔达村",
+        "nameEn": "Punta Gorda, Roatan",
+        "article": "Punta Gorda, Roatan",
+        "lat": 16.399,
+        "lng": -86.37,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "文化聚落",
+        "activityType": "culture",
+        "description": "认识加里富纳社区的语言与海岸生活，表演或餐食须向当地经营者确认。",
+        "priority": 65,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "文化聚落",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/playas.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/playas.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Punta_Gorda%2C_Roatan"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/playas.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-sandy-bay",
+        "name": "桑迪湾公共海岸",
+        "nameEn": "Sandy Bay, Roatan",
+        "article": "Sandy Bay, Roatan",
+        "lat": 16.329,
+        "lng": -86.564,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滩",
+        "activityType": "nature",
+        "description": "在可进入的公共海岸慢下来，尊重度假村边界和船道，沙滩设施与餐饮另计。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "海滩",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/en/beaches.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/en/beaches.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sandy_Bay%2C_Roatan"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/en/beaches.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "roatan-roatan-museum",
+        "name": "罗阿坦博物馆",
+        "nameEn": "Roatan Museum",
+        "article": "Roatan Museum",
+        "lat": 16.328,
+        "lng": -86.57,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方博物馆",
+        "activityType": "culture",
+        "description": "在RIMS建筑内通过物件、壁画和文献认识海湾群岛文化；先向Anthony’s Key确认日访和开放。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "地方博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.honduras.travel/en/beaches.php",
+        "sourceReferences": [
+          {
+            "name": "www.honduras.travel",
+            "url": "https://www.honduras.travel/en/beaches.php",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Roatan_Museum"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.honduras.travel/en/beaches.php",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "roatan",
+      "intro": "在加勒比珊瑚礁与加里富纳节奏之间慢下来，海滩午后本身也是旅行内容。",
+      "foodHighlights": [
+        {
+          "name": "豆泥折叠面饼",
+          "description": "软面饼里加入豆泥、奶酪等，是洪都拉斯常见实惠餐食。"
+        },
+        {
+          "name": "马丘卡鱼汤",
+          "description": "捣制大蕉配鱼汤体现加里富纳餐桌传统，按店家确认鱼种与椰奶配方。"
+        },
+        {
+          "name": "椰香红豆饭",
+          "description": "岛屿餐桌常见配菜，椰奶与豆类搭配鱼肉。"
+        },
+        {
+          "name": "加勒比烤鱼",
+          "description": "按当日渔获选熟鱼料理，确认重量、配菜与整鱼计价方式。"
+        },
+        {
+          "name": "椰子面包",
+          "description": "带椰香的面包适合早餐或海边小食，配咖啡另计。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "antigua-guatemala",
+    "name": "安提瓜（危地马拉）",
+    "nameEn": "Antigua Guatemala",
+    "countryCode": "GT",
+    "country": "危地马拉",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "GTQ",
+    "lat": 14.5586,
+    "lng": -90.7337,
+    "iata": "GUA",
+    "article": "Antigua Guatemala",
+    "aliases": [
+      "安提瓜（危地马拉）",
+      "Antigua Guatemala"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Antigua_Guatemala"
+    },
+    "tagline": "在火山背景下看拱门、修道院与庭院，咖啡、可可和圣周工艺让老城更有层次。",
+    "description": "在火山背景下看拱门、修道院与庭院，咖啡、可可和圣周工艺让老城更有层次。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        35,
+        90,
+        220
+      ],
+      "food": [
+        12,
+        30,
+        65
+      ],
+      "transport": [
+        8,
+        25,
+        70
+      ],
+      "misc": [
+        8,
+        20,
+        45
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 GTQ；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 3,
+      "days": 4,
+      "max": 6,
+      "reason": "老城步行为主，机场从危地马拉城公路接驳；火山徒步不是市内短行程，须另择整日或过夜。"
+    },
+    "transportNote": "老城步行为主，机场从危地马拉城公路接驳；火山徒步不是市内短行程，须另择整日或过夜。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "visitguatemala.gt",
+        "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+    "attractions": [
+      {
+        "id": "antigua-guatemala-arch",
+        "name": "圣卡塔利娜拱门",
+        "nameEn": "Santa Catalina Arch",
+        "article": "Santa Catalina Arch",
+        "lat": 14.56,
+        "lng": -90.734,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.75,
+        "durationRange": {
+          "min": 27,
+          "recommended": 45,
+          "max": 68
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "description": "在公开街道看拱门与山景，清晨较适合慢走，尊重交通和居民出入口。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Santa_Catalina_Arch"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-merced",
+        "name": "拉梅尔塞德教堂",
+        "nameEn": "La Merced Church, Antigua Guatemala",
+        "article": "La Merced Church, Antigua Guatemala",
+        "lat": 14.561,
+        "lng": -90.735,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "观察立面纹饰，教堂与修道院遗址的参观范围和收费分开核对。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/La_Merced_Church%2C_Antigua_Guatemala"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 8.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-capuchinas",
+        "name": "嘉布遣修道院遗址",
+        "nameEn": "Capuchinas Convent",
+        "article": "Capuchinas Convent",
+        "lat": 14.561,
+        "lng": -90.731,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史遗址",
+        "activityType": "culture",
+        "description": "通过庭院、廊道和圆形空间认识修道生活，不进入保护封闭区域。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史遗址",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Capuchinas_Convent"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 12.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-central-park",
+        "name": "中央公园",
+        "nameEn": "Parque Central, Antigua Guatemala",
+        "article": "Parque Central, Antigua Guatemala",
+        "lat": 14.557,
+        "lng": -90.734,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "城市广场",
+        "activityType": "culture",
+        "description": "在树荫下看老城日常，可把附近教堂与午餐安排在同一区域。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "城市广场",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Parque_Central%2C_Antigua_Guatemala"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-cathedral",
+        "name": "安提瓜主教座堂遗址",
+        "nameEn": "Antigua Guatemala Cathedral",
+        "article": "Antigua Guatemala Cathedral",
+        "lat": 14.557,
+        "lng": -90.733,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教遗址",
+        "activityType": "culture",
+        "description": "区分仍使用的教堂与后方遗址空间，按实际开放和票务安排。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教遗址",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Antigua_Guatemala_Cathedral"
+        },
+        "price": {
+          "low": 3.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/ciudades/antigua-guatemala/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-tanque",
+        "name": "拉乌尼翁洗衣池",
+        "nameEn": "Tanque La Union",
+        "article": "Tanque La Union",
+        "lat": 14.555,
+        "lng": -90.73,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.6666666666666666,
+        "durationRange": {
+          "min": 24,
+          "recommended": 40,
+          "max": 60
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史街景",
+        "activityType": "culture",
+        "description": "看旧洗衣池的长拱廊与相邻广场，理解过去的日常公共生活，适合短停而非单独占半日。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "历史街景",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tanque_La_Union"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "antigua-guatemala-cruz",
+        "name": "十字架山观景点",
+        "nameEn": "Cerro de la Cruz, Antigua Guatemala",
+        "article": "Cerro de la Cruz, Antigua Guatemala",
+        "lat": 14.564,
+        "lng": -90.733,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "观景点",
+        "activityType": "culture",
+        "description": "白天沿开放路线登高看古城格网与阿瓜火山，遇雨和低云可调整安排。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "观景点",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+        "sourceReferences": [
+          {
+            "name": "visitguatemala.gt",
+            "url": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Cerro_de_la_Cruz%2C_Antigua_Guatemala"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://visitguatemala.gt/en/blog/santa-catalina-arch-history-interesting-facts/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "antigua-guatemala",
+      "intro": "在火山背景下看拱门、修道院与庭院，咖啡、可可和圣周工艺让老城更有层次。",
+      "foodHighlights": [
+        {
+          "name": "佩皮安炖菜",
+          "description": "用焙烤香料、种子和蔬菜调味的浓汁炖菜，肉类按店家配方变化。"
+        },
+        {
+          "name": "绿酱鸡",
+          "description": "以绿色蔬菜与香草组成的酱汁配鸡肉，常与米饭或玉米饼同吃。"
+        },
+        {
+          "name": "蕉叶玉米粽",
+          "description": "蒸制玉米面加肉或其他馅料，叶包形式与口味有地区差别。"
+        },
+        {
+          "name": "豆沙大蕉球",
+          "description": "甜大蕉包豆馅后煎炸的小食，适合与同伴分食。"
+        },
+        {
+          "name": "甜玉米热饮",
+          "description": "用嫩玉米制成的浓热饮，甜度和香料因摊位而异。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "monrovia",
+    "name": "蒙罗维亚",
+    "nameEn": "Monrovia",
+    "countryCode": "LR",
+    "country": "利比里亚",
+    "region": "非洲",
+    "currency": "USD",
+    "localCurrency": "LRD",
+    "lat": 6.3156,
+    "lng": -10.8074,
+    "iata": "ROB",
+    "article": "Monrovia",
+    "aliases": [
+      "蒙罗维亚",
+      "Monrovia"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Monrovia"
+    },
+    "tagline": "从普罗维登斯岛和博物馆认识建城历史，在市场、海岸和当地餐桌间观察城市生活。",
+    "description": "从普罗维登斯岛和博物馆认识建城历史，在市场、海岸和当地餐桌间观察城市生活。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        65,
+        130,
+        260
+      ],
+      "food": [
+        12,
+        30,
+        65
+      ],
+      "transport": [
+        25,
+        55,
+        120
+      ],
+      "misc": [
+        10,
+        25,
+        55
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 LRD；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "机场距离市区较远，提前安排住宿接送；市内用可靠车辆衔接，海岸步行需先向当地住宿方了解条件。"
+    },
+    "transportNote": "机场距离市区较远，提前安排住宿接送；市内用可靠车辆衔接，海岸步行需先向当地住宿方了解条件。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "enjoyliberia.travel",
+        "url": "https://enjoyliberia.travel/blog/",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://enjoyliberia.travel/blog/",
+    "attractions": [
+      {
+        "id": "monrovia-museum",
+        "name": "利比里亚国家博物馆",
+        "nameEn": "Liberian National Museum",
+        "article": "Liberian National Museum",
+        "lat": 6.321,
+        "lng": -10.801,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "description": "以历史、艺术与民族文化藏品认识利比里亚，馆区及导览安排需事先确认。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/blog/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/blog/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Liberian_National_Museum"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/blog/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-providence",
+        "name": "普罗维登斯岛",
+        "nameEn": "Providence Island, Liberia",
+        "article": "Providence Island, Liberia",
+        "lat": 6.333,
+        "lng": -10.796,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史地点",
+        "activityType": "culture",
+        "description": "从河口岛屿了解移民、建城与地方社群历史，访前确认进入与导览方式。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史地点",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/blog/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/blog/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Providence_Island%2C_Liberia"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/blog/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-centennial",
+        "name": "百年纪念亭",
+        "nameEn": "Centennial Pavilion",
+        "article": "Centennial Pavilion",
+        "lat": 6.323,
+        "lng": -10.8,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 0.8333333333333334,
+        "durationRange": {
+          "min": 30,
+          "recommended": 50,
+          "max": 75
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史建筑",
+        "activityType": "culture",
+        "description": "在开放外部空间认识纪念性建筑，内部和官方活动期间须另行核准。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/blog/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/blog/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Centennial_Pavilion"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 5.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/blog/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-waterside",
+        "name": "沃特赛德市场",
+        "nameEn": "Waterside Market",
+        "article": "Waterside Market",
+        "lat": 6.33,
+        "lng": -10.801,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "地方市场",
+        "activityType": "culture",
+        "description": "留意布料、日用品与交易方式，拍摄摊主先征得同意，推荐与熟悉路线的当地向导同行。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "地方市场",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/blog/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/blog/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Waterside_Market"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/blog/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-cece",
+        "name": "塞塞海滨",
+        "nameEn": "Monrovia",
+        "article": "Monrovia",
+        "lat": 6.288,
+        "lng": -10.789,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滩",
+        "activityType": "nature",
+        "description": "把海岸作为白天短暂停留点，海浪与水流不适合仅凭外观判断是否可游泳。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "海滩",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/blog/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/blog/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Monrovia"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/blog/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imageScope": "nearby",
+        "imageContextNote": "所在城市或街区的实景参考；不表示照片正对该地点入口。",
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-ducor",
+        "name": "杜科山与旧酒店外观",
+        "nameEn": "Ducor Hotel",
+        "article": "Ducor Hotel",
+        "lat": 6.32,
+        "lng": -10.814,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史遗址",
+        "activityType": "culture",
+        "description": "在允许进入的公共区域看城市与海岸，旧酒店不作为可住宿酒店，也不进入封闭或破损建筑。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "历史遗址",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/pages/monrovia/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/pages/monrovia/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ducor_Hotel"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/pages/monrovia/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "monrovia-silver-beach",
+        "name": "银滩海岸午后",
+        "nameEn": "Silver Beach, Monrovia",
+        "article": "Silver Beach, Monrovia",
+        "lat": 6.244,
+        "lng": -10.68,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 3.0,
+        "durationRange": {
+          "min": 108,
+          "recommended": 180,
+          "max": 270
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "海滩",
+        "activityType": "nature",
+        "description": "在城市外围海岸休息，向当地经营者确认进入方式、海况和返程；不默认可安全下水。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": false,
+        "features": [
+          "海滩",
+          "城外往返另留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://enjoyliberia.travel/pages/monrovia/",
+        "sourceReferences": [
+          {
+            "name": "enjoyliberia.travel",
+            "url": "https://enjoyliberia.travel/pages/monrovia/",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Silver_Beach%2C_Monrovia"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://enjoyliberia.travel/pages/monrovia/",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "accessNote": "城外项目，交通未包含在游览用时内，建议单独安排半日或整日。",
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "monrovia",
+      "intro": "从普罗维登斯岛和博物馆认识建城历史，在市场、海岸和当地餐桌间观察城市生活。",
+      "foodHighlights": [
+        {
+          "name": "木薯叶炖菜",
+          "description": "充分熟制的木薯叶与肉、鱼或油脂同炖，通常配米饭。"
+        },
+        {
+          "name": "棕榈汁炖菜",
+          "description": "用棕榈果汁形成浓郁汤汁，肉或鱼的搭配依餐厅变化。"
+        },
+        {
+          "name": "西非番茄米饭",
+          "description": "利比里亚家庭式番茄米饭有自己的配料习惯，与烤肉或蔬菜组合。"
+        },
+        {
+          "name": "托博吉炖豆",
+          "description": "以豆类和特色调味烹制的利比里亚菜，味道较浓，适合先点小份。"
+        },
+        {
+          "name": "干米饭配鱼",
+          "description": "以米饭配熏鱼、酱汁或调味，是当地日常餐食的一种形式。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  },
+  {
+    "id": "santo-domingo",
+    "name": "圣多明各",
+    "nameEn": "Santo Domingo",
+    "countryCode": "DO",
+    "country": "多米尼加共和国",
+    "region": "美洲",
+    "currency": "USD",
+    "localCurrency": "DOP",
+    "lat": 18.4861,
+    "lng": -69.9312,
+    "iata": "SDQ",
+    "article": "Santo Domingo",
+    "aliases": [
+      "圣多明各",
+      "Santo Domingo"
+    ],
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Santo_Domingo"
+    },
+    "tagline": "以殖民城为起点，读加勒比历史，尝大蕉和炖汤，再用一段梅伦格舞感受城市节奏。",
+    "description": "以殖民城为起点，读加勒比历史，尝大蕉和炖汤，再用一段梅伦格舞感受城市节奏。",
+    "tags": [
+      "地方文化",
+      "特色饮食",
+      "自然与生活"
+    ],
+    "daily": {
+      "lodging": [
+        40,
+        100,
+        240
+      ],
+      "food": [
+        12,
+        30,
+        70
+      ],
+      "transport": [
+        10,
+        30,
+        80
+      ],
+      "misc": [
+        8,
+        20,
+        50
+      ]
+    },
+    "monthly": {
+      "rent": [
+        500,
+        1200,
+        2500
+      ],
+      "utilities": [
+        60,
+        140,
+        280
+      ]
+    },
+    "budgetBasis": {
+      "type": "editorial-estimate",
+      "updatedAt": "2026-10-16",
+      "note": "以下采用美元 USD 作为规划计价基准，当地币种为 DOP；并非当地法定币种替代，也不是实时报价。三档住宿按每间每晚，饮食交通杂项按每成人每天，月租水电按每间每月。"
+    },
+    "tripDuration": {
+      "min": 2,
+      "days": 3,
+      "max": 5,
+      "reason": "殖民城集中步行；国家公园、海滨大道和现代城区用车辆衔接，机场在城外另留接驳。"
+    },
+    "transportNote": "殖民城集中步行；国家公园、海滨大道和现代城区用车辆衔接，机场在城外另留接驳。",
+    "planningProfile": "balanced",
+    "sourceReferences": [
+      {
+        "name": "www.godominicanrepublic.com",
+        "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+        "checkedAt": "2026-10-16",
+        "kind": "reference"
+      }
+    ],
+    "officialTourismUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+    "attractions": [
+      {
+        "id": "santo-domingo-cathedral",
+        "name": "美洲首座主教座堂",
+        "nameEn": "Basilica Cathedral of Santa Maria la Menor",
+        "article": "Basilica Cathedral of Santa Maria la Menor",
+        "lat": 18.472,
+        "lng": -69.884,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.25,
+        "durationRange": {
+          "min": 45,
+          "recommended": 75,
+          "max": 112
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "宗教建筑",
+        "activityType": "culture",
+        "description": "看殖民城的宗教建筑与公共广场，服装要求和内部参观范围按馆方确认。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "宗教建筑",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Basilica_Cathedral_of_Santa_Maria_la_Menor"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 8.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-ozama",
+        "name": "奥萨马要塞",
+        "nameEn": "Fortaleza Ozama",
+        "article": "Fortaleza Ozama",
+        "lat": 18.473,
+        "lng": -69.882,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.5,
+        "durationRange": {
+          "min": 54,
+          "recommended": 90,
+          "max": 135
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史要塞",
+        "activityType": "culture",
+        "description": "从石墙和临河位置认识城市防御历史，登高范围按当日开放。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史要塞",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fortaleza_Ozama"
+        },
+        "price": {
+          "low": 3.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-royal-houses",
+        "name": "王室宫殿博物馆",
+        "nameEn": "Museo de las Casas Reales",
+        "article": "Museo de las Casas Reales",
+        "lat": 18.477,
+        "lng": -69.883,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "博物馆",
+        "activityType": "culture",
+        "description": "从行政建筑和展览理解加勒比殖民历史，不把历史叙事简化为建筑打卡。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Museo_de_las_Casas_Reales"
+        },
+        "price": {
+          "low": 3.0,
+          "high": 10.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-columbus-park",
+        "name": "哥伦布公园",
+        "nameEn": "Parque Colon",
+        "article": "Parque Colon",
+        "lat": 18.473,
+        "lng": -69.885,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史广场",
+        "activityType": "culture",
+        "description": "在广场树荫下休息，看周边街道与日常生活，餐饮消费另计。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "历史广场",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Parque_Colon"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-three-eyes",
+        "name": "三眼洞湖公园",
+        "nameEn": "Los Tres Ojos",
+        "article": "Los Tres Ojos",
+        "lat": 18.48,
+        "lng": -69.843,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 2.0,
+        "durationRange": {
+          "min": 72,
+          "recommended": 120,
+          "max": 180
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "自然公园",
+        "activityType": "nature",
+        "description": "沿洞穴步道看石灰岩湖泊，台阶较多，园内船只或额外区域另核。",
+        "priority": 83,
+        "visitRole": "essential",
+        "automaticPlanning": true,
+        "features": [
+          "自然公园",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Los_Tres_Ojos"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/en/destinations/santo-domingo",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-alcazar",
+        "name": "哥伦布宫",
+        "nameEn": "Alcazar de Colon",
+        "article": "Alcazar de Colon",
+        "lat": 18.478,
+        "lng": -69.883,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.6666666666666667,
+        "durationRange": {
+          "min": 60,
+          "recommended": 100,
+          "max": 150
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史博物馆",
+        "activityType": "culture",
+        "description": "在西班牙广场旁认识早期殖民建筑与居住文化，具体展室按当期开放安排。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "历史博物馆",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Alcazar_de_Colon"
+        },
+        "price": {
+          "low": 5.0,
+          "high": 15.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      },
+      {
+        "id": "santo-domingo-san-francisco",
+        "name": "圣方济各修道院遗址",
+        "nameEn": "Monasterio de San Francisco, Santo Domingo",
+        "article": "Monasterio de San Francisco, Santo Domingo",
+        "lat": 18.478,
+        "lng": -69.887,
+        "coordinateAccuracy": "approximate",
+        "coordinateNote": "景点或片区近似位置，实际入口以官方指引为准。",
+        "durationHours": 1.0,
+        "durationRange": {
+          "min": 36,
+          "recommended": 60,
+          "max": 90
+        },
+        "durationBasis": "editorial-estimate",
+        "category": "历史遗址",
+        "activityType": "culture",
+        "description": "从公共区域看石墙与拱门，晚间音乐活动须按实际日程核对，不默认每天有演出。",
+        "priority": 55,
+        "visitRole": "optional",
+        "automaticPlanning": true,
+        "features": [
+          "历史遗址",
+          "可调整停留时间"
+        ],
+        "bestTime": "参观前确认开放时间、天气及预约要求。",
+        "sourceUrl": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+        "sourceReferences": [
+          {
+            "name": "www.godominicanrepublic.com",
+            "url": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+            "scope": "地点及文化背景；预算、用时和近似坐标为编辑规划参数",
+            "checkedAt": "2026-10-16",
+            "kind": "reference"
+          }
+        ],
+        "image": {
+          "url": "",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Monasterio_de_San_Francisco%2C_Santo_Domingo"
+        },
+        "price": {
+          "low": 0.0,
+          "high": 0.0,
+          "currency": "USD",
+          "unit": "person",
+          "type": "estimate",
+          "checkedAt": null,
+          "sourceUrl": "https://www.godominicanrepublic.com/weddings/best-places-for-photos",
+          "note": "美元编辑预算，并非商家实时报价。零门票仅指公共区域，消费、接驳及收费内部区域另计；按日期核对税费、票种和服务范围。"
+        },
+        "imagePolicy": "photograph-only"
+      }
+    ],
+    "guide": {
+      "cityId": "santo-domingo",
+      "intro": "以殖民城为起点，读加勒比历史，尝大蕉和炖汤，再用一段梅伦格舞感受城市节奏。",
+      "foodHighlights": [
+        {
+          "name": "青大蕉泥早餐",
+          "description": "煮熟青大蕉捣泥，常配鸡蛋、奶酪等；组合内容与价格按菜单选择。"
+        },
+        {
+          "name": "桑科乔炖汤",
+          "description": "肉、根茎和蔬菜组成的浓汤，实际肉类种数不固定。"
+        },
+        {
+          "name": "多米尼加家常套餐",
+          "description": "米饭、豆类和肉菜构成的日常午餐组合，适合对比不同餐馆的配菜。"
+        },
+        {
+          "name": "炸青大蕉",
+          "description": "双炸大蕉片适合分食，作为配菜时不用再点多份主食。"
+        },
+        {
+          "name": "甜奶红豆羹",
+          "description": "豆类、奶与香料制成的甜品，尤其与复活节时期饮食相关。"
+        }
+      ],
+      "neighborhoods": [],
+      "experienceIntro": "从城市文化、当地餐桌与自然活动中选择感兴趣的内容；季节活动按实际日期确认。"
+    },
+    "contentTier": "standard"
+  }
+]

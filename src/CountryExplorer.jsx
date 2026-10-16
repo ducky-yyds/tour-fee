@@ -7,6 +7,7 @@ import { useLocale } from './locale.jsx';
 import { CONTINENTS, cityInitial, compareCities, countryOptions, destinationName, matchesDestination } from './destination-utils.mjs';
 import { getTripDuration } from '../shared/trip-duration.mjs';
 import './country-explorer.css';
+import './travel-conditions.css';
 
 const continentEnglish = { 亚洲: 'Asia', 欧洲: 'Europe', 非洲: 'Africa', 北美洲: 'N. America', 南美洲: 'S. America', 大洋洲: 'Oceania', 南极洲: 'Antarctica' };
 const regionNames = { HK: ['中国香港', 'Hong Kong'], MO: ['中国澳门', 'Macao'] };
@@ -97,6 +98,7 @@ export default function CountryExplorer({ cities, countries, selectedCountryCode
               <span className="ce-city-subtitle">{en ? (city.subdivisionEn || '') : (city.nameEn || '')}</span>
               <h3><button type="button" onClick={() => onOpenCity(city.id)}>{destinationName(city, locale)}</button></h3>
               <span className="ce-city-duration"><Clock3 size={14} />{en ? `${duration.min}–${duration.max} days recommended` : `建议游玩 ${duration.min}–${duration.max} 天`}</span>
+              {city.travelAdvisory && <p className="ce-city-conditions">{en ? 'Check travel conditions in the city guide' : '探索城市前请查看出行条件'}</p>}
               <div className="ce-city-budget"><span>{en ? 'Daily essentials' : '每日食宿与市内开销'}</span><strong>{budgetLabel(city)}<small> / {en ? 'day' : '天'}</small></strong></div>
               <div className="ce-city-actions"><button type="button" onClick={() => onOpenCity(city.id)}>{en ? 'Explore city' : '探索城市'}<ArrowUpRight size={14} /></button><button type="button" disabled={Boolean(addingId)} onClick={() => addCity(city.id)} aria-label={en ? `Add ${destinationName(city, locale)} to current trip` : `将${city.name}加入当前旅行`}><Plus size={14} />{addingId === city.id ? (en ? 'Adding…' : '添加中…') : (en ? 'Add to trip' : '加入旅行')}</button></div>
             </div>

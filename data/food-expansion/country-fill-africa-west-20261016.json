@@ -1,0 +1,5216 @@
+[
+  {
+    "id": "food-kinshasa-pondu",
+    "cityIds": [
+      "kinshasa"
+    ],
+    "name": "木薯叶炖菜",
+    "nameEn": "Pondu",
+    "localName": "Pondu",
+    "description": "木薯叶充分熟制后配米饭或木薯团，花生和棕榈油的使用随店家不同。",
+    "article": "Pondu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pondu",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Pondu food Democratic Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "kinshasa": [
+        {
+          "name": "Gombe",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kinshasa%20Gombe%20Pondu",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kinshasa-liboke-de-poisson",
+    "cityIds": [
+      "kinshasa"
+    ],
+    "name": "纸包烤鱼",
+    "nameEn": "Liboke de poisson",
+    "localName": "Liboke de poisson",
+    "description": "鱼与香料包入叶片蒸烤，点餐时确认鱼种、辣度及是否配主食。",
+    "article": "Liboké",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libok%C3%A9",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Liboke de poisson food Democratic Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 22.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "kinshasa": [
+        {
+          "name": "Gombe",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kinshasa%20Gombe%20Liboke%20de%20poisson",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kinshasa-chikwangue",
+    "cityIds": [
+      "kinshasa"
+    ],
+    "name": "木薯团",
+    "nameEn": "Chikwangue",
+    "localName": "Chikwangue",
+    "description": "以叶片包裹的木薯主食，口感紧实，通常配鱼或浓汁炖菜。",
+    "article": "Chikwangue",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chikwangue",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Chikwangue food Democratic Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "kinshasa": [
+        {
+          "name": "Gombe",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kinshasa%20Gombe%20Chikwangue",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kinshasa-moambe-chicken",
+    "cityIds": [
+      "kinshasa"
+    ],
+    "name": "棕榈果酱炖鸡",
+    "nameEn": "Moambe chicken",
+    "localName": "Moambe chicken",
+    "description": "以棕榈果酱为特色的鸡肉菜，实际配方可能含花生，过敏者需询问。",
+    "article": "Moambe chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moambe_chicken",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Moambe chicken food Democratic Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 20.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "kinshasa": [
+        {
+          "name": "Gombe",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kinshasa%20Gombe%20Moambe%20chicken",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-kinshasa-ntaba",
+    "cityIds": [
+      "kinshasa"
+    ],
+    "name": "烤山羊肉",
+    "nameEn": "Ntaba",
+    "localName": "Ntaba",
+    "description": "炭烤山羊肉常配木薯或洋葱，询问按份还是按重量计价。",
+    "article": "Congolese cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Ntaba food Democratic Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "kinshasa": [
+        {
+          "name": "Gombe",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Kinshasa%20Gombe%20Ntaba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-algiers-couscous",
+    "cityIds": [
+      "algiers"
+    ],
+    "name": "库斯库斯",
+    "nameEn": "Couscous",
+    "localName": "Couscous",
+    "description": "细麦粒搭配蔬菜和炖肉，通常是一份完整正餐。",
+    "article": "Couscous",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couscous",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Couscous food Algeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "algiers": [
+        {
+          "name": "Casbah",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Algiers%20Casbah%20Couscous",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-algiers-chorba-frik",
+    "cityIds": [
+      "algiers"
+    ],
+    "name": "番茄麦粒汤",
+    "nameEn": "Chorba frik",
+    "localName": "Chorba frik",
+    "description": "番茄、绿小麦与香料组成热汤，肉类和辣度因店而异。",
+    "article": "Chorba",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chorba",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Chorba frik food Algeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "algiers": [
+        {
+          "name": "Alger Centre",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Algiers%20Alger%20Centre%20Chorba%20frik",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-algiers-karantika",
+    "cityIds": [
+      "algiers"
+    ],
+    "name": "鹰嘴豆饼",
+    "nameEn": "Karantika",
+    "localName": "Karantika",
+    "description": "鹰嘴豆粉烤成柔软厚饼，常夹面包，适合小份尝味。",
+    "article": "Karantika",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Karantika",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Karantika food Algeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "algiers": [
+        {
+          "name": "Bab El Oued",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Algiers%20Bab%20El%20Oued%20Karantika",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-algiers-kalb-el-louz",
+    "cityIds": [
+      "algiers"
+    ],
+    "name": "杏仁糖浆粗麦糕",
+    "nameEn": "Kalb el louz",
+    "localName": "Kalb el louz",
+    "description": "粗麦粉、糖浆与杏仁的甜点，浓甜口味适合配无糖茶。",
+    "article": "Kalb el louz",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kalb_el_louz",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Kalb el louz food Algeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "algiers": [
+        {
+          "name": "Alger Centre",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Algiers%20Alger%20Centre%20Kalb%20el%20louz",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-algiers-mhadjeb",
+    "cityIds": [
+      "algiers"
+    ],
+    "name": "薄层面饼",
+    "nameEn": "Mhadjeb",
+    "localName": "Mhadjeb",
+    "description": "薄面皮包裹番茄洋葱馅，现煎后当早餐或小食。",
+    "article": "Mhadjeb",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mhadjeb",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mhadjeb food Algeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "algiers": [
+        {
+          "name": "Casbah",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Algiers%20Casbah%20Mhadjeb",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tripoli-libya-bazin",
+    "cityIds": [
+      "tripoli-libya"
+    ],
+    "name": "巴津大麦团",
+    "nameEn": "Bazin",
+    "localName": "Bazin",
+    "description": "大麦面团配浓汁、肉和蔬菜，通常多人分享，先问份量。",
+    "article": "Bazin (bread)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bazin_%28bread%29",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Bazin food Libya",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "tripoli-libya": [
+        {
+          "name": "Old City",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tripoli%2C%20Libya%20Old%20City%20Bazin",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tripoli-libya-mbakbaka",
+    "cityIds": [
+      "tripoli-libya"
+    ],
+    "name": "利比亚番茄意面",
+    "nameEn": "Mbakbaka",
+    "localName": "Mbakbaka",
+    "description": "意面与番茄、香料同锅煮，肉类可按店家选择。",
+    "article": "Mbakbaka",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mbakbaka",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mbakbaka food Libya",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "tripoli-libya": [
+        {
+          "name": "Central Tripoli",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tripoli%2C%20Libya%20Central%20Tripoli%20Mbakbaka",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tripoli-libya-asida",
+    "cityIds": [
+      "tripoli-libya"
+    ],
+    "name": "阿西达甜面团",
+    "nameEn": "Asida",
+    "localName": "Asida",
+    "description": "柔软面团搭配蜂蜜或糖浆，可作为小份甜点。",
+    "article": "Asida",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Asida",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Asida food Libya",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "tripoli-libya": [
+        {
+          "name": "Old City",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tripoli%2C%20Libya%20Old%20City%20Asida",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tripoli-libya-shorba",
+    "cityIds": [
+      "tripoli-libya"
+    ],
+    "name": "利比亚辣味汤",
+    "nameEn": "Shorba",
+    "localName": "Shorba",
+    "description": "以番茄和香料为底的热汤，具体肉类与谷物按店家做法变化。",
+    "article": "Chorba",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chorba",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Shorba food Libya",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "tripoli-libya": [
+        {
+          "name": "Central Tripoli",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tripoli%2C%20Libya%20Central%20Tripoli%20Shorba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-tripoli-libya-makroudh",
+    "cityIds": [
+      "tripoli-libya"
+    ],
+    "name": "椰枣粗麦甜点",
+    "nameEn": "Makroudh",
+    "localName": "Makroudh",
+    "description": "粗麦粉面皮包椰枣馅后浸糖浆，配咖啡可减少单独点大份甜食。",
+    "article": "Makroudh",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Makroudh",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Makroudh food Libya",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libyan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "tripoli-libya": [
+        {
+          "name": "Old City",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tripoli%2C%20Libya%20Old%20City%20Makroudh",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ndjamena-boule-with-sauce",
+    "cityIds": [
+      "ndjamena"
+    ],
+    "name": "杂粮团与炖汁",
+    "nameEn": "Boule with sauce",
+    "localName": "Boule with sauce",
+    "description": "小米或高粱做成主食团，与炖汁搭配食用。",
+    "article": "Chadian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Boule with sauce food Chad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ndjamena": [
+        {
+          "name": "Central N'Djamena",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=N%27Djamena%20Central%20N%27Djamena%20Boule%20with%20sauce",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ndjamena-daraba",
+    "cityIds": [
+      "ndjamena"
+    ],
+    "name": "秋葵炖菜",
+    "nameEn": "Daraba",
+    "localName": "Daraba",
+    "description": "秋葵与蔬菜组成的黏稠炖菜，可含花生，点餐时确认配方。",
+    "article": "Daraba",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Daraba",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Daraba food Chad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ndjamena": [
+        {
+          "name": "Central N'Djamena",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=N%27Djamena%20Central%20N%27Djamena%20Daraba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ndjamena-kisra",
+    "cityIds": [
+      "ndjamena"
+    ],
+    "name": "薄高粱饼",
+    "nameEn": "Kisra",
+    "localName": "Kisra",
+    "description": "发酵谷物面糊烙成薄饼，适合搭配肉汁或豆菜。",
+    "article": "Kisra",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kisra",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Kisra food Chad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ndjamena": [
+        {
+          "name": "Central N'Djamena",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=N%27Djamena%20Central%20N%27Djamena%20Kisra",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ndjamena-peanut-chicken-stew",
+    "cityIds": [
+      "ndjamena"
+    ],
+    "name": "花生炖鸡",
+    "nameEn": "Peanut chicken stew",
+    "localName": "Peanut chicken stew",
+    "description": "花生浓汁与鸡肉组合，含花生过敏原，肉量和配餐需确认。",
+    "article": "Chadian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Peanut chicken stew food Chad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ndjamena": [
+        {
+          "name": "Central N'Djamena",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=N%27Djamena%20Central%20N%27Djamena%20Peanut%20chicken%20stew",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ndjamena-karkade",
+    "cityIds": [
+      "ndjamena"
+    ],
+    "name": "洛神花饮",
+    "nameEn": "Karkade",
+    "localName": "Karkade",
+    "description": "洛神花泡制的酸甜饮品，可选热饮或密封冷饮。",
+    "article": "Hibiscus tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Karkade food Chad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chadian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ndjamena": [
+        {
+          "name": "Central N'Djamena",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=N%27Djamena%20Central%20N%27Djamena%20Karkade",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-luanda-muamba-de-galinha",
+    "cityIds": [
+      "luanda"
+    ],
+    "name": "棕榈鸡肉炖菜",
+    "nameEn": "Muamba de galinha",
+    "localName": "Muamba de galinha",
+    "description": "棕榈果酱与鸡肉组合，常配木薯主食，辣度先确认。",
+    "article": "Moambe chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moambe_chicken",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Muamba de galinha food Angola",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "luanda": [
+        {
+          "name": "Ilha de Luanda",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luanda%20Ilha%20de%20Luanda%20Muamba%20de%20galinha",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-luanda-funge",
+    "cityIds": [
+      "luanda"
+    ],
+    "name": "木薯粉团",
+    "nameEn": "Funge",
+    "localName": "Funge",
+    "description": "木薯或玉米粉做成的柔软主食，通常搭配炖鱼和浓汁。",
+    "article": "Funge",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Funge",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Funge food Angola",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "luanda": [
+        {
+          "name": "Ingombota",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luanda%20Ingombota%20Funge",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-luanda-feijao-de-oleo-de-palma",
+    "cityIds": [
+      "luanda"
+    ],
+    "name": "豆与棕榈油炖菜",
+    "nameEn": "Feijao de oleo de palma",
+    "localName": "Feijao de oleo de palma",
+    "description": "豆类加入棕榈油炖制，配主食时可作一餐中的菜品。",
+    "article": "Angolan cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Feijao de oleo de palma food Angola",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "luanda": [
+        {
+          "name": "Ingombota",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luanda%20Ingombota%20Feijao%20de%20oleo%20de%20palma",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-luanda-mufete",
+    "cityIds": [
+      "luanda"
+    ],
+    "name": "烤海鱼",
+    "nameEn": "Mufete",
+    "localName": "Mufete",
+    "description": "海鱼配豆类、木薯和香蕉等配菜，份量常适合分享。",
+    "article": "Mufete",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mufete",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mufete food Angola",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 10.0,
+      "high": 30.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "luanda": [
+        {
+          "name": "Ilha de Luanda",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luanda%20Ilha%20de%20Luanda%20Mufete",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-luanda-doce-de-banana",
+    "cityIds": [
+      "luanda"
+    ],
+    "name": "香蕉甜点",
+    "nameEn": "Doce de banana",
+    "localName": "Doce de banana",
+    "description": "香蕉烹制的甜食或烤香蕉，具体甜度与做法依菜单选择。",
+    "article": "Angolan cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Doce de banana food Angola",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angolan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "luanda": [
+        {
+          "name": "Ingombota",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luanda%20Ingombota%20Doce%20de%20banana",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bamako-tigadegena",
+    "cityIds": [
+      "bamako"
+    ],
+    "name": "花生酱炖菜",
+    "nameEn": "Tigadegena",
+    "localName": "Tigadegena",
+    "description": "花生浓汁配肉或蔬菜与米饭，含明确花生过敏原。",
+    "article": "Peanut stew",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Tigadegena food Mali",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bamako": [
+        {
+          "name": "Centre Commercial",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bamako%20Centre%20Commercial%20Tigadegena",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bamako-to",
+    "cityIds": [
+      "bamako"
+    ],
+    "name": "小米主食团",
+    "nameEn": "To",
+    "localName": "To",
+    "description": "小米或高粱粉主食配酱汁，口感与米饭不同。",
+    "article": "Tô (mets)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://fr.wikipedia.org/wiki/T%C3%B4_(mets)",
+      "scope": "related-theme"
+    },
+    "imageQuery": "To food Mali",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bamako": [
+        {
+          "name": "Centre Commercial",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bamako%20Centre%20Commercial%20To",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "articleLanguage": "fr",
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bamako-lafidi",
+    "cityIds": [
+      "bamako"
+    ],
+    "name": "米与花生菜饭",
+    "nameEn": "Lafidi",
+    "localName": "Lafidi",
+    "description": "米饭配蔬菜与花生调味的家常组合，版本因店家变化。",
+    "article": "Malian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Lafidi food Mali",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bamako": [
+        {
+          "name": "Centre Commercial",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bamako%20Centre%20Commercial%20Lafidi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bamako-degue",
+    "cityIds": [
+      "bamako"
+    ],
+    "name": "小米酸奶甜食",
+    "nameEn": "Degue",
+    "localName": "Degue",
+    "description": "小米颗粒与酸奶组成的甜食，乳制品应选择可靠冷藏来源。",
+    "article": "Thiakry",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thiakry",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Degue food Mali",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bamako": [
+        {
+          "name": "ACI 2000",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bamako%20ACI%202000%20Degue",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bamako-bissap",
+    "cityIds": [
+      "bamako"
+    ],
+    "name": "木槿花饮",
+    "nameEn": "Bissap",
+    "localName": "Bissap",
+    "description": "洛神花泡制酸甜饮料，甜度可另问。",
+    "article": "Hibiscus tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Bissap food Mali",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Malian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Malian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bamako": [
+        {
+          "name": "ACI 2000",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bamako%20ACI%202000%20Bissap",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-niamey-kilishi-and-suya",
+    "cityIds": [
+      "niamey"
+    ],
+    "name": "香料烤肉串",
+    "nameEn": "Suya",
+    "localName": "Suya",
+    "description": "肉串以香料调味后烤制，花生粉较常见，过敏者需先询问。",
+    "article": "Suya",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suya",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Suya grilled meat skewers Niger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "niamey": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niamey%20Plateau%20Kilishi%20and%20suya",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-niamey-kosai",
+    "cityIds": [
+      "niamey"
+    ],
+    "name": "豆饼",
+    "nameEn": "Kosai",
+    "localName": "Kosai",
+    "description": "豆泥炸成的小饼，适合作为早餐小食。",
+    "article": "Akara",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Akara",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Kosai food Niger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "niamey": [
+        {
+          "name": "Grand Marche",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niamey%20Grand%20Marche%20Kosai",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-niamey-hausa-koko",
+    "cityIds": [
+      "niamey"
+    ],
+    "name": "小米粥",
+    "nameEn": "Hausa koko",
+    "localName": "Hausa koko",
+    "description": "温热小米粥可作早餐，香料与糖量因店不同。",
+    "article": "Hausa koko",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hausa_koko",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Hausa koko food Niger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "niamey": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niamey%20Plateau%20Hausa%20koko",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-niamey-tuwo",
+    "cityIds": [
+      "niamey"
+    ],
+    "name": "米粉主食团",
+    "nameEn": "Tuwo shinkafa",
+    "localName": "Tuwo shinkafa",
+    "description": "米制软团搭配叶菜、肉或蔬菜汤汁，是豪萨饮食中的主食选择。",
+    "article": "Tuwo shinkafa",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tuwo_shinkafa",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Tuwo shinkafa rice food Niger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "niamey": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niamey%20Plateau%20Tuwo",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-niamey-grilled-niger-river-fish",
+    "cityIds": [
+      "niamey"
+    ],
+    "name": "尼日尔河烤鱼",
+    "nameEn": "Grilled Niger river fish",
+    "localName": "Grilled Niger river fish",
+    "description": "选充分熟制的淡水鱼，实际鱼种和份量按当天菜单确认。",
+    "article": "Nigerien cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Grilled Niger river fish food Niger",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerien_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "niamey": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niamey%20Plateau%20Grilled%20Niger%20river%20fish",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nouakchott-thieboudienne",
+    "cityIds": [
+      "nouakchott"
+    ],
+    "name": "鱼与米饭",
+    "nameEn": "Thieboudienne",
+    "localName": "Thieboudienne",
+    "description": "海鱼、蔬菜与米饭的西非沿海组合，按份询价。",
+    "article": "Thieboudienne",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thieboudienne",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Thieboudienne food Mauritania",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "nouakchott": [
+        {
+          "name": "Port de Peche",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nouakchott%20Port%20de%20Peche%20Thieboudienne",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nouakchott-mauritanian-couscous",
+    "cityIds": [
+      "nouakchott"
+    ],
+    "name": "库斯库斯",
+    "nameEn": "Mauritanian couscous",
+    "localName": "Mauritanian couscous",
+    "description": "粗麦粒配肉汁或蔬菜，传统谷物版本依店家询问。",
+    "article": "Couscous",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couscous",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mauritanian couscous food Mauritania",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "nouakchott": [
+        {
+          "name": "Tevragh Zeina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nouakchott%20Tevragh%20Zeina%20Mauritanian%20couscous",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nouakchott-maru-we-lham",
+    "cityIds": [
+      "nouakchott"
+    ],
+    "name": "炖羊肉",
+    "nameEn": "Maru we-lham",
+    "localName": "Maru we-lham",
+    "description": "羊肉与米饭组成的主食菜，适合确认份量后分享。",
+    "article": "Mauritanian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Maru we-lham food Mauritania",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "nouakchott": [
+        {
+          "name": "Tevragh Zeina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nouakchott%20Tevragh%20Zeina%20Maru%20we-lham",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-nouakchott-lakh",
+    "cityIds": [
+      "nouakchott"
+    ],
+    "name": "小米乳食",
+    "nameEn": "Lakh",
+    "localName": "Lakh",
+    "description": "谷物与乳制品的温和甜食，选择有可靠冷藏的店家。",
+    "article": "Thiakry",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thiakry",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Lakh food Mauritania",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "nouakchott": [
+        {
+          "name": "Tevragh Zeina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nouakchott%20Tevragh%20Zeina%20Lakh",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only",
+    "photoStatus": "needs-food-photo"
+  },
+  {
+    "id": "food-nouakchott-atay",
+    "cityIds": [
+      "nouakchott"
+    ],
+    "name": "薄荷绿茶",
+    "nameEn": "Atay",
+    "localName": "Atay",
+    "description": "小杯甜茶是社交的一部分，不赶着一次喝完，可按偏好问糖量。",
+    "article": "Maghrebi mint tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maghrebi_mint_tea",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Atay food Mauritania",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mauritanian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "nouakchott": [
+        {
+          "name": "Tevragh Zeina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nouakchott%20Tevragh%20Zeina%20Atay",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lagos-jollof-rice",
+    "cityIds": [
+      "lagos"
+    ],
+    "name": "乔洛夫饭",
+    "nameEn": "Jollof rice",
+    "localName": "Jollof rice",
+    "description": "番茄香料饭搭配鸡肉或鱼，辣度和配菜另问。",
+    "article": "Jollof rice",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jollof_rice",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Jollof rice food Nigeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "lagos": [
+        {
+          "name": "Victoria Island",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Victoria%20Island%20Jollof%20rice",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lagos-suya",
+    "cityIds": [
+      "lagos"
+    ],
+    "name": "苏亚烤串",
+    "nameEn": "Suya",
+    "localName": "Suya",
+    "description": "牛肉或鸡肉串撒香料和常见花生粉，按串或份计价。",
+    "article": "Suya",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Suya",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Suya food Nigeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "lagos": [
+        {
+          "name": "Victoria Island",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Victoria%20Island%20Suya",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lagos-moi-moi",
+    "cityIds": [
+      "lagos"
+    ],
+    "name": "蒸豆糕",
+    "nameEn": "Moi moi",
+    "localName": "Moi moi",
+    "description": "豆泥蒸成软糕，可能包含鱼、蛋或虾，点餐时确认。",
+    "article": "Moin moin",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moin_moin",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Moi moi food Nigeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "lagos": [
+        {
+          "name": "Lekki Phase 1",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Lekki%20Phase%201%20Moi%20moi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lagos-egusi-soup",
+    "cityIds": [
+      "lagos"
+    ],
+    "name": "瓜籽炖汤",
+    "nameEn": "Egusi soup",
+    "localName": "Egusi soup",
+    "description": "磨碎瓜籽与蔬菜、肉或鱼煮成浓汤，常配木薯主食。",
+    "article": "Egusi soup",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Egusi_soup",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Egusi soup food Nigeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "lagos": [
+        {
+          "name": "Victoria Island",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Victoria%20Island%20Egusi%20soup",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-lagos-puff-puff",
+    "cityIds": [
+      "lagos"
+    ],
+    "name": "炸面球",
+    "nameEn": "Puff puff",
+    "localName": "Puff puff",
+    "description": "发酵面团炸成的小球，适合少量现炸品尝。",
+    "article": "Puff-puff",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Puff-puff",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Puff puff food Nigeria",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nigerian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "lagos": [
+        {
+          "name": "Lagos Island",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lagos%20Lagos%20Island%20Puff%20puff",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bangui-koko-cassava-leaves",
+    "cityIds": [
+      "bangui"
+    ],
+    "name": "科科森林叶菜",
+    "nameEn": "Koko",
+    "localName": "Koko",
+    "description": "藤本买麻藤叶切细后与花生或烟熏鱼炖煮，区别于木薯叶；配主食享用。",
+    "article": "Gnetum africanum",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gnetum_africanum",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Central African Republic koko stew Gnetum",
+    "sourceUrl": "https://www.fao.org/4/XII/0671-B5.htm",
+    "sourceReferences": [
+      {
+        "name": "www.fao.org",
+        "url": "https://www.fao.org/4/XII/0671-B5.htm",
+        "kind": "primary-source",
+        "scope": "FAO确认中非等地区将Gnetum食用叶称为koko",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bangui": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bangui%20Centre%20Ville%20Koko%20cassava%20leaves",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bangui-gozo",
+    "cityIds": [
+      "bangui"
+    ],
+    "name": "木薯主食团",
+    "nameEn": "Gozo",
+    "localName": "Gozo",
+    "description": "木薯粉做成主食，与浓汁和熟制鱼搭配。",
+    "article": "Fufu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fufu",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Gozo food Central African Republic",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bangui": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bangui%20Centre%20Ville%20Gozo",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bangui-poulet-moambe",
+    "cityIds": [
+      "bangui"
+    ],
+    "name": "棕榈酱鸡肉",
+    "nameEn": "Poulet moambe",
+    "localName": "Poulet moambe",
+    "description": "棕榈果酱鸡肉炖菜，部分做法含花生，过敏者先问。",
+    "article": "Moambe chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moambe_chicken",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poulet moambe food Central African Republic",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bangui": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bangui%20Centre%20Ville%20Poulet%20moambe",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bangui-grilled-plantain",
+    "cityIds": [
+      "bangui"
+    ],
+    "name": "烤大蕉",
+    "nameEn": "Grilled plantain",
+    "localName": "Grilled plantain",
+    "description": "大蕉切片烤制或煎炸，可作配菜或小食。",
+    "article": "Cooking banana",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cooking_banana",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Grilled plantain food Central African Republic",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bangui": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bangui%20Centre%20Ville%20Grilled%20plantain",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-bangui-grilled-ubangi-fish",
+    "cityIds": [
+      "bangui"
+    ],
+    "name": "乌班吉河烤鱼",
+    "nameEn": "Grilled Ubangi fish",
+    "localName": "Grilled Ubangi fish",
+    "description": "按当日鱼种选择熟制河鱼，确认是否按重量和另收加工费。",
+    "article": "Central African Republic cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Grilled Ubangi fish food Central African Republic",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Central_African_Republic_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "bangui": [
+        {
+          "name": "Riverside",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bangui%20Riverside%20Grilled%20Ubangi%20fish",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-yaounde-ndole",
+    "cityIds": [
+      "yaounde"
+    ],
+    "name": "苦叶花生炖菜",
+    "nameEn": "Ndole",
+    "localName": "Ndole",
+    "description": "苦叶、花生与肉或虾组成浓香炖菜，过敏原较多需问清。",
+    "article": "Ndolé",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ndol%C3%A9",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Ndole food Cameroon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "yaounde": [
+        {
+          "name": "Bastos",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yaound%C3%A9%20Bastos%20Ndole",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-yaounde-bobolo",
+    "cityIds": [
+      "yaounde"
+    ],
+    "name": "发酵木薯卷",
+    "nameEn": "Bobolo",
+    "localName": "Bobolo",
+    "description": "叶片包裹的发酵木薯主食，常配烤鱼或酱菜。",
+    "article": "Bobolo",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bobolo",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Bobolo food Cameroon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "yaounde": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yaound%C3%A9%20Centre%20Ville%20Bobolo",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-yaounde-ndomba",
+    "cityIds": [
+      "yaounde"
+    ],
+    "name": "香蕉叶包鱼",
+    "nameEn": "Ndomba",
+    "localName": "Ndomba",
+    "description": "鱼和调味料包入叶片蒸煮，适合搭配木薯主食。",
+    "article": "Ndomba",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ndomba",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Ndomba food Cameroon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "yaounde": [
+        {
+          "name": "Bastos",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yaound%C3%A9%20Bastos%20Ndomba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-yaounde-poisson-braise",
+    "cityIds": [
+      "yaounde"
+    ],
+    "name": "烤鱼与辣酱",
+    "nameEn": "Poisson braise",
+    "localName": "Poisson braise",
+    "description": "现烤鱼常配洋葱与辣酱，按重量或份量先问价。",
+    "article": "Cameroonian cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poisson braise food Cameroon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 20.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "yaounde": [
+        {
+          "name": "Bastos",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yaound%C3%A9%20Bastos%20Poisson%20braise",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-yaounde-koki",
+    "cityIds": [
+      "yaounde"
+    ],
+    "name": "豆泥叶包",
+    "nameEn": "Koki",
+    "localName": "Koki",
+    "description": "豆泥与棕榈油叶包蒸制，并非所有做法都用花生，原料请按菜单确认。",
+    "article": "Koki (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Koki_%28food%29",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Koki food Cameroon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cameroonian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "yaounde": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yaound%C3%A9%20Centre%20Ville%20Koki",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-brazzaville-saka-saka",
+    "cityIds": [
+      "brazzaville"
+    ],
+    "name": "木薯叶炖菜",
+    "nameEn": "Saka saka",
+    "localName": "Saka saka",
+    "description": "木薯叶充分熟制后搭配鱼与主食，花生和棕榈油配方先问。",
+    "article": "Pondu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pondu",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Saka saka food Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "brazzaville": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brazzaville%20Centre%20Ville%20Saka%20saka",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-brazzaville-chikwangue",
+    "cityIds": [
+      "brazzaville"
+    ],
+    "name": "叶包木薯",
+    "nameEn": "Chikwangue",
+    "localName": "Chikwangue",
+    "description": "叶片包裹的木薯主食，适合配烤鱼或浓汁。",
+    "article": "Chikwangue",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chikwangue",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Chikwangue food Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "brazzaville": [
+        {
+          "name": "Poto Poto",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brazzaville%20Poto%20Poto%20Chikwangue",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-brazzaville-liboke",
+    "cityIds": [
+      "brazzaville"
+    ],
+    "name": "纸包鱼",
+    "nameEn": "Liboke",
+    "localName": "Liboke",
+    "description": "鱼和香料以叶片包裹蒸烤，确认鱼种和份量。",
+    "article": "Liboké",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Libok%C3%A9",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Liboke food Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "brazzaville": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brazzaville%20Centre%20Ville%20Liboke",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-brazzaville-poulet-moambe",
+    "cityIds": [
+      "brazzaville"
+    ],
+    "name": "棕榈鸡肉",
+    "nameEn": "Poulet moambe",
+    "localName": "Poulet moambe",
+    "description": "鸡肉配棕榈果酱炖煮，花生版本需额外留意过敏原。",
+    "article": "Moambe chicken",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moambe_chicken",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poulet moambe food Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "brazzaville": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brazzaville%20Centre%20Ville%20Poulet%20moambe",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-brazzaville-brochettes-congolaises",
+    "cityIds": [
+      "brazzaville"
+    ],
+    "name": "刚果烤肉串",
+    "nameEn": "Brochettes congolaises",
+    "localName": "Brochettes congolaises",
+    "description": "牛肉或羊肉串配洋葱和辣酱，优先选择现场充分烹熟的店家。",
+    "article": "Congolese cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Brochettes congolaises food Republic of the Congo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Congolese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "brazzaville": [
+        {
+          "name": "Poto Poto",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Brazzaville%20Poto%20Poto%20Brochettes%20congolaises",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-abidjan-attieke",
+    "cityIds": [
+      "abidjan"
+    ],
+    "name": "阿切凯木薯粒",
+    "nameEn": "Attieke",
+    "localName": "Attieke",
+    "description": "发酵木薯蒸成松散颗粒，常配烤鱼、洋葱和辣椒。",
+    "article": "Attiéké",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Atti%C3%A9k%C3%A9",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Attieke food Côte d’Ivoire",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "abidjan": [
+        {
+          "name": "Marcory",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Abidjan%20Marcory%20Attieke",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-abidjan-garba",
+    "cityIds": [
+      "abidjan"
+    ],
+    "name": "加尔巴鱼饭",
+    "nameEn": "Garba",
+    "localName": "Garba",
+    "description": "炸鱼与阿切凯的街头组合，选择现做熟食并问清鱼份量。",
+    "article": "Garba (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Garba_%28food%29",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Garba food Côte d’Ivoire",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "abidjan": [
+        {
+          "name": "Treichville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Abidjan%20Treichville%20Garba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-abidjan-alloco",
+    "cityIds": [
+      "abidjan"
+    ],
+    "name": "阿洛科炸大蕉",
+    "nameEn": "Alloco",
+    "localName": "Alloco",
+    "description": "成熟大蕉炸至金黄，可作配菜或小食。",
+    "article": "Alloco",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alloco",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Alloco food Côte d’Ivoire",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "abidjan": [
+        {
+          "name": "Marcory",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Abidjan%20Marcory%20Alloco",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-abidjan-sauce-arachide",
+    "cityIds": [
+      "abidjan"
+    ],
+    "name": "花生酱炖菜",
+    "nameEn": "Sauce arachide",
+    "localName": "Sauce arachide",
+    "description": "花生浓汁搭配肉和米饭，食物过敏者需明确避开。",
+    "article": "Peanut stew",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Sauce arachide food Côte d’Ivoire",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "abidjan": [
+        {
+          "name": "Cocody",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Abidjan%20Cocody%20Sauce%20arachide",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-abidjan-foutou-banane",
+    "cityIds": [
+      "abidjan"
+    ],
+    "name": "菲图主食团",
+    "nameEn": "Foutou banane",
+    "localName": "Foutou banane",
+    "description": "大蕉与木薯捣成紧实主食，适合蘸炖汁。",
+    "article": "Fufu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fufu",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Foutou banane food Côte d’Ivoire",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivorian_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "abidjan": [
+        {
+          "name": "Marcory",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Abidjan%20Marcory%20Foutou%20banane",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ouagadougou-to",
+    "cityIds": [
+      "ouagadougou"
+    ],
+    "name": "托杂粮团",
+    "nameEn": "To",
+    "localName": "To",
+    "description": "玉米、小米或高粱做成主食团，通常配叶菜汤汁。",
+    "article": "Tô (mets)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://fr.wikipedia.org/wiki/T%C3%B4_(mets)",
+      "scope": "related-theme"
+    },
+    "imageQuery": "To food Burkina Faso",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ouagadougou": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ouagadougou%20Centre%20Ville%20To",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "articleLanguage": "fr",
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ouagadougou-bissap",
+    "cityIds": [
+      "ouagadougou"
+    ],
+    "name": "比萨普饮",
+    "nameEn": "Bissap",
+    "localName": "Bissap",
+    "description": "木槿花饮料带酸味，选择可靠饮用水和密封或现煮版本。",
+    "article": "Hibiscus tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hibiscus_tea",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Bissap food Burkina Faso",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ouagadougou": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ouagadougou%20Centre%20Ville%20Bissap",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ouagadougou-riz-gras",
+    "cityIds": [
+      "ouagadougou"
+    ],
+    "name": "里兹格拉斯香饭",
+    "nameEn": "Riz gras",
+    "localName": "Riz gras",
+    "description": "米饭与番茄、蔬菜和肉同锅烹制，可作为完整一餐。",
+    "article": "Riz gras",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Riz_gras",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Riz gras food Burkina Faso",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ouagadougou": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ouagadougou%20Centre%20Ville%20Riz%20gras",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ouagadougou-babenda",
+    "cityIds": [
+      "ouagadougou"
+    ],
+    "name": "巴本达杂粮叶菜",
+    "nameEn": "Babenda",
+    "localName": "Babenda",
+    "description": "叶菜、谷物与花生的家常组合，口感厚实。",
+    "article": "Babenda",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Babenda",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Babenda food Burkina Faso",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ouagadougou": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ouagadougou%20Centre%20Ville%20Babenda",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-ouagadougou-poulet-bicyclette",
+    "cityIds": [
+      "ouagadougou"
+    ],
+    "name": "自行车鸡烤鸡",
+    "nameEn": "Poulet bicyclette",
+    "localName": "Poulet bicyclette",
+    "description": "本地土鸡烤制，肉质紧实；名称是料理俗称而非具体商户。",
+    "article": "Burkinabe cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poulet bicyclette food Burkina Faso",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Burkinabe_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "ouagadougou": [
+        {
+          "name": "Ouaga 2000",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ouagadougou%20Ouaga%202000%20Poulet%20bicyclette",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-libreville-poulet-nyembwe",
+    "cityIds": [
+      "libreville"
+    ],
+    "name": "尼扬布韦鸡",
+    "nameEn": "Poulet nyembwe",
+    "localName": "Poulet nyembwe",
+    "description": "鸡肉与棕榈果酱炖煮，通常配木薯或米饭。",
+    "article": "Poulet nyembwe",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Poulet_nyembwe",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poulet nyembwe food Gabon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 22.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "libreville": [
+        {
+          "name": "Centre Ville",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Libreville%20Centre%20Ville%20Poulet%20nyembwe",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-libreville-feuilles-de-manioc",
+    "cityIds": [
+      "libreville"
+    ],
+    "name": "木薯叶炖菜",
+    "nameEn": "Feuilles de manioc",
+    "localName": "Feuilles de manioc",
+    "description": "木薯叶充分熟制，调味可能含花生和烟熏鱼。",
+    "article": "Pondu",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pondu",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Feuilles de manioc food Gabon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "libreville": [
+        {
+          "name": "Louis",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Libreville%20Louis%20Feuilles%20de%20manioc",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-libreville-batons-de-manioc",
+    "cityIds": [
+      "libreville"
+    ],
+    "name": "叶包木薯",
+    "nameEn": "Batons de manioc",
+    "localName": "Batons de manioc",
+    "description": "发酵木薯蒸成条状，是配鱼或浓汁的主食。",
+    "article": "Chikwangue",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chikwangue",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Batons de manioc food Gabon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "libreville": [
+        {
+          "name": "Louis",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Libreville%20Louis%20Batons%20de%20manioc",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-libreville-poisson-braise",
+    "cityIds": [
+      "libreville"
+    ],
+    "name": "烤海鱼",
+    "nameEn": "Poisson braise",
+    "localName": "Poisson braise",
+    "description": "按当天鱼种和重量选择，辣酱与配菜单独询问。",
+    "article": "Gabonese cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poisson braise food Gabon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 25.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "libreville": [
+        {
+          "name": "Waterfront",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Libreville%20Waterfront%20Poisson%20braise",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-libreville-atanga",
+    "cityIds": [
+      "libreville"
+    ],
+    "name": "阿坦加果",
+    "nameEn": "Atanga",
+    "localName": "Atanga",
+    "description": "季节性非洲梨常加热后食用，带油润酸味，供应依季节。",
+    "article": "Dacryodes edulis",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dacryodes_edulis",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Atanga food Gabon",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gabonese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "libreville": [
+        {
+          "name": "Mont Bouet",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Libreville%20Mont%20Bouet%20Atanga",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-conakry-lafidi",
+    "cityIds": [
+      "conakry"
+    ],
+    "name": "拉菲迪蔬菜饭",
+    "nameEn": "Lafidi",
+    "localName": "Lafidi",
+    "description": "米饭配蔬菜和棕榈油等调味，店家版本和份量可能不同。",
+    "article": "Lafidi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lafidi",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Lafidi food Guinea",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 9.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "conakry": [
+        {
+          "name": "Kaloum",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Conakry%20Kaloum%20Lafidi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-conakry-mafe",
+    "cityIds": [
+      "conakry"
+    ],
+    "name": "花生炖菜",
+    "nameEn": "Mafe",
+    "localName": "Mafe",
+    "description": "花生浓汁搭配米饭与肉或蔬菜，含明确过敏原。",
+    "article": "Peanut stew",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mafe food Guinea",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "conakry": [
+        {
+          "name": "Kaloum",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Conakry%20Kaloum%20Mafe",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-conakry-sauce-feuilles",
+    "cityIds": [
+      "conakry"
+    ],
+    "name": "木薯叶炖菜",
+    "nameEn": "Sauce feuilles",
+    "localName": "Sauce feuilles",
+    "description": "叶菜与鱼或肉同煮，木薯叶须充分熟制。",
+    "article": "Guinean cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Sauce feuilles food Guinea",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "conakry": [
+        {
+          "name": "Camayenne",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Conakry%20Camayenne%20Sauce%20feuilles",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-conakry-fonio",
+    "cityIds": [
+      "conakry"
+    ],
+    "name": "丰尼奥杂粮",
+    "nameEn": "Fonio",
+    "localName": "Fonio",
+    "description": "细小谷物可蒸制搭配酱汁，供应与做法以店家菜单为准。",
+    "article": "Fonio",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fonio",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Fonio food Guinea",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 10.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "conakry": [
+        {
+          "name": "Kaloum",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Conakry%20Kaloum%20Fonio",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-conakry-ginger-juice",
+    "cityIds": [
+      "conakry"
+    ],
+    "name": "姜汁饮",
+    "nameEn": "Ginger juice",
+    "localName": "Ginger juice",
+    "description": "姜的辛香与糖和柠檬组合，选择现煮或密封饮品。",
+    "article": "Guinean cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Ginger juice food Guinea",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guinean_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "conakry": [
+        {
+          "name": "Kaloum",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Conakry%20Kaloum%20Ginger%20juice",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakar-thieboudienne",
+    "cityIds": [
+      "dakar"
+    ],
+    "name": "塞内加尔鱼饭",
+    "nameEn": "Thieboudienne",
+    "localName": "Thieboudienne",
+    "description": "鱼、蔬菜与米饭同锅烹制，红白做法和辣酱可以先问。",
+    "article": "Thieboudienne",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thieboudienne",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Thieboudienne food Senegal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 14.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakar": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakar%20Plateau%20Thieboudienne",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakar-yassa-poulet",
+    "cityIds": [
+      "dakar"
+    ],
+    "name": "洋葱柠檬鸡",
+    "nameEn": "Yassa poulet",
+    "localName": "Yassa poulet",
+    "description": "鸡肉与大量洋葱、柠檬调味，常配白米饭。",
+    "article": "Yassa (food)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yassa_%28food%29",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Yassa poulet food Senegal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 5.0,
+      "high": 15.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakar": [
+        {
+          "name": "Medina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakar%20Medina%20Yassa%20poulet",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakar-mafe",
+    "cityIds": [
+      "dakar"
+    ],
+    "name": "花生炖菜",
+    "nameEn": "Mafe",
+    "localName": "Mafe",
+    "description": "花生浓汁配肉或蔬菜，是完整正餐中的主菜。",
+    "article": "Peanut stew",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peanut_stew",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Mafe food Senegal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakar": [
+        {
+          "name": "Plateau",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakar%20Plateau%20Mafe",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakar-cafe-touba",
+    "cityIds": [
+      "dakar"
+    ],
+    "name": "咖啡图巴",
+    "nameEn": "Cafe Touba",
+    "localName": "Cafe Touba",
+    "description": "咖啡以几内亚胡椒等香料调味，香气强烈，含咖啡因。",
+    "article": "Café Touba",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Caf%C3%A9_Touba",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Cafe Touba food Senegal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakar": [
+        {
+          "name": "Medina",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakar%20Medina%20Cafe%20Touba",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakar-thiakry",
+    "cityIds": [
+      "dakar"
+    ],
+    "name": "小米酸奶甜食",
+    "nameEn": "Thiakry",
+    "localName": "Thiakry",
+    "description": "小米颗粒和乳制品混合的甜食，份量通常适合餐后。",
+    "article": "Thiakry",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Thiakry",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Thiakry food Senegal",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 6.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Senegalese_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakar": [
+        {
+          "name": "Almadies",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakar%20Almadies%20Thiakry",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-cotonou-akassa",
+    "cityIds": [
+      "cotonou"
+    ],
+    "name": "玉米发酵团",
+    "nameEn": "Akassa",
+    "localName": "Akassa",
+    "description": "发酵玉米做成柔软主食，常与鱼和酱汁搭配。",
+    "article": "Akassa (pâte)",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://fr.wikipedia.org/wiki/Akassa_%28p%C3%A2te%29",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Akassa food Benin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benin_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Akassa_%28p%C3%A2te%29",
+        "kind": "reference",
+        "scope": "菜品名称、原料与贝宁饮食背景",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 4.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "cotonou": [
+        {
+          "name": "Haie Vive",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cotonou%20Haie%20Vive%20Akassa",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "articleLanguage": "fr",
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-cotonou-atassi",
+    "cityIds": [
+      "cotonou"
+    ],
+    "name": "豆与米饭",
+    "nameEn": "Atassi",
+    "localName": "Atassi",
+    "description": "豆与米饭的组合，常搭配煎炸配菜，具体版本以菜单为准。",
+    "article": "Atassi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://fr.wikipedia.org/wiki/Atassi",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Atassi food Benin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benin_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "fr.wikipedia.org",
+        "url": "https://fr.wikipedia.org/wiki/Atassi",
+        "kind": "reference",
+        "scope": "菜品名称、原料与贝宁饮食背景",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 3.0,
+      "high": 8.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "cotonou": [
+        {
+          "name": "Dantokpa",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cotonou%20Dantokpa%20Atassi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "articleLanguage": "fr",
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-cotonou-wagasi",
+    "cityIds": [
+      "cotonou"
+    ],
+    "name": "烤奶酪",
+    "nameEn": "Wagasi",
+    "localName": "Wagasi",
+    "description": "西非奶酪可煎烤或入菜，含乳制品过敏原。",
+    "article": "Wagasi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wagasi",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Wagasi food Benin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benin_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 2.0,
+      "high": 7.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "cotonou": [
+        {
+          "name": "Haie Vive",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cotonou%20Haie%20Vive%20Wagasi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-cotonou-gboma-dessi",
+    "cityIds": [
+      "cotonou"
+    ],
+    "name": "叶菜炖汁",
+    "nameEn": "Gboma dessi",
+    "localName": "Gboma dessi",
+    "description": "叶菜与肉或鱼组成浓汁，搭配玉米或木薯主食。",
+    "article": "Gboma dessi",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gboma_dessi",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Gboma dessi food Benin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benin_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 4.0,
+      "high": 12.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "cotonou": [
+        {
+          "name": "Haie Vive",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cotonou%20Haie%20Vive%20Gboma%20dessi",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-cotonou-poisson-braise-beninois",
+    "cityIds": [
+      "cotonou"
+    ],
+    "name": "烤鱼与辣椒酱",
+    "nameEn": "Poisson braise beninois",
+    "localName": "Poisson braise beninois",
+    "description": "熟制海鱼配辣椒调味，按鱼大小询价并确认配菜。",
+    "article": "Benin cuisine",
+    "articleScope": "regional-cuisine",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Poisson braise beninois food Benin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Benin_cuisine",
+        "kind": "reference",
+        "scope": "区域饮食文化背景；非商家当日菜单",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 18.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Benin_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "cotonou": [
+        {
+          "name": "Fidjrosse",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Cotonou%20Fidjrosse%20Poisson%20braise%20beninois",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakhla-dakhla-oysters",
+    "cityIds": [
+      "dakhla"
+    ],
+    "name": "达赫拉牡蛎",
+    "nameEn": "Dakhla oysters",
+    "localName": "Dakhla oysters",
+    "description": "海湾养殖牡蛎可按只或拼盘点选，熟制和生食版本分别确认，偏好熟制可直接说明。",
+    "article": "Oyster",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Oyster",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Dakhla oysters food Western Sahara",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+        "kind": "reference",
+        "scope": "西撒哈拉区域饮食背景",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "www.secretflying.com",
+        "url": "https://www.secretflying.com/guides/dakhla-western-sahara/food/",
+        "kind": "reference",
+        "scope": "达赫拉餐饮类型参考；非菜单或报价",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 25.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakhla": [
+        {
+          "name": "Lagoon restaurants",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Lagoon%20restaurants%20Dakhla%20oysters",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakhla-grilled-atlantic-fish",
+    "cityIds": [
+      "dakhla"
+    ],
+    "name": "炭烤海鱼",
+    "nameEn": "Grilled Atlantic fish",
+    "localName": "Grilled Atlantic fish",
+    "description": "海鱼按当天供应与重量选择，烤制后配面包或蔬菜。",
+    "article": "Fish as food",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fish_as_food",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Grilled Atlantic fish food Western Sahara",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+        "kind": "reference",
+        "scope": "西撒哈拉区域饮食背景",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "www.secretflying.com",
+        "url": "https://www.secretflying.com/guides/dakhla-western-sahara/food/",
+        "kind": "reference",
+        "scope": "达赫拉餐饮类型参考；非菜单或报价",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 8.0,
+      "high": 22.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakhla": [
+        {
+          "name": "Dakhla Corniche",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakhla%20Dakhla%20Corniche%20Grilled%20Atlantic%20fish",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakhla-fish-tagine",
+    "cityIds": [
+      "dakhla"
+    ],
+    "name": "鱼肉塔吉锅",
+    "nameEn": "Fish tagine",
+    "localName": "Fish tagine",
+    "description": "鱼和蔬菜在陶锅中慢煮，香料、橄榄和柠檬用量依店家做法。",
+    "article": "Tajine",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tajine",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Fish tagine food Western Sahara",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+        "kind": "reference",
+        "scope": "西撒哈拉区域饮食背景",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "www.secretflying.com",
+        "url": "https://www.secretflying.com/guides/dakhla-western-sahara/food/",
+        "kind": "reference",
+        "scope": "达赫拉餐饮类型参考；非菜单或报价",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 7.0,
+      "high": 20.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakhla": [
+        {
+          "name": "City centre",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakhla%20City%20centre%20Fish%20tagine",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only",
+    "photoStatus": "needs-food-photo"
+  },
+  {
+    "id": "food-dakhla-sahrawi-tea",
+    "cityIds": [
+      "dakhla"
+    ],
+    "name": "撒哈拉薄荷茶",
+    "nameEn": "Sahrawi tea",
+    "localName": "Sahrawi tea",
+    "description": "小杯甜茶分轮奉上，是社交而非赶时间的饮品。",
+    "article": "Maghrebi mint tea",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maghrebi_mint_tea",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Sahrawi tea food Western Sahara",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+        "kind": "reference",
+        "scope": "西撒哈拉区域饮食背景",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "www.secretflying.com",
+        "url": "https://www.secretflying.com/guides/dakhla-western-sahara/food/",
+        "kind": "reference",
+        "scope": "达赫拉餐饮类型参考；非菜单或报价",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 1.0,
+      "high": 5.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakhla": [
+        {
+          "name": "City centre",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakhla%20City%20centre%20Sahrawi%20tea",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "imagePolicy": "photograph-only"
+  },
+  {
+    "id": "food-dakhla-sahrawi-couscous",
+    "cityIds": [
+      "dakhla"
+    ],
+    "name": "库斯库斯",
+    "nameEn": "Sahrawi couscous",
+    "localName": "Sahrawi couscous",
+    "description": "麦粒配肉、蔬菜或鱼的地方餐桌选择，餐馆具体供应日先询问。",
+    "article": "Couscous",
+    "articleScope": "dish",
+    "image": {
+      "url": "",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Couscous",
+      "scope": "related-theme"
+    },
+    "imageQuery": "Sahrawi couscous food Western Sahara",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+    "sourceReferences": [
+      {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+        "kind": "reference",
+        "scope": "西撒哈拉区域饮食背景",
+        "checkedAt": "2026-10-16"
+      },
+      {
+        "name": "www.secretflying.com",
+        "url": "https://www.secretflying.com/guides/dakhla-western-sahara/food/",
+        "kind": "reference",
+        "scope": "达赫拉餐饮类型参考；非菜单或报价",
+        "checkedAt": "2026-10-16"
+      }
+    ],
+    "sourceCheckedAt": null,
+    "sourceStatus": "reference",
+    "sourceScope": "regional-food-context",
+    "catalogOrigin": "maintained-definition",
+    "price": {
+      "low": 6.0,
+      "high": 16.0,
+      "currency": "USD",
+      "type": "estimate",
+      "unit": "serving",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Western_Saharan_cuisine",
+      "checkedAt": null,
+      "note": "美元编辑预算预留，非当地币种或实时商家报价；实际日期、人数、税费及服务范围另核。"
+    },
+    "servingNote": "按一份或一杯预算；作为当日餐饮选择，避免与每日饮食预算重复累加。",
+    "whereByCity": {
+      "dakhla": [
+        {
+          "name": "City centre",
+          "kind": "area",
+          "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dakhla%20City%20centre%20Sahrawi%20couscous",
+          "note": "寻味区域入口；具体店铺、食材和在售菜单需当日确认。"
+        }
+      ]
+    },
+    "photoStatus": "needs-food-photo",
+    "imagePolicy": "photograph-only"
+  }
+]

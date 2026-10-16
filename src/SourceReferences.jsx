@@ -23,7 +23,7 @@ export default function SourceReferences({ references, excludeUrls = [] }) {
         {sources.map((source) => (
           <li key={source.url}>
             <a href={source.url} target="_blank" rel="noopener noreferrer"
-              title={/^\d{4}-\d{2}-\d{2}/.test(source.checkedAt || "") ? `查阅于 ${source.checkedAt.slice(0, 10)}` : undefined}>
+              title={source.verificationStatus === 'unverified' ? '资料与查询入口，尚未逐项核验' : /^\d{4}-\d{2}-\d{2}/.test(source.checkedAt || "") ? `查阅于 ${source.checkedAt.slice(0, 10)}` : undefined}>
               <span>{source.name}</span><ArrowUpRight size={13} aria-hidden="true" />
             </a>
           </li>

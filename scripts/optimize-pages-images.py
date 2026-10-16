@@ -3,7 +3,7 @@
 Only files inside dist-pages/images may be replaced. public/images and the
 lossless local archive are deliberately outside this script's writable scope.
 The file format and name stay the same; PNG stays lossless, animation is kept,
-and dimensions only change above 1600 px (apart from applying EXIF orientation).
+and dimensions only change above 1280 px (apart from applying EXIF orientation).
 """
 from concurrent.futures import ThreadPoolExecutor
 from io import BytesIO
@@ -25,9 +25,9 @@ except ImportError as exc:
 PROJECT = Path(__file__).resolve().parents[1]
 SITE = PROJECT / "dist-pages"
 IMAGES = SITE / "images"
-MIN_BYTES = 100_000
-MAX_SIDE = 1600
-QUALITY = 82
+MIN_BYTES = 50_000
+MAX_SIDE = 1280
+QUALITY = 78
 TARGET_SITE_BYTES = 950_000_000
 SUPPORTED_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
 

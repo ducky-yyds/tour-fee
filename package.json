@@ -25,6 +25,7 @@
     "check:sources": "node scripts/check-source-health.mjs",
     "audit:experiences": "node scripts/audit-experiences.mjs",
     "audit:catalog": "node scripts/audit-catalog.mjs",
+    "audit:countries": "node scripts/audit-country-coverage.mjs",
     "import:destinations": "node scripts/import-expansion.mjs --refresh",
     "update:images": "node scripts/fetch-images.mjs",
     "complete:images": "python scripts/complete-media.py",

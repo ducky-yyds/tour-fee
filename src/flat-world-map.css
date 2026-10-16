@@ -39,11 +39,13 @@
 .fwm-compass span { font-size: 9px; line-height: 1; }
 .fwm-ocean { stroke: #bfd6cb; stroke-width: 1; vector-effect: non-scaling-stroke; }
 .fwm-graticule { fill: none; stroke: #8eb8aa; stroke-width: .65; stroke-opacity: .31; vector-effect: non-scaling-stroke; }
-.fwm-country { fill: #eeeee0; stroke: #b4c8b9; stroke-width: .6; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+/* Native SVG focus outlines span the bounding box of every land fragment,
+   including both map edges. Use the geographic stroke for keyboard focus. */
+.fwm-country { fill: #eeeee0; stroke: #b4c8b9; stroke-width: .6; vector-effect: non-scaling-stroke; stroke-linejoin: round; outline: none; }
 .fwm-country.is-available { fill: #90b49a; stroke: #e5eddc; stroke-width: .7; cursor: pointer; transition: fill 160ms ease; }
 .fwm-country.is-available.is-hovered { fill: #658c72; }
 .fwm-country.is-available.is-selected { fill: #2e6652; stroke: #f3ead0; stroke-width: 1.3; }
-.fwm-country:focus-visible { outline: none; stroke: #233e32; stroke-width: 2; fill: #668c72; }
+.fwm-country.is-available:focus-visible { stroke: #233e32; stroke-width: 2; fill: #668c72; }
 .fwm-pin { cursor: pointer; outline: none; }
 .fwm-pin-hit { fill: transparent; }
 .fwm-pin-leader { stroke: #547967; stroke-width: 1; pointer-events: none; }
